@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-0ca64c3" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">023d9b6b4b3b58dba89ce130c4f1e984d7835171</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">partialdocset1\Microsoft.Build.Construction.ProjectRootElement.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">partialdocset1</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8c0158edd1a13993bae68ab50aac92425e5e4659</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7da37739e9850c93f5d6a06158015411fe31052a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an MSBuild project, a targets file, or any other file that conforms to MSBuild project file schema.</source>
+          <target state="translated">MSBuild 專案檔案結構描述代表 MSBuild 專案中，目標檔案或任何其他符合的檔案。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class and its related classes allow a complete MSBuild project or targets file to be read and written.</source>
+          <target state="translated">這個類別及其相關的類別允許完整 MSBuild 專案檔或 targets 檔可以讀取和寫入。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Comments and white space cannot be edited through this model at present.</source>
+          <target state="translated">註解和空格無法透過此模型的編輯。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Each project root element is associated with exactly one project collection.</source>
+          <target state="translated">每個專案的根項目是一個專案集合相關聯。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This allows the owner of that project collection to control its lifetime and not be surprised by edits that come from another project collection.</source>
+          <target state="translated">這可讓該專案集合的擁有者，來控制其存留期，並不會很訝異來自另一個專案集合的編輯。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Adds a project import to this project.</source>
+          <target state="translated">將專案匯入加入至這個專案。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If import groups exist, inserts the project import into the last import group that has no Condition attribute; otherwise, creates an import at the end of the project.</source>
+          <target state="translated">如果匯入群組存在，將專案匯入插入的最後一個匯入群組沒有條件屬性。否則，請建立匯入專案的結尾。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The project to be imported.</source>
+          <target state="translated">要匯入專案。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Returns the added project import.</source>
+          <target state="translated">傳回加入的專案匯入。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Creates an import group at the end of this project.</source>
+          <target state="translated">建立匯入群組，此專案的結尾。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This convenience method picks a location in the MSBuild DOM based on a heuristic.</source>
+          <target state="translated">這個便利的方法會根據啟發學習法 MSBuild DOM 中的位置。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Returns the import group created at the end of this project.</source>
+          <target state="translated">傳回建立此專案結尾處的匯入群組。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Adds an item to this project.</source>
+          <target state="translated">此專案中加入項目。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Creates an item, then adds it to an item group with no Condition attribute and at least one item of same item type.</source>
+          <target state="translated">建立項目，然後加入沒有條件屬性與項目群組，和至少一個項目相同的項目類型。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If no such item group is found, creates a new item group and adds the item to it.</source>
+          <target state="translated">如果找到這類的項目群組，則會建立新的項目群組，並新增項目。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Items are ordered by Include values.</source>
+          <target state="translated">所包含的值來排序項目。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Does nothing if the item matches an existing wildcard expression for this item type.</source>
+          <target state="translated">如果項目符合現有的萬用字元運算式，這個項目類型，請就沒有作用。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The item type of the item to be added.</source>
+          <target state="translated">要加入之項目的項目類型。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The Include value of the item to be added.</source>
+          <target state="translated">包含要加入之項目的值。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns the added item.</source>
+          <target state="translated">傳回新增的項目。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Adds an item with metadata to this project.</source>
+          <target state="translated">將中繼資料的項目加入至這個專案。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Creates an item, then adds it to an item group with no Condition attribute and at least one item of same item type.</source>
+          <target state="translated">建立項目，然後加入沒有條件屬性與項目群組，和至少一個項目相同的項目類型。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If no such item group is found, creates a new item group and adds the item to it.</source>
+          <target state="translated">如果找到這類的項目群組，則會建立新的項目群組，並新增項目。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Items are ordered by Include values.</source>
+          <target state="translated">所包含的值來排序項目。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The item type of the item to be added.</source>
+          <target state="translated">要加入之項目的項目類型。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Include value of the item to be added.</source>
+          <target state="translated">包含要加入之項目的值。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The metadata to be added.</source>
+          <target state="translated">要加入的中繼資料。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns the added item.</source>
+          <target state="translated">傳回新增的項目。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Adds an item definition to this project.</source>
+          <target state="translated">將項目定義加入至這個專案。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Creates an item, then adds it to an item group with no Condition attribute and at least one item of same item type.</source>
+          <target state="translated">建立項目，然後加入沒有條件屬性與項目群組，和至少一個項目相同的項目類型。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If no such item group is found, creates a new item group and adds the item to it.</source>
+          <target state="translated">如果找到這類的項目群組，則會建立新的項目群組，並新增項目。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Items are ordered by Include values.</source>
+          <target state="translated">所包含的值來排序項目。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The item type of the item definition to be added.</source>
+          <target state="translated">要加入的項目定義項目類型。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns the added item definition.</source>
+          <target state="translated">傳回新增的項目定義。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Adds an item definition group to this project.</source>
+          <target state="translated">將項目定義群組加入至這個專案。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Creates and adds an item definition group after the last existing item definition group, if any.</source>
+          <target state="translated">建立並將項目定義群組的最後一個現有的項目定義群組之後，如果有的話。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Otherwise, creates an item definition group after the last existing property group, if any.</source>
+          <target state="translated">否則，如果有的話，請最後一個現有的屬性群組之後, 建立項目定義群組。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If no property group exists, creates a new item definition group at the end of the project.</source>
+          <target state="translated">如果沒有任何屬性群組，會建立新的項目定義群組結尾的專案。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Returns the added item definition group.</source>
+          <target state="translated">傳回新增的項目定義群組。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Creates and adds an item group to this project.</source>
+          <target state="translated">建立並將此專案的項目群組。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Creates and adds an item group after the last existing item group, if any.</source>
+          <target state="translated">建立並將項目群組最後一個現有的項目群組之後，如果有的話。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Otherwise, creates an item group after the last existing property group, if any.</source>
+          <target state="translated">否則，如果有的話，請最後一個現有的屬性群組之後, 建立項目群組。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If no property group exists, creates a new item group at the end of the project.</source>
+          <target state="translated">如果沒有任何屬性群組存在，請建立新的項目群組在專案結尾處。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Returns the added item group.</source>
+          <target state="translated">傳回新增的項目群組。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Updates or adds a property to this project.</source>
+          <target state="translated">更新或將屬性加入至這個專案。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Updates the last existing property with the specified <ph id="ph1">`name`</ph> that has no Condition attribute on itself or on the property group that contains it.</source>
+          <target state="translated">更新最後一個現有的屬性以指定<ph id="ph1">`name`</ph>本身或包含它的屬性群組上具有沒有條件屬性。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Otherwise, creates a property and adds it to the first property group that has no Condition attribute.</source>
+          <target state="translated">否則，建立屬性，並將它加入至屬性群組的第一個沒有條件屬性。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If no such property group exists, creates a property group after the last existing property group, if any, and adds the property to it .</source>
+          <target state="translated">如果沒有這類屬性群組存在，最後一個現有的屬性群組之後, 會建立屬性群組，如果有的話，將屬性加入它。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Otherwise, creates and adds a property group to the start of the project, and adds the property to it.</source>
+          <target state="translated">否則，會建立並將屬性群組加入至專案，開始並將屬性加入至它。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The name of the property to be updated or added.</source>
+          <target state="translated">若要更新或加入屬性的名稱。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The value of the property to be updated or added.</source>
+          <target state="translated">若要更新或加入屬性的值。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Returns the updated or added property.</source>
+          <target state="translated">傳回的更新或已新增的屬性。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Adds a new property group to this project.</source>
+          <target state="translated">此專案中加入新的屬性群組。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Creates a property group and adds it after the last existing property group, if any.</source>
+          <target state="translated">建立屬性群組，並將其最後一個現有的屬性群組之後，如果有的話。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Otherwise, adds the property group to the start of the project.</source>
+          <target state="translated">否則，屬性將群組加入至專案開始。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Returns the added property group.</source>
+          <target state="translated">傳回加入之屬性群組。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Adds a target to the project.</source>
+          <target state="translated">將目標加入至專案。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Convenience method that picks a location based on a heuristic: Creates a target at the end of the project.</source>
+          <target state="translated">根據啟發學習法的便利的方法會挑選一個位置︰ 在專案結尾處建立目標。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The name of the target to be added.</source>
+          <target state="translated">要加入目標的名稱。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Returns the added target.</source>
+          <target state="translated">傳回已加入的目標。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">[</bpt>UsingTask Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> to the project.</source>
+          <target state="translated">新增<bpt id="p1">[</bpt>UsingTask 項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>至專案。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Either the <ph id="ph1">`assemblyName`</ph> or <ph id="ph2">`assemblyFile`</ph> must be null, but not both.</source>
+          <target state="translated">可能是<ph id="ph1">`assemblyName`</ph>或<ph id="ph2">`assemblyFile`</ph>必須是 null，但非兩者。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The task name.</source>
+          <target state="translated">工作名稱。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The file path to the assembly.</source>
+          <target state="translated">組件的檔案路徑。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The name of the assembly to load.</source>
+          <target state="translated">要載入的組件名稱。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Returns the added UsingTask element.</source>
+          <target state="translated">傳回加入的 UsingTask 項目。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets all child <bpt id="p1">[</bpt>Choose Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> in this project.</source>
+          <target state="translated">取得所有子項目<bpt id="p1">[</bpt>選擇的項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>此專案中。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Returns all child Choose elements.</source>
+          <target state="translated">傳回所有子系選擇項目。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets null because the Condition attribute is nonexistent for this element and a nonexistent condition is implicitly true.</source>
+          <target state="translated">因為條件屬性不存在這個項目的並不存在的條件是以隱含方式，則為 true，則取得則為 null。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns a null.</source>
+          <target state="translated">會傳回 null。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Do not use.</source>
+          <target state="translated">請勿使用。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The Condition attribute is nonexistent for <bpt id="p1">&lt;xref href="Microsoft.Build.Construction.ProjectRootElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Condition 屬性不存在的<bpt id="p1">&lt;xref href="Microsoft.Build.Construction.ProjectRootElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Get throws an internal error.</source>
+          <target state="translated">取得擲回內部錯誤。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Throws an internal error and returns null.</source>
+          <target state="translated">擲回內部錯誤，則傳回 null。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Creates and initializes an in-memory, empty ProjectRootElement instance and adds it to the global project collection.</source>
+          <target state="translated">建立和初始化記憶體中的空白 ProjectRootElement 執行個體，並將它加入至全域專案集合。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Returns the new project root.</source>
+          <target state="translated">傳回新的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Creates and initializes an in-memory, empty ProjectRootElement instance and adds it to the specified project collection.</source>
+          <target state="translated">建立和初始化記憶體中的空白 ProjectRootElement 執行個體，並將它加入至指定的專案集合。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The project collection to be added to.</source>
+          <target state="translated">若要加入至專案集合。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Returns the new project root.</source>
+          <target state="translated">傳回新的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Creates and initializes an in-memory, empty ProjectRootElement instance and adds it to the global project collection.</source>
+          <target state="translated">建立和初始化記憶體中的空白 ProjectRootElement 執行個體，並將它加入至全域專案集合。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The new project root is initialized from data found at the specified file path.</source>
+          <target state="translated">新的專案根目錄會從指定的檔案路徑，請參閱資料初始化。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The file path to the data used for initialization.</source>
+          <target state="translated">用於初始化的資料檔案路徑。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Returns the new project root.</source>
+          <target state="translated">傳回新的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Creates and initializes an in-memory, empty ProjectRootElement instance and adds it to the global project collection.</source>
+          <target state="translated">建立和初始化記憶體中的空白 ProjectRootElement 執行個體，並將它加入至全域專案集合。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The new project root is initialized from data read from the specified XmlReader.</source>
+          <target state="translated">新的專案根目錄會從讀取自指定的 XmlReader 資料初始化。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>May throw InvalidProjectFileException.</source>
+          <target state="translated">可能會擲回 InvalidProjectFileException。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The XML reader used for initialization.</source>
+          <target state="translated">用於初始化 XML 讀取器。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Returns the new project root.</source>
+          <target state="translated">傳回新的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Creates and initializes an in-memory, empty ProjectRootElement instance and adds it to the specified project collection.</source>
+          <target state="translated">建立和初始化記憶體中的空白 ProjectRootElement 執行個體，並將它加入至指定的專案集合。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The new project root is initialized from data found at the specified file path.</source>
+          <target state="translated">新的專案根目錄會從指定的檔案路徑，請參閱資料初始化。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The file path to the data used for initialization.</source>
+          <target state="translated">用於初始化的資料檔案路徑。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The project collection to be added to.</source>
+          <target state="translated">若要加入至專案集合。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Returns the new project root.</source>
+          <target state="translated">傳回新的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Creates and initializes an in-memory, empty ProjectRootElement instance and adds it to the specified project collection.</source>
+          <target state="translated">建立和初始化記憶體中的空白 ProjectRootElement 執行個體，並將它加入至指定的專案集合。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The new project root is initialized from data read from the specified XmlReader.</source>
+          <target state="translated">新的專案根目錄會從讀取自指定的 XmlReader 資料初始化。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>May throw InvalidProjectFileException.</source>
+          <target state="translated">可能會擲回 InvalidProjectFileException。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The XML reader used for initialization.</source>
+          <target state="translated">用於初始化 XML 讀取器。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The project collection to be added to.</source>
+          <target state="translated">若要加入至專案集合。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Returns the new project root.</source>
+          <target state="translated">傳回新的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">[</bpt>Choose Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">建立<bpt id="p1">[</bpt>選擇項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Caller must add the Choose element to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將 選擇項目加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="Microsoft.Build.Construction.ProjectChooseElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="Microsoft.Build.Construction.ProjectChooseElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Creates an <bpt id="p1">[</bpt>Import Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">建立<bpt id="p1">[</bpt>匯入項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Caller must add the Import element to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將匯入項目加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The project to be imported.</source>
+          <target state="translated">要匯入專案。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Returns the created Import element.</source>
+          <target state="translated">傳回建立的匯入項目。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Creates an import group.</source>
+          <target state="translated">建立匯入群組。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Caller must add the import group to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將匯入群組加入至專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Returns the import group.</source>
+          <target state="translated">傳回的匯入群組。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Creates an item definition.</source>
+          <target state="translated">建立項目定義。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Caller must add the item definition to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將項目定義加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The item type of the item definition.</source>
+          <target state="translated">項目定義的項目類型。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Returns the item definition.</source>
+          <target state="translated">傳回的項目定義。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Creates an item definition group.</source>
+          <target state="translated">建立項目定義群組。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Caller must add the item definition group to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將項目定義群組加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Returns the item definition group.</source>
+          <target state="translated">傳回的項目定義群組。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Creates an item.</source>
+          <target state="translated">建立項目。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Caller must add the item to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將項目加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The item type of the item.</source>
+          <target state="translated">項目的項目類型。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Returns the item.</source>
+          <target state="translated">傳回的項目。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Creates an item with the specifed Include value.</source>
+          <target state="translated">建立具有指定的包含值的項目。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Caller must add the item to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將項目加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The item type of the item.</source>
+          <target state="translated">項目的項目類型。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The Include value of the item.</source>
+          <target state="translated">包含項目的值。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Returns the item.</source>
+          <target state="translated">傳回的項目。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Creates an item group.</source>
+          <target state="translated">建立項目群組。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Caller must add the item group to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將項目群組加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Returns the item group.</source>
+          <target state="translated">傳回的項目群組。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Creates a metadata node with the specified name.</source>
+          <target state="translated">建立具有指定名稱的中繼資料節點。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Caller must add the metadata node to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將中繼資料節點新增到專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The name of the metadata.</source>
+          <target state="translated">中繼資料的名稱。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Returns the metadata node.</source>
+          <target state="translated">傳回的中繼資料節點。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Creates a metadata node with the specified name and value.</source>
+          <target state="translated">建立具有指定的名稱和值的中繼資料節點。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Caller must add the metadata node to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將中繼資料節點新增到專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The name of the metadata.</source>
+          <target state="translated">中繼資料的名稱。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The value of the metadata.</source>
+          <target state="translated">中繼資料的值。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Returns the metadata element.</source>
+          <target state="translated">傳回中繼資料的項目。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Creates an <bpt id="p1">[</bpt>OnError Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">建立<bpt id="p1">[</bpt>OnError 項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Caller must add the OnError element to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將 OnError 項目加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The targets to execute if a task fails.</source>
+          <target state="translated">執行工作失敗時的目標。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Returns the OnError element.</source>
+          <target state="translated">傳回 OnError 項目。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Creates an <bpt id="p1">[</bpt>Otherwise Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">建立<bpt id="p1">[</bpt>Otherwise 項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Caller must add it to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將它加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Caller must add the Otherwise element to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將否則項目加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Returns the Otherwise element.</source>
+          <target state="translated">傳回否則項目。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Creates an <bpt id="p1">[</bpt>Output Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">建立<bpt id="p1">[</bpt>輸出項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Caller must add the Output element to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將輸出項目加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Either itemType or propertyName must be specified, but not both.</source>
+          <target state="translated">ItemType 或 propertyName 必須指定，但非兩者皆是。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The name of the task's output parameter.</source>
+          <target state="translated">工作名稱的輸出參數。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The item that receives the task's output parameter value.</source>
+          <target state="translated">接收工作項目之輸出參數值。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The property that receives the task's output parameter value.</source>
+          <target state="translated">接收工作的屬性的輸出參數值。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Returns the Output element.</source>
+          <target state="translated">傳回輸出項目。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">[</bpt>ProjectExtensions Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">建立<bpt id="p1">[</bpt>ProjectExtensions 項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Caller must add the ProjectExtensions element to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將 ProjectExtensions 項目加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Returns the ProjectExtensions element.</source>
+          <target state="translated">傳回 ProjectExtensions 項目。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Creates a property.</source>
+          <target state="translated">建立的屬性。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Caller must add the property to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將屬性加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The name of the property.</source>
+          <target state="translated">屬性的名稱。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Returns the property.</source>
+          <target state="translated">傳回的屬性。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Creates a property group.</source>
+          <target state="translated">建立屬性群組。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Caller must add the property group to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須在專案中所選擇的位置加入屬性群組。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Returns the property group.</source>
+          <target state="translated">傳回的屬性群組。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Creates a target.</source>
+          <target state="translated">建立目標。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Caller must add the target to the location of choice in this project.</source>
+          <target state="translated">呼叫端必須將目標加入至這個專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The name of the target.</source>
+          <target state="translated">目標的名稱。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Returns the target.</source>
+          <target state="translated">傳回目標。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Creates a task.</source>
+          <target state="translated">建立的工作。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Caller must add the task to the location of choice in this project.</source>
+          <target state="translated">呼叫端必須將工作加入此專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The name of the task.</source>
+          <target state="translated">工作的名稱。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Returns the task.</source>
+          <target state="translated">傳回工作。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Creates a task to be referenced by a <bpt id="p1">[</bpt>UsingTask Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">建立所參考的工作<bpt id="p1">[</bpt>UsingTask 項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Caller must add the task to the UsingTask element of choice in the project.</source>
+          <target state="translated">呼叫端必須將工作加入專案中所選擇的 UsingTask 項目。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The string to evaluate.</source>
+          <target state="translated">要評估的字串。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The body to add.</source>
+          <target state="translated">若要新增主體。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Returns the task.</source>
+          <target state="translated">傳回工作。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">[</bpt>UsingTask Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> to the project.</source>
+          <target state="translated">新增<bpt id="p1">[</bpt>UsingTask 項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>至專案。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Caller must add the UsingTask element to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將 UsingTask 項目加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Either the <ph id="ph1">`assemblyName`</ph> or <ph id="ph2">`assemblyFile`</ph> must be null, but not both.</source>
+          <target state="translated">可能是<ph id="ph1">`assemblyName`</ph>或<ph id="ph2">`assemblyFile`</ph>必須是 null，但非兩者。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The task name.</source>
+          <target state="translated">工作名稱。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The file path to the assembly.</source>
+          <target state="translated">組件的檔案路徑。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The name of the assembly to load.</source>
+          <target state="translated">要載入的組件名稱。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Returns the UsingTask element.</source>
+          <target state="translated">傳回 UsingTask 項目。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">[</bpt>UsingTask Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> to the project.</source>
+          <target state="translated">新增<bpt id="p1">[</bpt>UsingTask 項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>至專案。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Caller must add the UsingTask element to the location of choice in the project.</source>
+          <target state="translated">呼叫端必須將 UsingTask 項目加入專案中所選擇的位置。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Either the <ph id="ph1">`assemblyName`</ph> or <ph id="ph2">`assemblyFile`</ph> must be null, but not both.</source>
+          <target state="translated">可能是<ph id="ph1">`assemblyName`</ph>或<ph id="ph2">`assemblyFile`</ph>必須是 null，但非兩者。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Both the <ph id="ph1">`runtime`</ph> and <ph id="ph2">`architecture`</ph> can be null.</source>
+          <target state="translated">同時<ph id="ph1">`runtime`</ph>和<ph id="ph2">`architecture`</ph>可以是 null。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The task name.</source>
+          <target state="translated">工作名稱。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The file path to the assembly.</source>
+          <target state="translated">組件的檔案路徑。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The name of the assembly to load.</source>
+          <target state="translated">要載入的組件名稱。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Optional runtime specifier.</source>
+          <target state="translated">選擇性的執行階段的規範。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Optional architecture specifier.</source>
+          <target state="translated">選擇性的架構規範。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Returns the UsingTask element.</source>
+          <target state="translated">傳回 UsingTask 項目。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Creates a parameter for use in a <bpt id="p1">[</bpt>UsingTask Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> parameter group.</source>
+          <target state="translated">建立用於參數<bpt id="p1">[</bpt>UsingTask 項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>參數群組。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Caller must add the parameter to the UsingTask parameter group of choice in the project.</source>
+          <target state="translated">呼叫端必須將參數新增到專案中所選擇的 UsingTask 參數群組。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The name of the <ph id="ph1">`UsingTask`</ph> element.</source>
+          <target state="translated">名稱<ph id="ph1">`UsingTask`</ph>項目。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Stores outputs from the task in the project file.</source>
+          <target state="translated">在專案檔案中工作的輸出存放區。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>A user-defined task parameter that contains the parameter value as its value.</source>
+          <target state="translated">使用者定義的工作參數，其中包含做為其值的參數值。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The type of the parameter.</source>
+          <target state="translated">參數型別。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Returns the parameter.</source>
+          <target state="translated">傳回參數。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Creates a parameter group for a <bpt id="p1">[</bpt>UsingTask Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">會建立參數群組<bpt id="p1">[</bpt>UsingTask 項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Caller must add the parameter group to the UsingTask element of choice in the project.</source>
+          <target state="translated">呼叫端必須將參數群組加入至專案中所選擇的 UsingTask 項目。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Returns the parameter group.</source>
+          <target state="translated">傳回參數群組。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">[</bpt>When Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> with a specified Condition attribute.</source>
+          <target state="translated">建立<bpt id="p1">[</bpt>當項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>具有指定的條件屬性。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Caller must add the When element to the location of choice in this project.</source>
+          <target state="translated">呼叫端必須將 當此專案中所選擇的位置的項目。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The value of the Condition attribute.</source>
+          <target state="translated">條件屬性的值。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Returns the When element.</source>
+          <target state="translated">傳回時，項目。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the DefaultTargets attribute.</source>
+          <target state="translated">取得或設定 DefaultTargets 屬性的值。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Removes the DefaultTargets attribute if the value to set is an empty string or null.</source>
+          <target state="translated">如果要設定的值為空字串或 null，請移除 DefaultTargets 屬性。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Returns the value of the DefaultTargets attribute.</source>
+          <target state="translated">傳回 DefaultTargets 屬性值。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Returns an empty string if the attribute is not present.</source>
+          <target state="translated">如果屬性不存在，則傳回空字串。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Location of the DefaultTargets attribute on this element, if any.</source>
+          <target state="translated">DefaultTargets 屬性，這個項目，如果任何上的位置。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>May not be correct if file is not saved, or file has been edited since it was last saved.</source>
+          <target state="translated">可能無法正確如果檔案不會儲存，或自上次儲存已編輯檔案。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Returns  the DefaultTargets attribute location.</source>
+          <target state="translated">傳回 DefaultTargets 屬性的位置。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>If there is no such attribute, returns null.</source>
+          <target state="translated">如果沒有這類屬性，會傳回 null。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Gets the directory path to the project file.</source>
+          <target state="translated">取得專案檔的目錄路徑。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>This method is required for evaluating relative paths.</source>
+          <target state="translated">這個方法是為了評估相對路徑。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Returns the directory path, which is never null.</source>
+          <target state="translated">傳回目錄路徑，這不是 null。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>If the project is not loaded from disk, returns the current-directory at the time the project was loaded.</source>
+          <target state="translated">如果專案不從磁碟載入，會傳回目前目錄已載入專案時。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Specifies the character encoding that the project file is to be saved in.</source>
+          <target state="translated">指定所要儲存在專案檔的字元編碼。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Returns the encoding given by the Xml declaration in the project file.</source>
+          <target state="translated">傳回指定專案檔中的 Xml 宣告的編碼方式。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>If no encoding is specified, this defaults to UTF 8.</source>
+          <target state="translated">如果沒有指定編碼方式時，預設為 UTF-8 8。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Returns the character encoding that the project file is to be saved in.</source>
+          <target state="translated">傳回的字元編碼方式，儲存在專案檔。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Gets the full path to the project file.</source>
+          <target state="translated">取得專案檔的完整路徑。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Returns the full path to the project file.</source>
+          <target state="translated">傳回專案檔的完整路徑。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>If the project is not loaded from disk, returns null.</source>
+          <target state="translated">如果專案不從磁碟載入，則會傳回 null。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Determines whether the project has been modified since it was last loaded or saved.</source>
+          <target state="translated">判斷自上次載入或儲存後是否已修改的專案。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Returns true if the project has been modified; false otherwise.</source>
+          <target state="translated">如果已修改的專案，否則會傳回 truefalse 否則。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Gets all the child import groups in this project.</source>
+          <target state="translated">取得此專案中的所有子匯入群組。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Returns all the child import groups in this project.</source>
+          <target state="translated">傳回此專案中的所有子匯入群組。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Gets all the child import groups in this project, starting with the last group.</source>
+          <target state="translated">取得此專案中，從最後一個群組中的所有子匯入群組。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Returns all the child import groups in this project, starting with the last group.</source>
+          <target state="translated">傳回所有子系匯入群組，在此專案中，從最後一個群組。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets all the child import elements in this project.</source>
+          <target state="translated">取得此專案中的所有子匯入項目。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Gets all the child import elements in this project.</source>
+          <target state="translated">取得此專案中的所有子匯入項目。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the InitialTargets attribute.</source>
+          <target state="translated">取得或設定 InitialTargets 屬性的值。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Removes the InitialTargets attribute if the value to set is an empty string or null.</source>
+          <target state="translated">如果要設定的值為空字串或 null，請移除 InitialTargets 屬性。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Returns the InitialTargets attribute value.</source>
+          <target state="translated">傳回 InitialTargets 屬性值。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Returns an empty string if the attribute is not present.</source>
+          <target state="translated">如果屬性不存在，則傳回空字串。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Location of the InitialTargets attribute on this element, if any.</source>
+          <target state="translated">這個項目，如果有任何的 InitialTargets 屬性的位置。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Returns InitialTargets attribute location.</source>
+          <target state="translated">傳回 InitialTargets 屬性的位置。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>If there is no such attribute, returns null.</source>
+          <target state="translated">如果沒有這類屬性，會傳回 null。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Gets all the child item definition groups in this project.</source>
+          <target state="translated">取得此專案中所有的子系項目定義群組。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Returns all the child item definition groups in this project.</source>
+          <target state="translated">傳回此專案中所有的子系項目定義群組。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Gets all the child item definition groups in this project, starting with the last group.</source>
+          <target state="translated">取得此專案中，從最後一個群組中的所有子系項目定義群組。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Returns all the child item definition groups in this project, starting with the last group.</source>
+          <target state="translated">傳回此專案中，從最後一個群組中的所有子項目定義群組。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Gets all child item definitions in all item definition groups anywhere in this project.</source>
+          <target state="translated">取得此專案中的任何位置的所有項目定義群組中所有的子系項目定義。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Gets all child item definitions in all item definition groups anywhere in this project.</source>
+          <target state="translated">取得此專案中的任何位置的所有項目定義群組中所有的子系項目定義。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Gets all the child item groups in this project.</source>
+          <target state="translated">取得此專案中所有的子系項目群組。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Does not include any item groups contained by Choose elements.</source>
+          <target state="translated">不包含所選擇的項目包含任何項目群組。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Returns all the child item groups in this project.</source>
+          <target state="translated">傳回此專案中所有的子系項目群組。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Gets all the child item groups present in this project, starting with the last group.</source>
+          <target state="translated">取得所有子系項目群組存在於此專案中，從最後一個群組。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Does not include any item groups contained by Choose elements.</source>
+          <target state="translated">不包含所選擇的項目包含任何項目群組。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Returns all the child item groups present in this project, starting with the last group.</source>
+          <target state="translated">傳回所有子系項目群組存在於此專案中，從最後一個群組。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Gets all child items in this project.</source>
+          <target state="translated">取得此專案中的所有子項目。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Returns all child items in this project, even if they are contained by Choose elements.</source>
+          <target state="translated">在此專案中，傳回所有子項目，即使它們包含所選擇的項目。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Gets the last-write-time of the project file.</source>
+          <target state="translated">取得上次寫入時間的專案檔。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>This property can be used to determine whether a file has been changed on disk by a process other than the MSBuild process.</source>
+          <target state="translated">這個屬性可以用來判斷是否已變更檔案在磁碟上以外，MSBuild 程序的處理程序。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Gets the last-write-time of the project file.</source>
+          <target state="translated">取得上次寫入時間的專案檔。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Initializes a project root in the global project collection by loading data from the specified file path.</source>
+          <target state="translated">從指定的檔案路徑載入資料，以初始化全域專案集合中的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>May throw InvalidProjectFileException.</source>
+          <target state="translated">可能會擲回 InvalidProjectFileException。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The file path to the data.</source>
+          <target state="translated">資料檔案路徑。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Returns the initialized project root.</source>
+          <target state="translated">傳回已初始化的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Initializes a project root in the specified project collection by loading data from the specified file path.</source>
+          <target state="translated">從指定的檔案路徑載入資料，初始化指定的專案集合中的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>May throw InvalidProjectFileException.</source>
+          <target state="translated">可能會擲回 InvalidProjectFileException。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The file path to the data.</source>
+          <target state="translated">資料檔案路徑。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The project collection containing the project to be initialized.</source>
+          <target state="translated">專案集合，包含要初始化專案。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Returns the initialized project root.</source>
+          <target state="translated">傳回已初始化的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>The location of the originating file itself, not any specific content within it.</source>
+          <target state="translated">起始位置的檔案本身，其中不含任何特定內容。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>If the file has not been given a name, this is an empty location.</source>
+          <target state="translated">如果檔案尚未被授與的名稱，這會是空的位置。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>This is a legitimate case of having no location.</source>
+          <target state="translated">這是合法的情況下的任何位置。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Returns the originating file location or an empty location.</source>
+          <target state="translated">傳回原始的檔案位置或空的位置。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Gets all the child properties in this project.</source>
+          <target state="translated">取得此專案中的所有子屬性。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Returns all child properties in this project, even if they are contained by Choose elements.</source>
+          <target state="translated">即使它們包含所選擇的項目，請在此專案中，傳回所有的子屬性。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Gets all the child property groups in this project.</source>
+          <target state="translated">取得此專案中的所有子屬性群組。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>Does not include any item groups contained by Choose elements.</source>
+          <target state="translated">不包含所選擇的項目包含任何項目群組。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Returns all the child property groups in this project.</source>
+          <target state="translated">傳回此專案中的所有子屬性群組。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>Gets all the child property groups present in this project, starting with the last group.</source>
+          <target state="translated">取得所有子屬性群組存在於此專案中，從最後一個群組。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Does not include any item groups contained by Choose elements.</source>
+          <target state="translated">不包含所選擇的項目包含任何項目群組。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>Returns all the child property groups present in this project, starting with the last group.</source>
+          <target state="translated">傳回所有子屬性群組存在於此專案中，從最後一個群組。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Gets the XML content that represents this project.</source>
+          <target state="translated">取得 XML 內容，表示這個專案。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Does not mark the content as unmodified.</source>
+          <target state="translated">不會標記為未修改狀態的內容。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>The MSBuild object model provides no other way to access the XML content.</source>
+          <target state="translated">MSBuild 物件模型會提供任何其他方法來存取 XML 內容。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>Returns the XML content that represents this project as a string.</source>
+          <target state="translated">傳回的 XML 內容，表示為字串的這個專案。</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>Saves the project, if modified, to the file system.</source>
+          <target state="translated">如果修改，檔案系統來，儲存專案。</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>Uses the character Encoding returned by the Encoding property.</source>
+          <target state="translated">使用的字元編碼方式屬性所傳回的編碼方式。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>Marks the project as unmodified.</source>
+          <target state="translated">將標示為未修改的專案。</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>Saves the project to the specified text writer, whether modified or not.</source>
+          <target state="translated">將專案儲存至指定的文字寫入器，是否修改。</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>Uses the character encoding of the TextWriter.</source>
+          <target state="translated">使用 TextWriter 的字元編碼方式。</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Marks the project as unmodified.</source>
+          <target state="translated">將標示為未修改的專案。</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>The text writer to write the project to.</source>
+          <target state="translated">文字寫入器寫入至專案。</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Saves the project, if modified or if the file path to storage has changed.</source>
+          <target state="translated">如果修改或儲存體的檔案路徑已變更，請儲存專案。</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>Marks the project as unmodified.</source>
+          <target state="translated">將標示為未修改的專案。</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>The file path to the project in storage.</source>
+          <target state="translated">儲存體中的專案檔案路徑。</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>Saves the project, if modified, using the specified character encoding.</source>
+          <target state="translated">如果修改使用指定的字元編碼方式，儲存專案。</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>Marks the project as unmodified.</source>
+          <target state="translated">將標示為未修改的專案。</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>The character encoding used to save the project.</source>
+          <target state="translated">字元編碼方式，用來儲存專案。</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Saves the project, if modified or if the file path to storage has changed.</source>
+          <target state="translated">如果修改或儲存體的檔案路徑已變更，請儲存專案。</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>Uses the specified character encoding..</source>
+          <target state="translated">使用指定的字元編碼...</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>Marks the project as unmodified.</source>
+          <target state="translated">將標示為未修改的專案。</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>The file path to the project in storage.</source>
+          <target state="translated">儲存體中的專案檔案路徑。</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>The character encoding used to save the project.</source>
+          <target state="translated">字元編碼方式，用來儲存專案。</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>Gets all the child targets in this project.</source>
+          <target state="translated">取得此專案中的所有子目標。</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>Returns all the child targets in this project.</source>
+          <target state="translated">傳回此專案中的所有子目標。</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>Gets the time that this project was last modified.</source>
+          <target state="translated">取得上次修改此專案的時間。</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>Returns the time that this project was last modified.</source>
+          <target state="translated">傳回上次修改此專案的時間。</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>Returns null if the project hasn't been modified since being created or loaded.</source>
+          <target state="translated">如果專案未被修改過，因為正在建立或載入，傳回 null。</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the ToolsVersion attribute.</source>
+          <target state="translated">取得或設定工具版本屬性的值。</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>Removes the ToolsVersion attribute if the value to set is an empty string or null.</source>
+          <target state="translated">如果要設定的值為空字串或 null，請移除工具版本的屬性。</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>Returns the ToolsVersion attribute value.</source>
+          <target state="translated">傳回 ToolsVersion 屬性值。</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>Returns an empty string if the attribute is not present.</source>
+          <target state="translated">如果屬性不存在，則傳回空字串。</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>The location of the ToolsVersion attribute on this element, if any.</source>
+          <target state="translated">ToolsVersion 屬性，在這個項目，如果有任何位置。</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Returns the ToolsVersion attribute location.</source>
+          <target state="translated">傳回 ToolsVersion 屬性的位置。</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>If there is no such attribute, returns null.</source>
+          <target state="translated">如果沒有這類屬性，會傳回 null。</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the TreatAsLocalProperty attribute.</source>
+          <target state="translated">取得或設定 TreatAsLocalProperty 屬性的值。</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>Removes the TreatAsLocalProperty attribute if the value to set is an empty string or null.</source>
+          <target state="translated">如果要設定的值為空字串或 null，請移除 TreatAsLocalProperty 屬性。</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>For more information about the <ph id="ph1">`TreatAsLocalProperty`</ph> attribute, see <bpt id="p1">[</bpt>Project Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>How to: Build the Same Source Files with Different Options<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊<ph id="ph1">`TreatAsLocalProperty`</ph>屬性，請參閱<bpt id="p1">[</bpt>專案項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p2">[</bpt>How to︰ 建置使用不同的選項相同原始程式檔<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>Returns the TreatAsLocalProperty attribute value.</source>
+          <target state="translated">傳回 TreatAsLocalProperty 屬性值。</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>Returns an empty string if the attribute is not present.</source>
+          <target state="translated">如果屬性不存在，則傳回空字串。</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>The location of the TreatAsLocalProperty attribute on this element, if any.</source>
+          <target state="translated">在這個項目，如果有任何 TreatAsLocalProperty 屬性的位置。</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>Returns the TreatAsLocalProperty attribute location.</source>
+          <target state="translated">傳回 TreatAsLocalProperty 屬性的位置。</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>If there is no such attribute, returns null.</source>
+          <target state="translated">如果沒有這類屬性，會傳回 null。</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>Gets the project root in the global project collection that was loaded into memory from the specified file path.</source>
+          <target state="translated">取得全域專案集合載入到記憶體中從指定的檔案路徑中的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>or null if it is not currently in memory.</source>
+          <target state="translated">如果它目前不在記憶體中，為 null。</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>It is possible for ProjectRootElements to be brought into memory and discarded due to memory pressure.</source>
+          <target state="translated">它有可能 ProjectRootElements 帶入記憶體和捨棄由於記憶體不足的壓力。</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>If TryOpen returns null it does not indicate that the project root has never been loaded, only that it is not currently in memory.</source>
+          <target state="translated">如果 TryOpen 傳回 null 它並不代表的專案根目錄永遠不會載入器之後，只有它目前不在記憶體中。</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>The path of the ProjectRootElement, cannot be null.</source>
+          <target state="translated">ProjectRootElement 路徑不可為 null。</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>Returns the project root.</source>
+          <target state="translated">傳回專案的根目錄。</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>Returns null if no project was loaded into memory from the specified file path.</source>
+          <target state="translated">如果沒有任何專案載入到記憶體中從指定的檔案路徑，傳回 null。</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>Gets the project root in the specified project collection that was loaded into memory from the specified file path.</source>
+          <target state="translated">取得已載入到記憶體中指定的檔案路徑中指定的專案集合中的專案根目錄。</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>or null if it is not currently in memory.</source>
+          <target state="translated">如果它目前不在記憶體中，為 null。</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>It is possible for ProjectRootElements to be brought into memory and discarded due to memory pressure.</source>
+          <target state="translated">它有可能 ProjectRootElements 帶入記憶體和捨棄由於記憶體不足的壓力。</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>If TryOpen returns null it does not indicate that the project root has never been loaded, only that it is not currently in memory.</source>
+          <target state="translated">如果 TryOpen 傳回 null 它並不代表的專案根目錄永遠不會載入器之後，只有它目前不在記憶體中。</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>The path of the ProjectRootElement, cannot be null.</source>
+          <target state="translated">ProjectRootElement 路徑不可為 null。</target>       </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>The project collection to search for the project root.</source>
+          <target state="translated">要搜尋的專案根目錄的專案集合。</target>       </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>Returns the project root.</source>
+          <target state="translated">傳回專案的根目錄。</target>       </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>Returns null if no project was loaded into memory from the specified file path.</source>
+          <target state="translated">如果沒有任何專案載入到記憶體中從指定的檔案路徑，傳回 null。</target>       </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>Gets all child <bpt id="p1">[</bpt>UsingTask Element (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> in this project.</source>
+          <target state="translated">取得所有子項目<bpt id="p1">[</bpt>UsingTask 項目 (MSBuild)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>此專案中。</target>       </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>Returns all child UsingTask elements in this project.</source>
+          <target state="translated">傳回此專案中的所有子 UsingTask 項目。</target>       </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>Gets the version number of this object.</source>
+          <target state="translated">取得這個物件的版本號碼。</target>       </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>Compare this version number to a stored version number to determine whether the project XML content has changed, even if the project is saved after the change.</source>
+          <target state="translated">比較這個預存的版本號碼，以判斷是否已變更專案的 XML 內容，即使在變更後儲存專案的版本號碼。</target>       </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>An edit may increment the version number more than once, so Version should only be compared to a stored value.</source>
+          <target state="translated">編輯可能會超過一次，遞增版本號碼，因此應該只與儲存的值相比較版本。</target>       </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>Returns the version number of this object.</source>
+          <target state="translated">傳回這個物件的版本號碼。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
