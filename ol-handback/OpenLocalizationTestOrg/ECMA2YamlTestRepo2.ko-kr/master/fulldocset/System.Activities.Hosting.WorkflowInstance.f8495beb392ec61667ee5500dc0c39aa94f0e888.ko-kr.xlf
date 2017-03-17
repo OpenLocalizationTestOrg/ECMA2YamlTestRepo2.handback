@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">930ac95ff671b66ba5f8573e049a24cbc598dc05</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Activities.Hosting.WorkflowInstance.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df0058954fe7f6d73d618669ef2ef912f6af1a1d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67a9ef1bba121f95d14f52bf556741e8cf4f96ca</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>WorkflowInstance is a lightweight, per-instance runtime for executing a workflow program.</source>
+          <target state="translated">WorkflowInstance는 워크플로 프로그램을 실행 하기 위한 간단한, 인스턴스별 런타임.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It can be constructed to create a new workflow instance or from existing instance state.</source>
+          <target state="translated">새 워크플로 인스턴스를 생성 하기 위해 구성할 수 있습니다 또는 기존 인스턴스 상태입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The APIs that &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; exposes are the minimal set of runtime controls from which higher level operations can be implemented.</source>
+          <target state="translated">Api는 &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;은 상위 수준의 작업을 구현할 수 있는 런타임 컨트롤의 최소 집합을 노출 합니다.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This API set represents the entire breadth of functionality of the runtime.</source>
+          <target state="translated">이 API 집합은 전체 범위의 런타임 기능을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>WorkflowInstance is an abstract class and relies on a host’s implementation of its abstract methods in order to provide host functionality such as synchronization, persistence, tracking, and extensions.</source>
+          <target state="translated">WorkflowInstance는 추상 클래스 이며 동기화, 지 속성, 추적 및 확장 같은 호스트 기능을 제공 하기 위해 호스트의 추상 메서드 구현을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WorkflowInstance is single threaded and assumes that the host synchronizes all access to it.</source>
+          <target state="translated">WorkflowInstance는 단일 스레드 이며 호스트가 모든 액세스를 동기화 한다고 가정 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An attempt to call multiple APIs simultaneously will result in an &lt;xref:System.InvalidOperationException&gt; being thrown.</source>
+          <target state="translated">동시에 여러 Api를 호출 하려고 하면는 &lt;xref:System.InvalidOperationException&gt;throw 됩니다.&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Internally, a WorkflowInstance has two states: Running and Paused.</source>
+          <target state="translated">내부적으로 WorkflowInstance에 두 개의 상태: 실행 중 및 일시 중지 됨입니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The only way to cause the runtime to transition from paused to running is to call &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.</source>
+          <target state="translated">일시 중지 변환 전의 런타임을 지정 하는 유일한 방법은 실행 &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt; 를 호출 하는 것</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All actions (except Pause) can only be taken while the runtime is Paused.</source>
+          <target state="translated">일시 중지를 제외한 모든 동작은 런타임이 일시 중지 된 동안에 가져올 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime will become spontaneously Paused in the following situations:      -   An error fatal to the runtime has occurred.</source>
+          <target state="translated">런타임에서 될 자발적으로 일시 중지 다음과 같은 경우:-런타임에 치명적인 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host will be signaled through &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt; (which does not signal a transition to Paused) and then notified through &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;.</source>
+          <target state="translated">통해 호스트가 신호를 받은 됩니다 &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt;(입니다 일시 중지 됨으로 전환 신호 하지 않는 경우) 다음 &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; 통해 알림을&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   An exception in the workflow was uncaught and escaped the root.</source>
+          <target state="translated">-워크플로의 예외가 검색 되었습니다 되지 않았고 루트를 이스케이프 합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host will be notified through the &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException%2A&gt; method.</source>
+          <target state="translated">호스트를 통해 알림이 표시 됩니다는 &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException%2A&gt;메서드.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The scheduler has run out of work items and is now &lt;xref:System.Activities.Hosting.WorkflowInstanceState&gt;.</source>
+          <target state="translated">-스케줄러 작업 항목이 모두 실행 하 고 이제 &lt;xref:System.Activities.Hosting.WorkflowInstanceState&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstanceState&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host will be notified through the &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; method.</source>
+          <target state="translated">호스트를 통해 알림이 표시 됩니다는 &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;메서드.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the scheduler could have run out of work items because the instance is idle or because the instance is complete.</source>
+          <target state="translated">유휴 상태 이거나 인스턴스가 완료 되어 스케줄러에서 작업 항목이 모두 실행 되었을 수 있는 참고 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt; value of the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property can be used to differentiate between the two.</source>
+          <target state="translated">&lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;의 값은 &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;두 구분할 수 속성을 사용할 수 있습니다.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host can request a change from Running to Paused by calling the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt; or &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.PauseWhenPersistable%2A&gt; methods of the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; instance returned by the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property.</source>
+          <target state="translated">호스트의 호출 하 여 실행을 일시 중지 된 변경을 요청할 수는 &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt;또는 &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.PauseWhenPersistable%2A&gt;의 메서드는 &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;에서 반환 된 인스턴스는 &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;속성.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.PauseWhenPersistable%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This request should not be considered to have a specific response meaning that the host should not attempt to correlate an OnNotify<bpt id="p1">*</bpt> or &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt; with a specific call to pause. In response to a pause request, the runtime may transition to Paused and call &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; while the scheduler still has pending work items. The &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt; value of the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property can be used to determine whether the scheduler has no more work or was interrupted by a request to pause.       The &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt; method of the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; instance returned by the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property is the only method which can be called while the WorkflowInstance is in the Running state. All other methods will throw an &lt;xref:System.InvalidOperationException&gt; if called.Given the rules for how WorkflowInstance transitions from one state to another, the public notion of Running and Paused can be defined as follows:      -   Running – The state between a call to &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt; and the next WorkflowInstance.OnNotify<ept id="p1">*</ept>.</source>
+          <target state="translated">있어야 호스트는 OnNotify 상관 관계를 시도 하지 않아야 의미 하는 특정 응답이이 요청 간주 되지 않아야<bpt id="p1">*</bpt> 또는 &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt;를 특정 일시 중지 호출과.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt; 일시 중지 요청에 대 한 응답으로 런타임이 일시 중지 됨 및 호출 전환 될 수 있습니다 &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;스케줄러에 보류 중인 작업 항목이 아직 있는 동안.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;의 값은 &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;결정 하기 위해 스케줄러에 더 많은 작업을 일시 중지 요청에 의해 중단 되었습니다 속성을 사용할 수 있습니다.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;       &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt;의 메서드는 &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;에서 반환 된 인스턴스는 &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;속성 WorkflowInstance 실행 중 상태인 동안에 호출 될 수 있는 유일한 방법입니다.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt; 다른 모든 메서드를 호출 하는 경우는 &lt;xref:System.InvalidOperationException&gt;시킵니다. 다른 WorkflowInstance 한 상태에서 변환 하는 방법에 대 한 규칙을 제공, 실행 중 및 일시 중지 됨의 공용 개념 수 다음과 같이 정의할 수:-실행-에 대 한 호출 간의 상태 &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;및 다음 WorkflowInstance.OnNotify<ept id="p1">*</ept>.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt; &lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Paused – The state between the last WorkflowInstance.OnNotify* and the next call to &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.</source>
+          <target state="translated">-일시 중지 됨-마지막 workflowinstance.onnotify *와 다음 &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt; 호출 간의 상태</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified workflow definition.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정한 워크플로 정의 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The activity that defines the workflow.</source>
+          <target state="translated">워크플로 정의 하는 작업입니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified workflow definition and definition identity.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정한 워크플로 정 및 정의 id를 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The activity that defines the workflow.</source>
+          <target state="translated">워크플로 정의 하는 작업입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The definition identity.</source>
+          <target state="translated">정의 id입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to begin sending pending tracking records to tracking participants asynchronously.</source>
+          <target state="translated">보류 중인 추적 레코드를 추적 참가자를 비동기적으로 보내기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The time period after which to abort the attempt.</source>
+          <target state="translated">기간이 지난 후 시도를 중단할입니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The method to be called when the track operation has completed.</source>
+          <target state="translated">추적 작업이 완료 되었을 때 호출 될 메서드.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The information about the asynchronous operation.</source>
+          <target state="translated">비동기 작업에 대 한 정보입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The status of the current track operation.</source>
+          <target state="translated">현재 추적 작업의 상태입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; instance for this <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">가져옵니다는 &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;이 대 한 인스턴스 <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The controller instance for this workflow instance.</source>
+          <target state="translated">이 워크플로 인스턴스의 컨트롤러 인스턴스입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets or sets the definition identity of <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">정의 id를 가져오거나 설정 합니다. <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The definition identity of <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">정의 id <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Calls &lt;xref:System.Disposable.Dispose*&gt; on all extensions that implement &lt;xref:System.IDisposable&gt;.</source>
+          <target state="translated">&lt;xref:System.Disposable.Dispose*&gt; &lt;xref:System.IDisposable&gt;.&lt;/xref:System.IDisposable&gt; 를 구현 하는 모든 확장에 대해&lt;/xref:System.Disposable.Dispose*&gt; 호출</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to end the track operation.</source>
+          <target state="translated">추적 작업을 종료 하기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The status of the asynchronous track operation.</source>
+          <target state="translated">비동기 추적 작업의 상태입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to send pending tracking records to tracking participants.</source>
+          <target state="translated">보류 중인 추적 레코드를 추적 참가자에 게 보내기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The time period after which to abort the attempt.</source>
+          <target state="translated">기간이 지난 후 시도를 중단할입니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Retrieves the list of activity that is blocking the update of the workflow.</source>
+          <target state="translated">워크플로 업데이트를 차단 하는 활동의 목록을 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The deserialized runtime state.</source>
+          <target state="translated">역직렬화 된 런타임 상태입니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The update map.</source>
+          <target state="translated">업데이트 맵을 합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The list of activity that is blocking the update.</source>
+          <target state="translated">목록에서 업데이트를 차단 하는 활동입니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets or sets the root environment for the workflow instance’s arguments and variables.</source>
+          <target state="translated">워크플로 인스턴스의 인수 및 변수에 대 한 루트 환경을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is set after the workflow instance is initialized and &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt; returns <ph id="ph1">`true`</ph>, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">워크플로 인스턴스를 초기화 한 후이 속성을 설정 하는 경우 및 &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;반환 <ph id="ph1">`true`</ph>, &lt;xref:System.InvalidOperationException&gt;throw 됩니다.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The root environment for the workflow instance’s arguments and variables.</source>
+          <target state="translated">워크플로 인스턴스의 인수 및 변수에 대 한 루트 환경입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the unique identifier for the workflow instance.</source>
+          <target state="translated">워크플로 인스턴스의 고유 식별자를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The unique identifier for the workflow instance.</source>
+          <target state="translated">워크플로 인스턴스의 고유 식별자입니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Called by the host to initialize the workflow instance with the workflow run-time state.</source>
+          <target state="translated">워크플로 런타임 상태와 워크플로 인스턴스를 초기화 하기 위해 호스트에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The run-time state used to execute the workflow.</source>
+          <target state="translated">워크플로 실행 하는 데 런타임 상태입니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Called by the host to initialize the workflow instance with the argument values and execution properties.</source>
+          <target state="translated">인수 값과 실행 속성을 사용 하 여 워크플로 인스턴스를 초기화 하기 위해 호스트에서 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The input parameters to the workflow, keyed by argument name.</source>
+          <target state="translated">인수 이름으로 키가 지정 된 워크플로 입력된 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The list of workflow execution properties.</source>
+          <target state="translated">목록 워크플로 실행 속성입니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Called by the host to initialize the workflow instance with the workflow run-time state and update map.</source>
+          <target state="translated">워크플로 런타임 상태와 워크플로 인스턴스를 초기화 하 고 지도 업데이트 하기 위해 호스트에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The run-time state used to execute the workflow.</source>
+          <target state="translated">워크플로 실행 하는 데 런타임 상태입니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The update map.</source>
+          <target state="translated">업데이트 맵을 합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the workflow instance has been initialized.</source>
+          <target state="translated">워크플로 인스턴스가 초기화 되었는지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the workflow instance has been initialized; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>워크플로 인스턴스가 초기화 되었으면; 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that new instance keys should be associated with this instance.</source>
+          <target state="translated">새 인스턴스 키를이 인스턴스와 연결 해야 함을 호스트에 알리기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The instance keys to associate with this workflow instance.</source>
+          <target state="translated">이 워크플로 인스턴스와 연결할 인스턴스 키입니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation completes.</source>
+          <target state="translated">작업이 완료 될 때 호출 될 메서드.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An optional application-specific object that contains information about the asynchronous operation.</source>
+          <target state="translated">비동기 작업에 대 한 정보를 포함 하는 선택적 응용 프로그램 관련 개체입니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A reference to the asynchronous associate keys operation.</source>
+          <target state="translated">에 대 한 참조는 비동기 연결 키 작업입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Asynchronous call to ask host to flush pending tracking records to tracking participants.</source>
+          <target state="translated">보류 중인 추적 레코드를 추적 참가자에 게 플러시하도록 호스트에 요청을 비동기 호출입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The method to be called when the track operation has completed.</source>
+          <target state="translated">추적 작업이 완료 되었을 때 호출 될 메서드.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The information about the asynchronous operation.</source>
+          <target state="translated">비동기 작업에 대 한 정보입니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The status of the current track operation.</source>
+          <target state="translated">현재 추적 작업의 상태입니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Asynchronous call to ask the host to persist the workflow.</source>
+          <target state="translated">호스트에 워크플로 지 속하도록 요청 하는 비동기 호출입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The method to be called when the persist operation has completed.</source>
+          <target state="translated">지속 작업이 완료 되었을 때 호출 될 메서드.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An optional application-specific object that contains information about the asynchronous operation.</source>
+          <target state="translated">비동기 작업에 대 한 정보를 포함 하는 선택적 응용 프로그램 관련 개체입니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A reference to the current persist operation.</source>
+          <target state="translated">에 대 한 참조를 현재 지속 작업입니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a resume bookmark operation is beginning.</source>
+          <target state="translated">책갈피 다시 시작 작업이 시작 하 고 호스트에 알리기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The bookmark to resume.</source>
+          <target state="translated">다시 시작 하는 책갈피입니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The data to be passed to the activity that created the <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">만든 작업에 전달할 데이터의 <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The interval in which the resume operation must complete before the operation is canceled and a &lt;xref:System.TimeoutException&gt; is thrown.</source>
+          <target state="translated">다시 시작 작업을 완료 해야 작업을 취소 하기 전에 간격 &lt;xref:System.TimeoutException&gt;throw 됩니다.&lt;/xref:System.TimeoutException&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The method to be called when the resume operation has completed.</source>
+          <target state="translated">다시 시작 작업이 완료 되 면 호출 될 메서드.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An optional application-specific object that contains information about the asynchronous operation.</source>
+          <target state="translated">비동기 작업에 대 한 정보를 포함 하는 선택적 응용 프로그램 관련 개체입니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A reference to the asynchronous resume operation.</source>
+          <target state="translated">비동기 다시 시작 작업에 대 한 참조입니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a certain set of instance keys should no longer be associated with this instance.</source>
+          <target state="translated">특정 인스턴스 키 집합을 더 이상 되도록이 인스턴스에 연결 된 호스트에 알리기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The list of keys to disassociate.</source>
+          <target state="translated">연결을 끊을 키의 목록입니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that an associate keys operation is complete.</source>
+          <target state="translated">연결 키 작업이 완료 되었음을 호스트에 알리기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The reference to the asynchronous associate keys operation.</source>
+          <target state="translated">연결 키 작업을 비동기 작업에 대 한 참조입니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host when the flush tracking records operation is complete.</source>
+          <target state="translated">추적 레코드 플러시 작업이 완료 되 면 호스트에 알리기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The status of the asynchronous flush tracking records operation.</source>
+          <target state="translated">비동기 추적 레코드 플러시 작업이의 상태입니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a persist operation is complete.</source>
+          <target state="translated">지속 작업이 완료 되었음을 호스트에 알리기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The reference to the asynchronous persist operation.</source>
+          <target state="translated">비동기에 대 한 참조 지속 작업입니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a resume bookmark operation is complete.</source>
+          <target state="translated">책갈피 다시 시작 작업이 완료 되었음을 호스트에 알리기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The reference to the asynchronous resume bookmark operation.</source>
+          <target state="translated">책갈피 다시 시작 비동기 작업에 대 한 참조입니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that indicates the result of a <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> resume operation.</source>
+          <target state="translated">결과 나타내는 열거형 값 중 하나는 <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 작업을 다시 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that the workflow instance has transitioned from the running state to the paused state.</source>
+          <target state="translated">워크플로 인스턴스가 실행 중인 상태에서 일시 중지 된 상태로 전환 된 호스트에 알리기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host an unhandled exception has occurred in the workflow instance.</source>
+          <target state="translated">워크플로 인스턴스에서 처리 되지 않은 예외가 발생 했음을 호스트에 알리기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The unhandled exception.</source>
+          <target state="translated">처리 되지 않은 예외입니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The activity that threw the exception.</source>
+          <target state="translated">예외를 발생 시킨 작업입니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The unique identifier of the <bpt id="p1">&lt;xref href="System.Activities.ActivityInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the activity that threw the exception.</source>
+          <target state="translated">고유 식별자는 <bpt id="p1">&lt;xref href="System.Activities.ActivityInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 예외를 발생 시킨 활동이 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that an abort operation has been requested for the workflow instance.</source>
+          <target state="translated">워크플로 인스턴스에 대 한 중단 작업이 요청 되었습니다는 호스트에 알리기 위해 워크플로 런타임에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once OnRequestAbort is called, most &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; APIs except &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Abort%2A&gt; will throw an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">한 번 OnRequestAbort 라고, 대부분의 &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;Api &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Abort%2A&gt; &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt; 을 throw 합니다&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Abort%2A&gt; 를 제외 하 고&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is expected that after OnRequestAbort is called a host will trend toward a state in which it can satisfy the abort.</source>
+          <target state="translated">OnRequestAbort를 호출한 후 호스트가 중단을 충족 시킬 수 있는 상태로 전환 되어야 합니다 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The reason for aborting the workflow instance.</source>
+          <target state="translated">워크플로 인스턴스의 중단에 대 한 설명입니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Called by the host to register the specified extension manager, validate that all required extensions are present, and to initialize the collection of extensions to be used.</source>
+          <target state="translated">지정한 확장명 관리자에 등록, 필요한 모든 확장이 있는지 확인 하 고 사용할 확장명 컬렉션을 초기화할 수는 호스트에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extensions are keyed by type, and a host provided extension will always be used if provided.</source>
+          <target state="translated">형식에 의해 확장 키 사용 및 호스트 제공 확장 제공 하는 경우 항상 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extensions added through &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt; use the runtime type of the object as the type key.</source>
+          <target state="translated">통해 추가 된 확장 &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;개체의 런타임 형식을 형식 키로 사용 합니다.&lt;/xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extensions providers added through &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt; use the decared type T of the Func<ph id="ph1">\&lt;</ph>T&gt; as the type key.</source>
+          <target state="translated">통해 추가 된 확장 공급자 &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;는 f 선언 된 형식 T를 사용 하 여<ph id="ph1">\&lt;</ph>T &gt;를 형식 키로.&lt;/xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extension providers contributed by activities through the various *ActivityMetadata.AddDefaultExtensionProvider methods are dropped if a host extension exists for the declared type or if there is a broader type provided through AddDefaultExtensionProvider (ex.</source>
+          <target state="translated">다양 한 * activitymetadata.adddefaultextensionprovider 메서드를 통해 작업에서 제공한 확장 공급자가 선언된 형식에 대 한 호스트 확장이 있는 경우 또는 (예를 들어, 통해 제공 된 보다 광범위 한 형식이 있는 경우 삭제 됩니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>if Func<ph id="ph1">\&lt;</ph>StreamWriter&gt; is provided and Func<ph id="ph2">\&lt;</ph>TextWriter&gt; is provided, only Func<ph id="ph3">\&lt;</ph>StreamWriter&gt; will be kept).</source>
+          <target state="translated">경우 Func<ph id="ph1">\&lt;</ph>StreamWriter &gt; 제공 및 Func<ph id="ph2">\&lt;</ph>TextWriter &gt; 제공만 Func<ph id="ph3">\&lt;</ph>StreamWriter &gt; 유지).</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an extension does not exist in the collection that is required by an activity (expressed by calling <ph id="ph1">\*</ph>ActivityMetadata.RequireExtension) a &lt;xref:System.Activities.ValidationException&gt; is thrown.</source>
+          <target state="translated">확장 작업에 필요한 컬렉션에 존재 하지 않는 경우 (호출 하 여 표현 <ph id="ph1">\*</ph>ActivityMetadata.RequireExtension)는 &lt;xref:System.Activities.ValidationException&gt;throw 됩니다.&lt;/xref:System.Activities.ValidationException&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The extension manager to register.</source>
+          <target state="translated">등록할 확장명 관리자입니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the host supports the association of &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt; with a run-time instance.</source>
+          <target state="translated">호스트의 연결을 지원 하는지 여부를 나타내는 값을 가져옵니다 &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;런타임에 인스턴스와.&lt;/xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the host supports the association of &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt; with a workflow instance; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>호스트의 연결을 지 원하는 경우 &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;워크플로 인스턴스와; 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.Threading.SynchronizationContext&gt; used for scheduling the workflow instance.</source>
+          <target state="translated">가져오거나는 &lt;xref:System.Threading.SynchronizationContext&gt;워크플로 인스턴스 예약에 사용 되는.&lt;/xref:System.Threading.SynchronizationContext&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is set after the workflow instance is initialized and &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt; returns <ph id="ph1">`true`</ph>, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">워크플로 인스턴스를 초기화 한 후이 속성을 설정 하는 경우 및 &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;반환 <ph id="ph1">`true`</ph>, &lt;xref:System.InvalidOperationException&gt;throw 됩니다.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The synchronization context used for scheduling the workflow instance.</source>
+          <target state="translated">워크플로 인스턴스 예약에 사용 되는 동기화 컨텍스트.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Throws an &lt;xref:System.InvalidOperationException&gt; if the workflow instance has been initialized, as determined by &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly*&gt;.</source>
+          <target state="translated">&lt;xref:System.InvalidOperationException&gt;워크플로 인스턴스에 있으면 초기화 된 &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly*&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly*&gt; 기준으로&lt;/xref:System.InvalidOperationException&gt; 발생 시킵니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt; returns <ph id="ph1">`true`</ph>, then an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">경우 &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;반환 <ph id="ph1">`true`</ph>, 아니라면 &lt;xref:System.InvalidOperationException&gt;throw 됩니다.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets the workflow definition of the workflow instance.</source>
+          <target state="translated">워크플로 인스턴스의 워크플로 정을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The workflow definition of the workflow instance.</source>
+          <target state="translated">워크플로 인스턴스의 워크플로 정의입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
