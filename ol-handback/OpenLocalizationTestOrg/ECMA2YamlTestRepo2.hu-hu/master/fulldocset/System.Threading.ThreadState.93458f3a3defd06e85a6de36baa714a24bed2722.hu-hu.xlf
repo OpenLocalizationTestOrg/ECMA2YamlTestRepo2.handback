@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">743b00cae26b2222671c6733ec6673f60a6aa7b5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Threading.ThreadState.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4339ccc806e16bb613901c0fedb2568b5da50f14</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b58d0f8f571e866a50256a8fec82b65b3451b6b2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the execution states of a <bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Adja meg a végrehajtási állapotát egy <bpt id="p1">&lt;xref href="System.Threading.Thread"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ThreadState enumeration is of interest only in a few debugging scenarios.</source>
+          <target state="translated">Csak néhány jelentőséggel bír az ThreadState enumerálás forgatókönyvek hibakeresést.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your code should never use the thread state to synchronize the activities of threads.</source>
+          <target state="translated">A kód soha ne használja a szál állapota szálak tevékenységeit szinkronizálásához.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ThreadState defines a set of all possible execution states for threads.</source>
+          <target state="translated">ThreadState szálak minden lehetséges végrehajtási állapotai álló készletet határoz meg.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a thread is created, it is in at least one of the states until it terminates.</source>
+          <target state="translated">A szál létrehozása után is a állapotok közül legalább egy mindaddig, amíg a rendszer megszakítja.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Threads created within the common language runtime are initially in the <ph id="ph1">`Unstarted`</ph> state, while external threads that come into the runtime are already in the <ph id="ph2">`Running`</ph> state.</source>
+          <target state="translated">A közös nyelvi futtatókörnyezet belül létrehozott szálak kezdetben a rendszer a <ph id="ph1">`Unstarted`</ph> állapotba kerül, amíg külső szálak, amelyek a futtatókörnyezet már szerepel a <ph id="ph2">`Running`</ph> állapotát.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An <ph id="ph1">`Unstarted`</ph> thread is transitioned into the <ph id="ph2">`Running`</ph> state by calling &lt;xref:System.Threading.Thread.Start%2A&gt;.</source>
+          <target state="translated">Egy <ph id="ph1">`Unstarted`</ph> szál átállítva van a <ph id="ph2">`Running`</ph> &lt;xref:System.Threading.Thread.Start%2A&gt;.&lt;/xref:System.Threading.Thread.Start%2A&gt; meghívásával állapot</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Not all combinations of <ph id="ph1">`ThreadState`</ph> values are valid; for example, a thread cannot be in both the <ph id="ph2">`Aborted`</ph> and <ph id="ph3">`Unstarted`</ph> states.</source>
+          <target state="translated">Nem minden kombinációi <ph id="ph1">`ThreadState`</ph> értékek érvényesek; például a szál nem mind a <ph id="ph2">`Aborted`</ph> és <ph id="ph3">`Unstarted`</ph> állapotok.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  There are two thread state enumerations,ThreadState and &lt;xref:System.Diagnostics.ThreadState?displayProperty=fullName&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Két szál állapota számbavételek, ThreadState és &lt;xref:System.Diagnostics.ThreadState?displayProperty=fullName&gt;.&lt;/xref:System.Diagnostics.ThreadState?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the actions that cause a change of state.</source>
+          <target state="translated">Az alábbi táblázat a műveletek állapotának változást okozó.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Action|ThreadState|   |------------|-----------------|   |A thread is created within the common language runtime.|Unstarted|   |Another thread calls the &lt;xref:System.Threading.Thread.Start%2A?displayProperty=fullName&gt; method on the new thread, and the call returns.</source>
+          <target state="translated">| A művelet |} ThreadState |}   |------------|-----------------|   | Egy szál a közös nyelvi futtatókörnyezet belül jön létre. |} Kezdett |}   | Egy másik szál hívások a &lt;xref:System.Threading.Thread.Start%2A?displayProperty=fullName&gt;metódust, és az új szál a hívás adja vissza.&lt;/xref:System.Threading.Thread.Start%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Threading.Thread.Start%2A&gt; method does not return until the new thread has started running.</source>
+          <target state="translated">A &lt;xref:System.Threading.Thread.Start%2A&gt;metódus nem ad vissza, amíg az új szál a futást megkezdte.&lt;/xref:System.Threading.Thread.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no way to know at what point the new thread will start running, during the call to &lt;xref:System.Threading.Thread.Start%2A&gt;.|Running|   |The thread calls &lt;xref:System.Threading.Thread.Sleep%2A&gt;|WaitSleepJoin|   |The thread calls &lt;xref:System.Threading.Monitor.Wait%2A&gt; on another object.|WaitSleepJoin|   |The thread calls &lt;xref:System.Threading.Thread.Join%2A&gt; on another thread.|WaitSleepJoin|   |Another thread calls &lt;xref:System.Threading.Thread.Interrupt%2A&gt;|Running|   |Another thread calls &lt;xref:System.Threading.Thread.Suspend%2A&gt;|SuspendRequested|   |The thread responds to a &lt;xref:System.Threading.Thread.Suspend%2A&gt; request.|Suspended|   |Another thread calls &lt;xref:System.Threading.Thread.Resume%2A&gt;|Running|   |Another thread calls &lt;xref:System.Threading.Thread.Abort%2A&gt;|AbortRequested|   |The thread responds to a &lt;xref:System.Threading.Thread.Abort%2A&gt; request.|Stopped|   |A thread is terminated.|Stopped|       In addition to the states noted above, there is also the <ph id="ph1">`Background`</ph> state, which indicates whether the thread is running in the background or foreground.</source>
+          <target state="translated">Nincs mód tudni, hogy milyen pontot az új szál kezdi fut, &lt;xref:System.Threading.Thread.Start%2A&gt;hívása során. |} Futó |}   | A szál hívások &lt;xref:System.Threading.Thread.Sleep%2A&gt;|} WaitSleepJoin |}   | A hívások &lt;xref:System.Threading.Monitor.Wait%2A&gt;egy másik objektumra. |} WaitSleepJoin |}   | A hívások &lt;xref:System.Threading.Thread.Join%2A&gt;egy másik szálon. |} WaitSleepJoin |}   | Egy másik szál hívások &lt;xref:System.Threading.Thread.Interrupt%2A&gt;|} Futó |}   | Egy másik szál hívások &lt;xref:System.Threading.Thread.Suspend%2A&gt;|} SuspendRequested |}   | A szál válaszol-e a &lt;xref:System.Threading.Thread.Suspend%2A&gt;kérelmet. |} Felfüggesztve |}   | Egy másik szál hívások &lt;xref:System.Threading.Thread.Resume%2A&gt;|} Futó |}   | Egy másik szál hívások &lt;xref:System.Threading.Thread.Abort%2A&gt;|} AbortRequested |}   | A szál válaszol-e a &lt;xref:System.Threading.Thread.Abort%2A&gt;kérelmet. |} Leállítva |}   | A szál megszakadt. |} Leállítva |}       A fent leírt állapotok, mellett is van a <ph id="ph1">`Background`</ph> állapotát, amely azt jelzi, hogy fut-e a szál az az előtérben vagy a háttérben.&lt;/xref:System.Threading.Thread.Abort%2A&gt; &lt;/xref:System.Threading.Thread.Abort%2A&gt; &lt;/xref:System.Threading.Thread.Resume%2A&gt; &lt;/xref:System.Threading.Thread.Suspend%2A&gt; &lt;/xref:System.Threading.Thread.Suspend%2A&gt; &lt;/xref:System.Threading.Thread.Interrupt%2A&gt; &lt;/xref:System.Threading.Thread.Join%2A&gt; &lt;/xref:System.Threading.Monitor.Wait%2A&gt; &lt;/xref:System.Threading.Thread.Sleep%2A&gt; &lt;/xref:System.Threading.Thread.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread can be in more than one state at a given time.</source>
+          <target state="translated">A szál egy adott időben egynél több állapota lehet.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if a thread is blocked on a call to &lt;xref:System.Threading.Monitor.Wait%2A&gt;, and another thread calls &lt;xref:System.Threading.Thread.Abort%2A&gt; on the blocked thread, the blocked thread will be in both the <ph id="ph1">`WaitSleepJoin`</ph> and the <ph id="ph2">`AbortRequested`</ph> states at the same time.</source>
+          <target state="translated">Például, ha a szál hívása blokkolva van &lt;xref:System.Threading.Monitor.Wait%2A&gt;, és egy másik szál hívások &lt;xref:System.Threading.Thread.Abort%2A&gt;a letiltott szálon a letiltott szál mindkét lesz a <ph id="ph1">`WaitSleepJoin`</ph> és a <ph id="ph2">`AbortRequested`</ph> állapotok egy időben.&lt;/xref:System.Threading.Thread.Abort%2A&gt; &lt;/xref:System.Threading.Monitor.Wait%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, as soon as the thread returns from the call to &lt;xref:System.Threading.Monitor.Wait%2A&gt; or is interrupted, it will receive the &lt;xref:System.Threading.ThreadAbortException&gt; to begin aborting.</source>
+          <target state="translated">Ebben az esetben, amint a szál ad vissza, a hívást &lt;xref:System.Threading.Monitor.Wait%2A&gt;, vagy nem szakítható meg, hogy megkapják a &lt;xref:System.Threading.ThreadAbortException&gt;megkezdéséhez megszakítása.&lt;/xref:System.Threading.ThreadAbortException&gt; &lt;/xref:System.Threading.Monitor.Wait%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Threading.Thread.ThreadState%2A?displayProperty=fullName&gt; property of a thread provides the current state of a thread.</source>
+          <target state="translated">A &lt;xref:System.Threading.Thread.ThreadState%2A?displayProperty=fullName&gt;tulajdonság egy szál biztosít a szál aktuális állapotával.&lt;/xref:System.Threading.Thread.ThreadState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applications must use a bitmask to determine whether a thread is running.</source>
+          <target state="translated">Alkalmazások meghatározása, hogy fut-e a szál bitmaszknak kell használnia.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Since the value for <ph id="ph1">`Running`</ph> is zero (0), test whether a thread is running by using C# code such as <ph id="ph2">`(myThread.ThreadState &amp; (ThreadState.Stopped | ThreadState.Unstarted)) == 0`</ph> or Visual Basic code such as <ph id="ph3">`(myThread.ThreadState And (ThreadState.Stopped Or ThreadState.Unstarted)) = 0`</ph>.</source>
+          <target state="translated">Óta értéke <ph id="ph1">`Running`</ph> nulla (0), akkor ellenőrizze, hogy a szál fut, mint a C#-kódban <ph id="ph2">`(myThread.ThreadState &amp; (ThreadState.Stopped | ThreadState.Unstarted)) == 0`</ph> , illetve többek között a Visual Basic kód <ph id="ph3">`(myThread.ThreadState And (ThreadState.Stopped Or ThreadState.Unstarted)) = 0`</ph>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The thread state includes AbortRequested and the thread is now dead, but its state has not yet changed to Stopped.</source>
+          <target state="translated">A szál állapota tartalmaz AbortRequested és a szál elhalt, de az állapotot még nem módosult leállítva.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.Abort%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method has been invoked on the thread, but the thread has not yet received the pending <bpt id="p1">&lt;xref href="System.Threading.ThreadAbortException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that will attempt to terminate it.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.Abort%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> módszert alkalmazzák a szálban, de a szálat még nem fogadták a függőben lévő <bpt id="p1">&lt;xref href="System.Threading.ThreadAbortException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely megkísérli leállítani azt.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The thread is being executed as a background thread, as opposed to a foreground thread.</source>
+          <target state="translated">A szál végrehajtott, a háttérszálon, szemben az előtérben történő szálnak.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This state is controlled by setting the <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.IsBackground%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property.</source>
+          <target state="translated">Ez az állapot beállítása szabályozza a <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.IsBackground%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> tulajdonság.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The thread has been started, it is not blocked, and there is no pending <bpt id="p1">&lt;xref href="System.Threading.ThreadAbortException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A szál már elindult, nem le van tiltva, és nem a függőben lévő <bpt id="p1">&lt;xref href="System.Threading.ThreadAbortException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The thread has stopped.</source>
+          <target state="translated">A szál leállt.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The thread is being requested to stop.</source>
+          <target state="translated">A szál leállítására vonatkozó kérelem.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is for internal use only.</source>
+          <target state="translated">Ez a folyamat csak belső használatra.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The thread has been suspended.</source>
+          <target state="translated">A szál fel lett függesztve.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The thread is being requested to suspend.</source>
+          <target state="translated">A szál felfüggesztésére vonatkozó kérelem.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.Start%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method has not been invoked on the thread.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.Start%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metódus nem hivatkoznak a szálban.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The thread is blocked.</source>
+          <target state="translated">A szál le van tiltva.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This could be the result of calling <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.Sleep%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> or <ph id="ph3">&amp;lt;</ph>xref:System.Threading.Thread.Join%2A?displayProperty=fullName<ph id="ph4">&amp;gt;</ph>, of requesting a lock — for example, by calling <ph id="ph5">&amp;lt;</ph>xref:System.Threading.Monitor.Enter%2A?displayProperty=fullName<ph id="ph6">&amp;gt;</ph> or <ph id="ph7">&amp;lt;</ph>xref:System.Threading.Monitor.Wait%2A?displayProperty=fullName<ph id="ph8">&amp;gt;</ph> — or of waiting on a thread synchronization object such as &lt;xref:System.Threading.ManualResetEvent&gt;.</source>
+          <target state="translated">Ennek oka lehet az eredménye hívása <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Thread.Sleep%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> vagy <ph id="ph3">&amp;lt;</ph>xref:System.Threading.Thread.Join%2A?displayProperty=fullName<ph id="ph4">&amp;gt;</ph>, a zárolási kérelmező – például meghívásával <ph id="ph5">&amp;lt;</ph>xref:System.Threading.Monitor.Enter%2A?displayProperty=fullName<ph id="ph6">&amp;gt;</ph> , vagy <ph id="ph7">&amp;lt;</ph>xref:System.Threading.Monitor.Wait%2A?displayProperty=fullName<ph id="ph8">&amp;gt;</ph> – vagy &lt;xref:System.Threading.ManualResetEvent&gt;.&lt;/xref:System.Threading.ManualResetEvent&gt; például szál szinkronizálási objektumra Várakozás</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
