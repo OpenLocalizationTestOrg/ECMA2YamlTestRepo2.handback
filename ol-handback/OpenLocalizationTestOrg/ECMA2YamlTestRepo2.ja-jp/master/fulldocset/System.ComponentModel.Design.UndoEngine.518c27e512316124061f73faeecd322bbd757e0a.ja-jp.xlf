@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81b05796a739bacecb2b4767c2e09a967faf0c94</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.UndoEngine.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9523cef1592ec09e6833410fa1afee4d8d76d41f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e645f4fc50a72e0c2ff000e207f782eb1d17c5e2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies generic undo/redo functionality at design time.</source>
+          <target state="translated">デザイン時に、汎用の元に戻す/やり直し機能を指定します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The UndoEngine abstract class provides a default implementation of undo functionality at design time.</source>
+          <target state="translated">UndoEngine 抽象クラスでは、デザイン時に元に戻す機能の既定の実装を提供します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>An undo unit represents a single unit of undoable work.</source>
+          <target state="translated">元に戻す単位では、単一の取り消し可能な作業単位を表します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This unit is added to a stack and the user can then walk the stack to undo each action.</source>
+          <target state="translated">スタックにこのユニットが追加され、ユーザーは、各アクションを元に戻すスタックをたどってことができます。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Undo units typically are designed to toggle, which means that calling undo twice returns the application to its starting state.</source>
+          <target state="translated">元に戻すユニット通常が設計に切り替えるには、その呼び出し元に戻すが&amp;2; 回開始状態にアプリケーションを取得することを意味します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The UndoEngine class takes advantage of the following characteristics of objects running within the designer:      -   All interesting objects can be persisted to some format by the designer loader.</source>
+          <target state="translated">UndoEngine クラスをデザイナー内で実行されているオブジェクトの次の特性の活用:: すべてのデザイナー ローダーによって、何らかの形式に永続化できるオブジェクトを興味深いです。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   All objects raise property-change notifications when a property is changed.</source>
+          <target state="translated">-すべてのオブジェクトは、プロパティが変更されたときに、プロパティ変更通知を生成します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; offers the idea of transactions, which can be used to fabricate an undo action that spans multiple smaller actions.</source>
+          <target state="translated">-&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;にまたがる複数の小規模なアクションを元に戻すアクションを作成するために使用するトランザクションの概念を提供しています&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>With these features, UndoEngine can fabricate any undo units it needs automatically.</source>
+          <target state="translated">これらの機能では、UndoEngine は自動的に必要なすべての元に戻す単位を作成できます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Do not change property values directly.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; プロパティの値を直接変更できません。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The UndoEngine class requires you to use the appropriate &lt;xref:System.ComponentModel.TypeDescriptor&gt; to change property values.</source>
+          <target state="translated">UndoEngine クラスでは、適切なを使用する必要があります&lt;xref:System.ComponentModel.TypeDescriptor&gt;プロパティ値を変更します&lt;/xref:System.ComponentModel.TypeDescriptor&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>UndoEngine monitors for change notifications to create undo units, and the units themselves consist of serialized object states.</source>
+          <target state="translated">変更通知の作成を UndoEngine モニターがユニットでは元に戻すし、自体ユニットは、シリアル化されたオブジェクトの状態で構成されます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The following table shows the services that must be available when UndoEngine is created.</source>
+          <target state="translated">次の表は、UndoEngine が作成されるときに使用する必要があるサービスを示します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;|Saves property and object values for a component before and after a change is made.|   |&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;|Notifies the undo engine of changes made to components.|   |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|Used to track transactions.|      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because the UndoEngine class requires &lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt; and &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;, it is available only at design time.</source>
+          <target state="translated">|サービス |説明 |  |-------------|-----------------|  |&lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;|前に、と変更が加えられた後に、コンポーネントのプロパティとオブジェクトの値を保存します |。  |&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;|コンポーネントに加えられた変更を元に戻すエンジンに通知します |。  |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|トランザクションを追跡するために使用します |。     &gt; <ph id="ph1">[!NOTE]</ph> &gt; UndoEngine クラスが必要であるため&lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;と&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;はデザイン時にのみ使用します&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt;&lt;/xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt;&lt;/xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The undo engine tracks transactions and creates a single undo unit that encompasses a transaction.</source>
+          <target state="translated">元に戻すエンジンは、トランザクションを追跡し、トランザクションを含む単一の取り消し単位を作成します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>As a result, the undo engine has control over the duration of an undoable action.</source>
+          <target state="translated">その結果、元に戻すエンジンは、取り消し可能なアクションの期間にわたってコントロールを持ちます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Also, because transactions can be named, undoable actions inherit their names from the current transaction.</source>
+          <target state="translated">また、トランザクションの名前を指定できます、ため取り消し可能なアクションは、現在のトランザクションから名前を継承します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If no transaction is available and a change is reported, the undo engine creates an undo name based on the type of change (for example, "Change property 'Text'").</source>
+          <target state="translated">使用できるトランザクションがないと、変更が報告された、元に戻すエンジンは、元に戻す名 (たとえば、「プロパティの変更 'Text'」) の変更の種類に基づいて作成します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.UndoEngine&gt; requires several services from the <ph id="ph1">`provider`</ph> parameter to be useful.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.UndoEngine&gt;からいくつかのサービスが必要です、<ph id="ph1">`provider`</ph>パラメーターを有効にします&lt;/xref:System.ComponentModel.Design.UndoEngine&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A parenting service provider.</source>
+          <target state="translated">親サービス プロバイダー。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A required service cannot be found.</source>
+          <target state="translated">必要なサービスが見つかりません。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for required services.</source>
+          <target state="translated">参照してください<bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>必要なサービスです。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you have removed this service, ensure that you provide a replacement.</source>
+          <target state="translated">このサービスを削除した場合は、代わりを指定することを確認します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Creates a new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.</source>
+          <target state="translated">新しい&lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;。&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;の作成します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default implementation of the CreateUndoUnit method simply returns a new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.</source>
+          <target state="translated">CreateUndoUnit メソッドの既定の実装では、新しい&lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;。&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;値を返します</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>By default, &lt;xref:System.ComponentModel.Design.UndoEngine&gt; does nothing with the <ph id="ph1">`primary`</ph> parameter, but some implementations of undo, such as those involving the COM <ph id="ph2">`Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit`</ph> design pattern, may need to identify the difference between a primary unit and its children.</source>
+          <target state="translated">既定では、&lt;xref:System.ComponentModel.Design.UndoEngine&gt;で何も行われません、<ph id="ph1">`primary`</ph>パラメーターは、元に戻すなど、COM に関係するの実装によって<ph id="ph2">`Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit`</ph>デザイン パターン、一次単位とその子の違いを確認する必要があります&lt;/xref:System.ComponentModel.Design.UndoEngine&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name of the unit to create.</source>
+          <target state="translated">作成する単位の名前。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create the first of a series of nested units; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to create subsequent nested units.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>一連の入れ子になったユニットです。 最初に作成するには<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>後続の入れ子になった単位を作成します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt; with a specified name.</source>
+          <target state="translated">新しい&lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;、指定した名前&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">によって使用されるすべてのリソースを解放、 <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">によって使用されるアンマネージ リソースを解放、 <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>し、必要に応じてマネージ リソースを解放します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>マネージ コードとアンマネージ リソースを解放するには<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>アンマネージ リソースだけを解放します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enables or disables the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">有効または無効にします<bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is enabled; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>が有効であるそれ以外の場合、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the requested service.</source>
+          <target state="translated">要求されたサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">取得するサービスの型。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The requested service, if found.</source>
+          <target state="translated">要求したサービス場合が見つかりました。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is required but cannot be found.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>必要ですが見つかりません。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you have removed this service, ensure that you provide a replacement.</source>
+          <target state="translated">このサービスを削除した場合は、代わりを指定することを確認します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets the requested service.</source>
+          <target state="translated">要求されたサービスを取得します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">取得するサービスの型。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The requested service, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the requested service is not found.</source>
+          <target state="translated">要求したサービスまたは<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要求されたサービスが見つからない場合。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undoing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">発生させる、 <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undoing"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;イベント データを格納します&lt;/xref:System.EventArgs&gt;。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">発生させる、 <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undone"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;イベント データを格納します&lt;/xref:System.EventArgs&gt;。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Occurs immediately before an undo action is performed.</source>
+          <target state="translated">元に戻す操作が実行される直前に発生します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Indicates if an undo action is in progress.</source>
+          <target state="translated">元に戻す操作が行われていることを示します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if an undo action is in progress; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合は、元に戻す操作が進行中です。それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Occurs immediately after an undo action is performed.</source>
+          <target state="translated">元に戻す操作が実行された直後後に発生します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The Undone event is always raised, even if an exception is thrown.</source>
+          <target state="translated">元に戻すイベントは、例外がスローされた場合でも常に発生します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
