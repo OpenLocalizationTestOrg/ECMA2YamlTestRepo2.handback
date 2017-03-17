@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">085ba39263569752ea39d9e26decce6f162e819f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xaml.Schema.XamlMemberInvoker.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d647680bd465f97abf04d528b55c23117c34dfb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5783c7cffc50fd29c379d18a1216fbb8f751b456</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an extension point that can access member characteristics of a XAML member through techniques other than reflection.</source>
+          <target state="translated">リフレクション以外の方法では XAML メンバーのメンバーの特性がアクセスできる拡張ポイントを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The purpose of XamlMemberInvoker is to enable an extensible XAML type system, schema, and a working run time that does not rely as fully on CLR features such as CLR attributes, reflection information through &lt;xref:System.Type&gt; and &lt;xref:System.Reflection.MemberInfo&gt;, and so on.</source>
+          <target state="translated">XamlMemberInvoker の目的は、拡張可能な XAML 型システム、スキーマ、および、動作中の CLR 属性を使用してリフレクション情報などの CLR 機能に完全に依存せずに実行を有効にする、&lt;xref:System.Type&gt;と&lt;xref:System.Reflection.MemberInfo&gt;のようにします&lt;/xref:System.Reflection.MemberInfo&gt;&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Subclasses of XamlMemberInvoker are used as input parameters for the alternate constructors of XAML schema classes such as &lt;xref:System.Xaml.XamlMember&gt;.</source>
+          <target state="translated">XamlMemberInvoker のサブクラスは&lt;xref:System.Xaml.XamlMember&gt;。&lt;/xref:System.Xaml.XamlMember&gt;などの XAML スキーマ クラスの別のコンス トラクターの入力パラメーターとして使用されます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You subclass &lt;xref:System.Xaml.XamlMember&gt; and pass the XamlMemberInvoker through to the base constructor.</source>
+          <target state="translated">サブクラス&lt;xref:System.Xaml.XamlMember&gt;を通じて XamlMemberInvoker を基底コンス トラクターに渡します&lt;/xref:System.Xaml.XamlMember&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Along with defining a XamlMemberInvoker for the constructor, you must also provide overrides for at least some of the <ph id="ph1">`Lookup`</ph> methods of &lt;xref:System.Xaml.XamlMember&gt;.</source>
+          <target state="translated">と共にコンス トラクターの XamlMemberInvoker を定義する必要がありますも指定する用の上書きには、少なくともいくつかの<ph id="ph1">`Lookup`</ph>&lt;xref:System.Xaml.XamlMember&gt;&lt;/xref:System.Xaml.XamlMember&gt;メソッド。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>XamlMemberInvoker has a default implementation.</source>
+          <target state="translated">XamlMemberInvoker が既定の実装です。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The default implementation follows a similar model to the default implementation of XAML schema types &lt;xref:System.Xaml.XamlType&gt; and &lt;xref:System.Xaml.XamlMember&gt;: the CLR type system is used for instantiation, values and lookups, including using CLR attributes, &lt;xref:System.Type&gt; and &lt;xref:System.Reflection.MemberInfo&gt;, and so on.</source>
+          <target state="translated">既定の実装では、類似のモデルを XAML スキーマの種類の既定の実装に依存&lt;xref:System.Xaml.XamlType&gt;と&lt;xref:System.Xaml.XamlMember&gt;: インスタンス化、値、および CLR 属性の使用を含む、参照の CLR 型システムを使用&lt;xref:System.Type&gt;と&lt;xref:System.Reflection.MemberInfo&gt;のようにします&lt;/xref:System.Reflection.MemberInfo&gt;&lt;/xref:System.Type&gt;&lt;/xref:System.Xaml.XamlMember&gt;&lt;/xref:System.Xaml.XamlType&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>XamlMemberInvoker provides methods for basic get and set operations (&lt;xref:System.Xaml.Schema.XamlMemberInvoker.GetValue%2A&gt;; &lt;xref:System.Xaml.Schema.XamlMemberInvoker.SetValue%2A&gt;).</source>
+          <target state="translated">XamlMemberInvoker は、基本的な get および set 操作 (&lt;xref:System.Xaml.Schema.XamlMemberInvoker.GetValue%2A&gt;; のためのメソッドを提供します。&lt;xref:System.Xaml.Schema.XamlMemberInvoker.SetValue%2A&gt;).&lt;/xref:System.Xaml.Schema.XamlMemberInvoker.SetValue%2A&gt;&lt;/xref:System.Xaml.Schema.XamlMemberInvoker.GetValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It also provides the properties &lt;xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingGetter%2A&gt; and &lt;xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingSetter%2A&gt;, but these are not virtual.</source>
+          <target state="translated">プロパティも用意されています&lt;xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingGetter%2A&gt;と&lt;xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingSetter%2A&gt;、これらは仮想ではありませんが。&lt;/xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingSetter%2A&gt; &lt;/xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingGetter%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It may be possible to obtain a XamlMemberInvoker value that represents a XAML directive, which is implemented as a private class in the System.Xaml implementation.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; System.Xaml 実装では、プライベート クラスとして実装されている XAML ディレクティブを表す XamlMemberInvoker 値を取得する可能性があります。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you attempt to call &lt;xref:System.Xaml.Schema.XamlMemberInvoker.GetValue%2A&gt; or &lt;xref:System.Xaml.Schema.XamlMemberInvoker.SetValue%2A&gt; on this invoker, an exception is thrown.</source>
+          <target state="translated">呼び出すしようとすると&lt;xref:System.Xaml.Schema.XamlMemberInvoker.GetValue%2A&gt;または&lt;xref:System.Xaml.Schema.XamlMemberInvoker.SetValue%2A&gt;この呼び出し元に、例外がスローされます&lt;/xref:System.Xaml.Schema.XamlMemberInvoker.SetValue%2A&gt;&lt;/xref:System.Xaml.Schema.XamlMemberInvoker.GetValue%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The default implementation is empty.</source>
+          <target state="translated">既定の実装は空です。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This constructor is invoked internally to provide a value for &lt;xref:System.Xaml.Schema.XamlMemberInvoker.UnknownInvoker%2A&gt;.</source>
+          <target state="translated">このコンス トラクターが&lt;xref:System.Xaml.Schema.XamlMemberInvoker.UnknownInvoker%2A&gt;.&lt;/xref:System.Xaml.Schema.XamlMemberInvoker.UnknownInvoker%2A&gt;の値を指定するに内部的に呼び出されます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For a &lt;xref:System.Xaml.Schema.XamlMemberInvoker&gt; subclass, it is expected that you either use the &lt;xref:System.Xaml.Schema.XamlMemberInvoker.%23ctor%28System.Xaml.XamlMember%29&gt; signature for construction or provide an override that calls &lt;xref:System.Xaml.Schema.XamlMemberInvoker.%23ctor%28System.Xaml.XamlMember%29&gt; as base.</source>
+          <target state="translated">&lt;xref:System.Xaml.Schema.XamlMemberInvoker&gt;サブクラスは、いずれかを使用することを想定して、&lt;xref:System.Xaml.Schema.XamlMemberInvoker.%23ctor%28System.Xaml.XamlMember%29&gt;署名を作成するためオーバーライドを呼び出すを提供または&lt;xref:System.Xaml.Schema.XamlMemberInvoker.%23ctor%28System.Xaml.XamlMember%29&gt;ベースとして&lt;/xref:System.Xaml.Schema.XamlMemberInvoker.%23ctor%28System.Xaml.XamlMember%29&gt;&lt;/xref:System.Xaml.Schema.XamlMemberInvoker.%23ctor%28System.Xaml.XamlMember%29&gt;&lt;/xref:System.Xaml.Schema.XamlMemberInvoker&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Providing the &lt;xref:System.Xaml.XamlMember&gt; implements a default pattern where &lt;xref:System.Xaml.Schema.XamlMemberInvoker&gt; is immutable.</source>
+          <target state="translated">提供する、&lt;xref:System.Xaml.XamlMember&gt;既定の実装パターン where&lt;xref:System.Xaml.Schema.XamlMemberInvoker&gt;は変更できません&lt;/xref:System.Xaml.Schema.XamlMemberInvoker&gt;&lt;/xref:System.Xaml.XamlMember&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, based on a provided <bpt id="p2">&lt;xref href="System.Xaml.XamlMember"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>に基づいて、指定されたクラス<bpt id="p2">&lt;xref href="System.Xaml.XamlMember"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This constructor is called internally based on the &lt;xref:System.Xaml.XamlMember&gt; where the &lt;xref:System.Xaml.Schema.XamlMemberInvoker&gt; is used for construction.</source>
+          <target state="translated">このコンス トラクターは内部でに基づいてと呼ばれる、&lt;xref:System.Xaml.XamlMember&gt;場所、&lt;xref:System.Xaml.Schema.XamlMemberInvoker&gt;構築に使用します&lt;/xref:System.Xaml.Schema.XamlMemberInvoker&gt;&lt;/xref:System.Xaml.XamlMember&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlMember"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the specific XAML member relevant to this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xaml.XamlMember"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>これに関連する特定の XAML メンバーに対する値<bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;member&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;member&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets a value of the relevant property from an instance.</source>
+          <target state="translated">インスタンスから関連するプロパティの値を取得します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An instance of the owner type for the member.</source>
+          <target state="translated">メンバーの所有者の型のインスタンス。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The requested property value.</source>
+          <target state="translated">要求されたプロパティの値。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Invoked this method on a <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is based on an unknown <bpt id="p2">&lt;xref href="System.Xaml.XamlMember"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">このメソッドを呼び出す、 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>不明に基づく<bpt id="p2">&lt;xref href="System.Xaml.XamlMember"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       Invoked this method on a write-only member.</source>
+          <target state="translated"><bpt id="p1">**</bpt>- または -<ept id="p1">**</ept>書き込み専用のメンバーでは、このメソッドを呼び出されます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       &lt;xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingGetter*&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       &lt;xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingGetter*&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingGetter*&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Sets a value of the relevant property on an instance.</source>
+          <target state="translated">インスタンスの関連するプロパティの値を設定します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An instance of the owner type for the member.</source>
+          <target state="translated">メンバーの所有者の型のインスタンス。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The property value to set.</source>
+          <target state="translated">設定するプロパティ値です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Invoked this method on a <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is based on an unknown <bpt id="p2">&lt;xref href="System.Xaml.XamlMember"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">このメソッドを呼び出す、 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>不明に基づく<bpt id="p2">&lt;xref href="System.Xaml.XamlMember"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       Invoked this method on a read-only member.</source>
+          <target state="translated"><bpt id="p1">**</bpt>- または -<ept id="p1">**</ept>読み取り専用のメンバーでは、このメソッドが呼び出されます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       &lt;xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingSetter*&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       &lt;xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingSetter*&gt; is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.Schema.XamlMemberInvoker.UnderlyingSetter*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Indicates whether the value needs to be persisted by serialization processes.</source>
+          <target state="translated">値がシリアル化プロセスによって永続化する必要があるかどうかを示します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default implementation returns &lt;xref:System.Xaml.Schema.ShouldSerializeResult&gt; if the XAML member itself is &lt;xref:System.Xaml.XamlMember.IsUnknown%2A&gt;, or if no CLR-reflection relevant <ph id="ph1">`ShouldSerialize`</ph> method is found on the underlying member through default reflection.</source>
+          <target state="translated">既定の実装を返します&lt;xref:System.Xaml.Schema.ShouldSerializeResult&gt;XAML メンバー自体が場合&lt;xref:System.Xaml.XamlMember.IsUnknown%2A&gt;、かない CLR リフレクション関連<ph id="ph1">`ShouldSerialize`</ph>既定リフレクションを使用して基になるメンバー上のメソッドが存在します&lt;/xref:System.Xaml.XamlMember.IsUnknown%2A&gt;&lt;/xref:System.Xaml.Schema.ShouldSerializeResult&gt;。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The instance with the property to be examined for persistence.</source>
+          <target state="translated">永続化のため調査するプロパティを持つインスタンス。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A value of the enumeration.</source>
+          <target state="translated">列挙体の値です。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Reflection.MethodInfo&gt; for the CLR method that gets values for the property that is relevant for this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得、 &lt;xref:System.Reflection.MethodInfo&gt;CLR プロパティの値を取得するメソッドはこれに関連する<bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Reflection.MethodInfo&gt; 。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This property relies on calling &lt;xref:System.Xaml.XamlMember.LookupUnderlyingGetter%2A&gt; on the constructing &lt;xref:System.Xaml.XamlMember&gt;.</source>
+          <target state="translated">このプロパティは、&lt;xref:System.Xaml.XamlMember.LookupUnderlyingGetter%2A&gt;構築&lt;xref:System.Xaml.XamlMember&gt;。&lt;/xref:System.Xaml.XamlMember&gt;&lt;/xref:System.Xaml.XamlMember.LookupUnderlyingGetter%2A&gt;呼び出しに依存しています</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For an unknown &lt;xref:System.Xaml.XamlMember&gt;, or for cases where &lt;xref:System.Xaml.XamlMember.LookupUnderlyingGetter%2A&gt; returns <ph id="ph1">`null`</ph>, this property returns <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">不明の&lt;xref:System.Xaml.XamlMember&gt;、場合や、&lt;xref:System.Xaml.XamlMember.LookupUnderlyingGetter%2A&gt;返します<ph id="ph1">`null`</ph>、このプロパティを返します<ph id="ph2">`null`</ph>&lt;/xref:System.Xaml.XamlMember.LookupUnderlyingGetter%2A&gt;&lt;/xref:System.Xaml.XamlMember&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Reflection.MethodInfo&gt; for the CLR method that gets values for the property that is relevant for this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Reflection.MethodInfo&gt;CLR プロパティの値を取得するメソッドはこれに関連する<bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、または<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.Reflection.MethodInfo&gt; 。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Reflection.MethodInfo&gt; for the CLR method that sets values for the property that is relevant for this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得、 &lt;xref:System.Reflection.MethodInfo&gt;CLR プロパティの値を設定するメソッドはこれに関連する<bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Reflection.MethodInfo&gt; 。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This property relies on calling &lt;xref:System.Xaml.XamlMember.LookupUnderlyingSetter%2A&gt; on the constructing &lt;xref:System.Xaml.XamlMember&gt;.</source>
+          <target state="translated">このプロパティは、&lt;xref:System.Xaml.XamlMember.LookupUnderlyingSetter%2A&gt;構築&lt;xref:System.Xaml.XamlMember&gt;。&lt;/xref:System.Xaml.XamlMember&gt;&lt;/xref:System.Xaml.XamlMember.LookupUnderlyingSetter%2A&gt;呼び出しに依存しています</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For an unknown &lt;xref:System.Xaml.XamlMember&gt;, or for cases where &lt;xref:System.Xaml.XamlMember.LookupUnderlyingSetter%2A&gt; returns <ph id="ph1">`null`</ph>, this property returns <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">不明なのため&lt;xref:System.Xaml.XamlMember&gt;、場合や、&lt;xref:System.Xaml.XamlMember.LookupUnderlyingSetter%2A&gt;返します<ph id="ph1">`null`</ph>、このプロパティを返します<ph id="ph2">`null`</ph>&lt;/xref:System.Xaml.XamlMember.LookupUnderlyingSetter%2A&gt;&lt;/xref:System.Xaml.XamlMember&gt;。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Reflection.MethodInfo&gt; for the CLR method that sets values for the property that is relevant for this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Reflection.MethodInfo&gt;CLR プロパティの値を設定するメソッドはこれに関連する<bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、または<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.Reflection.MethodInfo&gt; 。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Provides a static value that represents an unknown, not fully implemented <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">完全に実装されている、不明なを表す静的な値を提供<bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Supplying this value for a &lt;xref:System.Xaml.Schema.XamlMemberInvoker&gt; parameter of System.Xaml defined API will typically cause the called code to throw exceptions.</source>
+          <target state="translated">この値を指定する、 &lt;xref:System.Xaml.Schema.XamlMemberInvoker&gt;System.Xaml のパラメーターには、API が定義されている例外をスローすると呼ばれるコードを通常発生することです&lt;/xref:System.Xaml.Schema.XamlMemberInvoker&gt;。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A static value that represents an unknown, not fully implemented <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">静的な値を完全に実装されている、不明なを表す<bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlMemberInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
