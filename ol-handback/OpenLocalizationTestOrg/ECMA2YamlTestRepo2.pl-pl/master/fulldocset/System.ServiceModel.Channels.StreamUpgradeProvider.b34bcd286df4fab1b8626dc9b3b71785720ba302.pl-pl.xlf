@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">edefd2a2e5d76048d1e07021f0622752d20019e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Channels.StreamUpgradeProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b163bb91bcf34e913407dbbd8f25fe1f3e5f0c8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2445860506c3a5f46d1942357aba997cd28eee0b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements a custom upgrade provider, inherited from this <bpt id="p1">&lt;xref uid="langword_csharp_abstract" name="abstract" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> base class.</source>
+          <target state="translated">Implementuje niestandardowego dostawcy uaktualnienia, to odziedziczone <bpt id="p1">&lt;xref uid="langword_csharp_abstract" name="abstract" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy podstawowej.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a stream upgrade is to build a compression stream directly on top of the transport stream.</source>
+          <target state="translated">Przykład uaktualnienia strumienia to tworzenie skompresowanego strumienia bezpośrednio na strumienia transportowego.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add a security upgrade, you additionally implement a class that derives from &lt;xref:System.ServiceModel.Channels.StreamSecurityUpgradeProvider&gt;.</source>
+          <target state="translated">Aby dodać uaktualnienie zabezpieczeń, dodatkowo implementuje klasy, która jest pochodną &lt;xref:System.ServiceModel.Channels.StreamSecurityUpgradeProvider&gt;.&lt;/xref:System.ServiceModel.Channels.StreamSecurityUpgradeProvider&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement multiple upgrades, each wrapping the preceding one.</source>
+          <target state="translated">Można zaimplementować kilku uaktualnień każdego zawijania mieszanego.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The upgrade process has the following steps:      1.</source>
+          <target state="translated">Proces uaktualniania zawiera następujące kroki: 1.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement a class that derives from StreamUpgradeProvider.</source>
+          <target state="translated">Implementuje klasę, która jest pochodną obiekt StreamUpgradeProvider.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Register it.</source>
+          <target state="translated">Zarejestruj go.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do this by creating a binding element for it, and registering the provider in a custom binding.</source>
+          <target state="translated">W tym celu tworzenia elementu powiązania i rejestrowanie dostawcy do niestandardowego powiązania.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived class that you implement creates an instance of &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;, which at run time initiates a request to the other end of its connection to upgrade the channel transport layer.</source>
+          <target state="translated">Klasa pochodna, która zaimplementowaniem tworzy wystąpienie &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;, który w czasie wykonywania inicjuje żądanie na końcu połączenie do uaktualnienia kanału warstwy transportowej.&lt;/xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived class that you implement creates an instance of &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;, which at run time receives the upgrade request from the preceding step and, if possible, accepts the upgrade and returns the upgraded stream to the other side of its connection.</source>
+          <target state="translated">Klasa pochodna, która zaimplementowaniem tworzy wystąpienie &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;, który w czasie wykonywania odbiera żądanie uaktualnienia z poprzedniego kroku, jeśli to możliwe, akceptuje uaktualnienia i zwraca strumień uaktualnionego drugą stronę połączenia.&lt;/xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are additional upgrade requests, they are processed sequentially, as described in the preceding two steps.</source>
+          <target state="translated">Jeśli istnieją dodatkowe żądania uaktualnienia, są przetwarzane sekwencyjnie, zgodnie z opisem w dwa poprzednie kroki.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Time-out properties are set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Limit czasu właściwości są ustawione na <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The provided time-outs control the default Open and Close time-outs for a transport using this upgrade provider.</source>
+          <target state="translated">Podana limity czasu kontroli domyślnie otwierających i zamykających limitów czasu dla transportu przy użyciu tego dostawcy uaktualnienia.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The default communication time-outs.</source>
+          <target state="translated">Domyślnych limitów czasu komunikacji.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tworzy wystąpienie <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates the associated UpgradeAcceptor for this upgrade provider that can accept upgrade requests from the matching UpgradeInitiator.</source>
+          <target state="translated">Ta metoda tworzy skojarzone UpgradeAcceptor dla tego dostawcy uaktualnienia, który może zaakceptować żądania uaktualnienia z pasujących UpgradeInitiator.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Returns an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Zwraca wystąpienie klasy <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Creates an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tworzy wystąpienie <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates the associated &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt; for this upgrade provider that creates upgrade requests for the matching &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt; at the endpoint provided.</source>
+          <target state="translated">Ta metoda tworzy skojarzony &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;tego uaktualnienia dostawcy, który tworzy uaktualnienia żądania dla dopasowywania &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;na określony punkt końcowy.&lt;/xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt; &lt;/xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Endpoint address for the channel.</source>
+          <target state="translated">Adres punktu końcowego kanału.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The address of the Via URI (an intermediate URI through which communication may be routed).</source>
+          <target state="translated">Adres URI za pośrednictwem (pośredniego identyfikatora URI za pomocą których mogą być kierowane komunikacji).</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Zwraca wystąpienie klasy <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the DefaultCloseTimeout.</source>
+          <target state="translated">Pobiera DefaultCloseTimeout.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.TimeSpan&gt; for the DefaultCloseTimeout.</source>
+          <target state="translated">Zwraca &lt;xref:System.TimeSpan&gt;dla DefaultCloseTimeout.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the DefaultOpenTimeout.</source>
+          <target state="translated">Pobiera DefaultOpenTimeout.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.TimeSpan&gt; for the DefaultOpenTimeout.</source>
+          <target state="translated">Zwraca &lt;xref:System.TimeSpan&gt;dla DefaultOpenTimeout.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

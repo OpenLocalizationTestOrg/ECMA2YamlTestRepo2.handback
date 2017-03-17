@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0fbe1474b80238431b358b91c8f9c975727d6a40</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.SqlTypes.SqlFileStream.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dc5a7f78e1dd0214ffc36362f74e5067e216b77e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8bf291f2e6258e871507bc2ebacc0b09eb7747d7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Exposes SQL Server data that is stored with the FILESTREAM column attribute as a sequence of bytes.</source>
+          <target state="translated">A FILESTREAM oszlopattribútum bájt sorozatot tárolt SQL Server-adatok közzététele.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlFileStream class is used to work with <ph id="ph1">`varbinary(max)`</ph> data stored with the FILESTREAM attribute in a SQL Server 2008 database.</source>
+          <target state="translated">A SqlFileStream osztály használatával együttműködésre <ph id="ph1">`varbinary(max)`</ph> a FILESTREAM attribútum egy SQL Server 2008-adatbázisban tárolt adatok.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must install the .NET Framework 3.5 SP1 (or later) to use &lt;xref:System.Data.SqlTypes.SqlFileStream&gt; to work with FILESTREAM data.</source>
+          <target state="translated">Telepítenie kell a .NET-keretrendszer 3.5 SP1 (vagy újabb) használata &lt;xref:System.Data.SqlTypes.SqlFileStream&gt;FILESTREAM adatok.&lt;/xref:System.Data.SqlTypes.SqlFileStream&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifying the FILESTREAM attribute on a <ph id="ph1">`varbinary(max)`</ph> column causes SQL Server to store the data in the local NTFS file system instead of in the database file.</source>
+          <target state="translated">Adja meg a FILESTREAM attribútuma egy <ph id="ph1">`varbinary(max)`</ph> oszlop hatására az SQL Server a helyi NTFS fájlrendszer ahelyett, hogy az adatbázis-fájlban lévő adatok tárolásához.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Transact-SQL statements provide data manipulation capabilities within the server, and Win32 file system interfaces provide streaming access to the data.</source>
+          <target state="translated">Transact-SQL-utasítások adatok adatkezelési szolgáltatásokat a kiszolgáló, és Win32 fájl rendszer felületek adatfolyam férhetnek hozzá az adatokhoz.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Individual files stored in a FILESTREAM column cannot be opened directly from the NTFS file system.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Egy FILESTREAM-oszlop tárolt egyes fájlok nem lehet megnyitni az NTFS fájlrendszer-ről.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Streaming FILESTREAM data works only in the context of a SQL Server transaction.</source>
+          <target state="translated">Adatfolyam-FILESTREAM-adatokhoz csak egy SQL Server tranzakció környezetében működik.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlFileStream class is derived from the &lt;xref:System.IO.Stream&gt; class, which represents an abstraction of a sequence of bytes from some arbitrary data source such as a file or a block of memory.</source>
+          <target state="translated">A SqlFileStream osztály származik a &lt;xref:System.IO.Stream&gt;osztályt, amely az egyes tetszőleges adatforrások, például fájlt vagy egy memóriablokkjainak bájt sorozatát absztrakciós jelöli.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can read from a FILESTREAM by transferring data from a stream into a data structure such as an array of bytes.</source>
+          <target state="translated">A FILESTREAM olvasni adatok átvitele a folyam például bájttömb adatok struktúrába.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can write to a FILESTREAM by transferring the data from a data structure into a stream.</source>
+          <target state="translated">A FILESTREAM írni olyan adatszerkezet egy adatfolyamba való mentésre az adatok átvitelét.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also seek within the stream, which allows you to query and modify data at the current position within the stream.</source>
+          <target state="translated">A stream, amely lehetővé teszi lekérdezéséhez és módosíthatják az aktuális pozíció az adatfolyam belül adatokat belül is kérhet.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For conceptual documentation and code examples, see <bpt id="p1">[</bpt>FILESTREAM Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Fogalmi dokumentációjában és kódpéldák: <bpt id="p1">[</bpt>FILESTREAM adatok<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For documentation about setting up and configuring FILESTREAM data on SQL Server,  see <bpt id="p1">[</bpt>Designing and Implementing FILESTREAM Storage<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=121499)</ept> in SQL Server 2008 Books Online.</source>
+          <target state="translated">Beállítása és konfigurálása a FILESTREAM-adatokat az SQL Server dokumentációjában talál <bpt id="p1">[</bpt>megtervezése és végrehajtása FILESTREAM-tároló<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=121499)</ept> az SQL Server 2008 Books Online.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an exception is thrown, any open transactions should be rolled back.</source>
+          <target state="translated">Ha a rendszer kivételt hoz létre, nyitott tranzakciók kell állítható vissza.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, data loss can occur.</source>
+          <target state="translated">Ellenkező esetben előfordulhat adatvesztés.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The logical path to the file.</source>
+          <target state="translated">A logikai elérési utat a fájlhoz.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The path can be retrieved by using the Transact-SQL Pathname function on the underlying FILESTREAM column in the table.</source>
+          <target state="translated">Az elérési út lehet beolvasni az alapul szolgáló FILESTREAM oszlop a tábla a Transact-SQL Pathname függvény használatával.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The transaction context for the <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A tranzakció környezetben a <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Applications should return the byte array returned by calling the GET_FILESTREAM_TRANSACTION_CONTEXT method.</source>
+          <target state="translated">Alkalmazások a get_filestream_transaction_context függvényt metódus által visszaadott bájttömb kell visszaadnia.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The access mode to use when opening the file.</source>
+          <target state="translated">A fájl megnyitásakor használandó hozzáférési mód.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Supported <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values are <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Supported <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values are <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Read" name="FileAccess.Read" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object can be used to read all of the existing data.</source>
+          <target state="translated">Használata esetén <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Read" name="FileAccess.Read" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, a <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum segítségével olvassa el a meglévő adatok.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Write" name="FileAccess.Write" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> points to a zero byte file.</source>
+          <target state="translated">Használata esetén <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Write" name="FileAccess.Write" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> nulla bájt fájlra mutat.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Existing data will be overwritten when the object is closed and the transaction is committed.</source>
+          <target state="translated">Meglévő adatot felülír, amikor az objektum le van zárva, és a tranzakció.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.ReadWrite" name="FileAccess.ReadWrite" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> points to a file which has all the existing data in it.</source>
+          <target state="translated">Használata esetén <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.ReadWrite" name="FileAccess.ReadWrite" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, a <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> egy fájlra, amely rendelkezik az összes adat.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The handle is positioned at the beginning of the file.</source>
+          <target state="translated">A leíró található a fájl elején.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can use one of the <bpt id="p1">&lt;xref uid="langword_csharp_System.IO" name="System.IO" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref uid="langword_csharp_Seek" name="Seek" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> methods to move the handle position within the file to write or append new data.</source>
+          <target state="translated">Egyikét használhatja a <bpt id="p1">&lt;xref uid="langword_csharp_System.IO" name="System.IO" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <bpt id="p2">&lt;xref uid="langword_csharp_Seek" name="Seek" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> módszerek pozícióba való pozicionálására leíró írnia, vagy új adatok hozzáfűzése fájlon belül.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is a null reference, or <ph id="ph2">&lt;code&gt;transactionContext&lt;/code&gt;</ph> is null.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>egy null hivatkozás vagy <ph id="ph2">&lt;code&gt;transactionContext&lt;/code&gt;</ph> null értékű.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The file cannot be found.</source>
+          <target state="translated">A fájl nem található.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An I/O error occurred.</source>
+          <target state="translated">I/o-hiba lépett fel.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">A hívó nem rendelkezik a szükséges engedélyekkel.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">path</ph><ept id="p1">&lt;/code&gt;</ept> is invalid, such as being on an unmapped drive.</source>
+          <target state="translated">A megadott <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">path</ph> <ept id="p1">&lt;/code&gt;</ept> érvénytelen, például egy le nem képezett meghajtón folyamatban.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The access requested is not permitted by the operating system for the specified path.</source>
+          <target state="translated">A kért hozzáférés nem engedélyezett az operációs rendszer a megadott elérési.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This occurs when Write or ReadWrite access is specified, and the file or directory is set for read-only access.</source>
+          <target state="translated">Ez akkor fordul elő, ha írási vagy ReadWrite hozzáférés meg van adva, és a fájl vagy könyvtár csak olvasási hozzáférésre van beállítva.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>NtCreateFile fails with error code set to ERROR_SHARING_VIOLATION.</source>
+          <target state="translated">NtCreateFile állítsa be újra a következő hibakóddal meghiúsul.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an exception is thrown, any open transactions should be rolled back.</source>
+          <target state="translated">Ha a rendszer kivételt hoz létre, nyitott tranzakciók kell állítható vissza.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, data loss can occur.</source>
+          <target state="translated">Ellenkező esetben előfordulhat adatvesztés.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The logical path to the file.</source>
+          <target state="translated">A logikai elérési utat a fájlhoz.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The path can be retrieved by using the Transact-SQL Pathname function on the underlying FILESTREAM column in the table.</source>
+          <target state="translated">Az elérési út lehet beolvasni az alapul szolgáló FILESTREAM oszlop a tábla a Transact-SQL Pathname függvény használatával.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The transaction context for the <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A tranzakció környezetben a <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When set to null, an implicit transaction will be used for the <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ha értéke null, az implicit tranzakciókban fog történni a <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Applications should return the byte array returned by calling the GET_FILESTREAM_TRANSACTION_CONTEXT method.</source>
+          <target state="translated">Alkalmazások a get_filestream_transaction_context függvényt metódus által visszaadott bájttömb kell visszaadnia.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The access mode to use when opening the file.</source>
+          <target state="translated">A fájl megnyitásakor használandó hozzáférési mód.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Supported <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values are <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Supported <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values are <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Read" name="FileAccess.Read" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object can be used to read all of the existing data.</source>
+          <target state="translated">Használata esetén <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Read" name="FileAccess.Read" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, a <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum segítségével olvassa el a meglévő adatok.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Write" name="FileAccess.Write" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> points to a zero byte file.</source>
+          <target state="translated">Használata esetén <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Write" name="FileAccess.Write" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> nulla bájt fájlra mutat.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Existing data will be overwritten when the object is closed and the transaction is committed.</source>
+          <target state="translated">Meglévő adatot felülír, amikor az objektum le van zárva, és a tranzakció.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.ReadWrite" name="FileAccess.ReadWrite" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> points to a file which has all the existing data in it.</source>
+          <target state="translated">Használata esetén <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.ReadWrite" name="FileAccess.ReadWrite" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, a <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> egy fájlra, amely rendelkezik az összes adat.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The handle is positioned at the beginning of the file.</source>
+          <target state="translated">A leíró található a fájl elején.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can use one of the <bpt id="p1">&lt;xref uid="langword_csharp_System.IO" name="System.IO" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref uid="langword_csharp_Seek" name="Seek" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> methods to move the handle position within the file to write or append new data.</source>
+          <target state="translated">Egyikét használhatja a <bpt id="p1">&lt;xref uid="langword_csharp_System.IO" name="System.IO" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <bpt id="p2">&lt;xref uid="langword_csharp_Seek" name="Seek" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> módszerek pozícióba való pozicionálására leíró írnia, vagy új adatok hozzáfűzése fájlon belül.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specifies the option to use while opening the file.</source>
+          <target state="translated">Adja meg azt a lehetőséget a fájl megnyitása közben.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Supported <bpt id="p1">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values are <bpt id="p2">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, and <bpt id="p5">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Supported <bpt id="p1">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values are <bpt id="p2">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, and <bpt id="p5">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The allocation size to use while creating a file.</source>
+          <target state="translated">A foglalási méretet használja a következő fájl létrehozása közben.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If set to 0, the default value is used.</source>
+          <target state="translated">Ha értéke 0, az alapértelmezett értéket használja.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is a null reference, or <ph id="ph2">&lt;code&gt;transactionContext&lt;/code&gt;</ph> is null.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>egy null hivatkozás vagy <ph id="ph2">&lt;code&gt;transactionContext&lt;/code&gt;</ph> null értékű.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The file cannot be found.</source>
+          <target state="translated">A fájl nem található.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An I/O error occurred.</source>
+          <target state="translated">I/o-hiba lépett fel.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">A hívó nem rendelkezik a szükséges engedélyekkel.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">path</ph><ept id="p1">&lt;/code&gt;</ept> is invalid, such as being on an unmapped drive.</source>
+          <target state="translated">A megadott <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">path</ph> <ept id="p1">&lt;/code&gt;</ept> érvénytelen, például egy le nem képezett meghajtón folyamatban.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The access requested is not permitted by the operating system for the specified path.</source>
+          <target state="translated">A kért hozzáférés nem engedélyezett az operációs rendszer a megadott elérési.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This occurs when Write or ReadWrite access is specified, and the file or directory is set for read-only access.</source>
+          <target state="translated">Ez akkor fordul elő, ha írási vagy ReadWrite hozzáférés meg van adva, és a fájl vagy könyvtár csak olvasási hozzáférésre van beállítva.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>NtCreateFile fails with error code set to ERROR_SHARING_VIOLATION.</source>
+          <target state="translated">NtCreateFile állítsa be újra a következő hibakóddal meghiúsul.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous read operation.</source>
+          <target state="translated">Egy aszinkron olvasási művelet kezdődik.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt; property to determine whether the current instance supports reading.</source>
+          <target state="translated">Használja a &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;tulajdonság határozza meg, hogy támogatja-e az aktuális példány olvasási.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The buffer to read the data into.</source>
+          <target state="translated">A puffer az adatok olvasására.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The byte offset in <ph id="ph1">`buffer`</ph> at which to begin writing data read from the stream.</source>
+          <target state="translated">Az eltolás bájtban <ph id="ph1">`buffer`</ph> kezdőpontját az adatfolyamból beolvasott adatok írásakor.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to read.</source>
+          <target state="translated">Olvassa el a bájtok maximális száma.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An optional asynchronous callback, to be called when the read is complete.</source>
+          <target state="translated">Egy nem kötelező aszinkron visszahívás, az olvasás befejezésekor hívandó.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous read request from other requests</source>
+          <target state="translated">A felhasználó által megadott objektum, amely az adott aszinkron olvasási kérelem megkülönbözteti küldött egyéb kérések</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents the asynchronous read, which could still be pending.</source>
+          <target state="translated">Egy &lt;xref:System.IAsyncResult&gt;, amely jelöli az aszinkron Olvasás, esetleg még függőben.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Reading data is not supported on the stream.</source>
+          <target state="translated">Az adatfolyam adatok olvasása nem támogatott.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous write operation.</source>
+          <target state="translated">Egy aszinkron írási művelet kezdődik.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt; property to determine whether the current instance supports writing.</source>
+          <target state="translated">Használja a &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;tulajdonságot megállapítása, hogy az aktuális példány támogatja az írást.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The buffer to write data from.</source>
+          <target state="translated">A puffer adatokat írni.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The byte offset in <ph id="ph1">`buffer`</ph> from which to begin writing.</source>
+          <target state="translated">A bájteltolás a <ph id="ph1">`buffer`</ph> kezdőpontjaként írást.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to write.</source>
+          <target state="translated">Az írandó bájtok maximális száma.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An optional asynchronous callback, to be called when the write is complete.</source>
+          <target state="translated">Egy nem kötelező aszinkron visszahívás, az írási befejezésekor hívandó.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous write request from other requests.</source>
+          <target state="translated">A felhasználó által megadott objektum, amely az adott aszinkron írási kérelem megkülönbözteti a küldött egyéb kérések.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents the asynchronous write, which could still be pending.</source>
+          <target state="translated">Egy &lt;xref:System.IAsyncResult&gt;, amely jelöli az aszinkron írás, esetleg még függőben.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Writing data is not supported on the stream.</source>
+          <target state="translated">Adatok írása az adatfolyam nem támogatott.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current stream supports reading.</source>
+          <target state="translated">Egy érték, amely jelzi, hogy a jelenlegi adatfolyam támogatja-e olvasási lekérdezi.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current stream supports reading; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a jelenlegi adatfolyam támogatja az olvasást; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current stream supports seeking.</source>
+          <target state="translated">Lekérdezi egy érték, amely jelzi, hogy a jelenlegi adatfolyam támogatja-e a keresést.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current stream supports seeking; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a jelenlegi adatfolyam támogatja a keresést; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current stream can time out.</source>
+          <target state="translated">Lekérdezi egy érték, amely jelzi, hogy a jelenlegi adatfolyam is túllépi az időkorlátot.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current stream can time out; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a jelenlegi adatfolyam is időtúllépés; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current stream supports writing.</source>
+          <target state="translated">Lekérdezi egy érték, amely jelzi, hogy a jelenlegi adatfolyam támogatja-e az írást.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current stream supports writing; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a jelenlegi adatfolyam támogatja az írást; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Waits for the pending asynchronous read to complete.</source>
+          <target state="translated">A függőben lévő aszinkron olvasás befejezéséhez vár.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The reference to the pending asynchronous request to finish.</source>
+          <target state="translated">A függőben lévő aszinkron kérelem befejezésének mutató hivatkozást.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The number of bytes read from the stream, between zero (0) and the number of bytes you requested.</source>
+          <target state="translated">A bájtok száma olvasható be az adatfolyamból, nulla (0) és a kért bájtok száma.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Streams return zero (0) only at the end of the stream, otherwise, they should block until at least one byte is available.</source>
+          <target state="translated">Adatfolyamok térjen vissza a nulla (0), csak az adatfolyam végén, ellenkező esetben kell letiltják a addig, amíg legalább egy bájt nem érhető el.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; object did not come from the corresponding <bpt id="p1">&lt;xref uid="langword_csharp_BeginRead" name="BeginRead" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;objektum nem származik a megfelelő <bpt id="p1">&lt;xref uid="langword_csharp_BeginRead" name="BeginRead" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> metódus.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Ends an asynchronous write operation.</source>
+          <target state="translated">Egy aszinkron írási művelet véget ér.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A reference to the outstanding asynchronous I/O request.</source>
+          <target state="translated">A függőben lévő aszinkron i/o-kérelmek mutató hivatkozás.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; object did not come from the corresponding <bpt id="p1">&lt;xref uid="langword_csharp_BeginWrite" name="BeginWrite" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;objektum nem származik a megfelelő <bpt id="p1">&lt;xref uid="langword_csharp_BeginWrite" name="BeginWrite" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> metódus.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Ensures that resources are freed and other cleanup operations are performed when the garbage collector reclaims the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ellenőrzi, hogy az erőforrások felszabadítását, és egyéb törlési művelet végrehajtása közben a szemétgyűjtő úgy szabadít fel a <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>clears all buffers for this stream and causes any buffered data to be written to the underlying device.</source>
+          <target state="translated">törli az összes puffer adatfolyam, és a pufferelt adatokat írni az alapul szolgáló eszköz okoz.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the length of the current stream in bytes.</source>
+          <target state="translated">A jelenlegi adatfolyam bájtban hosszát jelző érték beolvasása.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int64&gt; indicating the length of the current stream in bytes.</source>
+          <target state="translated">Egy &lt;xref:System.Int64&gt;a jelenlegi adatfolyam bájtban hosszát jelző.&lt;/xref:System.Int64&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Gets the logical path of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> passed to the constructor.</source>
+          <target state="translated">A logikai elérési útja lekérdezi a <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a konstruktornak átadott.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A string value indicating the name of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy karakterláncértéket, amely nevét a <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets or sets the position within the current stream.</source>
+          <target state="translated">Lekérdezi vagy beállítja a pozíciója a jelenlegi adatfolyam belül.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The current position within the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az aktuális pozíció belül a <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read.</source>
+          <target state="translated">Az aktuális adatfolyamból bájt sorrendjét olvasó, és a pozíció az adatfolyam belül kiadásokban olvasott bájtok száma.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt; property to determine whether the current instance supports writing.</source>
+          <target state="translated">Használja a &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;tulajdonságot meghatározásához, hogy az aktuális példány támogatja az írást.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>An array of bytes.</source>
+          <target state="translated">Bájttömb.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>When this method returns, the buffer contains the specified byte array with the values between offset and (offset + count - 1) replaced by the bytes read from the current source.</source>
+          <target state="translated">Ha ez a módszer ad vissza, a puffer tartalmaz eltolás és (eltolás + száma - 1) a jelenlegi forrásból beolvasott bájtok helyébe közötti értékeket a megadott bájttömb.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The zero-based byte offset in buffer at which to begin storing the data read from the current stream.</source>
+          <target state="translated">A nulla alapú bájteltolás pufferben kezdőpontját az adatok tárolása az aktuális adatfolyamból beolvasott.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to be read from the current stream.</source>
+          <target state="translated">Az aktuális adatfolyamból olvasandó bájtok maximális száma.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The total number of bytes read into the buffer.</source>
+          <target state="translated">A puffer az olvasott bájtok teljes száma.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This can be less than the number of bytes requested if that many bytes are not currently available, or zero (0) if the end of the stream has been reached.</source>
+          <target state="translated">Ez lehet kisebb, mint a bájtok száma irányuló kérés. Ha sok bájt még nem állnak rendelkezésre, vagy nulla (0), ha az adatfolyam végét elérte.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The object does not support reading of data.</source>
+          <target state="translated">Az objektum nem támogatja az olvasást adatok.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream.</source>
+          <target state="translated">Egy olyan bájtot olvas be az adatfolyamból kiadásokban a pozíció az adatfolyam belül egy bájt, és az adatfolyam végén&amp;1; értéket ad vissza.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt; property to determine whether the current instance supports reading.</source>
+          <target state="translated">Használja a &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;tulajdonság határozza meg, hogy támogatja-e az aktuális példány olvasási.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The unsigned byte cast to an &lt;xref:System.Int32&gt;, or -1 if at the end of the stream.</source>
+          <target state="translated">Az előjel nélküli bájt típusúvá egy &lt;xref:System.Int32&gt;, vagy a -1, az adatfolyam végén.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The object does not support reading of data.</source>
+          <target state="translated">Az objektum nem támogatja az olvasást adatok.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value, in milliseconds, that determines how long the stream will attempt to read before timing out.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték ezredmásodpercben, határozza meg, hogy mennyi ideig kísérli meg az adatfolyam olvasására időkorlátját.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A value, in milliseconds, that determines how long the stream will attempt to read before timing out.</source>
+          <target state="translated">Egy érték, ezredmásodpercben, amely meghatározza, mennyi ideig adatfolyam megkísérli időkorlátját olvasni.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Sets the position within the current stream.</source>
+          <target state="translated">A jelenlegi adatfolyam pozíciója állítja be.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A byte offset relative to the <ph id="ph1">`origin`</ph> parameter</source>
+          <target state="translated">A relatív bájteltolás a <ph id="ph1">`origin`</ph> paraméter</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A value of type &lt;xref:System.IO.SeekOrigin&gt; indicating the reference point used to obtain the new position</source>
+          <target state="translated">A típus &lt;xref:System.IO.SeekOrigin&gt;a hivatkozási pont segítségével kéri le az új helyre jelző&lt;/xref:System.IO.SeekOrigin&gt; érték</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The new position within the current stream.</source>
+          <target state="translated">Az új helyre, a jelenlegi adatfolyam belül.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Sets the length of the current stream.</source>
+          <target state="translated">Beállítja a jelenlegi adatfolyam hossza.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt; property to determine whether the current instance supports reading.</source>
+          <target state="translated">Használja a &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;tulajdonság határozza meg, hogy támogatja-e az aktuális példány olvasási.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The desired length of the current stream in bytes.</source>
+          <target state="translated">A jelenlegi adatfolyam bájtban kívánt hosszát.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The object does not support reading of data.</source>
+          <target state="translated">Az objektum nem támogatja az olvasást adatok.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets or sets the transaction context for this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Lekérdezi vagy beállítja a tranzakciós környezet lett átadva a <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">transactionContext</ph><ept id="p1">&lt;/code&gt;</ept> array that was passed to the constructor for this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">transactionContext</ph> <ept id="p1">&lt;/code&gt;</ept> ehhez a konstruktornak átadott tömb <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written.</source>
+          <target state="translated">Bájtok sorozatát ír a jelenlegi adatfolyam, és az aktuális pozíció az adatfolyam belül kiadásokban által írt bájtok száma.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt; property to determine whether the current instance supports writing.</source>
+          <target state="translated">Használja a &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;tulajdonságot megállapítása, hogy az aktuális példány támogatja az írást.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An array of bytes.</source>
+          <target state="translated">Bájttömb.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This method copies <ph id="ph1">`count`</ph> bytes from <ph id="ph2">`buffer`</ph> to the current stream.</source>
+          <target state="translated">Ez a módszer másolja <ph id="ph1">`count`</ph> bájt, forrás <ph id="ph2">`buffer`</ph> a jelenlegi adatfolyam.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The zero-based byte offset in <ph id="ph1">`buffer`</ph> at which to begin copying bytes to the current stream.</source>
+          <target state="translated">A nulla alapú bájteltolás a <ph id="ph1">`buffer`</ph> kezdőpontját bájt másolása a jelenlegi adatfolyam.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The number of bytes to be written to the current stream.</source>
+          <target state="translated">A jelenlegi adatfolyam írandó bájtok száma.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The object does not support writing of data.</source>
+          <target state="translated">Az objektum nem támogatja az írást, az adatok.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Writes a byte to the current position in the stream and advances the position within the stream by one byte.</source>
+          <target state="translated">Egy olyan bájtot ír az aktuális pozíciót az adatfolyamban, és a pozíció az adatfolyam belül kiadásokban egy bájt.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt; property to determine whether the current instance supports writing.</source>
+          <target state="translated">Használja a &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;tulajdonságot megállapítása, hogy az aktuális példány támogatja az írást.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The byte to write to the stream.</source>
+          <target state="translated">Az adatfolyam írni bájt.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The object does not support writing of data.</source>
+          <target state="translated">Az objektum nem támogatja az írást, az adatok.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value, in milliseconds, that determines how long the stream will attempt to write before timing out.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték ezredmásodpercben, határozza meg, hogy mennyi ideig az adatfolyam fog írására történt kísérlet időkorlátját.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A value, in milliseconds, that determines how long the stream will attempt to write before timing out.</source>
+          <target state="translated">Egy érték, ezredmásodpercben, amely meghatározza, mennyi ideig adatfolyam megkísérli időkorlátját írni.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

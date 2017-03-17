@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e116e5d225a67868b8cf48004d224cbfdb1e8839</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.SeekableXPathNavigator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">29de7d476fc9d66e3ab20f53a390984e609db08a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f74a8a9fdb89c2abf06a7235fa98251d0a7ba65a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides read-only, random access to data contained in XML documents and enables efficient querying for specified nodes.</source>
+          <target state="translated">Umożliwia dostęp tylko do odczytu, losowe do danych zawartych w dokumentach XML i umożliwia wydajne wyszukiwanie określonych węzłów.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SOAP messages passed between parts of the <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> system are handled by various components of the system that must inspect these messages to determine what actions to take in processing them.</source>
+          <target state="translated">Wiadomości SOAP przekazywane między częściami <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> systemu są obsługiwane przez różne składniki systemu, które muszą sprawdzić te komunikaty, aby określić, jakie działania należy podjąć w ich przetwarzania.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XPath engine is a component that queries messages for this purpose and it requires a navigator to read SOAP messages and other XML documents.</source>
+          <target state="translated">Aparat XPath jest składnik, który odpytuje komunikaty do tego celu i wymaga navigator mają być odczytywane wiadomości SOAP i inne dokumenty XML.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A navigator provides a cursor that moves from node to node tracking where the XML document is actually being read.</source>
+          <target state="translated">Nawigator zapewnia kursor, który przechodzi między węzłami śledzenia, gdzie jest rzeczywiście odczytu dokumentu XML.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XPath engine works with a SeekableXPathNavigator, which extends the &lt;xref:System.Xml.XPath.XPathNavigator&gt; class by adding a &lt;xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt; property.</source>
+          <target state="translated">Aparat XPath współdziała z elementem SeekableXPathNavigator, która rozszerza &lt;xref:System.Xml.XPath.XPathNavigator&gt;klasy, dodając &lt;xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt;Właściwości.&lt;/xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt; &lt;/xref:System.Xml.XPath.XPathNavigator&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property allows positions within the XML document to be saved and loaded quickly without having to clone the navigator, an expensive memory allocation that the &lt;xref:System.Xml.XPath.XPathNavigator&gt; requires for such an operation.</source>
+          <target state="translated">Ta właściwość umożliwia pozycji w dokumencie XML na zapisywanie i szybko załadowany bez konieczności sklonować Nawigatora alokacji pamięci kosztowne który &lt;xref:System.Xml.XPath.XPathNavigator&gt;wymaga takich operacji.&lt;/xref:System.Xml.XPath.XPathNavigator&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XPath engine must frequently record the position of the cursor in the course of executing queries on XML documents, so the SeekableXPathNavigator provides an important optimization for message processing.</source>
+          <target state="translated">Aparat XPath często zarejestrować pozycji kursora w trakcie wykonywanie zapytań w dokumentach XML, więc SeekableXPathNavigator zawiera ważne optymalizacji dla przetwarzania komunikatów.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the value of the &lt;xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt; property is implementation-specific and may not map to node position or character position.</source>
+          <target state="translated">Należy pamiętać, że wartość &lt;xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt;jest konkretnej implementacji i nie może być mapowany do położenia węzła lub znaku na pozycji.&lt;/xref:System.ServiceModel.Dispatcher.SeekableXPathNavigator.CurrentPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Its value is only meaningful to the SeekableXPathNavigator implementation (and instance) that supplied it.</source>
+          <target state="translated">Wartość jest znaczący tylko w implementacji SeekableXPathNavigator (i wystąpienia) który on dostarczony.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.SeekableXPathNavigator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.SeekableXPathNavigator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns a value that describes the document order of the two specified positions.</source>
+          <target state="translated">W przypadku przesłonięcia w klasie pochodnej zwraca wartość, która opisuje dokumentu kolejność dwóch określonych pozycji.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The first position in the comparison.</source>
+          <target state="translated">Pierwszą pozycję do porównania.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The second position in the comparison.</source>
+          <target state="translated">Drugi pozycji do porównania.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Xml.XmlNodeOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that describes the relation of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">firstPosition</ph><ept id="p2">&lt;/code&gt;</ept> to <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">secondPosition</ph><ept id="p3">&lt;/code&gt;</ept> in the document.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Xml.XmlNodeOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które opisano w relacji z <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">firstPosition</ph> <ept id="p2">&lt;/code&gt;</ept> do <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">secondPosition</ph> <ept id="p3">&lt;/code&gt;</ept> w dokumencie.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;firstPosition&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;secondPosition&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;firstPosition&lt;/code&gt;</ph>lub <ph id="ph2">&lt;code&gt;secondPosition&lt;/code&gt;</ph> jest nieprawidłowa.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets or sets a value associated with the node in the data where the XPath navigator is positioned.</source>
+          <target state="translated">W przypadku przesłonięcia w klasie pochodnej pobiera lub ustawia wartość skojarzoną z węzłem w danych, w którym Nawigatora XPath znajduje się.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`set`</ph> operation moves the navigator to the position associated with the value specified.</source>
+          <target state="translated"><ph id="ph1">`set`</ph> Operacji Przenosi położenie skojarzone z wartością określoną nawigatora.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`get`</ph> operation returns a value associated with the current position of the navigator.</source>
+          <target state="translated"><ph id="ph1">`get`</ph> Operacja zwraca wartość skojarzoną z bieżącej pozycji nawigatora.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A value that is associated with the navigator’s current position.</source>
+          <target state="translated">Wartość, która jest skojarzona z bieżącej pozycji nawigatora.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the local name of the node at the position specified.</source>
+          <target state="translated">W przypadku przesłonięcia w klasie pochodnej zwraca nazwę lokalnego węzła w określonej pozycji.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The position of the node whose local name is being retrieved.</source>
+          <target state="translated">Pozycja węzła, którego nazwa lokalna jest pobierana.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The local name of the node at the specified position.</source>
+          <target state="translated">Lokalna nazwa węzła w określonej pozycji.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; is returned if the node does not have a local name, for example if the current position references a text node.</source>
+          <target state="translated">&lt;xref:System.String&gt;występuje, gdy węzeł ma nazwę lokalną, na przykład jeśli bieżące położenie odwołuje się do węzła tekstowego.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph>jest nieprawidłowy.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the name of the node at the specified position.</source>
+          <target state="translated">W przypadku przesłonięcia w klasie pochodnej zwraca nazwę węzła w określonej pozycji.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name is the name of the XML element at <ph id="ph1">`nodePosition`</ph> and typically includes a namespace prefix.</source>
+          <target state="translated">Nazwa jest nazwą elementu XML <ph id="ph1">`nodePosition`</ph> i zwykle obejmują prefiks przestrzeni nazw.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The position of the node whose name is being retrieved.</source>
+          <target state="translated">Pozycja węzła, którego nazwa jest pobierana.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The name of the node at <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">nodePosition</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Nazwa węzła w <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">nodePosition</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; is returned if the node does not have a name.</source>
+          <target state="translated">&lt;xref:System.String&gt;jest zwracany, jeśli węzeł nie ma nazwy.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph>jest nieprawidłowy.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the namespace of the node at the specified position.</source>
+          <target state="translated">W przypadku przesłonięcia w klasie pochodnej zwraca nazw węzła w określonej pozycji.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The position of the node whose namespace is being retrieved.</source>
+          <target state="translated">Pozycja węzła, w których przestrzeń nazw jest pobierana.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The namespace of the node at <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">nodePosition</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Przestrzeń nazw węzeł w <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">nodePosition</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; is returned if the node does not have a namespace.</source>
+          <target state="translated">&lt;xref:System.String&gt;jest zwracany, jeśli węzeł nie ma przestrzeni nazw.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph>jest nieprawidłowy.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the type of the node at the specified position.</source>
+          <target state="translated">W przypadku przesłonięcia w klasie pochodnej zwraca typ węzła w określonej pozycji.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The position of the node whose node type is being retrieved.</source>
+          <target state="translated">Pozycja węzła, którego typ węzła Trwa pobieranie.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Xml.XPath.XPathNodeType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicate the type of the XML node.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Xml.XPath.XPathNodeType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które wskazują na typ węzła XML.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph>jest nieprawidłowy.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the text value of the node at the specified position.</source>
+          <target state="translated">W przypadku przesłonięcia w klasie pochodnej zwraca wartość tekst węzła w określonej pozycji.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For elements, this method returns the concatenation of all text descendents of the node at the specified position, similar to the &lt;xref:System.Xml.XmlElement.InnerText%2A&gt; property.</source>
+          <target state="translated">Dla elementów, ta metoda zwraca łączenia wszystkich tekst elementów podrzędnych węzła w określonej pozycji, podobnie jak &lt;xref:System.Xml.XmlElement.InnerText%2A&gt;Właściwości.&lt;/xref:System.Xml.XmlElement.InnerText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The position of the node whose text value is being retrieved.</source>
+          <target state="translated">Pozycja węzła, którego wartość tekstową Trwa pobieranie.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The text value of the node at <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">nodePosition</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Wartość tekstu węzeł w <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">nodePosition</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; is returned if the node does not have a text value.</source>
+          <target state="translated">&lt;xref:System.String&gt;jest zwracany, jeśli węzeł ma wartość tekstową.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;nodePosition&lt;/code&gt;</ph>jest nieprawidłowy.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
