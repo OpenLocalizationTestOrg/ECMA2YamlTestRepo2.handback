@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">703166311b55867a0fdb500259e145bb21b21f1e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.ISettingsProviderService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">262245da055e5c2715acd30c56939ddec63e004d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ce66b8bf1016e4d2087e097ff17d013d3be96d4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an interface for defining an alternate application settings provider.</source>
+          <target state="translated">別のアプリケーションの設定プロバイダーを定義するためのインターフェイスを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Configuration.IPersistComponentSettings&gt; interface enables controls and components hosted in an application to persist their application settings in a manner largely transparent to the application.</source>
+          <target state="translated">&lt;xref:System.Configuration.IPersistComponentSettings&gt;コントロールおよびコンポーネントをアプリケーションにほぼ透過的な方法で、アプリケーションの設定を保持するアプリケーションでホストされているインターフェイスを使用する&lt;/xref:System.Configuration.IPersistComponentSettings&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>However, in some cases, the application or environment may need to override the settings provider natively used by a component with one of its own choosing.</source>
+          <target state="translated">ただし、場合によっては、アプリケーションや環境ならない場合があります、独自に選択のいずれかのコンポーネントで使用されるネイティブ設定プロバイダーをオーバーライドします。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The ISettingsProviderService interface enables the creation of a lightweight service that communicates such an alternate settings provider, typically offered through the owning &lt;xref:System.ComponentModel.Container&gt;.</source>
+          <target state="translated">ISettingsProviderService インターフェイスにより、このような代替の設定プロバイダー &lt;xref:System.ComponentModel.Container&gt;。&lt;/xref:System.ComponentModel.Container&gt;を所有しているから提供される通常の情報をやり取りする軽量なサービスの作成</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>ISettingsProviderService is commonly used by design-time tools and debuggers that provide special support for application settings.</source>
+          <target state="translated">ISettingsProviderService はデザイン時ツールおよびアプリケーションの設定の特別なサポートを提供するデバッガーでよく使用されます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To make such an arrangement function seamlessly, the &lt;xref:System.Configuration.ApplicationSettingsBase&gt; class contains constructors that take a reference to the owning component.</source>
+          <target state="translated">シームレスに、このような配置関数を作成する、&lt;xref:System.Configuration.ApplicationSettingsBase&gt;クラスには、所有しているコンポーネントへの参照を取得するコンス トラクターが含まれています&lt;/xref:System.Configuration.ApplicationSettingsBase&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These constructors automatically query for compatible settings providers.</source>
+          <target state="translated">これらのコンス トラクターは、互換性のある設定プロバイダーを自動的に照会します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Returns the settings provider compatible with the specified settings property.</source>
+          <target state="translated">指定した設定のプロパティとの互換性設定プロバイダーを返します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The GetSettingsProvider method enables an &lt;xref:System.Configuration.ISettingsProviderService&gt; to offer its serialization services to any sited component.</source>
+          <target state="translated">GetSettingsProvider メソッドにより、&lt;xref:System.Configuration.ISettingsProviderService&gt;配置コンポーネントへのシリアル化サービスを提供します&lt;/xref:System.Configuration.ISettingsProviderService&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This method determines if the associated settings provider can persist the specified application settings property type.</source>
+          <target state="translated">このメソッドは、関連付けられている設定プロバイダーが指定されたアプリケーション設定のプロパティの型を永続化できるかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If it can, this method returns a reference to that settings provider; otherwise it returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">このメソッドがその設定プロバイダーへの参照を取得できる場合は、返しますそれ以外の場合<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Configuration.SettingsProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that requires serialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Configuration.SettingsProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>シリアル化を必要とします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If found, the <bpt id="p1">&lt;xref href="System.Configuration.SettingsProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can persist the specified settings property; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">場合、検出された、 <bpt id="p1">&lt;xref href="System.Configuration.SettingsProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>プロパティを指定した設定を保存することができます、それ以外の<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
