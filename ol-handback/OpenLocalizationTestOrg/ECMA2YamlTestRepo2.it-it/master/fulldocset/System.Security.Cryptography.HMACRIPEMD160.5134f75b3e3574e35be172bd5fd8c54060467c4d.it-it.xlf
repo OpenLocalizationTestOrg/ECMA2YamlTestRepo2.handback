@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">75531308ac2b3158cc8a0bbad38049644abd3be8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.HMACRIPEMD160.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8f663975fefd8b41ce571c42d85c340f3e4be32f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">50f69798049498c7d1653009c2a3c5ba68eb77bf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Computes a Hash-based Message Authentication Code (HMAC) by using the <bpt id="p1">&lt;xref href="System.Security.Cryptography.RIPEMD160"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> hash function.</source>
+          <target state="translated">Calcola un codice HMAC (Hash-based messaggio Authentication Code) usando il <bpt id="p1">&lt;xref href="System.Security.Cryptography.RIPEMD160"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> funzione hash.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMACRIPEMD160 is a type of keyed hash algorithm that is constructed from the RIPEMD-160 hash function and used as a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">HMACRIPEMD160 è un tipo di algoritmo hash con chiave costruito dalla funzione hash RIPEMD-160 e utilizzato come un codice HMAC (Hash-based messaggio Authentication Code).</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">Nel processo HMAC combina una chiave privata con i dati del messaggio, il risultato con la funzione hash, viene nuovamente combinato il valore hash con chiave privata e quindi applica una seconda volta la funzione hash.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The output hash is 160 bits in length.</source>
+          <target state="translated">L'output hash è di lunghezza pari a 160 bit.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An HMAC can be used to determine whether a message sent over an insecure channel has been tampered with, provided that the sender and receiver share a secret key.</source>
+          <target state="translated">Un codice HMAC consente di determinare se un messaggio inviato tramite un canale non protetto è stato alterato, a condizione che il mittente e ricevitore condividono una chiave segreta.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sender computes the hash value for the original data and sends both the original data and the hash value as a single message.</source>
+          <target state="translated">Il mittente calcola il valore hash per i dati originali e invia i dati originali e il valore hash in un singolo messaggio.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The receiver recalculates the hash value on the received message and checks that the computed HMAC matches the transmitted HMAC.</source>
+          <target state="translated">Il destinatario ricalcola il valore hash del messaggio ricevuto e verifica che il codice HMAC calcolato corrisponda a quello trasmesso.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any change to the data or the hash value results in a mismatch, because knowledge of the secret key is required to change the message and reproduce the correct hash value.</source>
+          <target state="translated">Qualsiasi modifica ai dati o il valore hash comporta una mancata corrispondenza, perché è necessario conoscere la chiave privata per modificare il messaggio e riprodurre il valore hash corretto.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if the original and computed hash values match, the message is authenticated.</source>
+          <target state="translated">Pertanto, se i valori hash originale e calcolato corrispondono, il messaggio viene autenticato.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMACRIPEMD160 accepts keys of any size, and produces a hash sequence that is 160 bits long.</source>
+          <target state="translated">HMACRIPEMD160 accetta chiavi di qualsiasi dimensione e produce una sequenza di hash che è di 160 bit.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RIPEMD hash algorithm and its successors were developed by the European RIPE project.</source>
+          <target state="translated">L'algoritmo hash RIPEMD e dai suoi successori sono stati sviluppati dal progetto europeo prodotto.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The original RIPEMD algorithm was designed to replace MD4 and MD5 and was later strengthened and renamed RIPEMD-160.</source>
+          <target state="translated">L'algoritmo RIPEMD originale è stato progettato per sostituire MD4 e MD5 e versioni successive è stato rafforzato e rinominato RIPEMD-160.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RIPEMD-160 hash algorithm produces a 160-bit hash value.</source>
+          <target state="translated">L'algoritmo hash RIPEMD-160 produce un valore hash a 160 bit.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The algorithm's designers have placed it in the public domain.</source>
+          <target state="translated">Finestre di progettazione dell'algoritmo hanno inserito nel dominio pubblico.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACRIPEMD160"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a randomly generated 64-byte key.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACRIPEMD160"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe con una chiave generata in modo casuale di 64 byte.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.HMACRIPEMD160&gt; is a type of keyed hash algorithm that is constructed from the RIPEMD-160 hash function and used as a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.HMACRIPEMD160&gt;è un tipo di algoritmo hash con chiave costruito dalla funzione hash RIPEMD-160 e utilizzato come un codice HMAC (Hash-based messaggio Authentication Code).&lt;/xref:System.Security.Cryptography.HMACRIPEMD160&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">Nel processo HMAC combina una chiave privata con i dati del messaggio, il risultato con la funzione hash, viene nuovamente combinato il valore hash con chiave privata e quindi applica una seconda volta la funzione hash.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The output hash is 160 bytes in length.</source>
+          <target state="translated">L'hash di output è 160 byte di lunghezza.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor uses a 64-byte, randomly generated key.</source>
+          <target state="translated">Questo costruttore utilizza una chiave generata in modo casuale a 64 byte.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACRIPEMD160"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified key data.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACRIPEMD160"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe con i dati della chiave specificati.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.HMACRIPEMD160&gt; is a type of keyed hash algorithm that is constructed from the RIPEMD-160 hash function and used as a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.HMACRIPEMD160&gt;è un tipo di algoritmo hash con chiave costruito dalla funzione hash RIPEMD-160 e utilizzato come un codice HMAC (Hash-based messaggio Authentication Code).&lt;/xref:System.Security.Cryptography.HMACRIPEMD160&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">Nel processo HMAC combina una chiave privata con i dati del messaggio, il risultato con la funzione hash, viene nuovamente combinato il valore hash con chiave privata e quindi applica una seconda volta la funzione hash.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The output hash is 160 bytes in length.</source>
+          <target state="translated">L'hash di output è 160 byte di lunghezza.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The secret key for <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACRIPEMD160"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> encryption.</source>
+          <target state="translated">La chiave privata per <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACRIPEMD160"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> crittografia.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The key can be any length, but if it is more than 64 bytes long it is hashed (using SHA-1) to derive a 64-byte key.</source>
+          <target state="translated">La chiave può essere qualsiasi lunghezza, ma in caso di più di 64 byte viene generato un hash (con SHA-1) per derivare una chiave di 64 byte.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Therefore, the recommended size of the secret key is 64 bytes.</source>
+          <target state="translated">Pertanto, la dimensione consigliata della chiave privata è 64 byte.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
