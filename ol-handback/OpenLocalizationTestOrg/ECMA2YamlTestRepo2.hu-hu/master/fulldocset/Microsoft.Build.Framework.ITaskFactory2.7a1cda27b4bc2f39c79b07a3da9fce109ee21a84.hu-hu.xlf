@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">78f048478a69e2e295a0711ebc86e89c90bf155b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.Build.Framework.ITaskFactory2.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c51d4fbdf5ca70b38ccc87e4013b9afe6475ee0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b8cd1c0bb337d911b32f1e955c151f0d8e3ce89a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Describes and extended <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.ITaskFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface that a task factory instance should implement.</source>
+          <target state="translated">Ismerteti, valamint a kiterjesztett <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.ITaskFactory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> felület, amelyen a feladat gyári példánya meg kell valósítania.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create an instance of the task to be used, with an optional set of "special" parameters set on the individual task invocation using the MSBuildRuntime and MSBuildArchitecture default task parameters.</source>
+          <target state="translated">A feladat használható, a MSBuildRuntime és MSBuildArchitecture alapértelmezett paramétereinek használata önálló feladat hívásához be "speciális" paraméter nem kötelező megadni egy példányának létrehozásakor.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>MSBuild provides an implementation of this interface, TaskHostFactory, that uses "MSBuildRuntime", with values "CLR2", "CLR4", "CurrentRuntime", and "*" (Any); and "MSBuildArchitecture", with values "x86", "x64", "CurrentArchitecture", and "<ph id="ph1">\*</ph>" (Any).</source>
+          <target state="translated">MSBuild biztosít az adott illesztő TaskHostFactory értékekkel "CLR2", "CLR4", "CurrentRuntime", "MSBuildRuntime" használó megvalósítását és a "*" (minden); és "MSBuildArchitecture", "x86", "x64", "CurrentArchitecture" értékeket és a "<ph id="ph1">\*</ph>" (minden).</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An implementer of ITaskFactory2 can choose to use these pre-defined MSBuildRuntime and MSBuildArchitecture values, or can specify new values for these parameters.</source>
+          <target state="translated">Egy végrehajtó ITaskFactory2 az előre definiált MSBuildRuntime és MSBuildArchitecture értékeiről használhatja, vagy ezek a paraméterek az új értékeket adhat meg.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a task factory implements ITaskFactory2, MSBuild will call this method instead of ITaskFactory.CreateTask.</source>
+          <target state="translated">Ha egy feladat gyári ITaskFactory2 megvalósítja, MSBuild telefonhívásokhoz ITaskFactory.CreateTask helyett ezt a módszert.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The task factory logging host will log messages in the context of the task.</source>
+          <target state="translated">A feladat gyári naplózási állomás lesz üzenetek naplózása a feladatütemezés környezetében.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Special parameters that the task factory can use to modify how it executes tasks, such as Runtime and Architecture.</source>
+          <target state="translated">A feladat gyári segítségével módosíthatja, miként végrehajtja a feladatokat, mint például a futásidejű és architektúra speciális paramétert.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The generated task, or <ph id="ph1">`null`</ph> if the task failed to be created.</source>
+          <target state="translated">A létrehozott feladat vagy <ph id="ph1">`null`</ph> Ha a feladat nem sikerült létrehozni.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes this factory for instantiating tasks with a particular inline task block and a set of UsingTask parameters.</source>
+          <target state="translated">Ez a gyár példányának feladatokhoz egy adott beágyazott feladat blokkot és UsingTask paraméterek inicializál.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>MSBuild provides an implementation of this interface, TaskHostFactory, that uses "Runtime", with values "CLR2", "CLR4", "CurrentRuntime", and "*" (Any); and "Architecture", with values "x86", "x64", "CurrentArchitecture", and "<ph id="ph1">\*</ph>" (Any).</source>
+          <target state="translated">MSBuild biztosít az adott illesztő TaskHostFactory értékekkel "CLR2", "CLR4", "CurrentRuntime", "Futtatókörnyezet" használó megvalósítását és a "*" (minden); és "Architektúra", az értékek "x86", "x64", "CurrentArchitecture" és "<ph id="ph1">\*</ph>" (minden).</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An implementer of ITaskFactory2 can choose to use these pre-defined Runtime and Architecture values, or can specify new values for these parameters.</source>
+          <target state="translated">Egy végrehajtó ITaskFactory2 az előre definiált futásidejű és architektúra értékeiről használhatja, vagy ezek a paraméterek az új értékeket adhat meg.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>MSBuild engine will call this to initialize the factory.</source>
+          <target state="translated">MSBuild motor telefonhívásokhoz Ez a gyár inicializálása.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This should initialize the factory enough so that the factory can be asked whether or not task names can be created by the factory.</source>
+          <target state="translated">Ahhoz, hogy a gyári is megkéri, hogy feladatnév hozhat létre a gyári, ez a gyár kell inicializálni.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a task factory implements ITaskFactory2, this Initialize method will be called in place of ITaskFactory.Initialize.</source>
+          <target state="translated">Ha egy feladat gyári ITaskFactory2 valósítja meg, az inicializálási metódusa neve ITaskFactory.Initialize helyett.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The taskFactoryLoggingHost will log messages in the context of the target where the task is first used.</source>
+          <target state="translated">A taskFactoryLoggingHost fog üzenetek naplózása a cél, ahol az első feladattal összefüggésben.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Name of the task.</source>
+          <target state="translated">A feladat nevét.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Special parameters that the task factory can use to modify how it executes tasks, such as Runtime and Architecture.</source>
+          <target state="translated">A feladat gyári segítségével módosíthatja, miként végrehajtja a feladatokat, mint például a futásidejű és architektúra speciális paramétert.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The key is the name of the parameter and the value is the parameter's value.</source>
+          <target state="translated">A kulcs a paraméter neve és értéke a paraméter értékét.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This is the set of parameters that was set on the UsingTask using e.g. the UsingTask Runtime and Architecture parameters.</source>
+          <target state="translated">Ez az a beállítása olyan paraméterek összessége, amelyek lett beállítva a következő a UsingTask pl. UsingTask futásidejű és architektúra paraméterek használatával.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The parameter group.</source>
+          <target state="translated">A paraméter csoport.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The task body.</source>
+          <target state="translated">A feladat törzse.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The task factory logging host.</source>
+          <target state="translated">A feladat gyári naplózási gazdagép.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A value indicating whether initialization was successful.</source>
+          <target state="translated">Egy érték, amely jelzi, hogy inicializálása sikeresen befejeződött.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

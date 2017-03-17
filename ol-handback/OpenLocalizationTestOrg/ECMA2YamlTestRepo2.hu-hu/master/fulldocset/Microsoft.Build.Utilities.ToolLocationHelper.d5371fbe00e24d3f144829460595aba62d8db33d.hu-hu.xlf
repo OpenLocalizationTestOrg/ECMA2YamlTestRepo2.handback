@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b00d1f4711b6f18447e727ef1130aa4500a8be1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.Build.Utilities.ToolLocationHelper.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4858862612e7df85ec2125a0e3d623b5189c9c17</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8bf4c233253e9d9beb63f96cc068642f885d7b8d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides utility methods for locating <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> and <ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK files and directories.</source>
+          <target state="translated">Helyének segédprogram-metódusokat biztosít <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> és <ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK fájlok és könyvtárak.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Clears the appDomain wide cache of platform and extension SDKs.</source>
+          <target state="translated">Kiüríti a appDomain széles gyorsítótárat platform és kiterjesztése SDK-k.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Gets a sorted list of <bpt id="p1">&lt;xref href="Microsoft.Build.Utilities.AssemblyFoldersExInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects which contain information about the directories in which the third party assemblies are registered.</source>
+          <target state="translated">Rendezett listájának lekérése <bpt id="p1">&lt;xref href="Microsoft.Build.Utilities.AssemblyFoldersExInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumok, amelyek információkkal szolgálnak a könyvtárakhoz, amelyben a harmadik féltől származó szerelvények regisztrált.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This information is used at build and design time.</source>
+          <target state="translated">Buildelés és tervezési időben ezt az információt használja.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method enumerates the <ph id="ph1">`AssemblyFoldersEx`</ph> registry location and returns the list of <ph id="ph2">`AssemblyFoldersExInfo`</ph>in the same order that they are searched for reference assemblies at design and build time.</source>
+          <target state="translated">Ez a metódus a <ph id="ph1">`AssemblyFoldersEx`</ph> beállításjegyzék-helyhez, és a listát ad vissza <ph id="ph2">`AssemblyFoldersExInfo`</ph>ugyanabban a sorrendben, hogy a referencia szerelvényeket tervezési keresni, és build idő.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On a 64-bit operating system, if targeting 64-bit, add in the 64-bit hive then the 32-bit hive; if targeting 32-bit, add in the 32-bit hive then the 64-bit hive.</source>
+          <target state="translated">64 bites operációs rendszeren, ha 64 bites célzás adja hozzá a 64 bites hive majd a 32 bites hive; Ha 32 bites célzás, adja hozzá a 32 bites hive majd a 64 bites struktúra.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On 32-bit machine only add in the 32-bit hive.</source>
+          <target state="translated">Csak a 32 bites számítógépen adja hozzá a 32-bit-struktúrát.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The root registry location for the targeted framework.</source>
+          <target state="translated">A beállításjegyzék gyökerét a megcélzott keretrendszer.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For .NET this is SOFTWARE\MICROSOFT<ph id="ph1">\\</ph>.NETFramework.</source>
+          <target state="translated">.NET-keretrendszerhez készült Ez az SOFTWARE\MICROSOFT<ph id="ph1">\\</ph>. NETFramework.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The targeted framework version (2.0, 3.0, 3.5, 4.0, ….).</source>
+          <target state="translated">A megcélzott keretrendszer (2.0-s, 3.0-s, 3.5, 4.0,...).</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The name of the folder, (AssemblyFoldersEx) could also be PocketPC\AssemblyFoldersEx, or others.</source>
+          <target state="translated">Az a mappa nevét, (AssemblyFoldersEx) PocketPC\AssemblyFoldersEx, vagy más kell lenniük.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The targeted minimum and maximum OS versions in the registry.</source>
+          <target state="translated">A célként megadott minimális és maximális operációsrendszer-verziók a beállításjegyzékben.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These values are used to return only directories for OS versions between the declared minimum and maximum.</source>
+          <target state="translated">Ezek az értékek csak az operációsrendszer-verziók között a deklarált könyvtárak vissza a minimális és maximális szolgálnak.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If this value is blank or null, no filtering is done.</source>
+          <target state="translated">Ha ez az érték üres vagy null, nem szűrése történik.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The targeted platform GUIDs.</source>
+          <target state="translated">A megcélzott platform GUID.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Used to return only directories which have a matching platform GUID.</source>
+          <target state="translated">Ad vissza, csak a megfelelő platform GUID rendelkező könyvtárak.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If this value is blank or null no filtering is done.</source>
+          <target state="translated">Nincs szűrés történik, ha az érték üres vagy null.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The targeted processor architecture.</source>
+          <target state="translated">A célként megadott processzorarchitektúra.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This determines which registry hives are searched and in which order.</source>
+          <target state="translated">Ez határozza meg, melyik rendszerleíró struktúrákat figyelembe veszi a keresésnél és milyen sorrendben.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns list of <bpt id="p1">&lt;xref uid="langword_csharp_AssemblyFoldersExInfo" name="AssemblyFoldersExInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Listáját adja vissza <bpt id="p1">&lt;xref uid="langword_csharp_AssemblyFoldersExInfo" name="AssemblyFoldersExInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates a display name given the target framework details.</source>
+          <target state="translated">Létrehoz egy megjelenítési nevet adni a cél keretrendszer részleteit.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the equivalent of the target framework moniker, but for display.</source>
+          <target state="translated">Ez megegyezik a cél keretrendszer kézjegyet, de megjelenítésre.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If one cannot be found from the redist list file, a synthesized one is returned, so there is always a display name.</source>
+          <target state="translated">Ha egyik nem található a fájlból redist lista, szintetizált egy ad vissza, ezért mindig fennáll egy megjelenítési nevet.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The target framework directory.</source>
+          <target state="translated">A keretrendszer célkönyvtár.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The framework name.</source>
+          <target state="translated">A keretrendszer neveként.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns a display name given the target framework details.</source>
+          <target state="translated">Egy megjelenítési nevet adni a cél keretrendszer részletes adatait adja vissza.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the full name of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> root registry key.</source>
+          <target state="translated">Lekérdezi a teljes nevét a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> legfelső szintű beállításkulcsot.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The version of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to target.</source>
+          <target state="translated">A következő verziója a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> cél.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A string containing the full name of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> root registry key.</source>
+          <target state="translated">A teljes nevét tartalmazó karakterláncot a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> legfelső szintű beállításkulcsot.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the name of the value under the &lt;xref:Microsoft.Build.Utilities.ToolLocationHelper.GetDotNetFrameworkRootRegistryKey*&gt; that contains the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK installation path.</source>
+          <target state="translated">Lekérdezi az érték a nevét a &lt;xref:Microsoft.Build.Utilities.ToolLocationHelper.GetDotNetFrameworkRootRegistryKey*&gt;, amely tartalmazza a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK telepítési elérési&lt;/xref:Microsoft.Build.Utilities.ToolLocationHelper.GetDotNetFrameworkRootRegistryKey*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The version of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to target.</source>
+          <target state="translated">A következő verziója a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> cél.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Returns a string containing the name of the registry key value under the &lt;xref:Microsoft.Build.Utilities.ToolLocationHelper.GetDotNetFrameworkRootRegistryKey*&gt; that contains the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK installation path.</source>
+          <target state="translated">A beállításkulcs-érték alatti nevét tartalmazó karakterlánc visszaadása. a &lt;xref:Microsoft.Build.Utilities.ToolLocationHelper.GetDotNetFrameworkRootRegistryKey*&gt;, amely tartalmazza a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK telepítési elérési út. az&lt;/xref:Microsoft.Build.Utilities.ToolLocationHelper.GetDotNetFrameworkRootRegistryKey*&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Name of the value of GetDotNetFrameworkRootRegistryKey that contains the SDK install root path</source>
+          <target state="translated">Neve az SDK-t tartalmazó GetDotNetFrameworkRootRegistryKey értékének elérési útjának gyökeréhez telepítése</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Version of the targeted .NET Framework</source>
+          <target state="translated">A célként megadott .NET-keretrendszer verziója</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Version of Visual Studio the requested SDK is associated with</source>
+          <target state="translated">A Visual Studio a kért SDK verzió társítva van</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Returns &lt;xref:System.String&gt;.</source>
+          <target state="translated">&lt;xref:System.String&gt;.&lt;/xref:System.String&gt; Beolvasása</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Returns the full name of the .NET Framework SDK root registry key.</source>
+          <target state="translated">A .NET-keretrendszer SDK legfelső szintű beállításkulcs teljes nevét adja vissza.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Version of the targeted .NET Framework</source>
+          <target state="translated">A célként megadott .NET-keretrendszer verziója</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Returns a string representation of the registry key root which indicates where to find the .NETFramework sdk.</source>
+          <target state="translated">A beállításjegyzékbeli kulcs gyökér, amely megadja, hogy hol található karakterlánc alakot adja vissza a. NETFramework sdk.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Returns the full name of the .NET Framework SDK root registry key</source>
+          <target state="translated">A .NET-keretrendszer SDK legfelső szintű beállításkulcs teljes nevét adja vissza</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Version of the targeted .NET Framework</source>
+          <target state="translated">A célként megadott .NET-keretrendszer verziója</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Version of Visual Studio the requested SDK is associated with</source>
+          <target state="translated">A Visual Studio a kért SDK verzió társítva van</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Returns &lt;xref:System.String&gt;.</source>
+          <target state="translated">&lt;xref:System.String&gt;.&lt;/xref:System.String&gt; Beolvasása</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets the prefix of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> folder.</source>
+          <target state="translated">Az előtag lekérdezi a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> mappához.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of the value returned is the string "v2.0".</source>
+          <target state="translated">Példa a visszaadott érték: a karakterlánc a "v2.0".</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The version of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to target.</source>
+          <target state="translated">A következő verziója a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> cél.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Returns the prefix of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> folder.</source>
+          <target state="translated">Az előtag adja vissza a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> mappához.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets a fully qualified path to the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> root directory.</source>
+          <target state="translated">Lekérdezi a teljes elérési útja a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> gyökérkönyvtár.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The version of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to target.</source>
+          <target state="translated">A következő verziója a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> cél.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A string containing the fully qualified path to the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> root directory, or a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in <ph id="ph2">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>) if the targeted version of the <ph id="ph3">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> is not installed.</source>
+          <target state="translated">A teljes elérési útját tartalmazó karakterláncot a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> gyökérkönyvtárában, vagy egy null hivatkozás (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a <ph id="ph2">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>) Ha a megcélzott verziója a <ph id="ph3">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> nincs telepítve.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets a fully qualified path to the framework's root directory.</source>
+          <target state="translated">Lekérdezi a keretrendszer gyökérkönyvtár egy teljes elérési útja.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Version of the targeted .NET Framework</source>
+          <target state="translated">A célként megadott .NET-keretrendszer verziója</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Desired architecture, or DotNetFrameworkArchitecture.Current for the architecture this process is currently running under.</source>
+          <target state="translated">Kívánt architektúráját, vagy a folyamat jelenleg fut. architektúrájának DotNetFrameworkArchitecture.Current.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Returns a fully qualified path to the framework's root directory.</source>
+          <target state="translated">A keretrendszer gyökérkönyvtárba egy teljesen minősített elérési útját adja vissza.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets a fully qualified path to a file in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> directory.</source>
+          <target state="translated">A fájl teljes elérési útja lekérdezi a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> könyvtár.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The file to locate in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> directory.</source>
+          <target state="translated">A fájl található a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> könyvtár.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The version of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to target.</source>
+          <target state="translated">A következő verziója a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> cél.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A string containing the fully qualified path to the specified file, or a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>) if the targeted version of the <ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> is not installed.</source>
+          <target state="translated">A teljes elérési útja a megadott fájl, vagy null hivatkozást tartalmazó karakterlánc (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>) Ha a megcélzott verziója a <ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> nincs telepítve.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets a fully qualified path to a file in the frameworks root directory for the specified architecture.</source>
+          <target state="translated">Lekérdezi a megadott architektúrájának keretrendszerek gyökérkönyvtárában egy fájlt egy teljes elérési útja.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>File name to locate in the .NET Framework directory</source>
+          <target state="translated">A .NET-keretrendszer könyvtárban található a fájl neve</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Version of the targeted .NET Framework</source>
+          <target state="translated">A célként megadott .NET-keretrendszer verziója</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Desired architecture, or DotNetFrameworkArchitecture.Current for the architecture this process is currently running under.</source>
+          <target state="translated">Kívánt architektúráját, vagy a folyamat jelenleg fut. architektúrájának DotNetFrameworkArchitecture.Current.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Returns a fully qualified path to a file in the frameworks root directory.</source>
+          <target state="translated">Keretrendszerek gyökérkönyvtárában fájlba egy teljesen minősített elérési útját adja vissza.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Returns the path to the reference assemblies location for the given framework version.</source>
+          <target state="translated">Az elérési útját adja vissza a megadott Framework hivatkozási szerelvények helyéhez.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Version of the targeted .NET Framework</source>
+          <target state="translated">A célként megadott .NET-keretrendszer verziója</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Returns a string containing the fully qualified path to the Reference Assemblies folder, or a null reference (Nothing in Visual Basic) if the targeted version of the .NET Framework is not installed.</source>
+          <target state="translated">Ha nincs telepítve a .NET-keretrendszer célzott verzióját, amely tartalmazza a teljes elérési útja a hivatkozási szerelvények mappához, vagy null (Nothing a Visual Basic) hivatkozás karakterláncot ad vissza.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets the fully qualified path to the \bin directory of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK.</source>
+          <target state="translated">Lekérdezi a \bin könyvtárba, a teljes elérési útja a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The version of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to target.</source>
+          <target state="translated">A következő verziója a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> cél.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A string containing the fully qualified path to the \bin directory of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK, or a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in <ph id="ph2">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>) if the targeted version of the <ph id="ph3">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK is not installed.</source>
+          <target state="translated">A teljesen minősített a \bin könyvtárának elérési útját tartalmazó karakterláncot a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK, vagy egy null hivatkozás (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a <ph id="ph2">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>) Ha megcélzott verziója a <ph id="ph3">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK nincs telepítve.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns the path to the "bin" directory of the .NET Framework SDK.</source>
+          <target state="translated">Az elérési útját "bin" könyvtárához, a .NET-keretrendszer SDK adja vissza.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Version of the targeted .NET Framework</source>
+          <target state="translated">A célként megadott .NET-keretrendszer verziója</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Version of Visual Studio the requested SDK is associated with</source>
+          <target state="translated">A Visual Studio a kért SDK verzió társítva van</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Path string.</source>
+          <target state="translated">Mappa útvonalát tartalmazó karakterlánc.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets the fully qualified path to a file in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK.</source>
+          <target state="translated">A fájl teljes elérési útja lekérdezi a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The path for the SDK takes in consideration the processor architecture environment information for the calling process, so it might end up being ".../bin/i64", for example.</source>
+          <target state="translated">Az SDK elérési útját veszi figyelembe a hívó folyamat processzor architektúrája környezet adatait, akkor előfordulhat, hogy végül ".../bin/i64", például folyamatban.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike &lt;xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkFile%2A&gt; and &lt;xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToSystemFile%2A&gt; this method checks for the existence of the file, so that an invalid <ph id="ph1">`fileName`</ph> returns null.</source>
+          <target state="translated">Eltérően &lt;xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkFile%2A&gt;és &lt;xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToSystemFile%2A&gt;ezt a módszert a fájl ellenőrzi, hogy érvénytelen <ph id="ph1">`fileName`</ph> null értéket ad vissza.&lt;/xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToSystemFile%2A&gt; &lt;/xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkFile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The file to locate in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK.</source>
+          <target state="translated">A fájl található a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The version of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to target.</source>
+          <target state="translated">A következő verziója a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> cél.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A string containing the fully qualified path to the \bin directory of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK, or a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in <ph id="ph2">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>) if the targeted version of the <ph id="ph3">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK is not installed.</source>
+          <target state="translated">A teljesen minősített a \bin könyvtárának elérési útját tartalmazó karakterláncot a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK, vagy egy null hivatkozás (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a <ph id="ph2">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>) Ha megcélzott verziója a <ph id="ph3">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> SDK nincs telepítve.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Gets a fully qualified path to a file in the .NET Framework SDK.</source>
+          <target state="translated">Lekérdezi a .NET-keretrendszer SDK fájlt a teljes elérési útja.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>File name to locate in the .NET Framework SDK directory</source>
+          <target state="translated">A .NET-keretrendszer SDK könyvtárban található a fájl neve</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Version of the targeted .NET Framework</source>
+          <target state="translated">A célként megadott .NET-keretrendszer verziója</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The required architecture of the requested file.</source>
+          <target state="translated">A kért fájl szükséges architektúrája.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Returns a fully qualified path to a file in the .NET Framework SDK.</source>
+          <target state="translated">A .NET-keretrendszer SDK egy fájlra egy teljesen minősített elérési útját adja vissza.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Throws an error if the .NET Framework SDK can't be found.</source>
+          <target state="translated">Hibát jelez, ha a .NET-keretrendszer SDK nem található.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Get a fully qualified path to a file in the .NET Framework SDK.</source>
+          <target state="translated">A .NET-keretrendszer SDK fájlt egy teljesen minősített elérési útvonalának lekérése.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Error if the .NET Framework SDK can't be found.</source>
+          <target state="translated">Hiba, ha a .NET-keretrendszer SDK nem található.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>File name to locate in the .NET Framework SDK directory</source>
+          <target state="translated">A .NET-keretrendszer SDK könyvtárban található a fájl neve</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Version of the targeted .NET Framework</source>
+          <target state="translated">A célként megadott .NET-keretrendszer verziója</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Version of Visual Studio associated with the requested SDK.</source>
+          <target state="translated">A kért SDK-val kapcsolatos Visual Studio verziójának.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Path string.</source>
+          <target state="translated">Mappa útvonalát tartalmazó karakterlánc.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Get a fully qualified path to a file in the .NET Framework SDK.</source>
+          <target state="translated">A .NET-keretrendszer SDK fájlt egy teljesen minősített elérési útvonalának lekérése.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Error if the .NET Framework SDK can't be found.</source>
+          <target state="translated">Hiba, ha a .NET-keretrendszer SDK nem található.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>File name to locate in the .NET Framework SDK directory</source>
+          <target state="translated">A .NET-keretrendszer SDK könyvtárban található a fájl neve</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Version of the targeted .NET Framework</source>
+          <target state="translated">A célként megadott .NET-keretrendszer verziója</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Version of Visual Studio associated with the requested SDK.</source>
+          <target state="translated">A kért SDK-val kapcsolatos Visual Studio verziójának.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The required architecture of the requested file.</source>
+          <target state="translated">A kért fájl szükséges architektúrája.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Path string.</source>
+          <target state="translated">Mappa útvonalát tartalmazó karakterlánc.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Gets the paths to the reference assemblies location for the given target framework.</source>
+          <target state="translated">Lekérdezi a megadott célkeretrendszer a hivatkozási szerelvények helyének elérési útvonalát.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method assumes that the requested ReferenceAssemblyRoot path will be the ProgramFiles directory that is specified by Environment.SpecialFolder.ProgramFiles.</source>
+          <target state="translated">Ez a módszer feltételezi, hogy a kért ReferenceAssemblyRoot elérési út lesz a ProgramFiles Environment.SpecialFolder.ProgramFiles által megadott könyvtárban.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, when the .NETFramework or .NET Framework targetFrameworkIdentifiers are seen and targetFrameworkVersion is 2.0, 3.0, 3.5, or 4, the correctly chained reference assembly paths for the legacy .NET Framework versions will be returned.</source>
+          <target state="translated">Továbbá, ha a. NETFramework vagy a .NET-keretrendszer targetFrameworkIdentifiers láthatók, és targetFrameworkVersion 2.0-s, 3.0-s, 3.5-ös vagy 4, visszatér a megfelelő láncolt referencia szerelvény elérési útja a .NET-keretrendszer régebbi verzióit.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This chaining will use the existing GetPathToDotNetFrameworkReferenceAssemblies to build up the list of reference assembly paths.</source>
+          <target state="translated">A láncolás használja a meglévő GetPathToDotNetFrameworkReferenceAssemblies referencia szerelvény elérési kialakításához.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The framework name.</source>
+          <target state="translated">A keretrendszer neveként.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Returns the paths to the reference assemblies location.</source>
+          <target state="translated">Az elérési utak a hivatkozási szerelvények helyét adja vissza.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When the frameworkName is null</source>
+          <target state="translated">Ha a frameworkname objektum értéke null.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets the paths to the reference assemblies location for the given framework version relative to a given targetFrameworkRoot.</source>
+          <target state="translated">Lekérdezi a megadott Framework egy adott targetFrameworkRoot viszonyítva a hivatkozási szerelvények helyének elérési útvonalát.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method does not check to see if the path exists or not.</source>
+          <target state="translated">Ez a módszer nem ellenőrizze, hogy az elérési út létezik-e vagy sem.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Root directory which will be used to calculate the reference assembly path.</source>
+          <target state="translated">A referencia szerelvény elérési útja kiszámításához használandó gyökérkönyvtár.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The references assembies will be generated in the following way TargetFrameworkRootPath\TargetFrameworkIdentifier\TargetFrameworkVersion\SubType\TargetFrameworkSubType.</source>
+          <target state="translated">A hivatkozások assembies az alábbi módon TargetFrameworkRootPath\TargetFrameworkIdentifier\TargetFrameworkVersion\SubType\TargetFrameworkSubType jön létre.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A frameworkName class which represents a TargetFrameworkMoniker.</source>
+          <target state="translated">A frameworkname objektum osztályt, amely egy TargetFrameworkMoniker jelöli.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This cannot be null.</source>
+          <target state="translated">Ez nem lehet null.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Returns the paths to the reference assemblies location.</source>
+          <target state="translated">Az elérési utak a hivatkozási szerelvények helyét adja vissza.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Returns the paths to the reference assemblies location for the given target framework.</source>
+          <target state="translated">A megadott célkeretrendszer hivatkozási szerelvények helyéhez adja vissza az elérési utakat.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This method will assume the requested ReferenceAssemblyRoot path will be the ProgramFiles directory specified by Environment.SpecialFolder.ProgramFiles In additon when the .NETFramework or .NET Framework targetFrameworkIdentifiers are seen and targetFrameworkVersion is 2.0, 3.0, 3.5 or 4.0 we will return the correctly chained reference assembly paths for the legacy .NET Framework versions.</source>
+          <target state="translated">Ezt a módszert fogja feltételezni, hogy a kért ReferenceAssemblyRoot elérési utat Environment.SpecialFolder.ProgramFiles a additon által megadott ProgramFiles könyvtárban lesz. Ha a. NETFramework vagy a .NET-keretrendszer targetFrameworkIdentifiers láthatók, és targetFrameworkVersion 2.0-s, 3.0-s, 3.5-ös vagy 4.0 azt ad vissza a megfelelő láncolt referencia szerelvény elérési útja a .NET-keretrendszer régebbi verziók.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This chaining will use the existing GetPathToDotNetFrameworkReferenceAssemblies to build up the list of reference assembly paths.</source>
+          <target state="translated">A láncolás használja a meglévő GetPathToDotNetFrameworkReferenceAssemblies referencia szerelvény elérési kialakításához.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Identifier being targeted</source>
+          <target state="translated">Kifejezetten azonosítója</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Version being targeted</source>
+          <target state="translated">Megcélzott alatt álló verzióval</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Profile being targeted</source>
+          <target state="translated">Kifejezetten profil</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Collection of reference assembly locations.</source>
+          <target state="translated">Referencia szerelvény helyek gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When the frameworkName is null</source>
+          <target state="translated">Ha a frameworkname objektum értéke null.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Returns the path to the reference assemblies location for the given target framework's standard libraries (i.e. mscorlib).</source>
+          <target state="translated">Az elérési útját adja vissza a megadott célkeretrendszer szabványos függvénytárak (azaz az mscorlib használatát) referencia szerelvényeket helyéhez.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>This method will assume the requested ReferenceAssemblyRoot path will be the ProgramFiles directory specified by Environment.SpecialFolder.ProgramFiles In additon when the .NETFramework or .NET Framework targetFrameworkIdentifiers are seen and targetFrameworkVersion is 2.0, 3.0, 3.5 or 4.0 we will return the correctly chained reference assembly paths for the legacy .NET Framework versions.</source>
+          <target state="translated">Ezt a módszert fogja feltételezni, hogy a kért ReferenceAssemblyRoot elérési utat Environment.SpecialFolder.ProgramFiles a additon által megadott ProgramFiles könyvtárban lesz. Ha a. NETFramework vagy a .NET-keretrendszer targetFrameworkIdentifiers láthatók, és targetFrameworkVersion 2.0-s, 3.0-s, 3.5-ös vagy 4.0 azt ad vissza a megfelelő láncolt referencia szerelvény elérési útja a .NET-keretrendszer régebbi verziók.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This chaining will use the existing GetPathToDotNetFrameworkReferenceAssemblies to build up the list of reference assembly paths.</source>
+          <target state="translated">A láncolás használja a meglévő GetPathToDotNetFrameworkReferenceAssemblies referencia szerelvény elérési kialakításához.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Identifier being targeted</source>
+          <target state="translated">Kifejezetten azonosítója</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Version being targeted</source>
+          <target state="translated">Megcélzott alatt álló verzióval</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Profile being targeted</source>
+          <target state="translated">Kifejezetten profil</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Collection of reference assembly locations.</source>
+          <target state="translated">Referencia szerelvény helyek gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>When the frameworkName is null</source>
+          <target state="translated">Ha a frameworkname objektum értéke null.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Returns the path to mscorlib and system.dll</source>
+          <target state="translated">Az elérési útját adja vissza a mscorlib használatát és a system.dll</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Identifier being targeted</source>
+          <target state="translated">Kifejezetten azonosítója</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Version being targeted</source>
+          <target state="translated">Megcélzott alatt álló verzióval</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Profile being targeted</source>
+          <target state="translated">Kifejezetten profil</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This is used to determine where we should look for the standard libraries.</source>
+          <target state="translated">Ennek segítségével határozza meg, ha igazolnia kell keresnie a szabványos függvénytárak.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Note, this parameter is only used for .NET Framework 3.5 or less.</source>
+          <target state="translated">Vegye figyelembe, ez a paraméter csak a .NET-keretrendszer 3.5 használt vagy kisebb.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Collection of reference assembly locations.</source>
+          <target state="translated">Referencia szerelvény helyek gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>When the frameworkName is null</source>
+          <target state="translated">Ha a frameworkname objektum értéke null.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets a fully qualified path to a file in the system directory.</source>
+          <target state="translated">Lekérdezi a rendszer a fájl a teljes elérési útja.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This API builds the full path plus filename for a file in the System folder.</source>
+          <target state="translated">Ez az API hoz létre, a teljes elérési útja túl a rendszer mappában lévő fájl nevét.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It doesn't check for the existence of the file prior to returning.</source>
+          <target state="translated">Az előtt vissza fájlok meglétét nem ellenőrzi.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The file to locate in the System folder.</source>
+          <target state="translated">A fájl, a rendszer mappában található.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>A string containing the fully qualified path to the the file in the system directory.</source>
+          <target state="translated">A teljes elérési útját tartalmazó karakterláncot a a rendszer a fájl.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Returns the path to the Windows SDK for the desired .NET Framework and Visual Studio version.</source>
+          <target state="translated">Az elérési útját adja vissza a Windows SDK-val a kívánt .NET-keretrendszer és a Visual Studio verziójának.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Note that this is only supported for a targeted .NET Framework version of 4.5 and above.</source>
+          <target state="translated">Vegye figyelembe, hogy ez csak a támogatott a célként megadott .NET-keretrendszer 4.5-ös vagy újabb.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Target .NET Framework version</source>
+          <target state="translated">Cél .NET-keretrendszer verziója</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Version of Visual Studio associated with the SDK.</source>
+          <target state="translated">Az SDK-val kapcsolatos Visual Studio verziójának.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Path to the appropriate Windows SDK location</source>
+          <target state="translated">A megfelelő Windows SDK-helyét</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Returns the path to a file in the Windows SDK for the desired .NET Framework and Visual Studio version.</source>
+          <target state="translated">A kívánt .NET-keretrendszer és a Visual Studio verziója a Windows SDK fájlba szeretné az elérési útját adja vissza.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Note that this is only supported for a targeted .NET Framework version of 4.5 and above.</source>
+          <target state="translated">Vegye figyelembe, hogy ez csak a támogatott a célként megadott .NET-keretrendszer 4.5-ös vagy újabb.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The name of the file being requested.</source>
+          <target state="translated">A kért fájl neve.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Target .NET Framework version.</source>
+          <target state="translated">Cél .NET-keretrendszer verziója.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Version of Visual Studio associated with the SDK.</source>
+          <target state="translated">Az SDK-val kapcsolatos Visual Studio verziójának.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Path to the appropriate Windows SDK file</source>
+          <target state="translated">A megfelelő Windows SDK-fájl elérési útja</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Returns the path to a file in the Windows SDK for the desired .NET Framework and Visual Studio version and the desired architecture.</source>
+          <target state="translated">A Windows SDK-ban a kívánt .NET-keretrendszer és a Visual Studio verziójának és a kívánt architektúra fájlba az elérési útját adja vissza.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Note that this is only supported for a targeted .NET Framework version of 4.5 and above.</source>
+          <target state="translated">Vegye figyelembe, hogy ez csak a támogatott a célként megadott .NET-keretrendszer 4.5-ös vagy újabb.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The name of the file being requested.</source>
+          <target state="translated">A kért fájl neve.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Target .NET Framework version.</source>
+          <target state="translated">Cél .NET-keretrendszer verziója.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Version of Visual Studio associated with the requested SDK.</source>
+          <target state="translated">A kért SDK-val kapcsolatos Visual Studio verziójának.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Desired architecture of the resultant file.</source>
+          <target state="translated">Az eredményül kapott fájlt kívánt architektúrája.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Path to the appropriate Windows SDK file</source>
+          <target state="translated">A megfelelő Windows SDK-fájl elérési útja</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Given an SDK moniker and the targeted platform get the path to the SDK root if it exists.</source>
+          <target state="translated">Adott egy SDK kézjegy és a célként használni kívánt platform get elérési SDK gyökeréhez rá.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Moniker for the sdk</source>
+          <target state="translated">Az SDK-ban kézjegy</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Identifier for the platform</source>
+          <target state="translated">A platform azonosítója</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Version of the platform</source>
+          <target state="translated">A platform verziója</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A full path to the sdk root if the sdk exists in the targeted platform or an empty string if it does not exist.</source>
+          <target state="translated">A teljes elérési útja az sdk-gyökér, ha az sdk található a célként használni kívánt platform vagy üres karakterlánc, ha még nem létezik.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Given an SDKName, targetPlatformIdentifier and TargetPlatformVersion search the default sdk locations for the passed in sdk name.</source>
+          <target state="translated">Egy SDKName tekintve targetPlatformIdentifier és TargetPlatformVersion keresési átadott alapértelmezett sdk helyét az sdk-neve.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The format of the sdk moniker is SDKName, Version=X.X</source>
+          <target state="translated">Az sdk kézjegy formátuma SDKName, Version=X.X</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Name of the SDK to determine the installation location for.</source>
+          <target state="translated">A telepítési helyének meghatározásához SDK neve.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Targeted platform to find SDKs for</source>
+          <target state="translated">Az SDK-k található célként használni kívánt platform</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Targeted platform version to find SDKs for</source>
+          <target state="translated">Megcélzott platform verzió található készült SDK-k</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Location of the SDK if it is found, empty string if it could not be found</source>
+          <target state="translated">Az SDK helyét, ha megtalálható, üres karakterlánc, ha nem található</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Given an SDKName, targetPlatformIdentifier and TargetPlatformVersion search the default sdk locations for the passed in sdk name.</source>
+          <target state="translated">Egy SDKName tekintve targetPlatformIdentifier és TargetPlatformVersion keresési átadott alapértelmezett sdk helyét az sdk-neve.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The format of the sdk moniker is SDKName, Version=X.X</source>
+          <target state="translated">Az sdk kézjegy formátuma SDKName, Version=X.X</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Name of the SDK to determine the installation location for.</source>
+          <target state="translated">A telepítési helyének meghatározásához SDK neve.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Targeted platform to find SDKs for</source>
+          <target state="translated">Az SDK-k található célként használni kívánt platform</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Targeted platform version to find SDKs for</source>
+          <target state="translated">Megcélzott platform verzió található készült SDK-k</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>List of disk roots to search for sdks within</source>
+          <target state="translated">Lemez gyökerek kereséséhez belül SDK-k listája</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Registry root to look for sdks within</source>
+          <target state="translated">Amelyet meg kíván keresni az SDK-k belül beállításjegyzék gyökér</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Location of the SDK if it is found, empty string if it could not be found</source>
+          <target state="translated">Az SDK helyét, ha megtalálható, üres karakterlánc, ha nem található</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Given an SDKName, targetPlatformIdentifier and TargetPlatformVersion search the default sdk locations for the passed in sdk name.</source>
+          <target state="translated">Egy SDKName tekintve targetPlatformIdentifier és TargetPlatformVersion keresési átadott alapértelmezett sdk helyét az sdk-neve.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The format of the sdk moniker is SDKName, Version=X.X</source>
+          <target state="translated">Az sdk kézjegy formátuma SDKName, Version=X.X</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Name of the SDK to determine the installation location for.</source>
+          <target state="translated">A telepítési helyének meghatározásához SDK neve.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Targeted platform to find SDKs for</source>
+          <target state="translated">Az SDK-k található célként használni kívánt platform</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Targeted platform version to find SDKs for</source>
+          <target state="translated">Megcélzott platform verzió található készült SDK-k</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>List of disk roots to search for sdks within</source>
+          <target state="translated">Lemez gyökerek kereséséhez belül SDK-k listája</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Registry root to look for sdks within</source>
+          <target state="translated">Amelyet meg kíván keresni az SDK-k belül beállításjegyzék gyökér</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Location of the SDK if it is found, empty string if it could not be found</source>
+          <target state="translated">Az SDK helyét, ha megtalálható, üres karakterlánc, ha nem található</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Get a list of SDK's installed on the machine for a given target platform</source>
+          <target state="translated">A megadott cél platform jöhet létre a számítógépen telepített SDK listájának lekérdezése</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Targeted platform to find SDKs for</source>
+          <target state="translated">Az SDK-k található célként használni kívánt platform</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Targeted platform version to find SDKs for</source>
+          <target state="translated">Megcélzott platform verzió található készült SDK-k</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>IDictionary of installed SDKS and their location.</source>
+          <target state="translated">IDictionary telepített SDK-k és azok helyétől.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>K:SDKName V:SDK installation location</source>
+          <target state="translated">K:SDKName V:SDK telepítési helye</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Get a list of SDK's installed on the machine for a given target platform</source>
+          <target state="translated">A megadott cél platform jöhet létre a számítógépen telepített SDK listájának lekérdezése</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Array of disk locations to search for sdks</source>
+          <target state="translated">Az SDK-k kereséséhez lemez helyének tömb</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Root registry location to look for sdks</source>
+          <target state="translated">Amelyet meg kíván keresni az SDK-k beállításjegyzék gyökere</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Targeted platform to find SDKs for</source>
+          <target state="translated">Az SDK-k található célként használni kívánt platform</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Targeted platform version to find SDKs for</source>
+          <target state="translated">Megcélzott platform verzió található készült SDK-k</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>IDictionary of installed SDKS and their location.</source>
+          <target state="translated">IDictionary telepített SDK-k és azok helyétől.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>K:SDKName V:SDK installation location</source>
+          <target state="translated">K:SDKName V:SDK telepítési helye</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Given a target platform identifier and a target platform version, search the default SDK locations for the platform SDK for that target platform.</source>
+          <target state="translated">Adott platform célazonosító és adott platform célverzió, keresse a Platform SDK target platform, az alapértelmezett SDK helyek.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Targeted platform for which to find SDK.</source>
+          <target state="translated">Megcélzott platform, amelynek SDK kereséséhez.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Targeted platform version for which to find SDK.</source>
+          <target state="translated">Megcélzott platform verzió, amelynek SDK kereséséhez.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Returns the location of the SDK if it is found, otherwise, returns an empty string if the SDK could not be found.</source>
+          <target state="translated">Visszaadja a helyét, az SDK-t megtalálja, ellenkező esetben, ha egy karakterláncot ad vissza üres, ha az SDK nem található.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Given a target platform identifier and a target platform version, search the default SDK locations for the platform SDK for that target platform.</source>
+          <target state="translated">Adott platform célazonosító és adott platform célverzió, keresse a Platform SDK target platform, az alapértelmezett SDK helyek.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Targeted platform for which to find SDK.</source>
+          <target state="translated">Megcélzott platform, amelynek SDK kereséséhez.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Targeted platform version for which to find SDK.</source>
+          <target state="translated">Megcélzott platform verzió, amelynek SDK kereséséhez.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Returns the location of the SDK if it is found, otherwise, returns an empty string if the SDK could not be found.</source>
+          <target state="translated">Visszaadja a helyét, az SDK-t megtalálja, ellenkező esetben, ha egy karakterláncot ad vissza üres, ha az SDK nem található.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Given a target platform identifier and a target platform version, search the default SDK locations for the platform SDK for that target platform.</source>
+          <target state="translated">Adott platform célazonosító és adott platform célverzió, keresse a Platform SDK target platform, az alapértelmezett SDK helyek.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Targeted platform for which to find SDK.</source>
+          <target state="translated">Megcélzott platform, amelynek SDK kereséséhez.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Targeted platform version for which to find SDK.</source>
+          <target state="translated">Megcélzott platform verzió, amelynek SDK kereséséhez.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Array of disk roots within which to search for SDK.</source>
+          <target state="translated">Lemez gyökerek, amelyek között meg kell keresni az SDK tömbje.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Registry root within which to search for SDK.</source>
+          <target state="translated">Beállításjegyzék root belül, amely SDK kereséséhez.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Returns the location of the SDK if it is found, otherwise, returns an empty string if the SDK could not be found.</source>
+          <target state="translated">Visszaadja a helyét, az SDK-t megtalálja, ellenkező esetben, ha egy karakterláncot ad vissza üres, ha az SDK nem található.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Given a target platform identifier and a target platform version, search the default SDK locations for the platform SDK for that target platform.</source>
+          <target state="translated">Adott platform célazonosító és adott platform célverzió, keresse a Platform SDK target platform, az alapértelmezett SDK helyek.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Targeted platform for which to find SDK.</source>
+          <target state="translated">Megcélzott platform, amelynek SDK kereséséhez.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Targeted platform version for which to find SDK.</source>
+          <target state="translated">Megcélzott platform verzió, amelynek SDK kereséséhez.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Array of disk roots within which to search for SDK.</source>
+          <target state="translated">Lemez gyökerek, amelyek között meg kell keresni az SDK tömbje.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Registry root within which to search for SDK.</source>
+          <target state="translated">Beállításjegyzék root belül, amely SDK kereséséhez.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Returns the location of the SDK if it is found, otherwise, returns an empty string if the SDK could not be found.</source>
+          <target state="translated">Visszaadja a helyét, az SDK-t megtalálja, ellenkező esetben, ha egy karakterláncot ad vissza üres, ha az SDK nem található.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Gets the root location for the reference assembly directory under the program files directory.</source>
+          <target state="translated">Lekérdezi a referencia szerelvény könyvtárat a program files könyvtár legfelső szintű helyét.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Returns the root location for the reference assembly directory.</source>
+          <target state="translated">A referencia szerelvény könyvtár legfelső szintű helyét adja meg.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Get the list of SDK folders which contain the design-time files for the SDK at the specified SDK root.</source>
+          <target state="translated">Az SDK-mappák a tervezési idejű fájlokat tartalmazó az SDK-ban megadott SDK gyökerében beolvasása.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The list is in the order that must be used in searching for references.</source>
+          <target state="translated">A lista van a megadott sorrendben hivatkozásainak keresése a kell használni.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The root folder for the SDK, must contain a design-time folder.</source>
+          <target state="translated">Az SDK-ban, amely a gyökérmappában található tartalmaznia kell egy tervezéskor mappát.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Returns the list of folders to be used in searching for design-time files in the SDK, in the order that must be used for the search.</source>
+          <target state="translated">Tervezési idejű fájlok az SDK-ban, a megadott sorrendben kell használni a Keresés az keresése használt mappák listáját adja vissza.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Get the list of SDK folders which contain the design-time files for the SDK at the specified SDK root.</source>
+          <target state="translated">Az SDK-mappák a tervezési idejű fájlokat tartalmazó az SDK-ban megadott SDK gyökerében beolvasása.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The list is in the order that must be used in searching for references.</source>
+          <target state="translated">A lista van a megadott sorrendben hivatkozásainak keresése a kell használni.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The root folder for the SDK, must contain a design-time folder.</source>
+          <target state="translated">Az SDK-ban, amely a gyökérmappában található tartalmaznia kell egy tervezéskor mappát.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The configuration the SDK is targeting.</source>
+          <target state="translated">A konfiguráció az SDK-val van-e állítva.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>This is “Debug” or “Retail”.</source>
+          <target state="translated">Ez az "Debug" vagy "Kereskedelmi".</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The architecture the SDK is targeting.</source>
+          <target state="translated">Az architektúra, az SDK-val van-e állítva.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Returns the list of folders to be used in searching for design-time files in the SDK, in the order that must be used for the search.</source>
+          <target state="translated">Tervezési idejű fájlok az SDK-ban, a megadott sorrendben kell használni a Keresés az keresése használt mappák listáját adja vissza.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Get the list of SDK folders which contain the redist files for the SDK at the specified SDK root.</source>
+          <target state="translated">Az SDK-ban megadott SDK gyökerében redist fájlokat tartalmazó SDK mappák listájának.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>The list is in the order that must be used in searching for references.</source>
+          <target state="translated">A lista van a megadott sorrendben hivatkozásainak keresése a kell használni.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The root folder for the SDK, must contain a redist folder.</source>
+          <target state="translated">Az SDK-ban, amely a gyökérmappában található tartalmaznia kell egy redist mappában.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Returns the list of folders to be used in searching for redist files in the SDK, in the order that must be used for the search.</source>
+          <target state="translated">Az SDK-ban, a megadott sorrendben kell használni a Keresés az redist fájlok keresése használt mappák listáját adja vissza.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Get the list of SDK folders which contain the redist files for the SDK at the specified SDK root.</source>
+          <target state="translated">Az SDK-ban megadott SDK gyökerében redist fájlokat tartalmazó SDK mappák listájának.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The list is in the order that must be used in searching for references.</source>
+          <target state="translated">A lista van a megadott sorrendben hivatkozásainak keresése a kell használni.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The root folder for the SDK, must contain a redist folder.</source>
+          <target state="translated">Az SDK-ban, amely a gyökérmappában található tartalmaznia kell egy redist mappában.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>The configuration the SDK is targeting.</source>
+          <target state="translated">A konfiguráció az SDK-val van-e állítva.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>This is “Debug” or “Retail”.</source>
+          <target state="translated">Ez az "Debug" vagy "Kereskedelmi".</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The architecture the SDK is targeting.</source>
+          <target state="translated">Az architektúra, az SDK-val van-e állítva.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Returns the list of folders to be used in searching for redist files in the SDK, in the order that must be used for the search.</source>
+          <target state="translated">Az SDK-ban, a megadott sorrendben kell használni a Keresés az redist fájlok keresése használt mappák listáját adja vissza.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Get the list of SDK folders which contain the references for the SDK at the specified SDK root.</source>
+          <target state="translated">Az SDK-mappák a hivatkozásokat tartalmaznak az SDK-ban megadott SDK gyökerében beolvasása.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The list is in the order that must be used in searching for references.</source>
+          <target state="translated">A lista van a megadott sorrendben hivatkozásainak keresése a kell használni.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>The root folder for the SDK.</source>
+          <target state="translated">A gyökérmappában található, az SDK-ban.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Returns the list of folders to be used in searching for references in the SDK, in the order that must be used for the search.</source>
+          <target state="translated">Az SDK-t és a megadott sorrendben kell használni a Keresés az elemben található hivatkozások keresése során használandó mappák listáját adja vissza.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Get the list of SDK folders which contain the references for the SDK at the specified SDK root.</source>
+          <target state="translated">Az SDK-mappák a hivatkozásokat tartalmaznak az SDK-ban megadott SDK gyökerében beolvasása.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The list is in the order that must be used in searching for references.</source>
+          <target state="translated">A lista van a megadott sorrendben hivatkozásainak keresése a kell használni.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The root folder for the SDK.</source>
+          <target state="translated">A gyökérmappában található, az SDK-ban.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>The configuration the SDK is targeting.</source>
+          <target state="translated">A konfiguráció az SDK-val van-e állítva.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>This is “Debug” or “Retail”.</source>
+          <target state="translated">Ez az "Debug" vagy "Kereskedelmi".</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>The architecture the SDK is targeting.</source>
+          <target state="translated">Az architektúra, az SDK-val van-e állítva.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Returns the list of folders to be used in searching for references in the SDK, in the order that must be used for the search.</source>
+          <target state="translated">Az SDK-t és a megadott sorrendben kell használni a Keresés az elemben található hivatkozások keresése során használandó mappák listáját adja vissza.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Gets a list of supported target framework monikers.</source>
+          <target state="translated">Támogatott cél keretrendszer monikerek listájának lekérése.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>list of supported target framework monikers</source>
+          <target state="translated">támogatott cél keretrendszer monikerek listája</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Get a list of target platform SDKs on the machine.</source>
+          <target state="translated">A gépen SDK-k célplatform listájának lekérése.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>List of Target Platform SDKs, Item1: TargetPlatformName Item2: Version of SDK Item3: Path to sdk root</source>
+          <target state="translated">Cél Platform SDK-k, Item1 listája: TargetPlatformName Item2: az SDK-verzió Item3: sdk gyökér elérési útja</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Get a list of target platform SDKs on the machine.</source>
+          <target state="translated">A gépen SDK-k célplatform listájának lekérése.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>List of disk locations to search for platform SDKs.</source>
+          <target state="translated">Lemez helyet a kereséshez Platform SDK-k listája.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Registry root location to look for platform SDKs.</source>
+          <target state="translated">Beállításjegyzék gyökerét a platform SDK-k kereséséhez.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Returns a list of target platform SDKs.</source>
+          <target state="translated">SDK-k célplatform listáját adja vissza.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Gets the highest version of a target framework moniker based on the identifier.</source>
+          <target state="translated">Lekérdezi az azonosítója alapján cél keretrendszer kézjegyet legmagasabb verzióval.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Target framework root directory.</source>
+          <target state="translated">Cél keretrendszer gyökérkönyvtár.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Framework identifier.</source>
+          <target state="translated">Keretrendszer-azonosítót.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Returns the highest version of a target framework moniker based on the identifier.</source>
+          <target state="translated">A legújabb verziót az azonosítója alapján cél keretrendszer kézjegyet adja vissza.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>This method will only find full frameworks; no profiles will be returned.</source>
+          <target state="translated">Ez a módszer csak keres teljes keretrendszerek; az eredmény nem profil.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Gets the fully qualified path of the system directory.</source>
+          <target state="translated">Lekérdezi a rendszer könyvtár teljes elérési útja.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of the value returned is the string "C:\WinNT\System32".</source>
+          <target state="translated">Példa a visszaadott érték: "C:\WinNT\System32" karakterlánc.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>A string containing a directory path to the system directory.</source>
+          <target state="translated">A könyvtár elérési útja, a rendszer könyvtárához tartalmazó karakterlánc.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

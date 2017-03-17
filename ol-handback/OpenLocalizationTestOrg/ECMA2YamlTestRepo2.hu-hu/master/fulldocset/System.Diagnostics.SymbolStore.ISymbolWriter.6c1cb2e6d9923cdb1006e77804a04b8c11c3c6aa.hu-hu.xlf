@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0103a77356d93f8158426708e8ca0f966229c627</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.SymbolStore.ISymbolWriter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f1c6b28c9041dfa10063f3a924c0496b6df3b2d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">147310706fb5b678dfccd385bd659237d07bb07f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a symbol writer for managed code.</source>
+          <target state="translated">A felügyelt kód szimbólum író jelöli.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ISymbolWriter interface provides methods that define documents, sequence points, lexical scopes, and variables.</source>
+          <target state="translated">A ISymbolWriter felület módszereket, amelyek a dokumentumok, a feladatütemezési pontok, a lexikális hatókörök és a változók megadása révén.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This interface is the managed counterpart of the <ph id="ph2">`ISymUnmanagedWriter`</ph> interface, which is one of the unmanaged symbol store interfaces that provides an alternative way to read and write debug symbol information.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Az illesztő felügyelt megfelelője a <ph id="ph2">`ISymUnmanagedWriter`</ph> felület, amely a nem felügyelt szimbólum tároló felületek, amely alternatív megoldás a olvasási és írási hibakeresési szimbóluminformáció egyike.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Closes <bpt id="p1">&lt;xref href="System.Diagnostics.SymbolStore.ISymbolWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and commits the symbols to the symbol store.</source>
+          <target state="translated">Bezárja <bpt id="p1">&lt;xref href="System.Diagnostics.SymbolStore.ISymbolWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és a szimbólumokat véglegesíti a szimbólum tárolójába.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After this call, &lt;xref:System.Diagnostics.SymbolStore.ISymbolWriter&gt; becomes invalid for further updates.</source>
+          <target state="translated">Ez a hívás után &lt;xref:System.Diagnostics.SymbolStore.ISymbolWriter&gt;További frissítések érvénytelenné válik.&lt;/xref:System.Diagnostics.SymbolStore.ISymbolWriter&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Closes the current method.</source>
+          <target state="translated">Bezárja az aktuális metódust.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After a method is closed, you cannot define a symbol from within it.</source>
+          <target state="translated">Után egy metódus le van zárva, nem adhat meg benne a szimbólum.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Closes the most recent namespace.</source>
+          <target state="translated">A legutóbbi névtér bezárása.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Closes the current lexical scope.</source>
+          <target state="translated">Bezárja az aktuális lexikális hatókörben.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After a scope is closed, you cannot define a variable from within it.</source>
+          <target state="translated">A hatókör lezárása után belül, akkor a változó nem lehet definiálni.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The points past the last instruction in the scope.</source>
+          <target state="translated">A pontok túli az utolsó utasítás hatókörében.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Defines a source document.</source>
+          <target state="translated">Meghatározza a forrásdokumentum.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The URL that identifies the document.</source>
+          <target state="translated">Az URL-címet, amely azonosítja a dokumentumot.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The document language.</source>
+          <target state="translated">A dokumentum nyelvét.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This parameter can be &lt;xref:System.Guid&gt;.</source>
+          <target state="translated">Ez a paraméter lehet &lt;xref:System.Guid&gt;.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The identity of the vendor for the document language.</source>
+          <target state="translated">A dokumentum nyelvhez szállító identitását.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This parameter can be &lt;xref:System.Guid&gt;.</source>
+          <target state="translated">Ez a paraméter lehet &lt;xref:System.Guid&gt;.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The type of the document.</source>
+          <target state="translated">A dokumentum típusa.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This parameter can be &lt;xref:System.Guid&gt;.</source>
+          <target state="translated">Ez a paraméter lehet &lt;xref:System.Guid&gt;.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The object that represents the document.</source>
+          <target state="translated">A dokumentum képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Defines a field in a type or a global field.</source>
+          <target state="translated">A típus vagy a globális mező mező határozza meg.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefineField method defines a single variable that is not within a method by using specified fields in classes, bit fields, and so on.</source>
+          <target state="translated">A DefineField metódus, amely kívül esik a metódus megadott mezőkkel osztályok, bit, és így tovább egy változó határozza meg.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The metadata type or method token.</source>
+          <target state="translated">A metaadatok típusban vagy metódusban token.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The field name.</source>
+          <target state="translated">A mező nevét.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the field attributes.</source>
+          <target state="translated">A mező attribútum bitenkénti kombinációja.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The field signature.</source>
+          <target state="translated">A mező aláírása.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The address types for <ph id="ph1">`addr1`</ph> and <ph id="ph2">`addr2`</ph>.</source>
+          <target state="translated">A címet meg kell adnia a <ph id="ph1">`addr1`</ph> és <ph id="ph2">`addr2`</ph>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The first address for the field specification.</source>
+          <target state="translated">A mező meghatározásának első cím.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The second address for the field specification.</source>
+          <target state="translated">A mező meghatározásának második címe.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The third address for the field specification.</source>
+          <target state="translated">A mező megadását a harmadik címnél.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Defines a single global variable.</source>
+          <target state="translated">Egy globális változó határozza meg.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The global variable name.</source>
+          <target state="translated">A globális változó neve.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the global variable attributes.</source>
+          <target state="translated">A globális változók attribútum bitenkénti kombinálását.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The global variable signature.</source>
+          <target state="translated">A globális változó aláírása.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The address types for <ph id="ph1">`addr1`</ph>, <ph id="ph2">`addr2`</ph>, and <ph id="ph3">`addr3`</ph>.</source>
+          <target state="translated">A címet meg kell adnia a <ph id="ph1">`addr1`</ph>, <ph id="ph2">`addr2`</ph>, és <ph id="ph3">`addr3`</ph>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The first address for the global variable specification.</source>
+          <target state="translated">Az első címnél a globális változók megadását.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The second address for the global variable specification.</source>
+          <target state="translated">A második címe a globális változók megadását.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The third address for the global variable specification.</source>
+          <target state="translated">A harmadik címnél a globális változók megadását.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Defines a single variable in the current lexical scope.</source>
+          <target state="translated">Egy változó meghatározza az aktuális lexikális hatókörben.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`startOffset`</ph> and <ph id="ph2">`endOffset`</ph> parameters are optional.</source>
+          <target state="translated">A <ph id="ph1">`startOffset`</ph> és <ph id="ph2">`endOffset`</ph> paraméterek opcionálisak.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If their value is zero, they are ignored and the variable is defined throughout the entire scope.</source>
+          <target state="translated">Ha az érték nulla, figyelmen kívül hagyja, és a változó teljes névtértől van definiálva.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If their value is nonzero, the variable falls within the offsets of the current scope.</source>
+          <target state="translated">Ha az érték nem nulla, a változó az aktuális hatókör eltolásának alá tartozik.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can call DefineLocalVariable multiple times for a variable of the same name that occurs multiple times in different offset ranges throughout a scope.</source>
+          <target state="translated">Kérjen DefineLocalVariable többször, több alkalommal fordul elő különböző eltolási tartományt teljes hatókör azonos nevű változó.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(In this case, start and end offsets must not overlap.)</source>
+          <target state="translated">(Ebben az esetben kezdő és záró eltolás nem lehet átfedésben.)</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The local variable name.</source>
+          <target state="translated">A helyi változó neve.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the local variable attributes.</source>
+          <target state="translated">A helyi változó attribútum bitenkénti kombinálását.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The local variable signature.</source>
+          <target state="translated">A helyi változó aláírása.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The address types for <ph id="ph1">`addr1`</ph>, <ph id="ph2">`addr2`</ph>, and <ph id="ph3">`addr3`</ph>.</source>
+          <target state="translated">A címet meg kell adnia a <ph id="ph1">`addr1`</ph>, <ph id="ph2">`addr2`</ph>, és <ph id="ph3">`addr3`</ph>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The first address for the local variable specification.</source>
+          <target state="translated">Az első címnél a helyi változó megadását.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The second address for the local variable specification.</source>
+          <target state="translated">A második címét a helyi változó megadását.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The third address for the local variable specification.</source>
+          <target state="translated">A harmadik címnél a helyi változó megadását.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The start offset for the variable.</source>
+          <target state="translated">Az indítási eltolás a változó.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If this parameter is zero, it is ignored and the variable is defined throughout the entire scope.</source>
+          <target state="translated">Ha ez a paraméter értéke nulla, figyelmen kívül, és a változó teljes névtértől van definiálva.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If the parameter is nonzero, the variable falls within the offsets of the current scope.</source>
+          <target state="translated">Ha a paraméter értéke nem nulla, a változó az aktuális hatókör eltolásának alá tartozik.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The end offset for the variable.</source>
+          <target state="translated">A záró eltolás a változó.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If this parameter is zero, it is ignored and the variable is defined throughout the entire scope.</source>
+          <target state="translated">Ha ez a paraméter értéke nulla, figyelmen kívül, és a változó teljes névtértől van definiálva.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If the parameter is nonzero, the variable falls within the offsets of the current scope.</source>
+          <target state="translated">Ha a paraméter értéke nem nulla, a változó az aktuális hatókör eltolásának alá tartozik.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Defines a single parameter in the current method.</source>
+          <target state="translated">Meghatározza az aktuális módszer egyetlen paramétert.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The type of each parameter is taken from its position within the signature of the method.</source>
+          <target state="translated">Minden paraméter típusa a metódus aláírása belül pozícióját származik.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If parameters are defined in the metadata for a given method, you do not have to define them again with calls to this method.</source>
+          <target state="translated">Ha paraméterek az egy adott módszerrel metaadatok vannak megadva, nincs adhat meg hozzájuk újra ez a metódus hívása.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Symbol readers need to check for these in the normal metadata first, and then use the symbol store.</source>
+          <target state="translated">Először ellenőrizze ezeket a normál metaadatai között, és használja a szimbólum tárolóban kell szimbólum olvasók.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The parameter name.</source>
+          <target state="translated">A paraméter neve.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the parameter attributes.</source>
+          <target state="translated">A paraméter-attribútumok tagértékeinek.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The parameter signature.</source>
+          <target state="translated">A paraméter aláírás.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The address types for <ph id="ph1">`addr1`</ph>, <ph id="ph2">`addr2`</ph>, and <ph id="ph3">`addr3`</ph>.</source>
+          <target state="translated">A címet meg kell adnia a <ph id="ph1">`addr1`</ph>, <ph id="ph2">`addr2`</ph>, és <ph id="ph3">`addr3`</ph>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The first address for the parameter specification.</source>
+          <target state="translated">A paraméter megadását az első címnél.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The second address for the parameter specification.</source>
+          <target state="translated">A paraméter megadását második címe.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The third address for the parameter specification.</source>
+          <target state="translated">A paraméter megadását a harmadik címnél.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Defines a group of sequence points within the current method.</source>
+          <target state="translated">Az aktuális módszer belül feladatütemezési pontok olyan csoportját határozza meg.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each line and each column defines the start of a statement within a method.</source>
+          <target state="translated">Minden egyes sorban, minden oszlop határozza meg a start metódus belül utasítás.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The arrays should be sorted in increasing order of offsets.</source>
+          <target state="translated">A tömbök eltolások szerinti növekvő sorrendbe kell rendezni.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The offset is always the offset from the start of the method, in bytes.</source>
+          <target state="translated">Az eltolás a kezdetétől a metódus bájtban eltolás.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The document object for which the sequence points are being defined.</source>
+          <target state="translated">A dokumentum típusú objektumhoz, amelynek a feladatütemezési pontok definiálva vannak.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The sequence point offsets measured from the beginning of methods.</source>
+          <target state="translated">A feladatütemezési pont eltolások mért módszerek az elejétől.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The document lines for the sequence points.</source>
+          <target state="translated">A sorok feladatütemezési pontok.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The document positions for the sequence points.</source>
+          <target state="translated">A dokumentum pozíciók feladatütemezési pontok.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The document end lines for the sequence points.</source>
+          <target state="translated">A záró sorok feladatütemezési pontok.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The document end positions for the sequence points.</source>
+          <target state="translated">A feladatütemezési pontok dokumentum záró pozíciójának.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Sets the metadata emitter interface to associate with a writer.</source>
+          <target state="translated">Beállítja a metaadatok vezérlő felület egy író társítja.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Initialize also sets the output file name where the debugging symbols are written.</source>
+          <target state="translated">Inicializálni is beállítása a kimeneti fájl nevét, ahol a hibakeresési szimbólumok készültek.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be called only once and must be called before any other writer methods.</source>
+          <target state="translated">Ez a metódus csak egyszer hívható, és semmilyen más író metódus előtt hívható.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The metadata emitter interface.</source>
+          <target state="translated">A metaadatok vezérlő felületet.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The file name for which the debugging symbols are written.</source>
+          <target state="translated">A fájl neve, amely a hibakeresési szimbólumok írja.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Some writers require a file name, and others do not.</source>
+          <target state="translated">Néhány írók fájl nevet kell megadni, mások pedig nem.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If a file name is specified for a writer that does not use file names, this parameter is ignored.</source>
+          <target state="translated">Ha a fájl nevét a fájlnevek nem használó író van megadva, a rendszer figyelmen kívül hagyja ezt a paramétert.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicates that this is a full rebuild; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> indicates that this is an incremental compilation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>azt jelzi, hogy ez egy teljes rebuild; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> jelzi, hogy ez egy növekményes fordítás.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Opens a method to place symbol information into.</source>
+          <target state="translated">Megnyílik a szimbólum adatait helyezze módszerét.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The specified method becomes the current method for calls to define sequence points, parameters, and lexical scopes.</source>
+          <target state="translated">A megadott metódust az aktuális módszer feladatütemezési pontok, paraméterek és lexikális hatókörök hívások válik.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is an implicit lexical scope around the entire method.</source>
+          <target state="translated">A teljes metódus körül egy implicit lexikális hatókörben van.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Reopening a method that has been previously closed erases any previously defined symbols for the method.</source>
+          <target state="translated">A módszer minden korábban definiált szimbólumok megnyitni egy módszert, amelyet korábban be lett zárva töröl.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The metadata token for the method to be opened.</source>
+          <target state="translated">A metaadatokat megadó lexikális elem módban kell megnyitni.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Opens a new namespace.</source>
+          <target state="translated">Megnyílik egy új névtér.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method before defining methods or variables that exist within a namespace.</source>
+          <target state="translated">Ez a metódus meghívható módszerek vagy egy adott névtéren belül meglévő változók megadása előtt.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Namespaces can be nested.</source>
+          <target state="translated">Névterek egymásba ágyazható.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The name of the new namespace.</source>
+          <target state="translated">Az új névtér neve.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Opens a new lexical scope in the current method.</source>
+          <target state="translated">Új lexikális hatókör megnyitása az aktuális metódust.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This scope becomes the new current scope and is pushed onto a stack of scopes.</source>
+          <target state="translated">Ebben a hatókörben válik az új aktuális hatókörben és hatókörök Jegyzettömb fejlesztőre.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Scopes must form a hierarchy.</source>
+          <target state="translated">Hatókörök kell olyan hierarchiáját képezik.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Siblings are not allowed to overlap.</source>
+          <target state="translated">Azonos szintű átfedésbe hozni nem engedélyezettek.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Scope identifiers are valid only in the current method.</source>
+          <target state="translated">Hatókör-azonosítók csak az aktuális módszer érvényesek.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The offset, in bytes, from the beginning of the method to the first instruction in the lexical scope.</source>
+          <target state="translated">Az eltolás bájt, a módszer az első utasításba lexikális hatókörében az elejétől.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An opaque scope identifier that can be used with &lt;xref:System.Diagnostics.SymbolStore.ISymbolWriter.SetScopeRange<bpt id="p1">*</bpt>&gt; to define the start and end offsets of a scope at a later time. In this case, the offsets passed to OpenScope and &lt;xref:System.Diagnostics.SymbolStore.ISymbolWriter.CloseScope<ept id="p1">*</ept>&gt; are ignored.</source>
+          <target state="translated">Egy nem átlátszó hatókör-azonosító, amely használható &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; egy későbbi időpontban a kezdő és záró eltolások hatókör definiálásához. Ebben az esetben az eltolások átadott OpenScope és &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; figyelmen kívül lesznek hagyva.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A scope identifier is valid only in the current method.</source>
+          <target state="translated">A hatókör-azonosító érvénytelen, csak az aktuális metódusban.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies the true start and end of a method within a source file.</source>
+          <target state="translated">Adja meg a true kezdő- és a forrás-fájlon belüli metódus végéhez.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Use SetMethodSourceRange to specify the extent of a method, independent of the sequence points that exist within the method.</source>
+          <target state="translated">SetMethodSourceRange segítségével adjon meg egy metódust, a feladatütemezési pontokat, amelyeket a metódus belül független mértékének megfelelően csökkenti.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The document that contains the starting position.</source>
+          <target state="translated">A kezdő helyzete tartalmazó dokumentumot.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The starting line number.</source>
+          <target state="translated">A kezdő sorszám.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The starting column.</source>
+          <target state="translated">A kezdő oszlop.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The document that contains the ending position.</source>
+          <target state="translated">A dokumentumot, amely tartalmazza a szövegvégi pozíciót.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The ending line number.</source>
+          <target state="translated">A záró sorszámot.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The ending column number.</source>
+          <target state="translated">A befejezési oszlopszám.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Defines the offset range for the specified lexical scope.</source>
+          <target state="translated">A tartományon a megadott lexikális hatókör határozza meg.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The identifier of the lexical scope.</source>
+          <target state="translated">A lexikális hatókör azonosítója.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The byte offset of the beginning of the lexical scope.</source>
+          <target state="translated">A lexikális hatókör elejére bájteltolás.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The byte offset of the end of the lexical scope.</source>
+          <target state="translated">A lexikális hatókör végén bájteltolás.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Defines an attribute when given the attribute name and the attribute value.</source>
+          <target state="translated">Ha az attribútumnév és attribútumérték adott attribútum határozza meg.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetSymAttribute method is only associated with symbolic information and is not a metadata custom attribute.</source>
+          <target state="translated">A SetSymAttribute metódus csak társított szimbolikus információkat, és nem egy egyéni metaadat-attribútum.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The metadata token for which the attribute is being defined.</source>
+          <target state="translated">A metaadatok jogkivonat, amelynek a attribútuma definiálva van.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The attribute name.</source>
+          <target state="translated">Az attribútum nevét.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The attribute value.</source>
+          <target state="translated">Az attribútum értéke.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Sets the underlying <bpt id="p1">&lt;xref uid="langword_csharp_ISymUnmanagedWriter" name="ISymUnmanagedWriter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (the corresponding unmanaged interface) that a managed <bpt id="p2">&lt;xref href="System.Diagnostics.SymbolStore.ISymbolWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> uses to emit symbols.</source>
+          <target state="translated">Beállítja az alapul szolgáló <bpt id="p1">&lt;xref uid="langword_csharp_ISymUnmanagedWriter" name="ISymUnmanagedWriter" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (a megfelelő nem felügyelt interface), amely egy felügyelt <bpt id="p2">&lt;xref href="System.Diagnostics.SymbolStore.ISymbolWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> szimbólumok kibocsátás használ.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The underlying <ph id="ph1">`ISymUnmanagedWriter`</ph> (the corresponding unmanaged interface) represents a symbol writer for managed code.</source>
+          <target state="translated">Az alapul szolgáló <ph id="ph1">`ISymUnmanagedWriter`</ph> (a megfelelő nem felügyelt felület) jelenti. a felügyelt kód szimbólum író.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The interface provides methods for defining documents, sequence points, lexical scopes, and variables.</source>
+          <target state="translated">A kapcsolat definiálása dokumentumok, a feladatütemezési pontok, a lexikális hatókörök és a változók módszereket kínál.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A pointer to code that represents the underlying writer.</source>
+          <target state="translated">Az alapul szolgáló író kódját mutató hivatkozások.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Identifies the user-defined method as the entry point for the current module.</source>
+          <target state="translated">A felhasználó által definiált módszer azonosítja az aktuális modul belépési pontként.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is normally your main method, rather than compiler-generated stubs before the main method.</source>
+          <target state="translated">Ez általában a fordító által létrehozott kódcsonkok előtt a fő metódus helyett a fő metódus.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The metadata token for the method that is the user entry point.</source>
+          <target state="translated">A metaadatokat megadó lexikális elem a metódus, amely a felhasználói belépési pont.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Specifies that the given, fully qualified namespace name is used within the open lexical scope.</source>
+          <target state="translated">Meghatározza, hogy a megadott, teljesen minősített név használja-e nyitva lexikális hatókörén belül.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Closing the current scope prevents this scope from using the namespace.</source>
+          <target state="translated">Az aktuális hatókör bezárása megakadályozza, hogy a hatókör a névteret használ.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The namespace remains in use in all scopes that inherit from the current open scope.</source>
+          <target state="translated">A névtér marad használatban lévő szülőhatókörből származik a jelenlegi nyissa meg minden kijelölt hatókörnek.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The fully qualified name of the namespace.</source>
+          <target state="translated">A névtér teljesen minősített neve.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

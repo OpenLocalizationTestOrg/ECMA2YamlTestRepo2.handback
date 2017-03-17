@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a508efce93571ff0820406ef3cd83961ac62d776</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.AcknowledgeTypes.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bf082fa3c751c7122b19628eaf6dd2627d661d60</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ffb688fc15bf965b207bd8b03cfbc03ff8a45bb0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the types of acknowledgment message that Message Queuing returns to the sending application.</source>
+          <target state="translated">Especifica os tipos de mensagem de confirmação que a colocação de mensagens em fila devolve à aplicação de envio.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AcknowledgeTypes class provides a set of flags that you can combine to request one or more categories of acknowledgment messages.</source>
+          <target state="translated">A classe de AcknowledgeTypes fornece um conjunto de sinalizadores que pode combinar para pedir uma ou mais categorias de mensagens de confirmação.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an application sends a message, it can request that Message Queuing return acknowledgment messages indicating the success or failure of the original message.</source>
+          <target state="translated">Quando uma aplicação envia uma mensagem, pode pedir que a colocação de mensagens em fila devolver mensagens de confirmação que indica o êxito ou falha da mensagem original.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Message Queuing sends these acknowledgment messages to the administration queue you specify.</source>
+          <target state="translated">Colocação de mensagens envia estas mensagens de confirmação para a fila de administração que especificar.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Acknowledgment types can be divided broadly into four groups: positive arrival acknowledgments, positive read acknowledgments, negative arrival acknowledgments, and negative read acknowledgments.</source>
+          <target state="translated">Tipos de confirmação podem ser divididos amplamente em quatro grupos: em que as confirmações de chegada positivo, em que as confirmações leitura positivas, em que as confirmações de negativa de chegada e em que as confirmações leitura negativos.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Requesting acknowledgments enables your application to receive notification of certain occurrences—for example, a message reaching its destination queue, a message being retrieved, or a time-out preventing a message from reaching or being retrieved from the destination queue.</source>
+          <target state="translated">Pedir em que as confirmações permite que a sua aplicação receber a notificação de determinados ocorrências — por exemplo, uma mensagem atingir a fila de destino, uma mensagem a ser obtidas ou um limite de tempo a impedir que uma mensagem a atingir ou a ser obtidas a partir da fila de destino.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are using the &lt;xref:System.Messaging.Message&gt; class to send messages to a queue, you specify the types of acknowledgments your application should receive in the &lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt; property, as well as the administration queue that receives the acknowledgment messages in the &lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt; property.</source>
+          <target state="translated">Quando estiver a utilizar o &lt;xref:System.Messaging.Message&gt;de classe para enviar mensagens para uma fila, especificar os tipos de em que as confirmações a aplicação deve receber no &lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt;propriedade, bem como a fila de administração que recebe as mensagens de confirmação no &lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt;propriedade.&lt;/xref:System.Messaging.Message.AdministrationQueue%2A&gt; &lt;/xref:System.Messaging.Message.AcknowledgeType%2A&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use the &lt;xref:System.Messaging.Message&gt; class to read acknowledgment messages in the administration queue, the instance's &lt;xref:System.Messaging.Message.Acknowledgment%2A&gt; property indicates the condition responsible for the acknowledgment message, for example, if a time-out expired before the original message was read from the queue.</source>
+          <target state="translated">Quando utiliza o &lt;xref:System.Messaging.Message&gt;classe permite ler mensagens de confirmação na fila de administração, a instância &lt;xref:System.Messaging.Message.Acknowledgment%2A&gt;propriedade indica a condição responsável por mensagem de confirmação, por exemplo, se um tempo limite expirou antes de mensagem original foi lido a partir da fila.&lt;/xref:System.Messaging.Message.Acknowledgment%2A&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A mask used to request positive acknowledgment if the original message reaches the queue or negative acknowledgment if the time-to-reach-queue timer expires or if the original message cannot be authenticated.</source>
+          <target state="translated">Uma máscara utilizada para pedir confirmação positiva se a mensagem original atingir a fila ou uma confirmação negativa se expira o temporizador de tempo-para-atingir a fila ou se não for possível autenticar a mensagem original.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A mask used to request positive acknowledgment if the original message is received from the queue before its time-to-be-received timer expires or negative acknowledgment otherwise.</source>
+          <target state="translated">Uma máscara utilizada para pedir confirmação positiva se a mensagem original não for recebida da fila antes de expira o temporizador de tempo-para-receção nem negativa confirmação caso contrário.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A mask used to request a negative acknowledgment when the original message fails to be received from the queue.</source>
+          <target state="translated">Uma máscara utilizada para pedir uma confirmação negativa quando ocorre uma falha da mensagem original para que sejam recebidas da fila.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using the &lt;xref:System.Messaging.MessageQueue.Peek%2A?displayProperty=fullName&gt; method does not remove a message from the queue, so this acknowledgment type could be returned even if you did peek the message.</source>
+          <target state="translated">Utilizar o &lt;xref:System.Messaging.MessageQueue.Peek%2A?displayProperty=fullName&gt;método não remove uma mensagem da fila, pelo que este tipo de confirmação foi devolvido, mesmo se a observar a mensagem.&lt;/xref:System.Messaging.MessageQueue.Peek%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the &lt;xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt; method (or the related asynchronous &lt;xref:System.Messaging.MessageQueue.BeginReceive%2A?displayProperty=fullName&gt; method) removes a message from the queue.</source>
+          <target state="translated">Apenas o &lt;xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt;método (ou o relacionados assíncrona &lt;xref:System.Messaging.MessageQueue.BeginReceive%2A?displayProperty=fullName&gt;método) remove a mensagem da fila.&lt;/xref:System.Messaging.MessageQueue.BeginReceive%2A?displayProperty=fullName&gt; &lt;/xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A mask used to request that no acknowledgment messages (positive or negative) be posted.</source>
+          <target state="translated">Uma máscara utilizada para pedir que não existem mensagens de confirmação (positivos ou negativos) ser publicado.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A mask used to request a negative acknowledgment when the original message cannot reach the queue.</source>
+          <target state="translated">Uma máscara utilizada para pedir uma confirmação negativa quando a mensagem original não é possível alcançar a fila.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This can happen when the time-to-reach-queue timer expires or if a message cannot be authenticated.</source>
+          <target state="translated">Isto pode acontecer quando expira o temporizador de tempo-para-atingir a fila ou se não for possível autenticar uma mensagem.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A mask used to request a negative acknowledgment when an error occurs that prevents the original message from being received from the queue before its time-to-be-received timer expires.</source>
+          <target state="translated">Uma máscara utilizada para pedir uma confirmação negativa quando ocorre um erro que impede a que está a ser recebida da fila antes de expira o temporizador de tempo-para-receção da mensagem original.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A mask used to request a positive acknowledgment when the original message reaches the queue.</source>
+          <target state="translated">Uma máscara utilizada para pedir uma confirmação positiva quando a mensagem original atinge a fila.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A mask used to request a positive acknowledgment when the original message is successfully retrieved from the queue.</source>
+          <target state="translated">Uma máscara utilizada para pedir uma confirmação positiva quando mensagem original é obteve com êxito a partir da fila.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

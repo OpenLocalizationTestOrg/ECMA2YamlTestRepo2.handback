@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5cccba629e8cb8ed443c5e3f9708c43ec5f511b9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.SqlTypes.SqlString.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68e45f1663dad699a042f2249d3d44c07de08061</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">692e032c37b4c9bf80257b53025c81d1de688885</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a variable-length stream of characters to be stored in or retrieved from the database.</source>
+          <target state="translated">Hiermee geeft u een variabele lengte reeks tekens moeten worden opgeslagen in of uit de database opgehaald.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>SqlString has a different underlying data structure from its corresponding .NET Framework &lt;xref:System.String&gt; data type.</source>
+          <target state="translated">Sqlreeks heeft een andere onderliggende gegevensstructuur van de bijbehorende .NET Framework &lt;xref:System.String&gt;gegevenstype.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.String&gt; always uses the default &lt;xref:System.Globalization.CultureInfo&gt; from the current thread, but SqlString contains its own locale Id and compare flags.</source>
+          <target state="translated">&lt;xref:System.String&gt;gebruikt altijd de standaard &lt;xref:System.Globalization.CultureInfo&gt;van de huidige thread maar sqlreeks bevat een eigen landinstellingen-Id en vergelijk vlaggen.&lt;/xref:System.Globalization.CultureInfo&gt;&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The comparison result of two SqlString structures is independent of operating system and current thread locale.</source>
+          <target state="translated">Het resultaat van de vergelijking van twee sqlreeks structuren is onafhankelijk van het besturingssysteem en de landinstelling voor de huidige thread.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use SqlString comparison operators, note that if the LCIDs of arguments are different, comparison functions throw an exception because they cannot be compared.</source>
+          <target state="translated">Wanneer u de vergelijkingsoperators sqlreeks, houd er rekening mee dat als de LCID's van de argumenten verschillend zijn, vergelijking van functies Veroorzaak een exception omdat ze kunnen niet worden vergeleken.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the statement      <ph id="ph1">```   SqlString mySqlString = new SqlString("abc");   ```</ph>       is equivalent to      <ph id="ph2">```   SqlString mySqlString = new SqlString("abc", CultureInfo.CurrentCulture.LCID);   ```</ph></source>
+          <target state="translated">De instructie <ph id="ph1">```   SqlString mySqlString = new SqlString("abc");   ```</ph> is gelijk aan<ph id="ph2">```   SqlString mySqlString = new SqlString("abc", CultureInfo.CurrentCulture.LCID);   ```</ph></target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure using the specified string.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur, met behulp van de opgegeven tekenreeks.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The string to store.</source>
+          <target state="translated">De tekenreeks om op te slaan.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure using the specified string and locale id values.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur, met de opgegeven tekenreeks en landinstellingen-id-waarden.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The string to store.</source>
+          <target state="translated">De tekenreeks om op te slaan.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Specifies the geographical locale and language for the new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de geografische locatie en de taal voor de nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure using the specified locale id, compare options, and data.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur, met behulp van de opgegeven landinstelling-id, vergelijken opties en gegevens.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Specifies the geographical locale and language for the new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de geografische locatie en de taal voor de nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Specifies the compare options for the new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de opties vergelijken voor de nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The data array to store.</source>
+          <target state="translated">De matrix gegevens om op te slaan.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure using the specified string, locale id, and compare option values.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur, met behulp van de opgegeven tekenreeks, landinstellingen-id en de optiewaarden vergelijken.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The string to store.</source>
+          <target state="translated">De tekenreeks om op te slaan.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Specifies the geographical locale and language for the new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de geografische locatie en de taal voor de nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specifies the compare options for the new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de opties vergelijken voor de nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Specifies the geographical locale and language for the new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de geografische locatie en de taal voor de nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Specifies the compare options for the new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de opties vergelijken voor de nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The data array to store.</source>
+          <target state="translated">De matrix gegevens om op te slaan.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if Unicode encoded.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als u Unicode gecodeerd.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Specifies the geographical locale and language for the new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de geografische locatie en de taal voor de nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Specifies the compare options for the new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de opties vergelijken voor de nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The data array to store.</source>
+          <target state="translated">De matrix gegevens om op te slaan.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The starting index within the array.</source>
+          <target state="translated">De startIndex binnen de matrix.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The number of characters from index to copy.</source>
+          <target state="translated">Het aantal tekens vanaf de index te kopiëren.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specifies the geographical locale and language for the new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de geografische locatie en de taal voor de nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specifies the compare options for the new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de opties vergelijken voor de nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The data array to store.</source>
+          <target state="translated">De matrix gegevens om op te slaan.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The starting index within the array.</source>
+          <target state="translated">De startIndex binnen de matrix.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The number of characters from index to copy.</source>
+          <target state="translated">Het aantal tekens vanaf de index te kopiëren.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if Unicode encoded.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als u Unicode gecodeerd.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Concatenates two specified <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values to create a new <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Voegt twee opgegeven samen <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarden voor het maken van een nieuwe <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`x`</ph> will appear first in the resulting &lt;xref:System.Data.SqlTypes.SqlString&gt;, followed by <ph id="ph2">`y`</ph>.</source>
+          <target state="translated"><ph id="ph1">`x`</ph>bovenaan wordt weergegeven in de resulterende &lt;xref:System.Data.SqlTypes.SqlString&gt;, gevolgd door <ph id="ph2">`y`</ph>.&lt;/xref:System.Data.SqlTypes.SqlString&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the concatenated value of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">x</ph><ept id="p2">&lt;/code&gt;</ept> and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">y</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the concatenated value of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">x</ph><ept id="p2">&lt;/code&gt;</ept> and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">y</ph><ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specifies that sorts should be based on a characters numeric value instead of its alphabetical value.</source>
+          <target state="translated">Hiermee geeft u op dat sorteringen moeten worden gebaseerd op een numerieke waarde van de tekens in plaats van de alfabetische waarde.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>BinarySort functions as a constant for the &lt;xref:System.Data.SqlTypes.SqlString&gt; class.</source>
+          <target state="translated">BinarySort fungeert als een constante voor de &lt;xref:System.Data.SqlTypes.SqlString&gt;klasse.&lt;/xref:System.Data.SqlTypes.SqlString&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Specifies that sorts should be based on a character's numeric value instead of its alphabetical value.</source>
+          <target state="translated">Hiermee geeft u op dat sorteringen moeten worden gebaseerd op een teken numerieke waarde in plaats van de alfabetische waarde.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Creates a copy of this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Maakt een kopie van dit <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object in which all property values are the same as the original.</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object op waarin alle eigenschap waarden hetzelfde als het origineel zijn.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Globalization.CompareInfo&gt; object that defines how string comparisons should be performed for this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Haalt de &lt;xref:System.Globalization.CompareInfo&gt;-object dat bepaalt hoe tekenreeksvergelijkingen moeten worden uitgevoerd voor dit <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.&lt;/xref:System.Globalization.CompareInfo&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_CompareInfo" name="CompareInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that defines string comparison for this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref uid="langword_csharp_CompareInfo" name="CompareInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -object dat bepaalt de vergelijking van tekenreeksen voor deze <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Globalization.CompareOptions&gt; enumeration equilvalent of the specified <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlCompareOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Haalt de &lt;xref:System.Globalization.CompareOptions&gt;equilvalent opsomming van de opgegeven <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlCompareOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde.&lt;/xref:System.Globalization.CompareOptions&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlCompareOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that describes the comparison options for this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlCompareOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde die de Vergelijkingsopties voor dit beschrijft <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_CompareOptions" name="CompareOptions" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that corresponds to the <bpt id="p2">&lt;xref uid="langword_csharp_SqlCompareOptions" name="SqlCompareOptions" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for this <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref uid="langword_csharp_CompareOptions" name="CompareOptions" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde die overeenkomt met de <bpt id="p2">&lt;xref uid="langword_csharp_SqlCompareOptions" name="SqlCompareOptions" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> voor deze <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Compares this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance to the supplied <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and returns an indication of their relative values.</source>
+          <target state="translated">Hiermee vergelijkt <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -exemplaar voor de opgegeven <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en retourneert een indicatie van de relatieve waarden.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be compared.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> moet worden vergeleken.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A signed number that indicates the relative values of the instance and the object.</source>
+          <target state="translated">Een ondertekend getal dat aangeeft van de relatieve waarden van het exemplaar en het object.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Return value</source>
+          <target state="translated">Retourwaarde</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Condition</source>
+          <target state="translated">Voorwaarde</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Less than zero</source>
+          <target state="translated">Kleiner dan nul</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This instance is less than the object.</source>
+          <target state="translated">Dit exemplaar is lager dan het object.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Zero</source>
+          <target state="translated">Nul</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This instance is the same as the object.</source>
+          <target state="translated">Dit exemplaar is hetzelfde als het object.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Greater than zero</source>
+          <target state="translated">Groter dan nul</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This instance is greater than the object       -or-       The object is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated">Dit exemplaar is groter dan de object - of - het object een null-verwijzing is (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Compares this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the supplied &lt;xref:System.Object&gt; and returns an indication of their relative values.</source>
+          <target state="translated">Hiermee vergelijkt <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -object op voor de opgegeven &lt;xref:System.Object&gt;en retourneert een indicatie van de relatieve waarden.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be compared.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;moet worden vergeleken.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A signed number that indicates the relative values of the instance and the object.</source>
+          <target state="translated">Een ondertekend getal dat aangeeft van de relatieve waarden van het exemplaar en het object.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Return Value</source>
+          <target state="translated">Retourwaarde</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Condition</source>
+          <target state="translated">Voorwaarde</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Less than zero</source>
+          <target state="translated">Kleiner dan nul</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This instance is less than the object.</source>
+          <target state="translated">Dit exemplaar is lager dan het object.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Zero</source>
+          <target state="translated">Nul</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This instance is the same as the object.</source>
+          <target state="translated">Dit exemplaar is hetzelfde als het object.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Greater than zero</source>
+          <target state="translated">Groter dan nul</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This instance is greater than the object       -or-       The object is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)</source>
+          <target state="translated">Dit exemplaar is groter dan de object - of - het object een null-verwijzing is (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Concatenates the two specified <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures.</source>
+          <target state="translated">De twee opgegeven worden aaneengeschakeld <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuren.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the newly concatenated value representing the contents of the two <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> parameters.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die de nieuwe samengevoegde-waarde voor de inhoud van de twee bevat <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> parameters.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Globalization.CultureInfo&gt; structure that represents information about the culture of this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Haalt de &lt;xref:System.Globalization.CultureInfo&gt;structuur met informatie over de cultuur van dit <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt; structure that describes information about the culture of this SqlString structure including the names of the culture, the writing system, and the calendar used, and also access to culture-specific objects that provide methods for common operations, such as formatting dates and sorting strings.</source>
+          <target state="translated">Een &lt;xref:System.Globalization.CultureInfo&gt;-structuur die wordt beschreven informatie over de cultuur van deze sqlreeks structuur met inbegrip van de namen van de cultuur, het systeem schrijven en deze kalender wordt gebruikt, en ook toegang tot de cultuur-specifieke objecten die methoden voor algemene bewerkingen bieden, zoals het opmaken van datums en sorteren op tekenreeksen.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Compares the supplied object parameter to the &lt;xref:System.Data.SqlTypes.SqlString.Value*&gt; property of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Vergelijkt de verstrekte object-parameter voor de &lt;xref:System.Data.SqlTypes.SqlString.Value*&gt;eigenschap van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.&lt;/xref:System.Data.SqlTypes.SqlString.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The object to be compared.</source>
+          <target state="translated">Het object dat moet worden vergeleken.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Equals will return <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object is an instance of <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and the two are equal; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Is gelijk aan retourneert <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als het object een exemplaar van is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en de twee zijn gelijk zijn, anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether they are equal.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of ze gelijk zijn.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two values are equal.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de twee waarden gelijk zijn.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If either instance is null, then the <bpt id="p1">&lt;xref uid="langword_csharp_SqlString" name="SqlString" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> will be null.</source>
+          <target state="translated">Als de instantie null is, wordt de <bpt id="p1">&lt;xref uid="langword_csharp_SqlString" name="SqlString" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is leeg.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets the hash code for this instance.</source>
+          <target state="translated">Hiermee wordt de hash-code voor dit exemplaar.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A 32-bit signed integer hash code.</source>
+          <target state="translated">Een 32-bits geheel getal met teken hash-code.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Gets an array of bytes, that contains the contents of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in ANSI format.</source>
+          <target state="translated">Opgehaald van een matrix met bytes met de inhoud van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ANSI-indeling.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>An byte array, that contains the contents of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in ANSI format.</source>
+          <target state="translated">Een bytematrix die de inhoud van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ANSI-indeling.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets an array of bytes, that contains the contents of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Unicode format.</source>
+          <target state="translated">Opgehaald van een matrix met bytes met de inhoud van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Unicode-indeling.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An byte array, that contains the contents of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Unicode format.</source>
+          <target state="translated">Een bytematrix die de inhoud van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Unicode-indeling.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Returns the XML Schema definition language (XSD) of the specified <bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de XML-Schema definition language (XSD) van de opgegeven <bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_string" name="string" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that indicates the XSD of the specified <bpt id="p2">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref uid="langword_csharp_string" name="string" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde die aangeeft van de XSD van het opgegeven <bpt id="p2">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether the first is greater than the second.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of de eerste groter zijn dan de tweede.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the first instance is greater than the second instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als het eerste exemplaar groter dan de tweede instantie is.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>If either instance of <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is null, the &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt; of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will be <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als twee exemplaren van <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is null, de &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether the first is greater than or equal to the second.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of de eerste groter dan of gelijk zijn aan de tweede.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the first instance is greater than or equal to the second instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de eerste instantie groter dan of gelijk aan het tweede exemplaar is.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If either instance of <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is null, the &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt; of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will be <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als twee exemplaren van <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is null, de &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Specifies that <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> comparisons should ignore case.</source>
+          <target state="translated">Hiermee wordt aangegeven dat <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vergelijkingen moeten worden genegeerd.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IgnoreCase functions as a constant for the &lt;xref:System.Data.SqlTypes.SqlString&gt; class.</source>
+          <target state="translated">IgnoreCase fungeert als een constante voor de &lt;xref:System.Data.SqlTypes.SqlString&gt;klasse.&lt;/xref:System.Data.SqlTypes.SqlString&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Specifies that the string comparison must ignore the Kana type.</source>
+          <target state="translated">Hiermee geeft u op die de tekenreeksvergelijking Kana-type moet negeren.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Kana type refers to Japanese hiragana and katakana characters that represent phonetic sounds in the Japanese language.</source>
+          <target state="translated">Kana-type verwijst naar Japanse hiragana en katakana tekens die fonetische geluiden in Japans vertegenwoordigen.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hiragana is used for native Japanese expressions and words, while katakana is used for words borrowed from other languages, such as "computer" or "Internet".</source>
+          <target state="translated">Hiragana wordt gebruikt voor systeemeigen Japanse expressies en woorden, terwijl katakana wordt gebruikt voor andere talen, zoals 'computer' of 'Internet' geleend woorden.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A phonetic sound can be expressed in both hiragana and katakana.</source>
+          <target state="translated">Een fonetische geluid kan worden uitgedrukt in zowel hiragana en katakana.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this value is selected, the hiragana character for one sound is considered equal to the katakana character for the same sound.</source>
+          <target state="translated">Als deze waarde is geselecteerd, wordt het teken hiragana voor één geluid als gelijk zijn aan het teken katakana voor hetzelfde geluid beschouwd.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IgnoreKanaType functions as a constant for the &lt;xref:System.Data.SqlTypes.SqlString&gt; class.</source>
+          <target state="translated">IgnoreKanaType fungeert als een constante voor de &lt;xref:System.Data.SqlTypes.SqlString&gt;klasse.&lt;/xref:System.Data.SqlTypes.SqlString&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Specifies that the string comparison must ignore non-space combining characters, such as diacritics.</source>
+          <target state="translated">Hiermee geeft u op die de tekenreeksvergelijking geen spatie combineren tekens, zoals diakritische moet negeren.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Unicode Standard defines combining characters as characters that are combined with base characters to produce a new character.</source>
+          <target state="translated">De Unicode-standaard definieert combineren tekens als tekens die worden gecombineerd met base tekens voor het produceren van een nieuw teken.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Non-space combining characters do not use character space by themselves when rendered.</source>
+          <target state="translated">Niet-ruimte combineren tekens gebruik geen spatie zelf als weergegeven.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about non-space combining characters, see the Unicode Standard at http://www.unicode.org.</source>
+          <target state="translated">Zie voor meer informatie over niet-ruimte combineren tekens de Unicode-standaard op http://www.unicode.org.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IgnoreNonSpace functions as a constant for the &lt;xref:System.Data.SqlTypes.SqlString&gt; class.</source>
+          <target state="translated">IgnoreNonSpace fungeert als een constante voor de &lt;xref:System.Data.SqlTypes.SqlString&gt;klasse.&lt;/xref:System.Data.SqlTypes.SqlString&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specifies that the string comparison must ignore the character width.</source>
+          <target state="translated">Hiermee geeft u op die de tekenreeksvergelijking de tekenbreedte moet negeren.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, Japanese katakana characters can be written as full-width or half-width and, if this value is selected, the katakana characters written as full-width are considered equal to the same characters written in half-width.</source>
+          <target state="translated">Bijvoorbeeld, Japans katakana tekens kunnen worden geschreven als volledige breedte of halve breedte en als deze waarde is geselecteerd, de katakana tekens geschreven als volledige breedte worden beschouwd als gelijk zijn aan dezelfde tekens in halve breedte worden geschreven.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IgnoreWidth functions as a constant for the &lt;xref:System.Data.SqlTypes.SqlString&gt; class.</source>
+          <target state="translated">IgnoreWidth fungeert als een constante voor de &lt;xref:System.Data.SqlTypes.SqlString&gt;klasse.&lt;/xref:System.Data.SqlTypes.SqlString&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Indicates whether this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure is null.</source>
+          <target state="translated">Hiermee wordt aangegeven of dit <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur is null.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Handling Null Values<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>afhandeling van Null-waarden<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.Data.SqlTypes.SqlString.Value*&gt; is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if &lt;xref:System.Data.SqlTypes.SqlString.Value*&gt; is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlString.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Specifies the geographical locale and language for the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u de geografische locatie en de taal voor de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The locale id for the string stored in the &lt;xref:System.Data.SqlTypes.SqlString.Value*&gt; property.</source>
+          <target state="translated">De landinstelling-id voor de tekenreeks die is opgeslagen in de &lt;xref:System.Data.SqlTypes.SqlString.Value*&gt;eigenschap.&lt;/xref:System.Data.SqlTypes.SqlString.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether the first is less than the second.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of de eerste kleiner dan de tweede.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the first instance is less than the second instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als het eerste exemplaar minder is dan de tweede instantie.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If either instance of <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is null, the &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt; of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will be <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als twee exemplaren van <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is null, de &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether the first is less than or equal to the second.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of de eerste kleiner dan of gelijk zijn aan de tweede.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the first instance is less than or equal to the second instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de eerste instantie kleiner dan of gelijk zijn aan het tweede exemplaar is.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>If either instance of <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is null, the &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt; of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will be <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als twee exemplaren van <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is null, de &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether they are not equal.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of ze niet gelijk zijn.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the two instances are not equal or <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the two instances are equal.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de twee exemplaren niet gelijk zijn of <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> als de twee exemplaren gelijk zijn.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>If either instance of <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is null, the &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt; of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will be <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als twee exemplaren van <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is null, de &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Represents a <bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be assigned to this instance of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Hiermee geeft u een <bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunnen worden toegewezen aan dit exemplaar van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Null`</ph> functions as a constant for the &lt;xref:System.Data.SqlTypes.SqlString&gt; structure.</source>
+          <target state="translated"><ph id="ph1">`Null`</ph>fungeert als een constante voor de &lt;xref:System.Data.SqlTypes.SqlString&gt;structuur.&lt;/xref:System.Data.SqlTypes.SqlString&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Handling Null Values<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>afhandeling van Null-waarden<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Concatenates the two specified <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures.</source>
+          <target state="translated">De twee opgegeven worden aaneengeschakeld <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuren.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the newly concatenated value representing the contents of the two <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> parameters.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die de nieuwe samengevoegde-waarde voor de inhoud van de twee bevat <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> parameters.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether they are equal.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of ze gelijk zijn.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the two instances are equal or <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the two instances are not equal.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de twee exemplaren gelijk zijn of <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> als de twee exemplaren niet gelijk zijn.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>If either instance of <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is null, the &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt; of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will be <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als twee exemplaren van <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is null, de &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether the first is greater than the second.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of de eerste groter zijn dan de tweede.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the first instance is greater than the second instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als het eerste exemplaar groter dan de tweede instantie is.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>If either instance of <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is null, the &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt; of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will be <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als twee exemplaren van <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is null, de &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether the first is greater than or equal to the second.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of de eerste groter dan of gelijk zijn aan de tweede.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the first instance is greater than or equal to the second instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de eerste instantie groter dan of gelijk aan het tweede exemplaar is.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>If either instance of <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is null, the &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt; of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will be <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als twee exemplaren van <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is null, de &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether they are not equal.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of ze niet gelijk zijn.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the two instances are not equal or <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the two instances are equal.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de twee exemplaren niet gelijk zijn of <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> als de twee exemplaren gelijk zijn.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>If either instance of <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is null, the &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt; of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will be <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als twee exemplaren van <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is null, de &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether the first is less than the second.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of de eerste kleiner dan de tweede.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the first instance is less than the second instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als het eerste exemplaar minder is dan de tweede instantie.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>If either instance of <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is null, the &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt; of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will be <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als twee exemplaren van <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is null, de &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Performs a logical comparison of the two <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operands to determine whether the first is less than or equal to the second.</source>
+          <target state="translated">Voert een logische vergelijking van de twee <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operanden om te bepalen of de eerste kleiner dan of gelijk zijn aan de tweede.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the first instance is less than or equal to the second instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de eerste instantie kleiner dan of gelijk zijn aan het tweede exemplaar is.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Otherwise, <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anders <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>If either instance of <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is null, the &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt; of the <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will be <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als twee exemplaren van <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is null, de &lt;xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;van de <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlBoolean.Null"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.SqlTypes.SqlBoolean.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>A combination of one or more of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlCompareOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values that represent the way in which this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> should be compared to other <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> structures.</source>
+          <target state="translated">Een combinatie van een of meer van de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlCompareOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opsommingswaarden die de manier waarop dit vertegenwoordigen <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> moeten worden vergeleken met andere <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> structuren.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>A value specifying how this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> should be compared to other <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> structures.</source>
+          <target state="translated">Een waarde die aangeeft hoe deze <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> moeten worden vergeleken met andere <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> structuren.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>This member supports the .NET Framework infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">Dit lid ondersteunt de .NET Framework-infrastructuur en is niet bedoeld voor rechtstreeks gebruik vanuit uw code.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_XmlSchema" name="XmlSchema" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">An <bpt id="p1">&lt;xref uid="langword_csharp_XmlSchema" name="XmlSchema" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>This member supports the .NET Framework infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">Dit lid ondersteunt de .NET Framework-infrastructuur en is niet bedoeld voor rechtstreeks gebruik vanuit uw code.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>This member supports the .NET Framework infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">Dit lid ondersteunt de .NET Framework-infrastructuur en is niet bedoeld voor rechtstreeks gebruik vanuit uw code.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Converts this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Converteert de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te structureren <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlBoolean"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Data.SqlTypes.SqlString.Value*&gt; is non-zero; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if zero; otherwise Null.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de &lt;xref:System.Data.SqlTypes.SqlString.Value*&gt;niet-nul is. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als nul; anders is Null.&lt;/xref:System.Data.SqlTypes.SqlString.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Converts this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlByte"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Converteert de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te structureren <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlByte"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref uid="langword_csharp_SqlByte" name="SqlByte" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure whose &lt;xref:System.Data.SqlTypes.SqlByte.Value*&gt; equals the number represented by this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref uid="langword_csharp_SqlByte" name="SqlByte" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur, waarvan &lt;xref:System.Data.SqlTypes.SqlByte.Value*&gt;gelijk is aan het getal dat wordt vertegenwoordigd door dit <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> structuur.&lt;/xref:System.Data.SqlTypes.SqlByte.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Converts this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlDateTime"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Converteert de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te structureren <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlDateTime"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref uid="langword_csharp_SqlDateTime" name="SqlDateTime" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that contains the date value represented by this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref uid="langword_csharp_SqlDateTime" name="SqlDateTime" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur met de waarde voor datum dat wordt vertegenwoordigd door dit <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Converts this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlDecimal"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Converteert de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te structureren <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlDecimal"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlDecimal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the value of this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlDecimal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die de waarde van dit bevat <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Converts this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlDouble"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Converteert de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te structureren <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlDouble"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlDouble"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is equal to the numeric value of this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlDouble"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die gelijk is aan de numerieke waarde van deze <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Converts this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlGuid"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Converteert de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te structureren <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlGuid"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlGuid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure whose &lt;xref:System.Data.SqlTypes.SqlGuid.Value*&gt; is the <bpt id="p2">&lt;xref uid="langword_csharp_Guid" name="Guid" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> represented by this <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlGuid"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur, waarvan &lt;xref:System.Data.SqlTypes.SqlGuid.Value*&gt;is de <bpt id="p2">&lt;xref uid="langword_csharp_Guid" name="Guid" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> dat wordt vertegenwoordigd door dit <bpt id="p3">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> structuur.&lt;/xref:System.Data.SqlTypes.SqlGuid.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Converts this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlInt16"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Converteert de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te structureren <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlInt16"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlInt16"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is equal to the numeric value of this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlInt16"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die gelijk is aan de numerieke waarde van deze <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Converts this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlInt32"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Converteert de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te structureren <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlInt32"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlInt32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is equal to the numeric value of this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlInt32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die gelijk is aan de numerieke waarde van deze <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Converts this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlInt64"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Converteert de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te structureren <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlInt64"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlInt64"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is equal to the numeric value of this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlInt64"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die gelijk is aan de numerieke waarde van deze <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Converts this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlMoney"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Converteert de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te structureren <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlMoney"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlMoney"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is equal to the numeric value of this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlMoney"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die gelijk is aan de numerieke waarde van deze <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Converts this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlSingle"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Converteert de <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te structureren <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlSingle"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlSingle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is equal to the numeric value of this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>..</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlSingle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die gelijk is aan de numerieke waarde van deze <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>...</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Converts a <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to a &lt;xref:System.String&gt;.</source>
+          <target state="translated">Converteert een <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object in een &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; with the same value as this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Een &lt;xref:System.String&gt;met dezelfde waarde als dit <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Gets the string that is stored in this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">De tekenreeks die is opgeslagen in deze opgehaald <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> structuur.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>This property is read-only.</source>
+          <target state="translated">Deze eigenschap is alleen-lezen.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The string that is stored.</source>
+          <target state="translated">De tekenreeks die is opgeslagen.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The value of the string is <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString.Null"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De waarde van de tekenreeks is <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlString.Null"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

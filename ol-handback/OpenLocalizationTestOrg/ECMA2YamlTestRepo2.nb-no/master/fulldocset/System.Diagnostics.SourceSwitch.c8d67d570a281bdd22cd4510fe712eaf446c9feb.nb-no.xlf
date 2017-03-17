@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e84f90a0ab3acce4927dad2345c469e1130ab5f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.SourceSwitch.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bfac516479f4b352076c788c6b653d050f3afabd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">be7bb48b8af6996fb9ddce0434585e75d374444d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a multilevel switch to control tracing and debug output without recompiling your code.</source>
+          <target state="translated">Inneholder flere nivåer bytting til kontrollen sporing og feilsøkingsutdata uten kompilere koden.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Diagnostics.TraceSource.Switch%2A&gt; property of the &lt;xref:System.Diagnostics.TraceSource&gt; class is a SourceSwitch object.</source>
+          <target state="translated">Den &lt;xref:System.Diagnostics.TraceSource.Switch%2A&gt;for den &lt;xref:System.Diagnostics.TraceSource&gt;klasse er et SourceSwitch-objekt.&lt;/xref:System.Diagnostics.TraceSource&gt; &lt;/xref:System.Diagnostics.TraceSource.Switch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SourceSwitch class provides a &lt;xref:System.Diagnostics.SourceSwitch.Level%2A&gt; property to test the event level of the switch.</source>
+          <target state="translated">Klassen SourceSwitch gir en &lt;xref:System.Diagnostics.SourceSwitch.Level%2A&gt;til å teste hendelsen krypteringsnivået bryteren.&lt;/xref:System.Diagnostics.SourceSwitch.Level%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Diagnostics.SourceSwitch.Level%2A&gt; property gets or sets the switch's &lt;xref:System.Diagnostics.TraceLevel&gt; value.</source>
+          <target state="translated">Den &lt;xref:System.Diagnostics.SourceSwitch.Level%2A&gt;egenskapen henter eller angir du bryteren &lt;xref:System.Diagnostics.TraceLevel&gt;verdi.&lt;/xref:System.Diagnostics.TraceLevel&gt; &lt;/xref:System.Diagnostics.SourceSwitch.Level%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the event level of a SourceSwitch through the application configuration file and then use the configured SourceSwitch level in your application.</source>
+          <target state="translated">Du kan angi hvilken hendelsen en SourceSwitch via programmets konfigurasjonsfil og bruk konfigurerte SourceSwitch nivået i programmet.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can create a SourceSwitch in your code and set the level directly, to instrument a specific section of code.</source>
+          <target state="translated">Du kan også opprette en SourceSwitch i koden og angir nivået direkte til utstyre en bestemt del av koden.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To configure a SourceSwitch, edit the configuration file that corresponds to the name of your application.</source>
+          <target state="translated">Hvis du vil konfigurere en SourceSwitch, Rediger konfigurasjonsfilen som tilsvarer navnet på programmet.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within this file, you can set a switch's value or clear all the switches previously set by the application.</source>
+          <target state="translated">Du kan angi en bryter verdien i denne filen eller Fjern alle bytter tidligere angitt av programmet.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The configuration file should be formatted as shown in the following example.</source>
+          <target state="translated">Konfigurasjonsfilen må formateres som vist i eksemplet nedenfor.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;switches&gt;     &lt;add name="SourceSwitch" value="Verbose"&gt;&lt;/add&gt;   &lt;/switches&gt;   ```</ph>       The switch is used to check whether a trace should be propagated or ignored.</source>
+          <target state="translated"><ph id="ph1">```   &lt;switches&gt;     &lt;add name="SourceSwitch" value="Verbose"&gt;&lt;/add&gt;   &lt;/switches&gt;   ```</ph>Bryteren brukes til å kontrollere om en trace være overført eller ignorert.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each &lt;xref:System.Diagnostics.TraceSource&gt; trace method calls the &lt;xref:System.Diagnostics.SourceSwitch.ShouldTrace%2A&gt; method before calling the listeners.</source>
+          <target state="translated">Hver &lt;xref:System.Diagnostics.TraceSource&gt;sporer metodekall den &lt;xref:System.Diagnostics.SourceSwitch.ShouldTrace%2A&gt;metoden før du kaller lyttere.&lt;/xref:System.Diagnostics.SourceSwitch.ShouldTrace%2A&gt; &lt;/xref:System.Diagnostics.TraceSource&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Diagnostics.SourceSwitch.ShouldTrace%2A&gt; method returns <ph id="ph1">`false`</ph>, the trace is ignored and the trace method exits.</source>
+          <target state="translated">Hvis den &lt;xref:System.Diagnostics.SourceSwitch.ShouldTrace%2A&gt;metoden returnerer <ph id="ph1">`false`</ph>sporingen ignoreres og trace-metoden avslutter.&lt;/xref:System.Diagnostics.SourceSwitch.ShouldTrace%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Diagnostics.SourceSwitch.ShouldTrace%2A&gt; method returns <ph id="ph1">`true`</ph>, the trace is passed to the listeners.</source>
+          <target state="translated">Hvis den &lt;xref:System.Diagnostics.SourceSwitch.ShouldTrace%2A&gt;metoden returnerer <ph id="ph1">`true`</ph>, sporingen er sendt til lyttere.&lt;/xref:System.Diagnostics.SourceSwitch.ShouldTrace%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.SourceSwitch"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying the name of the source.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Diagnostics.SourceSwitch"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -klassen som angir kilden.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`name`</ph> parameter is used to set the value of the &lt;xref:System.Diagnostics.Switch.DisplayName%2A&gt; property.</source>
+          <target state="translated">Den <ph id="ph1">`name`</ph> parameteren brukes til å angi verdien for den &lt;xref:System.Diagnostics.Switch.DisplayName%2A&gt;egenskap.&lt;/xref:System.Diagnostics.Switch.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set the level of your &lt;xref:System.Diagnostics.SourceSwitch&gt;, edit the configuration file that corresponds to the name of your application.</source>
+          <target state="translated">Angi hvor mange din &lt;xref:System.Diagnostics.SourceSwitch&gt;, Rediger konfigurasjonsfilen som tilsvarer navnet på programmet.&lt;/xref:System.Diagnostics.SourceSwitch&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within this file, you can add a switch and set its value, remove a switch, or clear all the switches previously set by the application.</source>
+          <target state="translated">I denne filen, kan du legge til en bryter og angir verdien, Fjern en bryter, eller Fjern alle bytter satt av programmet.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add a source switch, the configuration file should be formatted as shown in the following example.</source>
+          <target state="translated">Hvis du vil legge til en kilde-bryteren, skal konfigurasjonsfilen formateres som vist i eksemplet nedenfor.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The name of the source.</source>
+          <target state="translated">Navnet på kilden.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.SourceSwitch"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying the display name and the default value for the source switch.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Diagnostics.SourceSwitch"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse, angir visningsnavnet og standardverdien for bryteren kilde.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is used to set the value of the &lt;xref:System.Diagnostics.Switch.DisplayName%2A&gt; property; the <ph id="ph2">`defaultSwitchValue`</ph> parameter is saved as a field and used to initialize the &lt;xref:System.Diagnostics.Switch.Value%2A&gt; property on first reference.</source>
+          <target state="translated">Det <ph id="ph1">`displayName`</ph> parameteren brukes til å angi verdien for det &lt;xref:System.Diagnostics.Switch.DisplayName%2A&gt;egenskapen; <ph id="ph2">`defaultSwitchValue`</ph> parameteren lagres som et felt og brukes til å starte det &lt;xref:System.Diagnostics.Switch.Value%2A&gt;egenskapen på første referanse.&lt;/xref:System.Diagnostics.Switch.Value%2A&gt; &lt;/xref:System.Diagnostics.Switch.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the switch is defined in a configuration file and the <ph id="ph2">`value`</ph> attribute is specified, the configuration file value takes precedence and the <ph id="ph3">`defaultSwitchValue`</ph> is ignored.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Hvis bryteren er definert i en konfigurasjonsfil og <ph id="ph2">`value`</ph> attributtet er angitt, prioriteres filen konfigurasjonsverdien og <ph id="ph3">`defaultSwitchValue`</ph> ignoreres.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set the level of your &lt;xref:System.Diagnostics.SourceSwitch&gt;, edit the configuration file that corresponds to the name of your application.</source>
+          <target state="translated">Angi hvor mange din &lt;xref:System.Diagnostics.SourceSwitch&gt;, Rediger konfigurasjonsfilen som tilsvarer navnet på programmet.&lt;/xref:System.Diagnostics.SourceSwitch&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within this file, you can add a switch and set its value, remove a switch, or clear all the switches previously set by the application.</source>
+          <target state="translated">I denne filen, kan du legge til en bryter og angir verdien, Fjern en bryter, eller Fjern alle bytter satt av programmet.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add a source switch, the configuration file should be formatted as shown in the following example.</source>
+          <target state="translated">Hvis du vil legge til en kilde-bryteren, skal konfigurasjonsfilen formateres som vist i eksemplet nedenfor.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The name of the source switch.</source>
+          <target state="translated">Navnet på bryteren kilde.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The default value for the switch.</source>
+          <target state="translated">Standardverdien for bryteren.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets or sets the level of the switch.</source>
+          <target state="translated">Henter eller angir hvor mange bryteren.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property gets its value from the &lt;xref:System.Diagnostics.Switch.SwitchSetting%2A&gt; property.</source>
+          <target state="translated">Denne egenskapen henter verdien fra det &lt;xref:System.Diagnostics.Switch.SwitchSetting%2A&gt;egenskap.&lt;/xref:System.Diagnostics.Switch.SwitchSetting%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property also modifies the &lt;xref:System.Diagnostics.Switch.SwitchSetting%2A&gt; property.</source>
+          <target state="translated">Hvis du setter denne egenskapen også endrer den &lt;xref:System.Diagnostics.Switch.SwitchSetting%2A&gt;egenskapen.&lt;/xref:System.Diagnostics.Switch.SwitchSetting%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  For extensibility, the Level property can be set to any integer, rather than being limited to a &lt;xref:System.Diagnostics.SourceLevels&gt; enumeration value.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; For utvidelse, Level-egenskapen kan settes til alle heltall, i stedet for er begrenset til en &lt;xref:System.Diagnostics.SourceLevels&gt;opplistingsverdien.&lt;/xref:System.Diagnostics.SourceLevels&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.SourceLevels"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that represents the event level of the switch.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Diagnostics.SourceLevels"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier som representerer hendelsen bryteren.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Invoked when the value of the &lt;xref:System.Diagnostics.Switch.Value*&gt; property changes.</source>
+          <target state="translated">Aktiveres når verdien for den &lt;xref:System.Diagnostics.Switch.Value*&gt;egenskapsendringer.&lt;/xref:System.Diagnostics.Switch.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnValueChanged method converts the new value of the &lt;xref:System.Diagnostics.Switch.Value%2A&gt; property to the integer representation of the matching field in the &lt;xref:System.Diagnostics.SourceLevels&gt; enumeration, and then uses this integer to set the &lt;xref:System.Diagnostics.Switch.SwitchSetting%2A&gt; property.</source>
+          <target state="translated">Metoden OnValueChanged konverterer den nye verdien for det &lt;xref:System.Diagnostics.Switch.Value%2A&gt;egenskapen heltall-representasjon av det tilsvarende feltet i den &lt;xref:System.Diagnostics.SourceLevels&gt;opplisting og bruker denne heltall til å angi det &lt;xref:System.Diagnostics.Switch.SwitchSetting%2A&gt;egenskapen.&lt;/xref:System.Diagnostics.Switch.SwitchSetting%2A&gt; &lt;/xref:System.Diagnostics.SourceLevels&gt; &lt;/xref:System.Diagnostics.Switch.Value%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The new value of &lt;xref:System.Diagnostics.Switch.Value*&gt; is not one of the <bpt id="p1">&lt;xref href="System.Diagnostics.SourceLevels"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Den nye verdien for &lt;xref:System.Diagnostics.Switch.Value*&gt;er ikke én av de <bpt id="p1">&lt;xref href="System.Diagnostics.SourceLevels"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.&lt;/xref:System.Diagnostics.Switch.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Determines if trace listeners should be called, based on the trace event type.</source>
+          <target state="translated">Bestemmer om sporingslyttere må kalles, basert på hendelsestypen sporingen.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the <ph id="ph1">`Trace`</ph> methods in the &lt;xref:System.Diagnostics.TraceSource&gt; class to determine whether listeners should be called to write a trace.</source>
+          <target state="translated">Denne metoden kalles av den <ph id="ph1">`Trace`</ph> metodene i den &lt;xref:System.Diagnostics.TraceSource&gt;klassen for å finne ut om lyttere må kalles for å skrive en sporing.&lt;/xref:System.Diagnostics.TraceSource&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Application code should not call this method; it is intended to be called only by methods in the &lt;xref:System.Diagnostics.TraceSource&gt; class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Programmet koden kan ikke kalle denne metoden; den er ment å bare kalles av metodene i &lt;xref:System.Diagnostics.TraceSource&gt;klasse.&lt;/xref:System.Diagnostics.TraceSource&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the trace listeners should be called; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis sporingslyttere må kalles; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
