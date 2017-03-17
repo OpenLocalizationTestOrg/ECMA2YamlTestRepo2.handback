@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">371cb8a83467140ed6a2b741b3a3a0a9e0fdd9ea</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.OleDb.OleDbConnection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e16d334c4a9359722907affbf950a357d8e64ec</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">601b91497f62c9d193a8c3b8a36efb9ed063ccc6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an open connection to a data source.</source>
+          <target state="translated">データ ソースへの接続を開くを表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An OleDbConnection object represents a unique connection to a data source.</source>
+          <target state="translated">Ole db 接続オブジェクトは、データ ソースへの一意の接続を表します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>With a client/server database system, it is equivalent to a network connection to the server.</source>
+          <target state="translated">クライアント/サーバー データベース システムでは、サーバーへのネットワーク接続と同じです。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Depending on the functionality supported by the native OLE DB provider, some methods or properties of an OleDbConnection object may not be available.</source>
+          <target state="translated">ネイティブの OLE DB プロバイダーでサポートされる機能、によって一部のメソッドまたは ole db 接続オブジェクトのプロパティを使用できない可能性があります。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When you create an instance of OleDbConnection, all properties are set to their initial values.</source>
+          <target state="translated">Ole db 接続のインスタンスを作成するときに、すべてのプロパティは、それぞれの初期値に設定されます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For a list of these values, see the OleDbConnection constructor.</source>
+          <target state="translated">これらの値の一覧は、ole db 接続コンス トラクターを参照してください。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can open more than one DataReader on a single OleDbConnection.</source>
+          <target state="translated">1 つの ole db 接続の&amp;1; つ以上の DataReader を開くことができます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the OLE DB provider you use does not support more than one DataReader on a single connection, the provider implicitly opens an additional connection for each.</source>
+          <target state="translated">使用する OLE DB プロバイダーは、単一の接続で&amp;1; つ以上の DataReader をサポートしていません、各追加の接続は、プロバイダーによって暗黙的が開きます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If the OleDbConnection goes out of scope, it is not closed.</source>
+          <target state="translated">OleDbConnection がスコープ外に出る、閉じられません。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Therefore, you must explicitly close the connection by calling &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>, or by using the OleDbConnection object within a <ph id="ph1">`Using`</ph> statement.</source>
+          <target state="translated">したがって、する必要があります明示的に接続を呼び出して終了する&lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;または<bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>、または内で ole db 接続オブジェクトを使用して、<ph id="ph1">`Using`</ph>ステートメント&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To deploy high-performance applications, you must use connection pooling.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; アプリケーションを展開する高パフォーマンス、接続プールを使用する必要があります。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When you use the .NET Framework Data Provider for OLE DB, you do not have to enable connection pooling because the provider manages this automatically.</source>
+          <target state="translated">.NET Framework Data Provider for OLE DB を使用するときにありません接続プールを管理するため、プロバイダーに自動的に有効にします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information about how to use connection pooling with the .NET Framework Data Provider for OLE DB, see <bpt id="p1">[</bpt>OLE DB, ODBC, and Oracle Connection Pooling<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">接続を使用する方法の詳細と .NET Framework Data Provider for OLE DB では、プールを参照してください<bpt id="p1">[</bpt>OLE DB、ODBC、および Oracle 接続プール<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If a fatal &lt;xref:System.Data.OleDb.OleDbException&gt; (for example, a SQL Server severity level of 20 or greater) is generated by the method executing an &lt;xref:System.Data.OleDb.OleDbCommand&gt;, the OleDbConnection might be closed.</source>
+          <target state="translated">致命的なエラー場合&lt;xref:System.Data.OleDb.OleDbException&gt;(たとえば、SQL Server 重大度レベル以上 20 の) メソッドの実行によって生成される、 &lt;xref:System.Data.OleDb.OleDbCommand&gt;、ole db 接続を終了する可能性があります&lt;/xref:System.Data.OleDb.OleDbCommand&gt;&lt;/xref:System.Data.OleDb.OleDbException&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>However, the user can reopen the connection and continue.</source>
+          <target state="translated">ただし、ユーザーことができます、接続を再び開き、続行します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An application that creates an instance of the OleDbConnection object can require all direct and indirect callers to have sufficient permission to the code by setting declarative or imperative security demands.</source>
+          <target state="translated">OleDbConnection オブジェクトのインスタンスを作成するアプリケーションには、すべて直接的および間接的な呼び出し元の設定宣言的または強制的のセキュリティ確認要求でのコードに十分なアクセス許可があることが必要です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>OleDbConnection makes security demands using the &lt;xref:System.Data.OleDb.OleDbPermission&gt; object.</source>
+          <target state="translated">Ole db 接続は、セキュリティ要求を使用して、&lt;xref:System.Data.OleDb.OleDbPermission&gt;オブジェクト&lt;/xref:System.Data.OleDb.OleDbPermission&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Users can verify that their code has sufficient permissions by using the &lt;xref:System.Data.OleDb.OleDbPermissionAttribute&gt; object.</source>
+          <target state="translated">ユーザーが、コードが使用して、十分なアクセス許可を持っていることを確認、&lt;xref:System.Data.OleDb.OleDbPermissionAttribute&gt;オブジェクト&lt;/xref:System.Data.OleDb.OleDbPermissionAttribute&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Users and administrators can also use the <bpt id="p1">[</bpt>Caspol.exe (Code Access Security Policy Tool)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> to modify security policy at the computer, user, and enterprise levels.</source>
+          <target state="translated">ユーザーと管理者を使っても、 <bpt id="p1">[</bpt>Caspol.exe (コード アクセス セキュリティ ポリシー ツール)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>コンピューター、ユーザー、およびエンタープライズ レベルのセキュリティ ポリシーを変更します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Code Access Security and ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>コード アクセス セキュリティと ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information about handling warning and informational messages from the data server, see <bpt id="p1">[</bpt>Connection Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">データ サーバーからの警告および情報メッセージを処理の詳細については、次を参照してください。<bpt id="p1">[</bpt>接続イベント<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The OleDbConnection object does not support setting or retrieving dynamic properties specific to an OLE DB provider.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;、Ole db 接続オブジェクトは設定または OLE DB プロバイダーに固有の動的プロパティの取得をサポートしていません。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Only properties that can be passed in the connection string for the OLE DB provider are supported.</source>
+          <target state="translated">OLE DB プロバイダーの接続文字列で渡すことができるプロパティのみがサポートされています。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When a new instance of &lt;xref:System.Data.OleDb.OleDbConnection&gt; is created, the read/write properties are set to the following initial values unless they are specifically set using their associated keywords in the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">新しいインスタンスをときに&lt;xref:System.Data.OleDb.OleDbConnection&gt;が作成、読み取り/書き込みで、関連付けられているキーワードを使用して明示的に設定されている場合を除き、次の初期値にプロパティが設定されます、&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;プロパティ&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;&lt;/xref:System.Data.OleDb.OleDbConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;|empty string ("")|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|15|   |&lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;|empty string ("")|   |&lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;|empty string ("")|       You can change the value for these properties only by using the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">|プロパティ |初期値 |  |----------------|-------------------|  |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;| 空の文字列 ("") |  |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|&amp;15; |  |&lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;| 空の文字列 ("") |  |&lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;| 空の文字列 ("") |      のみを使用してこれらのプロパティの値を変更することができます、&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;プロパティ&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;&lt;/xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;&lt;/xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified connection string.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定された接続文字列を持つクラス。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When a new instance of &lt;xref:System.Data.OleDb.OleDbConnection&gt; is created, the read/write properties are set to the following initial values unless they are specifically set using their associated keywords in the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">新しいインスタンスをときに&lt;xref:System.Data.OleDb.OleDbConnection&gt;が作成、読み取り/書き込みで、関連付けられているキーワードを使用して明示的に設定されている場合を除き、次の初期値にプロパティが設定されます、&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;プロパティ&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;&lt;/xref:System.Data.OleDb.OleDbConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;|<ph id="ph1">`connectionString`</ph>|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|15|   |&lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;|empty string ("")|   |&lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;|empty string ("")|       You can change the value for these properties only by using the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">|プロパティ |初期値 |  |----------------|-------------------|  |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;|<ph id="ph1">`connectionString`</ph>|  |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|&amp;15; |  |&lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;| 空の文字列 ("") |  |&lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;| 空の文字列 ("") |      のみを使用してこれらのプロパティの値を変更することができます、&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;プロパティ&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;&lt;/xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;&lt;/xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The connection used to open the database.</source>
+          <target state="translated">データベースを開くために使用する接続です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Starts a database transaction with the current <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">現在のデータベース トランザクションを開始<bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You must explicitly commit or roll back the transaction using the &lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt; or &lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt; method.</source>
+          <target state="translated">明示的にコミットまたはを使用してトランザクションをロールバックする必要があります、&lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;または&lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt;メソッド&lt;/xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt;&lt;/xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To make sure that the .NET Framework Data Provider for OLE DB transaction management model performs correctly, avoid using other transaction management models, such as those provided by the data source.</source>
+          <target state="translated">.NET Framework Data Provider for OLE DB のトランザクション管理モデルが正しく実行するようにするには、データ ソースによって提供されるものなど、他のトランザクション管理モデルを使用しないでください。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">新しいトランザクションを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Parallel transactions are not supported.</source>
+          <target state="translated">並列トランザクションはサポートされていません。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Starts a database transaction with the specified isolation level.</source>
+          <target state="translated">指定された分離レベルで、データベース トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You must explicitly commit or roll back the transaction using the &lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt; or &lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt; method.</source>
+          <target state="translated">明示的にコミットまたはを使用してトランザクションをロールバックする必要があります、&lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;または&lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt;メソッド&lt;/xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt;&lt;/xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To make sure that the .NET Framework Data Provider for OLE DB transaction management model performs correctly, avoid using other transaction management models, such as those provided by the data source.</source>
+          <target state="translated">.NET Framework Data Provider for OLE DB のトランザクション管理モデルが正しく実行するようにするには、データ ソースによって提供されるものなど、他のトランザクション管理モデルを使用しないでください。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you do not specify an isolation level, the default isolation level for the underlying provider is used.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 分離レベルを指定しない場合、基になるプロバイダーの既定の分離レベルが使用されます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To specify an isolation level with the BeginTransaction method, use the overload that takes the <ph id="ph1">`isolationLevel`</ph> parameter.</source>
+          <target state="translated">BeginTransaction メソッドを使用して分離レベルを指定するを受け取るオーバー ロードを使用して、<ph id="ph1">`isolationLevel`</ph>パラメーター。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The isolation level under which the transaction should run.</source>
+          <target state="translated">トランザクションを実行する分離レベル。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">新しいトランザクションを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Parallel transactions are not supported.</source>
+          <target state="translated">並列トランザクションはサポートされていません。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Changes the current database for an open <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">開いているは、現在のデータベース変更<bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The value supplied in the <ph id="ph1">`database`</ph> parameter must be a valid database name.</source>
+          <target state="translated">指定された値、<ph id="ph1">`database`</ph>パラメーターは、有効なデータベース名を指定する必要があります。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`database`</ph> parameter cannot contain a null value, an empty string, or a string with only blank characters.</source>
+          <target state="translated"><ph id="ph1">`database`</ph>パラメーターは、null 値、空の文字列または空白だけの文字の文字列を含めることはできません。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The database name.</source>
+          <target state="translated">データベース名。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The database name is not valid.</source>
+          <target state="translated">データベース名が正しくありません。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The connection is not open.</source>
+          <target state="translated">接続は開いていません。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Cannot change the database.</source>
+          <target state="translated">データベースを変更することはできません。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Closes the connection to the data source.</source>
+          <target state="translated">データ ソースへの接続を閉じます。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The Close method rolls back any pending transactions.</source>
+          <target state="translated">Close メソッドは、保留中のトランザクションをロールバックします。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>It then releases the connection to the connection pool, or closes the connection if connection pooling is disabled.</source>
+          <target state="translated">接続プールへの接続を解放し、または接続プールが無効になっている場合、接続を閉じます。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If Close is called while handling a &lt;xref:System.Data.Common.DbConnection.StateChange&gt; event, no additional &lt;xref:System.Data.Common.DbConnection.StateChange&gt; events are fired.</source>
+          <target state="translated">処理中に Close が呼び出された場合、&lt;xref:System.Data.Common.DbConnection.StateChange&gt;イベント、これ以上の&lt;xref:System.Data.Common.DbConnection.StateChange&gt;イベントは発生しません&lt;/xref:System.Data.Common.DbConnection.StateChange&gt;&lt;/xref:System.Data.Common.DbConnection.StateChange&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An application can call Close more than one time.</source>
+          <target state="translated">アプリケーションは&amp;1; つ以上の時間に Close を呼び出すことができます。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>No exception is generated.</source>
+          <target state="translated">例外は生成されません。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Do not call Close or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> on an &lt;xref:System.Data.OleDb.OleDbConnection&gt;, an &lt;xref:System.Data.OleDb.OleDbDataReader&gt;, or any other managed object in the <ph id="ph2">`Finalize`</ph> method of your class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Close を呼び出す必要はありませんか<bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>上、 &lt;xref:System.Data.OleDb.OleDbConnection&gt;、 &lt;xref:System.Data.OleDb.OleDbDataReader&gt;、またはその他のマネージ オブジェクトで、<ph id="ph2">`Finalize`</ph>クラスのメソッド&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In a finalizer, you should only release unmanaged resources that your class owns directly.</source>
+          <target state="translated">ファイナライザーで、クラスが直接所有されているアンマネージ リソースだけを解放する必要があります。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If your class does not own any unmanaged resources, do not include a <ph id="ph1">`Finalize`</ph> method in your class definition.</source>
+          <target state="translated">クラスがアンマネージ リソースを所有していない場合は含まれません、<ph id="ph1">`Finalize`</ph>メソッド、クラス定義にします。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Garbage Collection<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>ガベージ コレクション<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string used to open a database.</source>
+          <target state="translated">取得またはデータベースを開くために使用する文字列を設定します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The OLE DB provider connection string that includes the data source name, and other parameters needed to establish the initial connection.</source>
+          <target state="translated">データ ソース名と最初の接続を確立するために必要なその他のパラメーターを含む OLE DB プロバイダー接続文字列。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">既定値は、空の文字列です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An invalid connection string argument has been supplied or a required connection string argument has not been supplied.</source>
+          <target state="translated">無効な接続文字列引数が指定されているか、必要な接続文字列の引数が指定されていません。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets the time to wait while trying to establish a connection before terminating the attempt and generating an error.</source>
+          <target state="translated">試行を終了し、エラーが発生する前に接続を確立しているときに待機する時間を取得します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A value of 0 indicates no limit, and should be avoided in a &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; because an attempt to connect will wait indefinitely.</source>
+          <target state="translated">値が 0 の制限がないことを示しますとでは避ける必要があります、&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;ため、接続の試行は無期限に待機します。&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The time in seconds to wait for a connection to open.</source>
+          <target state="translated">接続を開くを待機する秒単位の時間。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default value is 15 seconds.</source>
+          <target state="translated">既定値は、15 秒です。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The value set is less than 0.</source>
+          <target state="translated">設定されている値が 0 未満です。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Creates and returns an <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">作成して返します、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトに関連付けられている、 <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets the name of the current database or the database to be used after a connection is opened.</source>
+          <target state="translated">現在のデータベースまたは接続が開かれた後に使用するデータベースの名前を取得します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The Database property updates dynamically.</source>
+          <target state="translated">データベースのプロパティを動的に更新します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If you change the current database using a SQL statement or the &lt;xref:System.Data.OleDb.OleDbConnection.ChangeDatabase%2A&gt; method, an informational message is sent and the property is updated automatically.</source>
+          <target state="translated">SQL ステートメントを使用して、現在のデータベースを変更するかどうか、または&lt;xref:System.Data.OleDb.OleDbConnection.ChangeDatabase%2A&gt;メソッド、情報メッセージが送信され、プロパティが自動的に更新されます&lt;/xref:System.Data.OleDb.OleDbConnection.ChangeDatabase%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The name of the current database or the name of the database to be used after a connection is opened.</source>
+          <target state="translated">現在のデータベースまたは接続が開かれた後に使用するデータベースの名前の名前。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">既定値は、空の文字列です。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Gets the server name or file name of the data source.</source>
+          <target state="translated">サーバー名またはデータ ソースのファイル名を取得します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If the connection to the database is closed, the <ph id="ph1">`DataSource`</ph> property returns whatever is contained in <ph id="ph2">`ConnectionString`</ph> for the data source keyword.</source>
+          <target state="translated">データベースへの接続が閉じている場合、<ph id="ph1">`DataSource`</ph>プロパティに含まれるものを返します<ph id="ph2">`ConnectionString`</ph>for データ ソースのキーワードです。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If the connection is open and the <ph id="ph1">`ConnectionString`</ph> data source keyword's value starts with "&amp;#124;datadirectory&amp;#124;", the property returns whatever is contained in <ph id="ph2">`ConnectionString`</ph> for the data source keyword only.</source>
+          <target state="translated">接続が開いている場合、<ph id="ph1">`ConnectionString`</ph>データ ソースのキーワードの値で始まる"| datadirectory |"に含まれるものを返します<ph id="ph2">`ConnectionString`</ph>データ ソースのキーワードのみをします。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If the connection to the database is open, the property returns what the native provider returns for the <ph id="ph1">`DBPROP_INIT_DATASOURCE,`</ph> and if that is empty, the native provider’s <ph id="ph2">`DBPROP_DATASOURCENAME`</ph> is returned.</source>
+          <target state="translated">データベースへの接続が開いている場合は、このプロパティはネイティブ プロバイダーを返しますを返します、<ph id="ph1">`DBPROP_INIT_DATASOURCE,`</ph>が、空の場合と、ネイティブ プロバイダーの<ph id="ph2">`DBPROP_DATASOURCENAME`</ph>が返されます。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The server name or file name of the data source.</source>
+          <target state="translated">サーバー名またはデータ ソースのファイル名。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">既定値は、空の文字列です。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Enlists in the specified transaction as a distributed transaction.</source>
+          <target state="translated">指定されたトランザクションは分散トランザクションに参加します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>New in ADO.NET 2.0 is support for using the &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt; method to enlist in a distributed transaction.</source>
+          <target state="translated">新しい ADO.NET 2.0 ではサポートを使用するため、&lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;分散トランザクションに参加するメソッド&lt;/xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Because it enlists a connection in a &lt;xref:System.Transactions.Transaction&gt; instance, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> takes advantage of functionality available in the &lt;xref:System.Transactions&gt; namespace for managing distributed transactions, making it preferable to <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept> for this purpose.</source>
+          <target state="translated">これにより、接続するため、&lt;xref:System.Transactions.Transaction&gt;インスタンス、 <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept>で利用できる機能を活用、&lt;xref:System.Transactions&gt;を管理するための名前空間は分散トランザクションを置き換えることが<bpt id="p2">**</bpt>どちら<ept id="p2">**</ept>この目的のためです&lt;/xref:System.Transactions&gt;&lt;/xref:System.Transactions.Transaction&gt;。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>分散トランザクション<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can continue to enlist in an existing distributed transaction using the EnlistDistributedTransaction method if auto-enlistment is disabled.</source>
+          <target state="translated">自動参加が無効になっている場合は、どちらのメソッドを使用して既存の分散トランザクションに参加する続行することができます。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Enlisting in an existing distributed transaction makes sure that, if the transaction is committed or rolled back, modifications made by the code at the data source are also committed or rolled back.</source>
+          <target state="translated">既存の分散トランザクションに参加させることにより、トランザクションがコミットまたはロールバックされた場合、データ ソース コードで行った変更もコミットまたはロールバックします。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>For more information about distributed transactions, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](../Topic/Distributed%20Transactions.md)</ept>.</source>
+          <target state="translated">分散トランザクションの詳細については、次を参照してください。<bpt id="p1">[</bpt>分散トランザクション<ept id="p1">](../Topic/Distributed%20Transactions.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>EnlistDistributedTransaction returns an exception if the &lt;xref:System.Data.OleDb.OleDbConnection&gt; has already started a transaction using &lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">場合、どちらが例外を返します&lt;xref:System.Data.OleDb.OleDbConnection&gt;が、既に&lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;を使用してトランザクションを開始&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>However, if the transaction is a local transaction started at the data source (for example, by explicitly executing the BEGIN TRANSACTION statement using an &lt;xref:System.Data.OleDbClient.OleDbCommand&gt; object), EnlistDistributedTransaction rolls back the local transaction and enlists in the existing distributed transaction as requested.</source>
+          <target state="translated">ただし、トランザクションは、データ ソースで開始されたローカル トランザクション (たとえば、明示的に実行することによって、BEGIN TRANSACTION ステートメントを使用して、&lt;xref:System.Data.OleDbClient.OleDbCommand&gt;オブジェクト)、どちらがローカル トランザクションをロールバックし、要求されるとおり、既存の分散トランザクションに参加します&lt;/xref:System.Data.OleDbClient.OleDbCommand&gt;。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You will not receive notice that the local transaction was rolled back, and are responsible for managing any local transactions not started using&lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">注意してください、ローカルのトランザクションがロールバックされていないローカル トランザクションの管理を担当を使用して開始&lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;。&lt;/xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;を受け取ることはありません。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A reference to an existing <bpt id="p1">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which to enlist.</source>
+          <target state="translated">既存への参照を<bpt id="p1">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>登録先。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Enlists in the specified transaction as a distributed transaction.</source>
+          <target state="translated">指定されたトランザクションは分散トランザクションに参加します。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>New in ADO.NET 2.0 is support for using the &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt; method to enlist in a distributed transaction.</source>
+          <target state="translated">新しい ADO.NET 2.0 ではサポートを使用するため、&lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;分散トランザクションに参加するメソッド&lt;/xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Because it enlists a connection in a &lt;xref:System.Transactions.Transaction&gt; instance, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> takes advantage of functionality available in the &lt;xref:System.Transactions&gt; namespace for managing distributed transactions, making it preferable to <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept>, which uses a &lt;xref:System.EnterpriseServices.ITransaction&gt; object.</source>
+          <target state="translated">これにより、接続するため、&lt;xref:System.Transactions.Transaction&gt;インスタンス、 <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept>で利用できる機能を活用、&lt;xref:System.Transactions&gt;を管理するための名前空間は分散トランザクションを置き換えることが<bpt id="p2">**</bpt>どちら<ept id="p2">**</ept>が使用される、&lt;xref:System.EnterpriseServices.ITransaction&gt;オブジェクト&lt;/xref:System.EnterpriseServices.ITransaction&gt;&lt;/xref:System.Transactions&gt;&lt;/xref:System.Transactions.Transaction&gt;。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>It also has slightly different semantics: once a connection is explicitly enlisted on a transaction, it cannot be unenlisted or enlisted in another transaction until the first transaction finishes.</source>
+          <target state="translated">さらに、若干異なるセマンティクス: 接続は明示的にトランザクションに参加させる、一度参加解除されてまたはできない最初のトランザクションが終了するまで、別のトランザクションに参加しています。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For more information about distributed transactions, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">分散トランザクションの詳細については、次を参照してください。<bpt id="p1">[</bpt>分散トランザクション<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A reference to an existing <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which to enlist.</source>
+          <target state="translated">既存への参照を<bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>登録先。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Returns schema information from a data source as indicated by a GUID, and after it applies the specified restrictions.</source>
+          <target state="translated">指定された制限を適用した後、GUID によって示されると、データ ソースからスキーマ情報を返します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The schema table is returned as a &lt;xref:System.Data.DataTable&gt; that has the same format as the OLE DB schema rowset specified by the <ph id="ph1">`schema`</ph> parameter.</source>
+          <target state="translated">スキーマ テーブルとして返されます、&lt;xref:System.Data.DataTable&gt;で指定された OLE DB スキーマ行セットと同じ形式を持つ、<ph id="ph1">`schema`</ph>パラメーター&lt;/xref:System.Data.DataTable&gt; 。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`restrictions`</ph> parameter to filter the rows to be returned in the &lt;xref:System.Data.DataTable&gt; (for example, by specifying restrictions for table name, type, owner, or schema).</source>
+          <target state="translated">使用して、<ph id="ph1">`restrictions`</ph>パラメーターで返される行をフィルター選択、 &lt;xref:System.Data.DataTable&gt;(たとえば、テーブル名、型、所有者、またはスキーマの制限の指定) を&lt;/xref:System.Data.DataTable&gt;。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>When you pass values in the array, include empty strings or nulls for array elements that do not contain values.</source>
+          <target state="translated">配列内の値を渡す際に、空の文字列または配列要素の値を含まないの null 値が含まれます。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>If you pass an empty array to <ph id="ph1">`restrictions`</ph>, all rows (one for each table) are returned in default order.</source>
+          <target state="translated">空の配列を渡す場合<ph id="ph1">`restrictions`</ph>、(テーブルごとに&amp;1; つ) のすべての行が既定の順序で返されます。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Values in the array correspond to the order of the columns in the source table and &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">配列内の値が、ソース テーブルと&lt;xref:System.Data.DataTable&gt;。&lt;/xref:System.Data.DataTable&gt;内の列順序に対応します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Each element in the restrictions array is compared with the content of the corresponding column in the schema rowset.</source>
+          <target state="translated">制限の配列内の各要素は、対応する列は、スキーマ行セットの内容と比較されます。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For example, the first element in the restrictions array is compared to first column in the rowset.</source>
+          <target state="translated">たとえば、制限の配列の最初の要素は、行セット内の最初の列に比較されます。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>If a restriction element is not null, only rows from the schema rowset that exactly match the value of the restriction are added to the resulting &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">結果として得られる&lt;xref:System.Data.DataTable&gt;。&lt;/xref:System.Data.DataTable&gt;スキーマ行セットから制限の値を正確に一致する行のみを追加制約要素が null でない場合</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.OleDb.OleDbConnection&gt; method calls the underlying OLE DB <bpt id="p1">**</bpt>IDBSchemaRowset::GetRowset<ept id="p1">**</ept> method using standard common language runtime conversion rules.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbConnection&gt;メソッドを呼び出す、基になる OLE DB <bpt id="p1">**</bpt>idbschemarowset::getrowset<ept id="p1">**</ept>標準的な共通言語ランタイムの変換規則を使用するメソッド&lt;/xref:System.Data.OleDb.OleDbConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>COM Data Types<ept id="p1">](http://msdn.microsoft.com/en-us/f93ae35d-a416-4218-8700-c8218cc90061)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>COM のデータ型<ept id="p1">](http://msdn.microsoft.com/en-us/f93ae35d-a416-4218-8700-c8218cc90061)</ept>です。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You can retrieve information about literals by using &lt;xref:System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals&gt;。&lt;/xref:System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals&gt;を使用して、リテラルに関する情報を取得することができます。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>This provides information equivalent to calling the OLE DB <bpt id="p1">**</bpt>IDBInfo::GetLiteralInfo<ept id="p1">**</ept> interface, or the ADO <bpt id="p2">**</bpt>Connection.OpenSchema<ept id="p2">**</ept> method with the <ph id="ph1">`adSchemaDBInfoLiterals`</ph> constant.</source>
+          <target state="translated">これにより、情報、OLE DB の呼び出しに相当<bpt id="p1">**</bpt>IDBInfo::GetLiteralInfo<ept id="p1">**</ept>インターフェイス、または ADO <bpt id="p2">**</bpt>Connection.OpenSchema<ept id="p2">**</ept>メソッドを<ph id="ph1">`adSchemaDBInfoLiterals`</ph>定数。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the schema table to return.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を返すスキーマ テーブルを指定する値。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; array of restriction values.</source>
+          <target state="translated">&lt;xref:System.Object&gt;制限値の配列&lt;/xref:System.Object&gt;。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>These are applied in the order of the restriction columns.</source>
+          <target state="translated">これらの制限列の順序で適用されます。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>That is, the first restriction value applies to the first restriction column, the second restriction value applies to the second restriction column, and so on.</source>
+          <target state="translated">つまり、最初の制限列に適用される最初の制限値、2 番目の制限値と&amp;2; 番目の制限列に適用されます。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the requested schema information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要求されたスキーマ情報を格納します。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The specified set of restrictions is invalid.</source>
+          <target state="translated">指定した制限のセットが正しくありません。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>が閉じられます。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The specified schema rowset is not supported by the OLE DB provider.</source>
+          <target state="translated">OLE DB プロバイダーでは、指定されたスキーマ行セットはサポートされていません。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">schema</ph><ept id="p1">&lt;/code&gt;</ept> parameter contains a value of <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">restrictions</ph><ept id="p3">&lt;/code&gt;</ept> parameter contains one or more restrictions.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">schema</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターの値が含まれる<bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>と<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">restrictions</ph> <ept id="p3">&lt;/code&gt;</ept>パラメーターには、1 つまたは複数の制限が含まれています。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">このデータ ソースのスキーマ情報を返します<bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>スキーマ情報を格納します。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified string for the schema name.</source>
+          <target state="translated">このデータ ソースのスキーマ情報を返します<bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>スキーマ名を指定した文字列を使用します。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`collectionName`</ph> is specified as null, the &lt;xref:System.Data.DataTable&gt; will contain information about all the metadata that is available, and its restrictions.</source>
+          <target state="translated">ときに<ph id="ph1">`collectionName`</ph>が null の場合、として指定されて、 &lt;xref:System.Data.DataTable&gt;、利用可能なすべてのメタデータとその制限に関する情報が含まれます&lt;/xref:System.Data.DataTable&gt;。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the schema to return.</source>
+          <target state="translated">返すスキーマの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>スキーマ情報を格納します。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified string for the schema name and the specified string array for the restriction values.</source>
+          <target state="translated">このデータ ソースのスキーマ情報を返します<bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>スキーマ名と制限値に指定した文字列配列の指定した文字列を使用します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`collectionName`</ph> is specified as null, the &lt;xref:System.Data.DataTable&gt; will contain information about all the metadata that is available, and its restrictions.</source>
+          <target state="translated">ときに<ph id="ph1">`collectionName`</ph>が null の場合、として指定されて、 &lt;xref:System.Data.DataTable&gt;、利用可能なすべてのメタデータとその制限に関する情報が含まれます&lt;/xref:System.Data.DataTable&gt;。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`restrictionValues`</ph> parameter can supply <bpt id="p1">*</bpt>n<ept id="p1">*</ept> depth of values which are specified by the restrictions collection for a specific collection.</source>
+          <target state="translated"><ph id="ph1">`restrictionValues`</ph>パラメーターを指定できます<bpt id="p1">*</bpt>n<ept id="p1">*</ept>特定のコレクションの制限のコレクションで指定されている値の深さ。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>In order to set values on a given restriction, and not set the values of other restrictions, you need to set the preceding restrictions to null and then put the appropriate value in for the restriction that you would like to specify a value for.</source>
+          <target state="translated">指定された制限の値を設定して、他の制限値を設定しない、null に設定し、値を指定するには、制限用に適切な値を格納する、前述の制限を設定する必要があります。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An example of this is the "Tables" collection.</source>
+          <target state="translated">この例では、"Tables"コレクションです。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>If the "Tables" collection has three restrictions (database, owner, and table name), and you want to get back only the tables associated with the owner "Carl," you must pass in the following values (at a minimum): null, "Carl".</source>
+          <target state="translated">"Tables"コレクションでは、3 つの制限 (データベース、所有者、およびテーブル名)、"Carl"の所有者に関連付けられているテーブルのみを取得する場合は、(最低)、次の値で渡す必要があります: null、"Carl"です。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If a restriction value is not passed in, the default values are used for that restriction.</source>
+          <target state="translated">制限値が渡されない場合、既定値は、その制限に使用されます。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This is the same mapping as passing in null, which is different from passing in an empty string for the parameter value.</source>
+          <target state="translated">これは、null を渡すことと同じマッピングこれとは異なるパラメーター値に空の文字列に渡すことができます。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>In that case, the empty string ("") is considered to be the value for the specified parameter.</source>
+          <target state="translated">その場合、空の文字列 ("") は、指定されたパラメーターの値であると見なされます。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the schema to return.</source>
+          <target state="translated">返すスキーマの名前を指定します。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Specifies a set of restriction values for the requested schema.</source>
+          <target state="translated">要求されたスキーマの制限値のセットを指定します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>スキーマ情報を格納します。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Occurs when the provider sends a warning or an informational message.</source>
+          <target state="translated">プロバイダーが警告または情報メッセージを送信したときに発生します。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Clients that want to process warnings or informational messages sent by the server should create an &lt;xref:System.Data.OleDb.OleDbInfoMessageEventHandler&gt; delegate to listen to this event.</source>
+          <target state="translated">警告またはサーバーによって送信される情報のメッセージを処理するクライアントを作成する必要があります、&lt;xref:System.Data.OleDb.OleDbInfoMessageEventHandler&gt;このイベントを待機するデリゲート&lt;/xref:System.Data.OleDb.OleDbInfoMessageEventHandler&gt;。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The InfoMessage event occurs when a message with low severity is returned from the data source.</source>
+          <target state="translated">InfoMessage イベントは、重要度が低いと、メッセージは、データ ソースから返されたときに発生します。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Low severity messages are those that do not cause an exception.</source>
+          <target state="translated">重要度が低いメッセージは、例外が発生しません。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>For Microsoft SQL Server, this includes error messages that have a severity of 10 or less       For more information and an example, see <bpt id="p1">[</bpt>Connection Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">重大度レベル 10 のエラー メッセージは、Microsoft SQL Server の詳細と例は、以下を参照してくださいまたは<bpt id="p1">[</bpt>接続イベント<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Opens a database connection with the property settings specified by the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString*&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString*&gt;。&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString*&gt;で指定されたプロパティの設定でデータベース接続を開きます</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.OleDb.OleDbConnection&gt; draws an open connection from the connection pool if one is available.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbConnection&gt;がある場合、接続プールから、開いている接続を描画します&lt;/xref:System.Data.OleDb.OleDbConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Otherwise, it establishes a new connection to the data source.</source>
+          <target state="translated">それ以外の場合、データ ソースへの新しい接続を確立します。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>You can open more than one DataReader on a single &lt;xref:System.Data.OleDb.OleDbConnection&gt;.</source>
+          <target state="translated">単一&lt;xref:System.Data.OleDb.OleDbConnection&gt;。&lt;/xref:System.Data.OleDb.OleDbConnection&gt;で&amp;1; つ以上の DataReader を開くことができます。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>If the OLEDB provider you use does not support more than one active DataReader on a single connection, the OLEDB provider implicitly opens an additional connection for each.</source>
+          <target state="translated">使用する ole DB プロバイダーは、単一の接続で&amp;1; つ以上のアクティブな DataReader をサポートしていません、各追加の接続は、ole DB プロバイダーによって暗黙的が開きます。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.Data.OleDb.OleDbConnection&gt; goes out of scope, it is not closed.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 場合、&lt;xref:System.Data.OleDb.OleDbConnection&gt;スコープの移動のうち、終了していない&lt;/xref:System.Data.OleDb.OleDbConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Therefore, you must explicitly close the connection by calling &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>, or using the connection within a <ph id="ph1">`Using`</ph> statement.</source>
+          <target state="translated">したがって、する必要があります明示的に接続を呼び出して終了する&lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;または<bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>、または内で接続を使用して、<ph id="ph1">`Using`</ph>ステートメント&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The connection is already open.</source>
+          <target state="translated">接続が開いています。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>A connection-level error occurred while opening the connection.</source>
+          <target state="translated">接続を開くときに、接続レベルのエラーが発生しました。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Gets the name of the OLE DB provider specified in the "Provider= " clause of the connection string.</source>
+          <target state="translated">指定された OLE DB プロバイダーの名前を取得、"プロバイダー ="接続文字列の句。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The name of the provider as specified in the "Provider= " clause of the connection string.</source>
+          <target state="translated">指定されているプロバイダーの名前、"プロバイダー ="接続文字列の句。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">既定値は、空の文字列です。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Indicates that the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object pool can be released when the last underlying connection is released.</source>
+          <target state="translated">示します、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト プールは、最後の基になる接続がリリースされたときに解放することができます。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`ReleaseObjectPool`</ph> can be called to free resources that would otherwise be reserved for pooled &lt;xref:System.Data.OleDb.OleDbConnection&gt; objects.</source>
+          <target state="translated"><ph id="ph1">`ReleaseObjectPool`</ph>予約されているプールの無料リソースを呼び出すことができる&lt;xref:System.Data.OleDb.OleDbConnection&gt;オブジェクト&lt;/xref:System.Data.OleDb.OleDbConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>You might want to call this method if, for example, the connection object will not be used again for the amount of time that OLE DB services ordinarily keeps pooled connections active.</source>
+          <target state="translated">たとえば、接続オブジェクトは使用されませんしばらくの間 OLE DB サービス通常プールされた接続のアクティブなまま維持する場合は、このメソッドを呼び出す可能性があります。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Note that calling the method alone does not actually release the active connections that exist in the pool.</source>
+          <target state="translated">メソッドを呼び出すだけでは解放されないこと実際には、プール内に存在するアクティブな接続に注意してください。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The following must occur before the pool is finally disposed:      1.</source>
+          <target state="translated">プールが最後に破棄される前に、次を行う必要があります: 1。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; to return the connection object to the pool.</source>
+          <target state="translated">呼び出す&lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;をプールに接続オブジェクトを返します&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Allow each connection object to time out of the pool.</source>
+          <target state="translated">各接続オブジェクトをプールのタイムアウトを許可します。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Call ReleaseObjectPool.</source>
+          <target state="translated">ReleaseObjectPool を呼び出します。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Invoke garbage collection.</source>
+          <target state="translated">ガベージ コレクションを起動します。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Conversely, if you call &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; on all active connections, and invoke garbage collection, but do not call ReleaseObjectPool, the resources reserved for the pooled objects will remain available.</source>
+          <target state="translated">逆に、呼び出す場合は、&lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;をすべてのアクティブな接続と、ガベージ コレクションを呼び出すが、ReleaseObjectPool、プール内のオブジェクトを引き続き利用できますに予約されているリソースを呼び出す必要はありません&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Updates the &lt;xref:System.Data.OleDb.OleDbConnection.State*&gt; property of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">更新プログラム、&lt;xref:System.Data.OleDb.OleDbConnection.State*&gt;のプロパティ、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト&lt;/xref:System.Data.OleDb.OleDbConnection.State*&gt;。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Some OLE DB providers can check the current state of the connection.</source>
+          <target state="translated">OLE DB プロバイダーによっては、接続の現在の状態を確認できます。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>For example, if the database server has recycled since you opened your &lt;xref:System.Data.OleDb.OleDbConnection&gt;, the &lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt; property will continue to return <ph id="ph1">`Open`</ph>.</source>
+          <target state="translated">たとえば、以降、データベース サーバーが再利用される場合を開いた、 &lt;xref:System.Data.OleDb.OleDbConnection&gt;、&lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt;プロパティが返す引き続き<ph id="ph1">`Open`</ph>&lt;/xref:System.Data.OleDb.OleDbConnection.State%2A&gt;&lt;/xref:System.Data.OleDb.OleDbConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>If you are working with an OLE DB Provider that supports polling for this information on a live connection, calling the ResetState method and then checking the &lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt; property will tell you that the connection is no longer open.</source>
+          <target state="translated">OLE DB プロバイダーとライブ接続でこの情報のポーリングをサポートする作業している場合は、ResetState メソッドを呼び出すし、チェック、&lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt;プロパティは、接続が不要になったかをする&lt;/xref:System.Data.OleDb.OleDbConnection.State%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The ResetState method relies on functionality in the OLE DB Provider to verify the current state of the connection.</source>
+          <target state="translated">ResetState メソッドは、接続の現在の状態を確認する OLE DB プロバイダーの機能に依存しています。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>To determine if your OLE DB Provider supports this functionality, check the provider's documentation for information on DBPROP_CONNECTIONSTATUS.</source>
+          <target state="translated">調べるには、OLE DB プロバイダーがこの機能をサポートしているかどうか、DBPROP_CONNECTIONSTATUS についてプロバイダーのマニュアルを確認してください。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Gets a string that contains the version of the server to which the client is connected.</source>
+          <target state="translated">クライアントが接続されているサーバーのバージョンを表す文字列を取得します。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The ServerVersion property maps to the OLE DB DBPROP_DBMSVER property.</source>
+          <target state="translated">ServerVersion プロパティは、OLE DB dbprop_dbmsver とプロパティにマップされます。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>If ServerVersion is not supported by the underlying OLE DB provider, an empty string is returned.</source>
+          <target state="translated">ServerVersion は、基になる OLE DB プロバイダーでサポートされていない、空の文字列が返されます。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The version is of the form <bpt id="p1">*</bpt>##.##.####<ept id="p1">*</ept>, where the first two digits are the major version, the next two digits are the minor version, and the last four digits are the release version.</source>
+          <target state="translated">形式は、バージョン<bpt id="p1">*</bpt>##. ##. ###<ept id="p1">*</ept>、ここで最初の&amp;2; 桁はメジャー バージョン、次の&amp;2; 桁はマイナーのバージョンであり、最後の&amp;4; 桁の数字は、リリース バージョン。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The provider must render the product version in this form but can also append the product-specific version—for example, "04.01.0000 Rdb 4.1".</source>
+          <target state="translated">プロバイダーは、このフォームで製品のバージョンをレンダリングする必要がありますが、製品に固有のバージョンを追加することも、たとえば、"04.01.0000 Rdb 4.1"です。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The string is of the form <bpt id="p1">*</bpt>major.minor.build<ept id="p1">*</ept>, where major and minor are exactly two digits and build is exactly four digits.</source>
+          <target state="translated">文字列の形式は、 <bpt id="p1">*</bpt>major.minor.build<ept id="p1">*</ept>主な場所、ビルドが&amp;4; 桁の数字とマイナーは正確に&amp;2; 桁の数字です。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The version of the connected server.</source>
+          <target state="translated">接続先のサーバーのバージョン。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The connection is closed.</source>
+          <target state="translated">接続は閉じられます。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Gets the current state of the connection.</source>
+          <target state="translated">接続の現在の状態を取得します。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The following are allowed state changes:      -   From <ph id="ph1">`Closed`</ph> to <ph id="ph2">`Open`</ph>, using the &lt;xref:System.Data.OleDb.OleDbConnection.Open%2A&gt; method of the &lt;xref:System.Data.OleDb.OleDbConnection&gt; object.</source>
+          <target state="translated">次の状態の変更は許可されて: - から<ph id="ph1">`Closed`</ph>に<ph id="ph2">`Open`</ph>を使用して、&lt;xref:System.Data.OleDb.OleDbConnection.Open%2A&gt;のメソッド、&lt;xref:System.Data.OleDb.OleDbConnection&gt;オブジェクト&lt;/xref:System.Data.OleDb.OleDbConnection&gt;&lt;/xref:System.Data.OleDb.OleDbConnection.Open%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>-   From <ph id="ph1">`Open`</ph> to <ph id="ph2">`Closed`</ph>, using either the &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; method or the <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> method of the &lt;xref:System.Data.OleDb.OleDbConnection&gt; object.</source>
+          <target state="translated">-から<ph id="ph1">`Open`</ph>に<ph id="ph2">`Closed`</ph>、いずれかを使用して、&lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;メソッドまたは<bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>のメソッド、&lt;xref:System.Data.OleDb.OleDbConnection&gt;オブジェクト&lt;/xref:System.Data.OleDb.OleDbConnection&gt;&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In previous version of the .NET Framework, calling the State property increased application overhead because each call caused a call to the OLE DB DBPROP_CONNECTIONSTATUS property for an open connection.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; で以前のバージョンの .NET Framework では、State プロパティを呼び出してオーバーヘッドが増加するアプリケーションの各呼び出しに対して開いている接続の OLE DB DBPROP_CONNECTIONSTATUS プロパティへの呼び出しが発生したためです。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>With the release of the .NET Framework 2.0, this is no longer an issue.</source>
+          <target state="translated">.NET Framework 2.0 のリリースでは、これが不要の問題です。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">ビットごとの組み合わせ、 <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The default is Closed.</source>
+          <target state="translated">既定値は閉じられます。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">このメンバーの説明は、次を参照してください。 <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbConnection&gt; instance is cast to an &lt;xref:System.ICloneable&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.OleDb.OleDbConnection&gt;にインスタンスをキャスト、&lt;xref:System.ICloneable&gt;インターフェイス&lt;/xref:System.ICloneable&gt;&lt;/xref:System.Data.OleDb.OleDbConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.Object&gt; that is a copy of this instance.</source>
+          <target state="translated">新しい&lt;xref:System.Object&gt;のこのインスタンスのコピーである&lt;/xref:System.Object&gt;。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

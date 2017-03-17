@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">479a26aebb3c8187257ce1b8e0df6bc98c58a856</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xaml.IXamlSchemaContextProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7147646b4c6490376e680fdd2c68cdedcb213de7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">95e9f181233b1dabbeb18a64e7728c351b8c2f35</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a service that provides XAML schema context information to type converters and markup extensions.</source>
+          <target state="translated">XAML スキーマ コンテキスト情報は、型コンバーターおよびマークアップ拡張機能を提供するサービスを表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The IXamlSchemaContextProvider service provides one property, &lt;xref:System.Xaml.IXamlSchemaContextProvider.SchemaContext%2A&gt;.</source>
+          <target state="translated">IXamlSchemaContextProvider サービスが、1 つのプロパティ、 &lt;xref:System.Xaml.IXamlSchemaContextProvider.SchemaContext%2A&gt;。&lt;/xref:System.Xaml.IXamlSchemaContextProvider.SchemaContext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use the IXamlSchemaContextProvider service and its &lt;xref:System.Xaml.IXamlSchemaContextProvider.SchemaContext%2A&gt; property when you need the active XAML schema context from a markup extension or type converter implementation.</source>
+          <target state="translated">IXamlSchemaContextProvider サービスを使用して、その&lt;xref:System.Xaml.IXamlSchemaContextProvider.SchemaContext%2A&gt;プロパティまたは型コンバーターの実装が、マークアップ拡張機能からのアクティブな XAML スキーマ コンテキストが必要とします&lt;/xref:System.Xaml.IXamlSchemaContextProvider.SchemaContext%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Many XAML-related operations, most notably resolving a XAML type into its backing type for object graph creation, rely on having an available XAML schema context.</source>
+          <target state="translated">最も顕著な XAML 型を解決する、オブジェクト グラフを作成するため、バッキング型に、XAML に関連する多くの操作は、使用可能なの XAML スキーマ コンテキストに依存しています。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>However, for many scenarios, you can use the XAML schema context that is provided by a particular framework.</source>
+          <target state="translated">ただし、多くのシナリオでは、特定のフレームワークによって提供される、XAML スキーマ コンテキストを使用することができます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Or you can use the default XAML schema context provided by .NET Framework XAML Services, which uses CLR and reflection backing and can provide the necessary XAML schema context for any CLR-defined type.</source>
+          <target state="translated">または、CLR とバックアップ リフレクションを使用する .NET Framework XAML サービスによって提供される既定の XAML スキーマ コンテキストを使用することができ、任意の CLR で定義された型に必要な XAML スキーマ コンテキストを提供できます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The IXamlSchemaContextProvider service is mainly relevant for implementations that anticipate that their value converter implementation might be called when it is supported by custom XAML schema contexts.</source>
+          <target state="translated">IXamlSchemaContextProvider サービスは主に、値コンバーターの実装は、カスタムの XAML スキーマ コンテキストがサポートされているときに呼び出す可能性がありますを予測する実装。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can get the service from the entry-point parameters of the virtual methods of &lt;xref:System.ComponentModel.TypeConverter&gt; or &lt;xref:System.Windows.Markup.MarkupExtension&gt; that report service context.</source>
+          <target state="translated">サービスの仮想メソッドのエントリ ポイントのパラメーターから取得できます&lt;xref:System.ComponentModel.TypeConverter&gt;または&lt;xref:System.Windows.Markup.MarkupExtension&gt;そのレポート サービスのコンテキスト&lt;/xref:System.Windows.Markup.MarkupExtension&gt;&lt;/xref:System.ComponentModel.TypeConverter&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Or you can instead get the schema context directly from dedicated properties of specific XAML readers or XAML writers.</source>
+          <target state="translated">または特定の XAML リーダーまたは XAML ライターの専用のプロパティから直接スキーマ コンテキストを代わりに取得することができます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Xaml.XamlSchemaContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is reported by the service context.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Xaml.XamlSchemaContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>サービス コンテキストによって報告されます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use the returned &lt;xref:System.Xaml.XamlSchemaContext&gt; for operations such as obtaining lists of all the types in an assembly or for obtaining specifics about assembly mapping.</source>
+          <target state="translated">使用して、返された&lt;xref:System.Xaml.XamlSchemaContext&gt;アセンブリ内のすべての種類の一覧を取得するなどの操作またはマッピング アセンブリについての詳細を取得するためです&lt;/xref:System.Xaml.XamlSchemaContext&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The XAML schema context that is reported by the service context.</source>
+          <target state="translated">サービス コンテキストによって報告される XAML スキーマ コンテキスト。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
