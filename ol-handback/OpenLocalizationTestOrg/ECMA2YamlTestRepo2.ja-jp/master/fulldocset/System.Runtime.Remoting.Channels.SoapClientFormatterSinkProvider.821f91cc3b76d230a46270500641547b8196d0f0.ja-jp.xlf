@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">38ffea84218b96a1fdf6d574d261335001c68611</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Channels.SoapClientFormatterSinkProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92bf0bc05fea1e6dd83f3f8402ad46c21a24259f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">400e2d3425ab803b9b7e493dc40456b9339cb106</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the implementation for a client formatter sink provider.</source>
+          <target state="translated">クライアント フォーマッタ シンク プロバイダーの実装を提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A SoapClientFormatterSinkProvider creates client formatter sinks that use the &lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter&gt; to serialize messages for the client channel through which remoting messages flow.</source>
+          <target state="translated">フォーマッタ シンクを使用するクライアントを作成する、SoapClientFormatterSinkProvider、&lt;xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter&gt;をリモート処理経由のメッセージ フロー クライアント チャネルのメッセージをシリアル化する&lt;/xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The function of the formatter sink is to generate the necessary headers and serialize the message to the stream.</source>
+          <target state="translated">フォーマッタ シンクの機能は、必要なヘッダーを生成し、ストリームにメッセージをシリアル化です。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>After reaching the formatter sink, the &lt;xref:System.Runtime.Remoting.Messaging.IMessage&gt; is forwarded to all sinks in the channel sink chain through the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt; or &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt; calls.</source>
+          <target state="translated">フォーマッタ シンクに到達した後、&lt;xref:System.Runtime.Remoting.Messaging.IMessage&gt;を通じてチャネル シンク チェーン内のすべてのシンクに転送される、&lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt;または&lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;呼び出し&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt;&lt;/xref:System.Runtime.Remoting.Messaging.IMessage&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>At this stage the message has already been serialized and is provided as information only.</source>
+          <target state="translated">この段階でメッセージを既にシリアル化された、情報提供のみとして提供されます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Sinks that need to create or modify the message must be placed in the sink chain before the formatter.</source>
+          <target state="translated">作成またはメッセージを変更する必要があるシンクは、フォーマッタの前に、シンク チェーンで配置する必要があります。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This can be achieved by implementing both the &lt;xref:System.Runtime.Remoting.Messaging.IMessageSink&gt; and &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink&gt; interfaces.</source>
+          <target state="translated">両方を実装することによってこれを行う、&lt;xref:System.Runtime.Remoting.Messaging.IMessageSink&gt;と&lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink&gt;インターフェイス&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink&gt;&lt;/xref:System.Runtime.Remoting.Messaging.IMessageSink&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The formatter sink can be placed in the sink chain later.</source>
+          <target state="translated">フォーマッタ シンクは、シンク チェーン内の後で配置できます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Formatter sinks use sink configuration properties to configure the channel at run time.</source>
+          <target state="translated">フォーマッタ シンク シンク構成プロパティを使用に実行時にチャネルを構成します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Sink properties can be specified in a configuration file, or programmatically, inside of a &lt;xref:System.Collections.IDictionary&gt;.</source>
+          <target state="translated">シンクのプロパティの構成ファイルまたはプログラムでは、 &lt;xref:System.Collections.IDictionary&gt;。&lt;/xref:System.Collections.IDictionary&gt;内で指定します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In a configuration file all values are represented by strings, but when building a property &lt;xref:System.Collections.IDictionary&gt; programmatically, value types can be specified with their native values or with strings.</source>
+          <target state="translated">構成ファイル内のすべての値が表されるでは、文字列がプロパティを作成するときに&lt;xref:System.Collections.IDictionary&gt;プログラムでは、値の型を指定できますがネイティブ値または文字列を使用します&lt;/xref:System.Collections.IDictionary&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The following table shows the sink configuration properties that can be specified for the current sink provider.</source>
+          <target state="translated">次の表は、シンク、現在のシンク プロバイダーに指定できる構成プロパティを示します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>|Property|Description|   |--------------|-----------------|   |<ph id="ph1">`includeVersions`</ph>|Specifies whether the formatter will include versioning information.</source>
+          <target state="translated">|プロパティ |説明 |  |--------------|-----------------|  |<ph id="ph1">`includeVersions`</ph>|フォーマッタがバージョン管理情報を含めるかどうかを指定します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Values are <ph id="ph1">`true`</ph> or <ph id="ph2">`false`</ph>.|      &gt; <ph id="ph3">[!IMPORTANT]</ph> &gt;  Using an instance of this object with untrusted data or across an unsecure channel is a security risk.</source>
+          <target state="translated">値は<ph id="ph1">`true`</ph>または<ph id="ph2">`false`</ph>|。     &gt; <ph id="ph3">[!IMPORTANT]</ph> &gt; セキュリティ上のリスクは、信頼されていないデータまたは安全でないチャネル経由でこのオブジェクトのインスタンスを使用しています。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Use this object only with trusted data and across a secure channel.</source>
+          <target state="translated">信頼されたデータだけとセキュリティで保護されたチャネル経由では、このオブジェクトを使用します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Untrusted Data Security Risks<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>信頼されていないデータのセキュリティ リスク<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.SoapClientFormatterSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default values.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.SoapClientFormatterSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>既定値を持つクラス。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.SoapClientFormatterSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the given properties and provider data.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.SoapClientFormatterSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定されたプロパティおよびプロバイダーのデータを持つクラス。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.IDictionary&gt; of configuration properties to use with the new instance of <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.SoapClientFormatterSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A&lt;xref:System.Collections.IDictionary&gt;での新しいインスタンスを使用する構成プロパティの<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.SoapClientFormatterSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Collections.IDictionary&gt; 。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.ICollection&gt; of provider data to use with the new instance of <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.SoapClientFormatterSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A&lt;xref:System.Collections.ICollection&gt;での新しいインスタンスを使用するプロバイダーのデータの<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.SoapClientFormatterSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Collections.ICollection&gt; 。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates a sink chain.</source>
+          <target state="translated">シンク チェーンを作成します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt; method is called, it creates its own channel sink, forwards the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt; call to the next sink provider in the chain (if there is one), and ensures that the next sink and the current one are linked together.</source>
+          <target state="translated">ときに、&lt;xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt;メソッドが呼び出されると、独自の転送チャネル シンクは、作成、 &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt;(存在する場合)、チェーン内の次のシンク プロバイダーへの呼び出しして次のシンクと現在の&amp;1; つがリンクされるようになります&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt;&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Channel for which this sink chain is being constructed.</source>
+          <target state="translated">このシンク チェーンが構築されるチャネル。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>URL of object to connect to or the channel URI for the target object.</source>
+          <target state="translated">接続するオブジェクトまたはターゲット オブジェクトのチャネル URI の URL です。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A channel data object describing a channel on the remote server.</source>
+          <target state="translated">リモート サーバー上のチャネルを記述するチャネルのデータ オブジェクト。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The first sink of the newly formed channel sink chain, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which indicates that this provider will not or cannot provide a connection for this endpoint.</source>
+          <target state="translated">新しく作成されたチャネル シンク チェーンの最初のシンクまたは<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、このプロバイダーは表示されませんか、このエンドポイントの接続を提供できないことを示します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets or sets the next <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the sink provider chain.</source>
+          <target state="translated">次の設定を取得または<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>シンク プロバイダー チェーンにします。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The next <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the sink provider chain.</source>
+          <target state="translated">次<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>シンク プロバイダー チェーンにします。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
