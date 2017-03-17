@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3bf9c7195ade79aea517a86db7af40951eebda62</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.IInstanceProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e91b65a1976e8edf78e7b6b1cd8bf3ba1ab63b3b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f6e852cf478f8b4c8b463014072b179a93f49173</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Declares methods that provide a service object or recycle a service object for a <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> service.</source>
+          <target state="translated">Deklaruje metody, które zapewniają usługi obiektu lub Odtwórz obiekt usługi dla <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> usługi.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement the IInstanceProvider interface to control the creation and recycling of service objects when one is requested or disposed by an &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated">Implementować interfejs IInstanceProvider do kontrolowania tworzenie i odzyskiwanie obiektów usługi, gdy dla jednego żądanych lub usunięte przez &lt;xref:System.ServiceModel.InstanceContext&gt;obiektu.&lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once the IInstanceProvider interface is implemented, you must assign your custom instance provider object to the &lt;xref:System.ServiceModel.Dispatcher.DispatchRuntime.InstanceProvider%2A&gt; property using either an endpoint behavior (a &lt;xref:System.ServiceModel.Description.IEndpointBehavior&gt; object) or a contract behavior (a &lt;xref:System.ServiceModel.Description.IContractBehavior&gt; object).</source>
+          <target state="translated">Po zaimplementowaniu interfejsu IInstanceProvider należy przypisać do niestandardowego wystąpienia obiektu dostawcy &lt;xref:System.ServiceModel.Dispatcher.DispatchRuntime.InstanceProvider%2A&gt;Właściwości przy użyciu zachowania punktu końcowego ( &lt;xref:System.ServiceModel.Description.IEndpointBehavior&gt;obiektu) lub zachowanie kontraktu ( &lt;xref:System.ServiceModel.Description.IContractBehavior&gt;obiektu).&lt;/xref:System.ServiceModel.Description.IContractBehavior&gt; &lt;/xref:System.ServiceModel.Description.IEndpointBehavior&gt; &lt;/xref:System.ServiceModel.Dispatcher.DispatchRuntime.InstanceProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the insertion mechanism is an endpoint behavior you can also implement a &lt;xref:System.ServiceModel.Configuration.BehaviorExtensionElement&gt; object that can insert your custom behavior using a configuration file.</source>
+          <target state="translated">Jeśli mechanizm wstawiania jest zachowanie punktu końcowego można też wdrożyć &lt;xref:System.ServiceModel.Configuration.BehaviorExtensionElement&gt;obiekt, który można wstawić niestandardowe zachowanie przy użyciu pliku konfiguracji.&lt;/xref:System.ServiceModel.Configuration.BehaviorExtensionElement&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the insertion mechanism is a contract behavior, you can insert the behavior programmatically prior to the opening of the service host or you can implement a custom attribute.</source>
+          <target state="translated">Jeśli mechanizm wstawiania jest zachowanie kontraktu, można wstawić zachowanie programowo przed otwierającym hosta usługi lub można zaimplementować atrybutu niestandardowego.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(For an example of the contract behavior approach, see the Example section.)       IInstanceProvider has two methods, &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt; and &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;.</source>
+          <target state="translated">(Na przykład podejście zachowanie kontraktu Zobacz przykład).       IInstanceProvider ma dwie metody &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;i &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;.&lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt; &lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These methods are typically implemented to create service objects using a non-default constructor or to initialize or dispose of some state related to the lifetime of the object.</source>
+          <target state="translated">Te metody są zwykle implementowany do tworzenia obiektów usługi za pomocą konstruktora domyślnego z systemem innym niż, albo do zainicjowania lub usunięcia stanu, niektóre powiązane z okresu istnienia obiektu.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Service object pooling is one example of custom IInstanceProvider functionality.</source>
+          <target state="translated">Buforowanie obiektu usługi jest przykład funkcji IInstanceProvider niestandardowych.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the &lt;xref:System.ServiceModel.InstanceContext&gt; invokes the &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt; when the &lt;xref:System.ServiceModel.InstanceContext&gt; is first created and invokes the &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt; method when the &lt;xref:System.ServiceModel.InstanceContext&gt; is closed.</source>
+          <target state="translated">Zazwyczaj &lt;xref:System.ServiceModel.InstanceContext&gt;wywołuje &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;podczas &lt;xref:System.ServiceModel.InstanceContext&gt;utworzenia i wywołuje &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;metody podczas &lt;xref:System.ServiceModel.InstanceContext&gt;jest zamknięty.&lt;/xref:System.ServiceModel.InstanceContext&gt; &lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt; &lt;/xref:System.ServiceModel.InstanceContext&gt; &lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt; &lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are two ways to cause an &lt;xref:System.ServiceModel.InstanceContext&gt; object to release a service object before the &lt;xref:System.ServiceModel.InstanceContext&gt; is closed.</source>
+          <target state="translated">Istnieją dwa sposoby spowodować &lt;xref:System.ServiceModel.InstanceContext&gt;obiektu do zwolnienia obiektu usługi przed &lt;xref:System.ServiceModel.InstanceContext&gt;jest zamknięty.&lt;/xref:System.ServiceModel.InstanceContext&gt; &lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first method is to set the &lt;xref:System.ServiceModel.OperationBehaviorAttribute.ReleaseInstanceMode%2A&gt; to &lt;xref:System.ServiceModel.ReleaseInstanceMode&gt; or &lt;xref:System.ServiceModel.ReleaseInstanceMode&gt;.</source>
+          <target state="translated">Pierwsza metoda jest skonfigurowanie &lt;xref:System.ServiceModel.OperationBehaviorAttribute.ReleaseInstanceMode%2A&gt;lub &lt;xref:System.ServiceModel.ReleaseInstanceMode&gt; &lt;xref:System.ServiceModel.ReleaseInstanceMode&gt;.&lt;/xref:System.ServiceModel.ReleaseInstanceMode&gt; &lt;/xref:System.ServiceModel.ReleaseInstanceMode&gt; &lt;/xref:System.ServiceModel.OperationBehaviorAttribute.ReleaseInstanceMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The second method is to call the &lt;xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt; method.</source>
+          <target state="translated">Drugi sposób polega na wywołanie &lt;xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt;metody.&lt;/xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this is done, the &lt;xref:System.ServiceModel.InstanceContext&gt; calls the &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt; method on the dispatcher's instance provider.</source>
+          <target state="translated">Jeśli zostanie to zrobione, &lt;xref:System.ServiceModel.InstanceContext&gt;wywołania &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;metody dla dostawcy wystąpienia dyspozytora.&lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt; &lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a new message arrives after the instance has been released, <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> creates a new instance using the &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt; method.</source>
+          <target state="translated">Jeśli nowy komunikat po wydaniu wystąpienie <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> tworzy nowe wystąpienie za pomocą &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;metody.&lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.ServiceModel.InstanceContextMode&gt; of the service is &lt;xref:System.ServiceModel.InstanceContextMode&gt;, the system does not call the &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt; or &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt; methods even when the user did not provide a well-known service object unless the user directly calls &lt;xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt; and then calls &lt;xref:System.ServiceModel.InstanceContext.GetServiceInstance%2A&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Jeśli &lt;xref:System.ServiceModel.InstanceContextMode&gt;Usługa jest &lt;xref:System.ServiceModel.InstanceContextMode&gt;, system nie mogą wywoływać &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt; &lt;xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt;metod nawet wtedy, gdy użytkownik nie dostarczył obiektu dobrze znanej usługi, chyba że użytkownik bezpośrednio wywołuje &lt;xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt;, a następnie wywołania &lt;xref:System.ServiceModel.InstanceContext.GetServiceInstance%2A&gt;.&lt;/xref:System.ServiceModel.InstanceContext.GetServiceInstance%2A&gt; &lt;/xref:System.ServiceModel.InstanceContext.ReleaseServiceInstance%2A&gt; &lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.ReleaseInstance%2A&gt; lub&lt;/xref:System.ServiceModel.Dispatcher.IInstanceProvider.GetInstance%2A&gt; &lt;/xref:System.ServiceModel.InstanceContextMode&gt; &lt;/xref:System.ServiceModel.InstanceContextMode&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Returns a service object given the specified &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated">Zwraca obiekt usługi na podstawie określonego &lt;xref:System.ServiceModel.InstanceContext&gt;obiektu.&lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the GetInstance method to control the exact service object that a <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> service receives when it attempts to create a new one.</source>
+          <target state="translated">Użyj metody GetInstance sterowania usługą dokładne obiekt, który <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> usługa odbiera podczas próby utworzenia nowego.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The current &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated">Bieżący &lt;xref:System.ServiceModel.InstanceContext&gt;obiektu.&lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A user-defined service object.</source>
+          <target state="translated">Obiekt usługi zdefiniowane przez użytkownika.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns a service object given the specified &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated">Zwraca obiekt usługi na podstawie określonego &lt;xref:System.ServiceModel.InstanceContext&gt;obiektu.&lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the GetInstance method to control the exact service object that a <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> service receives when it attempts to create a new one.</source>
+          <target state="translated">Użyj metody GetInstance sterowania usługą dokładne obiekt, który <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> usługa odbiera podczas próby utworzenia nowego.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The current &lt;xref:System.ServiceModel.InstanceContext&gt; object.</source>
+          <target state="translated">Bieżący &lt;xref:System.ServiceModel.InstanceContext&gt;obiektu.&lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The message that triggered the creation of a service object.</source>
+          <target state="translated">Komunikat, który powoduje utworzenie obiektu usługi.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The service object.</source>
+          <target state="translated">Obiekt usługi.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Called when an &lt;xref:System.ServiceModel.InstanceContext&gt; object recycles a service object.</source>
+          <target state="translated">Wywoływane, gdy &lt;xref:System.ServiceModel.InstanceContext&gt;obiekt jest obiektem usługi odtwarzana.&lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the ReleaseInstance method to perform some custom resource disposal or other recycling customization when a service recycles a service object.</source>
+          <target state="translated">Metoda ReleaseInstance do wykonania niektórych zasobów niestandardowych usuwania lub inne dostosowania odtwarzania, gdy usługa jest odtwarzana obiekt usługi.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The service's instance context.</source>
+          <target state="translated">Kontekst wystąpienia usługi.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The service object to be recycled.</source>
+          <target state="translated">Obiekt usługi do odtwarzania.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
