@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">769f987c2f161a822c0bd8c49ab873c66eaa9bed</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.EntityClient.EntityDataReader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fee4523fbd7b9738c99c23badf28be0639afb37c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06798344aa0e35afe5c55736009e9b8c7d9c6a0e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Reads a forward-only stream of rows from a data source.</source>
+          <target state="translated">Leser en radsett bare strøm med rader fra en datakilde.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Combines the functionality of the &lt;xref:System.Data.Common.DbDataReader&gt; class and the &lt;xref:System.Data.IExtendedDataRecord&gt; interface.</source>
+          <target state="translated">Kombinerer funksjonaliteten til de &lt;xref:System.Data.Common.DbDataReader&gt;klassen og &lt;xref:System.Data.IExtendedDataRecord&gt;grensesnitt.&lt;/xref:System.Data.IExtendedDataRecord&gt; &lt;/xref:System.Data.Common.DbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An EntityDataReader has no public constructor.</source>
+          <target state="translated">En EntityDataReader har ingen offentlig konstruktør.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can only be obtained through one of the <ph id="ph1">`EntityCommand.ExecuteReader`</ph> method overloads.</source>
+          <target state="translated">Kan bare hentes gjennom en av de <ph id="ph1">`EntityCommand.ExecuteReader`</ph> metoden overbelastninger.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> puts output parameters from stored procedures at the end of the result stream, after all the result sets.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>Plasserer utdata parametere fra lagrede prosedyrer på slutten av resultatdataflyten, etter at alle resultatsett.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, to get output parameter values, an application must consume all the records in all the result sets.</source>
+          <target state="translated">Hvis du trenger utdata parameterverdier, må en applikasjon derfor bruke alle oppføringene i alle resultatsett.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application closes the EntityDataReader (which would also close the &lt;xref:System.Data.Common.DbDataReader&gt;), output parameters might not be populated.</source>
+          <target state="translated">Hvis programmet lukkes EntityDataReader (som også vil lukke den &lt;xref:System.Data.Common.DbDataReader&gt;), kan ikke fylles ut utdataparametere.&lt;/xref:System.Data.Common.DbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>EntityDataReader does not implicitly consume result sets to make output parameters available.</source>
+          <target state="translated">EntityDataReader bruker ikke resultatsett foreta utdataparametere tilgjengelig implisitt.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, note the following:      -   EntityDataReader calls the &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; only when &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; is explicitly called.</source>
+          <target state="translated">Merk derfor følgende:-EntityDataReader kaller den &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;bare når &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt;eksplisitt kalles.&lt;/xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; throws an exeption, <bpt id="p1">[</bpt>EntityDataReader<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> will wrap it in &lt;xref:System.Data.EntityException&gt; (or a derived exception).</source>
+          <target state="translated">Hvis &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;oppstår en exeption <bpt id="p1">[</bpt>EntityDataReader<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> omslutte den i &lt;xref:System.Data.EntityException&gt;(eller et avledet unntak).&lt;/xref:System.Data.EntityException&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt; only closes the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">- &lt;xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt;bare lukker den &lt;xref:System.Data.Common.DbDataReader&gt;, uten bruke ventende poster eller resultatsett.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt; only disposes of the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">- &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;bare disposes av den &lt;xref:System.Data.Common.DbDataReader&gt;, uten bruke ventende poster eller resultatsett.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For code examples, see <bpt id="p1">[</bpt>Working with EntityClient<ept id="p1">](http://msdn.microsoft.com/en-us/dec4728c-8dff-4e30-abe0-0f78fb5d5af5)</ept>.</source>
+          <target state="translated">Koden eksempler <bpt id="p1">[</bpt>arbeide med EntityClient<ept id="p1">](http://msdn.microsoft.com/en-us/dec4728c-8dff-4e30-abe0-0f78fb5d5af5)</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Closes the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Lukker det <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> puts output parameters from stored procedures at the end of the result stream, after all the result sets.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>Plasserer utdata parametere fra lagrede prosedyrer på slutten av resultatdataflyten, etter at alle resultatsett.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, to get output parameter values, an application must consume all the records in all the result sets.</source>
+          <target state="translated">Hvis du trenger utdata parameterverdier, må en applikasjon derfor bruke alle oppføringene i alle resultatsett.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application closes the &lt;xref:System.Data.EntityClient.EntityDataReader&gt; (which would also close the &lt;xref:System.Data.Common.DbDataReader&gt;), output parameters might not be populated.</source>
+          <target state="translated">Hvis programmet lukkes den &lt;xref:System.Data.EntityClient.EntityDataReader&gt;(som også vil lukke den &lt;xref:System.Data.Common.DbDataReader&gt;), kan ikke fylles ut utdataparametere.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.EntityClient.EntityDataReader&gt; does not implicitly consume result sets to make output parameters available.</source>
+          <target state="translated">&lt;xref:System.Data.EntityClient.EntityDataReader&gt;implisitt bruker ikke resultatsett foreta utdataparametere tilgjengelig.&lt;/xref:System.Data.EntityClient.EntityDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, note the following:      -   &lt;xref:System.Data.EntityClient.EntityDataReader&gt; calls the &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; only when &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; is explicitly called.</source>
+          <target state="translated">Merk derfor følgende:- &lt;xref:System.Data.EntityClient.EntityDataReader&gt;kall av &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;bare når &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt;eksplisitt kalles.&lt;/xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; throws an exception, &lt;xref:System.Data.EntityClient.EntityDataReader&gt; will wrap it in &lt;xref:System.Data.EntityException&gt; (or a derived exception).</source>
+          <target state="translated">Hvis &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;oppstår det et unntak &lt;xref:System.Data.EntityClient.EntityDataReader&gt;omslutte den i &lt;xref:System.Data.EntityException&gt;(eller et avledet unntak).&lt;/xref:System.Data.EntityException&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Close only closes the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">-Lukker bare lukking av &lt;xref:System.Data.Common.DbDataReader&gt;, uten bruke ventende poster eller resultatsett.&lt;/xref:System.Data.Common.DbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt; only disposes of the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">- &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;bare disposes av den &lt;xref:System.Data.Common.DbDataReader&gt;, uten bruke ventende poster eller resultatsett.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets <bpt id="p1">&lt;xref href="System.Data.Common.DataRecordInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Data.IExtendedDataRecord"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gets <bpt id="p1">&lt;xref href="System.Data.Common.DataRecordInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Data.IExtendedDataRecord"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The information of a data record.</source>
+          <target state="translated">Informasjonen i et datapost.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the depth of nesting for the current row.</source>
+          <target state="translated">Henter en verdi som angir dybden på nesting for den gjeldende raden.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The outermost table has a depth of zero.</source>
+          <target state="translated">Den ytterste tabellen har dybden null.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The depth of nesting for the current row.</source>
+          <target state="translated">Dybde for nesting for den gjeldende raden.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Releases the resources consumed by this <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and calls &lt;xref:System.Data.EntityClient.EntityDataReader.Close*&gt;.</source>
+          <target state="translated">Frigir ressurser som brukes av dette <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> og samtaler &lt;xref:System.Data.EntityClient.EntityDataReader.Close*&gt;.&lt;/xref:System.Data.EntityClient.EntityDataReader.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> puts output parameters from stored procedures at the end of the result stream, after all the result sets.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>Plasserer utdata parametere fra lagrede prosedyrer på slutten av resultatdataflyten, etter at alle resultatsett.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, to get output parameter values, an application must consume all the records in all the result sets.</source>
+          <target state="translated">Hvis du trenger utdata parameterverdier, må en applikasjon derfor bruke alle oppføringene i alle resultatsett.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application closes the &lt;xref:System.Data.EntityClient.EntityDataReader&gt; (which would also close the &lt;xref:System.Data.Common.DbDataReader&gt;), output parameters might not be populated.</source>
+          <target state="translated">Hvis programmet lukkes den &lt;xref:System.Data.EntityClient.EntityDataReader&gt;(som også vil lukke den &lt;xref:System.Data.Common.DbDataReader&gt;), kan ikke fylles ut utdataparametere.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[</bpt>EntityDataReader<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> does not implicitly consume result sets to make output parameters available.</source>
+          <target state="translated"><bpt id="p1">[</bpt>EntityDataReader<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> bruker ikke implisitt resultatsett foreta utdataparametere tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, note the following:      -   &lt;xref:System.Data.Odbc.OdbcError&gt; calls the &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; only when &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; is explicitly called.</source>
+          <target state="translated">Merk derfor følgende:- &lt;xref:System.Data.Odbc.OdbcError&gt;kall av &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;bare når &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt;eksplisitt kalles.&lt;/xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; &lt;/xref:System.Data.Odbc.OdbcError&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; throws an exception, &lt;xref:System.Data.Odbc.OdbcError&gt; will wrap it in &lt;xref:System.Data.EntityException&gt; (or a derived exception).</source>
+          <target state="translated">Hvis &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;oppstår det et unntak &lt;xref:System.Data.Odbc.OdbcError&gt;omslutte den i &lt;xref:System.Data.EntityException&gt;(eller et avledet unntak).&lt;/xref:System.Data.EntityException&gt; &lt;/xref:System.Data.Odbc.OdbcError&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt; only closes the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">- &lt;xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt;bare lukker den &lt;xref:System.Data.Common.DbDataReader&gt;, uten bruke ventende poster eller resultatsett.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt; only disposes of the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">- &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;bare disposes av den &lt;xref:System.Data.Common.DbDataReader&gt;, uten bruke ventende poster eller resultatsett.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>å frigjøre både administrerte og uforvaltede ressurser. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> frigi bare uforvaltede ressurser.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the number of columns in the current row.</source>
+          <target state="translated">Henter antall kolonner i den gjeldende raden.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Includes hidden fields.</source>
+          <target state="translated">Inneholder skjulte felt.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Data.EntityClient.EntityDataReaderr.VisibleFieldCount%2A&gt; to exclude hidden fields.</source>
+          <target state="translated">Bruk &lt;xref:System.Data.EntityClient.EntityDataReaderr.VisibleFieldCount%2A&gt;skal utelates skjulte felt.&lt;/xref:System.Data.EntityClient.EntityDataReaderr.VisibleFieldCount%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The number of columns in the current row.</source>
+          <target state="translated">Antall kolonner i den gjeldende raden.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a Boolean.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som en boolsk verdi.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a byte.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som en byte.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Reads a stream of bytes from the specified column, starting at location indicated by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dataIndex</ph><ept id="p1">&lt;/code&gt;</ept>, into the buffer, starting at the location indicated by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">bufferIndex</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Leser en dataflyt byte fra den angitte kolonnen, med Start ved plasseringen angitt av <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dataIndex</ph> <ept id="p1">&lt;/code&gt;</ept>, i bufferen, som starter ved plasseringen angitt av <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">bufferIndex</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The index within the row from which to begin the read operation.</source>
+          <target state="translated">Indeksen i raden leseoperasjonen starter fra.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The buffer into which to copy the data.</source>
+          <target state="translated">Bufferen som å kopiere dataene.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The index with the buffer to which the data will be copied.</source>
+          <target state="translated">Indeksen med bufferen dataene skal kopieres.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The maximum number of characters to read.</source>
+          <target state="translated">Maksimalt antall tegn som skal leses.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The actual number of bytes read.</source>
+          <target state="translated">Antall byte som leses.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a single character.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som ett tegn.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Reads a stream of characters from the specified column, starting at location indicated by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dataIndex</ph><ept id="p1">&lt;/code&gt;</ept>, into the buffer, starting at the location indicated by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">bufferIndex</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Leser en dataflyt tegn fra den angitte kolonnen, med Start ved plasseringen angitt av <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dataIndex</ph> <ept id="p1">&lt;/code&gt;</ept>, i bufferen, som starter ved plasseringen angitt av <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">bufferIndex</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The index within the row from which to begin the read operation.</source>
+          <target state="translated">Indeksen i raden leseoperasjonen starter fra.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The buffer into which to copy the data.</source>
+          <target state="translated">Bufferen som å kopiere dataene.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The index with the buffer to which the data will be copied.</source>
+          <target state="translated">Indeksen med bufferen dataene skal kopieres.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The maximum number of characters to read.</source>
+          <target state="translated">Maksimalt antall tegn som skal leses.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The actual number of characters read.</source>
+          <target state="translated">Lese faktisk antall tegn.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Returns nested readers as <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Returnerer nestede lesere som <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekter.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The ordinal of the column.</source>
+          <target state="translated">Ordenstallet i kolonnen.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The nested readers as <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">De nestede leserne som <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekter.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Returns a nested <bpt id="p1">&lt;xref href="System.Data.Common.DbDataRecord"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returnerer et nestet <bpt id="p1">&lt;xref href="System.Data.Common.DbDataRecord"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The number of the <bpt id="p1">&lt;xref uid="langword_csharp_DbDataRecord" name="DbDataRecord" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to return.</source>
+          <target state="translated">Antallet i <bpt id="p1">&lt;xref uid="langword_csharp_DbDataRecord" name="DbDataRecord" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> skal returneres.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The nested data record.</source>
+          <target state="translated">Oppføringen nestede data.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets the name of the data type of the specified column.</source>
+          <target state="translated">Henter navnet på datatypen for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The name of the data type.</source>
+          <target state="translated">Navnet på datatypen.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som en &lt;xref:System.DateTime&gt;objektet.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the requested column ordinal that can be overridden with a provider-specific implementation.</source>
+          <target state="translated">Returnerer en <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> for den forespurte kolonneordenstall som kan overstyres med en leverandørspesifikk implementering objekter.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A data reader.</source>
+          <target state="translated">En dataleser.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.Decimal&gt; object.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som en &lt;xref:System.Decimal&gt;objektet.&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a double-precision floating point number.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som flyttall en dobbel presisjon.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IEnumerator&gt; that can be used to iterate through the rows in the data reader.</source>
+          <target state="translated">Returnerer en &lt;xref:System.Collections.IEnumerator&gt;som kan brukes til å gå gjennom radene i dataleseren.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; that can be used to iterate through the rows in the data reader.</source>
+          <target state="translated">En &lt;xref:System.Collections.IEnumerator&gt;som kan brukes til å gå gjennom radene i dataleseren.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets the data type of the specified column.</source>
+          <target state="translated">Henter datatypen for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The data type of the specified column.</source>
+          <target state="translated">Datatypen for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a single-precision floating point number.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som en enkel presisjon flyttall.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a globally-unique identifier (GUID).</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som et globalt unik identifikator (GUID).</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 16-bit signed integer.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som et 16-biters heltall med fortegn.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 32-bit signed integer.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som et 32-biters heltall med fortegn.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 64-bit signed integer.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som et 64-biters heltall med fortegn.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets the name of the column, given the zero-based column ordinal.</source>
+          <target state="translated">Henter navnet på kolonnen gitt kolonnen nullbasert ordenstall.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The name of the specified column.</source>
+          <target state="translated">Navnet på den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Gets the column ordinal given the name of the column.</source>
+          <target state="translated">Henter kolonnen ordenstall får navnet på kolonnen.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">Navnet på kolonnen.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The name specified is not a valid column name.</source>
+          <target state="translated">Det angitte navnet er ikke et gyldig kolonnenavn.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Returns the provider-specific field type of the specified column.</source>
+          <target state="translated">Returnerer leverandørspesifikk felttypen for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; object that describes the data type of the specified column.</source>
+          <target state="translated">Den &lt;xref:System.Type&gt;-objektet som beskriver datatypen for den angitte kolonnen.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as an instance of &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som en forekomst av &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets all provider-specific attribute columns in the collection for the current row.</source>
+          <target state="translated">Henter alle leverandørspesifikk Attributtkolonner i samlingen for den gjeldende raden.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An array of &lt;xref:System.Object&gt; into which to copy the attribute columns.</source>
+          <target state="translated">En matrise av &lt;xref:System.Object&gt;som skal kopieres kolonnene attributtet.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The number of instances of &lt;xref:System.Object&gt; in the array.</source>
+          <target state="translated">Antallet forekomster av &lt;xref:System.Object&gt;i matrisen.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata of the <bpt id="p2">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returnerer en <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som beskriver kolonnen metadataene i <bpt id="p2">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som beskriver kolonnemetadata.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as an instance of &lt;xref:System.String&gt;.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som en forekomst av &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as an instance of &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som en forekomst av &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Populates an array of objects with the column values of the current row.</source>
+          <target state="translated">Fyller ut en matrise av objekter med kolonneverdiene i den gjeldende raden.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>An array of &lt;xref:System.Object&gt; into which to copy the attribute columns.</source>
+          <target state="translated">En matrise av &lt;xref:System.Object&gt;som skal kopieres kolonnene attributtet.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The number of instances of &lt;xref:System.Object&gt; in the array.</source>
+          <target state="translated">Antallet forekomster av &lt;xref:System.Object&gt;i matrisen.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains one or more rows.</source>
+          <target state="translated">Henter en verdi som angir om dette <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> inneholder én eller flere rader.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains one or more rows; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis den <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> inneholder én eller flere rader; ellers <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated">Henter en verdi som angir om den <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> er lukket.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis den <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> er lukket; ellers, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the column contains nonexistent or missing values.</source>
+          <target state="translated">Henter en verdi som angir om kolonnen inneholder ikke-eksisterende eller manglende verdier.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Den nullbaserte kolonneordenstall.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified column is equivalent to <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis den angitte kolonnen, tilsvarer <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; ellers <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as an instance of &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som en forekomst av &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">Den nullbaserte kolonneordenstall</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as an instance of &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Henter verdien for den angitte kolonnen som en forekomst av &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">Navnet på kolonnen.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Verdien for den angitte kolonnen.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Advances the reader to the next result when reading the results of a batch of statements.</source>
+          <target state="translated">Flytter leseren til neste resultat under lesing av resultatene av en bunke med uttrykk.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method allows you to process multiple result sets returned when a batch is submitted to the data provider.</source>
+          <target state="translated">Denne metoden kan du behandle flere resultatsett returneres når en bunke er sendt til dataleverandøren.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are more result sets; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis det finnes flere resultatsett; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Advances the reader to the next record in a result set.</source>
+          <target state="translated">Flytter leseren til neste post i et resultatsett.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default position of a data reader is before the first record.</source>
+          <target state="translated">Standardplasseringen av en dataleser er før den første posten.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must call <ph id="ph1">`Read`</ph> to begin accessing data.</source>
+          <target state="translated">Du må derfor kalle <ph id="ph1">`Read`</ph> starter tilgang til data.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are more rows; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis det finnes flere rader. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Gets the number of rows changed, inserted, or deleted by execution of the SQL statement.</source>
+          <target state="translated">Henter antall rader som er endret, settes inn eller slettes ved kjøring av SQL-setningen.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`RecordsAffected`</ph> property is not set until all rows are read and you close the <ph id="ph2">`DataReader`</ph>.</source>
+          <target state="translated">Den <ph id="ph1">`RecordsAffected`</ph> egenskap ikke er satt til lese alle rader og lukker den <ph id="ph2">`DataReader`</ph>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The number of rows changed, inserted, or deleted.</source>
+          <target state="translated">Antall rader som er endret, settes inn eller slettes.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Returns -1 for SELECT statements; 0 if no rows were affected or the statement failed.</source>
+          <target state="translated">Returnerer -1 for SELECT-setninger; 0 Hvis ingen rader ble påvirket eller -setningen mislyktes.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets the number of fields in the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that are not hidden.</source>
+          <target state="translated">Henter antallet felt i den <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som ikke er skjult.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used to determine how many fields in the &lt;xref:System.Data.EntityClient.EntityDataReader&gt; are visible.</source>
+          <target state="translated">Denne verdien brukes til å finne ut hvor mange felt i den &lt;xref:System.Data.EntityClient.EntityDataReader&gt;er synlige.&lt;/xref:System.Data.EntityClient.EntityDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a SELECT on a partial primary key returns the remaining parts of the key as hidden fields.</source>
+          <target state="translated">Velg en delvis primærnøkkelen returnerer for eksempel gjenværende deler av nøkkelen som skjulte felt.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The hidden fields are always appended behind the visible fields.</source>
+          <target state="translated">Skjulte felt er alltid legges bak synlige feltene.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The number of fields that are not hidden.</source>
+          <target state="translated">Antall felt som ikke er skjult.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
