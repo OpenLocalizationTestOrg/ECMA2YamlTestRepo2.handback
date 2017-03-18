@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ebde0b61b8421721905d96cb9de07d3b84868839</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Util.RequestValidator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7278070a9f6c1801e6376457ee0b898c19d5cc12</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c6cb5c517f6be788ab39e0dbdd493c3802459b38</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines base methods for custom request validation.</source>
+          <target state="translated">Definisce i metodi di base per la convalida delle richieste personalizzata.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, ASP.NET does not validate requests until code explicitly requests a value from the request.</source>
+          <target state="translated">Per impostazione predefinita, ASP.NET non convalida le richieste finché non codice richiede in modo esplicito un valore dalla richiesta.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, ASP.NET does not validate query-string values until code accesses the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; collection.</source>
+          <target state="translated">Ad esempio, ASP.NET non convalida i valori di stringa di query fino a quando il codice accede il &lt;xref:System.Web.HttpRequest.QueryString%2A&gt;insieme.&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, ASP.NET also does not validate some types of request data, such as form values, cookies, the names of files that have been uploaded using HTTP, and the value of the &lt;xref:System.Web.HttpRequest.RawUrl%2A&gt; property.</source>
+          <target state="translated">Per impostazione predefinita, ASP.NET non convalida alcuni tipi di dati della richiesta, ad esempio i valori del form, i cookie, i nomi dei file che sono stati caricati mediante HTTP e il valore di &lt;xref:System.Web.HttpRequest.RawUrl%2A&gt;proprietà.&lt;/xref:System.Web.HttpRequest.RawUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RequestValidator class is a base class that you can implement in order to provide custom request validation.</source>
+          <target state="translated">La classe RequestValidator è una classe di base che è possibile implementare per fornire la convalida delle richieste personalizzata.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By implementing this class, you can determine when validation occurs and what type of request data to perform validation on.</source>
+          <target state="translated">Implementando questa classe, è possibile determinare quando la convalida viene eseguita e il tipo di dati della richiesta per eseguire la convalida.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, ASP.NET provides cross-site scripting (XSS) checks.</source>
+          <target state="translated">Per impostazione predefinita, ASP.NET fornisce controlli cross-site scripting (XSS).</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you can supplement or replace the request validation logic that is provided in ASP.NET by creating a custom implementation of the XSS.</source>
+          <target state="translated">Tuttavia, è possibile integrare o sostituire la logica di convalida richiesta che viene fornita in ASP.NET tramite la creazione di un'implementazione personalizzata di XSS.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can write a custom request validation implementation that scans for SQL injection attacks in addition to checking for XSS attacks.</source>
+          <target state="translated">Ad esempio, è possibile scrivere un'implementazione di convalida richiesta personalizzata che esegue l'analisi per gli attacchi SQL injection oltre a controllare per attacchi XSS.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create custom request validation, you write a custom class that derives from the RequestValidator base class.</source>
+          <target state="translated">Per creare la convalida delle richieste personalizzata, scrivere una classe personalizzata che deriva dalla classe di base RequestValidator.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You then configure ASP.NET to use the custom request validator in the application-level Web.config file.</source>
+          <target state="translated">È quindi possibile configurare ASP.NET per utilizzare il validator personalizzato richiesta nel file Web. config a livello di applicazione.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can put the custom class in the App_Code folder, in a compiled class library in the Bin folder, or in a compiled class library in the GAC.</source>
+          <target state="translated">È possibile inserire la classe personalizzata nella cartella App_Code, in una libreria di classi compilata nella cartella Bin, o in una libreria di classi compilata nella GAC.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Only one custom request validation type can be configured for an application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Un solo tipo di convalida personalizzata richiesta può essere configurato per un'applicazione.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not possible to configure a different request validation type for individual virtual paths or pages.</source>
+          <target state="translated">Non è possibile configurare un tipo di convalida richiesta diverse per singoli percorsi virtuali o le pagine.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Util.RequestValidator&gt; class has a default constructor.</source>
+          <target state="translated">La &lt;xref:System.Web.Util.RequestValidator&gt;classe ha un costruttore predefinito.&lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a new instance of the class is initialized, an internal method retrieves custom validation details from the application's configuration information.</source>
+          <target state="translated">Quando viene inizializzata una nuova istanza della classe, un metodo interno recupera i dettagli di convalida personalizzati dalle informazioni di configurazione dell'applicazione.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The configuration details are contained in the &lt;xref:System.Web.Configuration.HttpRuntimeSection&gt; section.</source>
+          <target state="translated">Cui sono contenuti i dettagli di configurazione di &lt;xref:System.Web.Configuration.HttpRuntimeSection&gt;sezione.&lt;/xref:System.Web.Configuration.HttpRuntimeSection&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>httpRuntime Element (ASP.NET Settings Schema)<ept id="p1">](http://msdn.microsoft.com/en-us/e9b81350-8aaf-47cc-9843-5f7d0c59f369)</ept> and the &lt;xref:System.Web.Configuration.HttpRuntimeSection.RequestValidationType%2A&gt; attribute.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>elemento httpRuntime (Schema delle impostazioni ASP.NET)<ept id="p1">](http://msdn.microsoft.com/en-us/e9b81350-8aaf-47cc-9843-5f7d0c59f369)</ept> e &lt;xref:System.Web.Configuration.HttpRuntimeSection.RequestValidationType%2A&gt;attributo.&lt;/xref:System.Web.Configuration.HttpRuntimeSection.RequestValidationType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During initialization, a single instance of the &lt;xref:System.Web.Util.RequestValidator&gt; class is created, and a reference to the instance is maintained in the &lt;xref:System.Web.Util.RequestValidator.Current%2A&gt; property.</source>
+          <target state="translated">Durante l'inizializzazione, una singola istanza del &lt;xref:System.Web.Util.RequestValidator&gt;classe viene creata e viene mantenuto un riferimento all'istanza di &lt;xref:System.Web.Util.RequestValidator.Current%2A&gt;proprietà.&lt;/xref:System.Web.Util.RequestValidator.Current%2A&gt; &lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET does not create a new request validator instance per request.</source>
+          <target state="translated">ASP.NET non crea una nuova istanza di convalida richiesta per ogni richiesta.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, custom implementations of the &lt;xref:System.Web.Util.RequestValidator&gt; class must be thread-safe.</source>
+          <target state="translated">Pertanto, le implementazioni personalizzate della &lt;xref:System.Web.Util.RequestValidator&gt;classe deve essere thread-safe.&lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets or sets a reference to the current <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that will be used in an application.</source>
+          <target state="translated">Ottiene o imposta un riferimento all'oggetto corrente <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> istanza che verrà utilizzato in un'applicazione.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Current property maintains a reference to the single allowed instance of the &lt;xref:System.Web.Util.RequestValidator&gt; class.</source>
+          <target state="translated">La proprietà corrente mantiene un riferimento all'istanza singola consentito di &lt;xref:System.Web.Util.RequestValidator&gt;classe.&lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no instance exists, a new one is created.</source>
+          <target state="translated">Se non esiste alcuna istanza, viene creato uno nuovo.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an instance already exists, the current instance is returned.</source>
+          <target state="translated">Se esiste già un'istanza, viene restituita l'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During initialization, a single instance of the &lt;xref:System.Web.Util.RequestValidator&gt; class is created, and a reference to the instance is made available in the Current property.</source>
+          <target state="translated">Durante l'inizializzazione, una singola istanza di &lt;xref:System.Web.Util.RequestValidator&gt;viene creata una classe e un riferimento all'istanza viene reso disponibile nella proprietà corrente.&lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET does not create a new request validator instance per request.</source>
+          <target state="translated">ASP.NET non crea una nuova istanza di convalida richiesta per ogni richiesta.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, custom implementations of the &lt;xref:System.Web.Util.RequestValidator&gt; class must be thread-safe.</source>
+          <target state="translated">Pertanto, le implementazioni personalizzate della &lt;xref:System.Web.Util.RequestValidator&gt;classe deve essere thread-safe.&lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Current property is not thread-safe while the property is setting a reference to the current &lt;xref:System.Web.Util.RequestValidator&gt; class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Corrente la proprietà non è thread-safe, mentre la proprietà è l'impostazione di un riferimento alla classe corrente &lt;xref:System.Web.Util.RequestValidator&gt;classe.&lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Un'istanza di <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">La proprietà è <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Provides a public method that calls the protected &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString*&gt; method in order to validate HTTP request data.</source>
+          <target state="translated">Fornisce un metodo pubblico che chiama il metodo protetto &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString*&gt;metodo per convalidare i dati della richiesta HTTP.&lt;/xref:System.Web.Util.RequestValidator.IsValidRequestString*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The InvokeIsValidRequestString method provides public access to the protected &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt; method.</source>
+          <target state="translated">Il metodo InvokeIsValidRequestString fornisce l'accesso pubblico alle protetto &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt;metodo.&lt;/xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This lets you create a custom wrapper class for the &lt;xref:System.Web.Util.RequestValidator&gt; class and call the &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt; method without having to inherit from the &lt;xref:System.Web.Util.RequestValidator&gt; class.</source>
+          <target state="translated">Ciò consente di creare una classe wrapper personalizzata per la &lt;xref:System.Web.Util.RequestValidator&gt;classe e chiamare il &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt;metodo senza dover ereditare dalla &lt;xref:System.Web.Util.RequestValidator&gt;classe.&lt;/xref:System.Web.Util.RequestValidator&gt; &lt;/xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt; &lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about request validation, see &lt;xref:System.Web.UnvalidatedRequestValues&gt;.</source>
+          <target state="translated">Per informazioni sulla convalida della richiesta, vedere &lt;xref:System.Web.UnvalidatedRequestValues&gt;.&lt;/xref:System.Web.UnvalidatedRequestValues&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The HTTP context of the request.</source>
+          <target state="translated">Il contesto HTTP della richiesta.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The HTTP request data to validate.</source>
+          <target state="translated">I dati della richiesta HTTP da convalidare.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An enumeration that represents the source of request data that is being validated.</source>
+          <target state="translated">Enumerazione che rappresenta l'origine dei dati di richiesta in fase di convalida.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The following are possible values for the enumeration:      -   <bpt id="p1">&lt;xref uid="langword_csharp_QueryString" name="QueryString" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph1">      -   </ph><bpt id="p2">&lt;xref uid="langword_csharp_Form " name="Form " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><ph id="ph2">      -   </ph><bpt id="p3">&lt;xref uid="langword_csharp_Cookies" name="Cookies" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><ph id="ph3">      -   </ph><bpt id="p4">&lt;xref uid="langword_csharp_Files" name="Files" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><ph id="ph4">      -   </ph><bpt id="p5">&lt;xref uid="langword_csharp_Path" name="Path" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><ph id="ph5">      -   </ph><bpt id="p6">&lt;xref uid="langword_csharp_PathInfo" name="PathInfo" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept><ph id="ph6">      -   </ph><bpt id="p7">&lt;xref uid="langword_csharp_Headers" name="Headers" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept></source>
+          <target state="translated">Di seguito sono riportati i valori possibili per l'enumerazione:-<bpt id="p1">&lt;xref uid="langword_csharp_QueryString" name="QueryString" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph1">      -   </ph><bpt id="p2">&lt;xref uid="langword_csharp_Form " name="Form " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><ph id="ph2">      -   </ph><bpt id="p3">&lt;xref uid="langword_csharp_Cookies" name="Cookies" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><ph id="ph3">      -   </ph><bpt id="p4">&lt;xref uid="langword_csharp_Files" name="Files" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><ph id="ph4">      -   </ph><bpt id="p5">&lt;xref uid="langword_csharp_Path" name="Path" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><ph id="ph5">      -   </ph><bpt id="p6">&lt;xref uid="langword_csharp_PathInfo" name="PathInfo" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept><ph id="ph6">      -   </ph><bpt id="p7">&lt;xref uid="langword_csharp_Headers" name="Headers" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>(Optional) The key in the request collection of the item to validate.</source>
+          <target state="translated">(Facoltativo) La chiave nell'insieme di richieste dell'elemento da convalidare.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This parameter is used if the data to validate is obtained from a collection.</source>
+          <target state="translated">Questo parametro viene utilizzato se i dati da convalidare viene ottenuti da una raccolta.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If the data to validate is not from a collection, this parameter can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se i dati da convalidare non sono disponibile da una raccolta, questo parametro può essere <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When this method returns, indicates the zero-based starting point of the problematic or invalid text in the request collection.</source>
+          <target state="translated">Quando termina, questo metodo indica il punto iniziale in base zero del testo problematico o non valido nella raccolta richiesta.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Questo parametro viene passato non inizializzato.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the string to validate does not contain unencoded characters that could be used in a malicious scripting attack; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se la stringa da convalidare non contenga caratteri non codificati che può essere utilizzati in un attacco script dannoso. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Validates a string that contains HTTP request data.</source>
+          <target state="translated">Convalida una stringa che contiene i dati della richiesta HTTP.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You implement this method to perform custom validation of request data.</source>
+          <target state="translated">Implementare questo metodo per eseguire una convalida personalizzata dei dati di richiesta.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base behavior of the IsValidRequestString method is like the behavior that ASP.NET implements internally to check for dangerous strings in cross-site scripting validation.</source>
+          <target state="translated">Il comportamento di base del metodo IsValidRequestString è simile a quello che ASP.NET implementa internamente per controllare le stringhe pericolose nella convalida di script tra siti.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>How To: Prevent Cross-Site Scripting in ASP.NET<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=178708)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>procedura: impedire Cross-Site Scripting in ASP.NET<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=178708)</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If custom validation logic detects an error, this method should return <ph id="ph1">`false`</ph> and provide a value in <ph id="ph2">`validationFailureIndex`</ph> to indicate the starting point of the text that caused the error.</source>
+          <target state="translated">Se la logica di convalida personalizzata rileva un errore, questo metodo deve restituire <ph id="ph1">`false`</ph> e specificare un valore in <ph id="ph2">`validationFailureIndex`</ph> per indicare il punto iniziale del testo che ha causato l'errore.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value in <ph id="ph1">`validationFailureIndex`</ph> must be 0 or a positive integer.</source>
+          <target state="translated">Il valore in <ph id="ph1">`validationFailureIndex`</ph> deve essere 0 o un numero intero positivo.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The logic in a request validation check proceeds as follows:      -   The &lt;xref:System.Web.HttpRequest&gt; class performs a null-character removal check on the incoming data.</source>
+          <target state="translated">La logica di un controllo di convalida richiesta procede nel modo seguente: - il &lt;xref:System.Web.HttpRequest&gt;classe esegue un controllo di rimozione di caratteri null ai dati in arrivo.&lt;/xref:System.Web.HttpRequest&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.HttpRequest&gt; class calls either the IsValidRequestString method (the default implementation of the base method) or calls a derived version of the method.</source>
+          <target state="translated">-La &lt;xref:System.Web.HttpRequest&gt;classe chiama il metodo IsValidRequestString (l'implementazione predefinita del metodo di base) o una versione derivata del metodo chiamato.&lt;/xref:System.Web.HttpRequest&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If IsValidRequestString method returns <ph id="ph1">`false`</ph> to indicate a validation failure, ASP.NET constructs an error string (if necessary) and throws an &lt;xref:System.Web.HttpRequestValidationException&gt; exception.</source>
+          <target state="translated">-Se il metodo IsValidRequestString restituisce <ph id="ph1">`false`</ph> per indicare un errore di convalida, ASP.NET costruisce una stringa di errore (se necessario) e genera un &lt;xref:System.Web.HttpRequestValidationException&gt;eccezione.&lt;/xref:System.Web.HttpRequestValidationException&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The context of the current request.</source>
+          <target state="translated">Il contesto della richiesta corrente.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The HTTP request data to validate.</source>
+          <target state="translated">I dati della richiesta HTTP da convalidare.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>An enumeration that represents the source of request data that is being validated.</source>
+          <target state="translated">Enumerazione che rappresenta l'origine dei dati di richiesta in fase di convalida.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The following are possible values for the enumeration:       <bpt id="p1">&lt;xref uid="langword_csharp_QueryString" name="QueryString" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref uid="langword_csharp_Form " name="Form " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><bpt id="p3">&lt;xref uid="langword_csharp_Cookies" name="Cookies" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><bpt id="p4">&lt;xref uid="langword_csharp_Files" name="Files" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><bpt id="p5">&lt;xref uid="langword_csharp_RawUrl" name="RawUrl" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><bpt id="p6">&lt;xref uid="langword_csharp_Path" name="Path" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept><bpt id="p7">&lt;xref uid="langword_csharp_PathInfo" name="PathInfo" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept><bpt id="p8">&lt;xref uid="langword_csharp_Headers" name="Headers" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept></source>
+          <target state="translated">Di seguito sono indicati i valori possibili per l'enumerazione:<bpt id="p1">&lt;xref uid="langword_csharp_QueryString" name="QueryString" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref uid="langword_csharp_Form " name="Form " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><bpt id="p3">&lt;xref uid="langword_csharp_Cookies" name="Cookies" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><bpt id="p4">&lt;xref uid="langword_csharp_Files" name="Files" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><bpt id="p5">&lt;xref uid="langword_csharp_RawUrl" name="RawUrl" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><bpt id="p6">&lt;xref uid="langword_csharp_Path" name="Path" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept><bpt id="p7">&lt;xref uid="langword_csharp_PathInfo" name="PathInfo" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept><bpt id="p8">&lt;xref uid="langword_csharp_Headers" name="Headers" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The key in the request collection of the item to validate.</source>
+          <target state="translated">La chiave nell'insieme di richieste dell'elemento da convalidare.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This parameter is optional.</source>
+          <target state="translated">Questo parametro è facoltativo.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This parameter is used if the data to validate is obtained from a collection.</source>
+          <target state="translated">Questo parametro viene utilizzato se i dati da convalidare viene ottenuti da una raccolta.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If the data to validate is not from a collection, <ph id="ph1">`collectionKey`</ph> can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se i dati da convalidare non sono una raccolta, <ph id="ph1">`collectionKey`</ph> può essere <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When this method returns, indicates the zero-based starting point of the problematic or invalid text in the request collection.</source>
+          <target state="translated">Quando termina, questo metodo indica il punto iniziale in base zero del testo problematico o non valido nella raccolta richiesta.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Questo parametro viene passato non inizializzato.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the string to be validated is valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se la stringa da convalidare è valida. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

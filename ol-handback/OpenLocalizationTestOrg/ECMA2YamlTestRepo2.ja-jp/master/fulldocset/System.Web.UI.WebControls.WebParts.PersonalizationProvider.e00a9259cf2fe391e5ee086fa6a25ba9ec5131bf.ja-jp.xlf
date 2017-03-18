@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a4b069ae0763f0945a5b326d2fce72e420db4f3f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.PersonalizationProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f7466dee3beb5d51e3849ecb31041001316d91ad</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">70da250567a074cd17996c21e830658ea01c35a6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements the basic functionality for a personalization provider.</source>
+          <target state="translated">パーソナル化プロバイダーの基本的な機能を実装します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This is the abstract base class that defines the required functionality of a personalization provider.</source>
+          <target state="translated">これは、パーソナル化プロバイダーに必要な機能を定義する抽象基本クラスです。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A personalization provider both loads and stores personalization data on behalf of a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; instance.</source>
+          <target state="translated">パーソナル化プロバイダーを読み込み、両方の代わりにパーソナル化データを格納、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;インスタンス&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The base class defines standard behavior for a number of methods; only those methods that specifically deal with the underlying data store are marked abstract.</source>
+          <target state="translated">多くのメソッドに対して標準の動作を定義する基底クラス具体的には、基になるデータ ストアを処理するメソッドのみを抽象にマークされます。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This allows a developer to write a custom provider to interact with a specific data store, without needing to re-implement standard functionality used by the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; class.</source>
+          <target state="translated">これにより、開発者には、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;クラス&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;によって使用される標準的な機能を再実装しなくても、特定のデータ ストアと対話するカスタム プロバイダーを作成するには</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Because this is a constructor for an abstract class, you must override this method to create an instance of a class that inherits from this class.</source>
+          <target state="translated">これは抽象クラスのコンス トラクターであるため、このクラスから継承するクラスのインスタンスを作成するには、このメソッドをオーバーライドする必要があります。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets or sets the name of the application configured for the provider.</source>
+          <target state="translated">派生クラスでオーバーライドされると、ときに、プロバイダー用に構成されたアプリケーションの名前を取得または設定します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If an application name is not specified in the configuration file using the <bpt id="p1">[</bpt>providers Element for personalization for webParts (ASP.NET Settings Schema)<ept id="p1">](http://msdn.microsoft.com/en-us/51363b49-eafa-4b9c-b9d0-80086b385195)</ept> attribute, the value of the &lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt; property is used.</source>
+          <target state="translated">構成ファイルを使用して、アプリケーション名が指定されていない場合、<bpt id="p1">[</bpt>プロバイダー要素 (ASP.NET 設定スキーマ) の web パーツのパーソナル化の<ept id="p1">](http://msdn.microsoft.com/en-us/51363b49-eafa-4b9c-b9d0-80086b385195)</ept>属性の値、&lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;プロパティを使用します&lt;/xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because a single, default personalization provider instance is used for all the requests served by an &lt;xref:System.Web.HttpApplication&gt; object, you can have multiple requests executing concurrently, each attempting to set the ApplicationName property value.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; で処理されたすべての要求の&amp;1; つの既定のパーソナル化プロバイダー インスタンスが使用されるため、&lt;xref:System.Web.HttpApplication&gt;オブジェクト、ApplicationName プロパティの値を設定しようとしてそれぞれを同時に、実行する複数の要求を持つことができます&lt;/xref:System.Web.HttpApplication&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The ApplicationName property is not thread-safe for multiple writes, and changing the ApplicationName property value can result in unexpected behavior for multiple users of an application.</source>
+          <target state="translated">ApplicationName プロパティは、スレッド セーフである複数の書き込みのためと、アプリケーションの複数のユーザーの予期しない動作結果 ApplicationName プロパティの値を変更することができます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It is recommended that you avoid code allowing users to set the ApplicationName property unless required.</source>
+          <target state="translated">ユーザーに必要な場合は、ApplicationName プロパティの設定を許可するコードを避けることをお勧めします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Setting the ApplicationName property might be required, for example, in an administrative application that manages personalization data for multiple applications.</source>
+          <target state="translated">ApplicationName プロパティの設定は、たとえば、複数のアプリケーションのパーソナル化データを管理する管理アプリケーションで、必要な可能性があります。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The application configured for the personalization provider.</source>
+          <target state="translated">パーソナル化プロバイダー用に構成されたアプリケーション。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Returns a list of <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that represent the set of known capabilities used by the Web Parts control set.</source>
+          <target state="translated">一覧を返します<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Web パーツ コントロール セットで使用される既知の機能のセットを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Currently, this method returns a list containing two capabilities: &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ModifyStateUserCapability&gt;.</source>
+          <target state="translated">現時点では、このメソッドが&amp;2; つの機能を含む一覧を返します: &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt; &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ModifyStateUserCapability&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ModifyStateUserCapability&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt; 。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>These are the default capabilities that can be defined in the <bpt id="p1">[</bpt>authorization Element for personalization for webParts (ASP.NET Settings Schema)<ept id="p1">](http://msdn.microsoft.com/en-us/d190d4ff-1445-4ee1-88eb-9737c7aa1434)</ept> element within the <bpt id="p2">[</bpt>personalization Element for webParts (ASP.NET Settings Schema)<ept id="p2">](http://msdn.microsoft.com/en-us/3d77da55-73ce-46ce-97cf-7d2abcaada09)</ept> element of the<bpt id="p3">[</bpt>webParts Element (ASP.NET Settings Schema)<ept id="p3">](http://msdn.microsoft.com/en-us/90af5acc-5a80-4b39-bba7-74afd06b167c)</ept> configuration section.</source>
+          <target state="translated">これらは、既定の機能で定義できる、<bpt id="p1">[</bpt>承認要素 (ASP.NET 設定スキーマ) の web パーツのパーソナル化を<ept id="p1">](http://msdn.microsoft.com/en-us/d190d4ff-1445-4ee1-88eb-9737c7aa1434)</ept>内の要素、 <bpt id="p2">[</bpt>(ASP.NET 設定スキーマ) の web パーツのパーソナル化要素<ept id="p2">](http://msdn.microsoft.com/en-us/3d77da55-73ce-46ce-97cf-7d2abcaada09)</ept>の要素、<bpt id="p3">[</bpt>要素 (ASP.NET 設定スキーマ) の web パーツ<ept id="p3">](http://msdn.microsoft.com/en-us/90af5acc-5a80-4b39-bba7-74afd06b167c)</ept>構成セクション。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you choose to implement a custom personalization infrastructure, you can override this method and define your own set of authorization-related user capabilities.</source>
+          <target state="translated">カスタムのパーソナル化インフラストラクチャを実装する場合は、このメソッドをオーバーライドし、独自の一連のユーザーの承認に関連する機能を定義できます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IList&gt; that represents the set of known capabilities used by the Web Parts control set.</source>
+          <target state="translated">&lt;xref:System.Collections.IList&gt;Web パーツ コントロール セットで使用される既知の機能のセットを表す&lt;/xref:System.Collections.IList&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Determines whether the initial personalization scope should be <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> scope.</source>
+          <target state="translated">初期のパーソナル化スコープができるかどうかを判断<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>または<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>スコープ。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This method determines whether the current scope should be &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; or &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;, given a reference to a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control and the personalization state information that has already been loaded from earlier in the personalization life cycle.</source>
+          <target state="translated">このメソッドは、現在のスコープができるかどうかを判断&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;または&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;への参照を与え、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;コントロールとパーソナル化状態がまだ読み込まれてから、パーソナル化ライフ サイクルの前半の情報&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This information is used by a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; instance for subsequent personalization-related tasks.</source>
+          <target state="translated">この情報を使用して、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;のパーソナル化に関連するタスクのインスタンス&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following rules are used to determine personalization scope:      -   Scope is assumed initially to be &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.</source>
+          <target state="translated">次の規則を使用して判断パーソナル化スコープ: のスコープは&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;を初期状態と見なされます</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-   If the currently executing user account is not authenticated, the scope is set to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.</source>
+          <target state="translated">スコープが&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;に設定されている場合は、現在実行中のユーザー アカウントが認証されていません。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-   If the currently executing user account is authenticated, additional processing occurs in order of precedence:          -   If the page is in postback mode, the page request contains scope information from a previous rendering of the page.</source>
+          <target state="translated">優先順位の順序で追加の処理が発生した場合は、現在実行中のユーザー アカウントが認証されると、: ページ要求には、ページがポストバック モードである場合は、ページのレンダリングを前のスコープ情報が含まれています。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If that scope information indicates that &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope was used, then the scope evaluates to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.</source>
+          <target state="translated">情報をスコープする場合はその&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープを使用しているし、スコープが&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;に評価される&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;ことを示します</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-   If the currently executing page had control transferred to it from another page (for example, if the transfer of control occurred due to calling the &lt;xref:System.Web.HttpServerUtility.Transfer%2A&gt; method; note that this specific check does not occur for cross-page posting), and if the previously executing page had a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; instance, the scope is set to the value of the <ph id="ph1">`Personalization.Scope`</ph> property from the previous &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; instance.</source>
+          <target state="translated">場合、現在実行中のページがある別のページから転送コントロール (呼び出しのための制御の転送が発生した場合など、&lt;xref:System.Web.HttpServerUtility.Transfer%2A&gt;メソッド以外のページ間ポスティングのこの特定のチェックが発生しないことに注意してください)、し、以前に実行中のページが含まれていた、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;インスタンス、スコープは、の値に設定されて、 <ph id="ph1">`Personalization.Scope`</ph> 、前のプロパティ&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;インスタンス&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;&lt;/xref:System.Web.HttpServerUtility.Transfer%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-   If the previous criteria are not met, then the scope evaluates to the value of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt; property for the current &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control.</source>
+          <target state="translated">場合、以前の条件が満たされず、し、スコープが評価の値に、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt;現在のプロパティ&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;コントロール&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>After the previous evaluations have been made, and if the scope evaluates to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope, the following processing occurs:      -   If the currently executing user account has the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt; capability, the scope remains set to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.</source>
+          <target state="translated">以前の評価が完了したらとに評価されると、スコープ&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープの場合、次の処理が行われます:: の場合、現在実行中のユーザー アカウントがある、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt;機能、スコープが&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;に設定されたまま&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-   If the currently executing user account does not have the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt; capability, then the scope is reset to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.</source>
+          <target state="translated">-現在実行中のユーザー アカウントに&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt;&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;にリセットし、機能、スコープ&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt;がない場合</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-   If the result of all previous scope evaluations is &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;, this result is stored as a hidden field on the currently executing page.</source>
+          <target state="translated">場合、以前のすべてのスコープの評価の結果は&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;、この結果は、現在実行中のページで非表示フィールドとして格納されます&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is the mechanism whereby a page can replay the scope evaluation during subsequent postbacks.</source>
+          <target state="translated">これは、ページが以降のポストバック時にスコープの評価を再生するためのメカニズムです。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that manages the personalization information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>パーソナル化情報を管理します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The personalization state information.</source>
+          <target state="translated">パーソナル化状態情報。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating whether the current personalization scope is <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在のパーソナル化スコープがあるかどうかを示す<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>または<bpt id="p3">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;webPartManager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;webPartManager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The page associated with <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">webPartManager</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">関連付けられているページ<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">webPartManager</ph> <ept id="p1">&lt;/code&gt;</ept>は<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Returns a dictionary containing <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances that represent the personalization-related capabilities of the currently executing user account.</source>
+          <target state="translated">含むディクショナリを返します<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>現在実行中のユーザー アカウントの個人用設定に関連する機能を表すインスタンス。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default implementation of this method consumes the information in the <bpt id="p1">[</bpt>authorization Element for personalization for webParts (ASP.NET Settings Schema)<ept id="p1">](http://msdn.microsoft.com/en-us/d190d4ff-1445-4ee1-88eb-9737c7aa1434)</ept> element within the <bpt id="p2">[</bpt>personalization Element for webParts (ASP.NET Settings Schema)<ept id="p2">](http://msdn.microsoft.com/en-us/3d77da55-73ce-46ce-97cf-7d2abcaada09)</ept> element of the<bpt id="p3">[</bpt>webParts Element (ASP.NET Settings Schema)<ept id="p3">](http://msdn.microsoft.com/en-us/90af5acc-5a80-4b39-bba7-74afd06b167c)</ept> configuration section in the Machine.config or Web.config file to determine a user's authorized capabilities.</source>
+          <target state="translated">このメソッドの既定の実装内の情報を使用する、<bpt id="p1">[</bpt>承認要素 (ASP.NET 設定スキーマ) の web パーツのパーソナル化を<ept id="p1">](http://msdn.microsoft.com/en-us/d190d4ff-1445-4ee1-88eb-9737c7aa1434)</ept>内の要素、 <bpt id="p2">[</bpt>(ASP.NET 設定スキーマ) の web パーツのパーソナル化要素<ept id="p2">](http://msdn.microsoft.com/en-us/3d77da55-73ce-46ce-97cf-7d2abcaada09)</ept>の要素、<bpt id="p3">[</bpt>要素 (ASP.NET 設定スキーマ) の web パーツ<ept id="p3">](http://msdn.microsoft.com/en-us/90af5acc-5a80-4b39-bba7-74afd06b167c)</ept>Machine.config または Web.config ファイルを調べて、ユーザーの構成」の機能を許可します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The capabilities in the dictionary will be members of the &lt;xref:System.Collections.IList&gt; object returned by the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.CreateSupportedUserCapabilities%2A&gt; method, which currently include the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt; capability and the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ModifyStateUserCapability&gt; capability.</source>
+          <target state="translated">ディクショナリ内での機能のメンバーとなる、&lt;xref:System.Collections.IList&gt;によって返されるオブジェクト、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.CreateSupportedUserCapabilities%2A&gt;に登録されているメソッド、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt;機能および&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ModifyStateUserCapability&gt;機能&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ModifyStateUserCapability&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.EnterSharedScopeUserCapability&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.CreateSupportedUserCapabilities%2A&gt;&lt;/xref:System.Collections.IList&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>パーソナル化情報を管理します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; containing zero or more <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances if the user account is authenticated, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the executing user account is not authenticated.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;0 個以上含む<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>インスタンスの場合は、ユーザー アカウントを認証すると、または<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>実行中のユーザー アカウントが認証されていない場合&lt;/xref:System.Collections.IDictionary&gt;。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;webPartManager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;webPartManager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns a collection containing zero or more <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>-derived objects based on scope and specific query parameters.</source>
+          <target state="translated">派生クラスでオーバーライドされると、0 個以上を含むコレクションを返します<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>-スコープおよび特定のクエリ パラメーターに基づくオブジェクトを派生します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This method is the abstract definition of an administrative method for querying personalization data.</source>
+          <target state="translated">このメソッドは、パーソナル化データを照会するための管理メソッドの抽象定義です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Derived implementations should follow the logic described below.</source>
+          <target state="translated">派生実装では、以下に示すロジックを従う必要があります。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The set of returned items is constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters, where <ph id="ph3">`pageSize`</ph> sets the number of records to return and <ph id="ph4">`pageIndex`</ph> sets which records to return.</source>
+          <target state="translated">によって返される項目のセットを制限、<ph id="ph1">`pageIndex`</ph>と<ph id="ph2">`pageSize`</ph>パラメーター、場所<ph id="ph3">`pageSize`</ph>返されるレコードの数を設定し、<ph id="ph4">`pageIndex`</ph>どのレコードを返すを設定します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, a <ph id="ph1">`pageIndex`</ph> of 0 and a <ph id="ph2">`pageSize`</ph> of 25 would return the first 25 occurrences, while a <ph id="ph3">`pageIndex`</ph> of 1 and a <ph id="ph4">`pageSize`</ph> of 25 would return occurrences 26-50.</source>
+          <target state="translated">など、 <ph id="ph1">`pageIndex`</ph> 0 と<ph id="ph2">`pageSize`</ph>25 は、最初の 25 個の出現回数を返します中に、 <ph id="ph3">`pageIndex`</ph> 1 のと<ph id="ph4">`pageSize`</ph>25 が戻り値の 26 ~ 50 回の出現します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If you want to retrieve all available records, set <ph id="ph1">`pageIndex`</ph> to 0 and <ph id="ph2">`pageSize`</ph> to &lt;xref:System.Int32.MaxValue&gt;.</source>
+          <target state="translated">使用可能なすべてのレコードを取得する場合は、設定<ph id="ph1">`pageIndex`</ph>0 と<ph id="ph2">`pageSize`</ph> &lt;xref:System.Int32.MaxValue&gt;&lt;/xref:System.Int32.MaxValue&gt; 。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo&gt;-derived objects are returned in alphabetical order and sorted by a combination of their &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo.Path%2A&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.Username%2A&gt; property values, both in ascending order.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo&gt;-派生オブジェクトをアルファベット順に返され、の組み合わせによって並べ替えられて、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo.Path%2A&gt;と&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.Username%2A&gt;プロパティ値は、両方で昇順に並べ替えます&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.Username%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo.Path%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This method passes query wildcard characters to the underlying data store.</source>
+          <target state="translated">このメソッドは、基になるデータ ストアにクエリでワイルドカード文字を渡します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Support for wildcard characters is currently dependent on how each provider handles characters such as an asterisk (*), a percent symbol (%), or an underscore (_).</source>
+          <target state="translated">ワイルドカード文字のサポートは、各プロバイダーが、アスタリスク (*)、パーセント記号 (%)、またはアンダー スコア (_) などの文字を処理する方法に依存します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Normally, for SQL-compliant data stores, you can perform a wildcard search on a partial path with the wildcard character appearing at the beginning, the end, or the middle of the search string text in the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property.</source>
+          <target state="translated">通常、SQL 準拠のデータ ストアで実行できるワイルドカード検索部分パスでワイルドカード文字が先頭、末尾、または検索文字列のテキストの中央に表示される、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;プロパティ&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, to find all paths that start with "~/vdir", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property would be set to "~/vdir%".</source>
+          <target state="translated">たとえば、"~/vdir"で始まるすべてのパスを検索するため、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;プロパティを"~/vdir%"に設定するとします&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Likewise, a wildcard search on a partial user name could have the wildcard character appear at any point in the text string of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property.</source>
+          <target state="translated">同様に、部分的なユーザー名にワイルドカード検索が表示のテキスト文字列のどの時点でも、ワイルドカード文字を持つ可能性があります、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;プロパティ&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For example, to find all user names that start with "John", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; parameter would look like "John%".</source>
+          <target state="translated">たとえば、"John"で始まるすべてのユーザー名を検索するため、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;パラメーターは「John %」のようになります&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The following query constraints apply:      -   If only <ph id="ph1">`scope`</ph> is provided, and <ph id="ph2">`query`</ph> is <ph id="ph3">`null`</ph> or all the properties on <ph id="ph4">`query`</ph> return either <ph id="ph5">`null`</ph> or default values, then all records matching the indicated <ph id="ph6">`scope`</ph> parameter are returned.</source>
+          <target state="translated">次のクエリの制約が適用されます: だけの場合 -<ph id="ph1">`scope`</ph>が提供される、および<ph id="ph2">`query`</ph>は<ph id="ph3">`null`</ph>またはすべてのプロパティを<ph id="ph4">`query`</ph>いずれかを返す<ph id="ph5">`null`</ph>または既定の値を指定された一致するすべてのレコード<ph id="ph6">`scope`</ph>パラメーターが返されます。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property is not <ph id="ph1">`null`</ph>, the returned records are also filtered based on paths that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; value.</source>
+          <target state="translated">場合、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;プロパティは使用されません<ph id="ph1">`null`</ph>、返されたレコードは一致するフィルター選択されたに基づいてパスでも、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;値&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property is not <ph id="ph1">`null`</ph>, the returned records are also filtered based on user names that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property value.</source>
+          <target state="translated">場合、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;プロパティは使用されません<ph id="ph1">`null`</ph>、返されたレコードは一致するフィルター選択されたに基づいてユーザー名でも、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;プロパティの値&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property is not equal to &lt;xref:System.DateTime.MaxValue&gt;, then the returned records are also filtered to return only those records associated with inactive users.</source>
+          <target state="translated">場合、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;プロパティは等しくありません&lt;xref:System.DateTime.MaxValue&gt;、返されたレコードはアクティブでないユーザーに関連付けられているレコードだけを返すもフィルター処理し、&lt;/xref:System.DateTime.MaxValue&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The comparison includes records where the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property is less than or equal to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property.</source>
+          <target state="translated">比較には、レコードが含まれていますここで、&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;プロパティは、以下に、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;プロパティ。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Note that this method does not validate combinations of query parameters.</source>
+          <target state="translated">このメソッドがクエリ パラメーターの組み合わせを検証できませんに注意してください。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, code can request a set of personalization state records associated with a specific user name in the shared scope.</source>
+          <target state="translated">たとえば、コードでは、共有のスコープ内の特定のユーザー名に関連付けられたパーソナル化状態レコードのセットを要求できます。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Because user names are not associated with shared information, the returned collection would be empty.</source>
+          <target state="translated">ユーザー名が共有の情報に関連付けられていないために、返されるコレクションは空になります。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Parameter combinations that have the potential to return a non-empty collection include:      -   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property.</source>
+          <target state="translated">空のコレクションを返す可能性のあるパラメーターの組み合わせを含める:-&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープと組み合わせて、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;プロパティ&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with the values for any or all of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;, and &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; properties.</source>
+          <target state="translated">-&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープの一部またはすべての値と組み合わせて、 &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;、 &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;、および&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;プロパティ&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the personalization information to be queried.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>とパーソナル化情報を照会します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This value cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">この値にすることはできません<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a query.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クエリを含むです。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">この値は、 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The location where the query starts.</source>
+          <target state="translated">クエリを開始する場所です。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The number of records to return.</source>
+          <target state="translated">返されるレコードの数。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The total number of records available.</source>
+          <target state="translated">使用できるレコードの合計数。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing zero or more <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>-derived objects.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&amp;0; 個以上含む<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>-派生オブジェクト。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the number of rows in the underlying data store that exist within the specified scope.</source>
+          <target state="translated">派生クラスでオーバーライドされると、指定されたスコープ内に存在する基になるデータ ストア内の行の数を返します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This method is the abstract definition of an administrative method for retrieving counts of personalization data.</source>
+          <target state="translated">このメソッドは、パーソナル化データの数を取得するための管理メソッドの抽象定義です。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Derived implementations should follow the logic described below.</source>
+          <target state="translated">派生実装では、以下に示すロジックを従う必要があります。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This method passes query wildcard characters to the underlying data store.</source>
+          <target state="translated">このメソッドは、基になるデータ ストアにクエリでワイルドカード文字を渡します。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Support for wildcard characters is currently dependent on how each provider handles characters such as an asterisk (*), a percent symbol (%), or an underscore (_).</source>
+          <target state="translated">ワイルドカード文字のサポートは、各プロバイダーが、アスタリスク (*)、パーセント記号 (%)、またはアンダー スコア (_) などの文字を処理する方法に依存します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Normally, for SQL-compliant data stores, you can perform a wildcard search on a partial path with the wildcard character appearing at the beginning, the end, or the middle of the search string text in the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property.</source>
+          <target state="translated">通常、SQL 準拠のデータ ストアで実行できるワイルドカード検索部分パスでワイルドカード文字が先頭、末尾、または検索文字列のテキストの中央に表示される、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;プロパティ&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>For example, to find all paths that start with "~/vdir", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property would be set to "~/vdir%".</source>
+          <target state="translated">たとえば、"~/vdir"で始まるすべてのパスを検索するため、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;プロパティを"~/vdir%"に設定するとします&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Likewise, a wildcard search on a partial user name could have the wildcard character appear at any point in the text string of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property.</source>
+          <target state="translated">同様に、部分的なユーザー名にワイルドカード検索が表示のテキスト文字列のどの時点でも、ワイルドカード文字を持つ可能性があります、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;プロパティ&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For example, to find all user names that start with "John", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; parameter would look like "John%".</source>
+          <target state="translated">たとえば、"John"で始まるすべてのユーザー名を検索するため、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;パラメーターは「John %」のようになります&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The following query constraints apply:      -   If only <ph id="ph1">`scope`</ph> is provided, and <ph id="ph2">`query`</ph> is <ph id="ph3">`null`</ph> or all the properties on <ph id="ph4">`query`</ph> return either <ph id="ph5">`null`</ph> or default values, then all records matching the indicated <ph id="ph6">`scope`</ph> parameter are counted.</source>
+          <target state="translated">次のクエリの制約が適用されます: だけの場合 -<ph id="ph1">`scope`</ph>が提供される、および<ph id="ph2">`query`</ph>は<ph id="ph3">`null`</ph>またはすべてのプロパティを<ph id="ph4">`query`</ph>いずれかを返す<ph id="ph5">`null`</ph>または既定の値を指定された一致するすべてのレコード<ph id="ph6">`scope`</ph>パラメーターがカウントされます。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property is not <ph id="ph1">`null`</ph>, the counted records are also filtered based on paths that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; value.</source>
+          <target state="translated">場合、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;プロパティは使用されません<ph id="ph1">`null`</ph>、カウント対象のレコードが一致するフィルター選択されたに基づいてパスではまた、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;値&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property is not <ph id="ph1">`null`</ph>, the counted records are also filtered based on user names that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property value.</source>
+          <target state="translated">場合、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;プロパティは使用されません<ph id="ph1">`null`</ph>、カウントのレコードが一致するフィルター選択されたに基づいてユーザー名ではまた、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;プロパティの値&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property is not equal to &lt;xref:System.DateTime.MaxValue&gt;, then the counted records are also filtered to return only those records associated with inactive users.</source>
+          <target state="translated">場合、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;プロパティは等しくありません&lt;xref:System.DateTime.MaxValue&gt;、カウント対象のレコードがアクティブでないユーザーに関連付けられているレコードだけを返すもフィルター処理し、&lt;/xref:System.DateTime.MaxValue&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The comparison includes records where the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property is less than or equal to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property.</source>
+          <target state="translated">比較には、レコードが含まれていますここで、&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;プロパティは、以下に、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;プロパティ。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Note that this method does not validate combinations of query parameters.</source>
+          <target state="translated">このメソッドがクエリ パラメーターの組み合わせを検証できませんに注意してください。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For example, code can request a count of personalization state records associated with a specific user name in the shared scope.</source>
+          <target state="translated">たとえば、コードでは、共有のスコープ内の特定のユーザー名に関連付けられたパーソナル化状態レコードの数を要求できます。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Because user names are not associated with shared information, the returned count would be zero.</source>
+          <target state="translated">ユーザー名が共有の情報に関連付けられていないため、返されるカウントが&amp;0; になります。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Parameter combinations that have the potential to return a non-zero count include:      -   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property.</source>
+          <target state="translated">0 以外の数を返す可能性のあるパラメーターの組み合わせを含める:-&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープと組み合わせて、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;プロパティ&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with the values for any or all of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;, and &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; properties.</source>
+          <target state="translated">-&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープの一部またはすべての値と組み合わせて、 &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;、 &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;、および&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;プロパティ&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the personalization information to be queried.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のパーソナル化情報を照会します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This value cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">この値にすることはできません<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a query.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クエリを含むです。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">この値は、 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The number of rows in the underlying data store that exist for the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">scope</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">指定された存在する、基になるデータ ストア内の行の数<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">scope</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーター。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, loads raw personalization data from the underlying data store.</source>
+          <target state="translated">派生クラスでオーバーライドされると、基になるデータ ストアから生のパーソナル化データを読み込みます。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Classes that derive from &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt; and implement this method should use the <ph id="ph1">`webPartManager`</ph>, <ph id="ph2">`path`</ph>, and <ph id="ph3">`username`</ph> parameters as retrieval keys.</source>
+          <target state="translated">派生したクラス&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;し、このメソッドを使用する必要がありますを実装、 <ph id="ph1">`webPartManager`</ph>、 <ph id="ph2">`path`</ph>、および<ph id="ph3">`username`</ph>検索キーとして使用されるパラメーター&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt; 。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Regardless of how the data is stored in the data store (some data stores might perform some type of intelligent storage), the personalization data must be returned as a packed set of bytes in two arrays.</source>
+          <target state="translated">どのようにデータのかに関係なく、データ ストアに格納 (一部のデータ ストアは、インテリジェントな記憶域のいくつかの型を行う可能性があります)、パーソナル化データを返す必要がある、パックされた&amp;2; つの配列内のバイトのセットとして。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The returned data must conform to the following rules:      -   The data for the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope must always be returned in the <ph id="ph1">`sharedDataBlob`</ph> parameter.</source>
+          <target state="translated">返されるデータは、次の規則に従う必要があります:-データを&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープは、常に返される必要があります、<ph id="ph1">`sharedDataBlob`</ph>パラメーター&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; 。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-   Depending on the key values, &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; data is returned in the <ph id="ph1">`userDataBlob`</ph> parameter.</source>
+          <target state="translated">-キーの値にに応じて&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;データが返されます、<ph id="ph1">`userDataBlob`</ph>パラメーター&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; 。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A non-<ph id="ph1">`null`</ph> value for the <ph id="ph2">`userName`</ph> parameter indicates that &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; data should also be retrieved.</source>
+          <target state="translated">以外<ph id="ph1">`null`</ph>値を<ph id="ph2">`userName`</ph>パラメーターが示す&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;データも取得する必要があります&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A personalization provider that derives from &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt; and implements this method can optimize interactions with its data store by retrieving all personalization data in one round trip, as opposed to retrieving &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; data in two separate round trips.</source>
+          <target state="translated">派生するパーソナル化プロバイダー&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;しを実装してこのメソッドことができます最適化、データ ストアとの対話、1 つのラウンド トリップでのすべてのパーソナル化データを取得することによってを取得する場合とは異なり&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;と&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;2 つの個別のラウンド トリップでのデータ&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>パーソナル化データを管理します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The path for personalization information to be used as the retrieval key.</source>
+          <target state="translated">パーソナル化情報取得キーとして使用するパス。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The user name for personalization information to be used as the retrieval key.</source>
+          <target state="translated">パーソナル化情報取得キーとして使用するユーザー名。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The returned data for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope.</source>
+          <target state="translated">返されるデータを<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>スコープ。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The returned data for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope.</source>
+          <target state="translated">返されるデータを<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>スコープ。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Loads the raw data from the underlying data store and converts that data into a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">基になるデータ ストアから生データを読み込んで、そのデータに変換します、 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This method is the main entry point used by the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; class to load personalization data.</source>
+          <target state="translated">この方法はメイン エントリ ポイントで使用される、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;パーソナル化データをロードするクラス&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The default implementation loads the raw data from the underlying data store (functionality is implemented in derived providers) and then converts the raw data into a &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt; instance.</source>
+          <target state="translated">既定の実装は、基になるデータ ストアから生データを読み込みます (この機能は派生プロバイダー) に生データを変換し、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt;インスタンス&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt;。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`ignoreCurrentUser`</ph> parameter is <ph id="ph2">`true`</ph>, no user name is passed to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.LoadPersonalizationBlobs%2A&gt; method.</source>
+          <target state="translated">場合、<ph id="ph1">`ignoreCurrentUser`</ph>パラメーターは<ph id="ph2">`true`</ph>、ユーザー名が渡されない、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.LoadPersonalizationBlobs%2A&gt;メソッド&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.LoadPersonalizationBlobs%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A personalization provider can choose to interpret this as meaning that only personalization state with a &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope should be retrieved from the underlying data store.</source>
+          <target state="translated">パーソナル化プロバイダーはその唯一のパーソナル化状態での意味として解釈するを選択できます、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープは、基になるデータ ストアから取得する必要があります&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt; method is executing, it calls the LoadPersonalizationState method, and there are three types of deserialization errors that can occur as the state is being loaded.</source>
+          <target state="translated">ときに、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt;メソッドを実行して、LoadPersonalizationState メソッドを呼び出すし、状態が読み込まれると発生する可能性が逆シリアル化エラーの&amp;3; 種類があります&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When these specific errors occur, no exception is thrown, and the error events are logged instead by the Health Monitoring feature (for information on health monitoring and accessing the logs created by it, see <bpt id="p1">[</bpt>ASP.NET Health Monitoring Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>).</source>
+          <target state="translated">これらの特定のエラーが発生する、例外はスローされず、正常性の監視機能によって、エラー イベントが代わりに記録されます (正常性状態の監視と、それによって作成されたログへのアクセスについては、次を参照してください。 <bpt id="p1">[</bpt>ASP.NET 正常性の監視の概要<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>)。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The following three scenarios cause deserialization error events to be written to the log:      -   A failed attempt to deserialize a property type that uses a string &lt;xref:System.ComponentModel.TypeConverter&gt;.</source>
+          <target state="translated">次の&amp;3; つのシナリオの原因には、エラー イベントをログに書き込むが逆シリアル化:- &lt;xref:System.ComponentModel.TypeConverter&gt;.&lt;/xref:System.ComponentModel.TypeConverter&gt;文字列を使用してプロパティの型を逆シリアル化に失敗しました。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-   A failed attempt to deserialize a property type that uses binary serialization.</source>
+          <target state="translated">バイナリのシリアル化を使用するプロパティの型を逆シリアル化に失敗しました。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-   A failed attempt to deserialize a property type because an instance of the type cannot be created.</source>
+          <target state="translated">-型のインスタンスを作成できないために、プロパティの型を逆シリアル化に失敗しました。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>パーソナル化データを管理します。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Boolean&gt; indicating whether the user name should be passed to the personalization provider.</source>
+          <target state="translated">A&lt;xref:System.Boolean&gt;パーソナル化プロバイダーにユーザー名を渡す必要があるかどうかを示すします&lt;/xref:System.Boolean&gt;。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing personalization data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>パーソナル化データを格納します。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">webPartManager</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">webPartManager</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, deletes raw personalization data from the underlying data store.</source>
+          <target state="translated">派生クラスでオーバーライドされると、生のパーソナル化データを基になるデータ ストアから削除します。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Classes that derive from &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt; and implement this method should use the <ph id="ph1">`webPartManager`</ph>, <ph id="ph2">`path`</ph>, and <ph id="ph3">`userName`</ph> parameters as storage keys.</source>
+          <target state="translated">派生したクラス&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;し、このメソッドを使用する必要がありますを実装、 <ph id="ph1">`webPartManager`</ph>、 <ph id="ph2">`path`</ph>、および<ph id="ph3">`userName`</ph>記憶域のキーとして使用されるパラメーター&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt; 。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Derived implementations must modify the data store so that personalization data for supplied storage keys is effectively deleted.</source>
+          <target state="translated">派生実装では、指定されたストレージ キーのパーソナル化データが実質的に削除されるように、データ ストアを変更する必要があります。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>It is up to the derived implementations as to how they physically accomplish this.</source>
+          <target state="translated">派生実装方法、物理的にこれを実現したりの責任です。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The derived personalization provider must be able to distinguish personalization data on a per-page basis.</source>
+          <target state="translated">派生のパーソナル化プロバイダーは、ページごとの個人用設定データを区別できる必要があります。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Furthermore, for a given page's state, the personalization provider must be able to distinguish between &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope data.</source>
+          <target state="translated">さらに、特定のページの状態のパーソナル化プロバイダーできる必要がありますを区別する&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;と&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;データ スコープします&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If a non-<ph id="ph1">`null`</ph> user name is provided, then the reset operation applies to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope; otherwise, the reset operation applies to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope.</source>
+          <target state="translated">以外<ph id="ph1">`null`</ph>ユーザー名を指定し、リセット操作に適用されます、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープですそれ以外の場合、リセット操作の対象、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープ。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; 。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>パーソナル化データを管理します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The path for personalization information to be used as the data store key.</source>
+          <target state="translated">パーソナル化については、データ ストアのキーとして使用されるパスです。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The user name for personalization information to be used as the data store key.</source>
+          <target state="translated">パーソナル化については、データ ストアのキーとして使用するユーザー名。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Resets personalization data to the underlying data store.</source>
+          <target state="translated">パーソナル化データを基になるデータ ストアにリセットします。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This method is the main entry point used by the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; class to reset personalization data.</source>
+          <target state="translated">この方法はメイン エントリ ポイントで使用される、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;パーソナル化データをリセットするクラス&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The default implementation uses the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control to determine the path and user name for the data to be reset.</source>
+          <target state="translated">既定の実装を使用して、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;をリセットするデータのパスとユーザー名を決定するコントロール&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The default implementation then calls the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.ResetPersonalizationBlob%2A&gt; method.</source>
+          <target state="translated">既定の実装し、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.ResetPersonalizationBlob%2A&gt;メソッド&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.ResetPersonalizationBlob%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>パーソナル化データを管理します。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;webPartManager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;webPartManager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, deletes personalization state from the underlying data store based on the specified parameters.</source>
+          <target state="translated">派生クラスでオーバーライドされるは、パーソナル化状態を指定したパラメーターに基づいて、基になるデータ ストアから削除します。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>This method is the abstract definition of an administrative method for deleting personalization data.</source>
+          <target state="translated">このメソッドは、パーソナル化データを削除するための管理メソッドの抽象定義です。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Derived implementations should follow the logic described below.</source>
+          <target state="translated">派生実装では、以下に示すロジックを従う必要があります。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>No wildcard character searches are supported by this method.</source>
+          <target state="translated">このメソッドでは、ワイルドカード文字による検索はサポートされていません。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>If the personalization provider exposes data from a transaction-aware data store, this method should perform its operations as a single atomic transaction.</source>
+          <target state="translated">パーソナル化プロバイダーは、トランザクションに対応するデータ ストアからのデータを公開する場合、このメソッドは、1 つのアトミック トランザクションとその操作を実行する必要があります。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Only the following combinations of parameters are allowed:      -   The <ph id="ph1">`scope`</ph> parameter is set, and all other parameters are set to <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">次のパラメーターの組み合わせのみが許可されている: -<ph id="ph1">`scope`</ph>パラメーターを設定すると、およびその他のすべてのパラメーターに設定されて<ph id="ph2">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>This combination deletes all Web Parts personalization data associated with the personalization scope indicated by <ph id="ph1">`scope`</ph>.</source>
+          <target state="translated">この組み合わせによって示されるパーソナル化スコープに関連付けられているすべての Web パーツのパーソナル化データを削除する<ph id="ph1">`scope`</ph>です。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`scope`</ph> parameter is set, and the <ph id="ph2">`paths`</ph> parameter contains at least one value.</source>
+          <target state="translated">-<ph id="ph1">`scope`</ph>パラメーターを設定すると、および<ph id="ph2">`paths`</ph>パラメーターには、少なくとも&amp;1; つの値が含まれています。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This combination deletes all Web Parts personalization data for the specified path or paths in the personalization scope indicated by <ph id="ph1">`scope`</ph>.</source>
+          <target state="translated">この組み合わせは、指定されたパスまたはパスによって示されるパーソナル化スコープ内のすべての Web パーツのパーソナル化データを削除<ph id="ph1">`scope`</ph>です。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`scope`</ph> parameter is set to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;, the <ph id="ph2">`paths`</ph> parameter is set and contains only one value, and the <ph id="ph3">`usernames`</ph> parameter contains at least one value.</source>
+          <target state="translated">-<ph id="ph1">`scope`</ph>にパラメーターが設定されている&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;、<ph id="ph2">`paths`</ph>パラメーターが設定されているし、1 つの値が含まれています、<ph id="ph3">`usernames`</ph>パラメーターには、少なくとも&amp;1; つの値が含まれています&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>This combination deletes all user personalization Web Parts data for the given path that is associated with the user or users contained in <ph id="ph1">`usernames`</ph>.</source>
+          <target state="translated">この組み合わせは、すべてユーザーの個人用設定に含まれているユーザーに関連付けられている指定されたパスの Web パーツのデータを削除<ph id="ph1">`usernames`</ph>です。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`scope`</ph> parameter is set to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;, the <ph id="ph2">`paths`</ph> parameter is set to <ph id="ph3">`null`</ph>, and the <ph id="ph4">`usernames`</ph> parameter contains at least one value.</source>
+          <target state="translated">-<ph id="ph1">`scope`</ph>にパラメーターが設定されている&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;、<ph id="ph2">`paths`</ph>にパラメーターが設定されている<ph id="ph3">`null`</ph>、および<ph id="ph4">`usernames`</ph>パラメーターには、少なくとも&amp;1; つの値が含まれています&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>This combination deletes all per-user personalization Web Parts data, across all paths, associated with the user or users contained in <ph id="ph1">`usernames`</ph>.</source>
+          <target state="translated">この組み合わせに含まれているユーザーに関連付けられているすべてのパスの間でのすべてのユーザーごとの個人用設定、Web パーツのデータの削除<ph id="ph1">`usernames`</ph>です。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Any other combination of parameter values is invalid and will throw an &lt;xref:System.ArgumentException&gt; exception.</source>
+          <target state="translated">その他のパラメーター値の組み合わせは無効でありがスローされます、&lt;xref:System.ArgumentException&gt;例外です&lt;/xref:System.ArgumentException&gt;。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Specifically, the following two combinations are not allowed:      -   The <ph id="ph1">`usernames`</ph> parameter cannot be provided when <ph id="ph2">`scope`</ph> is set to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.</source>
+          <target state="translated">具体的には、次の&amp;2; つの組み合わせが許可されていません: -<ph id="ph1">`usernames`</ph>時にパラメーターを指定することはできません<ph id="ph2">`scope`</ph> &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;に設定されています。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`paths`</ph> parameter cannot contain more than one entry when the <ph id="ph2">`usernames`</ph> parameter is not <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">-<ph id="ph1">`paths`</ph>パラメーターが&amp;1; つ以上のエントリを含めることはできませんと、<ph id="ph2">`usernames`</ph>パラメーターではありません<ph id="ph3">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Any <ph id="ph1">`paths`</ph> and <ph id="ph2">`usernames`</ph> parameter values contained within the respective arrays must meet the following validation rules.</source>
+          <target state="translated">どの<ph id="ph1">`paths`</ph>と<ph id="ph2">`usernames`</ph>それぞれの配列内に含まれるパラメーター値は、次の検証規則を満たす必要があります。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>If any validation rules fail for any member of the parameter arrays, an &lt;xref:System.ArgumentException&gt; exception is thrown.</source>
+          <target state="translated">パラメーター配列のメンバーはすべての規則が失敗した場合、&lt;xref:System.ArgumentException&gt;例外がスローされます&lt;/xref:System.ArgumentException&gt;。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The validation rules are:      -   <ph id="ph1">`null`</ph> values are not allowed.</source>
+          <target state="translated">検証規則は、:<ph id="ph1">`null`</ph>値は許可されません。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>-   An empty string ("") is not allowed.</source>
+          <target state="translated">-空の文字列 ("") は許可されていません。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Parameters should be trimmed prior to performing an empty string check.</source>
+          <target state="translated">空の文字列チェックを実行する前にパラメーターが省略される必要があります。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`usernames`</ph> parameter cannot contain commas (,).</source>
+          <target state="translated">-<ph id="ph1">`usernames`</ph>パラメーターはコンマ (,) を含めることはできません。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>-   The length of the <ph id="ph1">`paths`</ph> parameter cannot be greater than 256 characters for a SQL database.</source>
+          <target state="translated">-の長さ、<ph id="ph1">`paths`</ph>パラメーターは、SQL データベースは、256 文字を超えることはできません。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>-   The length of the <ph id="ph1">`usernames`</ph> parameter cannot be greater than 256 characters for a SQL database.</source>
+          <target state="translated">-の長さ、<ph id="ph1">`usernames`</ph>パラメーターは、SQL データベースは、256 文字を超えることはできません。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the personalization information to be reset.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>パーソナル化情報をリセットします。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>This value cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">この値にすることはできません<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The paths for personalization information to be deleted.</source>
+          <target state="translated">パーソナル化情報を削除するためのパス。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The user names for personalization information to be deleted.</source>
+          <target state="translated">パーソナル化情報を削除するユーザー名。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The number of rows deleted.</source>
+          <target state="translated">削除された行の数。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, deletes Web Parts personalization data from the underlying data store based on the specified parameters.</source>
+          <target state="translated">派生クラスでオーバーライドされると、指定したパラメーターに基づいて、基になるデータ ストアから Web パーツのパーソナル化データを削除します。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>This method is the abstract definition of an administrative method for deleting personalization data.</source>
+          <target state="translated">このメソッドは、パーソナル化データを削除するための管理メソッドの抽象定義です。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Note that this method affects only user personalization data, and not shared data.</source>
+          <target state="translated">ユーザー パーソナル化データと共有しないデータのみにこのメソッドが決まることに注意してください。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Derived implementations should follow the logic described below:      -   The <ph id="ph1">`path`</ph> parameter cannot contain wildcard characters.</source>
+          <target state="translated">派生実装は、次に示すロジックを従う必要があります: -<ph id="ph1">`path`</ph>パラメーターは、ワイルドカード文字を含めることはできません。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>-   If the provider exposes data from a transaction-aware data store, this method should perform its operations in a single atomic transaction.</source>
+          <target state="translated">-プロバイダーは、トランザクションに対応するデータ ストアからのデータを公開する場合、このメソッドは、単一のアトミック トランザクションで操作を実行する必要があります。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>-   If the <ph id="ph1">`path`</ph> parameter is non-<ph id="ph2">`null`</ph>, then only per-user personalization records associated with <ph id="ph3">`path`</ph> will be deleted.</source>
+          <target state="translated">場合、<ph id="ph1">`path`</ph>パラメーターは非<ph id="ph2">`null`</ph>、して、ユーザーごとの個人用設定のレコードのみを関連付ける<ph id="ph3">`path`</ph>は削除されます。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>-   Only per-user personalization records associated with users that are considered inactive since the date indicated in the <ph id="ph1">`userInactiveSinceDate`</ph> parameter will be deleted.</source>
+          <target state="translated">に示されている日から非アクティブと見なされているユーザーに関連付けられているユーザーごとのパーソナル化レコードのみ、<ph id="ph1">`userInactiveSinceDate`</ph>パラメーターが削除されます。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Specifically, records where &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; is less than or equal to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; are deleted.</source>
+          <target state="translated">具体的には、レコードを&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;と同じかそれよりも少ない&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;は削除されます&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>-   If both parameters are provided, then records that match both constraints are deleted.</source>
+          <target state="translated">-両方のパラメーターを指定しない場合は、両方の制約に一致するレコードが削除されます。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`path`</ph> parameter can be <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">-<ph id="ph1">`path`</ph>パラメーターを指定できます<ph id="ph2">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`path`</ph> parameter cannot be an empty string.</source>
+          <target state="translated">-<ph id="ph1">`path`</ph>パラメーターが空の文字列にすることはできません。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>It should be trimmed prior to performing this check.</source>
+          <target state="translated">このチェックを実行する前にこれが省略される必要があります。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property cannot be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">-&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;プロパティは、 <ph id="ph1">`null`</ph>&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The path of the personalization data to be deleted.</source>
+          <target state="translated">削除するパーソナル化データのパス。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>This value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> but cannot be an empty string ("").</source>
+          <target state="translated">この値は、 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>することはできません、空の文字列 ("") です。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The date indicating the last time a Web site user changed personalization data.</source>
+          <target state="translated">最後の時刻を示す日付 Web サイトのユーザーには、パーソナル化データが変更されました。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The number of rows deleted from the underlying data store.</source>
+          <target state="translated">基になるデータ ストアから削除された行の数。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, saves raw personalization data to the underlying data store.</source>
+          <target state="translated">派生クラスでオーバーライドされると、生のパーソナル化データを基になるデータ ストアに保存します。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>This method is the abstract definition of the method used for saving raw personalization data to the underlying data store.</source>
+          <target state="translated">このメソッドは、生のパーソナル化データを基になるデータ ストアに保存するときに使用するメソッドの抽象定義です。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Derived implementations should use the <ph id="ph1">`webPartManager`</ph>, <ph id="ph2">`path`</ph>, and <ph id="ph3">`userName`</ph> parameters as storage keys.</source>
+          <target state="translated">派生実装を使用する必要があります、 <ph id="ph1">`webPartManager`</ph>、 <ph id="ph2">`path`</ph>、および<ph id="ph3">`userName`</ph>記憶域のキーとして使用されるパラメーター。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The derived personalization provider must be able to distinguish personalization data on a per-page basis.</source>
+          <target state="translated">派生のパーソナル化プロバイダーは、ページごとの個人用設定データを区別できる必要があります。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Furthermore, for a given page's state, the provider must be able to distinguish between &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope.</source>
+          <target state="translated">さらに、特定のページの状態のプロバイダーできる必要がありますを区別する&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;と&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープ&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>If a non-<ph id="ph1">`null`</ph> user name is provided, then the <ph id="ph2">`dataBlob`</ph> parameter is in &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope; otherwise, the <ph id="ph3">`dataBlob`</ph> parameter is assumed to be in &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope.</source>
+          <target state="translated">以外<ph id="ph1">`null`</ph>ユーザー名を指定すると、<ph id="ph2">`dataBlob`</ph>パラメーターが、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープですそれ以外の場合、<ph id="ph3">`dataBlob`</ph>パラメーターがであると見なさ&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープ。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; 。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>パーソナル化データを管理します。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The path for personalization information to be used as the data store key.</source>
+          <target state="translated">パーソナル化については、データ ストアのキーとして使用されるパスです。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The user name for personalization information to be used as the key.</source>
+          <target state="translated">パーソナル化については、キーとして使用するユーザー名。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The byte array of data to be saved.</source>
+          <target state="translated">データを保存するバイト配列。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Saves personalization data to a data store.</source>
+          <target state="translated">パーソナル化データをデータ ストアに保存します。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>This method is the main entry point used by the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; class to save personalization data.</source>
+          <target state="translated">この方法はメイン エントリ ポイントで使用される、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;パーソナル化データを保存するクラス&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The default implementation of this method uses the methods of an internal implementation of &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt; to pack personalization data into a byte array.</source>
+          <target state="translated">このメソッドの既定の実装の内部実装のメソッドを使用して&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt;バイト配列にパーソナル化データをパックします&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt;。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>If the results of this packing create an empty byte array (because property extraction resulted in no personalization data), the default implementation calls the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.ResetPersonalizationBlob%2A&gt; method.</source>
+          <target state="translated">この梱包の結果が空のバイトを作成する場合は、配列 (プロパティ抽出結果、パーソナル化データはありません) のための既定の実装、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.ResetPersonalizationBlob%2A&gt;メソッド&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.ResetPersonalizationBlob%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Otherwise, the default implementation calls the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.SavePersonalizationBlob%2A&gt; method.</source>
+          <target state="translated">それ以外の場合、既定の実装を呼び出す、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.SavePersonalizationBlob%2A&gt;メソッド&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.SavePersonalizationBlob%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing personalization data to be saved.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を保存するパーソナル化データを格納します。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;state&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;state&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> object being saved has a different type from the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">state</ph><ept id="p2">&lt;/code&gt;</ept> object that was returned by the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.LoadPersonalizationState*&gt; method.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">state</ph> <ept id="p1">&lt;/code&gt;</ept>保存されているオブジェクトが別の型を持つ、 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">state</ph> <ept id="p2">&lt;/code&gt;</ept>によって返されたオブジェクト、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.LoadPersonalizationState*&gt;メソッド&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.LoadPersonalizationState*&gt;。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

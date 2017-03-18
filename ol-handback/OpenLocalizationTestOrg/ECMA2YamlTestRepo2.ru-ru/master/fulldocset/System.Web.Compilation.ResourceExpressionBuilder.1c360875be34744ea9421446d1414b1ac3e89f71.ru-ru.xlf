@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7674f1d7451e463aa8c068585d4e04c3ddbd4483</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Compilation.ResourceExpressionBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">933d4787bf6d35dc8170ae9c804d5ca1bfe1dae7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b01c722347afaacb57040454896bc197132eff1e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides code to the page parser for assigning property values on a control.</source>
+          <target state="translated">Предоставляет код для синтаксического анализатора страницы для присвоения значений свойства элемента управления.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ResourceExpressionBuilder class creates code to retrieve resource values when the page is executed.</source>
+          <target state="translated">Класс ResourceExpressionBuilder создает код для получения значений ресурсов при выполнении страницы.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A resource file typically contains information localized for a particular language or culture.</source>
+          <target state="translated">Файл ресурсов, обычно содержит сведения, локализованные для конкретного языка или языка и региональных параметров.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A resource expression takes the form <ph id="ph1">`&lt;%$ Resources: ClassKey, ResourceKey %&gt;`</ph> within the page.</source>
+          <target state="translated">Выражение ресурса принимает форму <ph id="ph1">`&lt;%$ Resources: ClassKey, ResourceKey %&gt;`</ph> внутри страницы.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The part of the expression before the colon (:) designates the type of expression builder to use, and the part after the colon signifies the class name and resource key.</source>
+          <target state="translated">Часть выражения перед двоеточием (:), задает тип построителя выражений, а часть после двоеточия обозначает ключ имени и ресурсов класса.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The preceding expression would retrieve the following value from a file named <ph id="ph1">`ClassKey.resx`</ph>:      <ph id="ph2">```   &lt;data name="ResourceKey"&gt;&lt;value xml:space="preserve"&gt;Hello!&lt;/value&gt;&lt;/data&gt;   ```</ph>       When the page parser encounters an expression with the <ph id="ph3">`Resources`</ph> prefix, it creates an instance of the ResourceExpressionBuilder class.</source>
+          <target state="translated">Предыдущее выражение извлечет следующее значение из файла с именем <ph id="ph1">`ClassKey.resx`</ph>: <ph id="ph2">```   &lt;data name="ResourceKey"&gt;&lt;value xml:space="preserve"&gt;Hello!&lt;/value&gt;&lt;/data&gt;   ```</ph> когда анализатор страниц обнаруживает выражение с <ph id="ph3">`Resources`</ph> префикс, он создает экземпляр класса ResourceExpressionBuilder.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ResourceExpressionBuilder class either evaluates the expression or generates code to return a value for the expression when the page is executed.</source>
+          <target state="translated">Класс ResourceExpressionBuilder вычисляет выражение или создает код, который возвращает значение для выражения, при выполнении страницы.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expression is encountered in a page that will be compiled, the ResourceExpressionBuilder object generates code that retrieves the specified value from the resource file.</source>
+          <target state="translated">На странице, будет компилироваться при обнаружении выражение объекта ResourceExpressionBuilder создает код, который извлекает указанное значение из файла ресурсов.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expression is encountered in a page that will not be compiled, the ResourceExpressionBuilder object returns the value from the resource file when the page is parsed.</source>
+          <target state="translated">На странице, не будет компилироваться при обнаружении выражение объекта ResourceExpressionBuilder возвращает значение из файла ресурсов при синтаксическом анализе страницы.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Compilation.ResourceExpressionBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Web.Compilation.ResourceExpressionBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Returns a value from a resource file.</source>
+          <target state="translated">Возвращает значение из файла ресурсов.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called when an expression of the form <ph id="ph1">`&lt;%$ Resources: someResourceKey %&gt;`</ph> is encountered in a page that uses the no-compile feature.</source>
+          <target state="translated">Этот метод вызывается, когда выражение в форме <ph id="ph1">`&lt;%$ Resources: someResourceKey %&gt;`</ph> встречается на странице, использующей функцию без компиляции.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It retrieves the appropriate value from a key/value pair in a resource file.</source>
+          <target state="translated">Он извлекает соответствующее значение из пары ключ значение в файле ресурсов.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The object containing the expression.</source>
+          <target state="translated">Объект, содержащий выражение.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The object that represents information about the property bound to by the expression.</source>
+          <target state="translated">Объект, представляющий сведения о свойстве привязан к выражением.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The object containing parsed data as returned by the &lt;xref:System.Web.Compilation.ResourceExpressionBuilder.ParseExpression*&gt; method.</source>
+          <target state="translated">Объект, содержащий синтаксический анализ данных, возвращенный &lt;xref:System.Web.Compilation.ResourceExpressionBuilder.ParseExpression*&gt;метод.&lt;/xref:System.Web.Compilation.ResourceExpressionBuilder.ParseExpression*&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Contextual information for the evaluation of the expression.</source>
+          <target state="translated">Контекстные сведения для определения значения выражения.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; associated with the parsed expression.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Связанные с выражения проанализированный.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The parsed expression contains the class name and resource key.</source>
+          <target state="translated">Проанализированное выражение содержит ключ, имя и ресурсов класса.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns a code expression to evaluate during page execution.</source>
+          <target state="translated">Возвращает кодовое выражение вычисляется во время выполнения страницы.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called during the CodeDOM creation for a page or control.</source>
+          <target state="translated">Этот метод вызывается во время создания CodeDOM для страницы или элемента управления.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.CodeDom.CodeExpression&gt; object returned is of the type &lt;xref:System.CodeDom.CodeMethodInvokeExpression&gt; and represents the method to call when retrieving a resource value during page execution.</source>
+          <target state="translated">&lt;xref:System.CodeDom.CodeExpression&gt;Возвращаемый объект — типа &lt;xref:System.CodeDom.CodeMethodInvokeExpression&gt;и представляет метод, вызываемый при получении значения ресурса при выполнении страницы.&lt;/xref:System.CodeDom.CodeMethodInvokeExpression&gt; &lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The property name of the object.</source>
+          <target state="translated">Имя свойства объекта.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The parsed value of the expression.</source>
+          <target state="translated">Проанализированное значение выражения.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">Свойства для элемента управления или страницы.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that invokes a method.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , вызывающий метод.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Returns an object that represents the parsed expression.</source>
+          <target state="translated">Возвращает объект, представляющий проанализированное выражение.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method parses the expression and returns a &lt;xref:System.Web.Compilation.ResourceExpressionFields.ClassKey%2A&gt; and a &lt;xref:System.Web.Compilation.ResourceExpressionFields.ResourceKey%2A&gt; property value in the returned &lt;xref:System.Web.Compilation.ResourceExpressionFields&gt; object, if these properties are provided in the expression.</source>
+          <target state="translated">Этот метод выполняет синтаксический анализ выражения и возвращает &lt;xref:System.Web.Compilation.ResourceExpressionFields.ClassKey%2A&gt;и &lt;xref:System.Web.Compilation.ResourceExpressionFields.ResourceKey%2A&gt;значение свойства в возвращаемом &lt;xref:System.Web.Compilation.ResourceExpressionFields&gt;объекта, если эти свойства предоставляются в выражении.&lt;/xref:System.Web.Compilation.ResourceExpressionFields&gt; &lt;/xref:System.Web.Compilation.ResourceExpressionFields.ResourceKey%2A&gt; &lt;/xref:System.Web.Compilation.ResourceExpressionFields.ClassKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The expression value to be parsed.</source>
+          <target state="translated">Значение выражения для синтаксического анализа.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.Compilation.ResourceExpressionFields"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the expression.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.Compilation.ResourceExpressionFields"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для выражения.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Returns an object that represents the parsed expression.</source>
+          <target state="translated">Возвращает объект, представляющий проанализированное выражение.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned &lt;xref:System.Object&gt; is of type &lt;xref:System.Web.Compilation.ResourceExpressionFields&gt;.</source>
+          <target state="translated">Возвращаемый &lt;xref:System.Object&gt;относится к типу &lt;xref:System.Web.Compilation.ResourceExpressionFields&gt;.&lt;/xref:System.Web.Compilation.ResourceExpressionFields&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method parses the expression and returns a &lt;xref:System.Web.Compilation.ResourceExpressionFields.ClassKey%2A&gt; and a &lt;xref:System.Web.Compilation.ResourceExpressionFields.ResourceKey%2A&gt; property value in the returned &lt;xref:System.Web.Compilation.ResourceExpressionFields&gt; object, if those properties are provided in the expression.</source>
+          <target state="translated">Этот метод выполняет синтаксический анализ выражения и возвращает &lt;xref:System.Web.Compilation.ResourceExpressionFields.ClassKey%2A&gt;и &lt;xref:System.Web.Compilation.ResourceExpressionFields.ResourceKey%2A&gt;значение свойства в возвращаемом &lt;xref:System.Web.Compilation.ResourceExpressionFields&gt;объекта, если эти свойства предоставляются в выражении.&lt;/xref:System.Web.Compilation.ResourceExpressionFields&gt; &lt;/xref:System.Web.Compilation.ResourceExpressionFields.ResourceKey%2A&gt; &lt;/xref:System.Web.Compilation.ResourceExpressionFields.ClassKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The value of the declarative expression.</source>
+          <target state="translated">Значение декларативного выражения.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The type of the property bound to by the expression.</source>
+          <target state="translated">Тип свойства, связанного с выражением.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Contextual information for the evaluation of the expression.</source>
+          <target state="translated">Контекстные сведения для определения значения выражения.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the parsed expression.</source>
+          <target state="translated">&lt;xref:System.Object&gt;, Представляющий проанализированное выражение.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The resource expression cannot be found or is invalid.</source>
+          <target state="translated">Выражение ресурса не найден или является недопустимым.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether an expression can be evaluated in a page that uses the no-compile feature.</source>
+          <target state="translated">Возвращает значение, указывающее, можно ли вычислить выражение на странице, использующей функцию без компиляции.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SupportsEvaluate property indicates whether the &lt;xref:System.Web.Compilation.ResourceExpressionBuilder.EvaluateExpression%2A&gt; method has been implemented in the class.</source>
+          <target state="translated">Свойство SupportsEvaluate указывает, является ли &lt;xref:System.Web.Compilation.ResourceExpressionBuilder.EvaluateExpression%2A&gt;метод был реализован в классе.&lt;/xref:System.Web.Compilation.ResourceExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.Compilation.ResourceExpressionBuilder.EvaluateExpression%2A&gt; must be implemented within an expression builder for an expression to be evaluated in a page that uses the no-compile feature.</source>
+          <target state="translated">&lt;xref:System.Web.Compilation.ResourceExpressionBuilder.EvaluateExpression%2A&gt;должен быть реализован в построитель выражений для выражения для оценки на странице, использующей функцию без компиляции.&lt;/xref:System.Web.Compilation.ResourceExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.Compilation.ResourceExpressionBuilder&gt; supports evaluation of resource values in non-compiled pages, so this property always returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">&lt;xref:System.Web.Compilation.ResourceExpressionBuilder&gt;поддерживает вычисление значений ресурсов на некомпилированных страницах, поэтому данное свойство всегда возвращает <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.Compilation.ResourceExpressionBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>во всех случаях.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

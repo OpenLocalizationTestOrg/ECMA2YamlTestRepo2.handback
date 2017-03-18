@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6cd64a9249ff66c827b4c894d02e584c6c252eb1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Hosting.IRegisteredObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64381e27b338dee24903a68b2beab833233048d7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2e027d5b43b0b8a65eabfefb795c0d7c005812e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines methods for objects that are managed by the hosting environment.</source>
+          <target state="translated">Define os métodos para objetos que são geridos pelo ambiente de alojamento.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects must implement the IRegisteredObject interface in order to register with the hosting environment and have their lifetime managed by the hosting environment.</source>
+          <target state="translated">Objetos tem de implementar a interface IRegisteredObject para registar com o ambiente de alojamento e ter a respetiva duração gerida pelo ambiente de alojamento.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can create an instance of a registered object by calling the &lt;xref:System.Web.Hosting.ApplicationManager.CreateObject%2A?displayProperty=fullName&gt; method on the application manager.</source>
+          <target state="translated">Pode criar uma instância de um objeto registado ao chamar o &lt;xref:System.Web.Hosting.ApplicationManager.CreateObject%2A?displayProperty=fullName&gt;método no Gestor de aplicação.&lt;/xref:System.Web.Hosting.ApplicationManager.CreateObject%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application manager returns the newly created object to the caller, which can then call a type-specific method on the object.</source>
+          <target state="translated">O Gestor de aplicação devolve o objeto criado recentemente para o autor da chamada que, em seguida, pode chamar um método de específicos do tipo do objeto.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During startup, the registered object should call the &lt;xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A?displayProperty=fullName&gt; method to complete registration of the object.</source>
+          <target state="translated">Durante o arranque, o objeto registado deve chamar o &lt;xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A?displayProperty=fullName&gt;método para concluir o registo do objeto.&lt;/xref:System.Web.Hosting.HostingEnvironment.RegisterObject%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the application manager needs to stop a registered object, it will call the &lt;xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt; method.</source>
+          <target state="translated">Quando o Gestor de aplicação tem de parar um objeto registado, irá chamar o &lt;xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt;método.&lt;/xref:System.Web.Hosting.IRegisteredObject.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applications can have only one instance of a registered type.</source>
+          <target state="translated">As aplicações podem ter apenas uma instância de um tipo registado.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create multiple instances of a registered type, use the factory pattern to create an object manager that is registered with the application and then manages the multiple instances.</source>
+          <target state="translated">Para criar várias instâncias de um tipo registado, utilize o padrão de fábrica para criar um objeto manager que está registado com a aplicação e, em seguida, gere várias instâncias.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example of an object implementing the factory pattern, see the example for the &lt;xref:System.Web.Hosting.ApplicationManager&gt; class.</source>
+          <target state="translated">Para obter um exemplo de um objeto de implementação padrão de fábrica, consulte o exemplo para a &lt;xref:System.Web.Hosting.ApplicationManager&gt;classe.&lt;/xref:System.Web.Hosting.ApplicationManager&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Requests a registered object to unregister.</source>
+          <target state="translated">Pedidos de um objeto registado para anular o registo.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application manager will call the Stop method to ask a registered object to unregister.</source>
+          <target state="translated">O Gestor de aplicação irá chamar o método de paragem e peça um objeto registado para anular o registo.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During processing of the Stop method, the registered object must call the &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Durante o processamento do método de paragem, o objeto registado tem de chamar o &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A?displayProperty=fullName&gt;método.&lt;/xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Stop method is first called with the <ph id="ph1">`immediate`</ph> parameter set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">O método de paragem pela primeira vez é chamado com o <ph id="ph1">`immediate`</ph> parâmetro definido como <ph id="ph2">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The object can either complete processing, call the &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt; method, and then return or it can return immediately and complete processing asynchronously before calling the &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt; method.</source>
+          <target state="translated">O objeto pode um processamento completo, chame o &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt;método e, em seguida, devolver ou pode devolver imediatamente e concluir o processamento de forma assíncrona antes de chamar o &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt;método.&lt;/xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt; &lt;/xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the registered object does not complete processing before the application manager's time-out period expires, the Stop method is called again with the <ph id="ph1">`immediate`</ph> parameter set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Se o objeto registado concluir o processamento antes de expira o período de tempo limite do Gestor de aplicação, o método de paragem seja novamente chamado com o <ph id="ph1">`immediate`</ph> parâmetro definido como <ph id="ph2">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`immediate`</ph> parameter is <ph id="ph2">`true`</ph>, the registered object must call the &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt; method before returning; otherwise, its registration will be removed by the application manager.</source>
+          <target state="translated">Quando o <ph id="ph1">`immediate`</ph> parâmetro é <ph id="ph2">`true`</ph>, o objeto registado tem de chamar o &lt;xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt;método antes de o devolver; caso contrário, o respetivo registo será removido pelo Gestor de aplicação.&lt;/xref:System.Web.Hosting.HostingEnvironment.UnregisterObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate the registered object should unregister from the hosting environment before returning; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para indicar o objeto registado deve anular o registo do ambiente de alojamento antes de o devolver; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

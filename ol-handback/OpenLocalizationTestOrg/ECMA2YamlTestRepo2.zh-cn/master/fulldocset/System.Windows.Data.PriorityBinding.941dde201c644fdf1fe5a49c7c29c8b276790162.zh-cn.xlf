@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d0d321f7b99cb5c74c06f585e057109c06cee2da</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Data.PriorityBinding.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">11b06d30465fe87d18b98744d0cf51fbd4edfee8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">02ee68927d47fe5f748f0b0dab44c0ac61d977c1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Describes a collection of <bpt id="p1">&lt;xref href="System.Windows.Data.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that is attached to a single binding target property, which receives its value from the first binding in the collection that produces a value successfully.</source>
+          <target state="translated">描述的集合， <bpt id="p1">&lt;xref href="System.Windows.Data.Binding"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>附加到单个绑定目标属性，它从成功生成值的集合中第一个绑定接收其值的对象。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>PriorityBinding lets you associate a binding target (target) property with a list of bindings.</source>
+          <target state="translated">PriorityBinding，可以将绑定目标 （目标） 属性的绑定的列表与相关联。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The first binding that returns a value successfully becomes the active binding.</source>
+          <target state="translated">已成功返回一个值的第一个绑定将成为活动的绑定。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A binding returns a value successfully if:      1.</source>
+          <target state="translated">绑定返回一个值成功如果︰ 1。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The path to the binding source resolves successfully.</source>
+          <target state="translated">已成功解析到绑定源的路径。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The value converter, if any, is able to convert the resulting value.</source>
+          <target state="translated">值转换器，如果有的话，就能够将转换生成的值。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The resulting value is valid for the target property.</source>
+          <target state="translated">生成的值是有效的目标属性。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The value &lt;xref:System.Windows.DependencyProperty.UnsetValue?displayProperty=fullName&gt; is not considered a successful return value.</source>
+          <target state="translated">值&lt;xref:System.Windows.DependencyProperty.UnsetValue?displayProperty=fullName&gt;不被视为成功的返回值。&lt;/xref:System.Windows.DependencyProperty.UnsetValue?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The priority of the bindings is determined by their order in the list.</source>
+          <target state="translated">按其在列表中的顺序确定绑定的优先级。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The binding that appears first in the list has the highest priority.</source>
+          <target state="translated">将显示在列表前面所绑定的最高优先级。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The binding engine starts with the first binding in the list and verifies whether that binding returns a value successfully; if it does, the value from that binding is used.</source>
+          <target state="translated">绑定引擎启动列表中的第一个绑定，并验证该绑定是否成功，则返回一个值如果存在，则使用该绑定中的值。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If the first binding does not return a value successfully, the binding engine examines the second binding to determine whether it returns a value successfully; if it does, the value from the second binding becomes the active value.</source>
+          <target state="translated">如果第一个绑定不成功返回一个值，绑定引擎将检查以确定是否它返回一个值成功，则第二个绑定如果是这样，从第二个绑定的值将成为活动值的值。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This verification process continues to the end of the list of bindings.</source>
+          <target state="translated">此验证过程将继续到的绑定列表的末尾。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If none of the bindings returns a value successfully, the binding uses the &lt;xref:System.Windows.Data.BindingBase.FallbackValue%2A&gt;.</source>
+          <target state="translated">绑定的绑定都成功返回一个值，如果使用&lt;xref:System.Windows.Data.BindingBase.FallbackValue%2A&gt;.&lt;/xref:System.Windows.Data.BindingBase.FallbackValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The binding engine continues to listen for changes on all bindings.</source>
+          <target state="translated">绑定引擎将继续侦听的所有绑定的更改。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If at any point one of the bindings that has a higher priority returns a value successfully, the value for that binding becomes the active value and replaces the current value.</source>
+          <target state="translated">如果在任何点具有高的优先级的绑定之一返回一个值成功，该绑定的值将为活动值的值，并且替换当前值。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Data.PriorityBinding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Data.PriorityBinding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets the collection of <bpt id="p1">&lt;xref href="System.Windows.Data.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that is established for this instance of <bpt id="p2">&lt;xref href="System.Windows.Data.PriorityBinding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">获取的集合<bpt id="p1">&lt;xref href="System.Windows.Data.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>建立的此实例的对象<bpt id="p2">&lt;xref href="System.Windows.Data.PriorityBinding"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph> &gt;  This property can only be set in <ph id="ph2">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> by using the collection syntax that is shown in the following example, or by accessing the collection object and using its various methods, such as Add.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph>1&gt; 此属性仅在中设置<ph id="ph2">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph>通过使用以下示例所示的集合语法或访问的集合对象，并使用它的各种方法，例如 Add。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The property that you use to access the collection object is read-only, whereas the collection itself is read/write.</source>
+          <target state="translated">用于访问的集合对象的属性是只读的而集合本身是可读/写。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlPropertyElementUsage_Bindings"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Property Element Usage      <ph id="ph1">```   &lt;object&gt;       OneOrMoreBindings   &lt;/object&gt;   ```</ph>      <bpt id="p2">&lt;a name="xamlValues_Bindings"&gt;</bpt><ept id="p2">&lt;/a&gt;</ept>    ## XAML Values    <bpt id="p3">*</bpt>OneOrMoreBindings<ept id="p3">*</ept>    One or more &lt;xref:System.Windows.Data.Binding&gt; objects; &lt;xref:System.Windows.Data.PriorityBinding&gt; does not currently support &lt;xref:System.Windows.Data.MultiBinding&gt; or &lt;xref:System.Windows.Data.PriorityBinding&gt; objects.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlPropertyElementUsage_Bindings"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 属性元素用法<ph id="ph1">```   &lt;object&gt;       OneOrMoreBindings   &lt;/object&gt;   ```</ph> <bpt id="p2">&lt;a name="xamlValues_Bindings"&gt;</bpt> <ept id="p2">&lt;/a&gt;</ept> # # XAML 值<bpt id="p3">*</bpt>OneOrMoreBindings<ept id="p3">*</ept>一个或多个&lt;xref:System.Windows.Data.Binding&gt;对象;&lt;xref:System.Windows.Data.PriorityBinding&gt;当前不支持&lt;xref:System.Windows.Data.MultiBinding&gt;或&lt;xref:System.Windows.Data.PriorityBinding&gt;对象。&lt;/xref:System.Windows.Data.PriorityBinding&gt; &lt;/xref:System.Windows.Data.MultiBinding&gt; &lt;/xref:System.Windows.Data.PriorityBinding&gt; &lt;/xref:System.Windows.Data.Binding&gt;      </target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Windows.Data.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">集合<bpt id="p1">&lt;xref href="System.Windows.Data.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Data.PriorityBinding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> currently supports only objects of type <bpt id="p2">&lt;xref href="System.Windows.Data.Binding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and not <bpt id="p3">&lt;xref href="System.Windows.Data.MultiBinding"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or <bpt id="p4">&lt;xref href="System.Windows.Data.PriorityBinding"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Data.PriorityBinding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>当前支持仅类型的对象<bpt id="p2">&lt;xref href="System.Windows.Data.Binding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>和 not <bpt id="p3">&lt;xref href="System.Windows.Data.MultiBinding"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>或<bpt id="p4">&lt;xref href="System.Windows.Data.PriorityBinding"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Adding a <bpt id="p1">&lt;xref href="System.Windows.Data.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> child to a <bpt id="p2">&lt;xref href="System.Windows.Data.PriorityBinding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object implicitly adds the child to the <bpt id="p3">&lt;xref href="System.Windows.Data.BindingBase"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> collection for the <bpt id="p4">&lt;xref href="System.Windows.Data.MultiBinding"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">添加<bpt id="p1">&lt;xref href="System.Windows.Data.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>子级到<bpt id="p2">&lt;xref href="System.Windows.Data.PriorityBinding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象会隐式添加到子<bpt id="p3">&lt;xref href="System.Windows.Data.BindingBase"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>集合<bpt id="p4">&lt;xref href="System.Windows.Data.MultiBinding"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The default is an empty collection.</source>
+          <target state="translated">默认值为空集合。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether serialization processes should serialize the effective value of the &lt;xref:System.Windows.Data.PriorityBinding.Bindings*&gt; property on instances of this class.</source>
+          <target state="translated">返回一个值，该值指示序列化进程是否应序列化&lt;xref:System.Windows.Data.PriorityBinding.Bindings*&gt;此类的实例上的属性&lt;/xref:System.Windows.Data.PriorityBinding.Bindings*&gt;的有效值</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Windows.Data.PriorityBinding.Bindings*&gt; property value should be serialized; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.Windows.Data.PriorityBinding.Bindings*&gt;属性值应序列化; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Windows.Data.PriorityBinding.Bindings*&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This member supports the <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">此成员支持<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>基础结构，不应在代码中直接使用。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An object to add as a child.</source>
+          <target state="translated">要作为子级添加的对象。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This member supports the <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">此成员支持<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>基础结构，不应在代码中直接使用。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A string to add to the object.</source>
+          <target state="translated">要添加到对象的字符串。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

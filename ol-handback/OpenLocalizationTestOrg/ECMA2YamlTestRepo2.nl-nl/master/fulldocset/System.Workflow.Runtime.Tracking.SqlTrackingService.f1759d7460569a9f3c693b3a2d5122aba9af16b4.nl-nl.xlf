@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f272b81c23d0027aaacedca4b6ea4db57f73d795</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Tracking.SqlTrackingService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1a7c582ce1461554f649ad6693a8586eb44c62fd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5e3d5d8ce04f60a55a331ce3af68a642171a243</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a tracking service that uses a SQL database to store tracking information.</source>
+          <target state="translated">Hiermee geeft u een service bijhouden die gebruikmaakt van een SQL-database voor het opslaan van gegevens voor het bijhouden.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       The SqlTrackingService class represents a fully functional tracking service.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>De klasse SqlTrackingService vertegenwoordigt een volledig functionele traceringsservice.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this service out-of-box to collect and store tracking information, and to store tracking profiles and provide them when requested by the workflow runtime engine.</source>
+          <target state="translated">U kunt deze service out-of-box voor het verzamelen en traceringsgegevens, opslaan en bijhouden profielen opgeslagen en geef ze op verzoek van de workflow runtime engine.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SQL tracking service writes tracking data sent to it by the runtime tracking infrastructure to a SQL database.</source>
+          <target state="translated">De traceringsservice SQL schrijft traceergegevens verzonden door de runtime voor het bijhouden van infrastructuur in een SQL-database.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In many scenarios it is important for the SqlTrackingService to maintain consistency between its database and the state of the workflow runtime engine.</source>
+          <target state="translated">In veel scenario's is het belangrijk voor de SqlTrackingService om consistentie tussen de database en de status van de workflow runtime engine te behouden.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the <ph id="ph1">`SqlTrackingChannel`</ph> class makes use of the &lt;xref:System.Workflow.Runtime.IPendingWork&gt; interface to participate in the workflow transaction batching functionality provided by the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;.</source>
+          <target state="translated">Daarom de <ph id="ph1">`SqlTrackingChannel`</ph> klasse maakt gebruik van de &lt;xref:System.Workflow.Runtime.IPendingWork&gt;interface om deel te nemen in de werkstroom transactie batchen functionaliteit van de &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt; &lt;/xref:System.Workflow.Runtime.IPendingWork&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt; or pass the appropriate parameters to the constructor to configure the SqlTrackingService to participate in batching and add objects that represent pending changes to the SQL database to the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.</source>
+          <target state="translated">U kunt instellen &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;of geeft u de betreffende parameters op voor de constructor voor het configureren van de SqlTrackingService als u wilt deelnemen aan batchverwerking en toevoegen van objecten die staan voor de SQL-database naar de &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt; wijzigingen in behandeling&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlTrackingService also maintains tracking profiles in its database.</source>
+          <target state="translated">De SqlTrackingService onderhoudt ook bijhouden profielen in de database.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow runtime engine must be kept apprised of changes to any of the tracking profiles that it is using.</source>
+          <target state="translated">De workflow runtime engine moet worden gehouden apprised van wijzigingen naar een van de tracerings-profielen die wordt gebruikt.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlTrackingService implements the &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt; interface and periodically examines the tracking profiles in its database in order to notify the workflow runtime engine of changes to a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; stored in its database.</source>
+          <target state="translated">De SqlTrackingService implementeert de &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;interface en controleert periodiek de profielen bijhouden in de database om de workflow runtime engine van wijzigingen aan te melden een &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;opgeslagen in de database.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt; or pass the appropriate parameter to the constructor in order to set the interval at which the SqlTrackingService examines its tracking profiles to notify the tracking runtime of any profile changes.</source>
+          <target state="translated">U kunt instellen &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;of de juiste parameter doorgeven aan de constructor om stelt u het interval waarmee de SqlTrackingService onderzoekt de profielen bijhouden om u te waarschuwen voor profielwijzigingen bijhouden.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When using both the SqlTrackingService and the &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt; in a workflow application, it is recommended that you use a single database for both persistence and tracking.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Bij gebruik van zowel de SqlTrackingService en de &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;in een werkstroom-toepassing wordt aanbevolen dat u een individuele database voor persistentie en bijhouden gebruiken.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified <bpt id="p2">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met behulp van de opgegeven <bpt id="p2">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is called by the workflow runtime engine when the workflow runtime engine is initialized from an application configuration file that specifies a &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;.</source>
+          <target state="translated">Deze constructor is aangeroepen door de workflow runtime engine wanneer de workflow runtime engine wordt geïnitialiseerd vanuit een toepassingsconfiguratiebestand waarmee een &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use this constructor to initialize the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; from a host application.</source>
+          <target state="translated">U kunt ook deze constructor worden geïnitialiseerd de &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;een hosttoepassing.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; is initialized according to the key-value pairs that are contained in the &lt;xref:System.Collections.Specialized.NameValueCollection&gt;.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;basis van de sleutel - waardeparen die zijn opgenomen in de &lt;xref:System.Collections.Specialized.NameValueCollection&gt;.&lt;/xref:System.Collections.Specialized.NameValueCollection&gt; is geïnitialiseerd&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table enumerates the potential keys, the property which each value initializes, and the type of each property.</source>
+          <target state="translated">De volgende tabel somt de potentiële sleutels, de eigenschap waarbij elke waarde wordt geïnitialiseerd en het type van elke eigenschap.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value associated with each key should be a string that represents the appropriate type for the property referred to by that key.</source>
+          <target state="translated">De waarde die is gekoppeld aan elke sleutel moet een tekenreeks met het juiste type voor de eigenschap waarnaar wordt verwezen door deze sleutel.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify one or more of these key-value pairs.</source>
+          <target state="translated">U kunt een of meer van deze sleutel-waardeparen opgeven.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Key|Property Type|Property Description|   |---------|-------------------|--------------------------|   |<ph id="ph1">`"IsTransactional"`</ph><ph id="ph2">|</ph><ph id="ph3">`bool`</ph>|Specifies whether &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; participates in workflow transactions by using the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.</source>
+          <target state="translated">| Sleutel | Eigenschap van het Type | Beschrijving van de eigenschap |   |---------|-------------------|--------------------------|   | <ph id="ph1">`"IsTransactional"`</ph><ph id="ph2">|</ph><ph id="ph3">`bool`</ph>| Hiermee geeft u op of &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;deel uitmaakt van de werkstroom transacties met behulp van de &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default is <ph id="ph1">`true`</ph>, specifying that tracking changes are written to the database in a synchronous manner.|   |<ph id="ph2">`"UseDefaultProfile"`</ph><ph id="ph3">|</ph><ph id="ph4">`bool`</ph>|Specifies whether the default tracking profile will be returned if a tracking profile cannot be found for a &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt; call.</source>
+          <target state="translated">De standaardwaarde is <ph id="ph1">`true`</ph>, geven wijzigingen bijhouden in een synchrone manier worden geschreven naar de database. |   | <ph id="ph2">`"UseDefaultProfile"`</ph><ph id="ph3">|</ph><ph id="ph4">`bool`</ph>| Hiermee geeft u op of het standaard profiel bijhouden wordt geretourneerd als een profiel voor een tracering kan niet worden gevonden voor een &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;aanroepen.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default is <ph id="ph1">`true`</ph>, specifying that the default tracking profile will be used.|   |<ph id="ph2">`"ProfileChangeCheckInterval"`</ph><ph id="ph3">|</ph><ph id="ph4">`double`</ph>|Specifies the time in milliseconds at which to examine the database for changes to its tracking profiles.</source>
+          <target state="translated">De standaardwaarde is <ph id="ph1">`true`</ph>, die aangeeft dat het standaard profiel bijhouden wordt gebruikt. |   | <ph id="ph2">`"ProfileChangeCheckInterval"`</ph><ph id="ph3">|</ph><ph id="ph4">`double`</ph>| Geeft de tijd in milliseconden waarmee de database voor wijzigingen in de profielen bijhouden onderzoeken.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default is 60000 milliseconds.|   |<ph id="ph1">`"ConnectionString"`</ph><ph id="ph2">|</ph><ph id="ph3">`string`</ph>|Specifies the database connection string.</source>
+          <target state="translated">De standaardwaarde is 60000 milliseconden. |   | <ph id="ph1">`"ConnectionString"`</ph><ph id="ph2">|</ph><ph id="ph3">`string`</ph>| Hiermee geeft u de verbindingsreeks voor de database.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default is a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic).|   |<ph id="ph2">`"PartitionOnCompletion"`</ph><ph id="ph3">|</ph><ph id="ph4">`bool`</ph>|Specifies whether tracking data for a workflow instance should be moved to the currently active partition in the database when the workflow instance is completed.|</source>
+          <target state="translated">De standaardwaarde is een null-verwijzing (<ph id="ph1">`Nothing`</ph> in Visual Basic). |   | <ph id="ph2">`"PartitionOnCompletion"`</ph><ph id="ph3">|</ph><ph id="ph4">`bool`</ph>| Hiermee geeft u op of traceringsgegevens voor een werkstroomexemplaar van de moet worden verplaatst naar de actieve partitie in de database als het werkstroomexemplaar is voltooid. |</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies properties of <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and their initial values.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> geeft de eigenschappen van <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en de oorspronkelijke waarden.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;parameters&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;parameters&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_string" name="string" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value associated with a <bpt id="p2">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> property key in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">parameters</ph><ept id="p3">&lt;/code&gt;</ept> is not represented by either &lt;xref:System.Boolean.TrueString&gt; or &lt;xref:System.Boolean.FalseString&gt;.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref uid="langword_csharp_string" name="string" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde gekoppeld aan een <bpt id="p2">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> sleutel in <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">parameters</ph> <ept id="p3">&lt;/code&gt;</ept> niet wordt vertegenwoordigd door &lt;xref:System.Boolean.TrueString&gt;of &lt;xref:System.Boolean.FalseString&gt;.&lt;/xref:System.Boolean.FalseString&gt; &lt;/xref:System.Boolean.TrueString&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified database connection string.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met behulp van de verbindingsreeks voor de opgegeven database.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A valid database connection string.</source>
+          <target state="translated">Een geldige databaseverbindingsreeks.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The database connection string is not valid.</source>
+          <target state="translated">De tekenreeks voor databaseverbinding is niet geldig.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the connection string for the tracking database.</source>
+          <target state="translated">Hiermee wordt de verbindingsreeks voor de database bijhouden.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The connection string for the tracking database.</source>
+          <target state="translated">De verbindingsreeks voor de database bijhouden.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets and sets a value specifying whether the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> will retry when performing a database operation.</source>
+          <target state="translated">Opgehaald en ingesteld met een waarde die aangeeft of de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wordt opnieuw geprobeerd bij het uitvoeren van een databasebewerking.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt; property is set to <ph id="ph1">`false`</ph> and EnableRetries is set to <ph id="ph2">`true`</ph>, then all transaction retries depend on the value of the EnableRetries property.</source>
+          <target state="translated">Als de &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;eigenschap is ingesteld op <ph id="ph1">`false`</ph> en EnableRetries is ingesteld op <ph id="ph2">`true`</ph>, en vervolgens alle transacties nieuwe pogingen, is afhankelijk van de waarde van de eigenschap EnableRetries.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt; is set to <ph id="ph1">`true`</ph>, then certain work is batched and retries of those work batch transactions are handled by a derived type of &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;, such as &lt;xref:System.Workflow.Runtime.Hosting.DefaultWorkflowCommitWorkBatchService&gt; or &lt;xref:System.Workflow.Runtime.Hosting.SharedConnectionWorkflowCommitWorkBatchService&gt;.</source>
+          <target state="translated">Als &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;is ingesteld op <ph id="ph1">`true`</ph>, bepaalde werk batch wordt verwerkt en nieuwe pogingen van die werk batchtransacties worden afgehandeld door een afgeleide type &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;, zoals &lt;xref:System.Workflow.Runtime.Hosting.DefaultWorkflowCommitWorkBatchService&gt;of &lt;xref:System.Workflow.Runtime.Hosting.SharedConnectionWorkflowCommitWorkBatchService&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.SharedConnectionWorkflowCommitWorkBatchService&gt; &lt;/xref:System.Workflow.Runtime.Hosting.DefaultWorkflowCommitWorkBatchService&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regardless of whether &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt; is set to <ph id="ph1">`true`</ph>, the following work items cannot be batched and any transaction retries must be handled through the EnableRetries property.</source>
+          <target state="translated">Ongeacht of &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;is ingesteld op <ph id="ph1">`true`</ph>, de volgende werkitems kunnen niet in batch worden opgenomen en een nieuwe transactie pogingen moeten worden verwerkt via de eigenschap EnableRetries.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Polling for tracking profile changes.</source>
+          <target state="translated">-Er wordt gedelegeerd voor het bijhouden van wijzigingen van het profiel.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   All writes to a SQL Server database when &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt; is set to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">-Alle schrijfbewerkingen naar een SQL Server-database wanneer &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;is ingesteld op <ph id="ph1">`false`</ph>.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.IsTransactional%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Besides being set programmatically, this functionality can be enabled through a configuration file.</source>
+          <target state="translated">Behalve via een programma wordt ingesteld, kan deze functionaliteit worden ingeschakeld via een configuratiebestand.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to set this property through a configuration file, see <bpt id="p1">[</bpt>Workflow Configuration Files<ept id="p1">](http://msdn.microsoft.com/en-us/ada4bb90-6c9d-4f3d-a9d0-b559bb0f9909)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over het instellen van deze eigenschap via een configuratiebestand <bpt id="p1">[</bpt>werkstroom configuratiebestanden<ept id="p1">](http://msdn.microsoft.com/en-us/ada4bb90-6c9d-4f3d-a9d0-b559bb0f9909)</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For general information about retrying work batch transactions, see <bpt id="p1">[</bpt>Batching State Information in Workflows<ept id="p1">](http://msdn.microsoft.com/en-us/ecda18ba-9140-4bd7-b13d-6787fdf5959d)</ept>.</source>
+          <target state="translated">Raadpleeg voor algemene informatie over het opnieuw proberen werk batchtransacties <bpt id="p1">[</bpt>batchverwerking informatie over de status in werkstromen<ept id="p1">](http://msdn.microsoft.com/en-us/ecda18ba-9140-4bd7-b13d-6787fdf5959d)</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> should retry the operation; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> moet de bewerking opnieuw proberen; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> participates in workflow transactions.</source>
+          <target state="translated">Opgehaald of ingesteld van een waarde die aangeeft of <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> maakt deel uit van de werkstroom transacties.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Ordinarily tracking data is written to the database synchronously, that is, the data is written as soon as it is received on the Tracking Channel.</source>
+          <target state="translated">Normaal gesproken traceringsgegevens is geschreven naar de database synchroon, dat wil, worden de gegevens geschreven, zodra het is ontvangen op het kanaal bijhouden.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If IsTransactional is <ph id="ph1">`true`</ph>, &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; participates in the workflow transaction.</source>
+          <target state="translated">Als IsTransactional <ph id="ph1">`true`</ph>, &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;maakt deel uit van de werkstroom-transactie.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, it follows the semantics defined by &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt; and adds any changes to its database as work items to the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.</source>
+          <target state="translated">Dat wil zeggen, volgt de semantiek voor gedefinieerd door &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;en eventuele wijzigingen in de database als de &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt; werkitems worden toegevoegd&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The service commits these changes when instructed to by the workflow runtime engine.</source>
+          <target state="translated">De service voert deze wijzigingen wanneer u hierom wordt gevraagd naar door de workflow runtime engine.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> participates in the workflow transaction; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> maakt deel uit van de werkstroom transactie; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that specifies whether tracking data for a workflow instance should be moved to the currently active partition in the database when the workflow instance is completed.</source>
+          <target state="translated">Opgehaald of ingesteld van een waarde die aangeeft of traceringsgegevens voor een werkstroomexemplaar van de moet worden verplaatst naar de actieve partitie in de database als het werkstroomexemplaar is voltooid.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; allows you to partition the database in order to provide an efficient method for archiving and deleting tracking records.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;kunt u voor het partitioneren van de database om te voorzien van een efficiënte manier voor het archiveren en verwijderen van records bijhouden.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your database experiences long periods between down times or your database has no planned downtime, you can set PartitionOnCompletion to move tracking records associated with a workflow instance from the active instance tables to the currently active partition when the workflow instance completes.</source>
+          <target state="translated">Als lange perioden tussen uitvaltijden optreedt in de database of de database bevat geen geplande uitvaltijd, kunt u PartitionOnCompletion verplaatsen instellen voor het bijhouden van records die zijn gekoppeld aan een workflowexemplaar uit de actieve sessie van tabellen in de momenteel actieve partitie wanneer het werkstroomexemplaar is voltooid.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows you to archive or delete these records without having to lock the data in the active instance tables of the database.</source>
+          <target state="translated">Hiermee kunt u archiveren of verwijderen van deze records zonder dat de gegevens in de tabellen van de actieve sessie van de database te vergrendelen.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about partitioning, see <bpt id="p1">[</bpt>Data Maintenance with SqlTrackingService<ept id="p1">](http://msdn.microsoft.com/en-us/a62d5719-d6cd-4871-a3ab-56ea629d4e00)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over partitioneren <bpt id="p1">[</bpt>gegevensonderhoud met SqlTrackingService<ept id="p1">](http://msdn.microsoft.com/en-us/a62d5719-d6cd-4871-a3ab-56ea629d4e00)</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if tracking data should be moved to the currently active partition on workflow completion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als u gegevens voor het bijhouden moet worden verplaatst naar de actieve partitie op werkstroom is voltooid; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that specifies the interval at which the database should be checked for changes to one or more of its tracking profiles.</source>
+          <target state="translated">Opgehaald of ingesteld van een waarde waarmee het interval waarmee de database moet worden gecontroleerd op wijzigingen in een of meer van de profielen bijhouden.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; periodically examines the database to determine whether one or more of its tracking profiles have been changed or have been deleted.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;controleert periodiek de database om te bepalen of een of meer van de profielen bijhouden zijn gewijzigd of verwijderd.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; determines that a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; has been deleted it raises an &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt; event; when it determines that a profile has been changed it raises a &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt; event.</source>
+          <target state="translated">Wanneer de &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;vaststelt dat er een &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;is verwijderd verhoogt een &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt;gebeurtenis; wanneer bepaalt dat een profiel is gewijzigd verhoogt een &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt;gebeurtenis.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime tracking infrastructure subscribes to both of these events and updates its tracking profile cache appropriately when they occur.</source>
+          <target state="translated">De tracerings-runtime-infrastructuur is geabonneerd op beide van deze gebeurtenissen en de updates die het profiel bijhouden in de cache op de juiste wijze wanneer ze zich voordoen.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also subscribe to either or both of these events if you want to be notified of changes to a tracking profile.</source>
+          <target state="translated">U kunt zich ook abonneren op een of beide van deze gebeurtenissen als u wilt een melding van wijzigingen aan een profiel bijhouden.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set ProfileChangeCheckInterval to specify the frequency with which the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; should test for such changes.</source>
+          <target state="translated">U kunt instellen dat ProfileChangeCheckInterval voor de frequentie waarmee de &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;dergelijke wijzigingen moet worden getest.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you specify a new value for ProfileChangeCheckInterval, the timer interval is immediately set to this new value.</source>
+          <target state="translated">Wanneer u een nieuwe waarde voor ProfileChangeCheckInterval opgeeft, wordt het TimerInterval onmiddellijk op deze nieuwe waarde ingesteld.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The interval length in milliseconds.</source>
+          <target state="translated">De Intervallengte in milliseconden.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The default is 60000.</source>
+          <target state="translated">De standaardwaarde is 60000.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> detects that a <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been deleted.</source>
+          <target state="translated">Deze gebeurtenis treedt op wanneer de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> detecteert dat een <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> is verwijderd.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; periodically examines its database to determine whether one or more of its tracking profiles have been deleted.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;controleert periodiek de database om te bepalen of een of meer van de profielen bijhouden is verwijderd.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it detects that a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; has been deleted, it raises the ProfileRemoved event and puts the workflow &lt;xref:System.Type&gt; in the &lt;xref:System.Workflow.Runtime.Tracking.ProfileRemovedEventArgs&gt;.</source>
+          <target state="translated">Als wordt gedetecteerd dat een &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;is verwijderd, deze wordt gegeven van de gebeurtenis ProfileRemoved en plaatst de werkstroom &lt;xref:System.Type&gt;in de &lt;xref:System.Workflow.Runtime.Tracking.ProfileRemovedEventArgs&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.ProfileRemovedEventArgs&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime tracking infrastructure uses this event to update its profile cache.</source>
+          <target state="translated">De runtime-infrastructuur bijhouden maakt gebruik van deze gebeurtenis zijn profiel configuratiecache bij te werken.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt; to specify the frequency at which the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; examines its database.</source>
+          <target state="translated">U kunt instellen &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;voor de frequentie waarmee de &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;de database moet worden gecontroleerd.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> detects that a <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been changed.</source>
+          <target state="translated">Deze gebeurtenis treedt op wanneer de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.SqlTrackingService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> detecteert dat een <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> is gewijzigd.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; periodically examines its database to determine whether one or more of its tracking profiles have been changed.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;controleert periodiek de database om te bepalen of een of meer van de profielen bijhouden zijn gewijzigd.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it detects such a change in a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;, it raises the ProfileUpdated event with the tracking profile encapsulated in a &lt;xref:System.Workflow.Runtime.Tracking.ProfileUpdatedEventArgs&gt;.</source>
+          <target state="translated">Als deze wijziging wordt gedetecteerd in een &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;wordt de gebeurtenis ProfileUpdated aan het profiel voor bijhouden ingekapseld in een &lt;xref:System.Workflow.Runtime.Tracking.ProfileUpdatedEventArgs&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.ProfileUpdatedEventArgs&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime tracking infrastructure uses this event to update its profile cache.</source>
+          <target state="translated">De runtime-infrastructuur bijhouden maakt gebruik van deze gebeurtenis zijn profiel configuratiecache bij te werken.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt; to specify the frequency at which the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; examines its database.</source>
+          <target state="translated">U kunt instellen &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;voor de frequentie waarmee de &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;de database moet worden gecontroleerd.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value specifying whether a default <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> should be used for workflow types that do not have a tracking profile.</source>
+          <target state="translated">Opgehaald of ingesteld van een waarde die aangeeft of een standaard <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> moet worden gebruikt voor de werkstroom typen waarvoor geen een profiel bijhouden.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If UseDefaultProfile is <ph id="ph1">`true`</ph>, the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; will return a default &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; whenever the workflow runtime engine tries to get a tracking profile for a workflow &lt;xref:System.Type&gt; for which the tracking service has no associated &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.</source>
+          <target state="translated">Als UseDefaultProfile <ph id="ph1">`true`</ph>, de &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;resulteert in een standaard &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;wanneer de workflow runtime engine probeert op te halen van het profiel voor een tracering voor een werkstroom &lt;xref:System.Type&gt;waarvoor de traceringsservice heeft geen bijbehorende &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The out-of-box default tracking profile matches all activity events, user events, and workflow events emitted by a workflow instance.</source>
+          <target state="translated">De out-of-box-standaard bijhouden profiel komt overeen met alle activiteitsgebeurtenissen, gebruikersgebeurtenissen en werkstroom die door een workflowexemplaar.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can change the default tracking profile by using the <ph id="ph1">`UpdateDefaultProfile`</ph> stored procedure.</source>
+          <target state="translated">Kunt u het standaard profiel bijhouden met behulp van de <ph id="ph1">`UpdateDefaultProfile`</ph> opgeslagen procedure.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`UpdateDefaultProfile`</ph> stored procedure will change the default tracking profile.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; De <ph id="ph2">`UpdateDefaultProfile`</ph> opgeslagen procedure wordt de standaard-profiel bijhouden wijzigen.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This new default profile will be returned when the workflow runtime engine requests a profile for a workflow type for which the tracking service has no associated tracking profile.</source>
+          <target state="translated">Deze nieuwe standaardprofiel wordt geretourneerd als de workflow runtime engine vraagt een profiel voor een workflowtype waarvoor de traceringsservice geen profiel gekoppeld bijhouden heeft.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Workflow types that were previously associated with the old default profile will still be associated with that profile even after <ph id="ph1">`UpdateDefaultProfile`</ph> is called; you must explicitly call the <ph id="ph2">`UpdateTrackingProfile`</ph> stored procedure on any of these workflow types that you want to associate with the new default profile.</source>
+          <target state="translated">Werkstroom-typen die eerder gekoppeld aan het oude standaardprofiel zijn nog steeds worden gekoppeld aan dit profiel zelfs nadat <ph id="ph1">`UpdateDefaultProfile`</ph> heet; u moet expliciet aanroepen de <ph id="ph2">`UpdateTrackingProfile`</ph> opgeslagen procedure op een van deze werkstroom typen die u wilt koppelen aan de nieuwe standaard-profiel.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While UseDefaultProfile is true, the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; will return the default tracking profile to the workflow runtime engine for any workflow type for which it doesn't have a tracking profile associated in its database.</source>
+          <target state="translated">Hoewel UseDefaultProfile waar, is de &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;retourneert de bijhouden profiel in de workflow runtime engine voor elk workflowtype waarvoor deze een bijhouden-profiel dat is gekoppeld in de database heeft geen standaardwaarde.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you later set UseDefaultProfile to false, the default profile will still be associated with these workflow types in the database.</source>
+          <target state="translated">Als u later UseDefaultProfile ingesteld op false, is het standaardprofiel nog steeds gekoppeld aan deze werkstroom typen in de database.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can call the <ph id="ph1">`DeleteTrackingProfile`</ph> stored procedure on a workflow type to no longer associate a tracking profile with that type, or you can call the <ph id="ph2">`UpdateTrackingProfile`</ph> stored procedure on a workflow type to change the tracking profile associated with that type.</source>
+          <target state="translated">U kunt aanroepen de <ph id="ph1">`DeleteTrackingProfile`</ph> opgeslagen procedure voor een workflowtype niet langer een profiel bijhouden koppelen aan dit type, of u kunt aanroepen de <ph id="ph2">`UpdateTrackingProfile`</ph> opgeslagen procedure voor een workflowtype de tracerings-profiel dat is gekoppeld met dit type te wijzigen.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The workflow runtime engine caches its tracking profiles.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; De workflow runtime engine in de cache opgeslagen profielen bijhouden.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it must receive a &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt; event for any workflow type for which it already has a tracking profile associated in its cache before it will stop using its cached profile for new instances of that workflow type.</source>
+          <target state="translated">Er moet daarom ontvangen een &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt;gebeurtenis voor elk workflowtype waarvoor er al een tracering profiel die zijn gekoppeld in de cache voordat stopt deze met behulp van het profiel in de cache voor nieuwe exemplaren van dat workflowtype.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileRemoved&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Likewise, the workflow runtime engine must receive a &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt; event for such workflow types before it will load a new tracking profile into its cache to associate with new instances of the workflow type.</source>
+          <target state="translated">Op dezelfde manier de workflow runtime engine moet ontvangen een &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt;gebeurtenis voor dergelijke typen werkstroom voordat deze een nieuw bijhouden-profiel wordt geladen in de cache om te koppelen aan nieuwe exemplaren van het workflowtype.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileUpdated&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; raises the appropriate events for applicable workflow types when it examines the database for changes to its tracking profiles.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;worden de bijbehorende gebeurtenissen voor typen die van toepassing werkstroom gegeven als de database voor wijzigingen bijhouden profielen worden onderzocht.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The frequency at which the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; performs this operation is set by &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;.</source>
+          <target state="translated">De frequentie waarmee de &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;voert u deze bewerking is ingesteld door &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, whenever you call the <ph id="ph1">`UpdateTrackingProfile`</ph> or <ph id="ph2">`DeleteTrackingProfile`</ph> stored procedures there may be a delay of up to the period specified by &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt; before the workflow runtime engine will reflect your changes in its profile cache.</source>
+          <target state="translated">Daarom wanneer u aanroepen de <ph id="ph1">`UpdateTrackingProfile`</ph> of <ph id="ph2">`DeleteTrackingProfile`</ph> opgeslagen procedures kunnen er een vertraging van maximaal de periode die is opgegeven door &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;voordat de workflow runtime engine uw wijzigingen in de cache van het profiel.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService.ProfileChangeCheckInterval%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  For more information about tracking profiles, see <bpt id="p1">[</bpt>Creating and Using Tracking Profiles<ept id="p1">](http://msdn.microsoft.com/en-us/f018ad09-d20f-4626-9792-31d9f278d0b0)</ept>.</source>
+          <target state="translated">&gt;&gt; Zie voor meer informatie over het bijhouden van profielen <bpt id="p1">[</bpt>maken en bijhouden profielen met behulp van<ept id="p1">](http://msdn.microsoft.com/en-us/f018ad09-d20f-4626-9792-31d9f278d0b0)</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a default tracking profile should be used; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als een standaard bijhouden profiel moet worden gebruikt; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

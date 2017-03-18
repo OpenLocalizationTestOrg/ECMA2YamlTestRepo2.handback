@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">618b521e541f6f29da9a8d035e99b93b033e3324</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UnvalidatedRequestValues.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">daa45292a4a7231dcd3b89f2b2b34070c46a8a1a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1902aefb8d1f8f9d0c3d288cbade94d665b965c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides access to HTTP request values without triggering ASP.NET request validation.</source>
+          <target state="translated">ASP.NET 要求の検証をトリガーしない HTTP 要求値へのアクセスを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>When ASP.NET reads the values in HTTP request collections (such as the &lt;xref:System.Web.HttpRequest.Form%2A&gt;, &lt;xref:System.Web.HttpRequest.QueryString%2A&gt;, and &lt;xref:System.Web.HttpRequest.Cookies%2A&gt; collections), it performs <bpt id="p1">*</bpt>request validation<ept id="p1">*</ept>.</source>
+          <target state="translated">ASP.NET が要求のコレクションを HTTP に値を読み取る場合 (など、 &lt;xref:System.Web.HttpRequest.Form%2A&gt;、 &lt;xref:System.Web.HttpRequest.QueryString%2A&gt;、および&lt;xref:System.Web.HttpRequest.Cookies%2A&gt;コレクション)、実行<bpt id="p1">*</bpt>要求の検証<ept id="p1">*</ept>&lt;/xref:System.Web.HttpRequest.Cookies%2A&gt;&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt;&lt;/xref:System.Web.HttpRequest.Form%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>During request validation, ASP.NET examines the posted values and determines whether they contain markup, script, or reserved characters.</source>
+          <target state="translated">要求の検証中には、ASP.NET は、ポストされた値を検査し、マークアップ、スクリプト、または予約文字を含めるかどうかを決定します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>By default, if ASP.NET detects any of these types of input, it throws an &lt;xref:System.Web.HttpRequestValidationException&gt; exception.</source>
+          <target state="translated">既定では、ASP.NET では、これらの種類の入力のいずれかが検出された場合、スロー、&lt;xref:System.Web.HttpRequestValidationException&gt;例外です&lt;/xref:System.Web.HttpRequestValidationException&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This helps prevent malicious script injection attacks on your website.</source>
+          <target state="translated">これにより、web サイト上の悪意のあるスクリプト インジェクション攻撃を防止できます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>However, in some cases, you might want to bypass ASP.NET request validation and allow values that contain markup, script, or reserved characters.</source>
+          <target state="translated">ただし、場合によっては、ASP.NET 要求の検証をバイパスし、マークアップ、スクリプト、または予約文字を含む値を許可する必要があります。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, if your application uses a rich-text editor that enables users to submit HTML markup as formatted content, you can use the members of the UnvalidatedRequestValues class to retrieve the rich-text request values without triggering the default ASP.NET request validation.</source>
+          <target state="translated">たとえば、アプリケーションでは、ユーザーが HTML マークアップと書式設定されたコンテンツを送信できるようにするリッチ テキスト エディターを使用する場合は、既定の ASP.NET 要求の検証をトリガーすることがなく、リッチ テキストの要求値を取得する UnvalidatedRequestValues クラスのメンバーを使用することができます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In your code, you access members of this class by using the &lt;xref:System.Web.HttpRequest.Unvalidated%2A&gt; property.</source>
+          <target state="translated">使用してこのクラスのメンバーにアクセスする、コードで、&lt;xref:System.Web.HttpRequest.Unvalidated%2A&gt;プロパティ&lt;/xref:System.Web.HttpRequest.Unvalidated%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  If you use this class, you must manually check the data for potential cross-site scripting attacks.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; このクラスを使用する場合は、潜在的なクロスサイト スクリプティング攻撃のデータを手動でチェックする必要があります。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets the collection of cookies that the client sent, without triggering ASP.NET request validation.</source>
+          <target state="translated">ASP.NET 要求の検証をトリガーすることがなく、クライアントが送信されたクッキーのコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  If you use this property, you must manually check the data for potential cross-site scripting attacks.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; このプロパティを使用する場合は、クロスサイト スクリプティング攻撃の潜在的なデータを手動で確認する必要があります。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

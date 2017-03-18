@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3e13f98bf99d5d2976833986b822dd1c787706b2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Globalization.SortKey.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa54787daf5d8efbd6552dd295ff84c2ca859bd3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c79db8db7950e64de9475d0da0f0409fddaec353</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the result of mapping a string to its sort key.</source>
+          <target state="translated">表示映射到其排序键的字符串的结果。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A culture-sensitive comparison of two strings depends on each character in the strings having several categories of sort weights, including script, alphabetic, case, and diacritic weights.</source>
+          <target state="translated">两个字符串的区分区域性的比较取决于在具有多个排序权重，包括脚本，包含字母、 类别字符串中的每个字符大小写和变音符权重。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A sort key serves as the repository of these weights for a particular string.</source>
+          <target state="translated">排序键用作的特定字符串这些权重的存储库。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Globalization.CompareInfo.GetSortKey%2A?displayProperty=fullName&gt; method returns an instance of the SortKey class that reflects the culture-sensitive mapping of characters in a specified string.</source>
+          <target state="translated">&lt;xref:System.Globalization.CompareInfo.GetSortKey%2A?displayProperty=fullName&gt;方法返回反映指定字符串中字符的区分区域性的映射排序类的实例。&lt;/xref:System.Globalization.CompareInfo.GetSortKey%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The value of a SortKey object is its key data, which is returned by the &lt;xref:System.Globalization.SortKey.KeyData%2A&gt; property.</source>
+          <target state="translated">排序对象的值是其密钥数据，这由返回&lt;xref:System.Globalization.SortKey.KeyData%2A&gt;属性。&lt;/xref:System.Globalization.SortKey.KeyData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This key data consists of a series of bytes that encode the string, culture-specific sorting rules, and user-specified comparison options.</source>
+          <target state="translated">此键的数据包含的一系列字节进行编码的字符串、 特定于区域性的排序规则和用户指定的比较选项。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A comparison using sort keys consists of a bitwise comparison of the corresponding key data in each sort key.</source>
+          <target state="translated">使用排序键的比较包含，每个排序键中的相应密钥数据的按位比较。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, if you create a sort key by calling the &lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29&gt; method with a value of &lt;xref:System.Globalization.CompareOptions?displayProperty=fullName&gt;, a string comparison operation that uses the sort key is case-insensitive.</source>
+          <target state="translated">例如，如果通过调用创建的排序键&lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29&gt;具有值的方法&lt;xref:System.Globalization.CompareOptions?displayProperty=fullName&gt;，使用该排序键的字符串比较运算不区分大小写。&lt;/xref:System.Globalization.CompareOptions?displayProperty=fullName&gt; &lt;/xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>After you create a sort key for a string, you compare sort keys by calling the static &lt;xref:System.Globalization.SortKey.Compare%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">通过调用静态创建字符串的排序键后，比较排序键&lt;xref:System.Globalization.SortKey.Compare%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Globalization.SortKey.Compare%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This method performs a simple byte-by-byte comparison, so it is much faster than the &lt;xref:System.String.Compare%2A?displayProperty=fullName&gt; or &lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">此方法执行简单的逐字节比较，因此很远低于&lt;xref:System.String.Compare%2A?displayProperty=fullName&gt;或&lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; &lt;/xref:System.String.Compare%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Performance considerations    When performing a string comparison, the &lt;xref:System.Globalization.SortKey.Compare%2A&gt; and &lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; methods yield the same results, but they target different scenarios.</source>
+          <target state="translated">性能注意事项时执行字符串比较，&lt;xref:System.Globalization.SortKey.Compare%2A&gt;和&lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;方法生成相同的结果，但它们面向不同的方案。&lt;/xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; &lt;/xref:System.Globalization.SortKey.Compare%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>At a high level, the &lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; method generates the sort key for each string, performs the comparison, and then discards the sort key and returns the result of the comparison.</source>
+          <target state="translated">在高级别，&lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;方法生成每个字符串的排序键、 执行比较，然后放弃的排序键并返回比较的结果。&lt;/xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, the &lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; method actually doesn't generate an entire sort key to perform the comparison.</source>
+          <target state="translated">但是，&lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;方法实际上不会生成完整的排序关键字进行比较。&lt;/xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Instead, the method generates the key data for each text element (that is, base character, surrogate pair, or combining character sequence) in each string.</source>
+          <target state="translated">相反，则方法将生成每个字符串中每个文本元素 （即，基字符、 代理项对或组合字符序列） 的密钥数据。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The method then compares the key data for the corresponding text elements.</source>
+          <target state="translated">方法然后将相应的文本元素的键数据进行比较。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The operation terminates as soon as the ultimate result of the comparison is determined.</source>
+          <target state="translated">一旦确定比较的最终结果，操作将终止。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Sort key information is computed, but no SortKey object is created.</source>
+          <target state="translated">计算排序密钥信息，但不创建任何排序关键字对象。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This strategy is economical in terms of performance if both strings are compared once, but becomes expensive if the same strings are compared many times.</source>
+          <target state="translated">此策略是经济就性能而言，如果一次，比较这两个字符串，但将成为相同的字符串比较很多次的情况下成本高昂。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Globalization.SortKey.Compare%2A&gt; method requires generation of a SortKey object for each string before performing the comparison.</source>
+          <target state="translated">&lt;xref:System.Globalization.SortKey.Compare%2A&gt;方法在执行比较之前每个字符串需要生成一个排序关键字对象。&lt;/xref:System.Globalization.SortKey.Compare%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This strategy is expensive in terms of performance for the first comparison because of the time and memory invested to generate the SortKey objects.</source>
+          <target state="translated">此策略因产生很大影响性能的第一个比较的时间和内存来生成排序关键字对象。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However, it becomes economical if the same sort keys are compared many times.</source>
+          <target state="translated">但是，它将成为经济如果相同的排序键进行比较多次。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example, suppose you write an application that searches a database table for the row in which the string-based index column matches a specified search string.</source>
+          <target state="translated">例如，假设你编写的应用程序在其中基于字符串的索引列与指定的搜索的字符串匹配的行的数据库表中搜索。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The table contains thousands of rows, and comparing the search string to the index in each row will take a long time.</source>
+          <target state="translated">该表包含数千行，而比较中每一行的索引的搜索字符串将花费很长时间。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Therefore, when the application stores a row and its index column, it also generates and stores the sort key for the index in a column dedicated to improving search performance.</source>
+          <target state="translated">因此，当应用程序将存储行和其索引列，它还生成并将索引的排序键存储在专用于改进搜索性能的列。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When the application searches for a target row, it compares the sort key for the search string to the sort key for the index string, instead of comparing the search string to the index string.</source>
+          <target state="translated">当应用程序搜索目标行时，它会将连接到的索引字符串，而不是比较和索引字符串的搜索字符串的排序键的搜索字符串的排序键进行比较。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Security considerations    The &lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt; method returns a SortKey object with the value based on a specified string and &lt;xref:System.Globalization.CompareOptions&gt; value, and the culture associated with the underlying &lt;xref:System.Globalization.CompareInfo&gt; object.</source>
+          <target state="translated">安全注意事项&lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;方法返回一个排序关键字对象，基于指定的字符串的值和&lt;xref:System.Globalization.CompareOptions&gt;值，并与基础关联的区域性&lt;xref:System.Globalization.CompareInfo&gt;对象。&lt;/xref:System.Globalization.CompareInfo&gt; &lt;/xref:System.Globalization.CompareOptions&gt; &lt;/xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If a security decision depends on a string comparison or case change, you should use the &lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt; method of the invariant culture to ensure that the behavior of the operation is consistent, regardless of the culture settings of the operating system.</source>
+          <target state="translated">如果安全决策取决于字符串比较或大小写更改，则应使用&lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;固定区域性，以确保操作的行为保持一致，无论操作系统的区域性设置的方法。&lt;/xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Use the following steps to obtain a sort key:      1.</source>
+          <target state="translated">使用以下步骤获取排序键︰ 1。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Retrieve the invariant culture from the &lt;xref:System.Globalization.CultureInfo.InvariantCulture?displayProperty=fullName&gt; property.</source>
+          <target state="translated">检索固定区域性&lt;xref:System.Globalization.CultureInfo.InvariantCulture?displayProperty=fullName&gt;属性。&lt;/xref:System.Globalization.CultureInfo.InvariantCulture?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Retrieve a &lt;xref:System.Globalization.CompareInfo&gt; object for the invariant culture from the &lt;xref:System.Globalization.CultureInfo.CompareInfo%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">检索&lt;xref:System.Globalization.CompareInfo&gt;用于从固定区域性的对象&lt;xref:System.Globalization.CultureInfo.CompareInfo%2A?displayProperty=fullName&gt;属性。&lt;/xref:System.Globalization.CultureInfo.CompareInfo%2A?displayProperty=fullName&gt; &lt;/xref:System.Globalization.CompareInfo&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt; method.</source>
+          <target state="translated">调用&lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;方法。&lt;/xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Working with the value of a SortKey object is equivalent to calling the Windows <ph id="ph1">`LCMapString`</ph> method with the LCMAP_SORTKEY value specified.</source>
+          <target state="translated">使用排序的值对象是否等效于调用 Windows<ph id="ph1">`LCMapString`</ph>与指定的 LCMAP_SORTKEY 值的方法。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>However, for the SortKey object, the sort keys for English characters precede the sort keys for Korean characters.</source>
+          <target state="translated">但是，对于排序关键字对象中，使用英文字符的排序键在前朝鲜语字符的排序键。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>SortKey objects can be serialized, but only so that they can cross &lt;xref:System.AppDomain&gt; objects.</source>
+          <target state="translated">排序关键字对象可以序列化，但仅限于，以便它们可以跨&lt;xref:System.AppDomain&gt;对象。&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If an application serializes a SortKey object, the application must regenerate all the sort keys when there is a new version of the .NET Framework.</source>
+          <target state="translated">如果应用程序序列化的排序关键字对象，该应用程序必须重新生成所有排序键，.NET Framework 的新版本时。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information about sort keys, see Unicode Technical Standard #10, "Unicode Collation Algorithm" on the <bpt id="p1">[</bpt>Unicode Consortium website<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37123)</ept>.</source>
+          <target state="translated">有关排序键的详细信息，请参阅 Unicode 技术标准 #10:"Unicode 排序规则算法"上<bpt id="p1">[</bpt>Unicode Consortium 网站<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37123)</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Compares two sort keys.</source>
+          <target state="translated">比较两个排序键。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The Compare method compares the &lt;xref:System.Globalization.SortKey.KeyData%2A&gt; properties of the <ph id="ph1">`sortkey1`</ph> and <ph id="ph2">`sortkey2`</ph> parameters.</source>
+          <target state="translated">Compare 方法比较&lt;xref:System.Globalization.SortKey.KeyData%2A&gt;属性<ph id="ph1">`sortkey1`</ph>和<ph id="ph2">`sortkey2`</ph>参数。&lt;/xref:System.Globalization.SortKey.KeyData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The method yields the same results as the &lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">该方法生成相同的结果&lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information about the Compare method and the comparison of sort keys, see the &lt;xref:System.Globalization.SortKey&gt; class topic.</source>
+          <target state="translated">有关比较方法和的排序键进行比较的详细信息，请参阅&lt;xref:System.Globalization.SortKey&gt;类主题。&lt;/xref:System.Globalization.SortKey&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first sort key to compare.</source>
+          <target state="translated">要比较的第一个排序键。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The second sort key to compare.</source>
+          <target state="translated">要比较的第二个排序键。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A signed integer that indicates the relationship between <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">一个有符号的整数，指示之间的关系<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">sortkey1</ph> <ept id="p1">&lt;/code&gt;</ept>和<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">sortkey2</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">值</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Condition</source>
+          <target state="translated">条件</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Less than zero</source>
+          <target state="translated">小于零</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept> is less than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept>is less than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Zero</source>
+          <target state="translated">零</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept> is equal to <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept>is equal to <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Greater than zero</source>
+          <target state="translated">大于零</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept> is greater than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept>大于<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">sortkey2</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sortkey1&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;sortkey2&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sortkey1&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;sortkey2&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified object is equal to the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">确定指定的对象是否等于当前<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Two &lt;xref:System.Globalization.SortKey&gt; objects are considered equal if their &lt;xref:System.Globalization.SortKey.KeyData%2A&gt; properties are equal.</source>
+          <target state="translated">两个&lt;xref:System.Globalization.SortKey&gt;对象被视为相等，如果其&lt;xref:System.Globalization.SortKey.KeyData%2A&gt;属性是否相等。&lt;/xref:System.Globalization.SortKey.KeyData%2A&gt; &lt;/xref:System.Globalization.SortKey&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This method overrides &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">此方法将替代&lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.&lt;/xref:System.Object.Equals%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The object to compare with the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">要与当前比较的对象<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> parameter is equal to the current <bpt id="p3">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept>参数是否等于当前<bpt id="p3">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>对象; 否则为<bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Serves as a hash function for the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is suitable for hashing algorithms and data structures such as a hash table.</source>
+          <target state="translated">用作当前的哈希函数<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>适用于哈希算法和数据结构，如哈希表的对象。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This method generates the same hash code for two objects that are equal according to the &lt;xref:System.Globalization.SortKey.Equals%2A&gt; method.</source>
+          <target state="translated">此方法将生成两个对象是否相等根据相同的哈希代码&lt;xref:System.Globalization.SortKey.Equals%2A&gt;方法。&lt;/xref:System.Globalization.SortKey.Equals%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This method overrides &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">此方法将替代&lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt;.&lt;/xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A hash code for the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">当前的哈希代码<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets the byte array representing the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">获取表示当前的字节数组<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For more information about the use of the data returned by the KeyData property in comparing strings, see the &lt;xref:System.Globalization.SortKey&gt; class topic.</source>
+          <target state="translated">有关使用中比较字符串的 KeyData 属性返回的数据的详细信息，请参阅&lt;xref:System.Globalization.SortKey&gt;类主题。&lt;/xref:System.Globalization.SortKey&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A byte array representing the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">表示当前的字节数组<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets the original string used to create the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">获取用于创建当前的原始字符串<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The original string used to create the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">用于创建当前的原始字符串<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns a string that represents the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">返回一个字符串，表示当前<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The return value is the concatenation of the string "SortKey - ", the culture identifier and compare options of the current &lt;xref:System.Globalization.SortKey&gt; object, and the value of the &lt;xref:System.Globalization.SortKey.OriginalString%2A&gt; property.</source>
+          <target state="translated">返回值为"排序关键字的"的字符串的串联、 区域性标识符和比较选项的当前&lt;xref:System.Globalization.SortKey&gt;对象和的值&lt;xref:System.Globalization.SortKey.OriginalString%2A&gt;属性。&lt;/xref:System.Globalization.SortKey.OriginalString%2A&gt; &lt;/xref:System.Globalization.SortKey&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This method overrides &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">此方法将替代&lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt;.&lt;/xref:System.Object.ToString%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A string that represents the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">一个字符串，表示当前<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
