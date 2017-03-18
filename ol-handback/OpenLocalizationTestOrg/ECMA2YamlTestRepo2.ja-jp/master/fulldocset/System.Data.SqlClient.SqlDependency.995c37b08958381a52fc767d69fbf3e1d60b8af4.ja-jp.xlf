@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">593a9d5ef5bc21733d8918ca22eb2ce81df6265e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.SqlClient.SqlDependency.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">001910e638d33240ce108dd79eb4b541d86d5db2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">27c20d54722335961ba5ef8246a2110f11fa0bfb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The SqlDependency object represents a query notification dependency between an application and an instance of SQL Server.</source>
+          <target state="translated">SqlDependency オブジェクトは、アプリケーションと SQL Server のインスタンス間でのクエリ通知の依存関係を表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An application can create a SqlDependency object and register to receive notifications via the <bpt id="p1">&lt;xref href="System.Data.SqlClient.OnChangeEventHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event handler.</source>
+          <target state="translated">アプリケーションを作成できます経由で通知を受信するレジスタ、SqlDependency オブジェクト、 <bpt id="p1">&lt;xref href="System.Data.SqlClient.OnChangeEventHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント ハンドラー。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>SqlDependency is ideal for caching scenarios, where your ASP.NET application or middle-tier service needs to keep certain information cached in memory.</source>
+          <target state="translated">SqlDependency では、キャッシュ、ASP.NET アプリケーションや中間層サービスがメモリにキャッシュされた特定の情報を保持する必要があるシナリオに最適です。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SqlDependency allows you to receive notifications when the original data in the database changes so that the cache can be refreshed.</source>
+          <target state="translated">SqlDependency では、キャッシュを更新することができるように、データベース内の元のデータが変更されたときに通知を受信することができます。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To set up a dependency, you need to associate a SqlDependency object to one or more &lt;xref:System.Data.SqlClient.SqlCommand&gt; objects.</source>
+          <target state="translated">依存関係を設定するには、1 つまたは複数の SqlDependency オブジェクトを関連付ける必要があります&lt;xref:System.Data.SqlClient.SqlCommand&gt;オブジェクト&lt;/xref:System.Data.SqlClient.SqlCommand&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To receive notifications, you need to subscribe to the &lt;xref:System.Data.SqlClient.SqlDependency.OnChange&gt; event.</source>
+          <target state="translated">通知を受信するをサブスクライブする必要があります、&lt;xref:System.Data.SqlClient.SqlDependency.OnChange&gt;イベント&lt;/xref:System.Data.SqlClient.SqlDependency.OnChange&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information about the requirements for creating queries for notifications, see "Creating a Query for Notification" in SQL Server Books Online.</source>
+          <target state="translated">通知のクエリを作成するための要件の詳細については、「を作成するクエリ通知の」SQL Server オンライン ブックを参照してください。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  SqlDependency was designed to be used in ASP.NET or middle-tier services where there is a relatively small number of servers having dependencies active against the database.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; SqlDependency が ASP.NET または中間層サービスで使用するように設計されましたが、比較的少数のデータベースに対してアクティブな依存関係にあるサーバーです。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It was not designed for use in client applications, where hundreds or thousands of client computers would have SqlDependency objects set up for a single database server.</source>
+          <target state="translated">ここで数百または数千のクライアント コンピューターには SqlDependency オブジェクトが&amp;1; つのデータベース サーバーのセットアップ、クライアント アプリケーションで使用向けに設計されていません。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you are developing an application where you need reliable sub-second notifications when data changes, review the sections <bpt id="p1">**</bpt>Planning an Efficient Query Notifications Strategy<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Alternatives to Query Notifications<ept id="p2">**</ept> in the <bpt id="p3">[</bpt>Planning for Notifications<ept id="p3">](http://go.microsoft.com/fwlink/?LinkId=211984)</ept> topic in SQL Server Books Online.</source>
+          <target state="translated">を開発しているアプリケーション データが変更されたときに、信頼性の高いの&amp;1; 秒未満の通知が必要な場合は、セクションを参照<bpt id="p1">**</bpt>効率的なクエリ通知戦略の計画<ept id="p1">**</ept>と<bpt id="p2">**</bpt>クエリ通知に代わる方法<ept id="p2">**</ept>で、<bpt id="p3">[</bpt>通知の計画<ept id="p3">](http://go.microsoft.com/fwlink/?LinkId=211984)</ept>SQL Server オンライン ブックの「します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Query Notifications in SQL Server<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and "Building Notification Solutions" in SQL Server Books Online.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>SQL server クエリ通知<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>と SQL Server オンライン ブックの"通知ソリューションの構築"します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Data.SqlClient.SqlDependency.OnChange&gt; event may be generated on a different thread from the thread that initiated command execution.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;、&lt;xref:System.Data.SqlClient.SqlDependency.OnChange&gt;コマンドの実行を開始したスレッドから別のスレッドでイベントを生成することができます&lt;/xref:System.Data.SqlClient.SqlDependency.OnChange&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Query notifications are supported only for SELECT statements that meet a list of specific requirements.</source>
+          <target state="translated">クエリ通知は、特定の要件を満たす SELECT ステートメントでのみサポートされます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following table provides links to the Service Broker and Query Notifications documentation in SQL Server Books Online.</source>
+          <target state="translated">次の表は、SQL Server オンライン ブックの Service Broker とクエリ通知のドキュメントへのリンクを提供します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SQL Server Books Online<ept id="p1">**</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Creating a Query for Notification<ept id="p2">](http://msdn.microsoft.com/library/ms181122.aspx)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Security Considerations for Service Broker<ept id="p3">](http://msdn.microsoft.com/library/ms166059.aspx)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Security and Protection (Service Broker)<ept id="p4">](http://msdn.microsoft.com/library/bb522911.aspx)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Security Considerations for Notifications Services<ept id="p5">](http://msdn.microsoft.com/library/ms172604.aspx)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>Query Notification Permissions<ept id="p6">](http://msdn.microsoft.com/library/ms188311.aspx)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>International Considerations for Service Broker<ept id="p7">](http://msdn.microsoft.com/library/ms166028.aspx)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>Solution Design Considerations (Service Broker)<ept id="p8">](http://msdn.microsoft.com/library/bb522899.aspx)</ept><ph id="ph8">      -   </ph><bpt id="p9">[</bpt>Service Broker Developer InfoCenter<ept id="p9">](http://msdn.microsoft.com/library/ms166100.aspx)</ept><ph id="ph9">      -   </ph><bpt id="p10">[</bpt>Developer's Guide (Service Broker)<ept id="p10">](http://msdn.microsoft.com/library/bb522908.aspx)</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>SQL Server オンライン ブック<ept id="p1">**</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>通知クエリの作成<ept id="p2">](http://msdn.microsoft.com/library/ms181122.aspx)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Service Broker のセキュリティに関する考慮事項<ept id="p3">](http://msdn.microsoft.com/library/ms166059.aspx)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>のセキュリティと保護 (Service Broker)<ept id="p4">](http://msdn.microsoft.com/library/bb522911.aspx)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>通知サービスのセキュリティに関する考慮事項<ept id="p5">](http://msdn.microsoft.com/library/ms172604.aspx)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>クエリ通知の権限<ept id="p6">](http://msdn.microsoft.com/library/ms188311.aspx)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>Service Broker の国際化に関する考慮事項<ept id="p7">](http://msdn.microsoft.com/library/ms166028.aspx)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>ソリューション設計に関する考慮事項 (Service Broker)<ept id="p8">](http://msdn.microsoft.com/library/bb522899.aspx)</ept><ph id="ph8">      -   </ph><bpt id="p9">[</bpt>Service Broker 開発者向けの情報<ept id="p9">](http://msdn.microsoft.com/library/ms166100.aspx)</ept><ph id="ph9">      -   </ph><bpt id="p10">[</bpt>Developer's Guide (Service Broker)<ept id="p10">](http://msdn.microsoft.com/library/bb522908.aspx)</ept></target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the default settings.</source>
+          <target state="translated">新しいインスタンスを作成、 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>既定の設定を持つクラス。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The constructor initializes the &lt;xref:System.Data.SqlClient.SqlDependency&gt; object using the default Service Broker service name and time-out.</source>
+          <target state="translated">コンス トラクターは、&lt;xref:System.Data.SqlClient.SqlDependency&gt;オブジェクトの既定の Service Broker サービス名とタイムアウトを使用します&lt;/xref:System.Data.SqlClient.SqlDependency&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>At some point after construction, you must use the &lt;xref:System.Data.SqlClient.SqlDependency.AddCommandDependency%2A&gt; method to associate one or more commands to this &lt;xref:System.Data.SqlClient.SqlDependency&gt; object.</source>
+          <target state="translated">作成した後は、ある時点で使用する必要があります、&lt;xref:System.Data.SqlClient.SqlDependency.AddCommandDependency%2A&gt;にこれを&amp;1; つまたは複数のコマンドを関連付けるメソッド&lt;xref:System.Data.SqlClient.SqlDependency&gt;オブジェクト&lt;/xref:System.Data.SqlClient.SqlDependency&gt;&lt;/xref:System.Data.SqlClient.SqlDependency.AddCommandDependency%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Query notifications are supported only for SELECT statements that meet a list of specific requirements.</source>
+          <target state="translated">クエリ通知は、特定の要件を満たす SELECT ステートメントでのみサポートされます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The following table provides links to the Service Broker and Query Notifications documentation in SQL Server Books Online.</source>
+          <target state="translated">次の表は、SQL Server オンライン ブックの Service Broker とクエリ通知のドキュメントへのリンクを提供します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SQL Server Books Online<ept id="p1">**</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Creating a Query for Notification<ept id="p2">](http://msdn.microsoft.com/library/ms181122.aspx)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Security Considerations for Service Broker<ept id="p3">](http://msdn.microsoft.com/library/ms166059.aspx)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Security and Protection (Service Broker)<ept id="p4">](http://msdn.microsoft.com/library/bb522911.aspx)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Security Considerations for Notifications Services<ept id="p5">](http://msdn.microsoft.com/library/ms172604.aspx)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>Query Notification Permissions<ept id="p6">](http://msdn.microsoft.com/library/ms188311.aspx)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>International Considerations for Service Broker<ept id="p7">](http://msdn.microsoft.com/library/ms166028.aspx)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>Solution Design Considerations (Service Broker)<ept id="p8">](http://msdn.microsoft.com/library/bb522899.aspx)</ept><ph id="ph8">      -   </ph><bpt id="p9">[</bpt>Service Broker Developer InfoCenter<ept id="p9">](http://msdn.microsoft.com/library/ms166100.aspx)</ept><ph id="ph9">      -   </ph><bpt id="p10">[</bpt>Developer's Guide (Service Broker)<ept id="p10">](http://msdn.microsoft.com/library/bb522908.aspx)</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>SQL Server オンライン ブック<ept id="p1">**</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>通知クエリの作成<ept id="p2">](http://msdn.microsoft.com/library/ms181122.aspx)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Service Broker のセキュリティに関する考慮事項<ept id="p3">](http://msdn.microsoft.com/library/ms166059.aspx)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>のセキュリティと保護 (Service Broker)<ept id="p4">](http://msdn.microsoft.com/library/bb522911.aspx)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>通知サービスのセキュリティに関する考慮事項<ept id="p5">](http://msdn.microsoft.com/library/ms172604.aspx)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>クエリ通知の権限<ept id="p6">](http://msdn.microsoft.com/library/ms188311.aspx)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>Service Broker の国際化に関する考慮事項<ept id="p7">](http://msdn.microsoft.com/library/ms166028.aspx)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>ソリューション設計に関する考慮事項 (Service Broker)<ept id="p8">](http://msdn.microsoft.com/library/bb522899.aspx)</ept><ph id="ph8">      -   </ph><bpt id="p9">[</bpt>Service Broker 開発者向けの情報<ept id="p9">](http://msdn.microsoft.com/library/ms166100.aspx)</ept><ph id="ph9">      -   </ph><bpt id="p10">[</bpt>Developer's Guide (Service Broker)<ept id="p10">](http://msdn.microsoft.com/library/bb522908.aspx)</ept></target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and associates it with the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> parameter.</source>
+          <target state="translated">新しいインスタンスを作成、 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスおよびに関連付けます、 <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>パラメーター。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Internally, this constructor creates an instance of the &lt;xref:System.Data.Sql.SqlNotificationRequest&gt; class, and binds it to a &lt;xref:System.Data.SqlClient.SqlCommand&gt; object.</source>
+          <target state="translated">このコンス トラクターが内部的には、インスタンスを作成、&lt;xref:System.Data.Sql.SqlNotificationRequest&gt;クラス、およびバインドに、&lt;xref:System.Data.SqlClient.SqlCommand&gt;オブジェクト&lt;/xref:System.Data.SqlClient.SqlCommand&gt;&lt;/xref:System.Data.Sql.SqlNotificationRequest&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Query notifications are supported only for SELECT statements that meet a list of specific requirements.</source>
+          <target state="translated">クエリ通知は、特定の要件を満たす SELECT ステートメントでのみサポートされます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following table provides links to the Service Broker and Query Notifications documentation in SQL Server Books Online.</source>
+          <target state="translated">次の表は、SQL Server オンライン ブックの Service Broker とクエリ通知のドキュメントへのリンクを提供します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SQL Server Books Online<ept id="p1">**</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Creating a Query for Notification<ept id="p2">](http://msdn.microsoft.com/library/ms181122.aspx)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Security Considerations for Service Broker<ept id="p3">](http://msdn.microsoft.com/library/ms166059.aspx)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Security and Protection (Service Broker)<ept id="p4">](http://msdn.microsoft.com/library/bb522911.aspx)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Security Considerations for Notifications Services<ept id="p5">](http://msdn.microsoft.com/library/ms172604.aspx)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>Query Notification Permissions<ept id="p6">](http://msdn.microsoft.com/library/ms188311.aspx)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>International Considerations for Service Broker<ept id="p7">](http://msdn.microsoft.com/library/ms166028.aspx)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>Solution Design Considerations (Service Broker)<ept id="p8">](http://msdn.microsoft.com/library/bb522899.aspx)</ept><ph id="ph8">      -   </ph><bpt id="p9">[</bpt>Service Broker Developer InfoCenter<ept id="p9">](http://msdn.microsoft.com/library/ms166100.aspx)</ept><ph id="ph9">      -   </ph><bpt id="p10">[</bpt>Developer's Guide (Service Broker)<ept id="p10">](http://msdn.microsoft.com/library/bb522908.aspx)</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>SQL Server オンライン ブック<ept id="p1">**</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>通知クエリの作成<ept id="p2">](http://msdn.microsoft.com/library/ms181122.aspx)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Service Broker のセキュリティに関する考慮事項<ept id="p3">](http://msdn.microsoft.com/library/ms166059.aspx)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>のセキュリティと保護 (Service Broker)<ept id="p4">](http://msdn.microsoft.com/library/bb522911.aspx)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>通知サービスのセキュリティに関する考慮事項<ept id="p5">](http://msdn.microsoft.com/library/ms172604.aspx)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>クエリ通知の権限<ept id="p6">](http://msdn.microsoft.com/library/ms188311.aspx)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>Service Broker の国際化に関する考慮事項<ept id="p7">](http://msdn.microsoft.com/library/ms166028.aspx)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>ソリューション設計に関する考慮事項 (Service Broker)<ept id="p8">](http://msdn.microsoft.com/library/bb522899.aspx)</ept><ph id="ph8">      -   </ph><bpt id="p9">[</bpt>Service Broker 開発者向けの情報<ept id="p9">](http://msdn.microsoft.com/library/ms166100.aspx)</ept><ph id="ph9">      -   </ph><bpt id="p10">[</bpt>Developer's Guide (Service Broker)<ept id="p10">](http://msdn.microsoft.com/library/bb522908.aspx)</ept></target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to associate with this <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトに関連付けられているこの<bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The constructor will set up a <bpt id="p1">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and bind it to the command.</source>
+          <target state="translated">コンス トラクターが設定されます、 <bpt id="p1">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトし、コマンドにバインドします。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">command</ph><ept id="p1">&lt;/code&gt;</ept> parameter is NULL.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">command</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが NULL です。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object already has a <bpt id="p2">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object assigned to its &lt;xref:System.Data.SqlClient.SqlCommand.Notification*&gt; property, and that <bpt id="p3">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> is not associated with this dependency.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトは既に、 <bpt id="p2">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトに割り当てられているその&lt;xref:System.Data.SqlClient.SqlCommand.Notification*&gt;プロパティ、およびを<bpt id="p3">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>この依存関係に関連付けられていない&lt;/xref:System.Data.SqlClient.SqlCommand.Notification*&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, associates it with the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> parameter, and specifies notification options and a time-out value.</source>
+          <target state="translated">新しいインスタンスを作成、 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスに関連付けます、 <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>パラメーター、通知オプションとタイムアウト値を指定します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Query notifications are supported only for SELECT statements that meet a list of specific requirements.</source>
+          <target state="translated">クエリ通知は、特定の要件を満たす SELECT ステートメントでのみサポートされます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The following table provides links to the Service Broker and Query Notifications documentation in SQL Server Books Online.</source>
+          <target state="translated">次の表は、SQL Server オンライン ブックの Service Broker とクエリ通知のドキュメントへのリンクを提供します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SQL Server Books Online<ept id="p1">**</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Creating a Query for Notification<ept id="p2">](http://msdn.microsoft.com/library/ms181122.aspx)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Security Considerations for Service Broker<ept id="p3">](http://msdn.microsoft.com/library/ms166059.aspx)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Security and Protection (Service Broker)<ept id="p4">](http://msdn.microsoft.com/library/bb522911.aspx)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Security Considerations for Notifications Services<ept id="p5">](http://msdn.microsoft.com/library/ms172604.aspx)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>Query Notification Permissions<ept id="p6">](http://msdn.microsoft.com/library/ms188311.aspx)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>International Considerations for Service Broker<ept id="p7">](http://msdn.microsoft.com/library/ms166028.aspx)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>Solution Design Considerations (Service Broker)<ept id="p8">](http://msdn.microsoft.com/library/bb522899.aspx)</ept><ph id="ph8">      -   </ph><bpt id="p9">[</bpt>Service Broker Developer InfoCenter<ept id="p9">](http://msdn.microsoft.com/library/ms166100.aspx)</ept><ph id="ph9">      -   </ph><bpt id="p10">[</bpt>Developer's Guide (Service Broker)<ept id="p10">](http://msdn.microsoft.com/library/bb522908.aspx)</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>SQL Server オンライン ブック<ept id="p1">**</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>通知クエリの作成<ept id="p2">](http://msdn.microsoft.com/library/ms181122.aspx)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Service Broker のセキュリティに関する考慮事項<ept id="p3">](http://msdn.microsoft.com/library/ms166059.aspx)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>のセキュリティと保護 (Service Broker)<ept id="p4">](http://msdn.microsoft.com/library/bb522911.aspx)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>通知サービスのセキュリティに関する考慮事項<ept id="p5">](http://msdn.microsoft.com/library/ms172604.aspx)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>クエリ通知の権限<ept id="p6">](http://msdn.microsoft.com/library/ms188311.aspx)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>Service Broker の国際化に関する考慮事項<ept id="p7">](http://msdn.microsoft.com/library/ms166028.aspx)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>ソリューション設計に関する考慮事項 (Service Broker)<ept id="p8">](http://msdn.microsoft.com/library/bb522899.aspx)</ept><ph id="ph8">      -   </ph><bpt id="p9">[</bpt>Service Broker 開発者向けの情報<ept id="p9">](http://msdn.microsoft.com/library/ms166100.aspx)</ept><ph id="ph9">      -   </ph><bpt id="p10">[</bpt>Developer's Guide (Service Broker)<ept id="p10">](http://msdn.microsoft.com/library/bb522908.aspx)</ept></target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to associate with this <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトに関連付けられているこの<bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The constructor sets up a <bpt id="p1">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and bind it to the command.</source>
+          <target state="translated">コンス トラクターを設定、 <bpt id="p1">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトし、コマンドにバインドします。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The notification request options to be used by this dependency.</source>
+          <target state="translated">この依存関係で使用される通知の要求オプション。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`null`</ph> to use the default service.</source>
+          <target state="translated"><ph id="ph1">`null`</ph>既定のサービスを使用します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The time-out for this notification in seconds.</source>
+          <target state="translated">秒単位では、この通知のタイムアウト値。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default is 0, indicating that the server's time-out should be used.</source>
+          <target state="translated">既定値は 0 で、サーバーのタイムアウトを使用することを示すです。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">command</ph><ept id="p1">&lt;/code&gt;</ept> parameter is NULL.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">command</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが NULL です。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The time-out value is less than zero.</source>
+          <target state="translated">タイムアウト値が&amp;0; 未満です。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object already has a <bpt id="p2">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object assigned to its &lt;xref:System.Data.SqlClient.SqlCommand.Notification<bpt id="p3">*</bpt>&gt; property and that <bpt id="p4">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> is not associated with this dependency.       An attempt was made to create a <ept id="p3">*</ept><bpt id="p5">*</bpt>SqlDependency<ept id="p5">*</ept>* instance from within SQLCLR.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトは既に、 <bpt id="p2">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトに割り当てられているその&lt;&gt; <bpt id="p3">*</bpt>&gt; プロパティおよび<bpt id="p4">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>この依存関係に関連付けられていません。     作成しようとしましたが、 <ept id="p3">*</ept> <bpt id="p5">*</bpt>SqlDependency<ept id="p5">*</ept>* SQLCLR 内からインスタンス化します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Associates a <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with this <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">関連付けます、 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトをこの<bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>インスタンス。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Query notifications are supported only for SELECT statements that meet a list of specific requirements.</source>
+          <target state="translated">クエリ通知は、特定の要件を満たす SELECT ステートメントでのみサポートされます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The following table provides links to the Service Broker and Query Notifications documentation in SQL Server Books Online.</source>
+          <target state="translated">次の表は、SQL Server オンライン ブックの Service Broker とクエリ通知のドキュメントへのリンクを提供します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SQL Server Books Online<ept id="p1">**</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Creating a Query for Notification<ept id="p2">](http://msdn.microsoft.com/library/ms181122.aspx)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Security Considerations for Service Broker<ept id="p3">](http://msdn.microsoft.com/library/ms166059.aspx)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Security and Protection (Service Broker)<ept id="p4">](http://msdn.microsoft.com/library/bb522911.aspx)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Security Considerations for Notifications Services<ept id="p5">](http://msdn.microsoft.com/library/ms172604.aspx)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>Query Notification Permissions<ept id="p6">](http://msdn.microsoft.com/library/ms188311.aspx)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>International Considerations for Service Broker<ept id="p7">](http://msdn.microsoft.com/library/ms166028.aspx)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>Solution Design Considerations (Service Broker)<ept id="p8">](http://msdn.microsoft.com/library/bb522899.aspx)</ept><ph id="ph8">      -   </ph><bpt id="p9">[</bpt>Service Broker Developer InfoCenter<ept id="p9">](http://msdn.microsoft.com/library/ms166100.aspx)</ept><ph id="ph9">      -   </ph><bpt id="p10">[</bpt>Developer's Guide (Service Broker)<ept id="p10">](http://msdn.microsoft.com/library/bb522908.aspx)</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>SQL Server オンライン ブック<ept id="p1">**</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>通知クエリの作成<ept id="p2">](http://msdn.microsoft.com/library/ms181122.aspx)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Service Broker のセキュリティに関する考慮事項<ept id="p3">](http://msdn.microsoft.com/library/ms166059.aspx)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>のセキュリティと保護 (Service Broker)<ept id="p4">](http://msdn.microsoft.com/library/bb522911.aspx)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>通知サービスのセキュリティに関する考慮事項<ept id="p5">](http://msdn.microsoft.com/library/ms172604.aspx)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>クエリ通知の権限<ept id="p6">](http://msdn.microsoft.com/library/ms188311.aspx)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>Service Broker の国際化に関する考慮事項<ept id="p7">](http://msdn.microsoft.com/library/ms166028.aspx)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>ソリューション設計に関する考慮事項 (Service Broker)<ept id="p8">](http://msdn.microsoft.com/library/bb522899.aspx)</ept><ph id="ph8">      -   </ph><bpt id="p9">[</bpt>Service Broker 開発者向けの情報<ept id="p9">](http://msdn.microsoft.com/library/ms166100.aspx)</ept><ph id="ph9">      -   </ph><bpt id="p10">[</bpt>Developer's Guide (Service Broker)<ept id="p10">](http://msdn.microsoft.com/library/bb522908.aspx)</ept></target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object containing a statement that is valid for notifications.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>通知に対して有効なステートメントを含むオブジェクト。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">command</ph><ept id="p1">&lt;/code&gt;</ept> parameter is null.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">command</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが null です。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object already has a <bpt id="p2">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object assigned to its &lt;xref:System.Data.SqlClient.SqlCommand.Notification*&gt; property, and that <bpt id="p3">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> is not associated with this dependency.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトは既に、 <bpt id="p2">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトに割り当てられているその&lt;xref:System.Data.SqlClient.SqlCommand.Notification*&gt;プロパティ、およびを<bpt id="p3">&lt;xref href="System.Data.Sql.SqlNotificationRequest"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>この依存関係に関連付けられていない&lt;/xref:System.Data.SqlClient.SqlCommand.Notification*&gt;。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether one of the result sets associated with the dependency has changed.</source>
+          <target state="translated">依存関係に関連付けられている結果セットのいずれかが変更されたかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If you are not using the &lt;xref:System.Data.SqlClient.SqlDependency.OnChange&gt; event, you can check the HasChanges property to determine if the query results have changed.</source>
+          <target state="translated">使用していない場合、&lt;xref:System.Data.SqlClient.SqlDependency.OnChange&gt;イベント、クエリの結果が変更されたかどうかを判断 HasChanges プロパティを確認することができます&lt;/xref:System.Data.SqlClient.SqlDependency.OnChange&gt;。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The HasChanges property does not necessarily imply a change in the data.</source>
+          <target state="translated">HasChanges プロパティでは、データの変更は必ずしも意味しません。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Other circumstances, such as time-out expired and failure to set the notification request, also generate a change event.</source>
+          <target state="translated">タイムアウトなど、他の状況が期限切れになり、通知要求の設定に失敗したも変更イベントを生成します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A Boolean value indicating whether one of the result sets has changed.</source>
+          <target state="translated">結果のいずれかを設定するかどうかを示すブール値が変更されました。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets a value that uniquely identifies this instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">このインスタンスを一意に識別する値を取得、 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The Id property is used to uniquely identify a given &lt;xref:System.Data.SqlClient.SqlDependency&gt; instance.</source>
+          <target state="translated">一意に識別する Id プロパティが使用される、指定された&lt;xref:System.Data.SqlClient.SqlDependency&gt;インスタンス&lt;/xref:System.Data.SqlClient.SqlDependency&gt;。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A string representation of a GUID that is generated for each instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">各インスタンスに対して生成される GUID の文字列表現、 <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Occurs when a notification is received for any of the commands associated with this <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">これに関連付けられているコマンドのいずれかの通知を受け取ったときに発生<bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>OnChange occurs when the results for the associated command change.</source>
+          <target state="translated">OnChange は、関連付けられているコマンドの結果を変更するときに発生します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If you are not using OnChange, you can check the &lt;xref:System.Data.SqlClient.SqlDependency.HasChanges%2A&gt; property to determine whether the query results have changed.</source>
+          <target state="translated">OnChange を使用していない場合は、確認、&lt;xref:System.Data.SqlClient.SqlDependency.HasChanges%2A&gt;クエリの結果が変更されたかどうかを決定するプロパティ&lt;/xref:System.Data.SqlClient.SqlDependency.HasChanges%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The OnChange event does not necessarily imply a change in the data.</source>
+          <target state="translated">OnChange イベントでは、データの変更は必ずしも意味しません。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Other circumstances, such as time-out expired and failure to set the notification request, also generate OnChange.</source>
+          <target state="translated">タイムアウトなど、他の状況に有効期限が切れてし、通知要求の設定に失敗したも OnChange を生成します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Starts the listener for receiving dependency change notifications from the instance of SQL Server specified by the connection string.</source>
+          <target state="translated">接続文字列で指定された SQL Server のインスタンスから依存関係の変更通知を受信するためには、リスナーを開始します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This method starts the listener for the &lt;xref:System.AppDomain&gt; for receiving dependency notifications from the instance of <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> specified by the <ph id="ph2">`connectionString`</ph> parameter.</source>
+          <target state="translated">このメソッドは、リスナーを開始、&lt;xref:System.AppDomain&gt;のインスタンスから依存関係の通知を受信するため<ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>によって指定された、<ph id="ph2">`connectionString`</ph>パラメーター&lt;/xref:System.AppDomain&gt; 。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This method may be called more than once with different connection strings for multiple servers.</source>
+          <target state="translated">このメソッドに対して呼び出すことは&amp;1; 回以上の異なる接続文字列に複数のサーバー。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For additional remarks, see &lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;.</source>
+          <target state="translated">詳細説明、 &lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;。&lt;/xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The connection string for the instance of <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> from which to obtain change notifications.</source>
+          <target state="translated">インスタンスの接続文字列<ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>から取得するには、通知を変更します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>true<ept id="p1">**</ept> if the listener initialized successfully; <bpt id="p2">**</bpt>false<ept id="p2">**</ept> if a compatible listener already exists.</source>
+          <target state="translated"><bpt id="p1">**</bpt>true<ept id="p1">**</ept>リスナーが正常に初期化される場合<bpt id="p2">**</bpt>false<ept id="p2">**</ept>互換性のあるリスナーが既に存在する場合。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is NULL.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが NULL です。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is the same as a previous call to this method, but the parameters are different.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターは、このメソッドを前回の呼び出しと同じですが、パラメーターは異なります。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The method was called from within the CLR.</source>
+          <target state="translated">メソッドは、CLR 内からを呼び出されました。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> code access security (CAS) permission.</source>
+          <target state="translated">呼び出し元を必須にすることはない<bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コード アクセス セキュリティ (CAS) 許可します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A subsequent call to the method has been made with an equivalent <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p1">&lt;/code&gt;</ept> parameter with a different user, or a user that does not default to the same schema.</source>
+          <target state="translated">同等のメソッドへの後続の呼び出しが行わ<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p1">&lt;/code&gt;</ept>別のユーザーと同じスキーマに特に指定しない限り、ユーザーのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Also, any underlying <bpt id="p1">**</bpt>SqlClient<ept id="p1">**</ept> exceptions.</source>
+          <target state="translated">また、任意の基になる<bpt id="p1">**</bpt>SqlClient<ept id="p1">**</ept>例外。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Starts the listener for receiving dependency change notifications from the instance of SQL Server specified by the connection string using the specified SQL Server Service Broker queue.</source>
+          <target state="translated">指定された SQL Server Service Broker キューを使用して、接続文字列で指定された SQL Server のインスタンスから依存関係の変更通知を受信するためには、リスナーを開始します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This method starts the listener for the &lt;xref:System.AppDomain&gt; for receiving dependency notifications from the instance of SQL Server specified by the <ph id="ph1">`connectionString`</ph> parameter.</source>
+          <target state="translated">このメソッドは、リスナーを開始、&lt;xref:System.AppDomain&gt;で指定された SQL Server のインスタンスから依存関係の通知を受信するため、<ph id="ph1">`connectionString`</ph>パラメーター&lt;/xref:System.AppDomain&gt; 。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This method may be called more than once with different connection strings for multiple servers.</source>
+          <target state="translated">このメソッドに対して呼び出すことは&amp;1; 回以上の異なる接続文字列に複数のサーバー。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If no queue name is specified, &lt;xref:System.Data.SqlClient.SqlDependency&gt; creates a temporary queue and service in the server that is used for the entire process, even if the process involves more than one &lt;xref:System.AppDomain&gt;.</source>
+          <target state="translated">キュー名が指定されていない場合&lt;xref:System.Data.SqlClient.SqlDependency&gt;、一時キューおよびプロセスでは、1 つ以上&lt;xref:System.AppDomain&gt;.&lt;/xref:System.AppDomain&gt;場合でも、プロセス全体に使用されるサーバーのサービスを作成&lt;/xref:System.Data.SqlClient.SqlDependency&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The queue and service are automatically removed upon application shutdown.</source>
+          <target state="translated">キューおよびサービスは、アプリケーションのシャット ダウン時に自動的に削除します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For additional remarks, see &lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;.</source>
+          <target state="translated">詳細説明、 &lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;。&lt;/xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The connection string for the instance of SQL Server from which to obtain change notifications.</source>
+          <target state="translated">取得する対象の SQL Server のインスタンスの接続文字列は、通知を変更します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>An existing SQL Server Service Broker queue to be used.</source>
+          <target state="translated">使用する既存の SQL Server Service Broker キュー。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default queue is used.</source>
+          <target state="translated">場合<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>既定のキューを使用します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>true<ept id="p1">**</ept> if the listener initialized successfully; <bpt id="p2">**</bpt>false<ept id="p2">**</ept> if a compatible listener already exists.</source>
+          <target state="translated"><bpt id="p1">**</bpt>true<ept id="p1">**</ept>リスナーが正常に初期化される場合<bpt id="p2">**</bpt>false<ept id="p2">**</ept>互換性のあるリスナーが既に存在する場合。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is NULL.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが NULL です。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is the same as a previous call to this method, but the parameters are different.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターは、このメソッドを前回の呼び出しと同じですが、パラメーターは異なります。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The method was called from within the CLR.</source>
+          <target state="translated">メソッドは、CLR 内からを呼び出されました。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> code access security (CAS) permission.</source>
+          <target state="translated">呼び出し元を必須にすることはない<bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コード アクセス セキュリティ (CAS) 許可します。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A subsequent call to the method has been made with an equivalent <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p1">&lt;/code&gt;</ept> parameter but a different user, or a user that does not default to the same schema.</source>
+          <target state="translated">同等のメソッドへの後続の呼び出しが行わ<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが、別のユーザーまたは同じスキーマに特に指定しない限り、ユーザー。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Also, any underlying <bpt id="p1">**</bpt>SqlClient<ept id="p1">**</ept> exceptions.</source>
+          <target state="translated">また、任意の基になる<bpt id="p1">**</bpt>SqlClient<ept id="p1">**</ept>例外。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Stops a listener for a connection specified in a previous &lt;xref:System.Data.SqlClient.SqlDependency.Start*&gt; call.</source>
+          <target state="translated">以前に指定された接続用のリスナーを停止する&lt;xref:System.Data.SqlClient.SqlDependency.Start*&gt;呼び出します&lt;/xref:System.Data.SqlClient.SqlDependency.Start*&gt;。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt; method must be called for each &lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt; call.</source>
+          <target state="translated">&lt;xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt;各メソッドを呼び出す必要があります&lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;呼び出します&lt;/xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;&lt;/xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A given listener only shuts down fully when it receives the same number of &lt;xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt; requests as &lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt; requests.</source>
+          <target state="translated">指定されたリスナーがのみがシャット ダウン、完全に受信すると、同じ数の&lt;xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt;要求として&lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;要求&lt;/xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;&lt;/xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Connection string for the instance of SQL Server that was used in a previous &lt;xref:System.Data.SqlClient.SqlDependency.Start*&gt; call.</source>
+          <target state="translated">以前に使用された SQL Server のインスタンスの接続文字列&lt;xref:System.Data.SqlClient.SqlDependency.Start*&gt;呼び出します&lt;/xref:System.Data.SqlClient.SqlDependency.Start*&gt;。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>true<ept id="p1">**</ept> if the listener was completely stopped; <bpt id="p2">**</bpt>false<ept id="p2">**</ept> if the <bpt id="p3">&lt;xref href="System.AppDomain"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> was unbound from the listener, but there are is at least one other <bpt id="p4">&lt;xref href="System.AppDomain"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> using the same listener.</source>
+          <target state="translated"><bpt id="p1">**</bpt>true<ept id="p1">**</ept>場合は、リスナーが完全に停止しました。<bpt id="p2">**</bpt>false<ept id="p2">**</ept>場合、 <bpt id="p3">&lt;xref href="System.AppDomain"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>リスナーからバインドがありませんでしたが、あるが少なくとも&amp;1; つの他の<bpt id="p4">&lt;xref href="System.AppDomain"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>同じリスナーを使用します。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is NULL.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが NULL です。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The method was called from within SQLCLR.</source>
+          <target state="translated">メソッドは、SQLCLR 内からを呼び出されました。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> code access security (CAS) permission.</source>
+          <target state="translated">呼び出し元を必須にすることはない<bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コード アクセス セキュリティ (CAS) 許可します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An underlying <bpt id="p1">**</bpt>SqlClient<ept id="p1">**</ept> exception occurred.</source>
+          <target state="translated">基になる<bpt id="p1">**</bpt>SqlClient<ept id="p1">**</ept>例外が発生しました。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Stops a listener for a connection specified in a previous &lt;xref:System.Data.SqlClient.SqlDependency.Start*&gt; call.</source>
+          <target state="translated">以前に指定された接続用のリスナーを停止する&lt;xref:System.Data.SqlClient.SqlDependency.Start*&gt;呼び出します&lt;/xref:System.Data.SqlClient.SqlDependency.Start*&gt;。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt; method must be called for each &lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt; call.</source>
+          <target state="translated">&lt;xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt;各メソッドを呼び出す必要があります&lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;呼び出します&lt;/xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;&lt;/xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A given listener only shuts down fully when it receives the same number of &lt;xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt; requests as &lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt; requests.</source>
+          <target state="translated">指定されたリスナーがのみがシャット ダウン、完全に受信すると、同じ数の&lt;xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt;要求として&lt;xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;要求&lt;/xref:System.Data.SqlClient.SqlDependency.Start%2A&gt;&lt;/xref:System.Data.SqlClient.SqlDependency.Stop%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Connection string for the instance of SQL Server that was used in a previous &lt;xref:System.Data.SqlClient.SqlDependency.Start*&gt; call.</source>
+          <target state="translated">以前に使用された SQL Server のインスタンスの接続文字列&lt;xref:System.Data.SqlClient.SqlDependency.Start*&gt;呼び出します&lt;/xref:System.Data.SqlClient.SqlDependency.Start*&gt;。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The SQL Server Service Broker queue that was used in a previous &lt;xref:System.Data.SqlClient.SqlDependency.Start*&gt; call.</source>
+          <target state="translated">以前に使用された SQL Server Service Broker キュー&lt;xref:System.Data.SqlClient.SqlDependency.Start*&gt;呼び出します&lt;/xref:System.Data.SqlClient.SqlDependency.Start*&gt;。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>true<ept id="p1">**</ept> if the listener was completely stopped; <bpt id="p2">**</bpt>false<ept id="p2">**</ept> if the <bpt id="p3">&lt;xref href="System.AppDomain"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> was unbound from the listener, but there is at least one other <bpt id="p4">&lt;xref href="System.AppDomain"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> using the same listener.</source>
+          <target state="translated"><bpt id="p1">**</bpt>true<ept id="p1">**</ept>場合は、リスナーが完全に停止しました。<bpt id="p2">**</bpt>false<ept id="p2">**</ept>場合、 <bpt id="p3">&lt;xref href="System.AppDomain"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>リスナーからバインドがでしたが、少なくとも&amp;1; つであるその他の<bpt id="p4">&lt;xref href="System.AppDomain"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>同じリスナーを使用します。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p1">&lt;/code&gt;</ept> parameter is NULL.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが NULL です。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The method was called from within SQLCLR.</source>
+          <target state="translated">メソッドは、SQLCLR 内からを呼び出されました。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> code access security (CAS) permission.</source>
+          <target state="translated">呼び出し元を必須にすることはない<bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コード アクセス セキュリティ (CAS) 許可します。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>And underlying <bpt id="p1">**</bpt>SqlClient<ept id="p1">**</ept> exception occurred.</source>
+          <target state="translated">基になると<bpt id="p1">**</bpt>SqlClient<ept id="p1">**</ept>例外が発生しました。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

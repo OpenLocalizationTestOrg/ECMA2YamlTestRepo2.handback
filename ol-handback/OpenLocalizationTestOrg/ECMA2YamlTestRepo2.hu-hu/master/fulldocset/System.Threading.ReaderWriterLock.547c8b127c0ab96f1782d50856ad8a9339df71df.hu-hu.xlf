@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ec4eb6abc1cdf4de3aec918a6749eb637feb389</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Threading.ReaderWriterLock.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e2c24c218a229c81059e01f388a03a2f20ba07c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc33aa4e80118dfe4cd1a4cad4ba16b2cf1248f7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a lock that supports single writers and multiple readers.</source>
+          <target state="translated">Határozza meg, amely támogatja a egyetlen írók és több olvasók zárolást.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  The <ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> has two reader-writer locks, &lt;xref:System.Threading.ReaderWriterLockSlim&gt; and ReaderWriterLock.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; A <ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> két olvasási-írási zárolás van &lt;xref:System.Threading.ReaderWriterLockSlim&gt;és ReaderWriterLock.&lt;/xref:System.Threading.ReaderWriterLockSlim&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Threading.ReaderWriterLockSlim&gt; is recommended for all new development.</source>
+          <target state="translated">&lt;xref:System.Threading.ReaderWriterLockSlim&gt;ajánlott az összes új fejlesztését.&lt;/xref:System.Threading.ReaderWriterLockSlim&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Threading.ReaderWriterLockSlim&gt; is similar to ReaderWriterLock, but it has simplified rules for recursion and for upgrading and downgrading lock state.</source>
+          <target state="translated">&lt;xref:System.Threading.ReaderWriterLockSlim&gt;hasonló ReaderWriterLock, de azt van egyszerűsített szabályok rekurzió és frissítése, és alacsonyabb verziójúra változtatása a zárolás állapotát.&lt;/xref:System.Threading.ReaderWriterLockSlim&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Threading.ReaderWriterLockSlim&gt; avoids many cases of potential deadlock.</source>
+          <target state="translated">&lt;xref:System.Threading.ReaderWriterLockSlim&gt;Ezzel elkerülheti a holtpont sok esetben.&lt;/xref:System.Threading.ReaderWriterLockSlim&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, the performance of &lt;xref:System.Threading.ReaderWriterLockSlim&gt; is significantly better than ReaderWriterLock.</source>
+          <target state="translated">Emellett a teljesítményét &lt;xref:System.Threading.ReaderWriterLockSlim&gt;jelentősen jobb, mint ReaderWriterLock.&lt;/xref:System.Threading.ReaderWriterLockSlim&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ReaderWriterLock is used to synchronize access to a resource.</source>
+          <target state="translated">ReaderWriterLock erőforráshoz való hozzáférés szinkronizálására használják.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At any given time, it allows either concurrent read access for multiple threads, or write access for a single thread.</source>
+          <target state="translated">Egy adott időpontban lehetővé teszi az egyszerre használható szálak egyidejű olvasási hozzáférés, vagy egyetlen szálon írási hozzáférést.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a situation where a resource is changed infrequently, a <ph id="ph1">`ReaderWriterLock`</ph> provides better throughput than a simple one-at-a-time lock, such as &lt;xref:System.Threading.Monitor&gt;.</source>
+          <target state="translated">Egy olyan esetben, ha egy erőforrás ritkán, megváltozott-e egy <ph id="ph1">`ReaderWriterLock`</ph> mint egy egyszerű egy-a-a-time zár, például &lt;xref:System.Threading.Monitor&gt;.&lt;/xref:System.Threading.Monitor&gt; jobb teljesítményt biztosít</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`ReaderWriterLock`</ph> works best where most accesses are reads, while writes are infrequent and of short duration.</source>
+          <target state="translated"><ph id="ph1">`ReaderWriterLock`</ph>Amennyiben a legtöbb hozzáférések olvasások, míg írások alkalomszerű és rövid időtartam működik a legjobban.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Multiple readers alternate with single writers, so that neither readers nor writers are blocked for long periods.</source>
+          <target state="translated">Több olvasók alternatív egyetlen írók az, hogy az olvasók sem írók hosszú ideig le vannak tiltva.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Holding reader locks or writer locks for long periods will starve other threads.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Rendelkezik olvasási zárolások vagy írási zárolás, a hosszabb ideig ki lesz is szoríthatják más szálak.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For best performance, consider restructuring your application to minimize the duration of writes.</source>
+          <target state="translated">A legjobb teljesítmény érdekében érdemes a át lesznek strukturálva a az alkalmazás írási műveletek időtartama minimalizálása érdekében.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread can hold a reader lock or a writer lock, but not both at the same time.</source>
+          <target state="translated">A szál tárolására képes olvasó, lock vagy zárolást, de ne mindkettőt egyszerre.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of releasing a reader lock in order to acquire the writer lock, you can use &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; and &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;.</source>
+          <target state="translated">Egy olvasási zárolás feloldása ahhoz, hogy a zárolást szerezni, helyett használhat, &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;és &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt; &lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recursive lock requests increase the lock count on a lock.</source>
+          <target state="translated">Rekurzív zárolási kérelmek növelje meg a zárolást a zárolási szám.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Readers and writers are queued separately.</source>
+          <target state="translated">Olvasók és írók külön-külön sorba.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a thread releases the writer lock, all threads waiting in the reader queue at that instant are granted reader locks; when all of those reader locks have been released, the next thread waiting in the writer queue, if any, is granted the writer lock, and so on.</source>
+          <target state="translated">A szál írási zárolás feloldása, amikor minden szál várakozik a olvasó, hogy azonnali kapnak olvasási zárolások; Ha az összes adott olvasási zárolások adtak ki, az író a következő szál várakozó feldolgozási sor, ha vannak ilyenek, kap a zárolást, és így tovább.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In other words, <ph id="ph1">`ReaderWriterLock`</ph> alternates between a collection of readers, and one writer.</source>
+          <target state="translated">Más szóval <ph id="ph1">`ReaderWriterLock`</ph> helyettesek olvasók gyűjteménye, és egy író között.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While a thread in the writer queue is waiting for active reader locks to be released, threads requesting new reader locks accumulate in the reader queue.</source>
+          <target state="translated">Egy szál a író várólistában lévő aktív olvasóval zárolások kiadandó vár, amíg az olvasó várólistában új olvasási zárolások kérése szálak gyűlik össze.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Their requests are not granted, even though they could share concurrent access with existing reader-lock holders; this helps protect writers against indefinite blockage by readers.</source>
+          <target state="translated">A nem kéréseket, annak ellenére, hogy azok sikerült egyidejű hozzáférés megosztása meglévő olvasó-lock tartozó felhasználók számára; hozzájárul írók olvasók határozatlan elakadása elleni védelméhez.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most methods for acquiring locks on a <ph id="ph1">`ReaderWriterLock`</ph> accept time-out values.</source>
+          <target state="translated">Zárolás beszerzése a legtöbb módszerei egy <ph id="ph1">`ReaderWriterLock`</ph> időtúllépési értékét fogadja el.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use time-outs to avoid deadlocks in your application.</source>
+          <target state="translated">Az alkalmazás holtpont elkerülése érdekében időtúllépéseket használja.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a thread might acquire the writer lock on one resource and then request a reader lock on a second resource; in the meantime, another thread might acquire the writer lock on the second resource, and request a reader lock on the first.</source>
+          <target state="translated">Például egy szál előfordulhat, hogy az író tud zárolást szerezni a egy erőforrást és majd egy olvasó zárolást kérhetnek a második erőforrás; addig is egy másik szál előfordulhat, hogy az író tud zárolást szerezni a második erőforrás, és olvasási zárolás. az első kérelem.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unless time-outs are used, the threads deadlock.</source>
+          <target state="translated">Ha nincsenek időtúllépéseket, a szálak holtpont.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the time-out interval expires and the lock request has not been granted, the method returns control to the calling thread by throwing an &lt;xref:System.ApplicationException&gt;.</source>
+          <target state="translated">Az időtúllépési időtartama lejár, és a zárolási kérelem nem lett engedélyezve, ha a metódus visszaadja a hívó szál által &lt;xref:System.ApplicationException&gt;.&lt;/xref:System.ApplicationException&gt; kiváltása</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread can catch this exception and determine what action to take next.</source>
+          <target state="translated">Egy szál a rendszer a findlogin, és határozza meg a következő végrehajtandó műveletet.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Time-outs are expressed in milliseconds.</source>
+          <target state="translated">Várakozási idő ezredmásodpercben szerint van megadva.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you use a &lt;xref:System.TimeSpan?displayProperty=fullName&gt; to specify the time-out, the value used is the total number of whole milliseconds represented by the &lt;xref:System.TimeSpan&gt;.</source>
+          <target state="translated">Ha egy &lt;xref:System.TimeSpan?displayProperty=fullName&gt;adhatja meg az időtúllépés értékét teljes száma érték teljes ideje (MS) a &lt;xref:System.TimeSpan&gt;.&lt;/xref:System.TimeSpan&gt; által képviselt&lt;/xref:System.TimeSpan?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the valid time-out values in milliseconds.</source>
+          <target state="translated">A következő táblázat a érvényes időtúllépési értékét, ezredmásodpercben megadva.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Value|Description|   |-----------|-----------------|   |-1|The thread waits until the lock is acquired, regardless of how long it takes.</source>
+          <target state="translated">| Érték |} Leírás |}   |-----------|-----------------|   |} -1 |} A szál megvárja, amíg a zárolást szerzett, függetlenül attól, hogy mennyi ideig tart.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For methods that specify integer time-outs, the constant &lt;xref:System.Threading.Timeout.Infinite&gt; can be used.|   |0|The thread does not wait to acquire the lock.</source>
+          <target state="translated">Adja meg az egész időtúllépéseket módszerek, a állandó &lt;xref:System.Threading.Timeout.Infinite&gt;használhatók. |}   |}&amp;0; |} A szál nem várnak a zárolás megszerzésére.&lt;/xref:System.Threading.Timeout.Infinite&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the lock cannot be acquired immediately, the method returns.|   |&gt;0|The number of milliseconds to wait.|       With the exception of -1, negative time-out values are not allowed.</source>
+          <target state="translated">Ha nem zárolható azonnal, a metódus visszaadja. |}   |} &gt;&amp;0; |} Várja meg ezredmásodpercben. |}       -1, kivéve negatív időtúllépési értékek nem engedélyezettek.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you specify a negative integer other than -1, a time-out value of zero is used instead.</source>
+          <target state="translated">Ha megad egy negatív egész szám,-1, nulla időtúllépési értéket használja helyette.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(That is, the method returns without waiting, if the lock cannot be acquired immediately.) If you specify a &lt;xref:System.TimeSpan&gt; that represents a negative number of milliseconds other than -1, &lt;xref:System.ArgumentOutOfRangeException&gt; is thrown.</source>
+          <target state="translated">(Ez azt jelenti, hogy a metódus visszaadja nélkül várakozik, ha nem zárolható azonnal.) Ha megad egy &lt;xref:System.TimeSpan&gt;ideje (MS)-1 negatív számot jelöl, amely &lt;xref:System.ArgumentOutOfRangeException&gt;vált ki.&lt;/xref:System.ArgumentOutOfRangeException&gt; &lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Threading.ReaderWriterLock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Threading.ReaderWriterLock"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Acquires a reader lock, using an &lt;xref:System.Int32&gt; value for the time-out.</source>
+          <target state="translated">Az olvasót szerez be zárolása használatával egy &lt;xref:System.Int32&gt;az időtúllépési érték.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AcquireReaderLock blocks if a different thread has the writer lock, or if at least one thread is waiting for the writer lock.</source>
+          <target state="translated">AcquireReaderLock tiltása, ha egy másik szálon a zárolást, vagy ha legalább egy szál várakozik a zárolást.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the current thread already has the writer lock, no reader lock is acquired.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Az aktuális szál már a zárolást, ha nincs olvasási zárolás keletkezik.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, the lock count on the writer lock is incremented.</source>
+          <target state="translated">Ehelyett a zárolási szám a zárolást a értéke akkor növekszik.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This prevents a thread from blocking on its own writer lock.</source>
+          <target state="translated">Ez megakadályozza, hogy a szál nem blokkolják a saját zárolást.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result is exactly the same as calling &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, and an additional call to &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; is required when releasing the writer lock.</source>
+          <target state="translated">Az eredmény, pontosan megegyezik hívása &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, és további hívnia &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;szükség, amikor az írási zárolás feloldása.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; &lt;/xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`AcquireReaderLock`</ph> supports recursive reader-lock requests.</source>
+          <target state="translated"><ph id="ph1">`AcquireReaderLock`</ph>támogatja a rekurzív olvasó-zárolási kérelmek.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a thread can call AcquireReaderLock multiple times, which increments the lock count each time.</source>
+          <target state="translated">Ez azt jelenti, hogy a szál meghívhatja AcquireReaderLock többször, ami növeli a zárolási szám minden alkalommal.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must call &lt;xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt; once for each time you call <ph id="ph1">`AcquireReaderLock`</ph>.</source>
+          <target state="translated">Meg kell hívnia &lt;xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt;egyszer minden alkalommal meghívja a <ph id="ph1">`AcquireReaderLock`</ph>.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can call &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt; to reduce the lock count to zero immediately.</source>
+          <target state="translated">Másik lehetőségként hívása &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;a zárolási szám, nulla azonnal csökkentése érdekében.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recursive lock requests are always granted immediately, without placing the requesting thread in the reader queue.</source>
+          <target state="translated">Rekurzív zárolási mindig kéréseket azonnal, anélkül, hogy az olvasó várólista helyezi el a kérést küldő szálon.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use recursive locks with caution, to avoid blocking writer-lock requests for long periods.</source>
+          <target state="translated">Óvatosan rekurzív zárolásokat, hosszú ideig zárolást kérések blokkolása elkerülése érdekében.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Érvényes időtúllépési értékét lásd: &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">Az időkorlát ezredmásodpercben.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;millisecondsTimeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;millisecondsTimeout&lt;/code&gt;</ph>lejárt a zárolási kérelem megadása előtt.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Acquires a reader lock, using a &lt;xref:System.TimeSpan&gt; value for the time-out.</source>
+          <target state="translated">Az olvasót szerez be zárolása használatával egy &lt;xref:System.TimeSpan&gt;az időtúllépési érték.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Threading.ReaderWriterLock.AcquireReaderLock%2A&gt; blocks if a different thread has the writer lock, or if at least one thread is waiting for the writer lock.</source>
+          <target state="translated">&lt;xref:System.Threading.ReaderWriterLock.AcquireReaderLock%2A&gt;Ha egy másik szálon a zárolást, vagy ha legalább egy szál várakozik a zárolást blokkolja.&lt;/xref:System.Threading.ReaderWriterLock.AcquireReaderLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the current thread already has the writer lock, no reader lock is acquired.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Az aktuális szál már a zárolást, ha nincs olvasási zárolás keletkezik.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, the lock count on the writer lock is incremented.</source>
+          <target state="translated">Ehelyett a zárolási szám a zárolást a értéke akkor növekszik.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This prevents a thread from blocking on its own writer lock.</source>
+          <target state="translated">Ez megakadályozza, hogy a szál nem blokkolják a saját zárolást.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result is exactly the same as calling &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, and an additional call to &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; is required when releasing the writer lock.</source>
+          <target state="translated">Az eredmény, pontosan megegyezik hívása &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, és további hívnia &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;szükség, amikor az írási zárolás feloldása.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; &lt;/xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`AcquireReaderLock`</ph> supports recursive reader-lock requests.</source>
+          <target state="translated"><ph id="ph1">`AcquireReaderLock`</ph>támogatja a rekurzív olvasó-zárolási kérelmek.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a thread can call AcquireReaderLock multiple times, which increments the lock count each time.</source>
+          <target state="translated">Ez azt jelenti, hogy a szál meghívhatja AcquireReaderLock többször, ami növeli a zárolási szám minden alkalommal.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must call &lt;xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt; once for each time you call <ph id="ph1">`AcquireReaderLock`</ph>.</source>
+          <target state="translated">Meg kell hívnia &lt;xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt;egyszer minden alkalommal meghívja a <ph id="ph1">`AcquireReaderLock`</ph>.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseReaderLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can call &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt; to reduce the lock count to zero immediately.</source>
+          <target state="translated">Másik lehetőségként hívása &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;a zárolási szám, nulla azonnal csökkentése érdekében.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recursive lock requests are always granted immediately, without placing the requesting thread in the reader queue.</source>
+          <target state="translated">Rekurzív zárolási mindig kéréseket azonnal, anélkül, hogy az olvasó várólista helyezi el a kérést küldő szálon.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use recursive locks with caution, to avoid blocking writer-lock requests for long periods.</source>
+          <target state="translated">Óvatosan rekurzív zárolásokat, hosszú ideig zárolást kérések blokkolása elkerülése érdekében.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Érvényes időtúllépési értékét lásd: &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the time-out period.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adja meg a megadott időn belül.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>lejárt a zárolási kérelem megadása előtt.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> specifies a negative value other than -1 milliseconds.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>Adja meg a-1 ezredmásodperc nem negatív érték.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Acquires the writer lock, using an &lt;xref:System.Int32&gt; value for the time-out.</source>
+          <target state="translated">Az író beolvasások zárolása használatával egy &lt;xref:System.Int32&gt;az időtúllépési érték.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method blocks if another thread has a reader lock or writer lock.</source>
+          <target state="translated">Ez a módszer tiltása, ha egy másik szál rendelkezik olvasási zárolás vagy zárolást.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of the way the writer lock alternates with multiple concurrent reader locks, see the &lt;xref:System.Threading.ReaderWriterLock&gt; class.</source>
+          <target state="translated">Annak, ahogyan a írási zárolás helyettesek több egyidejű olvasási zárral, olvassa el az &lt;xref:System.Threading.ReaderWriterLock&gt;osztályhoz.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread that already has a reader lock can acquire the writer lock in one of two ways: by releasing the reader lock before calling AcquireWriterLock, or by calling &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.</source>
+          <target state="translated">A szál, amely már rendelkezik az olvasási zárolás lekérheti a zárolást az alábbi két módszer egyikével: az olvasási zárolás feloldása AcquireWriterLock hívása előtt, vagy hívja &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  If a thread calls <ph id="ph2">`AcquireWriterLock`</ph> while it still has a reader lock, it will block on its own reader lock; if an infinite time-out is specified, the thread will deadlock.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Ha a szál <ph id="ph2">`AcquireWriterLock`</ph> továbbra is rendelkezik olvasási zárolás, amíg blokkolja a saját olvasási zárolás; Ha egy végtelen időtúllépés van megadva, a szál kölcsönös lesz-e a kizárás.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid such deadlocks, use &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt; to determine whether the current thread already has a reader lock.</source>
+          <target state="translated">Ilyen holtpont elkerülése érdekében használja &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;annak meghatározásához, hogy az aktuális szál már rendelkezik-e olvasási zárolás.&lt;/xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`AcquireWriterLock`</ph> supports recursive writer-lock requests.</source>
+          <target state="translated"><ph id="ph1">`AcquireWriterLock`</ph>rekurzív zárolást kérelmeket támogatja.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a thread can call <ph id="ph1">`AcquireWriterLock`</ph> multiple times, which increments the lock count each time.</source>
+          <target state="translated">Ez azt jelenti, hogy a szál meghívhatja <ph id="ph1">`AcquireWriterLock`</ph> többször, ami növeli a zárolási szám minden alkalommal.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must call &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; once for each time you call <ph id="ph1">`AcquireWriterLock`</ph>.</source>
+          <target state="translated">Meg kell hívnia &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;egyszer minden alkalommal meghívja a <ph id="ph1">`AcquireWriterLock`</ph>.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can call &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt; to reduce the lock count to zero immediately.</source>
+          <target state="translated">Másik lehetőségként hívása &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;a zárolási szám, nulla azonnal csökkentése érdekében.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recursive lock requests are always granted immediately, without placing the requesting thread in the writer queue.</source>
+          <target state="translated">Rekurzív zárolási mindig kéréseket azonnal, anélkül, hogy az író várólista helyezi el a kérést küldő szálon.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Érvényes időtúllépési értékét lásd: &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">Az időkorlát ezredmásodpercben.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>lejárt a zárolási kérelem megadása előtt.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Acquires the writer lock, using a &lt;xref:System.TimeSpan&gt; value for the time-out.</source>
+          <target state="translated">Az író beolvasások zárolása, használja a &lt;xref:System.TimeSpan&gt;az időtúllépési érték.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method blocks if another thread has a reader lock or writer lock.</source>
+          <target state="translated">Ez a módszer tiltása, ha egy másik szál rendelkezik olvasási zárolás vagy zárolást.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of the way the writer lock alternates with multiple concurrent reader locks, see the &lt;xref:System.Threading.ReaderWriterLock&gt; class.</source>
+          <target state="translated">Annak, ahogyan a írási zárolás helyettesek több egyidejű olvasási zárral, olvassa el az &lt;xref:System.Threading.ReaderWriterLock&gt;osztályhoz.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread that already has a reader lock can acquire the writer lock in one of two ways: by releasing the reader lock before calling &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, or by calling &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.</source>
+          <target state="translated">A szál, amely már rendelkezik az olvasási zárolás lekérheti a zárolást az alábbi két módszer egyikével: az olvasási zárolás hívása előtt készítéséhez &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;, vagy &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; meghívásával&lt;/xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  If a thread calls <ph id="ph2">`AcquireWriterLock`</ph> while it still has a reader lock, it will block on its own reader lock; if an infinite time-out is specified, the thread will deadlock.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Ha a szál <ph id="ph2">`AcquireWriterLock`</ph> továbbra is rendelkezik olvasási zárolás, amíg blokkolja a saját olvasási zárolás; Ha egy végtelen időtúllépés van megadva, a szál kölcsönös lesz-e a kizárás.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid such deadlocks, use &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt; to determine whether the current thread already has a reader lock.</source>
+          <target state="translated">Ilyen holtpont elkerülése érdekében használja &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;annak meghatározásához, hogy az aktuális szál már rendelkezik-e olvasási zárolás.&lt;/xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`AcquireWriterLock`</ph> supports recursive writer-lock requests.</source>
+          <target state="translated"><ph id="ph1">`AcquireWriterLock`</ph>rekurzív zárolást kérelmeket támogatja.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a thread can call <ph id="ph1">`AcquireWriterLock`</ph> multiple times, which increments the lock count each time.</source>
+          <target state="translated">Ez azt jelenti, hogy a szál meghívhatja <ph id="ph1">`AcquireWriterLock`</ph> többször, ami növeli a zárolási szám minden alkalommal.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must call &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; once for each time you call <ph id="ph1">`AcquireWriterLock`</ph>.</source>
+          <target state="translated">Meg kell hívnia &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;egyszer minden alkalommal meghívja a <ph id="ph1">`AcquireWriterLock`</ph>.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can call &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt; to reduce the lock count to zero immediately.</source>
+          <target state="translated">Másik lehetőségként hívása &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;a zárolási szám, nulla azonnal csökkentése érdekében.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recursive lock requests are always granted immediately, without placing the requesting thread in the writer queue.</source>
+          <target state="translated">Rekurzív zárolási mindig kéréseket azonnal, anélkül, hogy az író várólista helyezi el a kérést küldő szálon.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Érvényes időtúllépési értékét lásd: &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the time-out period.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adja meg a megadott időn belül.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>lejárt a zárolási kérelem megadása előtt.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> specifies a negative value other than -1 milliseconds.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>Adja meg a-1 ezredmásodperc nem negatív érték.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Indicates whether the writer lock has been granted to any thread since the sequence number was obtained.</source>
+          <target state="translated">Azt jelzi, hogy a zárolást megkapta bármely szálon óta a sorszám lett lekérve.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use &lt;xref:System.Threading.ReaderWriterLock.WriterSeqNum%2A&gt; and <ph id="ph1">`AnyWritersSince`</ph> to improve application performance.</source>
+          <target state="translated">Használhat &lt;xref:System.Threading.ReaderWriterLock.WriterSeqNum%2A&gt;és <ph id="ph1">`AnyWritersSince`</ph> az alkalmazások teljesítményének javítása érdekében.&lt;/xref:System.Threading.ReaderWriterLock.WriterSeqNum%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a thread might cache the information it obtains while holding a reader lock.</source>
+          <target state="translated">Például egy szál előfordulhat, hogy gyorsítótárazza az információkat, amíg olvasási zárolás beolvassa.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After releasing and later reacquiring the lock, the thread can use <ph id="ph1">`AnyWritersSince`</ph> to determine whether other threads have written to the resource in the interim; if not, the cached information can be used.</source>
+          <target state="translated">Után felszabadítása, és később ismételt megszerzéséhez szükséges a zárolás, a szál használható <ph id="ph1">`AnyWritersSince`</ph> annak meghatározásához, hogy más szálak az ideiglenes; kell írni a erőforrás Ha nem, a gyorsítótárban lévő adatokkal is használható.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This technique is useful where reading the information protected by the lock is expensive; for example, running a database query.</source>
+          <target state="translated">Ez a módszer akkor hasznos, ahol a zárolás által védett adatainak olvasásakor költséges; például egy adatbázis a lekérdezésnek a futtatása.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The caller must be holding a reader lock or a writer lock in order for the sequence number to be useful.</source>
+          <target state="translated">Ahhoz, hogy a sorszám hasznos lehet az olvasási zárolás vagy a zárolást a hívónak kell rendelkezik.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The sequence number.</source>
+          <target state="translated">A sorszám.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the writer lock has been granted to any thread since the sequence number was obtained; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a zárolást bármely szálon megkapta, mivel a sorszám kapott; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Restores the lock status of the thread to what it was before &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt; was called.</source>
+          <target state="translated">A szál zárolás állapotát visszaállítja az állapotba &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt;lett meghívva.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DowngradeFromWriterLock releases the writer lock, regardless of the recursive lock count, and restores the reader lock that was held by the thread before upgrading to the writer lock.</source>
+          <target state="translated">DowngradeFromWriterLock kiadja a zárolást, függetlenül a rekurzív zárolási szám, és visszaállítja a olvasási zárolás, mielőtt frissítene a zárolást a szál tartja.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lock count on the reader lock is restored.</source>
+          <target state="translated">A zárolási szám a olvasási zárolás helyreáll.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">`DowngradeFromWriterLock`</ph> accepts a &lt;xref:System.Threading.LockCookie&gt; obtained by calling &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> <ph id="ph2"> &gt;  </ph> <ph id="ph3">`DowngradeFromWriterLock`</ph> fogad el egy &lt;xref:System.Threading.LockCookie&gt; &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; meghívásával kapott&lt;/xref:System.Threading.LockCookie&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use a <ph id="ph1">`LockCookie`</ph> returned by &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;.</source>
+          <target state="translated">Ne használjon egy <ph id="ph1">`LockCookie`</ph> &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt; által visszaadott</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread does not block when downgrading from the writer lock, even if other threads are waiting for the writer lock, because all reader-lock requests are granted when the writer lock is released.</source>
+          <target state="translated">A szál nem blokkolni, ha alacsonyabb verziójúra változtatása a zárolást, akkor is, ha más szálak vár a zárolást, mert az összes olvasó-lock kérelmek kapnak, amikor az írási zárolás.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returned by &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt;.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt;.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock*&gt; által visszaadott</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The thread does not have the writer lock.</source>
+          <target state="translated">A szál nem rendelkezik a zárolást.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The address of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">lockCookie</ph><ept id="p1">&lt;/code&gt;</ept> is a null pointer.</source>
+          <target state="translated">A címe <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">lockCookie</ph> <ept id="p1">&lt;/code&gt;</ept> null mutató.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Ensures that resources are freed and other cleanup operations are performed when the garbage collector reclaims the <bpt id="p1">&lt;xref href="System.Threading.ReaderWriterLock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ellenőrzi, hogy az erőforrások felszabadítását, és egyéb törlési művelet végrehajtása közben a szemétgyűjtő úgy szabadít fel a <bpt id="p1">&lt;xref href="System.Threading.ReaderWriterLock"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The garbage collector calls Finalize when the current &lt;xref:System.Threading.ReaderWriterLock&gt; object is ready to be finalized.</source>
+          <target state="translated">A szemétgyűjtő hívások véglegesítése, ha az aktuális &lt;xref:System.Threading.ReaderWriterLock&gt;objektum véglegesítésre készen áll.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current thread holds a reader lock.</source>
+          <target state="translated">Egy érték, amely jelzi, hogy az aktuális szál rendelkezik-e olvasási zárolás lekérése.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current thread holds a reader lock; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az aktuális szál olvasási zárolás; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current thread holds the writer lock.</source>
+          <target state="translated">Lekérdezi egy érték, amely jelzi, hogy az aktuális szál rendelkezik-e a zárolást.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current thread holds the writer lock; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az aktuális szál a zárolást; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Releases the lock, regardless of the number of times the thread acquired the lock.</source>
+          <target state="translated">Feloldja a zárolást, függetlenül a szál a zárolást szerzett száma.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ReleaseLock releases the reader lock or writer lock, regardless of the recursive lock count.</source>
+          <target state="translated">ReleaseLock kiadja a olvasási zárolás vagy a zárolást, függetlenül a rekurzív zárolási szám.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To restore the state of the lock, including the lock count, pass the &lt;xref:System.Threading.LockCookie&gt; to &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.</source>
+          <target state="translated">A zárolás, beleértve a zárolási szám állapotának visszaállítására adja át a &lt;xref:System.Threading.LockCookie&gt; &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt; &lt;/xref:System.Threading.LockCookie&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value representing the released lock.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érték az engedélyezett zárolása.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Decrements the lock count.</source>
+          <target state="translated">Csökkenti a zárolás száma.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ReleaseReaderLock decrements the lock count.</source>
+          <target state="translated">ReleaseReaderLock csökkenti a zárolás száma.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the count reaches zero, the lock is released.</source>
+          <target state="translated">Ha a szám eléri a nulla, a zárolás úgy.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If a thread has the writer lock, calling <ph id="ph2">`ReleaseReaderLock`</ph> has the same effect as calling &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Hívja. Ha a szál a zárolást, <ph id="ph2">`ReleaseReaderLock`</ph> ugyanaz a hatása, mint &lt;xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseWriterLock%2A&gt; hívása</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a thread has no locks, calling <ph id="ph1">`ReleaseReaderLock`</ph> throws an &lt;xref:System.ApplicationException&gt;.</source>
+          <target state="translated">Ha a szál nem zárolásokat, hívja <ph id="ph1">`ReleaseReaderLock`</ph> &lt;xref:System.ApplicationException&gt;.&lt;/xref:System.ApplicationException&gt; jelez</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The thread does not have any reader or writer locks.</source>
+          <target state="translated">A szál nem rendelkezik bármely olvasási vagy írási zárolás.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Decrements the lock count on the writer lock.</source>
+          <target state="translated">Csökkenti a zárolást a zárolást count.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ReleaseWriterLock decrements the writer lock count.</source>
+          <target state="translated">ReleaseWriterLock csökkenti a zárolást száma.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the count reaches zero, the writer lock is released.</source>
+          <target state="translated">Ha a szám eléri a nulla, az írási zárolás van.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If a thread has a reader lock, or no locks, calling <ph id="ph2">`ReleaseWriterLock`</ph> throws an &lt;xref:System.ApplicationException&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Szál rendelkezik olvasási zárolás, vagy nincs elegendő zárolás, ha hívása <ph id="ph2">`ReleaseWriterLock`</ph> &lt;xref:System.ApplicationException&gt;.&lt;/xref:System.ApplicationException&gt; jelez</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The thread does not have the writer lock.</source>
+          <target state="translated">A szál nem rendelkezik a zárolást.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Restores the lock status of the thread to what it was before calling &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt;.</source>
+          <target state="translated">A szál zárolás állapotát visszaállítja az mi volt &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt;.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt; hívása előtt</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The state restored by <ph id="ph1">`RestoreLock`</ph> includes the recursive lock count.</source>
+          <target state="translated">Az állapot visszaállítása <ph id="ph1">`RestoreLock`</ph> magában foglalja a rekurzív zárolási szám.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A thread blocks if it tries to restore a reader lock after another thread has acquired the writer lock, or if it tries to restore the writer lock after another thread has acquired a reader lock or writer lock.</source>
+          <target state="translated">Egy szál blokkok, ha megpróbálja olvasási zárolás visszaállítása után egy másik szál megszerezte a zárolást, illetve ha megpróbálja a zárolást visszaállítást, miután egy olvasási zárolás vagy zárolást szerzett meg egy másik szál.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because <ph id="ph1">`RestoreLock`</ph> does not accept a time-out, you should take care to avoid possible deadlocks.</source>
+          <target state="translated">Mivel <ph id="ph1">`RestoreLock`</ph> nem fogadja el a időtúllépés, meg kell gondoskodunk holtpont lehetséges elkerülése érdekében.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Before calling <ph id="ph2">`RestoreLock`</ph>, make sure you have released all locks acquired since the call to &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Hívása előtt <ph id="ph2">`RestoreLock`</ph>, győződjön meg arról, hogy közzétette a &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock%2A&gt; hívása óta beállított összes zárolás</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a thread deadlocks if it acquires a reader lock, and then attempts to restore an earlier writer lock.</source>
+          <target state="translated">Például egy szál holtpont Ha az egy olvasási zárolás, majd megkísérli visszaállítani egy korábbi zárolást.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt; and &lt;xref:System.Threading.ReaderWriterLock.IsWriterLockHeld%2A&gt; to detect such additional locks.</source>
+          <target state="translated">Használjon &lt;xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;és &lt;xref:System.Threading.ReaderWriterLock.IsWriterLockHeld%2A&gt;észleléséhez az ilyen további zárolás.&lt;/xref:System.Threading.ReaderWriterLock.IsWriterLockHeld%2A&gt; &lt;/xref:System.Threading.ReaderWriterLock.IsReaderLockHeld%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use a &lt;xref:System.Threading.LockCookie&gt; returned from &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.</source>
+          <target state="translated">Ne használjon egy &lt;xref:System.Threading.LockCookie&gt; &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; által visszaadott&lt;/xref:System.Threading.LockCookie&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returned by &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt;.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> &lt;xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt;.&lt;/xref:System.Threading.ReaderWriterLock.ReleaseLock*&gt; által visszaadott</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The address of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">lockCookie</ph><ept id="p1">&lt;/code&gt;</ept> is a null pointer.</source>
+          <target state="translated">A címe <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">lockCookie</ph> <ept id="p1">&lt;/code&gt;</ept> null mutató.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Upgrades a reader lock to the writer lock, using an <bpt id="p1">&lt;xref uid="langword_csharp_Int32" name="Int32" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the time-out.</source>
+          <target state="translated">Frissítések olvasási zárolás. az író zárolásához használatával egy <bpt id="p1">&lt;xref uid="langword_csharp_Int32" name="Int32" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az időtúllépési érték.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a thread calls <ph id="ph1">`UpgradeToWriterLock`</ph> the reader lock is released, regardless of the lock count, and the thread goes to the end of the queue for the writer lock.</source>
+          <target state="translated">Ha a szál meghívja <ph id="ph1">`UpgradeToWriterLock`</ph> az olvasási zárolás úgy, függetlenül a zárolási szám és a szál a zárolást a sor végére kerül.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, other threads might write to the resource before the thread that requested the upgrade is granted the writer lock.</source>
+          <target state="translated">Emiatt más szálak előfordulhat, hogy írni előtt a szál által kért a verziófrissítést kap a zárolást az erőforrás.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The time-out exception is not thrown until the thread that called the UpgradeToWriterLock method can reacquire the reader lock.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Az időtúllépési kivételt nem vált ki addig, amíg a UpgradeToWriterLock metódus hívása szál is újbóli az olvasó zárolása.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no other threads waiting for the writer lock, this happens immediately.</source>
+          <target state="translated">Ha nincs más futásra, Várakozás a zárolást, ez akkor fordul elő azonnal.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if another thread is queued for the writer lock, the thread that called the UpgradeToWriterLock method cannot reacquire the reader lock until all current readers have released their locks, and one thread has acquired and released the writer lock.</source>
+          <target state="translated">Azonban egy másik szál várakozik a zárolást, ha a szál, amely a UpgradeToWriterLock metódus hívása nem újbóli az olvasó zárolása mindaddig, amíg az összes jelenlegi olvasók rendelkezik, amely a hozzájuk tartozó zárolásokat, és egy szálat rendelkezik szerezte be, és megjelent a zárolást.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is true even if the other thread that requested the writer lock requested it after the current thread called the UpgradeToWriterLock method.</source>
+          <target state="translated">Ez igaz, akkor is, ha a szál, a zárolást kért kért az aktuális szál UpgradeToWriterLock metódus hívása után.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To restore the lock state, call &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt; using the &lt;xref:System.Threading.LockCookie&gt; returned by <ph id="ph1">`UpgradeToWriterLock`</ph>.</source>
+          <target state="translated">A zárolás állapotának visszaállításához hívja meg a &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;használatával a &lt;xref:System.Threading.LockCookie&gt;által visszaadott <ph id="ph1">`UpgradeToWriterLock`</ph>.&lt;/xref:System.Threading.LockCookie&gt; &lt;/xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use this <ph id="ph1">`LockCookie`</ph> with &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.</source>
+          <target state="translated">Ne használja a <ph id="ph1">`LockCookie`</ph> &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a thread has no reader lock, do not use <ph id="ph1">`UpgradeToWriterLock`</ph>.</source>
+          <target state="translated">Ha a szál nincs olvasási zárolás van, ne használjon <ph id="ph1">`UpgradeToWriterLock`</ph>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt; instead.</source>
+          <target state="translated">Használjon &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;helyette.&lt;/xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Érvényes időtúllépési értékét lásd: &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">Az időkorlát ezredmásodpercben.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;millisecondsTimeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;millisecondsTimeout&lt;/code&gt;</ph>lejárt a zárolási kérelem megadása előtt.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Upgrades a reader lock to the writer lock, using a <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the time-out.</source>
+          <target state="translated">Frissítések olvasási zárolás. az író zárolása, használja a <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az időtúllépési érték.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a thread calls <ph id="ph1">`UpgradeToWriterLock`</ph> the reader lock is released, regardless of the lock count, and the thread goes to the end of the queue for the writer lock.</source>
+          <target state="translated">Ha a szál meghívja <ph id="ph1">`UpgradeToWriterLock`</ph> az olvasási zárolás úgy, függetlenül a zárolási szám és a szál a zárolást a sor végére kerül.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, other threads might write to the resource before the thread that requested the upgrade is granted the writer lock.</source>
+          <target state="translated">Emiatt más szálak előfordulhat, hogy írni előtt a szál által kért a verziófrissítést kap a zárolást az erőforrás.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The time-out exception is not thrown until the thread that called the &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; method can reacquire the reader lock.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Az időtúllépési kivétel nem történt a szál nevezett csak a &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;módszer is újbóli az olvasó zárolása.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no other threads waiting for the writer lock, this happens immediately.</source>
+          <target state="translated">Ha nincs más futásra, Várakozás a zárolást, ez akkor fordul elő azonnal.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if another thread is queued for the writer lock, the thread that called the &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; method cannot reacquire the reader lock until all current readers have released their locks, and one thread has acquired and released the writer lock.</source>
+          <target state="translated">Azonban ha egy másik szál várakozik a zárolást, a szál, amely hívja meg a &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;metódus nem újbóli az olvasó zárolása, amíg az összes jelenlegi olvasók rendelkezik, amely a hozzájuk tartozó zárolásokat, és egy szálat rendelkezik szerezte be, és megjelent a zárolást.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is true even if the other thread that requested the writer lock requested it after the current thread called the &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt; method.</source>
+          <target state="translated">Ez igaz, akkor is, ha a szál, a zárolást kért kért az aktuális szál hívása után a &lt;xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;metódus.&lt;/xref:System.Threading.ReaderWriterLock.UpgradeToWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To restore the lock state, call &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt; using the &lt;xref:System.Threading.LockCookie&gt; returned by <ph id="ph1">`UpgradeToWriterLock`</ph>.</source>
+          <target state="translated">A zárolás állapotának visszaállításához hívja meg a &lt;xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;használatával a &lt;xref:System.Threading.LockCookie&gt;által visszaadott <ph id="ph1">`UpgradeToWriterLock`</ph>.&lt;/xref:System.Threading.LockCookie&gt; &lt;/xref:System.Threading.ReaderWriterLock.DowngradeFromWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use this <ph id="ph1">`LockCookie`</ph> with &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.</source>
+          <target state="translated">Ne használja a <ph id="ph1">`LockCookie`</ph> &lt;xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;.&lt;/xref:System.Threading.ReaderWriterLock.RestoreLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a thread has no reader lock, do not use <ph id="ph1">`UpgradeToWriterLock`</ph>.</source>
+          <target state="translated">Ha a szál nincs olvasási zárolás van, ne használjon <ph id="ph1">`UpgradeToWriterLock`</ph>.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt; instead.</source>
+          <target state="translated">Használjon &lt;xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;helyette.&lt;/xref:System.Threading.ReaderWriterLock.AcquireWriterLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For valid time-out values, see &lt;xref:System.Threading.ReaderWriterLock&gt;.</source>
+          <target state="translated">Érvényes időtúllépési értékét lásd: &lt;xref:System.Threading.ReaderWriterLock&gt;.&lt;/xref:System.Threading.ReaderWriterLock&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the time-out period.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan" name="TimeSpan" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adja meg a megadott időn belül.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.LockCookie"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> expires before the lock request is granted.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>lejárt a zárolási kérelem megadása előtt.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> specifies a negative value other than -1 milliseconds.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>Adja meg a-1 ezredmásodperc nem negatív érték.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Gets the current sequence number.</source>
+          <target state="translated">Lekérdezi az aktuális sorszám.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sequence number increases whenever a thread acquires the writer lock.</source>
+          <target state="translated">A sorozat száma növekszik, ha a szál az írási zárolás.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can save the sequence number and pass it to &lt;xref:System.Threading.ReaderWriterLock.AnyWritersSince%2A&gt; at a later time, if you want to determine whether other threads have acquired the writer lock in the meantime.</source>
+          <target state="translated">A sorszám mentheti, és adja át a &lt;xref:System.Threading.ReaderWriterLock.AnyWritersSince%2A&gt;később, ha meg szeretné határozni, hogy más szálak időközben szerezték a zárolást.&lt;/xref:System.Threading.ReaderWriterLock.AnyWritersSince%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use <ph id="ph1">`WriterSeqNum`</ph> to improve application performance.</source>
+          <target state="translated">Használhat <ph id="ph1">`WriterSeqNum`</ph> az alkalmazások teljesítményének javítása érdekében.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a thread might cache the information it obtains while holding a reader lock.</source>
+          <target state="translated">Például egy szál előfordulhat, hogy gyorsítótárazza az információkat, amíg olvasási zárolás beolvassa.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After releasing and later reacquiring the lock, the thread can determine whether other threads have written to the resource by calling <ph id="ph1">`AnyWritersSince`</ph>; if not, the cached information can be used.</source>
+          <target state="translated">Után felszabadítása, és később ismételt megszerzéséhez szükséges a zárolás, a szál megállapíthatja, hogy más szálak erőforráshoz írt meghívásával <ph id="ph1">`AnyWritersSince`</ph>; Ha nem, a gyorsítótárban lévő adatokkal is használható.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This technique is useful when reading the information protected by the lock is expensive; for example, running a database query.</source>
+          <target state="translated">Ez a módszer akkor hasznos, ha a zárolást által védett adatainak olvasásakor is drága; például egy adatbázis a lekérdezésnek a futtatása.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The caller must be holding a reader lock or a writer lock in order for the sequence number to be useful.</source>
+          <target state="translated">Ahhoz, hogy a sorszám hasznos lehet az olvasási zárolás vagy a zárolást a hívónak kell rendelkezik.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The current sequence number.</source>
+          <target state="translated">A jelenlegi sorszám.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

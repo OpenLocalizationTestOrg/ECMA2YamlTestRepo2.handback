@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4691a6e122ecbf5305faed03fb963be4f3007c7e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.DependencyPropertyKey.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ca268bf0b8f34f96fc336bc5ef0b6e35ad9e9e0d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8a436c8a112474f58b9bb1881a040508df4e8e6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a dependency property identifier for limited write access to a read-only dependency property.</source>
+          <target state="translated">提供对只读依赖属性的有限写入访问权限的一个依赖属性标识符。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>DependencyPropertyKey instances are obtained as the return value of a dependency property registration call using the methods &lt;xref:System.Windows.DependencyProperty.RegisterReadOnly%2A&gt; or &lt;xref:System.Windows.DependencyProperty.RegisterAttachedReadOnly%2A&gt;.</source>
+          <target state="translated">DependencyPropertyKey 实例获取作为使用方法&lt;xref:System.Windows.DependencyProperty.RegisterReadOnly%2A&gt;或&lt;xref:System.Windows.DependencyProperty.RegisterAttachedReadOnly%2A&gt;。&lt;/xref:System.Windows.DependencyProperty.RegisterAttachedReadOnly%2A&gt;&lt;/xref:System.Windows.DependencyProperty.RegisterReadOnly%2A&gt;的依赖项属性注册调用的返回值</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The types that register a dependency property can use the DependencyPropertyKey in calls to &lt;xref:System.Windows.DependencyObject.SetValue%2A&gt; and &lt;xref:System.Windows.DependencyObject.ClearValue%2A&gt; that adjust the property's value as part of class logic.</source>
+          <target state="translated">注册一个依赖项属性的类型可以在调用中使用 DependencyPropertyKey&lt;xref:System.Windows.DependencyObject.SetValue%2A&gt;和&lt;xref:System.Windows.DependencyObject.ClearValue%2A&gt;，调整属性的值作为类逻辑的一部分。&lt;/xref:System.Windows.DependencyObject.ClearValue%2A&gt; &lt;/xref:System.Windows.DependencyObject.SetValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If permitted by the access level of the key, related classes can use the key and the dependency property also.</source>
+          <target state="translated">如果允许密钥的访问级别，相关的类也可以使用的密钥和依赖项属性。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For instance, you can declare the key as internal, and other types within the same assembly can also set that dependency property.</source>
+          <target state="translated">例如，可以声明为内部，密钥，而同一程序集内的其他类型还可以设置该依赖项属性。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The DependencyPropertyKey returned by read-only dependency property registration should not be made public, because exposing the key makes the property settable, thus defeating the point of registering it as a read-only dependency property.</source>
+          <target state="translated">返回注册只读依赖属性 DependencyPropertyKey 不应成为公共的因为公开键将使该属性可设置，从而与将它注册为只读依赖属性的点。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Also, exposing the key causes a mismatch between the available dependency property behaviors and its <ph id="ph1">[!INCLUDE[TLA#tla_clr](~/add/includes/tlasharptla-clr-md.md)]</ph> property wrapper implementations, which is bad class design.</source>
+          <target state="translated">此外，公开密钥还会使可用依赖项对象之间的不匹配属性行为并将其<ph id="ph1">[!INCLUDE[TLA#tla_clr](~/add/includes/tlasharptla-clr-md.md)]</ph>属性包装实现，这是不好的类设计。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Instead of exposing the key itself, you should instead expose the &lt;xref:System.Windows.DependencyPropertyKey.DependencyProperty%2A&gt; value of the DependencyPropertyKey as a <ph id="ph1">`public static readonly`</ph>&lt;xref:System.Windows.DependencyProperty&gt; on your class.</source>
+          <target state="translated">而不是公开密钥本身，而是应公开&lt;xref:System.Windows.DependencyPropertyKey.DependencyProperty%2A&gt;值作为 DependencyPropertyKey <ph id="ph1">`public static readonly`</ph> &lt;xref:System.Windows.DependencyProperty&gt;你类&lt;/xref:System.Windows.DependencyProperty&gt;&lt;/xref:System.Windows.DependencyPropertyKey.DependencyProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This enables the property to return a valid dependency property identifier for certain property system operations such as enumerating locally set values.</source>
+          <target state="translated">这样，要返回一个有效的依赖属性标识符，对于某些属性系统操作，如枚举本地设置值的属性。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>However, the identifier thus obtained does not have the full capabilities of a &lt;xref:System.Windows.DependencyProperty&gt; for many property system operations.</source>
+          <target state="translated">但是，从而获取的标识符不具有的全部功能&lt;xref:System.Windows.DependencyProperty&gt;对于许多属性系统操作。&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets the dependency property identifier associated with this specialized read-only dependency property identifier.</source>
+          <target state="translated">获取与此专用只读依赖属性标识符关联的依赖项属性标识符。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The DependencyProperty value enables a read-only property's identifier to participate in common property system operations using some of the same interfaces as used for read-write dependency properties.</source>
+          <target state="translated">DependencyProperty 值启用要参与到公共使用的相同的接口部分所使用的读写依赖项属性的属性系统操作的只读属性的标识符。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In order to implement the get property accessor for a read-only dependency property, you should create and expose a &lt;xref:System.Windows.DependencyProperty&gt; identifier on your class.</source>
+          <target state="translated">为了实现只读依赖属性的 get 属性访问器，你应创建和公开&lt;xref:System.Windows.DependencyProperty&gt;你的类标识符&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This serves two purposes:      -   Your own class needs the &lt;xref:System.Windows.DependencyProperty&gt; identifier in order to implement the get accessor for the property wrapper.</source>
+          <target state="translated">这有两个用途:-你拥有的类需要&lt;xref:System.Windows.DependencyProperty&gt;为了实现属性包装了 get 访问器的标识符。&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You use the &lt;xref:System.Windows.DependencyProperty&gt; as a parameter for the &lt;xref:System.Windows.DependencyObject.GetValue%2A&gt; call that implements the get accessor.</source>
+          <target state="translated">你使用&lt;xref:System.Windows.DependencyProperty&gt;的参数&lt;xref:System.Windows.DependencyObject.GetValue%2A&gt;实现 get 访问器的调用。&lt;/xref:System.Windows.DependencyObject.GetValue%2A&gt; &lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Windows.DependencyProperty&gt; identifiers expose your dependency property to the property system such that other methods that rely on metadata can access it in a standard form.</source>
+          <target state="translated">-&lt;xref:System.Windows.DependencyProperty&gt;标识符公开到属性系统依赖项属性，以便其他依赖于元数据的方法可以在标准窗体中访问它。&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For instance, if you called &lt;xref:System.Windows.DependencyObject.GetLocalValueEnumerator%2A&gt; on some &lt;xref:System.Windows.DependencyObject&gt; and obtained an enumeration of locally set properties (values and identifiers) the identifier returned for a read-only dependency property would be your &lt;xref:System.Windows.DependencyProperty&gt; value rather than the key.</source>
+          <target state="translated">例如，如果调用&lt;xref:System.Windows.DependencyObject.GetLocalValueEnumerator%2A&gt;上某些&lt;xref:System.Windows.DependencyObject&gt;和标识符获取本地设置的属性 （值和标识符） 的枚举为只读依赖属性将返回你&lt;xref:System.Windows.DependencyProperty&gt;值而不是键。&lt;/xref:System.Windows.DependencyProperty&gt; &lt;/xref:System.Windows.DependencyObject&gt; &lt;/xref:System.Windows.DependencyObject.GetLocalValueEnumerator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Not exposing a &lt;xref:System.Windows.DependencyProperty&gt; identifier does not increase the security of your read-only dependency property in any way, it just makes operations that involve your property more awkward both for subsequent derived classes and class instances.</source>
+          <target state="translated">不公开&lt;xref:System.Windows.DependencyProperty&gt;标识符不会增加的安全性以任何方式你只读依赖属性，它只是使牵涉到属性更繁琐后续派生的类和类实例的操作。&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To expose the  &lt;xref:System.Windows.DependencyProperty&gt; identifier on your class, you call DependencyProperty directly on your key.</source>
+          <target state="translated">若要公开&lt;xref:System.Windows.DependencyProperty&gt;在类上的标识符，你调用 DependencyProperty 直接你的密钥。&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Use this value to create a <ph id="ph1">`public static readonly`</ph>&lt;xref:System.Windows.DependencyProperty&gt; identifier on the class, which parallels the &lt;xref:System.Windows.DependencyPropertyKey&gt;.</source>
+          <target state="translated">使用此值来创建<ph id="ph1">`public static readonly`</ph>&lt;xref:System.Windows.DependencyProperty&gt;类，其便可与&lt;xref:System.Windows.DependencyPropertyKey&gt;.&lt;/xref:System.Windows.DependencyPropertyKey&gt;标识符&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The relevant dependency property identifier.</source>
+          <target state="translated">相关的依赖项属性标识符。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Overrides the metadata of a read-only dependency property that is represented by this dependency property identifier.</source>
+          <target state="translated">重写此依赖属性标识符表示的只读依赖属性元数据。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Overriding metadata on a read-only dependency property is done for similar reasons as overriding metadata on a read-write dependency property, and is restricted to access at the key level because behaviors specified in the metadata can change the set behavior (the default value, for instance).</source>
+          <target state="translated">重写只读依赖属性上的元数据出于类似重写上读写依赖项属性的元数据的原因，因此仅限于密钥级别的访问权限，因为指定的元数据中的行为可以更改组行为 （例如的默认值）。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>As with read-write dependency properties, overriding metadata on a read-only dependency property should only be done prior to that property being placed in use by the property system (this equates to the time that specific instances of objects that register the property are instantiated).</source>
+          <target state="translated">为具有读写依赖项属性重写只读依赖属性的元数据应仅在之前完成 （这相当于注册该属性的对象的特定实例进行实例化的时间） 属性系统会将被放置在使用该属性。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Calls to OverrideMetadata should only be performed within the static constructors of the type that provides itself as the <ph id="ph1">`forType`</ph> parameter of this method, or equivalent initialization for that class.</source>
+          <target state="translated">只应提供本身为的类型的静态构造函数内执行调用 OverrideMetadata<ph id="ph1">`forType`</ph>此方法或为该类的等效初始化参数。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This method effectively forwards to the &lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt; method, passing the &lt;xref:System.Windows.DependencyPropertyKey&gt; instance as the key parameter.</source>
+          <target state="translated">此方法有效地将转发到&lt;xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;方法，并传递&lt;xref:System.Windows.DependencyPropertyKey&gt;实例作为键参数。&lt;/xref:System.Windows.DependencyPropertyKey&gt; &lt;/xref:System.Windows.DependencyProperty.OverrideMetadata%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The type on which this dependency property exists and metadata should be overridden.</source>
+          <target state="translated">在其此依赖属性存在，并且应重写元数据类型。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Metadata supplied for this type.</source>
+          <target state="translated">为此类型提供的元数据。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Attempted metadata override on a read-write dependency property (cannot be done using this signature).</source>
+          <target state="translated">尝试的元数据上读写依赖项属性重写 (不能使用此签名)。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Metadata was already established for the property as it exists on the provided type.</source>
+          <target state="translated">已为该属性建立元数据，因为它存在于所提供的类型。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7f0a1ffadd71d493352c3b31cbd18cbdfad9b5f3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Versioning.ComponentGuaranteesAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5d91d38b98d41bc790b4c0a1377f647b04f7162c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b024fdb8038671b172ae0c7d52704808105644f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the compatibility guarantee of a component, type, or type member that may span multiple versions.</source>
+          <target state="translated">コンポーネント、型、または複数のバージョンにわたる可能性がある型のメンバーの互換性の保証を定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The ComponentGuaranteesAttribute is used by developers of components and class libraries to indicate the level of compatibility that consumers of their libraries can expect across multiple versions.</source>
+          <target state="translated">コンポーネントとクラス ライブラリの開発者は、ComponentGuaranteesAttribute を使用してのそれらのライブラリのコンシューマーは、複数のバージョンで期待できる互換性レベルを指定します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It indicates the level of guarantee that a future version of the library or component will not break an existing client.</source>
+          <target state="translated">ライブラリまたはコンポーネントの将来のバージョンでは既存のクライアントが中断されないことの保証のレベルを示します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Clients can then use the ComponentGuaranteesAttribute as an aid in designing their own interfaces to ensure stability across versions.</source>
+          <target state="translated">クライアントは、異なるバージョン間での安定性を確保する独自のインターフェイスの設計に役立てるために、ComponentGuaranteesAttribute を使用できます。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The common language runtime (CLR) does not use this attribute in any way.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 共通言語ランタイム (CLR) には、任意の方法でこの属性は使用しません。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Its value lies in formally documenting the intent of the component author.</source>
+          <target state="translated">正式にコンポーネントの作成者の目的は、文書化するのには、その値があります。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Compile-time tools can also use these declarations to detect compile-time errors that would otherwise break the declared guarantee.</source>
+          <target state="translated">コンパイル時のツールでは、宣言されている保証が破壊されるそれ以外の場合はコンパイル時エラーを検出するためにもこれらの宣言を使用できます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Levels of Compatibility    The ComponentGuaranteesAttribute supports the following levels of compatibility, which are represented by members of the &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; enumeration:      -   No version-to-version compatibility (&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;).</source>
+          <target state="translated">レベルの互換性 ComponentGuaranteesAttribute のサポート レベルは次の互換性のためのメンバーによって表される、&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;列挙: のないバージョンの互換性 (&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;).&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt; &lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The client can expect that future versions will break the existing client.</source>
+          <target state="translated">クライアントは、将来のバージョンが、既存のクライアントを中断することができます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see the <bpt id="p1">[</bpt>No Compatibility<ept id="p1">](#None)</ept> section later in this topic.</source>
+          <target state="translated">詳細については、次を参照してください。、<bpt id="p1">[</bpt>互換なし<ept id="p1">](#None)</ept>このトピックで後述します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   Side-by-side version-to-version compatibility (&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;).</source>
+          <target state="translated">---並べてバージョンの互換性 (&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;).&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The component has been tested to work when more than one version of the assembly is loaded in the same application domain.</source>
+          <target state="translated">コンポーネントは、同じアプリケーション ドメインで&amp;1; つ以上のバージョンのアセンブリが読み込まれるときに使用するテスト済みです。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In general, future versions can break compatibility.</source>
+          <target state="translated">一般に、将来のバージョンでは、互換性を損なうことができます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>However, when breaking changes are made, the old version is not modified but exists alongside the new version.</source>
+          <target state="translated">ただし、重大な変更が加えられたときの古いバージョンは変更されませんが、新しいバージョンを共存します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Side-by-side execution is the expected way to make existing clients work when breaking changes are made.</source>
+          <target state="translated">サイド バイ サイド実行は、既存のクライアントが重大な変更が加えられたときの動作に必要な方法です。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information, see the <bpt id="p1">[</bpt>Side-by-Side Compatibility<ept id="p1">](#SideBySide)</ept> section later in this topic.</source>
+          <target state="translated">詳細については、次を参照してください。、<bpt id="p1">[</bpt>サイド バイ サイド互換性<ept id="p1">](#SideBySide)</ept>このトピックで後述します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-   Stable version-to-version compatibility (&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;).</source>
+          <target state="translated">-固定のバージョンの互換性 (&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;).&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Future versions should not break the client, and side-by-side execution should not be needed.</source>
+          <target state="translated">将来のバージョンでは、クライアントを中断する必要がありますいないと、サイド バイ サイド実行が必要はありません。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>However, if the client is inadvertently broken, it may be possible to use side-by-side execution to fix the problem.</source>
+          <target state="translated">ただし、クライアントが誤って破損した場合、問題を解決するサイド バイ サイド実行を使用することがあります。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For more information, see the <bpt id="p1">[</bpt>Stable Compatibility<ept id="p1">](#Standard)</ept> section.</source>
+          <target state="translated">詳細については、次を参照してください。、<bpt id="p1">[</bpt>安定した互換性<ept id="p1">](#Standard)</ept>セクションです。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-   Exchange version-to-version compatibility (&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;).</source>
+          <target state="translated">-Exchange のバージョンの互換性 (&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;).&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Extraordinary care is taken to ensure that future versions will not break the client.</source>
+          <target state="translated">異常なが注意する将来のバージョンでは、クライアントが中断されないことを確認してください。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The client should use only these types in the signature of interfaces that are used for communication with other assemblies that are deployed independently of one another.</source>
+          <target state="translated">クライアントは、互いに配置されている他のアセンブリとの通信に使用されるインターフェイスのシグネチャでこれらの型のみを使用する必要があります。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Only one version of these types is expected to be in a given application domain, which means that if a client breaks, side-by-side execution cannot fix the compatibility problem.</source>
+          <target state="translated">これらの型の&amp;1; つだけのバージョンは、場合は、クライアントは、次の中断、サイド バイ サイド実行は互換性の問題を修正することはできないことを意味する特定のアプリケーション ドメイン内にあると想定されます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information, see the <bpt id="p1">[</bpt>Exchange Type Compatibility<ept id="p1">](#Exchange)</ept> section.</source>
+          <target state="translated">詳細については、次を参照してください。、 <bpt id="p1">[</bpt>Exchange 型の互換性<ept id="p1">](#Exchange)</ept>セクションです。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The following sections discuss each level of guarantee in greater detail.</source>
+          <target state="translated">以下のセクションでは、さらに詳しく保証の各レベルについて説明します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="None"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ### No Compatibility    Marking a component as &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt; indicates that the provider makes no guarantees about compatibility.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="None"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>### ありません互換性としてコンポーネントをマーク&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;いるプロバイダーは、保証いたしません互換性に関することを示します&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Clients should avoid taking any dependencies on the exposed interfaces.</source>
+          <target state="translated">クライアントは、公開されているインターフェイスに対するすべての依存関係を実行することを避ける必要があります。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This level of compatibility is useful for types that are experimental or that are publicly exposed but are intended only for components that are always updated at the same time.</source>
+          <target state="translated">このレベルの互換性の役に立ちますタイプは実験用またはパブリックに公開しますが、常に同時に更新されるコンポーネントのみを意図しています。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; explicitly indicates that this component should not be used by external components.</source>
+          <target state="translated">&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;明示的に外部コンポーネントでこのコンポーネントを使用しないことを示します。&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="SideBySide"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ### Side-by-Side Compatibility    Marking a component as &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt; indicates that the component has been tested to work when more than one version of the assembly is loaded into the same application domain.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="SideBySide"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>### サイド バイ サイド コンポーネントとして、互換性をマークすること&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;アセンブリの&amp;1; つ以上のバージョンが同じアプリケーション ドメインに読み込まれるときに使用するコンポーネントがテストされていることを示します&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Breaking changes are allowed as long as they are made to the assembly that has the greater version number.</source>
+          <target state="translated">重大な変更より大きなバージョン番号を持つアセンブリに行われる限りは許可します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Components that are bound to an old version of the assembly are expected to continue to bind to the old version, and other components can bind to the new version.</source>
+          <target state="translated">引き続き以前のバージョンにバインドするアセンブリの古いバージョンにバインドされているコンポーネントが許可され、他のコンポーネントは、新しいバージョンにバインドできます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It is also possible to update a component that is declared to be &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; by destructively modifying the old version.</source>
+          <target state="translated">宣言されているコンポーネントを更新することも&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;破壊的の古いバージョンを変更しています&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="Standard"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ### Stable Compatibility    Marking a type as &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt; indicates that the type should remain stable across versions.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="Standard"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>### 型をマークするとの互換性、安定&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;型維持される安定したバージョンを示します&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>However, it may also be possible for side-by-side versions of a stable type to exist in the same application domain.</source>
+          <target state="translated">ただしも可能性があります、同じアプリケーション ドメイン内に存在する安定した型のバージョンをサイド バイ サイドのです。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Stable types maintain a high binary compatibility bar.</source>
+          <target state="translated">安定した型には、バイナリ互換性の高いバーが維持されます。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Because of this, providers should avoid making breaking changes to stable types.</source>
+          <target state="translated">このため、プロバイダーは、安定した型に互換性に影響する変更を加える避ける必要があります。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The following kinds of changes are acceptable:      -   Adding private instance fields to, or removing fields from, a type, as long as this does not break the serialization format.</source>
+          <target state="translated">次のような変更が受け入れ可能な: - プライベート インスタンス フィールドを追加するか、このシリアル化の形式は中断されません限り、その型からフィールドを削除しています。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-   Changing a non-serializable type to a serializable type.</source>
+          <target state="translated">シリアル化可能な型をシリアル化できない型を変更します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>(However, a serializable type cannot be changed to a non-serializable type.)      -   Throwing new, more derived exceptions from a method.</source>
+          <target state="translated">(ただし、シリアル化可能な型変更できませんをシリアル化できない型です。)     、メソッドから例外をより派生、新しい例外をスローします。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-   Improving the performance of a method.</source>
+          <target state="translated">メソッドのパフォーマンスが向上します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-   Changing the range of return values, as long as the change does not adversely affect the majority of clients.</source>
+          <target state="translated">変更がクライアントの大半に悪影響を及ぼさない限り、戻り値の範囲の変更。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-   Fixing serious bugs, if the business justification is high and the number of adversely affected clients is low.</source>
+          <target state="translated">業務の妥当性が高いと、悪影響を受けるクライアントの数が少ない場合、重大なバグを修正します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Because new versions of stable components are not expected to break existing clients, generally only one version of a stable component is needed in an application domain.</source>
+          <target state="translated">安定したコンポーネントの新しいバージョンは、既存のクライアントには必要ありません、ため、通常、アプリケーション ドメインで安定したコンポーネントのバージョンを&amp;1; つだけが必要です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>However, this is not a requirement, because stable types are not used as well-known exchange types that all components agree upon.</source>
+          <target state="translated">ただし、この必要はありません、安定した型は、すべてのコンポーネントが合意をよく知られている exchange 型として使用されていないためです。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Therefore, if a new version of a stable component does inadvertently break some component, and if other components need the new version, it may be possible to fix the problem by loading both the old and new component.</source>
+          <target state="translated">そのため、安定したコンポーネントの新しいバージョンにいくつかのコンポーネントが誤って破損し、その他のコンポーネントには、新しいバージョンが必要な場合は、両方、新旧のコンポーネントを読み込むことにより問題が解決される可能性があります。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; provides a stronger version compatibility guarantee than &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;.</source>
+          <target state="translated">&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;。&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;より強力なバージョンの互換性保証を提供します。&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It is a common default for multi-version components.</source>
+          <target state="translated">これは、複数バージョンのコンポーネントの一般的な既定値です。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; can be combined with &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;, which states that the component will not break compatibility but is tested to work when more than one version is loaded in a given application domain.</source>
+          <target state="translated">&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;組み合わせて使用できます&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;、コンポーネントが互換性を損なうことはできませんが、複数のバージョンが、指定されたアプリケーション ドメインに読み込まれたときの動作は、テストを示す&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;。&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>After a type or method is marked as &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;, it can be upgraded to &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;.</source>
+          <target state="translated">型またはメソッドが&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;、 &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;。&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;アップグレード可能&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;としてマークされています。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>However, it cannot be downgraded to &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;.</source>
+          <target state="translated">ただし、そのことはできませんにダウン グレード&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;。&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="Exchange"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ### Exchange Type Compatibility    Marking a type as &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt; provides a stronger version compatibility guarantee than &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;, and should be applied to the most stable of all types.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="Exchange"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>### Exchange 型の互換性をマークすることとして型&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;より強力なバージョンの互換性が保証されて&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;、最も安定したすべての種類に適用する必要があります&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>These types are intended to be used for interchange between independently built components across all component boundaries in both time (any version of the CLR or any version of a component or application) and space (cross-process, cross-CLR in one process, cross-application domain in one CLR).</source>
+          <target state="translated">これらの型は、両方の時刻 (CLR のすべてのバージョン) または任意のバージョン、コンポーネントまたはアプリケーションのすべてのコンポーネントの境界を越えて個別にビルドされたコンポーネントとスペース (プロセス間クロスと CLR で&amp;1; つのプロセス、1 つの CLR でのアプリケーション間のドメイン) の間のやり取りに使用するものではします。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If a breaking change is made to an exchange type, it is impossible to fix the issue by loading multiple versions of the type.</source>
+          <target state="translated">Exchange の種類に重大な変更が行われた場合、型の複数のバージョンを読み込むことにより、問題を解決することはできません。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Exchange types should be changed only when a problem is very serious (such as a severe security issue) or the probability of breakage is very low (that is, if the behavior was already broken in a random way that code could not have conceivably taken a dependency on).</source>
+          <target state="translated">問題が重大なセキュリティ上の問題) など、非常に深刻なまたは破損の確率が (動作は、コードが持てない依存関係のランダムな方法で既に切断されました) の場合は、非常に低い場合にのみ、Exchange の種類を変更する必要があります。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can make the following kinds of changes to an exchange type:      -   Add inheritance of new interface definitions.</source>
+          <target state="translated">Exchange の種類を次のような変更を行うことができます:-新しいインターフェイス定義の継承を追加します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-   Add new private methods that implement the methods of newly inherited interface definitions.</source>
+          <target state="translated">新たに継承されたインターフェイスの定義のメソッドを実装する新しいプライベート メソッドを追加します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-   Add new static fields.</source>
+          <target state="translated">-新しい静的フィールドを追加します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-   Add new static methods.</source>
+          <target state="translated">-新しい静的メソッドを追加します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-   Add new non-virtual instance methods.</source>
+          <target state="translated">新しいインスタンスを非仮想メソッドを追加します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The following are considered breaking changes and are not allowed for primitive types:      -   Changing serialization formats.</source>
+          <target state="translated">次は、重大な変更と見なされますのプリミティブ型は許可されていません:-シリアル化形式を変更します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Version-tolerant serialization is required.</source>
+          <target state="translated">バージョン トレラントなシリアル化が必要です。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-   Adding or removing private instance fields.</source>
+          <target state="translated">追加またはプライベート インスタンス フィールドを削除します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This risks changing the serialization format of the type and breaking client code that uses reflection.</source>
+          <target state="translated">これは、型のシリアル化形式を変更して、リフレクションを使用するクライアント コードの重大なリスクです。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-   Changing the serializability of a type.</source>
+          <target state="translated">-型のシリアル化可能性を変更します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A non-serializable type may not be made serializable, and vice versa.</source>
+          <target state="translated">シリアル化できない型される場合がありますいないシリアル化可能なまたはその逆です。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-   Throwing different exceptions from a method.</source>
+          <target state="translated">メソッドから別の例外をスローします。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-   Changing the range of a method's return values, unless the member definition raises this possibility and clearly indicates how clients should handle unknown values.</source>
+          <target state="translated">場合にのみ、メンバー定義この可能性を発生させます。 クライアントが不明な値を処理する方法を明確に示す、メソッドの戻り値の範囲の変更。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-   Fixing most bugs.</source>
+          <target state="translated">より多くのバグを修正します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Consumers of the type will rely on the existing behavior.</source>
+          <target state="translated">型のコンシューマーは、既存の動作に依存することもできます。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>After a component, type, or member is marked with the &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; guarantee, it cannot be changed to either &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; or &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;.</source>
+          <target state="translated">コンポーネントの場合は後、型、またはメンバーが付いている&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;保証が、いずれか&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;または&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;。&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;を変更することはできません。&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Typically, exchange types are the basic types (such as &lt;xref:System.Int32&gt; and &lt;xref:System.String&gt; in the .NET Framework) and interfaces (such as &lt;xref:System.Collections.Generic.IList%601&gt;, &lt;xref:System.Collections.Generic.IEnumerable%601&gt;, and &lt;xref:System.IComparable%601&gt;) that are commonly used in public interfaces.</source>
+          <target state="translated">通常、exchange の種類には、基本的な型 (など&lt;xref:System.Int32&gt;と&lt;xref:System.String&gt;.NET Framework の) とインターフェイス (など&lt;xref:System.Collections.Generic.IList%601&gt;、 &lt;xref:System.Collections.Generic.IEnumerable%601&gt;、および&lt;xref:System.IComparable%601&gt;) パブリック インターフェイスでよく使用されている&lt;/xref:System.IComparable%601&gt;&lt;/xref:System.Collections.Generic.IEnumerable%601&gt;&lt;/xref:System.Collections.Generic.IList%601&gt;&lt;/xref:System.String&gt;&lt;/xref:System.Int32&gt;。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Exchange types may publicly expose only other types that are also marked with &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; compatibility.</source>
+          <target state="translated">Exchange の種類がでもマークされているその他の型のみを公開している可能性があります&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;互換性&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>In addition, exchange types cannot depend on the behavior of Windows APIs that are prone to change.</source>
+          <target state="translated">さらに、exchange の種類が変更される可能性がある Windows Api の動作に依存できません。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Component Guarantees: A Summary    The following table indicates how a component's characteristics and usage affect its compatibility guarantee.</source>
+          <target state="translated">コンポーネントの保証: 次の表の概要では、コンポーネントの特性と使用状況が、互換性の保証に影響を示します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>|Component characteristics|Exchange|Stable|Side-by-Side|None|   |-------------------------------|--------------|------------|--------------------|----------|   |Can be used in interfaces between components that version independently.|Y|N|N|N|   |Can be used (privately) by an assembly that versions independently.|Y|Y|Y|N|   |Can have multiple versions in a single application domain.|N|Y|Y|Y|   |Can make breaking changes|N|N|Y|Y|   |Tested to make certain multiple versions of the assembly can be loaded together.|N|N|Y|N|   |Can make breaking changes in place.|N|N|N|Y|   |Can make very safe non-breaking servicing changes in place.|Y|Y|Y|Y|      ## Applying the Attribute    You can apply the ComponentGuaranteesAttribute to an assembly, a type, or a type member.</source>
+          <target state="translated">|コンポーネントの特性 |Exchange |安定した |サイド バイ サイド |None |  |-------------------------------|--------------|------------|--------------------|----------|  |コンポーネント間のインターフェイスでそのバージョン別個に使用します |。Y |N |N |N |  |指定できます (プライベート) アセンブリでバージョンを個別に使用します |。Y |Y |Y |N |  |1 つのアプリケーション ドメインで複数のバージョンを持つことができます |。N |Y |Y |Y |  |互換性に影響する変更を加えることができます |N |N |Y |Y |  |テスト アセンブリの複数のバージョンを確認することが読み込まれた一緒にする |。N |N |Y |N |  |場所の互換性に影響する変更を加えることができます |。N |N |N |Y |  |重要ではないサービスの場所で変更を非常に安全に行うことができます |。Y |Y |Y |Y |     ## する属性を適用すると、ComponentGuaranteesAttribute が、アセンブリ、型、または型のメンバーに適用できます。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Its application is hierarchical.</source>
+          <target state="translated">そのアプリケーションは、階層構造です。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>That is, by default, the guarantee defined by the &lt;xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees%2A&gt; property of the attribute at the assembly level defines the guarantee of all types in the assembly and all members in those types.</source>
+          <target state="translated">つまり、既定では、保証によって定義された、&lt;xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees%2A&gt;アセンブリ レベルで属性のプロパティは、アセンブリとそれらの型のすべてのメンバーですべての種類の保証を定義します&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Similarly, if the guarantee is applied to the type, by default it also applies to each member of the type.</source>
+          <target state="translated">同様に、保証が型に適用されている場合既定にも適用されます、型の各メンバー。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This inherited guarantee can be overridden by applying the ComponentGuaranteesAttribute to individual types and type members.</source>
+          <target state="translated">この継承されるという保証は、ComponentGuaranteesAttribute を個々 の型に適用することによってオーバーライドされることができ、メンバーを入力します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>However, guarantees that override the default can only weaken the guarantee; they cannot strengthen it.</source>
+          <target state="translated">ただし、既定値をオーバーライドすることが保証をできますのみを弱める。 保証です。これを強化ことはできません。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For example, if an assembly is marked with the &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; guarantee, its types and members have no compatibility guarantee, and any other guarantee that is applied to types or members in the assembly is ignored.</source>
+          <target state="translated">たとえば、アセンブリが付いている場合、&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;保証が、その型とメンバーに互換性の保証がなくと型またはアセンブリ内のメンバーに適用されるその他の保証は無視されます&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Testing the Guarantee    The &lt;xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees%2A&gt; property returns a member of the &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; enumeration, which is marked with the &lt;xref:System.FlagsAttribute&gt; attribute.</source>
+          <target state="translated">保証のテスト、&lt;xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees%2A&gt;プロパティのメンバーを返します、&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;でマークされている列挙型、&lt;xref:System.FlagsAttribute&gt;属性&lt;/xref:System.FlagsAttribute&gt;&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This means that you should test for the flag that you are interested in by masking away potentially unknown flags.</source>
+          <target state="translated">これは、退席中の可能性がある不明なフラグをマスクして、関心のあるフラグをテストする必要があることを意味します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For example, the following example tests whether a type is marked as &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;.</source>
+          <target state="translated">次の例が、型が&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;。&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;としてマークされているかどうかをテストするなど、</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#1<ept id="p2">](~/add/codesnippet/csharp/t-system.runtime.version_1.cs)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#1<ept id="p4">](~/add/codesnippet/visualbasic/t-system.runtime.version_1.vb)</ept><ept id="p3">]</ept>       The following example tests whether a type is marked as &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; or &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#1<ept id="p2">](~/add/codesnippet/csharp/t-system.runtime.version_1.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#1<ept id="p4">](~/add/codesnippet/visualbasic/t-system.runtime.version_1.vb)</ept> <ept id="p3">]</ept>次の例は、型が&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;または&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;.&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;としてマークされているかどうかを調べます  </target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#2<ept id="p2">](~/add/codesnippet/csharp/t-system.runtime.version_2.cs)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#2<ept id="p4">](~/add/codesnippet/visualbasic/t-system.runtime.version_2.vb)</ept><ept id="p3">]</ept>       The following example tests wither a type is marked as &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; (that is, neither &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; nor &lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;).</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#2<ept id="p2">](~/add/codesnippet/csharp/t-system.runtime.version_2.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#2<ept id="p4">](~/add/codesnippet/visualbasic/t-system.runtime.version_2.vb)</ept> <ept id="p3">]</ept>次としてテストを使用すると、型の使用例をマーク&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;(つまり、どちらも&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;も&lt;xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;).&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; &lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt; &lt;/xref:System.Runtime.Versioning.ComponentGuaranteesOptions&gt;  </target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#3<ept id="p2">](~/add/codesnippet/csharp/t-system.runtime.version_3.cs)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#3<ept id="p4">](~/add/codesnippet/visualbasic/t-system.runtime.version_3.vb)</ept><ept id="p3">]</ept></source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#3<ept id="p2">](~/add/codesnippet/csharp/t-system.runtime.version_3.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.Runtime.Versioning.ComponentGuaranteesAttribute.Class#3  <ept id="p4">](~/add/codesnippet/visualbasic/t-system.runtime.version_3.vb)</ept><ept id="p3">]</ept></target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Versioning.ComponentGuaranteesAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a value that indicates a library, type, or member's guaranteed level of compatibility across multiple versions.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Runtime.Versioning.ComponentGuaranteesAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ライブラリ、型、またはメンバーを示す値を持つクラスは、複数のバージョンの互換性レベルを保証します。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Runtime.Versioning.ComponentGuaranteesAttribute&gt; class is instantiated, the value of the <ph id="ph1">`guarantees`</ph> parameter is assigned to the &lt;xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees%2A&gt; property.</source>
+          <target state="translated">ときに、&lt;xref:System.Runtime.Versioning.ComponentGuaranteesAttribute&gt;クラスをインスタンス化の値、<ph id="ph1">`guarantees`</ph>にパラメーターが割り当てられた、&lt;xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees%2A&gt;プロパティ&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees%2A&gt;&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesAttribute&gt;。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the level of compatibility that is guaranteed across multiple versions.</source>
+          <target state="translated">複数のバージョンで保証されている互換性レベルを指定する列挙値の&amp;1; つ。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates the guaranteed level of compatibility of a library, type, or type member that spans multiple versions.</source>
+          <target state="translated">ライブラリ、型、または複数のバージョンにまたがる型のメンバーとの互換性レベルの保証を示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The value of the Guarantees property corresponds to the <ph id="ph1">`guarantees`</ph> parameter of the &lt;xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">保証プロパティの値に対応、<ph id="ph1">`guarantees`</ph>のパラメーター、&lt;xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.%23ctor%2A&gt;コンス トラクター&lt;/xref:System.Runtime.Versioning.ComponentGuaranteesAttribute.%23ctor%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the level of compatibility that is guaranteed across multiple versions.</source>
+          <target state="translated">複数のバージョンで保証されている互換性レベルを指定する列挙値の&amp;1; つ。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b78423b39f66cc3d72f9cd4601f447b61f4f7143</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.SerializationBinder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">03cd378ec062731f442e65b3245c682e0ccb9051</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">510fc774b76d449b95958342ebd81ee01cdf15f8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows users to control class loading and mandate what class to load.</source>
+          <target state="translated">クラスの読み込みを制御し、どのようなクラスを読み込むことを要求することができます。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>During serialization, a formatter transmits the information required to create an instance of an object of the correct type and version.</source>
+          <target state="translated">シリアル化では、フォーマッタは、正しい型およびバージョンのオブジェクトのインスタンスを作成するために必要な情報を送信します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This information generally includes the full type name and assembly name of the object.</source>
+          <target state="translated">通常、この情報には、完全な型名とオブジェクトのアセンブリ名が含まれます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The assembly name includes the name, version, and strong name (see <bpt id="p1">[</bpt>Strong-Named Assemblies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>) hash of the assembly.</source>
+          <target state="translated">アセンブリ名には、名前、バージョン、および厳密な名前が含まれています (を参照してください<bpt id="p1">[</bpt>厳密な名前付きアセンブリ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>) アセンブリのハッシュ。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>By default, deserialization uses this information to create an instance of an identical object (with the exception of any assembly loading restricted by the security policy).</source>
+          <target state="translated">既定では、逆シリアル化はこの情報を使用して (セキュリティ ポリシーで制限される任意のアセンブリの読み込みの例外) が同一のオブジェクトのインスタンスを作成します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Some users need to control which class to load, either because the class has moved between assemblies or a different version of the class is required on the server and client.</source>
+          <target state="translated">一部のユーザーは、サーバーとクライアント上のどのクラスを読み込むか、クラスがアセンブリまたはクラスの別のバージョンの間で移動されているために必要なコントロールする必要があります。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SerializationBinder can also be used for security.</source>
+          <target state="translated">SerializationBinder は、セキュリティのためにも使用できます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>There might be some security exploits when you are trying to deserialize some data from an untrusted source.</source>
+          <target state="translated">信頼できないソースからデータを逆シリアル化しようとするいくつかのセキュリティのぜい弱性があります。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The binder gives you an opportunity to inspect what types are being loaded in your application domain.</source>
+          <target state="translated">バインダーをどのような種類がアプリケーション ドメインに読み込まれてを検査する機会を提供します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can then either maintain list of denied types or a list of allowed types and restrict which types are being loaded and instantiated.</source>
+          <target state="translated">許可されたタイプの一覧または拒否された種類の一覧を維持するか、どの型が読み込まれる制限からすることができ、インスタンス化します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In addition you should be mindful of what information is being put out on the wire, you may want to secure (use transport or message security) when sending type names or other data on the wire.</source>
+          <target state="translated">どのような情報に配置することネットワーク上の考慮をする必要がありますさらに、(トランスポートまたはメッセージ セキュリティを使用) をセキュリティで保護することも、ネットワーク上で型の名前またはその他のデータを送信するときにします。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  Only use SerializationBinder if you are completely sure of what information is being serialized.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt; を確実に完全にどのような情報をシリアル化の場合にのみ SerializationBinder を使用します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Malicious types can cause unexpected behavior.</source>
+          <target state="translated">悪意のある型には、予期しない動作を起こすことができます。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This is an abstract base class.</source>
+          <target state="translated">これは、抽象基本クラスです。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>All binders extend this class.</source>
+          <target state="translated">すべてのバインダーは、このクラスを拡張します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationBinder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationBinder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, controls the binding of a serialized object to a type.</source>
+          <target state="translated">派生クラスでオーバーライドされると、シリアル化されたオブジェクトの型へのバインドを制御します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The type of the object the formatter creates a new instance of.</source>
+          <target state="translated">オブジェクトの種類、フォーマッタは、新しいインスタンスを作成します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specifies the &lt;xref:System.Reflection.Assembly&gt; name of the serialized object.</source>
+          <target state="translated">指定します、&lt;xref:System.Reflection.Assembly&gt;シリアル化されたオブジェクトの名前&lt;/xref:System.Reflection.Assembly&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Specifies the &lt;xref:System.Type&gt; name of the serialized object.</source>
+          <target state="translated">指定します、&lt;xref:System.Type&gt;シリアル化されたオブジェクトの名前&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, controls the binding of a serialized object to a type.</source>
+          <target state="translated">派生クラスでオーバーライドされると、シリアル化されたオブジェクトの型へのバインドを制御します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Specifies the &lt;xref:System.Reflection.Assembly&gt; name of the serialized object.</source>
+          <target state="translated">指定します、&lt;xref:System.Reflection.Assembly&gt;シリアル化されたオブジェクトの名前&lt;/xref:System.Reflection.Assembly&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Specifies the &lt;xref:System.Type&gt; name of the serialized object.</source>
+          <target state="translated">指定します、&lt;xref:System.Type&gt;シリアル化されたオブジェクトの名前&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The type of the object the formatter creates a new instance of.</source>
+          <target state="translated">オブジェクトの種類、フォーマッタは、新しいインスタンスを作成します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef5a0217e216b89d3656c391ac24ed333d0bee7a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.DependencyObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e12d19973ef7fa69527a96a2d45e919a6e1fdb43</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dd979f5a7e3a281a1fb43a5cd55931c4bc6b079d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an object that participates in the dependency property system.</source>
+          <target state="translated">表示参与依赖项属性系统的对象。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The DependencyObject class enables <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> property system services on its many derived classes.</source>
+          <target state="translated">将类可实现<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>对其许多的派生类的属性系统服务。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The property system's primary function is to compute the values of properties, and to provide system notification about values that have changed.</source>
+          <target state="translated">属性系统的主要功能是计算属性的值，并提供有关已更改的值的系统通知。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Another key class that participates in the property system is &lt;xref:System.Windows.DependencyProperty&gt;.</source>
+          <target state="translated">参与属性系统的另一个密钥类是&lt;xref:System.Windows.DependencyProperty&gt;.&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.DependencyProperty&gt; enables the registration of dependency properties into the property system, and provides identification and information about each dependency property, whereas DependencyObject as a base class enables objects to use the dependency properties.</source>
+          <target state="translated">&lt;xref:System.Windows.DependencyProperty&gt;启用依赖项属性的注册到属性系统，并提供标识和有关每个依赖项属性信息，而将用作基类允许对象使用的依赖项属性。&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>DependencyObject services and characteristics include the following:      -   Dependency property hosting support.</source>
+          <target state="translated">将服务和特征包括以下:-承载支持的依赖项属性。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You register a dependency property by calling the &lt;xref:System.Windows.DependencyProperty.Register%2A&gt; method, and storing the method's return value as a public static field in your class.</source>
+          <target state="translated">通过调用&lt;xref:System.Windows.DependencyProperty.Register%2A&gt;方法，并将为你的类中的公共静态字段的方法的返回值存储&lt;/xref:System.Windows.DependencyProperty.Register%2A&gt;注册依赖项属性</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   Attached property hosting support.</source>
+          <target state="translated">的托管支持附加属性。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You register an attached property by calling the &lt;xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt; method, and storing the method's return value as a public static read-only field in your class.</source>
+          <target state="translated">通过调用&lt;xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt;方法，并将存储为公共静态只读字段中你的类的方法的返回值&lt;/xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt;注册附加的属性</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>(There are also additional member requirements; note that this represents a <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> specific implementation for attached properties.</source>
+          <target state="translated">(此外还有其他成员要求; 请注意，这表示<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>附加属性的特定实现。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Attached Properties Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.) Your attached property can then be set on any class that derives from DependencyObject.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>附加属性概述<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。)然后可以派生自将任何类上设置附加的属性。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>-   Get, set, and clear utility methods for values of any dependency properties that exist on the DependencyObject.</source>
+          <target state="translated">-获取、 设置，并清除实用工具方法，用于将存在任何依赖项属性的值。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   Metadata, coerce value support, property changed notification, and override callbacks for  dependency properties or attached properties.</source>
+          <target state="translated">元数据，强制值支持，属性更改通知，以及依赖项属性的重写回调或附加属性。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Also, the DependencyObject class facilitates the per-owner property metadata for a dependency property.</source>
+          <target state="translated">此外，将类便于依赖项属性的每个所有者属性元数据。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-   A common base class for classes derived from &lt;xref:System.Windows.ContentElement&gt;, &lt;xref:System.Windows.Freezable&gt;, or &lt;xref:System.Windows.Media.Visual&gt;.</source>
+          <target state="translated">-类 a 公共基类派生自&lt;xref:System.Windows.ContentElement&gt;， &lt;xref:System.Windows.Freezable&gt;，或&lt;xref:System.Windows.Media.Visual&gt;。&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.ContentElement&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>(&lt;xref:System.Windows.UIElement&gt;, another base element class, has a class hierarchy that includes &lt;xref:System.Windows.Media.Visual&gt;.)</source>
+          <target state="translated">(&lt;xref:System.Windows.UIElement&gt;，另一个基元素类，具有包含的类层次结构&lt;xref:System.Windows.Media.Visual&gt;。)&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Clears the local value of a property.</source>
+          <target state="translated">清除属性的本地值。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The property to be cleared is specified by a <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier.</source>
+          <target state="translated">指定要清除的属性<bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>标识符。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Clearing the property value by calling ClearValue does not necessarily give a dependency property the default value that is specified in the dependency property metadata.</source>
+          <target state="translated">通过调用 ClearValue 清除的属性值不一定会赋予依赖项属性的依赖项属性元数据中指定的默认值。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Clearing the property only specifically clears whatever local value may have been applied.</source>
+          <target state="translated">清除属性只特别清除任何本地值可能被应用。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Dependency Property Value Precedence<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>依赖项属性值优先级<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The dependency property to be cleared, identified by a <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object reference.</source>
+          <target state="translated">依赖项属性被清除，由<bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象引用。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Attempted to call ClearValue on a sealed <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试对密封调用 ClearValue <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Clears the local value of a read-only property.</source>
+          <target state="translated">清除只读属性的本地值。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The property to be cleared is specified by a <bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定要清除的属性<bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Windows.DependencyPropertyKey&gt; identifies a read-only dependency property for property system operations.</source>
+          <target state="translated">A&lt;xref:System.Windows.DependencyPropertyKey&gt;标识属性系统操作的只读依赖属性。&lt;/xref:System.Windows.DependencyPropertyKey&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Classes that define read-only dependency properties should not expose this key with public access.</source>
+          <target state="translated">定义只读依赖属性的类不应公开此密钥的公共访问权限。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A publicly exposed key would provide a public code pathway that negated the read-only character of the property, if methods such as &lt;xref:System.Windows.DependencyObject.ClearValue%2A&gt; or &lt;xref:System.Windows.DependencyObject.SetValue%2A&gt; could be called outside the class or assembly, referencing the key.</source>
+          <target state="translated">公开提供的键将提供求反后的属性的只读字符公共代码路径，如果等方法&lt;xref:System.Windows.DependencyObject.ClearValue%2A&gt;或&lt;xref:System.Windows.DependencyObject.SetValue%2A&gt;无法调用外部类或程序集，引用键。&lt;/xref:System.Windows.DependencyObject.SetValue%2A&gt; &lt;/xref:System.Windows.DependencyObject.ClearValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Clearing the property value by calling ClearValue does not necessarily give a dependency property the default value that is specified in the dependency property metadata.</source>
+          <target state="translated">通过调用 ClearValue 清除的属性值不一定会赋予依赖项属性的依赖项属性元数据中指定的默认值。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Clearing the value only specifically clears whatever local value may have been applied.</source>
+          <target state="translated">清除值只特别清除任何本地值可能被应用。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Dependency Property Value Precedence<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>依赖项属性值优先级<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The key for the dependency property to be cleared.</source>
+          <target state="translated">要清除依赖项属性的密钥。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Attempted to call &lt;xref:System.Windows.DependencyObject.ClearValue*&gt; on a sealed <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试调用&lt;xref:System.Windows.DependencyObject.ClearValue*&gt;对密封<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Windows.DependencyObject.ClearValue*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Coerces the value of the specified dependency property.</source>
+          <target state="translated">将指定的依赖项属性的值强制转换。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This is accomplished by invoking any <bpt id="p1">&lt;xref href="System.Windows.CoerceValueCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> function specified in property metadata for the dependency property as it exists on the calling <bpt id="p2">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">这通过调用任何实现<bpt id="p1">&lt;xref href="System.Windows.CoerceValueCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>函数指定依赖项属性的属性元数据中，因为它存在于调用<bpt id="p2">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In addition to being explicitly invoked through calling CoerceValue, the &lt;xref:System.Windows.CoerceValueCallback&gt; for a dependency property is also invoked internally whenever the dependency property value is being re-evaluated by the <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> property system.</source>
+          <target state="translated">除了通过调用强制值，在显式调用&lt;xref:System.Windows.CoerceValueCallback&gt;依赖项属性也会调用内部的依赖项属性值是正在重新计算出的<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>属性系统。&lt;/xref:System.Windows.CoerceValueCallback&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When you invoke the CoerceValue method, you are ultimately invoking the coerce value callback for the property that you specify.</source>
+          <target state="translated">在调用时强制值方法，你正在最终调用强制值回调你指定的属性。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Typically you will invoke CoerceValue only if you know that a coerce value callback exists, and if you know the callback's criteria for coercion.</source>
+          <target state="translated">通常，只有当您知道，强制值回调存在，并且您知道强制的回调的条件，你将调用强制值。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The most common scenario for calling CoerceValue is within class handling or property change callbacks of related properties that influence each other's values in a dependent way.</source>
+          <target state="translated">调用强制值的最常见方案是在类处理或影响对方的值的依赖方式的相关属性的属性更改回调。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Dependency Property Callbacks and Validation<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>依赖项属性的回调和验证<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The identifier for the dependency property to coerce.</source>
+          <target state="translated">要强制转换的依赖项属性标识符。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dp</ph><ept id="p1">&lt;/code&gt;</ept> or its value were invalid or do not exist.</source>
+          <target state="translated">指定<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dp</ph> <ept id="p1">&lt;/code&gt;</ept>或其值无效或不存在。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Windows.DependencyObjectType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that wraps the <ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph> type of this instance.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.Windows.DependencyObjectType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包装<ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph>的此实例的类型。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This property is useful if an object that is returned from a method has a return value type of &lt;xref:System.Windows.DependencyObject&gt; and you want to perform property system specific operations on it depending on its type.</source>
+          <target state="translated">此属性很有用，如果从方法返回的对象具有的返回值类型&lt;xref:System.Windows.DependencyObject&gt;并且你想要属性系统特定对其执行操作具体取决于其类型。&lt;/xref:System.Windows.DependencyObject&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For example it is more efficient to call &lt;xref:System.Windows.DependencyProperty.GetMetadata%28System.Windows.DependencyObjectType%29&gt; using the &lt;xref:System.Windows.DependencyObjectType&gt; rather than the <ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph> type.</source>
+          <target state="translated">例如，它会更加高效调用&lt;xref:System.Windows.DependencyProperty.GetMetadata%28System.Windows.DependencyObjectType%29&gt;使用&lt;xref:System.Windows.DependencyObjectType&gt;而不是<ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph>类型。&lt;/xref:System.Windows.DependencyObjectType&gt; &lt;/xref:System.Windows.DependencyProperty.GetMetadata%28System.Windows.DependencyObjectType%29&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.DependencyObjectType&gt; facilitates faster lookup.</source>
+          <target state="translated">&lt;xref:System.Windows.DependencyObjectType&gt;便于更快的查找。&lt;/xref:System.Windows.DependencyObjectType&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.DependencyObjectType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that wraps the <ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph> type of this instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.DependencyObjectType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包装<ph id="ph1">[!INCLUDE[TLA2#tla_clr](~/add/includes/tla2sharptla-clr-md.md)]</ph>的此实例的类型。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Determines whether a provided <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is equivalent to the current <bpt id="p2">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">确定是否提供<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>等效于当前<bpt id="p2">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This implementation is reference equality only, and does not attempt to evaluate value equality of the contained properties.</source>
+          <target state="translated">此实现不引用相等性，因此不会尝试评估的包含属性的值相等。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to compare to the current instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要与当前实例进行比较。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two instances are the same; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果两个实例相同;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets a hash code for this <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">获取此哈希代码<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A signed 32-bit integer hash code.</source>
+          <target state="translated">32 位有符号的整数哈希代码。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Creates a specialized enumerator for determining which dependency properties have locally set values on this <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">创建专用的枚举器，用于确定哪些依赖项属性具有本地设置值，对此<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">*</bpt>local value<ept id="p1">*</ept> is any dependency property value that was set by &lt;xref:System.Windows.DependencyObject.SetValue%2A&gt;, as opposed to other aspects of the property system.</source>
+          <target state="translated">A<bpt id="p1">*</bpt>本地值<ept id="p1">*</ept>是任何依赖项属性值所设置&lt;xref:System.Windows.DependencyObject.SetValue%2A&gt;，而不是属性系统的其他方面。&lt;/xref:System.Windows.DependencyObject.SetValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.LocalValueEnumerator&gt; obtained by calling GetLocalValueEnumerator can be used to enumerate properties that have a locally set value on a &lt;xref:System.Windows.DependencyObject&gt; instance.</source>
+          <target state="translated">&lt;xref:System.Windows.LocalValueEnumerator&gt;通过调用 GetLocalValueEnumerator 可用于枚举具有本地设置的属性获取值上&lt;xref:System.Windows.DependencyObject&gt;实例。&lt;/xref:System.Windows.DependencyObject&gt; &lt;/xref:System.Windows.LocalValueEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Each such property is represented in the enumerator by a &lt;xref:System.Windows.LocalValueEntry&gt; object, which has properties that reference the specific &lt;xref:System.Windows.DependencyProperty&gt; and its values.</source>
+          <target state="translated">每个此类属性表示的枚举器中&lt;xref:System.Windows.LocalValueEntry&gt;具有引用特定的属性的对象&lt;xref:System.Windows.DependencyProperty&gt;及其值。&lt;/xref:System.Windows.DependencyProperty&gt; &lt;/xref:System.Windows.LocalValueEntry&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This technique of enumerating over the locally set values can be used for optimization or for other handling of local values, such as to determine which property values of a &lt;xref:System.Windows.DependencyObject&gt; would change if they were cleared.</source>
+          <target state="translated">此方法的枚举的本地设置值可以用于优化或其他处理的本地值，如确定的哪些属性值&lt;xref:System.Windows.DependencyObject&gt;将更改如果它们已清除。&lt;/xref:System.Windows.DependencyObject&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The returned &lt;xref:System.Windows.LocalValueEnumerator&gt; might contain &lt;xref:System.Windows.LocalValueEntry&gt; records for dependency properties that are read-only, or dependency properties where values are calculated by the property system.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 返回&lt;xref:System.Windows.LocalValueEnumerator&gt;可能包含&lt;xref:System.Windows.LocalValueEntry&gt;依赖项属性是只读的或通过属性系统计算中值的依赖项属性的记录。&lt;/xref:System.Windows.LocalValueEntry&gt; &lt;/xref:System.Windows.LocalValueEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For example, a visual framework element that has an established width through layout will report a local value for &lt;xref:System.Windows.FrameworkElement.ActualWidth%2A&gt;.</source>
+          <target state="translated">例如，通过布局使用确定宽度 visual framework 元素将报告&lt;xref:System.Windows.FrameworkElement.ActualWidth%2A&gt;.&lt;/xref:System.Windows.FrameworkElement.ActualWidth%2A&gt;的本地值</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you are getting local values in order to reset them, check the &lt;xref:System.Windows.DependencyProperty.ReadOnly%2A&gt; value on the property identifier of each &lt;xref:System.Windows.LocalValueEntry&gt; to verify that the &lt;xref:System.Windows.DependencyProperty&gt; in question is not read-only.</source>
+          <target state="translated">如果您处于本地值以便重置它们，请检查&lt;xref:System.Windows.DependencyProperty.ReadOnly%2A&gt;上每个属性标识符值&lt;xref:System.Windows.LocalValueEntry&gt;以便确认&lt;xref:System.Windows.DependencyProperty&gt;问题不是只读的。&lt;/xref:System.Windows.DependencyProperty&gt; &lt;/xref:System.Windows.LocalValueEntry&gt; &lt;/xref:System.Windows.DependencyProperty.ReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A specialized local value enumerator.</source>
+          <target state="translated">一个专用的本地值的枚举。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Returns the current effective value of a dependency property on this instance of a <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回此实例上的依赖项属性的当前有效值<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>effective value<ept id="p1">*</ept> is the value of the property that is returned by the property system to any caller that is requesting the value.</source>
+          <target state="translated"><bpt id="p1">*</bpt>有效值<ept id="p1">*</ept>是通过属性系统返回到正在请求值的任何调用方的属性的值。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The effective value is the result of the property system having evaluated all the possible inputs that participate in the property system value precedence.</source>
+          <target state="translated">有效值是具有计算参与属性系统值优先级的所有可能的输入属性系统的结果。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This includes coercion and animation.</source>
+          <target state="translated">这包括强制和动画。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Dependency Property Value Precedence<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>依赖项属性值优先级<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This method will never return &lt;xref:System.Windows.DependencyProperty&gt;.</source>
+          <target state="translated">此方法将永远不会返回&lt;xref:System.Windows.DependencyProperty&gt;.&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.DependencyProperty&gt; is a sentinel value for the property system that is used in various capacities internally and occasionally also exposed through coercion callbacks.</source>
+          <target state="translated">&lt;xref:System.Windows.DependencyProperty&gt;是 sentinel 值用在内部，有时也通过强制回调公开的各种功能的属性系统。&lt;/xref:System.Windows.DependencyProperty&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If you are not sure what the property's type should be, you can query the identifier of the requested dependency property to determine whether there is a more specific &lt;xref:System.Windows.DependencyProperty.PropertyType%2A&gt; that the return value can be converted to.</source>
+          <target state="translated">如果你不确定该属性的类型应该是什么，您可以查询要确定是否有更为具体的请求的依赖关系属性的标识符&lt;xref:System.Windows.DependencyProperty.PropertyType%2A&gt;返回值可以转换为。&lt;/xref:System.Windows.DependencyProperty.PropertyType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier of the property to retrieve the value for.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要检索其值的属性的标识符。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Returns the current effective value.</source>
+          <target state="translated">返回当前有效值。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dp</ph><ept id="p1">&lt;/code&gt;</ept> or its value was invalid, or the specified <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">dp</ph><ept id="p2">&lt;/code&gt;</ept> does not exist.</source>
+          <target state="translated">指定<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dp</ph> <ept id="p1">&lt;/code&gt;</ept>或其值无效，或者指定<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">dp</ph> <ept id="p2">&lt;/code&gt;</ept>不存在。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Re-evaluates the effective value for the specified dependency property</source>
+          <target state="translated">重新评估指定的依赖项属性的有效值</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When you call InvalidateProperty, any associated and applicable &lt;xref:System.Windows.CoerceValueCallback&gt; or &lt;xref:System.Windows.PropertyChangedCallback&gt; functions registered for that dependency property might be invoked.</source>
+          <target state="translated">当调用 InvalidateProperty，任何关联和适用&lt;xref:System.Windows.CoerceValueCallback&gt;或&lt;xref:System.Windows.PropertyChangedCallback&gt;函数注册为可能调用该依赖项属性。&lt;/xref:System.Windows.PropertyChangedCallback&gt; &lt;/xref:System.Windows.CoerceValueCallback&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Calling InvalidateProperty on a property that has its local value set will have no effect, because the local value takes precedence over other property system inputs, except for animations.</source>
+          <target state="translated">设置其本地值的属性上调用 InvalidateProperty 不会产生不起作用，因为本地值优先于其他属性系统输入，动画除外。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>However, you could call &lt;xref:System.Windows.DependencyObject.ClearValue%2A&gt;, then call InvalidateProperty.</source>
+          <target state="translated">但是，您可以调用&lt;xref:System.Windows.DependencyObject.ClearValue%2A&gt;，然后调用 InvalidateProperty。&lt;/xref:System.Windows.DependencyObject.ClearValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Dependency Property Value Precedence<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>依赖项属性值优先级<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Calling InvalidateProperty is not necessarily applicable for many dependency property scenarios.</source>
+          <target state="translated">调用 InvalidateProperty 不一定适用于许多依赖项属性方案。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If a dependency property becomes invalidated because of value changes in any of the constituents, the property system invalidates and re-evaluates the dependency property automatically.</source>
+          <target state="translated">如果由于任何组成部分值更改，因此失效依赖项属性，属性系统使无效，并自动重新计算依赖项属性。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>However, there are still some appropriate scenarios where InvalidateProperty is useful.</source>
+          <target state="translated">但是，仍有一些 InvalidateProperty 是有用的相应方案。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>In particular, you can use InvalidateProperty inside the coerce value or property changed callback for a different dependency property.</source>
+          <target state="translated">具体而言，你可以使用内部强制 InvalidateProperty 值或属性更改为不同的依赖属性的回调。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You can also use InvalidateProperty to force re-evaluation of a binding against a data source that is not able to implement the recommended &lt;xref:System.ComponentModel.INotifyPropertyChanged&gt; notification mechanism (perhaps if consuming data classes that cannot be derived from, or where the data is a static member).</source>
+          <target state="translated">你还可以使用 InvalidateProperty 强制重新计算对不能实现推荐的数据源绑定&lt;xref:System.ComponentModel.INotifyPropertyChanged&gt;通知机制 (可能是如果消耗数据类，不能从，派生或知道数据的静态成员)。&lt;/xref:System.ComponentModel.INotifyPropertyChanged&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier of the property to invalidate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要使之无效的属性的标识符。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this instance is currently sealed (read-only).</source>
+          <target state="translated">获取一个值，该值指示是否 （只读），此实例当前密封。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This value is set internally.</source>
+          <target state="translated">内部设置此值。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this instance is sealed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果此实例都密封的;，否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Invoked whenever the effective value of any dependency property on this <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been updated.</source>
+          <target state="translated">每当调用这任何依赖属性的有效值<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>已更新。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The specific dependency property that changed is reported in the event data.</source>
+          <target state="translated">在事件数据报告更改的特定依赖属性。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This method is not intended to generally detect individual property changes or perform invalidations of properties on a per-case basis.</source>
+          <target state="translated">此方法不应通常检测个别属性更改或基于每个用例执行挂起的属性。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>OnPropertyChanged is instead intended for modifications of the general invalidation pattern, if certain information is known about wide classifications of properties.</source>
+          <target state="translated">OnPropertyChanged 改为适用于修改常规失效模式中，如果查阅宽分类的属性已知的某些信息。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>For example, changes in a &lt;xref:System.Windows.Freezable&gt; might be changes in the value types of the &lt;xref:System.Windows.Freezable&gt;, or might be subproperties, where the changes are within other &lt;xref:System.Windows.Freezable&gt; references.</source>
+          <target state="translated">例如，在更改&lt;xref:System.Windows.Freezable&gt;可能的值类型中的更改&lt;xref:System.Windows.Freezable&gt;，或可能与子属性，其中所做的更改是在其他&lt;xref:System.Windows.Freezable&gt;引用。&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Freezable&gt; override implementation of OnPropertyChanged uses internal information to determine whether the properties are subproperties, and provides appropriate base class logic for either case.</source>
+          <target state="translated">&lt;xref:System.Windows.Freezable&gt;OnPropertyChanged 重写实现使用内部信息来确定属性是否为子属性，并提供适当的基类逻辑以两种情况。&lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>OnPropertyChanged is potentially invoked many times during the life of an object.</source>
+          <target state="translated">OnPropertyChanged 是可能会多次调用对象的生命周期内。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Therefore, you can achieve better performance for the overall property system if you override the metadata of specific properties and then attach &lt;xref:System.Windows.CoerceValueCallback&gt; or &lt;xref:System.Windows.PropertyChangedCallback&gt; functions for individual properties.</source>
+          <target state="translated">因此，如果你可以实现更好的总体属性系统性能重写特定属性的元数据，然后将附加&lt;xref:System.Windows.CoerceValueCallback&gt;或&lt;xref:System.Windows.PropertyChangedCallback&gt;为各个属性的函数。&lt;/xref:System.Windows.PropertyChangedCallback&gt; &lt;/xref:System.Windows.CoerceValueCallback&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>However, you would use this method if a &lt;xref:System.Windows.DependencyObject&gt; includes a significant number of value-interrelated dependency properties, or if it includes logic such as rendering behavior that must be rerun for several related cases of property invalidations.</source>
+          <target state="translated">但是，如果你将使用此方法&lt;xref:System.Windows.DependencyObject&gt;包括大量的值相关的依赖项属性，或如果它包括逻辑，如呈现行为，必须重新运行多个相关属性失效的情况。&lt;/xref:System.Windows.DependencyObject&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Event data that will contain the dependency property identifier of interest, the property metadata for the type, and old and new values.</source>
+          <target state="translated">将包含感兴趣，该类型的属性元数据和旧值和新值的依赖项属性标识符的事件数据。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Returns the local value of a dependency property, if it exists.</source>
+          <target state="translated">如果它存在，则返回依赖属性的本地值。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You should use &lt;xref:System.Windows.DependencyObject.GetValue%2A&gt; for most typical "get" operations for a dependency property.</source>
+          <target state="translated">应使用&lt;xref:System.Windows.DependencyObject.GetValue%2A&gt;依赖项属性的大多数典型"get"操作。&lt;/xref:System.Windows.DependencyObject.GetValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>ReadLocalValue does not return the effective value for a variety of circumstances where the value was not locally set.</source>
+          <target state="translated">ReadLocalValue 不返回使用其中未本地设置值的各种情况下的生效值。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Values that are set by styles, themes, templates, the default value from metadata, or property value inheritance are not considered to be local values.</source>
+          <target state="translated">值由样式、 主题、 模板设置，从元数据或属性值继承的默认值是不被视为本地值。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>However, bindings and other expressions are considered to be local values, after they have been evaluated.</source>
+          <target state="translated">但是，被视为绑定和其他表达式将本地值之后已对它们进行评估。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>When no local value is set, this method returns &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;.</source>
+          <target state="translated">当未不设置任何本地值时，此方法会返回&lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;.&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>If the returned value is other than &lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;, you can query the metadata of the requested dependency property to determine whether there is a more specific type that the return value can be converted to.</source>
+          <target state="translated">如果返回的值而不是&lt;xref:System.Windows.DependencyProperty.UnsetValue&gt;，您可以查询请求的依赖关系属性，以确定是否存在返回值可以转换为更具体类型的元数据。&lt;/xref:System.Windows.DependencyProperty.UnsetValue&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier of the property to retrieve the value for.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要检索其值的属性的标识符。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Returns the local value, or returns the sentinel value <bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no local value is set.</source>
+          <target state="translated">返回本地值，则返回 sentinel 值<bpt id="p1">&lt;xref href="System.Windows.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果未不设置任何本地值。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Sets the value of a dependency property without changing its value source.</source>
+          <target state="translated">设置依赖项属性的值而不更改其值源。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This method is used by a component that programmatically sets the value of one of its own properties without disabling an application's declared use of the property.</source>
+          <target state="translated">以编程方式设置其自己的属性之一的值，但不能禁用应用程序的声明的属性使用的组件使用此方法。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The SetCurrentValue method changes the effective value of the property, but existing triggers, data bindings, and styles will continue to work.</source>
+          <target state="translated">SetCurrentValue 方法更改的生效值的属性，但现有的触发器、 数据绑定和样式将继续工作。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The identifier of the dependency property to set.</source>
+          <target state="translated">要设置的依赖项属性的标识符。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The new local value.</source>
+          <target state="translated">新的本地值。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Attempted to modify a read-only dependency property, or a property on a sealed <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试修改只读依赖属性或对密封属性<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> was not the correct type as registered for the <ph id="ph2">&lt;code&gt;dp&lt;/code&gt;</ph> property.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph>并不是正确的类型，如为注册<ph id="ph2">&lt;code&gt;dp&lt;/code&gt;</ph>属性。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Sets the local value of a dependency property, specified by its dependency property identifier.</source>
+          <target state="translated">设置由其依赖项属性标识符指定的依赖项属性的本地值。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If the provided type does not match the type that is declared for the dependency property as it was originally registered, an exception is thrown.</source>
+          <target state="translated">如果所提供的类型与按最初注册依赖属性声明的类型不匹配，则引发异常。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`value`</ph> parameter should always be provided as the appropriate type.</source>
+          <target state="translated"><ph id="ph1">`value`</ph>应该始终提供参数，以适合的类型。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The exception conditions are potentially influenced by the &lt;xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt; callback that exists on the dependency property identifier of the dependency property being set.</source>
+          <target state="translated">异常条件可能受&lt;xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt;位于要设置的依赖项属性的依赖项属性标识符的回调。&lt;/xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Otherwise, the value provided might be failing general type-checking conditions (for example, passing a string when the native type is Double).</source>
+          <target state="translated">否则，提供的值可能无法满足常规类型检查的条件 （例如，将字符串传递时的本机类型为 Double）。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The identifier of the dependency property to set.</source>
+          <target state="translated">要设置的依赖项属性的标识符。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The new local value.</source>
+          <target state="translated">新的本地值。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Attempted to modify a read-only dependency property, or a property on a sealed <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">尝试修改只读依赖属性或对密封属性<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> was not the correct type as registered for the <ph id="ph2">&lt;code&gt;dp&lt;/code&gt;</ph> property.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph>并不是正确的类型，如为注册<ph id="ph2">&lt;code&gt;dp&lt;/code&gt;</ph>属性。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Sets the local value of a read-only dependency property, specified by the <bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier of the dependency property.</source>
+          <target state="translated">设置指定的只读依赖属性的本地值<bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的依赖项属性的标识符。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This signature is generally used when you set values for read-only dependency properties that are defined by your custom classes.</source>
+          <target state="translated">当你设置由您的自定义类定义的只读依赖属性的值时，通常使用该签名。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Generally, SetValue is called only from the type that registered that dependency property, which implements the internal logic that provides the determined value for the dependency property.</source>
+          <target state="translated">通常情况下，SetValue 称为只能从注册实现提供确定的值的依赖项属性的内部逻辑该依赖属性的类型。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Read-Only Dependency Properties<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>只读依赖项属性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If the provided type does not match the type that is declared for the dependency property as it was originally registered, an exception is thrown.</source>
+          <target state="translated">如果所提供的类型与按最初注册依赖属性声明的类型不匹配，则引发异常。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`value`</ph> parameter should always be provided as the appropriate type.</source>
+          <target state="translated"><ph id="ph1">`value`</ph>应该始终提供参数，以适合的类型。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The exception conditions are potentially influenced by the &lt;xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt; callback that exists on the dependency property identifier of the dependency property being set.</source>
+          <target state="translated">异常条件可能受&lt;xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt;位于要设置的依赖项属性的依赖项属性标识符的回调。&lt;/xref:System.Windows.DependencyProperty.ValidateValueCallback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier of the property to set.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.DependencyPropertyKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要设置的属性的标识符。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The new local value.</source>
+          <target state="translated">新的本地值。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether serialization processes should serialize the value for the provided dependency property.</source>
+          <target state="translated">返回一个值，该值指示序列化进程是否应序列化提供的依赖属性的值。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The default implementation returns <ph id="ph1">`true`</ph> for all cases in which a dependency property had a local value established on the &lt;xref:System.Windows.DependencyObject&gt;.</source>
+          <target state="translated">默认实现返回<ph id="ph1">`true`</ph>在其中一个依赖项属性具有本地值&lt;xref:System.Windows.DependencyObject&gt;.&lt;/xref:System.Windows.DependencyObject&gt;上建立的所有用例</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The identifier for the dependency property that should be serialized.</source>
+          <target state="translated">应序列化依赖项属性的标识符。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dependency property that is supplied should be value-serialized; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果提供的依赖项属性应进行值序列化;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
