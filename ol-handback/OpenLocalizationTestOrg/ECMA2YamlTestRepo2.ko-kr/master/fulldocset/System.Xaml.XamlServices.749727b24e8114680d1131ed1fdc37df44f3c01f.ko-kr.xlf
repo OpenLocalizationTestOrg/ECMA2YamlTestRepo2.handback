@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">208467e763933988cad96c707aa193768e98b704</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xaml.XamlServices.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a04fa1f5266805429a7dc913ba129aaed4d831c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">251086e4a08beb46e415516b715d313312131e2b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides higher-level services (static methods) for the common XAML tasks of reading XAML and writing an object graph; or reading an object graph and writing XAML file output for serialization purposes.</source>
+          <target state="translated">XAML을 읽고 쓰며; 개체 그래프의 일반적인 XAML 작업에 대 한 높은 수준의 서비스 (정적 메서드)를 제공 합니다. 또는 개체 그래프를 읽고 serialization 위해 XAML 파일 출력을 작성 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The modes of the XamlServices class that are used in the most common XAML reading and writing scenarios rely on creating instances of XAML readers and XAML writers.</source>
+          <target state="translated">가장 일반적인 XAML 읽기 및 쓰기 시나리오에에서 사용 되는 모드에 XamlServices 클래스의 XAML 판독기 및 XAML 작성기의 인스턴스를 만드는 방법에 의존 합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These readers and writers are specialized but internal implementations of public classes, such as &lt;xref:System.Xml.XmlReader&gt;, &lt;xref:System.Xaml.XamlXmlReader&gt;, and &lt;xref:System.Xaml.XamlObjectWriter&gt;.</source>
+          <target state="translated">이러한 판독기와 작성기는 공용 클래스의 특수 하지만 내부 구현을 같은 &lt;xref:System.Xml.XmlReader&gt;, &lt;xref:System.Xaml.XamlXmlReader&gt;, 및 &lt;xref:System.Xaml.XamlObjectWriter&gt;.&lt;/xref:System.Xaml.XamlObjectWriter&gt; &lt;/xref:System.Xaml.XamlXmlReader&gt; &lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use XamlServices for most scenarios, you can rely on the default internal implementations to obtain the results that you want.</source>
+          <target state="translated">XamlServices 대부분의 시나리오를 사용 하려면 원하는 결과를 얻으려면 기본 내부 구현에 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more specialized scenarios, you might define readers and writers yourself, and then pass them as arguments for overloads of the XamlServices methods.</source>
+          <target state="translated">더 특수 한 시나리오에 대 한 판독기와 작성기를 직접 정의할 수도 있으며 XamlServices 메서드의 오버 로드에 대 한 인수로 전달 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  XamlServices is not the recommended XAML reading or XAML writing API set if you are processing WPF-defined types, or types based on WPF.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; XamlServices 권장 XAML 읽기 또는 XAML을 WPF 정의 형식을 처리 하는 경우 설정 되는 API 또는 WPF 기반 형식을 작성 됩니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> usage, use &lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt; for reading or loading XAML (or BAML); and &lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; for writing back XAML.</source>
+          <target state="translated">에 대 한 <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> 사용, 사용 하 여 &lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;읽거나 XAML (또는 BAML); 로드에 대 한 및 &lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt;XAML을 작성 하는 것에 대 한.&lt;/xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; &lt;/xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These classes use .NET Framework XAML Services APIs and the XAML readers and XAML writers internally in their implementation; however, they also provide support and specialized XAML schema context for WPF-specific concepts, such as optimizations for dependency properties and WPF known types.</source>
+          <target state="translated">이러한 클래스.NET Framework XAML 서비스 Api는 XAML 판독기 및 XAML 작성기에서에서 내부적으로 사용의 구현을 제공 합니다. 그러나 또한 제공 지원 및 XAML 스키마 컨텍스트 특수 종속성 속성과 WPF 알려진 형식에 대 한 최적화 같은 WPF 관련 개념에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Loads a &lt;xref:System.IO.Stream&gt; source for a XAML reader and writes its output as an object graph.</source>
+          <target state="translated">로드 한 &lt;xref:System.IO.Stream&gt;XAML 판독기에 대 한 소스 개체 그래프를 사용 하 여 해당 출력 기록.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Different signatures for the Load method specify different types of input for the source XAML.</source>
+          <target state="translated">Load 메서드에 대 한 시그니처가 서로 다른 다양 한 유형의 XAML 소스에 대 한 입력을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Load internal implementation first creates an &lt;xref:System.Xml.XmlReader&gt; by calling &lt;xref:System.Xml.XmlReader.Create%28System.IO.Stream%29&gt; and then creates a new instance of a specialized &lt;xref:System.Xaml.XamlReader&gt; that processes the input.</source>
+          <target state="translated">부하 내부 구현에서 먼저 만듭니다는 &lt;xref:System.Xml.XmlReader&gt;호출 하 여 &lt;xref:System.Xml.XmlReader.Create%28System.IO.Stream%29&gt;는 특수화 된의 새 인스턴스를 만듭니다 &lt;xref:System.Xaml.XamlReader&gt;입력을 처리 하는.&lt;/xref:System.Xaml.XamlReader&gt; &lt;/xref:System.Xml.XmlReader.Create%28System.IO.Stream%29&gt; &lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order for the Load call to successfully create an object graph, the following must be true:      -   The source is well-formed and valid XML.</source>
+          <target state="translated">개체 그래프를 성공적으로 만들기 위해 부하 호출에 대 한 순서 대로 다음 true 여야 합니다:-소스 형식이 올바른 xml입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The source is valid XAML at the language level.</source>
+          <target state="translated">-올바른 XAML 언어 수준에서입니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The XAML types that are specified in the source XAML must resolve to backing types in the relevant XAML namespaces.</source>
+          <target state="translated">원본에 지정 된 XAML 형식-XAML 관련 XAML 네임 스페이스의 지원 형식을 확인 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, XAML types for WPF namespaces can resolve to a WPF XAML namespace as specified in the XAML; the assemblies for WPF must be included in the project or available in the run time; and so on.</source>
+          <target state="translated">예를 들어 XAML;에 지정 된 대로 WPF는 XAML 네임 스페이스 WPF 네임 스페이스에 대 한 XAML 형식이 확인할 수 있습니다. 프로젝트에 포함 되거나 런타임에;에서 사용할 수 있는 WPF 어셈블리 이어야 합니다. 등에입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  &lt;xref:System.Xaml.XamlServices&gt; is not the recommended XAML reading or XAML writing API set if you are processing <ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> types, or types based on <ph id="ph3">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; &lt;xref:System.Xaml.XamlServices&gt;권장된 XAML 읽기 아니거나 처리 하는 경우 XAML 쓰기 API 설정 <ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> 형식 또는 형식에 따라 <ph id="ph3">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>.&lt;/xref:System.Xaml.XamlServices&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> usage, use &lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt; for reading or loading XAML; and &lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; for writing back XAML.</source>
+          <target state="translated">에 대 한 <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> 사용, 사용 하 여 &lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;읽기 또는 XAML;을 로드 하 고 &lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt;XAML을 작성 하는 것에 대 한.&lt;/xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; &lt;/xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These classes use &lt;xref:System.Xaml&gt; APIs internally in their implementation; however, they also provide support for WPF-specific concepts that influence the nature of XAML reading and writing, such as optimizations for dependency properties.</source>
+          <target state="translated">그러나 이러한 클래스를 사용 하 여 &lt;xref:System.Xaml&gt;;의 구현에서 내부적으로 Api을 지원 합니다 XAML 읽기 및 쓰기, 종속성 속성에 대 한 최적화 등의 특성에 영향을 주는 WPF 관련 개념에 대 한.&lt;/xref:System.Xaml&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The stream to load as input.</source>
+          <target state="translated">입력으로 로드 하는 스트림.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The object graph that is written as output.</source>
+          <target state="translated">출력으로 기록 되는 개체 그래프입니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Creates a XAML reader from a &lt;xref:System.IO.TextReader&gt;, and returns an object graph.</source>
+          <target state="translated">XAML 판독기를 만듭니다는 &lt;xref:System.IO.TextReader&gt;, 개체 그래프를 반환 합니다.&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to return the object graph, the <ph id="ph1">`textReader`</ph> input should be constructed by using its relevant input.</source>
+          <target state="translated">개체 그래프를 반환 하기 위해는 <ph id="ph1">`textReader`</ph> 입력은 관련 입력을 사용 하 여 생성 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, it should pass a &lt;xref:System.IO.StringReader&gt; that is constructed by using a valid XAML-as-string input for the &lt;xref:System.IO.StringReader.%23ctor%28System.String%29&gt; constructor.</source>
+          <target state="translated">예를 들어 전달 해야는 &lt;xref:System.IO.StringReader&gt;에 대 한 올바른 문자열로 XAML 입력을 사용 하 여 생성 하는 &lt;xref:System.IO.StringReader.%23ctor%28System.String%29&gt;생성자.&lt;/xref:System.IO.StringReader.%23ctor%28System.String%29&gt; &lt;/xref:System.IO.StringReader&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextReader&gt; to use as the basis for the created &lt;xref:System.Xml.XmlReader&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.TextReader&gt;만든된 &lt;xref:System.Xml.XmlReader&gt;.&lt;/xref:System.Xml.XmlReader&gt; 에 대 한 기준으로 사용할&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The object graph that is returned.</source>
+          <target state="translated">반환 되는 개체 그래프입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;textReader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;textReader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Loads a &lt;xref:System.IO.Stream&gt; source for a XAML reader and returns an object graph.</source>
+          <target state="translated">로드는 &lt;xref:System.IO.Stream&gt;XAML 판독기에 대 한 원본 및 개체 그래프를 반환 합니다.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Different signatures for the Load method specify different types of input for the source XAML.</source>
+          <target state="translated">Load 메서드에 대 한 시그니처가 서로 다른 다양 한 유형의 XAML 소스에 대 한 입력을 지정합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Load internal implementation first creates an &lt;xref:System.Xml.XmlReader&gt; by calling &lt;xref:System.Xml.XmlReader.Create%28System.String%29&gt; and then creates a new instance of a specialized &lt;xref:System.Xaml.XamlReader&gt; that processes the input.</source>
+          <target state="translated">부하 내부 구현에서 먼저 만듭니다는 &lt;xref:System.Xml.XmlReader&gt;호출 하 여 &lt;xref:System.Xml.XmlReader.Create%28System.String%29&gt;는 특수화 된의 새 인스턴스를 만듭니다 &lt;xref:System.Xaml.XamlReader&gt;입력을 처리 하는.&lt;/xref:System.Xaml.XamlReader&gt; &lt;/xref:System.Xml.XmlReader.Create%28System.String%29&gt; &lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order for the Load call to successfully create an object graph, the following must be true:      -   The source is well-formed and valid XML.</source>
+          <target state="translated">개체 그래프를 성공적으로 만들기 위해 부하 호출에 대 한 순서 대로 다음 true 여야 합니다:-소스 형식이 올바른 xml입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The source is valid XAML at the language level.</source>
+          <target state="translated">-올바른 XAML 언어 수준에서입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The XAML types that are specified in the source XAML must resolve to backing types in the relevant XAML namespaces.</source>
+          <target state="translated">원본에 지정 된 XAML 형식-XAML 관련 XAML 네임 스페이스의 지원 형식을 확인 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, XAML types for WPF namespaces can resolve to a WPF XAML namespace as specified in the XAML; the assemblies for WPF must be included in the project or be available in the run time; and so on.</source>
+          <target state="translated">예를 들어 XAML;에 지정 된 대로 WPF는 XAML 네임 스페이스 WPF 네임 스페이스에 대 한 XAML 형식이 확인할 수 있습니다. WPF의 어셈블리는 프로젝트에 포함 되어야 합니다 또는 런타임;에서 사용할 수 등에입니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The file name to load and use as source.</source>
+          <target state="translated">로드 하 고 원본으로 사용 하 여 파일 이름입니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The object graph that is returned.</source>
+          <target state="translated">반환 되는 개체 그래프입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Loads a specific XAML reader implementation and returns an object graph.</source>
+          <target state="translated">특정 XAML 판독기 구현을 로드 하 고 개체 그래프를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should typically use this signature only in the following cases:      -   You defined your own implementation of a &lt;xref:System.Xaml.XamlReader&gt;.</source>
+          <target state="translated">다음과 같은 경우에만이 서명을 일반적으로 사용 해야 합니다.- &lt;xref:System.Xaml.XamlReader&gt;.&lt;/xref:System.Xaml.XamlReader&gt; 의 사용자 지정 구현을 정의</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   You specified settings for a &lt;xref:System.Xaml.XamlReader&gt; that differ from the default settings.</source>
+          <target state="translated">-지정한에 대 한 설정을 &lt;xref:System.Xaml.XamlReader&gt;기본 설정과에서 다른.&lt;/xref:System.Xaml.XamlReader&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The XAML reader implementation to use as the reader for this <bpt id="p1">&lt;xref uid="langword_csharp_Load" name="Load" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operation.</source>
+          <target state="translated">이 판독기로 사용 하는 XAML 판독기 구현 <bpt id="p1">&lt;xref uid="langword_csharp_Load" name="Load" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 작업 합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The object graph that is returned.</source>
+          <target state="translated">반환 되는 개체 그래프입니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Loads a specific XML reader implementation and returns an object graph.</source>
+          <target state="translated">특정 XML 판독기 구현을 로드 하 고 개체 그래프를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should typically use this signature only if you defined your own implementation of a &lt;xref:System.Xml.XmlReader&gt;.</source>
+          <target state="translated">에 &lt;xref:System.Xml.XmlReader&gt;.&lt;/xref:System.Xml.XmlReader&gt; 의 사용자 지정 구현을 정의 하는 경우에이 서명을 일반적으로 사용 해야</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlReader&gt; implementation to use as the reader for this <bpt id="p1">&lt;xref uid="langword_csharp_Load" name="Load" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> operation.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlReader&gt;이 판독기로 사용할 구현 <bpt id="p1">&lt;xref uid="langword_csharp_Load" name="Load" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 작업.&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The output object graph.</source>
+          <target state="translated">출력 개체 그래프입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Reads XAML as string output and returns an object graph.</source>
+          <target state="translated">문자열 출력으로 XAML을 읽고 개체 그래프를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order for the Parse call to successfully create an object tree, the following must be true:      -   The <ph id="ph1">`xaml`</ph> input is well-formed and valid XML.</source>
+          <target state="translated">개체 트리를 성공적으로 구문 분석 호출에 대 한 순서 대로 다음 true 여야 합니다:- <ph id="ph1">`xaml`</ph> 입력이 올바른 형식의 올바른 xml입니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`xaml`</ph> input is valid XAML at the language level.</source>
+          <target state="translated">- <ph id="ph1">`xaml`</ph> 입력이 올바른 XAML 언어 수준에서 합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The XAML types that are specified in the <ph id="ph1">`xaml`</ph> input must resolve to backing types in the relevant XAML namespaces.</source>
+          <target state="translated">에 지정 된 XAML 형식-는 <ph id="ph1">`xaml`</ph> 입력 지원 관련 XAML 네임 스페이스의 형식으로 확인 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, XAML types for a WPF namespace can resolve to a WPF XAML namespace as specified in the XAML; the assemblies for WPF must be included in the project or be available in the run time; and so on.</source>
+          <target state="translated">예를 들어 XAML;에 지정 된 대로 WPF는 XAML 네임 스페이스 WPF 네임 스페이스에 대 한 XAML 형식이 확인할 수 있습니다. WPF의 어셈블리는 프로젝트에 포함 되어야 합니다 또는 런타임;에서 사용할 수 등에입니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  &lt;xref:System.Xaml.XamlServices&gt; is not the recommended XAML reading or XAML writing API set if you are processing <ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> types, or types based on <ph id="ph3">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; &lt;xref:System.Xaml.XamlServices&gt;권장된 XAML 읽기 아니거나 처리 하는 경우 XAML 쓰기 API 설정 <ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> 형식 또는 형식에 따라 <ph id="ph3">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>.&lt;/xref:System.Xaml.XamlServices&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> usage, use &lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt; for reading or loading XAML, and &lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; for writing back XAML.</source>
+          <target state="translated">에 대 한 <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> 사용, 사용 하 여 &lt;xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;읽기 또는 XAML을 로드 하 고 &lt;xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt;XAML을 작성 하는 것에 대 한.&lt;/xref:System.Windows.Markup.XamlWriter?displayProperty=fullName&gt; &lt;/xref:System.Windows.Markup.XamlReader?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These classes use &lt;xref:System.Xaml&gt; APIs internally in their implementation; however, they also provide support for WPF-specific concepts that influence the nature of XAML reading and writing, such as optimizations for dependency properties.</source>
+          <target state="translated">그러나 이러한 클래스를 사용 하 여 &lt;xref:System.Xaml&gt;;의 구현에서 내부적으로 Api을 지원 합니다 XAML 읽기 및 쓰기, 종속성 속성에 대 한 최적화 등의 특성에 영향을 주는 WPF 관련 개념에 대 한.&lt;/xref:System.Xaml&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The XAML string input to parse.</source>
+          <target state="translated">XAML 문자열 구문 분석을 입력 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The object graph that is returned.</source>
+          <target state="translated">반환 되는 개체 그래프입니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xaml&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xaml&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Processes a provided object tree into a XAML node representation, and returns a string representation of the output XAML.</source>
+          <target state="translated">XAML 노드 표현으로 제공된 된 개체 트리를 처리 하 고 출력 XAML의 문자열 표현을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The output from this method is the <ph id="ph1">`ToString`</ph> result of an &lt;xref:System.Xml.XmlWriter&gt; that is created by the method call.</source>
+          <target state="translated">이 메서드는 출력은는 <ph id="ph1">`ToString`</ph> 의 결과 &lt;xref:System.Xml.XmlWriter&gt;메서드 호출에서 만들어진.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That &lt;xref:System.Xml.XmlWriter&gt; is created by using the following settings: &lt;xref:System.Xml.XmlWriterSettings.Indent%2A?displayProperty=fullName&gt; is <ph id="ph1">`true`</ph>; and &lt;xref:System.Xml.XmlWriterSettings.OmitXmlDeclaration%2A?displayProperty=fullName&gt; is <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlWriter&gt;다음 설정을 사용 하 여 만든: &lt;xref:System.Xml.XmlWriterSettings.Indent%2A?displayProperty=fullName&gt;은 <ph id="ph1">`true`</ph>; 및 &lt;xref:System.Xml.XmlWriterSettings.OmitXmlDeclaration%2A?displayProperty=fullName&gt;은 <ph id="ph2">`true`</ph>.&lt;/xref:System.Xml.XmlWriterSettings.OmitXmlDeclaration%2A?displayProperty=fullName&gt; &lt;/xref:System.Xml.XmlWriterSettings.Indent%2A?displayProperty=fullName&gt; &lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned string can be loaded as valid XML through the &lt;xref:System.Xml.XmlReader.Create%2A&gt; method if you processed the string into a stream, or into a reader more specifically dedicated for XAML.</source>
+          <target state="translated">반환 된 문자열을 통해 유효한 XML로 로드할 수 있습니다는 &lt;xref:System.Xml.XmlReader.Create%2A&gt;메서드를 처리할 경우 문자열을 스트림 또는 보다 구체적으로 전용된 판독기에 XAML을 위한.&lt;/xref:System.Xml.XmlReader.Create%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">처리할 개체 그래프의 루트입니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The XAML markup output as a string.</source>
+          <target state="translated">XAML 태그를 문자열로 출력 합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Processes a provided object graph into a XAML node representation and then into an output stream for serialization.</source>
+          <target state="translated">XAML 노드 표현으로 변환한 다음 다시 serialization에 대 한 출력 스트림을으로 제공된 된 개체 그래프를 처리합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The destination stream.</source>
+          <target state="translated">대상 스트림입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">처리할 개체 그래프의 루트입니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Processes a provided object graph into a XAML node representation and then into an output that goes to the provided &lt;xref:System.IO.TextWriter&gt;.</source>
+          <target state="translated">XAML 노드 표현으로 변환한 다음 다시 제공된 &lt;xref:System.IO.TextWriter&gt;.&lt;/xref:System.IO.TextWriter&gt; 로 이동 하는 출력으로 제공된 된 개체 그래프를 처리 합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextWriter&gt; that writes the output.</source>
+          <target state="translated">&lt;xref:System.IO.TextWriter&gt;출력을 쓰는.&lt;/xref:System.IO.TextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">처리할 개체 그래프의 루트입니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Processes a provided object graph into a XAML node representation and then writes it to an output file at a provided location.</source>
+          <target state="translated">XAML 노드 표현으로 제공된 된 개체 그래프를 처리 하 고 제공 된 위치에 출력 파일에 씁니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`fileName`</ph> parameter value is used as the <ph id="ph2">`outputFileName`</ph> input for a call to &lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt;, which creates a &lt;xref:System.Xml.XmlWriter&gt; as part of the method call.</source>
+          <target state="translated"><ph id="ph1">`fileName`</ph> 매개 변수 값으로 사용 됩니다는 <ph id="ph2">`outputFileName`</ph> 에 대 한 호출에 대 한 입력 &lt;xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt;, 만듦는 &lt;xref:System.Xml.XmlWriter&gt;메서드 호출의 일부로.&lt;/xref:System.Xml.XmlWriter&gt; &lt;/xref:System.Xml.XmlWriter.Create%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The name and location of the file to write the output to.</source>
+          <target state="translated">이름 및 출력을 쓸 파일의 위치입니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">처리할 개체 그래프의 루트입니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph> is an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph>빈 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Processes a provided object graph into a XAML node representation and then writes it to the provided XAML writer.</source>
+          <target state="translated">XAML 노드 표현으로 제공된 된 개체 그래프를 처리 하 고 제공된 된 XAML 작성기에 씁니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should typically use this signature only in the following cases:      -   You defined your own implementation of a &lt;xref:System.Xaml.XamlWriter&gt;.</source>
+          <target state="translated">다음과 같은 경우에만이 서명을 일반적으로 사용 해야 합니다.- &lt;xref:System.Xaml.XamlWriter&gt;.&lt;/xref:System.Xaml.XamlWriter&gt; 의 사용자 지정 구현을 정의</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   You specified settings for the &lt;xref:System.Xaml.XamlWriter&gt; that differ from the default settings.</source>
+          <target state="translated">-지정한에 대 한 설정을 &lt;xref:System.Xaml.XamlWriter&gt;기본 설정과에서 다른.&lt;/xref:System.Xaml.XamlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to use.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용할 구현입니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">처리할 개체 그래프의 루트입니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Processes a provided object graph into a XAML node representation and then writes it to the provided &lt;xref:System.Xml.XmlWriter&gt;.</source>
+          <target state="translated">XAML 노드 표현으로 제공된 된 개체 그래프를 처리 한 후 제공 된 &lt;xref:System.Xml.XmlWriter&gt;.&lt;/xref:System.Xml.XmlWriter&gt; 씁니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlWriter&gt; implementation to use.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlWriter&gt;사용할 구현입니다.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The root of the object graph to process.</source>
+          <target state="translated">처리할 개체 그래프의 루트입니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph>input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Connects a <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and a <bpt id="p2">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to use a common XAML node set intermediary.</source>
+          <target state="translated">연결 된 <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 및 <bpt id="p2">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 공통 XAML 노드 중간 집합을 사용 하도록 합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Potentially transforms the content, depending on the types of readers and writers that are provided.</source>
+          <target state="translated">판독기 및 작성기에 제공 되는 형식에 따라 콘텐츠를 잠재적으로 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is a wrapper around &lt;xref:System.Xaml.XamlServices.Transform%28System.Xaml.XamlReader%2CSystem.Xaml.XamlWriter%2CSystem.Boolean%29&gt;, where <ph id="ph1">`closeWriter`</ph> is specified as <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">이 메서드는 주변 &lt;xref:System.Xaml.XamlServices.Transform%28System.Xaml.XamlReader%2CSystem.Xaml.XamlWriter%2CSystem.Boolean%29&gt;여기서 <ph id="ph1">`closeWriter`</ph> 로 지정 된 <ph id="ph2">`true`</ph>.&lt;/xref:System.Xaml.XamlServices.Transform%28System.Xaml.XamlReader%2CSystem.Xaml.XamlWriter%2CSystem.Boolean%29&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to use.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용할 구현입니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;xamlWriter&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;xamlWriter&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The XAML schema context does not match between the provided <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xamlReader</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">xamlWriter</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">XAML 스키마 컨텍스트가 일치 하지 않으면 제공 된 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">xamlReader</ph> <ept id="p1">&lt;/code&gt;</ept> 및 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">xamlWriter</ph> <ept id="p2">&lt;/code&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Connects a <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and a <bpt id="p2">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to use a common XAML node set intermediary.</source>
+          <target state="translated">연결 된 <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 및 <bpt id="p2">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 공통 XAML 노드 중간 집합을 사용 하도록 합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Potentially transforms the content, depending on the types of readers and writers that are provided.</source>
+          <target state="translated">판독기 및 작성기에 제공 되는 형식에 따라 콘텐츠를 잠재적으로 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Provides a parameter for specifying whether to close the writer after the call is completed.</source>
+          <target state="translated">호출이 완료 되 면 작성기를 닫을 것인지를 지정 하는 것에 대 한 매개 변수를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to use.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용할 구현입니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Xaml.XamlWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to close the writer after the call is complete; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to leave the writer active at the last written position.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>이 호출이 완료 된 후 작성기를 닫으려면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 작성기 마지막 위치에 작성 된 활성 상태 유지를 합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;xamlWriter&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlReader&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;xamlWriter&lt;/code&gt;</ph> input is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The XAML schema context does not match between the provided <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xamlReader</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">xamlWriter</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">XAML 스키마 컨텍스트가 일치 하지 않으면 제공 된 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">xamlReader</ph> <ept id="p1">&lt;/code&gt;</ept> 및 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">xamlWriter</ph> <ept id="p2">&lt;/code&gt;</ept>합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
