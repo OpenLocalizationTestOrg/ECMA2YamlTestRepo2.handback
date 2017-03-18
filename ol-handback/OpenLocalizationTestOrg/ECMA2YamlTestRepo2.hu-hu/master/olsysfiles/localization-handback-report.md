@@ -1,43 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [fulldocset\System.Windows.Baml2006.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Baml2006.yml) | InSyncHandedBackSuccess | [Details](#85079c1a61609f5922726c59682175443e33928c84013)
- [fulldocset\System.Windows.Controls.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Controls.yml) | InSyncHandedBackSuccess | [Details](#330db9ede7c05480a70d4bd95ca1cfcca3bc4cbf84394)
 
 ## Item Details
-##### <a name='85079c1a61609f5922726c59682175443e33928c84013'></a> Source: [fulldocset\System.Windows.Baml2006.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Baml2006.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Windows.Baml2006.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.hu-hu/blob/86ae337984343200deff7e8c6be0aab25afca09f/fulldocset/System.Windows.Baml2006.yml)
-* Handoff File: [System.Windows.Baml2006.df7cf23c7be304d7342d2bc45540da64a8af2c9a.hu-hu.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2248ddb46524156639760727f08bc60512531119/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.hu-hu/master/fulldocset/System.Windows.Baml2006.df7cf23c7be304d7342d2bc45540da64a8af2c9a.hu-hu.xlf)
-* Handoff Datetime: 2017-03-16 03:42:56
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Windows.Baml2006.df7cf23c7be304d7342d2bc45540da64a8af2c9a.hu-hu.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/925202ff47b81cba8bb236514e0b97ea44c8ddeb/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.hu-hu/master/fulldocset/System.Windows.Baml2006.df7cf23c7be304d7342d2bc45540da64a8af2c9a.hu-hu.xlf)
-* Handback Datetime: 2017-03-18 12:12:35
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-ko-kr-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='330db9ede7c05480a70d4bd95ca1cfcca3bc4cbf84394'></a> Source: [fulldocset\System.Windows.Controls.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Controls.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Windows.Controls.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.hu-hu/blob/86ae337984343200deff7e8c6be0aab25afca09f/fulldocset/System.Windows.Controls.yml)
-* Handoff File: [System.Windows.Controls.29b37b191cdcf732b3f04249d773e9c32649e236.hu-hu.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2248ddb46524156639760727f08bc60512531119/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.hu-hu/master/fulldocset/System.Windows.Controls.29b37b191cdcf732b3f04249d773e9c32649e236.hu-hu.xlf)
-* Handoff Datetime: 2017-03-16 03:42:56
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Windows.Controls.29b37b191cdcf732b3f04249d773e9c32649e236.hu-hu.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/925202ff47b81cba8bb236514e0b97ea44c8ddeb/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.hu-hu/master/fulldocset/System.Windows.Controls.29b37b191cdcf732b3f04249d773e9c32649e236.hu-hu.xlf)
-* Handback Datetime: 2017-03-18 12:12:35
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-ko-kr-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-tw
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
