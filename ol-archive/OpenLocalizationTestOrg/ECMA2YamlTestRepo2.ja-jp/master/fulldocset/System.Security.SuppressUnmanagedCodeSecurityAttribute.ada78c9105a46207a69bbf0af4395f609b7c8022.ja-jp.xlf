@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ac52e03e3577a2244ec4cdfbfed14314e89e93f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.SuppressUnmanagedCodeSecurityAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b007bd4a439b4ff6375bd7b992c982dbbb1088c7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f01d1b53a78893ee183abb519398d2cfb8073950</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows managed code to call into unmanaged code without a stack walk.</source>
+          <target state="translated">マネージ コードは、スタック ウォークなしのアンマネージ コードへの呼び出しを許可します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">このクラスは継承できません。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!CAUTION]</ph> &gt;  Use this attribute with extreme care.</source>
+          <target state="translated"><ph id="ph1">&gt; [!CAUTION]</ph>&gt; 細心の注意でこの属性を使用します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Incorrect use can create security weaknesses.</source>
+          <target state="translated">不適切な使用には、セキュリティ上の弱点を作成できます。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This attribute can be applied to methods that want to call into native code without incurring the performance loss of a run-time security check when doing so.</source>
+          <target state="translated">この属性は、その際に、ランタイム セキュリティ チェックのパフォーマンスの低下を生じることがなくネイティブ コードへの呼び出しをメソッドに適用できます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The stack walk performed when calling unmanaged code is omitted at run time, resulting in substantial performance savings.</source>
+          <target state="translated">結果的にパフォーマンスが大幅に節約の実行時に、アンマネージ コードを呼び出すときに実行されたスタック ウォークが省略されています。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Using this attribute in a class applies it to all contained methods.</source>
+          <target state="translated">クラスでこの属性を使用すると、コンテナー内のすべてのメソッドに適用します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Generally, whenever managed code calls into unmanaged code (by PInvoke or COM interop into native code), there is a demand for the <ph id="ph1">`UnmanagedCode`</ph> permission to ensure all callers have the necessary permission to allow this.</source>
+          <target state="translated">一般に、マネージ コードは、(PInvoke または COM 相互運用機能をネイティブ コード) をアンマネージ コードを呼び出す、たびの使用量が、<ph id="ph1">`UnmanagedCode`</ph>のアクセス権をすべての呼び出し元は、これを許可するために必要な権限を持っています。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By applying this explicit attribute, developers can suppress the demand at run time.</source>
+          <target state="translated">この明示的な属性を適用すると、開発者は、実行時に要求を抑制できます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The developer must take responsibility for assuring that the transition into unmanaged code is sufficiently protected by other means.</source>
+          <target state="translated">開発者は、アンマネージ コードへの移行が他の方法で十分に保護されていることを維持するための責任を負う必要があります。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The demand for the <ph id="ph1">`UnmanagedCode`</ph> permission will still occur at link time.</source>
+          <target state="translated">必要な<ph id="ph1">`UnmanagedCode`</ph>権限はリンク時に行われます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, if function A calls function B and function B is marked with SuppressUnmanagedCodeSecurityAttribute, function A will be checked for unmanaged code permission during just-in-time compilation, but not subsequently during run time.</source>
+          <target state="translated">たとえば、関数 A が関数 B、関数 B が SuppressUnmanagedCodeSecurityAttribute でマークされた場合は、関数 A チェックして、ジャスト イン タイムのコンパイル中に、実行時にその後、アンマネージ コードの許可対象とします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This attribute is only effective when applied to PInvoke methods (or classes that contain PInvoke methods) or the definition of an interface through which interop calls will be made.</source>
+          <target state="translated">この属性は PInvoke メソッド (または PInvoke メソッドを含むクラス) に適用するときにのみ、または相互運用呼び出しに使用するインターフェイスの定義。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It will be ignored in all other contexts.</source>
+          <target state="translated">これは、他のすべてのコンテキストでは無視されます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This attribute is useful for implementing a class that provides access to system resources through unmanaged code.</source>
+          <target state="translated">この属性は、アンマネージ コードを通じてシステム リソースへのアクセスを提供するクラスを実装するために役立ちます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Code that does not have permission to access unmanaged code can call a class with this attribute to access unmanaged code.</source>
+          <target state="translated">アンマネージ コードへのアクセス許可を持たないコードは、アンマネージ コードにアクセスするには、この属性を持つクラスを呼び出すことができます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This is only safe if the writer of the class with this attribute has programmed the class to be secure.</source>
+          <target state="translated">これは、場合、この属性を持つクラスのライターのプログラムは、クラスをセキュリティで保護された使用セーフであるだけです。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If not, this attribute is dangerous and can allow the code that uses it to be misused.</source>
+          <target state="translated">存在しない場合、この属性は、危険が不正に使用するコードを許可することができます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This is not a declarative security attribute, but a regular attribute (it derives from &lt;xref:System.Attribute&gt;, not &lt;xref:System.Security.Permissions.SecurityAttribute&gt;).</source>
+          <target state="translated">これは、宣言セキュリティ属性は標準属性なく (から派生して&lt;xref:System.Attribute&gt;ではなく、 &lt;xref:System.Security.Permissions.SecurityAttribute&gt;).&lt;/xref:System.Security.Permissions.SecurityAttribute&gt; &lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.SuppressUnmanagedCodeSecurityAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.SuppressUnmanagedCodeSecurityAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The default constructor initializes any fields to their default values.</source>
+          <target state="translated">既定のコンス トラクターは、任意のフィールドを既定値を初期化します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

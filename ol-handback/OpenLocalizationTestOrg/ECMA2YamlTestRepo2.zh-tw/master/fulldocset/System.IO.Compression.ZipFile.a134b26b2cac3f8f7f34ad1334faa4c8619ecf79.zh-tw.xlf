@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dd8d8ccb320a25805999aac50e70437ecb3be436</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IO.Compression.ZipFile.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b022408dc70e0f445e6736b33582525cea1baf8f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a86ff86cf55aed162ad3c89f389b337bfcdffaf4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides static methods for creating, extracting, and opening zip archives.</source>
+          <target state="translated">提供建立、 解壓縮及開啟 zip 封存的靜態方法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  To use the ZipFile class, you must add a reference to the <ph id="ph2">`System.IO.Compression.FileSystem`</ph> assembly in your project; otherwise, you'll get the following error message when trying to compile : <bpt id="p1">**</bpt>The name 'ZipFile' does not exist in the current context<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; 以使用 ZipFile 類別，您必須加入參考<ph id="ph2">`System.IO.Compression.FileSystem`</ph>組件，在您的專案中; 否則您會得到下列錯誤訊息時嘗試編譯︰ <bpt id="p1">**</bpt>'ZipFile' 不存在於目前的內容名稱<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For more information on how to add a reference to your project in Visual Studio, see <bpt id="p1">[</bpt>How to: Add or Remove References By Using the Reference Manager<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需有關如何將參考加入專案加入 Visual Studio 中的詳細資訊，請參閱<bpt id="p1">[</bpt>如何︰ 加入或移除參考使用參考管理員<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The methods for manipulating zip archives and their files are spread across three classes: ZipFile, &lt;xref:System.IO.Compression.ZipArchive&gt; and &lt;xref:System.IO.Compression.ZipArchiveEntry&gt;.</source>
+          <target state="translated">管理的 zip 封存和其檔案的方法分散到三個類別︰ ZipFile&lt;xref:System.IO.Compression.ZipArchive&gt;和&lt;xref:System.IO.Compression.ZipArchiveEntry&gt;。&lt;/xref:System.IO.Compression.ZipArchiveEntry&gt; &lt;/xref:System.IO.Compression.ZipArchive&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>|To…|Use…|   |---------|----------|   |Create a zip archive from a directory|&lt;xref:System.IO.Compression.ZipFile.CreateFromDirectory%2A?displayProperty=fullName&gt;|   |Extract the contents of a zip archive to a directory|&lt;xref:System.IO.Compression.ZipFile.ExtractToDirectory%2A?displayProperty=fullName&gt;|   |Add new files to an existing zip archive|&lt;xref:System.IO.Compression.ZipArchive.CreateEntry%2A?displayProperty=fullName&gt;|   |Retrieve an file in a zip archive|&lt;xref:System.IO.Compression.ZipArchive.GetEntry%2A?displayProperty=fullName&gt;|   |Retrieve all of the files in a zip archive|&lt;xref:System.IO.Compression.ZipArchive.Entries%2A?displayProperty=fullName&gt;|   |To open a stream to an individual file contained in a zip archive|&lt;xref:System.IO.Compression.ZipArchiveEntry.Open%2A?displayProperty=fullName&gt;|   |Delete a file from a zip archive|&lt;xref:System.IO.Compression.ZipArchiveEntry.Delete%2A?displayProperty=fullName&gt;|       You cannot use the ZipFile or  &lt;xref:System.IO.Compression.ZipFileExtensions&gt; classes  in <ph id="ph1">[!INCLUDE[win8_appname_long](~/add/includes/win8-appname-long-md.md)]</ph> apps.</source>
+          <target state="translated">|若要...|使用...|  |---------|----------|  |建立 zip 封存的目錄 |&lt;xref:System.IO.Compression.ZipFile.CreateFromDirectory%2A?displayProperty=fullName&gt;|  |目錄的 zip 封存的內容解壓縮 |&lt;xref:System.IO.Compression.ZipFile.ExtractToDirectory%2A?displayProperty=fullName&gt;|  |將新檔案加入至現有的 zip 封存 |&lt;xref:System.IO.Compression.ZipArchive.CreateEntry%2A?displayProperty=fullName&gt;|  |擷取 zip 封存中的檔案 |&lt;xref:System.IO.Compression.ZipArchive.GetEntry%2A?displayProperty=fullName&gt;|  |擷取所有 zip 封存中的檔案 |&lt;xref:System.IO.Compression.ZipArchive.Entries%2A?displayProperty=fullName&gt;|  |若要開啟 zip 封存中所包含的個別檔案資料流 |&lt;xref:System.IO.Compression.ZipArchiveEntry.Open%2A?displayProperty=fullName&gt;|  |從 zip 封存中刪除的檔案 |&lt;xref:System.IO.Compression.ZipArchiveEntry.Delete%2A?displayProperty=fullName&gt;|      您無法使用 zip 檔案或&lt;xref:System.IO.Compression.ZipFileExtensions&gt;中的類別<ph id="ph1">[!INCLUDE[win8_appname_long](~/add/includes/win8-appname-long-md.md)]</ph>應用程式。&lt;/xref:System.IO.Compression.ZipFileExtensions&gt; &lt;/xref:System.IO.Compression.ZipArchiveEntry.Delete%2A?displayProperty=fullName&gt; &lt;/xref:System.IO.Compression.ZipArchiveEntry.Open%2A?displayProperty=fullName&gt; &lt;/xref:System.IO.Compression.ZipArchive.Entries%2A?displayProperty=fullName&gt; &lt;/xref:System.IO.Compression.ZipArchive.GetEntry%2A?displayProperty=fullName&gt; &lt;/xref:System.IO.Compression.ZipArchive.CreateEntry%2A?displayProperty=fullName&gt; &lt;/xref:System.IO.Compression.ZipFile.ExtractToDirectory%2A?displayProperty=fullName&gt; &lt;/xref:System.IO.Compression.ZipFile.CreateFromDirectory%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In <ph id="ph1">[!INCLUDE[win8_appname_long](~/add/includes/win8-appname-long-md.md)]</ph> apps, you should use the following classes to work with compressed files.</source>
+          <target state="translated">在<ph id="ph1">[!INCLUDE[win8_appname_long](~/add/includes/win8-appname-long-md.md)]</ph>應用程式，您應使用下列類別使用的壓縮檔案。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.IO.Compression.ZipArchive&gt;      -   &lt;xref:System.IO.Compression.ZipArchiveEntry&gt;      -   &lt;xref:System.IO.Compression.DeflateStream&gt;      -   &lt;xref:System.IO.Compression.GZipStream&gt;</source>
+          <target state="translated">-   &lt;xref:System.IO.Compression.ZipArchive&gt;      -   &lt;xref:System.IO.Compression.ZipArchiveEntry&gt;      -   &lt;xref:System.IO.Compression.DeflateStream&gt;      -   &lt;xref:System.IO.Compression.GZipStream&gt;&lt;/xref:System.IO.Compression.GZipStream&gt;&lt;/xref:System.IO.Compression.DeflateStream&gt;&lt;/xref:System.IO.Compression.ZipArchiveEntry&gt;&lt;/xref:System.IO.Compression.ZipArchive&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Creates a zip archive that contains the files and directories from the specified directory.</source>
+          <target state="translated">建立包含的檔案和目錄的指定目錄的 zip 封存。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The directory structure from the file system is preserved in the archive.</source>
+          <target state="translated">從檔案系統的目錄結構會保留在封存中。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the directory is empty, an empty archive is created.</source>
+          <target state="translated">如果目錄是空的則會建立空的封存。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This method overload does not include the base directory in the archive and does not allow you to specify a compression level.</source>
+          <target state="translated">這個方法多載不包含在封存中的基底目錄並不允許您指定的壓縮層級。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you want to include the base directory or specify a compression level, call the &lt;xref:System.IO.Compression.ZipFile.CreateFromDirectory%28System.String%2CSystem.String%2CSystem.IO.Compression.CompressionLevel%2CSystem.Boolean%29&gt; method overload.</source>
+          <target state="translated">如果您想要包含的基底目錄，或指定的壓縮層級，請呼叫&lt;xref:System.IO.Compression.ZipFile.CreateFromDirectory%28System.String%2CSystem.String%2CSystem.IO.Compression.CompressionLevel%2CSystem.Boolean%29&gt;方法多載。&lt;/xref:System.IO.Compression.ZipFile.CreateFromDirectory%28System.String%2CSystem.String%2CSystem.IO.Compression.CompressionLevel%2CSystem.Boolean%29&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If the archive already exists, an &lt;xref:System.IO.IOException&gt; exception is thrown.</source>
+          <target state="translated">如果封存已存在，&lt;xref:System.IO.IOException&gt;擲回例外狀況。&lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If an entry with the specified name already exists in the archive, a second entry is created with an identical name.</source>
+          <target state="translated">如果封存中已經存在具有指定名稱的項目，第二個項目會建立具有相同的名稱。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If a file in the directory cannot be added to the archive, the archive is left incomplete and invalid, and the method throws an &lt;xref:System.IO.IOException&gt; exception.</source>
+          <target state="translated">如果目錄中的檔案無法加入到封存，在封存處於不完整、 不正確，而且方法會擲回&lt;xref:System.IO.IOException&gt;例外狀況。&lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The path to the directory to be archived, specified as a relative or absolute path.</source>
+          <target state="translated">若要封存，指定為相對或絕對路徑的目錄路徑。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A relative path is interpreted as relative to the current working directory.</source>
+          <target state="translated">相對路徑會解譯為與目前工作目錄中。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The path of the archive to be created, specified as a relative or absolute path.</source>
+          <target state="translated">若要建立資料庫，指定為相對或絕對路徑封存的路徑。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A relative path is interpreted as relative to the current working directory.</source>
+          <target state="translated">相對路徑會解譯為與目前工作目錄中。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> is <ph id="ph3">&lt;xref:System.String&gt;</ph>, contains only white space, or contains at least one invalid character.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>是<ph id="ph3">&lt;xref:System.String&gt;</ph>、 只包含空格，或包含至少一個無效字元。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceDirectoryName</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">destinationArchiveFileName</ph><ept id="p2">&lt;/code&gt;</ept>, the specified path, file name, or both exceed the system-defined maximum length.</source>
+          <target state="translated">在<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">sourceDirectoryName</ph> <ept id="p1">&lt;/code&gt;</ept>或<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">destinationArchiveFileName</ph> <ept id="p2">&lt;/code&gt;</ept>，指定的路徑、 檔案名稱，或兩者都超出系統定義的長度上限。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, on Windows-based platforms, paths must not exceed 248 characters, and file names must not exceed 260 characters.</source>
+          <target state="translated">例如，windows 平台上，路徑不能超過 248 個字元，和檔案名稱不能超過 260 個字元。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> is invalid or does not exist (for example, it is on an unmapped drive).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>無效或不存在 （例如，它位於未對應的磁碟機上）。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> already exists.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>已經存在。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-or-       A file in the specified directory could not be opened.</source>
+          <target state="translated">-或者-無法開啟指定的目錄中的檔案。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> specifies a directory.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>指定的目錄。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-or-       The caller does not have the required permission to access the directory specified in <ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or the file specified in <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>.</source>
+          <target state="translated">-或-呼叫端沒有必要的權限來存取指定的目錄<ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>中指定的檔案或<ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> contains an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>包含無效的格式。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-or-       The zip archive does not support writing.</source>
+          <target state="translated">-或者-zip 封存中不支援寫入。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Creates a zip archive that contains the files and directories from the specified directory, uses the specified compression level, and optionally includes the base directory.</source>
+          <target state="translated">建立 zip 封存包含的檔案和目錄從指定的目錄，會使用指定的壓縮層級，並選擇性包含基底目錄。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The directory structure from the file system is preserved in the archive.</source>
+          <target state="translated">從檔案系統的目錄結構會保留在封存中。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If the directory is empty, an empty archive is created.</source>
+          <target state="translated">如果目錄是空的則會建立空的封存。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use this method overload to specify the compression level and whether to include the base directory in the archive.</source>
+          <target state="translated">您可以使用這個方法多載，指定的壓縮層級，以及是否要包含在封存中的基底目錄。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If the archive already exists, an &lt;xref:System.IO.IOException&gt; exception is thrown.</source>
+          <target state="translated">如果封存已存在，&lt;xref:System.IO.IOException&gt;擲回例外狀況。&lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If an entry with the specified name already exists in the archive, a second entry is created with an identical name.</source>
+          <target state="translated">如果封存中已經存在具有指定名稱的項目，第二個項目會建立具有相同的名稱。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If a file in the directory cannot be added to the archive, the archive is left incomplete and invalid, and the method throws an &lt;xref:System.IO.IOException&gt; exception.</source>
+          <target state="translated">如果目錄中的檔案無法加入到封存，在封存處於不完整、 不正確，而且方法會擲回&lt;xref:System.IO.IOException&gt;例外狀況。&lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The path to the directory to be archived, specified as a relative or absolute path.</source>
+          <target state="translated">若要封存，指定為相對或絕對路徑的目錄路徑。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A relative path is interpreted as relative to the current working directory.</source>
+          <target state="translated">相對路徑會解譯為與目前工作目錄中。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The path of the archive to be created, specified as a relative or absolute path.</source>
+          <target state="translated">若要建立資料庫，指定為相對或絕對路徑封存的路徑。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A relative path is interpreted as relative to the current working directory.</source>
+          <target state="translated">相對路徑會解譯為與目前工作目錄中。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that indicates whether to emphasize speed or compression effectiveness when creating the entry.</source>
+          <target state="translated">其中一個列舉值，指出是否要強調速度或壓縮的效益時建立項目。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the directory name from <ph id="ph1">`sourceDirectoryName`</ph> at the root of the archive; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to include only the contents of the directory.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含目錄名稱，從<ph id="ph1">`sourceDirectoryName`</ph>根目錄中的封存。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>包含目錄的內容。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> is <ph id="ph3">&lt;xref:System.String&gt;</ph>, contains only white space, or contains at least one invalid character.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>是<ph id="ph3">&lt;xref:System.String&gt;</ph>、 只包含空格，或包含至少一個無效字元。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceDirectoryName</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">destinationArchiveFileName</ph><ept id="p2">&lt;/code&gt;</ept>, the specified path, file name, or both exceed the system-defined maximum length.</source>
+          <target state="translated">在<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">sourceDirectoryName</ph> <ept id="p1">&lt;/code&gt;</ept>或<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">destinationArchiveFileName</ph> <ept id="p2">&lt;/code&gt;</ept>，指定的路徑、 檔案名稱，或兩者都超出系統定義的長度上限。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For example, on Windows-based platforms, paths must not exceed 248 characters, and file names must not exceed 260 characters.</source>
+          <target state="translated">例如，windows 平台上，路徑不能超過 248 個字元，和檔案名稱不能超過 260 個字元。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> is invalid or does not exist (for example, it is on an unmapped drive).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>無效或不存在 （例如，它位於未對應的磁碟機上）。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> already exists.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>已經存在。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-or-       A file in the specified directory could not be opened.</source>
+          <target state="translated">-或者-無法開啟指定的目錄中的檔案。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> specifies a directory.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>指定的目錄。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-or-       The caller does not have the required permission to access the directory specified in <ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or the file specified in <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>.</source>
+          <target state="translated">-或-呼叫端沒有必要的權限來存取指定的目錄<ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>中指定的檔案或<ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> contains an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>包含無效的格式。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-or-       The zip archive does not support writing.</source>
+          <target state="translated">-或者-zip 封存中不支援寫入。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Creates a zip archive that contains the files and directories from the specified directory, uses the specified compression level and character encoding for entry names, and optionally includes the base directory.</source>
+          <target state="translated">建立 zip 封存包含的檔案和目錄從指定的目錄、 使用指定的壓縮等級和字元編碼的項目名稱，並選擇性包含基底目錄。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The directory structure from the file system is preserved in the archive.</source>
+          <target state="translated">從檔案系統的目錄結構會保留在封存中。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If the directory is empty, an empty archive is created.</source>
+          <target state="translated">如果目錄是空的則會建立空的封存。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Use this method overload to specify the compression level and character encoding, and whether to include the base directory in the archive.</source>
+          <target state="translated">使用這個方法多載指定壓縮層級和字元編碼，以及是否要包含在封存中的基底目錄。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If the archive already exists, an &lt;xref:System.IO.IOException&gt; exception is thrown.</source>
+          <target state="translated">如果封存已存在，&lt;xref:System.IO.IOException&gt;擲回例外狀況。&lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If an entry with the specified name already exists in the archive, a second entry is created with an identical name.</source>
+          <target state="translated">如果封存中已經存在具有指定名稱的項目，第二個項目會建立具有相同的名稱。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If a file in the directory cannot be added to the archive, the archive is left incomplete and invalid, and the method throws an &lt;xref:System.IO.IOException&gt; exception.</source>
+          <target state="translated">如果目錄中的檔案無法加入到封存，在封存處於不完整、 不正確，而且方法會擲回&lt;xref:System.IO.IOException&gt;例外狀況。&lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`entryNameEncoding`</ph> is set to a value other than <ph id="ph2">`null`</ph>, the entry names are encoded by using the specified encoding.</source>
+          <target state="translated">如果<ph id="ph1">`entryNameEncoding`</ph>以外設定為值<ph id="ph2">`null`</ph>，使用指定的編碼方式來進行編碼的項目名稱。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If the specified encoding is a UTF-8, the language encoding flag (in the general-purpose bit flag of the local file header) is set for each entry,       If <ph id="ph1">`entryNameEncoding`</ph> is set to <ph id="ph2">`null`</ph>, the entry names are encoded according to the following rules:      -   For entry names that contain characters outside the ASCII range, the language encoding flag is set, and UTF-8 is used to encode the entry name.</source>
+          <target state="translated">如果指定的編碼方式為 utf-8 的語言編碼 （以本機檔案標頭的一般用途的位元旗標） 旗標設定每個項目，如果<ph id="ph1">`entryNameEncoding`</ph>設為<ph id="ph2">`null`</ph>，項目名稱會編碼根據下列規則:-為項目名稱中包含外部 ASCII 字元範圍的語言編碼方式的旗標設定，以及 utf-8 來編碼項目名稱。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-   For entry names that contain only ASCII characters, the language encoding flag is set, and the current system default code page is used to encode the entry names.</source>
+          <target state="translated">-只能包含 ASCII 字元項目名稱，設定語言編碼旗標，以及目前的系統預設字碼頁用來編碼項目名稱。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The path to the directory to be archived, specified as a relative or absolute path.</source>
+          <target state="translated">若要封存，指定為相對或絕對路徑的目錄路徑。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A relative path is interpreted as relative to the current working directory.</source>
+          <target state="translated">相對路徑會解譯為與目前工作目錄中。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The path of the archive to be created, specified as a relative or absolute path.</source>
+          <target state="translated">若要建立資料庫，指定為相對或絕對路徑封存的路徑。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A relative path is interpreted as relative to the current working directory.</source>
+          <target state="translated">相對路徑會解譯為與目前工作目錄中。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that indicates whether to emphasize speed or compression effectiveness when creating the entry.</source>
+          <target state="translated">其中一個列舉值，指出是否要強調速度或壓縮的效益時建立項目。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the directory name from <ph id="ph1">`sourceDirectoryName`</ph> at the root of the archive; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to include only the contents of the directory.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含目錄名稱，從<ph id="ph1">`sourceDirectoryName`</ph>根目錄中的封存。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>包含目錄的內容。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The encoding to use when reading or writing entry names in this archive.</source>
+          <target state="translated">讀取時所使用的編碼方式，或寫入此封存中的項目名稱。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Specify a value for this parameter only when an encoding is required for interoperability with zip archive tools and libraries that do not support UTF-8 encoding for entry names.</source>
+          <target state="translated">編碼方式，是為了互通性與 zip 封存工具和程式庫不支援 utf-8 編碼的項目名稱時，才指定這個參數的值。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> is <ph id="ph3">&lt;xref:System.String&gt;</ph>, contains only white space, or contains at least one invalid character.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>是<ph id="ph3">&lt;xref:System.String&gt;</ph>、 只包含空格，或包含至少一個無效字元。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;entryNameEncoding&lt;/code&gt;</ph> is set to a Unicode encoding other than UTF-8.</source>
+          <target state="translated">-或-<ph id="ph1">&lt;code&gt;entryNameEncoding&lt;/code&gt;</ph>設定為 unicode 的編碼方式 utf-8 以外。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceDirectoryName</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">destinationArchiveFileName</ph><ept id="p2">&lt;/code&gt;</ept>, the specified path, file name, or both exceed the system-defined maximum length.</source>
+          <target state="translated">在<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">sourceDirectoryName</ph> <ept id="p1">&lt;/code&gt;</ept>或<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">destinationArchiveFileName</ph> <ept id="p2">&lt;/code&gt;</ept>，指定的路徑、 檔案名稱，或兩者都超出系統定義的長度上限。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For example, on Windows-based platforms, paths must not exceed 248 characters, and file names must not exceed 260 characters.</source>
+          <target state="translated">例如，windows 平台上，路徑不能超過 248 個字元，和檔案名稱不能超過 260 個字元。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> is invalid or does not exist (for example, it is on an unmapped drive).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>無效或不存在 （例如，它位於未對應的磁碟機上）。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> already exists.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>已經存在。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-or-       A file in the specified directory could not be opened.</source>
+          <target state="translated">-或者-無法開啟指定的目錄中的檔案。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> specifies a directory.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>指定的目錄。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-or-       The caller does not have the required permission to access the directory specified in <ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or the file specified in <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>.</source>
+          <target state="translated">-或-呼叫端沒有必要的權限來存取指定的目錄<ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>中指定的檔案或<ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph> contains an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceDirectoryName&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;destinationArchiveFileName&lt;/code&gt;</ph>包含無效的格式。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-or-       The zip archive does not support writing.</source>
+          <target state="translated">-或者-zip 封存中不支援寫入。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Extracts all the files in the specified zip archive to a directory on the file system.</source>
+          <target state="translated">所有檔案都解壓縮在指定之 zip 封存的目錄中檔案系統上。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This method creates the specified directory and all subdirectories.</source>
+          <target state="translated">這個方法會建立指定的目錄和所有子目錄。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The destination directory cannot already exist.</source>
+          <target state="translated">目的地目錄不存在。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Exceptions related to validating the paths in the <ph id="ph1">`destinationDirectoryName`</ph> or <ph id="ph2">`sourceArchiveFileName`</ph> parameters are thrown before extraction.</source>
+          <target state="translated">驗證中的路徑與相關的例外狀況<ph id="ph1">`destinationDirectoryName`</ph>或<ph id="ph2">`sourceArchiveFileName`</ph>參數擷取之前就會擲回。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Otherwise, if an error occurs during extraction, the archive remains partially extracted.</source>
+          <target state="translated">否則，如果在擷取期間發生錯誤，封存會維持部分擷取。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Each extracted file has the same relative path to the directory specified by <ph id="ph1">`destinationDirectoryName`</ph> as its source entry has to the root of the archive.</source>
+          <target state="translated">每個已解壓縮的檔案具有相同的相對路徑，以指定的目錄<ph id="ph1">`destinationDirectoryName`</ph>作為其來源項目都有封存的根目錄。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The path to the archive that is to be extracted.</source>
+          <target state="translated">要擷取之封存的路徑。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The path to the directory in which to place the extracted files, specified as a relative or absolute path.</source>
+          <target state="translated">若要在其中放置解壓縮的檔案，指定為相對或絕對路徑的目錄路徑。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A relative path is interpreted as relative to the current working directory.</source>
+          <target state="translated">相對路徑會解譯為與目前工作目錄中。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph> is <ph id="ph3">&lt;xref:System.String&gt;</ph>, contains only white space, or contains at least one invalid character.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph>是<ph id="ph3">&lt;xref:System.String&gt;</ph>、 只包含空格，或包含至少一個無效字元。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The specified path in <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationDirectoryName</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceArchiveFileName</ph><ept id="p2">&lt;/code&gt;</ept> exceeds the system-defined maximum length.</source>
+          <target state="translated">中指定的路徑<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">destinationDirectoryName</ph> <ept id="p1">&lt;/code&gt;</ept>或<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">sourceArchiveFileName</ph> <ept id="p2">&lt;/code&gt;</ept>超過系統定義的長度上限。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For example, on Windows-based platforms, paths must not exceed 248 characters, and file names must not exceed 260 characters.</source>
+          <target state="translated">例如，windows 平台上，路徑不能超過 248 個字元，和檔案名稱不能超過 260 個字元。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The specified path is invalid (for example, it is on an unmapped drive).</source>
+          <target state="translated">指定的路徑無效 （例如，它位於未對應的磁碟機上）。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The directory specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationDirectoryName</ph><ept id="p1">&lt;/code&gt;</ept> already exists.</source>
+          <target state="translated">所指定的目錄<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">destinationDirectoryName</ph> <ept id="p1">&lt;/code&gt;</ept>已經存在。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-or-       The name of an entry in the archive is &lt;xref:System.String&gt;, contains only white space, or contains at least one invalid character.</source>
+          <target state="translated">-或-封存中項目的名稱是&lt;xref:System.String&gt;、 只包含空格，或包含至少一個無效字元。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>-or-       Extracting an archive entry would create a file that is outside the directory specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationDirectoryName</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">-或-解壓縮封存項目會建立檔案所指定的目錄之外的<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">destinationDirectoryName</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>(For example, this might happen if the entry name contains parent directory accessors.)       -or-       An archive entry to extract has the same name as an entry that has already been extracted from the same archive.</source>
+          <target state="translated">（例如，這可能是因為項目名稱包含上層目錄存取子。）      -或者-解壓縮的封存項目已從相同的封存已擷取的項目相同的名稱。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission to access the archive or the destination directory.</source>
+          <target state="translated">呼叫端沒有必要的權限來存取封存 」 或 「 目的地目錄。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph> contains an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph>包含無效的格式。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph> was not found.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph>找不到。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The archive specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceArchiveFileName</ph><ept id="p1">&lt;/code&gt;</ept> is not a valid zip archive.</source>
+          <target state="translated">所指定的封存<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">sourceArchiveFileName</ph> <ept id="p1">&lt;/code&gt;</ept>不是有效的 zip 封存。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>-or-       An archive entry was not found or was corrupt.</source>
+          <target state="translated">-或者-封存項目找不到或已損毀。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-or-       An archive entry was compressed by using a compression method that is not supported.</source>
+          <target state="translated">-或者-封存項目使用不支援的壓縮方法進行壓縮。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Extracts all the files in the specified zip archive to a directory on the file system and uses the specified character encoding for entry names.</source>
+          <target state="translated">所有檔案都解壓縮在指定之 zip 封存的目錄中檔案系統上，並使用指定的字元編碼的項目名稱。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This method creates the specified directory and all subdirectories.</source>
+          <target state="translated">這個方法會建立指定的目錄和所有子目錄。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The destination directory cannot already exist.</source>
+          <target state="translated">目的地目錄不存在。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Exceptions related to validating the paths in the <ph id="ph1">`destinationDirectoryName`</ph> or <ph id="ph2">`sourceArchiveFileName`</ph> parameters are thrown before extraction.</source>
+          <target state="translated">驗證中的路徑與相關的例外狀況<ph id="ph1">`destinationDirectoryName`</ph>或<ph id="ph2">`sourceArchiveFileName`</ph>參數擷取之前就會擲回。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Otherwise, if an error occurs during extraction, the archive remains partially extracted.</source>
+          <target state="translated">否則，如果在擷取期間發生錯誤，封存會維持部分擷取。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Each extracted file has the same relative path to the directory specified by <ph id="ph1">`destinationDirectoryName`</ph> as its source entry has to the root of the archive.</source>
+          <target state="translated">每個已解壓縮的檔案具有相同的相對路徑，以指定的目錄<ph id="ph1">`destinationDirectoryName`</ph>作為其來源項目都有封存的根目錄。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`entryNameEncoding`</ph> is set to a value other than <ph id="ph2">`null`</ph>, entry names are decoded according to the following rules:      -   For entry names where the language encoding flag (in the general-purpose bit flag of the local file header) is not set, the entry names are decoded by using the specified encoding.</source>
+          <target state="translated">如果<ph id="ph1">`entryNameEncoding`</ph>以外設定為值<ph id="ph2">`null`</ph>，項目名稱解碼根據下列規則:-如果要讓項目名稱，其中的語言編碼旗標 （以本機檔案標頭的一般用途的位元旗標） 未設定，使用指定的編碼名稱解碼的項目。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-   For entries where the language encoding flag is set, the entry names are decoded by using UTF-8.</source>
+          <target state="translated">-針對設有語言編碼旗標的項目，項目名稱會使用 utf-8 解碼。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`entryNameEncoding`</ph> is set to <ph id="ph2">`null`</ph>, entry names are decoded according to the following rules:      -   For entries where the language encoding flag (in the general-purpose bit flag of the local file header) is not set, entry names are decoded by using the current system default code page.</source>
+          <target state="translated">如果<ph id="ph1">`entryNameEncoding`</ph>設<ph id="ph2">`null`</ph>，項目名稱解碼根據下列規則:-如果要讓項目位置的語言編碼旗標 （以本機檔案標頭的一般用途的位元旗標） 未設定，名稱解碼使用目前的系統預設字碼頁的項目。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-   For entries where the language encoding flag is set, the entry names are decoded by using UTF-8.</source>
+          <target state="translated">-針對設有語言編碼旗標的項目，項目名稱會使用 utf-8 解碼。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The path to the archive that is to be extracted.</source>
+          <target state="translated">要擷取之封存的路徑。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The path to the directory in which to place the extracted files, specified as a relative or absolute path.</source>
+          <target state="translated">若要在其中放置解壓縮的檔案，指定為相對或絕對路徑的目錄路徑。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A relative path is interpreted as relative to the current working directory.</source>
+          <target state="translated">相對路徑會解譯為與目前工作目錄中。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The encoding to use when reading or writing entry names in this archive.</source>
+          <target state="translated">讀取時所使用的編碼方式，或寫入此封存中的項目名稱。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Specify a value for this parameter only when an encoding is required for interoperability with zip archive tools and libraries that do not support UTF-8 encoding for entry names.</source>
+          <target state="translated">編碼方式，是為了互通性與 zip 封存工具和程式庫不支援 utf-8 編碼的項目名稱時，才指定這個參數的值。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph> is <ph id="ph3">&lt;xref:System.String&gt;</ph>, contains only white space, or contains at least one invalid character.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph>是<ph id="ph3">&lt;xref:System.String&gt;</ph>、 只包含空格，或包含至少一個無效字元。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;entryNameEncoding&lt;/code&gt;</ph> is set to a Unicode encoding other than UTF-8.</source>
+          <target state="translated">-或-<ph id="ph1">&lt;code&gt;entryNameEncoding&lt;/code&gt;</ph>設定為 unicode 的編碼方式 utf-8 以外。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The specified path in <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationDirectoryName</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceArchiveFileName</ph><ept id="p2">&lt;/code&gt;</ept> exceeds the system-defined maximum length.</source>
+          <target state="translated">中指定的路徑<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">destinationDirectoryName</ph> <ept id="p1">&lt;/code&gt;</ept>或<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">sourceArchiveFileName</ph> <ept id="p2">&lt;/code&gt;</ept>超過系統定義的長度上限。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>For example, on Windows-based platforms, paths must not exceed 248 characters, and file names must not exceed 260 characters.</source>
+          <target state="translated">例如，windows 平台上，路徑不能超過 248 個字元，和檔案名稱不能超過 260 個字元。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The specified path is invalid (for example, it is on an unmapped drive).</source>
+          <target state="translated">指定的路徑無效 （例如，它位於未對應的磁碟機上）。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The directory specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationDirectoryName</ph><ept id="p1">&lt;/code&gt;</ept> already exists.</source>
+          <target state="translated">所指定的目錄<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">destinationDirectoryName</ph> <ept id="p1">&lt;/code&gt;</ept>已經存在。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>-or-       The name of an entry in the archive is &lt;xref:System.String&gt;, contains only white space, or contains at least one invalid character.</source>
+          <target state="translated">-或-封存中項目的名稱是&lt;xref:System.String&gt;、 只包含空格，或包含至少一個無效字元。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-or-       Extracting an archive entry would create a file that is outside the directory specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationDirectoryName</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">-或-解壓縮封存項目會建立檔案所指定的目錄之外的<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">destinationDirectoryName</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>(For example, this might happen if the entry name contains parent directory accessors.)       -or-       An archive entry to extract has the same name as an entry that has already been extracted from the same archive.</source>
+          <target state="translated">（例如，這可能是因為項目名稱包含上層目錄存取子。）      -或者-解壓縮的封存項目已從相同的封存已擷取的項目相同的名稱。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission to access the archive or the destination directory.</source>
+          <target state="translated">呼叫端沒有必要的權限來存取封存 」 或 「 目的地目錄。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph> contains an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;destinationDirectoryName&lt;/code&gt;</ph>或<ph id="ph2">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph>包含無效的格式。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph> was not found.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceArchiveFileName&lt;/code&gt;</ph>找不到。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The archive specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceArchiveFileName</ph><ept id="p1">&lt;/code&gt;</ept> is not a valid zip archive.</source>
+          <target state="translated">所指定的封存<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">sourceArchiveFileName</ph> <ept id="p1">&lt;/code&gt;</ept>不是有效的 zip 封存。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>-or-       An archive entry was not found or was corrupt.</source>
+          <target state="translated">-或者-封存項目找不到或已損毀。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-or-       An archive entry was compressed by using a compression method that is not supported.</source>
+          <target state="translated">-或者-封存項目使用不支援的壓縮方法進行壓縮。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Opens a zip archive at the specified path and in the specified mode.</source>
+          <target state="translated">開啟位於指定路徑和指定的模式中的 zip 封存。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>When you set the <ph id="ph1">`mode`</ph> parameter to &lt;xref:System.IO.Compression.ZipArchiveMode&gt;, the archive is opened with &lt;xref:System.IO.FileMode&gt; from the &lt;xref:System.IO.FileMode&gt; enumeration as the file mode value.</source>
+          <target state="translated">當您將<ph id="ph1">`mode`</ph>參數&lt;xref:System.IO.Compression.ZipArchiveMode&gt;，封存會以開啟&lt;xref:System.IO.FileMode&gt;從&lt;xref:System.IO.FileMode&gt;列舉型別做為檔案模式的值。&lt;/xref:System.IO.FileMode&gt; &lt;/xref:System.IO.FileMode&gt; &lt;/xref:System.IO.Compression.ZipArchiveMode&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If the archive does not exist, a &lt;xref:System.IO.FileNotFoundException&gt; exception is thrown.</source>
+          <target state="translated">如果封存不存在，&lt;xref:System.IO.FileNotFoundException&gt;擲回例外狀況。&lt;/xref:System.IO.FileNotFoundException&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Setting the <ph id="ph1">`mode`</ph> parameter to &lt;xref:System.IO.Compression.ZipArchiveMode&gt; is equivalent to calling the &lt;xref:System.IO.Compression.ZipFile.OpenRead%2A&gt; method.</source>
+          <target state="translated">設定<ph id="ph1">`mode`</ph>參數&lt;xref:System.IO.Compression.ZipArchiveMode&gt;就相當於呼叫&lt;xref:System.IO.Compression.ZipFile.OpenRead%2A&gt;方法。&lt;/xref:System.IO.Compression.ZipFile.OpenRead%2A&gt; &lt;/xref:System.IO.Compression.ZipArchiveMode&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>When you set the <ph id="ph1">`mode`</ph> parameter to &lt;xref:System.IO.Compression.ZipArchiveMode&gt;, the archive is opened with &lt;xref:System.IO.FileMode?displayProperty=fullName&gt; as the file mode value.</source>
+          <target state="translated">當您將<ph id="ph1">`mode`</ph>參數&lt;xref:System.IO.Compression.ZipArchiveMode&gt;，封存會以開啟&lt;xref:System.IO.FileMode?displayProperty=fullName&gt;做為檔案模式的值。&lt;/xref:System.IO.FileMode?displayProperty=fullName&gt; &lt;/xref:System.IO.Compression.ZipArchiveMode&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>If the archive already exists, an &lt;xref:System.IO.IOException&gt; is thrown.</source>
+          <target state="translated">如果封存已存在，&lt;xref:System.IO.IOException&gt;就會擲回。&lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>When you set the <ph id="ph1">`mode`</ph> parameter to &lt;xref:System.IO.Compression.ZipArchiveMode&gt;,  the archive is opened with &lt;xref:System.IO.FileMode?displayProperty=fullName&gt; as the file mode value.</source>
+          <target state="translated">當您將<ph id="ph1">`mode`</ph>參數&lt;xref:System.IO.Compression.ZipArchiveMode&gt;，封存會以開啟&lt;xref:System.IO.FileMode?displayProperty=fullName&gt;做為檔案模式的值。&lt;/xref:System.IO.FileMode?displayProperty=fullName&gt; &lt;/xref:System.IO.Compression.ZipArchiveMode&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>If the archive exists, it is opened.</source>
+          <target state="translated">如果封存已存在，會將它開啟。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The existing entries can be modified and new entries can be created.</source>
+          <target state="translated">您可以修改現有的項目，且無法建立新的項目。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>If the archive does not exist, a new archive is created; however, creating a zip archive in &lt;xref:System.IO.Compression.ZipArchiveMode&gt; mode is not as efficient as creating it in &lt;xref:System.IO.Compression.ZipArchiveMode&gt; mode.</source>
+          <target state="translated">如果封存不存在，會建立新的封存。不過，建立 zip 封存中的&lt;xref:System.IO.Compression.ZipArchiveMode&gt;模式不是建立在效率&lt;xref:System.IO.Compression.ZipArchiveMode&gt;模式。&lt;/xref:System.IO.Compression.ZipArchiveMode&gt; &lt;/xref:System.IO.Compression.ZipArchiveMode&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The path to the archive to open, specified as a relative or absolute path.</source>
+          <target state="translated">若要開啟，封存的路徑指定為相對或絕對路徑。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>A relative path is interpreted as relative to the current working directory.</source>
+          <target state="translated">相對路徑會解譯為與目前工作目錄中。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the actions which are allowed on the entries in the opened archive.</source>
+          <target state="translated">其中一個列舉值，指定開啟的封存檔中的項目上所允許的動作。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The opened zip archive.</source>
+          <target state="translated">開啟的 zip 封存。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> is <ph id="ph2">&lt;xref:System.String&gt;</ph>, contains only white space, or contains at least one invalid character.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>是<ph id="ph2">&lt;xref:System.String&gt;</ph>、 只包含空格，或包含至少一個無效字元。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">archiveFileName</ph><ept id="p1">&lt;/code&gt;</ept>, the specified path, file name, or both exceed the system-defined maximum length.</source>
+          <target state="translated">在<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">archiveFileName</ph> <ept id="p1">&lt;/code&gt;</ept>，指定的路徑、 檔案名稱，或兩者都超出系統定義的長度上限。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>For example, on Windows-based platforms, paths must not exceed 248 characters, and file names must not exceed 260 characters.</source>
+          <target state="translated">例如，windows 平台上，路徑不能超過 248 個字元，和檔案名稱不能超過 260 個字元。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> is invalid or does not exist (for example, it is on an unmapped drive).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>無效或不存在 （例如，它位於未對應的磁碟機上）。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> could not be opened.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>無法開啟。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but the file specified in <ph id="ph2">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> already exists.</source>
+          <target state="translated">-<ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>設<bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，但檔案中指定<ph id="ph2">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>已經存在。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> specifies a directory.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>指定的目錄。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-or-       The caller does not have the required permission to access the file specified in <ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>.</source>
+          <target state="translated">-或-呼叫端沒有必要的權限存取檔案中指定<ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> specifies an invalid value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>指定無效的值。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but the file specified in <ph id="ph2">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> is not found.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>設定為<bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，但檔案中指定<ph id="ph2">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>找不到。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> contains an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>包含無效的格式。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> could not be interpreted as a zip archive.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>無法解譯的 zip 封存。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but an entry is missing or corrupt and cannot be read.</source>
+          <target state="translated">-<ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，但項目遺失或損毀，而且無法讀取。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but an entry is too large to fit into memory.</source>
+          <target state="translated">-<ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，但是項目太大而無法放入記憶體。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Opens a zip archive at the specified path, in the specified mode, and by using the specified character encoding for entry names.</source>
+          <target state="translated">指定的模式，並使用指定的字元編碼的項目名稱，請開啟位於指定路徑的 zip 封存。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>When you set the <ph id="ph1">`mode`</ph> parameter to &lt;xref:System.IO.Compression.ZipArchiveMode&gt;, the archive is opened with &lt;xref:System.IO.FileMode?displayProperty=fullName&gt; as the file mode value.</source>
+          <target state="translated">當您將<ph id="ph1">`mode`</ph>參數&lt;xref:System.IO.Compression.ZipArchiveMode&gt;，封存會以開啟&lt;xref:System.IO.FileMode?displayProperty=fullName&gt;做為檔案模式的值。&lt;/xref:System.IO.FileMode?displayProperty=fullName&gt; &lt;/xref:System.IO.Compression.ZipArchiveMode&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>If the archive does not exist, a &lt;xref:System.IO.FileNotFoundException&gt; exception is thrown.</source>
+          <target state="translated">如果封存不存在，&lt;xref:System.IO.FileNotFoundException&gt;擲回例外狀況。&lt;/xref:System.IO.FileNotFoundException&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Setting the <ph id="ph1">`mode`</ph> parameter to &lt;xref:System.IO.Compression.ZipArchiveMode&gt; is equivalent to calling the &lt;xref:System.IO.Compression.ZipFile.OpenRead%2A&gt; method.</source>
+          <target state="translated">設定<ph id="ph1">`mode`</ph>參數&lt;xref:System.IO.Compression.ZipArchiveMode&gt;就相當於呼叫&lt;xref:System.IO.Compression.ZipFile.OpenRead%2A&gt;方法。&lt;/xref:System.IO.Compression.ZipFile.OpenRead%2A&gt; &lt;/xref:System.IO.Compression.ZipArchiveMode&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>When you set the <ph id="ph1">`mode`</ph> parameter to &lt;xref:System.IO.Compression.ZipArchiveMode&gt;, the archive is opened with &lt;xref:System.IO.FileMode?displayProperty=fullName&gt; as the file mode value.</source>
+          <target state="translated">當您將<ph id="ph1">`mode`</ph>參數&lt;xref:System.IO.Compression.ZipArchiveMode&gt;，封存會以開啟&lt;xref:System.IO.FileMode?displayProperty=fullName&gt;做為檔案模式的值。&lt;/xref:System.IO.FileMode?displayProperty=fullName&gt; &lt;/xref:System.IO.Compression.ZipArchiveMode&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>If the archive already exists, an &lt;xref:System.IO.IOException&gt; is thrown.</source>
+          <target state="translated">如果封存已存在，&lt;xref:System.IO.IOException&gt;就會擲回。&lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>When you set the <ph id="ph1">`mode`</ph> parameter to &lt;xref:System.IO.Compression.ZipArchiveMode&gt;,  the archive is opened with &lt;xref:System.IO.FileMode?displayProperty=fullName&gt; as the file mode value.</source>
+          <target state="translated">當您將<ph id="ph1">`mode`</ph>參數&lt;xref:System.IO.Compression.ZipArchiveMode&gt;，封存會以開啟&lt;xref:System.IO.FileMode?displayProperty=fullName&gt;做為檔案模式的值。&lt;/xref:System.IO.FileMode?displayProperty=fullName&gt; &lt;/xref:System.IO.Compression.ZipArchiveMode&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>If the archive exists, it is opened.</source>
+          <target state="translated">如果封存已存在，會將它開啟。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The existing entries can be modified and new entries can be created.</source>
+          <target state="translated">您可以修改現有的項目，且無法建立新的項目。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>If the archive does not exist, a new archive is created; however, creating a zip archive in &lt;xref:System.IO.Compression.ZipArchiveMode&gt; mode is not as efficient as creating it in &lt;xref:System.IO.Compression.ZipArchiveMode&gt; mode.</source>
+          <target state="translated">如果封存不存在，會建立新的封存。不過，建立 zip 封存中的&lt;xref:System.IO.Compression.ZipArchiveMode&gt;模式不是建立在效率&lt;xref:System.IO.Compression.ZipArchiveMode&gt;模式。&lt;/xref:System.IO.Compression.ZipArchiveMode&gt; &lt;/xref:System.IO.Compression.ZipArchiveMode&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>When you open a zip archive file for reading and <ph id="ph1">`entryNameEncoding`</ph> is set to <ph id="ph2">`null`</ph>, entry names are decoded according to the following rules:      -   When the language encoding flag (in the general-purpose bit flag of the local file header) is not set, the current system default code page is used to decode the entry name.</source>
+          <target state="translated">當您開啟 zip 封存檔案進行讀取和<ph id="ph1">`entryNameEncoding`</ph>設<ph id="ph2">`null`</ph>，項目名稱解碼根據下列規則:-時未設定 （以本機檔案標頭的一般用途的位元旗標） 編碼的旗標，目前的系統預設字碼頁的語言用來解碼的項目名稱。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>-   When the language encoding flag is set, UTF-8 is used to decode the entry name.</source>
+          <target state="translated">-當設定的語言編碼旗標，來解碼的項目名稱使用 utf-8。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>When you open a zip archive file for reading and <ph id="ph1">`entryNameEncoding`</ph> is set to a value other than <ph id="ph2">`null`</ph>, entry names are decoded according to the following rules:      -   When the language encoding flag is not set, the specified <ph id="ph3">`entryNameEncoding`</ph> is used to decode the entry name.</source>
+          <target state="translated">當您開啟 zip 封存檔案進行讀取和<ph id="ph1">`entryNameEncoding`</ph>以外設定為值<ph id="ph2">`null`</ph>，項目名稱解碼根據下列規則:-的語言編碼旗標未設定時，指定<ph id="ph3">`entryNameEncoding`</ph>用來解碼的項目名稱。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>-   When the language encoding flag is set, UTF-8 is used to decode the entry name.</source>
+          <target state="translated">-當設定的語言編碼旗標，來解碼的項目名稱使用 utf-8。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>When you write to archive files and <ph id="ph1">`entryNameEncoding`</ph> is set to <ph id="ph2">`null`</ph>, entry names are encoded according to the following rules:      -   For entry names that contain characters outside the ASCII range, the language encoding flag is set, and entry names are encoded by using UTF-8.</source>
+          <target state="translated">當您撰寫封存檔案和<ph id="ph1">`entryNameEncoding`</ph>設<ph id="ph2">`null`</ph>，項目名稱會編碼根據下列規則:-項目名稱中包含外部 ASCII 字元範圍的語言設定編碼方式的旗標，並使用 utf-8 編碼項目名稱。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>-   For entry names that contain only ASCII characters, the language encoding flag is not set, and entry names are encoded by using the current system default code page.</source>
+          <target state="translated">-若為項目只能包含 ASCII 字元的名稱，未設定的語言編碼旗標，並使用目前的系統預設字碼頁來進行編碼的項目名稱。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>When you write to archive files and <ph id="ph1">`entryNameEncoding`</ph> is set to a value other than <ph id="ph2">`null`</ph>, the specified <ph id="ph3">`entryNameEncoding`</ph> is used to encode the entry names into bytes.</source>
+          <target state="translated">當您撰寫封存檔案和<ph id="ph1">`entryNameEncoding`</ph>以外設定為值<ph id="ph2">`null`</ph>，指定<ph id="ph3">`entryNameEncoding`</ph>用來編碼為位元組的項目名稱。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The language encoding flag (in the general-purpose bit flag of the local file header) is set only when the specified encoding is a UTF-8 encoding.</source>
+          <target state="translated">只有當指定的編碼方式為 utf-8 編碼時設定的語言編碼旗標 （以本機檔案標頭的一般用途的位元旗標）。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The path to the archive to open, specified as a relative or absolute path.</source>
+          <target state="translated">若要開啟，封存的路徑指定為相對或絕對路徑。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>A relative path is interpreted as relative to the current working directory.</source>
+          <target state="translated">相對路徑會解譯為與目前工作目錄中。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the actions that are allowed on the entries in the opened archive.</source>
+          <target state="translated">其中一個列舉值，指定開啟的封存檔中的項目上所允許的動作。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The encoding to use when reading or writing entry names in this archive.</source>
+          <target state="translated">讀取時所使用的編碼方式，或寫入此封存中的項目名稱。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Specify a value for this parameter only when an encoding is required for interoperability with zip archive tools and libraries that do not support UTF-8 encoding for entry names.</source>
+          <target state="translated">編碼方式，是為了互通性與 zip 封存工具和程式庫不支援 utf-8 編碼的項目名稱時，才指定這個參數的值。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The opened zip archive.</source>
+          <target state="translated">開啟的 zip 封存。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> is <ph id="ph2">&lt;xref:System.String&gt;</ph>, contains only white space, or contains at least one invalid character.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>是<ph id="ph2">&lt;xref:System.String&gt;</ph>、 只包含空格，或包含至少一個無效字元。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;entryNameEncoding&lt;/code&gt;</ph> is set to a Unicode encoding other than UTF-8.</source>
+          <target state="translated">-或-<ph id="ph1">&lt;code&gt;entryNameEncoding&lt;/code&gt;</ph>設定為 unicode 的編碼方式 utf-8 以外。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">archiveFileName</ph><ept id="p1">&lt;/code&gt;</ept>, the specified path, file name, or both exceed the system-defined maximum length.</source>
+          <target state="translated">在<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">archiveFileName</ph> <ept id="p1">&lt;/code&gt;</ept>，指定的路徑、 檔案名稱，或兩者都超出系統定義的長度上限。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>For example, on Windows-based platforms, paths must not exceed 248 characters, and file names must not exceed 260 characters.</source>
+          <target state="translated">例如，windows 平台上，路徑不能超過 248 個字元，和檔案名稱不能超過 260 個字元。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> is invalid or does not exist (for example, it is on an unmapped drive).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>無效或不存在 （例如，它位於未對應的磁碟機上）。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> could not be opened.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>無法開啟。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but the file specified in <ph id="ph2">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> already exists.</source>
+          <target state="translated">-<ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>設<bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，但檔案中指定<ph id="ph2">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>已經存在。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> specifies a directory.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>指定的目錄。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>-or-       The caller does not have the required permission to access the file specified in <ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>.</source>
+          <target state="translated">-或-呼叫端沒有必要的權限存取檔案中指定<ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> specifies an invalid value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>指定無效的值。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but the file specified in <ph id="ph2">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> is not found.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>設定為<bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，但檔案中指定<ph id="ph2">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>找不到。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> contains an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>包含無效的格式。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> could not be interpreted as a zip archive.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>無法解譯的 zip 封存。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but an entry is missing or corrupt and cannot be read.</source>
+          <target state="translated">-<ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，但項目遺失或損毀，而且無法讀取。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but an entry is too large to fit into memory.</source>
+          <target state="translated">-<ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref href="System.IO.Compression.ZipArchiveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，但是項目太大而無法放入記憶體。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Opens a zip archive for reading at the specified path.</source>
+          <target state="translated">開啟 zip 封存以讀取在指定的路徑。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>This method is equivalent to calling the &lt;xref:System.IO.Compression.ZipFile.Open%2A&gt; method and setting the <ph id="ph1">`mode`</ph> parameter to &lt;xref:System.IO.Compression.ZipArchiveMode&gt;.</source>
+          <target state="translated">這個方法相當於呼叫&lt;xref:System.IO.Compression.ZipFile.Open%2A&gt;方法，並設定<ph id="ph1">`mode`</ph>參數至&lt;xref:System.IO.Compression.ZipArchiveMode&gt;。&lt;/xref:System.IO.Compression.ZipArchiveMode&gt; &lt;/xref:System.IO.Compression.ZipFile.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The archive is opened with &lt;xref:System.IO.FileMode?displayProperty=fullName&gt; as the file mode value.</source>
+          <target state="translated">封存使用開啟&lt;xref:System.IO.FileMode?displayProperty=fullName&gt;做為檔案模式的值。&lt;/xref:System.IO.FileMode?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>If the archive does not exist, a &lt;xref:System.IO.FileNotFoundException&gt; exception is thrown.</source>
+          <target state="translated">如果封存不存在，&lt;xref:System.IO.FileNotFoundException&gt;擲回例外狀況。&lt;/xref:System.IO.FileNotFoundException&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The path to the archive to open, specified as a relative or absolute path.</source>
+          <target state="translated">若要開啟，封存的路徑指定為相對或絕對路徑。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>A relative path is interpreted as relative to the current working directory.</source>
+          <target state="translated">相對路徑會解譯為與目前工作目錄中。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>The opened zip archive.</source>
+          <target state="translated">開啟的 zip 封存。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> is <ph id="ph2">&lt;xref:System.String&gt;</ph>, contains only white space, or contains at least one invalid character.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>是<ph id="ph2">&lt;xref:System.String&gt;</ph>、 只包含空格，或包含至少一個無效字元。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">archiveFileName</ph><ept id="p1">&lt;/code&gt;</ept>, the specified path, file name, or both exceed the system-defined maximum length.</source>
+          <target state="translated">在<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">archiveFileName</ph> <ept id="p1">&lt;/code&gt;</ept>，指定的路徑、 檔案名稱，或兩者都超出系統定義的長度上限。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>For example, on Windows-based platforms, paths must not exceed 248 characters, and file names must not exceed 260 characters.</source>
+          <target state="translated">例如，windows 平台上，路徑不能超過 248 個字元，和檔案名稱不能超過 260 個字元。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> is invalid or does not exist (for example, it is on an unmapped drive).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>無效或不存在 （例如，它位於未對應的磁碟機上）。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> could not be opened.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>無法開啟。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> specifies a directory.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>指定的目錄。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>-or-       The caller does not have the required permission to access the file specified in <ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>.</source>
+          <target state="translated">-或-呼叫端沒有必要的權限存取檔案中指定<ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The file specified in <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">archiveFileName</ph><ept id="p1">&lt;/code&gt;</ept> is not found.</source>
+          <target state="translated">中指定的檔案<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">archiveFileName</ph> <ept id="p1">&lt;/code&gt;</ept>找不到。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> contains an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>包含無效的格式。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph> could not be interpreted as a zip archive.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;archiveFileName&lt;/code&gt;</ph>無法解譯的 zip 封存。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
