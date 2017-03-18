@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0bd4f051f259503b6877261552f52f4ab96b9e89</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.VisualBasic.FileIO.TextFieldParser.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4998159fe543ddc70cc3ce3532aa7c0ed9f5e542</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2197e266b59025815cbe946fba3a6dd47c332987</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides methods and properties for parsing structured text files.</source>
+          <target state="translated">Fornisce metodi e proprietà per l'analisi di testo strutturati file.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`TextFieldParser`</ph> object provides methods and properties for parsing structured text files.</source>
+          <target state="translated">Il <ph id="ph1">`TextFieldParser`</ph> oggetto fornisce metodi e proprietà per l'analisi del file di testo strutturati.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Parsing a text file with the <ph id="ph1">`TextFieldParser`</ph> is similar to iterating over a text file, while the <ph id="ph2">`ReadFields`</ph> method to extract fields of text is similar to splitting the strings.</source>
+          <target state="translated">Analisi di un file di testo con il <ph id="ph1">`TextFieldParser`</ph> è simile per l'iterazione su un file di testo, mentre il <ph id="ph2">`ReadFields`</ph> metodo per estrarre campi di testo è simile alla suddivisione delle stringhe.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`TextFieldParser`</ph> can parse two types of files: delimited or fixed-width.</source>
+          <target state="translated">Il <ph id="ph1">`TextFieldParser`</ph> può analizzare due tipi di file: delimitato o a larghezza fissa.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some properties, such as <ph id="ph1">`Delimiters`</ph> and <ph id="ph2">`HasFieldsEnclosedInQuotes`</ph> are meaningful only when working with delimited files, while the <ph id="ph3">`FieldWidths`</ph> property is meaningful only when working with fixed-width files.</source>
+          <target state="translated">Alcune proprietà, ad esempio <ph id="ph1">`Delimiters`</ph> e <ph id="ph2">`HasFieldsEnclosedInQuotes`</ph> sono significativi solo se si utilizzano file delimitati, quando si utilizza il <ph id="ph3">`FieldWidths`</ph> proprietà è significativa solo quando si utilizzano file a larghezza fissa.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`Microsoft.VisualBasic.FileIO.TextFieldParser`</ph> object.</source>
+          <target state="translated">Nella tabella seguente sono elencati esempi di attività che coinvolgono la <ph id="ph1">`Microsoft.VisualBasic.FileIO.TextFieldParser`</ph> oggetto.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|To|See|   |--------|---------|   |Read from a delimited text file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width text file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a text file with multiple formats|<bpt id="p3">[</bpt>How to: Read From Text Files with Multiple Formats<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">| Per | Vedere |   |--------|---------|   | Leggere da un file di testo delimitato | <bpt id="p1">[</bpt>Procedura: leggere file di testo delimitato da virgole<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   | Leggere da un file di testo a larghezza fissa | <bpt id="p2">[</bpt>Procedura: leggere file di testo a larghezza fissa<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>|   | Leggere da un file di testo con più formati | <bpt id="p3">[</bpt>Procedura: leggere file di testo con più formati<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file or stream that is represented by the <ph id="ph2">`stream`</ph> parameter.</source>
+          <target state="translated">Crea un nuovo <ph id="ph1">`TextFieldParser`</ph> oggetto per analizzare il file o un flusso che è rappresentato dal <ph id="ph2">`stream`</ph> parametro.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The stream to be parsed.</source>
+          <target state="translated">Flusso da analizzare.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> cannot be read from.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>Impossibile leggere da.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file or stream that is represented by the <ph id="ph2">`reader`</ph> parameter.</source>
+          <target state="translated">Crea un nuovo <ph id="ph1">`TextFieldParser`</ph> oggetto per analizzare il file o un flusso che è rappresentato dal <ph id="ph2">`reader`</ph> parametro.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IO.TextReader&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.TextReader&gt;.&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextReader&gt; stream to be parsed.</source>
+          <target state="translated">Il &lt;xref:System.IO.TextReader&gt;flusso da analizzare.&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file specified by the <ph id="ph2">`path`</ph> parameter.</source>
+          <target state="translated">Crea un nuovo <ph id="ph1">`TextFieldParser`</ph> oggetto per analizzare il file specificato da di <ph id="ph2">`path`</ph> parametro.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The complete path of the file to be parsed.</source>
+          <target state="translated">Il percorso completo del file da analizzare.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>è una stringa vuota.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file or stream that is represented by the <ph id="ph2">`stream`</ph> parameter.</source>
+          <target state="translated">Crea un nuovo <ph id="ph1">`TextFieldParser`</ph> oggetto per analizzare il file o un flusso che è rappresentato dal <ph id="ph2">`stream`</ph> parametro.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When you compile a set of characters with a particular cultural setting and retrieve those same characters with a different cultural setting, the characters might not be interpretable and could cause an exception to be thrown.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Quando si esegue la compilazione di un set di caratteri con una lingua specifica e recuperano gli stessi caratteri con una lingua diversa, i caratteri potrebbero non essere interpretati e potrebbe provocare un'eccezione generata.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The stream to be parsed.</source>
+          <target state="translated">Flusso da analizzare.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The character encoding to use if encoding is not determined from file.</source>
+          <target state="translated">Codifica dei caratteri da utilizzare se la codifica non è determinato dal file.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Default is &lt;xref:System.Text.Encoding.UTF8*&gt;.</source>
+          <target state="translated">Il valore predefinito è &lt;xref:System.Text.Encoding.UTF8*&gt;.&lt;/xref:System.Text.Encoding.UTF8*&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> cannot be read from.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>Impossibile leggere da.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file specified by the <ph id="ph2">`path`</ph> parameter.</source>
+          <target state="translated">Crea un nuovo <ph id="ph1">`TextFieldParser`</ph> oggetto per analizzare il file specificato da di <ph id="ph2">`path`</ph> parametro.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When you compile a set of characters with a particular cultural setting and retrieve those same characters with a different cultural setting, the characters might not be interpretable and could cause an exception to be thrown.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Quando si esegue la compilazione di un set di caratteri con una lingua specifica e recuperano gli stessi caratteri con una lingua diversa, i caratteri potrebbero non essere interpretati e potrebbe provocare un'eccezione generata.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The complete path of the file to be parsed.</source>
+          <target state="translated">Il percorso completo del file da analizzare.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The character encoding to use if encoding is not determined from file.</source>
+          <target state="translated">Codifica dei caratteri da utilizzare se la codifica non è determinato dal file.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Default is &lt;xref:System.Text.Encoding.UTF8*&gt;.</source>
+          <target state="translated">Il valore predefinito è &lt;xref:System.Text.Encoding.UTF8*&gt;.&lt;/xref:System.Text.Encoding.UTF8*&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is an empty string or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>è una stringa vuota o <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> è <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file or stream that is represented by the <ph id="ph2">`stream`</ph> parameter.</source>
+          <target state="translated">Crea un nuovo <ph id="ph1">`TextFieldParser`</ph> oggetto per analizzare il file o un flusso che è rappresentato dal <ph id="ph2">`stream`</ph> parametro.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`detectEncoding`</ph> parameter is <ph id="ph2">`True`</ph>, this constructor attempts to detect the encoding by looking at the first three bytes of the file or stream.</source>
+          <target state="translated">Se il <ph id="ph1">`detectEncoding`</ph> parametro <ph id="ph2">`True`</ph>, il costruttore tenta di rilevare la codifica esaminando i primi tre byte del file o flusso.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It automatically recognizes UTF-8, little-endian Unicode, and big-endian Unicode text if the file starts with the appropriate byte-order marks.</source>
+          <target state="translated">Riconosce automaticamente Unicode UTF-8, little-endian e testo Unicode big-endian se il file inizia con i contrassegni di ordine byte appropriato.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the encoding specified by <ph id="ph1">`defaultEncoding`</ph> is used.</source>
+          <target state="translated">In caso contrario, la codifica specificata dal parametro <ph id="ph1">`defaultEncoding`</ph> viene utilizzato.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When you compile a set of characters with a particular cultural setting and retrieve those same characters with a different cultural setting, the characters might not be interpretable and could cause an exception to be thrown.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Quando si esegue la compilazione di un set di caratteri con una lingua specifica e recuperano gli stessi caratteri con una lingua diversa, i caratteri potrebbero non essere interpretati e potrebbe provocare un'eccezione generata.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The stream to be parsed.</source>
+          <target state="translated">Flusso da analizzare.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The character encoding to use if encoding is not determined from file.</source>
+          <target state="translated">Codifica dei caratteri da utilizzare se la codifica non è determinato dal file.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Default is &lt;xref:System.Text.Encoding.UTF8*&gt;.</source>
+          <target state="translated">Il valore predefinito è &lt;xref:System.Text.Encoding.UTF8*&gt;.&lt;/xref:System.Text.Encoding.UTF8*&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Indicates whether to look for byte order marks at the beginning of the file.</source>
+          <target state="translated">Indica se cercare i byte order mark all'inizio del file.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Default is <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> cannot be read from.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>Impossibile leggere da.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file specified by the <ph id="ph2">`path`</ph> parameter.</source>
+          <target state="translated">Crea un nuovo <ph id="ph1">`TextFieldParser`</ph> oggetto per analizzare il file specificato da di <ph id="ph2">`path`</ph> parametro.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`detectEncoding`</ph> parameter is <ph id="ph2">`True`</ph>, this constructor attempts to detect the encoding by looking at the first three bytes of the file or stream.</source>
+          <target state="translated">Se il <ph id="ph1">`detectEncoding`</ph> parametro <ph id="ph2">`True`</ph>, il costruttore tenta di rilevare la codifica esaminando i primi tre byte del file o flusso.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It automatically recognizes UTF-8, little-endian Unicode, and big-endian Unicode text if the file starts with the appropriate byte-order marks.</source>
+          <target state="translated">Riconosce automaticamente Unicode UTF-8, little-endian e testo Unicode big-endian se il file inizia con i contrassegni di ordine byte appropriato.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the encoding specified by <ph id="ph1">`defaultEncoding`</ph> is used.</source>
+          <target state="translated">In caso contrario, la codifica specificata dal parametro <ph id="ph1">`defaultEncoding`</ph> viene utilizzato.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When you compile a set of characters with a particular cultural setting and retrieve those same characters with a different cultural setting, the characters might not be interpretable and could cause an exception to be thrown.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Quando si esegue la compilazione di un set di caratteri con una lingua specifica e recuperano gli stessi caratteri con una lingua diversa, i caratteri potrebbero non essere interpretati e potrebbe provocare un'eccezione generata.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The complete path of the file to be parsed.</source>
+          <target state="translated">Il percorso completo del file da analizzare.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The character encoding to use if encoding is not determined from file.</source>
+          <target state="translated">Codifica dei caratteri da utilizzare se la codifica non è determinato dal file.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Default is &lt;xref:System.Text.Encoding.UTF8*&gt;.</source>
+          <target state="translated">Il valore predefinito è &lt;xref:System.Text.Encoding.UTF8*&gt;.&lt;/xref:System.Text.Encoding.UTF8*&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Indicates whether to look for byte order marks at the beginning of the file.</source>
+          <target state="translated">Indica se cercare i byte order mark all'inizio del file.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Default is <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is an empty string or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>è una stringa vuota o <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> è <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new <ph id="ph1">`TextFieldParser`</ph> object to parse the file or stream that is represented by the <ph id="ph2">`stream`</ph> parameter.</source>
+          <target state="translated">Crea un nuovo <ph id="ph1">`TextFieldParser`</ph> oggetto per analizzare il file o un flusso che è rappresentato dal <ph id="ph2">`stream`</ph> parametro.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`detectEncoding`</ph> parameter is <ph id="ph2">`True`</ph>, this constructor attempts to detect the encoding by looking at the first three bytes of the file or stream.</source>
+          <target state="translated">Se il <ph id="ph1">`detectEncoding`</ph> parametro <ph id="ph2">`True`</ph>, il costruttore tenta di rilevare la codifica esaminando i primi tre byte del file o flusso.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It automatically recognizes UTF-8, little-endian Unicode, and big-endian Unicode text if the file starts with the appropriate byte-order marks.</source>
+          <target state="translated">Riconosce automaticamente Unicode UTF-8, little-endian e testo Unicode big-endian se il file inizia con i contrassegni di ordine byte appropriato.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the encoding specified by <ph id="ph1">`defaultEncoding`</ph> is used.</source>
+          <target state="translated">In caso contrario, la codifica specificata dal parametro <ph id="ph1">`defaultEncoding`</ph> viene utilizzato.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When you compile a set of characters with a particular cultural setting and retrieve those same characters with a different cultural setting, the characters might not be interpretable and could cause an exception to be thrown.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Quando si esegue la compilazione di un set di caratteri con una lingua specifica e recuperano gli stessi caratteri con una lingua diversa, i caratteri potrebbero non essere interpretati e potrebbe provocare un'eccezione generata.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The stream to be parsed.</source>
+          <target state="translated">Flusso da analizzare.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The character encoding to use if encoding is not determined from file.</source>
+          <target state="translated">Codifica dei caratteri da utilizzare se la codifica non è determinato dal file.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Default is &lt;xref:System.Text.Encoding.UTF8*&gt;.</source>
+          <target state="translated">Il valore predefinito è &lt;xref:System.Text.Encoding.UTF8*&gt;.&lt;/xref:System.Text.Encoding.UTF8*&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Indicates whether to look for byte order marks at the beginning of the file.</source>
+          <target state="translated">Indica se cercare i byte order mark all'inizio del file.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Default is <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Indicates whether to leave <ph id="ph1">`stream`</ph> open when the <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed.</source>
+          <target state="translated">Indica se lasciare <ph id="ph1">`stream`</ph> aperti quando il <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto viene chiuso.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Default is <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;defaultEncoding&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> cannot be read from.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>Impossibile leggere da.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Closes the current <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Chiude l'oggetto corrente <bpt id="p1">&lt;xref uid="langword_csharp_TextFieldParser" name="TextFieldParser" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Defines comment tokens.</source>
+          <target state="translated">Definisce i token di commento.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A comment token is a string that, when placed at the beginning of a line, indicates that the line is a comment and should be ignored by the parser.</source>
+          <target state="translated">Un token di commento è una stringa che, quando viene inserita all'inizio di una riga, indica che la riga è un commento e deve essere ignorata dal parser.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is an advanced member; it does not show in IntelliSense unless you click the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> tab.</source>
+          <target state="translated">Si tratta di un membro avanzato. non è visibile in IntelliSense a meno che non si fa clic su di <bpt id="p1">**</bpt>tutti<ept id="p1">**</ept> scheda.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Zero-length comment tokens are ignored.</source>
+          <target state="translated">I token di commento di lunghezza zero vengono ignorati.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A string array that contains all of the comment tokens for the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Matrice di stringhe che contiene il commento tutti i token per il <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A comment token includes white space.</source>
+          <target state="translated">Un token di commento include spazi vuoti.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Defines the delimiters for a text file.</source>
+          <target state="translated">Definisce i delimitatori per un file di testo.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is meaningful only if the &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt; property is set to <ph id="ph1">`FieldType.Delimited`</ph>.</source>
+          <target state="translated">Questa proprietà è significativa solo se il &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt;è impostata su <ph id="ph1">`FieldType.Delimited`</ph>.&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Defining the delimiters for a text file can also be accomplished with the &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetDelimiters%2A&gt; method.</source>
+          <target state="translated">Definire i delimitatori per un file di testo può essere eseguito anche con il &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetDelimiters%2A&gt;metodo.&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetDelimiters%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists an example of a task involving the <ph id="ph1">`Delimiters`</ph> property.</source>
+          <target state="translated">La tabella seguente elenca un esempio di un'attività che coinvolgono la <ph id="ph1">`Delimiters`</ph> proprietà.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|To|See|   |--------|---------|   |Read from a delimited text file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">| Per | Vedere |   |--------|---------|   | Leggere da un file di testo delimitato | <bpt id="p1">[</bpt>Procedura: leggere file di testo delimitato da virgole<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A string array that contains all of the field delimiters for the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Matrice di stringhe che contiene tutti i delimitatori di campo per il <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A delimiter value is set to a newline character, an empty string, or <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">In un carattere di nuova riga, una stringa vuota, viene impostato un valore di delimitatore o <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Releases resources used by the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Rilascia le risorse usate dal <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Releases resources used by the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Rilascia le risorse usate dal <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Boolean.</source>
+          <target state="translated">Valore booleano.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> releases both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> releases only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Rilascia le risorse gestite e non gestite. <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> versioni solo le risorse non gestite.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are no non-blank, non-comment lines between the current cursor position and the end of the file.</source>
+          <target state="translated">Restituisce <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se non esistono alcun non vuoto, non di commento le righe tra la posizione corrente del cursore e la fine del file.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property can be used when reading from files to determine the end of the data being read.</source>
+          <target state="translated">Questa proprietà può essere utilizzata durante la lettura da file per determinare la fine dei dati da leggere.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`EndOfData`</ph> property.</source>
+          <target state="translated">Nella tabella seguente sono elencati esempi di attività che coinvolgono la <ph id="ph1">`EndOfData`</ph> proprietà.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|To|See|   |--------|---------|   |Read from a delimited file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">| Per | Vedere |   |--------|---------|   | Leggere da un file delimitato | <bpt id="p1">[</bpt>Procedura: leggere file di testo delimitato da virgole<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   | Leggere da un file a larghezza fissa | <bpt id="p2">[</bpt>Procedura: leggere file di testo a larghezza fissa<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no more data to read; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se non sono presenti ulteriori dati da leggere. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Returns the line that caused the most recent <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> exception.</source>
+          <target state="translated">Restituisce la riga che ha causato la più recente <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eccezione.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no &lt;xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt; exceptions have been thrown, an empty string is returned.</source>
+          <target state="translated">Se non &lt;xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt;sono state generate eccezioni, viene restituita una stringa vuota.&lt;/xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLineNumber%2A&gt; property can be used to display the number of the line that caused the exception.</source>
+          <target state="translated">Il &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLineNumber%2A&gt;proprietà può essere utilizzata per visualizzare il numero della riga che ha causato l'eccezione.&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLineNumber%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`ErrorLine`</ph> property.</source>
+          <target state="translated">Nella tabella seguente sono elencati esempi di attività che coinvolgono la <ph id="ph1">`ErrorLine`</ph> proprietà.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|To|See|   |--------|---------|   |Read from a delimited file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">| Per | Vedere |   |--------|---------|   | Leggere da un file delimitato | <bpt id="p1">[</bpt>Procedura: leggere file di testo delimitato da virgole<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   | Leggere da un file a larghezza fissa | <bpt id="p2">[</bpt>Procedura: leggere file di testo a larghezza fissa<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The line that caused the most recent <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> exception.</source>
+          <target state="translated">La riga che ha causato la più recente <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eccezione.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Returns the number of the line that caused the most recent <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> exception.</source>
+          <target state="translated">Restituisce il numero di riga che ha causato la più recente <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eccezione.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no &lt;xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt; exceptions have been thrown, -1 is returned.</source>
+          <target state="translated">Se non &lt;xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt;sono state generate eccezioni, viene restituito -1.&lt;/xref:Microsoft.VisualBasic.FileIO.MalformedLineException&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLine%2A&gt; property can be used to display the number of the line that caused the exception.</source>
+          <target state="translated">Il &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLine%2A&gt;proprietà può essere utilizzata per visualizzare il numero della riga che ha causato l'eccezione.&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.ErrorLine%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Blank lines and comments are not ignored when determining the line number.</source>
+          <target state="translated">Righe vuote e commenti non vengono ignorati quando si determina il numero di riga.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`ErrorLineNumber`</ph> property.</source>
+          <target state="translated">Nella tabella seguente sono elencati esempi di attività che coinvolgono la <ph id="ph1">`ErrorLineNumber`</ph> proprietà.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|To|See|   |--------|---------|   |Read from a delimited file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">| Per | Vedere |   |--------|---------|   | Leggere da un file delimitato | <bpt id="p1">[</bpt>Procedura: leggere file di testo delimitato da virgole<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   | Leggere da un file a larghezza fissa | <bpt id="p2">[</bpt>Procedura: leggere file di testo a larghezza fissa<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The number of the line that caused the most recent <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> exception.</source>
+          <target state="translated">Il numero di riga che ha causato la più recente <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.MalformedLineException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eccezione.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Denotes the width of each column in the text file being parsed.</source>
+          <target state="translated">Indica la larghezza di ogni colonna nel file di testo da analizzare.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is meaningful only if the &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt; property is set to <ph id="ph1">`FieldType.FixedWidth`</ph>.</source>
+          <target state="translated">Questa proprietà è significativa solo se il &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt;è impostata su <ph id="ph1">`FieldType.FixedWidth`</ph>.&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.TextFieldType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the last entry in the array is less than or equal to zero, the field is assumed to be of variable width.</source>
+          <target state="translated">Se l'ultima voce nella matrice è minore o uguale a zero, si presuppone che il campo di larghezza variabile.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetFieldWidths%2A&gt; method can also be used to set field widths.</source>
+          <target state="translated">Il &lt;xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetFieldWidths%2A&gt;metodo può essere utilizzato anche per impostare le larghezze dei campi.&lt;/xref:Microsoft.VisualBasic.FileIO.TextFieldParser.SetFieldWidths%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`FieldWidths`</ph> property.</source>
+          <target state="translated">Nella tabella seguente sono elencati esempi di attività che coinvolgono la <ph id="ph1">`FieldWidths`</ph> proprietà.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|To|See|   |--------|---------|   |Read from a fixed-width text file|<bpt id="p1">[</bpt>How to: Read From Fixed-width Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">| Per | Vedere |   |--------|---------|   | Leggere da un file di testo a larghezza fissa | <bpt id="p1">[</bpt>Procedura: leggere file di testo a larghezza fissa<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An integer array that contains the width of each column in the text file that is being parsed.</source>
+          <target state="translated">Matrice di interi che contiene la larghezza di ogni colonna nel file di testo da analizzare.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A width value in any location other than the last entry of the array is less than or equal to zero.</source>
+          <target state="translated">Un valore di larghezza in qualsiasi posizione diversa da quella precedente della matrice è minore o uguale a zero.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Allows the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to attempt to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</source>
+          <target state="translated">Consente di <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.FileIO.TextFieldParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto di tentare di liberare risorse ed eseguire altre operazioni di pulizia prima che venga recuperato da garbage collection.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Denotes whether fields are enclosed in quotation marks when a delimited file is being parsed.</source>
+          <target state="translated">Indica se i campi sono racchiusi tra virgolette quando un file delimitato viene analizzato.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is an advanced member; it does not show in IntelliSense unless you click the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> tab.</source>
+          <target state="translated">Si tratta di un membro avanzato. non è visibile in IntelliSense a meno che non si fa clic su di <bpt id="p1">**</bpt>tutti<ept id="p1">**</ept> scheda.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the property is <ph id="ph1">`True`</ph>, the parser assumes that fields are enclosed in quotation marks (" ") and may contain line endings.</source>
+          <target state="translated">Se la proprietà è <ph id="ph1">`True`</ph>, il parser si presuppone che i campi sono racchiusi tra virgolette ("") e possono contenere terminazioni di riga.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a field is enclosed in quotation marks, for example, <ph id="ph1">`abc, "field2a,field2b", field3`</ph> and this property is <ph id="ph2">`True`</ph>, then all text enclosed in quotation marks will be returned as is; this example would return <ph id="ph3">`abc|field2a,field2b|field3`</ph>.</source>
+          <target state="translated">Se un campo è racchiuso tra virgolette, ad esempio, <ph id="ph1">`abc, "field2a,field2b", field3`</ph> e questa proprietà è <ph id="ph2">`True`</ph>, quindi verrà restituito tutto il testo racchiuso tra virgolette come; in questo esempio restituirebbe <ph id="ph3">`abc|field2a,field2b|field3`</ph>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property to <ph id="ph1">`False`</ph> would make this example return <ph id="ph2">`abc|"field2a|field2b"|field3`</ph>.</source>
+          <target state="translated">Impostando questa proprietà su <ph id="ph1">`False`</ph> renderebbe in questo esempio viene restituito <ph id="ph2">`abc|"field2a|field2b"|field3`</ph>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if fields are enclosed in quotation marks; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se i campi sono racchiusi tra virgolette. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Returns the current line number, or returns -1 if no more characters are available in the stream.</source>
+          <target state="translated">Restituisce il numero di riga corrente o restituisce -1 se non sono altri caratteri disponibili nel flusso.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is an advanced member; it does not show in IntelliSense unless you click the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> tab.</source>
+          <target state="translated">Si tratta di un membro avanzato. non è visibile in IntelliSense a meno che non si fa clic su di <bpt id="p1">**</bpt>tutti<ept id="p1">**</ept> scheda.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Blank lines and comments are not ignored when determining the line number.</source>
+          <target state="translated">Righe vuote e commenti non vengono ignorati quando si determina il numero di riga.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The current line number.</source>
+          <target state="translated">Numero di riga corrente.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Reads the specified number of characters without advancing the cursor.</source>
+          <target state="translated">Legge il numero specificato di caratteri senza far avanzare il cursore.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`numberOfChars`</ph> value must be less than the total number of characters in the line.</source>
+          <target state="translated">Il <ph id="ph1">`numberOfChars`</ph> valore deve essere minore del numero totale di caratteri nella riga.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is not, the string returned by <ph id="ph1">`PeekChars`</ph> will be truncated to the length of the line.</source>
+          <target state="translated">In caso contrario, la stringa restituita da <ph id="ph1">`PeekChars`</ph> verrà troncata alla lunghezza della riga.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Blank lines are ignored.</source>
+          <target state="translated">Le righe vuote vengono ignorate.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>End-of-line characters are not returned.</source>
+          <target state="translated">Non vengono restituiti i caratteri di fine della riga.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`PeekChars`</ph> method performs no parsing; an end-of- line character within a delimited field is interpreted as the actual end of the line.</source>
+          <target state="translated">Il <ph id="ph1">`PeekChars`</ph> metodo non esegue alcuna analisi; un carattere di fine della riga all'interno di un campo delimitato viene interpretato come l'effettiva di fine della riga.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`PeekChars`</ph> method.</source>
+          <target state="translated">Nella tabella seguente sono elencati esempi di attività che coinvolgono la <ph id="ph1">`PeekChars`</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|To|See|   |--------|---------|   |Determine the format of a field before parsing it|<bpt id="p1">[</bpt>How to: Read From Text Files with Multiple Formats<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">| Per | Vedere |   |--------|---------|   | Determinare il formato di un campo prima di analizzarlo | <bpt id="p1">[</bpt>Procedura: leggere file di testo con più formati<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Int32" name="Int32" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Int32" name="Int32" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Number of characters to read.</source>
+          <target state="translated">Numero di caratteri da leggere.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">Obbligatorio.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>A string that contains the specified number of characters read.</source>
+          <target state="translated">Stringa che contiene il numero specificato di caratteri letti.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;numberOfChars&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;numberOfChars&lt;/code&gt;</ph>è minore di 0.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Reads all fields on the current line, returns them as an array of strings, and advances the cursor to the next line containing data.</source>
+          <target state="translated">Legge tutti i campi nella riga corrente, li restituisce come una matrice di stringhe e sposta il cursore alla riga successiva contenente dati.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to allow users to parse text files in multiple formats, the <ph id="ph1">`ReadFields`</ph> method examines the values of <ph id="ph2">`TextFieldType`</ph>, <ph id="ph3">`Delimiters`</ph>, and <ph id="ph4">`FieldWidths`</ph>, if they are specified, each time it is called.</source>
+          <target state="translated">Per consentire agli utenti di analizzare i file di testo in più formati, le <ph id="ph1">`ReadFields`</ph> metodo esamina i valori di <ph id="ph2">`TextFieldType`</ph>, <ph id="ph3">`Delimiters`</ph>, e <ph id="ph4">`FieldWidths`</ph>, se vengono specificati, ogni volta che viene chiamato.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users need to correctly configure the <ph id="ph1">`TextFieldType`</ph> and <ph id="ph2">`FieldWidths`</ph> or <ph id="ph3">`Delimiters`</ph> properties, as appropriate.</source>
+          <target state="translated">Gli utenti devono configurare correttamente il <ph id="ph1">`TextFieldType`</ph> e <ph id="ph2">`FieldWidths`</ph> o <ph id="ph3">`Delimiters`</ph> proprietà, come appropriato.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`TextFieldType`</ph> is set to <ph id="ph2">`Delimited`</ph>, and <ph id="ph3">`Delimiters`</ph> is not set, or if <ph id="ph4">`TextFieldType`</ph> is set to <ph id="ph5">`FixedWidth`</ph> and <ph id="ph6">`FieldWidths`</ph>, an exception is thrown.</source>
+          <target state="translated">Se <ph id="ph1">`TextFieldType`</ph> è impostato su <ph id="ph2">`Delimited`</ph>, e <ph id="ph3">`Delimiters`</ph> non è impostata, o se <ph id="ph4">`TextFieldType`</ph> è impostato su <ph id="ph5">`FixedWidth`</ph> e <ph id="ph6">`FieldWidths`</ph>, viene generata un'eccezione.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`ReadFields`</ph> encounters blank lines, they are skipped and the next non-blank line is returned.</source>
+          <target state="translated">Se <ph id="ph1">`ReadFields`</ph> rileva le righe vuote, esse verranno ignorate e viene restituita la successiva riga non vuota.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`ReadFields`</ph> method cannot parse the current line, it raises an exception and does not move to the next line.</source>
+          <target state="translated">Se il <ph id="ph1">`ReadFields`</ph> (metodo) non è possibile analizzare la riga corrente, viene generata un'eccezione e non si sposta alla riga successiva.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This enables your application to attempt to parse the line again.</source>
+          <target state="translated">In questo modo l'applicazione tentare di analizzare nuovamente la riga.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`ReadFields`</ph> method.</source>
+          <target state="translated">Nella tabella seguente sono elencati esempi di attività che coinvolgono la <ph id="ph1">`ReadFields`</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|To|See|   |--------|---------|   |Read from a delimited file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">| Per | Vedere |   |--------|---------|   | Leggere da un file delimitato | <bpt id="p1">[</bpt>Procedura: leggere file di testo delimitato da virgole<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   | Leggere da un file a larghezza fissa | <bpt id="p2">[</bpt>Procedura: leggere file di testo a larghezza fissa<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>An array of strings that contains field values for the current line.</source>
+          <target state="translated">Matrice di stringhe contenente i valori dei campi per la riga corrente.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>A field cannot be parsed by using the specified format.</source>
+          <target state="translated">Un campo non può essere analizzato utilizzando il formato specificato.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Returns the current line as a string and advances the cursor to the next line.</source>
+          <target state="translated">Restituisce la riga corrente come stringa e fa avanzare il cursore alla riga successiva.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`ReadLine`</ph> method performs no parsing; an end-of-line character within a delimited field is interpreted as the actual end of the line.</source>
+          <target state="translated">Il <ph id="ph1">`ReadLine`</ph> metodo non esegue alcuna analisi; un carattere di fine della riga all'interno di un campo delimitato viene interpretato come l'effettiva di fine della riga.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Nothing`</ph> is returned if the end of the file is reached.</source>
+          <target state="translated"><ph id="ph1">`Nothing`</ph>viene restituito se viene raggiunta la fine del file.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The current line from the file or stream.</source>
+          <target state="translated">La riga corrente dal flusso o file.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Reads the remainder of the text file and returns it as a string.</source>
+          <target state="translated">Legge il resto del file di testo e lo restituisce come stringa.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is an advanced member; it does not show in IntelliSense unless you click the <bpt id="p1">**</bpt>All<ept id="p1">**</ept> tab.</source>
+          <target state="translated">Si tratta di un membro avanzato. non è visibile in IntelliSense a meno che non si fa clic su di <bpt id="p1">**</bpt>tutti<ept id="p1">**</ept> scheda.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is nothing more to read because the end of the file has been reached, <ph id="ph1">`Nothing`</ph> is returned.</source>
+          <target state="translated">Se non vi sono altre per la lettura perché è stata raggiunta la fine del file, <ph id="ph1">`Nothing`</ph> viene restituito.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`ReadToEnd`</ph> method does not ignore blank lines and comments.</source>
+          <target state="translated">Il <ph id="ph1">`ReadToEnd`</ph> metodo ignora le righe vuote e commenti.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The remaining text from the file or stream.</source>
+          <target state="translated">Il testo rimanente dal flusso o file.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Sets the delimiters for the reader to the specified values, and sets the field type to <bpt id="p1">&lt;xref uid="langword_csharp_Delimited" name="Delimited" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Imposta i delimitatori per il lettore sui valori specificati e imposta il tipo di campo <bpt id="p1">&lt;xref uid="langword_csharp_Delimited" name="Delimited" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The existing contents of the <ph id="ph1">`Delimiters`</ph> property are cleared when this method is set.</source>
+          <target state="translated">Il contenuto esistente della <ph id="ph1">`Delimiters`</ph> proprietà vengono cancellati quando questo metodo è impostato.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides a way to set delimiters without creating an array.</source>
+          <target state="translated">Questo metodo consente di impostare i delimitatori senza creare una matrice.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists an example of a task involving the <ph id="ph1">`SetDelimiters`</ph> method.</source>
+          <target state="translated">La tabella seguente elenca un esempio di un'attività che coinvolgono la <ph id="ph1">`SetDelimiters`</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|To|See|   |--------|---------|   |Parse a text file|<bpt id="p1">[</bpt>Parsing Text Files with the TextFieldParser Object<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">| Per | Vedere |   |--------|---------|   | Analizzare un file di testo | <bpt id="p1">[</bpt>Analisi dei file di testo con l'oggetto TextFieldParser<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Array of type <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Matrice di tipo <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A delimiter is zero-length.</source>
+          <target state="translated">Un delimitatore è di lunghezza zero.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Sets the delimiters for the reader to the specified values.</source>
+          <target state="translated">Imposta i delimitatori per il lettore sui valori specificati.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The existing contents of the <ph id="ph1">`Delimiters`</ph> property are cleared when this is set.</source>
+          <target state="translated">Il contenuto esistente della <ph id="ph1">`Delimiters`</ph> proprietà vengono cancellati quando è impostata.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides a way to set delimiters without creating an array.</source>
+          <target state="translated">Questo metodo consente di impostare i delimitatori senza creare una matrice.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists example of tasks involving the <ph id="ph1">`SetFieldWidths`</ph> method.</source>
+          <target state="translated">Nella tabella seguente sono elencati esempi di attività che coinvolgono la <ph id="ph1">`SetFieldWidths`</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|To|See|   |--------|---------|   |Parse a text file.|<bpt id="p1">[</bpt>Parsing Text Files with the TextFieldParser Object<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">| Per | Vedere |   |--------|---------|   | Analizzare un file di testo. | <bpt id="p1">[</bpt>Analisi dei file di testo con l'oggetto TextFieldParser<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Array of <bpt id="p1">&lt;xref uid="langword_csharp_Integer" name="Integer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Array of <bpt id="p1">&lt;xref uid="langword_csharp_Integer" name="Integer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Indicates whether the file to be parsed is delimited or fixed-width.</source>
+          <target state="translated">Indica se il file da analizzare è delimitato o a larghezza fissa.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value of this property is delimited.</source>
+          <target state="translated">Il valore predefinito di questa proprietà è delimitato.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists examples of tasks involving the <ph id="ph1">`TextFieldType`</ph> property.</source>
+          <target state="translated">Nella tabella seguente sono elencati esempi di attività che coinvolgono la <ph id="ph1">`TextFieldType`</ph> proprietà.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|To|See|   |--------|---------|   |Read from a delimited text file|<bpt id="p1">[</bpt>How to: Read From Comma-Delimited Text Files<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a fixed-width text file|<bpt id="p2">[</bpt>How to: Read From Fixed-width Text Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>|   |Read from a text file with multiple formats|<bpt id="p3">[</bpt>How to: Read From Text Files with Multiple Formats<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></source>
+          <target state="translated">| Per | Vedere |   |--------|---------|   | Leggere da un file di testo delimitato | <bpt id="p1">[</bpt>Procedura: leggere file di testo delimitato da virgole<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>|   | Leggere da un file di testo a larghezza fissa | <bpt id="p2">[</bpt>Procedura: leggere file di testo a larghezza fissa<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>|   | Leggere da un file di testo con più formati | <bpt id="p3">[</bpt>Procedura: leggere file di testo con più formati<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">|</ph></target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A TextFieldType value that indicates whether the file to be parsed is delimited or fixed-width.</source>
+          <target state="translated">Valore TextFieldType che indica se il file da analizzare è delimitato o a larghezza fissa.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Indicates whether leading and trailing white space should be trimmed from field values.</source>
+          <target state="translated">Indica se gli spazi vuoti iniziali e finali devono essere tagliati dai valori di campo.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for this property is <ph id="ph1">`True`</ph>.</source>
+          <target state="translated">Il valore predefinito per questa proprietà è <ph id="ph1">`True`</ph>.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if leading and trailing white space should be trimmed from field values; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se spazi vuoti iniziali e finali devono essere tagliati dai valori dei campi. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

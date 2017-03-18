@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a0c6122becb7195b14129a88b1fee42ba8bc0614</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.DefaultSettingValueAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a6e59d752f8933b6f5c80f9ee069993d496fc297</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6681d1ebda5430b3882b272caa288ea595ba7ba8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the default value for an application settings property.</source>
+          <target state="translated">Specifica il valore predefinito per una proprietà delle impostazioni dell'applicazione.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  DefaultSettingValueAttribute can only be applied to individual settings properties; it is invalid to apply this attribute to an entire application settings class.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; DefaultSettingValueAttribute può essere applicato solo alle proprietà delle singole impostazioni. non è possibile applicare questo attributo a una classe di impostazioni intera applicazione.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Different settings providers may have different requirements or limitations on the use of the DefaultSettingValueAttribute.</source>
+          <target state="translated">Provider di impostazioni diverse potrebbero avere requisiti diversi o limitazioni sull'utilizzo del DefaultSettingValueAttribute.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Configuration.LocalFileSettingsProvider&gt; does not require this attribute, and will override any value provided by this attribute if there are any values—default or user-modified— already present in the data store.</source>
+          <target state="translated">Ad esempio, il &lt;xref:System.Configuration.LocalFileSettingsProvider&gt;non richiede questo attributo e ignorerà qualsiasi valore fornito da questo attributo se sono presenti tutti i valori: default o modificati dall'utente: già presente nell'archivio dati.&lt;/xref:System.Configuration.LocalFileSettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DefaultSettingValueAttribute requires that the default value can be represented as a string.</source>
+          <target state="translated">DefaultSettingValueAttribute richiede che il valore predefinito può essere rappresentato come stringa.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a result, settings using XML serialization cannot have a default value specified by means of this attribute.</source>
+          <target state="translated">Di conseguenza, le impostazioni mediante la serializzazione XML non possono avere un valore predefinito specificato tramite questo attributo.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some providers may choose to support multiple serialization schemes which can be specified at compile time using the &lt;xref:System.Configuration.SettingsSerializeAsAttribute&gt;.</source>
+          <target state="translated">Alcuni provider possono scegliere di supportare più schemi di serializzazione che possono essere specificati in fase di compilazione utilizzando &lt;xref:System.Configuration.SettingsSerializeAsAttribute&gt;.&lt;/xref:System.Configuration.SettingsSerializeAsAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  The default values specified by this attribute are stored as plain text in the resultant compiled .exe or .dll file.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; I valori predefiniti specificati da questo attributo vengono archiviati come testo normale nel file .exe o dll compilato risulta.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore these default values are inherently insecure.</source>
+          <target state="translated">Di conseguenza, questi valori predefiniti sono intrinsecamente non sicuri.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes an instance of the <bpt id="p1">&lt;xref href="System.Configuration.DefaultSettingValueAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza un'istanza di <bpt id="p1">&lt;xref href="System.Configuration.DefaultSettingValueAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The supplied string must be a value that is compatible with the available serialization mechanism associated with the property type.</source>
+          <target state="translated">La stringa specificata deve essere un valore che è compatibile con il meccanismo di serializzazione disponibili associato al tipo di proprietà.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the property is of type &lt;xref:System.Drawing.Color&gt;, then a <ph id="ph1">`value`</ph> of <ph id="ph2">`"Azure"`</ph> would be valid.</source>
+          <target state="translated">Ad esempio, se la proprietà è di tipo &lt;xref:System.Drawing.Color&gt;, quindi un <ph id="ph1">`value`</ph> di <ph id="ph2">`"Azure"`</ph> sarà valido.&lt;/xref:System.Drawing.Color&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  The default values specified by this attribute are stored as plain text in the resultant compiled .exe or .dll file.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; I valori predefiniti specificati da questo attributo vengono archiviati come testo normale nel file .exe o dll compilato risulta.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore these default values are inherently insecure.</source>
+          <target state="translated">Di conseguenza, questi valori predefiniti sono intrinsecamente non sicuri.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that represents the default value for the property.</source>
+          <target state="translated">Oggetto &lt;xref:System.String&gt;che rappresenta il valore predefinito per la proprietà.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets the default value for the application settings property.</source>
+          <target state="translated">Ottiene il valore predefinito per la proprietà delle impostazioni dell'applicazione.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Value property is set in the &lt;xref:System.Configuration.DefaultSettingValueAttribute.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">Il valore di proprietà è impostato nel &lt;xref:System.Configuration.DefaultSettingValueAttribute.%23ctor%2A&gt;costruttore.&lt;/xref:System.Configuration.DefaultSettingValueAttribute.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting providers may support multiple serialization schemes that can be specified with the &lt;xref:System.Configuration.SettingsSerializeAsAttribute&gt;.</source>
+          <target state="translated">Provider di impostazioni possono supportare più schemi di serializzazione che possono essere specificati con &lt;xref:System.Configuration.SettingsSerializeAsAttribute&gt;.&lt;/xref:System.Configuration.SettingsSerializeAsAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that represents the default value for the property.</source>
+          <target state="translated">Oggetto &lt;xref:System.String&gt;che rappresenta il valore predefinito per la proprietà.&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
