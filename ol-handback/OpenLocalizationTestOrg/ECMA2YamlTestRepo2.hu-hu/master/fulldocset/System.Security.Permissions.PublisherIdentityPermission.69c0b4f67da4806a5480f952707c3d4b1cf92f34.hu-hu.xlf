@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">348b5c3711e610eb848c0d47b2411c0c6ee2499f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Permissions.PublisherIdentityPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14633571c543604cb3ceb64e504e87024af533ef</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e266256d4b0336185ff7459a664fdc5cec8472d1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the identity of a software publisher.</source>
+          <target state="translated">Egy szoftverközzétevő identitásának jelöli.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Ez az osztály nem örökölhető.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  Starting with the <ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, identity permissions are not used.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; Kezdve a <ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, az azonosító engedélyek nem használhatók.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  In the .NET Framework versions 1.0 and 1.1, identity permissions cannot have an &lt;xref:System.Security.Permissions.PermissionState&gt; permission state value.</source>
+          <target state="translated">&gt;&gt; Verzióban a .NET-keretrendszer 1.0 és 1.1, az azonosító engedélyek nem lehet egy &lt;xref:System.Security.Permissions.PermissionState&gt;engedély állapotérték.&lt;/xref:System.Security.Permissions.PermissionState&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting with the .NET Framework version 2.0, identity permissions can have any permission state value.</source>
+          <target state="translated">Kezdve a .NET-keretrendszer 2.0-s verzióját, az azonosító engedélyek bármilyen engedéllyel állapot értéke lehet.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that in 2.0 and later versions, identity permissions have the same behavior as permissions that implement the &lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt; interface.</source>
+          <target state="translated">Ez azt jelenti, hogy a 2.0-s és újabb verziókban az azonosító engedélyek, amelyek megvalósítják az engedélyek megegyező viselkedést a &lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt;felületet.&lt;/xref:System.Security.Permissions.IUnrestrictedPermission&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a demand for an identity always succeeds, regardless of the identity of the assembly, if the assembly has been granted full trust.</source>
+          <target state="translated">Ez azt jelenti, hogy mindig identitást kér sikeres, függetlenül a szerelvény identitása, ha a szerelvény rendelkezik teljes megbízhatóság.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  In the .NET Framework versions 1.0 and 1.1, demands on the identity permissions are effective, even when the calling assembly is fully trusted.</source>
+          <target state="translated">&gt;&gt; Verzióban a .NET-keretrendszer 1.0 és 1.1 az azonosító engedélyek iránti igény hatékonyak, ha a hívó szerelvény teljesen megbízható.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, although the calling assembly has full trust, a demand for an identity permission fails if the assembly does not meet the demanded criteria.</source>
+          <target state="translated">Ez azt jelenti, hogy bár a hívó szerelvény teljes megbízhatósági kapcsolattal rendelkezik, az identitás engedélyt kér sikertelen lesz, ha a szerelvény nem felel meg az igényelt feltételeknek.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting with the .NET Framework version 2.0, demands for identity permissions are ineffective if the calling assembly has full trust.</source>
+          <target state="translated">A .NET-keretrendszer 2.0-s verziójának verziótól kezdődően az azonosító engedélyek terhelése hatástalan, ha a hívó szerelvény teljes megbízhatósági kapcsolattal rendelkezik.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This assures consistency for all permissions, eliminating the treatment of identity permissions as a special case.</source>
+          <target state="translated">Ez biztosítja, hogy az összes engedélyt, így kiküszöböli az azonosító engedélyek kezelésére, egy különleges esetben konzisztencia.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  By default, code access security does not check for &lt;xref:System.Security.Policy.Publisher&gt; evidence.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alapértelmezés szerint kódelérés-biztonsági nem ellenőrzi az &lt;xref:System.Security.Policy.Publisher&gt;tanúsítás.&lt;/xref:System.Security.Policy.Publisher&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unless your computer has a custom code group based on the &lt;xref:System.Security.Policy.PublisherMembershipCondition&gt; class, you can improve performance by bypassing Authenticode signature verification.</source>
+          <target state="translated">Kivéve, ha a számítógépen van egy egyéni kód csoportot alapján a &lt;xref:System.Security.Policy.PublisherMembershipCondition&gt;osztály, akkor a jobb teljesítmény érdekében az Authenticode aláírás ellenőrzésének mellőzése.&lt;/xref:System.Security.Policy.PublisherMembershipCondition&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is accomplished by configuring the runtime to not provide &lt;xref:System.Security.Policy.Publisher&gt; evidence for code access security.</source>
+          <target state="translated">Ez úgy konfigurálja a futtatókörnyezetet nem érhető el &lt;xref:System.Security.Policy.Publisher&gt;a kódelérés-biztonsági bizonyító adatok.&lt;/xref:System.Security.Policy.Publisher&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to configure this option and which applications can use it, see the  element.</source>
+          <target state="translated">Ezt a beállítást, és amelyek konfigurálásával kapcsolatos további információk az alkalmazások használják, tekintse meg az elem.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PublisherIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified Authenticode X.509v3 certificate.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Permissions.PublisherIdentityPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott Authenticode X.509v3 tanúsítványt.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The X.509 certificate defines the identity of the specified software publisher, as established by Authenticode code signing.</source>
+          <target state="translated">Az X.509 tanúsítvány identitását a megadott software publisher használatát, határozza meg, által Authenticode kód aláírása.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An X.509 certificate representing the software publisher's identity.</source>
+          <target state="translated">Egy X.509 tanúsítvány, a szoftvergyártó identitás jelző.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid certificate.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">certificate</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nem egy érvényes tanúsítványt.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PublisherIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Permissions.PublisherIdentityPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és a megadott osztály <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates either a fully restricted (<ph id="ph1">`None`</ph>) or <ph id="ph2">`Unrestricted`</ph> permission.</source>
+          <target state="translated">Létrehozza vagy egy teljes mértékben korlátozott (<ph id="ph1">`None`</ph>) vagy <ph id="ph2">`Unrestricted`</ph> engedéllyel.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In the .NET Framework versions 1.0 and 1.1, identity permissions cannot have an &lt;xref:System.Security.Permissions.PermissionState&gt; permission state value.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A .NET Framework 1.0 és 1.1-es verzió, az azonosító engedélyek nem lehet egy &lt;xref:System.Security.Permissions.PermissionState&gt;engedély állapotérték.&lt;/xref:System.Security.Permissions.PermissionState&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting with the .NET Framework version 2.0, identity permissions can have any permission state value.</source>
+          <target state="translated">Kezdve a .NET-keretrendszer 2.0-s verzióját, az azonosító engedélyek bármilyen engedéllyel állapot értéke lehet.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that in 2.0 and later versions, identity permissions have the same behavior as permissions that implement the &lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt; interface.</source>
+          <target state="translated">Ez azt jelenti, hogy a 2.0-s és újabb verziókban az azonosító engedélyek, amelyek megvalósítják az engedélyek megegyező viselkedést a &lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt;felületet.&lt;/xref:System.Security.Permissions.IUnrestrictedPermission&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a demand for an identity always succeeds, regardless of the identity of the assembly, if the assembly has been granted full trust.</source>
+          <target state="translated">Ez azt jelenti, hogy mindig identitást kér sikeres, függetlenül a szerelvény identitása, ha a szerelvény rendelkezik teljes megbízhatóság.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the .NET Framework versions 1.0 and 1.1, demands on the identity permissions are effective, even when the calling assembly is fully trusted.</source>
+          <target state="translated">A .NET-keretrendszer verzióiban 1.0 és 1.1 az azonosító engedélyek iránti igény érvényben, akkor is, ha a hívó szerelvény teljesen megbízható.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, although the calling assembly has full trust, a demand for an identity permission fails if the assembly does not meet the demanded criteria.</source>
+          <target state="translated">Ez azt jelenti, hogy bár a hívó szerelvény teljes megbízhatósági kapcsolattal rendelkezik, az identitás engedélyt kér sikertelen lesz, ha a szerelvény nem felel meg az igényelt feltételeknek.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting with the .NET Framework version 2.0, demands for identity permissions are ineffective if the calling assembly has full trust.</source>
+          <target state="translated">A .NET-keretrendszer 2.0-s verziójának verziótól kezdődően az azonosító engedélyek terhelése hatástalan, ha a hívó szerelvény teljes megbízhatósági kapcsolattal rendelkezik.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This assures consistency for all permissions, eliminating the treatment of identity permissions as a special case.</source>
+          <target state="translated">Ez biztosítja, hogy az összes engedélyt, így kiküszöböli az azonosító engedélyek kezelésére, egy különleges esetben konzisztencia.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékeket.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">state</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter értéke nem érvényes <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets an Authenticode X.509v3 certificate that represents the identity of the software publisher.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy Authenticode X.509v3 tanúsítványt, hogy a software publisher identitásának jelöli.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An X.509 certificate representing the identity of the software publisher.</source>
+          <target state="translated">Egy X.509 tanúsítvány a software publisher identitásának jelző.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The Certificate is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A tanúsítvány <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Certificate is not a valid certificate.</source>
+          <target state="translated">A tanúsítvány nincs érvényes tanúsítvány.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The property cannot be set because the identity is ambiguous.</source>
+          <target state="translated">A tulajdonság nem állítható be, mert az identitás nem egyértelmű.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Creates and returns an identical copy of the current permission.</source>
+          <target state="translated">Hoz létre, és egy az aktuális engedély azonos másolatát adja vissza.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A copy of a permission represents the same access to resources as the original permission.</source>
+          <target state="translated">Az engedély másolatot ugyanazokkal a hozzáférési erőforrások eredeti engedélyt jelöli.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A copy of the current permission.</source>
+          <target state="translated">Az aktuális engedély másolatát.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Reconstructs a permission with a specified state from an XML encoding.</source>
+          <target state="translated">Az XML-kódolás a megadott állapotú engedély Rekonstruálja.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The XML encoding to use to reconstruct the permission.</source>
+          <target state="translated">Az XML-hozza létre újból az engedély használandó kódolás.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid permission element.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">esd</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nem érvényes engedélyelem.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter's version number is not valid.</source>
+          <target state="translated">– vagy – a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">esd</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter verziószáma érvénytelen.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Creates and returns a permission that is the intersection of the current permission and the specified permission.</source>
+          <target state="translated">Hoz létre, és adja vissza, amely az aktuális engedély és a megadott engedéllyel engedély.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The intersection of two permissions is a permission that describes the set of operations they both describe in common.</source>
+          <target state="translated">Két engedélyek metszetét, amely ismerteti a műveletek mindkét leírják közös engedély.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only a demand that passes both original permissions will pass the intersection.</source>
+          <target state="translated">Csak egy igény szerinti mindkét eredeti engedélyt kapott metszetének sikeres lesz.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt; only supports set operations (&lt;xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt;, Intersect, and &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt;) when the current permission is equal to the specified permission.</source>
+          <target state="translated">&lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt;támogat beállítása műveletek (&lt;xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt;, Intersect, és &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt;) Ha az aktuális engedély megegyezik a megadott engedélyt.&lt;/xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt; &lt;/xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt;&lt;/xref:System.Security.Permissions.PublisherIdentityPermission&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A permission to intersect with the current permission.</source>
+          <target state="translated">Az aktuális engedéllyel rendelkező intersect engedély.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">Az aktuális engedélyt a azonos típusúnak kell lennie.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the intersection of the current permission and the specified permission.</source>
+          <target state="translated">Új engedéllyel, amely jelöli az aktuális engedély és a megadott engedélyt.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This new permission is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the intersection is empty.</source>
+          <target state="translated">Ez az új engedély <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha metszetének üres.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nem <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> , és nem ugyanabba a típusba tartozik, mint az aktuális engedély.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Determines whether the current permission is a subset of the specified permission.</source>
+          <target state="translated">Meghatározza, hogy az aktuális engedély a megadott engedéllyel egy részét.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current permission is a subset of the specified permission if the two permissions are equal.</source>
+          <target state="translated">Az aktuális engedély alkészlete a megadott engedély, ha a két engedélyek egyenlő.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method returns <ph id="ph1">`true`</ph>, the current permission represents the same access to the protected resource as the specified permission.</source>
+          <target state="translated">Ez a metódus visszatérési értéke <ph id="ph1">`true`</ph>, az aktuális engedély ugyanazokkal a hozzáférési jelenti. a védett erőforráshoz megadott engedélyt.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt; supports set operations (IsSubsetOf, &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt;, and &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt;) only when the current permission is equal to the specified permission.</source>
+          <target state="translated">&lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt;által támogatott műveleteket beállítása (IsSubsetOf, &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt;, és &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt;) csak ha az aktuális engedély megegyezik a megadott engedélyt.&lt;/xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt; &lt;/xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt;&lt;/xref:System.Security.Permissions.PublisherIdentityPermission&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A permission that is to be tested for the subset relationship.</source>
+          <target state="translated">Egy engedély, amely a részhalmaza kapcsolat tesztelése.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This permission must be of the same type as the current permission.</source>
+          <target state="translated">Ezt az engedélyt az aktuális engedélyt a azonos típusúnak kell lennie.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current permission is a subset of the specified permission; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az aktuális engedély alkészlete a megadott engedéllyel; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nem <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> , és nem ugyanabba a típusba tartozik, mint az aktuális engedély.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Creates an XML encoding of the permission and its current state.</source>
+          <target state="translated">Létrehoz egy XML-kódolás engedély és a jelenlegi állapotában.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>An XML encoding of the permission, including any state information.</source>
+          <target state="translated">Az XML-kódolás az engedély, beleértve a semmilyen állapotra vonatkozó információt.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Creates a permission that is the union of the current permission and the specified permission.</source>
+          <target state="translated">Hoz létre, amely az aktuális engedély és a megadott engedéllyel az Unió engedély.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result of a call to the Union method is a permission that represents all the operations represented by both the current permission and the specified permission.</source>
+          <target state="translated">A "union" metódus eredménye jelölt összes műveletet képviselő egy engedély az aktuális engedély és a megadott engedéllyel is.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any demand that passes either permission passes their union.</source>
+          <target state="translated">Bármely igény szerint vagy engedélyt kapott az Unió továbbítja.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt; class only supports set operations (&lt;xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt;, &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt;, and Union) when the current permission is equal to the specified permission.</source>
+          <target state="translated">A &lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt;osztály csak támogatja a set-műveleteket (&lt;xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt;, &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt;, és a "union") Ha az aktuális engedély megegyezik a megadott engedélyt.&lt;/xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt; &lt;/xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt; &lt;/xref:System.Security.Permissions.PublisherIdentityPermission&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A permission to combine with the current permission.</source>
+          <target state="translated">Az aktuális engedély egyesítenie engedély.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">Az aktuális engedélyt a azonos típusúnak kell lennie.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the union of the current permission and the specified permission.</source>
+          <target state="translated">Az aktuális engedély és a megadott engedéllyel az Unió jelölő új engedély.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nem <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> , és nem ugyanabba a típusba tartozik, mint az aktuális engedély.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-or-       The two permissions are not equal.</source>
+          <target state="translated">– vagy – a két engedélyek nem is egyenlő.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
