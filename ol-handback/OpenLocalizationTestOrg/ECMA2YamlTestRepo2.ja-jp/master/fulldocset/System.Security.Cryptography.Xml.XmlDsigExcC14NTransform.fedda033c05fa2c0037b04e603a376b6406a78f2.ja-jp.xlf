@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d733cfee5c6d56d3d1ac8899aeca82ab0696080</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ce9751ed6eefa65282c9c1004573dc8db2ae15e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">72e43f2dbe0fb431819c76b1d5c2687c20f2484a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the exclusive C14N XML canonicalization transform for a digital signature as defined by the World Wide Web Consortium (W3C), without comments.</source>
+          <target state="translated">コメントのない、World Wide Web コンソーシアム (W3C) で定義されているデジタル署名の排他 C14N XML 正規化変換を表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The XmlDsigExcC14NTransform class represents the exclusive C14N XML canonicalization transform without comments.</source>
+          <target state="translated">XmlDsigExcC14NTransform クラスでは、コメントのない排他 C14N XML 正規化変換を表します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This class is similar to the &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt; class, which allows a signer to create a digest using the canonical form of an XML document.</source>
+          <target state="translated">このクラスがに似ていますが、&lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;により、署名者、XML ドキュメントの正規の形式を使用してダイジェストを作成するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>However, the XmlDsigExcC14NTransform class excludes ancestor context from a canonicalized subdocument.</source>
+          <target state="translated">ただし、XmlDsigExcC14NTransform クラスは、正規化されたサブドキュメントから先祖コンテキストを除外します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt; class when you need to canonicalize an XML subdocument so that it is independent from its XML context.</source>
+          <target state="translated">使用して、 &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;XML を正規化する必要がある場合にクラス サブドキュメントの XML コンテキストから独立したことができるようにします&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, applications such as Web services that use signed XML within complex communication protocols often need to canonicalize XML in this manner.</source>
+          <target state="translated">たとえば、アプリケーションを使用する Web サービスの XML から複雑な通信プロトコル内での多くの場合、署名などする必要がありますこの方法で XML を正規化します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Such applications often envelop XML within various dynamically constructed elements, which can substantially change the document and cause XML signature verification to fail.</source>
+          <target state="translated">このようなアプリケーションは、大幅に変更するドキュメントと XML 署名の検証に失敗するさまざまな種類の動的に構築された要素を使用して、内で XML を多くの場合、エンベロープします。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The XmlDsigExcC14NTransform class solves this problem by excluding such ancestor context from the canonical subdocument.</source>
+          <target state="translated">XmlDsigExcC14NTransform クラスは、正規のサブドキュメントからこのような先祖コンテキストを除外することでこの問題を解決します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Typically, you do not create a new instance of a canonicalization transform class.</source>
+          <target state="translated">通常、標準化変換クラスの新しいインスタンスを作成できませんしないでください。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To specify a canonicalization transform, pass the Uniform Resource Identifier (URI) that describes a transform to the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A&gt; property, which is accessible from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; property.</source>
+          <target state="translated">標準化変換を指定するに渡す、Uniform Resource Identifier () への変換を表す、&lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A&gt;からアクセス可能なプロパティ、&lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt;&lt;/xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To acquire a reference to the canonicalization transform, use the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethodObject%2A&gt; property, which is accessible from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; property.</source>
+          <target state="translated">標準化変換への参照を取得する、&lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethodObject%2A&gt;からアクセス可能なプロパティ、&lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt;&lt;/xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethodObject%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You are required to create a new instance of a canonicalization transform class only when you want to manually hash an XML document or use your own canonicalization algorithm.</source>
+          <target state="translated">手動で XML ドキュメントをハッシュまたは独自の正規化アルゴリズムを使用する場合にのみ、標準化変換クラスの新しいインスタンスを作成する必要があります。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The URI that describes the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt; class is defined by the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NWithCommentsTransformUrl&gt; field.</source>
+          <target state="translated">記述する URI、&lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt;によってクラスが定義されている、&lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NWithCommentsTransformUrl&gt;フィールド&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NWithCommentsTransformUrl&gt;&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The URI that describes the XmlDsigExcC14NTransform class is defined by the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NTransformUrl&gt; field.</source>
+          <target state="translated">XmlDsigExcC14NTransform クラスを記述する URI がによって定義された、&lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NTransformUrl&gt;フィールド&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NTransformUrl&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information about the exclusive C14N transform, see the XMLDSIG specification, which is available from the World Wide Web Consortium (W3C) at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">排他 C14N 変換に関する詳細については、www.w3.org/TR/xmldsig-core/ に World Wide Web Consortium (W3C) から利用できる XMLDSIG の仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The canonicalization algorithm is defined in the W3C Canonical XML specification, which is available at www.w3.org/2001/10/xml-exc-c14n.</source>
+          <target state="translated">標準化アルゴリズムは、www.w3.org/2001/10/xml-exc-c14n で使用される W3C 正規 XML 仕様で定義されます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class specifying a value that determines whether to include comments.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コメントを含めるかどうかを決定する値を指定します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include comments; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コメントを含めます。それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class specifying a list of namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスが標準の正規化アルゴリズムを使用して標準化する名前空間プレフィックスのリストを指定します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`inclusiveNamespacesPrefixList`</ph> parameter contains a whitespace-delimited list of namespace prefixes to canonicalize using the standard canonicalization algorithm rather than the exclusive canonicalization algorithm.</source>
+          <target state="translated"><ph id="ph1">`inclusiveNamespacesPrefixList`</ph>パラメーターには、排他的正規化アルゴリズムではなく、標準の正規化アルゴリズムを使用して標準化する名前空間プレフィックスの空白で区切られた一覧が含まれています。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To specify the default namespace, which does not have a prefix, pass the special prefix "#default".</source>
+          <target state="translated">既定値を指定するのには、プレフィックスはない、名前空間は、特別なプレフィックス"#default"を渡します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">標準の正規化アルゴリズムを使用して標準化する名前空間プレフィックス。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class specifying whether to include comments, and specifying a list of namespace prefixes.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラス、コメントを含めるかどうかを指定して、名前空間プレフィックスのリストを指定します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`inclusiveNamespacesPrefixList`</ph> parameter contains a whitespace-delimited list of namespace prefixes to canonicalize using the standard canonicalization algorithm rather than the exclusive canonicalization algorithm.</source>
+          <target state="translated"><ph id="ph1">`inclusiveNamespacesPrefixList`</ph>パラメーターには、排他的正規化アルゴリズムではなく、標準の正規化アルゴリズムを使用して標準化する名前空間プレフィックスの空白で区切られた一覧が含まれています。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To specify the default namespace, which does not have a prefix, pass the special prefix "#default".</source>
+          <target state="translated">既定値を指定するのには、プレフィックスはない、名前空間は、特別なプレフィックス"#default"を渡します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include comments; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コメントを含めます。それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">標準の正規化アルゴリズムを使用して標準化する名前空間プレフィックス。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns the digest associated with a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">関連付けられているダイジェストを返します、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.HashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to create a digest.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.HashAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ダイジェストを作成するために使用します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The digest associated with a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">関連付けられている、ダイジェスト、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Returns an XML representation of the parameters of a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that are suitable to be included as subelements of an XMLDSIG <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">パラメーターの XML 表現を返します、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトは、XMLDSIG のサブ要素として含まれるに適した<bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>要素。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A list of the XML nodes that represent the transform-specific content needed to describe the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object in an XMLDSIG <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">現在の記述に必要な変換に固有のコンテンツを表す XML ノードの一覧<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、XMLDSIG 内のオブジェクト<bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>要素。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns the output of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object</source>
+          <target state="translated">現在の出力を返します<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The output of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の出力<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Returns the output of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object as an object of the specified type.</source>
+          <target state="translated">現在の出力を返します。 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトとして指定した型のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The GetOutput method returns the output of the current transform after it is run on the value previously set by a call to the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput%2A&gt; method.</source>
+          <target state="translated">GetOutput メソッドへの呼び出しによって以前に設定されている値で実行した後、現在の変換の出力が返されます、&lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput%2A&gt;メソッド&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The type of the returned object must be one of the type objects in the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes%2A&gt; property.</source>
+          <target state="translated">返されるオブジェクトの種類は型のオブジェクトのいずれかを指定する必要があります、&lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes%2A&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The type of the output to return.</source>
+          <target state="translated">返される出力の型。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This must be one of the types in the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes*&gt; property.</source>
+          <target state="translated">これは内の型のいずれかを指定する必要があります、&lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes*&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes*&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The output of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object as an object of the specified type.</source>
+          <target state="translated">現在の出力<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトとして指定した型のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a &lt;xref:System.IO.Stream&gt; object.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターではありません、&lt;xref:System.IO.Stream&gt;オブジェクト&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter does not derive from a &lt;xref:System.IO.Stream&gt; object.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターがから派生していない、&lt;xref:System.IO.Stream&gt;オブジェクト&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string that contains namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">取得または標準の正規化アルゴリズムを使用して標準化する名前空間プレフィックスを表す文字列を設定します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The InclusiveNamespacesPrefixList property contains a whitespace-delimited list of namespace prefixes to canonicalize using the standard canonicalization algorithm rather than the exclusive canonicalization algorithm.</source>
+          <target state="translated">InclusiveNamespacesPrefixList プロパティには、排他的正規化アルゴリズムではなく、標準の正規化アルゴリズムを使用して標準化する名前空間プレフィックスの空白で区切られた一覧が含まれています。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To specify the default namespace, which does not have a prefix, pass the special prefix "#default".</source>
+          <target state="translated">既定値を指定するのには、プレフィックスはない、名前空間は、特別なプレフィックス"#default"を渡します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A string that contains namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">標準の正規化アルゴリズムを使用して標準化する名前空間プレフィックスを含む文字列です。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets an array of types that are valid inputs to the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt; method of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">有効な入力値をされている型の配列を取得、 &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt;、現在のメソッド<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt;。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The array returned by the InputTypes property must contain at least one element because every &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt; object must accept at least one type as valid input.</source>
+          <target state="translated">InputTypes プロパティによって返される配列があるためには、少なくとも&amp;1; つの要素を含める必要がありますすべて&lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;オブジェクトに有効な入力として少なくとも&amp;1; つの型を使用する必要があります&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt; object typically accepts one or more of the following types as input: &lt;xref:System.IO.Stream&gt;, &lt;xref:System.Xml.XmlDocument&gt;, or &lt;xref:System.Xml.XmlNodeList&gt;.</source>
+          <target state="translated">A&lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;オブジェクト通常、次の種類の&amp;1; つ以上入力として受け取ります&lt;xref:System.IO.Stream&gt;、 &lt;xref:System.Xml.XmlDocument&gt;、または&lt;xref:System.Xml.XmlNodeList&gt;。&lt;/xref:System.Xml.XmlNodeList&gt; &lt;/xref:System.Xml.XmlDocument&gt; &lt;/xref:System.IO.Stream&gt; &lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt; 。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An array of valid input types for the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object; you can pass only objects of one of these types to the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt; method of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の有効な入力の型の配列<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトですこれらの種類のいずれかのオブジェクトのみを渡すことができます、 &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt;、現在のメソッド<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt; 。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Parses the specified <bpt id="p1">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object as transform-specific content of a <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element and configures the internal state of the current <bpt id="p3">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object to match the <bpt id="p4">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">解析して、指定した<bpt id="p1">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトの変換に固有のコンテンツとして、 <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>要素が現在の内部状態を構成および<bpt id="p3">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>と一致するオブジェクト、 <bpt id="p4">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>要素。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This method is used to process subelements of a <ph id="ph1">`&lt;Transform&gt;`</ph> element.</source>
+          <target state="translated">このメソッドはのサブ要素を処理するために使用する<ph id="ph1">`&lt;Transform&gt;`</ph>要素。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies transform-specific content for the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>現在の変換に固有のコンテンツを指定するオブジェクト<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, loads the specified input into the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">派生クラスでオーバーライドされると、現在、指定された入力を読み込みます<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The type of the input object must be one of the types in the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.InputTypes%2A&gt; property.</source>
+          <target state="translated">入力オブジェクトの種類は内の型のいずれかを指定する必要があります、&lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.InputTypes%2A&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.InputTypes%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The input to load into the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在読み込む入力<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a &lt;xref:System.IO.Stream&gt; object.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターではありません、&lt;xref:System.IO.Stream&gt;オブジェクト&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not an <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターではありません、 <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not an <bpt id="p2">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターではありません、 <bpt id="p2">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets an array of types that are possible outputs from the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt; methods of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">可能な出力をされている型の配列を取得、 &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt;、現在のメソッド<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt;。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The array returned by the OutputTypes property must contain at least one element because every transform must generate at least one type as output.</source>
+          <target state="translated">OutputTypes プロパティによって返される配列は、すべての変換が出力として少なくとも&amp;1; つの型を生成する必要がありますので、少なくとも&amp;1; つの要素を含める必要があります。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An array of valid output types for the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object; the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt; methods of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object return only objects of one of these types.</source>
+          <target state="translated">現在の有効な出力型の配列<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト、 &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt;、現在のメソッド<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>これらの型の&amp;1; つのオブジェクトのみを戻り値のオブジェクトします&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt;。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

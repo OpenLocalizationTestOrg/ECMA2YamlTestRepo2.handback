@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">70463578806e1b248552ee981fd2e0a4f7bba9e6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Media3D.Quaternion.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c3114a83ec8351433530f7a310f834ace65da74e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea9e50efe8cbef6846c96cbce64990f2eafed4e5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Structure that represents a rotation in three dimensions.</source>
+          <target state="translated">3 次元の回転を表す構造体。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Quaternions allow you to interpolate between rotation transformations applied to an object, thereby making it easier to compute smooth animations of rotations.</source>
+          <target state="translated">四元数では補間を滑らかなアニメーションの回転の計算を簡単に、オブジェクトに適用される回転変換を行うことができます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A quaternion represents an axis of rotation and a rotation around that axis.</source>
+          <target state="translated">四元数では、回転やその軸の周りの回転の軸を表します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It's possible to individually define the axis and angle of rotation of the starting and ending positions of a rotated object ,but the intermediate positions of that object during an animation are computationally uncertain.</source>
+          <target state="translated">軸と回転するオブジェクトの開始と終了位置の回転の角度を個別に定義することは、アニメーションの中には、そのオブジェクトの中間の位置は不確定です。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>By determining a quaternion that represents the original orientation of a 3-D object and one that represents its destination orientation, you can smoothly interpolate between those orientations.</source>
+          <target state="translated">3d オブジェクトとその変換先の方向を表す 1 つの元の方向を表す四元数を決定するですることができますスムーズに補間それらの方向。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In XAML, the delimiter between the values of a Quaternion can be either a comma or a space.</source>
+          <target state="translated">XAML では、四元数の値の間の区切り記号はコンマまたはスペースのいずれかを指定できます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Some cultures might use the comma character as the decimal delimiter instead of the period character.</source>
+          <target state="translated">一部のカルチャは、ピリオドではなく&amp;10; 進区切り記号としてコンマ文字を使用する可能性があります。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>XAML processing for invariant culture defaults to en-US in most XAML processor implementations, and expects the period to be the decimal delimiter.</source>
+          <target state="translated">インバリアント カルチャの XAML 処理では、既定値のほとんどの XAML プロセッサの実装では、EN-US あり、小数点区切り文字にピリオドが必要です。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You should avoid using the comma character as the decimal delimiter if specifying a Quaternion in XAML, because that will clash with the string type conversion of a Quaternion attribute value into its components.</source>
+          <target state="translated">そのコンポーネントに四元数の属性値の文字列型変換による競合が発生するため、XAML で四元数を指定する場合、10 進区切り記号としてコンマ文字を使用してを避ける必要があります。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlAttributeUsage_Duration"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Attribute Usage      <ph id="ph1">```   &lt;object property="x,y,z,w"/&gt;   -or-   &lt;object property="x y z w"/&gt;   ```</ph>      <bpt id="p2">&lt;a name="xamlValues_MinWidth"&gt;</bpt><ept id="p2">&lt;/a&gt;</ept>    ## XAML Values    <bpt id="p3">*</bpt>x<ept id="p3">*</ept>    The &lt;xref:System.Windows.Media.Media3D.Quaternion.X%2A&gt; component of this Quaternion structure.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlAttributeUsage_Duration"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML 属性の使用<ph id="ph1">```   &lt;object property="x,y,z,w"/&gt;   -or-   &lt;object property="x y z w"/&gt;   ```</ph> <bpt id="p2">&lt;a name="xamlValues_MinWidth"&gt;</bpt> <ept id="p2">&lt;/a&gt;</ept> ## XAML 値<bpt id="p3">*</bpt>x<ept id="p3">*</ept> 、&lt;xref:System.Windows.Media.Media3D.Quaternion.X%2A&gt;この四元数の構造体のコンポーネント&lt;/xref:System.Windows.Media.Media3D.Quaternion.X%2A&gt;。      </target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>y<ept id="p1">*</ept>    The &lt;xref:System.Windows.Media.Media3D.Quaternion.Y%2A&gt; component of this Quaternion structure.</source>
+          <target state="translated"><bpt id="p1">*</bpt>y<ept id="p1">*</ept> 、&lt;xref:System.Windows.Media.Media3D.Quaternion.Y%2A&gt;この四元数の構造体のコンポーネント&lt;/xref:System.Windows.Media.Media3D.Quaternion.Y%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>z<ept id="p1">*</ept>    The &lt;xref:System.Windows.Media.Media3D.Quaternion.Z%2A&gt; component of this Quaternion structure.</source>
+          <target state="translated"><bpt id="p1">*</bpt>z<ept id="p1">*</ept> 、&lt;xref:System.Windows.Media.Media3D.Quaternion.Z%2A&gt;この四元数の構造体のコンポーネント&lt;/xref:System.Windows.Media.Media3D.Quaternion.Z%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>w<ept id="p1">*</ept>    The &lt;xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt; component of this Quaternion structure.</source>
+          <target state="translated"><bpt id="p1">*</bpt>w<ept id="p1">*</ept> 、&lt;xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt;この四元数の構造体のコンポーネント&lt;/xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>構造体。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt; property of the quaternion is computed automatically.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt;四元数のプロパティが自動的に計算されます&lt;/xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Vector3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the axis of rotation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Vector3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>回転の軸を表します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Angle to rotate around the specified axis, in degrees.</source>
+          <target state="translated">角度 (度単位)、指定した軸の周りの回転をします。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>構造体。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For the axis (x, y, z) and angle of rotation theta, the <ph id="ph1">`w`</ph> value for the quaternion is:       w = cos(theta/2)       Note that if you use the &lt;xref:System.Windows.Media.Media3D.Vector3D&gt; constructor, the fourth parameter is the angle, in degrees, and the w calculation is performed for you.</source>
+          <target state="translated">回転シータの角度、軸 (x、y、z) の<ph id="ph1">`w`</ph>四元数がの値: w = cos(theta/2) メモを使用する場合、&lt;xref:System.Windows.Media.Media3D.Vector3D&gt;コンス トラクター、4 番目のパラメーターは、角度 (度数)、および w の計算が行わします&lt;/xref:System.Windows.Media.Media3D.Vector3D&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Value of the new <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>'s X coordinate.</source>
+          <target state="translated">新しい値<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>の X 座標。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Value of the new <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>'s Y coordinate.</source>
+          <target state="translated">新しい値<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>の Y 座標。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Value of the new <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>'s Z coordinate.</source>
+          <target state="translated">新しい値<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>の Z 座標。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Value of the new <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>'s W coordinate.</source>
+          <target state="translated">新しい値<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>の W 座標。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Adds the specified quaternions.</source>
+          <target state="translated">指定した四元数を追加します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>First quaternion to add.</source>
+          <target state="translated">追加する最初の四元数。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Second quaternion to add.</source>
+          <target state="translated">追加する&amp;2; 番目の四元数。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the result of addition.</source>
+          <target state="translated">加算の結果の四元数。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the quaternion's angle, in degrees.</source>
+          <target state="translated">四元数の角度 (度数) を取得します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Double that represents the quaternion's angle, in degrees.</source>
+          <target state="translated">四元数の角度 (度数) を表す double 値。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the quaternion's axis.</source>
+          <target state="translated">四元数の軸を取得します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Vector3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the quaternion's axis.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Vector3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>四元数の軸を表します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Replaces a quaternion with its conjugate.</source>
+          <target state="translated">四元数の共役で置き換えます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances for equality.</source>
+          <target state="translated">比較する&amp;2; つ<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>インスタンスが等しいかどうか。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Media.Media3D.Quaternion&gt; components are described using &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;使用してコンポーネントを説明&lt;xref:System.Double&gt;値&lt;/xref:System.Double&gt;。&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Because the value of a &lt;xref:System.Double&gt; can lose precision when operated upon, a comparison between two &lt;xref:System.Windows.Media.Media3D.Quaternion&gt; values that are logically equal might fail.</source>
+          <target state="translated">の値、&lt;xref:System.Double&gt;操作、2 つの間で比較したときに、有効桁数が失われる可能性が&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;が論理的に等しい値が失敗する可能性があります&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;&lt;/xref:System.Double&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Object with which to compare.</source>
+          <target state="translated">比較するオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instances are exactly equal, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、2 つ<bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>インスタンスが等しい、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>それ以外の場合。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances for equality.</source>
+          <target state="translated">比較する&amp;2; つ<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>インスタンスが等しいかどうか。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Media.Media3D.Quaternion&gt; components are described using &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;使用してコンポーネントを説明&lt;xref:System.Double&gt;値&lt;/xref:System.Double&gt;。&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Because the value of a &lt;xref:System.Double&gt; can lose precision when operated upon, a comparison between two &lt;xref:System.Windows.Media.Media3D.Quaternion&gt; values that are logically equal might fail.</source>
+          <target state="translated">の値、&lt;xref:System.Double&gt;操作、2 つの間で比較したときに、有効桁数が失われる可能性が&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;が論理的に等しい値が失敗する可能性があります&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;&lt;/xref:System.Double&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Quaternion with which to compare.</source>
+          <target state="translated">比較する四元数。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instances are exactly equal, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、2 つ<bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>インスタンスが等しい、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>それ以外の場合。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances for equality.</source>
+          <target state="translated">比較する&amp;2; つ<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>インスタンスが等しいかどうか。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Media.Media3D.Quaternion&gt; components are described using &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;使用してコンポーネントを説明&lt;xref:System.Double&gt;値&lt;/xref:System.Double&gt;。&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Because the value of a &lt;xref:System.Double&gt; can lose precision when operated upon, a comparison between two &lt;xref:System.Windows.Media.Media3D.Quaternion&gt; values that are logically equal might fail.</source>
+          <target state="translated">の値、&lt;xref:System.Double&gt;操作、2 つの間で比較したときに、有効桁数が失われる可能性が&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;が論理的に等しい値が失敗する可能性があります&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;&lt;/xref:System.Double&gt;。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>First <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to compare.</source>
+          <target state="translated">最初<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>を比較します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Second <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to compare.</source>
+          <target state="translated">2 番目<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>を比較します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instances are exactly equal, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、2 つ<bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>インスタンスが等しい、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>それ以外の場合。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Returns the hash code for the <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">ハッシュ コードを返します、 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An integer type that represents the hash code for the <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">ハッシュ コードを表す整数型、 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets the Identity quaternion</source>
+          <target state="translated">単位四元数を取得します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The Identity quaternion.</source>
+          <target state="translated">単位四元数。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Replaces the specified quaternion with its inverse</source>
+          <target state="translated">指定した四元数の逆関数の値に置き換えます</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the specified quaternion is an &lt;xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt; quaternion.</source>
+          <target state="translated">指定した四元数があるかどうかを示す値を取得、&lt;xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt;四元数&lt;/xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt;。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the quaternion is the &lt;xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt; quaternion, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>四元数の場合、&lt;xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt;四元数、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>それ以外の場合&lt;/xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the quaternion is normalized.</source>
+          <target state="translated">四元数を正規化するかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the quaternion is normalized, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>四元数が正規化された場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>それ以外の場合。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Multiplies the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">指定した乗算<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>First quaternion to multiply.</source>
+          <target state="translated">乗算する最初の四元数。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Second quaternion to multiply.</source>
+          <target state="translated">乗算する&amp;2; 番目の四元数。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the result of multiplication.</source>
+          <target state="translated">乗算の結果の四元数。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns a normalized quaternion.</source>
+          <target state="translated">正規化された四元数を返します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Throws &lt;xref:System.InvalidOperationException&gt; if the quaternion is zero and cannot be normalized.</source>
+          <target state="translated">スロー&lt;xref:System.InvalidOperationException&gt;四元数の場合は&amp;0; し、正規化することはできません&lt;/xref:System.InvalidOperationException&gt;。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">指定した追加<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>First quaternion to add.</source>
+          <target state="translated">追加する最初の四元数。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Second quaternion to add.</source>
+          <target state="translated">追加する&amp;2; 番目の四元数。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the sum of the two specified  <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">指定した&amp;2; つの合計である四元数<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances for exact equality.</source>
+          <target state="translated">比較する&amp;2; つ<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>インスタンスの正確な等価性。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Media.Media3D.Quaternion&gt; components are described using &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;使用してコンポーネントを説明&lt;xref:System.Double&gt;値&lt;/xref:System.Double&gt;。&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Because the value of a &lt;xref:System.Double&gt; can lose precision when operated upon, a comparison between two &lt;xref:System.Windows.Media.Media3D.Quaternion&gt; values that are logically equal might fail.</source>
+          <target state="translated">の値、&lt;xref:System.Double&gt;操作、2 つの間で比較したときに、有効桁数が失われる可能性が&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;が論理的に等しい値が失敗する可能性があります&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;&lt;/xref:System.Double&gt;。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>First Quaternion to compare.</source>
+          <target state="translated">比較する最初の四元数。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Second Quaternion to compare.</source>
+          <target state="translated">比較する&amp;2; 番目の四元数。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instances are exactly equal, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、2 つ<bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>インスタンスが等しい、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>それ以外の場合。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances for exact inequality.</source>
+          <target state="translated">比較する&amp;2; つ<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>正確な不等値のインスタンス。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Media.Media3D.Quaternion&gt; components are described using &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;使用してコンポーネントを説明&lt;xref:System.Double&gt;値&lt;/xref:System.Double&gt;。&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Because the value of a &lt;xref:System.Double&gt; can lose precision when operated upon, a comparison between two &lt;xref:System.Windows.Media.Media3D.Quaternion&gt; values that are logically equal might fail.</source>
+          <target state="translated">の値、&lt;xref:System.Double&gt;操作、2 つの間で比較したときに、有効桁数が失われる可能性が&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;が論理的に等しい値が失敗する可能性があります&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;&lt;/xref:System.Double&gt;。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>First quaternion to compare.</source>
+          <target state="translated">比較する最初の四元数。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Second quaternion to compare.</source>
+          <target state="translated">比較する&amp;2; 番目の四元数。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instances are exactly equal, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、2 つ<bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>インスタンスが等しい、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>それ以外の場合。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Multiplies the specified quaternion by another.</source>
+          <target state="translated">別の指定した四元数を乗算します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>First quaternion.</source>
+          <target state="translated">最初の四元数。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Second quaternion.</source>
+          <target state="translated">2 番目の四元数。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the product of multiplication.</source>
+          <target state="translated">乗算の積を表す四元数。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Subtracts a specified quaternion from another.</source>
+          <target state="translated">別の指定した四元数を減算します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Quaternion from which to subtract.</source>
+          <target state="translated">減算する元の四元数。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Quaternion to subtract from the first quaternion.</source>
+          <target state="translated">最初の四元数を減算する四元数。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the result of subtraction.</source>
+          <target state="translated">減算の結果の四元数。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Converts a string representation of a <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into the equivalent <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">文字列形式に変換する<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>と同等に<bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>構造体。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A string representation of a <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">文字列表現を<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> represented by the string.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>文字列で表されます。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Interpolates between two orientations using spherical linear interpolation.</source>
+          <target state="translated">球面線形補間を使用して&amp;2; つの向き間を補間します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Spherical linear interpolation is useful for animating a three-dimensional models because it provides smooth transitions between different orientations of the model.</source>
+          <target state="translated">球面線形補間は、モデルのさまざまな向き間のスムーズな遷移を提供するために&amp;3; 次元モデルをアニメーション化するのに役立ちます。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the starting orientation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>開始の方向を表します。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the ending orientation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>終了の方向を表します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Interpolation coefficient.</source>
+          <target state="translated">補間係数。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the orientation resulting from the interpolation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>補間結果として得られる方向を表します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Interpolates between orientations, represented as <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures, using spherical linear interpolation.</source>
+          <target state="translated">として表される、向き間を補間<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>構造体を使用して球面線形補間します。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Spherical linear interpolation is useful for animating a three-dimensional models because it provides smooth transitions between different orientations of the model.</source>
+          <target state="translated">球面線形補間は、モデルのさまざまな向き間のスムーズな遷移を提供するために&amp;3; 次元モデルをアニメーション化するのに役立ちます。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the starting orientation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>開始の方向を表します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the ending orientation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>終了の方向を表します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Interpolation coefficient.</source>
+          <target state="translated">補間係数。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Boolean that indicates whether to compute quaternions that constitute the shortest possible arc on a four-dimensional unit sphere.</source>
+          <target state="translated">4 次元単位球の最短の円弧を構成する四元数を計算するかどうかを示すブール値。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the orientation resulting from the interpolation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>補間結果として得られる方向を表します。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Subtracts a Quaternion from another.</source>
+          <target state="translated">別の四元数を減算します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Quaternion from which to subtract.</source>
+          <target state="translated">減算する元の四元数。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Quaternion to subtract from the first quaternion.</source>
+          <target state="translated">最初の四元数を減算する四元数。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the result of subtraction.</source>
+          <target state="translated">減算の結果の四元数。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This member supports the <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">このメンバーをサポートしている、<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>インフラストラクチャ コードから直接使用するものではありません。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.IFormattable.ToString*&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.IFormattable.ToString*&gt;。&lt;/xref:System.IFormattable.ToString*&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The string specifying the format to use.</source>
+          <target state="translated">使用する形式を指定する文字列。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use the default format defined for the type of the &lt;xref:System.IFormattable&gt; implementation.</source>
+          <target state="translated">- または - <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の種類に対して定義されている既定の形式を使用する、&lt;xref:System.IFormattable&gt;実装&lt;/xref:System.IFormattable&gt;。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_IFormatProvider" name="IFormatProvider" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use to format the value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_IFormatProvider" name="IFormatProvider" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を使用して値の書式設定します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to obtain the numeric format information from the current locale setting of the operating system.</source>
+          <target state="translated">- または - <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オペレーティング システムの現在のロケール設定から数値書式指定情報を取得します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A string containing the value of the current instance in the specified format.</source>
+          <target state="translated">指定された形式で現在のインスタンスの値を含む文字列。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Creates a string representation of the object.</source>
+          <target state="translated">オブジェクトの文字列表現を作成します。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>String representation of the object.</source>
+          <target state="translated">オブジェクトの文字列表現。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Creates a string representation of the object.</source>
+          <target state="translated">オブジェクトの文字列表現を作成します。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Culture-specific formatting information.</source>
+          <target state="translated">カルチャに固有の書式設定情報。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>String representation of the object.</source>
+          <target state="translated">オブジェクトの文字列表現。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets the W component of the quaternion.</source>
+          <target state="translated">四元数の W 成分を取得します。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The default value is 0.</source>
+          <target state="translated">既定値は 0 です。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The W component of the quaternion.</source>
+          <target state="translated">四元数の W 成分。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Gets the X component of the quaternion.</source>
+          <target state="translated">四元数の X 成分を取得します。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The default value is 0.</source>
+          <target state="translated">既定値は 0 です。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The X component of the quaternion.</source>
+          <target state="translated">四元数の X 成分。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Gets the Y component of the quaternion.</source>
+          <target state="translated">四元数の Y 成分を取得します。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The default value is 0.</source>
+          <target state="translated">既定値は 0 です。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The Y component of the quaternion.</source>
+          <target state="translated">四元数の Y 成分。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Gets the Z component of the quaternion.</source>
+          <target state="translated">四元数の Z 成分を取得します。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The default value is 0.</source>
+          <target state="translated">既定値は 0 です。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The Z component of the quaternion.</source>
+          <target state="translated">四元数の Z 成分。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

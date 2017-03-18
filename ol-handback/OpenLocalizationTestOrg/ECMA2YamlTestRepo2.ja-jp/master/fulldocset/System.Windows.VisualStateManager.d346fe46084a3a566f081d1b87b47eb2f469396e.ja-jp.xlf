@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">537707eb43479188cd7f4360ff9dc953a6788589</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.VisualStateManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f734a2527a631aad1e9697be4b96c28506dce62e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9af6ddbee3f1a7a4134ab097946275c78fe83162</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages states and the logic for transitioning between states for controls.</source>
+          <target state="translated">状態とコントロールの状態を遷移のロジックを管理します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The VisualStateManager enables you to specify states for a control, the appearance of a control when it is in a certain state, and when a control changes states.</source>
+          <target state="translated">VisualStateManager では、特定の状態にあるとき、およびコントロールの状態が変更されたときに、コントロール、コントロールの外観の状態を指定することができます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For example, a &lt;xref:System.Windows.Controls.Button&gt; might have a slightly different appearance when it is pressed than when it is not pressed.</source>
+          <target state="translated">たとえば、&lt;xref:System.Windows.Controls.Button&gt;が押されていない場合よりもそれが押されたとき、少し異なる外観を持つ可能性があります&lt;/xref:System.Windows.Controls.Button&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Two states that the &lt;xref:System.Windows.Controls.Button&gt; defines correspond to when it is pressed (<ph id="ph1">`"Pressed"`</ph>) and when it is not (<ph id="ph2">`"Normal"`</ph>).</source>
+          <target state="translated">2 つの状態を&lt;xref:System.Windows.Controls.Button&gt;定義が押されたときに対応 (<ph id="ph1">`"Pressed"`</ph>)、されていないと (<ph id="ph2">`"Normal"`</ph>).&lt;/xref:System.Windows.Controls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The appearance of a control when it is in a state is defined by a &lt;xref:System.Windows.VisualState&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.VisualState&gt;。&lt;/xref:System.Windows.VisualState&gt;状態にあるときのコントロールの外観が定義されています。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Windows.VisualState&gt; contains a collection of &lt;xref:System.Windows.Media.Animation.Storyboard&gt; objects that specify how the control's appearance changes when the control is in that state.</source>
+          <target state="translated">A&lt;xref:System.Windows.VisualState&gt;のコレクションを格納&lt;xref:System.Windows.Media.Animation.Storyboard&gt;コントロールがその状態のときに、コントロールの外観がどのように変化するかを指定するオブジェクト&lt;/xref:System.Windows.Media.Animation.Storyboard&gt;&lt;/xref:System.Windows.VisualState&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You add visual states to a control by setting the <ph id="ph1">`VisualStateManager.VisualStateGroups`</ph> attached property on the control.</source>
+          <target state="translated">表示状態管理を追加するを設定して、<ph id="ph1">`VisualStateManager.VisualStateGroups`</ph>コントロールのプロパティを添付します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Each &lt;xref:System.Windows.VisualStateGroup&gt; contains a collection of &lt;xref:System.Windows.VisualState&gt; objects that are mutually exclusive.</source>
+          <target state="translated">各&lt;xref:System.Windows.VisualStateGroup&gt;のコレクションを格納&lt;xref:System.Windows.VisualState&gt;相互に排他的であるオブジェクト&lt;/xref:System.Windows.VisualState&gt;&lt;/xref:System.Windows.VisualStateGroup&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>That is, the control is always in exactly one state of in each &lt;xref:System.Windows.VisualStateGroup&gt;.</source>
+          <target state="translated">つまり、コントロールが常に各&lt;xref:System.Windows.VisualStateGroup&gt;。&lt;/xref:System.Windows.VisualStateGroup&gt;の&amp;1; つの状態</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The VisualStateManager also enables you to specify when a control enters a specific state.</source>
+          <target state="translated">VisualStateManager では、コントロールが特定の状態になるときに指定することもできます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The method that you should call to change states depends on your scenario.</source>
+          <target state="translated">状態の変更を呼び出す必要のあるメソッドは、シナリオによって異なります。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you create a control that uses the VisualStateManager in its &lt;xref:System.Windows.Controls.ControlTemplate&gt;, call the &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; method.</source>
+          <target state="translated">VisualStateManager を使用するコントロールを作成するかどうかはその&lt;xref:System.Windows.Controls.ControlTemplate&gt;を呼び出し、&lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;メソッド&lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt;&lt;/xref:System.Windows.Controls.ControlTemplate&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information about how to create controls that use the VisualStateManager, see <bpt id="p1">[</bpt>Creating a Control That Has a Customizable Appearance<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">VisualStateManager を使用してコントロールを作成する方法の詳細については、次を参照してください。<bpt id="p1">[</bpt>を作成する、コントロールのある外観をカスタマイズできる<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you use the VisualStateManager outside of a &lt;xref:System.Windows.Controls.ControlTemplate&gt; (for example, if you use a VisualStateManager in a &lt;xref:System.Windows.Controls.UserControl&gt; or in a single element), call the &lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt; method.</source>
+          <target state="translated">外部 VisualStateManager を使用する場合、 &lt;xref:System.Windows.Controls.ControlTemplate&gt;(で VisualStateManager を使用する場合など、&lt;xref:System.Windows.Controls.UserControl&gt;または&amp;1; つの要素に)、呼び出す、&lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;メソッド&lt;/xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;&lt;/xref:System.Windows.Controls.UserControl&gt;&lt;/xref:System.Windows.Controls.ControlTemplate&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In either case, the VisualStateManager performs the logic that is required to appropriately start and stop the storyboards that are associated with the involved state.</source>
+          <target state="translated">どちらの場合、VisualStateManager は適切に開始および停止関係する状態に関連付けられているストーリー ボードに必要なロジックを実行します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, suppose that a control defines the states, <ph id="ph1">`State1`</ph> and <ph id="ph2">`State2`</ph>, each of which has a storyboard associated with it.</source>
+          <target state="translated">たとえば、コントロールが、状態を定義する<ph id="ph1">`State1`</ph>と<ph id="ph2">`State2`</ph>、それぞれが関連付けられているストーリー ボードを持ちます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the control is in <ph id="ph1">`State1`</ph> and you pass <ph id="ph2">`State2`</ph> to &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; or &lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;, the VisualStateManager starts the storyboard in <ph id="ph3">`State2`</ph> and stops the storyboard in <ph id="ph4">`State1`</ph>.</source>
+          <target state="translated">場合は、コントロールが<ph id="ph1">`State1`</ph>して渡す<ph id="ph2">`State2`</ph>に&lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;または&lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;、VisualStateManager でストーリー ボードを起動する<ph id="ph3">`State2`</ph>でストーリー ボードを停止して<ph id="ph4">`State1`</ph>&lt;/xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;&lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Controls that are included with <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> use the VisualStateManager to change visual states.</source>
+          <target state="translated">コントロールに含まれている<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>VisualStateManager を使用して、表示状態を変更します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When you create a &lt;xref:System.Windows.Controls.ControlTemplate&gt; for a control that is included with <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>, you can add &lt;xref:System.Windows.VisualState&gt; objects to the control's &lt;xref:System.Windows.Controls.ControlTemplate&gt; to specify the control's appearance in a certain state.</source>
+          <target state="translated">作成するときに、&lt;xref:System.Windows.Controls.ControlTemplate&gt;に含まれているコントロールの<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>、追加することができます&lt;xref:System.Windows.VisualState&gt;オブジェクトをコントロールの&lt;xref:System.Windows.Controls.ControlTemplate&gt;をある状態でコントロールの外観を指定します&lt;/xref:System.Windows.Controls.ControlTemplate&gt;&lt;/xref:System.Windows.VisualState&gt;&lt;/xref:System.Windows.Controls.ControlTemplate&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To find the names of the visual states for the controls that are included with <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>, see <bpt id="p1">[</bpt>Control Styles and Templates<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">含まれているコントロールの視覚的な状態の名前を検索する<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>を参照してください<bpt id="p1">[</bpt>コントロールのスタイルとテンプレート<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The control's logic handles transitioning between states, so you do not need to do anything other than define the &lt;xref:System.Windows.VisualState&gt; objects in the new &lt;xref:System.Windows.Controls.ControlTemplate&gt;.</source>
+          <target state="translated">コントロールのロジックのハンドルが以外の何もする必要はありませんので、状態を遷移&lt;xref:System.Windows.VisualState&gt;新しい&lt;xref:System.Windows.Controls.ControlTemplate&gt;。&lt;/xref:System.Windows.Controls.ControlTemplate&gt;内のオブジェクト&lt;/xref:System.Windows.VisualState&gt;の定義します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more information about how to create control templates for existing controls, see <bpt id="p1">[</bpt>Customizing the Appearance of an Existing Control by Creating a ControlTemplate<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">既存のコントロールのコントロール テンプレートを作成する方法の詳細については、次を参照してください。 <bpt id="p1">[</bpt>、ControlTemplate を作成することで、既存のコントロールの外観のカスタマイズ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you want to implement your own logic for transitioning between states, you must inherit from VisualStateManager, override the &lt;xref:System.Windows.VisualStateManager.GoToStateCore%2A&gt; method, and set the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A?displayProperty=fullName&gt; attached property on the control that uses the custom logic.</source>
+          <target state="translated">VisualStateManager から継承、オーバーライドする必要がありますの状態を遷移するためのロジックを実装する場合、&lt;xref:System.Windows.VisualStateManager.GoToStateCore%2A&gt;メソッド、およびセット、&lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A?displayProperty=fullName&gt;カスタム ロジックを使用するコントロールのプロパティを添付します&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A?displayProperty=fullName&gt;&lt;/xref:System.Windows.VisualStateManager.GoToStateCore%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt; dependency property.</source>
+          <target state="translated">識別、&lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;依存関係プロパティ&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt; attached property.</source>
+          <target state="translated">取得、&lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;添付プロパティ&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The element to get the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt; attached property from.</source>
+          <target state="translated">取得する要素、&lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;からプロパティを添付します&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The visual state manager that transitions between the states of a control.</source>
+          <target state="translated">コントロールの状態間を遷移する表示状態マネージャー。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the <ph id="ph1">&amp;lt;</ph>xref:System.Windows.VisualStateManager.VisualStateGroups%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> attached property.</source>
+          <target state="translated">取得、 <ph id="ph1">&amp;lt;</ph>xref:System.Windows.VisualStateManager.VisualStateGroups%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>添付プロパティ。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The element to get the <ph id="ph1">&amp;lt;</ph>xref:System.Windows.VisualStateManager.VisualStateGroups%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> attached property from.</source>
+          <target state="translated">取得する要素、 <ph id="ph1">&amp;lt;</ph>xref:System.Windows.VisualStateManager.VisualStateGroups%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>からプロパティを添付します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The collection of <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that is associated with the specified object.</source>
+          <target state="translated">コレクション<bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定したオブジェクトに関連付けられているオブジェクト。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Transitions the element between two states.</source>
+          <target state="translated">2 つの状態間の要素を移行します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use this method to transition states that are defined by an application, rather than defined by a control.</source>
+          <target state="translated">このメソッドを使用して、コントロールによって定義されているのではなく、アプリケーションによって定義されている遷移状態にします。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Call the GoToElementState method to change states on an element outside of a &lt;xref:System.Windows.Controls.ControlTemplate&gt; (for example, if you use a &lt;xref:System.Windows.VisualStateManager&gt; in a &lt;xref:System.Windows.DataTemplate&gt; or &lt;xref:System.Windows.Window&gt;).</source>
+          <target state="translated">外側の要素の状態を変更する GoToElementState メソッドを呼び出して、 &lt;xref:System.Windows.Controls.ControlTemplate&gt;(を使用する場合など、&lt;xref:System.Windows.VisualStateManager&gt;で、&lt;xref:System.Windows.DataTemplate&gt;または&lt;xref:System.Windows.Window&gt;).&lt;/xref:System.Windows.Window&gt; &lt;/xref:System.Windows.DataTemplate&gt; &lt;/xref:System.Windows.VisualStateManager&gt; &lt;/xref:System.Windows.Controls.ControlTemplate&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; method if you are changing states in a control that uses the &lt;xref:System.Windows.VisualStateManager&gt; in its &lt;xref:System.Windows.Controls.ControlTemplate&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;は、&lt;xref:System.Windows.VisualStateManager&gt;その&lt;xref:System.Windows.Controls.ControlTemplate&gt;。&lt;/xref:System.Windows.Controls.ControlTemplate&gt;&lt;/xref:System.Windows.VisualStateManager&gt;を使用するコントロールの状態を変更する場合、メソッド&lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt;を呼び出す</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The root element that contains the <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">ルート要素を含む、 <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The state to transition to.</source>
+          <target state="translated">遷移先の状態。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use a <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object to transition between states; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用する、 <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトの状態間を遷移するそれ以外の場合、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control successfully transitioned to the new state; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コントロールが正常に新しい状態に遷移した場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;stateName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;stateName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Transitions the control between two states.</source>
+          <target state="translated">2 つの状態間の制御を移行します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Use this method to transition states on control that has a <bpt id="p1">&lt;xref href="System.Windows.Controls.ControlTemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">このメソッドを持つコントロールの状態の遷移を使用して、 <bpt id="p1">&lt;xref href="System.Windows.Controls.ControlTemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Call the GoToState method if you are changing states in a control that uses the &lt;xref:System.Windows.VisualStateManager&gt; in its &lt;xref:System.Windows.Controls.ControlTemplate&gt;.</source>
+          <target state="translated">は、&lt;xref:System.Windows.VisualStateManager&gt;その&lt;xref:System.Windows.Controls.ControlTemplate&gt;。&lt;/xref:System.Windows.Controls.ControlTemplate&gt;&lt;/xref:System.Windows.VisualStateManager&gt;を使用するコントロールの状態を変更する場合は、GoToState メソッドを呼び出す</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt; method to change states on an element outside of a &lt;xref:System.Windows.Controls.ControlTemplate&gt; (for example, if you use a &lt;xref:System.Windows.VisualStateManager&gt; in a &lt;xref:System.Windows.Controls.UserControl&gt; or in a single element).</source>
+          <target state="translated">呼び出す、&lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;上の外部要素を変更する方法を示す、 &lt;xref:System.Windows.Controls.ControlTemplate&gt;(を使用する場合など、&lt;xref:System.Windows.VisualStateManager&gt;で、&lt;xref:System.Windows.Controls.UserControl&gt;または&amp;1; つの要素).&lt;/xref:System.Windows.Controls.UserControl&gt; &lt;/xref:System.Windows.VisualStateManager&gt; &lt;/xref:System.Windows.Controls.ControlTemplate&gt; &lt;/xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The control to transition between states.</source>
+          <target state="translated">状態間を遷移するコントロール。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The state to transition to.</source>
+          <target state="translated">遷移先の状態。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use a <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object to transition between states; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用する、 <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトの状態間を遷移するそれ以外の場合、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control successfully transitioned to the new state; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コントロールが正常に新しい状態に遷移した場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;control&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;control&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;stateName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;stateName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Transitions a control between states.</source>
+          <target state="translated">コントロールの状態を移行します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The GoToStateCore method performs the logic necessary to appropriately start and stop the storyboards that are associated with a transition.</source>
+          <target state="translated">GoToStateCore メソッドでは、適切に開始および停止遷移に関連付けられているストーリー ボードに必要なロジックを実行します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When a control calls &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; to change its state, the &lt;xref:System.Windows.VisualStateManager&gt; does the following:      -   First, if the &lt;xref:System.Windows.VisualState&gt; that the control is transitioning to has a &lt;xref:System.Windows.Media.Animation.Storyboard&gt;, the storyboard begins.</source>
+          <target state="translated">コントロールを呼び出すときに&lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;の状態を変更する、 &lt;xref:System.Windows.VisualStateManager&gt;、次の処理: - 最初に場合、&lt;xref:System.Windows.VisualState&gt;コントロールが遷移することが、 &lt;xref:System.Windows.Media.Animation.Storyboard&gt;、ストーリー ボードを開始します&lt;/xref:System.Windows.Media.Animation.Storyboard&gt;&lt;/xref:System.Windows.VisualState&gt;&lt;/xref:System.Windows.VisualStateManager&gt;&lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Then, if the &lt;xref:System.Windows.VisualState&gt; that the control is coming from has a &lt;xref:System.Windows.Media.Animation.Storyboard&gt;, the storyboard ends.</source>
+          <target state="translated">場合はその後、&lt;xref:System.Windows.VisualState&gt;が、コントロールがから送信されたこと、 &lt;xref:System.Windows.Media.Animation.Storyboard&gt;、ストーリー ボードが終了します&lt;/xref:System.Windows.Media.Animation.Storyboard&gt;&lt;/xref:System.Windows.VisualState&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-   If the control is already in the <ph id="ph1">`stateName`</ph> state, &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; takes no action and returns <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">場合は、コントロールは既に、<ph id="ph1">`stateName`</ph>状態、&lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;は何も処理し、返します<ph id="ph2">`true`</ph>&lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-   If <ph id="ph1">`stateName`</ph> does not exist in the &lt;xref:System.Windows.Controls.ControlTemplate&gt; of <ph id="ph2">`control`</ph>, &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; takes no action and returns <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">If<ph id="ph1">`stateName`</ph>に存在しません、&lt;xref:System.Windows.Controls.ControlTemplate&gt;の<ph id="ph2">`control`</ph>、&lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;は何も処理し、返します<ph id="ph3">`false`</ph>&lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt;&lt;/xref:System.Windows.Controls.ControlTemplate&gt;。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can implement your own &lt;xref:System.Windows.VisualStateManager&gt; to provide different logic for transitioning between states.</source>
+          <target state="translated">独自に実装することができます&lt;xref:System.Windows.VisualStateManager&gt;ロジックを提供するさまざまな状態の間で切り替える&lt;/xref:System.Windows.VisualStateManager&gt;。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For example, you can change the logic described previously, or you can provide logic to transition between custom animation types.</source>
+          <target state="translated">たとえば、前に説明したロジックを変更することができます。 またはカスタム アニメーションの種類間を遷移するロジックを指定できます。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To implement a &lt;xref:System.Windows.VisualStateManager&gt;, create a class that inherits from &lt;xref:System.Windows.VisualStateManager&gt; and override the GoToStateCore method.</source>
+          <target state="translated">実装する、&lt;xref:System.Windows.VisualStateManager&gt;から継承するクラスを作成する&lt;xref:System.Windows.VisualStateManager&gt;GoToStateCore メソッドをオーバーライドします&lt;/xref:System.Windows.VisualStateManager&gt;&lt;/xref:System.Windows.VisualStateManager&gt;。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To use the custom class, set the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A&gt; property to an object of your custom type.</source>
+          <target state="translated">カスタム クラスを使用する設定、&lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A&gt;プロパティをカスタム型のオブジェクト&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The control to transition between states.</source>
+          <target state="translated">状態間を遷移するコントロール。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The root element that contains the <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">ルート要素を含む、 <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The name of the state to transition to.</source>
+          <target state="translated">遷移先の状態の名前。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the state belongs to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>が、状態が属しています。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The representation of the state to transition to.</source>
+          <target state="translated">遷移先の状態の表現。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use a <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object to transition between states; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用する、 <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトの状態間を遷移するそれ以外の場合、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control successfully transitioned to the new state; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コントロールが正常に新しい状態に遷移した場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event on the specified <bpt id="p2">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">発生させる、 <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したイベント<bpt id="p2">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Windows.VisualStateGroup&gt; is set on the &lt;xref:System.Windows.Controls.ControlTemplate&gt; of a control, the <ph id="ph1">`control`</ph> parameter is set to the control that owns &lt;xref:System.Windows.Controls.ControlTemplate&gt;.</source>
+          <target state="translated">ときに、&lt;xref:System.Windows.VisualStateGroup&gt;に設定されている、 &lt;xref:System.Windows.Controls.ControlTemplate&gt;、コントロールの<ph id="ph1">`control`</ph> &lt;xref:System.Windows.Controls.ControlTemplate&gt;.&lt;/xref:System.Windows.Controls.ControlTemplate&gt;を所有するコントロールにパラメーターが設定されている&lt;/xref:System.Windows.Controls.ControlTemplate&gt;&lt;/xref:System.Windows.VisualStateGroup&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Windows.VisualStateGroup&gt; is set on a &lt;xref:System.Windows.FrameworkElement&gt;, <ph id="ph1">`control`</ph> is <ph id="ph2">`null`</ph> and you should use the <ph id="ph3">`stateGroupsRoot`</ph> parameter.</source>
+          <target state="translated">ときに、&lt;xref:System.Windows.VisualStateGroup&gt;に設定されている、 &lt;xref:System.Windows.FrameworkElement&gt;、<ph id="ph1">`control`</ph>は<ph id="ph2">`null`</ph>必要がありますを使用して、<ph id="ph3">`stateGroupsRoot`</ph>パラメーター&lt;/xref:System.Windows.FrameworkElement&gt; &lt;/xref:System.Windows.VisualStateGroup&gt; 。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The object that the <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event occurred on.</source>
+          <target state="translated">オブジェクトを<bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>でイベントが発生しました。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The state that the control is transitioning from.</source>
+          <target state="translated">コントロールが遷移状態です。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The state that the control is transitioning to.</source>
+          <target state="translated">状態に遷移するコントロールです。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The control that is transitioning states.</source>
+          <target state="translated">状態が遷移を制御します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The root element that contains the <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">ルート要素を含む、 <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;newState&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;newState&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event on the specified <bpt id="p2">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">発生させる、 <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したイベント<bpt id="p2">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Windows.VisualStateGroup&gt; is set on the &lt;xref:System.Windows.Controls.ControlTemplate&gt; of a control, the <ph id="ph1">`control`</ph> parameter is set to the control that owns &lt;xref:System.Windows.Controls.ControlTemplate&gt;.</source>
+          <target state="translated">ときに、&lt;xref:System.Windows.VisualStateGroup&gt;に設定されている、 &lt;xref:System.Windows.Controls.ControlTemplate&gt;、コントロールの<ph id="ph1">`control`</ph> &lt;xref:System.Windows.Controls.ControlTemplate&gt;.&lt;/xref:System.Windows.Controls.ControlTemplate&gt;を所有するコントロールにパラメーターが設定されている&lt;/xref:System.Windows.Controls.ControlTemplate&gt;&lt;/xref:System.Windows.VisualStateGroup&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Windows.VisualStateGroup&gt; is set on a &lt;xref:System.Windows.FrameworkElement&gt;, <ph id="ph1">`control`</ph> is <ph id="ph2">`null`</ph> and you should use the <ph id="ph3">`stateGroupsRoot`</ph> parameter.</source>
+          <target state="translated">ときに、&lt;xref:System.Windows.VisualStateGroup&gt;に設定されている、 &lt;xref:System.Windows.FrameworkElement&gt;、<ph id="ph1">`control`</ph>は<ph id="ph2">`null`</ph>必要がありますを使用して、<ph id="ph3">`stateGroupsRoot`</ph>パラメーター&lt;/xref:System.Windows.FrameworkElement&gt; &lt;/xref:System.Windows.VisualStateGroup&gt; 。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The object that the <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event occurred on.</source>
+          <target state="translated">オブジェクトを<bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>でイベントが発生しました。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The state that the control is transitioning from.</source>
+          <target state="translated">コントロールが遷移状態です。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The state that the control is transitioning to.</source>
+          <target state="translated">状態に遷移するコントロールです。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The control that is transitioning states.</source>
+          <target state="translated">状態が遷移を制御します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The root element that contains the <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">ルート要素を含む、 <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;newState&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;newState&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt; attached property.</source>
+          <target state="translated">セット、&lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;添付プロパティ&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The object to set the property on.</source>
+          <target state="translated">プロパティを設定するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The visual state manager that transitions between the states of a control.</source>
+          <target state="translated">コントロールの状態間を遷移する表示状態マネージャー。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.VisualStateManager.VisualStateGroups*&gt; dependency property.</source>
+          <target state="translated">識別、&lt;xref:System.Windows.VisualStateManager.VisualStateGroups*&gt;依存関係プロパティ&lt;/xref:System.Windows.VisualStateManager.VisualStateGroups*&gt;。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

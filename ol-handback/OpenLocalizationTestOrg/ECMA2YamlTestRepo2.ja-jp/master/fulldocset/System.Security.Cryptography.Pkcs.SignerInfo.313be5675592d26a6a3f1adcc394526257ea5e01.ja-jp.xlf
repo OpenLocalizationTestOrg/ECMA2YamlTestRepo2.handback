@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aaed340ebe06e77c8d4995aaadde1e388e8945e6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Pkcs.SignerInfo.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d1ff2479449b3263676a90cab35e2761d9d6f492</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">76ec271c456ac1f4560a3f6b702859243930478e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The SignerInfo class represents a signer associated with a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents a CMS/PKCS #7 message.</source>
+          <target state="translated">SignerInfo クラスに関連付けられている署名者を表す、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> CMS/PKCS #7 メッセージを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The signatures represented by the SignerInfo class can be either over message content or a signature.</source>
+          <target state="translated">いずれかをメッセージの内容や署名経由 SignerInfo クラスによって表されるシグネチャができます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The latter kind of signature is referred to as a <bpt id="p1">*</bpt>countersignature<ept id="p1">*</ept>.</source>
+          <target state="translated">後者の署名と呼びます、<bpt id="p1">*</bpt>副署名<ept id="p1">*</ept>です。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This implementation of CMS/PKCS #7 supports only one level of countersignature.</source>
+          <target state="translated">CMS/PKCS #7 のこの実装には、副署名のレベルを 1 つだけがサポートしています。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>That is, a signature can be signed, which forms a countersignature, but that countersignature cannot be signed again.</source>
+          <target state="translated">つまり、副署名を形成する、署名を署名することができますが、その副署名を再度署名することはできません。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This class does not have a public constructor; therefore, it cannot be publicly instantiated.</source>
+          <target state="translated">このクラスには、パブリックなコンス トラクターがありません。そのため、そのパブリックにインスタンス化できません。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It is a read-only class accessible from the &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.SignerInfos%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">これは、読み取り専用クラスからアクセスできる、&lt;xref:System.Security.Cryptography.Pkcs.SignedCms.SignerInfos%2A?displayProperty=fullName&gt;プロパティ&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms.SignerInfos%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Certificate property retrieves the signing certificate associated with the signer information.</source>
+          <target state="translated">証明書のプロパティは、署名者情報に関連付けられている署名証明書を取得します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If the signing certificate is not included at signing time by using the &lt;xref:System.Security.Cryptography.Pkcs.CmsSigner.IncludeOption%2A?displayProperty=fullName&gt; property, then the certificate will not be returned.</source>
+          <target state="translated">署名証明書が署名を使用して時刻に含まれていない場合、&lt;xref:System.Security.Cryptography.Pkcs.CmsSigner.IncludeOption%2A?displayProperty=fullName&gt;プロパティ、その証明書は返されません&lt;/xref:System.Security.Cryptography.Pkcs.CmsSigner.IncludeOption%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the signing certificate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>署名証明書を表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The CheckHash method verifies the data integrity of the CMS/PKCS #7 message signer information.</source>
+          <target state="translated">CheckHash メソッドでは、CMS/PKCS #7 メッセージの署名者情報のデータの整合性を確認します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>CheckHash is a specialized method used in specific security infrastructure applications in which the subject uses the <bpt id="p1">**</bpt>HashOnly<ept id="p1">**</ept> member of the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifierType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration when setting up a <bpt id="p3">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">CheckHash はサブジェクトを使用する特定のセキュリティ インフラストラクチャのアプリケーションで使用される特殊なメソッド、 <bpt id="p1">**</bpt>HashOnly<ept id="p1">**</ept>のメンバー、 <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifierType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>列挙型を設定するとき、 <bpt id="p3">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>CheckHash does not authenticate the signer information because this method does not involve verifying a digital signature.</source>
+          <target state="translated">このメソッドでは、デジタル署名の検証は関係しませんので、CheckHash は署名者情報を認証できません。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For general-purpose checking of the integrity and authenticity of CMS/PKCS #7 message signer information and countersignatures, use the <ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph> or <ph id="ph3">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Security.Cryptography.X509Certificates.X509Certificate2Collection%2CSystem.Boolean%29<ph id="ph4">&amp;gt;</ph> methods.</source>
+          <target state="translated">汎用の CMS/PKCS #7 メッセージの署名者情報と副署名の信頼性、整合性の確認、使用、 <ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph>または<ph id="ph3">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Security.Cryptography.X509Certificates.X509Certificate2Collection%2CSystem.Boolean%29<ph id="ph4">&amp;gt;</ph>メソッドです。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This method does not provide authentication of the CMS/PKCS #7 message signer information.</source>
+          <target state="translated">このメソッドは、CMS/PKCS #7 メッセージの署名者情報の認証を提供していません。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">暗号操作を完了できませんでした。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The CheckSignature method verifies the digital signature of the message and, optionally, validates the certificate.</source>
+          <target state="translated">CheckSignature メソッドは、メッセージのデジタル署名を検証し、必要に応じて、証明書を検証します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This method throws an exception if the verification of the digital signature fails or any validation requirements are not met.</source>
+          <target state="translated">このメソッドは、デジタル署名の検証に失敗した、または検証の要件が満たされなかった場合に例外をスローします。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If more complex validation is required, the caller can specify that only the signature is verified and then use an &lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt; object to perform custom validation.</source>
+          <target state="translated">複雑な検証が必要な場合、呼び出し元ように指定できます、署名のみが検証を使用して、&lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;カスタム検証を実行するオブジェクト&lt;/xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A bool value that specifies whether only the digital signature is verified.</source>
+          <target state="translated">デジタル署名のみを検証するかどうかを指定するブール値。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`verifySignatureOnly`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, only the signature is verified.</source>
+          <target state="translated">場合<ph id="ph1">`verifySignatureOnly`</ph>は<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、署名のみを検証します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`verifySignatureOnly`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the digital signature is verified, the certificate chain is validated, and the purposes of the certificates are validated.</source>
+          <target state="translated">場合<ph id="ph1">`verifySignatureOnly`</ph>は<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、デジタル署名を検証、証明書チェーンを検証すると、および証明書の目的が検証されます。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The purposes of the certificate are considered valid if the certificate has no key usage or if the key usage supports digital signature or nonrepudiation.</source>
+          <target state="translated">証明書の目的では証明書のキー使用法があるない場合、またはキーの使用法には、デジタル署名と否認不可がサポートされている場合、有効と見なされます。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Null 参照は、有効な引数として受け付けないメソッドに渡されました。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">暗号操作を完了できませんでした。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A method call was invalid for the object's current state.</source>
+          <target state="translated">メソッドの呼び出しは、オブジェクトの現在の状態に対して無効でした。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The CheckSignature method verifies the digital signature of the message by using the specified collection of certificates and, optionally, validates the certificate.</source>
+          <target state="translated">CheckSignature メソッドは、指定された証明書のコレクションを使用して、メッセージのデジタル署名を検証し、必要に応じて、証明書を検証します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This method throws an exception if the verification of the digital signature fails or any validation requirements are not met.</source>
+          <target state="translated">このメソッドは、デジタル署名の検証に失敗した、または検証の要件が満たされなかった場合に例外をスローします。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If more complex validation is required, the caller can specify that only the signature is verified and then use an &lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt; object to perform custom validation.</source>
+          <target state="translated">複雑な検証が必要な場合、呼び出し元ように指定できます、署名のみが検証を使用して、&lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;カスタム検証を実行するオブジェクト&lt;/xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2Collection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to validate the chain.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2Collection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>チェーンの検証に使用できるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If no additional certificates are to be used to validate the chain, use <ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph> instead of CheckSignature.</source>
+          <target state="translated">チェーンの検証を使用するために使用する追加の証明書がないかどうかは<ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph> CheckSignature の代わりにします。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A bool value that specifies whether only the digital signature is verified.</source>
+          <target state="translated">デジタル署名のみを検証するかどうかを指定するブール値。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`verifySignatureOnly`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, only the signature is verified.</source>
+          <target state="translated">場合<ph id="ph1">`verifySignatureOnly`</ph>は<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、署名のみを検証します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`verifySignatureOnly`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the digital signature is verified, the certificate chain is validated, and the purposes of the certificates are validated.</source>
+          <target state="translated">場合<ph id="ph1">`verifySignatureOnly`</ph>は<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、デジタル署名を検証、証明書チェーンを検証すると、および証明書の目的が検証されます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The purposes of the certificate are considered valid if the certificate has no key usage or if the key usage supports digital signature or nonrepudiation.</source>
+          <target state="translated">証明書の目的では証明書のキー使用法があるない場合、またはキーの使用法には、デジタル署名と否認不可がサポートされている場合、有効と見なされます。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Null 参照は、有効な引数として受け付けないメソッドに渡されました。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">暗号操作を完了できませんでした。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A method call was invalid for the object's current state.</source>
+          <target state="translated">メソッドの呼び出しは、オブジェクトの現在の状態に対して無効でした。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The ComputeCounterSignature method prompts the user to select a signing certificate, creates a countersignature, and adds the signature to the CMS/PKCS #7 message.</source>
+          <target state="translated">ComputeCounterSignature メソッドは、署名証明書を選択するように求める、副署名を作成し、CMS/PKCS #7 メッセージに署名を追加します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Countersignatures are restricted to one level.</source>
+          <target state="translated">副署名は、1 つのレベルに制限されます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This implementation of CMS/PKCS #7 supports only one level of countersignature.</source>
+          <target state="translated">CMS/PKCS #7 のこの実装には、副署名のレベルを 1 つだけがサポートしています。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>That is, a signature can be signed, which forms a countersignature, but that countersignature cannot be signed again.</source>
+          <target state="translated">つまり、副署名を形成する、署名を署名することができますが、その副署名を再度署名することはできません。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This method displays a user interface in which you choose signers for this message.</source>
+          <target state="translated">このメソッドは、このメッセージの署名者を選択するユーザー インターフェイスを表示します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This requires that the current process is running in <bpt id="p1">*</bpt>user interactive mode<ept id="p1">*</ept>, meaning that the &lt;xref:System.Environment.UserInteractive%2A?displayProperty=fullName&gt; property is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">現在のプロセスが実行されている必要があります<bpt id="p1">*</bpt>ユーザー対話モード<ept id="p1">*</ept>つまりを&lt;xref:System.Environment.UserInteractive%2A?displayProperty=fullName&gt;プロパティに設定されている<ph id="ph1">`true`</ph>&lt;/xref:System.Environment.UserInteractive%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A process is normally in user interactive mode unless it is a service process or running inside a Web application.</source>
+          <target state="translated">サービスのプロセスまたは Web アプリケーション内の実行中である場合を除き、プロセスはユーザー対話モードで通常です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Signers whose certificates meet the following conditions will be displayed in the list:      -   The certificate has an associated private key.</source>
+          <target state="translated">署名証明書が次の条件が一覧に表示されます。-証明書が関連付けられている秘密キーです。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-   The certificate is within its validity period.</source>
+          <target state="translated">-証明書はその有効期間です。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-   The certificate has no key usage or a key usage that supports digital signatures or nonrepudiation.</source>
+          <target state="translated">-証明書は、キー使用法ありませんまたはデジタル署名と否認不可をサポートするキー使用法がします。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Signer certificates are chosen from the My store.</source>
+          <target state="translated">署名者の証明書を選択、My ストア。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>.NET Framework Security    The following permissions are required to display the user interface:      -   &lt;xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;       The following permissions are required to access the signature key:      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;</source>
+          <target state="translated">次のアクセス許可がユーザー インターフェイスを表示するために必要な .NET framework のセキュリティ:-&lt;xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;署名キーにアクセスする次の権限が必要:- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;&lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Null 参照は、有効な引数として受け付けないメソッドに渡されました。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">暗号操作を完了できませんでした。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The ComputeCounterSignature method creates a countersignature by using the specified signer and adds the signature to the CMS/PKCS #7 message.</source>
+          <target state="translated">ComputeCounterSignature メソッドは、指定された署名を使用して、副署名を作成し、CMS/PKCS #7 メッセージに署名を追加します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Countersignatures are restricted to one level.</source>
+          <target state="translated">副署名は、1 つのレベルに制限されます。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This implementation of CMS/PKCS #7 supports only one level of countersignature.</source>
+          <target state="translated">CMS/PKCS #7 のこの実装には、副署名のレベルを 1 つだけがサポートしています。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>That is, a signature can be signed, which forms a countersignature, but that countersignature cannot be signed again.</source>
+          <target state="translated">つまり、副署名を形成する、署名を署名することができますが、その副署名を再度署名することはできません。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>.NET Framework Security    The following permissions are required to access the signature key:      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;</source>
+          <target state="translated">次のアクセス許可は、署名キーにアクセスするために必要な .NET framework のセキュリティ:- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;&lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the counter signer.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>カウンター署名者を表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Null 参照は、有効な引数として受け付けないメソッドに渡されました。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">暗号操作を完了できませんでした。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The CounterSignerInfos property retrieves the set of counter signers associated with the signer information.</source>
+          <target state="translated">CounterSignerInfos プロパティは、署名者情報に関連付けられているカウンターの署名者のセットを取得します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This implementation of CMS/PKCS #7 supports only one level of countersignature.</source>
+          <target state="translated">CMS/PKCS #7 のこの実装には、副署名のレベルを 1 つだけがサポートしています。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>That is, a signature can be signed, which forms a countersignature, but that countersignature cannot be signed again.</source>
+          <target state="translated">つまり、副署名を形成する、署名を署名することができますが、その副署名を再度署名することはできません。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection that represents the counter signers for the signer information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>カウンター署名者の署名者情報を表すコレクション。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If there are no counter signers, the property is an empty collection.</source>
+          <target state="translated">カウンターの署名がない場合は、プロパティ値は空のコレクションです。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The DigestAlgorithm property retrieves the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the hash algorithm used in the computation of the signatures.</source>
+          <target state="translated">DigestAlgorithm プロパティの取得、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>署名の計算に使用するハッシュ アルゴリズムを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the hash algorithm used with the signature.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>署名で使用されるハッシュ アルゴリズムを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The RemoveCounterSignature method removes the countersignature at the specified index of the &lt;xref:System.Security.Cryptography.Pkcs.SignerInfo.CounterSignerInfos*&gt; collection.</source>
+          <target state="translated">RemoveCounterSignature メソッドは、指定したインデックスの位置、副署名を削除、&lt;xref:System.Security.Cryptography.Pkcs.SignerInfo.CounterSignerInfos*&gt;コレクションです&lt;/xref:System.Security.Cryptography.Pkcs.SignerInfo.CounterSignerInfos*&gt;。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The zero-based index of the countersignature to remove.</source>
+          <target state="translated">副署名を削除するの&amp;0; から始まるインデックス。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">暗号操作を完了できませんでした。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The RemoveCounterSignature method removes the countersignature for the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">RemoveCounterSignature メソッドが、指定された副署名を削除<bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the countersignature being removed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を削除する、副署名を表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Null 参照は、有効な引数として受け付けないメソッドに渡されました。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The value of an argument was outside the allowable range of values as defined by the called method.</source>
+          <target state="translated">引数の値は、呼び出されたメソッドで定義されている値の許容範囲外でした。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">暗号操作を完了できませんでした。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The SignedAttributes property retrieves the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection of signed attributes that is associated with the signer information.</source>
+          <target state="translated">SignedAttributes プロパティの取得、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>署名者情報に関連付けられている署名付きの属性のコレクション。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Signed attributes are signed along with the rest of the message content.</source>
+          <target state="translated">符号付きの属性は、メッセージのコンテンツの残りの部分と共に署名します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An example of a signed attribute that might be included in the &lt;xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt; collection retrieved by the SignedAttributes property is the &lt;xref:System.Security.Cryptography.Pkcs.Pkcs9SigningTime&gt; signing time attribute.</source>
+          <target state="translated">含まれる可能性が符号付きの属性の例、 &lt;xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt;SignedAttributes プロパティによって取得されたコレクションは、&lt;xref:System.Security.Cryptography.Pkcs.Pkcs9SigningTime&gt;署名時刻属性&lt;/xref:System.Security.Cryptography.Pkcs.Pkcs9SigningTime&gt;&lt;/xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Signed attributes are signed along with the rest of the &lt;xref:System.Security.Cryptography.Pkcs.SignedCms&gt; message content.</source>
+          <target state="translated">符号付きの属性は、の残りの部分と共に署名、&lt;xref:System.Security.Cryptography.Pkcs.SignedCms&gt;メッセージの内容&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms&gt;。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This means that a party that successfully verifies the signature can have confidence that the contents of these attributes are authentic and have not been altered.</source>
+          <target state="translated">これは、正常に署名を確認するパーティがこれらの属性の内容が本物でと、変更されていないことの信頼度を持つことができることを意味します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Security.Cryptography.Pkcs.Pkcs9ContentType&gt; object and a &lt;xref:System.Security.Cryptography.Pkcs.Pkcs9MessageDigest&gt; object will be automatically generated and placed in the SignedAttributes property whenever the &lt;xref:System.Security.Cryptography.Pkcs.CmsSigner.SignedAttributes%2A?displayProperty=fullName&gt; property for the corresponding signer is not empty.</source>
+          <target state="translated">A&lt;xref:System.Security.Cryptography.Pkcs.Pkcs9ContentType&gt;オブジェクトおよび&lt;xref:System.Security.Cryptography.Pkcs.Pkcs9MessageDigest&gt;オブジェクトが自動的に生成され、SignedAttributes プロパティに配置されるたびに、&lt;xref:System.Security.Cryptography.Pkcs.CmsSigner.SignedAttributes%2A?displayProperty=fullName&gt;対応する署名者のプロパティが空ではありません&lt;/xref:System.Security.Cryptography.Pkcs.CmsSigner.SignedAttributes%2A?displayProperty=fullName&gt;&lt;/xref:System.Security.Cryptography.Pkcs.Pkcs9MessageDigest&gt;&lt;/xref:System.Security.Cryptography.Pkcs.Pkcs9ContentType&gt;。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection that represents the signed attributes.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>符号付きの属性を表すコレクション。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If there are no signed attributes, the property is an empty collection.</source>
+          <target state="translated">符号付きの属性がない場合は、プロパティ値は空のコレクションです。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The SignerIdentifier property retrieves the certificate identifier of the signer associated with the signer information.</source>
+          <target state="translated">SignerIdentifier プロパティでは、署名者情報に関連付けられている署名者の証明書識別子を取得します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that uniquely identifies the certificate associated with the signer information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>署名者情報に関連付けられている証明書を一意に識別するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The UnsignedAttributes property retrieves the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection of unsigned attributes that is associated with the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> content.</source>
+          <target state="translated">UnsignedAttributes プロパティの取得、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>関連付けられている署名されていない属性のコレクション、 <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>コンテンツ。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Unsigned attributes can be modified without invalidating the signature.</source>
+          <target state="translated">署名されていない属性は、署名が無効に変更できます。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Unsigned attributes are not signed along with the rest of the &lt;xref:System.Security.Cryptography.Pkcs.SignedCms&gt; message content.</source>
+          <target state="translated">残りの部分と符号なしの属性が署名されていない、&lt;xref:System.Security.Cryptography.Pkcs.SignedCms&gt;メッセージの内容&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms&gt;。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Even though a party successfully verifies the signature, the unsigned attributes may have been altered and should not be considered to have authenticity or integrity.</source>
+          <target state="translated">場合でも、パーティは、正常に署名を検証、符号なしの属性は変更されている可能性があり、完全性や整合性をあるとは見なされない必要があります。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>An example of an unsigned attribute that might be included in the &lt;xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt; collection retrieved by the UnsignedAttributes property is a countersignature.</source>
+          <target state="translated">含まれる可能性が符号なしの属性の使用例、 &lt;xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt;UnsignedAttributes プロパティによって取得されたコレクションは副署名します&lt;/xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection that represents the unsigned attributes.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>符号なしの属性を表すコレクション。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If there are no unsigned attributes, the property is an empty collection.</source>
+          <target state="translated">符号なしの属性がない場合は、プロパティ値は空のコレクションです。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The Version property retrieves the signer information version.</source>
+          <target state="translated">Version プロパティは、署名者情報のバージョンを取得します。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The version determines whether the message is a PKCS #7 message or a Cryptographic Message Syntax (CMS) message.</source>
+          <target state="translated">バージョンは、メッセージが PKCS #7 メッセージまたは Cryptographic Message Syntax (CMS) メッセージであるかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>CMS is a newer superset of PKCS #7.</source>
+          <target state="translated">CMS は、PKCS #7 の新しいスーパー セットです。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>An int value that specifies the signer information version.</source>
+          <target state="translated">署名者情報のバージョンを指定する整数値。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
