@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d528de75215d663a6a41ffa297d8f28769cb9194</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Services.SignInRequestMessage.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b431b07e2b0c9e05fe9039e5261fcff789d8e7f1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f2174674af52a3d216e0081491382c6ad2d96489</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a WS-Federation Sign-In Request message.</source>
+          <target state="translated">Ws-federation サインイン要求メッセージを表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A WS-Federation sign-in message is sent by a relying party (RP) to a security token service (STS) to request a security token.</source>
+          <target state="translated">Ws-federation サインイン メッセージは、セキュリティ トークンを要求する、証明書利用者 (RP) によって、セキュリティ トークン サービス (STS) に送信されます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The wa parameter must be set to “wsignout1.0” and the wtrealm parameter should be set to the security realm of the requested resource (this is often the URL of the requested resource).</source>
+          <target state="translated">Wa パラメーターは、"wsignout1.0"に設定する必要があり、wtrealm パラメーターは (これは多くの場合、要求されたリソースの URL) 要求されたリソースのセキュリティの領域に設定する必要があります。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Other optional parameters may also be specified in the request.</source>
+          <target state="translated">他の省略可能なパラメーターは、要求にも指定することがあります。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt; message is created by the static methods of the &lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt; class, for example the &lt;xref:System.IdentityModel.Services.WSFederationMessage.CreateFromUri%2A&gt; method, when the wa parameter is set to “wsignin1.0”, there is no wresult or wresultptr parameter present, and either a wtrealm parameter or a wreply parameter is present.</source>
+          <target state="translated">A&lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt;の静的メソッドによってメッセージが作成された、&lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt;クラス、たとえば、&lt;xref:System.IdentityModel.Services.WSFederationMessage.CreateFromUri%2A&gt;メソッドは、wa パラメーターが"wsignin1.0"に設定されている、wresult または wresultptr パラメーターが存在、および wtrealm パラメーターまたは wreply パラメーターのいずれかが存在するとします&lt;/xref:System.IdentityModel.Services.WSFederationMessage.CreateFromUri%2A&gt;&lt;/xref:System.IdentityModel.Services.SignOutRequestMessage&gt;&lt;/xref:System.IdentityModel.Services.SignOutRequestMessage&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  For backward compatibility with Active Directory Federation Services (AD FS) version 1.0, Windows Identity Foundation (WIF) allows either the wtrealm parameter or the wreply parameter to be set (or both) for a sign-in message to be valid; however, the WS-Federation protocol requires that the wtrealm parameter be present in a sign-in request.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Active Directory フェデレーション サービス (AD FS) バージョン 1.0 と下位互換性のため Windows Identity Foundation (WIF) でできる wtrealm パラメーターまたは wreply パラメータを設定する (または両方) を有効にするサインイン メッセージです。 ただし、、、Ws-federation プロトコルでは、wtrealm パラメーターがサインイン要求に存在することが必要です。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In most scenarios, you should ensure that the wtrealm parameter is specified.</source>
+          <target state="translated">ほとんどのシナリオで、wtrealm パラメーターが指定されていることを確認する必要があります。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The SignInRequestMessage class exposes several properties that can be used to set or access individual message parameters.</source>
+          <target state="translated">SignInRequestMessage クラスでは、個々 のメッセージ パラメーターへのアクセスを設定または使用できるいくつかのプロパティを公開します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These parameters can also be set or accessed through the &lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt; dictionary.</source>
+          <target state="translated">これらのパラメーターも設定またはできる経由でアクセス、&lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt;ディクショナリ&lt;/xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, you can read the wtrealm parameter in the message either through the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt; property or by specifying “wtrealm” as the key to the &lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt; dictionary.</source>
+          <target state="translated">たとえば、するを通して、wtrealm メッセージのパラメーターのいずれか、&lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt;プロパティまたはキーとして"wtrealm"を指定することによって、&lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt;ディクショナリ&lt;/xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt;&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SignInRequestMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified base URL and wtrealm parameter.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SignInRequestMessage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラス base URL および wtrealm パラメーターを指定します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The wa message parameter (the &lt;xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt; property) is initialized to “wsignin1.0”.</source>
+          <target state="translated">Wa メッセージ パラメーター (、&lt;xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt;プロパティ) は、"wsignin1.0"に初期化します&lt;/xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The base URL to which the sign-in message applies.</source>
+          <target state="translated">サインイン メッセージを適用するベース URL。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The value of the wtrealm message parameter.</source>
+          <target state="translated">Wtrealm メッセージ パラメーターの値です。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt; property.</source>
+          <target state="translated">セット、&lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt;プロパティ&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;realm&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;realm&lt;/code&gt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>または空の文字列。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SignInRequestMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified base URI, wtrealm parameter, and wreply parameter.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SignInRequestMessage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスの指定したベース URI、wtrealm のパラメーター、および wreply のパラメーターを使用します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Supports non-standard message creation for backward compatibility.</source>
+          <target state="translated">旧バージョンとの互換性のためには、非標準のメッセージの作成をサポートします。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The wa message parameter (the &lt;xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt; property) is initialized to “wsignin1.0”.</source>
+          <target state="translated">Wa メッセージ パラメーター (、&lt;xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt;プロパティ) は、"wsignin1.0"に初期化します&lt;/xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Supports non-standard message creation for backward compatibility.</source>
+          <target state="translated">旧バージョンとの互換性のためには、非標準のメッセージの作成をサポートします。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the typical case, a wtrealm message parameter must be specified.</source>
+          <target state="translated">一般的なケースでは、wtrealm メッセージ パラメーターを指定してください。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This constructor allows only a wreply message parameter to be specified for backward compatibility with Active Directory Federation Service (AD FS) version 1.0.</source>
+          <target state="translated">このコンス トラクターは、Active Directory フェデレーション サービス (AD FS) バージョン 1.0 と下位互換性のために指定する wreply メッセージ パラメーターのみを使用します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Base URL to which the sign-in message applies.</source>
+          <target state="translated">サインイン メッセージを適用するベース URL です。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The value of the wtrealm message parameter.</source>
+          <target state="translated">Wtrealm メッセージ パラメーターの値です。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If not <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or empty, sets the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt; property.</source>
+          <target state="translated">ない場合<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>または空で、設定、&lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt;プロパティ&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The URI to which to reply.</source>
+          <target state="translated">返信する URI。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>(The value of the wreply message parameter.) If not null or empty, sets the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Reply*&gt; property.</source>
+          <target state="translated">(Wreply メッセージ パラメーターの値です。)Not null または空、設定、&lt;xref:System.IdentityModel.Services.SignInRequestMessage.Reply*&gt;プロパティ&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Reply*&gt;。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Both <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">realm</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">reply</ph><ept id="p2">&lt;/code&gt;</ept> are <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated">Both <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">realm</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">reply</ph><ept id="p2">&lt;/code&gt;</ept> are <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or an empty string.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wauth parameter of the message.</source>
+          <target state="translated">取得またはメッセージの wauth パラメーターを設定します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The wauth parameter is like the wst:AuthenticationType element defined in WS-Trust.</source>
+          <target state="translated">Wauth パラメーターは、Ws-trust で定義された wst:AuthenticationType 要素に似ています。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The value should be set to a string that contains a URI that identifies the type of authentication that is used.</source>
+          <target state="translated">値は、使用される認証の種類を識別する URI を表す文字列を設定する必要があります。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The wauth parameter is optional.</source>
+          <target state="translated">Wauth パラメーターは省略できます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Set the AuthenticationType property to <ph id="ph1">`null`</ph> or an empty string to remove the wauth parameter from the message.</source>
+          <target state="translated">AuthenticationType プロパティに設定<ph id="ph1">`null`</ph>またはメッセージから wauth パラメーターを削除する空の文字列。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The authentication type.</source>
+          <target state="translated">認証の種類。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">これは、URI として指定されます。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">有効な絶対 URI ではない値を設定しようとすると、発生します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wct parameter of the message.</source>
+          <target state="translated">取得またはメッセージの wct のパラメーターを設定します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The wct parameter specifies the current time at the instant that the message was created.</source>
+          <target state="translated">Wct パラメーターでは、メッセージが作成された時点で現在の時刻を指定します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The wct parameter is optional.</source>
+          <target state="translated">Wct パラメーターは省略できます。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Set to the CurrentTime property <ph id="ph1">`null`</ph> or an empty string to remove the wct parameter from the message.</source>
+          <target state="translated">CurrentTime プロパティに設定<ph id="ph1">`null`</ph>またはメッセージから wct パラメーターを削除する空の文字列。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The value of the wct parameter specified as a datetime string in UTC.</source>
+          <target state="translated">Utc datetime 文字列として指定された wct パラメーターの値。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid datetime string occurs.</source>
+          <target state="translated">有効な datetime 文字列ではない値を設定しようとすると、発生します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wfed parameter of the message.</source>
+          <target state="translated">取得またはメッセージの wfed パラメーターを設定します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The wfed parameter specifies the federation context for the message.</source>
+          <target state="translated">Wfed パラメーターでは、メッセージのフェデレーション コンテキストを指定します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The wfed parameter is optional.</source>
+          <target state="translated">Wfed パラメーターは省略できます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Set to the Federation property <ph id="ph1">`null`</ph> or an empty string to remove the wfed parameter from the message.</source>
+          <target state="translated">フェデレーション プロパティを設定<ph id="ph1">`null`</ph>またはメッセージから wfed パラメーターを削除する空の文字列。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The value of the wfed parameter.</source>
+          <target state="translated">Wfed パラメーターの値。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">これは、URI として指定されます。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wfresh parameter of the message.</source>
+          <target state="translated">取得またはメッセージの wfresh パラメーターを設定します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The wfresh parameter indicates the maximum age in minutes that the authentication is valid.</source>
+          <target state="translated">Wfresh パラメーターでは、認証が有効である分単位で最大有効期間を示します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The wfresh parameter is optional.</source>
+          <target state="translated">Wfresh パラメーターは省略できます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Set the Freshness property to <ph id="ph1">`null`</ph> or an empty string to remove the wfresh parameter from the message.</source>
+          <target state="translated">鮮度プロパティを設定<ph id="ph1">`null`</ph>またはメッセージから wfresh パラメーターを削除する空の文字列。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The value of the wfresh parameter.</source>
+          <target state="translated">Wfresh パラメーターの値。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This should be an integer represented as a string.</source>
+          <target state="translated">文字列として表される整数であるこの必要があります。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>It specifies the maximum age in minutes that the authentication is valid.</source>
+          <target state="translated">認証が有効である分単位で最大有効期間を指定します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Zero indicates that the user should be prompted before the token is issued.</source>
+          <target state="translated">0 は、トークンが発行される前にユーザーが求められる点を示します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a string representation of an integer.</source>
+          <target state="translated">整数の文字列表記ではない値を設定しようとしました。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets or sets the whr parameter of the message.</source>
+          <target state="translated">取得またはメッセージの whr パラメーターを設定します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The whr parameter identifies the security realm of the identity provider to use for the request.</source>
+          <target state="translated">Whr パラメーターは、要求に対して使用する id プロバイダーのセキュリティの領域を識別します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>It can be specified as the URL of the IP-STS to use or as an identifier that is understood by the receiver of the request.</source>
+          <target state="translated">または、要求の受信側で認識できる識別子として使用する IP STS の URL として指定できます。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The whr parameter is optional Set the HomeRealm property to <ph id="ph1">`null`</ph> or an empty string to remove the whr parameter from the message.</source>
+          <target state="translated">Whr パラメーターは省略可能なセットを HomeRealm プロパティ<ph id="ph1">`null`</ph>または空の文字列をメッセージから whr パラメーターを削除します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The value of the whr parameter.</source>
+          <target state="translated">Whr パラメーターの値。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">これは、URI として指定されます。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wp parameter of the message.</source>
+          <target state="translated">取得またはメッセージの wp パラメーターを設定します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Identifies the policy to be used for the request.</source>
+          <target state="translated">要求に使用するポリシーを識別します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>It typically applies to the action (wa parameter), but may have broader implications.</source>
+          <target state="translated">通常、アクション (wa パラメーター) に適用されますより広範な影響があります。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The wp parameter is optional.</source>
+          <target state="translated">Wp パラメーターは省略できます。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Set the Policy property to <ph id="ph1">`null`</ph> or an empty string to remove the wp parameter from the message.</source>
+          <target state="translated">ポリシーのプロパティを設定<ph id="ph1">`null`</ph>またはメッセージから wp パラメーターを削除する空の文字列。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The value of the wp parameter.</source>
+          <target state="translated">Wp パラメーターの値。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">これは、URI として指定されます。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">有効な絶対 URI ではない値を設定しようとすると、発生します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wtrealm parameter of the message.</source>
+          <target state="translated">取得またはメッセージの wtrealm パラメーターを設定します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The wtrealm parameter specifies the security realm to which the requested resource belongs.</source>
+          <target state="translated">Wtrealm パラメーターでは、要求されたリソースが所属するセキュリティ レルムを指定します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This is often the URL of the requested resource.</source>
+          <target state="translated">これは、多くの場合、要求されたリソースの URL です。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  For backward compatibility with Active Directory Federation Services (AD FS) version 1.0, Windows Identity Foundation (WIF) allows either the wtrealm parameter or the wreply parameter to be set (or both) for a sign-in message to be valid; however, the WS-Federation protocol requires that the wtrealm parameter be present in a sign-in request.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Active Directory フェデレーション サービス (AD FS) バージョン 1.0 と下位互換性のため Windows Identity Foundation (WIF) でできる wtrealm パラメーターまたは wreply パラメータを設定する (または両方) を有効にするサインイン メッセージです。 ただし、、、Ws-federation プロトコルでは、wtrealm パラメーターがサインイン要求に存在することが必要です。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In most scenarios, you should ensure that the wtrealm parameter is specified.</source>
+          <target state="translated">ほとんどのシナリオで、wtrealm パラメーターが指定されていることを確認する必要があります。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Set the Realm property to <ph id="ph1">`null`</ph> or an empty string to remove the wtrealm parameter from the message.</source>
+          <target state="translated">領域のプロパティを設定<ph id="ph1">`null`</ph>またはメッセージから wtrealm パラメーターを削除する空の文字列。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The value of the wtrealm parameter.</source>
+          <target state="translated">Wtrealm パラメーターの値。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">これは、URI として指定されます。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">有効な絶対 URI ではない値を設定しようとすると、発生します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wreply parameter of the message.</source>
+          <target state="translated">取得またはメッセージの wreply パラメーターを設定します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Contains the URI to which responses should be directed.</source>
+          <target state="translated">応答する必要があります URI が含まれています。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The wtrealm parameter is often used to specify this URI.</source>
+          <target state="translated">Wtrealm パラメーターは、この URI を指定するよく使用されます。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>However, in more complex scenarios, the wtrealm parameter can be used to specify the security realm for the request, for example, the entire web site, and the wreply parameter can be used to specify a specific resource within that realm, for example, a document, page, or endpoint.</source>
+          <target state="translated">ただしより複雑なシナリオは、wtrealm パラメーターは、要求、たとえば、web、サイト全体のセキュリティの領域を指定するために使用できますで wreply パラメーターは、ドキュメント、ページ、またはエンドポイントなど、その領域内の特定のリソースを指定するために使用できます。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The wreply parameter is optional.</source>
+          <target state="translated">Wreply パラメーターは省略できます。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Set the Reply property to <ph id="ph1">`null`</ph> or an empty string to remove the wreply parameter from the message.</source>
+          <target state="translated">応答プロパティを設定<ph id="ph1">`null`</ph>またはメッセージから wreply パラメーターを削除する空の文字列。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  For backward compatibility with Active Directory Federation Services (AD FS) version 1.0, Windows Identity Foundation (WIF) allows either the wtrealm parameter or the wreply parameter to be set (or both) for a sign-in message to be valid; however, the WS-Federation protocol requires that the wtrealm parameter be present in a sign-in request.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Active Directory フェデレーション サービス (AD FS) バージョン 1.0 と下位互換性のため Windows Identity Foundation (WIF) でできる wtrealm パラメーターまたは wreply パラメータを設定する (または両方) を有効にするサインイン メッセージです。 ただし、、、Ws-federation プロトコルでは、wtrealm パラメーターがサインイン要求に存在することが必要です。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>In most scenarios, you should ensure that the wtrealm parameter is specified.</source>
+          <target state="translated">ほとんどのシナリオで、wtrealm パラメーターが指定されていることを確認する必要があります。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The value of the wreply parameter.</source>
+          <target state="translated">Wreply のパラメーターの値です。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">これは、URI として指定されます。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">有効な絶対 URI ではない値を設定しようとすると、発生します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wreq parameter of the message.</source>
+          <target state="translated">取得またはメッセージの wreq パラメーターを設定します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The wreq parameter specifies a token request using either a <ph id="ph1">`&lt;wst:RequestSecurityToken&gt;`</ph> element or a full request message as described in WS-Trust.</source>
+          <target state="translated">Wreq パラメーターを指定するかを使用して、トークン要求、<ph id="ph1">`&lt;wst:RequestSecurityToken&gt;`</ph>要素または Ws-trust」の説明に従って完全な要求メッセージ。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The wreq parameter is optional.</source>
+          <target state="translated">Wreq パラメーターは省略できます。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Set the Request property to <ph id="ph1">`null`</ph> or an empty string to remove the wreq parameter from the message.</source>
+          <target state="translated">要求プロパティを設定<ph id="ph1">`null`</ph>またはメッセージから wreq パラメーターを削除する空の文字列。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If the Request property is specified, the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.RequestPtr%2A&gt; property cannot be specified.</source>
+          <target state="translated">要求のプロパティが指定されている場合、&lt;xref:System.IdentityModel.Services.SignInRequestMessage.RequestPtr%2A&gt;プロパティを指定することはできません&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.RequestPtr%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The value of the wreq parameter.</source>
+          <target state="translated">Wreq パラメーターの値。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wreqptr parameter of the message.</source>
+          <target state="translated">取得またはメッセージの wreqptr パラメーターを設定します。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Specifies a URL that indicates where to find the request expressed as a <ph id="ph1">`&lt;wst:RequestSecurityToken&gt;`</ph> element.</source>
+          <target state="translated">表される要求を検索する場所を示す URL を指定します、<ph id="ph1">`&lt;wst:RequestSecurityToken&gt;`</ph>要素。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The wreqptr parameter is optional.</source>
+          <target state="translated">Wreqptr パラメーターは省略できます。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Set the RequestPtr property to <ph id="ph1">`null`</ph> or an empty string to remove the wreqptr parameter from the message.</source>
+          <target state="translated">RequestPtr プロパティを設定<ph id="ph1">`null`</ph>またはメッセージから wreqptr パラメーターを削除する空の文字列。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If the RequestPtr property is specified, the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Request%2A&gt; property cannot be specified.</source>
+          <target state="translated">RequestPtr プロパティが指定されている場合、&lt;xref:System.IdentityModel.Services.SignInRequestMessage.Request%2A&gt;プロパティを指定することはできません&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Request%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The value of the wreqptr parameter.</source>
+          <target state="translated">Wreqptr パラメーターの値。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">有効な絶対 URI ではない値を設定しようとすると、発生します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets a string representation of the URL that corresponds to this message.</source>
+          <target state="translated">このメッセージに対応する URL の文字列表現を取得します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The string contains a URL (including query parameters) that is created by serializing the current instance.</source>
+          <target state="translated">文字列には、現在のインスタンスをシリアル化して作成された URL が (クエリ パラメーターを含む) が含まれています。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Write%2A&gt; method is invoked to perform the serialization.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Services.SignInRequestMessage.Write%2A&gt;をシリアル化を実行するメソッドが呼び出されます&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Write%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A URL serialized from the current instance.</source>
+          <target state="translated">現在のインスタンスからシリアル化する URL です。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wres parameter of the message.</source>
+          <target state="translated">取得またはメッセージの wres パラメーターを設定します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Specifies the URL for the resource to be accessed.</source>
+          <target state="translated">アクセスできるリソースの URL を指定します。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The wres parameter is a legacy parameter.</source>
+          <target state="translated">Wres パラメーターは、従来のパラメーターです。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Typically, the wtrealm parameter (the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt; property) is used instead.</source>
+          <target state="translated">Wtrealm パラメーターでは通常、(、&lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt;プロパティ) が代わりに使用します&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The wres parameter is optional.</source>
+          <target state="translated">Wres パラメーターは省略できます。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Set to the Resource property to <ph id="ph1">`null`</ph> or an empty string to remove the wres parameter from the message.</source>
+          <target state="translated">リソース プロパティに設定<ph id="ph1">`null`</ph>またはメッセージから wres パラメーターを削除する空の文字列。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The value of the wres parameter.</source>
+          <target state="translated">Wres パラメーターの値。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">有効な絶対 URI ではない値を設定しようとすると、発生します。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Validates the current instance.</source>
+          <target state="translated">現在のインスタンスを検証します。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The wa parameter (the &lt;xref:System.IdentityModel.Services.WSFederationMessage.Action*&gt; property) is not set to “wsignin1.0”.</source>
+          <target state="translated">Wa パラメーター (、&lt;xref:System.IdentityModel.Services.WSFederationMessage.Action*&gt;プロパティ)"wsignin1.0"に設定されていません&lt;/xref:System.IdentityModel.Services.WSFederationMessage.Action*&gt;。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Neither the wtrealm parameter nor the wreply parameter is present.</source>
+          <target state="translated">Wtrealm パラメーターでも、wreply パラメーターが存在します。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>(The &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm<bpt id="p1">*</bpt>&gt; property and the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Reply<ept id="p1">*</ept>&gt; property are <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or empty.)       -or-       Both the wreq parameter and the wreqptr parameter are present.</source>
+          <target state="translated">(、 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; プロパティおよび&lt;&gt; <ept id="p1">*</ept>&gt; プロパティには<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>または空です)。      - または - 両方の wreq パラメーターと wreqptr パラメーターが存在します。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>(The &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Request<bpt id="p1">*</bpt>&gt; property and the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.RequestPtr<ept id="p1">*</ept>&gt; property are both set.)</source>
+          <target state="translated">(、 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; プロパティおよび&lt;&gt; <ept id="p1">*</ept>&gt; プロパティの両方が設定されます)。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Writes this message in query string form to the specified text writer.</source>
+          <target state="translated">クエリ文字列の形式で指定されたテキスト ライターにこのメッセージを書き込みます。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This method calls the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Validate%2A&gt; method before writing the message.</source>
+          <target state="translated">このメソッドは、&lt;xref:System.IdentityModel.Services.SignInRequestMessage.Validate%2A&gt;メッセージを書き込む前にメソッド&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Validate%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextWriter&gt; to which to write the message.</source>
+          <target state="translated">&lt;xref:System.IO.TextWriter&gt;メッセージの書き込み先&lt;/xref:System.IO.TextWriter&gt;。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
