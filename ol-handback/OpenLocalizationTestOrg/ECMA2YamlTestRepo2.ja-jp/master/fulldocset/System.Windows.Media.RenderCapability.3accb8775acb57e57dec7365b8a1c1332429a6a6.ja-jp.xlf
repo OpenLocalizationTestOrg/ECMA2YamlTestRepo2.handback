@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">677b65aa1f8de2ec9cb159c8e1c86604b5af386d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.RenderCapability.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1e0b6232e0de4bb7a6bf798088c9d736c7e46e7c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d408143ccd207193cee1d558d535276debd60bda</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> applications to query for the current rendering tier for their associated <bpt id="p1">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and to register for notification of changes.</source>
+          <target state="translated">により、<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>のそれに関連付けられた現在の描画層でクエリをアプリケーション<bpt id="p1">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトと変更の通知の登録をします。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A rendering tier defines a level of graphics hardware capability and performance for a device that runs a <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> application.</source>
+          <target state="translated">描画層のグラフィックス ハードウェア機能および実行しているデバイスのパフォーマンス レベルを定義する、<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>アプリケーションです。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The features of the graphics hardware that most affect the rendering tier levels are the following:      -   Video RAM: The amount of video memory on the graphics hardware determines the size and number of buffers that can be used for compositing graphics.</source>
+          <target state="translated">次の描画層のレベルに最も影響のグラフィックス ハードウェアの機能は:-ビデオ RAM: のグラフィックス ハードウェアのビデオ メモリ量は、合成グラフィックスのために使用するバッファーの数とサイズを決定します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>-   Pixel Shader: A pixel shader is a graphics processing function that calculates effects on a per-pixel basis.</source>
+          <target state="translated">ピクセル シェーダー: ピクセル シェーダーは、グラフィックス ピクセル単位で効果を計算する関数を処理します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Depending on the resolution of the displayed graphics, there could be several million pixels that need to be processed for each display frame.</source>
+          <target state="translated">表示されている画像の解像度に応じて、数百万のピクセル表示フレームごとに処理する必要がある可能性があります。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   Vertex Shader: A vertex shader is a graphics processing function that performs mathematical operations on the vertex data of the object.</source>
+          <target state="translated">頂点シェーダー: 頂点シェーダーは、グラフィックス処理オブジェクトの頂点のデータの数学的な操作を実行する関数です。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   Multitexture Support: Multitexture support refers to the ability to apply two or more distinct textures during a blending operation on a 3D graphics object.</source>
+          <target state="translated">-マルチ テクスチャのサポート: マルチ テクスチャのサポートは、3 D グラフィックス オブジェクトの描画操作中に 2 つ以上の別個のテクスチャを適用する機能を指します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The degree of multitexture support is determined by the number of multitexture units on the graphics hardware.</source>
+          <target state="translated">マルチ テクスチャのサポートの度合いは、グラフィックス ハードウェアのマルチ テクスチャのユニットの数によって決定されます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The pixel shader, vertex shader, and multitexture features are used to define specific <ph id="ph1">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph> version levels, which, in turn, are used to define the different rendering tiers in <ph id="ph2">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>.</source>
+          <target state="translated">ピクセル シェーダー、頂点シェーダーとマルチ テクスチャ機能の定義に使用特定<ph id="ph1">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph>さらに、さまざまな表示の層の定義に使用されるバージョン レベル<ph id="ph2">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>です。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For a full description of the rendering tiers, see <bpt id="p1">[</bpt>Graphics Rendering Tiers<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">フルの描画層の説明を表示するには、次を参照してください。<bpt id="p1">[</bpt>グラフィックスの描画層<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the specified pixel shader version is supported.</source>
+          <target state="translated">指定したピクセル シェーダーのバージョンがサポートされているかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The IsPixelShaderVersionSupported method returns <ph id="ph1">`true`</ph> if the pixel shader version is supported by the current version of WPF, and if an &lt;xref:System.Windows.Media.Effects.Effect&gt; using the specified major/minor version can run on the GPU.</source>
+          <target state="translated">IsPixelShaderVersionSupported メソッドを返します<ph id="ph1">`true`</ph>場合とピクセル シェーダーのバージョンが、WPF の現在のバージョンでサポートされている場合、&lt;xref:System.Windows.Media.Effects.Effect&gt;指定したメジャー/マイナー バージョンを使用して GPU で実行できます&lt;/xref:System.Windows.Media.Effects.Effect&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The major version of the pixel shader.</source>
+          <target state="translated">ピクセル シェーダーのメジャー バージョン。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The minor version of the pixel shader.</source>
+          <target state="translated">ピクセル シェーダーのマイナー バージョン。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the pixel shader version is supported by the current version of WPF; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>WPF での現在のバージョンでピクセル シェーダーのバージョンがサポートされている場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the specified pixel shader version can be rendered in software on the current system.</source>
+          <target state="translated">現在のシステム上のソフトウェアで指定したピクセル シェーダーのバージョンを表示することができるかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Software rendering is only supported for Pixel Shader 2.0.</source>
+          <target state="translated">Pixel Shader 2.0 は、ソフトウェア レンダリングがのみサポートされます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The major version of the pixel shader.</source>
+          <target state="translated">ピクセル シェーダーのメジャー バージョン。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The minor version of the pixel shader.</source>
+          <target state="translated">ピクセル シェーダーのマイナー バージョン。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the pixel shader can be rendered in software on the current system; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ピクセル シェーダーは、現在のシステム上のソフトウェアで表示する場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the system can render bitmap effects in software.</source>
+          <target state="translated">システムでのソフトウェアのビットマップ効果を描画できるかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the system can render bitmap effects in software; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>システムはソフトウェアでのビットマップ効果を描画できる場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets the maximum width and height for bitmap creation of the underlying hardware device.</source>
+          <target state="translated">基になるハードウェア デバイスのビットマップ作成の最大の幅と高さを取得します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If there are multiple devices, MaxHardwareTextureSize returns the minimum size among them.</source>
+          <target state="translated">複数のデバイスがある場合、MaxHardwareTextureSize はそれらの間の最小サイズを返します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Size"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the maximum width and height for hardware bitmap creation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Size"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>最大の幅と高さのハードウェアのビットマップ作成を表すです。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the maximum number of instruction slots supported by the specified pixel shader version.</source>
+          <target state="translated">指定したピクセル シェーダーのバージョンでサポートされている命令スロットの最大数を取得します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The number of instruction slots supported by Pixel Shader 3.0 varies, but is always 512 or greater.</source>
+          <target state="translated">ピクセル シェーダー 3.0 でサポートされている命令のスロットの数が異なりますが、512 以上では常にします。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Only Pixel Shader 2.0 and 3.0 are supported.</source>
+          <target state="translated">Pixel Shader 2.0 と 3.0 のみがサポートされます。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The major version of the pixel shader.</source>
+          <target state="translated">ピクセル シェーダーのメジャー バージョン。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The minor version of the pixel shader.</source>
+          <target state="translated">ピクセル シェーダーのマイナー バージョン。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>96 for Pixel Shader 2.0, 512 or greater for Pixel Shader 3.0, or 0 for any other version of Pixel Shader.</source>
+          <target state="translated">Pixel Shader 2.0、ピクセル シェーダーの 3.0 用には、512 以上の 96 またはピクセル シェーダーの他の任意のバージョンの場合は 0 です。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates the rendering tier for the current thread.</source>
+          <target state="translated">現在のスレッドの描画層を示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph> &gt;  Starting in the .NET Framework 4, rendering tier 1 has been redefined to only include graphics hardware that supports <ph id="ph2">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph> 9.0 or greater.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph>&gt;、.NET Framework 4 以降、描画層 1 が再定義されましたのみをサポートするグラフィックス ハードウェアを搭載する<ph id="ph2">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph>9.0 以上です。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Graphics hardware that supports <ph id="ph1">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph> 7 or 8 is now defined as rendering tier 0.</source>
+          <target state="translated">サポートするグラフィックス ハードウェア<ph id="ph1">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph>7 または 8 がレンダリング階層 0 として定義されました。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The return value is one of three possible values:      |Return value|Rendering tier|Notes|   |------------------|--------------------|-----------|   |0x00000000|0|No graphics hardware acceleration is available for the application on the device.</source>
+          <target state="translated">戻り値は&amp;3; つの値のいずれかの: |戻り値 |描画層 |ノート |  |------------------|--------------------|-----------|  |&amp;0;x00000000 |&amp;0; |デバイス上のアプリケーションはハードウェアのグラフィックス アクセラレータは有効ではありません。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>All graphics features use software acceleration.</source>
+          <target state="translated">すべてのグラフィックス機能は、ソフトウェア アクセラレータを使用します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph> version level is less than version 9.0.|   |0x00010000|1|Most of the graphics features of <ph id="ph2">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> will use hardware acceleration if the necessary system resources are available and have not been exhausted.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph>バージョン レベルがバージョン 9.0 未満です |。  | 0x00010000 | 1 |グラフィックス機能のほとんど<ph id="ph2">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>必要なシステム リソースが使用できず、終了されていない場合に、ハードウェア アクセラレータを使用します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This corresponds to a <ph id="ph1">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph> version that is greater than or equal to 9.0.|   |0x00020000|2|Most of the graphics features of <ph id="ph2">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> will use hardware acceleration provided the necessary system resources have not been exhausted.</source>
+          <target state="translated">これに対応する<ph id="ph1">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph>9.0 以上であるバージョンです |。  | 0x00020000 | 2 |グラフィックス機能のほとんど<ph id="ph2">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>提供、必要なシステム リソースが枯渇していない場合に、ハードウェア アクセラレータを使用します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This corresponds to a <ph id="ph1">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph> version that is greater than or equal to 9.0.|       The following table shows the differences in graphics hardware requirements for rendering tier 1 and rendering tier 2:      |Feature|Tier 1|Tier 2|   |-------------|------------|------------|   |<ph id="ph2">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph> version|Must be greater than or equal to 9.0.|Must be greater than or equal to 9.0.|   |Video RAM|Must be greater than or equal to 60MB.|Must be greater than or equal to 120MB.|   |Pixel shader|Version level must greater than or equal to 2.0.|Version level must greater than or equal to 2.0.|   |Vertex shader|No requirement.|Version level must greater than or equal to 2.0.|   |Multitexture units|No requirement.|Number of units must greater than or equal to 4.|       For more information on the definitions for the rendering tiers, see <bpt id="p1">[</bpt>Graphics Rendering Tiers<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">これに対応する<ph id="ph1">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph>9.0 以上であるバージョンです |。      次の表はグラフィックスの違いの描画層 1 と第 2 層のレンダリングのハードウェア要件を示しています: |機能 |階層 1 |階層 2 |  |-------------|------------|------------|  |<ph id="ph2">[!INCLUDE[TLA2#tla_dx](~/add/includes/tla2sharptla-dx-md.md)]</ph>バージョン |9.0 以上にする必要があります |。9.0 以上にする必要があります |。  |ビデオ RAM |60 MB 以上にする必要があります |。120 MB 以上にする必要があります |。  |ピクセル シェーダー |バージョン 2.0 以上のレベルである必要があります |。バージョン 2.0 以上のレベルである必要があります |。  |頂点シェーダー |要件がありません |。バージョン 2.0 以上のレベルである必要があります |。  |マルチ テクスチャ ユニット |要件がありません |。ユニットの数には、4 以上が必要があります |。      描画層の定義の詳細については、次を参照してください。<bpt id="p1">[</bpt>グラフィックスの描画層<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If the current thread does not have an associated &lt;xref:System.Windows.Threading.Dispatcher&gt; object, one is automatically created.</source>
+          <target state="translated">現在のスレッドに関連付けられていない場合&lt;xref:System.Windows.Threading.Dispatcher&gt;オブジェクトのいずれかが自動的に作成します&lt;/xref:System.Windows.Threading.Dispatcher&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; value whose high-order word corresponds to the rendering tier for the current thread.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;値が上位ワードが、現在のスレッドの描画層に対応しています&lt;/xref:System.Int32&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Occurs when the rendering tier has changed for the <bpt id="p1">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current thread.</source>
+          <target state="translated">描画層が変更されたときに発生、 <bpt id="p1">&lt;xref href="System.Windows.Threading.Dispatcher"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>現在のスレッドのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If the current thread does not have an associated &lt;xref:System.Windows.Threading.Dispatcher&gt; object, one is automatically created.</source>
+          <target state="translated">現在のスレッドに関連付けられていない場合&lt;xref:System.Windows.Threading.Dispatcher&gt;オブジェクトのいずれかが自動的に作成します&lt;/xref:System.Windows.Threading.Dispatcher&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
