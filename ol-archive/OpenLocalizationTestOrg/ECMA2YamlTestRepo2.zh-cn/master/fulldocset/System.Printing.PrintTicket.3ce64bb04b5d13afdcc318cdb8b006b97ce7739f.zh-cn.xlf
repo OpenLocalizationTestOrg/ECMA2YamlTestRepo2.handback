@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1f59349bd3c14a6886f0f5d34b417aeec30e996</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Printing.PrintTicket.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">63700cd2dbaced97c8104e43d355e8130ec61541</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eba3af6413a4f39ea127dd066d1b585696938d83</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the settings of a print job.</source>
+          <target state="translated">定义打印作业的设置。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A PrintTicket object is an easy-to-work-with representation of a certain type of XML document called a <bpt id="p1">*</bpt>PrintTicket document<ept id="p1">*</ept>.</source>
+          <target state="translated">PrintTicket 对象是某种类型的调用的 XML 文档的轻松-到-工作的带有表示<bpt id="p1">*</bpt>PrintTicket 文档<ept id="p1">*</ept>。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The latter is a set of instructions telling a printer how to set its various features (such as duplexing, collating, and stapling).</source>
+          <target state="translated">后者是一组指令告知如何设置其各种功能 （如分页和装订，双工技术） 的打印机。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, to instruct the printer to turn on its stapler and staple print jobs in the upper left corner, the document would have a <ph id="ph1">`&lt;JobStapleAllDocuments … &gt;`</ph> element that specifies <bpt id="p1">**</bpt>StapleTopLeft<ept id="p1">**</ept>.</source>
+          <target state="translated">例如，若要指示打印机以打开其装订和装订左上角的打印作业，该文档应具有<ph id="ph1">`&lt;JobStapleAllDocuments … &gt;`</ph>指定的元素<bpt id="p1">**</bpt>StapleTopLeft<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The element is, in turn, represented by the &lt;xref:System.Printing.PrintTicket.Stapling%2A&gt; property of the PrintTicket object.</source>
+          <target state="translated">元素，反过来，由表示&lt;xref:System.Printing.PrintTicket.Stapling%2A&gt;PrintTicket 对象属性。&lt;/xref:System.Printing.PrintTicket.Stapling%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The PrintTicket document must conform to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>.</source>
+          <target state="translated">PrintTicket 文档必须符合<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The PrintTicket class enables your application to configure the printer's features without having to engage in any direct writing of XML &lt;xref:System.IO.Stream&gt; objects.</source>
+          <target state="translated">PrintTicket 类使你的应用程序配置打印机的功能而无需进行的任何直接编写 XML&lt;xref:System.IO.Stream&gt;对象。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>All of the most popular features of home and business file and photo printers are represented by properties of PrintTicket the class.</source>
+          <target state="translated">家庭和企业的文件和照片打印机的最常用功能的所有由 PrintTicket 类的属性表示。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>But the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept> defines many more, less common, features and it can be extended to handle features of specialty printing devices.</source>
+          <target state="translated">但是<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>定义多，通常，不功能和它可以进行扩展以便处理 specialty 打印设备的功能。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>So, although the PrintTicket and &lt;xref:System.Printing.PrintCapabilities&gt; classes cannot be inherited, you can extend the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept> to recognize print device features that are not accounted for in the PrintTicket or &lt;xref:System.Printing.PrintCapabilities&gt; classes.</source>
+          <target state="translated">因此，尽管 PrintTicket 和&lt;xref:System.Printing.PrintCapabilities&gt;类不能被继承，可以扩展<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>能够识别并不表示 PrintTicket 中的打印设备功能或&lt;xref:System.Printing.PrintCapabilities&gt;类。&lt;/xref:System.Printing.PrintCapabilities&gt; &lt;/xref:System.Printing.PrintCapabilities&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information see <bpt id="p1">[</bpt>NOTINBUILD: How to: Extend the Print Schema and Create New Print System Classes<ept id="p1">](http://msdn.microsoft.com/en-us/a3600218-1ea5-478a-9853-6560464f2885)</ept>.</source>
+          <target state="translated">有关详细信息请参阅<bpt id="p1">[</bpt>NOTINBUILD︰ 如何︰ 打印架构和创建新的打印系统类扩展<ept id="p1">](http://msdn.microsoft.com/en-us/a3600218-1ea5-478a-9853-6560464f2885)</ept>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> When the PrintTicket object is created with the constructor that takes a PrintTicket document (as a &lt;xref:System.IO.Stream&gt;) parameter, that entire document is stored in a non-public field in the object, including the XML elements within it that express less common features that are not represented by any of the public properties of the PrintTicket class.</source>
+          <target state="translated"><bpt id="p1">**</bpt>请注意<ept id="p1">**</ept>了采用 PrintTicket 文档的构造函数创建时 PrintTicket 对象 (作为&lt;xref:System.IO.Stream&gt;) 参数，该整个文档存储在中的对象，包括 express 不由任何 PrintTicket 类的公共属性表示的不太常见功能的 XML 元素中的非公共字段&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In fact, if the driver that produced the PrintTicket document is using a private extension of the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>, that privately defined markup is also stored as part of the non-public PrintTicket document.</source>
+          <target state="translated">事实上，如果生成 PrintTicket 文档驱动程序正在使用的专用扩展<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>、 的私人定义标记也存储为非公共 PrintTicket 文档的一部分。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Classes within the &lt;xref:System.Printing&gt; namespace are not supported for use within a Windows service or ASP.NET application or service.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!CAUTION]</ph>&amp;1;&gt; 类内&lt;xref:System.Printing&gt;命名空间不支持的 Windows 服务或 ASP.NET 应用程序或服务中的使用。&lt;/xref:System.Printing&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Attempting to use these classes from within one of these application types may produce unexpected problems, such as diminished service performance and run-time exceptions.</source>
+          <target state="translated">尝试使用这些应用程序类型之一中的这些类可能会产生意外的问题，如降低服务性能和运行时异常。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you want to print from a Windows Forms application, see the &lt;xref:System.Drawing.Printing&gt; namespace.</source>
+          <target state="translated">如果你想要从 Windows 窗体应用程序打印，请参阅&lt;xref:System.Drawing.Printing&gt;命名空间。&lt;/xref:System.Drawing.Printing&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using an XML stream (that contains a PrintTicket document) that complies with the XML <bpt id="p2">[</bpt>Print Schema<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用 XML 流 （即包含 PrintTicket 文档） 符合用 XML<bpt id="p2">[</bpt>打印架构<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The constructor does not reset the read-write position of the stream back to its original position.</source>
+          <target state="translated">构造函数不流的读写位置重置回其原始位置。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Accordingly, you should reset it immediately after calling the constructor.</source>
+          <target state="translated">相应地，你应该重置它调用的构造函数后立即。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The entire PrintTicket document is stored in a non-public field in the object, including the XML elements within it that express less common features that are not represented by any of the public properties of the &lt;xref:System.Printing.PrintTicket&gt; class.</source>
+          <target state="translated">整个 PrintTicket 文档存储在中的对象，包括 express 不由任何&lt;xref:System.Printing.PrintTicket&gt;类&lt;/xref:System.Printing.PrintTicket&gt;的公共属性表示的不太常见功能的 XML 元素中的非公共字段</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In fact, if the driver that produced the PrintTicket document is using a private extension of the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>, that privately defined markup is also stored as part of the non-public PrintTicket document.</source>
+          <target state="translated">事实上，如果生成 PrintTicket 文档驱动程序正在使用的专用扩展<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>、 的私人定义标记也存储为非公共 PrintTicket 文档的一部分。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The private parts of the document, if any, are not validated by the constructor, but all <bpt id="p1">**</bpt>Print Schema<ept id="p1">**</ept>-defined parts are validated, including the parts that are not represented by any of the public properties of the &lt;xref:System.Printing.PrintTicket&gt; class.</source>
+          <target state="translated">的文档中，如果有的话，将不验证私有部分由构造函数中，但所有<bpt id="p1">**</bpt>打印架构<ept id="p1">**</ept>-定义的部分进行验证，包括未由任何&lt;xref:System.Printing.PrintTicket&gt;类&lt;/xref:System.Printing.PrintTicket&gt;的公共属性的部分</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Accordingly, the &lt;xref:System.FormatException&gt; could be thrown even if all of the XML markup that corresponds to the public properties is valid.</source>
+          <target state="translated">相应地，&lt;xref:System.FormatException&gt;可能即使所有的公共属性对应的 XML 标记无效时引发。&lt;/xref:System.FormatException&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When any of the properties of the &lt;xref:System.Printing.PrintTicket&gt; are written to, this non-public PrintTicket document is changed as well.</source>
+          <target state="translated">当任何一个的属性时&lt;xref:System.Printing.PrintTicket&gt;写入到，此非公共 PrintTicket 文档也会更改。&lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It is this non-public PrintTicket document that is returned by the &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; and &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; methods.</source>
+          <target state="translated">它是返回的此非公共 PrintTicket 文档&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;和&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;方法。&lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An XML stream that describes a print job and conforms to the Print Schema.</source>
+          <target state="translated">XML 流，用于描述打印作业并符合打印架构。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xmlStream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xmlStream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xmlStream&lt;/code&gt;</ph> is not valid XML.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xmlStream&lt;/code&gt;</ph>不是有效的 XML。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, making deep copies of this object's values.</source>
+          <target state="translated">创建的可修改复本<bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，从而深度复制此对象的值。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of the current object.</source>
+          <target state="translated">当前对象的可修改复本。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the printer collates its output.</source>
+          <target state="translated">获取或设置一个值，该值是否打印机逐份打印其输出。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`DocumentCollate`</ph> keyword, not the <ph id="ph2">`JobCollateAllDocuments`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`DocumentCollate`</ph>关键字，不<ph id="ph2">`JobCollateAllDocuments`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.CollationCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.CollationCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.CollationCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.Collation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value indicating whether the printer collates its output.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.Collation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指示是否打印机逐份打印其输出。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.Collation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.Collation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of copies for the print job.</source>
+          <target state="translated">获取或设置针对打印作业的副本数。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`JobCopiesAllDocuments`</ph> keyword, not the <ph id="ph2">`DocumentCopiesAllPages`</ph> keyword, or the <ph id="ph3">`PageCopies`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`JobCopiesAllDocuments`</ph>关键字，不<ph id="ph2">`DocumentCopiesAllPages`</ph>关键字，或<ph id="ph3">`PageCopies`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can test for the printer's maximum by using the &lt;xref:System.Printing.PrintCapabilities.MaxCopyCount%2A&gt; property.</source>
+          <target state="translated">你可以对其进行测试对打印机的最大使用&lt;xref:System.Printing.PrintCapabilities.MaxCopyCount%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.MaxCopyCount%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A nullable &lt;xref:System.Int32&gt; value that specifies how many copies to print.</source>
+          <target state="translated">可以为 null&lt;xref:System.Int32&gt;值，指定将打印的份数&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value less than 1.</source>
+          <target state="translated">调用代码已尝试将属性设置为小于 1 的值。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the printer substitutes device-based fonts for computer-based fonts on the print job.</source>
+          <target state="translated">获取或设置一个值，该值打印机是否用基于设备的基于计算机的上打印作业的字体的字体替换。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageDeviceFontSubstitution`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`PageDeviceFontSubstitution`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.DeviceFontSubstitutionCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.DeviceFontSubstitutionCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.DeviceFontSubstitutionCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.DeviceFontSubstitution"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value indicating whether the device substitutes device-based fonts for computer-based fonts for the current print job.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.DeviceFontSubstitution"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指示设备是否用基于设备的基于计算机的当前打印作业的字体的字体替换。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.DeviceFontSubstitution"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.DeviceFontSubstitution"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating what kind of two-sided printing, if any, the printer uses for the print job.</source>
+          <target state="translated">获取或设置一个值，该值哪种类型的双侧打印，如果有的话，打印机时使用的打印作业。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`JobDuplexAllDocumentsContiguously`</ph> keyword, not the <ph id="ph2">`DocumentDuplex`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`JobDuplexAllDocumentsContiguously`</ph>关键字，不<ph id="ph2">`DocumentDuplex`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.DuplexingCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.DuplexingCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.DuplexingCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.Duplexing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value indicating what sort of two-sided printing, if any, the printer uses for the print job.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.Duplexing"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指示什么样的双侧打印，如果有的话，打印机时使用的打印作业。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.Duplexing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.Duplexing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.IO.MemoryStream&gt; object that represents the property values of a <bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an XML stream that conforms to the <bpt id="p2">[</bpt>Print Schema<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>.</source>
+          <target state="translated">返回&lt;xref:System.IO.MemoryStream&gt;表示的属性值的对象<bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>作为符合 XML 流<bpt id="p2">[</bpt>打印架构<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>。&lt;/xref:System.IO.MemoryStream&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If any properties of the &lt;xref:System.Printing.PrintTicket&gt; are <ph id="ph1">`null`</ph>, they will simply not be included in the XML markup.</source>
+          <target state="translated">如果任何属性&lt;xref:System.Printing.PrintTicket&gt;是<ph id="ph1">`null`</ph>，它们将只需不包含在 XML 标记。&lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Printing.PrintTicket&gt; object was constructed with a PrintTicket document that contains markup elements not represented by any of the &lt;xref:System.Printing.PrintTicket&gt; class's public properties, those elements will be included in the PrintTicket document returned by this method.</source>
+          <target state="translated">如果&lt;xref:System.Printing.PrintTicket&gt;对象使用包含标记元素不表示任何 PrintTicket 文档构造&lt;xref:System.Printing.PrintTicket&gt;类的公共属性，这些元素将包含在此方法返回 PrintTicket 文档。&lt;/xref:System.Printing.PrintTicket&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.MemoryStream&gt; object that describes the print ticket with XML that conforms to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>.</source>
+          <target state="translated">A&lt;xref:System.IO.MemoryStream&gt;对象，描述与符合 XML 的打印票证<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>。&lt;/xref:System.IO.MemoryStream&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating what input bin (paper tray) to use.</source>
+          <target state="translated">获取或设置一个值，该值哪些输入的 bin （纸盒） 使用。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>That is, there will be no markup for the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s features <ph id="ph1">`JobInputBin`</ph>, <ph id="ph2">`DocumentInputBin`</ph>, or <ph id="ph3">`PageInputBin`</ph>.</source>
+          <target state="translated">即，将有没有标记<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的功能<ph id="ph1">`JobInputBin`</ph>， <ph id="ph2">`DocumentInputBin`</ph>，或<ph id="ph3">`PageInputBin`</ph>。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>When this property is not <ph id="ph1">`null`</ph>, it will have the following relationships to the features defined in the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>.</source>
+          <target state="translated">当此属性不是<ph id="ph1">`null`</ph>，它将具有以下关系中定义的功能<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-   If the XML form of the &lt;xref:System.Printing.PrintTicket&gt; contains <ph id="ph1">`JobInputBin`</ph>, then this property has the same value as <ph id="ph2">`JobInputBin`</ph> (regardless of whether or not there is also <ph id="ph3">`DocumentInputBin`</ph> or <ph id="ph4">`PageInputBin`</ph>.</source>
+          <target state="translated">-如果 XML 形式&lt;xref:System.Printing.PrintTicket&gt;包含<ph id="ph1">`JobInputBin`</ph>，则此属性的值与相同<ph id="ph2">`JobInputBin`</ph>(无论是否还有<ph id="ph3">`DocumentInputBin`</ph>或<ph id="ph4">`PageInputBin`</ph>。&lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>markup in the XML version of the &lt;xref:System.Printing.PrintTicket&gt;).</source>
+          <target state="translated">中的 XML 版本的标记&lt;xref:System.Printing.PrintTicket&gt;)。&lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-   If there is no <ph id="ph1">`JobInputBin`</ph> markup, but there is <ph id="ph2">`DocumentInputBin`</ph>, then this property has the same value as <ph id="ph3">`DocumentInputBin`</ph> (regardless of whether or not there is also <ph id="ph4">`PageInputBin`</ph> markup) present.</source>
+          <target state="translated">-如果没有任何<ph id="ph1">`JobInputBin`</ph>标记，但没有<ph id="ph2">`DocumentInputBin`</ph>，则此属性的值与相同<ph id="ph3">`DocumentInputBin`</ph>(无论是否还有<ph id="ph4">`PageInputBin`</ph>标记) 存在。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-   If there is neither <ph id="ph1">`JobInputBin`</ph> nor <ph id="ph2">`DocumentInputBin`</ph> markup, but there is <ph id="ph3">`PageInputBin`</ph> markup, then this property has the same value as <ph id="ph4">`PageInputBin`</ph>.</source>
+          <target state="translated">-如果既无<ph id="ph1">`JobInputBin`</ph>也不<ph id="ph2">`DocumentInputBin`</ph>标记，但没有<ph id="ph3">`PageInputBin`</ph>标记，则此属性具有相同的值<ph id="ph4">`PageInputBin`</ph>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When this property is set to any &lt;xref:System.Printing.InputBin&gt; value, then matching <ph id="ph1">`JobInputBin`</ph> markup will be added to the XML print ticket and any <ph id="ph2">`DocumentInputBin`</ph> and <ph id="ph3">`PageInputBin`</ph> markup that is already there will be removed.</source>
+          <target state="translated">当此属性设置为任何&lt;xref:System.Printing.InputBin&gt;值，然后匹配<ph id="ph1">`JobInputBin`</ph>标记将添加到 XML 的打印票证和任何<ph id="ph2">`DocumentInputBin`</ph>和<ph id="ph3">`PageInputBin`</ph>将删除已存在的标记。&lt;/xref:System.Printing.InputBin&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.InputBinCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.InputBinCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.InputBinCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Printing.InputBin"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value indicating what input tray is used and whether it is chosen manually or automatically.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Printing.InputBin"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指示使用哪些输入的栏和是否选择了手动或自动。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.InputBin"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.InputBin"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating how the printer handles content that has color or shades of gray.</source>
+          <target state="translated">获取或设置一个值，该值打印机如何处理具有颜色或灰色阴影的内容。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageOutputColor`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`PageOutputColor`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.OutputColorCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.OutputColorCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.OutputColorCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Printing.OutputColor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value indicating how the printer handles content that has color or shades of gray.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Printing.OutputColor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指示打印机如何处理具有颜色或灰色阴影的内容。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.OutputColor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.OutputColor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the quality of output for the print job.</source>
+          <target state="translated">获取或设置一个值，该值为打印作业的输出的质量。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageOutputQuality`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`PageOutputQuality`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.OutputQualityCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.OutputQualityCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.OutputQualityCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Printing.OutputQuality"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that specifies the needed level of quality.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Printing.OutputQuality"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指定所需的级别的质量。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.OutputQuality"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.OutputQuality"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the device prints content to the edge of the media or leaves an unprinted margin around the edge.</source>
+          <target state="translated">获取或设置一个值，指示设备是否将内容打印到介质的边缘或离开边缘周围有的边距。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageBorderless`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`PageBorderless`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.PageBorderlessCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.PageBorderlessCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.PageBorderlessCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.PageBorderless"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that specifies whether the printer uses borderless printing.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.PageBorderless"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指定打印机是否使用边框打印。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.PageBorderless"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.PageBorderless"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets or sets the page size for the paper (or other media) that a printer uses for a print job.</source>
+          <target state="translated">获取或设置用于纸 （或其他媒体） 的打印机是使用为打印作业的页大小。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageMediaSize`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`PageMediaSize`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.PageMediaSizeCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.PageMediaSizeCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.PageMediaSizeCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.PageMediaSize"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the page size by using a name, dimensions, or both.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.PageMediaSize"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>使用名称和 / 或维度，表示页大小的对象。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating what sort of paper or media the printer uses for the print job.</source>
+          <target state="translated">获取或设置一个值，该值什么样的纸张或打印机时使用的打印作业的介质。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageMediaType`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`PageMediaType`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.PageMediaTypeCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.PageMediaTypeCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.PageMediaTypeCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.PageMediaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value specifying the print media, such as card stock, label, plain, or photographic.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.PageMediaType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指定的打印媒体，如卡片纸、 标签、 无格式、 或照片。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.PageMediaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.PageMediaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the printer prints multiple pages back-to-front or front-to-back.</source>
+          <target state="translated">获取或设置一个值，该值是否打印机上打印后到前或前端到后端的多个页。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`JobPageOrder`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`JobPageOrder`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.PageOrderCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.PageOrderCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.PageOrderCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.PageOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value specifying last-page-first printing or first-page-first printing.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.PageOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指定上一次页先打印或第一页先打印。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.PageOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.PageOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating how the page content is oriented for printing.</source>
+          <target state="translated">获取或设置一个值，该值面向打印页面内容的方式。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageOrientation`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`PageOrientation`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.PageOrientationCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.PageOrientationCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.PageOrientationCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.PageOrientation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value specifying how page content is oriented, for example, <bpt id="p2">&lt;xref href="System.Printing.PageOrientation"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref href="System.Printing.PageOrientation"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.PageOrientation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指定如何页面内容的方向，例如， <bpt id="p2">&lt;xref href="System.Printing.PageOrientation"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>或<bpt id="p3">&lt;xref href="System.Printing.PageOrientation"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.PageOrientation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.PageOrientation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Gets or sets the level of page resolution that the printer uses for a print job.</source>
+          <target state="translated">获取或设置打印机时使用的打印作业的页面分辨率的级别。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Printing.PageResolution&gt; class has properties in which you can specify the dots-per-inch for the X and Y dimensions and a property where you can give a qualitative expression to the resolution.</source>
+          <target state="translated">&lt;xref:System.Printing.PageResolution&gt;类具有可以在其中指定 X 和 Y 维度的每英寸点数的属性和属性可以为提供分辨率定性表达式。&lt;/xref:System.Printing.PageResolution&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageResolution`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`PageResolution`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.PageResolutionCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.PageResolutionCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.PageResolutionCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.PageResolution"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the resolution as a qualitative value, a dots-per-inch value, or both.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.PageResolution"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>作为定性值和 / 或每英寸点数值，该值代表分辨率的值。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Gets or sets the percentage by which the printer enlarges or reduces the print image on a page.</source>
+          <target state="translated">获取或设置依据打印机放大或缩小页上打印的图像的百分比。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The printer can have maximum and minimum limits for scaling.</source>
+          <target state="translated">打印机可以缩放的最大和最小限制。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>You can test for scale limits by using &lt;xref:System.Printing.PrintCapabilities.PageScalingFactorRange%2A&gt;.</source>
+          <target state="translated">你可以通过使用&lt;xref:System.Printing.PrintCapabilities.PageScalingFactorRange%2A&gt;。&lt;/xref:System.Printing.PrintCapabilities.PageScalingFactorRange%2A&gt;测试规模限制</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This PageScalingFactor property generally represents the <bpt id="p1">**</bpt>Scale<ept id="p1">**</ept> <ph id="ph1">`ScoredProperty`</ph> of the <bpt id="p2">[</bpt>Print Schema<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph2">`PageScaling`</ph> keyword.</source>
+          <target state="translated">此 PageScalingFactor 属性通常表示<bpt id="p1">**</bpt>缩放<ept id="p1">**</ept><ph id="ph1">`ScoredProperty`</ph>的<bpt id="p2">[</bpt>打印架构<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph2">`PageScaling`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>But there are some complexities as follows.</source>
+          <target state="translated">但有一些复杂性，如下所示。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>When reading the PageScalingFactor property, the property behaves as follows.</source>
+          <target state="translated">在读取 PageScalingFactor 属性时，该属性的行为，如下所示。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-   If the PrintTicket XML document has the <ph id="ph1">`PageScaling`</ph> feature set to the <bpt id="p1">**</bpt>CustomSquare<ept id="p1">**</ept> option, and the <bpt id="p2">**</bpt>CustomSquare<ept id="p2">**</ept> option’s <bpt id="p3">**</bpt>Scale<ept id="p3">**</ept> value is positive value, then that is the value that is returned.</source>
+          <target state="translated">-如果 PrintTicket XML 文档具有<ph id="ph1">`PageScaling`</ph>功能设置为<bpt id="p1">**</bpt>CustomSquare<ept id="p1">**</ept>选项，与<bpt id="p2">**</bpt>CustomSquare<ept id="p2">**</ept>选项的<bpt id="p3">**</bpt>缩放<ept id="p3">**</ept>值是正值，则返回的值。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-   If the PrintTicket XML document has the <ph id="ph1">`PageScaling`</ph> feature set to the <bpt id="p1">**</bpt>Custom<ept id="p1">**</ept> option, and the <bpt id="p2">**</bpt>Custom<ept id="p2">**</ept> option’s <bpt id="p3">**</bpt>ScaleWidth<ept id="p3">**</ept> value is positive value, then that is the value that is returned.</source>
+          <target state="translated">-如果 PrintTicket XML 文档具有<ph id="ph1">`PageScaling`</ph>功能设置为<bpt id="p1">**</bpt>自定义<ept id="p1">**</ept>选项，与<bpt id="p2">**</bpt>自定义<ept id="p2">**</ept>选项的<bpt id="p3">**</bpt>ScaleWidth<ept id="p3">**</ept>值是正值，则返回的值。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>-   In all other cases, <ph id="ph1">`null`</ph> is returned.</source>
+          <target state="translated">-在所有其他情况下，<ph id="ph1">`null`</ph>返回。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>When setting the PageScalingFactor property, the property behaves as follows.</source>
+          <target state="translated">设置 PageScalingFactor 属性时，该属性的行为，如下所示。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-   If it’s set to <ph id="ph1">`null`</ph>, then the <ph id="ph2">`PageScaling`</ph> markup is removed from the PrintTicket XML document.</source>
+          <target state="translated">-如果设置为<ph id="ph1">`null`</ph>，则<ph id="ph2">`PageScaling`</ph>从 PrintTicket XML 文档中删除标记。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>-   Otherwise, the <ph id="ph1">`PageScaling`</ph> feature in the PrintTicket XML document is set to <bpt id="p1">**</bpt>CustomSquare<ept id="p1">**</ept> and the <bpt id="p2">**</bpt>CustomSquare<ept id="p2">**</ept> option’s <bpt id="p3">**</bpt>Scale<ept id="p3">**</ept> value is set to the passed value.</source>
+          <target state="translated">-否则为<ph id="ph1">`PageScaling`</ph>PrintTicket XML 文档中的功能设置为<bpt id="p1">**</bpt>CustomSquare<ept id="p1">**</ept>和<bpt id="p2">**</bpt>CustomSquare<ept id="p2">**</ept>选项的<bpt id="p3">**</bpt>缩放<ept id="p3">**</ept>值设置为传递的值。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>(See <bpt id="p1">**</bpt>Exceptions<ept id="p1">**</ept> for what happens if the property is set to a value less than 1.)</source>
+          <target state="translated">(请参阅<bpt id="p1">**</bpt>异常<ept id="p1">**</ept>如果属性设置为小于 1 的值将发生什么情况。)</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; value that represents a percentage.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;表示百分比的值。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is less than 1.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个小于 1 的值。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of pages that print on each printed side of a sheet of paper.</source>
+          <target state="translated">获取或设置在每个打印一端一张纸打印的页面数。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Most printers support only a limited range of specific possibilities, such as 1, 2, 4, 6, 8, and 16 pages per side.</source>
+          <target state="translated">大多数打印机仅支持有限的范围的特定的可能性，如 1、 2、 4、 6、 8 和一面。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.PagesPerSheetCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.PagesPerSheetCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.PagesPerSheetCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">**</bpt>PagesPerSheet<ept id="p1">**</ept><ph id="ph1">`ScoredProperty`</ph> of the <bpt id="p2">[</bpt>Print Schema<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph2">`JobNUpAllDocumentsContiguously`</ph> keyword, not the <ph id="ph3">`DocumentNUp`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">**</bpt>PagesPerSheet<ept id="p1">**</ept> <ph id="ph1">`ScoredProperty`</ph>的<bpt id="p2">[</bpt>打印架构<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph2">`JobNUpAllDocumentsContiguously`</ph>关键字，不<ph id="ph3">`DocumentNUp`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.PagesPerSheetCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.PagesPerSheetCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.PagesPerSheetCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>A nullable &lt;xref:System.Int32&gt; value that represents the number of pages that print on each printed side of a sheet of paper.</source>
+          <target state="translated">可以为 null&lt;xref:System.Int32&gt;打印表示每个打印的页面数的值的一端一张纸。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is less than 1.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个小于 1 的值。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating how a printer arranges multiple pages that print on each side of a sheet of paper.</source>
+          <target state="translated">获取或设置一个值，该值打印机如何排列在每个边一张纸打印的多个页面。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>For example, a printer can present pages in left-to-right rows with rows stacked top-to-bottom.</source>
+          <target state="translated">例如，打印机可以呈现页中从左到右行与行堆积上到。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">**</bpt>PresentationDirection<ept id="p1">**</ept> subfeature of the <bpt id="p2">[</bpt>Print Schema<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`JobNUpAllDocumentsContiguously`</ph> keyword, not the <ph id="ph2">`DocumentNUp`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">**</bpt>PresentationDirection<ept id="p1">**</ept> subfeature 的<bpt id="p2">[</bpt>打印架构<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`JobNUpAllDocumentsContiguously`</ph>关键字，不<ph id="ph2">`DocumentNUp`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.PagesPerSheetDirectionCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.PagesPerSheetDirectionCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.PagesPerSheetDirectionCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.PagesPerSheetDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value indicating how a printer presents multiple pages per sheet.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.PagesPerSheetDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指示打印机在每个表的多个页上呈现的方式。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.PagesPerSheetDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.PagesPerSheetDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating in qualitative terms the level of quality the printer uses to print a photograph.</source>
+          <target state="translated">获取或设置一个值，该值指示在定性术语中的打印机使用打印面部照片的质量级别。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The photographic printer driver translates the qualitative expression in this property into specific quantitative values for resolution and other factors.</source>
+          <target state="translated">照片打印机驱动程序定性将表达式转换在此属性为特定分辨率和其他因素的定量值。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PagePhotoPrintingIntent`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`PagePhotoPrintingIntent`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.PhotoPrintingIntentCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.PhotoPrintingIntentCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.PhotoPrintingIntentCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.PhotoPrintingIntent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value indicating the level of photo quality.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.PhotoPrintingIntent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指示的照片质量级别。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.PhotoPrintingIntent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.PhotoPrintingIntent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Occurs when any property of the <bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> changes.</source>
+          <target state="translated">时发生任何属性<bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>更改。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Saves the <bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> settings to a &lt;xref:System.IO.Stream&gt; object by using an XML format that conforms to the <bpt id="p2">[</bpt>Print Schema<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>.</source>
+          <target state="translated">将保存<bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>设置应用于&lt;xref:System.IO.Stream&gt;使用符合 XML 格式的对象<bpt id="p2">[</bpt>打印架构<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>This method does not reset the read-write position of the stream back to its original position.</source>
+          <target state="translated">此方法不流的读写位置重置回其原始位置。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>You should reset it immediately after calling this method.</source>
+          <target state="translated">你应之后重置立即调用此方法。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>If any properties of the &lt;xref:System.Printing.PrintTicket&gt; are <ph id="ph1">`null`</ph>, they will simply not be included in the XML markup.</source>
+          <target state="translated">如果任何属性&lt;xref:System.Printing.PrintTicket&gt;是<ph id="ph1">`null`</ph>，它们将只需不包含在 XML 标记。&lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Printing.PrintTicket&gt; object was constructed with a PrintTicket document that contains markup elements not represented by any of the &lt;xref:System.Printing.PrintTicket&gt; class's public properties, those elements will be included in the PrintTicket document saved by this method.</source>
+          <target state="translated">如果&lt;xref:System.Printing.PrintTicket&gt;对象使用包含标记元素不表示任何 PrintTicket 文档构造&lt;xref:System.Printing.PrintTicket&gt;类的公共属性，这些元素将包含在此方法由保存 PrintTicket 文档。&lt;/xref:System.Printing.PrintTicket&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Stream&gt; that holds the saved <bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;保存保存<bpt id="p1">&lt;xref href="System.Printing.PrintTicket"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether, and where, a printer staples multiple pages.</source>
+          <target state="translated">获取或设置一个值，该值是否，以及在何处，打印机装订多个页。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For example, a printer can place two staples on the left edge of a sheet of paper, or one staple in the upper left corner.</source>
+          <target state="translated">例如，打印机可以将两个日常用品放置一张纸或在左上角的一个装订的左边缘。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`JobStapleAllDocuments`</ph> keyword, not the <ph id="ph2">`DocumentStaple`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`JobStapleAllDocuments`</ph>关键字，不<ph id="ph2">`DocumentStaple`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.StaplingCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.StaplingCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.StaplingCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.Stapling"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value specifying how a printer staples the output.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.Stapling"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指定如何打印机装订输出。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.Stapling"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.Stapling"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating how the printer handles text that uses TrueType fonts.</source>
+          <target state="translated">获取或设置一个值，该值打印机如何处理使用 TrueType 字体的文本。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`null`</ph> value for this property means that this feature setting is not specified.</source>
+          <target state="translated">A<ph id="ph1">`null`</ph>此属性表示未指定此功能设置的值。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Also, when the value is <ph id="ph1">`null`</ph>, the XML versions of the &lt;xref:System.Printing.PrintTicket&gt; (see &lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt; and &lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) will not contain any markup for this feature.</source>
+          <target state="translated">此外，当值是<ph id="ph1">`null`</ph>，XML 版本的&lt;xref:System.Printing.PrintTicket&gt;(请参阅&lt;xref:System.Printing.PrintTicket.SaveTo%2A&gt;和&lt;xref:System.Printing.PrintTicket.GetXmlStream%2A&gt;) 将不包含此功能的任何标记。&lt;/xref:System.Printing.PrintTicket.GetXmlStream%2A&gt; &lt;/xref:System.Printing.PrintTicket.SaveTo%2A&gt; &lt;/xref:System.Printing.PrintTicket&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageTrueTypeFontMode`</ph> keyword.</source>
+          <target state="translated">此属性对应于<bpt id="p1">[</bpt>打印架构<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>的<ph id="ph1">`PageTrueTypeFontMode`</ph>关键字。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>You can test for the options that the printer supports by using the &lt;xref:System.Printing.PrintCapabilities.TrueTypeFontModeCapability%2A&gt; property.</source>
+          <target state="translated">你可以测试打印机支持通过选项&lt;xref:System.Printing.PrintCapabilities.TrueTypeFontModeCapability%2A&gt;属性。&lt;/xref:System.Printing.PrintCapabilities.TrueTypeFontModeCapability%2A&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.TrueTypeFontMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value specifying how a printer handles TrueType fonts.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.TrueTypeFontMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指定如何打印机处理 TrueType 字体。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Calling code has attempted to set the property to a value that is not in the <bpt id="p1">&lt;xref href="System.Printing.TrueTypeFontMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">调用代码已尝试将属性设置为一个值，将不在<bpt id="p1">&lt;xref href="System.Printing.TrueTypeFontMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

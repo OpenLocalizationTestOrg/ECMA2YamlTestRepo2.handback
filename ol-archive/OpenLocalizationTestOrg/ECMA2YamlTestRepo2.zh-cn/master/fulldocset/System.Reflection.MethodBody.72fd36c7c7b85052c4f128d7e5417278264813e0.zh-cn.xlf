@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18f68997f85f9fa094c80c6a432c6627a06ab9f9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Reflection.MethodBody.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e408347d775d86033b36d166d3871e66daf7d661</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84f1cfe6f04500254a9ec7bfd466e08947129930</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides access to the metadata and MSIL for the body of a method.</source>
+          <target state="translated">提供的元数据和 MSIL 的方法的主体的访问。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The MethodBody class provides access to information about the local variables and exception-handling clauses in a method body, and to the Microsoft intermediate language (MSIL) that makes up the method body.</source>
+          <target state="translated">MethodBody 类提供对本地变量和方法体中的异常处理子句信息和构成方法体的 Microsoft 中间语言 (MSIL) 访问权限。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can use the token-resolution methods of the module class, such as &lt;xref:System.Reflection.Module.ResolveType%2A&gt;, &lt;xref:System.Reflection.Module.ResolveMethod%2A&gt;, and &lt;xref:System.Reflection.Module.ResolveType%2A&gt;, to resolve the tokens in the method body to &lt;xref:System.Type&gt; objects, &lt;xref:System.Reflection.MethodInfo&gt; objects, and &lt;xref:System.Reflection.FieldInfo&gt; objects that provide detailed information about the types, methods, and fields accessed by the MSIL in the method body.</source>
+          <target state="translated">你可以使用的模块类中，令牌解析方法，如&lt;xref:System.Reflection.Module.ResolveType%2A&gt;， &lt;xref:System.Reflection.Module.ResolveMethod%2A&gt;，和&lt;xref:System.Reflection.Module.ResolveType%2A&gt;，若要解决在方法体中对令牌&lt;xref:System.Type&gt;对象，&lt;xref:System.Reflection.MethodInfo&gt;对象，和&lt;xref:System.Reflection.FieldInfo&gt;对象，它提供有关类型、 方法和在方法体中的 MSIL 访问的字段的详细的信息。&lt;/xref:System.Reflection.FieldInfo&gt; &lt;/xref:System.Reflection.MethodInfo&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Reflection.Module.ResolveType%2A&gt; &lt;/xref:System.Reflection.Module.ResolveMethod%2A&gt; &lt;/xref:System.Reflection.Module.ResolveType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Parsing method bodies requires a thorough understanding of metadata and MSIL instruction formats.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 分析的方法体合并需要的元数据和 MSIL 指令格式全面了解。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Information can be found in the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">公共语言基础结构 (CLI) 文档，尤其是"第 ii 部分︰ 元数据定义和语义"和"第三部分︰ CIL 指令集"中找不到的信息。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">联机; 我们提供了文档请参阅<bpt id="p1">[</bpt>ECMA C# 和公共语言基础结构标准<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>MSDN 上和<bpt id="p2">[</bpt>标准 ecma-335-公共语言基础结构 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 网站上。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To obtain a MethodBody object for a given method, first obtain a &lt;xref:System.Reflection.MethodInfo&gt; object for the method, then call the &lt;xref:System.Reflection.MethodInfo&gt; object's &lt;xref:System.Reflection.MethodBase.GetMethodBody%2A&gt; method.</source>
+          <target state="translated">若要获取给定方法的 MethodBody 对象，首先获取&lt;xref:System.Reflection.MethodInfo&gt;对象对于方法，然后调用&lt;xref:System.Reflection.MethodInfo&gt;对象的&lt;xref:System.Reflection.MethodBase.GetMethodBody%2A&gt;方法。&lt;/xref:System.Reflection.MethodBase.GetMethodBody%2A&gt; &lt;/xref:System.Reflection.MethodInfo&gt; &lt;/xref:System.Reflection.MethodInfo&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Reflection.MethodBody"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Reflection.MethodBody"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This constructor is invoked by derived classes during the construction of &lt;xref:System.Reflection.MethodBody&gt; objects.</source>
+          <target state="translated">此构造函数由派生类调用的构造过程&lt;xref:System.Reflection.MethodBody&gt;对象。&lt;/xref:System.Reflection.MethodBody&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets a list that includes all the exception-handling clauses in the method body.</source>
+          <target state="translated">获取包含在方法体中的所有异常处理子句的列表。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The list includes all clauses from all try blocks in the method body.</source>
+          <target state="translated">该列表包含在方法体中所有的 try 块中的所有子句。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Each &lt;xref:System.Reflection.ExceptionHandlingClause&gt; object contains information that identifies the try block with which it is associated.</source>
+          <target state="translated">每个&lt;xref:System.Reflection.ExceptionHandlingClause&gt;对象包含标识它与之关联的 try 块的信息。&lt;/xref:System.Reflection.ExceptionHandlingClause&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Working with exception-handling clauses requires a thorough understanding of metadata and MSIL instruction formats.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 使用异常处理子句需要对元数据和 MSIL 指令格式的全面了解。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Information can be found in the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">公共语言基础结构 (CLI) 文档，尤其是"第 ii 部分︰ 元数据定义和语义"和"第三部分︰ CIL 指令集"中找不到的信息。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">联机; 我们提供了文档请参阅<bpt id="p1">[</bpt>ECMA C# 和公共语言基础结构标准<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>MSDN 上和<bpt id="p2">[</bpt>标准 ecma-335-公共语言基础结构 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 网站上。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IList%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Reflection.ExceptionHandlingClause"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects representing the exception-handling clauses in the body of the method.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.Collections.Generic.IList%601<ph id="ph2">&amp;gt;</ph>的<bpt id="p1">&lt;xref href="System.Reflection.ExceptionHandlingClause"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示方法的正文中的异常处理子句的对象。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Returns the MSIL for the method body, as an array of bytes.</source>
+          <target state="translated">返回的字节数组形式的方法体的 MSIL。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can use the token-resolution methods of the module class, such as &lt;xref:System.Reflection.Module.ResolveType%2A&gt;, &lt;xref:System.Reflection.Module.ResolveMethod%2A&gt;, and &lt;xref:System.Reflection.Module.ResolveMember%2A&gt;, to resolve the tokens in the method body to &lt;xref:System.Type&gt; objects, &lt;xref:System.Reflection.MethodInfo&gt; objects, and &lt;xref:System.Reflection.FieldInfo&gt; objects that provide detailed information about the types, methods, and fields accessed by the MSIL in the method body.</source>
+          <target state="translated">你可以使用的模块类中，令牌解析方法，如&lt;xref:System.Reflection.Module.ResolveType%2A&gt;， &lt;xref:System.Reflection.Module.ResolveMethod%2A&gt;，和&lt;xref:System.Reflection.Module.ResolveMember%2A&gt;，若要解决在方法体中对令牌&lt;xref:System.Type&gt;对象，&lt;xref:System.Reflection.MethodInfo&gt;对象，和&lt;xref:System.Reflection.FieldInfo&gt;对象，它提供有关类型、 方法和在方法体中的 MSIL 访问的字段的详细的信息。&lt;/xref:System.Reflection.FieldInfo&gt; &lt;/xref:System.Reflection.MethodInfo&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Reflection.Module.ResolveMember%2A&gt; &lt;/xref:System.Reflection.Module.ResolveMethod%2A&gt; &lt;/xref:System.Reflection.Module.ResolveType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Parsing method bodies requires a thorough understanding of metadata and MSIL instruction formats.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 分析的方法体合并需要的元数据和 MSIL 指令格式全面了解。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Information can be found in the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">公共语言基础结构 (CLI) 文档，尤其是"第 ii 部分︰ 元数据定义和语义"和"第三部分︰ CIL 指令集"中找不到的信息。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">联机; 我们提供了文档请参阅<bpt id="p1">[</bpt>ECMA C# 和公共语言基础结构标准<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>MSDN 上和<bpt id="p2">[</bpt>标准 ecma-335-公共语言基础结构 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 网站上。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Byte&gt; that contains the MSIL for the method body.</source>
+          <target state="translated">类型的数组&lt;xref:System.Byte&gt;包含方法体的 MSIL。&lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether local variables in the method body are initialized to the default values for their types.</source>
+          <target state="translated">获取一个值，该值指示是否在方法体中的本地变量初始化为其类型的默认值。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The InitLocals property refers to variables that are not explicitly initialized; that is, variables that are declared with syntax such as <ph id="ph1">`int x;`</ph> in C# or <ph id="ph2">`Dim x As Integer`</ph> in Visual Basic.</source>
+          <target state="translated">InitLocals 属性是指未显式初始化; 的变量也就是说，如使用语法声明的变量<ph id="ph1">`int x;`</ph>在 C# 或<ph id="ph2">`Dim x As Integer`</ph>在 Visual Basic 中。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Reference variables are initialized to <ph id="ph1">`null`</ph> by default.</source>
+          <target state="translated">引用变量将初始化为<ph id="ph1">`null`</ph>默认情况下。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Numeric variables are initialized to zero.</source>
+          <target state="translated">数值变量初始化为零。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the method body contains code to initialize local variables to <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for reference types, or to the zero-initialized value for value types; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果方法正文将包含代码以初始化到本地变量<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对于引用类型，或初始化为零的值为值类型; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets a metadata token for the signature that describes the local variables for the method in metadata.</source>
+          <target state="translated">描述元数据中的方法的本地变量的签名中获取元数据标记。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Reflection.MethodBody.LocalVariables%2A&gt; property to obtain information about the method's local variables.</source>
+          <target state="translated">使用&lt;xref:System.Reflection.MethodBody.LocalVariables%2A&gt;属性来获取有关方法的本地变量的信息。&lt;/xref:System.Reflection.MethodBody.LocalVariables%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Information about local variable signatures can be found in the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 公共语言基础结构 (CLI) 文档，尤其是"第 ii 部分︰ 元数据定义和语义"中找不到有关本地变量的签名的信息。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">联机; 我们提供了文档请参阅<bpt id="p1">[</bpt>ECMA C# 和公共语言基础结构标准<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>MSDN 上和<bpt id="p2">[</bpt>标准 ecma-335-公共语言基础结构 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 网站上。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An integer that represents the metadata token.</source>
+          <target state="translated">一个整数，表示元数据标记。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the list of local variables declared in the method body.</source>
+          <target state="translated">获取在方法体中声明本地变量的列表。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You do not need the metadata token for the local variable signature provided by the &lt;xref:System.Reflection.MethodBody.LocalSignatureMetadataToken%2A&gt; property.</source>
+          <target state="translated">不需要提供的局部变量签名的元数据标记&lt;xref:System.Reflection.MethodBody.LocalSignatureMetadataToken%2A&gt;属性。&lt;/xref:System.Reflection.MethodBody.LocalSignatureMetadataToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IList%601<ph id="ph2">&amp;gt;</ph> of &lt;xref:System.Reflection.LocalVariableInfo&gt; objects that describe the local variables declared in the method body.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.Collections.Generic.IList%601<ph id="ph2">&amp;gt;</ph>的&lt;xref:System.Reflection.LocalVariableInfo&gt;这些对象描述的本地变量声明在方法体中。&lt;/xref:System.Reflection.LocalVariableInfo&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the maximum number of items on the operand stack when the method is executing.</source>
+          <target state="translated">在执行方法时，请获取最大项数操作数堆栈上。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For more information, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">有关详细信息，请参阅公共语言基础结构 (CLI) 文档，尤其是"第 ii 部分︰ 元数据定义和语义"和"第三部分︰ CIL 指令集"。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">联机; 我们提供了文档请参阅<bpt id="p1">[</bpt>ECMA C# 和公共语言基础结构标准<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>MSDN 上和<bpt id="p2">[</bpt>标准 ecma-335-公共语言基础结构 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 网站上。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The maximum number of items on the operand stack when the method is executing.</source>
+          <target state="translated">在执行方法时操作数堆栈上最大项数。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
