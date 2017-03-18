@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ab3a38bb33c08f523a94ccc761706d881ffb338</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Xml.SignedXml.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">680175ecbd5ef53e050050f5de9abb16ccbca3e3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">29d9c6c0721dc7db0c92fa9039e45f9f58ba4dd3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a wrapper on a core XML signature object to facilitate creating XML signatures.</source>
+          <target state="translated">XML 署名の作成を容易にするのには、コア XML 署名オブジェクトのラッパーを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The SignedXml class is the .NET Framework implementation of the World Wide Web Consortium (W3C) <bpt id="p1">[</bpt>XML Signature Syntax and Processing Specification<ept id="p1">](http://www.w3.org/TR/xmldsig-core/)</ept>, also known as XMLDSIG (XML Digital Signature).</source>
+          <target state="translated">SignedXml クラスは、World Wide Web コンソーシアム (W3C) の .NET Framework の実装<bpt id="p1">[</bpt>XML 署名の構文と処理の仕様<ept id="p1">](http://www.w3.org/TR/xmldsig-core/)</ept>XMLDSIG (XML デジタル署名) とも呼ばれます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>XMLDSIG is a standards-based, interoperable way to sign and verify all or part of an XML document or other data that is addressable from a Uniform Resource Identifier (URI).</source>
+          <target state="translated">XMLDSIG は、署名および XML ドキュメントまたは統一リソース識別子 (URI) からアドレス指定可能であるその他のデータの一部またはすべてを検証する、標準ベースの相互運用可能な方法です。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use the SignedXml class whenever you need to share signed XML data between applications or organizations in a standard way.</source>
+          <target state="translated">共有する必要がある場合は、SignedXml クラスを使用するには、標準的な方法でアプリケーションや組織の間で XML データが署名済みです。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Any data signed using this class can be verified by any conforming implementation of the W3C specification for XMLDSIG.</source>
+          <target state="translated">XMLDSIG の W3C 仕様に準拠する実装によっては、このクラスを使用して署名されたデータを検証できます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The SignedXml class allows you to create the following three kinds of XML digital signatures:      |Signature Type|Description|   |--------------------|-----------------|   |Enveloped signature|The signature is contained within the XML element being signed.|   |Enveloping signature|The signed XML is contained within the &lt;<ph id="ph1">`Signature`</ph>&gt; element.|   |Internal detached signature|The signature and signed XML are in the same document, but neither element contains the other.|       There is also a fourth kind of signature called an external detached signature which is when the data and signature are in separate XML documents.</source>
+          <target state="translated">SignedXml クラスでは、次の&amp;3; 種類の XML デジタル署名を作成することができます |。署名の種類 |説明 |  |--------------------|-----------------|  |エンベロープ署名 |署名されている XML 要素内で、署名が含まれている |。  |エンベロープ署名 |署名付き XML に含まれる、 <ph id="ph1">`Signature`</ph>&gt; 要素です |。  |内部のデタッチされた署名 |署名と署名付き XML は、同じドキュメントが、他のいずれの要素が含まれています |。     &amp;4; 番目の種類のデータと署名が別個の XML ドキュメント内である外部のデタッチされた署名と呼ばれるシグネチャもあります。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>External detached signatures are not supported by the SignedXml class.</source>
+          <target state="translated">SignedXml クラスでは、外部のデタッチされた署名はサポートされていません。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The structure of an  XML Signature    XMLDSIG creates a &lt;<ph id="ph1">`Signature`</ph>&gt; element, which contains a digital signature of an XML document or other data that is addressable from a URI.</source>
+          <target state="translated">XML 署名 XMLDSIG の構造を作成、 <ph id="ph1">`Signature`</ph>&gt; 要素は、XML ドキュメントまたは URI からアドレス指定できるはその他のデータのデジタル署名が含まれています。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`Signature`</ph>&gt; element can optionally contain information about where to find a key that will verify the signature and which cryptographic algorithm was used for signing.</source>
+          <target state="translated"><ph id="ph1">`Signature`</ph>&gt; 要素は、署名を検証するキーを検索する場所についての情報を含めることができます必要に応じてされ、署名に使用されている暗号アルゴリズム。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The basic structure is as follows:      <ph id="ph1">```xml      &lt;Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;       &lt;SignedInfo&gt;         &lt;CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;         &lt;SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/&gt;         &lt;Reference URI=""&gt;           &lt;Transforms&gt;             &lt;Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;           &lt;/Transforms&gt;           &lt;DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;           &lt;DigestValue&gt;Base64EncodedValue==&lt;/DigestValue&gt;         &lt;/Reference&gt;       &lt;/SignedInfo&gt;       &lt;SignatureValue&gt;AnotherBase64EncodedValue===&lt;/SignatureValue&gt;     &lt;/Signature&gt;      ```</ph>       The main parts of this structure are:       The &lt;<ph id="ph2">`CanonicalizationMethod`</ph>&gt; element    Specifies the rules for rewriting the <ph id="ph3">`Signature`</ph> element from XML/text into bytes for signature validation.</source>
+          <target state="translated">基本的な構造体は、次のように:<ph id="ph1">```xml      &lt;Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;       &lt;SignedInfo&gt;         &lt;CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;         &lt;SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/&gt;         &lt;Reference URI=""&gt;           &lt;Transforms&gt;             &lt;Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;           &lt;/Transforms&gt;           &lt;DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;           &lt;DigestValue&gt;Base64EncodedValue==&lt;/DigestValue&gt;         &lt;/Reference&gt;       &lt;/SignedInfo&gt;       &lt;SignatureValue&gt;AnotherBase64EncodedValue===&lt;/SignatureValue&gt;     &lt;/Signature&gt;      ```</ph>この構造体の主要な部分は、: <ph id="ph2">`CanonicalizationMethod`</ph>&gt; 要素の書き直しの規則を指定する、<ph id="ph3">`Signature`</ph>署名の検証のバイト数に要素を XML]、[テキストからです。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The default value in the .NET Framework is http://www.w3.org/TR/2001/REC-xml-c14n-20010315, which identifies a trustworthy algorithm.</source>
+          <target state="translated">.NET Framework での既定値は、信頼できるアルゴリズムを識別する http://www.w3.org/TR/2001/REC-xml-c14n-20010315 です。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This element is represented by the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">この要素で表される、&lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A?displayProperty=fullName&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`SignatureMethod`</ph>&gt; element    Specifies the algorithm used for signature generation and validation, which was applied to the &lt;<ph id="ph2">`Signature`</ph>&gt; element to produce the value in &lt;<ph id="ph3">`SignatureValue`</ph>&gt;.</source>
+          <target state="translated"><ph id="ph1">`SignatureMethod`</ph>&gt; 要素は、署名の生成とに適用されたの検証に使用するアルゴリズムを指定、 <ph id="ph2">`Signature`</ph>&gt; 要素の値を生成する<ph id="ph3">`SignatureValue`</ph>&gt; です。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the example above, the value http://www.w3.org/2000/09/xmldsig#rsa-sha1 identifies an RSA PKCS1 SHA-1 signature.</source>
+          <target state="translated">上記の例では、値 http://www.w3.org/2000/09/xmldsig#rsa-sha1 は RSA PKCS1 sha-1 署名を識別します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This element is represented by the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod%2A&gt; property.</source>
+          <target state="translated">この要素で表される、&lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod%2A&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`SignatureValue`</ph>&gt; element    Specifies the cryptographic signature for the &lt;<ph id="ph2">`Signature`</ph>&gt; element.</source>
+          <target state="translated"><ph id="ph1">`SignatureValue`</ph>&gt; 要素の暗号化署名を指定する、 <ph id="ph2">`Signature`</ph>&gt; 要素。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If this signature does not verify, then some portion of the &lt;<ph id="ph1">`Signature`</ph>&gt; block was tampered with, and the document is considered invalid.</source>
+          <target state="translated">かどうかはこの署名を検証しませんの一部から、 <ph id="ph1">`Signature`</ph>&gt; ブロックが改ざんし、ドキュメントが無効と見なされます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>As long as the &lt;<ph id="ph1">`CanonicalizationMethod`</ph>&gt; value is trustworthy, this value is highly resistant to tampering.</source>
+          <target state="translated">限り、 <ph id="ph1">`CanonicalizationMethod`</ph>&gt; 値が信頼できる、この値は高度な改ざんにくくします。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This element is represented by the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureValue%2A&gt; property.</source>
+          <target state="translated">この要素で表される、&lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureValue%2A&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignatureValue%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`URI`</ph> attribute of the &lt;<ph id="ph2">`Reference`</ph>&gt; element    Specifies a data object using a URI reference.</source>
+          <target state="translated"><ph id="ph1">`URI`</ph>の属性、 <ph id="ph2">`Reference`</ph>&gt; 要素は、URI 参照を使用してデータ オブジェクトを指定します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This attribute is represented by the &lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">この属性で表される、&lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-   Not specifying the <ph id="ph1">`URI`</ph> attribute, that is, setting the  &lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt; property to <ph id="ph2">`null`</ph>, means that the receiving application is expected to know the identity of the object.</source>
+          <target state="translated">の指定することない、<ph id="ph1">`URI`</ph>属性、つまり、設定、&lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt;プロパティを<ph id="ph2">`null`</ph>、受信側のアプリケーション オブジェクトの id を把握する必要のあることを意味します&lt;/xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In most cases, a <ph id="ph1">`null`</ph> URI will result in an exception being thrown.</source>
+          <target state="translated">ほとんどの場合、 <ph id="ph1">`null`</ph> URI と例外がスローされます。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Do not use a <ph id="ph1">`null`</ph> URI, unless your application is interoperating with a protocol which requires it.</source>
+          <target state="translated">使用しないで、 <ph id="ph1">`null`</ph> URI、アプリケーションが必要とするプロトコルと相互運用する場合を除き、します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-   Setting the <ph id="ph1">`URI`</ph> attribute to an empty string indicates that the root element of the document is being signed, a form of enveloped signature.</source>
+          <target state="translated">設定、<ph id="ph1">`URI`</ph>属性は空の文字列には、ドキュメントのルート要素は署名されていることを示しますエンベロープ署名の形式です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-   If the value of <ph id="ph1">`URI`</ph> attribute starts with #, then the value must resolve to an element in the current document.</source>
+          <target state="translated">If の値<ph id="ph1">`URI`</ph>属性が # で始まる、現在のドキュメント内の要素値を解決する必要があります。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This form can be used with any of the supported signature types (enveloped signature, enveloping signature or internal detached signature).</source>
+          <target state="translated">このフォームは、サポートされている署名の種類 (エンベロープ署名、署名または内部のデタッチされた署名をエンベロープ) のいずれかで使用できます。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-   Anything else is considered an external resource detached signature and is not supported by the SignedXml class.</source>
+          <target state="translated">-その他の要素は、外部リソースの署名をデタッチおよび SignedXml クラスでサポートされていないと見なされます。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`Transforms`</ph>&gt; element    Contains an ordered list of &lt;<ph id="ph2">`Transform`</ph>&gt; elements that describe how the signer obtained the data object that was digested.</source>
+          <target state="translated"><ph id="ph1">`Transforms`</ph>&gt; 要素には、順番に並べた一覧が含まれています。 <ph id="ph2">`Transform`</ph>&gt; digested が署名者を取得する方法、データ オブジェクトを記述する要素。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A transform algorithm is similar to the canonicalization method, but instead of rewriting the &lt;<ph id="ph1">`Signature`</ph>&gt; element, it rewrites the content identified by the <ph id="ph2">`URI`</ph> attribute of the &lt;<ph id="ph3">`Reference`</ph>&gt; element.</source>
+          <target state="translated">変換アルゴリズムはのような正規化メソッドが書き換えではなく、 <ph id="ph1">`Signature`</ph>&gt; 要素で識別されるコンテンツ書き換える、<ph id="ph2">`URI`</ph>の属性、 <ph id="ph3">`Reference`</ph>&gt; 要素。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`Transforms`</ph>&gt; element is represented by the &lt;xref:System.Security.Cryptography.Xml.TransformChain&gt; class.</source>
+          <target state="translated"><ph id="ph1">`Transforms`</ph>&gt; 要素は、&lt;xref:System.Security.Cryptography.Xml.TransformChain&gt;クラス&lt;/xref:System.Security.Cryptography.Xml.TransformChain&gt;によって表されます</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-   Each transform algorithm is defined as taking either XML (an XPath node-set) or bytes as input.</source>
+          <target state="translated">-各変換アルゴリズムは、入力として XML (XPath ノード セット) またはバイトのいずれかを取るものと定義されます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If the format of the current data differs from the transform input requirements, conversion rules are applied.</source>
+          <target state="translated">現在のデータの形式と異なる場合、変換の入力要件、変換規則が適用されます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-   Each transform algorithm is defined as producing either XML or bytes as the output.</source>
+          <target state="translated">-各変換アルゴリズムは、出力として XML またはバイトのいずれかを生成するものとして定義されます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-   If the output of the last transform algorithm is not defined in bytes (or no transforms were specified), then the canonicalization method http://www.w3.org/TR/2001/REC-xml-c14n-20010315 is used as an implicit transform (even if a different algorithm was specified in the &lt;<ph id="ph1">`CanonicalizationMethod`</ph>&gt; element).</source>
+          <target state="translated">の場合最後の変換アルゴリズムの出力がバイト単位で定義されていない (または変換が指定されていません)、正規化メソッド http://www.w3.org/TR/2001/REC-xml-c14n-20010315 が暗黙的な変換として使用 (別のアルゴリズムがで指定された場合でも、 <ph id="ph1">`CanonicalizationMethod`</ph>&gt; 要素)。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-   A value of http://www.w3.org/2000/09/xmldsig#enveloped-signature for the transform algorithm encodes a rule which is interpreted as remove the &lt;<ph id="ph1">`Signature`</ph>&gt; element from the document.</source>
+          <target state="translated">-変換アルゴリズムの http://www.w3.org/2000/09/xmldsig#enveloped-signature の値は削除として解釈されますが、ルールをエンコード、 <ph id="ph1">`Signature`</ph>&gt; ドキュメントから要素。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Otherwise, a verifier of an enveloped signature will digest the document, including the signature, but the signer would have digested the document before the signature was applied, leading to different answers.</source>
+          <target state="translated">それ以外の場合、エンベロープ署名の検証方法はダイジェストの署名を含め、ドキュメントが、署名者が digested ドキュメント署名が適用された、前に異なる回答に先行します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`DigestMethod`</ph>&gt; element    Identifies the digest (cryptographic hash) method to apply on the transformed content identified by the <ph id="ph2">`URI`</ph> attribute of the &lt;<ph id="ph3">`Reference`</ph>&gt; element.</source>
+          <target state="translated"><ph id="ph1">`DigestMethod`</ph>&gt; 要素で識別される変換済みのコンテンツに適用するダイジェスト (暗号化ハッシュ) メソッドを識別する、<ph id="ph2">`URI`</ph>の属性、 <ph id="ph3">`Reference`</ph>&gt; 要素。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This is represented by the &lt;xref:System.Security.Cryptography.Xml.Reference.DigestMethod%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">これで表されますが、&lt;xref:System.Security.Cryptography.Xml.Reference.DigestMethod%2A?displayProperty=fullName&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.Reference.DigestMethod%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Choosing a canonicalization method    Unless interoperating with a specification which requires the use of a different value, we recommend that you use the default canonicalization method in the .NET Framework which is the XML-C14N 1.0 algorithm, whose value is http://www.w3.org/TR/2001/REC-xml-c14n-20010315.</source>
+          <target state="translated">正規化方法を選択するには、別の値の使用を必要とする仕様と相互運用する場合を除き、値を持つ http://www.w3.org/TR/2001/REC-xml-c14n-20010315 XML C14N 1.0 アルゴリズムである .NET Framework では、既定の正規化方法を使用することお勧めします。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The XML-C14N 1.0 algorithm is required to be supported by all implementations of XMLDSIG, particularly as it is an implicit final transform to apply.</source>
+          <target state="translated">暗黙の最終的な変換を適用するように特に XMLDSIG のすべての実装でサポートする XML C14N 1.0 アルゴリズムが必要です。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>There are versions of canonicalization algorithms which support preserving comments.</source>
+          <target state="translated">コメントの保持のサポートの正規化アルゴリズムのバージョンがあります。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Comment-preserving canonicalization methods are not recommended because they violate the "sign what is seen" principle.</source>
+          <target state="translated">「署名に認識される」の原則に違反しているために、標準化メソッドのコメントの保持は推奨されません。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>That is, the comments in a &lt;<ph id="ph1">`Signature`</ph>&gt; element will not alter the processing logic for how the signature is performed, merely what the signature value is.</source>
+          <target state="translated">内のコメントは、 <ph id="ph1">`Signature`</ph>&gt; 署名を実行する方法は、要素は、処理ロジックを変わりません。 だけでどのようなシグネチャ、値は、します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When combined with a weak signature algorithm, allowing the comments to be included gives an attacker unnecessary freedom to force a hash collision, making a tampered document appear legitimate.</source>
+          <target state="translated">組み合わせると、攻撃者に、ハッシュの競合を強制的に不要な自由度を示しています。 含まれるコメントを許可する、脆弱な署名アルゴリズムでは、表示、正当な改ざんされたドキュメントを確立しています。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework, only built-in canonicalizers are supported by default.</source>
+          <target state="translated">.NET Framework では、組み込み canonicalizers のみが既定ではサポートされます。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To support additional or custom canonicalizers, see the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt; property.</source>
+          <target state="translated">追加またはカスタム canonicalizers をサポートするために、次を参照してください、&lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt;プロパティ。&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If the document uses a canonicalization method that is not in the collection represented by the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt; property, then the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method will return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">ドキュメントによって表されるコレクションに含まれていない正規化メソッドを使用している場合、 &lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt;、プロパティ、&lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;メソッドが返す<ph id="ph1">`false`</ph>&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  An extremely defensive application can remove any values it does not expect signers to use from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt; collection.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 非常に守勢のアプリケーションから使用する署名者が想定されていない任意の値を削除できます、&lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt;コレクションです&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Are the Reference values safe from tampering?</source>
+          <target state="translated">参照の値は、改ざんから保護しますか。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Yes, the &lt;<ph id="ph1">`Reference`</ph>&gt; values are safe from tampering.</source>
+          <target state="translated">[はい]、 <ph id="ph1">`Reference`</ph>&gt; 値は改ざんから保護します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The .NET framework verifies the &lt;<ph id="ph1">`SignatureValue`</ph>&gt; computation before processing any of the &lt;<ph id="ph2">`Reference`</ph>&gt; values and their associated transforms, and will abort early to avoid potentially malicious processing instructions.</source>
+          <target state="translated">.NET framework の検証、 <ph id="ph1">`SignatureValue`</ph>&gt; のいずれかを処理する前に計算、 <ph id="ph2">`Reference`</ph>&gt; 値とそれに関連付けられた変換、および悪意のある処理命令を避けるために早く中止されます。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Choosing the elements to sign    We recommend that you use the value of "" for the <ph id="ph1">`URI`</ph> attribute (or set the &lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A&gt; property to an empty string), if possible.</source>
+          <target state="translated">署名する要素の選択の値を使用することをお勧め""の<ph id="ph1">`URI`</ph>属性 (設定、または、&lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A&gt;プロパティを空の文字列に) 可能であれば、&lt;/xref:System.Security.Cryptography.Xml.Reference.Uri%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This means the whole document is considered for the digest computation, which means the whole document is protected from tampering.</source>
+          <target state="translated">つまり、ドキュメント全体が改ざんから保護されていることを意味ダイジェストの計算はドキュメント全体と見なされます。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>It is very common to see <ph id="ph1">`URI`</ph> values in the form of anchors such as #foo, referring to an element whose ID attribute is "foo".</source>
+          <target state="translated">表示する、非常に一般的<ph id="ph1">`URI`</ph>#foo、ID 属性が"foo"の要素を参照するなどのアンカーのフォーム内の値。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Unfortunately, it is easy for this to be tampered with because this includes only the content of the target element, not the context.</source>
+          <target state="translated">残念ながら、このコンテキストではなく、ターゲット要素のコンテンツのみが含まれているために、改ざんするは簡単です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Abusing this distinction is known as XML Signature Wrapping (XSW).</source>
+          <target state="translated">この区別を悪用すると、XML 署名の折り返し (XSW) として、呼ばれます。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If your application considers comments to be semantic (which is not common when dealing with XML), then you should use "#xpointer(/)" instead of "", and "#xpointer(id('foo'))" instead of "#foo".</source>
+          <target state="translated">アプリケーションは、セマンティックにコメントを考慮し、(これは一般的な場合に処理する XML) 場合、する必要がありますを使用する"#xpointer(/)"の代わりに""、"#foo"ではなく"#xpointer(id('foo'))"とします。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The #xpointer versions are interpreted as including comments, while the shortname forms are excluding comments.</source>
+          <target state="translated">#Xpointer バージョンは、shortname フォームは、コメントを除く、中に、コメントを含むとして解釈されます。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you need to accept documents which are only partially protected and you want to ensure that you are reading the same content that the signature protected, use the &lt;xref:System.Security.Cryptography.Xml.SignedXml.GetIdElement%2A&gt; method.</source>
+          <target state="translated">部分的にしか保護されているドキュメントをそのまま使用する必要があり、同じコンテンツを入手することを保証する場合、署名が保護されているを使用して、&lt;xref:System.Security.Cryptography.Xml.SignedXml.GetIdElement%2A&gt;メソッド&lt;/xref:System.Security.Cryptography.Xml.SignedXml.GetIdElement%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Security considerations about the KeyInfo element    The data in the optional &lt;<ph id="ph1">`KeyInfo`</ph>&gt; element (that is, the &lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt; property), which contains a key to validate the signature,  should not be trusted.</source>
+          <target state="translated">必要な KeyInfo 要素の省略可能なデータに関するセキュリティの考慮事項<ph id="ph1">`KeyInfo`</ph>&gt; 要素 (つまり、&lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt;プロパティ)、署名を検証するためにキーを含む必要がありますが信頼されていない&lt;/xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>In particular, when the &lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt; value represents a bare RSA, DSA or ECDSA public key,  the document could have been tampered with, despite the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method reporting that the signature is valid.</source>
+          <target state="translated">ときに、特定の&lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt;値は、ベア RSA や DSA、ECDSA 公開キーを表す、ドキュメントを改ざんすることがありますに関係なく、&lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;メソッドの署名が有効であるレポートを作成します&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;&lt;/xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This can happen because the entity doing the tampering just has to generate a new key and re-sign the tampered document with that new key.</source>
+          <target state="translated">これは、新しいキーを生成し、その新しいキーを持つ、改ざんされたドキュメントを再署名するだけの改ざんを行うエンティティがあるために発生します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>So, unless your application verifies that the public key is an expected value, the document should be treated as if it were tampered with.</source>
+          <target state="translated">そのため、アプリケーションは、公開キーが予期される値であることを確認、しない限り、ドキュメントを扱う改ざんされた場合、します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This requires that your application examine the public key embedded within the document and verify it against a list of known values for the document context.</source>
+          <target state="translated">これには、アプリケーションがドキュメントに埋め込まれたパブリック キーを調べるし、ドキュメントのコンテキストの既知の値のリストと照合することを確認が必要です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For example, if the document could be understood to be issued by a known user, you'd check the key against a list of known keys used by that user.</source>
+          <target state="translated">たとえば、既知のユーザーによって発行されるドキュメントを認識することが場合は、そのユーザーが使用される既知のキーの一覧に対してキーを確認はします。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can also verify the key after processing the document by using the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignatureReturningKey%2A&gt; method, instead of using the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method.</source>
+          <target state="translated">使用して、ドキュメントを処理した後、キーを確認することも、&lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignatureReturningKey%2A&gt;メソッドを使用する代わりに、&lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;メソッド&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignatureReturningKey%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>But, for the optimal security, you should verify the key beforehand.</source>
+          <target state="translated">ただし、最適なセキュリティを確認してください、キー事前います。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Alternately, consider trying the user's registered public keys, rather than reading what's in the &lt;<ph id="ph1">`KeyInfo`</ph>&gt; element.</source>
+          <target state="translated">読み取りするのではなく、代わりに、公開キーは、登録されているユーザーのしようとしているを検討してください、 <ph id="ph1">`KeyInfo`</ph>&gt; 要素。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Security considerations about the X509Data element    The optional &lt;<ph id="ph1">`X509Data`</ph>&gt; element is a child of the &lt;<ph id="ph2">`KeyInfo`</ph>&gt; element and contains one or more X509 certificates or identifiers for X509 certificates.</source>
+          <target state="translated">省略可能な X509Data 要素に関するセキュリティの考慮事項<ph id="ph1">`X509Data`</ph>&gt; 要素の子では、 <ph id="ph2">`KeyInfo`</ph>&gt; 要素れ、1 つまたは複数の X509 証明書または X509 の識別子の証明書。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The data in the &lt;<ph id="ph1">`X509Data`</ph>&gt; element should also not be inherently trusted.</source>
+          <target state="translated">内のデータ、 <ph id="ph1">`X509Data`</ph>&gt; 要素も本質的には信頼できません。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>When verifying a document with the embedded &lt;<ph id="ph1">`X509Data`</ph>&gt; element, the .NET Framework verifies only that the data resolves to an X509 certificate whose public key can be successfully used to validate the document signature.</source>
+          <target state="translated">埋め込まれているを持つドキュメントを検証するときに<ph id="ph1">`X509Data`</ph>&gt; 要素、.NET Framework だけを確認、データが、X509 に解決される証明書の公開キーを持つはドキュメントの署名の検証に正常に使用できます。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Unlike calling the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method with the <ph id="ph1">`verifySignatureOnly`</ph> parameter set to <ph id="ph2">`false`</ph>, no revocation check is performed, no chain trust is checked, and no expiration is verified.</source>
+          <target state="translated">呼び出し元とは異なり、&lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;メソッドを<ph id="ph1">`verifySignatureOnly`</ph>パラメーターに設定<ph id="ph2">`false`</ph>、失効チェックは行われません、信頼チェーンがチェックされていない、有効期限がないことを確認します&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Even if your application extracts the certificate itself and passes it to the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method with the <ph id="ph1">`verifySignatureOnly`</ph> parameter set to <ph id="ph2">`false`</ph>, that is still not sufficient validation to prevent document tampering.</source>
+          <target state="translated">場合でも、アプリケーションは、証明書自体を抽出しに渡します、&lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;メソッドを<ph id="ph1">`verifySignatureOnly`</ph>にパラメーターが設定<ph id="ph2">`false`</ph>はドキュメントの改ざんを防ぐための十分な検証をまだ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The certificate still needs to be verified as being appropriate for the document being signed.</source>
+          <target state="translated">証明書は、署名されているドキュメントに適したものとして検証する必要があります。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Using an embedded signing certificate can provide useful key rotation strategies, whether in the &lt;<ph id="ph1">`X509Data`</ph>&gt; section or in the document content.</source>
+          <target state="translated">埋め込み署名証明書を使用できる便利キー ローテーション手法については、かどうかで、 <ph id="ph1">`X509Data`</ph>&gt; セクションまたはドキュメントの内容にします。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>When using this approach an application should extract the certificate manually and perform validation similar to:      -   The certificate was issued directly or via a chain by a Certificate Authority (CA) whose public certificate is embedded in the application.</source>
+          <target state="translated">このアプローチを使用するときに、アプリケーションする必要があります、証明書を手動で抽出検証を行うに似ています。 - 証明書が直接発行されたか、アプリケーションに証明書機関 (CA) によって、チェーンによってパブリック証明書を所有が埋め込まれています。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Using the OS-provided trust list without additional checks, such as a known subject name, is not sufficient to prevent tampering in SignedXml.</source>
+          <target state="translated">既知のサブジェクト名など、追加のチェックなし OS に用意されている信頼リストを使用することは、SignedXml の改ざんを防止するのに十分ではありません。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-   The certificate is verified to have not been expired at the time of document signing (or “now” for near real-time document processing).</source>
+          <target state="translated">-証明書がドキュメントの署名時に期限が切れてされていないことを確認 (または「現在」ドキュメントのリアルタイム処理付近)。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-   For long-lived certificates issued by a CA which supports revocation, verify the certificate was not revoked.</source>
+          <target state="translated">失効をサポートする CA によって発行された有効期間が長い証明書の証明書が失効していないことを確認します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-   The certificate subject is verified as being appropriate to the current document.</source>
+          <target state="translated">-証明書のサブジェクトは、現在のドキュメントに適切なものとして検証されます。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Choosing the transform algorithm    If you are interoperating with a specification which has dictated specific values (such as XrML), then you need to follow the specification.</source>
+          <target state="translated">(XrML) などの特定の値が規定されている仕様と相互運用する場合、変換アルゴリズムの選択、し、従う必要があります、仕様です。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you have an enveloped signature (such as when signing the whole document), then you need to use http://www.w3.org/2000/09/xmldsig#enveloped-signature (represented by the &lt;xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt; class).</source>
+          <target state="translated">エンベロープ署名がある場合 (ときなどドキュメント全体を署名)、http://www.w3.org/2000/09/xmldsig#enveloped-signature を使用する必要があります (によって表される、&lt;xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt;クラス).&lt;/xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You can specify the implicit XML-C14N transform as well, but it's not necessary.</source>
+          <target state="translated">同様に、暗黙的な XML C14N 変換の指定することができますが、必要はありません。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For an enveloping or detached signature, no transforms are required.</source>
+          <target state="translated">エンベロープまたはデタッチ済みの署名では、変換は必要ありません。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The implicit XML-C14N transform takes care of everything.</source>
+          <target state="translated">すべての暗黙の型の XML C14N 変換が行われます。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>With the security updated introduced by the <bpt id="p1">[</bpt>Microsoft Security Bulletin MS16-035<ept id="p1">](https://technet.microsoft.com/en-us/library/security/ms16-035.aspx)</ept>, the .NET Framework has restricted what transforms can be used in document verification by default, with untrusted transforms causing &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; to always return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">更新セキュリティによって導入された、 <bpt id="p1">[</bpt>Microsoft セキュリティ情報の MS16&amp;035;<ept id="p1">](https://technet.microsoft.com/en-us/library/security/ms16-035.aspx)</ept>、変換ができる、.NET Framework が制限されて信頼されていない変換が原因で、既定では、ドキュメントの検証に使用&lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;を常に返す<ph id="ph1">`false`</ph>&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>In particular, transforms which require additional input (specified as child elements in the XML) are no longer allowed due to their susceptibility of abuse by malicious users.</source>
+          <target state="translated">具体的には、追加の入力 (XML 内の子要素として指定) を必要とする変換は許可されません。 不正使用の脆弱性のため悪意のあるユーザー。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The W3C advises avoiding the XPath and XSLT transforms, which are the two main transforms affected by these restrictions.</source>
+          <target state="translated">W3C では、これらの制限の影響を受ける&amp;2; つの主要な変換は、XPath と XSLT 変換を回避するように勧めます。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The problem with external references    If an application does not verify that external references seem appropriate for the current context, they can be abused in ways that provide for many security vulnerabilities (including Denial of Service, Distributed Reflection Denial of Service, Information Disclosure, Signature Bypass, and Remote Code Execution).</source>
+          <target state="translated">多くのセキュリティの脆弱性が (サービス拒否攻撃、分散リフレクション サービス拒否攻撃、情報漏えいが起こる、署名の回避、およびリモートでコードが実行を含む) を提供する外部参照が現在のコンテキストに適していないと思われますの方法で、悪用される可能性があるアプリケーションが検証されない場合、外部参照の問題。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Even if an application were to validate the external reference URI, there would remain a problem of the resource being loaded twice: once when your application reads it, and once when SignedXml reads it.</source>
+          <target state="translated">場合でも、アプリケーションが外部参照の URI を検証すると、あるはまま残り、2 回読み込まれているリソースの問題: ときに、アプリケーションが読み取り、されとき SignedXml によって読み取られるとします。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Since there’s no guarantee that the application read and document verify steps have the same content, the signature does not provide trustworthiness.</source>
+          <target state="translated">アプリケーションの読み取りとドキュメントを確認の手順は、同じコンテンツを持つという保証がないため、シグネチャでは信頼性が提供されません。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Given the risks of external references, SignedXml will throw an exception when an external reference is encountered.</source>
+          <target state="translated">外部参照のリスクを与え、SignedXml 例外がスローされます外部参照が発生したときにします。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For more information about this issue, see <bpt id="p1">[</bpt>KB article 3148821<ept id="p1">](https://support.microsoft.com/en-us/kb/3148821)</ept>.</source>
+          <target state="translated">この問題の詳細については、次を参照してください。<bpt id="p1">[</bpt>サポート技術情報記事 3148821<ept id="p1">](https://support.microsoft.com/en-us/kb/3148821)</ept>です。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified XML document.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定した XML ドキュメントからのクラスです。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to use to initialize the new instance of <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の新しいインスタンスを初期化するために使用するオブジェクト<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">document</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">document</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">document</ph><ept id="p1">&lt;/code&gt;</ept> parameter contains a null &lt;xref:System.Xml.XmlDocument.DocumentElement*&gt; property.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">document</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターには、null 値が含まれています&lt;xref:System.Xml.XmlDocument.DocumentElement*&gt;プロパティ。&lt;/xref:System.Xml.XmlDocument.DocumentElement*&gt; 。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified <bpt id="p2">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>から、指定したクラス<bpt id="p2">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to use to initialize the new instance of <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の新しいインスタンスを初期化するために使用するオブジェクト<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the list of objects to be signed.</source>
+          <target state="translated">追加、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.DataObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトに署名するオブジェクトの一覧にします。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The AddObject method adds an &lt;<ph id="ph1">`Object`</ph>&gt; element that represents an object to be signed to the &lt;<ph id="ph2">`Signature`</ph>&gt; element of an XML digital signature.</source>
+          <target state="translated">AddObject メソッドを追加、 <ph id="ph1">`Object`</ph>&gt; 要素に署名するオブジェクトを表す、 <ph id="ph2">`Signature`</ph>&gt; XML デジタル署名の要素。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The AddObject method internally calls the &lt;xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt; method of the &lt;xref:System.Security.Cryptography.Xml.Signature&gt; object encapsulated by the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object.</source>
+          <target state="translated">内部的に AddObject メソッドを呼び出して、&lt;xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt;のメソッド、&lt;xref:System.Security.Cryptography.Xml.Signature&gt;オブジェクトによってカプセル化、&lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;オブジェクト&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;&lt;/xref:System.Security.Cryptography.Xml.Signature&gt;&lt;/xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You can also add a &lt;xref:System.Security.Cryptography.Xml.DataObject&gt; object by directly calling the &lt;xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt; method from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature%2A&gt; property.</source>
+          <target state="translated">追加することも、&lt;xref:System.Security.Cryptography.Xml.DataObject&gt;オブジェクトを直接呼び出すことにより、&lt;xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt;メソッドから、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature%2A&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature%2A&gt;&lt;/xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt;&lt;/xref:System.Security.Cryptography.Xml.DataObject&gt;。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>For more information about XML digital signatures, see the XMLDSIG specification available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">XML デジタル署名の詳細については、www.w3.org/TR/xmldsig-core/ で利用可能な XMLDSIG の仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to add to the list of objects to be signed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.DataObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>に署名するオブジェクトの一覧に追加するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Reference"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object that describes a digest method, digest value, and transform to use for creating an XML digital signature.</source>
+          <target state="translated">追加、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Reference"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトを<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>ダイジェストの作成方法、ダイジェスト値、および XML デジタル署名の作成に使用する変換を記述するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The AddReference method adds a &lt;<ph id="ph1">`Reference`</ph>&gt; element to the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object that describes a digest method, digest value, and transform to use for creating an XML digital signature.</source>
+          <target state="translated">AddReference メソッドを追加、 <ph id="ph1">`Reference`</ph>&gt; 要素を&lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;ダイジェストの作成方法、ダイジェスト値、および XML デジタル署名の作成に使用する変換を記述するオブジェクト&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`Reference`</ph>&gt; element is a subelement of the &lt;<ph id="ph2">`SignedInfo`</ph>&gt; element.</source>
+          <target state="translated"><ph id="ph1">`Reference`</ph>&gt; 要素のサブ要素は、 <ph id="ph2">`SignedInfo`</ph>&gt; 要素。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The AddReference method internally calls the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt; method of the &lt;xref:System.Security.Cryptography.Xml.SignedInfo&gt; object encapsulated by the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object.</source>
+          <target state="translated">AddReference メソッドが内部的には、&lt;xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt;のメソッド、&lt;xref:System.Security.Cryptography.Xml.SignedInfo&gt;オブジェクトによってカプセル化、&lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;オブジェクト&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;&lt;/xref:System.Security.Cryptography.Xml.SignedInfo&gt;&lt;/xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can also add a &lt;xref:System.Security.Cryptography.Xml.Reference&gt; object by directly calling the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt; method from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; property.</source>
+          <target state="translated">追加することも、&lt;xref:System.Security.Cryptography.Xml.Reference&gt;オブジェクトを直接呼び出すことにより、&lt;xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt;メソッドから、&lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt;&lt;/xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt;&lt;/xref:System.Security.Cryptography.Xml.Reference&gt;。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For more information about XML digital signatures, see the XMLDSIG specification available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">XML デジタル署名の詳細については、www.w3.org/TR/xmldsig-core/ で利用可能な XMLDSIG の仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The  <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Reference"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes a digest method, digest value, and transform to use for creating an XML digital signature.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Reference"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ダイジェストの作成方法、ダイジェスト値、および XML デジタル署名の作成に使用する変換を記述するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies using the public key in the signature.</source>
+          <target state="translated">指定するかどうか、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティは、署名の公開キーを使用することを確認します&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>This method also computes the digest of the references and the value of the signature.</source>
+          <target state="translated">また、このメソッドは、参照のダイジェストと署名の値を計算します。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If an XML document was signed with an X.509 signature, the CheckSignature method will search the "AddressBook" store for certificates suitable for the verification.</source>
+          <target state="translated">XML ドキュメントは、X.509 署名で署名された、CheckSignature メソッドは、検証のための適切な証明書の"AddressBook"ストアを検索します。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>For example, if the certificate is referenced by a Subject Key Identifier (SKI), the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method will select certificates with this SKI and try them one after another until it can verify the certificate.</source>
+          <target state="translated">たとえば、証明書のサブジェクト キー識別子 (SKI) によってが参照されている場合、&lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;メソッドはこの SKI で証明書の選択し、に&amp;1; つずつするまで試行しますが、証明書を確認してください&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティを確認しますそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; 。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm<bpt id="p1">*</bpt>&gt; property of the public key in the signature does not match the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod<ept id="p1">*</ept>&gt; property.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 署名の公開キーのプロパティが一致しない、 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; プロパティです。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-or-       The signature description could not be created.</source>
+          <target state="translated">または、署名の説明を作成できませんでした。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-or       The hash algorithm could not be created.</source>
+          <target state="translated">- かハッシュ アルゴリズムを作成できませんでした。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies for the specified key.</source>
+          <target state="translated">決定するかどうか、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティが指定されたキーのことを確認します&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The implementation of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property that holds the key to be used to verify the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property.</source>
+          <target state="translated">実装、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ことを確認するために使用するキーを保持するプロパティ、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies for the specified key; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティを指定された検証キー、それ以外の<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; 。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm<bpt id="p1">*</bpt>&gt; property of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p2">&lt;/code&gt;</ept> parameter does not match the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod<ept id="p1">*</ept>&gt; property.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; のプロパティ、 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p2">&lt;/code&gt;</ept>パラメーターと一致しません、 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; プロパティです。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-or-       The signature description could not be created.</source>
+          <target state="translated">または、署名の説明を作成できませんでした。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>-or       The hash algorithm could not be created.</source>
+          <target state="translated">- かハッシュ アルゴリズムを作成できませんでした。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies for the specified message authentication code (MAC) algorithm.</source>
+          <target state="translated">決定するかどうか、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティが指定されたメッセージ認証コード (MAC) アルゴリズムのことを確認します&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The implementation of <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that holds the MAC to be used to verify the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property.</source>
+          <target state="translated">実装<bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ことを確認するために使用される MAC を保持する、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies for the specified MAC; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティが指定された MAC; の検証それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; 。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">macAlg</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">macAlg</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.HashAlgorithm.HashSize<bpt id="p1">*</bpt>&gt; property of the specified <bpt id="p2">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is not valid.       -or-       The &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature<ept id="p1">*</ept>&gt; property is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; したプロパティの<bpt id="p2">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクトが無効です。      -or-       The &lt;&gt;<ept id="p1">*</ept>&gt; property is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-or-       The cryptographic transform used to check the signature could not be created.</source>
+          <target state="translated">または、署名の確認に使用される暗号変換を作成できませんでした。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies for the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and, optionally, whether the certificate is valid.</source>
+          <target state="translated">決定するかどうか、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティが、指定されたことを確認<bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトと、必要に応じて、証明書が有効かどうか&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>In version 1.1 of the .NET Framework, the X.509 certificate is not verified.</source>
+          <target state="translated">.NET Framework のバージョン 1.1 では、X.509 証明書は検証されません。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>In version 2.0 and later, the X.509 certificate is verified.</source>
+          <target state="translated">バージョン 2.0 以降では、X.509 証明書が検証されます。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>In version 2.0 and later of the .NET Framework, the CheckSignature method will search the "AddressBook" store for certificates suitable for the verification.</source>
+          <target state="translated">バージョン 2.0、.NET Framework の以降では、CheckSignature メソッドは、検証のための適切な証明書の"AddressBook"ストアを検索します。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>For example, if the certificate is referenced by a Subject Key Identifier (SKI), the CheckSignature method will select certificates with this SKI and try them one after another until it can verify the certificate.</source>
+          <target state="translated">たとえば、参照する場合、証明書のサブジェクト キー識別子 (SKI) によって、CheckSignature メソッドはこの SKI で証明書の選択やり直してくださいに&amp;1; つずつ証明書を確認できるまで。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to use to verify the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>検証に使用するオブジェクト、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to verify the signature only; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to verify both the signature and certificate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>だけです。 署名を検証するには<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>署名および証明書の両方を確認します。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the signature is valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合は、署名が無効です。それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the signature and certificate are valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- または - <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、署名と証明書が有効なそれ以外の場合<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>A signature description could not be created for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">署名の説明を作成できませんでした、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">certificate</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーター。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies using the public key in the signature.</source>
+          <target state="translated">指定するかどうか、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティは、署名の公開キーを使用することを確認します&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the implementation of <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that holds the public key in the signature.</source>
+          <target state="translated">このメソッドが戻るときの実装が含まれています。 <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>署名の公開キーを保持します。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">このパラメーターは初期化せずに渡されます。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies using the public key in the signature; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティは、パブリックなを使用することを確認、それ以外の署名にキー <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; 。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">signingKey</ph><ept id="p1">&lt;/code&gt;</ept> parameter is null.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">signingKey</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが null です。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm<bpt id="p1">*</bpt>&gt; property of the public key in the signature does not match the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod<ept id="p1">*</ept>&gt; property.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 署名の公開キーのプロパティが一致しない、 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; プロパティです。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>-or-       The signature description could not be created.</source>
+          <target state="translated">または、署名の説明を作成できませんでした。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>-or       The hash algorithm could not be created.</source>
+          <target state="translated">- かハッシュ アルゴリズムを作成できませんでした。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Computes an XML digital signature.</source>
+          <target state="translated">XML デジタル署名を計算します。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The ComputeSignature method creates an XML digital signature and constructs many of the XML elements needed.</source>
+          <target state="translated">ComputeSignature メソッドは、XML デジタル署名を作成し、多くのために必要な XML 要素を構築します。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>You must set the data to be signed and the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SigningKey%2A&gt; property before calling this method.</source>
+          <target state="translated">署名されたデータを設定する必要があります、&lt;xref:System.Security.Cryptography.Xml.SignedXml.SigningKey%2A&gt;このメソッドを呼び出す前に、プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SigningKey%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.SignedXml.SigningKey<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.       -or-       The &lt;xref:System.Security.Cryptography.Xml.SignedXml.SigningKey<ept id="p1">*</ept>&gt; property is not a <bpt id="p3">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object or <bpt id="p4">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">The &lt;&gt;<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.      - または -、 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; プロパティは使用されません、 <bpt id="p3">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>オブジェクトまたは<bpt id="p4">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>-or-       The key could not be loaded.</source>
+          <target state="translated">または、キーを読み込むことができませんでした。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Computes an XML digital signature using the specified message authentication code (MAC) algorithm.</source>
+          <target state="translated">指定したメッセージ認証コード (MAC) アルゴリズムを使用して XML デジタル署名を計算します。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The ComputeSignature method creates an XML digital signature using the specified MAC algorithm and constructs many of the XML elements needed.</source>
+          <target state="translated">ComputeSignature メソッドは、指定された MAC アルゴリズムを使用して XML デジタル署名を作成し、多くのために必要な XML 要素を構築します。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>You must set the data to be signed before calling this method.</source>
+          <target state="translated">このメソッドを呼び出す前に署名するデータを設定する必要があります。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that holds the MAC to be used to compute the value of the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の値を計算するために使用される MAC を保持するオブジェクト、&lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">macAlg</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">macAlg</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object specified by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">macAlg</ph><ept id="p2">&lt;/code&gt;</ept> parameter is not an instance of <bpt id="p3">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>で指定されたオブジェクト、 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">macAlg</ph> <ept id="p2">&lt;/code&gt;</ept>パラメーターがのインスタンスではない<bpt id="p3">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.Security.Cryptography.HashAlgorithm.HashSize*&gt; property of the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is not valid.</source>
+          <target state="translated">- または -、&lt;xref:System.Security.Cryptography.HashAlgorithm.HashSize*&gt;したプロパティの<bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトが無効です&lt;/xref:System.Security.Cryptography.HashAlgorithm.HashSize*&gt;。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>-or-       The cryptographic transform used to check the signature could not be created.</source>
+          <target state="translated">または、署名の確認に使用される暗号変換を作成できませんでした。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets or sets an <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that defines the XML encryption processing rules.</source>
+          <target state="translated">取得または設定、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> XML 暗号化の処理規則を定義するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that defines the XML encryption processing rules.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> XML 暗号化の処理規則を定義するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with the specified ID from the specified <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定された対象から指定した ID を持つオブジェクト<bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to retrieve the <bpt id="p2">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object from.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を取得するオブジェクト、 <bpt id="p2">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトからです。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The ID of the <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to retrieve from the <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">ID、 <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>から取得するオブジェクト、 <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with the specified ID from the specified <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object, or <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if it could not be found.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定された対象から指定した ID を持つオブジェクト<bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト、または<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>場合に見つかりませんでした。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Returns the public key of a signature.</source>
+          <target state="translated">署名の公開キーを返します。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The GetPublicKey method returns an &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm&gt; object that contains a public key that can be used to verify an XML digital signature.</source>
+          <target state="translated">GetPublicKey メソッドを返します、 &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm&gt;XML デジタル署名の検証に使用できる公開キーを含むオブジェクトです&lt;/xref:System.Security.Cryptography.AsymmetricAlgorithm&gt;。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The key must be either a &lt;xref:System.Security.Cryptography.DSA&gt; or an &lt;xref:System.Security.Cryptography.RSA&gt; key.</source>
+          <target state="translated">キーはいずれかである必要があります、&lt;xref:System.Security.Cryptography.DSA&gt;または&lt;xref:System.Security.Cryptography.RSA&gt;キー&lt;/xref:System.Security.Cryptography.RSA&gt; &lt;/xref:System.Security.Cryptography.DSA&gt; 。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the public key of the signature, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the key cannot be found.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、署名の公開キーを格納しているオブジェクトまたは<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>キーが見つからない場合。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo*&gt; property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo*&gt;プロパティは<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo*&gt; 。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Returns the XML representation of a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">XML 表現を返します、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The XML representation of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">XML 表現、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.       -or-       The &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureValue<ept id="p1">*</ept>&gt; property is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;&gt;<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.      -or-       The &lt;&gt;<ept id="p1">*</ept>&gt; property is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.KeyInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得または設定、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.KeyInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在のオブジェクト<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The KeyInfo property represents the &lt;<ph id="ph1">`KeyInfo`</ph>&gt; element of an XML digital signature using a &lt;xref:System.Security.Cryptography.Xml.KeyInfo&gt; object contained within the property.</source>
+          <target state="translated">必要な KeyInfo プロパティを表す、 <ph id="ph1">`KeyInfo`</ph>&gt;、デジタル署名を使用して XML の要素、&lt;xref:System.Security.Cryptography.Xml.KeyInfo&gt;プロパティ内に含まれるオブジェクト&lt;/xref:System.Security.Cryptography.Xml.KeyInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`KeyInfo`</ph>&gt; element is a subelement of the &lt;<ph id="ph2">`Signature`</ph>&gt; element.</source>
+          <target state="translated"><ph id="ph1">`KeyInfo`</ph>&gt; 要素のサブ要素は、 <ph id="ph2">`Signature`</ph>&gt; 要素。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Use the KeyInfo property to embed key-related information intended to help identify the key necessary for validating an XML document.</source>
+          <target state="translated">XML ドキュメントの検証に必要なキーを識別するのにためのもので、キーに関連する情報を埋め込むには、必要な KeyInfo プロパティを使用します。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>For more information about the <ph id="ph1">`&lt;KeyInfo&gt;`</ph> element, see the XMLDSIG specification, which is available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">詳細については、<ph id="ph1">`&lt;KeyInfo&gt;`</ph>要素は www.w3.org/TR/xmldsig-core/ XMLDSIG の仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.KeyInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.KeyInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在のオブジェクト<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Loads a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> state from an XML element.</source>
+          <target state="translated">読み込み、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>状態の XML 要素からです。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The XML element to load the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> state from.</source>
+          <target state="translated">XML 要素を読み込む、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>状態からです。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p1">&lt;/code&gt;</ept> parameter does not contain a valid &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureValue<bpt id="p2">*</bpt>&gt; property.       -or-       The <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">value</ph><ept id="p3">&lt;/code&gt;</ept> parameter does not contain a valid &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo<ept id="p2">*</ept>&gt; property.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが有効な含まれていない&lt;&gt; <bpt id="p2">*</bpt>&gt; プロパティです。      - または -、 <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">value</ph> <ept id="p3">&lt;/code&gt;</ept>パラメーターが有効な含まれていない&lt;&gt; <ept id="p2">*</ept>&gt; プロパティです。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">表す、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在のオブジェクト<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Represents the name of the installed key to be used for signing the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">署名に使用するインストールされているキーの名前を表す、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Sets the current <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の設定<bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlResolver&gt; class resolves external XML resources named by a Uniform Resource Identifier (URI).</source>
+          <target state="translated">&lt;xref:System.Xml.XmlResolver&gt;クラスによって、Uniform Resource Identifier () をという名前の外部 XML リソースを解決します&lt;/xref:System.Xml.XmlResolver&gt;。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>If you do not trust the source of the XML file, you might not want to allow the XML file to access computer resources named by the URI.</source>
+          <target state="translated">XML ファイルの作成元を信頼していない場合、URI でという名前のコンピューター リソースにアクセスする XML ファイルを許可する場合がありますされません。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>You can use the Resolver property to control the level of access that XML files have to computer resources by specifying different &lt;xref:System.Xml.XmlResolver&gt; objects.</source>
+          <target state="translated">競合回避モジュールのプロパティを使用するにはレベルを制御する XML ファイルがさまざまなを指定してがコンピューター リソースにアクセスする&lt;xref:System.Xml.XmlResolver&gt;オブジェクト&lt;/xref:System.Xml.XmlResolver&gt;。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>If you do not want to allow any access, you can set this property to <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> in Visual Basic).</source>
+          <target state="translated">任意のアクセスを許可しないようにする場合このプロパティを設定することができます<ph id="ph1">`null`</ph>(<ph id="ph2">`Nothing`</ph> Visual Basic で)。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在<bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The defaults is a <bpt id="p1">&lt;xref href="System.Xml.XmlSecureResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">既定値は、 <bpt id="p1">&lt;xref href="System.Xml.XmlSecureResolver"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Gets the names of methods whose canonicalization algorithms are explicitly allowed.</source>
+          <target state="translated">[.NET Framework 4.5.1 以降のバージョンでサポート]      正規化アルゴリズムが明示的に許可されているメソッドの名前を取得します。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Canonicalization methods convert an XML document to its canonical form.</source>
+          <target state="translated">標準化メソッドは、XML ドキュメントを正規の形式に変換します。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>For more information about canonical XML, see <bpt id="p1">[</bpt>Canonical XML<ept id="p1">](http://www.w3.org/TR/xml-c14n)</ept> on the W3C website.</source>
+          <target state="translated">正規 XML の詳細については、次を参照してください。<bpt id="p1">[</bpt>正規 XML<ept id="p1">](http://www.w3.org/TR/xml-c14n)</ept> 、W3C web サイトにします。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>A collection of the names of methods that safely produce canonical XML.</source>
+          <target state="translated">安全に標準 XML を生成するメソッドの名前のコレクション。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在のオブジェクト<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The Signature property represents the &lt;<ph id="ph1">`Signature`</ph>&gt; element of an XML digital signature using a &lt;xref:System.Security.Cryptography.Xml.Signature&gt; object contained within the property.</source>
+          <target state="translated">署名プロパティを表す、 <ph id="ph1">`Signature`</ph>&gt;、デジタル署名を使用して XML の要素、&lt;xref:System.Security.Cryptography.Xml.Signature&gt;プロパティ内に含まれるオブジェクト&lt;/xref:System.Security.Cryptography.Xml.Signature&gt;。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`Signature`</ph>&gt; element is the root element used for XML digital signature creation and verification.</source>
+          <target state="translated"><ph id="ph1">`Signature`</ph>&gt; 要素は、XML デジタル署名の作成および検証に使用されるルート要素です。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Use the Signature property to retrieve the &lt;xref:System.Security.Cryptography.Xml.Signature&gt; object used by the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object.</source>
+          <target state="translated">署名プロパティを使用して取得する、&lt;xref:System.Security.Cryptography.Xml.Signature&gt;によって使用されるオブジェクト、&lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;オブジェクト&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;&lt;/xref:System.Security.Cryptography.Xml.Signature&gt;。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>For more information about the <ph id="ph1">`&lt;Signature&gt;`</ph> element, see the XMLDSIG specification, which is available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">詳細については、<ph id="ph1">`&lt;Signature&gt;`</ph>要素は www.w3.org/TR/xmldsig-core/ XMLDSIG の仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在のオブジェクト<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Gets a delegate that will be called to validate the format (not the cryptographic security) of an XML signature.</source>
+          <target state="translated">XML 署名の形式 (暗号のセキュリティではなく) を検証すると呼び出されるデリゲートを取得します。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>This method can be used to ensure that only certain transforms are used, or that the signature uses a certain hash algorithm, and so on.</source>
+          <target state="translated">このメソッドは、特定の変換だけを使用するハッシュ アルゴリズム、およびように、署名を使用することを確認を使用できます。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Setting the property to <ph id="ph1">`null`</ph> removes all signature format validation from the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object.</source>
+          <target state="translated">プロパティを設定<ph id="ph1">`null`</ph>からすべての署名形式の検証を削除、&lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;オブジェクト&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>You can also read the object's current delegate and chain to it if you want.</source>
+          <target state="translated">場合にも、オブジェクトの現在のデリゲートとそれにチェーンを読み取ることができます。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>If you are setting up a format validator, the delegate you supply will receive as an input parameter the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object being verified and returns a Boolean value – <ph id="ph1">`true`</ph> if the format is acceptable, <ph id="ph2">`false`</ph> if it is not.</source>
+          <target state="translated">入力パラメーターとして指定するデリゲートを受け取ります形式検証コントロールを設定する場合、&lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;検証されているオブジェクトの値を返すブール値 –<ph id="ph1">`true`</ph>形式が使用できる場合、<ph id="ph2">`false`</ph>されていない場合&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>If the delegate returns <ph id="ph1">`false`</ph> for any reason, the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object will report that the XML signature is not valid.</source>
+          <target state="translated">デリゲートを返す場合<ph id="ph1">`false`</ph>何らかの理由で、 &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;XML 署名が無効であるオブジェクトを報告します&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the format is acceptable; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>形式が使用できる場合です。それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Gets the length of the signature for the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の署名の長さを取得<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The length of the signature for the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の署名の長さ<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Gets the signature method of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の署名メソッドを取得<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The SignatureMethod property represents the &lt;<ph id="ph1">`SignatureMethod`</ph>&gt; element of an XML digital signature using a Uniform Resource Identifier (URI) string contained within the property.</source>
+          <target state="translated">SignatureMethod プロパティを表す、 <ph id="ph1">`SignatureMethod`</ph>&gt; プロパティ内に含まれる (Uniform Resource Identifier) 文字列を使用して、XML デジタル署名の要素。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`SignatureMethod`</ph>&gt; element is a subelement of the &lt;<ph id="ph2">`SignedInfo`</ph>&gt; element.</source>
+          <target state="translated"><ph id="ph1">`SignatureMethod`</ph>&gt; 要素のサブ要素は、 <ph id="ph2">`SignedInfo`</ph>&gt; 要素。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Use the SignatureMethod property to retrieve the &lt;<ph id="ph1">`SignatureMethod`</ph>&gt; URI used by the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object.</source>
+          <target state="translated">SignatureMethod プロパティを使用して取得する、 <ph id="ph1">`SignatureMethod`</ph>&gt; URI を使用して、&lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;オブジェクト&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>This property is read only.</source>
+          <target state="translated">このプロパティは読み取り専用です。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>For more information about programmatically specifying a URI for the &lt;<ph id="ph1">`SignatureMethod`</ph>&gt; element, see the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.SignatureMethod%2A&gt; property.</source>
+          <target state="translated">プログラムでの URI を指定の詳細については、 <ph id="ph1">`SignatureMethod`</ph>&gt; 要素を参照してください、&lt;xref:System.Security.Cryptography.Xml.SignedInfo.SignatureMethod%2A&gt;プロパティ&lt;/xref:System.Security.Cryptography.Xml.SignedInfo.SignatureMethod%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>For more information about the <ph id="ph1">`&lt;SignatureMethod&gt;`</ph> element, see the XMLDSIG specification, which is available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">詳細については、<ph id="ph1">`&lt;SignatureMethod&gt;`</ph>要素は www.w3.org/TR/xmldsig-core/ XMLDSIG の仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The signature method of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の署名方法<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Gets the signature value of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の署名の値を取得<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>The SignatureValue property represents the &lt;<ph id="ph1">`SignatureValue`</ph>&gt; element of an XML digital signature using an array of bytes contained within the property.</source>
+          <target state="translated">SignatureValue プロパティを表す、 <ph id="ph1">`SignatureValue`</ph>&gt; プロパティ内に含まれるバイトの配列を使用して、XML デジタル署名の要素。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`SignatureValue`</ph>&gt; element is a subelement of the &lt;<ph id="ph2">`Signature&gt;`</ph> element.</source>
+          <target state="translated"><ph id="ph1">`SignatureValue`</ph>&gt; 要素のサブ要素は、<ph id="ph2">`Signature&gt;`</ph>要素。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Use the SignatureValue property to retrieve the value of the XML digital signature.</source>
+          <target state="translated">SignatureValue プロパティを使用して、XML デジタル署名の値を取得します。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>This property is automatically populated when you make a successful call to the &lt;xref:System.Security.Cryptography.Xml.SignedXml.ComputeSignature%2A&gt; method.</source>
+          <target state="translated">呼び出しに成功すると、このプロパティが自動的に設定されます、&lt;xref:System.Security.Cryptography.Xml.SignedXml.ComputeSignature%2A&gt;メソッド&lt;/xref:System.Security.Cryptography.Xml.SignedXml.ComputeSignature%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>For more information about the <ph id="ph1">`&lt;SignatureValue&gt;`</ph> element, see the XMLDSIG specification, which is available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">詳細については、<ph id="ph1">`&lt;SignatureValue&gt;`</ph>要素は www.w3.org/TR/xmldsig-core/ XMLDSIG の仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the signature value of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の署名の値を格納するバイト配列<bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在のオブジェクト<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>The SignedInfo property represents the &lt;<ph id="ph1">`SignedInfo`</ph>&gt; element of an XML digital signature using an array of bytes contained within the property.</source>
+          <target state="translated">SignedInfo プロパティを表す、 <ph id="ph1">`SignedInfo`</ph>&gt; プロパティ内に含まれるバイトの配列を使用して、XML デジタル署名の要素。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`SignedInfo`</ph>&gt; element is a subelement of the &lt;<ph id="ph2">`Signature&gt;`</ph> element.</source>
+          <target state="translated"><ph id="ph1">`SignedInfo`</ph>&gt; 要素のサブ要素は、<ph id="ph2">`Signature&gt;`</ph>要素。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Use the SignedInfo property to retrieve the &lt;xref:System.Security.Cryptography.Xml.SignedInfo&gt; object that is used by the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object to create an XML digital signature.</source>
+          <target state="translated">SignedInfo プロパティを使用して取得する、&lt;xref:System.Security.Cryptography.Xml.SignedInfo&gt;オブジェクトによって使用される、 &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;XML デジタル署名を作成するオブジェクト&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;&lt;/xref:System.Security.Cryptography.Xml.SignedInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>For more information about the <ph id="ph1">`&lt;SignedInfo&gt;`</ph> element, see the XMLDSIG specification, which is available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">詳細については、<ph id="ph1">`&lt;SignedInfo&gt;`</ph>要素は www.w3.org/TR/xmldsig-core/ XMLDSIG の仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在のオブジェクト<bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Gets or sets the asymmetric algorithm key used for signing a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得または設定の署名に使用する非対称アルゴリズムのキー、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Use the SigningKey property to specify the asymmetric key you want to use to create an XML digital signature.</source>
+          <target state="translated">SigningKey プロパティを使用すると、XML デジタル署名の作成に使用する非対称キーを指定できます。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The asymmetric algorithm key used for signing the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">署名に使用する非対称アルゴリズムのキー、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the installed key to be used for signing the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得または設定の署名に使用するインストールされているキーの名前、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The name of the installed key to be used for signing the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">署名に使用するインストールされているキーの名前、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the XML mode decryption transformation.</source>
+          <target state="translated">XML モード復号化変換の統一リソース識別子 (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDecryptionTransformUrl field is "http://www.w3.org/2002/07/decrypt#XML".</source>
+          <target state="translated">XmlDecryptionTransformUrl フィールドの値は、"http://www.w3.org/2002/07/decrypt#XML"です。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2002/07/decrypt#XML.</source>
+          <target state="translated">詳細については、http://www.w3.org/2002/07/decrypt#XML に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the base 64 transformation.</source>
+          <target state="translated">Base 64 変換の統一リソース識別子 (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigBase64TransformUrl field is "http://www.w3.org/2000/09/xmldsig#base64".</source>
+          <target state="translated">XmlDsigBase64TransformUrl フィールドの値は、"http://www.w3.org/2000/09/xmldsig#base64"です。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigBase64Transform&gt; class implements the transform described by the XmlDsigBase64TransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigBase64Transform&gt;XmlDsigBase64TransformUrl フィールドで説明されている変換を実装するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlDsigBase64Transform&gt;。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#base64.</source>
+          <target state="translated">詳細については、http://www.w3.org/2000/09/xmldsig#base64 に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the Canonical XML transformation.</source>
+          <target state="translated">Uniform Resource Identifier () の標準的な XML 変換を表します。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigC14NTransformUrl field is "http://www.w3.org/TR/2001/REC-xml-c14n-20010315".</source>
+          <target state="translated">XmlDsigC14NTransformUrl フィールドの値は、"http://www.w3.org/TR/2001/REC-xml-c14n-20010315"です。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt; class implements the transform described by the XmlDsigC14NTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;XmlDsigC14NTransformUrl フィールドで説明されている変換を実装するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/2001/REC-xml-c14n-20010315.</source>
+          <target state="translated">詳細については、http://www.w3.org/TR/2001/REC-xml-c14n-20010315 に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>This field has the same value as the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationUrl&gt; field.</source>
+          <target state="translated">このフィールドと同じ値には、&lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationUrl&gt;フィールド&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationUrl&gt;。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the Canonical XML transformation, with comments.</source>
+          <target state="translated">コメントで、標準的な XML 変換の統一リソース識別子 (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigC14NWithCommentsTransformUrl field is "http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments ".</source>
+          <target state="translated">XmlDsigC14NWithCommentsTransformUrl フィールドの値は、"http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"です。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt; class implements the transform described by the XmlDsigC14NWithCommentsTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt;XmlDsigC14NWithCommentsTransformUrl フィールドで説明されている変換を実装するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments.</source>
+          <target state="translated">詳細については、http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>This field has the same value as the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationWithCommentsUrl&gt; field.</source>
+          <target state="translated">このフィールドと同じ値には、&lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationWithCommentsUrl&gt;フィールド&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationWithCommentsUrl&gt;。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard canonicalization algorithm for XML digital signatures.</source>
+          <target state="translated">XML デジタル署名の標準の正規化アルゴリズムを統一リソース識別子 (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigCanonicalizationUrl field is "http://www.w3.org/TR/2001/REC-xml-c14n-20010315".</source>
+          <target state="translated">XmlDsigCanonicalizationUrl フィールドの値は、"http://www.w3.org/TR/2001/REC-xml-c14n-20010315"です。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt; class implements the transform described by the XmlDsigCanonicalizationUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;XmlDsigCanonicalizationUrl フィールドで説明されている変換を実装するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/2001/REC-xml-c14n-20010315.</source>
+          <target state="translated">詳細については、http://www.w3.org/TR/2001/REC-xml-c14n-20010315 に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>This field has the same value as the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NTransformUrl&gt; field.</source>
+          <target state="translated">このフィールドと同じ値には、&lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NTransformUrl&gt;フィールド&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NTransformUrl&gt;。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard canonicalization algorithm for XML digital signatures and includes comments.</source>
+          <target state="translated">XML デジタル署名の標準の正規化アルゴリズムを統一リソース識別子 (URI) を表し、コメントが含まれています。</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigCanonicalizationWithCommentsUrl field is "http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments".</source>
+          <target state="translated">XmlDsigCanonicalizationWithCommentsUrl フィールドの値は、"http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"です。</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt; class implements the transform described by the XmlDsigCanonicalizationWithCommentsUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt;XmlDsigCanonicalizationWithCommentsUrl フィールドで説明されている変換を実装するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments.</source>
+          <target state="translated">詳細については、http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>This field has the same value as the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NWithCommentsTransformUrl&gt; field.</source>
+          <target state="translated">このフィールドと同じ値には、&lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NWithCommentsTransformUrl&gt;フィールド&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NWithCommentsTransformUrl&gt;。</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> algorithm for XML digital signatures.</source>
+          <target state="translated">標準の統一リソース識別子 (URI) を表す<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> XML デジタル署名するためのアルゴリズムです。</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigDSAUrl field is "http://www.w3.org/2000/09/xmldsig#dsa-sha1".</source>
+          <target state="translated">XmlDsigDSAUrl フィールドの値は、"http://www.w3.org/2000/09/xmldsig#dsa-sha1"です。</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#dsa-sha1.</source>
+          <target state="translated">詳細については、http://www.w3.org/2000/09/xmldsig#dsa-sha1 に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for enveloped signature transformation.</source>
+          <target state="translated">エンベロープ署名変換の統一リソース識別子 (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigEnvelopedSignatureTransformUrl field is "http://www.w3.org/2000/09/xmldsig#enveloped-signature".</source>
+          <target state="translated">XmlDsigEnvelopedSignatureTransformUrl フィールドの値は、"http://www.w3.org/2000/09/xmldsig#enveloped-signature"です。</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt; class implements the transform described by the XmlDsigEnvelopedSignatureTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt;XmlDsigEnvelopedSignatureTransformUrl フィールドで説明されている変換を実装するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#enveloped-signature.</source>
+          <target state="translated">詳細については、http://www.w3.org/2000/09/xmldsig#enveloped-signature に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for exclusive XML canonicalization.</source>
+          <target state="translated">排他的 XML 正規化の統一リソース識別子 (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigExcC14NTransformUrl field is "http://www.w3.org/2001/10/xml-exc-c14n#".</source>
+          <target state="translated">XmlDsigExcC14NTransformUrl フィールドの値は、"http://www.w3.org/2001/10/xml-exc-c14n#"です。</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt; class implements the transform described by the XmlDsigExcC14NTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;XmlDsigExcC14NTransformUrl フィールドで説明されている変換を実装するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2001/10/xml-exc-c14n#.</source>
+          <target state="translated">詳細については、http://www.w3.org/2001/10/xml-exc-c14n# に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for exclusive XML canonicalization, with comments.</source>
+          <target state="translated">コメント付きの排他的 XML 正規化の統一リソース識別子 (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigExcC14NWithCommentsTransformUrl field is "http://www.w3.org/2001/10/xml-exc-c14n#WithComments".</source>
+          <target state="translated">XmlDsigExcC14NWithCommentsTransformUrl フィールドの値は、"http://www.w3.org/2001/10/xml-exc-c14n#WithComments"です。</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt; class implements the transform described by the XmlDsigExcC14NWithCommentsTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt;XmlDsigExcC14NWithCommentsTransformUrl フィールドで説明されている変換を実装するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2001/10/xml-exc-c14n#WithComments.</source>
+          <target state="translated">詳細については、http://www.w3.org/2001/10/xml-exc-c14n#WithComments に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> algorithm for XML digital signatures.</source>
+          <target state="translated">標準の統一リソース識別子 (URI) を表す<bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> XML デジタル署名するためのアルゴリズムです。</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigHMACSHA1Url field is "http://www.w3.org/2000/09/xmldsig#hmac-sha1".</source>
+          <target state="translated">XmlDsigHMACSHA1Url フィールドの値は、"http://www.w3.org/2000/09/xmldsig#hmac-sha1"です。</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#hmac-sha1.</source>
+          <target state="translated">詳細については、http://www.w3.org/2000/09/xmldsig#hmac-sha1 に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard minimal canonicalization algorithm for XML digital signatures.</source>
+          <target state="translated">XML デジタル署名の標準の最小の正規化アルゴリズムを統一リソース識別子 (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigMinimalCanonicalizationUrl field is "http://www.w3.org/2000/09/xmldsig#minimal".</source>
+          <target state="translated">XmlDsigMinimalCanonicalizationUrl フィールドの値は、"http://www.w3.org/2000/09/xmldsig#minimal"です。</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#minimal.</source>
+          <target state="translated">詳細については、http://www.w3.org/2000/09/xmldsig#minimal で World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard namespace for XML digital signatures.</source>
+          <target state="translated">XML デジタル署名の標準の名前空間の Uniform リソース識別子 (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigNamespaceUrl field is "http://www.w3.org/2000/09/xmldsig#".</source>
+          <target state="translated">XmlDsigNamespaceUrl フィールドの値は、"http://www.w3.org/2000/09/xmldsig#"です。</target>       </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#.</source>
+          <target state="translated">詳細については、http://www.w3.org/2000/09/xmldsig# に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature method for XML digital signatures.</source>
+          <target state="translated">標準の統一リソース識別子 (URI) を表す<bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> XML デジタル署名の署名方法です。</target>       </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigRSASHA1Url field is "http://www.w3.org/2000/09/xmldsig#rsa-sha1".</source>
+          <target state="translated">XmlDsigRSASHA1Url フィールドの値は、"http://www.w3.org/2000/09/xmldsig#rsa-sha1"です。</target>       </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#rsa-sha1.</source>
+          <target state="translated">詳細については、http://www.w3.org/2000/09/xmldsig#rsa-sha1 に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the  <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> SHA-256 signature method variation for XML digital signatures.</source>
+          <target state="translated">統一リソース識別子 (URI) を表す、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> XML デジタル署名の SHA&amp;256; 署名メソッド バリエーションです。</target>       </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigRSASHA256Url field is "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256".</source>
+          <target state="translated">XmlDsigRSASHA256Url フィールドの値は、"http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"です。</target>       </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha256<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more)</ept>.</source>
+          <target state="translated">詳細についてにある World Wide Web Consortium (W3C) 仕様を参照して<bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha256<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more)</ept>です。</target>       </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the  <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> SHA-384 signature method variation for XML digital signatures.</source>
+          <target state="translated">統一リソース識別子 (URI) を表す、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> XML デジタル署名のため、sha-384 署名メソッド バリエーションです。</target>       </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigRSASHA384Url field is "http://www.w3.org/2001/04/xmldsig-more#rsa-sha384".</source>
+          <target state="translated">XmlDsigRSASHA384Url フィールドの値は、"http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"です。</target>       </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha384<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#rsa-sha384)</ept>.</source>
+          <target state="translated">詳細についてにある World Wide Web Consortium (W3C) 仕様を参照して<bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha384<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#rsa-sha384)</ept>です。</target>       </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the  <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> SHA-512 signature method variation for XML digital signatures.</source>
+          <target state="translated">統一リソース識別子 (URI) を表す、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> sha-512 署名メソッド バリエーションの&amp;1; つの XML デジタル署名します。</target>       </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigRSASHA512Url field is "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512".</source>
+          <target state="translated">XmlDsigRSASHA512Url フィールドの値は、"http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"です。</target>       </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha512<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#rsa-sha512)</ept>.</source>
+          <target state="translated">詳細についてにある World Wide Web Consortium (W3C) 仕様を参照して<bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha512<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#rsa-sha512)</ept>です。</target>       </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> digest method for XML digital signatures.</source>
+          <target state="translated">標準の統一リソース識別子 (URI) を表す<bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ダイジェスト XML デジタル署名のためのメソッドです。</target>       </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigSHA1Url field is "http://www.w3.org/2000/09/xmldsig#sha1".</source>
+          <target state="translated">XmlDsigSHA1Url フィールドの値は、"http://www.w3.org/2000/09/xmldsig#sha1"です。</target>       </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#sha1.</source>
+          <target state="translated">詳細については、http://www.w3.org/2000/09/xmldsig#sha1 で World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="468" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="469" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA256"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> digest method for XML digital signatures.</source>
+          <target state="translated">標準の統一リソース識別子 (URI) を表す<bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA256"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ダイジェスト XML デジタル署名のためのメソッドです。</target>       </trans-unit>
+        <trans-unit id="470" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="471" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigSHA256Url field is "http://www.w3.org/2001/04/xmlenc#sha256".</source>
+          <target state="translated">XmlDsigSHA256Url フィールドの値は、"http://www.w3.org/2001/04/xmlenc#sha256"です。</target>       </trans-unit>
+        <trans-unit id="472" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="473" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmlenc#sha256<ept id="p1">](http://www.w3.org/2001/04/xmlenc#sha256)</ept>.</source>
+          <target state="translated">詳細についてにある World Wide Web Consortium (W3C) 仕様を参照して<bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmlenc#sha256<ept id="p1">](http://www.w3.org/2001/04/xmlenc#sha256)</ept>です。</target>       </trans-unit>
+        <trans-unit id="474" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="475" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA384"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> digest method for XML digital signatures.</source>
+          <target state="translated">標準の統一リソース識別子 (URI) を表す<bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA384"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ダイジェスト XML デジタル署名のためのメソッドです。</target>       </trans-unit>
+        <trans-unit id="476" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="477" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigSHA384Url field is "http://www.w3.org/2001/04/xmldsig-more#sha384".</source>
+          <target state="translated">XmlDsigSHA384Url フィールドの値は、"http://www.w3.org/2001/04/xmldsig-more#sha384"です。</target>       </trans-unit>
+        <trans-unit id="478" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="479" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#sha384<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#sha384)</ept>.</source>
+          <target state="translated">詳細についてにある World Wide Web Consortium (W3C) 仕様を参照して<bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#sha384<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#sha384)</ept>です。</target>       </trans-unit>
+        <trans-unit id="480" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="481" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> digest method for XML digital signatures.</source>
+          <target state="translated">標準の統一リソース識別子 (URI) を表す<bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ダイジェスト XML デジタル署名のためのメソッドです。</target>       </trans-unit>
+        <trans-unit id="482" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="483" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigSHA512Url field is "http://www.w3.org/2001/04/xmlenc#sha512".</source>
+          <target state="translated">XmlDsigSHA512Url フィールドの値は、"http://www.w3.org/2001/04/xmlenc#sha512"です。</target>       </trans-unit>
+        <trans-unit id="484" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="485" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmlenc#sha512<ept id="p1">](http://www.w3.org/2001/04/xmlenc#sha512)</ept>.</source>
+          <target state="translated">詳細についてにある World Wide Web Consortium (W3C) 仕様を参照して<bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmlenc#sha512<ept id="p1">](http://www.w3.org/2001/04/xmlenc#sha512)</ept>です。</target>       </trans-unit>
+        <trans-unit id="486" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="487" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the XML Path Language (XPath).</source>
+          <target state="translated">XML パス言語 (XPath) の Uniform Resource Identifier (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="488" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="489" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigXPathTransformUrl field is "http://www.w3.org/TR/1999/REC-xpath-19991116".</source>
+          <target state="translated">XmlDsigXPathTransformUrl フィールドの値は、"http://www.w3.org/TR/1999/REC-xpath-19991116"です。</target>       </trans-unit>
+        <trans-unit id="490" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="491" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigXPathTransform&gt; class implements the transform described by the XmlDsigXPathTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigXPathTransform&gt;XmlDsigXPathTransformUrl フィールドで説明されている変換を実装するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlDsigXPathTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="492" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/1999/REC-xpath-19991116.</source>
+          <target state="translated">詳細については、http://www.w3.org/TR/1999/REC-xpath-19991116 に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="493" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="494" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for XSLT transformations.</source>
+          <target state="translated">XSLT 変換の統一リソース識別子 (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="495" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">このフィールドは定数です。</target>       </trans-unit>
+        <trans-unit id="496" translate="yes" xml:space="preserve">
+          <source>The value of the XmlDsigXsltTransformUrl field is "http://www.w3.org/TR/1999/REC-xslt-19991116".</source>
+          <target state="translated">XmlDsigXsltTransformUrl フィールドの値は、"http://www.w3.org/TR/1999/REC-xslt-19991116"です。</target>       </trans-unit>
+        <trans-unit id="497" translate="yes" xml:space="preserve">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">このフィールドを使用して、XMLDSIG 用の要素の URI 属性のいずれかに値を提供します。</target>       </trans-unit>
+        <trans-unit id="498" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigXsltTransform&gt; class implements the transform described by the XmlDsigXsltTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigXsltTransform&gt;XmlDsigXsltTransformUrl フィールドで説明されている変換を実装するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlDsigXsltTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="499" translate="yes" xml:space="preserve">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/1999/REC-xslt-19991116.</source>
+          <target state="translated">詳細については、http://www.w3.org/TR/1999/REC-xslt-19991116 に World Wide Web Consortium (W3C) 仕様を参照してください。</target>       </trans-unit>
+        <trans-unit id="500" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="501" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the license transform algorithm used to normalize XrML licenses for signatures.</source>
+          <target state="translated">署名の XrML ライセンスに正規化するためのライセンス変換アルゴリズムの統一リソース識別子 (URI) を表します。</target>       </trans-unit>
+        <trans-unit id="502" translate="yes" xml:space="preserve">
+          <source>The value of the XmlLicenseTransformUrl field is "urn:mpeg:mpeg21:2003:01-REL-R-NS:licenseTransform"       Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">XmlLicenseTransformUrl フィールドの値は、"urn: mpeg:mpeg21:2003:01-REL-R-NS:licenseTransform"XMLDSIG 用の要素の URI 属性のいずれかに値を提供するこのフィールドを使用します。</target>       </trans-unit>
+        <trans-unit id="503" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlLicenseTransform&gt; class implements the transform described by the XmlLicenseTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlLicenseTransform&gt;XmlLicenseTransformUrl フィールドで説明されている変換を実装するクラス&lt;/xref:System.Security.Cryptography.Xml.XmlLicenseTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="504" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

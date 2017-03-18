@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bf81347af22dba66a1f1948ec5e4057dd57bb5a0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.ISerializable.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c75758df96579b824aeef77810a9c4ab667eb036</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec8abb95db674a321b19560dea4f05cddf27e899</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows an object to control its own serialization and deserialization.</source>
+          <target state="translated">独自のシリアル化と逆シリアル化を制御するオブジェクトを許可します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Any class that might be serialized must be marked with the &lt;xref:System.SerializableAttribute&gt;.</source>
+          <target state="translated">&lt;xref:System.SerializableAttribute&gt;。&lt;/xref:System.SerializableAttribute&gt;でシリアル化する可能性がある。 任意のクラスをマークする必要があります。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If a class needs to control its serialization process, it can implement the ISerializable interface.</source>
+          <target state="translated">クラスをシリアル化プロセスを制御する場合は、ISerializable インターフェイスを実装できます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.Serialization.Formatter&gt; calls the &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt; at serialization time and populates the supplied &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; with all the data required to represent the object.</source>
+          <target state="translated">&lt;xref:System.Runtime.Serialization.Formatter&gt;呼び出し、&lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;シリアル化時に指定された設定と&lt;xref:System.Runtime.Serialization.SerializationInfo&gt;オブジェクトを表すために必要なすべてのデータ&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;&lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;&lt;/xref:System.Runtime.Serialization.Formatter&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.Serialization.Formatter&gt; creates a &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; with the type of the object in the graph.</source>
+          <target state="translated">&lt;xref:System.Runtime.Serialization.Formatter&gt;を作成、&lt;xref:System.Runtime.Serialization.SerializationInfo&gt;グラフ内のオブジェクトの型を使用します&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;&lt;/xref:System.Runtime.Serialization.Formatter&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Objects that need to send proxies for themselves can use the &lt;xref:System.Runtime.Serialization.SerializationInfo.FullTypeName%2A&gt; and &lt;xref:System.Runtime.Serialization.SerializationInfo.AssemblyName%2A&gt; methods on &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; to change the transmitted information.</source>
+          <target state="translated">オブジェクト自体を使用できるは、プロキシを送信する必要がある、&lt;xref:System.Runtime.Serialization.SerializationInfo.FullTypeName%2A&gt;と&lt;xref:System.Runtime.Serialization.SerializationInfo.AssemblyName%2A&gt;メソッド&lt;xref:System.Runtime.Serialization.SerializationInfo&gt;、転送された情報を変更する&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;&lt;/xref:System.Runtime.Serialization.SerializationInfo.AssemblyName%2A&gt;&lt;/xref:System.Runtime.Serialization.SerializationInfo.FullTypeName%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the case of class inheritance, it is possible to serialize a class that derives from a base class that implements ISerializable.</source>
+          <target state="translated">クラスの継承の場合は、ISerializable を実装する基本クラスから派生するクラスをシリアル化することはできます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this case, the derived class should call the base class implementation of &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt; inside its implementation of &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.</source>
+          <target state="translated">この場合、派生クラスが&lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;&lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;。&lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;の実装内&lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;の基本クラス実装を呼び出す必要があります。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Otherwise, the data from the base class will not be serialized.</source>
+          <target state="translated">それ以外の場合、基本クラスからのデータはシリアル化されません。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The ISerializable interface implies a constructor with the signature constructor (&lt;xref:System.Runtime.Serialization.SerializationInfo&gt; information, &lt;xref:System.Runtime.Serialization.StreamingContext&gt; context).</source>
+          <target state="translated">ISerializable インターフェイスにコンス トラクター シグネチャのコンス トラクターを持つ (&lt;xref:System.Runtime.Serialization.SerializationInfo&gt;については、&lt;xref:System.Runtime.Serialization.StreamingContext&gt;コンテキスト).&lt;/xref:System.Runtime.Serialization.StreamingContext&gt; &lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>At deserialization time, the current constructor is called only after the data in the &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; has been deserialized by the formatter.</source>
+          <target state="translated">内のデータの後に逆シリアル化時に、現在のコンス トラクターが呼び出されます、&lt;xref:System.Runtime.Serialization.SerializationInfo&gt;フォーマッタによって逆シリアル化されたが&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In general, this constructor should be protected if the class is not sealed.</source>
+          <target state="translated">一般に、クラスが封印されていない場合は、このコンス トラクターを保護する必要があります。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The order in which objects are deserialized cannot be guaranteed.</source>
+          <target state="translated">オブジェクトが逆シリアル化の順序は保証できません。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, if one type references a type that has not been deserialized yet, an exception will occur.</source>
+          <target state="translated">たとえば、1 つの型がないされてまだ逆シリアル化する型を参照する場合、例外が発生します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you are creating types that have such dependencies, you can work around the problem by implementing the <ph id="ph1">`IDeserializationCallback`</ph> interface and the <ph id="ph2">`OnDeserialization`</ph> method.</source>
+          <target state="translated">実装することによって、問題を回避することができます、このような依存関係のある型を作成する場合、<ph id="ph1">`IDeserializationCallback`</ph>インターフェイスおよび<ph id="ph2">`OnDeserialization`</ph>メソッドです。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The serialization architecture handles object types that extend &lt;xref:System.MarshalByRefObject&gt; the same as types that extend &lt;xref:System.Object&gt;.</source>
+          <target state="translated">シリアル化アーキテクチャ&lt;xref:System.MarshalByRefObject&gt;&lt;xref:System.Object&gt;。&lt;/xref:System.Object&gt;を拡張する型と同じ&lt;/xref:System.MarshalByRefObject&gt;拡張オブジェクトの種類を処理します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>These types can be marked with the &lt;xref:System.SerializableAttribute&gt; and implement the ISerializable interface as any other object type.</source>
+          <target state="translated">これらの型をマークすることができます、&lt;xref:System.SerializableAttribute&gt;およびその他のオブジェクトの種類と ISerializable インターフェイスを実装します&lt;/xref:System.SerializableAttribute&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Their object state will be captured and persisted onto the stream.</source>
+          <target state="translated">そのオブジェクトの状態はキャプチャされ、ストリームに永続化します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When these types are being used through &lt;xref:System.Runtime.Remoting&gt;, the remoting infrastructure provides a surrogate that preempts typical serialization and instead serializes a proxy to the &lt;xref:System.MarshalByRefObject&gt;.</source>
+          <target state="translated">これらの型を&lt;xref:System.Runtime.Remoting&gt;リモート処理インフラストラクチャを提供する一般的なシリアル化のプリエンプションを行い、代わりにシリアル化&lt;xref:System.MarshalByRefObject&gt;。&lt;/xref:System.MarshalByRefObject&gt;プロキシのためのサロゲート&lt;/xref:System.Runtime.Remoting&gt;、使用されている場合</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A surrogate is a helper that knows how to serialize and deserialize objects of a particular type.</source>
+          <target state="translated">サロゲートは、および特定の種類のオブジェクトを逆シリアル化する方法を知っているヘルパーです。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The proxy, invisible to the user in most cases, will be of type &lt;xref:System.Runtime.Remoting.ObjRef&gt;.</source>
+          <target state="translated">&lt;xref:System.Runtime.Remoting.ObjRef&gt;。&lt;/xref:System.Runtime.Remoting.ObjRef&gt;の種類は、プロキシは、ほとんどの場合、ユーザーに非表示になります</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>As a general design pattern, it would be unusual for a class to be both marked with the serializable attribute and extend &lt;xref:System.MarshalByRefObject&gt;.</source>
+          <target state="translated">一般的なデザイン パターンとしてではない通常の両方でシリアル化可能な属性でマークして&lt;xref:System.MarshalByRefObject&gt;。&lt;/xref:System.MarshalByRefObject&gt;を拡張するクラスの</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Developers should think carefully about the possible serialization and remoting scenarios when combining these two characteristics.</source>
+          <target state="translated">開発者は、これら&amp;2; つの特性を結合するときにシリアル化とリモート処理シナリオについて慎重に検討する必要があります。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>One example where this might be applicable is with a &lt;xref:System.IO.MemoryStream&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.MemoryStream&gt;。&lt;/xref:System.IO.MemoryStream&gt;が&amp;1; つの例が、これを適用できます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>While the base class of &lt;xref:System.IO.MemoryStream&gt; (&lt;xref:System.IO.Stream&gt;) extends from &lt;xref:System.MarshalByRefObject&gt;, it is possible to capture the state of a &lt;xref:System.IO.MemoryStream&gt; and restore it at will.</source>
+          <target state="translated">基本クラスを while &lt;xref:System.IO.MemoryStream&gt;(&lt;xref:System.IO.Stream&gt;) から拡張&lt;xref:System.MarshalByRefObject&gt;の状態をキャプチャすることは、&lt;xref:System.IO.MemoryStream&gt;が復元および&lt;/xref:System.IO.MemoryStream&gt;&lt;/xref:System.MarshalByRefObject&gt;&lt;/xref:System.IO.Stream&gt;&lt;/xref:System.IO.MemoryStream&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It might, therefore, be meaningful to serialize the state of this stream into a database and restore it at some later point in time.</source>
+          <target state="translated">そのため、あります意味のあるデータベースにこのストリームの状態をシリアル化の後で復元します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>However, when used through remoting, an object of this type would be proxied.</source>
+          <target state="translated">ただし、使用すると、リモート処理、この型のオブジェクトはプロキシのようになります。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information about serialization of classes that extend &lt;xref:System.MarshalByRefObject&gt;, see &lt;xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt;.</source>
+          <target state="translated">クラスのシリアル化の詳細については&lt;xref:System.MarshalByRefObject&gt;、 &lt;xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt;。&lt;/xref:System.Runtime.Remoting.Messaging.RemotingSurrogateSelector&gt;を参照してください。&lt;/xref:System.MarshalByRefObject&gt;拡張します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For more information about implementing ISerializable, see <bpt id="p1">[</bpt>Custom Serialization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、ISerializable を実装する、次を参照してください。<bpt id="p1">[</bpt>カスタム シリアル化<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Populates a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the data needed to serialize the target object.</source>
+          <target state="translated">追加、 <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ターゲット オブジェクトをシリアル化するために必要なデータを使用します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Any objects that are included in the &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; are automatically tracked and serialized by the formatter.</source>
+          <target state="translated">含まれているすべてのオブジェクト、&lt;xref:System.Runtime.Serialization.SerializationInfo&gt;自動的に追跡され、フォーマッタによってシリアル化します&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Code that calls GetObjectData requires the &lt;xref:System.Security.Permissions.SecurityPermission&gt; for providing serialization services.</source>
+          <target state="translated">GetObjectData を呼び出すコードが必要です、&lt;xref:System.Security.Permissions.SecurityPermission&gt;をシリアル化サービスを提供します&lt;/xref:System.Security.Permissions.SecurityPermission&gt;。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Associated enumeration: &lt;xref:System.Security.Permissions.SecurityPermissionFlag?displayProperty=fullName&gt;.</source>
+          <target state="translated">関連する列挙値: &lt;xref:System.Security.Permissions.SecurityPermissionFlag?displayProperty=fullName&gt;.&lt;/xref:System.Security.Permissions.SecurityPermissionFlag?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is not guaranteed that this method will be called only once per object instance during serialization.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメソッドは呼び出すこと&amp;1; 回だけオブジェクトのインスタンスごとのシリアル化中には保証されません。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Therefore, the method should be implemented in such a way that its behavior will be the same regardless of the number of times it is called.</source>
+          <target state="translated">そのため、その動作がなる呼び出された回数に関係なく同じように、メソッドを実装する必要があります。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to populate with data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>にデータを設定します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The destination (see &lt;xref:System.Runtime.Serialization.StreamingContext&gt;) for this serialization.</source>
+          <target state="translated">宛先 (を参照してください&lt;xref:System.Runtime.Serialization.StreamingContext&gt;) このシリアル化します&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">呼び出し元には、必要なアクセス許可がありません。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

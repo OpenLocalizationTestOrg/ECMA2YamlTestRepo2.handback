@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1cd8bfb9cf67423af9f400645f5a37817279863</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.EventInstance.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ad3f555e2e7985f21677eeb428b69f4e3a54cba</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ae21ae61b4bed74f7fb9cb5d5d2338a7f6a62ee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents language-neutral information for an event log entry.</source>
+          <target state="translated">イベント ログ エントリの言語に依存しない情報を表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use EventInstance to write an event log entry with a resource identifier rather than a string value.</source>
+          <target state="translated">EventInstance を使用して文字列値ではなく、リソース id でイベント ログ エントリを書き込みます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To write an event log entry, initialize the &lt;xref:System.Diagnostics.EventInstance.InstanceId%2A&gt; property and pass the instance to the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method.</source>
+          <target state="translated">イベント ログ エントリを書き込みは、初期化、&lt;xref:System.Diagnostics.EventInstance.InstanceId%2A&gt;プロパティ インスタンスを渡すと、&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;メソッド&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;&lt;/xref:System.Diagnostics.EventInstance.InstanceId%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the instance identifier to find and display the corresponding string from the localized resource file based on current language settings.</source>
+          <target state="translated">イベント ビューアーでは、インスタンス識別子を使用して、検索し、現在の言語設定に基づくローカライズされたリソース ファイルから対応する文字列を表示します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You must register the event source with the corresponding resource file before you write events using resource identifiers.</source>
+          <target state="translated">リソース識別子を使用してイベントを記述する前に、対応するリソース ファイルと、イベント ソースを登録する必要があります。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When writing events, you can set the &lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt; property to specify the icon that the Event Viewer displays for the entry.</source>
+          <target state="translated">イベントを書き込む場合は、設定、&lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt;エントリのイベント ビューアーを表示するアイコンを指定するプロパティ&lt;/xref:System.Diagnostics.EventInstance.EntryType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can also specify a &lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt; property to specify the category that the Event Viewer displays for the entry.</source>
+          <target state="translated">指定することも、&lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;エントリのイベント ビューアーを表示するカテゴリを指定するプロパティ&lt;/xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the category to filter events written by an event source.</source>
+          <target state="translated">イベント ビューアーでは、イベント ソースによって書き込まれたイベントのフィルターを適用するカテゴリを使用します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Event Viewer can display the category as a numeric value, or it can use the category as a resource identifier to display a localized category string.</source>
+          <target state="translated">カテゴリ ローカライズされたカテゴリ文字列を表示するリソースの識別子として使用できるまたはイベント ビューアーは、数値の値として、カテゴリを表示できます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To display localized category strings in the Event Viewer, you must use an event source configured with a category resource file, and set the &lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt; to a resource identifier in the category resource file.</source>
+          <target state="translated">イベント ビューアーでは、ローカライズされたカテゴリ文字列を表示するには、イベント ソース、カテゴリのリソース ファイルで構成され、設定を使用する必要があります、&lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;カテゴリのリソース ファイル内のリソース識別子&lt;/xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the event source does not have a configured category resource file, or the specified &lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt; does not index a string in the category resource file, and then the Event Viewer displays the numeric category value for that entry.</source>
+          <target state="translated">イベント ソースが構成されているカテゴリのリソース ファイル、または指定した&lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;カテゴリ リソース ファイルと、イベント ビューアー内の文字列のインデックスなしは、そのエントリの数値のカテゴリ値を表示します&lt;/xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Configure the category resource file, along with the number of category strings in the resource file, using the &lt;xref:System.Diagnostics.EventLogInstaller&gt; or the &lt;xref:System.Diagnostics.EventSourceCreationData&gt; class.</source>
+          <target state="translated">を使用して、&lt;xref:System.Diagnostics.EventLogInstaller&gt;または&lt;xref:System.Diagnostics.EventSourceCreationData&gt;クラス&lt;/xref:System.Diagnostics.EventSourceCreationData&gt;&lt;/xref:System.Diagnostics.EventLogInstaller&gt;リソース ファイル内のカテゴリ文字列の数と共に、カテゴリのリソース ファイルを構成します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You must register a source for an event log before using EventInstance to write an event with the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method.</source>
+          <target state="translated">イベントを書き込む EventInstance を使用する前に、イベント ログのソースを登録する必要があります、&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;メソッド&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The source must be configured for writing localized entries to the log and the source must define at least a message resource file.</source>
+          <target state="translated">ローカライズされたエントリをログに書き込むためのソースを構成する必要があり、ソースは、少なくともメッセージ リソース ファイルを定義する必要があります。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create the new event source during the installation of your application.</source>
+          <target state="translated">アプリケーションのインストール中に新しいイベント ソースを作成します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This allows time for the operating system to refresh its list of registered event sources and their configurations.</source>
+          <target state="translated">これにより、登録されたイベント ソースの一覧とその構成を更新するオペレーティング システムの時間です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the operating system has not refreshed its list of event sources, and you attempt to write an event with the new source, the write operation will fail.</source>
+          <target state="translated">オペレーティング システムがイベント ソースの一覧を更新していないしようとして、新しいソースとイベントを書き込む、書き込み操作は失敗します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can configure a new source using an &lt;xref:System.Diagnostics.EventLogInstaller&gt;, or using the &lt;xref:System.Diagnostics.EventLog.CreateEventSource%2A&gt; method.</source>
+          <target state="translated">新しいソースを使用して、構成することができます、 &lt;xref:System.Diagnostics.EventLogInstaller&gt;、またはを使用して、&lt;xref:System.Diagnostics.EventLog.CreateEventSource%2A&gt;メソッド&lt;/xref:System.Diagnostics.EventLog.CreateEventSource%2A&gt;&lt;/xref:System.Diagnostics.EventLogInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You must have administrative rights on the computer to create a new event source.</source>
+          <target state="translated">新しいイベント ソースを作成するコンピューターで管理者権限が必要です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For details about defining event messages and building event log resource files, see the "Message Compiler" topic in the Platform SDK documentation at <bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com)</ept>.</source>
+          <target state="translated">イベント メッセージの定義とリソースのイベント ログ ファイルを作成する詳細については、プラットフォーム SDK のドキュメントの「メッセージ コンパイラ」トピックを参照してください<bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com)</ept>です。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified resource identifiers for the localized message and category text of the event entry.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Diagnostics.EventInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラス イベント エントリのローカライズされたメッセージとカテゴリ文字列の指定したリソース識別子を使用します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To write an informational entry to an event log, initialize an &lt;xref:System.Diagnostics.EventInstance&gt; and pass it to the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method.</source>
+          <target state="translated">イベント ログに情報のエントリを書き込む、初期化、&lt;xref:System.Diagnostics.EventInstance&gt;に渡すと、&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;メソッド&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;&lt;/xref:System.Diagnostics.EventInstance&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`instanceId`</ph> to the resource identifier of the event message in the corresponding &lt;xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt; property for the source.</source>
+          <target state="translated">設定、 <ph id="ph1">`instanceId`</ph> 、対応するイベント メッセージのリソース識別子を&lt;xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt;ソースのプロパティ&lt;/xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`categoryId`</ph> to a numeric category value, or the resource identifier of the event category in the &lt;xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt; property for the source; set the <ph id="ph2">`categoryId`</ph> to zero for no event category.</source>
+          <target state="translated">設定、<ph id="ph1">`categoryId`</ph>数値カテゴリの値では、またはイベントのカテゴリのリソース識別子を&lt;xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt;ソースのプロパティですセット、<ph id="ph2">`categoryId`</ph>ありませんイベント カテゴリに属するゼロにします。&lt;/xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt; property for the new instance is set to &lt;xref:System.Diagnostics.EventLogEntryType&gt; by default.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt;の新しいインスタンス プロパティに設定されて&lt;xref:System.Diagnostics.EventLogEntryType&gt;既定&lt;/xref:System.Diagnostics.EventLogEntryType&gt;&lt;/xref:System.Diagnostics.EventInstance.EntryType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the resource identifiers to display the corresponding strings from the localized resource files for the source.</source>
+          <target state="translated">イベント ビューアーでは、リソースの識別子を使用して、ソースのローカライズされたリソース ファイルから対応する文字列を表示します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You must register the source with the corresponding resource files before you can write events using resource identifiers.</source>
+          <target state="translated">リソース識別子を使用してイベントを記述する前に、対応するリソース ファイルのソースを登録する必要があります。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A resource identifier that corresponds to a string defined in the message resource file of the event source.</source>
+          <target state="translated">イベント ソースのメッセージ リソース ファイルで定義された文字列に対応するリソースの識別子です。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A resource identifier that corresponds to a string defined in the category resource file of the event source, or zero to specify no category for the event.</source>
+          <target state="translated">イベント ソース、または&amp;0; を指定して、イベントのカテゴリのカテゴリのリソース ファイルで定義された文字列に対応するリソースの識別子です。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">instanceId</ph><ept id="p1">&lt;/code&gt;</ept> parameter is a negative value or a value larger than <ph id="ph2">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">instanceId</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが負の値または値よりも大きい<ph id="ph2">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">categoryId</ph><ept id="p1">&lt;/code&gt;</ept> parameter is a negative value or a value larger than <ph id="ph2">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">categoryId</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが負の値または値よりも大きい<ph id="ph2">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified resource identifiers for the localized message and category text of the event entry and the specified event log entry type.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Diagnostics.EventInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスのイベントの開始と指定したイベント ログ エントリの種類のローカライズされたメッセージとカテゴリのテキストの指定したリソース識別子を使用します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To write an entry to an event log, initialize an &lt;xref:System.Diagnostics.EventInstance&gt; and pass it to the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method.</source>
+          <target state="translated">イベント ログにエントリを書き込む、初期化、&lt;xref:System.Diagnostics.EventInstance&gt;に渡すと、&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;メソッド&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;&lt;/xref:System.Diagnostics.EventInstance&gt;。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`instanceId`</ph> to the resource identifier of the event message in the corresponding &lt;xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt; property for the source.</source>
+          <target state="translated">設定、 <ph id="ph1">`instanceId`</ph> 、対応するイベント メッセージのリソース識別子を&lt;xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt;ソースのプロパティ&lt;/xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`categoryId`</ph> to a numeric category value, or the resource identifier of the event category in the &lt;xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt; property for the source; set the <ph id="ph2">`categoryId`</ph> to zero for no event category.</source>
+          <target state="translated">設定、<ph id="ph1">`categoryId`</ph>数値カテゴリの値では、またはイベントのカテゴリのリソース識別子を&lt;xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt;ソースのプロパティですセット、<ph id="ph2">`categoryId`</ph>ありませんイベント カテゴリに属するゼロにします。&lt;/xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the resource identifiers to display the corresponding strings from the localized resource files for the source.</source>
+          <target state="translated">イベント ビューアーでは、リソースの識別子を使用して、ソースのローカライズされたリソース ファイルから対応する文字列を表示します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You must register the source with the corresponding resource files before you can write events using resource identifiers.</source>
+          <target state="translated">リソース識別子を使用してイベントを記述する前に、対応するリソース ファイルのソースを登録する必要があります。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`entryType`</ph> to one of the pre-defined entry types.</source>
+          <target state="translated">設定、<ph id="ph1">`entryType`</ph>定義済みのエントリの種類のいずれかにします。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the event type to determine which icon to display in the list view of the event log.</source>
+          <target state="translated">イベント ビューアーでは、イベントの種類を使用して、イベント ログのリスト ビューに表示するアイコンを決定します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A resource identifier that corresponds to a string defined in the message resource file of the event source.</source>
+          <target state="translated">イベント ソースのメッセージ リソース ファイルで定義された文字列に対応するリソースの識別子です。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A resource identifier that corresponds to a string defined in the category resource file of the event source, or zero to specify no category for the event.</source>
+          <target state="translated">イベント ソース、または&amp;0; を指定して、イベントのカテゴリのカテゴリのリソース ファイルで定義された文字列に対応するリソースの識別子です。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that indicates the event type.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベントの種類を示す値。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;entryType&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;entryType&lt;/code&gt;</ph>有効ではありません<bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instanceId&lt;/code&gt;</ph> is a negative value or a value larger than <ph id="ph2">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instanceId&lt;/code&gt;</ph>負の値または値を超える<ph id="ph2">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;categoryId&lt;/code&gt;</ph> is a negative value or a value larger than <ph id="ph2">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated">- または -<ph id="ph1">&lt;code&gt;categoryId&lt;/code&gt;</ph>は負の値または値を超える<ph id="ph2">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets or sets the resource identifier that specifies the application-defined category of the event entry.</source>
+          <target state="translated">取得またはイベント エントリのアプリケーション定義のカテゴリを指定するリソース識別子を設定します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Event log categories are application-defined values that help filter events, or provide further information about the event.</source>
+          <target state="translated">イベント ログのカテゴリは、イベントをフィルター処理、またはさらに、イベントに関する情報を提供するアプリケーション定義の値です。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, your application can define separate categories for different components or different operations.</source>
+          <target state="translated">たとえば、アプリケーションでは、異なるコンポーネントまたは操作ごとに個別のカテゴリを定義できます。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Set the CategoryId property to specify the category that the Event Viewer displays for the entry.</source>
+          <target state="translated">エントリのイベント ビューアーを表示するカテゴリを指定する [categoryid] プロパティを設定します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The Event Viewer can display the category as a numeric value, or it can use the CategoryId as a resource identifier to display a localized category string based on the current language settings.</source>
+          <target state="translated">CategoryId、現在の言語設定に基づくローカライズされたカテゴリ文字列を表示するリソースの識別子として使用できるまたはイベント ビューアーは、数値の値として、カテゴリを表示できます。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To display localized category strings in the Event Viewer, you must use an event source configured with a category resource file, and set the CategoryId to a resource identifier in the category resource file.</source>
+          <target state="translated">イベント ビューアーで、イベントを使用する必要がありますには、ローカライズされたカテゴリ文字列を表示するには、ソースが、カテゴリのリソース ファイルを使用して構成し、カテゴリのリソース ファイルにリソース識別子を CategoryId を設定します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If the event source does not have a configured category resource file, or the specified CategoryId does not index a string in the category resource file, and then the Event Viewer displays the numeric category value for that entry.</source>
+          <target state="translated">イベント ソースがあるない場合は、構成済みのカテゴリのリソース ファイル、または指定した CategoryId インデックスが作成されないカテゴリ リソース ファイル内で文字列し、そのエントリに対して数値カテゴリ値をイベント ビューアーが表示されます。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You must register the source with the corresponding resource file before you write event categories using resource identifiers.</source>
+          <target state="translated">リソース識別子を使用してイベント カテゴリを記述する前に、対応するリソース ファイルとソースを登録する必要があります。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Configure the category resource file, along with the number of category strings in the resource file, using the &lt;xref:System.Diagnostics.EventLogInstaller&gt; or the &lt;xref:System.Diagnostics.EventSourceCreationData&gt; class.</source>
+          <target state="translated">を使用して、&lt;xref:System.Diagnostics.EventLogInstaller&gt;または&lt;xref:System.Diagnostics.EventSourceCreationData&gt;クラス&lt;/xref:System.Diagnostics.EventSourceCreationData&gt;&lt;/xref:System.Diagnostics.EventLogInstaller&gt;リソース ファイル内のカテゴリ文字列の数と共に、カテゴリのリソース ファイルを構成します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When defining category strings in a resource file, the category resource identifiers must be numbered consecutively starting at 1, up to the configured &lt;xref:System.Diagnostics.EventSourceCreationData.CategoryCount%2A&gt; property value.</source>
+          <target state="translated">構成された最大の 1 から始まる連続したリソースのカテゴリの識別子を番号必要がありますをリソース ファイル内のカテゴリの文字列を定義するとき&lt;xref:System.Diagnostics.EventSourceCreationData.CategoryCount%2A&gt;プロパティの値&lt;/xref:System.Diagnostics.EventSourceCreationData.CategoryCount%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Event categories are optional.</source>
+          <target state="translated">イベント カテゴリはオプションです。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If your application does not use categories, do not set the CategoryId for the event log entry.</source>
+          <target state="translated">アプリケーションでのカテゴリを使用しない場合は、イベント ログ エントリの [categoryid] を設定しないでください。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For details about defining event messages and building event resource files, see the "Message Compiler" topic in the Platform SDK documentation at <bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com/)</ept>.</source>
+          <target state="translated">詳細については、イベント メッセージを定義し、イベントのリソース ファイルを構築する、プラットフォーム SDK のドキュメントの「メッセージ コンパイラ」トピックを参照してください<bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com/)</ept>です。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For details about defining event categories in resource files, see the "Event Categories" topic in the Platform SDK</source>
+          <target state="translated">リソース ファイル内のイベント カテゴリを定義する方法については、プラットフォーム SDK の「イベントのカテゴリ」トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A numeric category value or resource identifier that corresponds to a string defined in the category resource file of the event source.</source>
+          <target state="translated">数値カテゴリ値またはリソースに対応する識別子、カテゴリのリソース ファイル、イベント ソースで定義されている文字列。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The default is zero, which signifies that no category will be displayed for the event entry.</source>
+          <target state="translated">既定ではゼロ イベント エントリのカテゴリが表示されません。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The property is set to a negative value or to a value larger than <ph id="ph1">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">プロパティは、負の値または値よりも大きい設定<ph id="ph1">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets the event type of the event log entry.</source>
+          <target state="translated">取得またはイベント ログ エントリのイベントの種類を設定します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Each event is of a single type, which the application indicates when it reports the event.</source>
+          <target state="translated">各イベントは、アプリケーションでは、イベントをレポートするときを示す&amp;1; つの種類です。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the event type to determine which icon to display in the list view of the event log.</source>
+          <target state="translated">イベント ビューアーでは、イベントの種類を使用して、イベント ログのリスト ビューに表示するアイコンを決定します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that indicates the event entry type.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント エントリの種類を示す値。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The property is not set to a valid <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">プロパティが有効に設定されていない<bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets the resource identifier that designates the message text of the event entry.</source>
+          <target state="translated">取得またはイベント エントリのメッセージ テキストを指定するリソース識別子を設定します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The InstanceId property uniquely identifies an event entry for a configured event source.</source>
+          <target state="translated">InstanceId プロパティは、構成されているイベント ソースのイベントのエントリを一意に識別します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For events defined in message resource files, the InstanceId corresponds to the resource identifier compiled from the message definition fields in the message text file.</source>
+          <target state="translated">イベントのメッセージ リソース ファイルで定義されている場合はインスタンス Id は、メッセージの定義のフィールドをメッセージのテキスト ファイルにコンパイルされたリソースの識別子に対応します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Your application can write localized event log entries by setting the InstanceId to a resource identifier.</source>
+          <target state="translated">アプリケーションは、リソースの識別子にはインスタンス Id を設定してローカライズされたイベント ログ エントリを書き込むことができます。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the InstanceId resource identifier to find and display the corresponding string from the localized resource file based on current language settings.</source>
+          <target state="translated">イベント ビューアーでは、InstanceId リソース識別子を使用して、検索し、現在の言語設定に基づくローカライズされたリソース ファイルから対応する文字列を表示します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You must register the source with the corresponding resource file before you write events using resource identifiers.</source>
+          <target state="translated">リソース識別子を使用してイベントを記述する前に、対応するリソース ファイルとソースを登録する必要があります。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For details about defining event messages and building event log resource files, see the "Message Compiler" topic in the Platform SDK documentation at <bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com/)</ept>.</source>
+          <target state="translated">イベント メッセージの定義とリソースのイベント ログ ファイルを作成する詳細については、プラットフォーム SDK のドキュメントの「メッセージ コンパイラ」トピックを参照してください<bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com/)</ept>です。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For details about event log identifiers, see the "Event Identifiers" topic in the Platform SDK.</source>
+          <target state="translated">詳細については、イベント ログの識別子は、プラットフォーム SDK の「イベント Identifiers」トピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A resource identifier that corresponds to a string defined in the message resource file of the event source.</source>
+          <target state="translated">イベント ソースのメッセージ リソース ファイルで定義された文字列に対応するリソースの識別子です。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The property is set to a negative value or to a value larger than <ph id="ph1">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">プロパティは、負の値または値よりも大きい設定<ph id="ph1">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

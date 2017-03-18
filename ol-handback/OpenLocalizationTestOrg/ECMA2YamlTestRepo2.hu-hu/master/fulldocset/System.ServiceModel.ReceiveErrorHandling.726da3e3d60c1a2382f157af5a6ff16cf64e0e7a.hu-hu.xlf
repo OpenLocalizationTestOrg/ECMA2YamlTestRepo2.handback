@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b7cc34f4ba3dd5f204326a45aef2983b3020b0b4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.ReceiveErrorHandling.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">412cec509fb36fe5410f1ddd315ec5a8fcf9b802</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb7506a78c7567753ba03c99378618e11fb8f6ce</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An enumeration that specifies handling for a poison message.</source>
+          <target state="translated">Az elhalt üzenetek kezelésének megadó felsorolásoknak.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A poison message is a message that fails repeated attempts to deliver to the application.</source>
+          <target state="translated">Az elhalt üzenet egy üzenetet, amely az alkalmazás kézbesíthet ismételt kísérletek sikertelen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is applicable only when using a Message Queuing (MSMQ)-based binding.</source>
+          <target state="translated">Ez a tulajdonság csak akkor, ha egy Message Queuing MSMQ-alapú kötés vonatkozik.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is <ph id="ph1">`Fault`</ph>, which faults the listener and therefore the ServiceHost.</source>
+          <target state="translated">Az alapértelmezett érték <ph id="ph1">`Fault`</ph>, amelyek a figyelő, és ezért a ServiceHost hibákat.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case where the service was to fault because of a poison message, a &lt;xref:System.ServiceModel.MsmqPoisonMessageException&gt; is thrown.</source>
+          <target state="translated">Abban az esetben, ha a szolgáltatás nem a tartalék poison üzenetet, mert egy &lt;xref:System.ServiceModel.MsmqPoisonMessageException&gt;vált ki.&lt;/xref:System.ServiceModel.MsmqPoisonMessageException&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception contains the <ph id="ph1">`LookupId`</ph> of the MSMQ message that can be used to move the message out of the way using System.Messaging API.</source>
+          <target state="translated">A kivétel tartalmazza a <ph id="ph1">`LookupId`</ph> az MSMQ üzenet helyezni a bevezetés System.Messaging API-val használható.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Certain values of the ReceiveErrorHandling enumeration such as <ph id="ph1">`Reject`</ph> and <ph id="ph2">`Move`</ph> are only available on <ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>.</source>
+          <target state="translated">Bizonyos többek között a ReceiveErrorHandling számbavétel értékeinek <ph id="ph1">`Reject`</ph> és <ph id="ph2">`Move`</ph> csak érhetők el a <ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You control poison message handling by setting the &lt;xref:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveErrorHandling%2A&gt; property to one of the values of this enumeration.</source>
+          <target state="translated">Elhalt üzenetek kezelésére beállításával szabályozhatja a &lt;xref:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveErrorHandling%2A&gt;tulajdonságot valamelyik Ez az enumerálás értékeit.&lt;/xref:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveErrorHandling%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This option drops the poison message.</source>
+          <target state="translated">Ez a beállítás az elhalt üzenet esik.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The message never gets delivered to the application.</source>
+          <target state="translated">Az üzenet soha nem lekérdezi kézbesítve lesz az alkalmazásnak.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the message's TTL had already expired at this point, then the message may appear in the sender's Dead Letter Queue.</source>
+          <target state="translated">Ha az üzenet TTL rendelkezett már lejárt ezen a ponton, majd az üzenet jelenhet meg a küldő kézbesítetlen levelek várólistájára.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If not, the message does not appear anywhere.</source>
+          <target state="translated">Ha nem, akkor az üzenet nem jelenik meg a tetszőleges helyre.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This option indicates that the user does not really care if the message is lost.</source>
+          <target state="translated">Ez a beállítás azt jelzi, hogy a felhasználó nem igazán fontos, ha az üzenet elveszik.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applicable platforms: <ph id="ph1">[!INCLUDE[wxp](~/add/includes/wxp-md.md)]</ph>, <ph id="ph2">[!INCLUDE[ws2003](~/add/includes/ws2003-md.md)]</ph>, and <ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>.</source>
+          <target state="translated">Megfelelő platformokat: <ph id="ph1">[!INCLUDE[wxp](~/add/includes/wxp-md.md)]</ph>, <ph id="ph2">[!INCLUDE[ws2003](~/add/includes/ws2003-md.md)]</ph>, és <ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This option sends a fault to the listener that caused the ServiceHost to fault.</source>
+          <target state="translated">Ez a beállítás küld a figyelő a ServiceHost a hibát okozó hibát.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The message must be removed from the application queue by some external mechanism before the application can continue to process messages from the queue.</source>
+          <target state="translated">Az üzenet kell lennie a várólistáról eltávolított alkalmazás egy külső mechanizmus által az alkalmazás a várólistában lévő üzenetek feldolgozásához folytatása előtt.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applicable platforms: Windows XP, Windows Server 2003, and Windows Vista.</source>
+          <target state="translated">Megfelelő platformokat: Windows XP, Windows Server 2003 és Windows Vista.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This moves the poison message to a Poison Message Queue for later processing by a poison message handling application.</source>
+          <target state="translated">Ez áthelyezi az elhalt üzenet az elhalt üzenet-várólista alkalmazás kezelése az elhalt üzenet későbbi feldolgozásra.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applicable platforms: <ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph> only.</source>
+          <target state="translated">Megfelelő platformokat: <ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph> csak.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This instructs MSMQ to send a negative acknowledgement back to the sending queue manager that the message cannot be received by the application.</source>
+          <target state="translated">Ez arra utasítja az MSMQ, amelyeket visszaküld egy negatív nyugtázása a küldési várólista-kezelő, hogy az üzenet nem fogadható az alkalmazás.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The message is placed in the sending queue manager's Dead Letter Queue.</source>
+          <target state="translated">Az üzenet a küldési várólista-kezelő halott levél várósor kerül.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applicable platforms: <ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph> only.</source>
+          <target state="translated">Megfelelő platformokat: <ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph> csak.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

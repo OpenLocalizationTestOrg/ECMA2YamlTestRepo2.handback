@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ffd5d9402fee3927368c0fe79201787c1d68c352</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.HMACSHA256.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">485b0b08ea5a33b85a3dbdad94e0d69e04418276</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b74d577449f9c12b826d5d1b76b2560da609b44f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Computes a Hash-based Message Authentication Code (HMAC) by using the <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA256"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> hash function.</source>
+          <target state="translated">使用してハッシュ ベース メッセージ認証コード (HMAC) を計算、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA256"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ハッシュ関数です。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>HMACSHA256 is a type of keyed hash algorithm that is constructed from the SHA-256 hash function and used as a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">HMACSHA256 が sha-256 ハッシュ関数から構築され、としてするハッシュ ベース メッセージ認証コード (HMAC) を使用するキー付きハッシュ アルゴリズムの一種です。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">HMAC プロセスとメッセージ データの共有キーの合成、結果のハッシュ関数に、秘密キーを使用してそのハッシュ値をもう一度、ミックスし、ハッシュ関数をもう一度します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The output hash is 256 bits in length.</source>
+          <target state="translated">出力ハッシュは、256 ビットの長さです。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>An HMAC can be used to determine whether a message sent over an insecure channel has been tampered with, provided that the sender and receiver share a secret key.</source>
+          <target state="translated">HMAC を使用して、送信者と受信者に、共有シークレット キーを共有すると、安全でないチャネル経由で送信されたメッセージが改ざんされているかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The sender computes the hash value for the original data and sends both the original data and hash value as a single message.</source>
+          <target state="translated">送信者は、元のデータのハッシュ値を計算し、単一のメッセージとして、元のデータとハッシュ値を送信します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The receiver recalculates the hash value on the received message and checks that the computed HMAC matches the transmitted HMAC.</source>
+          <target state="translated">受信者は、受信メッセージのハッシュ値を再計算され、計算の HMAC に送信された HMAC が一致することを確認します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Any change to the data or the hash value results in a mismatch, because knowledge of the secret key is required to change the message and reproduce the correct hash value.</source>
+          <target state="translated">データや、ハッシュ値を変更をメッセージを変更し、正しいハッシュ値を再現する秘密キーの知識が必要なため、不一致が発生します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Therefore, if the original and computed hash values match, the message is authenticated.</source>
+          <target state="translated">そのため、元と計算されたハッシュ値が一致した場合、メッセージが認証されます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>HMACSHA256 accepts keys of any size, and produces a hash sequence 256 bits in length.</source>
+          <target state="translated">HMACSHA256 は任意のサイズ、キーを確定し、256 ビット長に一連のハッシュを生成します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA256"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a randomly generated key.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA256"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ランダムに生成されたキーを持つクラス。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.HMACSHA256&gt; is a type of keyed hash algorithm that is constructed from the SHA-256 hash function and used as a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.HMACSHA256&gt;sha-256 ハッシュ関数から作成され、としてするハッシュ ベース メッセージ認証コード (HMAC) を使用するキー付きハッシュ アルゴリズムの型です。&lt;/xref:System.Security.Cryptography.HMACSHA256&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">HMAC プロセスとメッセージ データの共有キーの合成、結果のハッシュ関数に、秘密キーを使用してそのハッシュ値をもう一度、ミックスし、ハッシュ関数をもう一度します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The output hash is 256 bits in length.</source>
+          <target state="translated">出力ハッシュは、256 ビットの長さです。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This constructor uses a 64-byte, randomly generated key.</source>
+          <target state="translated">このコンス トラクターは、64 バイト、ランダムに生成されたキーを使用します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA256"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified key data.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA256"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスに指定したキー データ。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.HMACSHA256&gt; is a type of keyed hash algorithm that is constructed from the SHA-256 hash function and used as a Hash-based Message Authentication Code.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.HMACSHA256&gt;sha-256 ハッシュ関数から構築およびハッシュ ベース メッセージ認証コードとして使用されるキー付きハッシュ アルゴリズムの型です。&lt;/xref:System.Security.Cryptography.HMACSHA256&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The HMAC process mixes a secret key with the message data, hashes the result with the hash function, mixes that hash value with the secret key again, and then applies the hash function a second time.</source>
+          <target state="translated">HMAC プロセスとメッセージ データの共有キーの合成、結果のハッシュ関数に、秘密キーを使用してそのハッシュ値をもう一度、ミックスし、ハッシュ関数をもう一度します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The output hash is 256 bits in length.</source>
+          <target state="translated">出力ハッシュは、256 ビットの長さです。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The secret key for <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA256"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> encryption.</source>
+          <target state="translated">用のシークレット キー <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA256"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>暗号化します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The key can be any length.</source>
+          <target state="translated">キーは、任意の長さを指定できます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>However, the recommended size is 64 bytes.</source>
+          <target state="translated">ただし、推奨されるサイズは、64 バイトです。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If the key is more than 64 bytes long, it is hashed (using SHA-256) to derive a 64-byte key.</source>
+          <target state="translated">(Sha-256 を使用した) ハッシュされてキーが 64 バイトより長い場合は、64 バイトのキーを派生させる。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If it is less than 64 bytes long, it is padded to 64 bytes.</source>
+          <target state="translated">長さは 64 バイト未満である場合は 64 バイトに埋められます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
