@@ -1,3011 +1,2096 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 200
+ Total Files | 139
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [fulldocset\System.ComponentModel.DefaultBindingPropertyAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.DefaultBindingPropertyAttribute.yml) | InSyncHandedBackSuccess | [Details](#1735efe52367cf5ebaebac0f753571b88a20c5fb75777)
- [fulldocset\System.ComponentModel.Design.ByteViewer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.ByteViewer.yml) | InSyncHandedBackSuccess | [Details](#4138816f5f1d7be309d5ab88b4319ac1d189adcf75788)
- [fulldocset\System.ComponentModel.Design.CollectionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.CollectionEditor.yml) | InSyncHandedBackSuccess | [Details](#025c836e82812ca99e2537a7c5c71d9d3cf1d05f75791)
- [fulldocset\System.ComponentModel.Design.ComponentRenameEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.ComponentRenameEventHandler.yml) | InSyncHandedBackSuccess | [Details](#a21757f38f33dbc3a4b7281542ba76dc0927c6c475803)
- [fulldocset\System.ComponentModel.Design.DesignerTransactionCloseEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.DesignerTransactionCloseEventArgs.yml) | InSyncHandedBackSuccess | [Details](#503e3fbbe9721d3603b3f6299543a8ec25e4ecd875846)
- [fulldocset\System.ComponentModel.Design.DesignSurfaceEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.DesignSurfaceEventArgs.yml) | InSyncHandedBackSuccess | [Details](#409d491cebaa68b7e4fbb4b7a14c931aa4ad149e75852)
- [fulldocset\System.ComponentModel.Design.DesignSurfaceManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.DesignSurfaceManager.yml) | InSyncHandedBackSuccess | [Details](#dbe3038dbd6853d5b2ffd171a900755dfb7aaa0575854)
- [fulldocset\System.ComponentModel.Design.DisplayMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.DisplayMode.yml) | InSyncHandedBackSuccess | [Details](#95abec0f7ae86101efa4e34bfcf5dfcea76d95fc75857)
- [fulldocset\System.ComponentModel.Design.Serialization.IDesignerLoaderHost2.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.IDesignerLoaderHost2.yml) | InSyncHandedBackSuccess | [Details](#ecb29fdd17e279a81174102221b8f9bc0721274875926)
- [fulldocset\System.ComponentModel.Design.Serialization.RootContext.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.RootContext.yml) | InSyncHandedBackSuccess | [Details](#c94d7e68337823c3d10b457e08fe4f82d8b8a82c75939)
- [fulldocset\System.ComponentModel.ICollectionViewFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.ICollectionViewFactory.yml) | InSyncHandedBackSuccess | [Details](#6b7ca954c29142256bed786fd670e377911bfb8e75980)
- [fulldocset\System.ComponentModel.ISupportInitialize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.ISupportInitialize.yml) | InSyncHandedBackSuccess | [Details](#de47a7105d2d2698e004a174ce78fee4c2dc942076008)
- [fulldocset\System.ComponentModel.ListSortDirection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.ListSortDirection.yml) | InSyncHandedBackSuccess | [Details](#ba61a7015428a4a7985caaa49f2c5086d001a86076028)
- [fulldocset\System.ComponentModel.RefreshEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.RefreshEventArgs.yml) | InSyncHandedBackSuccess | [Details](#db1479ea5df8a2618a8803e1e74cfb3d413bac3776054)
- [fulldocset\System.ComponentModel.TimeSpanConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.TimeSpanConverter.yml) | InSyncHandedBackSuccess | [Details](#cf7986c8595b38251ed82df5517ef0ea9f00970176066)
- [fulldocset\System.ComponentModel.UInt16Converter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.UInt16Converter.yml) | InSyncHandedBackSuccess | [Details](#ed68e443378fb12f339584c0cebed5cab48f1ed876078)
- [fulldocset\System.Configuration.Assemblies.AssemblyVersionCompatibility.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.Assemblies.AssemblyVersionCompatibility.yml) | InSyncHandedBackSuccess | [Details](#23e8790a725e2aa568ac7b52d65277d21f5432f676091)
- [fulldocset\System.Configuration.CommaDelimitedStringCollectionConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.CommaDelimitedStringCollectionConverter.yml) | InSyncHandedBackSuccess | [Details](#49f5a9ff64806d9181e44f41e0889d30b96dc58d76097)
- [fulldocset\System.Configuration.ConfigurationValidatorAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.ConfigurationValidatorAttribute.yml) | InSyncHandedBackSuccess | [Details](#2f05d22fd1170f365297d9040393847592c595d076127)
- [fulldocset\System.Configuration.ConfigurationValidatorBase.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.ConfigurationValidatorBase.yml) | InSyncHandedBackSuccess | [Details](#c1caddefc051441c21baafc8a68f0c2397e6f96a76128)
- [fulldocset\System.Configuration.ConfigXmlDocument.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.ConfigXmlDocument.yml) | InSyncHandedBackSuccess | [Details](#f2c2271f42af936bbc866f0835da5b8852063abd76129)
- [fulldocset\System.Configuration.ExeContext.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.ExeContext.yml) | InSyncHandedBackSuccess | [Details](#7ec2150bae1fa2c883c1d196696106fcfdb6260276141)
- [fulldocset\System.Configuration.ProtectedConfigurationSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.ProtectedConfigurationSection.yml) | InSyncHandedBackSuccess | [Details](#124804b0270ba49fff4a5abf88d5043e108dd64576204)
- [fulldocset\System.Configuration.SettingsPropertyCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.SettingsPropertyCollection.yml) | InSyncHandedBackSuccess | [Details](#903082b1bd88fb30bb0bdffe7dde857a7f5a671876234)
- [fulldocset\System.Configuration.SubclassTypeValidatorAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.SubclassTypeValidatorAttribute.yml) | InSyncHandedBackSuccess | [Details](#dc82cf81504663c1f43902362aea97fb5b0883ee76253)
- [fulldocset\System.DirectoryServices.AccountManagement.AdvancedFilters.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.AccountManagement.AdvancedFilters.yml) | InSyncHandedBackSuccess | [Details](#be7e3fcab6ec4b7589edea85901fca12e09fc0f977289)
- [fulldocset\System.DirectoryServices.AccountManagement.MatchType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.AccountManagement.MatchType.yml) | InSyncHandedBackSuccess | [Details](#9ad2618c4ffc23d19c135c92153c978ae87ddb1e77300)
- [fulldocset\System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProperty.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProperty.yml) | InSyncHandedBackSuccess | [Details](#bb321fc2f909c9883c85bfeefc9be9e9ab20d62e77328)
- [fulldocset\System.DirectoryServices.ActiveDirectory.ForestTrustCollisionType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.ForestTrustCollisionType.yml) | InSyncHandedBackSuccess | [Details](#0309b674259c798023150dc7466999adf1150fcb77363)
- [fulldocset\System.DirectoryServices.ActiveDirectory.HourOfDay.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.HourOfDay.yml) | InSyncHandedBackSuccess | [Details](#66e2c6b10af06c0d278fb5fc426cbfeb2950c8cd77372)
- [fulldocset\System.DirectoryServices.PropertySetAccessRule.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.PropertySetAccessRule.yml) | InSyncHandedBackSuccess | [Details](#874143722f867b2dda4139af5d8f98919136f0dc77447)
- [fulldocset\System.DirectoryServices.Protocols.CompareResponse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.Protocols.CompareResponse.yml) | InSyncHandedBackSuccess | [Details](#4a79b312f3c846096183ef26ae7970a68fc0432c77457)
- [fulldocset\System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.yml) | InSyncHandedBackSuccess | [Details](#2c950c0cee830ffc3ede698b0bb07f971a30249a77466)
- [fulldocset\System.DirectoryServices.Protocols.PartialResultsCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.Protocols.PartialResultsCollection.yml) | InSyncHandedBackSuccess | [Details](#0bd60c30b147f95f873ae423db34f84c0738fd8677515)
- [fulldocset\System.Drawing.Drawing2D.PathPointType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Drawing2D.PathPointType.yml) | InSyncHandedBackSuccess | [Details](#98fc0e71519d4aa692adbc08b7c6c3be1726a29e77633)
- [fulldocset\System.Drawing.Pen.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Pen.yml) | InSyncHandedBackSuccess | [Details](#147105973a3aa2162f29a71cc1e3713a0826ef0677696)
- [fulldocset\System.Drawing.Pens.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Pens.yml) | InSyncHandedBackSuccess | [Details](#3d2fb6493f171e44d55d623b9034e5d76758582577697)
- [fulldocset\System.Drawing.Printing.Margins.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Printing.Margins.yml) | InSyncHandedBackSuccess | [Details](#d9b018920b5b7a9d6142cac99efa8961f7357a9c77703)
- [fulldocset\System.Drawing.Printing.PrintEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Printing.PrintEventHandler.yml) | InSyncHandedBackSuccess | [Details](#76b44f5b7a4efecb74eebe94dcdcf6869f8d481b77725)
- [fulldocset\System.EnterpriseServices.RegistrationConfig.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.RegistrationConfig.yml) | InSyncHandedBackSuccess | [Details](#d98468902793d9c6847c596b8917bf1c45fb938377846)
- [fulldocset\System.EnterpriseServices.SxsOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.SxsOption.yml) | InSyncHandedBackSuccess | [Details](#18bff12595779510f4284396ba23c43a006677a577865)
- [fulldocset\System.EnterpriseServices.SynchronizationAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.SynchronizationAttribute.yml) | InSyncHandedBackSuccess | [Details](#38dbdc054c79a75bd9362bdfc5b83cd8b3e0e86377866)
- [fulldocset\System.EnterpriseServices.SynchronizationOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.SynchronizationOption.yml) | InSyncHandedBackSuccess | [Details](#eb551e3864572cba878f59d706fb4ec1a6f1bdff77867)
- [fulldocset\System.Globalization.CalendarAlgorithmType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Globalization.CalendarAlgorithmType.yml) | InSyncHandedBackSuccess | [Details](#bd7d573f4340e5de834e5e1b133df179ebf61fee77886)
- [fulldocset\System.Globalization.TaiwanLunisolarCalendar.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Globalization.TaiwanLunisolarCalendar.yml) | InSyncHandedBackSuccess | [Details](#a6b36cae41597a8c65a826e6b757eb8a9860f83f77908)
- [fulldocset\System.IdentityModel.Claims.X509CertificateClaimSet.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Claims.X509CertificateClaimSet.yml) | InSyncHandedBackSuccess | [Details](#aa16985000d6bd6e05a5c99d07b2c7f3bfda72d277925)
- [fulldocset\System.IdentityModel.DelegatingXmlDictionaryReader.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.DelegatingXmlDictionaryReader.yml) | InSyncHandedBackSuccess | [Details](#a8afe68529ea4d278545b62872ff4b8a6aefdca977948)
- [fulldocset\System.IdentityModel.Metadata.MetadataSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Metadata.MetadataSerializer.yml) | InSyncHandedBackSuccess | [Details](#cbdf94e3845a251870f2d90f2d2fc19226bde01b77972)
- [fulldocset\System.IdentityModel.Metadata.SecurityTokenServiceDescriptor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Metadata.SecurityTokenServiceDescriptor.yml) | InSyncHandedBackSuccess | [Details](#22fdb46db392d18617bac145b02d0bfc5581f4d377976)
- [fulldocset\System.IdentityModel.Protocols.WSTrust.RequestClaim.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Protocols.WSTrust.RequestClaim.yml) | InSyncHandedBackSuccess | [Details](#ac62d420cec14721e4ac19377e1f7c2cf3f54e6f77999)
- [fulldocset\System.IdentityModel.Selectors.StsCommunicationException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Selectors.StsCommunicationException.yml) | InSyncHandedBackSuccess | [Details](#8daefdfb260568b60a01c020330858051a308c3a78048)
- [fulldocset\System.IdentityModel.Tokens.EncryptedKeyEncryptingCredentials.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.EncryptedKeyEncryptingCredentials.yml) | InSyncHandedBackSuccess | [Details](#639c128ab68e99bda472adb45c0bd1056a95f7cb78126)
- [fulldocset\System.IdentityModel.Tokens.SamlAction.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SamlAction.yml) | InSyncHandedBackSuccess | [Details](#45229b0b2605863d22e07bc5be19b2bb5c9fb56778171)
- [fulldocset\System.IdentityModel.Tokens.SamlAssertion.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SamlAssertion.yml) | InSyncHandedBackSuccess | [Details](#a7d3760c9e9d1ccd615c97a3a35690d06bc4946978173)
- [fulldocset\System.IdentityModel.Tokens.SamlDoNotCacheCondition.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SamlDoNotCacheCondition.yml) | InSyncHandedBackSuccess | [Details](#93e1f3b7c542d5a537cb5062d78c840225288c0678186)
- [fulldocset\System.IdentityModel.Tokens.X509DataSecurityKeyIdentifierClauseSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.X509DataSecurityKeyIdentifierClauseSerializer.yml) | InSyncHandedBackSuccess | [Details](#fa402182283f9db649328918665fbacbe12777d978233)
- [fulldocset\System.IdentityModel.UnsupportedTokenTypeBadRequestException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.UnsupportedTokenTypeBadRequestException.yml) | InSyncHandedBackSuccess | [Details](#a73de7a2fd1cc5fe431a957f08ae44653a258dc278246)
- [fulldocset\System.IO.Compression.ZipArchive.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Compression.ZipArchive.yml) | InSyncHandedBackSuccess | [Details](#cdeddd47bde537fa5e0ce2086209596b979bfe0f78251)
- [fulldocset\System.IO.DirectoryInfo.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.DirectoryInfo.yml) | InSyncHandedBackSuccess | [Details](#20fc23fbe693bc81686fcf559f10df4852faa06378257)
- [fulldocset\System.IO.FileOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.FileOptions.yml) | InSyncHandedBackSuccess | [Details](#4c138142fd0f24515834974a36b17a93f3a2696178269)
- [fulldocset\System.IO.IODescriptionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.IODescriptionAttribute.yml) | InSyncHandedBackSuccess | [Details](#7c3cdaaab6eb3ba614af7f1adfcd84da261eb83478277)
- [fulldocset\System.IO.Log.LogArchiveSnapshot.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.LogArchiveSnapshot.yml) | InSyncHandedBackSuccess | [Details](#201f241098840f8c0b20dfe8cf9c001da7a3875578290)
- [fulldocset\System.IO.Log.LogStore.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.LogStore.yml) | InSyncHandedBackSuccess | [Details](#208208ba837b1634f468f0e432c1e0fb3523881c78298)
- [fulldocset\System.IO.Log.PolicyUnitType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.PolicyUnitType.yml) | InSyncHandedBackSuccess | [Details](#4ca6f323f24399877f9398c4d27ecdb96555faf578300)
- [fulldocset\System.IO.Log.ReservationNotFoundException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.ReservationNotFoundException.yml) | InSyncHandedBackSuccess | [Details](#37e0a22e2adaf60c0db150e771fdf5cf6b7545d178303)
- [fulldocset\System.IO.MemoryMappedFiles.MemoryMappedFileSecurity.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.MemoryMappedFiles.MemoryMappedFileSecurity.yml) | InSyncHandedBackSuccess | [Details](#e47bf3bc93a3edae9fcb2bb5e4e87459a5ea153278312)
- [fulldocset\System.IO.Packaging.PackagePart.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Packaging.PackagePart.yml) | InSyncHandedBackSuccess | [Details](#a255b6a615851da48c37174d7f6d83f3e7599af878325)
- [fulldocset\System.IO.Packaging.PackageProperties.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Packaging.PackageProperties.yml) | InSyncHandedBackSuccess | [Details](#14d273b16b847b5fc336facc811604edbedbe97478327)
- [fulldocset\System.IO.Pipes.PipeAuditRule.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Pipes.PipeAuditRule.yml) | InSyncHandedBackSuccess | [Details](#3179ac126f2386f105fab52baabf9eeb5b2e541678353)
- [fulldocset\System.IO.Ports.SerialErrorReceivedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Ports.SerialErrorReceivedEventArgs.yml) | InSyncHandedBackSuccess | [Details](#ef98bffd6347faf3ece02c016482ba01d5b87e2778367)
- [fulldocset\System.Management.Instrumentation.ManagementCreateAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.Instrumentation.ManagementCreateAttribute.yml) | InSyncHandedBackSuccess | [Details](#4bd24fe624f5480a47f81db292697e2898e13a6678422)
- [fulldocset\System.Management.Instrumentation.ManagementHostingModel.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.Instrumentation.ManagementHostingModel.yml) | InSyncHandedBackSuccess | [Details](#cc232370286210b6b4c515b0d8dc4f211c26f6ca78425)
- [fulldocset\System.Management.SelectQuery.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.SelectQuery.yml) | InSyncHandedBackSuccess | [Details](#1f832e214ecdde75e53bb2636500289c58a5e33a78479)
- [fulldocset\System.Net.DownloadDataCompletedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.DownloadDataCompletedEventHandler.yml) | InSyncHandedBackSuccess | [Details](#0db7114d2e8b1e4718c9fc735a61b7c1ab9dbbe978599)
- [fulldocset\System.Net.GlobalProxySelection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.GlobalProxySelection.yml) | InSyncHandedBackSuccess | [Details](#f346cf7702cf267229fcaee2d1bf03f0023d4b8e78606)
- [fulldocset\System.Net.Mime.MediaTypeNames.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.Mime.MediaTypeNames.yml) | InSyncHandedBackSuccess | [Details](#6689f049f67d4fa009d6680d275cb1cce58c44fd78703)
- [fulldocset\System.Security.Cryptography.X509Certificates.StoreLocation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Cryptography.X509Certificates.StoreLocation.yml) | InSyncHandedBackSuccess | [Details](#7898e8250dbe17ed17de31ad7c0ae4bd9a2ff4b979802)
- [fulldocset\System.Security.Cryptography.Xml.IRelDecryptor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Cryptography.Xml.IRelDecryptor.yml) | InSyncHandedBackSuccess | [Details](#2cd84081365c1da43a539a7c135eaecd827d7c6b79855)
- [fulldocset\System.Security.Permissions.KeyContainerPermissionFlags.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Permissions.KeyContainerPermissionFlags.yml) | InSyncHandedBackSuccess | [Details](#10882ad28a7770d9d8dc5995ec0877c362137ad479924)
- [fulldocset\System.Security.Permissions.StrongNameIdentityPermissionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Permissions.StrongNameIdentityPermissionAttribute.yml) | InSyncHandedBackSuccess | [Details](#84d829ac44e4b6716df5b4269c27bec5843ad82579955)
- [fulldocset\System.Security.Policy.ApplicationDirectoryMembershipCondition.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Policy.ApplicationDirectoryMembershipCondition.yml) | InSyncHandedBackSuccess | [Details](#b025c1adfcbcff1e610b273e968c541f7d85845479975)
- [fulldocset\System.Security.SecurityContextSource.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.SecurityContextSource.yml) | InSyncHandedBackSuccess | [Details](#40aad382ae9ad3ca3e9ffea31ccf471f3aefed4180049)
- [fulldocset\System.ServiceModel.Activation.WebScriptServiceHostFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activation.WebScriptServiceHostFactory.yml) | InSyncHandedBackSuccess | [Details](#dc8c4c90c5f81dc8e6a8784c667dd4eb922dc15080076)
- [fulldocset\System.ServiceModel.Activities.Configuration.WorkflowHostingOptionsSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.Configuration.WorkflowHostingOptionsSection.yml) | InSyncHandedBackSuccess | [Details](#cae2b1c9c08e971b1a25605a55a9445b6860f94c80093)
- [fulldocset\System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreBehavior.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreBehavior.yml) | InSyncHandedBackSuccess | [Details](#a69e79fc4e2c78857e560e4c90ced1d1105fb5c280104)
- [fulldocset\System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior.yml) | InSyncHandedBackSuccess | [Details](#91f25c07d8916058b7ef4805e79820603645c49580110)
- [fulldocset\System.ServiceModel.AddressAlreadyInUseException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.AddressAlreadyInUseException.yml) | InSyncHandedBackSuccess | [Details](#5670d31b87c1d94907721be294b600d06f88d72680189)
- [fulldocset\System.ServiceModel.Channels.ChannelListenerBase.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.ChannelListenerBase.yml) | InSyncHandedBackSuccess | [Details](#0b45364ee99fc824a347f91d7b433e8f74ec61d380204)
- [fulldocset\System.ServiceModel.Channels.ReliableSessionBindingElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.ReliableSessionBindingElement.yml) | InSyncHandedBackSuccess | [Details](#696cd49d65ea7b5c526474c93e7a2b890351869080263)
- [fulldocset\System.ServiceModel.Channels.SecurityBindingElementImporter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.SecurityBindingElementImporter.yml) | InSyncHandedBackSuccess | [Details](#1e0c29541b8c6f068c51e4041077fd2298e511a280267)
- [fulldocset\System.ServiceModel.FaultImportOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.FaultImportOptions.yml) | InSyncHandedBackSuccess | [Details](#2c09922107a863a45384381c4688bdc4f9e1282880783)
- [fulldocset\System.ServiceModel.NetNamedPipeSecurity.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.NetNamedPipeSecurity.yml) | InSyncHandedBackSuccess | [Details](#0f7d6596890cf514235e3475b462ebd237eaa5af80819)
- [fulldocset\System.ServiceModel.Security.MessagePartSpecification.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Security.MessagePartSpecification.yml) | InSyncHandedBackSuccess | [Details](#276c9bf7df03d0cd506769645339d64539ecc76280916)
- [fulldocset\System.Threading.ThreadExceptionEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Threading.ThreadExceptionEventHandler.yml) | InSyncHandedBackSuccess | [Details](#8dd1fd63e051d678e30a82a7af2d539e988196a281194)
- [fulldocset\System.Web.UI.DataVisualization.Charting.EllipseAnnotation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.DataVisualization.Charting.EllipseAnnotation.yml) | InSyncHandedBackSuccess | [Details](#5cccc3f677773384351e366d9d1712f92248f3bd82309)
- [fulldocset\System.Web.UI.DataVisualization.Charting.LegendSeparatorStyle.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.DataVisualization.Charting.LegendSeparatorStyle.yml) | InSyncHandedBackSuccess | [Details](#41fcd2e2cdc8dfabfdab0b9a9639fb9a1a07607482343)
- [fulldocset\System.Web.UI.Design.ScriptManagerDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.ScriptManagerDesigner.yml) | InSyncHandedBackSuccess | [Details](#fa62c8e871b8c1d1c721617b865f61e40643f31982487)
- [fulldocset\System.Web.UI.Design.WebControls.DataProviderNameConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.WebControls.DataProviderNameConverter.yml) | InSyncHandedBackSuccess | [Details](#0c4d95df34e7342bb26ab9a323a91b9bd5d5ae6182546)
- [fulldocset\System.Web.UI.Design.WebControls.HierarchicalDataBoundControlDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.WebControls.HierarchicalDataBoundControlDesigner.yml) | InSyncHandedBackSuccess | [Details](#cb4ea4acec2a30c4f34d5373a92fac9f42ed719f82555)
- [fulldocset\System.Web.UI.IAttributeAccessor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.IAttributeAccessor.yml) | InSyncHandedBackSuccess | [Details](#eae208a6bacbcb35d6ccf11051832d8bd84e91a682714)
- [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlControlAdapter.yml) | InSyncHandedBackSuccess | [Details](#277fee233ec3d49cb1f2ef8a04a7397f5c27b62082774)
- [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlImageAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlImageAdapter.yml) | InSyncHandedBackSuccess | [Details](#d881c98f238620f4d564ceff5d4c0808c57a726d82776)
- [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlLabelAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlLabelAdapter.yml) | InSyncHandedBackSuccess | [Details](#ed44657f39d8e1791c6a86b3856111f24166269982777)
- [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlLiteralTextAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlLiteralTextAdapter.yml) | InSyncHandedBackSuccess | [Details](#6dc619af1929bf7ec38ff9e2d2be66b3db11a3ef82780)
- [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlPhoneCallAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlPhoneCallAdapter.yml) | InSyncHandedBackSuccess | [Details](#e151cf8479948e09ca6aace3a54111aab0225f0482785)
- [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlTextViewAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlTextViewAdapter.yml) | InSyncHandedBackSuccess | [Details](#b494f2cb42f3da16a3bee1dd9ae5370efc2717b982788)
- [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlValidationSummaryAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlValidationSummaryAdapter.yml) | InSyncHandedBackSuccess | [Details](#b6cbd2294b22f18e940b05fa09c1d59d6055664782789)
- [fulldocset\System.Web.UI.MobileControls.Adapters.SR.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.SR.yml) | InSyncHandedBackSuccess | [Details](#69a657b0d615ce26e5097ea9e33db7542f603dc282793)
- [fulldocset\System.Web.UI.MobileControls.Adapters.WmlControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlControlAdapter.yml) | InSyncHandedBackSuccess | [Details](#1cd97c8fe048be05e5274173a4462d1d48c4f14482798)
- [fulldocset\System.Web.UI.MobileControls.Adapters.WmlImageAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlImageAdapter.yml) | InSyncHandedBackSuccess | [Details](#0510a7f574eb9de2447c05120bc36ed9b0ac59a782800)
- [fulldocset\System.Web.UI.MobileControls.Adapters.WmlLabelAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlLabelAdapter.yml) | InSyncHandedBackSuccess | [Details](#c6bab243ff60c00bad4b1f6f059406428b29c7be82801)
- [fulldocset\System.Web.UI.MobileControls.Adapters.WmlLinkAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlLinkAdapter.yml) | InSyncHandedBackSuccess | [Details](#2bc21fde90cf36ffcca021326dfd763cc146540282802)
- [fulldocset\System.Web.UI.MobileControls.Adapters.WmlMobileTextWriter.WmlFormat.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlMobileTextWriter.WmlFormat.yml) | InSyncHandedBackSuccess | [Details](#77229f8459fae5866d16386db37a1415b9e43e4482805)
- [fulldocset\System.Web.UI.MobileControls.Adapters.WmlTextBoxAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlTextBoxAdapter.yml) | InSyncHandedBackSuccess | [Details](#ca1683386bab99ef8553882af6a7a5b780e2a31182814)
- [fulldocset\System.Web.UI.MobileControls.Adapters.WmlValidationSummaryAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlValidationSummaryAdapter.yml) | InSyncHandedBackSuccess | [Details](#8248617007427721f69c12632adaac0bce7f4d3d82816)
- [fulldocset\System.Web.UI.MobileControls.Adapters.WmlValidatorAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlValidatorAdapter.yml) | InSyncHandedBackSuccess | [Details](#3f24705d1540ee653f02e06fb49aa7a87a816d4282817)
- [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlCalendarAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlCalendarAdapter.yml) | InSyncHandedBackSuccess | [Details](#3448192aba6f131792e24599d365b796bdde398e82820)
- [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.yml) | InSyncHandedBackSuccess | [Details](#24b5176caa1fa4088efcf9f288a1aab7ce4ae3e482822)
- [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlFormAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlFormAdapter.yml) | InSyncHandedBackSuccess | [Details](#83affb6317a936b30957d8ffee16fa57e0fcf52782824)
- [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter.yml) | InSyncHandedBackSuccess | [Details](#b19433aa43b8af48e6d9ad9086709ba973f624dd82830)
- [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPanelAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPanelAdapter.yml) | InSyncHandedBackSuccess | [Details](#c700dbba621171b9c026d7dd5092910a9ed492c982833)
- [fulldocset\System.Web.UI.MobileControls.Alignment.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Alignment.yml) | InSyncHandedBackSuccess | [Details](#855176f1651a8fa5849d4734605e72c0d95bf5d982843)
- [fulldocset\System.Web.UI.MobileControls.BaseValidator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.BaseValidator.yml) | InSyncHandedBackSuccess | [Details](#880c993c514b569b5c5bd942f8b9b92e659b5fa082845)
- [fulldocset\System.Web.UI.MobileControls.Command.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Command.yml) | InSyncHandedBackSuccess | [Details](#1fcb40580b9b0fb7ea4522b3ca76f11d6c70f8f882848)
- [fulldocset\System.Web.UI.MobileControls.CommandFormat.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.CommandFormat.yml) | InSyncHandedBackSuccess | [Details](#699cfd7fe74729f1eb65cc03cc5accf564f4699482849)
- [fulldocset\System.Web.UI.MobileControls.ControlElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ControlElement.yml) | InSyncHandedBackSuccess | [Details](#eb7f27a110318343b40892a588d0ffafc03ee1aa82852)
- [fulldocset\System.Web.UI.MobileControls.CustomValidator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.CustomValidator.yml) | InSyncHandedBackSuccess | [Details](#655673d5963dbcabd959b5b79943114614f7742282855)
- [fulldocset\System.Web.UI.ViewStateEncryptionMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.ViewStateEncryptionMode.yml) | InSyncHandedBackSuccess | [Details](#78b4cac68d18fcb36ecfa48fd30835d6f53ebd6a83042)
- [fulldocset\System.Web.UI.ViewStateException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.ViewStateException.yml) | InSyncHandedBackSuccess | [Details](#3765a59942c88e851d545b8639c4c4815f14506083043)
- [fulldocset\System.Web.UI.ViewStateModeByIdAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.ViewStateModeByIdAttribute.yml) | InSyncHandedBackSuccess | [Details](#0287db0ecd7c929b4448ad4f1b091ede74a3db0683045)
- [fulldocset\System.Web.UI.WebControls.AdCreatedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.AdCreatedEventArgs.yml) | InSyncHandedBackSuccess | [Details](#d724f58cb95d6d2640a739fee396358c1431aab783055)
- [fulldocset\System.Web.UI.WebControls.AssociatedControlConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.AssociatedControlConverter.yml) | InSyncHandedBackSuccess | [Details](#5b31409e2b7b16484f3a20893fbd8357d287463583058)
- [fulldocset\System.Web.UI.WebControls.AutoCompleteType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.AutoCompleteType.yml) | InSyncHandedBackSuccess | [Details](#4f605f8efed8d13c60ac71bd39b3be350decf6c483061)
- [fulldocset\System.Web.UI.WebControls.AutoGeneratedFieldProperties.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.AutoGeneratedFieldProperties.yml) | InSyncHandedBackSuccess | [Details](#a3129a9301d2bd8366256057acf97d673c3f1ca283064)
- [fulldocset\System.Web.UI.WebControls.BoundColumn.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.BoundColumn.yml) | InSyncHandedBackSuccess | [Details](#d7ac11246c277b4dbe1ab89474b48a7ed34c99ba83070)
- [fulldocset\System.Web.UI.WebControls.CalendarDay.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CalendarDay.yml) | InSyncHandedBackSuccess | [Details](#05b3c84f51c4c050586ade5922dfd72a4de0cf2683084)
- [fulldocset\System.Web.UI.WebControls.CalendarSelectionMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CalendarSelectionMode.yml) | InSyncHandedBackSuccess | [Details](#06801293bc55a9eb71aec95e1c01644eee65efc083085)
- [fulldocset\System.Web.UI.WebControls.CallingDataMethodsEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CallingDataMethodsEventArgs.yml) | InSyncHandedBackSuccess | [Details](#ed7dd14e06dea41664a6f76becb69c708b5aee7e83086)
- [fulldocset\System.Web.UI.WebControls.CheckBoxField.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CheckBoxField.yml) | InSyncHandedBackSuccess | [Details](#5eef9bd3a098c557840958a5d5991672b89cc08c83090)
- [fulldocset\System.Web.UI.WebControls.CommandEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CommandEventHandler.yml) | InSyncHandedBackSuccess | [Details](#9ee856ede988da81a8f3f404a6b5324a2ad1107083094)
- [fulldocset\System.Web.UI.WebControls.CommandField.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CommandField.yml) | InSyncHandedBackSuccess | [Details](#9d8d290a40eee25cceb1c085ef43f5ee2e1be80983095)
- [fulldocset\System.Web.UI.WebControls.CompleteWizardStep.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CompleteWizardStep.yml) | InSyncHandedBackSuccess | [Details](#b6a64fd56ec68aa5f12eac38c455ddc5238779c983097)
- [fulldocset\System.Web.UI.WebControls.CompositeDataBoundControl.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CompositeDataBoundControl.yml) | InSyncHandedBackSuccess | [Details](#8705141ea8218f7322d8e74962d85f2d6d44065c83099)
- [fulldocset\System.Web.UI.WebControls.ControlParameter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.ControlParameter.yml) | InSyncHandedBackSuccess | [Details](#0ad3117b56a506615cf9e712823f4ad8acab06b283107)
- [fulldocset\System.Web.UI.WebControls.ControlPropertyNameConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.ControlPropertyNameConverter.yml) | InSyncHandedBackSuccess | [Details](#12ef0f19fc2c201dca387ed6a077ab21d386d6ff83108)
- [fulldocset\System.Web.UI.WebControls.CreateUserWizard.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CreateUserWizard.yml) | InSyncHandedBackSuccess | [Details](#79a4ec95cafcf519e84df4cd8b7dd35558057b4983112)
- [fulldocset\System.Web.UI.WebControls.CreateUserWizardStep.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CreateUserWizardStep.yml) | InSyncHandedBackSuccess | [Details](#aea3879e664317053d63f0ce57951c42a46dc9d483113)
- [fulldocset\System.Web.UI.WebControls.CustomValidator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CustomValidator.yml) | InSyncHandedBackSuccess | [Details](#0d93efb7ae200304465d4b0ee880a81faceab96f83116)
- [fulldocset\System.Web.UI.WebControls.DataControlCommands.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataControlCommands.yml) | InSyncHandedBackSuccess | [Details](#5499d18161870f36d47a3a3affdc9d73823f55ca83120)
- [fulldocset\System.Web.UI.WebControls.DataControlField.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataControlField.yml) | InSyncHandedBackSuccess | [Details](#248f387b87196088258d909eba61391316c2c9fb83121)
- [fulldocset\System.Web.UI.WebControls.DataControlFieldCell.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataControlFieldCell.yml) | InSyncHandedBackSuccess | [Details](#cb1ee3c9238865dba32c95ee077f11bf394877fa83122)
- [fulldocset\System.Web.UI.WebControls.DataControlFieldCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataControlFieldCollection.yml) | InSyncHandedBackSuccess | [Details](#e9a902525aff849c57cd04e7045b136737509e2983123)
- [fulldocset\System.Web.UI.WebControls.DataControlRowState.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataControlRowState.yml) | InSyncHandedBackSuccess | [Details](#abb070d42c813164f6e4930dfd575ffc77202b7a83125)
- [fulldocset\System.Web.UI.WebControls.DataGridColumn.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataGridColumn.yml) | InSyncHandedBackSuccess | [Details](#f815a6b4394509bd9ecfdc4f3ae8a7566fe8663f83128)
- [fulldocset\System.Web.UI.WebControls.DataGridColumnCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataGridColumnCollection.yml) | InSyncHandedBackSuccess | [Details](#1612809334667282c208918297b6a3823dfcd1be83129)
- [fulldocset\System.Web.UI.WebControls.DataGridCommandEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataGridCommandEventHandler.yml) | InSyncHandedBackSuccess | [Details](#cef1fb7bc38ed2d015fabab01cb211c2d4ece21483131)
- [fulldocset\System.Web.UI.WebControls.DataGridItemCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataGridItemCollection.yml) | InSyncHandedBackSuccess | [Details](#73a875014d0d6747affd38196607229a33d7ddc683133)
- [fulldocset\System.Web.UI.WebControls.DataGridItemEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataGridItemEventArgs.yml) | InSyncHandedBackSuccess | [Details](#f3d498908c249a420052dee4f0954831252b43c283134)
- [fulldocset\System.Web.UI.WebControls.DataKeyCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataKeyCollection.yml) | InSyncHandedBackSuccess | [Details](#d65a08566503610a8c91fba900ba6fb864fc77d883143)
- [fulldocset\System.Web.UI.WebControls.DataListCommandEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataListCommandEventArgs.yml) | InSyncHandedBackSuccess | [Details](#95ccb07ea24352b85788820ad463477317a4c35383145)
- [fulldocset\System.Web.UI.WebControls.DataListItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataListItem.yml) | InSyncHandedBackSuccess | [Details](#4e467ba470c93c936e909435489282b0a03b352d83147)
- [fulldocset\System.Web.UI.WebControls.DataPagerFieldCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataPagerFieldCollection.yml) | InSyncHandedBackSuccess | [Details](#9844c8fe4c2c2a410d1ec226ad37d7ace0f8a7f683154)
- [fulldocset\System.Web.UI.WebControls.DataPagerFieldItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataPagerFieldItem.yml) | InSyncHandedBackSuccess | [Details](#b88782ae803ffaebaf868f88f23fe995d69b273483156)
- [fulldocset\System.Web.UI.WebControls.DataSourceSelectResultProcessingOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataSourceSelectResultProcessingOptions.yml) | InSyncHandedBackSuccess | [Details](#b1ede1fa0549be9253af0aa31952b41c858b498c83157)
- [fulldocset\System.Web.UI.WebControls.DetailsViewDeletedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewDeletedEventArgs.yml) | InSyncHandedBackSuccess | [Details](#b6ab94ba485f706538c6ea39dcc4278cd6af839583164)
- [fulldocset\System.Web.UI.WebControls.DetailsViewDeleteEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewDeleteEventArgs.yml) | InSyncHandedBackSuccess | [Details](#010aedde78dd57042d61dddc5c31a7e94886a1fc83166)
- [fulldocset\System.Web.UI.WebControls.DetailsViewInsertedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewInsertedEventHandler.yml) | InSyncHandedBackSuccess | [Details](#f2f5ed7cf98478d9a0a074779839548400293b3b83169)
- [fulldocset\System.Web.UI.WebControls.DetailsViewInsertEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewInsertEventArgs.yml) | InSyncHandedBackSuccess | [Details](#e394ae0f21adb0dbfd638cb5e13c1b562ebcfbb583170)
- [fulldocset\System.Web.UI.WebControls.DetailsViewInsertEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewInsertEventHandler.yml) | InSyncHandedBackSuccess | [Details](#b4cf2c30813df08305b09a30849442d33bc14b7c83171)
- [fulldocset\System.Web.UI.WebControls.DetailsViewMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewMode.yml) | InSyncHandedBackSuccess | [Details](#265d183b62c2f1f01baa8f8a8ee1b5f1705dfde683172)
- [fulldocset\System.Web.UI.WebControls.DetailsViewModeEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewModeEventHandler.yml) | InSyncHandedBackSuccess | [Details](#9a5d1afd456eccceffba7577c1248742075c152283174)
- [fulldocset\System.Web.UI.WebControls.DetailsViewRow.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewRow.yml) | InSyncHandedBackSuccess | [Details](#3b2b676f3ea7c0f369ef5cb7635e1df1535312a683178)
- [fulldocset\System.Web.UI.WebControls.DetailsViewUpdatedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewUpdatedEventHandler.yml) | InSyncHandedBackSuccess | [Details](#0b6a7bf9cebaee3fbca4692b99ebe780ea002ed983182)
- [fulldocset\System.Web.UI.WebControls.EditCommandColumn.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.EditCommandColumn.yml) | InSyncHandedBackSuccess | [Details](#de9af39a3e5cd2b9d12d394a7d0b875d68f7cdca83186)
- [fulldocset\System.Web.UI.WebControls.EmbeddedMailObject.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.EmbeddedMailObject.yml) | InSyncHandedBackSuccess | [Details](#055dbc52b3b3f0c3309ccfc2fc4e6d8901a0a90283187)
- [fulldocset\System.Web.UI.WebControls.EntityDataSourceChangingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.EntityDataSourceChangingEventArgs.yml) | InSyncHandedBackSuccess | [Details](#b33bf0b8668f56335ec63f4391ce52c002ffeb4f83191)
- [fulldocset\System.Web.UI.WebControls.EntityDataSourceContextCreatingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.EntityDataSourceContextCreatingEventArgs.yml) | InSyncHandedBackSuccess | [Details](#606440b78da183f5e424ae944373d2889b9e7db583193)
- [fulldocset\System.Web.UI.WebControls.EntityDataSourceSelectingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.EntityDataSourceSelectingEventArgs.yml) | InSyncHandedBackSuccess | [Details](#262ee56609df2aafddb080bcb3a69a2d08fc8ac683196)
- [fulldocset\System.Web.UI.WebControls.Expressions.MethodExpression.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.Expressions.MethodExpression.yml) | InSyncHandedBackSuccess | [Details](#b9efeacb80fe4f9c9f012ca143ac7835bf5eff9983203)
- [fulldocset\System.Web.UI.WebControls.Expressions.ThenBy.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.Expressions.ThenBy.yml) | InSyncHandedBackSuccess | [Details](#1758fcffa7de8b185ea85860c879634727b0c62083213)
- [fulldocset\System.Web.UI.WebControls.FontSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FontSize.yml) | InSyncHandedBackSuccess | [Details](#b025b119c7b8adbc9b2041819c83743e6b1c783083219)
- [fulldocset\System.Web.UI.WebControls.FontUnitConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FontUnitConverter.yml) | InSyncHandedBackSuccess | [Details](#eadbbf6b4e3d1fe836045581d7eb095ae6c0320783221)
- [fulldocset\System.Web.UI.WebControls.FormParameter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormParameter.yml) | InSyncHandedBackSuccess | [Details](#de2ed7681e9a1749d16bad578e5c9b1d4e170c8583222)
- [fulldocset\System.Web.UI.WebControls.FormView.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormView.yml) | InSyncHandedBackSuccess | [Details](#c1a9236642bb08555046f9e39532bd9d936071af83223)
- [fulldocset\System.Web.UI.WebControls.FormViewDeletedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewDeletedEventArgs.yml) | InSyncHandedBackSuccess | [Details](#35d191750e2ac93f4dbd614914f352ff6d46f80a83226)
- [fulldocset\System.Web.UI.WebControls.FormViewInsertedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewInsertedEventArgs.yml) | InSyncHandedBackSuccess | [Details](#48af5a50a78a0d96a3f0602ab89a660d66d73d2183230)
- [fulldocset\System.Web.UI.WebControls.FormViewInsertedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewInsertedEventHandler.yml) | InSyncHandedBackSuccess | [Details](#cc706d42eca5ce58787fe623d86d68398a9e253883231)
- [fulldocset\System.Web.UI.WebControls.FormViewInsertEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewInsertEventHandler.yml) | InSyncHandedBackSuccess | [Details](#e054397e713b65f18067f00aaf07c8effe38a77483233)
- [fulldocset\System.Web.UI.WebControls.FormViewPageEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewPageEventArgs.yml) | InSyncHandedBackSuccess | [Details](#9d4f3277d65b564bd28940f3a6eba3aa4eea651d83237)
- [fulldocset\System.Web.UI.WebControls.FormViewPageEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewPageEventHandler.yml) | InSyncHandedBackSuccess | [Details](#9a520ed8e35c732d76d44715648cfc6a206b234783238)
- [fulldocset\System.Web.UI.WebControls.FormViewUpdatedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewUpdatedEventArgs.yml) | InSyncHandedBackSuccess | [Details](#94ebf17593270d695aa9dabaa6c4c0d5f95199e583241)
- [fulldocset\System.Web.UI.WebControls.FormViewUpdateEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewUpdateEventHandler.yml) | InSyncHandedBackSuccess | [Details](#9c336fab11b2be209f4ca301f481cac41adb85f183244)
- [fulldocset\System.Web.UI.WebControls.GridLines.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridLines.yml) | InSyncHandedBackSuccess | [Details](#76ae9af45b6f8ecf1b1828ab14a0399c1629516c83245)
- [fulldocset\System.Web.UI.WebControls.GridViewCommandEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewCommandEventArgs.yml) | InSyncHandedBackSuccess | [Details](#9ab17c187ae3bc22ac8835bfe8cfea5df512ffa883250)
- [fulldocset\System.Web.UI.WebControls.GridViewDeleteEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewDeleteEventArgs.yml) | InSyncHandedBackSuccess | [Details](#d9022142ea2d0a5c9b7a28b0f36dba3c211698d983254)
- [fulldocset\System.Web.UI.WebControls.GridViewEditEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewEditEventArgs.yml) | InSyncHandedBackSuccess | [Details](#dfb7f3a8af019e5c71a4abaaa961df0322d22c3a83256)
- [fulldocset\System.Web.UI.WebControls.GridViewPageEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewPageEventArgs.yml) | InSyncHandedBackSuccess | [Details](#1f8d3234d2a93aa53587f04f82240b11d159968983258)
- [fulldocset\System.Web.UI.WebControls.GridViewRowEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewRowEventArgs.yml) | InSyncHandedBackSuccess | [Details](#f5061fd535b3853aba01b44e61b5e030d32a57a383262)
- [fulldocset\System.Web.UI.WebControls.GridViewSelectEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewSelectEventArgs.yml) | InSyncHandedBackSuccess | [Details](#5e7aef73bd21d3cd9dbe734fb189066623d585c883264)
- [fulldocset\System.Web.UI.WebControls.GridViewUpdatedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewUpdatedEventArgs.yml) | InSyncHandedBackSuccess | [Details](#c8cb94d85a6b91702d58a73532892dadb68c3ab783268)
+ [fulldocset\System.ComponentModel.Design.ComponentActionsType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.ComponentActionsType.yml) | InSyncHandedBackSuccess | [Details](#3b1dc3c2f833423c0b430c7a77b786810218254b75793)
+ [fulldocset\System.ComponentModel.Design.DesigntimeLicenseContextSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.DesigntimeLicenseContextSerializer.yml) | InSyncHandedBackSuccess | [Details](#4be5f91af73083f034c3cc387e1a30103d299b8f75856)
+ [fulldocset\System.ComponentModel.Design.IRootDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.IRootDesigner.yml) | InSyncHandedBackSuccess | [Details](#d4144b2fe7ed1cb9a4de7c961c07f07e3664602875886)
+ [fulldocset\System.ComponentModel.Design.Serialization.CodeDomSerializerException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.CodeDomSerializerException.yml) | InSyncHandedBackSuccess | [Details](#eac654b9933be5f9647c593cbc832297977e4f4875915)
+ [fulldocset\System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute.yml) | InSyncHandedBackSuccess | [Details](#32cf9024eb5269bd4cd9fe7f3fda6f5bc42a2ba875919)
+ [fulldocset\System.ComponentModel.Design.Serialization.INameCreationService.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.INameCreationService.yml) | InSyncHandedBackSuccess | [Details](#5aa1e18d4a52b5f1a174ea6a839c308ac49baf4875931)
+ [fulldocset\System.ComponentModel.Design.Serialization.SerializeAbsoluteContext.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.SerializeAbsoluteContext.yml) | InSyncHandedBackSuccess | [Details](#24b48686cb614e83a60967d0e0bf3f7bbb6d1b7a75942)
+ [fulldocset\System.ComponentModel.ListSortDescriptionCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.ListSortDescriptionCollection.yml) | InSyncHandedBackSuccess | [Details](#49f1a61cc7713093703720743011d3a8b03f539b76027)
+ [fulldocset\System.ComponentModel.PropertyDescriptor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.PropertyDescriptor.yml) | InSyncHandedBackSuccess | [Details](#7dc1f36798159a6e997fd9ebb83de5f55c4dde0f76044)
+ [fulldocset\System.Configuration.CommaDelimitedStringCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.CommaDelimitedStringCollection.yml) | InSyncHandedBackSuccess | [Details](#a91567c100e7d83e4fc76cbe8d9cf5d954d2edab76096)
+ [fulldocset\System.Configuration.IdnElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.IdnElement.yml) | InSyncHandedBackSuccess | [Details](#d2a5c1d6d94648f0aa427c18dd792a51f81970a076146)
+ [fulldocset\System.Configuration.Internal.IInternalConfigHost.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.Internal.IInternalConfigHost.yml) | InSyncHandedBackSuccess | [Details](#76b2d8ab6d487a66a3e21b22ce2d08b90b2e258576173)
+ [fulldocset\System.Configuration.SettingsAttributeDictionary.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.SettingsAttributeDictionary.yml) | InSyncHandedBackSuccess | [Details](#5de4b4912582fdb52003c8d81e64a84a9f856a9a76223)
+ [fulldocset\System.Configuration.SettingsSerializeAs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.SettingsSerializeAs.yml) | InSyncHandedBackSuccess | [Details](#82b2a7275a8241483ea9e5a23ce93351591ee71d76244)
+ [fulldocset\System.Diagnostics.TraceLogRetentionOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Diagnostics.TraceLogRetentionOption.yml) | InSyncHandedBackSuccess | [Details](#d10d5b20a51d64e13db911ccebe5e8a63e30a9c177279)
+ [fulldocset\System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaPropertyCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaPropertyCollection.yml) | InSyncHandedBackSuccess | [Details](#14b7bca29e289d61528e9950d4a9ff6472f003d877329)
+ [fulldocset\System.DirectoryServices.ActiveDirectory.TopLevelName.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.TopLevelName.yml) | InSyncHandedBackSuccess | [Details](#e58011e3069a285208d86a9cb5624d39bf6e95b177406)
+ [fulldocset\System.DirectoryServices.ActiveDirectory.TopLevelNameStatus.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.TopLevelNameStatus.yml) | InSyncHandedBackSuccess | [Details](#997ed8c890b6909494d66a554f65aa1a88124c9877409)
+ [fulldocset\System.DirectoryServices.DereferenceAlias.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.DereferenceAlias.yml) | InSyncHandedBackSuccess | [Details](#411f5aa757ba23966964289aa6b95260dbafe10e77424)
+ [fulldocset\System.DirectoryServices.Protocols.DeleteResponse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.Protocols.DeleteResponse.yml) | InSyncHandedBackSuccess | [Details](#db866d9f514590e7d719a9cb630124e82be1262477460)
+ [fulldocset\System.DirectoryServices.Protocols.DsmlErrorResponse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.Protocols.DsmlErrorResponse.yml) | InSyncHandedBackSuccess | [Details](#519730d13560e1c2f378583bc384513ef17c4ff677488)
+ [fulldocset\System.Drawing.BufferedGraphicsManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.BufferedGraphicsManager.yml) | InSyncHandedBackSuccess | [Details](#9d45d4e0a8a5b2f6b769184e553ee1ab80be33e677566)
+ [fulldocset\System.Drawing.Design.ToolboxComponentsCreatingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Design.ToolboxComponentsCreatingEventArgs.yml) | InSyncHandedBackSuccess | [Details](#1e0abcf9637b6ec03cc97492a0e15f876d18dc2b77595)
+ [fulldocset\System.Drawing.Drawing2D.CombineMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Drawing2D.CombineMode.yml) | InSyncHandedBackSuccess | [Details](#4f3a336f50bc139173dd901aba7f6a576ba924be77609)
+ [fulldocset\System.Drawing.FontStyle.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.FontStyle.yml) | InSyncHandedBackSuccess | [Details](#b00dc901db57d7889d66056bac42bad29718525177648)
+ [fulldocset\System.Drawing.ImageFormatConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.ImageFormatConverter.yml) | InSyncHandedBackSuccess | [Details](#8a86108ee1c6fff3b06ee04dd368454943ef218477660)
+ [fulldocset\System.Drawing.Imaging.BitmapData.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Imaging.BitmapData.yml) | InSyncHandedBackSuccess | [Details](#8789210eacfd429d95f7efdff56c04447521040c77661)
+ [fulldocset\System.Drawing.Imaging.ColorMapType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Imaging.ColorMapType.yml) | InSyncHandedBackSuccess | [Details](#7185d418c591b21a7a1e5edbac459cca22a547d377665)
+ [fulldocset\System.Drawing.Imaging.PropertyItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Imaging.PropertyItem.yml) | InSyncHandedBackSuccess | [Details](#ce7bd64bd538d2f023f9383f2fddc3662a8e341077692)
+ [fulldocset\System.EnterpriseServices.AutoCompleteAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.AutoCompleteAttribute.yml) | InSyncHandedBackSuccess | [Details](#86e3ebf5722840da259079f317f7f2bd8752d95a77777)
+ [fulldocset\System.EnterpriseServices.ComponentAccessControlAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.ComponentAccessControlAttribute.yml) | InSyncHandedBackSuccess | [Details](#a12544036f7d8258e6d8a1a262ae0c2eea944efa77791)
+ [fulldocset\System.EnterpriseServices.Internal.IComSoapIISVRoot.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.Internal.IComSoapIISVRoot.yml) | InSyncHandedBackSuccess | [Details](#06fc9db3b650286e8c4cb4c4d5fe16560a7d377177814)
+ [fulldocset\System.EnterpriseServices.Internal.ISoapClientImport.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.Internal.ISoapClientImport.yml) | InSyncHandedBackSuccess | [Details](#a2bfddb1bcf80fdc3b3c8ff00aad45aab38c034177819)
+ [fulldocset\System.EnterpriseServices.MustRunInClientContextAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.MustRunInClientContextAttribute.yml) | InSyncHandedBackSuccess | [Details](#e02e9d989c22eef0c933362b7d094ac06dde092977840)
+ [fulldocset\System.EnterpriseServices.SecurityIdentity.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.SecurityIdentity.yml) | InSyncHandedBackSuccess | [Details](#d1c0eb884d61e2c2b4bb7f5efc58e9463e7ce1bd77856)
+ [fulldocset\System.EnterpriseServices.ServicedComponent.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.ServicedComponent.yml) | InSyncHandedBackSuccess | [Details](#01bf4aec7c861a499b01bf4f9c5747fe341480bb77859)
+ [fulldocset\System.Globalization.UmAlQuraCalendar.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Globalization.UmAlQuraCalendar.yml) | InSyncHandedBackSuccess | [Details](#27b89d9af65f532cd754fd34575b10135ea7669777910)
+ [fulldocset\System.IdentityModel.Metadata.ContactType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Metadata.ContactType.yml) | InSyncHandedBackSuccess | [Details](#68c194f3f1e88586a8add154d2179fd65993d4d177955)
+ [fulldocset\System.IdentityModel.Metadata.LocalizedEntry.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Metadata.LocalizedEntry.yml) | InSyncHandedBackSuccess | [Details](#87a145b1176bfb6fba66417b91aa962b24b1e5e777966)
+ [fulldocset\System.IdentityModel.Protocols.WSTrust.ProtectedKey.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Protocols.WSTrust.ProtectedKey.yml) | InSyncHandedBackSuccess | [Details](#dca6c7f13ed5106f650a5acee9e70f682e5d81f177997)
+ [fulldocset\System.IdentityModel.Protocols.WSTrust.RequestedProofToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Protocols.WSTrust.RequestedProofToken.yml) | InSyncHandedBackSuccess | [Details](#a2ab81dacf343b4c49dc08f358dcf2df14c37b1278001)
+ [fulldocset\System.IdentityModel.Protocols.WSTrust.WSTrustResponseSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Protocols.WSTrust.WSTrustResponseSerializer.yml) | InSyncHandedBackSuccess | [Details](#41b1c9427f1c40c490f0d762934455af3d1333d678014)
+ [fulldocset\System.IdentityModel.Selectors.UnsupportedPolicyOptionsException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Selectors.UnsupportedPolicyOptionsException.yml) | InSyncHandedBackSuccess | [Details](#862636ec345003f073b209b2bdbd009434aa9ec778049)
+ [fulldocset\System.IdentityModel.Selectors.UserNameSecurityTokenProvider.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Selectors.UserNameSecurityTokenProvider.yml) | InSyncHandedBackSuccess | [Details](#a9e02d5d2787406af9380ace2274699795bd2fdc78054)
+ [fulldocset\System.IdentityModel.Services.Configuration.SystemIdentityModelServicesSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Services.Configuration.SystemIdentityModelServicesSection.yml) | InSyncHandedBackSuccess | [Details](#3bcac69dd9dfe447b3cc5e6795fda2ed60b5217778074)
+ [fulldocset\System.IdentityModel.Tokens.EncryptedTokenDecryptionFailedException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.EncryptedTokenDecryptionFailedException.yml) | InSyncHandedBackSuccess | [Details](#46dfe051cfdda26037a998db9efa64f14b1aeb2078130)
+ [fulldocset\System.IdentityModel.Tokens.GenericXmlSecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.GenericXmlSecurityToken.yml) | InSyncHandedBackSuccess | [Details](#1dc764c224e20981c44d212a7a1957b388653fda78133)
+ [fulldocset\System.IdentityModel.Tokens.Saml2AttributeStatement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.Saml2AttributeStatement.yml) | InSyncHandedBackSuccess | [Details](#740a07ea750f84aa0c22222fdb6054c6779833d578152)
+ [fulldocset\System.IdentityModel.Tokens.Saml2SecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.Saml2SecurityToken.yml) | InSyncHandedBackSuccess | [Details](#97306616a39d7a9730b7b5757872d8b883cc533678163)
+ [fulldocset\System.IdentityModel.Tokens.Saml2SecurityTokenHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.Saml2SecurityTokenHandler.yml) | InSyncHandedBackSuccess | [Details](#420748da50635ada1f430f5f655fcd2186a43c0678164)
+ [fulldocset\System.IdentityModel.Tokens.SamlStatement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SamlStatement.yml) | InSyncHandedBackSuccess | [Details](#1a5578e6716f20c4614c3b4ebbff9af0b81a303478194)
+ [fulldocset\System.IdentityModel.Tokens.SecurityKeyIdentifierClauseSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SecurityKeyIdentifierClauseSerializer.yml) | InSyncHandedBackSuccess | [Details](#53ee5400c0cadb3e164643f04d8a44c00b12b10a78202)
+ [fulldocset\System.IdentityModel.Tokens.SecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SecurityToken.yml) | InSyncHandedBackSuccess | [Details](#3b7628ae25edc422b5cbbfbb77e914a98fad21b778205)
+ [fulldocset\System.IdentityModel.Tokens.SessionSecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SessionSecurityToken.yml) | InSyncHandedBackSuccess | [Details](#7811d021febaf0e3002f958cf54d1d21fd49b21c78219)
+ [fulldocset\System.IdentityModel.Tokens.SessionSecurityTokenCache.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SessionSecurityTokenCache.yml) | InSyncHandedBackSuccess | [Details](#bd24af2d2ed21139f5f7cac32fcd06770e5e2a0478220)
+ [fulldocset\System.IdentityModel.Tokens.WindowsSecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.WindowsSecurityToken.yml) | InSyncHandedBackSuccess | [Details](#97bdcaf55971019a33206ca6ad25accd67a5513378229)
+ [fulldocset\System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.yml) | InSyncHandedBackSuccess | [Details](#542fab9e95d89bf456ca087abf7225a05dbbaea278237)
+ [fulldocset\System.IO.BufferedStream.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.BufferedStream.yml) | InSyncHandedBackSuccess | [Details](#869e2d13071ffdd5c6fbb3cdaec0c6cbfba8ffe078249)
+ [fulldocset\System.IO.FileInfo.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.FileInfo.yml) | InSyncHandedBackSuccess | [Details](#b73a3bd5075be4e3a2d2276e9ddad94207d56ac478267)
+ [fulldocset\System.IO.Log.LogRecord.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.LogRecord.yml) | InSyncHandedBackSuccess | [Details](#bbec5ad2d1b4fc307d2e6654994153b3c0a591c378295)
+ [fulldocset\System.IO.Log.SequenceNumber.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.SequenceNumber.yml) | InSyncHandedBackSuccess | [Details](#86b7d1427c8ed05c20497468e35beeaea9381e8278305)
+ [fulldocset\System.IO.Packaging.CompressionOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Packaging.CompressionOption.yml) | InSyncHandedBackSuccess | [Details](#fe42b01ee2490d7108255b5ee553d710bdc6ffaf78318)
+ [fulldocset\System.IO.Ports.Handshake.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Ports.Handshake.yml) | InSyncHandedBackSuccess | [Details](#170093359952bbf77d55029951d211e4c8ca5f6778361)
+ [fulldocset\System.IO.SearchOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.SearchOption.yml) | InSyncHandedBackSuccess | [Details](#56b28cda42ceb3a4c1765d3a713a42623181aa9078377)
+ [fulldocset\System.LoaderOptimization.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.LoaderOptimization.yml) | InSyncHandedBackSuccess | [Details](#c8873a30ae464529edfab2bc7f4aa1dfa13cffdd78384)
+ [fulldocset\System.Management.ImpersonationLevel.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.ImpersonationLevel.yml) | InSyncHandedBackSuccess | [Details](#c86fae3d03b0990614d84b6054bc14dd3642661678400)
+ [fulldocset\System.Management.ManagementObjectCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.ManagementObjectCollection.yml) | InSyncHandedBackSuccess | [Details](#4f04a9ae4a1f7febded12c9adf3976cdc073300278450)
+ [fulldocset\System.Management.ManagementObjectSearcher.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.ManagementObjectSearcher.yml) | InSyncHandedBackSuccess | [Details](#b1ed76253923cd940dc9d3f290e422fd2e5c112078451)
+ [fulldocset\System.Management.PropertyData.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.PropertyData.yml) | InSyncHandedBackSuccess | [Details](#4805a8d3e9ae9dcddf7000369474ad5d460ca0ea78469)
+ [fulldocset\System.Messaging.AccessControlEntryType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Messaging.AccessControlEntryType.yml) | InSyncHandedBackSuccess | [Details](#f3fbdb57f6501e4595c5e2e4ff41964923d2aa1878492)
+ [fulldocset\System.Messaging.EncryptionRequired.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Messaging.EncryptionRequired.yml) | InSyncHandedBackSuccess | [Details](#d67904cf85ea3ee5866abd928d86002c7e8e3a9378506)
+ [fulldocset\System.Messaging.MessageEnumerator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Messaging.MessageEnumerator.yml) | InSyncHandedBackSuccess | [Details](#48866610ef8d80da05371b0b6ef7e6d9609661bd78511)
+ [fulldocset\System.Net.Configuration.AuthenticationModulesSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.Configuration.AuthenticationModulesSection.yml) | InSyncHandedBackSuccess | [Details](#048d7294c54cf71d40fa6ef554f16ba65862635b78559)
+ [fulldocset\System.Net.Http.Headers.WarningHeaderValue.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.Http.Headers.WarningHeaderValue.yml) | InSyncHandedBackSuccess | [Details](#0be16d7c1d72bd12ce78bd57e90be4a07b4954ca78635)
+ [fulldocset\System.Net.Http.HttpMessageHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.Http.HttpMessageHandler.yml) | InSyncHandedBackSuccess | [Details](#f951e3ae0c468f4d53805f5050ae37f5a7bc3ef078641)
+ [fulldocset\System.Net.NetworkAccess.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.NetworkAccess.yml) | InSyncHandedBackSuccess | [Details](#72904ba691a0a9f7297bc1578108c65e2b968f8f78706)
+ [fulldocset\System.Net.PeerToPeer.Collaboration.PeerEndPointCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.PeerToPeer.Collaboration.PeerEndPointCollection.yml) | InSyncHandedBackSuccess | [Details](#e342b21bfbbec5f9f71cbb1e37ba8aa2d8173a5a78741)
+ [fulldocset\System.Net.Security.NegotiateStream.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.Security.NegotiateStream.yml) | InSyncHandedBackSuccess | [Details](#338cc3c4a3d3c64c733b1c2d8545da4dd72fd19878774)
+ [fulldocset\System.Security.Cryptography.StrongNameSignatureInformation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Cryptography.StrongNameSignatureInformation.yml) | InSyncHandedBackSuccess | [Details](#39b9700e639605e5874315f2efc6df7c9d4d492a79790)
+ [fulldocset\System.Security.Cryptography.Xml.XmlDsigXPathTransform.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Cryptography.Xml.XmlDsigXPathTransform.yml) | InSyncHandedBackSuccess | [Details](#c11dff5bc50bcd33d6b31f4000be6d47cf4e982179880)
+ [fulldocset\System.Security.Permissions.FileDialogPermissionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Permissions.FileDialogPermissionAttribute.yml) | InSyncHandedBackSuccess | [Details](#ee26cba81d726a2de3b1741d0b7780b5a5c419aa79905)
+ [fulldocset\System.Security.Permissions.RegistryPermissionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Permissions.RegistryPermissionAttribute.yml) | InSyncHandedBackSuccess | [Details](#93dffd461c8add7f57d40ecd40ec82ff7508b1ec79941)
+ [fulldocset\System.Security.Policy.ApplicationSecurityInfo.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Policy.ApplicationSecurityInfo.yml) | InSyncHandedBackSuccess | [Details](#4aa884dfaf89238b4edda1935102fae8c651c1d279976)
+ [fulldocset\System.Security.RightsManagement.RightsManagementFailureCode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.RightsManagement.RightsManagementFailureCode.yml) | InSyncHandedBackSuccess | [Details](#596d8857b96fdbf342b525ebaa7c9412b068dcdc80041)
+ [fulldocset\System.ServiceModel.Activation.Configuration.NetPipeSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activation.Configuration.NetPipeSection.yml) | InSyncHandedBackSuccess | [Details](#1a15cad28c6e1d643e31cd72ef6d9f0857136fcb80066)
+ [fulldocset\System.ServiceModel.Activation.WorkflowServiceHostFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activation.WorkflowServiceHostFactory.yml) | InSyncHandedBackSuccess | [Details](#1ef159b4a128ce6e039d61d40a6716b5bea3557180078)
+ [fulldocset\System.ServiceModel.Activities.CallbackCorrelationInitializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.CallbackCorrelationInitializer.yml) | InSyncHandedBackSuccess | [Details](#a892391148e9f94dd7472829658e8d0b43012ff180082)
+ [fulldocset\System.ServiceModel.Activities.IReceiveMessageCallback.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.IReceiveMessageCallback.yml) | InSyncHandedBackSuccess | [Details](#141416b1652238c934c53d6c3ac069dd26a61b2280115)
+ [fulldocset\System.ServiceModel.Activities.WorkflowUpdateableControlClient.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.WorkflowUpdateableControlClient.yml) | InSyncHandedBackSuccess | [Details](#0540bb6ef9b45e869bf7804bbd80fb934f6cea7e80186)
+ [fulldocset\System.ServiceModel.Channels.ClientWebSocketFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.ClientWebSocketFactory.yml) | InSyncHandedBackSuccess | [Details](#d945afb4da0fccbeda8b4d032d4d303224dd485d80206)
+ [fulldocset\System.ServiceModel.Channels.CorrelationDataMessageProperty.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.CorrelationDataMessageProperty.yml) | InSyncHandedBackSuccess | [Details](#1669a9b3f381e9471076e8f13e9c9832a65066da80211)
+ [fulldocset\System.ServiceModel.Channels.HttpCookieContainerBindingElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.HttpCookieContainerBindingElement.yml) | InSyncHandedBackSuccess | [Details](#c2ce969933664cfeb2254b16f7d68eff1d34cfc780216)
+ [fulldocset\System.ServiceModel.Channels.IBindingRuntimePreferences.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.IBindingRuntimePreferences.yml) | InSyncHandedBackSuccess | [Details](#cc8326d835b75343f96bb563fc1d16d9a4b9c23080224)
+ [fulldocset\System.ServiceModel.Channels.IReceiveContextSettings.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.IReceiveContextSettings.yml) | InSyncHandedBackSuccess | [Details](#4e74f4de67b34961c013fe5520111c2c0a9c7c7180229)
+ [fulldocset\System.ServiceModel.Channels.PrivacyNoticeBindingElementImporter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.PrivacyNoticeBindingElementImporter.yml) | InSyncHandedBackSuccess | [Details](#4dc0effd0d5fefbfd4a64efe137fecde8e53d46c80255)
+ [fulldocset\System.ServiceModel.NetMsmqSecurityMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.NetMsmqSecurityMode.yml) | InSyncHandedBackSuccess | [Details](#eebfd54f36369f9021d84fd0f07a0851f5a6f44580817)
+ [fulldocset\System.ServiceModel.OperationFormatUse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.OperationFormatUse.yml) | InSyncHandedBackSuccess | [Details](#c6551abe6cf8b89e576e2b6689799921e5c3bad980824)
+ [fulldocset\System.ServiceModel.Security.Basic192SecurityAlgorithmSuite.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Security.Basic192SecurityAlgorithmSuite.yml) | InSyncHandedBackSuccess | [Details](#5a6cc2f89a1c1ba1186efdd4f264fde06da6796680896)
+ [fulldocset\System.ServiceModel.Security.IssuedTokenClientCredential.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Security.IssuedTokenClientCredential.yml) | InSyncHandedBackSuccess | [Details](#7c0a94bc755d9c87d06195af6b379f48cdaef9f380908)
+ [fulldocset\System.Speech.Recognition.SrgsGrammar.SrgsOneOf.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Speech.Recognition.SrgsGrammar.SrgsOneOf.yml) | InSyncHandedBackSuccess | [Details](#a9d9296b0cb894190f5c7cc35653b36202f4138d81101)
+ [fulldocset\System.Threading.HostExecutionContextManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Threading.HostExecutionContextManager.yml) | InSyncHandedBackSuccess | [Details](#6328e616533c53af0b3eac068e94fe708540ca5281183)
+ [fulldocset\System.Transactions.DependentTransaction.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Transactions.DependentTransaction.yml) | InSyncHandedBackSuccess | [Details](#91b5b3d9a48a7ab24577f5cf25e25ed68303846d81219)
+ [fulldocset\System.Web.UI.Design.ControlDesignerState.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.ControlDesignerState.yml) | InSyncHandedBackSuccess | [Details](#144be46eb317d173cf62ef4ac153bc6c63c96d9682399)
+ [fulldocset\System.Web.UI.Design.ExpressionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.ExpressionEditor.yml) | InSyncHandedBackSuccess | [Details](#7e81921d7bec1292f5fc3b0898fa9cbeeaf69e5e82433)
+ [fulldocset\System.Web.UI.Design.ExtenderControlToolboxItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.ExtenderControlToolboxItem.yml) | InSyncHandedBackSuccess | [Details](#790861de946e3a60c673864d1730113d5a64a4ee82438)
+ [fulldocset\System.Web.UI.Design.IContentResolutionService.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.IContentResolutionService.yml) | InSyncHandedBackSuccess | [Details](#7c67eef57173bbe53ce441f4dafb2e7419764b8382444)
+ [fulldocset\System.Web.UI.Design.TextControlDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.TextControlDesigner.yml) | InSyncHandedBackSuccess | [Details](#24656c7cc287a1b7e04e5acc3e9b272064451a7582500)
+ [fulldocset\System.Web.UI.Design.UpdatePanelTriggerCollectionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.UpdatePanelTriggerCollectionEditor.yml) | InSyncHandedBackSuccess | [Details](#5e1b54ff0f911444983df10b156814f7f01a7ddd82506)
+ [fulldocset\System.Web.UI.Design.WebControls.LoginDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.WebControls.LoginDesigner.yml) | InSyncHandedBackSuccess | [Details](#46be8ee687233a10e782f40f8f7f8b576356664982568)
+ [fulldocset\System.Web.UI.Design.WebControls.ParameterCollectionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.WebControls.ParameterCollectionEditor.yml) | InSyncHandedBackSuccess | [Details](#443caf664c78981418ad2901376bdb2df192119882582)
+ [fulldocset\System.Web.UI.Design.WebControls.SiteMapDesignerDataSourceView.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.WebControls.SiteMapDesignerDataSourceView.yml) | InSyncHandedBackSuccess | [Details](#f1e7bc56707e01a8ad77c712a261caebdf40962182591)
+ [fulldocset\System.Web.UI.IBindableControl.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.IBindableControl.yml) | InSyncHandedBackSuccess | [Details](#9ac1f91b20a39b241391955533054290cd349d1682716)
+ [fulldocset\System.Web.UI.ListSourceHelper.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.ListSourceHelper.yml) | InSyncHandedBackSuccess | [Details](#5e1d6e2baca3866279bcd9ca6544a7d73397326182756)
+ [fulldocset\System.Web.UI.MobileControls.Adapters.ChtmlPageAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.ChtmlPageAdapter.yml) | InSyncHandedBackSuccess | [Details](#9d40ef5be15d0682279110eba7e5aecad7840fc782767)
+ [fulldocset\System.Web.UI.MobileControls.DesignerAdapterAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.DesignerAdapterAttribute.yml) | InSyncHandedBackSuccess | [Details](#d7de560dc5f82c9192f40c1192ae69fec5af3f1e82856)
+ [fulldocset\System.Web.UI.MobileControls.DeviceElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.DeviceElement.yml) | InSyncHandedBackSuccess | [Details](#7de49e8accd530c8eba32e9f9b75ca3483a8991d82857)
+ [fulldocset\System.Web.UI.MobileControls.DeviceElementCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.DeviceElementCollection.yml) | InSyncHandedBackSuccess | [Details](#e5e32a0006dec2a00c093b70e9ce5236723d677f82858)
+ [fulldocset\System.Web.UI.MobileControls.DeviceSpecificChoiceTemplateBuilder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.DeviceSpecificChoiceTemplateBuilder.yml) | InSyncHandedBackSuccess | [Details](#4a8105c2c9c2924ccc75aea7d02b3ef4d66a4bd482864)
+ [fulldocset\System.Web.UI.MobileControls.FontSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.FontSize.yml) | InSyncHandedBackSuccess | [Details](#b5faf21c61ed53bea78b01cc5397750ea70928d382869)
+ [fulldocset\System.Web.UI.MobileControls.IObjectListFieldCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.IObjectListFieldCollection.yml) | InSyncHandedBackSuccess | [Details](#9ef9b040824f001705683e271e342a1202203dd182875)
+ [fulldocset\System.Web.UI.MobileControls.Link.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Link.yml) | InSyncHandedBackSuccess | [Details](#f1b6c09566b5d6ca68cf03466b9d0abb9cb7083d82880)
+ [fulldocset\System.Web.UI.MobileControls.ListControlBuilder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ListControlBuilder.yml) | InSyncHandedBackSuccess | [Details](#38f5195bbf625c4d3e82109861d0e7061ea583fe82884)
+ [fulldocset\System.Web.UI.MobileControls.LoadItemsEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.LoadItemsEventHandler.yml) | InSyncHandedBackSuccess | [Details](#e2da4104ffc0da090fa5f4f9114a07122de8699b82894)
+ [fulldocset\System.Web.UI.MobileControls.MobileControl.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.MobileControl.yml) | InSyncHandedBackSuccess | [Details](#ca5b45869df1482b26fe196c49e54011864e69ce82895)
+ [fulldocset\System.Web.UI.MobileControls.ObjectListCommand.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ObjectListCommand.yml) | InSyncHandedBackSuccess | [Details](#b897dfeb15fc91731601fb7c77182dc3327f595d82906)
+ [fulldocset\System.Web.UI.MobileControls.ObjectListControlBuilder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ObjectListControlBuilder.yml) | InSyncHandedBackSuccess | [Details](#92f95b477c6485b0b86ae2764c60da017c7e6dda82910)
+ [fulldocset\System.Web.UI.MobileControls.ObjectListDataBindEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ObjectListDataBindEventHandler.yml) | InSyncHandedBackSuccess | [Details](#b7d1c2dd1f0aac66fdb37653678bf5073b0a374982912)
+ [fulldocset\System.Web.UI.MobileControls.ObjectListItemCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ObjectListItemCollection.yml) | InSyncHandedBackSuccess | [Details](#030c14c94d2a7598b461e80282677d40a7d76f2582916)
+ [fulldocset\System.Web.UI.MobileControls.Panel.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Panel.yml) | InSyncHandedBackSuccess | [Details](#670de17f359f7b60fb3331765b5ac5a98ae727fe82925)
+ [fulldocset\System.Web.UI.MobileControls.SelectionList.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.SelectionList.yml) | InSyncHandedBackSuccess | [Details](#e292620e6e0a4ceabfb422b0e6143c60d67bac1482932)
+ [fulldocset\System.Web.UI.MobileControls.TemplateContainer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.TemplateContainer.yml) | InSyncHandedBackSuccess | [Details](#195004d5d37e6cc7072011dce11eba63bf71c0db82936)
+ [fulldocset\System.Web.UI.MobileControls.ValidationSummary.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ValidationSummary.yml) | InSyncHandedBackSuccess | [Details](#1bd8a80c2b6ed3076d9a6ebec0878ee12fdbf6bb82942)
+ [fulldocset\System.Web.UI.PageParser.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.PageParser.yml) | InSyncHandedBackSuccess | [Details](#c8b1c41552c47ceebcb8c84dd0f076400db6cb1a82955)
+ [fulldocset\System.Web.UI.PageStatePersister.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.PageStatePersister.yml) | InSyncHandedBackSuccess | [Details](#db59589a9649cbb3311644562225a8f1b0e4770382957)
+ [fulldocset\System.Web.UI.ParseRecorder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.ParseRecorder.yml) | InSyncHandedBackSuccess | [Details](#108653863b2abd02f76c983d9dc898fc5dda806d82961)
+ [fulldocset\System.Web.UI.PostBackOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.PostBackOptions.yml) | InSyncHandedBackSuccess | [Details](#a03326bd2fe5bd690052a4a696dbb49fd883d4e582967)
+ [fulldocset\System.Web.UI.PropertyEntry.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.PropertyEntry.yml) | InSyncHandedBackSuccess | [Details](#ad960e84ff4da62a7568ebdf4048fb62b7212fa482971)
+ [fulldocset\System.Web.UI.RegisteredArrayDeclaration.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.RegisteredArrayDeclaration.yml) | InSyncHandedBackSuccess | [Details](#5dd13f2559298396f68ecd08faa3b84a5bc60bbd82972)
+ [fulldocset\System.Web.UI.WebControls.DetailsViewModeEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewModeEventArgs.yml) | InSyncHandedBackSuccess | [Details](#1c2197fdef8ccf3d181df7b43a68e1d572f356d683173)
 
 ## Item Details
-##### <a name='1735efe52367cf5ebaebac0f753571b88a20c5fb75777'></a> Source: [fulldocset\System.ComponentModel.DefaultBindingPropertyAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.DefaultBindingPropertyAttribute.yml)
+##### <a name='3b1dc3c2f833423c0b430c7a77b786810218254b75793'></a> Source: [fulldocset\System.ComponentModel.Design.ComponentActionsType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.ComponentActionsType.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.DefaultBindingPropertyAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.DefaultBindingPropertyAttribute.yml)
-* Handoff File: [System.ComponentModel.DefaultBindingPropertyAttribute.1639dd357b2912db6751117324f482b9b4b0c4a8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.DefaultBindingPropertyAttribute.1639dd357b2912db6751117324f482b9b4b0c4a8.nb-no.xlf)
+* Target File: [fulldocset\System.ComponentModel.Design.ComponentActionsType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ComponentModel.Design.ComponentActionsType.yml)
+* Handoff File: [System.ComponentModel.Design.ComponentActionsType.c4b2d569bb3aa587345dbe21c475f04e79249178.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.ComponentActionsType.c4b2d569bb3aa587345dbe21c475f04e79249178.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.DefaultBindingPropertyAttribute.1639dd357b2912db6751117324f482b9b4b0c4a8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.DefaultBindingPropertyAttribute.1639dd357b2912db6751117324f482b9b4b0c4a8.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ComponentModel.Design.ComponentActionsType.c4b2d569bb3aa587345dbe21c475f04e79249178.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.ComponentActionsType.c4b2d569bb3aa587345dbe21c475f04e79249178.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='4138816f5f1d7be309d5ab88b4319ac1d189adcf75788'></a> Source: [fulldocset\System.ComponentModel.Design.ByteViewer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.ByteViewer.yml)
+##### <a name='4be5f91af73083f034c3cc387e1a30103d299b8f75856'></a> Source: [fulldocset\System.ComponentModel.Design.DesigntimeLicenseContextSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.DesigntimeLicenseContextSerializer.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.Design.ByteViewer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.Design.ByteViewer.yml)
-* Handoff File: [System.ComponentModel.Design.ByteViewer.2984ae7f7db8756f9ca17c141b4356c76b9489e7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.ByteViewer.2984ae7f7db8756f9ca17c141b4356c76b9489e7.nb-no.xlf)
+* Target File: [fulldocset\System.ComponentModel.Design.DesigntimeLicenseContextSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ComponentModel.Design.DesigntimeLicenseContextSerializer.yml)
+* Handoff File: [System.ComponentModel.Design.DesigntimeLicenseContextSerializer.b0a3ea771f894a59ef1713ea43f15dda8c2b9322.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.DesigntimeLicenseContextSerializer.b0a3ea771f894a59ef1713ea43f15dda8c2b9322.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.ComponentModel.Design.DesigntimeLicenseContextSerializer.b0a3ea771f894a59ef1713ea43f15dda8c2b9322.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.DesigntimeLicenseContextSerializer.b0a3ea771f894a59ef1713ea43f15dda8c2b9322.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='d4144b2fe7ed1cb9a4de7c961c07f07e3664602875886'></a> Source: [fulldocset\System.ComponentModel.Design.IRootDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.IRootDesigner.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.ComponentModel.Design.IRootDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ComponentModel.Design.IRootDesigner.yml)
+* Handoff File: [System.ComponentModel.Design.IRootDesigner.204f8bead4e6f1dd5817849823ec7c8e515a6769.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.IRootDesigner.204f8bead4e6f1dd5817849823ec7c8e515a6769.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.ComponentModel.Design.IRootDesigner.204f8bead4e6f1dd5817849823ec7c8e515a6769.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.IRootDesigner.204f8bead4e6f1dd5817849823ec7c8e515a6769.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='eac654b9933be5f9647c593cbc832297977e4f4875915'></a> Source: [fulldocset\System.ComponentModel.Design.Serialization.CodeDomSerializerException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.CodeDomSerializerException.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.ComponentModel.Design.Serialization.CodeDomSerializerException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ComponentModel.Design.Serialization.CodeDomSerializerException.yml)
+* Handoff File: [System.ComponentModel.Design.Serialization.CodeDomSerializerExceptio.6bd4133c1fe4189d773150b6b987c2d25ccdfae0.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.CodeDomSerializerExceptio.6bd4133c1fe4189d773150b6b987c2d25ccdfae0.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.Design.ByteViewer.2984ae7f7db8756f9ca17c141b4356c76b9489e7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.ByteViewer.2984ae7f7db8756f9ca17c141b4356c76b9489e7.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ComponentModel.Design.Serialization.CodeDomSerializerExceptio.6bd4133c1fe4189d773150b6b987c2d25ccdfae0.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.CodeDomSerializerExceptio.6bd4133c1fe4189d773150b6b987c2d25ccdfae0.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='025c836e82812ca99e2537a7c5c71d9d3cf1d05f75791'></a> Source: [fulldocset\System.ComponentModel.Design.CollectionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.CollectionEditor.yml)
+##### <a name='32cf9024eb5269bd4cd9fe7f3fda6f5bc42a2ba875919'></a> Source: [fulldocset\System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.Design.CollectionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.Design.CollectionEditor.yml)
-* Handoff File: [System.ComponentModel.Design.CollectionEditor.2aec13bcd5c3d814574f2821dcb5ff357bcf046d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.CollectionEditor.2aec13bcd5c3d814574f2821dcb5ff357bcf046d.nb-no.xlf)
+* Target File: [fulldocset\System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute.yml)
+* Handoff File: [System.ComponentModel.Design.Serialization.DefaultSerializationProvi.382e658997b1cc3ac3e57056ecc306a3725f701e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.DefaultSerializationProvi.382e658997b1cc3ac3e57056ecc306a3725f701e.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.Design.CollectionEditor.2aec13bcd5c3d814574f2821dcb5ff357bcf046d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.CollectionEditor.2aec13bcd5c3d814574f2821dcb5ff357bcf046d.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ComponentModel.Design.Serialization.DefaultSerializationProvi.382e658997b1cc3ac3e57056ecc306a3725f701e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.DefaultSerializationProvi.382e658997b1cc3ac3e57056ecc306a3725f701e.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='a21757f38f33dbc3a4b7281542ba76dc0927c6c475803'></a> Source: [fulldocset\System.ComponentModel.Design.ComponentRenameEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.ComponentRenameEventHandler.yml)
+##### <a name='5aa1e18d4a52b5f1a174ea6a839c308ac49baf4875931'></a> Source: [fulldocset\System.ComponentModel.Design.Serialization.INameCreationService.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.INameCreationService.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.Design.ComponentRenameEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.Design.ComponentRenameEventHandler.yml)
-* Handoff File: [System.ComponentModel.Design.ComponentRenameEventHandler.ad82ea8c8343f200cc96105e87fcc333c1aaf7f9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.ComponentRenameEventHandler.ad82ea8c8343f200cc96105e87fcc333c1aaf7f9.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.Design.ComponentRenameEventHandler.ad82ea8c8343f200cc96105e87fcc333c1aaf7f9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.ComponentRenameEventHandler.ad82ea8c8343f200cc96105e87fcc333c1aaf7f9.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='503e3fbbe9721d3603b3f6299543a8ec25e4ecd875846'></a> Source: [fulldocset\System.ComponentModel.Design.DesignerTransactionCloseEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.DesignerTransactionCloseEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.Design.DesignerTransactionCloseEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.Design.DesignerTransactionCloseEventArgs.yml)
-* Handoff File: [System.ComponentModel.Design.DesignerTransactionCloseEventArgs.9ee2ea016d40ef30c47597e82530b046c7c809f9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.DesignerTransactionCloseEventArgs.9ee2ea016d40ef30c47597e82530b046c7c809f9.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.Design.DesignerTransactionCloseEventArgs.9ee2ea016d40ef30c47597e82530b046c7c809f9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.DesignerTransactionCloseEventArgs.9ee2ea016d40ef30c47597e82530b046c7c809f9.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='409d491cebaa68b7e4fbb4b7a14c931aa4ad149e75852'></a> Source: [fulldocset\System.ComponentModel.Design.DesignSurfaceEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.DesignSurfaceEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.Design.DesignSurfaceEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.Design.DesignSurfaceEventArgs.yml)
-* Handoff File: [System.ComponentModel.Design.DesignSurfaceEventArgs.0ff6f2d5495adb8d45f9b17f6420f617deeb481f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.DesignSurfaceEventArgs.0ff6f2d5495adb8d45f9b17f6420f617deeb481f.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.Design.DesignSurfaceEventArgs.0ff6f2d5495adb8d45f9b17f6420f617deeb481f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.DesignSurfaceEventArgs.0ff6f2d5495adb8d45f9b17f6420f617deeb481f.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='dbe3038dbd6853d5b2ffd171a900755dfb7aaa0575854'></a> Source: [fulldocset\System.ComponentModel.Design.DesignSurfaceManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.DesignSurfaceManager.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.Design.DesignSurfaceManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.Design.DesignSurfaceManager.yml)
-* Handoff File: [System.ComponentModel.Design.DesignSurfaceManager.662ccac997f13d1b0cc0ec863dbe272ab91dd74c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.DesignSurfaceManager.662ccac997f13d1b0cc0ec863dbe272ab91dd74c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.Design.DesignSurfaceManager.662ccac997f13d1b0cc0ec863dbe272ab91dd74c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.DesignSurfaceManager.662ccac997f13d1b0cc0ec863dbe272ab91dd74c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='95abec0f7ae86101efa4e34bfcf5dfcea76d95fc75857'></a> Source: [fulldocset\System.ComponentModel.Design.DisplayMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.DisplayMode.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.Design.DisplayMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.Design.DisplayMode.yml)
-* Handoff File: [System.ComponentModel.Design.DisplayMode.f80ac2320b80ba51ec03331b26001295f6eae92e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.DisplayMode.f80ac2320b80ba51ec03331b26001295f6eae92e.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.Design.DisplayMode.f80ac2320b80ba51ec03331b26001295f6eae92e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.DisplayMode.f80ac2320b80ba51ec03331b26001295f6eae92e.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='ecb29fdd17e279a81174102221b8f9bc0721274875926'></a> Source: [fulldocset\System.ComponentModel.Design.Serialization.IDesignerLoaderHost2.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.IDesignerLoaderHost2.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.Design.Serialization.IDesignerLoaderHost2.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.Design.Serialization.IDesignerLoaderHost2.yml)
-* Handoff File: [System.ComponentModel.Design.Serialization.IDesignerLoaderHost2.522d6f98a7ca54395729a83c30dd863e33bb4878.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.IDesignerLoaderHost2.522d6f98a7ca54395729a83c30dd863e33bb4878.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.Design.Serialization.IDesignerLoaderHost2.522d6f98a7ca54395729a83c30dd863e33bb4878.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.IDesignerLoaderHost2.522d6f98a7ca54395729a83c30dd863e33bb4878.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='c94d7e68337823c3d10b457e08fe4f82d8b8a82c75939'></a> Source: [fulldocset\System.ComponentModel.Design.Serialization.RootContext.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.RootContext.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.Design.Serialization.RootContext.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.Design.Serialization.RootContext.yml)
-* Handoff File: [System.ComponentModel.Design.Serialization.RootContext.c1ac80f6079937fad24db92b9c0a83ca0c05982a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.RootContext.c1ac80f6079937fad24db92b9c0a83ca0c05982a.nb-no.xlf)
+* Target File: [fulldocset\System.ComponentModel.Design.Serialization.INameCreationService.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ComponentModel.Design.Serialization.INameCreationService.yml)
+* Handoff File: [System.ComponentModel.Design.Serialization.INameCreationService.cbf4ffb4e56dbf41715f814676516f830b716042.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.INameCreationService.cbf4ffb4e56dbf41715f814676516f830b716042.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.Design.Serialization.RootContext.c1ac80f6079937fad24db92b9c0a83ca0c05982a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.RootContext.c1ac80f6079937fad24db92b9c0a83ca0c05982a.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ComponentModel.Design.Serialization.INameCreationService.cbf4ffb4e56dbf41715f814676516f830b716042.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.INameCreationService.cbf4ffb4e56dbf41715f814676516f830b716042.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='6b7ca954c29142256bed786fd670e377911bfb8e75980'></a> Source: [fulldocset\System.ComponentModel.ICollectionViewFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.ICollectionViewFactory.yml)
+##### <a name='24b48686cb614e83a60967d0e0bf3f7bbb6d1b7a75942'></a> Source: [fulldocset\System.ComponentModel.Design.Serialization.SerializeAbsoluteContext.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.Design.Serialization.SerializeAbsoluteContext.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.ICollectionViewFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.ICollectionViewFactory.yml)
-* Handoff File: [System.ComponentModel.ICollectionViewFactory.1f949f7e5a05dc6048d52069772aafc7a88ce582.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.ICollectionViewFactory.1f949f7e5a05dc6048d52069772aafc7a88ce582.nb-no.xlf)
+* Target File: [fulldocset\System.ComponentModel.Design.Serialization.SerializeAbsoluteContext.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ComponentModel.Design.Serialization.SerializeAbsoluteContext.yml)
+* Handoff File: [System.ComponentModel.Design.Serialization.SerializeAbsoluteContext.99a2c2887218f6f18eeb1f8f24c93e8330244a73.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.SerializeAbsoluteContext.99a2c2887218f6f18eeb1f8f24c93e8330244a73.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.ICollectionViewFactory.1f949f7e5a05dc6048d52069772aafc7a88ce582.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.ICollectionViewFactory.1f949f7e5a05dc6048d52069772aafc7a88ce582.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ComponentModel.Design.Serialization.SerializeAbsoluteContext.99a2c2887218f6f18eeb1f8f24c93e8330244a73.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.Design.Serialization.SerializeAbsoluteContext.99a2c2887218f6f18eeb1f8f24c93e8330244a73.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='de47a7105d2d2698e004a174ce78fee4c2dc942076008'></a> Source: [fulldocset\System.ComponentModel.ISupportInitialize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.ISupportInitialize.yml)
+##### <a name='49f1a61cc7713093703720743011d3a8b03f539b76027'></a> Source: [fulldocset\System.ComponentModel.ListSortDescriptionCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.ListSortDescriptionCollection.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.ISupportInitialize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.ISupportInitialize.yml)
-* Handoff File: [System.ComponentModel.ISupportInitialize.f0c127eaa95bd83d50c6579e4f6e7e4455204da1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.ISupportInitialize.f0c127eaa95bd83d50c6579e4f6e7e4455204da1.nb-no.xlf)
+* Target File: [fulldocset\System.ComponentModel.ListSortDescriptionCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ComponentModel.ListSortDescriptionCollection.yml)
+* Handoff File: [System.ComponentModel.ListSortDescriptionCollection.1917f9e177b951a5eb8d349a15ac1bd3a36e0d77.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.ListSortDescriptionCollection.1917f9e177b951a5eb8d349a15ac1bd3a36e0d77.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.ComponentModel.ListSortDescriptionCollection.1917f9e177b951a5eb8d349a15ac1bd3a36e0d77.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.ListSortDescriptionCollection.1917f9e177b951a5eb8d349a15ac1bd3a36e0d77.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='7dc1f36798159a6e997fd9ebb83de5f55c4dde0f76044'></a> Source: [fulldocset\System.ComponentModel.PropertyDescriptor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.PropertyDescriptor.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.ComponentModel.PropertyDescriptor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ComponentModel.PropertyDescriptor.yml)
+* Handoff File: [System.ComponentModel.PropertyDescriptor.0d0b8c72bbd4e4963235c6b89e039bd4cbcc45d3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.PropertyDescriptor.0d0b8c72bbd4e4963235c6b89e039bd4cbcc45d3.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.ComponentModel.PropertyDescriptor.0d0b8c72bbd4e4963235c6b89e039bd4cbcc45d3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.PropertyDescriptor.0d0b8c72bbd4e4963235c6b89e039bd4cbcc45d3.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='a91567c100e7d83e4fc76cbe8d9cf5d954d2edab76096'></a> Source: [fulldocset\System.Configuration.CommaDelimitedStringCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.CommaDelimitedStringCollection.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Configuration.CommaDelimitedStringCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Configuration.CommaDelimitedStringCollection.yml)
+* Handoff File: [System.Configuration.CommaDelimitedStringCollection.adce01f88ed8c198c6766e7275955863d43fbebc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.CommaDelimitedStringCollection.adce01f88ed8c198c6766e7275955863d43fbebc.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Configuration.CommaDelimitedStringCollection.adce01f88ed8c198c6766e7275955863d43fbebc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.CommaDelimitedStringCollection.adce01f88ed8c198c6766e7275955863d43fbebc.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='d2a5c1d6d94648f0aa427c18dd792a51f81970a076146'></a> Source: [fulldocset\System.Configuration.IdnElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.IdnElement.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Configuration.IdnElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Configuration.IdnElement.yml)
+* Handoff File: [System.Configuration.IdnElement.e4f4f01b066c85a559b5018fe37102bd5e8a1964.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.IdnElement.e4f4f01b066c85a559b5018fe37102bd5e8a1964.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Configuration.IdnElement.e4f4f01b066c85a559b5018fe37102bd5e8a1964.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.IdnElement.e4f4f01b066c85a559b5018fe37102bd5e8a1964.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='76b2d8ab6d487a66a3e21b22ce2d08b90b2e258576173'></a> Source: [fulldocset\System.Configuration.Internal.IInternalConfigHost.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.Internal.IInternalConfigHost.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Configuration.Internal.IInternalConfigHost.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Configuration.Internal.IInternalConfigHost.yml)
+* Handoff File: [System.Configuration.Internal.IInternalConfigHost.39f99ad0e62a4c1f184d955059e304dd7cc7721a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.Internal.IInternalConfigHost.39f99ad0e62a4c1f184d955059e304dd7cc7721a.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Configuration.Internal.IInternalConfigHost.39f99ad0e62a4c1f184d955059e304dd7cc7721a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.Internal.IInternalConfigHost.39f99ad0e62a4c1f184d955059e304dd7cc7721a.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='5de4b4912582fdb52003c8d81e64a84a9f856a9a76223'></a> Source: [fulldocset\System.Configuration.SettingsAttributeDictionary.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.SettingsAttributeDictionary.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Configuration.SettingsAttributeDictionary.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Configuration.SettingsAttributeDictionary.yml)
+* Handoff File: [System.Configuration.SettingsAttributeDictionary.54a7f635d47bbf0ba63b9f6ca0ca1ae2f26aaa3a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.SettingsAttributeDictionary.54a7f635d47bbf0ba63b9f6ca0ca1ae2f26aaa3a.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.ISupportInitialize.f0c127eaa95bd83d50c6579e4f6e7e4455204da1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.ISupportInitialize.f0c127eaa95bd83d50c6579e4f6e7e4455204da1.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Configuration.SettingsAttributeDictionary.54a7f635d47bbf0ba63b9f6ca0ca1ae2f26aaa3a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.SettingsAttributeDictionary.54a7f635d47bbf0ba63b9f6ca0ca1ae2f26aaa3a.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='ba61a7015428a4a7985caaa49f2c5086d001a86076028'></a> Source: [fulldocset\System.ComponentModel.ListSortDirection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.ListSortDirection.yml)
+##### <a name='82b2a7275a8241483ea9e5a23ce93351591ee71d76244'></a> Source: [fulldocset\System.Configuration.SettingsSerializeAs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.SettingsSerializeAs.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.ListSortDirection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.ListSortDirection.yml)
-* Handoff File: [System.ComponentModel.ListSortDirection.75d8ae917cc2f46bbde00cc804f4b1c630276153.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.ListSortDirection.75d8ae917cc2f46bbde00cc804f4b1c630276153.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.ListSortDirection.75d8ae917cc2f46bbde00cc804f4b1c630276153.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.ListSortDirection.75d8ae917cc2f46bbde00cc804f4b1c630276153.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='db1479ea5df8a2618a8803e1e74cfb3d413bac3776054'></a> Source: [fulldocset\System.ComponentModel.RefreshEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.RefreshEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.RefreshEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.RefreshEventArgs.yml)
-* Handoff File: [System.ComponentModel.RefreshEventArgs.cab284a085841485b05e172ad217b4d8b6d1b58c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.RefreshEventArgs.cab284a085841485b05e172ad217b4d8b6d1b58c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.RefreshEventArgs.cab284a085841485b05e172ad217b4d8b6d1b58c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.RefreshEventArgs.cab284a085841485b05e172ad217b4d8b6d1b58c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='cf7986c8595b38251ed82df5517ef0ea9f00970176066'></a> Source: [fulldocset\System.ComponentModel.TimeSpanConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.TimeSpanConverter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.TimeSpanConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.TimeSpanConverter.yml)
-* Handoff File: [System.ComponentModel.TimeSpanConverter.ca2249f082d995e5879ae57f73da627830e9c707.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.TimeSpanConverter.ca2249f082d995e5879ae57f73da627830e9c707.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.TimeSpanConverter.ca2249f082d995e5879ae57f73da627830e9c707.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.TimeSpanConverter.ca2249f082d995e5879ae57f73da627830e9c707.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='ed68e443378fb12f339584c0cebed5cab48f1ed876078'></a> Source: [fulldocset\System.ComponentModel.UInt16Converter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ComponentModel.UInt16Converter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ComponentModel.UInt16Converter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ComponentModel.UInt16Converter.yml)
-* Handoff File: [System.ComponentModel.UInt16Converter.59b7cb2bf9cb6ecdc0c8b594ef256c44c29749d3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.UInt16Converter.59b7cb2bf9cb6ecdc0c8b594ef256c44c29749d3.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ComponentModel.UInt16Converter.59b7cb2bf9cb6ecdc0c8b594ef256c44c29749d3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ComponentModel.UInt16Converter.59b7cb2bf9cb6ecdc0c8b594ef256c44c29749d3.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='23e8790a725e2aa568ac7b52d65277d21f5432f676091'></a> Source: [fulldocset\System.Configuration.Assemblies.AssemblyVersionCompatibility.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.Assemblies.AssemblyVersionCompatibility.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Configuration.Assemblies.AssemblyVersionCompatibility.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Configuration.Assemblies.AssemblyVersionCompatibility.yml)
-* Handoff File: [System.Configuration.Assemblies.AssemblyVersionCompatibility.c6aea02b88c26af8b839974933ec7e41693fe312.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.Assemblies.AssemblyVersionCompatibility.c6aea02b88c26af8b839974933ec7e41693fe312.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Configuration.Assemblies.AssemblyVersionCompatibility.c6aea02b88c26af8b839974933ec7e41693fe312.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.Assemblies.AssemblyVersionCompatibility.c6aea02b88c26af8b839974933ec7e41693fe312.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='49f5a9ff64806d9181e44f41e0889d30b96dc58d76097'></a> Source: [fulldocset\System.Configuration.CommaDelimitedStringCollectionConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.CommaDelimitedStringCollectionConverter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Configuration.CommaDelimitedStringCollectionConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Configuration.CommaDelimitedStringCollectionConverter.yml)
-* Handoff File: [System.Configuration.CommaDelimitedStringCollectionConverter.1944fd283050f5eb0930ef5ca43b00348580f2f7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.CommaDelimitedStringCollectionConverter.1944fd283050f5eb0930ef5ca43b00348580f2f7.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Configuration.CommaDelimitedStringCollectionConverter.1944fd283050f5eb0930ef5ca43b00348580f2f7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.CommaDelimitedStringCollectionConverter.1944fd283050f5eb0930ef5ca43b00348580f2f7.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='2f05d22fd1170f365297d9040393847592c595d076127'></a> Source: [fulldocset\System.Configuration.ConfigurationValidatorAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.ConfigurationValidatorAttribute.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Configuration.ConfigurationValidatorAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Configuration.ConfigurationValidatorAttribute.yml)
-* Handoff File: [System.Configuration.ConfigurationValidatorAttribute.7cdb098463b835aabf2754b78479409b13d70bd8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.ConfigurationValidatorAttribute.7cdb098463b835aabf2754b78479409b13d70bd8.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Configuration.ConfigurationValidatorAttribute.7cdb098463b835aabf2754b78479409b13d70bd8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.ConfigurationValidatorAttribute.7cdb098463b835aabf2754b78479409b13d70bd8.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='c1caddefc051441c21baafc8a68f0c2397e6f96a76128'></a> Source: [fulldocset\System.Configuration.ConfigurationValidatorBase.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.ConfigurationValidatorBase.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Configuration.ConfigurationValidatorBase.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Configuration.ConfigurationValidatorBase.yml)
-* Handoff File: [System.Configuration.ConfigurationValidatorBase.98cdd9eb7b5477e815fffc52458177b73cf4e553.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.ConfigurationValidatorBase.98cdd9eb7b5477e815fffc52458177b73cf4e553.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Configuration.ConfigurationValidatorBase.98cdd9eb7b5477e815fffc52458177b73cf4e553.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.ConfigurationValidatorBase.98cdd9eb7b5477e815fffc52458177b73cf4e553.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='f2c2271f42af936bbc866f0835da5b8852063abd76129'></a> Source: [fulldocset\System.Configuration.ConfigXmlDocument.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.ConfigXmlDocument.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Configuration.ConfigXmlDocument.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Configuration.ConfigXmlDocument.yml)
-* Handoff File: [System.Configuration.ConfigXmlDocument.135ac50f582bbb773ef19e5599715dd4e4497d13.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.ConfigXmlDocument.135ac50f582bbb773ef19e5599715dd4e4497d13.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Configuration.ConfigXmlDocument.135ac50f582bbb773ef19e5599715dd4e4497d13.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.ConfigXmlDocument.135ac50f582bbb773ef19e5599715dd4e4497d13.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='7ec2150bae1fa2c883c1d196696106fcfdb6260276141'></a> Source: [fulldocset\System.Configuration.ExeContext.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.ExeContext.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Configuration.ExeContext.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Configuration.ExeContext.yml)
-* Handoff File: [System.Configuration.ExeContext.7089a089e3ea3bd222c30be4574a98a63268fe4b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.ExeContext.7089a089e3ea3bd222c30be4574a98a63268fe4b.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Configuration.ExeContext.7089a089e3ea3bd222c30be4574a98a63268fe4b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.ExeContext.7089a089e3ea3bd222c30be4574a98a63268fe4b.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='124804b0270ba49fff4a5abf88d5043e108dd64576204'></a> Source: [fulldocset\System.Configuration.ProtectedConfigurationSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.ProtectedConfigurationSection.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Configuration.ProtectedConfigurationSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Configuration.ProtectedConfigurationSection.yml)
-* Handoff File: [System.Configuration.ProtectedConfigurationSection.83471ca4a5ce486725861fd34394486859a931d6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.ProtectedConfigurationSection.83471ca4a5ce486725861fd34394486859a931d6.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Configuration.ProtectedConfigurationSection.83471ca4a5ce486725861fd34394486859a931d6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.ProtectedConfigurationSection.83471ca4a5ce486725861fd34394486859a931d6.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='903082b1bd88fb30bb0bdffe7dde857a7f5a671876234'></a> Source: [fulldocset\System.Configuration.SettingsPropertyCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.SettingsPropertyCollection.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Configuration.SettingsPropertyCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Configuration.SettingsPropertyCollection.yml)
-* Handoff File: [System.Configuration.SettingsPropertyCollection.24105f143fef0c9a8974b2d547b0bbf8d57dce18.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.SettingsPropertyCollection.24105f143fef0c9a8974b2d547b0bbf8d57dce18.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Configuration.SettingsPropertyCollection.24105f143fef0c9a8974b2d547b0bbf8d57dce18.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.SettingsPropertyCollection.24105f143fef0c9a8974b2d547b0bbf8d57dce18.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='dc82cf81504663c1f43902362aea97fb5b0883ee76253'></a> Source: [fulldocset\System.Configuration.SubclassTypeValidatorAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Configuration.SubclassTypeValidatorAttribute.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Configuration.SubclassTypeValidatorAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Configuration.SubclassTypeValidatorAttribute.yml)
-* Handoff File: [System.Configuration.SubclassTypeValidatorAttribute.86a21ecb5e527285245eff32cac52d902601f278.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.SubclassTypeValidatorAttribute.86a21ecb5e527285245eff32cac52d902601f278.nb-no.xlf)
+* Target File: [fulldocset\System.Configuration.SettingsSerializeAs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Configuration.SettingsSerializeAs.yml)
+* Handoff File: [System.Configuration.SettingsSerializeAs.e84e00854c59ffec5e5016ec4ec0d70d5a379999.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.SettingsSerializeAs.e84e00854c59ffec5e5016ec4ec0d70d5a379999.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Configuration.SubclassTypeValidatorAttribute.86a21ecb5e527285245eff32cac52d902601f278.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.SubclassTypeValidatorAttribute.86a21ecb5e527285245eff32cac52d902601f278.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Configuration.SettingsSerializeAs.e84e00854c59ffec5e5016ec4ec0d70d5a379999.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Configuration.SettingsSerializeAs.e84e00854c59ffec5e5016ec4ec0d70d5a379999.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='be7e3fcab6ec4b7589edea85901fca12e09fc0f977289'></a> Source: [fulldocset\System.DirectoryServices.AccountManagement.AdvancedFilters.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.AccountManagement.AdvancedFilters.yml)
+##### <a name='d10d5b20a51d64e13db911ccebe5e8a63e30a9c177279'></a> Source: [fulldocset\System.Diagnostics.TraceLogRetentionOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Diagnostics.TraceLogRetentionOption.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.DirectoryServices.AccountManagement.AdvancedFilters.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.DirectoryServices.AccountManagement.AdvancedFilters.yml)
-* Handoff File: [System.DirectoryServices.AccountManagement.AdvancedFilters.0c54da5e7787be3eb74edf07a9298053e39373d4.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.AccountManagement.AdvancedFilters.0c54da5e7787be3eb74edf07a9298053e39373d4.nb-no.xlf)
+* Target File: [fulldocset\System.Diagnostics.TraceLogRetentionOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Diagnostics.TraceLogRetentionOption.yml)
+* Handoff File: [System.Diagnostics.TraceLogRetentionOption.d84f0570e0297051de38a494e4e3761b6ff15b56.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Diagnostics.TraceLogRetentionOption.d84f0570e0297051de38a494e4e3761b6ff15b56.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.DirectoryServices.AccountManagement.AdvancedFilters.0c54da5e7787be3eb74edf07a9298053e39373d4.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.AccountManagement.AdvancedFilters.0c54da5e7787be3eb74edf07a9298053e39373d4.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Diagnostics.TraceLogRetentionOption.d84f0570e0297051de38a494e4e3761b6ff15b56.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Diagnostics.TraceLogRetentionOption.d84f0570e0297051de38a494e4e3761b6ff15b56.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='9ad2618c4ffc23d19c135c92153c978ae87ddb1e77300'></a> Source: [fulldocset\System.DirectoryServices.AccountManagement.MatchType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.AccountManagement.MatchType.yml)
+##### <a name='14b7bca29e289d61528e9950d4a9ff6472f003d877329'></a> Source: [fulldocset\System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaPropertyCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaPropertyCollection.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.DirectoryServices.AccountManagement.MatchType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.DirectoryServices.AccountManagement.MatchType.yml)
-* Handoff File: [System.DirectoryServices.AccountManagement.MatchType.064c7f2751341a89cbf98776fd0270ee2699f576.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.AccountManagement.MatchType.064c7f2751341a89cbf98776fd0270ee2699f576.nb-no.xlf)
+* Target File: [fulldocset\System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaPropertyCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaPropertyCollection.yml)
+* Handoff File: [System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProper.dd5a5c2dee67f576b0422b2733e7df1f6a020e99.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProper.dd5a5c2dee67f576b0422b2733e7df1f6a020e99.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.DirectoryServices.AccountManagement.MatchType.064c7f2751341a89cbf98776fd0270ee2699f576.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.AccountManagement.MatchType.064c7f2751341a89cbf98776fd0270ee2699f576.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProper.dd5a5c2dee67f576b0422b2733e7df1f6a020e99.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProper.dd5a5c2dee67f576b0422b2733e7df1f6a020e99.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='bb321fc2f909c9883c85bfeefc9be9e9ab20d62e77328'></a> Source: [fulldocset\System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProperty.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProperty.yml)
+##### <a name='e58011e3069a285208d86a9cb5624d39bf6e95b177406'></a> Source: [fulldocset\System.DirectoryServices.ActiveDirectory.TopLevelName.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.TopLevelName.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProperty.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProperty.yml)
-* Handoff File: [System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProper.a43356bde9b2818ef683f6e34dc8ab591ad806b8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProper.a43356bde9b2818ef683f6e34dc8ab591ad806b8.nb-no.xlf)
+* Target File: [fulldocset\System.DirectoryServices.ActiveDirectory.TopLevelName.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.DirectoryServices.ActiveDirectory.TopLevelName.yml)
+* Handoff File: [System.DirectoryServices.ActiveDirectory.TopLevelName.ef370aa2b73338067c2e177a169f34551fb5d011.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.TopLevelName.ef370aa2b73338067c2e177a169f34551fb5d011.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProper.a43356bde9b2818ef683f6e34dc8ab591ad806b8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.ActiveDirectorySchemaProper.a43356bde9b2818ef683f6e34dc8ab591ad806b8.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.DirectoryServices.ActiveDirectory.TopLevelName.ef370aa2b73338067c2e177a169f34551fb5d011.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.TopLevelName.ef370aa2b73338067c2e177a169f34551fb5d011.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='0309b674259c798023150dc7466999adf1150fcb77363'></a> Source: [fulldocset\System.DirectoryServices.ActiveDirectory.ForestTrustCollisionType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.ForestTrustCollisionType.yml)
+##### <a name='997ed8c890b6909494d66a554f65aa1a88124c9877409'></a> Source: [fulldocset\System.DirectoryServices.ActiveDirectory.TopLevelNameStatus.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.TopLevelNameStatus.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.DirectoryServices.ActiveDirectory.ForestTrustCollisionType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.DirectoryServices.ActiveDirectory.ForestTrustCollisionType.yml)
-* Handoff File: [System.DirectoryServices.ActiveDirectory.ForestTrustCollisionType.5006e9fa29f93f0df91e48a87603e82d364dec5b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.ForestTrustCollisionType.5006e9fa29f93f0df91e48a87603e82d364dec5b.nb-no.xlf)
+* Target File: [fulldocset\System.DirectoryServices.ActiveDirectory.TopLevelNameStatus.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.DirectoryServices.ActiveDirectory.TopLevelNameStatus.yml)
+* Handoff File: [System.DirectoryServices.ActiveDirectory.TopLevelNameStatus.18bf7f8de1417581e879882c45ace58d2d6d1287.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.TopLevelNameStatus.18bf7f8de1417581e879882c45ace58d2d6d1287.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.DirectoryServices.ActiveDirectory.ForestTrustCollisionType.5006e9fa29f93f0df91e48a87603e82d364dec5b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.ForestTrustCollisionType.5006e9fa29f93f0df91e48a87603e82d364dec5b.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.DirectoryServices.ActiveDirectory.TopLevelNameStatus.18bf7f8de1417581e879882c45ace58d2d6d1287.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.TopLevelNameStatus.18bf7f8de1417581e879882c45ace58d2d6d1287.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='66e2c6b10af06c0d278fb5fc426cbfeb2950c8cd77372'></a> Source: [fulldocset\System.DirectoryServices.ActiveDirectory.HourOfDay.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.ActiveDirectory.HourOfDay.yml)
+##### <a name='411f5aa757ba23966964289aa6b95260dbafe10e77424'></a> Source: [fulldocset\System.DirectoryServices.DereferenceAlias.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.DereferenceAlias.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.DirectoryServices.ActiveDirectory.HourOfDay.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.DirectoryServices.ActiveDirectory.HourOfDay.yml)
-* Handoff File: [System.DirectoryServices.ActiveDirectory.HourOfDay.8670acf96c0a514ccc4de9f9173fa1350cb37a56.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.HourOfDay.8670acf96c0a514ccc4de9f9173fa1350cb37a56.nb-no.xlf)
+* Target File: [fulldocset\System.DirectoryServices.DereferenceAlias.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.DirectoryServices.DereferenceAlias.yml)
+* Handoff File: [System.DirectoryServices.DereferenceAlias.a99a02dc31b67a80aee1a366461dc95fd397f976.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.DereferenceAlias.a99a02dc31b67a80aee1a366461dc95fd397f976.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.DirectoryServices.ActiveDirectory.HourOfDay.8670acf96c0a514ccc4de9f9173fa1350cb37a56.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.ActiveDirectory.HourOfDay.8670acf96c0a514ccc4de9f9173fa1350cb37a56.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.DirectoryServices.DereferenceAlias.a99a02dc31b67a80aee1a366461dc95fd397f976.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.DereferenceAlias.a99a02dc31b67a80aee1a366461dc95fd397f976.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='874143722f867b2dda4139af5d8f98919136f0dc77447'></a> Source: [fulldocset\System.DirectoryServices.PropertySetAccessRule.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.PropertySetAccessRule.yml)
+##### <a name='db866d9f514590e7d719a9cb630124e82be1262477460'></a> Source: [fulldocset\System.DirectoryServices.Protocols.DeleteResponse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.Protocols.DeleteResponse.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.DirectoryServices.PropertySetAccessRule.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.DirectoryServices.PropertySetAccessRule.yml)
-* Handoff File: [System.DirectoryServices.PropertySetAccessRule.b0bd7d09c8bca4fe640e75fc9b53bc2f62f74f7a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.PropertySetAccessRule.b0bd7d09c8bca4fe640e75fc9b53bc2f62f74f7a.nb-no.xlf)
+* Target File: [fulldocset\System.DirectoryServices.Protocols.DeleteResponse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.DirectoryServices.Protocols.DeleteResponse.yml)
+* Handoff File: [System.DirectoryServices.Protocols.DeleteResponse.4447c580becc9d25e24f0e1474ea8a2b597b1710.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.Protocols.DeleteResponse.4447c580becc9d25e24f0e1474ea8a2b597b1710.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.DirectoryServices.PropertySetAccessRule.b0bd7d09c8bca4fe640e75fc9b53bc2f62f74f7a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.PropertySetAccessRule.b0bd7d09c8bca4fe640e75fc9b53bc2f62f74f7a.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.DirectoryServices.Protocols.DeleteResponse.4447c580becc9d25e24f0e1474ea8a2b597b1710.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.Protocols.DeleteResponse.4447c580becc9d25e24f0e1474ea8a2b597b1710.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='4a79b312f3c846096183ef26ae7970a68fc0432c77457'></a> Source: [fulldocset\System.DirectoryServices.Protocols.CompareResponse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.Protocols.CompareResponse.yml)
+##### <a name='519730d13560e1c2f378583bc384513ef17c4ff677488'></a> Source: [fulldocset\System.DirectoryServices.Protocols.DsmlErrorResponse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.Protocols.DsmlErrorResponse.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.DirectoryServices.Protocols.CompareResponse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.DirectoryServices.Protocols.CompareResponse.yml)
-* Handoff File: [System.DirectoryServices.Protocols.CompareResponse.944206807c712b62ffd8af52a2a63cc8bd21cfb5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.Protocols.CompareResponse.944206807c712b62ffd8af52a2a63cc8bd21cfb5.nb-no.xlf)
+* Target File: [fulldocset\System.DirectoryServices.Protocols.DsmlErrorResponse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.DirectoryServices.Protocols.DsmlErrorResponse.yml)
+* Handoff File: [System.DirectoryServices.Protocols.DsmlErrorResponse.ea892e2a3319b1466e112b771794f92df6a61f48.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.Protocols.DsmlErrorResponse.ea892e2a3319b1466e112b771794f92df6a61f48.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.DirectoryServices.Protocols.CompareResponse.944206807c712b62ffd8af52a2a63cc8bd21cfb5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.Protocols.CompareResponse.944206807c712b62ffd8af52a2a63cc8bd21cfb5.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.DirectoryServices.Protocols.DsmlErrorResponse.ea892e2a3319b1466e112b771794f92df6a61f48.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.Protocols.DsmlErrorResponse.ea892e2a3319b1466e112b771794f92df6a61f48.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='2c950c0cee830ffc3ede698b0bb07f971a30249a77466'></a> Source: [fulldocset\System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.yml)
+##### <a name='9d45d4e0a8a5b2f6b769184e553ee1ab80be33e677566'></a> Source: [fulldocset\System.Drawing.BufferedGraphicsManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.BufferedGraphicsManager.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.yml)
-* Handoff File: [System.DirectoryServices.Protocols.DirectoryAttributeModificationCol.a300b9068423a2cd34961fd749073f6d7ae3742a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.Protocols.DirectoryAttributeModificationCol.a300b9068423a2cd34961fd749073f6d7ae3742a.nb-no.xlf)
+* Target File: [fulldocset\System.Drawing.BufferedGraphicsManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Drawing.BufferedGraphicsManager.yml)
+* Handoff File: [System.Drawing.BufferedGraphicsManager.2dc723887e7ae554ba8cebc66fe519e3130e200c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.BufferedGraphicsManager.2dc723887e7ae554ba8cebc66fe519e3130e200c.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Drawing.BufferedGraphicsManager.2dc723887e7ae554ba8cebc66fe519e3130e200c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.BufferedGraphicsManager.2dc723887e7ae554ba8cebc66fe519e3130e200c.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='1e0abcf9637b6ec03cc97492a0e15f876d18dc2b77595'></a> Source: [fulldocset\System.Drawing.Design.ToolboxComponentsCreatingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Design.ToolboxComponentsCreatingEventArgs.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Drawing.Design.ToolboxComponentsCreatingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Drawing.Design.ToolboxComponentsCreatingEventArgs.yml)
+* Handoff File: [System.Drawing.Design.ToolboxComponentsCreatingEventArgs.9f750dac64e8c855353b6b97981c24a06de23129.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Design.ToolboxComponentsCreatingEventArgs.9f750dac64e8c855353b6b97981c24a06de23129.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Drawing.Design.ToolboxComponentsCreatingEventArgs.9f750dac64e8c855353b6b97981c24a06de23129.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Design.ToolboxComponentsCreatingEventArgs.9f750dac64e8c855353b6b97981c24a06de23129.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='4f3a336f50bc139173dd901aba7f6a576ba924be77609'></a> Source: [fulldocset\System.Drawing.Drawing2D.CombineMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Drawing2D.CombineMode.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Drawing.Drawing2D.CombineMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Drawing.Drawing2D.CombineMode.yml)
+* Handoff File: [System.Drawing.Drawing2D.CombineMode.8f2c517c6754a9654bec6f1774d7435ec37b6047.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Drawing2D.CombineMode.8f2c517c6754a9654bec6f1774d7435ec37b6047.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Drawing.Drawing2D.CombineMode.8f2c517c6754a9654bec6f1774d7435ec37b6047.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Drawing2D.CombineMode.8f2c517c6754a9654bec6f1774d7435ec37b6047.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='b00dc901db57d7889d66056bac42bad29718525177648'></a> Source: [fulldocset\System.Drawing.FontStyle.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.FontStyle.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Drawing.FontStyle.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Drawing.FontStyle.yml)
+* Handoff File: [System.Drawing.FontStyle.bc8a348879320c785c2140209fdb9439696bd820.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.FontStyle.bc8a348879320c785c2140209fdb9439696bd820.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Drawing.FontStyle.bc8a348879320c785c2140209fdb9439696bd820.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.FontStyle.bc8a348879320c785c2140209fdb9439696bd820.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='8a86108ee1c6fff3b06ee04dd368454943ef218477660'></a> Source: [fulldocset\System.Drawing.ImageFormatConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.ImageFormatConverter.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Drawing.ImageFormatConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Drawing.ImageFormatConverter.yml)
+* Handoff File: [System.Drawing.ImageFormatConverter.712dea506fdd280fc767f4390bbdc694cee5c9cd.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.ImageFormatConverter.712dea506fdd280fc767f4390bbdc694cee5c9cd.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Drawing.ImageFormatConverter.712dea506fdd280fc767f4390bbdc694cee5c9cd.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.ImageFormatConverter.712dea506fdd280fc767f4390bbdc694cee5c9cd.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='8789210eacfd429d95f7efdff56c04447521040c77661'></a> Source: [fulldocset\System.Drawing.Imaging.BitmapData.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Imaging.BitmapData.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Drawing.Imaging.BitmapData.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Drawing.Imaging.BitmapData.yml)
+* Handoff File: [System.Drawing.Imaging.BitmapData.41d7446bc5f389439f0bf5c7a46a88d55dc2eb7a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Imaging.BitmapData.41d7446bc5f389439f0bf5c7a46a88d55dc2eb7a.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Drawing.Imaging.BitmapData.41d7446bc5f389439f0bf5c7a46a88d55dc2eb7a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Imaging.BitmapData.41d7446bc5f389439f0bf5c7a46a88d55dc2eb7a.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='7185d418c591b21a7a1e5edbac459cca22a547d377665'></a> Source: [fulldocset\System.Drawing.Imaging.ColorMapType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Imaging.ColorMapType.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Drawing.Imaging.ColorMapType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Drawing.Imaging.ColorMapType.yml)
+* Handoff File: [System.Drawing.Imaging.ColorMapType.092a0080dc6f4f7516afa9e1eaa240cae2fea618.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Imaging.ColorMapType.092a0080dc6f4f7516afa9e1eaa240cae2fea618.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Drawing.Imaging.ColorMapType.092a0080dc6f4f7516afa9e1eaa240cae2fea618.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Imaging.ColorMapType.092a0080dc6f4f7516afa9e1eaa240cae2fea618.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='ce7bd64bd538d2f023f9383f2fddc3662a8e341077692'></a> Source: [fulldocset\System.Drawing.Imaging.PropertyItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Imaging.PropertyItem.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Drawing.Imaging.PropertyItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Drawing.Imaging.PropertyItem.yml)
+* Handoff File: [System.Drawing.Imaging.PropertyItem.3c345c82315a3283d4775eaa360145f6f197988a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Imaging.PropertyItem.3c345c82315a3283d4775eaa360145f6f197988a.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.DirectoryServices.Protocols.DirectoryAttributeModificationCol.a300b9068423a2cd34961fd749073f6d7ae3742a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.Protocols.DirectoryAttributeModificationCol.a300b9068423a2cd34961fd749073f6d7ae3742a.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Drawing.Imaging.PropertyItem.3c345c82315a3283d4775eaa360145f6f197988a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Imaging.PropertyItem.3c345c82315a3283d4775eaa360145f6f197988a.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='0bd60c30b147f95f873ae423db34f84c0738fd8677515'></a> Source: [fulldocset\System.DirectoryServices.Protocols.PartialResultsCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.DirectoryServices.Protocols.PartialResultsCollection.yml)
+##### <a name='86e3ebf5722840da259079f317f7f2bd8752d95a77777'></a> Source: [fulldocset\System.EnterpriseServices.AutoCompleteAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.AutoCompleteAttribute.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.DirectoryServices.Protocols.PartialResultsCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.DirectoryServices.Protocols.PartialResultsCollection.yml)
-* Handoff File: [System.DirectoryServices.Protocols.PartialResultsCollection.cd91d4854e6a7b8b351e088dbd34775621ca338e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.Protocols.PartialResultsCollection.cd91d4854e6a7b8b351e088dbd34775621ca338e.nb-no.xlf)
+* Target File: [fulldocset\System.EnterpriseServices.AutoCompleteAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.EnterpriseServices.AutoCompleteAttribute.yml)
+* Handoff File: [System.EnterpriseServices.AutoCompleteAttribute.398727d48cd46c7363165bd226422cbf228b8347.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.AutoCompleteAttribute.398727d48cd46c7363165bd226422cbf228b8347.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.EnterpriseServices.AutoCompleteAttribute.398727d48cd46c7363165bd226422cbf228b8347.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.AutoCompleteAttribute.398727d48cd46c7363165bd226422cbf228b8347.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='a12544036f7d8258e6d8a1a262ae0c2eea944efa77791'></a> Source: [fulldocset\System.EnterpriseServices.ComponentAccessControlAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.ComponentAccessControlAttribute.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.EnterpriseServices.ComponentAccessControlAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.EnterpriseServices.ComponentAccessControlAttribute.yml)
+* Handoff File: [System.EnterpriseServices.ComponentAccessControlAttribute.b3f57a7f663b9a653a628b570ebb087ddbada709.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.ComponentAccessControlAttribute.b3f57a7f663b9a653a628b570ebb087ddbada709.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.EnterpriseServices.ComponentAccessControlAttribute.b3f57a7f663b9a653a628b570ebb087ddbada709.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.ComponentAccessControlAttribute.b3f57a7f663b9a653a628b570ebb087ddbada709.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='06fc9db3b650286e8c4cb4c4d5fe16560a7d377177814'></a> Source: [fulldocset\System.EnterpriseServices.Internal.IComSoapIISVRoot.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.Internal.IComSoapIISVRoot.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.EnterpriseServices.Internal.IComSoapIISVRoot.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.EnterpriseServices.Internal.IComSoapIISVRoot.yml)
+* Handoff File: [System.EnterpriseServices.Internal.IComSoapIISVRoot.97aa2f33e890bd21254239e4c7ada6f871745d33.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.Internal.IComSoapIISVRoot.97aa2f33e890bd21254239e4c7ada6f871745d33.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.EnterpriseServices.Internal.IComSoapIISVRoot.97aa2f33e890bd21254239e4c7ada6f871745d33.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.Internal.IComSoapIISVRoot.97aa2f33e890bd21254239e4c7ada6f871745d33.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='a2bfddb1bcf80fdc3b3c8ff00aad45aab38c034177819'></a> Source: [fulldocset\System.EnterpriseServices.Internal.ISoapClientImport.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.Internal.ISoapClientImport.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.EnterpriseServices.Internal.ISoapClientImport.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.EnterpriseServices.Internal.ISoapClientImport.yml)
+* Handoff File: [System.EnterpriseServices.Internal.ISoapClientImport.341defcd912b7c3309e3292d9a1b1f1b646e23ff.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.Internal.ISoapClientImport.341defcd912b7c3309e3292d9a1b1f1b646e23ff.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.DirectoryServices.Protocols.PartialResultsCollection.cd91d4854e6a7b8b351e088dbd34775621ca338e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.DirectoryServices.Protocols.PartialResultsCollection.cd91d4854e6a7b8b351e088dbd34775621ca338e.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.EnterpriseServices.Internal.ISoapClientImport.341defcd912b7c3309e3292d9a1b1f1b646e23ff.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.Internal.ISoapClientImport.341defcd912b7c3309e3292d9a1b1f1b646e23ff.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='98fc0e71519d4aa692adbc08b7c6c3be1726a29e77633'></a> Source: [fulldocset\System.Drawing.Drawing2D.PathPointType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Drawing2D.PathPointType.yml)
+##### <a name='e02e9d989c22eef0c933362b7d094ac06dde092977840'></a> Source: [fulldocset\System.EnterpriseServices.MustRunInClientContextAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.MustRunInClientContextAttribute.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Drawing.Drawing2D.PathPointType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Drawing.Drawing2D.PathPointType.yml)
-* Handoff File: [System.Drawing.Drawing2D.PathPointType.632b84fe59c38f42d51876e1b1949899e410e38a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Drawing2D.PathPointType.632b84fe59c38f42d51876e1b1949899e410e38a.nb-no.xlf)
+* Target File: [fulldocset\System.EnterpriseServices.MustRunInClientContextAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.EnterpriseServices.MustRunInClientContextAttribute.yml)
+* Handoff File: [System.EnterpriseServices.MustRunInClientContextAttribute.eff2ffa108f7b82ed4bbc82286db049f8a3c12e7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.MustRunInClientContextAttribute.eff2ffa108f7b82ed4bbc82286db049f8a3c12e7.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.EnterpriseServices.MustRunInClientContextAttribute.eff2ffa108f7b82ed4bbc82286db049f8a3c12e7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.MustRunInClientContextAttribute.eff2ffa108f7b82ed4bbc82286db049f8a3c12e7.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='d1c0eb884d61e2c2b4bb7f5efc58e9463e7ce1bd77856'></a> Source: [fulldocset\System.EnterpriseServices.SecurityIdentity.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.SecurityIdentity.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.EnterpriseServices.SecurityIdentity.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.EnterpriseServices.SecurityIdentity.yml)
+* Handoff File: [System.EnterpriseServices.SecurityIdentity.59b56a488694908f98881c9e57f2cf36221f0ce1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.SecurityIdentity.59b56a488694908f98881c9e57f2cf36221f0ce1.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.EnterpriseServices.SecurityIdentity.59b56a488694908f98881c9e57f2cf36221f0ce1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.SecurityIdentity.59b56a488694908f98881c9e57f2cf36221f0ce1.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='01bf4aec7c861a499b01bf4f9c5747fe341480bb77859'></a> Source: [fulldocset\System.EnterpriseServices.ServicedComponent.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.ServicedComponent.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.EnterpriseServices.ServicedComponent.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.EnterpriseServices.ServicedComponent.yml)
+* Handoff File: [System.EnterpriseServices.ServicedComponent.f646f9afcdfd3ab617c09ca7fd26678ecbef8a5f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.ServicedComponent.f646f9afcdfd3ab617c09ca7fd26678ecbef8a5f.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.EnterpriseServices.ServicedComponent.f646f9afcdfd3ab617c09ca7fd26678ecbef8a5f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.ServicedComponent.f646f9afcdfd3ab617c09ca7fd26678ecbef8a5f.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='27b89d9af65f532cd754fd34575b10135ea7669777910'></a> Source: [fulldocset\System.Globalization.UmAlQuraCalendar.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Globalization.UmAlQuraCalendar.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Globalization.UmAlQuraCalendar.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Globalization.UmAlQuraCalendar.yml)
+* Handoff File: [System.Globalization.UmAlQuraCalendar.d8163b5d6ad02e56623ce7378114aba861a5c972.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Globalization.UmAlQuraCalendar.d8163b5d6ad02e56623ce7378114aba861a5c972.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Globalization.UmAlQuraCalendar.d8163b5d6ad02e56623ce7378114aba861a5c972.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Globalization.UmAlQuraCalendar.d8163b5d6ad02e56623ce7378114aba861a5c972.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='68c194f3f1e88586a8add154d2179fd65993d4d177955'></a> Source: [fulldocset\System.IdentityModel.Metadata.ContactType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Metadata.ContactType.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IdentityModel.Metadata.ContactType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Metadata.ContactType.yml)
+* Handoff File: [System.IdentityModel.Metadata.ContactType.cf2a795da561fa496c4185bc9433ee32bbd902a9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Metadata.ContactType.cf2a795da561fa496c4185bc9433ee32bbd902a9.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IdentityModel.Metadata.ContactType.cf2a795da561fa496c4185bc9433ee32bbd902a9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Metadata.ContactType.cf2a795da561fa496c4185bc9433ee32bbd902a9.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='87a145b1176bfb6fba66417b91aa962b24b1e5e777966'></a> Source: [fulldocset\System.IdentityModel.Metadata.LocalizedEntry.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Metadata.LocalizedEntry.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IdentityModel.Metadata.LocalizedEntry.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Metadata.LocalizedEntry.yml)
+* Handoff File: [System.IdentityModel.Metadata.LocalizedEntry.abef8a5ceb9b1259fce8214472c0bce994c79374.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Metadata.LocalizedEntry.abef8a5ceb9b1259fce8214472c0bce994c79374.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IdentityModel.Metadata.LocalizedEntry.abef8a5ceb9b1259fce8214472c0bce994c79374.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Metadata.LocalizedEntry.abef8a5ceb9b1259fce8214472c0bce994c79374.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='dca6c7f13ed5106f650a5acee9e70f682e5d81f177997'></a> Source: [fulldocset\System.IdentityModel.Protocols.WSTrust.ProtectedKey.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Protocols.WSTrust.ProtectedKey.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IdentityModel.Protocols.WSTrust.ProtectedKey.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Protocols.WSTrust.ProtectedKey.yml)
+* Handoff File: [System.IdentityModel.Protocols.WSTrust.ProtectedKey.62bd0836f3dfe37154b42c7df621e72e38b667a7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Protocols.WSTrust.ProtectedKey.62bd0836f3dfe37154b42c7df621e72e38b667a7.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Drawing.Drawing2D.PathPointType.632b84fe59c38f42d51876e1b1949899e410e38a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Drawing2D.PathPointType.632b84fe59c38f42d51876e1b1949899e410e38a.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Protocols.WSTrust.ProtectedKey.62bd0836f3dfe37154b42c7df621e72e38b667a7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Protocols.WSTrust.ProtectedKey.62bd0836f3dfe37154b42c7df621e72e38b667a7.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='147105973a3aa2162f29a71cc1e3713a0826ef0677696'></a> Source: [fulldocset\System.Drawing.Pen.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Pen.yml)
+##### <a name='a2ab81dacf343b4c49dc08f358dcf2df14c37b1278001'></a> Source: [fulldocset\System.IdentityModel.Protocols.WSTrust.RequestedProofToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Protocols.WSTrust.RequestedProofToken.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Drawing.Pen.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Drawing.Pen.yml)
-* Handoff File: [System.Drawing.Pen.6ce0565ede423e7a20cfc7ca4abf7c8d4383655e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Pen.6ce0565ede423e7a20cfc7ca4abf7c8d4383655e.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Drawing.Pen.6ce0565ede423e7a20cfc7ca4abf7c8d4383655e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Pen.6ce0565ede423e7a20cfc7ca4abf7c8d4383655e.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='3d2fb6493f171e44d55d623b9034e5d76758582577697'></a> Source: [fulldocset\System.Drawing.Pens.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Pens.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Drawing.Pens.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Drawing.Pens.yml)
-* Handoff File: [System.Drawing.Pens.cebb9f8f3dd227e302c9e364f17c49a5aedb2dc6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Pens.cebb9f8f3dd227e302c9e364f17c49a5aedb2dc6.nb-no.xlf)
+* Target File: [fulldocset\System.IdentityModel.Protocols.WSTrust.RequestedProofToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Protocols.WSTrust.RequestedProofToken.yml)
+* Handoff File: [System.IdentityModel.Protocols.WSTrust.RequestedProofToken.b5bfe0c7d3afe2b4e986555f3bd5ae38edf5b326.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Protocols.WSTrust.RequestedProofToken.b5bfe0c7d3afe2b4e986555f3bd5ae38edf5b326.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Drawing.Pens.cebb9f8f3dd227e302c9e364f17c49a5aedb2dc6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Pens.cebb9f8f3dd227e302c9e364f17c49a5aedb2dc6.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Protocols.WSTrust.RequestedProofToken.b5bfe0c7d3afe2b4e986555f3bd5ae38edf5b326.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Protocols.WSTrust.RequestedProofToken.b5bfe0c7d3afe2b4e986555f3bd5ae38edf5b326.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='d9b018920b5b7a9d6142cac99efa8961f7357a9c77703'></a> Source: [fulldocset\System.Drawing.Printing.Margins.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Printing.Margins.yml)
+##### <a name='41b1c9427f1c40c490f0d762934455af3d1333d678014'></a> Source: [fulldocset\System.IdentityModel.Protocols.WSTrust.WSTrustResponseSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Protocols.WSTrust.WSTrustResponseSerializer.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Drawing.Printing.Margins.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Drawing.Printing.Margins.yml)
-* Handoff File: [System.Drawing.Printing.Margins.a1e7b0ce14ca406445928550ccacb4df0e866f7c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Printing.Margins.a1e7b0ce14ca406445928550ccacb4df0e866f7c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Drawing.Printing.Margins.a1e7b0ce14ca406445928550ccacb4df0e866f7c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Printing.Margins.a1e7b0ce14ca406445928550ccacb4df0e866f7c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='76b44f5b7a4efecb74eebe94dcdcf6869f8d481b77725'></a> Source: [fulldocset\System.Drawing.Printing.PrintEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Drawing.Printing.PrintEventHandler.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Drawing.Printing.PrintEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Drawing.Printing.PrintEventHandler.yml)
-* Handoff File: [System.Drawing.Printing.PrintEventHandler.5d86f4f0ade5f4cca945c7bf58ca822afce03d80.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Printing.PrintEventHandler.5d86f4f0ade5f4cca945c7bf58ca822afce03d80.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Drawing.Printing.PrintEventHandler.5d86f4f0ade5f4cca945c7bf58ca822afce03d80.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Drawing.Printing.PrintEventHandler.5d86f4f0ade5f4cca945c7bf58ca822afce03d80.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='d98468902793d9c6847c596b8917bf1c45fb938377846'></a> Source: [fulldocset\System.EnterpriseServices.RegistrationConfig.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.RegistrationConfig.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.EnterpriseServices.RegistrationConfig.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.EnterpriseServices.RegistrationConfig.yml)
-* Handoff File: [System.EnterpriseServices.RegistrationConfig.23feecb506c4a17965e57beff17f1174a142fff5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.RegistrationConfig.23feecb506c4a17965e57beff17f1174a142fff5.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.EnterpriseServices.RegistrationConfig.23feecb506c4a17965e57beff17f1174a142fff5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.RegistrationConfig.23feecb506c4a17965e57beff17f1174a142fff5.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='18bff12595779510f4284396ba23c43a006677a577865'></a> Source: [fulldocset\System.EnterpriseServices.SxsOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.SxsOption.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.EnterpriseServices.SxsOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.EnterpriseServices.SxsOption.yml)
-* Handoff File: [System.EnterpriseServices.SxsOption.51a9721fff066c6ecc7fbd20c1a1950fe68c2be1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.SxsOption.51a9721fff066c6ecc7fbd20c1a1950fe68c2be1.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.EnterpriseServices.SxsOption.51a9721fff066c6ecc7fbd20c1a1950fe68c2be1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.SxsOption.51a9721fff066c6ecc7fbd20c1a1950fe68c2be1.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='38dbdc054c79a75bd9362bdfc5b83cd8b3e0e86377866'></a> Source: [fulldocset\System.EnterpriseServices.SynchronizationAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.SynchronizationAttribute.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.EnterpriseServices.SynchronizationAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.EnterpriseServices.SynchronizationAttribute.yml)
-* Handoff File: [System.EnterpriseServices.SynchronizationAttribute.27070fc9d78368128668f536865d3f53ea2412d9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.SynchronizationAttribute.27070fc9d78368128668f536865d3f53ea2412d9.nb-no.xlf)
+* Target File: [fulldocset\System.IdentityModel.Protocols.WSTrust.WSTrustResponseSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Protocols.WSTrust.WSTrustResponseSerializer.yml)
+* Handoff File: [System.IdentityModel.Protocols.WSTrust.WSTrustResponseSerializer.02a17ac167b1441f635f78c5fa5e9ede9956f822.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Protocols.WSTrust.WSTrustResponseSerializer.02a17ac167b1441f635f78c5fa5e9ede9956f822.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.EnterpriseServices.SynchronizationAttribute.27070fc9d78368128668f536865d3f53ea2412d9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.SynchronizationAttribute.27070fc9d78368128668f536865d3f53ea2412d9.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Protocols.WSTrust.WSTrustResponseSerializer.02a17ac167b1441f635f78c5fa5e9ede9956f822.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Protocols.WSTrust.WSTrustResponseSerializer.02a17ac167b1441f635f78c5fa5e9ede9956f822.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='eb551e3864572cba878f59d706fb4ec1a6f1bdff77867'></a> Source: [fulldocset\System.EnterpriseServices.SynchronizationOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.EnterpriseServices.SynchronizationOption.yml)
+##### <a name='862636ec345003f073b209b2bdbd009434aa9ec778049'></a> Source: [fulldocset\System.IdentityModel.Selectors.UnsupportedPolicyOptionsException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Selectors.UnsupportedPolicyOptionsException.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.EnterpriseServices.SynchronizationOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.EnterpriseServices.SynchronizationOption.yml)
-* Handoff File: [System.EnterpriseServices.SynchronizationOption.ec6dfa7aa905dea19f94ddf5e8dd29a8e5833562.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.SynchronizationOption.ec6dfa7aa905dea19f94ddf5e8dd29a8e5833562.nb-no.xlf)
+* Target File: [fulldocset\System.IdentityModel.Selectors.UnsupportedPolicyOptionsException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Selectors.UnsupportedPolicyOptionsException.yml)
+* Handoff File: [System.IdentityModel.Selectors.UnsupportedPolicyOptionsException.4d86abed6d54a1ee8a96cd4728979ac7cfde5582.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Selectors.UnsupportedPolicyOptionsException.4d86abed6d54a1ee8a96cd4728979ac7cfde5582.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.EnterpriseServices.SynchronizationOption.ec6dfa7aa905dea19f94ddf5e8dd29a8e5833562.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.EnterpriseServices.SynchronizationOption.ec6dfa7aa905dea19f94ddf5e8dd29a8e5833562.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Selectors.UnsupportedPolicyOptionsException.4d86abed6d54a1ee8a96cd4728979ac7cfde5582.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Selectors.UnsupportedPolicyOptionsException.4d86abed6d54a1ee8a96cd4728979ac7cfde5582.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='bd7d573f4340e5de834e5e1b133df179ebf61fee77886'></a> Source: [fulldocset\System.Globalization.CalendarAlgorithmType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Globalization.CalendarAlgorithmType.yml)
+##### <a name='a9e02d5d2787406af9380ace2274699795bd2fdc78054'></a> Source: [fulldocset\System.IdentityModel.Selectors.UserNameSecurityTokenProvider.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Selectors.UserNameSecurityTokenProvider.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Globalization.CalendarAlgorithmType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Globalization.CalendarAlgorithmType.yml)
-* Handoff File: [System.Globalization.CalendarAlgorithmType.7ef8030fce8e9ff75995ea08608a4c651a6f0b39.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Globalization.CalendarAlgorithmType.7ef8030fce8e9ff75995ea08608a4c651a6f0b39.nb-no.xlf)
+* Target File: [fulldocset\System.IdentityModel.Selectors.UserNameSecurityTokenProvider.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Selectors.UserNameSecurityTokenProvider.yml)
+* Handoff File: [System.IdentityModel.Selectors.UserNameSecurityTokenProvider.3fc2cbb81ef6e39b1da7a0e4245d265f73829482.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Selectors.UserNameSecurityTokenProvider.3fc2cbb81ef6e39b1da7a0e4245d265f73829482.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Globalization.CalendarAlgorithmType.7ef8030fce8e9ff75995ea08608a4c651a6f0b39.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Globalization.CalendarAlgorithmType.7ef8030fce8e9ff75995ea08608a4c651a6f0b39.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Selectors.UserNameSecurityTokenProvider.3fc2cbb81ef6e39b1da7a0e4245d265f73829482.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Selectors.UserNameSecurityTokenProvider.3fc2cbb81ef6e39b1da7a0e4245d265f73829482.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='a6b36cae41597a8c65a826e6b757eb8a9860f83f77908'></a> Source: [fulldocset\System.Globalization.TaiwanLunisolarCalendar.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Globalization.TaiwanLunisolarCalendar.yml)
+##### <a name='3bcac69dd9dfe447b3cc5e6795fda2ed60b5217778074'></a> Source: [fulldocset\System.IdentityModel.Services.Configuration.SystemIdentityModelServicesSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Services.Configuration.SystemIdentityModelServicesSection.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Globalization.TaiwanLunisolarCalendar.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Globalization.TaiwanLunisolarCalendar.yml)
-* Handoff File: [System.Globalization.TaiwanLunisolarCalendar.5146a3a4f55b1c6adf3e283938248ae4319091ac.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Globalization.TaiwanLunisolarCalendar.5146a3a4f55b1c6adf3e283938248ae4319091ac.nb-no.xlf)
+* Target File: [fulldocset\System.IdentityModel.Services.Configuration.SystemIdentityModelServicesSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Services.Configuration.SystemIdentityModelServicesSection.yml)
+* Handoff File: [System.IdentityModel.Services.Configuration.SystemIdentityModelServi.b7d185719eb390bf167df91ae412e0ee3b65864a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Services.Configuration.SystemIdentityModelServi.b7d185719eb390bf167df91ae412e0ee3b65864a.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Globalization.TaiwanLunisolarCalendar.5146a3a4f55b1c6adf3e283938248ae4319091ac.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Globalization.TaiwanLunisolarCalendar.5146a3a4f55b1c6adf3e283938248ae4319091ac.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Services.Configuration.SystemIdentityModelServi.b7d185719eb390bf167df91ae412e0ee3b65864a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Services.Configuration.SystemIdentityModelServi.b7d185719eb390bf167df91ae412e0ee3b65864a.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='aa16985000d6bd6e05a5c99d07b2c7f3bfda72d277925'></a> Source: [fulldocset\System.IdentityModel.Claims.X509CertificateClaimSet.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Claims.X509CertificateClaimSet.yml)
+##### <a name='46dfe051cfdda26037a998db9efa64f14b1aeb2078130'></a> Source: [fulldocset\System.IdentityModel.Tokens.EncryptedTokenDecryptionFailedException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.EncryptedTokenDecryptionFailedException.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.Claims.X509CertificateClaimSet.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.Claims.X509CertificateClaimSet.yml)
-* Handoff File: [System.IdentityModel.Claims.X509CertificateClaimSet.7d2c7c57add025c99911fb36cbb0be6339c1adc0.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Claims.X509CertificateClaimSet.7d2c7c57add025c99911fb36cbb0be6339c1adc0.nb-no.xlf)
+* Target File: [fulldocset\System.IdentityModel.Tokens.EncryptedTokenDecryptionFailedException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.EncryptedTokenDecryptionFailedException.yml)
+* Handoff File: [System.IdentityModel.Tokens.EncryptedTokenDecryptionFailedException.7bb1e60e29ff8c059d37662dc48177a4fd57e995.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.EncryptedTokenDecryptionFailedException.7bb1e60e29ff8c059d37662dc48177a4fd57e995.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.Claims.X509CertificateClaimSet.7d2c7c57add025c99911fb36cbb0be6339c1adc0.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Claims.X509CertificateClaimSet.7d2c7c57add025c99911fb36cbb0be6339c1adc0.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Tokens.EncryptedTokenDecryptionFailedException.7bb1e60e29ff8c059d37662dc48177a4fd57e995.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.EncryptedTokenDecryptionFailedException.7bb1e60e29ff8c059d37662dc48177a4fd57e995.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='a8afe68529ea4d278545b62872ff4b8a6aefdca977948'></a> Source: [fulldocset\System.IdentityModel.DelegatingXmlDictionaryReader.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.DelegatingXmlDictionaryReader.yml)
+##### <a name='1dc764c224e20981c44d212a7a1957b388653fda78133'></a> Source: [fulldocset\System.IdentityModel.Tokens.GenericXmlSecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.GenericXmlSecurityToken.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.DelegatingXmlDictionaryReader.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.DelegatingXmlDictionaryReader.yml)
-* Handoff File: [System.IdentityModel.DelegatingXmlDictionaryReader.e2edd3a7437242f8f0e8115084129777575dc7b8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.DelegatingXmlDictionaryReader.e2edd3a7437242f8f0e8115084129777575dc7b8.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.DelegatingXmlDictionaryReader.e2edd3a7437242f8f0e8115084129777575dc7b8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.DelegatingXmlDictionaryReader.e2edd3a7437242f8f0e8115084129777575dc7b8.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='cbdf94e3845a251870f2d90f2d2fc19226bde01b77972'></a> Source: [fulldocset\System.IdentityModel.Metadata.MetadataSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Metadata.MetadataSerializer.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.Metadata.MetadataSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.Metadata.MetadataSerializer.yml)
-* Handoff File: [System.IdentityModel.Metadata.MetadataSerializer.4d27b7d81daff3b633c76f9d80fd417d0fa533d2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Metadata.MetadataSerializer.4d27b7d81daff3b633c76f9d80fd417d0fa533d2.nb-no.xlf)
+* Target File: [fulldocset\System.IdentityModel.Tokens.GenericXmlSecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.GenericXmlSecurityToken.yml)
+* Handoff File: [System.IdentityModel.Tokens.GenericXmlSecurityToken.04c21c3cb5e7c7a588949b60efe25b573048c2c6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.GenericXmlSecurityToken.04c21c3cb5e7c7a588949b60efe25b573048c2c6.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.Metadata.MetadataSerializer.4d27b7d81daff3b633c76f9d80fd417d0fa533d2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Metadata.MetadataSerializer.4d27b7d81daff3b633c76f9d80fd417d0fa533d2.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Tokens.GenericXmlSecurityToken.04c21c3cb5e7c7a588949b60efe25b573048c2c6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.GenericXmlSecurityToken.04c21c3cb5e7c7a588949b60efe25b573048c2c6.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='22fdb46db392d18617bac145b02d0bfc5581f4d377976'></a> Source: [fulldocset\System.IdentityModel.Metadata.SecurityTokenServiceDescriptor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Metadata.SecurityTokenServiceDescriptor.yml)
+##### <a name='740a07ea750f84aa0c22222fdb6054c6779833d578152'></a> Source: [fulldocset\System.IdentityModel.Tokens.Saml2AttributeStatement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.Saml2AttributeStatement.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.Metadata.SecurityTokenServiceDescriptor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.Metadata.SecurityTokenServiceDescriptor.yml)
-* Handoff File: [System.IdentityModel.Metadata.SecurityTokenServiceDescriptor.2b5c16ce00e160d020811cabed873ae31c3c5ff5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Metadata.SecurityTokenServiceDescriptor.2b5c16ce00e160d020811cabed873ae31c3c5ff5.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.Metadata.SecurityTokenServiceDescriptor.2b5c16ce00e160d020811cabed873ae31c3c5ff5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Metadata.SecurityTokenServiceDescriptor.2b5c16ce00e160d020811cabed873ae31c3c5ff5.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='ac62d420cec14721e4ac19377e1f7c2cf3f54e6f77999'></a> Source: [fulldocset\System.IdentityModel.Protocols.WSTrust.RequestClaim.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Protocols.WSTrust.RequestClaim.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.Protocols.WSTrust.RequestClaim.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.Protocols.WSTrust.RequestClaim.yml)
-* Handoff File: [System.IdentityModel.Protocols.WSTrust.RequestClaim.ec3151dc08fa7284d9c4d32f28e0cb7153c7c426.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Protocols.WSTrust.RequestClaim.ec3151dc08fa7284d9c4d32f28e0cb7153c7c426.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.Protocols.WSTrust.RequestClaim.ec3151dc08fa7284d9c4d32f28e0cb7153c7c426.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Protocols.WSTrust.RequestClaim.ec3151dc08fa7284d9c4d32f28e0cb7153c7c426.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='8daefdfb260568b60a01c020330858051a308c3a78048'></a> Source: [fulldocset\System.IdentityModel.Selectors.StsCommunicationException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Selectors.StsCommunicationException.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.Selectors.StsCommunicationException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.Selectors.StsCommunicationException.yml)
-* Handoff File: [System.IdentityModel.Selectors.StsCommunicationException.76cb3d6dcf3a68169511fba7bc9f30f469baef18.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Selectors.StsCommunicationException.76cb3d6dcf3a68169511fba7bc9f30f469baef18.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.Selectors.StsCommunicationException.76cb3d6dcf3a68169511fba7bc9f30f469baef18.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Selectors.StsCommunicationException.76cb3d6dcf3a68169511fba7bc9f30f469baef18.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='639c128ab68e99bda472adb45c0bd1056a95f7cb78126'></a> Source: [fulldocset\System.IdentityModel.Tokens.EncryptedKeyEncryptingCredentials.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.EncryptedKeyEncryptingCredentials.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.Tokens.EncryptedKeyEncryptingCredentials.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.Tokens.EncryptedKeyEncryptingCredentials.yml)
-* Handoff File: [System.IdentityModel.Tokens.EncryptedKeyEncryptingCredentials.8422ce8e1265a59a9b2d8040f81faf2a7339ce35.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.EncryptedKeyEncryptingCredentials.8422ce8e1265a59a9b2d8040f81faf2a7339ce35.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.Tokens.EncryptedKeyEncryptingCredentials.8422ce8e1265a59a9b2d8040f81faf2a7339ce35.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.EncryptedKeyEncryptingCredentials.8422ce8e1265a59a9b2d8040f81faf2a7339ce35.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='45229b0b2605863d22e07bc5be19b2bb5c9fb56778171'></a> Source: [fulldocset\System.IdentityModel.Tokens.SamlAction.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SamlAction.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.Tokens.SamlAction.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.Tokens.SamlAction.yml)
-* Handoff File: [System.IdentityModel.Tokens.SamlAction.1defff73899bf3fa6cb4b5930980e70a4c561174.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SamlAction.1defff73899bf3fa6cb4b5930980e70a4c561174.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.Tokens.SamlAction.1defff73899bf3fa6cb4b5930980e70a4c561174.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SamlAction.1defff73899bf3fa6cb4b5930980e70a4c561174.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='a7d3760c9e9d1ccd615c97a3a35690d06bc4946978173'></a> Source: [fulldocset\System.IdentityModel.Tokens.SamlAssertion.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SamlAssertion.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.Tokens.SamlAssertion.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.Tokens.SamlAssertion.yml)
-* Handoff File: [System.IdentityModel.Tokens.SamlAssertion.e7f66fa4f701205799cced503841298e7e057529.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SamlAssertion.e7f66fa4f701205799cced503841298e7e057529.nb-no.xlf)
+* Target File: [fulldocset\System.IdentityModel.Tokens.Saml2AttributeStatement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.Saml2AttributeStatement.yml)
+* Handoff File: [System.IdentityModel.Tokens.Saml2AttributeStatement.f0f931c535ea80f4ee51f4edbfad1c4d0b77d5f5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.Saml2AttributeStatement.f0f931c535ea80f4ee51f4edbfad1c4d0b77d5f5.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.Tokens.SamlAssertion.e7f66fa4f701205799cced503841298e7e057529.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SamlAssertion.e7f66fa4f701205799cced503841298e7e057529.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Tokens.Saml2AttributeStatement.f0f931c535ea80f4ee51f4edbfad1c4d0b77d5f5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.Saml2AttributeStatement.f0f931c535ea80f4ee51f4edbfad1c4d0b77d5f5.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='93e1f3b7c542d5a537cb5062d78c840225288c0678186'></a> Source: [fulldocset\System.IdentityModel.Tokens.SamlDoNotCacheCondition.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SamlDoNotCacheCondition.yml)
+##### <a name='97306616a39d7a9730b7b5757872d8b883cc533678163'></a> Source: [fulldocset\System.IdentityModel.Tokens.Saml2SecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.Saml2SecurityToken.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.Tokens.SamlDoNotCacheCondition.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.Tokens.SamlDoNotCacheCondition.yml)
-* Handoff File: [System.IdentityModel.Tokens.SamlDoNotCacheCondition.dea43ac78e6765e7cc46226a3fc530e5027cd2ba.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SamlDoNotCacheCondition.dea43ac78e6765e7cc46226a3fc530e5027cd2ba.nb-no.xlf)
+* Target File: [fulldocset\System.IdentityModel.Tokens.Saml2SecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.Saml2SecurityToken.yml)
+* Handoff File: [System.IdentityModel.Tokens.Saml2SecurityToken.e0a64456c42eed27f0c07d0594d97e138027c9c5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.Saml2SecurityToken.e0a64456c42eed27f0c07d0594d97e138027c9c5.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.Tokens.SamlDoNotCacheCondition.dea43ac78e6765e7cc46226a3fc530e5027cd2ba.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SamlDoNotCacheCondition.dea43ac78e6765e7cc46226a3fc530e5027cd2ba.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Tokens.Saml2SecurityToken.e0a64456c42eed27f0c07d0594d97e138027c9c5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.Saml2SecurityToken.e0a64456c42eed27f0c07d0594d97e138027c9c5.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='fa402182283f9db649328918665fbacbe12777d978233'></a> Source: [fulldocset\System.IdentityModel.Tokens.X509DataSecurityKeyIdentifierClauseSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.X509DataSecurityKeyIdentifierClauseSerializer.yml)
+##### <a name='420748da50635ada1f430f5f655fcd2186a43c0678164'></a> Source: [fulldocset\System.IdentityModel.Tokens.Saml2SecurityTokenHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.Saml2SecurityTokenHandler.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.Tokens.X509DataSecurityKeyIdentifierClauseSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.Tokens.X509DataSecurityKeyIdentifierClauseSerializer.yml)
-* Handoff File: [System.IdentityModel.Tokens.X509DataSecurityKeyIdentifierClauseSeria.5a53ab224ed255e358ef893aadb6aff0bb8b4274.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.X509DataSecurityKeyIdentifierClauseSeria.5a53ab224ed255e358ef893aadb6aff0bb8b4274.nb-no.xlf)
+* Target File: [fulldocset\System.IdentityModel.Tokens.Saml2SecurityTokenHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.Saml2SecurityTokenHandler.yml)
+* Handoff File: [System.IdentityModel.Tokens.Saml2SecurityTokenHandler.0e6b0905a4951adb90cba977d74a264f80734d19.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.Saml2SecurityTokenHandler.0e6b0905a4951adb90cba977d74a264f80734d19.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IdentityModel.Tokens.Saml2SecurityTokenHandler.0e6b0905a4951adb90cba977d74a264f80734d19.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.Saml2SecurityTokenHandler.0e6b0905a4951adb90cba977d74a264f80734d19.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='1a5578e6716f20c4614c3b4ebbff9af0b81a303478194'></a> Source: [fulldocset\System.IdentityModel.Tokens.SamlStatement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SamlStatement.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IdentityModel.Tokens.SamlStatement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.SamlStatement.yml)
+* Handoff File: [System.IdentityModel.Tokens.SamlStatement.a3a563fb638b5311e863d04ded93bb5da0fc6f1f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SamlStatement.a3a563fb638b5311e863d04ded93bb5da0fc6f1f.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IdentityModel.Tokens.SamlStatement.a3a563fb638b5311e863d04ded93bb5da0fc6f1f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SamlStatement.a3a563fb638b5311e863d04ded93bb5da0fc6f1f.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='53ee5400c0cadb3e164643f04d8a44c00b12b10a78202'></a> Source: [fulldocset\System.IdentityModel.Tokens.SecurityKeyIdentifierClauseSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SecurityKeyIdentifierClauseSerializer.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IdentityModel.Tokens.SecurityKeyIdentifierClauseSerializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.SecurityKeyIdentifierClauseSerializer.yml)
+* Handoff File: [System.IdentityModel.Tokens.SecurityKeyIdentifierClauseSerializer.85c69a6f3dedcce1aa66272e3769a5f16b6993b1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SecurityKeyIdentifierClauseSerializer.85c69a6f3dedcce1aa66272e3769a5f16b6993b1.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IdentityModel.Tokens.SecurityKeyIdentifierClauseSerializer.85c69a6f3dedcce1aa66272e3769a5f16b6993b1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SecurityKeyIdentifierClauseSerializer.85c69a6f3dedcce1aa66272e3769a5f16b6993b1.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='3b7628ae25edc422b5cbbfbb77e914a98fad21b778205'></a> Source: [fulldocset\System.IdentityModel.Tokens.SecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SecurityToken.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IdentityModel.Tokens.SecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.SecurityToken.yml)
+* Handoff File: [System.IdentityModel.Tokens.SecurityToken.72dc2452879e29a84121828a50b5c3aa077688f1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SecurityToken.72dc2452879e29a84121828a50b5c3aa077688f1.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IdentityModel.Tokens.SecurityToken.72dc2452879e29a84121828a50b5c3aa077688f1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SecurityToken.72dc2452879e29a84121828a50b5c3aa077688f1.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='7811d021febaf0e3002f958cf54d1d21fd49b21c78219'></a> Source: [fulldocset\System.IdentityModel.Tokens.SessionSecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SessionSecurityToken.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IdentityModel.Tokens.SessionSecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.SessionSecurityToken.yml)
+* Handoff File: [System.IdentityModel.Tokens.SessionSecurityToken.b14e1157921d0e6441b4ab8ba1c24e2c3b4cb7a4.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SessionSecurityToken.b14e1157921d0e6441b4ab8ba1c24e2c3b4cb7a4.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IdentityModel.Tokens.SessionSecurityToken.b14e1157921d0e6441b4ab8ba1c24e2c3b4cb7a4.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SessionSecurityToken.b14e1157921d0e6441b4ab8ba1c24e2c3b4cb7a4.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='bd24af2d2ed21139f5f7cac32fcd06770e5e2a0478220'></a> Source: [fulldocset\System.IdentityModel.Tokens.SessionSecurityTokenCache.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.SessionSecurityTokenCache.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IdentityModel.Tokens.SessionSecurityTokenCache.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.SessionSecurityTokenCache.yml)
+* Handoff File: [System.IdentityModel.Tokens.SessionSecurityTokenCache.7b932af2dcad8bcbd4dbc6744a8458c56d899bb2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SessionSecurityTokenCache.7b932af2dcad8bcbd4dbc6744a8458c56d899bb2.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IdentityModel.Tokens.SessionSecurityTokenCache.7b932af2dcad8bcbd4dbc6744a8458c56d899bb2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.SessionSecurityTokenCache.7b932af2dcad8bcbd4dbc6744a8458c56d899bb2.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='97bdcaf55971019a33206ca6ad25accd67a5513378229'></a> Source: [fulldocset\System.IdentityModel.Tokens.WindowsSecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.WindowsSecurityToken.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IdentityModel.Tokens.WindowsSecurityToken.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.WindowsSecurityToken.yml)
+* Handoff File: [System.IdentityModel.Tokens.WindowsSecurityToken.127c8358d7889750e32ee725a1da2d4eaf1460ec.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.WindowsSecurityToken.127c8358d7889750e32ee725a1da2d4eaf1460ec.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.Tokens.X509DataSecurityKeyIdentifierClauseSeria.5a53ab224ed255e358ef893aadb6aff0bb8b4274.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.X509DataSecurityKeyIdentifierClauseSeria.5a53ab224ed255e358ef893aadb6aff0bb8b4274.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Tokens.WindowsSecurityToken.127c8358d7889750e32ee725a1da2d4eaf1460ec.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.WindowsSecurityToken.127c8358d7889750e32ee725a1da2d4eaf1460ec.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='a73de7a2fd1cc5fe431a957f08ae44653a258dc278246'></a> Source: [fulldocset\System.IdentityModel.UnsupportedTokenTypeBadRequestException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.UnsupportedTokenTypeBadRequestException.yml)
+##### <a name='542fab9e95d89bf456ca087abf7225a05dbbaea278237'></a> Source: [fulldocset\System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IdentityModel.UnsupportedTokenTypeBadRequestException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IdentityModel.UnsupportedTokenTypeBadRequestException.yml)
-* Handoff File: [System.IdentityModel.UnsupportedTokenTypeBadRequestException.5e4453e9eb41a9be74aef54659a15c864c9ca148.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.UnsupportedTokenTypeBadRequestException.5e4453e9eb41a9be74aef54659a15c864c9ca148.nb-no.xlf)
+* Target File: [fulldocset\System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.yml)
+* Handoff File: [System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.7f696e6cfc8f67c830a2115c850365e8454b503b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.7f696e6cfc8f67c830a2115c850365e8454b503b.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IdentityModel.UnsupportedTokenTypeBadRequestException.5e4453e9eb41a9be74aef54659a15c864c9ca148.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.UnsupportedTokenTypeBadRequestException.5e4453e9eb41a9be74aef54659a15c864c9ca148.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.7f696e6cfc8f67c830a2115c850365e8454b503b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.7f696e6cfc8f67c830a2115c850365e8454b503b.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='cdeddd47bde537fa5e0ce2086209596b979bfe0f78251'></a> Source: [fulldocset\System.IO.Compression.ZipArchive.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Compression.ZipArchive.yml)
+##### <a name='869e2d13071ffdd5c6fbb3cdaec0c6cbfba8ffe078249'></a> Source: [fulldocset\System.IO.BufferedStream.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.BufferedStream.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.Compression.ZipArchive.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.Compression.ZipArchive.yml)
-* Handoff File: [System.IO.Compression.ZipArchive.8ace63896015925f1b82ea1987f3c3341203c8ba.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Compression.ZipArchive.8ace63896015925f1b82ea1987f3c3341203c8ba.nb-no.xlf)
+* Target File: [fulldocset\System.IO.BufferedStream.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IO.BufferedStream.yml)
+* Handoff File: [System.IO.BufferedStream.c2c6e0157b451113551555df46a2775a2db6edce.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.BufferedStream.c2c6e0157b451113551555df46a2775a2db6edce.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.Compression.ZipArchive.8ace63896015925f1b82ea1987f3c3341203c8ba.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Compression.ZipArchive.8ace63896015925f1b82ea1987f3c3341203c8ba.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IO.BufferedStream.c2c6e0157b451113551555df46a2775a2db6edce.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.BufferedStream.c2c6e0157b451113551555df46a2775a2db6edce.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='20fc23fbe693bc81686fcf559f10df4852faa06378257'></a> Source: [fulldocset\System.IO.DirectoryInfo.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.DirectoryInfo.yml)
+##### <a name='b73a3bd5075be4e3a2d2276e9ddad94207d56ac478267'></a> Source: [fulldocset\System.IO.FileInfo.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.FileInfo.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.DirectoryInfo.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.DirectoryInfo.yml)
-* Handoff File: [System.IO.DirectoryInfo.4b9b5ffe7525d84c332739226b0b2d45114b2e72.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.DirectoryInfo.4b9b5ffe7525d84c332739226b0b2d45114b2e72.nb-no.xlf)
+* Target File: [fulldocset\System.IO.FileInfo.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IO.FileInfo.yml)
+* Handoff File: [System.IO.FileInfo.045ddcfa37e59d957dd60c2daeb236901cca18dd.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.FileInfo.045ddcfa37e59d957dd60c2daeb236901cca18dd.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.DirectoryInfo.4b9b5ffe7525d84c332739226b0b2d45114b2e72.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.DirectoryInfo.4b9b5ffe7525d84c332739226b0b2d45114b2e72.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IO.FileInfo.045ddcfa37e59d957dd60c2daeb236901cca18dd.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.FileInfo.045ddcfa37e59d957dd60c2daeb236901cca18dd.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='4c138142fd0f24515834974a36b17a93f3a2696178269'></a> Source: [fulldocset\System.IO.FileOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.FileOptions.yml)
+##### <a name='bbec5ad2d1b4fc307d2e6654994153b3c0a591c378295'></a> Source: [fulldocset\System.IO.Log.LogRecord.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.LogRecord.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.FileOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.FileOptions.yml)
-* Handoff File: [System.IO.FileOptions.3fe4cd16127976ecc1daa512f5658b008cca5914.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.FileOptions.3fe4cd16127976ecc1daa512f5658b008cca5914.nb-no.xlf)
+* Target File: [fulldocset\System.IO.Log.LogRecord.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IO.Log.LogRecord.yml)
+* Handoff File: [System.IO.Log.LogRecord.85224988bb538cfc584c9069b62b25cf06ce7fe1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.LogRecord.85224988bb538cfc584c9069b62b25cf06ce7fe1.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IO.Log.LogRecord.85224988bb538cfc584c9069b62b25cf06ce7fe1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.LogRecord.85224988bb538cfc584c9069b62b25cf06ce7fe1.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='86b7d1427c8ed05c20497468e35beeaea9381e8278305'></a> Source: [fulldocset\System.IO.Log.SequenceNumber.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.SequenceNumber.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IO.Log.SequenceNumber.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IO.Log.SequenceNumber.yml)
+* Handoff File: [System.IO.Log.SequenceNumber.edba6c425fc6505c97048063f6ffa4467cad1463.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.SequenceNumber.edba6c425fc6505c97048063f6ffa4467cad1463.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IO.Log.SequenceNumber.edba6c425fc6505c97048063f6ffa4467cad1463.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.SequenceNumber.edba6c425fc6505c97048063f6ffa4467cad1463.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='fe42b01ee2490d7108255b5ee553d710bdc6ffaf78318'></a> Source: [fulldocset\System.IO.Packaging.CompressionOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Packaging.CompressionOption.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IO.Packaging.CompressionOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IO.Packaging.CompressionOption.yml)
+* Handoff File: [System.IO.Packaging.CompressionOption.7952bb87d6fb6e3b1ce3cdfd8d276fe815a4f4a9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Packaging.CompressionOption.7952bb87d6fb6e3b1ce3cdfd8d276fe815a4f4a9.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IO.Packaging.CompressionOption.7952bb87d6fb6e3b1ce3cdfd8d276fe815a4f4a9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Packaging.CompressionOption.7952bb87d6fb6e3b1ce3cdfd8d276fe815a4f4a9.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='170093359952bbf77d55029951d211e4c8ca5f6778361'></a> Source: [fulldocset\System.IO.Ports.Handshake.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Ports.Handshake.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IO.Ports.Handshake.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IO.Ports.Handshake.yml)
+* Handoff File: [System.IO.Ports.Handshake.89a190016b3442048795d44eed91ed3059ef4a97.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Ports.Handshake.89a190016b3442048795d44eed91ed3059ef4a97.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.IO.Ports.Handshake.89a190016b3442048795d44eed91ed3059ef4a97.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Ports.Handshake.89a190016b3442048795d44eed91ed3059ef4a97.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='56b28cda42ceb3a4c1765d3a713a42623181aa9078377'></a> Source: [fulldocset\System.IO.SearchOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.SearchOption.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.IO.SearchOption.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.IO.SearchOption.yml)
+* Handoff File: [System.IO.SearchOption.99288a89c7b8895d688c2bdb9db2caa81b9827d6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.SearchOption.99288a89c7b8895d688c2bdb9db2caa81b9827d6.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.FileOptions.3fe4cd16127976ecc1daa512f5658b008cca5914.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.FileOptions.3fe4cd16127976ecc1daa512f5658b008cca5914.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.IO.SearchOption.99288a89c7b8895d688c2bdb9db2caa81b9827d6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.SearchOption.99288a89c7b8895d688c2bdb9db2caa81b9827d6.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='7c3cdaaab6eb3ba614af7f1adfcd84da261eb83478277'></a> Source: [fulldocset\System.IO.IODescriptionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.IODescriptionAttribute.yml)
+##### <a name='c8873a30ae464529edfab2bc7f4aa1dfa13cffdd78384'></a> Source: [fulldocset\System.LoaderOptimization.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.LoaderOptimization.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.IODescriptionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.IODescriptionAttribute.yml)
-* Handoff File: [System.IO.IODescriptionAttribute.8ede62c45f32b2e3aa67c91ead0431fb60bf10d7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.IODescriptionAttribute.8ede62c45f32b2e3aa67c91ead0431fb60bf10d7.nb-no.xlf)
+* Target File: [fulldocset\System.LoaderOptimization.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.LoaderOptimization.yml)
+* Handoff File: [System.LoaderOptimization.5d3f74ce9b1663e80d609e7941a8b60ed8a7a188.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.LoaderOptimization.5d3f74ce9b1663e80d609e7941a8b60ed8a7a188.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.IODescriptionAttribute.8ede62c45f32b2e3aa67c91ead0431fb60bf10d7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.IODescriptionAttribute.8ede62c45f32b2e3aa67c91ead0431fb60bf10d7.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.LoaderOptimization.5d3f74ce9b1663e80d609e7941a8b60ed8a7a188.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.LoaderOptimization.5d3f74ce9b1663e80d609e7941a8b60ed8a7a188.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='201f241098840f8c0b20dfe8cf9c001da7a3875578290'></a> Source: [fulldocset\System.IO.Log.LogArchiveSnapshot.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.LogArchiveSnapshot.yml)
+##### <a name='c86fae3d03b0990614d84b6054bc14dd3642661678400'></a> Source: [fulldocset\System.Management.ImpersonationLevel.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.ImpersonationLevel.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.Log.LogArchiveSnapshot.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.Log.LogArchiveSnapshot.yml)
-* Handoff File: [System.IO.Log.LogArchiveSnapshot.6c14c082569ea52681ac1b85a87e69304b511c12.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.LogArchiveSnapshot.6c14c082569ea52681ac1b85a87e69304b511c12.nb-no.xlf)
+* Target File: [fulldocset\System.Management.ImpersonationLevel.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Management.ImpersonationLevel.yml)
+* Handoff File: [System.Management.ImpersonationLevel.2afa577d4fcac0adee69dd10e2bd3e79f82db7c0.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.ImpersonationLevel.2afa577d4fcac0adee69dd10e2bd3e79f82db7c0.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.Log.LogArchiveSnapshot.6c14c082569ea52681ac1b85a87e69304b511c12.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.LogArchiveSnapshot.6c14c082569ea52681ac1b85a87e69304b511c12.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Management.ImpersonationLevel.2afa577d4fcac0adee69dd10e2bd3e79f82db7c0.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.ImpersonationLevel.2afa577d4fcac0adee69dd10e2bd3e79f82db7c0.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='208208ba837b1634f468f0e432c1e0fb3523881c78298'></a> Source: [fulldocset\System.IO.Log.LogStore.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.LogStore.yml)
+##### <a name='4f04a9ae4a1f7febded12c9adf3976cdc073300278450'></a> Source: [fulldocset\System.Management.ManagementObjectCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.ManagementObjectCollection.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.Log.LogStore.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.Log.LogStore.yml)
-* Handoff File: [System.IO.Log.LogStore.45d3f5a6d931ec2e6d061a37bf668a558aaea0bc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.LogStore.45d3f5a6d931ec2e6d061a37bf668a558aaea0bc.nb-no.xlf)
+* Target File: [fulldocset\System.Management.ManagementObjectCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Management.ManagementObjectCollection.yml)
+* Handoff File: [System.Management.ManagementObjectCollection.584c09949cca281410aaf9108f5d9c430b7c81ca.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.ManagementObjectCollection.584c09949cca281410aaf9108f5d9c430b7c81ca.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Management.ManagementObjectCollection.584c09949cca281410aaf9108f5d9c430b7c81ca.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.ManagementObjectCollection.584c09949cca281410aaf9108f5d9c430b7c81ca.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='b1ed76253923cd940dc9d3f290e422fd2e5c112078451'></a> Source: [fulldocset\System.Management.ManagementObjectSearcher.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.ManagementObjectSearcher.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Management.ManagementObjectSearcher.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Management.ManagementObjectSearcher.yml)
+* Handoff File: [System.Management.ManagementObjectSearcher.45e76b36aff28f27790899176c2333b04abda72e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.ManagementObjectSearcher.45e76b36aff28f27790899176c2333b04abda72e.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Management.ManagementObjectSearcher.45e76b36aff28f27790899176c2333b04abda72e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.ManagementObjectSearcher.45e76b36aff28f27790899176c2333b04abda72e.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='4805a8d3e9ae9dcddf7000369474ad5d460ca0ea78469'></a> Source: [fulldocset\System.Management.PropertyData.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.PropertyData.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Management.PropertyData.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Management.PropertyData.yml)
+* Handoff File: [System.Management.PropertyData.56dd88e1a2bddb352c8398c55389331eefa8ea11.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.PropertyData.56dd88e1a2bddb352c8398c55389331eefa8ea11.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.Log.LogStore.45d3f5a6d931ec2e6d061a37bf668a558aaea0bc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.LogStore.45d3f5a6d931ec2e6d061a37bf668a558aaea0bc.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Management.PropertyData.56dd88e1a2bddb352c8398c55389331eefa8ea11.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.PropertyData.56dd88e1a2bddb352c8398c55389331eefa8ea11.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='4ca6f323f24399877f9398c4d27ecdb96555faf578300'></a> Source: [fulldocset\System.IO.Log.PolicyUnitType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.PolicyUnitType.yml)
+##### <a name='f3fbdb57f6501e4595c5e2e4ff41964923d2aa1878492'></a> Source: [fulldocset\System.Messaging.AccessControlEntryType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Messaging.AccessControlEntryType.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.Log.PolicyUnitType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.Log.PolicyUnitType.yml)
-* Handoff File: [System.IO.Log.PolicyUnitType.b12a0432939ea86317bf77a9a5c2968c2440cec5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.PolicyUnitType.b12a0432939ea86317bf77a9a5c2968c2440cec5.nb-no.xlf)
+* Target File: [fulldocset\System.Messaging.AccessControlEntryType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Messaging.AccessControlEntryType.yml)
+* Handoff File: [System.Messaging.AccessControlEntryType.2f535698b91d05cecaf1e515e5b6873939cc8c3c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Messaging.AccessControlEntryType.2f535698b91d05cecaf1e515e5b6873939cc8c3c.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.Log.PolicyUnitType.b12a0432939ea86317bf77a9a5c2968c2440cec5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.PolicyUnitType.b12a0432939ea86317bf77a9a5c2968c2440cec5.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Messaging.AccessControlEntryType.2f535698b91d05cecaf1e515e5b6873939cc8c3c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Messaging.AccessControlEntryType.2f535698b91d05cecaf1e515e5b6873939cc8c3c.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='37e0a22e2adaf60c0db150e771fdf5cf6b7545d178303'></a> Source: [fulldocset\System.IO.Log.ReservationNotFoundException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Log.ReservationNotFoundException.yml)
+##### <a name='d67904cf85ea3ee5866abd928d86002c7e8e3a9378506'></a> Source: [fulldocset\System.Messaging.EncryptionRequired.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Messaging.EncryptionRequired.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.Log.ReservationNotFoundException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.Log.ReservationNotFoundException.yml)
-* Handoff File: [System.IO.Log.ReservationNotFoundException.0f4d2838a627fe4d8951672a2068744423c757c5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.ReservationNotFoundException.0f4d2838a627fe4d8951672a2068744423c757c5.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.Log.ReservationNotFoundException.0f4d2838a627fe4d8951672a2068744423c757c5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Log.ReservationNotFoundException.0f4d2838a627fe4d8951672a2068744423c757c5.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='e47bf3bc93a3edae9fcb2bb5e4e87459a5ea153278312'></a> Source: [fulldocset\System.IO.MemoryMappedFiles.MemoryMappedFileSecurity.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.MemoryMappedFiles.MemoryMappedFileSecurity.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.MemoryMappedFiles.MemoryMappedFileSecurity.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.MemoryMappedFiles.MemoryMappedFileSecurity.yml)
-* Handoff File: [System.IO.MemoryMappedFiles.MemoryMappedFileSecurity.5498dd4bf46a0a0967b8eb5f391163d3df07094c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.MemoryMappedFiles.MemoryMappedFileSecurity.5498dd4bf46a0a0967b8eb5f391163d3df07094c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.MemoryMappedFiles.MemoryMappedFileSecurity.5498dd4bf46a0a0967b8eb5f391163d3df07094c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.MemoryMappedFiles.MemoryMappedFileSecurity.5498dd4bf46a0a0967b8eb5f391163d3df07094c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='a255b6a615851da48c37174d7f6d83f3e7599af878325'></a> Source: [fulldocset\System.IO.Packaging.PackagePart.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Packaging.PackagePart.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.Packaging.PackagePart.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.Packaging.PackagePart.yml)
-* Handoff File: [System.IO.Packaging.PackagePart.6b66c37903c1aa297bec636c3a876f81cc8c375d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Packaging.PackagePart.6b66c37903c1aa297bec636c3a876f81cc8c375d.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.Packaging.PackagePart.6b66c37903c1aa297bec636c3a876f81cc8c375d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Packaging.PackagePart.6b66c37903c1aa297bec636c3a876f81cc8c375d.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='14d273b16b847b5fc336facc811604edbedbe97478327'></a> Source: [fulldocset\System.IO.Packaging.PackageProperties.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Packaging.PackageProperties.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.Packaging.PackageProperties.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.Packaging.PackageProperties.yml)
-* Handoff File: [System.IO.Packaging.PackageProperties.b7cf2449d1fea89786bad445cb50d2b632e391dd.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Packaging.PackageProperties.b7cf2449d1fea89786bad445cb50d2b632e391dd.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.Packaging.PackageProperties.b7cf2449d1fea89786bad445cb50d2b632e391dd.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Packaging.PackageProperties.b7cf2449d1fea89786bad445cb50d2b632e391dd.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='3179ac126f2386f105fab52baabf9eeb5b2e541678353'></a> Source: [fulldocset\System.IO.Pipes.PipeAuditRule.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Pipes.PipeAuditRule.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.Pipes.PipeAuditRule.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.Pipes.PipeAuditRule.yml)
-* Handoff File: [System.IO.Pipes.PipeAuditRule.a69e6e794ebb63dfbffacdeb9cd365e75abc19f4.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Pipes.PipeAuditRule.a69e6e794ebb63dfbffacdeb9cd365e75abc19f4.nb-no.xlf)
+* Target File: [fulldocset\System.Messaging.EncryptionRequired.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Messaging.EncryptionRequired.yml)
+* Handoff File: [System.Messaging.EncryptionRequired.2bbebf3f971aae5864f86cce8581e01d4a95980d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Messaging.EncryptionRequired.2bbebf3f971aae5864f86cce8581e01d4a95980d.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.Pipes.PipeAuditRule.a69e6e794ebb63dfbffacdeb9cd365e75abc19f4.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Pipes.PipeAuditRule.a69e6e794ebb63dfbffacdeb9cd365e75abc19f4.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Messaging.EncryptionRequired.2bbebf3f971aae5864f86cce8581e01d4a95980d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Messaging.EncryptionRequired.2bbebf3f971aae5864f86cce8581e01d4a95980d.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='ef98bffd6347faf3ece02c016482ba01d5b87e2778367'></a> Source: [fulldocset\System.IO.Ports.SerialErrorReceivedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.IO.Ports.SerialErrorReceivedEventArgs.yml)
+##### <a name='48866610ef8d80da05371b0b6ef7e6d9609661bd78511'></a> Source: [fulldocset\System.Messaging.MessageEnumerator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Messaging.MessageEnumerator.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.IO.Ports.SerialErrorReceivedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.IO.Ports.SerialErrorReceivedEventArgs.yml)
-* Handoff File: [System.IO.Ports.SerialErrorReceivedEventArgs.3671aa1c9b19f9197b86aeca99ea8c6c1063b7c8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Ports.SerialErrorReceivedEventArgs.3671aa1c9b19f9197b86aeca99ea8c6c1063b7c8.nb-no.xlf)
+* Target File: [fulldocset\System.Messaging.MessageEnumerator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Messaging.MessageEnumerator.yml)
+* Handoff File: [System.Messaging.MessageEnumerator.0905e778b9303cadfbb6200a03cc99f81c269f51.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Messaging.MessageEnumerator.0905e778b9303cadfbb6200a03cc99f81c269f51.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.IO.Ports.SerialErrorReceivedEventArgs.3671aa1c9b19f9197b86aeca99ea8c6c1063b7c8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.IO.Ports.SerialErrorReceivedEventArgs.3671aa1c9b19f9197b86aeca99ea8c6c1063b7c8.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Messaging.MessageEnumerator.0905e778b9303cadfbb6200a03cc99f81c269f51.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Messaging.MessageEnumerator.0905e778b9303cadfbb6200a03cc99f81c269f51.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='4bd24fe624f5480a47f81db292697e2898e13a6678422'></a> Source: [fulldocset\System.Management.Instrumentation.ManagementCreateAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.Instrumentation.ManagementCreateAttribute.yml)
+##### <a name='048d7294c54cf71d40fa6ef554f16ba65862635b78559'></a> Source: [fulldocset\System.Net.Configuration.AuthenticationModulesSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.Configuration.AuthenticationModulesSection.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Management.Instrumentation.ManagementCreateAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Management.Instrumentation.ManagementCreateAttribute.yml)
-* Handoff File: [System.Management.Instrumentation.ManagementCreateAttribute.718ee02fd9dc700be1f7c13f048d664ac918f47f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.Instrumentation.ManagementCreateAttribute.718ee02fd9dc700be1f7c13f048d664ac918f47f.nb-no.xlf)
+* Target File: [fulldocset\System.Net.Configuration.AuthenticationModulesSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Net.Configuration.AuthenticationModulesSection.yml)
+* Handoff File: [System.Net.Configuration.AuthenticationModulesSection.488a064deda471a67de634de9baeb9047371aa26.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.Configuration.AuthenticationModulesSection.488a064deda471a67de634de9baeb9047371aa26.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Management.Instrumentation.ManagementCreateAttribute.718ee02fd9dc700be1f7c13f048d664ac918f47f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.Instrumentation.ManagementCreateAttribute.718ee02fd9dc700be1f7c13f048d664ac918f47f.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Net.Configuration.AuthenticationModulesSection.488a064deda471a67de634de9baeb9047371aa26.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.Configuration.AuthenticationModulesSection.488a064deda471a67de634de9baeb9047371aa26.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='cc232370286210b6b4c515b0d8dc4f211c26f6ca78425'></a> Source: [fulldocset\System.Management.Instrumentation.ManagementHostingModel.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.Instrumentation.ManagementHostingModel.yml)
+##### <a name='0be16d7c1d72bd12ce78bd57e90be4a07b4954ca78635'></a> Source: [fulldocset\System.Net.Http.Headers.WarningHeaderValue.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.Http.Headers.WarningHeaderValue.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Management.Instrumentation.ManagementHostingModel.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Management.Instrumentation.ManagementHostingModel.yml)
-* Handoff File: [System.Management.Instrumentation.ManagementHostingModel.ce58809aa1243801205d89c9dd9f9ad09e362c59.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.Instrumentation.ManagementHostingModel.ce58809aa1243801205d89c9dd9f9ad09e362c59.nb-no.xlf)
+* Target File: [fulldocset\System.Net.Http.Headers.WarningHeaderValue.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Net.Http.Headers.WarningHeaderValue.yml)
+* Handoff File: [System.Net.Http.Headers.WarningHeaderValue.04982545d14d30d164ce8debd97da9ac74d9cfe6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.Http.Headers.WarningHeaderValue.04982545d14d30d164ce8debd97da9ac74d9cfe6.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Management.Instrumentation.ManagementHostingModel.ce58809aa1243801205d89c9dd9f9ad09e362c59.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.Instrumentation.ManagementHostingModel.ce58809aa1243801205d89c9dd9f9ad09e362c59.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Net.Http.Headers.WarningHeaderValue.04982545d14d30d164ce8debd97da9ac74d9cfe6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.Http.Headers.WarningHeaderValue.04982545d14d30d164ce8debd97da9ac74d9cfe6.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='1f832e214ecdde75e53bb2636500289c58a5e33a78479'></a> Source: [fulldocset\System.Management.SelectQuery.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Management.SelectQuery.yml)
+##### <a name='f951e3ae0c468f4d53805f5050ae37f5a7bc3ef078641'></a> Source: [fulldocset\System.Net.Http.HttpMessageHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.Http.HttpMessageHandler.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Management.SelectQuery.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Management.SelectQuery.yml)
-* Handoff File: [System.Management.SelectQuery.9b47dd96059a82306220d57f67808650c381b765.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.SelectQuery.9b47dd96059a82306220d57f67808650c381b765.nb-no.xlf)
+* Target File: [fulldocset\System.Net.Http.HttpMessageHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Net.Http.HttpMessageHandler.yml)
+* Handoff File: [System.Net.Http.HttpMessageHandler.2ed7554baedac7d3d604e858c4dce16623bd7095.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.Http.HttpMessageHandler.2ed7554baedac7d3d604e858c4dce16623bd7095.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Management.SelectQuery.9b47dd96059a82306220d57f67808650c381b765.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Management.SelectQuery.9b47dd96059a82306220d57f67808650c381b765.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Net.Http.HttpMessageHandler.2ed7554baedac7d3d604e858c4dce16623bd7095.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.Http.HttpMessageHandler.2ed7554baedac7d3d604e858c4dce16623bd7095.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='0db7114d2e8b1e4718c9fc735a61b7c1ab9dbbe978599'></a> Source: [fulldocset\System.Net.DownloadDataCompletedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.DownloadDataCompletedEventHandler.yml)
+##### <a name='72904ba691a0a9f7297bc1578108c65e2b968f8f78706'></a> Source: [fulldocset\System.Net.NetworkAccess.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.NetworkAccess.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Net.DownloadDataCompletedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Net.DownloadDataCompletedEventHandler.yml)
-* Handoff File: [System.Net.DownloadDataCompletedEventHandler.493890092679a1afb595ec861a179e969d875e02.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.DownloadDataCompletedEventHandler.493890092679a1afb595ec861a179e969d875e02.nb-no.xlf)
+* Target File: [fulldocset\System.Net.NetworkAccess.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Net.NetworkAccess.yml)
+* Handoff File: [System.Net.NetworkAccess.4244d88979f7304ccc6f94aebf0308376f2bbdf2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.NetworkAccess.4244d88979f7304ccc6f94aebf0308376f2bbdf2.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Net.DownloadDataCompletedEventHandler.493890092679a1afb595ec861a179e969d875e02.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.DownloadDataCompletedEventHandler.493890092679a1afb595ec861a179e969d875e02.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Net.NetworkAccess.4244d88979f7304ccc6f94aebf0308376f2bbdf2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.NetworkAccess.4244d88979f7304ccc6f94aebf0308376f2bbdf2.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='f346cf7702cf267229fcaee2d1bf03f0023d4b8e78606'></a> Source: [fulldocset\System.Net.GlobalProxySelection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.GlobalProxySelection.yml)
+##### <a name='e342b21bfbbec5f9f71cbb1e37ba8aa2d8173a5a78741'></a> Source: [fulldocset\System.Net.PeerToPeer.Collaboration.PeerEndPointCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.PeerToPeer.Collaboration.PeerEndPointCollection.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Net.GlobalProxySelection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Net.GlobalProxySelection.yml)
-* Handoff File: [System.Net.GlobalProxySelection.c5633ef695701793a77ea6191557953149a528e8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.GlobalProxySelection.c5633ef695701793a77ea6191557953149a528e8.nb-no.xlf)
+* Target File: [fulldocset\System.Net.PeerToPeer.Collaboration.PeerEndPointCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Net.PeerToPeer.Collaboration.PeerEndPointCollection.yml)
+* Handoff File: [System.Net.PeerToPeer.Collaboration.PeerEndPointCollection.4ead155b529d8e85b5800b34d2b4b1396e4556bb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.PeerToPeer.Collaboration.PeerEndPointCollection.4ead155b529d8e85b5800b34d2b4b1396e4556bb.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Net.GlobalProxySelection.c5633ef695701793a77ea6191557953149a528e8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.GlobalProxySelection.c5633ef695701793a77ea6191557953149a528e8.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Net.PeerToPeer.Collaboration.PeerEndPointCollection.4ead155b529d8e85b5800b34d2b4b1396e4556bb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.PeerToPeer.Collaboration.PeerEndPointCollection.4ead155b529d8e85b5800b34d2b4b1396e4556bb.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='6689f049f67d4fa009d6680d275cb1cce58c44fd78703'></a> Source: [fulldocset\System.Net.Mime.MediaTypeNames.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.Mime.MediaTypeNames.yml)
+##### <a name='338cc3c4a3d3c64c733b1c2d8545da4dd72fd19878774'></a> Source: [fulldocset\System.Net.Security.NegotiateStream.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Net.Security.NegotiateStream.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Net.Mime.MediaTypeNames.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Net.Mime.MediaTypeNames.yml)
-* Handoff File: [System.Net.Mime.MediaTypeNames.61022cab3b3767791495f2ecc2403930ee4af3cd.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.Mime.MediaTypeNames.61022cab3b3767791495f2ecc2403930ee4af3cd.nb-no.xlf)
+* Target File: [fulldocset\System.Net.Security.NegotiateStream.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Net.Security.NegotiateStream.yml)
+* Handoff File: [System.Net.Security.NegotiateStream.4d8ad3c28cd2199d8f93c2423198635b19e32ed2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.Security.NegotiateStream.4d8ad3c28cd2199d8f93c2423198635b19e32ed2.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Net.Mime.MediaTypeNames.61022cab3b3767791495f2ecc2403930ee4af3cd.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.Mime.MediaTypeNames.61022cab3b3767791495f2ecc2403930ee4af3cd.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Net.Security.NegotiateStream.4d8ad3c28cd2199d8f93c2423198635b19e32ed2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Net.Security.NegotiateStream.4d8ad3c28cd2199d8f93c2423198635b19e32ed2.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='7898e8250dbe17ed17de31ad7c0ae4bd9a2ff4b979802'></a> Source: [fulldocset\System.Security.Cryptography.X509Certificates.StoreLocation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Cryptography.X509Certificates.StoreLocation.yml)
+##### <a name='39b9700e639605e5874315f2efc6df7c9d4d492a79790'></a> Source: [fulldocset\System.Security.Cryptography.StrongNameSignatureInformation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Cryptography.StrongNameSignatureInformation.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Security.Cryptography.X509Certificates.StoreLocation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Security.Cryptography.X509Certificates.StoreLocation.yml)
-* Handoff File: [System.Security.Cryptography.X509Certificates.StoreLocation.3011d4d77cdbe263c70846d91e75012f7bfda7f0.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Cryptography.X509Certificates.StoreLocation.3011d4d77cdbe263c70846d91e75012f7bfda7f0.nb-no.xlf)
+* Target File: [fulldocset\System.Security.Cryptography.StrongNameSignatureInformation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Security.Cryptography.StrongNameSignatureInformation.yml)
+* Handoff File: [System.Security.Cryptography.StrongNameSignatureInformation.bde80489eb142cc6cb522d841053930d7a88100a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Cryptography.StrongNameSignatureInformation.bde80489eb142cc6cb522d841053930d7a88100a.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Security.Cryptography.X509Certificates.StoreLocation.3011d4d77cdbe263c70846d91e75012f7bfda7f0.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Cryptography.X509Certificates.StoreLocation.3011d4d77cdbe263c70846d91e75012f7bfda7f0.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Security.Cryptography.StrongNameSignatureInformation.bde80489eb142cc6cb522d841053930d7a88100a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Cryptography.StrongNameSignatureInformation.bde80489eb142cc6cb522d841053930d7a88100a.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='2cd84081365c1da43a539a7c135eaecd827d7c6b79855'></a> Source: [fulldocset\System.Security.Cryptography.Xml.IRelDecryptor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Cryptography.Xml.IRelDecryptor.yml)
+##### <a name='c11dff5bc50bcd33d6b31f4000be6d47cf4e982179880'></a> Source: [fulldocset\System.Security.Cryptography.Xml.XmlDsigXPathTransform.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Cryptography.Xml.XmlDsigXPathTransform.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Security.Cryptography.Xml.IRelDecryptor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Security.Cryptography.Xml.IRelDecryptor.yml)
-* Handoff File: [System.Security.Cryptography.Xml.IRelDecryptor.41bb58841f384b462b4450a84ed5ae52dc51eb2c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Cryptography.Xml.IRelDecryptor.41bb58841f384b462b4450a84ed5ae52dc51eb2c.nb-no.xlf)
+* Target File: [fulldocset\System.Security.Cryptography.Xml.XmlDsigXPathTransform.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Security.Cryptography.Xml.XmlDsigXPathTransform.yml)
+* Handoff File: [System.Security.Cryptography.Xml.XmlDsigXPathTransform.2be7f4ae71dd563c71a4def7949187f2b4542deb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Cryptography.Xml.XmlDsigXPathTransform.2be7f4ae71dd563c71a4def7949187f2b4542deb.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Security.Cryptography.Xml.IRelDecryptor.41bb58841f384b462b4450a84ed5ae52dc51eb2c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Cryptography.Xml.IRelDecryptor.41bb58841f384b462b4450a84ed5ae52dc51eb2c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Security.Cryptography.Xml.XmlDsigXPathTransform.2be7f4ae71dd563c71a4def7949187f2b4542deb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Cryptography.Xml.XmlDsigXPathTransform.2be7f4ae71dd563c71a4def7949187f2b4542deb.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='10882ad28a7770d9d8dc5995ec0877c362137ad479924'></a> Source: [fulldocset\System.Security.Permissions.KeyContainerPermissionFlags.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Permissions.KeyContainerPermissionFlags.yml)
+##### <a name='ee26cba81d726a2de3b1741d0b7780b5a5c419aa79905'></a> Source: [fulldocset\System.Security.Permissions.FileDialogPermissionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Permissions.FileDialogPermissionAttribute.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Security.Permissions.KeyContainerPermissionFlags.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Security.Permissions.KeyContainerPermissionFlags.yml)
-* Handoff File: [System.Security.Permissions.KeyContainerPermissionFlags.501f7c6f1d58cab210cdeefb571328f6c2489868.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Permissions.KeyContainerPermissionFlags.501f7c6f1d58cab210cdeefb571328f6c2489868.nb-no.xlf)
+* Target File: [fulldocset\System.Security.Permissions.FileDialogPermissionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Security.Permissions.FileDialogPermissionAttribute.yml)
+* Handoff File: [System.Security.Permissions.FileDialogPermissionAttribute.a05c6f9b8bb2fd0c0fc61cb221e8582178fd1604.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Permissions.FileDialogPermissionAttribute.a05c6f9b8bb2fd0c0fc61cb221e8582178fd1604.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Security.Permissions.KeyContainerPermissionFlags.501f7c6f1d58cab210cdeefb571328f6c2489868.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Permissions.KeyContainerPermissionFlags.501f7c6f1d58cab210cdeefb571328f6c2489868.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Security.Permissions.FileDialogPermissionAttribute.a05c6f9b8bb2fd0c0fc61cb221e8582178fd1604.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Permissions.FileDialogPermissionAttribute.a05c6f9b8bb2fd0c0fc61cb221e8582178fd1604.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='84d829ac44e4b6716df5b4269c27bec5843ad82579955'></a> Source: [fulldocset\System.Security.Permissions.StrongNameIdentityPermissionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Permissions.StrongNameIdentityPermissionAttribute.yml)
+##### <a name='93dffd461c8add7f57d40ecd40ec82ff7508b1ec79941'></a> Source: [fulldocset\System.Security.Permissions.RegistryPermissionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Permissions.RegistryPermissionAttribute.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Security.Permissions.StrongNameIdentityPermissionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Security.Permissions.StrongNameIdentityPermissionAttribute.yml)
-* Handoff File: [System.Security.Permissions.StrongNameIdentityPermissionAttribute.fd04e56eb225e4c4742998dfbdb5ca80f4cc611d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Permissions.StrongNameIdentityPermissionAttribute.fd04e56eb225e4c4742998dfbdb5ca80f4cc611d.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Security.Permissions.StrongNameIdentityPermissionAttribute.fd04e56eb225e4c4742998dfbdb5ca80f4cc611d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Permissions.StrongNameIdentityPermissionAttribute.fd04e56eb225e4c4742998dfbdb5ca80f4cc611d.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='b025c1adfcbcff1e610b273e968c541f7d85845479975'></a> Source: [fulldocset\System.Security.Policy.ApplicationDirectoryMembershipCondition.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Policy.ApplicationDirectoryMembershipCondition.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Security.Policy.ApplicationDirectoryMembershipCondition.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Security.Policy.ApplicationDirectoryMembershipCondition.yml)
-* Handoff File: [System.Security.Policy.ApplicationDirectoryMembershipCondition.ab2fe685680b084f149cba582b72838b82fc3f22.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Policy.ApplicationDirectoryMembershipCondition.ab2fe685680b084f149cba582b72838b82fc3f22.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Security.Policy.ApplicationDirectoryMembershipCondition.ab2fe685680b084f149cba582b72838b82fc3f22.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Policy.ApplicationDirectoryMembershipCondition.ab2fe685680b084f149cba582b72838b82fc3f22.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='40aad382ae9ad3ca3e9ffea31ccf471f3aefed4180049'></a> Source: [fulldocset\System.Security.SecurityContextSource.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.SecurityContextSource.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Security.SecurityContextSource.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Security.SecurityContextSource.yml)
-* Handoff File: [System.Security.SecurityContextSource.f866e175179fe5b02cf1c2a034f3b2ddab4ebbfa.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.SecurityContextSource.f866e175179fe5b02cf1c2a034f3b2ddab4ebbfa.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Security.SecurityContextSource.f866e175179fe5b02cf1c2a034f3b2ddab4ebbfa.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.SecurityContextSource.f866e175179fe5b02cf1c2a034f3b2ddab4ebbfa.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='dc8c4c90c5f81dc8e6a8784c667dd4eb922dc15080076'></a> Source: [fulldocset\System.ServiceModel.Activation.WebScriptServiceHostFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activation.WebScriptServiceHostFactory.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.Activation.WebScriptServiceHostFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ServiceModel.Activation.WebScriptServiceHostFactory.yml)
-* Handoff File: [System.ServiceModel.Activation.WebScriptServiceHostFactory.3d222287faa7e968010356cf4e2aeacbdcf0ff0f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activation.WebScriptServiceHostFactory.3d222287faa7e968010356cf4e2aeacbdcf0ff0f.nb-no.xlf)
+* Target File: [fulldocset\System.Security.Permissions.RegistryPermissionAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Security.Permissions.RegistryPermissionAttribute.yml)
+* Handoff File: [System.Security.Permissions.RegistryPermissionAttribute.00401f92c456c08afeb54b4b5f76316c57907d40.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Permissions.RegistryPermissionAttribute.00401f92c456c08afeb54b4b5f76316c57907d40.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.Activation.WebScriptServiceHostFactory.3d222287faa7e968010356cf4e2aeacbdcf0ff0f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activation.WebScriptServiceHostFactory.3d222287faa7e968010356cf4e2aeacbdcf0ff0f.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Security.Permissions.RegistryPermissionAttribute.00401f92c456c08afeb54b4b5f76316c57907d40.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Permissions.RegistryPermissionAttribute.00401f92c456c08afeb54b4b5f76316c57907d40.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='cae2b1c9c08e971b1a25605a55a9445b6860f94c80093'></a> Source: [fulldocset\System.ServiceModel.Activities.Configuration.WorkflowHostingOptionsSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.Configuration.WorkflowHostingOptionsSection.yml)
+##### <a name='4aa884dfaf89238b4edda1935102fae8c651c1d279976'></a> Source: [fulldocset\System.Security.Policy.ApplicationSecurityInfo.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.Policy.ApplicationSecurityInfo.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.Activities.Configuration.WorkflowHostingOptionsSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ServiceModel.Activities.Configuration.WorkflowHostingOptionsSection.yml)
-* Handoff File: [System.ServiceModel.Activities.Configuration.WorkflowHostingOptionsS.791e92f60265fffa8fc8c04a025fc26658f05a55.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.Configuration.WorkflowHostingOptionsS.791e92f60265fffa8fc8c04a025fc26658f05a55.nb-no.xlf)
+* Target File: [fulldocset\System.Security.Policy.ApplicationSecurityInfo.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Security.Policy.ApplicationSecurityInfo.yml)
+* Handoff File: [System.Security.Policy.ApplicationSecurityInfo.843199d25e580e405b2f56a51af01b94c837dfff.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Policy.ApplicationSecurityInfo.843199d25e580e405b2f56a51af01b94c837dfff.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.Activities.Configuration.WorkflowHostingOptionsS.791e92f60265fffa8fc8c04a025fc26658f05a55.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.Configuration.WorkflowHostingOptionsS.791e92f60265fffa8fc8c04a025fc26658f05a55.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Security.Policy.ApplicationSecurityInfo.843199d25e580e405b2f56a51af01b94c837dfff.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.Policy.ApplicationSecurityInfo.843199d25e580e405b2f56a51af01b94c837dfff.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='a69e79fc4e2c78857e560e4c90ced1d1105fb5c280104'></a> Source: [fulldocset\System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreBehavior.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreBehavior.yml)
+##### <a name='596d8857b96fdbf342b525ebaa7c9412b068dcdc80041'></a> Source: [fulldocset\System.Security.RightsManagement.RightsManagementFailureCode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Security.RightsManagement.RightsManagementFailureCode.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreBehavior.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreBehavior.yml)
-* Handoff File: [System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreB.aedcdf4f70f8b68da6c47f18c2f91d3d38f23dda.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreB.aedcdf4f70f8b68da6c47f18c2f91d3d38f23dda.nb-no.xlf)
+* Target File: [fulldocset\System.Security.RightsManagement.RightsManagementFailureCode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Security.RightsManagement.RightsManagementFailureCode.yml)
+* Handoff File: [System.Security.RightsManagement.RightsManagementFailureCode.e186eb0babce4a50c954108b58d18eb6e0fee775.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.RightsManagement.RightsManagementFailureCode.e186eb0babce4a50c954108b58d18eb6e0fee775.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreB.aedcdf4f70f8b68da6c47f18c2f91d3d38f23dda.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreB.aedcdf4f70f8b68da6c47f18c2f91d3d38f23dda.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Security.RightsManagement.RightsManagementFailureCode.e186eb0babce4a50c954108b58d18eb6e0fee775.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Security.RightsManagement.RightsManagementFailureCode.e186eb0babce4a50c954108b58d18eb6e0fee775.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='91f25c07d8916058b7ef4805e79820603645c49580110'></a> Source: [fulldocset\System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior.yml)
+##### <a name='1a15cad28c6e1d643e31cd72ef6d9f0857136fcb80066'></a> Source: [fulldocset\System.ServiceModel.Activation.Configuration.NetPipeSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activation.Configuration.NetPipeSection.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior.yml)
-* Handoff File: [System.ServiceModel.Activities.Description.WorkflowUnhandledExceptio.ce1ebd3d9f668fb3b3c9d8eafbf5cedaa9fa4689.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.Description.WorkflowUnhandledExceptio.ce1ebd3d9f668fb3b3c9d8eafbf5cedaa9fa4689.nb-no.xlf)
+* Target File: [fulldocset\System.ServiceModel.Activation.Configuration.NetPipeSection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Activation.Configuration.NetPipeSection.yml)
+* Handoff File: [System.ServiceModel.Activation.Configuration.NetPipeSection.bd88c8503916ceb1e31196902d240e96a0db4ec8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activation.Configuration.NetPipeSection.bd88c8503916ceb1e31196902d240e96a0db4ec8.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.Activities.Description.WorkflowUnhandledExceptio.ce1ebd3d9f668fb3b3c9d8eafbf5cedaa9fa4689.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.Description.WorkflowUnhandledExceptio.ce1ebd3d9f668fb3b3c9d8eafbf5cedaa9fa4689.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ServiceModel.Activation.Configuration.NetPipeSection.bd88c8503916ceb1e31196902d240e96a0db4ec8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activation.Configuration.NetPipeSection.bd88c8503916ceb1e31196902d240e96a0db4ec8.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='5670d31b87c1d94907721be294b600d06f88d72680189'></a> Source: [fulldocset\System.ServiceModel.AddressAlreadyInUseException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.AddressAlreadyInUseException.yml)
+##### <a name='1ef159b4a128ce6e039d61d40a6716b5bea3557180078'></a> Source: [fulldocset\System.ServiceModel.Activation.WorkflowServiceHostFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activation.WorkflowServiceHostFactory.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.AddressAlreadyInUseException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ServiceModel.AddressAlreadyInUseException.yml)
-* Handoff File: [System.ServiceModel.AddressAlreadyInUseException.7ba88a9c89cd77e4480bfc0781cbb160965db9d3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.AddressAlreadyInUseException.7ba88a9c89cd77e4480bfc0781cbb160965db9d3.nb-no.xlf)
+* Target File: [fulldocset\System.ServiceModel.Activation.WorkflowServiceHostFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Activation.WorkflowServiceHostFactory.yml)
+* Handoff File: [System.ServiceModel.Activation.WorkflowServiceHostFactory.66544f0006d40ae6d50d21cb54f9081e82e70a34.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activation.WorkflowServiceHostFactory.66544f0006d40ae6d50d21cb54f9081e82e70a34.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.AddressAlreadyInUseException.7ba88a9c89cd77e4480bfc0781cbb160965db9d3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.AddressAlreadyInUseException.7ba88a9c89cd77e4480bfc0781cbb160965db9d3.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ServiceModel.Activation.WorkflowServiceHostFactory.66544f0006d40ae6d50d21cb54f9081e82e70a34.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activation.WorkflowServiceHostFactory.66544f0006d40ae6d50d21cb54f9081e82e70a34.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='0b45364ee99fc824a347f91d7b433e8f74ec61d380204'></a> Source: [fulldocset\System.ServiceModel.Channels.ChannelListenerBase.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.ChannelListenerBase.yml)
+##### <a name='a892391148e9f94dd7472829658e8d0b43012ff180082'></a> Source: [fulldocset\System.ServiceModel.Activities.CallbackCorrelationInitializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.CallbackCorrelationInitializer.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.Channels.ChannelListenerBase.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ServiceModel.Channels.ChannelListenerBase.yml)
-* Handoff File: [System.ServiceModel.Channels.ChannelListenerBase.035ee3c7f2c3a76da5a60f87d32ef1ff16132b2a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.ChannelListenerBase.035ee3c7f2c3a76da5a60f87d32ef1ff16132b2a.nb-no.xlf)
+* Target File: [fulldocset\System.ServiceModel.Activities.CallbackCorrelationInitializer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Activities.CallbackCorrelationInitializer.yml)
+* Handoff File: [System.ServiceModel.Activities.CallbackCorrelationInitializer.ace2f889bcecb8608a612f39cc672d5d347235bf.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.CallbackCorrelationInitializer.ace2f889bcecb8608a612f39cc672d5d347235bf.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.ServiceModel.Activities.CallbackCorrelationInitializer.ace2f889bcecb8608a612f39cc672d5d347235bf.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.CallbackCorrelationInitializer.ace2f889bcecb8608a612f39cc672d5d347235bf.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='141416b1652238c934c53d6c3ac069dd26a61b2280115'></a> Source: [fulldocset\System.ServiceModel.Activities.IReceiveMessageCallback.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.IReceiveMessageCallback.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.ServiceModel.Activities.IReceiveMessageCallback.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Activities.IReceiveMessageCallback.yml)
+* Handoff File: [System.ServiceModel.Activities.IReceiveMessageCallback.e74d6f4031322840ebc830ad6f66d789023f0bb8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.IReceiveMessageCallback.e74d6f4031322840ebc830ad6f66d789023f0bb8.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.ServiceModel.Activities.IReceiveMessageCallback.e74d6f4031322840ebc830ad6f66d789023f0bb8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.IReceiveMessageCallback.e74d6f4031322840ebc830ad6f66d789023f0bb8.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='0540bb6ef9b45e869bf7804bbd80fb934f6cea7e80186'></a> Source: [fulldocset\System.ServiceModel.Activities.WorkflowUpdateableControlClient.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Activities.WorkflowUpdateableControlClient.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.ServiceModel.Activities.WorkflowUpdateableControlClient.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Activities.WorkflowUpdateableControlClient.yml)
+* Handoff File: [System.ServiceModel.Activities.WorkflowUpdateableControlClient.38ce619b702c0938ed40685ff897a4bdb74e372b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.WorkflowUpdateableControlClient.38ce619b702c0938ed40685ff897a4bdb74e372b.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.Channels.ChannelListenerBase.035ee3c7f2c3a76da5a60f87d32ef1ff16132b2a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.ChannelListenerBase.035ee3c7f2c3a76da5a60f87d32ef1ff16132b2a.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ServiceModel.Activities.WorkflowUpdateableControlClient.38ce619b702c0938ed40685ff897a4bdb74e372b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Activities.WorkflowUpdateableControlClient.38ce619b702c0938ed40685ff897a4bdb74e372b.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='696cd49d65ea7b5c526474c93e7a2b890351869080263'></a> Source: [fulldocset\System.ServiceModel.Channels.ReliableSessionBindingElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.ReliableSessionBindingElement.yml)
+##### <a name='d945afb4da0fccbeda8b4d032d4d303224dd485d80206'></a> Source: [fulldocset\System.ServiceModel.Channels.ClientWebSocketFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.ClientWebSocketFactory.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.Channels.ReliableSessionBindingElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ServiceModel.Channels.ReliableSessionBindingElement.yml)
-* Handoff File: [System.ServiceModel.Channels.ReliableSessionBindingElement.f0eca8a44d75a7213940e13c4e5ffd8b73b74208.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.ReliableSessionBindingElement.f0eca8a44d75a7213940e13c4e5ffd8b73b74208.nb-no.xlf)
+* Target File: [fulldocset\System.ServiceModel.Channels.ClientWebSocketFactory.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Channels.ClientWebSocketFactory.yml)
+* Handoff File: [System.ServiceModel.Channels.ClientWebSocketFactory.2a53fbb93003c30edae1d62e68efc734563098a2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.ClientWebSocketFactory.2a53fbb93003c30edae1d62e68efc734563098a2.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.Channels.ReliableSessionBindingElement.f0eca8a44d75a7213940e13c4e5ffd8b73b74208.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.ReliableSessionBindingElement.f0eca8a44d75a7213940e13c4e5ffd8b73b74208.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ServiceModel.Channels.ClientWebSocketFactory.2a53fbb93003c30edae1d62e68efc734563098a2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.ClientWebSocketFactory.2a53fbb93003c30edae1d62e68efc734563098a2.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='1e0c29541b8c6f068c51e4041077fd2298e511a280267'></a> Source: [fulldocset\System.ServiceModel.Channels.SecurityBindingElementImporter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.SecurityBindingElementImporter.yml)
+##### <a name='1669a9b3f381e9471076e8f13e9c9832a65066da80211'></a> Source: [fulldocset\System.ServiceModel.Channels.CorrelationDataMessageProperty.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.CorrelationDataMessageProperty.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.Channels.SecurityBindingElementImporter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ServiceModel.Channels.SecurityBindingElementImporter.yml)
-* Handoff File: [System.ServiceModel.Channels.SecurityBindingElementImporter.ba7349518d6da9f3cf04de8eccdebc7411d01551.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.SecurityBindingElementImporter.ba7349518d6da9f3cf04de8eccdebc7411d01551.nb-no.xlf)
+* Target File: [fulldocset\System.ServiceModel.Channels.CorrelationDataMessageProperty.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Channels.CorrelationDataMessageProperty.yml)
+* Handoff File: [System.ServiceModel.Channels.CorrelationDataMessageProperty.ccdc95b6622d06412933bcce0165aec73ea20fbb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.CorrelationDataMessageProperty.ccdc95b6622d06412933bcce0165aec73ea20fbb.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.Channels.SecurityBindingElementImporter.ba7349518d6da9f3cf04de8eccdebc7411d01551.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.SecurityBindingElementImporter.ba7349518d6da9f3cf04de8eccdebc7411d01551.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ServiceModel.Channels.CorrelationDataMessageProperty.ccdc95b6622d06412933bcce0165aec73ea20fbb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.CorrelationDataMessageProperty.ccdc95b6622d06412933bcce0165aec73ea20fbb.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='2c09922107a863a45384381c4688bdc4f9e1282880783'></a> Source: [fulldocset\System.ServiceModel.FaultImportOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.FaultImportOptions.yml)
+##### <a name='c2ce969933664cfeb2254b16f7d68eff1d34cfc780216'></a> Source: [fulldocset\System.ServiceModel.Channels.HttpCookieContainerBindingElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.HttpCookieContainerBindingElement.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.FaultImportOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ServiceModel.FaultImportOptions.yml)
-* Handoff File: [System.ServiceModel.FaultImportOptions.376530f4c42314c5da41977465b0c6b2dd75bd48.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.FaultImportOptions.376530f4c42314c5da41977465b0c6b2dd75bd48.nb-no.xlf)
+* Target File: [fulldocset\System.ServiceModel.Channels.HttpCookieContainerBindingElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Channels.HttpCookieContainerBindingElement.yml)
+* Handoff File: [System.ServiceModel.Channels.HttpCookieContainerBindingElement.41c325c0a49fda5819c94ef8b738db35f7f6efc2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.HttpCookieContainerBindingElement.41c325c0a49fda5819c94ef8b738db35f7f6efc2.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.FaultImportOptions.376530f4c42314c5da41977465b0c6b2dd75bd48.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.FaultImportOptions.376530f4c42314c5da41977465b0c6b2dd75bd48.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ServiceModel.Channels.HttpCookieContainerBindingElement.41c325c0a49fda5819c94ef8b738db35f7f6efc2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.HttpCookieContainerBindingElement.41c325c0a49fda5819c94ef8b738db35f7f6efc2.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='0f7d6596890cf514235e3475b462ebd237eaa5af80819'></a> Source: [fulldocset\System.ServiceModel.NetNamedPipeSecurity.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.NetNamedPipeSecurity.yml)
+##### <a name='cc8326d835b75343f96bb563fc1d16d9a4b9c23080224'></a> Source: [fulldocset\System.ServiceModel.Channels.IBindingRuntimePreferences.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.IBindingRuntimePreferences.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.NetNamedPipeSecurity.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ServiceModel.NetNamedPipeSecurity.yml)
-* Handoff File: [System.ServiceModel.NetNamedPipeSecurity.86c8a39d6f4e19cd7d722ae183b0849196a8cbef.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.NetNamedPipeSecurity.86c8a39d6f4e19cd7d722ae183b0849196a8cbef.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.NetNamedPipeSecurity.86c8a39d6f4e19cd7d722ae183b0849196a8cbef.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.NetNamedPipeSecurity.86c8a39d6f4e19cd7d722ae183b0849196a8cbef.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='276c9bf7df03d0cd506769645339d64539ecc76280916'></a> Source: [fulldocset\System.ServiceModel.Security.MessagePartSpecification.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Security.MessagePartSpecification.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.ServiceModel.Security.MessagePartSpecification.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.ServiceModel.Security.MessagePartSpecification.yml)
-* Handoff File: [System.ServiceModel.Security.MessagePartSpecification.869565d5cfe8e3a411700810e5a62e0b7cb2284a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Security.MessagePartSpecification.869565d5cfe8e3a411700810e5a62e0b7cb2284a.nb-no.xlf)
+* Target File: [fulldocset\System.ServiceModel.Channels.IBindingRuntimePreferences.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Channels.IBindingRuntimePreferences.yml)
+* Handoff File: [System.ServiceModel.Channels.IBindingRuntimePreferences.cc2aa5416b2d3db8010852f846e3db6d98ba1389.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.IBindingRuntimePreferences.cc2aa5416b2d3db8010852f846e3db6d98ba1389.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.ServiceModel.Security.MessagePartSpecification.869565d5cfe8e3a411700810e5a62e0b7cb2284a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Security.MessagePartSpecification.869565d5cfe8e3a411700810e5a62e0b7cb2284a.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ServiceModel.Channels.IBindingRuntimePreferences.cc2aa5416b2d3db8010852f846e3db6d98ba1389.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.IBindingRuntimePreferences.cc2aa5416b2d3db8010852f846e3db6d98ba1389.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='8dd1fd63e051d678e30a82a7af2d539e988196a281194'></a> Source: [fulldocset\System.Threading.ThreadExceptionEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Threading.ThreadExceptionEventHandler.yml)
+##### <a name='4e74f4de67b34961c013fe5520111c2c0a9c7c7180229'></a> Source: [fulldocset\System.ServiceModel.Channels.IReceiveContextSettings.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.IReceiveContextSettings.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Threading.ThreadExceptionEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Threading.ThreadExceptionEventHandler.yml)
-* Handoff File: [System.Threading.ThreadExceptionEventHandler.76f642c1ff965882d797eef64b434467869b9220.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Threading.ThreadExceptionEventHandler.76f642c1ff965882d797eef64b434467869b9220.nb-no.xlf)
+* Target File: [fulldocset\System.ServiceModel.Channels.IReceiveContextSettings.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Channels.IReceiveContextSettings.yml)
+* Handoff File: [System.ServiceModel.Channels.IReceiveContextSettings.cc3145dada29df4dc7151fae4fe24301107ef393.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.IReceiveContextSettings.cc3145dada29df4dc7151fae4fe24301107ef393.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Threading.ThreadExceptionEventHandler.76f642c1ff965882d797eef64b434467869b9220.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Threading.ThreadExceptionEventHandler.76f642c1ff965882d797eef64b434467869b9220.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ServiceModel.Channels.IReceiveContextSettings.cc3145dada29df4dc7151fae4fe24301107ef393.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.IReceiveContextSettings.cc3145dada29df4dc7151fae4fe24301107ef393.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='5cccc3f677773384351e366d9d1712f92248f3bd82309'></a> Source: [fulldocset\System.Web.UI.DataVisualization.Charting.EllipseAnnotation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.DataVisualization.Charting.EllipseAnnotation.yml)
+##### <a name='4dc0effd0d5fefbfd4a64efe137fecde8e53d46c80255'></a> Source: [fulldocset\System.ServiceModel.Channels.PrivacyNoticeBindingElementImporter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Channels.PrivacyNoticeBindingElementImporter.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.DataVisualization.Charting.EllipseAnnotation.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.DataVisualization.Charting.EllipseAnnotation.yml)
-* Handoff File: [System.Web.UI.DataVisualization.Charting.EllipseAnnotation.0ec927b092ab53ca4c019ef097a9fdd309127b91.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.DataVisualization.Charting.EllipseAnnotation.0ec927b092ab53ca4c019ef097a9fdd309127b91.nb-no.xlf)
+* Target File: [fulldocset\System.ServiceModel.Channels.PrivacyNoticeBindingElementImporter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Channels.PrivacyNoticeBindingElementImporter.yml)
+* Handoff File: [System.ServiceModel.Channels.PrivacyNoticeBindingElementImporter.023cbb7db921fdebb991a7b992e0ce22d4b0b553.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.PrivacyNoticeBindingElementImporter.023cbb7db921fdebb991a7b992e0ce22d4b0b553.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.DataVisualization.Charting.EllipseAnnotation.0ec927b092ab53ca4c019ef097a9fdd309127b91.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.DataVisualization.Charting.EllipseAnnotation.0ec927b092ab53ca4c019ef097a9fdd309127b91.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ServiceModel.Channels.PrivacyNoticeBindingElementImporter.023cbb7db921fdebb991a7b992e0ce22d4b0b553.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Channels.PrivacyNoticeBindingElementImporter.023cbb7db921fdebb991a7b992e0ce22d4b0b553.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='41fcd2e2cdc8dfabfdab0b9a9639fb9a1a07607482343'></a> Source: [fulldocset\System.Web.UI.DataVisualization.Charting.LegendSeparatorStyle.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.DataVisualization.Charting.LegendSeparatorStyle.yml)
+##### <a name='eebfd54f36369f9021d84fd0f07a0851f5a6f44580817'></a> Source: [fulldocset\System.ServiceModel.NetMsmqSecurityMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.NetMsmqSecurityMode.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.DataVisualization.Charting.LegendSeparatorStyle.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.DataVisualization.Charting.LegendSeparatorStyle.yml)
-* Handoff File: [System.Web.UI.DataVisualization.Charting.LegendSeparatorStyle.2254529284b1153ad26902fb4079dcf4a2a123bb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.DataVisualization.Charting.LegendSeparatorStyle.2254529284b1153ad26902fb4079dcf4a2a123bb.nb-no.xlf)
+* Target File: [fulldocset\System.ServiceModel.NetMsmqSecurityMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.NetMsmqSecurityMode.yml)
+* Handoff File: [System.ServiceModel.NetMsmqSecurityMode.7c60b8f81dea6efc28488f5c48b876f3943d2621.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.NetMsmqSecurityMode.7c60b8f81dea6efc28488f5c48b876f3943d2621.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.ServiceModel.NetMsmqSecurityMode.7c60b8f81dea6efc28488f5c48b876f3943d2621.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.NetMsmqSecurityMode.7c60b8f81dea6efc28488f5c48b876f3943d2621.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='c6551abe6cf8b89e576e2b6689799921e5c3bad980824'></a> Source: [fulldocset\System.ServiceModel.OperationFormatUse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.OperationFormatUse.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.ServiceModel.OperationFormatUse.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.OperationFormatUse.yml)
+* Handoff File: [System.ServiceModel.OperationFormatUse.47945fb7099a6346a54dbbac08ffec9a65d18333.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.OperationFormatUse.47945fb7099a6346a54dbbac08ffec9a65d18333.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.ServiceModel.OperationFormatUse.47945fb7099a6346a54dbbac08ffec9a65d18333.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.OperationFormatUse.47945fb7099a6346a54dbbac08ffec9a65d18333.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='5a6cc2f89a1c1ba1186efdd4f264fde06da6796680896'></a> Source: [fulldocset\System.ServiceModel.Security.Basic192SecurityAlgorithmSuite.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Security.Basic192SecurityAlgorithmSuite.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.ServiceModel.Security.Basic192SecurityAlgorithmSuite.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Security.Basic192SecurityAlgorithmSuite.yml)
+* Handoff File: [System.ServiceModel.Security.Basic192SecurityAlgorithmSuite.6f4acc2e9bf0ecbfeba150017455d24082c75288.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Security.Basic192SecurityAlgorithmSuite.6f4acc2e9bf0ecbfeba150017455d24082c75288.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.DataVisualization.Charting.LegendSeparatorStyle.2254529284b1153ad26902fb4079dcf4a2a123bb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.DataVisualization.Charting.LegendSeparatorStyle.2254529284b1153ad26902fb4079dcf4a2a123bb.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ServiceModel.Security.Basic192SecurityAlgorithmSuite.6f4acc2e9bf0ecbfeba150017455d24082c75288.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Security.Basic192SecurityAlgorithmSuite.6f4acc2e9bf0ecbfeba150017455d24082c75288.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='fa62c8e871b8c1d1c721617b865f61e40643f31982487'></a> Source: [fulldocset\System.Web.UI.Design.ScriptManagerDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.ScriptManagerDesigner.yml)
+##### <a name='7c0a94bc755d9c87d06195af6b379f48cdaef9f380908'></a> Source: [fulldocset\System.ServiceModel.Security.IssuedTokenClientCredential.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.ServiceModel.Security.IssuedTokenClientCredential.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.Design.ScriptManagerDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.Design.ScriptManagerDesigner.yml)
-* Handoff File: [System.Web.UI.Design.ScriptManagerDesigner.f0bd28a90c48b9586a7e87754a45cc697357fdf1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.ScriptManagerDesigner.f0bd28a90c48b9586a7e87754a45cc697357fdf1.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.Design.ScriptManagerDesigner.f0bd28a90c48b9586a7e87754a45cc697357fdf1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.ScriptManagerDesigner.f0bd28a90c48b9586a7e87754a45cc697357fdf1.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='0c4d95df34e7342bb26ab9a323a91b9bd5d5ae6182546'></a> Source: [fulldocset\System.Web.UI.Design.WebControls.DataProviderNameConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.WebControls.DataProviderNameConverter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.Design.WebControls.DataProviderNameConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.Design.WebControls.DataProviderNameConverter.yml)
-* Handoff File: [System.Web.UI.Design.WebControls.DataProviderNameConverter.43e588048b723d0bbfaca45fefd4dc19a5036da3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.WebControls.DataProviderNameConverter.43e588048b723d0bbfaca45fefd4dc19a5036da3.nb-no.xlf)
+* Target File: [fulldocset\System.ServiceModel.Security.IssuedTokenClientCredential.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.ServiceModel.Security.IssuedTokenClientCredential.yml)
+* Handoff File: [System.ServiceModel.Security.IssuedTokenClientCredential.81809c9815f3b033d0573c71eddfea732c9782c6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Security.IssuedTokenClientCredential.81809c9815f3b033d0573c71eddfea732c9782c6.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.Design.WebControls.DataProviderNameConverter.43e588048b723d0bbfaca45fefd4dc19a5036da3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.WebControls.DataProviderNameConverter.43e588048b723d0bbfaca45fefd4dc19a5036da3.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.ServiceModel.Security.IssuedTokenClientCredential.81809c9815f3b033d0573c71eddfea732c9782c6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.ServiceModel.Security.IssuedTokenClientCredential.81809c9815f3b033d0573c71eddfea732c9782c6.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='cb4ea4acec2a30c4f34d5373a92fac9f42ed719f82555'></a> Source: [fulldocset\System.Web.UI.Design.WebControls.HierarchicalDataBoundControlDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.WebControls.HierarchicalDataBoundControlDesigner.yml)
+##### <a name='a9d9296b0cb894190f5c7cc35653b36202f4138d81101'></a> Source: [fulldocset\System.Speech.Recognition.SrgsGrammar.SrgsOneOf.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Speech.Recognition.SrgsGrammar.SrgsOneOf.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.Design.WebControls.HierarchicalDataBoundControlDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.Design.WebControls.HierarchicalDataBoundControlDesigner.yml)
-* Handoff File: [System.Web.UI.Design.WebControls.HierarchicalDataBoundControlDesigne.09a4397b790686df6cb4538673e9dc27e57d7f96.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.WebControls.HierarchicalDataBoundControlDesigne.09a4397b790686df6cb4538673e9dc27e57d7f96.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.Design.WebControls.HierarchicalDataBoundControlDesigne.09a4397b790686df6cb4538673e9dc27e57d7f96.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.WebControls.HierarchicalDataBoundControlDesigne.09a4397b790686df6cb4538673e9dc27e57d7f96.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='eae208a6bacbcb35d6ccf11051832d8bd84e91a682714'></a> Source: [fulldocset\System.Web.UI.IAttributeAccessor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.IAttributeAccessor.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.IAttributeAccessor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.IAttributeAccessor.yml)
-* Handoff File: [System.Web.UI.IAttributeAccessor.d083f784549c56a830932d1eaab19b304fcebb75.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.IAttributeAccessor.d083f784549c56a830932d1eaab19b304fcebb75.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.IAttributeAccessor.d083f784549c56a830932d1eaab19b304fcebb75.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.IAttributeAccessor.d083f784549c56a830932d1eaab19b304fcebb75.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='277fee233ec3d49cb1f2ef8a04a7397f5c27b62082774'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlControlAdapter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlControlAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.HtmlControlAdapter.3441459742b55122afc2fcfd4407f13d29714b41.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlControlAdapter.3441459742b55122afc2fcfd4407f13d29714b41.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.HtmlControlAdapter.3441459742b55122afc2fcfd4407f13d29714b41.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlControlAdapter.3441459742b55122afc2fcfd4407f13d29714b41.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='d881c98f238620f4d564ceff5d4c0808c57a726d82776'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlImageAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlImageAdapter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlImageAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlImageAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.HtmlImageAdapter.fb57b05e381c1ecbad6d6797134b5aee8bbc5edf.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlImageAdapter.fb57b05e381c1ecbad6d6797134b5aee8bbc5edf.nb-no.xlf)
+* Target File: [fulldocset\System.Speech.Recognition.SrgsGrammar.SrgsOneOf.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Speech.Recognition.SrgsGrammar.SrgsOneOf.yml)
+* Handoff File: [System.Speech.Recognition.SrgsGrammar.SrgsOneOf.690d28c130af2fb3264b9e5722f619870acd1b11.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Speech.Recognition.SrgsGrammar.SrgsOneOf.690d28c130af2fb3264b9e5722f619870acd1b11.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.HtmlImageAdapter.fb57b05e381c1ecbad6d6797134b5aee8bbc5edf.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlImageAdapter.fb57b05e381c1ecbad6d6797134b5aee8bbc5edf.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Speech.Recognition.SrgsGrammar.SrgsOneOf.690d28c130af2fb3264b9e5722f619870acd1b11.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Speech.Recognition.SrgsGrammar.SrgsOneOf.690d28c130af2fb3264b9e5722f619870acd1b11.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='ed44657f39d8e1791c6a86b3856111f24166269982777'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlLabelAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlLabelAdapter.yml)
+##### <a name='6328e616533c53af0b3eac068e94fe708540ca5281183'></a> Source: [fulldocset\System.Threading.HostExecutionContextManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Threading.HostExecutionContextManager.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlLabelAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlLabelAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.HtmlLabelAdapter.abbb5802041993a739bbebdb887af392ca513d0d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlLabelAdapter.abbb5802041993a739bbebdb887af392ca513d0d.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.HtmlLabelAdapter.abbb5802041993a739bbebdb887af392ca513d0d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlLabelAdapter.abbb5802041993a739bbebdb887af392ca513d0d.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='6dc619af1929bf7ec38ff9e2d2be66b3db11a3ef82780'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlLiteralTextAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlLiteralTextAdapter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlLiteralTextAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlLiteralTextAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.HtmlLiteralTextAdapter.f1fafbec4294eb19151574a284cd8de0bc79532e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlLiteralTextAdapter.f1fafbec4294eb19151574a284cd8de0bc79532e.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.HtmlLiteralTextAdapter.f1fafbec4294eb19151574a284cd8de0bc79532e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlLiteralTextAdapter.f1fafbec4294eb19151574a284cd8de0bc79532e.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='e151cf8479948e09ca6aace3a54111aab0225f0482785'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlPhoneCallAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlPhoneCallAdapter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlPhoneCallAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlPhoneCallAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.HtmlPhoneCallAdapter.a33a41255176d73c72232be7605124f45576445f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlPhoneCallAdapter.a33a41255176d73c72232be7605124f45576445f.nb-no.xlf)
+* Target File: [fulldocset\System.Threading.HostExecutionContextManager.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Threading.HostExecutionContextManager.yml)
+* Handoff File: [System.Threading.HostExecutionContextManager.3dc8126fbcf80b816b65369cba8078b9a8692a3d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Threading.HostExecutionContextManager.3dc8126fbcf80b816b65369cba8078b9a8692a3d.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.HtmlPhoneCallAdapter.a33a41255176d73c72232be7605124f45576445f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlPhoneCallAdapter.a33a41255176d73c72232be7605124f45576445f.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Threading.HostExecutionContextManager.3dc8126fbcf80b816b65369cba8078b9a8692a3d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Threading.HostExecutionContextManager.3dc8126fbcf80b816b65369cba8078b9a8692a3d.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='b494f2cb42f3da16a3bee1dd9ae5370efc2717b982788'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlTextViewAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlTextViewAdapter.yml)
+##### <a name='91b5b3d9a48a7ab24577f5cf25e25ed68303846d81219'></a> Source: [fulldocset\System.Transactions.DependentTransaction.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Transactions.DependentTransaction.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlTextViewAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlTextViewAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.HtmlTextViewAdapter.b2f10dfad190833fc0d9dc0c721e4eb05502c79b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlTextViewAdapter.b2f10dfad190833fc0d9dc0c721e4eb05502c79b.nb-no.xlf)
+* Target File: [fulldocset\System.Transactions.DependentTransaction.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Transactions.DependentTransaction.yml)
+* Handoff File: [System.Transactions.DependentTransaction.791acfb9bc2993d194506e5807545dbd8df65aac.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Transactions.DependentTransaction.791acfb9bc2993d194506e5807545dbd8df65aac.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.HtmlTextViewAdapter.b2f10dfad190833fc0d9dc0c721e4eb05502c79b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlTextViewAdapter.b2f10dfad190833fc0d9dc0c721e4eb05502c79b.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Transactions.DependentTransaction.791acfb9bc2993d194506e5807545dbd8df65aac.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Transactions.DependentTransaction.791acfb9bc2993d194506e5807545dbd8df65aac.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='b6cbd2294b22f18e940b05fa09c1d59d6055664782789'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlValidationSummaryAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlValidationSummaryAdapter.yml)
+##### <a name='144be46eb317d173cf62ef4ac153bc6c63c96d9682399'></a> Source: [fulldocset\System.Web.UI.Design.ControlDesignerState.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.ControlDesignerState.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.HtmlValidationSummaryAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlValidationSummaryAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.HtmlValidationSummaryAdapter.7d6d4367d20af86a90976ba05937b0653ee2f8e7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlValidationSummaryAdapter.7d6d4367d20af86a90976ba05937b0653ee2f8e7.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.Design.ControlDesignerState.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.Design.ControlDesignerState.yml)
+* Handoff File: [System.Web.UI.Design.ControlDesignerState.c0c33d96074ed024ada7b98f52b91dea58a2aa79.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.ControlDesignerState.c0c33d96074ed024ada7b98f52b91dea58a2aa79.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.HtmlValidationSummaryAdapter.7d6d4367d20af86a90976ba05937b0653ee2f8e7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.HtmlValidationSummaryAdapter.7d6d4367d20af86a90976ba05937b0653ee2f8e7.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.Design.ControlDesignerState.c0c33d96074ed024ada7b98f52b91dea58a2aa79.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.ControlDesignerState.c0c33d96074ed024ada7b98f52b91dea58a2aa79.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='69a657b0d615ce26e5097ea9e33db7542f603dc282793'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.SR.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.SR.yml)
+##### <a name='7e81921d7bec1292f5fc3b0898fa9cbeeaf69e5e82433'></a> Source: [fulldocset\System.Web.UI.Design.ExpressionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.ExpressionEditor.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.SR.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.SR.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.SR.b30695b4e1f5aa0712a121c817a7cf1fd4d1b12f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.SR.b30695b4e1f5aa0712a121c817a7cf1fd4d1b12f.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.Design.ExpressionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.Design.ExpressionEditor.yml)
+* Handoff File: [System.Web.UI.Design.ExpressionEditor.8f7c5042578f7c5f320f02945e330ca1269a8996.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.ExpressionEditor.8f7c5042578f7c5f320f02945e330ca1269a8996.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.Design.ExpressionEditor.8f7c5042578f7c5f320f02945e330ca1269a8996.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.ExpressionEditor.8f7c5042578f7c5f320f02945e330ca1269a8996.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='790861de946e3a60c673864d1730113d5a64a4ee82438'></a> Source: [fulldocset\System.Web.UI.Design.ExtenderControlToolboxItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.ExtenderControlToolboxItem.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.Design.ExtenderControlToolboxItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.Design.ExtenderControlToolboxItem.yml)
+* Handoff File: [System.Web.UI.Design.ExtenderControlToolboxItem.b71d4f20013aa398cbb35ff02f6f79aaab2ae5fb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.ExtenderControlToolboxItem.b71d4f20013aa398cbb35ff02f6f79aaab2ae5fb.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.SR.b30695b4e1f5aa0712a121c817a7cf1fd4d1b12f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.SR.b30695b4e1f5aa0712a121c817a7cf1fd4d1b12f.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.Design.ExtenderControlToolboxItem.b71d4f20013aa398cbb35ff02f6f79aaab2ae5fb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.ExtenderControlToolboxItem.b71d4f20013aa398cbb35ff02f6f79aaab2ae5fb.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='1cd97c8fe048be05e5274173a4462d1d48c4f14482798'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlControlAdapter.yml)
+##### <a name='7c67eef57173bbe53ce441f4dafb2e7419764b8382444'></a> Source: [fulldocset\System.Web.UI.Design.IContentResolutionService.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.IContentResolutionService.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.WmlControlAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.WmlControlAdapter.909014d26ac4ba2679c06730780111c23c7ddda5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlControlAdapter.909014d26ac4ba2679c06730780111c23c7ddda5.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.Design.IContentResolutionService.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.Design.IContentResolutionService.yml)
+* Handoff File: [System.Web.UI.Design.IContentResolutionService.8c4e1df2e1b75fc8c2dccb25ff27a69105a0d6ca.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.IContentResolutionService.8c4e1df2e1b75fc8c2dccb25ff27a69105a0d6ca.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.Design.IContentResolutionService.8c4e1df2e1b75fc8c2dccb25ff27a69105a0d6ca.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.IContentResolutionService.8c4e1df2e1b75fc8c2dccb25ff27a69105a0d6ca.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='24656c7cc287a1b7e04e5acc3e9b272064451a7582500'></a> Source: [fulldocset\System.Web.UI.Design.TextControlDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.TextControlDesigner.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.Design.TextControlDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.Design.TextControlDesigner.yml)
+* Handoff File: [System.Web.UI.Design.TextControlDesigner.60b165eaad5ba2906378021a0ee8f13f43bc9425.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.TextControlDesigner.60b165eaad5ba2906378021a0ee8f13f43bc9425.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.Design.TextControlDesigner.60b165eaad5ba2906378021a0ee8f13f43bc9425.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.TextControlDesigner.60b165eaad5ba2906378021a0ee8f13f43bc9425.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='5e1b54ff0f911444983df10b156814f7f01a7ddd82506'></a> Source: [fulldocset\System.Web.UI.Design.UpdatePanelTriggerCollectionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.UpdatePanelTriggerCollectionEditor.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.Design.UpdatePanelTriggerCollectionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.Design.UpdatePanelTriggerCollectionEditor.yml)
+* Handoff File: [System.Web.UI.Design.UpdatePanelTriggerCollectionEditor.774f9feb751f5fb39411b0dd71053a7af43a420f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.UpdatePanelTriggerCollectionEditor.774f9feb751f5fb39411b0dd71053a7af43a420f.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.Design.UpdatePanelTriggerCollectionEditor.774f9feb751f5fb39411b0dd71053a7af43a420f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.UpdatePanelTriggerCollectionEditor.774f9feb751f5fb39411b0dd71053a7af43a420f.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='46be8ee687233a10e782f40f8f7f8b576356664982568'></a> Source: [fulldocset\System.Web.UI.Design.WebControls.LoginDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.WebControls.LoginDesigner.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.Design.WebControls.LoginDesigner.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.Design.WebControls.LoginDesigner.yml)
+* Handoff File: [System.Web.UI.Design.WebControls.LoginDesigner.367df4ace7fa16aacc6c5df18cbc647190977b89.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.WebControls.LoginDesigner.367df4ace7fa16aacc6c5df18cbc647190977b89.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.Design.WebControls.LoginDesigner.367df4ace7fa16aacc6c5df18cbc647190977b89.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.WebControls.LoginDesigner.367df4ace7fa16aacc6c5df18cbc647190977b89.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='443caf664c78981418ad2901376bdb2df192119882582'></a> Source: [fulldocset\System.Web.UI.Design.WebControls.ParameterCollectionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.WebControls.ParameterCollectionEditor.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.Design.WebControls.ParameterCollectionEditor.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.Design.WebControls.ParameterCollectionEditor.yml)
+* Handoff File: [System.Web.UI.Design.WebControls.ParameterCollectionEditor.d1ef7aefdc4d11f4635f998e7f7ac7b815c4332a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.WebControls.ParameterCollectionEditor.d1ef7aefdc4d11f4635f998e7f7ac7b815c4332a.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.Design.WebControls.ParameterCollectionEditor.d1ef7aefdc4d11f4635f998e7f7ac7b815c4332a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.WebControls.ParameterCollectionEditor.d1ef7aefdc4d11f4635f998e7f7ac7b815c4332a.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='f1e7bc56707e01a8ad77c712a261caebdf40962182591'></a> Source: [fulldocset\System.Web.UI.Design.WebControls.SiteMapDesignerDataSourceView.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.Design.WebControls.SiteMapDesignerDataSourceView.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.Design.WebControls.SiteMapDesignerDataSourceView.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.Design.WebControls.SiteMapDesignerDataSourceView.yml)
+* Handoff File: [System.Web.UI.Design.WebControls.SiteMapDesignerDataSourceView.b0c3934187e46aa8cdd9a1d7abde3a4300be9851.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.WebControls.SiteMapDesignerDataSourceView.b0c3934187e46aa8cdd9a1d7abde3a4300be9851.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.Design.WebControls.SiteMapDesignerDataSourceView.b0c3934187e46aa8cdd9a1d7abde3a4300be9851.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.Design.WebControls.SiteMapDesignerDataSourceView.b0c3934187e46aa8cdd9a1d7abde3a4300be9851.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='9ac1f91b20a39b241391955533054290cd349d1682716'></a> Source: [fulldocset\System.Web.UI.IBindableControl.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.IBindableControl.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.IBindableControl.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.IBindableControl.yml)
+* Handoff File: [System.Web.UI.IBindableControl.c162d0172cf1fba65af49e7749594b2b4d45460c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.IBindableControl.c162d0172cf1fba65af49e7749594b2b4d45460c.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.IBindableControl.c162d0172cf1fba65af49e7749594b2b4d45460c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.IBindableControl.c162d0172cf1fba65af49e7749594b2b4d45460c.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='5e1d6e2baca3866279bcd9ca6544a7d73397326182756'></a> Source: [fulldocset\System.Web.UI.ListSourceHelper.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.ListSourceHelper.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.ListSourceHelper.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.ListSourceHelper.yml)
+* Handoff File: [System.Web.UI.ListSourceHelper.702a0fb31d1289763a2b4420076a1d7e12b25556.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.ListSourceHelper.702a0fb31d1289763a2b4420076a1d7e12b25556.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.ListSourceHelper.702a0fb31d1289763a2b4420076a1d7e12b25556.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.ListSourceHelper.702a0fb31d1289763a2b4420076a1d7e12b25556.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='9d40ef5be15d0682279110eba7e5aecad7840fc782767'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.ChtmlPageAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.ChtmlPageAdapter.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.ChtmlPageAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.Adapters.ChtmlPageAdapter.yml)
+* Handoff File: [System.Web.UI.MobileControls.Adapters.ChtmlPageAdapter.4b1c5f0109115999ea837b1773d7cd028ad8f579.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.ChtmlPageAdapter.4b1c5f0109115999ea837b1773d7cd028ad8f579.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.MobileControls.Adapters.ChtmlPageAdapter.4b1c5f0109115999ea837b1773d7cd028ad8f579.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.ChtmlPageAdapter.4b1c5f0109115999ea837b1773d7cd028ad8f579.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='d7de560dc5f82c9192f40c1192ae69fec5af3f1e82856'></a> Source: [fulldocset\System.Web.UI.MobileControls.DesignerAdapterAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.DesignerAdapterAttribute.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.MobileControls.DesignerAdapterAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.DesignerAdapterAttribute.yml)
+* Handoff File: [System.Web.UI.MobileControls.DesignerAdapterAttribute.b20d1691bcce93ccdb34848a21f318b6c3f2c949.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.DesignerAdapterAttribute.b20d1691bcce93ccdb34848a21f318b6c3f2c949.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.MobileControls.DesignerAdapterAttribute.b20d1691bcce93ccdb34848a21f318b6c3f2c949.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.DesignerAdapterAttribute.b20d1691bcce93ccdb34848a21f318b6c3f2c949.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='7de49e8accd530c8eba32e9f9b75ca3483a8991d82857'></a> Source: [fulldocset\System.Web.UI.MobileControls.DeviceElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.DeviceElement.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.MobileControls.DeviceElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.DeviceElement.yml)
+* Handoff File: [System.Web.UI.MobileControls.DeviceElement.f942710b7088c560c4ade2d1739c497e32d59fea.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.DeviceElement.f942710b7088c560c4ade2d1739c497e32d59fea.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.MobileControls.DeviceElement.f942710b7088c560c4ade2d1739c497e32d59fea.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.DeviceElement.f942710b7088c560c4ade2d1739c497e32d59fea.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='e5e32a0006dec2a00c093b70e9ce5236723d677f82858'></a> Source: [fulldocset\System.Web.UI.MobileControls.DeviceElementCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.DeviceElementCollection.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.MobileControls.DeviceElementCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.DeviceElementCollection.yml)
+* Handoff File: [System.Web.UI.MobileControls.DeviceElementCollection.c3cd07912eb7ba8f0a838bd955f53121ee73e2f3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.DeviceElementCollection.c3cd07912eb7ba8f0a838bd955f53121ee73e2f3.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.MobileControls.DeviceElementCollection.c3cd07912eb7ba8f0a838bd955f53121ee73e2f3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.DeviceElementCollection.c3cd07912eb7ba8f0a838bd955f53121ee73e2f3.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='4a8105c2c9c2924ccc75aea7d02b3ef4d66a4bd482864'></a> Source: [fulldocset\System.Web.UI.MobileControls.DeviceSpecificChoiceTemplateBuilder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.DeviceSpecificChoiceTemplateBuilder.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.MobileControls.DeviceSpecificChoiceTemplateBuilder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.DeviceSpecificChoiceTemplateBuilder.yml)
+* Handoff File: [System.Web.UI.MobileControls.DeviceSpecificChoiceTemplateBuilder.2fd50c2220fb28f4146729305bce9529d56c4ae7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.DeviceSpecificChoiceTemplateBuilder.2fd50c2220fb28f4146729305bce9529d56c4ae7.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.MobileControls.DeviceSpecificChoiceTemplateBuilder.2fd50c2220fb28f4146729305bce9529d56c4ae7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.DeviceSpecificChoiceTemplateBuilder.2fd50c2220fb28f4146729305bce9529d56c4ae7.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='b5faf21c61ed53bea78b01cc5397750ea70928d382869'></a> Source: [fulldocset\System.Web.UI.MobileControls.FontSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.FontSize.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.MobileControls.FontSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.FontSize.yml)
+* Handoff File: [System.Web.UI.MobileControls.FontSize.3822a635e133de087376c779e73aba220a6236bc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.FontSize.3822a635e133de087376c779e73aba220a6236bc.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.MobileControls.FontSize.3822a635e133de087376c779e73aba220a6236bc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.FontSize.3822a635e133de087376c779e73aba220a6236bc.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='9ef9b040824f001705683e271e342a1202203dd182875'></a> Source: [fulldocset\System.Web.UI.MobileControls.IObjectListFieldCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.IObjectListFieldCollection.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.MobileControls.IObjectListFieldCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.IObjectListFieldCollection.yml)
+* Handoff File: [System.Web.UI.MobileControls.IObjectListFieldCollection.73663234c3ae1da64a4e180c19e04354b4e42447.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.IObjectListFieldCollection.73663234c3ae1da64a4e180c19e04354b4e42447.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.WmlControlAdapter.909014d26ac4ba2679c06730780111c23c7ddda5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlControlAdapter.909014d26ac4ba2679c06730780111c23c7ddda5.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.MobileControls.IObjectListFieldCollection.73663234c3ae1da64a4e180c19e04354b4e42447.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.IObjectListFieldCollection.73663234c3ae1da64a4e180c19e04354b4e42447.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='0510a7f574eb9de2447c05120bc36ed9b0ac59a782800'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlImageAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlImageAdapter.yml)
+##### <a name='f1b6c09566b5d6ca68cf03466b9d0abb9cb7083d82880'></a> Source: [fulldocset\System.Web.UI.MobileControls.Link.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Link.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlImageAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.WmlImageAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.WmlImageAdapter.d8f3826168f1a0a59eea061a0efa7752fc9df741.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlImageAdapter.d8f3826168f1a0a59eea061a0efa7752fc9df741.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.MobileControls.Link.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.Link.yml)
+* Handoff File: [System.Web.UI.MobileControls.Link.adaedf06f20dd8eae85248d9af1a22a28ccf0bff.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Link.adaedf06f20dd8eae85248d9af1a22a28ccf0bff.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.WmlImageAdapter.d8f3826168f1a0a59eea061a0efa7752fc9df741.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlImageAdapter.d8f3826168f1a0a59eea061a0efa7752fc9df741.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.MobileControls.Link.adaedf06f20dd8eae85248d9af1a22a28ccf0bff.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Link.adaedf06f20dd8eae85248d9af1a22a28ccf0bff.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='c6bab243ff60c00bad4b1f6f059406428b29c7be82801'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlLabelAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlLabelAdapter.yml)
+##### <a name='38f5195bbf625c4d3e82109861d0e7061ea583fe82884'></a> Source: [fulldocset\System.Web.UI.MobileControls.ListControlBuilder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ListControlBuilder.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlLabelAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.WmlLabelAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.WmlLabelAdapter.ba83258bd5679ab3ff38ea2368d6772feab498c0.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlLabelAdapter.ba83258bd5679ab3ff38ea2368d6772feab498c0.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.MobileControls.ListControlBuilder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.ListControlBuilder.yml)
+* Handoff File: [System.Web.UI.MobileControls.ListControlBuilder.64a5836e2defe15f6918c025c7b840c61d922cce.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ListControlBuilder.64a5836e2defe15f6918c025c7b840c61d922cce.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.WmlLabelAdapter.ba83258bd5679ab3ff38ea2368d6772feab498c0.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlLabelAdapter.ba83258bd5679ab3ff38ea2368d6772feab498c0.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.MobileControls.ListControlBuilder.64a5836e2defe15f6918c025c7b840c61d922cce.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ListControlBuilder.64a5836e2defe15f6918c025c7b840c61d922cce.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='2bc21fde90cf36ffcca021326dfd763cc146540282802'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlLinkAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlLinkAdapter.yml)
+##### <a name='e2da4104ffc0da090fa5f4f9114a07122de8699b82894'></a> Source: [fulldocset\System.Web.UI.MobileControls.LoadItemsEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.LoadItemsEventHandler.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlLinkAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.WmlLinkAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.WmlLinkAdapter.536c98063c16d65f56aaa1bdf46ab5c300123365.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlLinkAdapter.536c98063c16d65f56aaa1bdf46ab5c300123365.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.MobileControls.LoadItemsEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.LoadItemsEventHandler.yml)
+* Handoff File: [System.Web.UI.MobileControls.LoadItemsEventHandler.4b6b58110151feb811233a7f79518e561051c180.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.LoadItemsEventHandler.4b6b58110151feb811233a7f79518e561051c180.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.WmlLinkAdapter.536c98063c16d65f56aaa1bdf46ab5c300123365.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlLinkAdapter.536c98063c16d65f56aaa1bdf46ab5c300123365.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.MobileControls.LoadItemsEventHandler.4b6b58110151feb811233a7f79518e561051c180.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.LoadItemsEventHandler.4b6b58110151feb811233a7f79518e561051c180.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='77229f8459fae5866d16386db37a1415b9e43e4482805'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlMobileTextWriter.WmlFormat.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlMobileTextWriter.WmlFormat.yml)
+##### <a name='ca5b45869df1482b26fe196c49e54011864e69ce82895'></a> Source: [fulldocset\System.Web.UI.MobileControls.MobileControl.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.MobileControl.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlMobileTextWriter.WmlFormat.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.WmlMobileTextWriter.WmlFormat.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.WmlMobileTextWriter.WmlFormat.eba0e079ac8ef572239cdfe85c298e6871eb5481.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlMobileTextWriter.WmlFormat.eba0e079ac8ef572239cdfe85c298e6871eb5481.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.MobileControls.MobileControl.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.MobileControl.yml)
+* Handoff File: [System.Web.UI.MobileControls.MobileControl.4d38b1486dbb1fcd8ea288b19e04742d6c0e7e93.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.MobileControl.4d38b1486dbb1fcd8ea288b19e04742d6c0e7e93.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.MobileControls.MobileControl.4d38b1486dbb1fcd8ea288b19e04742d6c0e7e93.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.MobileControl.4d38b1486dbb1fcd8ea288b19e04742d6c0e7e93.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='b897dfeb15fc91731601fb7c77182dc3327f595d82906'></a> Source: [fulldocset\System.Web.UI.MobileControls.ObjectListCommand.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ObjectListCommand.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.MobileControls.ObjectListCommand.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.ObjectListCommand.yml)
+* Handoff File: [System.Web.UI.MobileControls.ObjectListCommand.611c16b13d4726d6ce9c86cbc95015c9591f5eb3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ObjectListCommand.611c16b13d4726d6ce9c86cbc95015c9591f5eb3.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.WmlMobileTextWriter.WmlFormat.eba0e079ac8ef572239cdfe85c298e6871eb5481.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlMobileTextWriter.WmlFormat.eba0e079ac8ef572239cdfe85c298e6871eb5481.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.MobileControls.ObjectListCommand.611c16b13d4726d6ce9c86cbc95015c9591f5eb3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ObjectListCommand.611c16b13d4726d6ce9c86cbc95015c9591f5eb3.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='ca1683386bab99ef8553882af6a7a5b780e2a31182814'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlTextBoxAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlTextBoxAdapter.yml)
+##### <a name='92f95b477c6485b0b86ae2764c60da017c7e6dda82910'></a> Source: [fulldocset\System.Web.UI.MobileControls.ObjectListControlBuilder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ObjectListControlBuilder.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlTextBoxAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.WmlTextBoxAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.WmlTextBoxAdapter.4e95cb060ea7a9741af3779b9f8adece6ffc72d5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlTextBoxAdapter.4e95cb060ea7a9741af3779b9f8adece6ffc72d5.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.MobileControls.ObjectListControlBuilder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.ObjectListControlBuilder.yml)
+* Handoff File: [System.Web.UI.MobileControls.ObjectListControlBuilder.58226278ec21dfd7d23795805da6795bd7bd6cf8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ObjectListControlBuilder.58226278ec21dfd7d23795805da6795bd7bd6cf8.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.WmlTextBoxAdapter.4e95cb060ea7a9741af3779b9f8adece6ffc72d5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlTextBoxAdapter.4e95cb060ea7a9741af3779b9f8adece6ffc72d5.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.MobileControls.ObjectListControlBuilder.58226278ec21dfd7d23795805da6795bd7bd6cf8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ObjectListControlBuilder.58226278ec21dfd7d23795805da6795bd7bd6cf8.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='8248617007427721f69c12632adaac0bce7f4d3d82816'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlValidationSummaryAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlValidationSummaryAdapter.yml)
+##### <a name='b7d1c2dd1f0aac66fdb37653678bf5073b0a374982912'></a> Source: [fulldocset\System.Web.UI.MobileControls.ObjectListDataBindEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ObjectListDataBindEventHandler.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlValidationSummaryAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.WmlValidationSummaryAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.WmlValidationSummaryAdapter.e907237a99a21554688e5386f3f74f02759b4214.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlValidationSummaryAdapter.e907237a99a21554688e5386f3f74f02759b4214.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.MobileControls.ObjectListDataBindEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.ObjectListDataBindEventHandler.yml)
+* Handoff File: [System.Web.UI.MobileControls.ObjectListDataBindEventHandler.fb82dce237f9583907a56d7e2fe57b372132f12a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ObjectListDataBindEventHandler.fb82dce237f9583907a56d7e2fe57b372132f12a.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.MobileControls.ObjectListDataBindEventHandler.fb82dce237f9583907a56d7e2fe57b372132f12a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ObjectListDataBindEventHandler.fb82dce237f9583907a56d7e2fe57b372132f12a.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='030c14c94d2a7598b461e80282677d40a7d76f2582916'></a> Source: [fulldocset\System.Web.UI.MobileControls.ObjectListItemCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ObjectListItemCollection.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.MobileControls.ObjectListItemCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.ObjectListItemCollection.yml)
+* Handoff File: [System.Web.UI.MobileControls.ObjectListItemCollection.c32f7db2065754f726f99a30d382fbe0ddcb738f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ObjectListItemCollection.c32f7db2065754f726f99a30d382fbe0ddcb738f.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.MobileControls.ObjectListItemCollection.c32f7db2065754f726f99a30d382fbe0ddcb738f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ObjectListItemCollection.c32f7db2065754f726f99a30d382fbe0ddcb738f.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='670de17f359f7b60fb3331765b5ac5a98ae727fe82925'></a> Source: [fulldocset\System.Web.UI.MobileControls.Panel.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Panel.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.MobileControls.Panel.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.Panel.yml)
+* Handoff File: [System.Web.UI.MobileControls.Panel.a419ae01d05529fef846bed2687009b9131b0656.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Panel.a419ae01d05529fef846bed2687009b9131b0656.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.WmlValidationSummaryAdapter.e907237a99a21554688e5386f3f74f02759b4214.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlValidationSummaryAdapter.e907237a99a21554688e5386f3f74f02759b4214.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.MobileControls.Panel.a419ae01d05529fef846bed2687009b9131b0656.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Panel.a419ae01d05529fef846bed2687009b9131b0656.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='3f24705d1540ee653f02e06fb49aa7a87a816d4282817'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlValidatorAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.WmlValidatorAdapter.yml)
+##### <a name='e292620e6e0a4ceabfb422b0e6143c60d67bac1482932'></a> Source: [fulldocset\System.Web.UI.MobileControls.SelectionList.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.SelectionList.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.WmlValidatorAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.WmlValidatorAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.WmlValidatorAdapter.6d2b1f04f0bbb8073c94a26fd478d6637a834a6d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlValidatorAdapter.6d2b1f04f0bbb8073c94a26fd478d6637a834a6d.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.MobileControls.SelectionList.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.SelectionList.yml)
+* Handoff File: [System.Web.UI.MobileControls.SelectionList.c108e977f9626f234e5d55eb11b175d2d8ba9fbc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.SelectionList.c108e977f9626f234e5d55eb11b175d2d8ba9fbc.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.WmlValidatorAdapter.6d2b1f04f0bbb8073c94a26fd478d6637a834a6d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.WmlValidatorAdapter.6d2b1f04f0bbb8073c94a26fd478d6637a834a6d.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.MobileControls.SelectionList.c108e977f9626f234e5d55eb11b175d2d8ba9fbc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.SelectionList.c108e977f9626f234e5d55eb11b175d2d8ba9fbc.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='3448192aba6f131792e24599d365b796bdde398e82820'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlCalendarAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlCalendarAdapter.yml)
+##### <a name='195004d5d37e6cc7072011dce11eba63bf71c0db82936'></a> Source: [fulldocset\System.Web.UI.MobileControls.TemplateContainer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.TemplateContainer.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlCalendarAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlCalendarAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlCalendarAda.616a2101a833814a60aeaae2309b84106536e488.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlCalendarAda.616a2101a833814a60aeaae2309b84106536e488.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.MobileControls.TemplateContainer.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.TemplateContainer.yml)
+* Handoff File: [System.Web.UI.MobileControls.TemplateContainer.f8d16c722ed357323af11b3010861c7bd3905304.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.TemplateContainer.f8d16c722ed357323af11b3010861c7bd3905304.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlCalendarAda.616a2101a833814a60aeaae2309b84106536e488.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlCalendarAda.616a2101a833814a60aeaae2309b84106536e488.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.MobileControls.TemplateContainer.f8d16c722ed357323af11b3010861c7bd3905304.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.TemplateContainer.f8d16c722ed357323af11b3010861c7bd3905304.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='24b5176caa1fa4088efcf9f288a1aab7ce4ae3e482822'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.yml)
+##### <a name='1bd8a80c2b6ed3076d9a6ebec0878ee12fdbf6bb82942'></a> Source: [fulldocset\System.Web.UI.MobileControls.ValidationSummary.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ValidationSummary.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdap.ae838cc3a54dc6df2ec340645653b5ddafc31086.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdap.ae838cc3a54dc6df2ec340645653b5ddafc31086.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.MobileControls.ValidationSummary.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.MobileControls.ValidationSummary.yml)
+* Handoff File: [System.Web.UI.MobileControls.ValidationSummary.fe97f715deee8e069073221756f958048b1ef94e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ValidationSummary.fe97f715deee8e069073221756f958048b1ef94e.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdap.ae838cc3a54dc6df2ec340645653b5ddafc31086.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlControlAdap.ae838cc3a54dc6df2ec340645653b5ddafc31086.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.MobileControls.ValidationSummary.fe97f715deee8e069073221756f958048b1ef94e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ValidationSummary.fe97f715deee8e069073221756f958048b1ef94e.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='83affb6317a936b30957d8ffee16fa57e0fcf52782824'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlFormAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlFormAdapter.yml)
+##### <a name='c8b1c41552c47ceebcb8c84dd0f076400db6cb1a82955'></a> Source: [fulldocset\System.Web.UI.PageParser.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.PageParser.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlFormAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlFormAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlFormAdapter.789215eb40ec2b47d908d535f38d86d0786dde32.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlFormAdapter.789215eb40ec2b47d908d535f38d86d0786dde32.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.PageParser.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.PageParser.yml)
+* Handoff File: [System.Web.UI.PageParser.feba3a111588d91b39efe2f9c65ab63a2df6963a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.PageParser.feba3a111588d91b39efe2f9c65ab63a2df6963a.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlFormAdapter.789215eb40ec2b47d908d535f38d86d0786dde32.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlFormAdapter.789215eb40ec2b47d908d535f38d86d0786dde32.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.PageParser.feba3a111588d91b39efe2f9c65ab63a2df6963a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.PageParser.feba3a111588d91b39efe2f9c65ab63a2df6963a.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='b19433aa43b8af48e6d9ad9086709ba973f624dd82830'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter.yml)
+##### <a name='db59589a9649cbb3311644562225a8f1b0e4770382957'></a> Source: [fulldocset\System.Web.UI.PageStatePersister.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.PageStatePersister.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextWriter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextW.51d5b8c2853a8d406f94a162d5e58f62d76cc68f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextW.51d5b8c2853a8d406f94a162d5e58f62d76cc68f.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.PageStatePersister.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.PageStatePersister.yml)
+* Handoff File: [System.Web.UI.PageStatePersister.eed95de3e0cfc20fea51cd9a2e4e7e30f45020d9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.PageStatePersister.eed95de3e0cfc20fea51cd9a2e4e7e30f45020d9.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.PageStatePersister.eed95de3e0cfc20fea51cd9a2e4e7e30f45020d9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.PageStatePersister.eed95de3e0cfc20fea51cd9a2e4e7e30f45020d9.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='108653863b2abd02f76c983d9dc898fc5dda806d82961'></a> Source: [fulldocset\System.Web.UI.ParseRecorder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.ParseRecorder.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.ParseRecorder.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.ParseRecorder.yml)
+* Handoff File: [System.Web.UI.ParseRecorder.441c515a3d45b187ecd5f4d291d52234008e6cf5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.ParseRecorder.441c515a3d45b187ecd5f4d291d52234008e6cf5.nb-no.xlf)
+* Handoff Datetime: 2017-03-16 04:04:14
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Web.UI.ParseRecorder.441c515a3d45b187ecd5f4d291d52234008e6cf5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.ParseRecorder.441c515a3d45b187ecd5f4d291d52234008e6cf5.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
+* [Back to Top](#report-top)
+
+##### <a name='a03326bd2fe5bd690052a4a696dbb49fd883d4e582967'></a> Source: [fulldocset\System.Web.UI.PostBackOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.PostBackOptions.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Web.UI.PostBackOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.PostBackOptions.yml)
+* Handoff File: [System.Web.UI.PostBackOptions.2dece6572079c46f818ee1802e986a8f429188ce.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.PostBackOptions.2dece6572079c46f818ee1802e986a8f429188ce.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextW.51d5b8c2853a8d406f94a162d5e58f62d76cc68f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlMobileTextW.51d5b8c2853a8d406f94a162d5e58f62d76cc68f.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.PostBackOptions.2dece6572079c46f818ee1802e986a8f429188ce.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.PostBackOptions.2dece6572079c46f818ee1802e986a8f429188ce.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='c700dbba621171b9c026d7dd5092910a9ed492c982833'></a> Source: [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPanelAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPanelAdapter.yml)
+##### <a name='ad960e84ff4da62a7568ebdf4048fb62b7212fa482971'></a> Source: [fulldocset\System.Web.UI.PropertyEntry.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.PropertyEntry.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPanelAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPanelAdapter.yml)
-* Handoff File: [System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPanelAdapte.5f7a1c7887693d7a5c7d64027af89467a045cbb3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPanelAdapte.5f7a1c7887693d7a5c7d64027af89467a045cbb3.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.PropertyEntry.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.PropertyEntry.yml)
+* Handoff File: [System.Web.UI.PropertyEntry.9490f64fb1ac40ebd8bcf6d2a05fe13d3c4d46d5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.PropertyEntry.9490f64fb1ac40ebd8bcf6d2a05fe13d3c4d46d5.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:14
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPanelAdapte.5f7a1c7887693d7a5c7d64027af89467a045cbb3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Adapters.XhtmlAdapters.XhtmlPanelAdapte.5f7a1c7887693d7a5c7d64027af89467a045cbb3.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.PropertyEntry.9490f64fb1ac40ebd8bcf6d2a05fe13d3c4d46d5.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.PropertyEntry.9490f64fb1ac40ebd8bcf6d2a05fe13d3c4d46d5.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='855176f1651a8fa5849d4734605e72c0d95bf5d982843'></a> Source: [fulldocset\System.Web.UI.MobileControls.Alignment.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Alignment.yml)
+##### <a name='5dd13f2559298396f68ecd08faa3b84a5bc60bbd82972'></a> Source: [fulldocset\System.Web.UI.RegisteredArrayDeclaration.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.RegisteredArrayDeclaration.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Alignment.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Alignment.yml)
-* Handoff File: [System.Web.UI.MobileControls.Alignment.711e87181edc2bc071fb2448796528beb4f00012.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Alignment.711e87181edc2bc071fb2448796528beb4f00012.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Alignment.711e87181edc2bc071fb2448796528beb4f00012.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Alignment.711e87181edc2bc071fb2448796528beb4f00012.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='880c993c514b569b5c5bd942f8b9b92e659b5fa082845'></a> Source: [fulldocset\System.Web.UI.MobileControls.BaseValidator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.BaseValidator.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.BaseValidator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.BaseValidator.yml)
-* Handoff File: [System.Web.UI.MobileControls.BaseValidator.2ce2f10f65ff16cb131fc8fda568b3f60a46dc90.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.BaseValidator.2ce2f10f65ff16cb131fc8fda568b3f60a46dc90.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.BaseValidator.2ce2f10f65ff16cb131fc8fda568b3f60a46dc90.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.BaseValidator.2ce2f10f65ff16cb131fc8fda568b3f60a46dc90.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='1fcb40580b9b0fb7ea4522b3ca76f11d6c70f8f882848'></a> Source: [fulldocset\System.Web.UI.MobileControls.Command.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.Command.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.Command.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.Command.yml)
-* Handoff File: [System.Web.UI.MobileControls.Command.0cdba15dee2e8b307707324166da6e1ae9cf003d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Command.0cdba15dee2e8b307707324166da6e1ae9cf003d.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.Command.0cdba15dee2e8b307707324166da6e1ae9cf003d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.Command.0cdba15dee2e8b307707324166da6e1ae9cf003d.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='699cfd7fe74729f1eb65cc03cc5accf564f4699482849'></a> Source: [fulldocset\System.Web.UI.MobileControls.CommandFormat.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.CommandFormat.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.CommandFormat.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.CommandFormat.yml)
-* Handoff File: [System.Web.UI.MobileControls.CommandFormat.20884ce16cb2503dd50a02b0066d147407af486c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.CommandFormat.20884ce16cb2503dd50a02b0066d147407af486c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.CommandFormat.20884ce16cb2503dd50a02b0066d147407af486c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.CommandFormat.20884ce16cb2503dd50a02b0066d147407af486c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='eb7f27a110318343b40892a588d0ffafc03ee1aa82852'></a> Source: [fulldocset\System.Web.UI.MobileControls.ControlElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.ControlElement.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.ControlElement.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.ControlElement.yml)
-* Handoff File: [System.Web.UI.MobileControls.ControlElement.7c8c5b7fb7bd52b1d535c7f1cfa264fb01a113ae.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ControlElement.7c8c5b7fb7bd52b1d535c7f1cfa264fb01a113ae.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.ControlElement.7c8c5b7fb7bd52b1d535c7f1cfa264fb01a113ae.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.ControlElement.7c8c5b7fb7bd52b1d535c7f1cfa264fb01a113ae.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='655673d5963dbcabd959b5b79943114614f7742282855'></a> Source: [fulldocset\System.Web.UI.MobileControls.CustomValidator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.MobileControls.CustomValidator.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.MobileControls.CustomValidator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.MobileControls.CustomValidator.yml)
-* Handoff File: [System.Web.UI.MobileControls.CustomValidator.bbd6377d7e5dc74a82b4f5a0afa433e2e1ce834a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.CustomValidator.bbd6377d7e5dc74a82b4f5a0afa433e2e1ce834a.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.MobileControls.CustomValidator.bbd6377d7e5dc74a82b4f5a0afa433e2e1ce834a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.MobileControls.CustomValidator.bbd6377d7e5dc74a82b4f5a0afa433e2e1ce834a.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='78b4cac68d18fcb36ecfa48fd30835d6f53ebd6a83042'></a> Source: [fulldocset\System.Web.UI.ViewStateEncryptionMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.ViewStateEncryptionMode.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.ViewStateEncryptionMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.ViewStateEncryptionMode.yml)
-* Handoff File: [System.Web.UI.ViewStateEncryptionMode.f5cf75b001047b241fc75ece0425be6f71150d9c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.ViewStateEncryptionMode.f5cf75b001047b241fc75ece0425be6f71150d9c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.ViewStateEncryptionMode.f5cf75b001047b241fc75ece0425be6f71150d9c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.ViewStateEncryptionMode.f5cf75b001047b241fc75ece0425be6f71150d9c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='3765a59942c88e851d545b8639c4c4815f14506083043'></a> Source: [fulldocset\System.Web.UI.ViewStateException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.ViewStateException.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.ViewStateException.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.ViewStateException.yml)
-* Handoff File: [System.Web.UI.ViewStateException.870ccb1fea5ae1ca0e8441668b2906e9e51ebf73.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.ViewStateException.870ccb1fea5ae1ca0e8441668b2906e9e51ebf73.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.ViewStateException.870ccb1fea5ae1ca0e8441668b2906e9e51ebf73.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.ViewStateException.870ccb1fea5ae1ca0e8441668b2906e9e51ebf73.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='0287db0ecd7c929b4448ad4f1b091ede74a3db0683045'></a> Source: [fulldocset\System.Web.UI.ViewStateModeByIdAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.ViewStateModeByIdAttribute.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.ViewStateModeByIdAttribute.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.ViewStateModeByIdAttribute.yml)
-* Handoff File: [System.Web.UI.ViewStateModeByIdAttribute.08398c21140b39ebb0e781da93f6e3cee2b15d3d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.ViewStateModeByIdAttribute.08398c21140b39ebb0e781da93f6e3cee2b15d3d.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.ViewStateModeByIdAttribute.08398c21140b39ebb0e781da93f6e3cee2b15d3d.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.ViewStateModeByIdAttribute.08398c21140b39ebb0e781da93f6e3cee2b15d3d.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='d724f58cb95d6d2640a739fee396358c1431aab783055'></a> Source: [fulldocset\System.Web.UI.WebControls.AdCreatedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.AdCreatedEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.AdCreatedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.AdCreatedEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.AdCreatedEventArgs.6ffdf0d3645ad8b2f0b6a1bec1e6a6268c3ca5cc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.AdCreatedEventArgs.6ffdf0d3645ad8b2f0b6a1bec1e6a6268c3ca5cc.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.AdCreatedEventArgs.6ffdf0d3645ad8b2f0b6a1bec1e6a6268c3ca5cc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.AdCreatedEventArgs.6ffdf0d3645ad8b2f0b6a1bec1e6a6268c3ca5cc.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='5b31409e2b7b16484f3a20893fbd8357d287463583058'></a> Source: [fulldocset\System.Web.UI.WebControls.AssociatedControlConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.AssociatedControlConverter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.AssociatedControlConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.AssociatedControlConverter.yml)
-* Handoff File: [System.Web.UI.WebControls.AssociatedControlConverter.7da225b94b814d03d88b5f02b1c01ffc7475698c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.AssociatedControlConverter.7da225b94b814d03d88b5f02b1c01ffc7475698c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.AssociatedControlConverter.7da225b94b814d03d88b5f02b1c01ffc7475698c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.AssociatedControlConverter.7da225b94b814d03d88b5f02b1c01ffc7475698c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='4f605f8efed8d13c60ac71bd39b3be350decf6c483061'></a> Source: [fulldocset\System.Web.UI.WebControls.AutoCompleteType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.AutoCompleteType.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.AutoCompleteType.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.AutoCompleteType.yml)
-* Handoff File: [System.Web.UI.WebControls.AutoCompleteType.a73ec53340b8792326adf2c921357398d3194c1b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.AutoCompleteType.a73ec53340b8792326adf2c921357398d3194c1b.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.AutoCompleteType.a73ec53340b8792326adf2c921357398d3194c1b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.AutoCompleteType.a73ec53340b8792326adf2c921357398d3194c1b.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='a3129a9301d2bd8366256057acf97d673c3f1ca283064'></a> Source: [fulldocset\System.Web.UI.WebControls.AutoGeneratedFieldProperties.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.AutoGeneratedFieldProperties.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.AutoGeneratedFieldProperties.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.AutoGeneratedFieldProperties.yml)
-* Handoff File: [System.Web.UI.WebControls.AutoGeneratedFieldProperties.dd867fef6991b97b55b1db37a24c733ef430cac1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.AutoGeneratedFieldProperties.dd867fef6991b97b55b1db37a24c733ef430cac1.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.AutoGeneratedFieldProperties.dd867fef6991b97b55b1db37a24c733ef430cac1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.AutoGeneratedFieldProperties.dd867fef6991b97b55b1db37a24c733ef430cac1.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='d7ac11246c277b4dbe1ab89474b48a7ed34c99ba83070'></a> Source: [fulldocset\System.Web.UI.WebControls.BoundColumn.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.BoundColumn.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.BoundColumn.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.BoundColumn.yml)
-* Handoff File: [System.Web.UI.WebControls.BoundColumn.5163614a2174182ebaf1d459ce1377ece627d13a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.BoundColumn.5163614a2174182ebaf1d459ce1377ece627d13a.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.BoundColumn.5163614a2174182ebaf1d459ce1377ece627d13a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.BoundColumn.5163614a2174182ebaf1d459ce1377ece627d13a.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='05b3c84f51c4c050586ade5922dfd72a4de0cf2683084'></a> Source: [fulldocset\System.Web.UI.WebControls.CalendarDay.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CalendarDay.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.CalendarDay.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.CalendarDay.yml)
-* Handoff File: [System.Web.UI.WebControls.CalendarDay.c043713cabfbabb7662280816822f11e13abe3c1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/c838dfd78613312bc013ee73b30a5eefe5081a1c/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CalendarDay.c043713cabfbabb7662280816822f11e13abe3c1.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.RegisteredArrayDeclaration.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.RegisteredArrayDeclaration.yml)
+* Handoff File: [System.Web.UI.RegisteredArrayDeclaration.4a918624556b3e82c1fef139311750542448a59c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/c838dfd78613312bc013ee73b30a5eefe5081a1c/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.RegisteredArrayDeclaration.4a918624556b3e82c1fef139311750542448a59c.nb-no.xlf)
 * Handoff Datetime: 2017-03-17 16:25:04
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.CalendarDay.c043713cabfbabb7662280816822f11e13abe3c1.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CalendarDay.c043713cabfbabb7662280816822f11e13abe3c1.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.RegisteredArrayDeclaration.4a918624556b3e82c1fef139311750542448a59c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.RegisteredArrayDeclaration.4a918624556b3e82c1fef139311750542448a59c.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
-##### <a name='06801293bc55a9eb71aec95e1c01644eee65efc083085'></a> Source: [fulldocset\System.Web.UI.WebControls.CalendarSelectionMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CalendarSelectionMode.yml)
+##### <a name='1c2197fdef8ccf3d181df7b43a68e1d572f356d683173'></a> Source: [fulldocset\System.Web.UI.WebControls.DetailsViewModeEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewModeEventArgs.yml)
 * Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.CalendarSelectionMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.CalendarSelectionMode.yml)
-* Handoff File: [System.Web.UI.WebControls.CalendarSelectionMode.a6d9076efc3f2139b6e44da8a6f426d61c715894.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CalendarSelectionMode.a6d9076efc3f2139b6e44da8a6f426d61c715894.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.CalendarSelectionMode.a6d9076efc3f2139b6e44da8a6f426d61c715894.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CalendarSelectionMode.a6d9076efc3f2139b6e44da8a6f426d61c715894.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='ed7dd14e06dea41664a6f76becb69c708b5aee7e83086'></a> Source: [fulldocset\System.Web.UI.WebControls.CallingDataMethodsEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CallingDataMethodsEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.CallingDataMethodsEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.CallingDataMethodsEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.CallingDataMethodsEventArgs.443ede56d97e370ed913819b539b71742162c692.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CallingDataMethodsEventArgs.443ede56d97e370ed913819b539b71742162c692.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.CallingDataMethodsEventArgs.443ede56d97e370ed913819b539b71742162c692.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CallingDataMethodsEventArgs.443ede56d97e370ed913819b539b71742162c692.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='5eef9bd3a098c557840958a5d5991672b89cc08c83090'></a> Source: [fulldocset\System.Web.UI.WebControls.CheckBoxField.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CheckBoxField.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.CheckBoxField.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.CheckBoxField.yml)
-* Handoff File: [System.Web.UI.WebControls.CheckBoxField.73249afba0c2c36b42733b04eea84d3fe03844d2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CheckBoxField.73249afba0c2c36b42733b04eea84d3fe03844d2.nb-no.xlf)
+* Target File: [fulldocset\System.Web.UI.WebControls.DetailsViewModeEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/8e2a33181af8f72b0046936189cc37e8605fc422/fulldocset/System.Web.UI.WebControls.DetailsViewModeEventArgs.yml)
+* Handoff File: [System.Web.UI.WebControls.DetailsViewModeEventArgs.666a0e174dea5ff4c8107226eb91e28a9ab9e23f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewModeEventArgs.666a0e174dea5ff4c8107226eb91e28a9ab9e23f.nb-no.xlf)
 * Handoff Datetime: 2017-03-16 04:04:13
 * Handoff Reason: Include
 * Handoff Name: 
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.CheckBoxField.73249afba0c2c36b42733b04eea84d3fe03844d2.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CheckBoxField.73249afba0c2c36b42733b04eea84d3fe03844d2.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='9ee856ede988da81a8f3f404a6b5324a2ad1107083094'></a> Source: [fulldocset\System.Web.UI.WebControls.CommandEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CommandEventHandler.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.CommandEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.CommandEventHandler.yml)
-* Handoff File: [System.Web.UI.WebControls.CommandEventHandler.aa552e3968c0d2ce9ac828ad1d4b445e8163ca06.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CommandEventHandler.aa552e3968c0d2ce9ac828ad1d4b445e8163ca06.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.CommandEventHandler.aa552e3968c0d2ce9ac828ad1d4b445e8163ca06.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CommandEventHandler.aa552e3968c0d2ce9ac828ad1d4b445e8163ca06.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='9d8d290a40eee25cceb1c085ef43f5ee2e1be80983095'></a> Source: [fulldocset\System.Web.UI.WebControls.CommandField.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CommandField.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.CommandField.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.CommandField.yml)
-* Handoff File: [System.Web.UI.WebControls.CommandField.d5061081109ea4f428e4be4409dcf6c199bc126f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CommandField.d5061081109ea4f428e4be4409dcf6c199bc126f.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.CommandField.d5061081109ea4f428e4be4409dcf6c199bc126f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CommandField.d5061081109ea4f428e4be4409dcf6c199bc126f.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='b6a64fd56ec68aa5f12eac38c455ddc5238779c983097'></a> Source: [fulldocset\System.Web.UI.WebControls.CompleteWizardStep.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CompleteWizardStep.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.CompleteWizardStep.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.CompleteWizardStep.yml)
-* Handoff File: [System.Web.UI.WebControls.CompleteWizardStep.232b202131b22de7c6a477f062fa1140fa5ad6e6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CompleteWizardStep.232b202131b22de7c6a477f062fa1140fa5ad6e6.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.CompleteWizardStep.232b202131b22de7c6a477f062fa1140fa5ad6e6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CompleteWizardStep.232b202131b22de7c6a477f062fa1140fa5ad6e6.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='8705141ea8218f7322d8e74962d85f2d6d44065c83099'></a> Source: [fulldocset\System.Web.UI.WebControls.CompositeDataBoundControl.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CompositeDataBoundControl.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.CompositeDataBoundControl.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.CompositeDataBoundControl.yml)
-* Handoff File: [System.Web.UI.WebControls.CompositeDataBoundControl.db8e37245ab61b849ad361afe47a3a329447af24.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CompositeDataBoundControl.db8e37245ab61b849ad361afe47a3a329447af24.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.CompositeDataBoundControl.db8e37245ab61b849ad361afe47a3a329447af24.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CompositeDataBoundControl.db8e37245ab61b849ad361afe47a3a329447af24.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='0ad3117b56a506615cf9e712823f4ad8acab06b283107'></a> Source: [fulldocset\System.Web.UI.WebControls.ControlParameter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.ControlParameter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.ControlParameter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.ControlParameter.yml)
-* Handoff File: [System.Web.UI.WebControls.ControlParameter.12106edf349156ee58680ceff44cef293397ccd8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.ControlParameter.12106edf349156ee58680ceff44cef293397ccd8.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.ControlParameter.12106edf349156ee58680ceff44cef293397ccd8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.ControlParameter.12106edf349156ee58680ceff44cef293397ccd8.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='12ef0f19fc2c201dca387ed6a077ab21d386d6ff83108'></a> Source: [fulldocset\System.Web.UI.WebControls.ControlPropertyNameConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.ControlPropertyNameConverter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.ControlPropertyNameConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.ControlPropertyNameConverter.yml)
-* Handoff File: [System.Web.UI.WebControls.ControlPropertyNameConverter.6c703132be9ded45c518f420413d53fa806e58bc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.ControlPropertyNameConverter.6c703132be9ded45c518f420413d53fa806e58bc.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.ControlPropertyNameConverter.6c703132be9ded45c518f420413d53fa806e58bc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.ControlPropertyNameConverter.6c703132be9ded45c518f420413d53fa806e58bc.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='79a4ec95cafcf519e84df4cd8b7dd35558057b4983112'></a> Source: [fulldocset\System.Web.UI.WebControls.CreateUserWizard.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CreateUserWizard.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.CreateUserWizard.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.CreateUserWizard.yml)
-* Handoff File: [System.Web.UI.WebControls.CreateUserWizard.cf524218c1af4eaba304b20c7adbdee641c79974.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CreateUserWizard.cf524218c1af4eaba304b20c7adbdee641c79974.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.CreateUserWizard.cf524218c1af4eaba304b20c7adbdee641c79974.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CreateUserWizard.cf524218c1af4eaba304b20c7adbdee641c79974.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='aea3879e664317053d63f0ce57951c42a46dc9d483113'></a> Source: [fulldocset\System.Web.UI.WebControls.CreateUserWizardStep.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CreateUserWizardStep.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.CreateUserWizardStep.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.CreateUserWizardStep.yml)
-* Handoff File: [System.Web.UI.WebControls.CreateUserWizardStep.48646f69cb0178a9fcaacf22782704995b3c6814.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CreateUserWizardStep.48646f69cb0178a9fcaacf22782704995b3c6814.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.CreateUserWizardStep.48646f69cb0178a9fcaacf22782704995b3c6814.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CreateUserWizardStep.48646f69cb0178a9fcaacf22782704995b3c6814.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='0d93efb7ae200304465d4b0ee880a81faceab96f83116'></a> Source: [fulldocset\System.Web.UI.WebControls.CustomValidator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.CustomValidator.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.CustomValidator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.CustomValidator.yml)
-* Handoff File: [System.Web.UI.WebControls.CustomValidator.4fd9e0d8438d5ffc9a912366c55d6bb3a45395b8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CustomValidator.4fd9e0d8438d5ffc9a912366c55d6bb3a45395b8.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.CustomValidator.4fd9e0d8438d5ffc9a912366c55d6bb3a45395b8.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.CustomValidator.4fd9e0d8438d5ffc9a912366c55d6bb3a45395b8.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='5499d18161870f36d47a3a3affdc9d73823f55ca83120'></a> Source: [fulldocset\System.Web.UI.WebControls.DataControlCommands.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataControlCommands.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataControlCommands.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataControlCommands.yml)
-* Handoff File: [System.Web.UI.WebControls.DataControlCommands.20f0dc718cee7005976ec9fc0890172c79f2a1cf.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataControlCommands.20f0dc718cee7005976ec9fc0890172c79f2a1cf.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataControlCommands.20f0dc718cee7005976ec9fc0890172c79f2a1cf.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataControlCommands.20f0dc718cee7005976ec9fc0890172c79f2a1cf.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='248f387b87196088258d909eba61391316c2c9fb83121'></a> Source: [fulldocset\System.Web.UI.WebControls.DataControlField.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataControlField.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataControlField.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataControlField.yml)
-* Handoff File: [System.Web.UI.WebControls.DataControlField.32d53a0cbf5a6a93d5509a1ae6c3f1b74926aa55.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataControlField.32d53a0cbf5a6a93d5509a1ae6c3f1b74926aa55.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataControlField.32d53a0cbf5a6a93d5509a1ae6c3f1b74926aa55.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataControlField.32d53a0cbf5a6a93d5509a1ae6c3f1b74926aa55.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='cb1ee3c9238865dba32c95ee077f11bf394877fa83122'></a> Source: [fulldocset\System.Web.UI.WebControls.DataControlFieldCell.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataControlFieldCell.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataControlFieldCell.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataControlFieldCell.yml)
-* Handoff File: [System.Web.UI.WebControls.DataControlFieldCell.ab6f85d838358cbab925a20fd02f21dbc17556b4.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataControlFieldCell.ab6f85d838358cbab925a20fd02f21dbc17556b4.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataControlFieldCell.ab6f85d838358cbab925a20fd02f21dbc17556b4.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataControlFieldCell.ab6f85d838358cbab925a20fd02f21dbc17556b4.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='e9a902525aff849c57cd04e7045b136737509e2983123'></a> Source: [fulldocset\System.Web.UI.WebControls.DataControlFieldCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataControlFieldCollection.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataControlFieldCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataControlFieldCollection.yml)
-* Handoff File: [System.Web.UI.WebControls.DataControlFieldCollection.e4d4c6f8e2a1bbd0a818692fc4ed8c4f28354c6a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataControlFieldCollection.e4d4c6f8e2a1bbd0a818692fc4ed8c4f28354c6a.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataControlFieldCollection.e4d4c6f8e2a1bbd0a818692fc4ed8c4f28354c6a.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataControlFieldCollection.e4d4c6f8e2a1bbd0a818692fc4ed8c4f28354c6a.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='abb070d42c813164f6e4930dfd575ffc77202b7a83125'></a> Source: [fulldocset\System.Web.UI.WebControls.DataControlRowState.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataControlRowState.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataControlRowState.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataControlRowState.yml)
-* Handoff File: [System.Web.UI.WebControls.DataControlRowState.fd16ba82d079a8008525ae2ce009d2e1639f75ed.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataControlRowState.fd16ba82d079a8008525ae2ce009d2e1639f75ed.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataControlRowState.fd16ba82d079a8008525ae2ce009d2e1639f75ed.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataControlRowState.fd16ba82d079a8008525ae2ce009d2e1639f75ed.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='f815a6b4394509bd9ecfdc4f3ae8a7566fe8663f83128'></a> Source: [fulldocset\System.Web.UI.WebControls.DataGridColumn.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataGridColumn.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataGridColumn.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataGridColumn.yml)
-* Handoff File: [System.Web.UI.WebControls.DataGridColumn.fd8d889355ef92ca0d41ac7f23f55228760e6802.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataGridColumn.fd8d889355ef92ca0d41ac7f23f55228760e6802.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataGridColumn.fd8d889355ef92ca0d41ac7f23f55228760e6802.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataGridColumn.fd8d889355ef92ca0d41ac7f23f55228760e6802.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='1612809334667282c208918297b6a3823dfcd1be83129'></a> Source: [fulldocset\System.Web.UI.WebControls.DataGridColumnCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataGridColumnCollection.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataGridColumnCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataGridColumnCollection.yml)
-* Handoff File: [System.Web.UI.WebControls.DataGridColumnCollection.21d3f0b87511e0883e054dc731849f4a0cab01d6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataGridColumnCollection.21d3f0b87511e0883e054dc731849f4a0cab01d6.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataGridColumnCollection.21d3f0b87511e0883e054dc731849f4a0cab01d6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataGridColumnCollection.21d3f0b87511e0883e054dc731849f4a0cab01d6.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='cef1fb7bc38ed2d015fabab01cb211c2d4ece21483131'></a> Source: [fulldocset\System.Web.UI.WebControls.DataGridCommandEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataGridCommandEventHandler.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataGridCommandEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataGridCommandEventHandler.yml)
-* Handoff File: [System.Web.UI.WebControls.DataGridCommandEventHandler.b335bcea561d1122879d4ea644638449e8cbb0ed.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataGridCommandEventHandler.b335bcea561d1122879d4ea644638449e8cbb0ed.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataGridCommandEventHandler.b335bcea561d1122879d4ea644638449e8cbb0ed.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataGridCommandEventHandler.b335bcea561d1122879d4ea644638449e8cbb0ed.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='73a875014d0d6747affd38196607229a33d7ddc683133'></a> Source: [fulldocset\System.Web.UI.WebControls.DataGridItemCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataGridItemCollection.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataGridItemCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataGridItemCollection.yml)
-* Handoff File: [System.Web.UI.WebControls.DataGridItemCollection.1a6411871d4612f5cf695650c1664effb70dbc97.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataGridItemCollection.1a6411871d4612f5cf695650c1664effb70dbc97.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataGridItemCollection.1a6411871d4612f5cf695650c1664effb70dbc97.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataGridItemCollection.1a6411871d4612f5cf695650c1664effb70dbc97.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='f3d498908c249a420052dee4f0954831252b43c283134'></a> Source: [fulldocset\System.Web.UI.WebControls.DataGridItemEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataGridItemEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataGridItemEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataGridItemEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.DataGridItemEventArgs.01c4149b30d5ba4b241d6f97e13c6400be22e739.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataGridItemEventArgs.01c4149b30d5ba4b241d6f97e13c6400be22e739.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataGridItemEventArgs.01c4149b30d5ba4b241d6f97e13c6400be22e739.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataGridItemEventArgs.01c4149b30d5ba4b241d6f97e13c6400be22e739.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='d65a08566503610a8c91fba900ba6fb864fc77d883143'></a> Source: [fulldocset\System.Web.UI.WebControls.DataKeyCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataKeyCollection.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataKeyCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataKeyCollection.yml)
-* Handoff File: [System.Web.UI.WebControls.DataKeyCollection.683746cc6d2257b8598495d1b842d4e9b0d6ef8c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataKeyCollection.683746cc6d2257b8598495d1b842d4e9b0d6ef8c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataKeyCollection.683746cc6d2257b8598495d1b842d4e9b0d6ef8c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataKeyCollection.683746cc6d2257b8598495d1b842d4e9b0d6ef8c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='95ccb07ea24352b85788820ad463477317a4c35383145'></a> Source: [fulldocset\System.Web.UI.WebControls.DataListCommandEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataListCommandEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataListCommandEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataListCommandEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.DataListCommandEventArgs.123eef804a6475d039575b7543d1fcfc9a1ba482.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataListCommandEventArgs.123eef804a6475d039575b7543d1fcfc9a1ba482.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataListCommandEventArgs.123eef804a6475d039575b7543d1fcfc9a1ba482.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataListCommandEventArgs.123eef804a6475d039575b7543d1fcfc9a1ba482.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='4e467ba470c93c936e909435489282b0a03b352d83147'></a> Source: [fulldocset\System.Web.UI.WebControls.DataListItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataListItem.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataListItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataListItem.yml)
-* Handoff File: [System.Web.UI.WebControls.DataListItem.317706191e179c83c107d8e76c4003e2d4fbdc5c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataListItem.317706191e179c83c107d8e76c4003e2d4fbdc5c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataListItem.317706191e179c83c107d8e76c4003e2d4fbdc5c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataListItem.317706191e179c83c107d8e76c4003e2d4fbdc5c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='9844c8fe4c2c2a410d1ec226ad37d7ace0f8a7f683154'></a> Source: [fulldocset\System.Web.UI.WebControls.DataPagerFieldCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataPagerFieldCollection.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataPagerFieldCollection.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataPagerFieldCollection.yml)
-* Handoff File: [System.Web.UI.WebControls.DataPagerFieldCollection.72e2315503066b6b705b6537e63ffb2f3c65d92e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataPagerFieldCollection.72e2315503066b6b705b6537e63ffb2f3c65d92e.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataPagerFieldCollection.72e2315503066b6b705b6537e63ffb2f3c65d92e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataPagerFieldCollection.72e2315503066b6b705b6537e63ffb2f3c65d92e.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='b88782ae803ffaebaf868f88f23fe995d69b273483156'></a> Source: [fulldocset\System.Web.UI.WebControls.DataPagerFieldItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataPagerFieldItem.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataPagerFieldItem.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataPagerFieldItem.yml)
-* Handoff File: [System.Web.UI.WebControls.DataPagerFieldItem.53aa22c4d5363bdf02e7f4051cf5047bd8c2fd8b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataPagerFieldItem.53aa22c4d5363bdf02e7f4051cf5047bd8c2fd8b.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataPagerFieldItem.53aa22c4d5363bdf02e7f4051cf5047bd8c2fd8b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataPagerFieldItem.53aa22c4d5363bdf02e7f4051cf5047bd8c2fd8b.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='b1ede1fa0549be9253af0aa31952b41c858b498c83157'></a> Source: [fulldocset\System.Web.UI.WebControls.DataSourceSelectResultProcessingOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DataSourceSelectResultProcessingOptions.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DataSourceSelectResultProcessingOptions.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DataSourceSelectResultProcessingOptions.yml)
-* Handoff File: [System.Web.UI.WebControls.DataSourceSelectResultProcessingOptions.f3b3d0d932bf1c3d2ac0b2a8a8580f340331fef3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataSourceSelectResultProcessingOptions.f3b3d0d932bf1c3d2ac0b2a8a8580f340331fef3.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DataSourceSelectResultProcessingOptions.f3b3d0d932bf1c3d2ac0b2a8a8580f340331fef3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DataSourceSelectResultProcessingOptions.f3b3d0d932bf1c3d2ac0b2a8a8580f340331fef3.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='b6ab94ba485f706538c6ea39dcc4278cd6af839583164'></a> Source: [fulldocset\System.Web.UI.WebControls.DetailsViewDeletedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewDeletedEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DetailsViewDeletedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DetailsViewDeletedEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.DetailsViewDeletedEventArgs.ce7245337d3ed574eb30f6ad2ba8b51799622a11.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewDeletedEventArgs.ce7245337d3ed574eb30f6ad2ba8b51799622a11.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DetailsViewDeletedEventArgs.ce7245337d3ed574eb30f6ad2ba8b51799622a11.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewDeletedEventArgs.ce7245337d3ed574eb30f6ad2ba8b51799622a11.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='010aedde78dd57042d61dddc5c31a7e94886a1fc83166'></a> Source: [fulldocset\System.Web.UI.WebControls.DetailsViewDeleteEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewDeleteEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DetailsViewDeleteEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DetailsViewDeleteEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.DetailsViewDeleteEventArgs.c59ed8db67056d6da35c43e6405521389d825042.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewDeleteEventArgs.c59ed8db67056d6da35c43e6405521389d825042.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DetailsViewDeleteEventArgs.c59ed8db67056d6da35c43e6405521389d825042.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewDeleteEventArgs.c59ed8db67056d6da35c43e6405521389d825042.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='f2f5ed7cf98478d9a0a074779839548400293b3b83169'></a> Source: [fulldocset\System.Web.UI.WebControls.DetailsViewInsertedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewInsertedEventHandler.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DetailsViewInsertedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DetailsViewInsertedEventHandler.yml)
-* Handoff File: [System.Web.UI.WebControls.DetailsViewInsertedEventHandler.e05e9fefa01b8e86e3de6cd771a5e4d8ce3d4212.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewInsertedEventHandler.e05e9fefa01b8e86e3de6cd771a5e4d8ce3d4212.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DetailsViewInsertedEventHandler.e05e9fefa01b8e86e3de6cd771a5e4d8ce3d4212.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewInsertedEventHandler.e05e9fefa01b8e86e3de6cd771a5e4d8ce3d4212.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='e394ae0f21adb0dbfd638cb5e13c1b562ebcfbb583170'></a> Source: [fulldocset\System.Web.UI.WebControls.DetailsViewInsertEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewInsertEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DetailsViewInsertEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DetailsViewInsertEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.DetailsViewInsertEventArgs.2ea59ecd82b1e7ff0de5624eaa4c7b6d889fc227.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewInsertEventArgs.2ea59ecd82b1e7ff0de5624eaa4c7b6d889fc227.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DetailsViewInsertEventArgs.2ea59ecd82b1e7ff0de5624eaa4c7b6d889fc227.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewInsertEventArgs.2ea59ecd82b1e7ff0de5624eaa4c7b6d889fc227.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='b4cf2c30813df08305b09a30849442d33bc14b7c83171'></a> Source: [fulldocset\System.Web.UI.WebControls.DetailsViewInsertEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewInsertEventHandler.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DetailsViewInsertEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DetailsViewInsertEventHandler.yml)
-* Handoff File: [System.Web.UI.WebControls.DetailsViewInsertEventHandler.894c9462a6058df1e84f6411782fa2778eaf2049.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewInsertEventHandler.894c9462a6058df1e84f6411782fa2778eaf2049.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DetailsViewInsertEventHandler.894c9462a6058df1e84f6411782fa2778eaf2049.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewInsertEventHandler.894c9462a6058df1e84f6411782fa2778eaf2049.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='265d183b62c2f1f01baa8f8a8ee1b5f1705dfde683172'></a> Source: [fulldocset\System.Web.UI.WebControls.DetailsViewMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewMode.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DetailsViewMode.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DetailsViewMode.yml)
-* Handoff File: [System.Web.UI.WebControls.DetailsViewMode.39a13cdf7ee6b3ea1ee272acd2c754f7ceb94072.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewMode.39a13cdf7ee6b3ea1ee272acd2c754f7ceb94072.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DetailsViewMode.39a13cdf7ee6b3ea1ee272acd2c754f7ceb94072.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewMode.39a13cdf7ee6b3ea1ee272acd2c754f7ceb94072.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='9a5d1afd456eccceffba7577c1248742075c152283174'></a> Source: [fulldocset\System.Web.UI.WebControls.DetailsViewModeEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewModeEventHandler.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DetailsViewModeEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DetailsViewModeEventHandler.yml)
-* Handoff File: [System.Web.UI.WebControls.DetailsViewModeEventHandler.219b66aa22221e71bc2ff9c83847cfe0c5b93215.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewModeEventHandler.219b66aa22221e71bc2ff9c83847cfe0c5b93215.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DetailsViewModeEventHandler.219b66aa22221e71bc2ff9c83847cfe0c5b93215.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewModeEventHandler.219b66aa22221e71bc2ff9c83847cfe0c5b93215.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='3b2b676f3ea7c0f369ef5cb7635e1df1535312a683178'></a> Source: [fulldocset\System.Web.UI.WebControls.DetailsViewRow.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewRow.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DetailsViewRow.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DetailsViewRow.yml)
-* Handoff File: [System.Web.UI.WebControls.DetailsViewRow.9005e76618ac715414853338678a60d5796d9997.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewRow.9005e76618ac715414853338678a60d5796d9997.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DetailsViewRow.9005e76618ac715414853338678a60d5796d9997.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewRow.9005e76618ac715414853338678a60d5796d9997.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='0b6a7bf9cebaee3fbca4692b99ebe780ea002ed983182'></a> Source: [fulldocset\System.Web.UI.WebControls.DetailsViewUpdatedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.DetailsViewUpdatedEventHandler.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.DetailsViewUpdatedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.DetailsViewUpdatedEventHandler.yml)
-* Handoff File: [System.Web.UI.WebControls.DetailsViewUpdatedEventHandler.5c7933d352657898b94f7ed44bf177bd26525762.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewUpdatedEventHandler.5c7933d352657898b94f7ed44bf177bd26525762.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.DetailsViewUpdatedEventHandler.5c7933d352657898b94f7ed44bf177bd26525762.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewUpdatedEventHandler.5c7933d352657898b94f7ed44bf177bd26525762.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='de9af39a3e5cd2b9d12d394a7d0b875d68f7cdca83186'></a> Source: [fulldocset\System.Web.UI.WebControls.EditCommandColumn.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.EditCommandColumn.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.EditCommandColumn.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.EditCommandColumn.yml)
-* Handoff File: [System.Web.UI.WebControls.EditCommandColumn.cb8b4c1af24b3e8d57349e689063506290e2c45f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.EditCommandColumn.cb8b4c1af24b3e8d57349e689063506290e2c45f.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.EditCommandColumn.cb8b4c1af24b3e8d57349e689063506290e2c45f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.EditCommandColumn.cb8b4c1af24b3e8d57349e689063506290e2c45f.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='055dbc52b3b3f0c3309ccfc2fc4e6d8901a0a90283187'></a> Source: [fulldocset\System.Web.UI.WebControls.EmbeddedMailObject.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.EmbeddedMailObject.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.EmbeddedMailObject.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.EmbeddedMailObject.yml)
-* Handoff File: [System.Web.UI.WebControls.EmbeddedMailObject.5064c6b6f5391415a0fbddbcc5adcdafcc256b8c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.EmbeddedMailObject.5064c6b6f5391415a0fbddbcc5adcdafcc256b8c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.EmbeddedMailObject.5064c6b6f5391415a0fbddbcc5adcdafcc256b8c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.EmbeddedMailObject.5064c6b6f5391415a0fbddbcc5adcdafcc256b8c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='b33bf0b8668f56335ec63f4391ce52c002ffeb4f83191'></a> Source: [fulldocset\System.Web.UI.WebControls.EntityDataSourceChangingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.EntityDataSourceChangingEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.EntityDataSourceChangingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.EntityDataSourceChangingEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.EntityDataSourceChangingEventArgs.d090af9b029968aa640cdcc078193f3f9c4123c4.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.EntityDataSourceChangingEventArgs.d090af9b029968aa640cdcc078193f3f9c4123c4.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.EntityDataSourceChangingEventArgs.d090af9b029968aa640cdcc078193f3f9c4123c4.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.EntityDataSourceChangingEventArgs.d090af9b029968aa640cdcc078193f3f9c4123c4.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='606440b78da183f5e424ae944373d2889b9e7db583193'></a> Source: [fulldocset\System.Web.UI.WebControls.EntityDataSourceContextCreatingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.EntityDataSourceContextCreatingEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.EntityDataSourceContextCreatingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.EntityDataSourceContextCreatingEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.EntityDataSourceContextCreatingEventArgs.ecac2b6e5fe2e642d521eb4318712824f681d177.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.EntityDataSourceContextCreatingEventArgs.ecac2b6e5fe2e642d521eb4318712824f681d177.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.EntityDataSourceContextCreatingEventArgs.ecac2b6e5fe2e642d521eb4318712824f681d177.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.EntityDataSourceContextCreatingEventArgs.ecac2b6e5fe2e642d521eb4318712824f681d177.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='262ee56609df2aafddb080bcb3a69a2d08fc8ac683196'></a> Source: [fulldocset\System.Web.UI.WebControls.EntityDataSourceSelectingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.EntityDataSourceSelectingEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.EntityDataSourceSelectingEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.EntityDataSourceSelectingEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.EntityDataSourceSelectingEventArgs.f31f1a707a04ba57a546e1452393f0276d7b540f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.EntityDataSourceSelectingEventArgs.f31f1a707a04ba57a546e1452393f0276d7b540f.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.EntityDataSourceSelectingEventArgs.f31f1a707a04ba57a546e1452393f0276d7b540f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.EntityDataSourceSelectingEventArgs.f31f1a707a04ba57a546e1452393f0276d7b540f.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='b9efeacb80fe4f9c9f012ca143ac7835bf5eff9983203'></a> Source: [fulldocset\System.Web.UI.WebControls.Expressions.MethodExpression.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.Expressions.MethodExpression.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.Expressions.MethodExpression.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.Expressions.MethodExpression.yml)
-* Handoff File: [System.Web.UI.WebControls.Expressions.MethodExpression.dea5c38dfc17924ffd1900471c75c8564b02c4cb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.Expressions.MethodExpression.dea5c38dfc17924ffd1900471c75c8564b02c4cb.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.Expressions.MethodExpression.dea5c38dfc17924ffd1900471c75c8564b02c4cb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.Expressions.MethodExpression.dea5c38dfc17924ffd1900471c75c8564b02c4cb.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='1758fcffa7de8b185ea85860c879634727b0c62083213'></a> Source: [fulldocset\System.Web.UI.WebControls.Expressions.ThenBy.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.Expressions.ThenBy.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.Expressions.ThenBy.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.Expressions.ThenBy.yml)
-* Handoff File: [System.Web.UI.WebControls.Expressions.ThenBy.9f9cb0436e4d0855d6d535cde8436c642ad23f1e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.Expressions.ThenBy.9f9cb0436e4d0855d6d535cde8436c642ad23f1e.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.Expressions.ThenBy.9f9cb0436e4d0855d6d535cde8436c642ad23f1e.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.Expressions.ThenBy.9f9cb0436e4d0855d6d535cde8436c642ad23f1e.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='b025b119c7b8adbc9b2041819c83743e6b1c783083219'></a> Source: [fulldocset\System.Web.UI.WebControls.FontSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FontSize.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FontSize.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FontSize.yml)
-* Handoff File: [System.Web.UI.WebControls.FontSize.9230af59551da68796fa17792a2d29188702e543.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FontSize.9230af59551da68796fa17792a2d29188702e543.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FontSize.9230af59551da68796fa17792a2d29188702e543.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FontSize.9230af59551da68796fa17792a2d29188702e543.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='eadbbf6b4e3d1fe836045581d7eb095ae6c0320783221'></a> Source: [fulldocset\System.Web.UI.WebControls.FontUnitConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FontUnitConverter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FontUnitConverter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FontUnitConverter.yml)
-* Handoff File: [System.Web.UI.WebControls.FontUnitConverter.a50557df6f4a9d903c4f9c71838ab81260644e40.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FontUnitConverter.a50557df6f4a9d903c4f9c71838ab81260644e40.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FontUnitConverter.a50557df6f4a9d903c4f9c71838ab81260644e40.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FontUnitConverter.a50557df6f4a9d903c4f9c71838ab81260644e40.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='de2ed7681e9a1749d16bad578e5c9b1d4e170c8583222'></a> Source: [fulldocset\System.Web.UI.WebControls.FormParameter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormParameter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FormParameter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FormParameter.yml)
-* Handoff File: [System.Web.UI.WebControls.FormParameter.5a9872fa9d1e363cf7a8af0892b265b73252a592.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormParameter.5a9872fa9d1e363cf7a8af0892b265b73252a592.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FormParameter.5a9872fa9d1e363cf7a8af0892b265b73252a592.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormParameter.5a9872fa9d1e363cf7a8af0892b265b73252a592.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='c1a9236642bb08555046f9e39532bd9d936071af83223'></a> Source: [fulldocset\System.Web.UI.WebControls.FormView.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormView.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FormView.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FormView.yml)
-* Handoff File: [System.Web.UI.WebControls.FormView.e860fe73e18adc4b11e63b57089ffbf324e97eb6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormView.e860fe73e18adc4b11e63b57089ffbf324e97eb6.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FormView.e860fe73e18adc4b11e63b57089ffbf324e97eb6.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormView.e860fe73e18adc4b11e63b57089ffbf324e97eb6.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='35d191750e2ac93f4dbd614914f352ff6d46f80a83226'></a> Source: [fulldocset\System.Web.UI.WebControls.FormViewDeletedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewDeletedEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FormViewDeletedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FormViewDeletedEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.FormViewDeletedEventArgs.f44adbfb9a88e53294e5dacd87e44553c42ee6eb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewDeletedEventArgs.f44adbfb9a88e53294e5dacd87e44553c42ee6eb.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FormViewDeletedEventArgs.f44adbfb9a88e53294e5dacd87e44553c42ee6eb.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewDeletedEventArgs.f44adbfb9a88e53294e5dacd87e44553c42ee6eb.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='48af5a50a78a0d96a3f0602ab89a660d66d73d2183230'></a> Source: [fulldocset\System.Web.UI.WebControls.FormViewInsertedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewInsertedEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FormViewInsertedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FormViewInsertedEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.FormViewInsertedEventArgs.456ff6540e57656942b53ef8daf2e96cfc91c5cf.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewInsertedEventArgs.456ff6540e57656942b53ef8daf2e96cfc91c5cf.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FormViewInsertedEventArgs.456ff6540e57656942b53ef8daf2e96cfc91c5cf.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewInsertedEventArgs.456ff6540e57656942b53ef8daf2e96cfc91c5cf.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='cc706d42eca5ce58787fe623d86d68398a9e253883231'></a> Source: [fulldocset\System.Web.UI.WebControls.FormViewInsertedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewInsertedEventHandler.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FormViewInsertedEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FormViewInsertedEventHandler.yml)
-* Handoff File: [System.Web.UI.WebControls.FormViewInsertedEventHandler.64a3e2dd819e80e553e6202529ab28787be5d109.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewInsertedEventHandler.64a3e2dd819e80e553e6202529ab28787be5d109.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FormViewInsertedEventHandler.64a3e2dd819e80e553e6202529ab28787be5d109.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewInsertedEventHandler.64a3e2dd819e80e553e6202529ab28787be5d109.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='e054397e713b65f18067f00aaf07c8effe38a77483233'></a> Source: [fulldocset\System.Web.UI.WebControls.FormViewInsertEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewInsertEventHandler.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FormViewInsertEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FormViewInsertEventHandler.yml)
-* Handoff File: [System.Web.UI.WebControls.FormViewInsertEventHandler.32377f859f64b202ae62008afd86074d18f32b9c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewInsertEventHandler.32377f859f64b202ae62008afd86074d18f32b9c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FormViewInsertEventHandler.32377f859f64b202ae62008afd86074d18f32b9c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewInsertEventHandler.32377f859f64b202ae62008afd86074d18f32b9c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='9d4f3277d65b564bd28940f3a6eba3aa4eea651d83237'></a> Source: [fulldocset\System.Web.UI.WebControls.FormViewPageEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewPageEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FormViewPageEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FormViewPageEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.FormViewPageEventArgs.bc12e6697d45dee67d0471152f7c5cf13c6ea726.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewPageEventArgs.bc12e6697d45dee67d0471152f7c5cf13c6ea726.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FormViewPageEventArgs.bc12e6697d45dee67d0471152f7c5cf13c6ea726.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewPageEventArgs.bc12e6697d45dee67d0471152f7c5cf13c6ea726.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='9a520ed8e35c732d76d44715648cfc6a206b234783238'></a> Source: [fulldocset\System.Web.UI.WebControls.FormViewPageEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewPageEventHandler.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FormViewPageEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FormViewPageEventHandler.yml)
-* Handoff File: [System.Web.UI.WebControls.FormViewPageEventHandler.01695bdd416c3b69cae1ea37785123e0e6e84d95.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewPageEventHandler.01695bdd416c3b69cae1ea37785123e0e6e84d95.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FormViewPageEventHandler.01695bdd416c3b69cae1ea37785123e0e6e84d95.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewPageEventHandler.01695bdd416c3b69cae1ea37785123e0e6e84d95.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='94ebf17593270d695aa9dabaa6c4c0d5f95199e583241'></a> Source: [fulldocset\System.Web.UI.WebControls.FormViewUpdatedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewUpdatedEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FormViewUpdatedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FormViewUpdatedEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.FormViewUpdatedEventArgs.eab8b2b760a6eb26144d39b49dd4a72f0805dc58.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewUpdatedEventArgs.eab8b2b760a6eb26144d39b49dd4a72f0805dc58.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FormViewUpdatedEventArgs.eab8b2b760a6eb26144d39b49dd4a72f0805dc58.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewUpdatedEventArgs.eab8b2b760a6eb26144d39b49dd4a72f0805dc58.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='9c336fab11b2be209f4ca301f481cac41adb85f183244'></a> Source: [fulldocset\System.Web.UI.WebControls.FormViewUpdateEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.FormViewUpdateEventHandler.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.FormViewUpdateEventHandler.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.FormViewUpdateEventHandler.yml)
-* Handoff File: [System.Web.UI.WebControls.FormViewUpdateEventHandler.586e8fd9fbc07d0fda10960bdb85716205f53de7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewUpdateEventHandler.586e8fd9fbc07d0fda10960bdb85716205f53de7.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.FormViewUpdateEventHandler.586e8fd9fbc07d0fda10960bdb85716205f53de7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.FormViewUpdateEventHandler.586e8fd9fbc07d0fda10960bdb85716205f53de7.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='76ae9af45b6f8ecf1b1828ab14a0399c1629516c83245'></a> Source: [fulldocset\System.Web.UI.WebControls.GridLines.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridLines.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.GridLines.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.GridLines.yml)
-* Handoff File: [System.Web.UI.WebControls.GridLines.290e4cace991a2968c93edf73b4baea51d6f94b9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridLines.290e4cace991a2968c93edf73b4baea51d6f94b9.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.GridLines.290e4cace991a2968c93edf73b4baea51d6f94b9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridLines.290e4cace991a2968c93edf73b4baea51d6f94b9.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='9ab17c187ae3bc22ac8835bfe8cfea5df512ffa883250'></a> Source: [fulldocset\System.Web.UI.WebControls.GridViewCommandEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewCommandEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.GridViewCommandEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.GridViewCommandEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.GridViewCommandEventArgs.9429e58f42ed12b897c0adfeefedbcc9d4d2b6c3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewCommandEventArgs.9429e58f42ed12b897c0adfeefedbcc9d4d2b6c3.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.GridViewCommandEventArgs.9429e58f42ed12b897c0adfeefedbcc9d4d2b6c3.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewCommandEventArgs.9429e58f42ed12b897c0adfeefedbcc9d4d2b6c3.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='d9022142ea2d0a5c9b7a28b0f36dba3c211698d983254'></a> Source: [fulldocset\System.Web.UI.WebControls.GridViewDeleteEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewDeleteEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.GridViewDeleteEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.GridViewDeleteEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.GridViewDeleteEventArgs.ec28c3803707dde84eda360dcbb62ea6aafe8ccc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewDeleteEventArgs.ec28c3803707dde84eda360dcbb62ea6aafe8ccc.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.GridViewDeleteEventArgs.ec28c3803707dde84eda360dcbb62ea6aafe8ccc.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewDeleteEventArgs.ec28c3803707dde84eda360dcbb62ea6aafe8ccc.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='dfb7f3a8af019e5c71a4abaaa961df0322d22c3a83256'></a> Source: [fulldocset\System.Web.UI.WebControls.GridViewEditEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewEditEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.GridViewEditEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.GridViewEditEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.GridViewEditEventArgs.5b8f9d1adc9c8456c3b251c72d2b48b9ed6612c7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewEditEventArgs.5b8f9d1adc9c8456c3b251c72d2b48b9ed6612c7.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.GridViewEditEventArgs.5b8f9d1adc9c8456c3b251c72d2b48b9ed6612c7.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewEditEventArgs.5b8f9d1adc9c8456c3b251c72d2b48b9ed6612c7.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='1f8d3234d2a93aa53587f04f82240b11d159968983258'></a> Source: [fulldocset\System.Web.UI.WebControls.GridViewPageEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewPageEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.GridViewPageEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.GridViewPageEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.GridViewPageEventArgs.1df04d87917ad7f68838c94372a6b0153a501d57.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewPageEventArgs.1df04d87917ad7f68838c94372a6b0153a501d57.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:13
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.GridViewPageEventArgs.1df04d87917ad7f68838c94372a6b0153a501d57.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewPageEventArgs.1df04d87917ad7f68838c94372a6b0153a501d57.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='f5061fd535b3853aba01b44e61b5e030d32a57a383262'></a> Source: [fulldocset\System.Web.UI.WebControls.GridViewRowEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewRowEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.GridViewRowEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.GridViewRowEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.GridViewRowEventArgs.ed542f91d1dd82cd1bfb041d2e545546b7d07861.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewRowEventArgs.ed542f91d1dd82cd1bfb041d2e545546b7d07861.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.GridViewRowEventArgs.ed542f91d1dd82cd1bfb041d2e545546b7d07861.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewRowEventArgs.ed542f91d1dd82cd1bfb041d2e545546b7d07861.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='5e7aef73bd21d3cd9dbe734fb189066623d585c883264'></a> Source: [fulldocset\System.Web.UI.WebControls.GridViewSelectEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewSelectEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.GridViewSelectEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.GridViewSelectEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.GridViewSelectEventArgs.674e01a49de433e5a25752f1958ec576921f222c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewSelectEventArgs.674e01a49de433e5a25752f1958ec576921f222c.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.GridViewSelectEventArgs.674e01a49de433e5a25752f1958ec576921f222c.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewSelectEventArgs.674e01a49de433e5a25752f1958ec576921f222c.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:15
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
-##### <a name='c8cb94d85a6b91702d58a73532892dadb68c3ab783268'></a> Source: [fulldocset\System.Web.UI.WebControls.GridViewUpdatedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.GridViewUpdatedEventArgs.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.GridViewUpdatedEventArgs.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/a97de71ad4bf7bac4447c5b97fbbc96945b74d8a/fulldocset/System.Web.UI.WebControls.GridViewUpdatedEventArgs.yml)
-* Handoff File: [System.Web.UI.WebControls.GridViewUpdatedEventArgs.1fc46517397163ad413e3aa1583c267ad063abf9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewUpdatedEventArgs.1fc46517397163ad413e3aa1583c267ad063abf9.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.GridViewUpdatedEventArgs.1fc46517397163ad413e3aa1583c267ad063abf9.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/21fec41d2941070edfcb8eabac6440d5fd4ff881/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.GridViewUpdatedEventArgs.1fc46517397163ad413e3aa1583c267ad063abf9.nb-no.xlf)
-* Handback Datetime: 2017-03-18 15:31:16
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Handback File: [System.Web.UI.WebControls.DetailsViewModeEventArgs.666a0e174dea5ff4c8107226eb91e28a9ab9e23f.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b53189ab015c205df8e5811a0eed7a9f70141a36/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.DetailsViewModeEventArgs.666a0e174dea5ff4c8107226eb91e28a9ab9e23f.nb-no.xlf)
+* Handback Datetime: 2017-03-18 15:55:18
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_2
 * [Back to Top](#report-top)
 
 
