@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1867d2551f8e663634efb909d1ef69e7403ba79</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Reflection.Context.CustomReflectionContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a4a5231a624607b4bbb0d8bd52bfc08259ef0111</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a4e0f1ee01c11afda2dd3eb8e9519fc02c94288</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a customizable reflection context.</source>
+          <target state="translated">Vertegenwoordigt een aanpasbare reflectiecontext.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CustomReflectionContext provides a way for you to add or remove custom attributes from reflection objects, or add dummy properties to those objects, without re-implementing the complete reflection model.</source>
+          <target state="translated">CustomReflectionContext biedt een manier waarop u wilt toevoegen of verwijderen van aangepaste kenmerken van reflectie objecten of dummy-eigenschappen voor die objecten toevoegen zonder opnieuw implementeren van het model voltooid reflectie.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default CustomReflectionContext simply wraps reflection objects without making any changes, but by subclassing and overriding the relevant methods, you can add, remove, or change the attributes that apply to any reflected parameter or member, or add new properties to a reflected type.</source>
+          <target state="translated">De standaardwaarde CustomReflectionContext verpakt gewoon reflectie objecten zonder wijzigingen, maar door subclassing en de relevante methoden te overschrijven, u kunt toevoegen, verwijderen, of wijzig de kenmerken die voor alle gereflecteerde parameter of lid is gelden, of nieuwe eigenschappen toevoegen aan een gereflecteerde type.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, suppose that your code follows the convention of applying a particular attribute to factory methods, but you are now required to work with third-party code that lacks attributes.</source>
+          <target state="translated">Stel bijvoorbeeld dat uw code de overeenkomst van het toepassen van een bepaald kenmerk factory methoden volgt, maar nu moet u werken met de code van derden die beschikt niet over de kenmerken.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use CustomReflectionContext to specify a rule for identifying the objects that should have attributes and to supply the objects with those attributes when they are viewed from your code.</source>
+          <target state="translated">U kunt CustomReflectionContext gebruiken om op te geven van een regel voor het identificeren van de objecten hebben kenmerken en objecten in deze kenmerken opgeven wanneer ze worden weergegeven vanuit uw code.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use CustomReflectionContext effectively, the code that uses the reflected objects must support the notion of specifying a reflection context, instead of assuming that all reflected objects are associated with the runtime reflection context.</source>
+          <target state="translated">CustomReflectionContext als effectief wilt gebruiken, moet de code die gebruikmaakt van de gereflecteerde objecten het begrip van het opgeven van een reflectiecontext in plaats van ervan uitgaande dat alle gereflecteerde objecten gekoppeld aan de context van de reflectie runtime zijn ondersteunen.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Many reflection methods in the .NET Framework provide a &lt;xref:System.Reflection.ReflectionContext&gt; parameter for this purpose.</source>
+          <target state="translated">Veel reflectie methoden in .NET Framework bieden een &lt;xref:System.Reflection.ReflectionContext&gt;parameter voor dit doel.&lt;/xref:System.Reflection.ReflectionContext&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To modify the attributes that are applied to a reflected parameter or member, override the &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.ParameterInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt; or &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.MemberInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt; method.</source>
+          <target state="translated">Voor het wijzigen van de kenmerken die worden toegepast op een gereflecteerde parameter of lid, overschrijven de &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.ParameterInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt;of &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.MemberInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt;methode.&lt;/xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.MemberInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt; &lt;/xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.ParameterInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These methods take the reflected object and the list of attributes under its current reflection context, and return the list of attributes it should have under the custom reflection context.</source>
+          <target state="translated">Deze methoden het gereflecteerde object en de lijst met kenmerken onder de huidige reflectiecontext, en retourneren de lijst met kenmerken in de reflectiecontext van de aangepaste heeft.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  CustomReflectionContext methods should not access the list of attributes of a reflected object or method directly by calling the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; method on the provided &lt;xref:System.Reflection.MemberInfo&gt; or &lt;xref:System.Reflection.ParameterInfo&gt; instance, but should instead use the <ph id="ph2">`declaredAttributes`</ph> list, which is passed as a parameter to the &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%2A&gt; method overloads.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt; CustomReflectionContext methoden mag geen toegang krijgen tot de lijst met kenmerken van een gespiegeld object of de methode rechtstreeks door het aanroepen van de &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt;methode voor het opgegeven &lt;xref:System.Reflection.MemberInfo&gt;of &lt;xref:System.Reflection.ParameterInfo&gt;-instantie, maar in plaats daarvan moet gebruiken de <ph id="ph2">`declaredAttributes`</ph> lijst die wordt doorgegeven als een parameter voor de &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%2A&gt;methode overloads.&lt;/xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%2A&gt; &lt;/xref:System.Reflection.ParameterInfo&gt; &lt;/xref:System.Reflection.MemberInfo&gt; &lt;/xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add properties to a reflected type, override the &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt; method.</source>
+          <target state="translated">Om de eigenschappen voor een gereflecteerde type toevoegen, overschrijven de &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt;methode.&lt;/xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method accepts a parameter that specifies the reflected type, and returns a list of additional properties.</source>
+          <target state="translated">De methode accepteert een parameter geeft u het type gereflecteerde en retourneert een lijst van extra eigenschappen.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should use the &lt;xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt; method to create property objects to return.</source>
+          <target state="translated">Moet u de &lt;xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt;methode voor het maken van de eigenschapobjecten om terug te keren.&lt;/xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify delegates when creating the property that will serve as the property accessor, and you can omit one of the accessors to create a read-only or write-only property.</source>
+          <target state="translated">U kunt gemachtigden opgeven wanneer de eigenschap maken die als de eigenschapsaccessor fungeert en kunt u een van de accessors voor het maken van een alleen-lezen of alleen-schrijven eigenschap weglaten.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such dummy properties have no metadata or Common Intermediate Language (CIL) backing.</source>
+          <target state="translated">Houd er rekening mee dat dergelijke dummy eigenschappen geen metagegevens of algemene tussenliggende Language (CIL) back-ups maken hebben.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  Be cautious about equality among reflected objects when you work with reflection contexts, because objects may represent the same reflected object in multiple contexts.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt; Wees voorzichtig bij het gelijkheid tussen gereflecteerde objecten wanneer u met reflectie contexten werkt, omdat de objecten kunnen hetzelfde object gereflecteerde in meerdere contexten vertegenwoordigen.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Reflection.Context.CustomReflectionContext.MapType%2A&gt; method to obtain a particular reflection context's version of a reflected object.</source>
+          <target state="translated">U kunt de &lt;xref:System.Reflection.Context.CustomReflectionContext.MapType%2A&gt;methode voor een bepaalde reflectiecontext versie van een object gereflecteerde.&lt;/xref:System.Reflection.Context.CustomReflectionContext.MapType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  A CustomReflectionContext object alters the attributes returned by a particular reflection object, such as those obtained by the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; method.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt; A CustomReflectionContext object verandert de kenmerken die zijn geretourneerd door een bepaalde reflectie-object, zoals die worden verkregen door de &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt;methode.&lt;/xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It does not alter the custom attribute data returned by the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributesData%2A&gt; method, and these two lists will not match when you use a custom reflection context.</source>
+          <target state="translated">Dit geen invloed heeft op het aangepaste kenmerkgegevens die zijn geretourneerd door de &lt;xref:System.Reflection.MemberInfo.GetCustomAttributesData%2A&gt;methode en deze twee lijsten niet overeenkomt met wanneer u een aangepaste reflectiecontext.&lt;/xref:System.Reflection.MemberInfo.GetCustomAttributesData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Reflection.Context.CustomReflectionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Reflection.Context.CustomReflectionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Reflection.Context.CustomReflectionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified reflection context as a base.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Reflection.Context.CustomReflectionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven reflectiecontext als uitgangspunt.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The reflection context to use as a base.</source>
+          <target state="translated">De reflectiecontext om te gebruiken als basis.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, provides a collection of additional properties for the specified type, as represented in this reflection context.</source>
+          <target state="translated">Wanneer in een afgeleide klasse genegeerd, biedt een verzameling van extra eigenschappen voor het opgegeven type, zoals wordt weergegeven in deze reflectiecontext.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override this method to specify which properties should be added to a given type.</source>
+          <target state="translated">Deze methode als u wilt opgeven welke eigenschappen moeten worden toegevoegd aan een bepaald type overschrijven.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create the properties, use the &lt;xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt; method.</source>
+          <target state="translated">Gebruik voor het maken van de eigenschappen van de &lt;xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt;methode.&lt;/xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The type to add properties to.</source>
+          <target state="translated">Het type eigenschappen die u wilt toevoegen.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A collection of additional properties for the specified type.</source>
+          <target state="translated">Een verzameling van extra eigenschappen voor het opgegeven type.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Creates an object that represents a property to be added to a type, to be used with the &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt; method.</source>
+          <target state="translated">Hiermee maakt u een object met een eigenschap moet worden toegevoegd aan een type moet worden gebruikt met de &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt;methode.&lt;/xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects that are returned by this method are not complete &lt;xref:System.Reflection.PropertyInfo&gt; objects, and should be used only in the context of the &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt; method.</source>
+          <target state="translated">Objecten die worden geretourneerd door deze methode zijn niet voltooid &lt;xref:System.Reflection.PropertyInfo&gt;objecten en mag alleen worden gebruikt in de context van de &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt;methode.&lt;/xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt; &lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The type of the property to create.</source>
+          <target state="translated">Het type van de eigenschap maken.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The name of the property to create.</source>
+          <target state="translated">De naam van de eigenschap maken.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An object that represents the property's <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">Een object met de eigenschap <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> accessor.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An object that represents the property's <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">Een object met de eigenschap <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> accessor.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An object that represents the property.</source>
+          <target state="translated">Een object dat de eigenschap vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Creates an object that represents a property to be added to a type, to be used with the &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt; method and using the specified custom attributes.</source>
+          <target state="translated">Hiermee maakt u een object met een eigenschap moet worden toegevoegd aan een type moet worden gebruikt met de &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt;methode en het gebruik van de opgegeven aangepaste kenmerken.&lt;/xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects that are returned by this method are not complete &lt;xref:System.Reflection.PropertyInfo&gt; objects, and should be used only in the context of the &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt; method.</source>
+          <target state="translated">Objecten die worden geretourneerd door deze methode zijn niet voltooid &lt;xref:System.Reflection.PropertyInfo&gt;objecten en mag alleen worden gebruikt in de context van de &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt;methode.&lt;/xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt; &lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The type of the property to create.</source>
+          <target state="translated">Het type van de eigenschap maken.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The name of the property to create.</source>
+          <target state="translated">De naam van de eigenschap maken.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An object that represents the property's <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">Een object met de eigenschap <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> accessor.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An object that represents the property's <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">Een object met de eigenschap <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> accessor.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A collection of custom attributes to apply to the property.</source>
+          <target state="translated">Een verzameling van aangepaste kenmerken toe te passen aan de eigenschap.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A collection of custom attributes to apply to the property's <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">Een verzameling van aangepaste kenmerken toe te passen aan de eigenschap <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> accessor.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A collection of custom attributes to apply to the property's <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">Een verzameling van aangepaste kenmerken toe te passen aan de eigenschap <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> accessor.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An object that represents the property.</source>
+          <target state="translated">Een object dat de eigenschap vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, provides a list of custom attributes for the specified member, as represented in this reflection context.</source>
+          <target state="translated">Wanneer in een afgeleide klasse genegeerd, biedt een lijst met aangepaste kenmerken voor het opgegeven lid, zoals wordt weergegeven in deze reflectiecontext.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The member whose custom attributes will be returned.</source>
+          <target state="translated">Het lid waarvan de aangepaste kenmerken worden geretourneerd.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A collection of the member's attributes in its current context.</source>
+          <target state="translated">Een verzameling van de kenmerken van het lid in de huidige context.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A collection that represents the custom attributes of the specified member in this reflection context.</source>
+          <target state="translated">Een verzameling die de aangepaste kenmerken van het opgegeven lid in deze reflectiecontext vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, provides a list of custom attributes for the specified parameter, as represented in this reflection context.</source>
+          <target state="translated">Wanneer in een afgeleide klasse genegeerd, biedt een lijst met aangepaste kenmerken voor de opgegeven parameter, zoals wordt weergegeven in deze reflectiecontext.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The parameter whose custom attributes will be returned.</source>
+          <target state="translated">De parameter waarvan u de aangepaste kenmerken worden geretourneerd.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A collection of the parameter's attributes in its current context.</source>
+          <target state="translated">Een verzameling van de parameter-kenmerken in de huidige context.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A collection that represents the custom attributes of the specified parameter in this reflection context.</source>
+          <target state="translated">Een verzameling die de aangepaste kenmerken van de opgegeven parameter in deze reflectiecontext vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets the representation, in this reflection context, of an assembly that is represented by an object from another reflection context.</source>
+          <target state="translated">Hiermee haalt de weergave in deze reflectiecontext van een assembly die wordt vertegenwoordigd door een object van een andere reflectiecontext.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The external representation of the assembly to represent in this context.</source>
+          <target state="translated">De externe weergave van de assembly vertegenwoordigt in deze context.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The representation of the assembly in this reflection context.</source>
+          <target state="translated">De weergave van de assembly in deze reflectiecontext.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets the representation, in this reflection context, of a type represented by an object from another reflection context.</source>
+          <target state="translated">Hiermee haalt de weergave in deze reflectiecontext van een type dat wordt vertegenwoordigd door een object van een andere reflectiecontext.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The external representation of the type to represent in this context.</source>
+          <target state="translated">De externe weergave van het type om weer te geven in deze context.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The representation of the type in this reflection context.</source>
+          <target state="translated">De weergave van het type in deze reflectiecontext.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

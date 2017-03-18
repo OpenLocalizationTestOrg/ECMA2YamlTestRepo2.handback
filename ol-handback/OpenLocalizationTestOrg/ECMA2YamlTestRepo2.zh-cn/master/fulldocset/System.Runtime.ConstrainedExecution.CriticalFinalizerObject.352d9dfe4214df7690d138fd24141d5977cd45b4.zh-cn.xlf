@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18662fc7d4230fec1646d4f41a321def8a23513b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.ConstrainedExecution.CriticalFinalizerObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5c95124a7cc714a3067ad0821539278c03f3469b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e9b04922d7371f340cf7d6c6a6bd3b788587af5a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Ensures that all finalization code in derived classes is marked as critical.</source>
+          <target state="translated">确保所有终止代码在派生类中的被都标记为关键。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Classes deriving from the CriticalFinalizerObject class are implicitly treated as a constrained execution region (CER).</source>
+          <target state="translated">从 CriticalFinalizerObject 类派生的类隐式将被视为受约束的执行区域 (CER)。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This requires code in the finalizer to only call code with a strong reliability contract.</source>
+          <target state="translated">这要求在终结器仅调用具有高可靠性协定的代码中的代码。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For more information about CERs, see the &lt;xref:System.Runtime.ConstrainedExecution&gt; namespace.</source>
+          <target state="translated">有关 Cer 的详细信息，请参阅&lt;xref:System.Runtime.ConstrainedExecution&gt;命名空间。&lt;/xref:System.Runtime.ConstrainedExecution&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In classes derived from the CriticalFinalizerObject class, the common language runtime (CLR) guarantees that all critical finalization code will be given the opportunity to execute, provided the finalizer follows the rules for a CER, even in situations where the CLR forcibly unloads an application domain or aborts a thread.</source>
+          <target state="translated">在从 CriticalFinalizerObject 类派生的类，所有关键终止代码将有机会在执行时，公共语言运行时 (CLR) 保证提供终结器为 CER，即使在情况下，CLR 强制卸载应用程序域或中止线程遵循的规则。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If a finalizer violates the rules for a CER, it might not successfully execute.</source>
+          <target state="translated">如果终结器 cer 违反规则，它可能无法成功执行。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In addition, the CLR establishes a weak ordering among normal and critical finalizers: for objects reclaimed by garbage collection at the same time, all the noncritical finalizers are called before any of the critical finalizers.</source>
+          <target state="translated">此外，CLR 建立之间正常和关键终结器弱排序︰ 对于通过一次垃圾回收回收的对象，所有非关键的终结器调用任何关键终结器之前。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, a class such as &lt;xref:System.IO.FileStream&gt;, which holds data in the &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; class that is derived from CriticalFinalizerObject, can run a standard finalizer to flush out existing buffered data.</source>
+          <target state="translated">例如，如类&lt;xref:System.IO.FileStream&gt;，用于存储中的数据&lt;xref:System.Runtime.InteropServices.SafeHandle&gt;从 CriticalFinalizerObject，派生的类可以运行一个标准的终结器清空现有的缓冲数据。&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt; &lt;/xref:System.IO.FileStream&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In most cases, you do not need to write classes that derive from the CriticalFinalizerObject class.</source>
+          <target state="translated">在大多数情况下，你不需要编写从 CriticalFinalizerObject 类派生的类。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The .NET Framework class library provides two classes, &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; and &lt;xref:System.Runtime.InteropServices.CriticalHandle&gt;, that provide critical finalization functionality for handle resources.</source>
+          <target state="translated">.NET Framework 类库提供了两个类，&lt;xref:System.Runtime.InteropServices.SafeHandle&gt;和&lt;xref:System.Runtime.InteropServices.CriticalHandle&gt;，句柄资源提供关键终止功能。&lt;/xref:System.Runtime.InteropServices.CriticalHandle&gt; &lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Furthermore, the .NET Framework provides a set of prewritten classes derived from the &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; class, and this set is located in the &lt;xref:Microsoft.Win32.SafeHandles&gt; namespace.</source>
+          <target state="translated">此外，.NET Framework 提供一组预写类派生自&lt;xref:System.Runtime.InteropServices.SafeHandle&gt;类，并且此组位于&lt;xref:Microsoft.Win32.SafeHandles&gt;命名空间。&lt;/xref:Microsoft.Win32.SafeHandles&gt; &lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>These classes are designed to provide common functionality for supporting file and operating system handles.</source>
+          <target state="translated">这些类旨在提供通用功能的支持文件和操作系统句柄。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.ConstrainedExecution.CriticalFinalizerObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Runtime.ConstrainedExecution.CriticalFinalizerObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Releases all the resources used by the <bpt id="p1">&lt;xref href="System.Runtime.ConstrainedExecution.CriticalFinalizerObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">释放使用的所有资源<bpt id="p1">&lt;xref href="System.Runtime.ConstrainedExecution.CriticalFinalizerObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The finalizer for any types deriving from &lt;xref:System.Runtime.ConstrainedExecution.CriticalFinalizerObject&gt; is given the opportunity to execute and will not be aborted, assuming the finalizer correctly follows the rules for a constrained execution region (CER).</source>
+          <target state="translated">从派生的任何类型的终结器&lt;xref:System.Runtime.ConstrainedExecution.CriticalFinalizerObject&gt;有机会执行并不会中止，假定终结器正确遵守受约束的执行区域 (CER) 的规则。&lt;/xref:System.Runtime.ConstrainedExecution.CriticalFinalizerObject&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

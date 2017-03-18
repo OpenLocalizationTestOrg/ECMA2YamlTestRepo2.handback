@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3723103732fd2131c6b15a30e26329918a8fc881</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.DurableInstancing.InstanceView.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5490f070188c4caedd675c72df7aefd91ac5e1c7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dbeb6fbe78c45388e05c79a1914da074c1c72d6a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a view of an instance.</source>
+          <target state="translated">Egy nézet egy példány jelöli.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Runtime.DurableInstancing.InstanceStore.Execute*&gt; method implementations return an InstanceView object that provides a view into the instance data in the persistence store.</source>
+          <target state="translated">Például a &lt;xref:System.Runtime.DurableInstancing.InstanceStore.Execute*&gt;metódus megvalósítások vissza, amely révén a példányok adatait az állapotmegőrző tárolóban a képet InstanceView objektumot.&lt;/xref:System.Runtime.DurableInstancing.InstanceStore.Execute*&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each InstanceView object is associated with an InstanceHandle.</source>
+          <target state="translated">Minden egyes InstanceView objektum társítva van egy olyan instancehandle leíró.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an InstanceView returned from InstanceStore.Execute, the associated handle is the one passed to Execute.</source>
+          <target state="translated">Egy adott vissza az InstanceStore.Execute InstanceView a társított leíró Execute átadott egy esetén.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an InstanceView returned from InstancePersistenceContext.InstanceView, the associated handle is the one passed to TryCommand.</source>
+          <target state="translated">A társított leíró egy InstanceView InstancePersistenceContext.InstanceView által visszaadott, a TryCommand átadott egy esetén.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An InstanceHandle may have zero or more InstanceView objects associated with it at any given time.</source>
+          <target state="translated">Egy olyan instancehandle leíró lehet nulla vagy több InstanceView objektumok egy adott időpontban társítva.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>InstanceView objects returned from InstanceStore.Execute are immutable and represent a snapshot of the known instance state after the successful execution of that command.</source>
+          <target state="translated">Az InstanceStore.Execute által visszaadott InstanceView objektumok nem módosíthatók, és az ismert példány állapotának pillanatképe határoz meg, hogy a parancs sikeres végrehajtása után.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>InstanceView objects returned from InstancePersistenceContext are mutable and represent the current known instance state as it is being updated during the execution of the command.</source>
+          <target state="translated">InstancePersistenceContext által visszaadott InstanceView objektumok változtatható, és a jelenlegi ismert példány állapota jelölik frissül, a parancs végrehajtása közben.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(If the command ultimately fails, this intermediate state is discarded).</source>
+          <target state="translated">(A parancs végső soron sikertelen, ha a köztes állapotát a rendszer törli).</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets instance data as a dictionary of names and values.</source>
+          <target state="translated">Neveit és értékeit álló dictionary, lekérdezi a példányok adatait.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The instance data.</source>
+          <target state="translated">A példányok adatait.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Gets the consistency status of the InstanceData property.</source>
+          <target state="translated">A InstanceData tulajdonság konzisztencia állapotát olvassa be.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The consistency (None, In Doubt, and Partial) of the instance data.</source>
+          <target state="translated">A (nincs, bizonytalan, és a részleges) példány adatok konzisztenciáját.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>InstanceValueConsistency.None indicates that the InstanceData property holds a fully populated and locked set of instance data.</source>
+          <target state="translated">InstanceValueConsistency.None azt jelzi, hogy a InstanceData tulajdonság a példányok adatait teljesen ki van töltve, és zárolt készletét tartalmazza.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets the identifier (ID) of the instance as a GUID.</source>
+          <target state="translated">Lekérdezi a azonosítót (ID) példány GUID.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The ID of the instance or Guid.Empty if the associated instance handle is not bound to an instance.</source>
+          <target state="translated">A példány vagy a Guid.Empty, ha a társított példány leíró nincs kötve példány azonosítója.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets the instance keys as a dictionary of instance key identifiers and associated <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceKeyView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">A példány kulcsok lekérdezi a példány kulcs azonosítók dictionary, és a kapcsolódó <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceKeyView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumok.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A dictionary of instance key identifiers and their associated instance key view objects.</source>
+          <target state="translated">Példány kulcs azonosítók dictionary és a társított példány kulcsával megtekintheti az objektumokat.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the consistency status of the InstanceKeys property.</source>
+          <target state="translated">A InstanceKeys tulajdonság konzisztencia állapotát olvassa be.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The consistency value of instance keys.</source>
+          <target state="translated">A példány kulcsok konzisztencia értéke.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>InstanceValueConsistency.None indicates that the InstanceKeys property holds a fully populated and locked set of instance keys (though not necessarily each key’s metadata).</source>
+          <target state="translated">InstanceValueConsistency.None azt jelzi, hogy a InstanceKeys tulajdonság tartalmazza-e példány kulcsok teljesen ki van töltve, és zárolt készlete (bár a nem feltétlenül minden kulcs metaadatainak).</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets the metadata of an instance as a dictionary of names and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">A metaadatok példány nevek álló dictionary, lekérdezi és <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumok.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The metadata of the instance.</source>
+          <target state="translated">A metaadat-példány.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the consistency status of the InstanceMetadata property.</source>
+          <target state="translated">A InstanceMetadata tulajdonság konzisztencia állapotát olvassa be.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The consistency of the instance metadata.</source>
+          <target state="translated">A példány metaadatok konzisztenciáját.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>InstanceValueConsistency.None indicates that the InstanceMetadata property holds a fully populated and locked set of instance metadata.</source>
+          <target state="translated">InstanceValueConsistency.None azt jelzi, hogy a InstanceMetadata tulajdonság tartalmazza-e egy teljes mértékben ki van töltve, zárolt a példány metaadat-készlet.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the owner of the instance.</source>
+          <target state="translated">Lekérdezi a példány tulajdonosa.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The owner of the instance.</source>
+          <target state="translated">A példány tulajdonosa.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns null if the associated instance handle is not bound to an instance owner.</source>
+          <target state="translated">Ha a társított példány leíró nincs kötve példány tulajdonosa null értéket ad vissza.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the metadata for an instance owner as a dictionary of names and values.</source>
+          <target state="translated">A metaadatok lekérése egy példánytulajdonos neveit és értékeit álló dictionary.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A dictionary containing instance-owner metadata.</source>
+          <target state="translated">A szótár tartalmazó példánytulajdonoshoz metaadatok.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the consistency status of the InstanceOwnerMetadata property.</source>
+          <target state="translated">A InstanceOwnerMetadata tulajdonság konzisztencia állapotát olvassa be.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The consistency of the instance owner metadata.</source>
+          <target state="translated">A példány tulajdonos metaadatok konzisztenciáját.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns null if the associated instance handle is not bound to an instance owner.</source>
+          <target state="translated">Ha a társított példány leíró nincs kötve példány tulajdonosa null értéket ad vissza.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets the state of the instance (Unknown, Uninitialized, Initialized, or Completed).</source>
+          <target state="translated">A példány (ismeretlen, Uninitialized, Initialized vagy Befejezve) állapotának beolvasása.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The state of the instance.</source>
+          <target state="translated">A példány állapotát.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Lekérdezi a gyűjteménye <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumok.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The collection is automatically reset to empty each time a command is executed against the associated instance handle.</source>
+          <target state="translated">A gyűjtemény automatikusan visszaáll az üres minden alkalommal, amikor a parancs végrehajtása a társított példány leíró ellen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">A gyűjtemény <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumok.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the associated instance handle is bound to an instance.</source>
+          <target state="translated">Visszaad egy értéket, amely jelzi, hogy a társított példány leíró példánya van kötve.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the associated instance handle is bound to an instance; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a társított példány kezelésére van kötve példány; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the associated instance handle is bound to an instance owner.</source>
+          <target state="translated">Visszaad egy értéket, amely jelzi, hogy a társított példány leíró egy példánytulajdonoshoz van kötve.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the associated instance handle is bound to an instance owner; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a társított példány kezelésére van kötve egy példánytulajdonos; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the associated instance handle is bound to an instance lock.</source>
+          <target state="translated">Visszaad egy értéket, amely jelzi, hogy a társított példány leíró egy példány zárolási van kötve.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the associated instance handle is bound to an instance lock; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a társított példány kezelésére van kötve egy példány zárolási; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

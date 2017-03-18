@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">277a8fd852714e01a1d80a232ab4875f756d1d0e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.InteropServices.ExtensibleClassFactory.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2f56796a3cebc72553c7e74bf6f5222c2f7d9228</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4be4e2544388b5ec157d51a66036108484994984</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables customization of managed objects that extend from unmanaged objects during creation.</source>
+          <target state="translated">允许自定义的创建过程将从非托管对象的扩展的托管对象。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`ExtensibleClassFactory`</ph> allows users to specify a <ph id="ph2">`delegate`</ph> that is called during construction of a runtime callable wrapper (RCW) that provides an instance of the underlying COM object.</source>
+          <target state="translated"><ph id="ph1">`ExtensibleClassFactory`</ph>允许用户指定<ph id="ph2">`delegate`</ph>，在提供基础的 COM 对象的实例的运行时可调用包装 (RCW) 的构造过程中调用。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In effect, the callback acts as the class factory for the COM object wrapped by the RCW.</source>
+          <target state="translated">实际上，回调充当包装 RCW 的 COM 对象的类工厂。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Without the callback, the common language runtime creates the underlying COM object by calling <ph id="ph1">`CoCreateInstance`</ph>.</source>
+          <target state="translated">不执行回调，公共语言运行时创建基础的 COM 对象通过调用<ph id="ph1">`CoCreateInstance`</ph>。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This callback provides an alternative way of activating the underlying object, such as with a COM moniker or by providing a singleton object.</source>
+          <target state="translated">此回调提供的替代方式的激活基础对象，例如，通过 COM 标记，或通过提供单一实例对象。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.InteropServices.ExtensibleClassFactory.RegisterObjectCreationCallback%2A&gt; method must be called in the <ph id="ph1">`static`</ph> initializer of the class that is extending the RCW.</source>
+          <target state="translated">&lt;xref:System.Runtime.InteropServices.ExtensibleClassFactory.RegisterObjectCreationCallback%2A&gt;必须调用方法<ph id="ph1">`static`</ph>初始值设定项的类的扩展 RCW。&lt;/xref:System.Runtime.InteropServices.ExtensibleClassFactory.RegisterObjectCreationCallback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Only one object creation callback is permitted per object type.</source>
+          <target state="translated">只有一个对象创建回调允许每个对象类型。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When the extensible RCW is activated, the callback is registered.</source>
+          <target state="translated">当激活可扩展 RCW 时，注册回调。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When the underlying COM object needs to be created, the callback is called to provide a reference to the object.</source>
+          <target state="translated">需要创建基本的 COM 对象，将调用回调，以提供对对象的引用。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The callback must return an <ph id="ph1">`IUnknown`</ph> interface pointer for the base object.</source>
+          <target state="translated">回调必须返回<ph id="ph1">`IUnknown`</ph>基对象的接口指针。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Registers a <bpt id="p1">&lt;xref uid="langword_csharp_delegate" name="delegate" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is called when an instance of a managed type, that extends from an unmanaged type, needs to allocate the aggregated unmanaged object.</source>
+          <target state="translated">注册<bpt id="p1">&lt;xref uid="langword_csharp_delegate" name="delegate" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，每次从非托管类型扩展的托管类型的实例需要分配聚合的非托管的对象时调用。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This <ph id="ph1">`delegate`</ph> allocates and aggregates the unmanaged object and is called in place of <ph id="ph2">`CoCreateInstance`</ph>.</source>
+          <target state="translated">这<ph id="ph1">`delegate`</ph>分配并聚合了非托管的对象会调用代替了<ph id="ph2">`CoCreateInstance`</ph>。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This <ph id="ph1">`delegate`</ph> must be registered in the context of the <ph id="ph2">`static`</ph> class initializer for which the callbacks will be made.</source>
+          <target state="translated">这<ph id="ph1">`delegate`</ph>必须注册的上下文中<ph id="ph2">`static`</ph>类初始值设定项将为其进行回调。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Only one class in an hierarchy should register a <ph id="ph1">`delegate`</ph> callback.</source>
+          <target state="translated">层次结构中的只有一个类应注册<ph id="ph1">`delegate`</ph>回调。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_delegate" name="delegate" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is called in place of <bpt id="p2">&lt;xref uid="langword_csharp_CoCreateInstance" name="CoCreateInstance" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_delegate" name="delegate" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代替了称为<bpt id="p2">&lt;xref uid="langword_csharp_CoCreateInstance" name="CoCreateInstance" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

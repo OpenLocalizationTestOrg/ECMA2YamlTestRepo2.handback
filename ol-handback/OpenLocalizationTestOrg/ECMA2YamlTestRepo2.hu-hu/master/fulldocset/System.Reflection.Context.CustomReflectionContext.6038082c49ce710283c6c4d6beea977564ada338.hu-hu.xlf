@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b1867d2551f8e663634efb909d1ef69e7403ba79</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Reflection.Context.CustomReflectionContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a4a5231a624607b4bbb0d8bd52bfc08259ef0111</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a4e0f1ee01c11afda2dd3eb8e9519fc02c94288</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a customizable reflection context.</source>
+          <target state="translated">A testre szabható reflexiós környezetben jelöli.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CustomReflectionContext provides a way for you to add or remove custom attributes from reflection objects, or add dummy properties to those objects, without re-implementing the complete reflection model.</source>
+          <target state="translated">CustomReflectionContext módot biztosít a segítségével vegye fel vagy távolítsa el az egyéni attribútumok a reflexió objektumok vagy típusú tulajdonságok hozzáadása azokat az objektumokat, a teljes reflexiós modellt újbóli végrehajtása nélkül.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default CustomReflectionContext simply wraps reflection objects without making any changes, but by subclassing and overriding the relevant methods, you can add, remove, or change the attributes that apply to any reflected parameter or member, or add new properties to a reflected type.</source>
+          <target state="translated">Az alapértelmezett CustomReflectionContext egyszerűen becsomagolja reflexiós objektumok változtatás nélkül, de subclassing, és a megfelelő metódusok felülbírálása, hozzáadása, eltávolítása, vagy módosítsa az attribútumokat, amelyek érvényesek a tükrözött paraméter vagy a tag vagy új tulajdonságok hozzáadása egy tükrözött típust.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, suppose that your code follows the convention of applying a particular attribute to factory methods, but you are now required to work with third-party code that lacks attributes.</source>
+          <target state="translated">Tegyük fel, hogy a kód a következő attribútumot alkalmazása gyári metódusokat az egyezmény, de most szükséges külső kód, amely nem rendelkezik attribútumok használata.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use CustomReflectionContext to specify a rule for identifying the objects that should have attributes and to supply the objects with those attributes when they are viewed from your code.</source>
+          <target state="translated">CustomReflectionContext attribútumokkal kell ellátni objektumok azonosítására szolgáló szabályt ad meg, és automatikusan megadhatja azokat az objektumokat, amelyek azok a felhasználói kódból megtekintve használható.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use CustomReflectionContext effectively, the code that uses the reflected objects must support the notion of specifying a reflection context, instead of assuming that all reflected objects are associated with the runtime reflection context.</source>
+          <target state="translated">CustomReflectionContext hatékonyan használatához a kódot, amely a tükrözött-objektumokat használ támogatnia kell a reflexiós környezetben megadása helyett, feltéve, hogy az összes tükrözött objektum társítva a futásidejű reflexiós környezetben fogalmát.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Many reflection methods in the .NET Framework provide a &lt;xref:System.Reflection.ReflectionContext&gt; parameter for this purpose.</source>
+          <target state="translated">A .NET-keretrendszer számos reflexiós módszert biztosítanak a &lt;xref:System.Reflection.ReflectionContext&gt;paraméter erre a célra.&lt;/xref:System.Reflection.ReflectionContext&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To modify the attributes that are applied to a reflected parameter or member, override the &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.ParameterInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt; or &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.MemberInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt; method.</source>
+          <target state="translated">Módosítsa az attribútumokat, amelyek érvényesek a tükrözött paraméter vagy a tag, bírálja felül a &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.ParameterInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt;vagy &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.MemberInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt;metódus.&lt;/xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.MemberInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt; &lt;/xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%28System.Reflection.ParameterInfo%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%29&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These methods take the reflected object and the list of attributes under its current reflection context, and return the list of attributes it should have under the custom reflection context.</source>
+          <target state="translated">Ezek a módszerek a tükrözött objektum és az aktuális reflexiós környezetben attribútumok listáját, és rendelkeznie kell az egyéni reflexiós környezetben attribútumok listáját adja vissza.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  CustomReflectionContext methods should not access the list of attributes of a reflected object or method directly by calling the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; method on the provided &lt;xref:System.Reflection.MemberInfo&gt; or &lt;xref:System.Reflection.ParameterInfo&gt; instance, but should instead use the <ph id="ph2">`declaredAttributes`</ph> list, which is passed as a parameter to the &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%2A&gt; method overloads.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt; CustomReflectionContext módszerek ne férhessenek az attribútumlistát, a tükrözött vagy metódus meghívásával közvetlenül a &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt;metódust a megadott &lt;xref:System.Reflection.MemberInfo&gt;vagy &lt;xref:System.Reflection.ParameterInfo&gt;példány, de Ehelyett használjon a <ph id="ph2">`declaredAttributes`</ph> listát, amely paramétereként átadása a &lt;xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%2A&gt;metódus túlterhelések.&lt;/xref:System.Reflection.Context.CustomReflectionContext.GetCustomAttributes%2A&gt; &lt;/xref:System.Reflection.ParameterInfo&gt; &lt;/xref:System.Reflection.MemberInfo&gt; &lt;/xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add properties to a reflected type, override the &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt; method.</source>
+          <target state="translated">Egy tükrözött típus tulajdonságainak hozzáadásához bírálja felül a &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt;metódus.&lt;/xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method accepts a parameter that specifies the reflected type, and returns a list of additional properties.</source>
+          <target state="translated">A metódus fogad el egy paraméter, amely meghatározza a tükrözött típusát, és további tulajdonságok listáját adja vissza.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should use the &lt;xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt; method to create property objects to return.</source>
+          <target state="translated">Használjon a &lt;xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt;metódus visszatéréshez tulajdonság objektumok létrehozásához.&lt;/xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify delegates when creating the property that will serve as the property accessor, and you can omit one of the accessors to create a read-only or write-only property.</source>
+          <target state="translated">Megadhat delegáltak létrehozható a tulajdonság, amely erre a célra a tulajdonságelérő, és csak olvasható, vagy csak írható tulajdonság létrehozása elérőnek kihagyhatja.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such dummy properties have no metadata or Common Intermediate Language (CIL) backing.</source>
+          <target state="translated">Ne feledje, hogy ilyen típusú tulajdonságok nem metaadatok vagy közös köztes nyelv (CIL-hez) biztonsági.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  Be cautious about equality among reflected objects when you work with reflection contexts, because objects may represent the same reflected object in multiple contexts.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt; Legyen óvatos tükrözött objektumok közötti egyenlőségi reflexiós környezetben végzett munka során, mert az objektumok képviselhet több környezetekben tükrözött ugyanahhoz az objektumhoz.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Reflection.Context.CustomReflectionContext.MapType%2A&gt; method to obtain a particular reflection context's version of a reflected object.</source>
+          <target state="translated">Használhatja a &lt;xref:System.Reflection.Context.CustomReflectionContext.MapType%2A&gt;módszer egy adott reflexiós környezetben verziójának egy tükrözött objektum.&lt;/xref:System.Reflection.Context.CustomReflectionContext.MapType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  A CustomReflectionContext object alters the attributes returned by a particular reflection object, such as those obtained by the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; method.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt; A CustomReflectionContext objektum megváltoztatja a által egy adott reflection objektum, például a tartalomészlelés által visszaadott attribútumokat a &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt;metódus.&lt;/xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It does not alter the custom attribute data returned by the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributesData%2A&gt; method, and these two lists will not match when you use a custom reflection context.</source>
+          <target state="translated">Nem változtatja meg az egyéni attribútum által visszaadott adatok a &lt;xref:System.Reflection.MemberInfo.GetCustomAttributesData%2A&gt;metódust, és a két lista fog térni egy egyéni reflexiós környezetben használatakor.&lt;/xref:System.Reflection.MemberInfo.GetCustomAttributesData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Reflection.Context.CustomReflectionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Reflection.Context.CustomReflectionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Reflection.Context.CustomReflectionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified reflection context as a base.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Reflection.Context.CustomReflectionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztályt a megadott reflexiós környezetben alapjaként.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The reflection context to use as a base.</source>
+          <target state="translated">A használandó alapjaként reflexiós környezetben.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, provides a collection of additional properties for the specified type, as represented in this reflection context.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor egy gyűjteményét biztosítja további tulajdonságok a típushoz, mely a reflexiós környezetben.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override this method to specify which properties should be added to a given type.</source>
+          <target state="translated">Bírálja felül ezt a metódust adja meg, milyen tulajdonságok hozzá kell adni a megadott típusra.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create the properties, use the &lt;xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt; method.</source>
+          <target state="translated">A tulajdonságok létrehozásához használja a &lt;xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt;metódus.&lt;/xref:System.Reflection.Context.CustomReflectionContext.CreateProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The type to add properties to.</source>
+          <target state="translated">A Tulajdonságok hozzáadása a típus.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A collection of additional properties for the specified type.</source>
+          <target state="translated">A megadott típus esetében további tulajdonságok gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Creates an object that represents a property to be added to a type, to be used with the &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt; method.</source>
+          <target state="translated">Fel kell venni egy típust használni kívánt tulajdonság képviselő objektumot hoz létre a &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt;metódus.&lt;/xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects that are returned by this method are not complete &lt;xref:System.Reflection.PropertyInfo&gt; objects, and should be used only in the context of the &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt; method.</source>
+          <target state="translated">Ez a metódus által visszaadott objektumok nincsenek teljes &lt;xref:System.Reflection.PropertyInfo&gt;objektumokat, és csak a környezetében kell használni a &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt;metódus.&lt;/xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt; &lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The type of the property to create.</source>
+          <target state="translated">Létrehozásához tulajdonság típusával.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The name of the property to create.</source>
+          <target state="translated">A tulajdonság létrehozása neve.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An object that represents the property's <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">A tulajdonság képviselő objektum <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elérővel.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An object that represents the property's <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">A tulajdonság képviselő objektum <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elérővel.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An object that represents the property.</source>
+          <target state="translated">A tulajdonság képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Creates an object that represents a property to be added to a type, to be used with the &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt; method and using the specified custom attributes.</source>
+          <target state="translated">Fel kell venni egy típust használni kívánt tulajdonság képviselő objektumot hoz létre a &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt;metódus és a megadott egyéni attribútum használatával.&lt;/xref:System.Reflection.Context.CustomReflectionContext.AddProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects that are returned by this method are not complete &lt;xref:System.Reflection.PropertyInfo&gt; objects, and should be used only in the context of the &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt; method.</source>
+          <target state="translated">Ez a metódus által visszaadott objektumok nincsenek teljes &lt;xref:System.Reflection.PropertyInfo&gt;objektumokat, és csak a környezetében kell használni a &lt;xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt;metódus.&lt;/xref:System.Reflection.Context.CustomReflectionContext.AddProperties%2A&gt; &lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The type of the property to create.</source>
+          <target state="translated">Létrehozásához tulajdonság típusával.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The name of the property to create.</source>
+          <target state="translated">A tulajdonság létrehozása neve.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An object that represents the property's <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">A tulajdonság képviselő objektum <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elérővel.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An object that represents the property's <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">A tulajdonság képviselő objektum <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elérővel.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A collection of custom attributes to apply to the property.</source>
+          <target state="translated">A tulajdonság alkalmazandó egyéni attribútumok gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A collection of custom attributes to apply to the property's <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">A tulajdonság alkalmazandó egyéni attribútumok gyűjteménye <bpt id="p1">&lt;xref uid="langword_csharp_get" name="get" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elérővel.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A collection of custom attributes to apply to the property's <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> accessor.</source>
+          <target state="translated">A tulajdonság alkalmazandó egyéni attribútumok gyűjteménye <bpt id="p1">&lt;xref uid="langword_csharp_set" name="set" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elérővel.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An object that represents the property.</source>
+          <target state="translated">A tulajdonság képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, provides a list of custom attributes for the specified member, as represented in this reflection context.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, ebben a reflexiós környezetben határozzák a megadott tag biztosít az egyéni attribútumok listáját.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The member whose custom attributes will be returned.</source>
+          <target state="translated">A tag, amelynek egyéni attribútumok adja vissza.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A collection of the member's attributes in its current context.</source>
+          <target state="translated">A tag attribútumainak az aktuális kontextusában gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A collection that represents the custom attributes of the specified member in this reflection context.</source>
+          <target state="translated">Egy gyűjteményt, amely a megadott tag a reflexiós környezetben egyéni attribútumait tartalmazza.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, provides a list of custom attributes for the specified parameter, as represented in this reflection context.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, ebben a reflexiós környezetben határozzák a megadott paraméter biztosít az egyéni attribútumok listáját.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The parameter whose custom attributes will be returned.</source>
+          <target state="translated">A paraméter, amelynek egyéni attribútumok adja vissza.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A collection of the parameter's attributes in its current context.</source>
+          <target state="translated">A paraméter-attribútumok az aktuális kontextusában gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A collection that represents the custom attributes of the specified parameter in this reflection context.</source>
+          <target state="translated">Egy gyűjteményt, amely a megadott paraméter a reflexiós környezetben egyéni attribútumait tartalmazza.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets the representation, in this reflection context, of an assembly that is represented by an object from another reflection context.</source>
+          <target state="translated">Lekérdezi a megjelenítésre, a reflexiós környezetben, egy másik reflexiós környezetben az objektum által képviselt szerelvény.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The external representation of the assembly to represent in this context.</source>
+          <target state="translated">A szerelvény ebben a környezetben képviselő külső ábrázolása.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The representation of the assembly in this reflection context.</source>
+          <target state="translated">Ebben a környezetben reflexiós szerelvény ábrázolása.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets the representation, in this reflection context, of a type represented by an object from another reflection context.</source>
+          <target state="translated">Lekérdezi a megjelenítésre, a reflexiós környezetben, a másik reflexiós környezetben egy objektum által jelképezett típusú.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The external representation of the type to represent in this context.</source>
+          <target state="translated">Ebben a környezetben képviselő típus külső ábrázolása.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The representation of the type in this reflection context.</source>
+          <target state="translated">A típus a reflexiós környezetben ábrázolása.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

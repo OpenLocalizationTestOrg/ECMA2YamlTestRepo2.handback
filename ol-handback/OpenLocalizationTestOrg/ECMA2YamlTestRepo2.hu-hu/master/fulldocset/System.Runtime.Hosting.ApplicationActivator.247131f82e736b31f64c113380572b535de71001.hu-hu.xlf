@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c9a36fa407756482063031954b726696caf422d8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Hosting.ApplicationActivator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b06fcfa50a0ef605ad4d7e52e540dce0f40db651</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">069ca4d9790d60082baf920e47505746d1b15ce9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the base class for the activation of manifest-based assemblies.</source>
+          <target state="translated">Az alaposztály biztosít szerelvények jegyzékfájl-alapú aktiválást.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is a single designated instance of the ApplicationActivator class in each &lt;xref:System.AppDomain&gt; to which all activation calls are routed.</source>
+          <target state="translated">A ApplicationActivator osztály minden kijelölt egyetlen példánya van &lt;xref:System.AppDomain&gt;mely összes aktiválás hívások útválasztása.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.AppDomainManager&gt; for the current &lt;xref:System.AppDomain&gt; can provide its own custom ApplicationActivator for this purpose.</source>
+          <target state="translated">A &lt;xref:System.AppDomainManager&gt;az aktuális &lt;xref:System.AppDomain&gt;erre a célra a saját egyéni ApplicationActivator biztosíthat.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.AppDomainManager&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a custom ApplicationActivator is not provided, an instance of the default ApplicationActivator is created.</source>
+          <target state="translated">Ha egy egyéni ApplicationActivator nem áll rendelkezésre, az alapértelmezett példánya ApplicationActivator jön létre.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following steps describe the behavior of the default &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt; method implementation:      1.</source>
+          <target state="translated">A következő lépések azt mutatják be az alapértelmezett viselkedése &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt;metódus megvalósításában: 1.&lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Checks if the &lt;xref:System.ActivationContext&gt; of the add-in to be activated matches the &lt;xref:System.ActivationContext&gt; of the current domain; if not, proceeds to step 2.</source>
+          <target state="translated">Ellenőrzi, hogy a &lt;xref:System.ActivationContext&gt;a bővítmény kell aktivált megegyezik a &lt;xref:System.ActivationContext&gt;az aktuális tartomány; Ha nem, a 2. lépés folytatódik.&lt;/xref:System.ActivationContext&gt; &lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, executes the assembly and returns the result wrapped in an object handle.</source>
+          <target state="translated">Ellenkező esetben a szerelvény végrehajtja, és egy csomagolni eredményét adja vissza.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Activates the add-in in a new &lt;xref:System.AppDomain&gt;.</source>
+          <target state="translated">A bővítmény a egy új &lt;xref:System.AppDomain&gt;.&lt;/xref:System.AppDomain&gt; aktiválása</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following steps are taken to initialize a new &lt;xref:System.AppDomain&gt; using the &lt;xref:System.Runtime.Hosting.ActivationArguments&gt; for the add-in.</source>
+          <target state="translated">A következő lépésekkel &lt;xref:System.AppDomain&gt;a használatával &lt;xref:System.Runtime.Hosting.ActivationArguments&gt;a bővítményt. az&lt;/xref:System.Runtime.Hosting.ActivationArguments&gt; &lt;/xref:System.AppDomain&gt; új inicializálása</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new &lt;xref:System.AppDomainSetup&gt; object using an &lt;xref:System.Runtime.Hosting.ActivationArguments&gt; object containing the activation context for the add-in.</source>
+          <target state="translated">Létrehoz egy új &lt;xref:System.AppDomainSetup&gt;objektum használatával egy &lt;xref:System.Runtime.Hosting.ActivationArguments&gt;objektum, amely tartalmazza az aktiválási környezet esetében a beépülő modult.&lt;/xref:System.Runtime.Hosting.ActivationArguments&gt; &lt;/xref:System.AppDomainSetup&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calls the &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; method to create a new domain using the &lt;xref:System.AppDomainSetup&gt; object.</source>
+          <target state="translated">Hívások a &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;módszer új tartomány létrehozása a &lt;xref:System.AppDomainSetup&gt;objektum.&lt;/xref:System.AppDomainSetup&gt; &lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; method calls the &lt;xref:System.Security.HostSecurityManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt; method to acquire an &lt;xref:System.Security.Policy.ApplicationTrust&gt; object for the add-in.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;metódus meghívja a &lt;xref:System.Security.HostSecurityManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt;metódus egy &lt;xref:System.Security.Policy.ApplicationTrust&gt;objektum a bővítményt. az&lt;/xref:System.Security.Policy.ApplicationTrust&gt; beszerzése&lt;/xref:System.Security.HostSecurityManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt; &lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt; property returns <ph id="ph1">`true`</ph>, the add-in is executed.</source>
+          <target state="translated">Ha a &lt;xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt;tulajdonság beolvasása <ph id="ph1">`true`</ph>, a végrehajtása.&lt;/xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not, &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; throws a &lt;xref:System.Security.Policy.PolicyException&gt; indicating that execution permission could not be acquired.</source>
+          <target state="translated">Ha nem, &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;jelez a &lt;xref:System.Security.Policy.PolicyException&gt;jelzi, hogy végrehajtási engedélyt nem zárolható.&lt;/xref:System.Security.Policy.PolicyException&gt; &lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the add-in is trusted to run, then a new &lt;xref:System.AppDomain&gt; is created and configured for the &lt;xref:System.ActivationContext&gt; of the add-in, and the add-in is loaded and executed.</source>
+          <target state="translated">Ha a megbízható futtatása, majd egy új &lt;xref:System.AppDomain&gt;létrehozása és beállítása a &lt;xref:System.ActivationContext&gt;a bővítmény és a betöltött és végrehajtani.&lt;/xref:System.ActivationContext&gt; &lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result of the activation of the add-in is returned, wrapped in an object handle.</source>
+          <target state="translated">Az eredmény a aktiválási lett visszaadva, akkor egy csomagolni.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A custom activator can tailor the activation of an add-in to a particular set of circumstances.</source>
+          <target state="translated">Egy egyéni aktiváló átalakítható bővítmény egy meghatározott körülmények között az aktiválást.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a custom activator could find an existing &lt;xref:System.AppDomain&gt; to activate this add-in instead of creating a new domain every time.</source>
+          <target state="translated">Például egy egyéni aktiváló találta egy meglévő &lt;xref:System.AppDomain&gt;a beépülő modul helyett egy új tartományt létre minden alkalommal aktiválásához.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following steps describe the behavior of a custom ApplicationActivator that activates an add-in in an existing &lt;xref:System.AppDomain&gt;:      1.</source>
+          <target state="translated">A következő lépések bemutatják egy egyéni ApplicationActivator bővítmény egy meglévő aktiváló viselkedését &lt;xref:System.AppDomain&gt;: 1.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The custom activator finds a domain that has the same &lt;xref:System.ActivationContext&gt; as the add-in that is being activated.</source>
+          <target state="translated">Az egyéni aktiváló talál azonos tartományhoz &lt;xref:System.ActivationContext&gt;, a bővítmény, amely aktiválása folyamatban van.&lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.ActivationContext&gt; has never been seen before in the process, the custom activator creates a new &lt;xref:System.AppDomain&gt; for this &lt;xref:System.ActivationContext&gt; by calling the &lt;xref:System.AppDomain.CreateDomain%2A&gt; method directly, or delegating this activity to the &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; in the base class.</source>
+          <target state="translated">Ha a &lt;xref:System.ActivationContext&gt;soha nem is látható volt előtt a folyamat során az egyéni aktiváló létrehoz egy új &lt;xref:System.AppDomain&gt;esetében ez &lt;xref:System.ActivationContext&gt;a &lt;xref:System.AppDomain.CreateDomain%2A&gt;metódus közvetlenül, vagy a tevékenység a &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt;az alap osztálynál&lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper%2A&gt; delegálása&lt;/xref:System.AppDomain.CreateDomain%2A&gt; &lt;/xref:System.ActivationContext&gt; &lt;/xref:System.AppDomain&gt; &lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is an existing domain with the same &lt;xref:System.ActivationContext&gt;, then the activator can delegate the &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt; method call to the ApplicationActivator in the target domain.</source>
+          <target state="translated">Egy meglévő tartomány azonos &lt;xref:System.ActivationContext&gt;, majd az aktiváló delegálhatja a &lt;xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt;metódus hívásakor a céltartomány ApplicationActivator.&lt;/xref:System.Runtime.Hosting.ApplicationActivator.CreateInstance%2A&gt; &lt;/xref:System.ActivationContext&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this would be a cross-domain call to an ApplicationActivator that resides in the target &lt;xref:System.AppDomain&gt;.</source>
+          <target state="translated">Vegye figyelembe, hogy ez lenne egy ApplicationActivator &lt;xref:System.AppDomain&gt;.&lt;/xref:System.AppDomain&gt; célja a tartományok közötti hívása</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Hosting.ApplicationActivator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Runtime.Hosting.ApplicationActivator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the application to be activated, using the specified activation context.</source>
+          <target state="translated">A megadott aktiválási környezet használatával hoz létre aktiválni kell, hogy az alkalmazás egy példánya.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is intended for the manifest-based activation of applications.</source>
+          <target state="translated">Ez a módszer a jegyzékfájl-alapú aktiválási kérelmek számára készült.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the application to activate.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely azonosítja az alkalmazás aktiválásához.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a wrapper for the return value of the application execution.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az alkalmazásfuttatás visszatérési értéke, amely egy burkolót.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The return value must be unwrapped to access the real object.</source>
+          <target state="translated">Az eredményül kapott értéket a tényleges objektum eléréséhez burkolatlan kell lennie.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the application to be activated, using the specified activation context  and custom activation data.</source>
+          <target state="translated">A megadott aktiválási környezet és az egyéni aktiválási adatok használatával hoz létre aktiválni kell, hogy az alkalmazás egy példánya.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is intended for the manifest-based activation of applications.</source>
+          <target state="translated">Ez a módszer a jegyzékfájl-alapú aktiválási kérelmek számára készült.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The activation data consists of information such as the query string portion of a URL.</source>
+          <target state="translated">Az aktiválási adatok például a lekérdezési karakterláncra vonatkozó részében egy URL-cím áll.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the application to activate.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.ActivationContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely azonosítja az alkalmazás aktiválásához.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Custom activation data.</source>
+          <target state="translated">Egyéni aktiválási adatokhoz.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a wrapper for the return value of the application execution.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az alkalmazásfuttatás visszatérési értéke, amely egy burkolót.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The return value must be unwrapped to access the real object.</source>
+          <target state="translated">Az eredményül kapott értéket a tényleges objektum eléréséhez burkolatlan kell lennie.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;activationContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Creates an instance of an application using the specified <bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A megadott használó alkalmazások az példányát <bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is intended for the manifest-based activation of applications.</source>
+          <target state="translated">Ez a módszer a jegyzékfájl-alapú aktiválási kérelmek számára készült.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object whose &lt;xref:System.AppDomainSetup.ActivationArguments*&gt; property identifies the application to activate.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.AppDomainSetup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amelynek &lt;xref:System.AppDomainSetup.ActivationArguments*&gt;tulajdonság azonosítja az alkalmazás aktiválásához.&lt;/xref:System.AppDomainSetup.ActivationArguments*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a wrapper for the return value of the application execution.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjectHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az alkalmazásfuttatás visszatérési értéke, amely egy burkolót.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The return value must be unwrapped to access the real object.</source>
+          <target state="translated">Az eredményül kapott értéket a tényleges objektum eléréséhez burkolatlan kell lennie.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AppDomainSetup.ActivationArguments*&gt; property of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">adSetup</ph><ept id="p1"> &lt;/code&gt;</ept>is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;xref:System.AppDomainSetup.ActivationArguments*&gt; property of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">adSetup</ph><ept id="p1"> &lt;/code&gt;</ept>is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.AppDomainSetup.ActivationArguments*&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The application instance failed to execute because the policy settings on the current application domain do not provide permission for this application to run.</source>
+          <target state="translated">Az alkalmazáspéldány végrehajtása sikertelen, mert a házirend-beállításokat, a jelenlegi alkalmazás tartományban nem ad meg az alkalmazás futtatásához engedély.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

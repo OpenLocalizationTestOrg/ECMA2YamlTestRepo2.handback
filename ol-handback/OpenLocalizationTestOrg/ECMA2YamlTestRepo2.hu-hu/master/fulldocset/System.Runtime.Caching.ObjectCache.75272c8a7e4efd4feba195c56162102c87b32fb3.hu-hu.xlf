@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">96453fc4c74ee03eb1c648ee68c6643891826e01</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Caching.ObjectCache.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8e31bc5862cf5f8c33abf9e82c9e3bae5e796d58</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2f43733ad7602d935c8c143c859b42e78f3dabf5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an object cache and provides the base methods and properties for accessing the object cache.</source>
+          <target state="translated">Az objektum-gyorsítótár jelképezi, illetve az alap metódusok és a Tulajdonságok biztosít az objektum-gyorsítótár eléréséhez.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ObjectCache type is the primary type for the in-memory object cache.</source>
+          <target state="translated">A ObjectCache típus nem a memóriában lévő objektum-gyorsítótár elsődleges típusú.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To develop a custom cache implementation, you derive from the ObjectCache class.</source>
+          <target state="translated">Egy egyéni gyorsítótár-megvalósítással fejlesztéséhez, akkor a alaposztályból származik ObjectCache.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The ObjectCache class is new as of the <ph id="ph2">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A ObjectCache osztály egy új verziótól kezdve a <ph id="ph2">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The built-in &lt;xref:System.Runtime.Caching.MemoryCache&gt; class derives from the ObjectCache class.</source>
+          <target state="translated">A beépített &lt;xref:System.Runtime.Caching.MemoryCache&gt;osztály a a ObjectCache osztályból származik&lt;/xref:System.Runtime.Caching.MemoryCache&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Caching.MemoryCache&gt; class is the only concrete object cache implementation in the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> that derives from the ObjectCache class.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Caching.MemoryCache&gt;osztálya: az objektum csak konkrét gyorsítótár-megvalósítással a <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> , amely a a ObjectCache osztályból származik&lt;/xref:System.Runtime.Caching.MemoryCache&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Called from constructors in derived classes in order to initialize the <bpt id="p1">&lt;xref href="System.Runtime.Caching.ObjectCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Ahhoz, hogy inicializálása származtatott osztályokat konstruktor hívása a <bpt id="p1">&lt;xref href="System.Runtime.Caching.ObjectCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, tries to insert a cache entry into the cache as a <bpt id="p1">&lt;xref href="System.Runtime.Caching.CacheItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance, and adds details about how the entry should be evicted.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor megpróbálja, a gyorsítótárba egy gyorsítótár-bejegyzés beszúrása egy <bpt id="p1">&lt;xref href="System.Runtime.Caching.CacheItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példányt, és hozzáadja a módját a tételt ki kell zárni részleteit.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; method overloads are virtual (not abstract) on the &lt;xref:System.Runtime.Caching.ObjectCache&gt; class, because the &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; method internally calls &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt;.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;metódus túlterhelések virtuális (nem absztrakt) a a &lt;xref:System.Runtime.Caching.ObjectCache&gt;osztályhoz használatosak, mivel a &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;belső metódushívások &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt;.&lt;/xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt; &lt;/xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; &lt;/xref:System.Runtime.Caching.ObjectCache&gt; &lt;/xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This reduces the number of method overloads that a cache implementer has to provide.</source>
+          <target state="translated">Ezzel a megoldással elkerülhető, hogy a gyorsítótár végrehajtó meg kell adnia metódus túlterhelések száma.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a cache implementation does not require any special behavior for the &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; method, it can just implement the &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt; method overloads.</source>
+          <target state="translated">Ha a gyorsítótár-megvalósítással nincs szükség semmilyen különleges viselkedését a &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;metódus, azt csak valósíthat meg a &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt;metódus túlterhelések.&lt;/xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt; &lt;/xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The object to add.</source>
+          <target state="translated">Az objektum hozzáadása.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An object that contains eviction details for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés kiürítés részleteit tartalmazó objektum.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This object provides more options for eviction than a simple absolute expiration.</source>
+          <target state="translated">Ez az objektum egy egyszerű abszolút lejárati mint kiürítés további lehetőséget biztosít.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if insertion succeeded, or <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is an already an entry in the cache that has the same key as <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">item</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a beszúrási sikeresen befejeződött, vagy <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> esetén egy már rendelkezik ugyanazzal a kulccsal, mint a gyorsítótár bejegyzésének <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">item</ph> <ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, inserts a cache entry into the cache without overwriting any existing cache entry.</source>
+          <target state="translated">Amikor felül van bírálva a származtatott osztály, szúr be a gyorsítótárba egy gyorsítótár-bejegyzés a meglévő gyorsítótári bejegyzést felülírása nélkül.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; method overloads are virtual (not abstract) on the &lt;xref:System.Runtime.Caching.ObjectCache&gt; class, because the &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; method internally calls &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt;.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;metódus túlterhelések virtuális (nem absztrakt) a a &lt;xref:System.Runtime.Caching.ObjectCache&gt;osztályhoz használatosak, mivel a &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;belső metódushívások &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt;.&lt;/xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt; &lt;/xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; &lt;/xref:System.Runtime.Caching.ObjectCache&gt; &lt;/xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This reduces the number of method overloads that a cache implementer has to provide.</source>
+          <target state="translated">Ezzel a megoldással elkerülhető, hogy a gyorsítótár végrehajtó meg kell adnia metódus túlterhelések száma.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a cache implementation does not require any special behavior for the &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; method, it can just implement the &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt; method overloads.</source>
+          <target state="translated">Ha a gyorsítótár-megvalósítással nincs szükség semmilyen különleges viselkedését a &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;metódus, azt csak valósíthat meg a &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt;metódus túlterhelések.&lt;/xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt; &lt;/xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The object to insert.</source>
+          <target state="translated">A beszúrandó objektum.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The fixed date and time at which the cache entry will expire.</source>
+          <target state="translated">A rögzített dátumot és időpontot, amikor a gyorsítótári bejegyzés lejár.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This parameter is required when the &lt;xref:System.Runtime.Caching.ObjectCache.Add*&gt; method is called.</source>
+          <target state="translated">Ez a paraméter megadása kötelező, ha a &lt;xref:System.Runtime.Caching.ObjectCache.Add*&gt;metódust.&lt;/xref:System.Runtime.Caching.ObjectCache.Add*&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A named region in the cache to which the cache entry can be added, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelyekhez a gyorsítótári bejegyzés is hozzáadja, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Because regions are not implemented in <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, the default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Mivel nem valósult meg régiók <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if insertion succeeded, or <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is an already an entry in the cache that has the same key as <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a beszúrási sikeresen befejeződött, vagy <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> esetén egy már rendelkezik ugyanazzal a kulccsal, mint a gyorsítótár bejegyzésének <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, inserts a cache entry into the cache, specifying information about how the entry will be evicted.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, szúrja be a gyorsítótári bejegyzés a gyorsítótárba információt hogyan kell zárni a bejegyzés megadása.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; method overloads are virtual (not abstract) on the &lt;xref:System.Runtime.Caching.ObjectCache&gt; class, because the &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; method internally calls &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt;.</source>
+          <target state="translated">A &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;metódus túlterhelések virtuális (nem absztrakt) a a &lt;xref:System.Runtime.Caching.ObjectCache&gt;osztályhoz használatosak, mivel a &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;belső metódushívások &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt;.&lt;/xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt; &lt;/xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; &lt;/xref:System.Runtime.Caching.ObjectCache&gt; &lt;/xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This reduces the number of method overloads that a cache implementer has to provide.</source>
+          <target state="translated">Ezzel a megoldással elkerülhető, hogy a gyorsítótár végrehajtó meg kell adnia metódus túlterhelések száma.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a cache implementation does not require any special behavior for the &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt; method, it can just implement the &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt; method overloads.</source>
+          <target state="translated">Ha a gyorsítótár-megvalósítással nincs szükség semmilyen különleges viselkedését a &lt;xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;metódus, azt csak valósíthat meg a &lt;xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt;metódus túlterhelések.&lt;/xref:System.Runtime.Caching.ObjectCache.AddOrGetExisting%2A&gt; &lt;/xref:System.Runtime.Caching.ObjectCache.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The object to insert.</source>
+          <target state="translated">A beszúrandó objektum.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An object that contains eviction details for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés kiürítés részleteit tartalmazó objektum.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This object provides more options for eviction than a simple absolute expiration.</source>
+          <target state="translated">Ez az objektum egy egyszerű abszolút lejárati mint kiürítés további lehetőséget biztosít.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A named region in the cache to which the cache entry can be added, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelyekhez a gyorsítótári bejegyzés is hozzáadja, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The default value for the optional parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték a nem kötelező paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the insertion try succeeds, or <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is an already an entry in the cache with the same key as <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a beszúrási kísérlet sikeres, vagy <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> esetén egy már ugyanazzal a kulccsal, mint a gyorsítótár bejegyzésének <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, inserts the specified <bpt id="p1">&lt;xref href="System.Runtime.Caching.CacheItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object into the cache, specifying information about how the entry will be evicted.</source>
+          <target state="translated">Ha a származtatott osztály felülbírálva, szúrja be a megadott <bpt id="p1">&lt;xref href="System.Runtime.Caching.CacheItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hogyan a bejegyzés ki lesz zárva: információ megadása a gyorsítótárba objektum.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The object to insert.</source>
+          <target state="translated">A beszúrandó objektum.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An object that contains eviction details for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés kiürítés részleteit tartalmazó objektum.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This object provides more options for eviction than a simple absolute expiration.</source>
+          <target state="translated">Ez az objektum egy egyszerű abszolút lejárati mint kiürítés további lehetőséget biztosít.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If a cache entry with the same key exists, the specified cache entry; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ha létezik a gyorsítótári bejegyzés ugyanazzal a kulccsal, a megadott gyorsítótár-bejegyzés; Ellenkező esetben <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, inserts a cache entry into the cache, by using a key, an object for the cache entry, an absolute expiration value, and an optional region to add the cache into.</source>
+          <target state="translated">Amikor felül van bírálva a származtatott osztály, szúr be a gyorsítótárba egy gyorsítótár-bejegyzés hozzáadása a gyorsítótárából egy kulcs, a gyorsítótár-bejegyzés, egy abszolút lejárati értékét és egy nem kötelező régiót objektum használatával.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This AddOrGetExisting method overload returns an object value, not a &lt;xref:System.Runtime.Caching.CacheItem&gt; object.</source>
+          <target state="translated">Ez AddOrGetExisting metódus túlterhelés visszaad egy olyan objektumértéket, nem egy &lt;xref:System.Runtime.Caching.CacheItem&gt;objektum.&lt;/xref:System.Runtime.Caching.CacheItem&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The object to insert.</source>
+          <target state="translated">A beszúrandó objektum.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The fixed date and time at which the cache entry will expire.</source>
+          <target state="translated">A rögzített dátumot és időpontot, amikor a gyorsítótári bejegyzés lejár.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A named region in the cache to which the cache entry can be added, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelyekhez a gyorsítótári bejegyzés is hozzáadja, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The default value for the optional parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték a nem kötelező paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If a cache entry with the same key exists, the specified cache entry's value; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ha létezik a gyorsítótári bejegyzés ugyanazzal a kulccsal, a megadott gyorsítótár-bejegyzés értéke; Ellenkező esetben <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, inserts a cache entry into the cache, specifying a key and a value for the cache entry, and information about how the entry will be evicted.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, beszúrja a gyorsítótári bejegyzés a gyorsítótárba egy kulcsot és egy értéket a gyorsítótári bejegyzést, és hogyan a bejegyzés ki lesz zárva információinak megadása.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddOrGetExisting method returns an object value, not a &lt;xref:System.Runtime.Caching.CacheItem&gt; object.</source>
+          <target state="translated">A AddOrGetExisting metódus adja vissza egy objektumot, nem egy &lt;xref:System.Runtime.Caching.CacheItem&gt;objektum.&lt;/xref:System.Runtime.Caching.CacheItem&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The object to insert.</source>
+          <target state="translated">A beszúrandó objektum.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>An object that contains eviction details for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés kiürítés részleteit tartalmazó objektum.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This object provides more options for eviction than a simple absolute expiration.</source>
+          <target state="translated">Ez az objektum egy egyszerű abszolút lejárati mint kiürítés további lehetőséget biztosít.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A named region in the cache to which the cache entry can be added, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelyekhez a gyorsítótári bejegyzés is hozzáadja, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The default value for the optional parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték a nem kötelező paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If a cache entry with the same key exists, the specified cache entry's value; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ha létezik a gyorsítótári bejegyzés ugyanazzal a kulccsal, a megadott gyorsítótár-bejegyzés értéke; Ellenkező esetben <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, checks whether the cache entry already exists in the cache.</source>
+          <target state="translated">Ha a származtatott osztály felülbírálva, ellenőrzi, hogy a gyorsítótár-bejegyzés már létezik a gyorsítótárban.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A named region in the cache where the cache can be found, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, ahol a gyorsítótárban található, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The default value for the optional parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték a nem kötelező paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the cache contains a cache entry with the same key value as <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p2">&lt;/code&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a gyorsítótár tartalmazza a kulcs értéke megegyezik a gyorsítótári bejegyzés <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p2">&lt;/code&gt;</ept>; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, creates a <bpt id="p1">&lt;xref href="System.Runtime.Caching.CacheEntryChangeMonitor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can trigger events in response to changes to specified cache entries.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor létrehoz egy <bpt id="p1">&lt;xref href="System.Runtime.Caching.CacheEntryChangeMonitor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyek események nyomon követhetik az objektum megadott gyorsítótár-bejegyzéseket.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a derived &lt;xref:System.Runtime.Caching.ObjectCache&gt; class overrides the base CreateCacheEntryChangeMonitor method, the cache implementation must create a &lt;xref:System.Runtime.Caching.CacheEntryChangeMonitor&gt; object.</source>
+          <target state="translated">Ha a származtatott &lt;xref:System.Runtime.Caching.ObjectCache&gt;osztály felülbírálja az alapmetódust CreateCacheEntryChangeMonitor, a gyorsítótár-megvalósítással létre kell hoznia egy &lt;xref:System.Runtime.Caching.CacheEntryChangeMonitor&gt;objektum.&lt;/xref:System.Runtime.Caching.CacheEntryChangeMonitor&gt; &lt;/xref:System.Runtime.Caching.ObjectCache&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This specialized change monitor notifies callers when there are changes to the cache entries that are specified in the <ph id="ph1">`keys`</ph> parameter.</source>
+          <target state="translated">A speciális módosítás figyelő hívóknak értesítése, ha a megadott gyorsítótár-bejegyzéseket módosultak a <ph id="ph1">`keys`</ph> paraméter.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if a monitored item in the <ph id="ph1">`keys`</ph> parameter is updated or removed from the cache, the change monitor created by this method triggers an event.</source>
+          <target state="translated">Például, ha egy figyelt elemet a <ph id="ph1">`keys`</ph> paraméter frissítve vagy eltávolítva a gyorsítótárból, a módosítás figyelő hozta létre ezt a módszert akkor váltja ki egy eseményt.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a cache implementation supports named cache regions, a string value can be specified as the <ph id="ph1">`regionName`</ph> parameter.</source>
+          <target state="translated">Ha a gyorsítótár-megvalósítással támogatja az elnevezett gyorsítótár régiók, karakterlánc értéket adhat meg a <ph id="ph1">`regionName`</ph> paraméter.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the parameter defaults to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Ellenkező esetben a paraméter alapértelmezett értéke <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Not all cache implementations support cache-entry change monitors.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Nem minden gyorsítótár támogatnak gyorsítótár-bejegyzés módosítása figyeli.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine whether your cache implementation supports &lt;xref:System.Runtime.Caching.CacheEntryChangeMonitor&gt; objects, see the documentation for the specific cache implementation.</source>
+          <target state="translated">Annak meghatározásához, hogy támogatja-e a gyorsítótár-megvalósítással &lt;xref:System.Runtime.Caching.CacheEntryChangeMonitor&gt;objektumok, az adott gyorsítótár-megvalósítással dokumentációjában talál.&lt;/xref:System.Runtime.Caching.CacheEntryChangeMonitor&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The unique identifiers for cache entries to monitor.</source>
+          <target state="translated">A gyorsítótár-bejegyzéseket figyeléséhez tartozó egyedi azonosítóként.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A named region in the cache where the cache keys in the <ph id="ph1">`keys`</ph> parameter exist, if regions are implemented.</source>
+          <target state="translated">A gyorsítótárban, ahol a gyorsítótár kulcsoknak egy elnevezett területet a <ph id="ph1">`keys`</ph> paraméter található, ha a régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The default value for the optional parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték a nem kötelező paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A change monitor that monitors cache entries in the cache.</source>
+          <target state="translated">A módosítás figyelő, amely figyeli a gyorsítótár-bejegyzéseket a gyorsítótárban.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets a description of the features that a cache implementation provides.</source>
+          <target state="translated">Felül van bírálva a származtatott osztály, amikor lekérdezi a gyorsítótár-megvalósítással biztosító funkciók leírását.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of flags that indicate the default capabilities of a cache implementation.</source>
+          <target state="translated">Hogy a gyorsítótár-megvalósítással alapértelmezett képességeit tagértékeinek.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the specified cache entry from the cache as an object.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor lekérdezi a megadott gyorsítótár-bejegyzés a gyorsítótárból objektumként.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the cache entry to get.</source>
+          <target state="translated">A gyorsítótári bejegyzés beolvasandó egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A named region in the cache to which the cache entry was added, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelyhez a gyorsítótári bejegyzés lett hozzáadva, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value for the optional parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték a nem kötelező paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The cache entry that is identified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A gyorsítótári bejegyzés által azonosított <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the specified cache entry from the cache as a <bpt id="p1">&lt;xref href="System.Runtime.Caching.CacheItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor lekérdezi a megadott gyorsítótár-bejegyzés a gyorsítótárból, mint egy <bpt id="p1">&lt;xref href="System.Runtime.Caching.CacheItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overload exists because some cache implementations might extend the &lt;xref:System.Runtime.Caching.CacheItem&gt; class.</source>
+          <target state="translated">Ez a módszer túlterhelés létezik, mert egyes gyorsítótár megvalósítások megnövelheti az &lt;xref:System.Runtime.Caching.CacheItem&gt;osztályhoz.&lt;/xref:System.Runtime.Caching.CacheItem&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the &lt;xref:System.Runtime.Caching.ObjectCache.Get%28System.String%2CSystem.String%29&gt; method overload will not necessarily return all the information about cached data.</source>
+          <target state="translated">Ebben az esetben a &lt;xref:System.Runtime.Caching.ObjectCache.Get%28System.String%2CSystem.String%29&gt;metódus túlterhelési fog nem feltétlenül minden a vonatkozó adatokat ad vissza a gyorsítótárazott adatokat.&lt;/xref:System.Runtime.Caching.ObjectCache.Get%28System.String%2CSystem.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the GetCacheItem method overload enables custom caches to return more than just the cache value.</source>
+          <target state="translated">Azonban a GetCacheItem metódus túlterhelési lehetővé teszi, hogy egyéni gyorsítótárak nem csak a gyorsítótár értékét.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetCacheItem method is like the &lt;xref:System.Runtime.Caching.ObjectCache.Get%28System.String%2CSystem.String%29&gt; method, except that the GetCacheItem method returns return the cache entry as a &lt;xref:System.Runtime.Caching.CacheItem&gt; instance.</source>
+          <target state="translated">A GetCacheItem metódus olyan, mint a &lt;xref:System.Runtime.Caching.ObjectCache.Get%28System.String%2CSystem.String%29&gt;metódus, azzal a különbséggel, hogy a GetCacheItem metódus visszatérési a gyorsítótári bejegyzés, mint egy &lt;xref:System.Runtime.Caching.CacheItem&gt;példány.&lt;/xref:System.Runtime.Caching.CacheItem&gt; &lt;/xref:System.Runtime.Caching.ObjectCache.Get%28System.String%2CSystem.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the cache entry to get.</source>
+          <target state="translated">A gyorsítótári bejegyzés beolvasandó egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A named region in the cache to which the cache was added, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelyhez a gyorsítótár adott, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Because regions are not implemented in <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, the default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Mivel nem valósult meg régiók <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The cache entry that is identified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A gyorsítótári bejegyzés által azonosított <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the total number of cache entries in the cache.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor lekérdezi a gyorsítótári bejegyzések száma a gyorsítótárban.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A named region in the cache for which the cache entry count should be computed, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelynek a gyorsítótár belépésszám kell számítható ki, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The default value for the optional parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték a nem kötelező paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The number of cache entries in the cache.</source>
+          <target state="translated">Gyorsítótár-bejegyzéseket a gyorsítótárban száma.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">regionName</ph><ept id="p1">&lt;/code&gt;</ept> is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, the count indicates the number of entries that are in the specified cache region.</source>
+          <target state="translated">Ha <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">regionName</ph> <ept id="p1">&lt;/code&gt;</ept> nem <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, a count bejegyzéseit, amelyek szerepelnek a gyorsítótármappa megadott régió számát jelzi.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, creates an enumerator that can be used to iterate through a collection of cache entries.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, hoz létre, amelyek segítségével gyorsítótári bejegyzések gyűjteményét iterációt számbevevőre.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Cache implementers can override and extend this method to provide a custom means of iterating through a collection of cache entries.</source>
+          <target state="translated">Gyorsítótár-végrehajtók bírálja felül, és ez a módszer olyan egyéni eszközök a gyorsítótári bejegyzések gyűjteményét iteráció kiterjesztése.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Returning an enumerator is typically a more expensive operation than returning the entire cache entry.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Általában egy drágább művelet, mint a teljes gyorsítótár-bejegyzés visszaadó enumerátor visszaadó.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the explicit interface implementations that the &lt;xref:System.Runtime.Caching.ObjectCache&gt; class has for the &lt;xref:System.Collections.IEnumerable.GetEnumerator%2A&gt; and &lt;xref:System.Collections.Generic.IEnumerable%601.GetEnumerator%2A&gt; methods.</source>
+          <target state="translated">Ez a módszer a explicit interfészes megvalósítások hívja, amely a &lt;xref:System.Runtime.Caching.ObjectCache&gt;osztály rendelkezik a &lt;xref:System.Collections.IEnumerable.GetEnumerator%2A&gt;és &lt;xref:System.Collections.Generic.IEnumerable%601.GetEnumerator%2A&gt;módszerek.&lt;/xref:System.Collections.Generic.IEnumerable%601.GetEnumerator%2A&gt; &lt;/xref:System.Collections.IEnumerable.GetEnumerator%2A&gt; &lt;/xref:System.Runtime.Caching.ObjectCache&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The enumerator object that provides access to the cache entries in the cache.</source>
+          <target state="translated">A számbavevő objektum, amely a gyorsítótár-bejegyzéseket a gyorsítótárban hozzáférést biztosít.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets a set of cache entries that correspond to the specified keys.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor lekérdezi a gyorsítótár-bejegyzéseket, amelyek megfelelnek a megadott kulcsok készlete.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetValues method overload is a performance optimization for distributed caches that support fetching multiple cache entries from the cache during a single network call.</source>
+          <target state="translated">A GetValues metódus túlterhelési a teljesítmény optimalizálása az elosztott gyorsítótár, amely támogatja a több gyorsítótár-bejegyzéseket a gyorsítótárból egyetlen hálózati hívása közben.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although a caller can pass one or more keys to the method, there is no guarantee that all keys represent entries in the cache.</source>
+          <target state="translated">Egy hívó továbbíthatja a metódus egy vagy több kulcsot, de nincs nem garantálja, hogy az összes kulcs bejegyzés a gyorsítótár jelképezi.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the returned dictionary might contain fewer items than the number of keys that were passed to the method.</source>
+          <target state="translated">A visszaadott szótár is tartalmazhatnak, ezért kevesebb elem lett átadva a metódusnak kulcsok számánál.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A collection of unique identifiers for the cache entries to get.</source>
+          <target state="translated">A gyorsítótár-bejegyzéseket az beszerzése tartozó egyedi azonosítóként gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>A named region in the cache to which the cache entry or entries were added, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelyhez a gyorsítótár bejegyzéseit lettek hozzáadva, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The default value for the optional parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték a nem kötelező paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>A dictionary of key/value pairs that represent cache entries.</source>
+          <target state="translated">A kulcs/érték párok, amelyek megfelelnek a gyorsítótár-bejegyzéseket szótárban.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Gets a set of cache entries that correspond to the specified keys.</source>
+          <target state="translated">Lekérdezi a gyorsítótár-bejegyzéseket, amelyek megfelelnek a megadott kulcsok készlete.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetValues method overload is like the &lt;xref:System.Runtime.Caching.ObjectCache.GetValues%28System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%29&gt; method overload, but lets you pass the named region by using optional parameter syntax that is supported by managed languages such as C#.</source>
+          <target state="translated">A GetValues metódus túlterhelési olyan, mint a &lt;xref:System.Runtime.Caching.ObjectCache.GetValues%28System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%29&gt;metódus túlterhelési, de lehetővé teszi az elnevezett régió át szintaxissal nem kötelező paraméter által felügyelt, például C# nyelv támogatott.&lt;/xref:System.Runtime.Caching.ObjectCache.GetValues%28System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is a virtual method because the &lt;xref:System.Runtime.Caching.ObjectCache&gt; class provides a default implementation that passes the <ph id="ph1">`params`</ph> array to the &lt;xref:System.Runtime.Caching.ObjectCache.GetValues%28System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%29&gt; method overload.</source>
+          <target state="translated">Ez a módszer nem virtuális metódust, mert a &lt;xref:System.Runtime.Caching.ObjectCache&gt;osztály biztosít az alapértelmezett megvalósításhoz, amelyet továbbküld a <ph id="ph1">`params`</ph> a tömb a &lt;xref:System.Runtime.Caching.ObjectCache.GetValues%28System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%29&gt;metódus túlterhelési.&lt;/xref:System.Runtime.Caching.ObjectCache.GetValues%28System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%29&gt; &lt;/xref:System.Runtime.Caching.ObjectCache&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A named region in the cache to which the cache entry or entries were added, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelyhez a gyorsítótár bejegyzéseit lettek hozzáadva, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Because regions are not implemented in <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, the default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Mivel nem valósult meg régiók <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A collection of unique identifiers for the cache entries to get.</source>
+          <target state="translated">A gyorsítótár-bejegyzéseket az beszerzése tartozó egyedi azonosítóként gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>A dictionary of key/value pairs that represent cache entries.</source>
+          <target state="translated">A kulcs/érték párok, amelyek megfelelnek a gyorsítótár-bejegyzéseket szótárban.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Gets or set a reference to a managed hosting environment that is available to <bpt id="p1">&lt;xref href="System.Runtime.Caching.ObjectCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementations and that can provide host-specific services to <bpt id="p2">&lt;xref href="System.Runtime.Caching.ObjectCache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> implementations.</source>
+          <target state="translated">Lekérdezi vagy állítson be egy hivatkozást egy felügyelt üzemeltetési környezet számára elérhető <bpt id="p1">&lt;xref href="System.Runtime.Caching.ObjectCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megvalósítások és, amelyek biztosítják a gazdagép-specifikus szolgáltatások <bpt id="p2">&lt;xref href="System.Runtime.Caching.ObjectCache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> hitelesítés megvalósításához.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Host property is intended for use by <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> host environments and by cache implementations that implement behavior that depends on the .NET Framework host environment.</source>
+          <target state="translated">A gazdagép-tulajdonságot általi használatra készült <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> környezetekben meg, és gyorsítótár-megvalósítások, a .NET-keretrendszer függjön megvalósító által környezet üzemeltetéséhez.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists the set of host environment services that might be available from a managed hosting environment and that are available to &lt;xref:System.Runtime.Caching.ObjectCache&gt; implementations through the Host property:      |Service|Description|   |-------------|-----------------|   |&lt;xref:System.Runtime.Caching.Hosting.IApplicationIdentifier&gt;|Lets host environments provide application domain identifiers that might be needed by a cache implementation for features such as identifying performance counters.|   |&lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt;|Lets host environments provide a custom file-change notification system, instead of using the one provided in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.|   |&lt;xref:System.Runtime.Caching.Hosting.IMemoryCacheManager&gt;|Lets cache implementations report cache memory consumption to the host environment.</source>
+          <target state="translated">A következő táblázat felsorolja a szolgáltatáskészlet állomás környezet, amely egy felügyelt üzemeltetési környezet elérhetőnek lennie és a gazdagép tulajdonságon keresztül elérhető &lt;xref:System.Runtime.Caching.ObjectCache&gt;megvalósítások: |} Szolgáltatás |} Leírás |}   |-------------|-----------------|   | &lt;xref:System.Runtime.Caching.Hosting.IApplicationIdentifier&gt;| Lehetővé teszi, hogy adja meg az alkalmazás tartomány azonosítók esetleg szükséges egy gyorsítótár-megvalósítással a szolgáltatások, mint a teljesítményszámlálók azonosító által környezeteknél. |}   | &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt;| Lehetővé teszi, hogy a gazdagép környezetek adjon meg egy egyéni fájlmódosítás értesítési rendszer, az egyik megadott helyett a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>. |}   | &lt;xref:System.Runtime.Caching.Hosting.IMemoryCacheManager&gt;| Lehetővé teszi, hogy a gyorsítótár megvalósítások gyorsítótár-memória felhasználását a gazdagép-környezetben történő.&lt;/xref:System.Runtime.Caching.Hosting.IMemoryCacheManager&gt; &lt;/xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt; &lt;/xref:System.Runtime.Caching.Hosting.IApplicationIdentifier&gt; &lt;/xref:System.Runtime.Caching.ObjectCache&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This enables host environments to centrally manage memory consumption across multiple cache implementations.|      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  Callers of this property value require unrestricted code access security permissions.</source>
+          <target state="translated">Ez lehetővé teszi, hogy a gazdagép környezetek segítségével központilag kezeli a memória-felhasználás több gyorsítótár-megvalósítások. |}      &gt; <ph id="ph1">[!NOTE]</ph> &gt; E tulajdonság értékének hívóknak korlátlan kód hozzáférés biztonsági engedélyek szükségesek.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>A reference to a cache-aware managed hosting environment.</source>
+          <target state="translated">A gyorsítótár-kompatibilis felügyelt üzemeltetési környezet hivatkozik.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The value being assigned to the property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték a tulajdonság lett hozzárendelve <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the property value more than one time.</source>
+          <target state="translated">Kísérlet történt a tulajdonság értékének beállítása egynél többször.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates that a cache entry has no absolute expiration.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy a gyorsítótár-bejegyzés nem abszolút lejárati lekérdezi.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A cache entry that is inserted into the cache with the InfiniteAbsoluteExpiration field value set as the expiration value should never expire based on an absolute point in time.</source>
+          <target state="translated">Gyorsítótár-bejegyzés a gyorsítótár InfiniteAbsoluteExpiration mező értéke beállított bekerülnek a lejárati értéke nem jár le, időben egy abszolút pont alapján.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, a cache entry with this setting can be evicted from the cache for other reasons that are determined by a particular cache implementation, such as a change-monitor event eviction caused by memory pressure.</source>
+          <target state="translated">Azonban ez a beállítás a gyorsítótári bejegyzés is dobható a gyorsítótárból más okból határozza meg egy adott gyorsítótár-megvalósítással, például a változás-figyelő esemény kiürítés memóriaprobléma okozza.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets or sets the default indexer for the <bpt id="p1">&lt;xref href="System.Runtime.Caching.ObjectCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Lekérdezi vagy beállítja azt az alapértelmezett indexelő esetében a <bpt id="p1">&lt;xref href="System.Runtime.Caching.ObjectCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The behavior of the set accessor of this property is like the &lt;xref:System.Runtime.Caching.MemoryCache.Set%28System.String%2CSystem.Object%2CSystem.DateTimeOffset%2CSystem.String%29&gt; method.</source>
+          <target state="translated">Ez a tulajdonság set elérőjét működése, például a &lt;xref:System.Runtime.Caching.MemoryCache.Set%28System.String%2CSystem.Object%2CSystem.DateTimeOffset%2CSystem.String%29&gt;metódus.&lt;/xref:System.Runtime.Caching.MemoryCache.Set%28System.String%2CSystem.Object%2CSystem.DateTimeOffset%2CSystem.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Internally, a cache implementation could set the absolute expiration of the specified value to the &lt;xref:System.Runtime.Caching.ObjectCache.InfiniteAbsoluteExpiration&gt; method.</source>
+          <target state="translated">Belső, a gyorsítótár-megvalósítással sikerült beállítani a megadott érték abszolút lejártát a &lt;xref:System.Runtime.Caching.ObjectCache.InfiniteAbsoluteExpiration&gt;metódus.&lt;/xref:System.Runtime.Caching.ObjectCache.InfiniteAbsoluteExpiration&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However this behavior is ultimately up to the cache implementation.</source>
+          <target state="translated">Azonban ez a viselkedés végső soron az akár a gyorsítótár-megvalósítással.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The behavior of get accessor is like calling the &lt;xref:System.Collections.Specialized.NameValueCollection.Get%28System.String%29&gt; method and using <ph id="ph1">`null`</ph> for the region name.</source>
+          <target state="translated">"Get" elérő működése, például a hívása a &lt;xref:System.Collections.Specialized.NameValueCollection.Get%28System.String%29&gt;módszer és segítségével <ph id="ph1">`null`</ph> a régió neveként.&lt;/xref:System.Collections.Specialized.NameValueCollection.Get%28System.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A unique identifier for a cache entry in the cache.</source>
+          <target state="translated">A gyorsítótári bejegyzés a gyorsítótár az egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>A key that serves as an indexer into the cache instance.</source>
+          <target state="translated">A kulcs, amely a gyorsítótárpéldány be az indexelő funkcionál.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Gets the name of a specific <bpt id="p1">&lt;xref href="System.Runtime.Caching.ObjectCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Lekérdezi a konkrét nevét <bpt id="p1">&lt;xref href="System.Runtime.Caching.ObjectCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some cache implementations might support multiple instances of the cache that is running in a single application.</source>
+          <target state="translated">Egyes gyorsítótár megvalósítások előfordulhat, hogy a gyorsítótár az egyetlen alkalmazást futtató több példányát támogatják.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property lets cache implementers return a name that identifies a specific cache instance.</source>
+          <target state="translated">Ez a tulajdonság lehetővé teszi, hogy a gyorsítótár implementers adja vissza, amely azonosítja az egy adott cache példány nevét.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The name of a specific cache instance.</source>
+          <target state="translated">Egy adott gyorsítótár-példány nevét.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Indicates that a cache entry has no sliding expiration time.</source>
+          <target state="translated">Azt jelzi, hogy a gyorsítótár-bejegyzés nem mozgó lejárati idő.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Expiration that is based on duration or a defined window of time is also referred to as sliding expiration.</source>
+          <target state="translated">Lejárati időtartam vagy egy meghatározott eltelt időszakot alapuló is nevezzük késleltetett lejárat.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, a cache implementation that evicts items that are based on sliding expiration will remove an item that has not been accessed in the specified window of time.</source>
+          <target state="translated">Általában, amely a késleltetett lejárat alapuló elemek eltávolít egy gyorsítótár-megvalósítással eltávolítja az idő megadott ablak nem elérhető elem.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A cache entry that is inserted into the cache with the NoSlidingExpiration field value set as the expiration value should never be evicted because of non-activity in a sliding time window.</source>
+          <target state="translated">Gyorsítótár-bejegyzés bekerülnek a gyorsítótár lejárati értékeként a NoSlidingExpiration mezőben érték a ki kell zárni miatt idő csúszóablak nem-tevékenység.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, a cache item can be evicted if it has an absolute expiration, or if some other eviction event occurs, such a change monitor or memory pressure.</source>
+          <target state="translated">Azonban a gyorsítótár elemét is kimaradásához-e azt egy abszolút lejárati, vagy ha más kiürítés esemény következik be, ilyen módosítás figyelő vagy a memória nyomás.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, removes the cache entry from the cache.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor eltávolítja a gyorsítótári bejegyzés a gyorsítótár.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you override this method in a custom cache implementation, if there is a cache entry in the cache that corresponds to <ph id="ph1">`key`</ph>, the value of the removed item should be returned.</source>
+          <target state="translated">Ha ez a módszer egy egyéni gyorsítótár megvalósításában bírálja felül ha szerepel a gyorsítótár, amely megfelel a gyorsítótári bejegyzés <ph id="ph1">`key`</ph>, vissza kell adni az eltávolított elem értékét.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If nothing was removed from the cache, the method should return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Ha semmi el lett távolítva a gyorsítótárból, a metódusnak kell visszaadnia <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Some distributed cache implementations might not support the ability to return the value that was removed from the cache.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Egyes elosztott gyorsítótáras megvalósítások előfordulhat, hogy nem teszi lehetővé az értékét, amely a gyorsítótárból eltávolítva.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This might be because the cache implementation does not support returning the value of a removed cache item.</source>
+          <target state="translated">Ez lehet, mert a gyorsítótár megvalósítása nem támogatja a eltávolított gyorsítótár elem értéke visszatérő.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It might also be because marshaling the object as a return value is too expensive.</source>
+          <target state="translated">Azt is lehet, mert az objektum átadás-előkészítési, a visszatérési érték túl drága.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In such cases, cache implementations can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Ebben az esetben, a gyorsítótár-megvalósítások visszatérhessen <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>A named region in the cache to which the cache entry was added, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelyhez a gyorsítótári bejegyzés lett hozzáadva, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The default value for the optional parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték a nem kötelező paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An object that represents the value of the removed cache entry that was specified by the key, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified entry was not found.</source>
+          <target state="translated">Az eltávolított gyorsítótári bejegyzés, a kulcs által megadott értékét jelölő objektum vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha a megadott bejegyzés nem található.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, inserts the cache entry into the cache as a <bpt id="p1">&lt;xref href="System.Runtime.Caching.CacheItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance, specifying information about how the entry will be evicted.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, szúrja be a gyorsítótárba, mint a gyorsítótári bejegyzés egy <bpt id="p1">&lt;xref href="System.Runtime.Caching.CacheItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány információt hogyan kell zárni a bejegyzés megadása.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the key for <ph id="ph1">`item`</ph> does not exist, <ph id="ph2">`item`</ph> is inserted as a new cache entry.</source>
+          <target state="translated">Ha a kulcs <ph id="ph1">`item`</ph> nem létezik, <ph id="ph2">`item`</ph> új gyorsítótár bejegyzésének csatlakoztatva van.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an item with a key that matches <ph id="ph1">`item`</ph> exists, the value from <ph id="ph2">`item`</ph> is used to update or overwrite the value of the existing cache entry.</source>
+          <target state="translated">Ha egy elem, amelynek kulcsa megegyezik a <ph id="ph1">`item`</ph> létezik, ahonnan az értéket <ph id="ph2">`item`</ph> frissítéséhez, vagy írja felül a meglévő gyorsítótári bejegyzést értékének szolgál.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The cache item to add.</source>
+          <target state="translated">A gyorsítótár elem hozzáadásához.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>An object that contains eviction details for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés kiürítés részleteit tartalmazó objektum.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>This object provides more options for eviction than a simple absolute expiration.</source>
+          <target state="translated">Ez az objektum egy egyszerű abszolút lejárati mint kiürítés további lehetőséget biztosít.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, inserts a cache entry into the cache, specifying time-based expiration details.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, szúrja be a gyorsítótári bejegyzés a gyorsítótárba, időalapú lejárat részletek megadása.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an item that matches <ph id="ph1">`key`</ph> does not exist in the cache, <ph id="ph2">`value`</ph> and <ph id="ph3">`key`</ph> are used to insert as a new cache entry.</source>
+          <target state="translated">Ha egy elem, amely megfelel <ph id="ph1">`key`</ph> nem létezik a gyorsítótár, a <ph id="ph2">`value`</ph> és <ph id="ph3">`key`</ph> szúrható be új gyorsítótár bejegyzésének szolgálnak.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an item with a key that matches <ph id="ph1">`item`</ph> exists, the cache entry is updated or overwritten by using <ph id="ph2">`value`</ph>.</source>
+          <target state="translated">Ha egy elem, amelynek kulcsa megegyezik a <ph id="ph1">`item`</ph> létezik, a gyorsítótári bejegyzés frissítése, vagy írja felül a <ph id="ph2">`value`</ph>.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The object to insert.</source>
+          <target state="translated">A beszúrandó objektum.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The fixed date and time at which the cache entry will expire.</source>
+          <target state="translated">A rögzített dátumot és időpontot, amikor a gyorsítótári bejegyzés lejár.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>A named region in the cache to which the cache entry can be added, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelyekhez a gyorsítótári bejegyzés is hozzáadja, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The default value for the optional parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték a nem kötelező paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, inserts a cache entry into the cache.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, szúrja be a gyorsítótárba egy gyorsítótár-bejegyzés.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overload lets you provide more eviction or expiration details than those that are available in time-based absolute expiration.</source>
+          <target state="translated">Ez lehetővé teszi további kiürítés vagy lejárati adatok mint abszolút lejárati ideje alapján elérhető.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an item that matches <ph id="ph1">`key`</ph> does not exist in the cache, <ph id="ph2">`value`</ph> and <ph id="ph3">`key`</ph> are used to insert as a new cache entry.</source>
+          <target state="translated">Ha egy elem, amely megfelel <ph id="ph1">`key`</ph> nem létezik a gyorsítótár, a <ph id="ph2">`value`</ph> és <ph id="ph3">`key`</ph> szúrható be új gyorsítótár bejegyzésének szolgálnak.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an item with a key that matches <ph id="ph1">`item`</ph> exists, the cache entry is updated or overwritten by using <ph id="ph2">`value`</ph>.</source>
+          <target state="translated">Ha egy elem, amelynek kulcsa megegyezik a <ph id="ph1">`item`</ph> létezik, a gyorsítótári bejegyzés frissítése, vagy írja felül a <ph id="ph2">`value`</ph>.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés egyedi azonosítója.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The object to insert.</source>
+          <target state="translated">A beszúrandó objektum.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>An object that contains eviction details for the cache entry.</source>
+          <target state="translated">A gyorsítótári bejegyzés kiürítés részleteit tartalmazó objektum.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>This object provides more options for eviction than a simple absolute expiration.</source>
+          <target state="translated">Ez az objektum egy egyszerű abszolút lejárati mint kiürítés további lehetőséget biztosít.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">Nem kötelező.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>A named region in the cache to which the cache entry can be added, if regions are implemented.</source>
+          <target state="translated">Egy nevesített területet a gyorsítótárban, amelyekhez a gyorsítótári bejegyzés is hozzáadja, ha régiók valósíthatók meg.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The default value for the optional parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték a nem kötelező paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Supports iteration over a generic collection.</source>
+          <target state="translated">Iteráció támogatja a generikus gyűjteményhez keresztül.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Ez a tag egy explicit illesztőfelületet tag megvalósítása.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when a derived &lt;xref:System.Runtime.Caching.ObjectCache&gt; instance is cast to an &lt;xref:System.Collections.IEnumerable&gt; interface.</source>
+          <target state="translated">Csak akkor, ha a származtatott használható &lt;xref:System.Runtime.Caching.ObjectCache&gt;példány típusúvá egy &lt;xref:System.Collections.IEnumerable&gt;felületet.&lt;/xref:System.Collections.IEnumerable&gt; &lt;/xref:System.Runtime.Caching.ObjectCache&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Developers can use this method to iterate through a generic collection of cache entries.</source>
+          <target state="translated">A fejlesztők Ez a módszer segítségével iterációt gyorsítótár-bejegyzéseket általános gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the default &lt;xref:System.Collections.IEnumerable.GetEnumerator%2A&gt; implementation that internally calls the &lt;xref:System.Runtime.Caching.ObjectCache.GetEnumerator%2A&gt; method.</source>
+          <target state="translated">Ez az alapértelmezett &lt;xref:System.Collections.IEnumerable.GetEnumerator%2A&gt;megvalósítása, amely belsőleg hívja a &lt;xref:System.Runtime.Caching.ObjectCache.GetEnumerator%2A&gt;metódus.&lt;/xref:System.Runtime.Caching.ObjectCache.GetEnumerator%2A&gt; &lt;/xref:System.Collections.IEnumerable.GetEnumerator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The enumerator object that provides access to the items in the cache.</source>
+          <target state="translated">A számbavevő objektum, amely a gyorsítótár elemeinek hozzáférést biztosít.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
