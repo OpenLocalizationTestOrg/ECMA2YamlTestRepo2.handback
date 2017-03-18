@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5312381007de9da5dbd731844ed1e0365cf1664</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Description.TransactedBatchingBehavior.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d8c64f09486900648235914e47cefde0453a6c60</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e038371099cae1787d3d2fdc0e5db7e8fb72d4dd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a behavior that optimizes the receive operations for transports that support transactional receives.</source>
+          <target state="translated">表示最佳化為支援交易接收的傳輸接收作業的行為。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A transport that is configured with this behavior attempts to batch several receive operations into one transaction.</source>
+          <target state="translated">設定與這個行為的傳輸，嘗試將數個接收到一個交易的作業。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>By doing so, the relatively high cost of creating a transaction and committing it in every receive operation is avoided.</source>
+          <target state="translated">透過這種方式，建立交易並認可中的相對高成本每個接收作業可以避免。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Description.TransactedBatchingBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified batch size.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.ServiceModel.Description.TransactedBatchingBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別具有指定的批次大小。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`maxBatchSize`</ph> value passed into the constructor is only a hint.</source>
+          <target state="translated"><ph id="ph1">`maxBatchSize`</ph>傳入建構函式的值是只是提示。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It is possible that all messages are received before reaching the <ph id="ph1">`maxBatchSize`</ph>.</source>
+          <target state="translated">很可能會收到所有的訊息到達之前<ph id="ph1">`maxBatchSize`</ph>。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When that occurs, it is unnecessary to wait indefinitely for another message to be received.</source>
+          <target state="translated">當發生此情況時，則不需要無限期地等待接收另一個訊息。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To prevent this from happening, <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> commits the batch early and open a new batch to receive additional messages.</source>
+          <target state="translated">若要避免這種情況，<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>會提早認可批次並開啟新批次來接收其他訊息。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The batch is committed if there are no messages to be received and 20 percent of the transaction time-out value has elapsed.</source>
+          <target state="translated">如果沒有其他要接收的訊息，而且已經經過交易逾時值的 20%，就會認可批次。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The maximum number of receive operations that can be batched together.</source>
+          <target state="translated">最大數目接收批次處理的作業。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;MaxBatchSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;MaxBatchSize&lt;/code&gt;</ph>小於 0。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum number of receive operations that can be batched together in one transaction.</source>
+          <target state="translated">取得或設定的最大數目中接收作業批次處理的一筆交易。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`maxBatchSize`</ph> value is only a hint.</source>
+          <target state="translated"><ph id="ph1">`maxBatchSize`</ph>值是只是提示。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It is possible that all messages are received before reaching the <ph id="ph1">`maxBatchSize`</ph>.</source>
+          <target state="translated">很可能會收到所有的訊息到達之前<ph id="ph1">`maxBatchSize`</ph>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When that occurs, it is unnecessary to wait indefinitely for another message to be received.</source>
+          <target state="translated">當發生此情況時，則不需要無限期地等待接收另一個訊息。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To prevent this from happening, <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> commits the batch early and open a new batch to receive additional messages.</source>
+          <target state="translated">若要避免這種情況，<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>會提早認可批次並開啟新批次來接收其他訊息。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The batch is committed if there are no messages to be received and 20 percent of the transaction time-out value has elapsed.</source>
+          <target state="translated">如果沒有其他要接收的訊息，而且已經經過交易逾時值的 20%，就會認可批次。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The maximum number of receive operations that can be batched together in one transaction.</source>
+          <target state="translated">最大數目會在單一交易中一同接收批次處理的作業。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;MaxBatchSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;MaxBatchSize&lt;/code&gt;</ph>小於 0。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Applies binding settings to the specified service endpoint.</source>
+          <target state="translated">繫結設定套用至指定的服務端點。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This method cannot be inherited.</source>
+          <target state="translated">這個方法無法被繼承。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Enables you to add additional binding parameters to the specified service endpoint.</source>
+          <target state="translated">可讓您將其他繫結參數加入至指定的服務端點。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This is normally used when working with a custom binding.</source>
+          <target state="translated">這通常用於使用自訂繫結時。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A service endpoint where behavior settings are applied.</source>
+          <target state="translated">套用行為設定服務端點。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A collection of binding parameters that store information used by binding elements to build factories.</source>
+          <target state="translated">繫結參數可儲存繫結項目建立處理站時所用的資訊集合。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Applies transaction batching behavior settings to the specified service endpoint.</source>
+          <target state="translated">適用於交易批次處理行為設定，以指定的服務端點。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This method cannot be inherited.</source>
+          <target state="translated">這個方法無法被繼承。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A service endpoint where behavior settings are applied.</source>
+          <target state="translated">套用行為設定服務端點。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Contains the transaction batching behavior.</source>
+          <target state="translated">包含異動批次處理行為。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Associates an endpoint dispatcher with the specified service endpoint.</source>
+          <target state="translated">將端點發送器與指定的服務端點產生關聯。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This method cannot be inherited.</source>
+          <target state="translated">這個方法無法被繼承。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This method is called by <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> to associate a service endpoint with an endpoint dispatcher.</source>
+          <target state="translated">這個方法會呼叫<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>服務端點與端點發送器。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A service endpoint where behavior settings are applied.</source>
+          <target state="translated">套用行為設定服務端點。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An endpoint dispatching for dispatching messages</source>
+          <target state="translated">用於發送訊息的端點發送</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Ensures that transacted batching is applicable only for the bindings that support transacted receive operation.</source>
+          <target state="translated">可確保交易的批次處理僅適用於支援交易接收作業的繫結。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This method cannot be inherited.</source>
+          <target state="translated">這個方法無法被繼承。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This method is called by <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> to ensure that batching is available only for bindings that support transacted receive operations.</source>
+          <target state="translated">這個方法會呼叫<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>以確認批次處理可用只會針對繫結支援交易接收作業。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A service endpoint for which batching behavior is validated.</source>
+          <target state="translated">如果驗證批次處理行為服務端點。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

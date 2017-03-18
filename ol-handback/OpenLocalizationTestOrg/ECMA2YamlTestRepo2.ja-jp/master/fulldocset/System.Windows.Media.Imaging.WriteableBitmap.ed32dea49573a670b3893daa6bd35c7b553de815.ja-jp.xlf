@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">faf57873fca871d80aeb3a278f0713ecc5d950ce</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Imaging.WriteableBitmap.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">83bcf576d356a0e89fe14a8af75e250b1cc742a5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb37e1f4058175b86c50fba158227e5ebde5620e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be written to and updated.</source>
+          <target state="translated">提供、 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>に書き込まれ、更新するには、です。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the WriteableBitmap class to update and render a bitmap on a per-frame basis.</source>
+          <target state="translated">更新して、フレーム ベースのビットマップを描画するには、WriteableBitmap クラスを使用します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This is useful for generating algorithmic content, such as a fractal image, and for data visualization, such as a music visualizer.</source>
+          <target state="translated">これは、フラクタル イメージなどのアルゴリズム コンテンツの生成と音楽ビジュアライザーなどのデータの視覚化に役立ちます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The WriteableBitmap class uses two buffers.</source>
+          <target state="translated">WriteableBitmap クラスでは、2 つのバッファーを使用します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>back buffer<ept id="p1">*</ept> is allocated in system memory and accumulates content that is not currently displayed.</source>
+          <target state="translated"><bpt id="p1">*</bpt>バック バッファー<ept id="p1">*</ept>システム メモリ内で割り当てられているし、コンテンツが表示されていないを累積します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>front buffer<ept id="p1">*</ept> is allocated in system memory and contains the content that is currently displayed.</source>
+          <target state="translated"><bpt id="p1">*</bpt>フロント バッファー<ept id="p1">*</ept>システム メモリ内で割り当てられているし、現在表示されているコンテンツが含まれています。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The rendering system copies the front buffer to video memory for display.</source>
+          <target state="translated">レンダリング システムは、フロントのバッファーを表示するためのビデオ メモリにコピーします。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Two threads use these buffers.</source>
+          <target state="translated">2 つのスレッドは、これらのバッファーを使用します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>user interface (UI) thread<ept id="p1">*</ept> generates the UI but does not present it to the screen.</source>
+          <target state="translated"><bpt id="p1">*</bpt>ユーザー インターフェイス (UI) スレッド<ept id="p1">*</ept>UI が生成されますが、画面には表示しません。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The UI thread responds to user input, timers, and other events.</source>
+          <target state="translated">UI スレッドは、ユーザー入力、タイマー、およびその他のイベントに応答します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An application can have multiple UI threads.</source>
+          <target state="translated">アプリケーションは、複数の UI スレッドでことができます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>render thread<ept id="p1">*</ept> composes and renders changes from the UI thread.</source>
+          <target state="translated"><bpt id="p1">*</bpt>レンダリング スレッド<ept id="p1">*</ept>を作成して、UI スレッドからの変更を描画します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There is only one render thread per application.</source>
+          <target state="translated">アプリケーションごとの&amp;1; つだけのレンダーのスレッドがあります。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The UI thread writes content to the back buffer.</source>
+          <target state="translated">UI スレッドでは、バック バッファーにコンテンツを書き込みます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The render thread reads content from the front buffer and copies it to video memory.</source>
+          <target state="translated">レンダーのスレッドでは、フロント バッファーからコンテンツを読み取り、ビデオ メモリにコピーします。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Changes to the back buffer are tracked with changed rectangular regions.</source>
+          <target state="translated">バック バッファーへの変更は、変更された四角形の領域を使って追跡されます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Call one of the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt; overloads to update and display content in the back buffer automatically.</source>
+          <target state="translated">1 つを呼び出して、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;オーバー ロードを更新して自動的にバック バッファーの内容を表示します&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For greater control over updates, and for multi-threaded access to the back buffer, use the following workflow.</source>
+          <target state="translated">更新プログラムより詳細に制御およびバック バッファーへのマルチ スレッド アクセスでは、次のワークフローを使用します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; method to reserve the back buffer for updates.</source>
+          <target state="translated">呼び出す、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;に更新プログラムのバック バッファーを予約するメソッド&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Obtain a pointer to the back buffer by accessing the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.BackBuffer%2A&gt; property.</source>
+          <target state="translated">アクセスして、バック バッファーへのポインターを取得、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.BackBuffer%2A&gt;プロパティ&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.BackBuffer%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Write changes to the back buffer.</source>
+          <target state="translated">バック バッファーへの変更を記述します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Other threads may write changes to the back buffer when the WriteableBitmap is locked.</source>
+          <target state="translated">他のスレッドがバック バッファーへの変更を作成するには、WriteableBitmap がロックされている場合。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt; method to indicate areas that have changed.</source>
+          <target state="translated">呼び出す、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;メソッドが変更された領域を示します&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; method to release the back buffer and allow presentation to the screen.</source>
+          <target state="translated">呼び出す、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;バック バッファーを解放し、画面に表示できるようにするメソッド&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When updates are sent to the rendering thread, the rendering thread copies the changed rectangles from the back buffer to the front buffer.</source>
+          <target state="translated">更新プログラムは、レンダリング スレッドに送信すると、レンダリング スレッドでは、バック バッファーから変更された四角形をフロントのバッファーにコピーします。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The rendering system controls this exchange to avoid deadlocks and redraw artifacts, such as "tearing".</source>
+          <target state="translated">レンダリング システムでは、デッドロックを回避して「解除」などのアイテムを再描画するには、この exchange を制御します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the given <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスを使用して、指定された<bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.%23ctor%28System.Int32%2CSystem.Int32%2CSystem.Double%2CSystem.Double%2CSystem.Windows.Media.PixelFormat%2CSystem.Windows.Media.Imaging.BitmapPalette%29&gt; constructor is preferred over using this constructor.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.%23ctor%28System.Int32%2CSystem.Int32%2CSystem.Double%2CSystem.Double%2CSystem.Windows.Media.PixelFormat%2CSystem.Windows.Media.Imaging.BitmapPalette%29&gt;コンス トラクターは、このコンス トラクターを使用する場合より優先されます&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.%23ctor%28System.Int32%2CSystem.Int32%2CSystem.Double%2CSystem.Double%2CSystem.Windows.Media.PixelFormat%2CSystem.Windows.Media.Imaging.BitmapPalette%29&gt;。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`source`</ph> does not use a natively supported bitmap format, format conversions are applied for each frame update, which reduces performance.</source>
+          <target state="translated">場合<ph id="ph1">`source`</ph>フレーム更新プログラムごとに、パフォーマンスが低下する変換が適用される形式、ネイティブにサポートされているビットマップ形式を使用しません。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for initialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>初期化に使用します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified parameters.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定されたパラメーターを持つクラス。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The preferred values for <ph id="ph1">`pixelFormat`</ph> are &lt;xref:System.Windows.Media.PixelFormats.Bgr32%2A&gt; and &lt;xref:System.Windows.Media.PixelFormats.Pbgra32%2A&gt;.</source>
+          <target state="translated">に対して優先値<ph id="ph1">`pixelFormat`</ph>は&lt;xref:System.Windows.Media.PixelFormats.Bgr32%2A&gt;および&lt;xref:System.Windows.Media.PixelFormats.Pbgra32%2A&gt;.&lt;/xref:System.Windows.Media.PixelFormats.Pbgra32%2A&gt; &lt;/xref:System.Windows.Media.PixelFormats.Bgr32%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>These formats are natively supported and do not require a format conversion.</source>
+          <target state="translated">これらの形式は、ネイティブでサポートされ、形式の変換は必要ありません。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Other <ph id="ph1">`pixelFormat`</ph> values require a format conversion for each frame update, which reduces performance.</source>
+          <target state="translated">その他の<ph id="ph1">`pixelFormat`</ph>値フレーム更新プログラムごとに、パフォーマンスが低下形式変換を必要とします。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The desired width of the bitmap.</source>
+          <target state="translated">ビットマップの幅。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The desired height of the bitmap.</source>
+          <target state="translated">ビットマップの高さ。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The horizontal <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> of the bitmap.</source>
+          <target state="translated">水平<ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph>のビットマップ。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The vertical <ph id="ph1">[!INCLUDE[TLA#tla_dpi](../Token/TLA%23tla_dpi_md.md)]</ph> of the bitmap.</source>
+          <target state="translated">垂直<ph id="ph1">[!INCLUDE[TLA#tla_dpi](../Token/TLA%23tla_dpi_md.md)]</ph>のビットマップ。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.PixelFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the bitmap.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.PixelFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のビットマップ。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapPalette"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the bitmap.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapPalette"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のビットマップ。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specifies the area of the bitmap that changed.</source>
+          <target state="translated">変更するビットマップの領域を指定します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Call the AddDirtyRect method to indicate changes your code has made to the back buffer.</source>
+          <target state="translated">コードがバック バッファーに加えられた変更を示すために AddDirtyRect メソッドを呼び出します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When you call this method multiple times, the changed areas are accumulated in a sufficient, but not necessarily minimal, representation.</source>
+          <target state="translated">このメソッドを複数回呼び出すと、変更された領域が必ずしも最小限ではない、十分な表現では蓄積されます。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For efficiency, only the areas that are marked as dirty are guaranteed to be copied forward to the front buffer.</source>
+          <target state="translated">効率を高めるため、ダーティとマークされている領域のみを前面のバッファーにコピーされる保証されます。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>However, any portion of the bitmap may be copied forward, so you must ensure that the entire back buffer is always valid.</source>
+          <target state="translated">ただし、ビットマップの任意の部分は、バック バッファー全体が常に有効であることを確認する必要がありますように、転送、コピーして可能性があります。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Call the AddDirtyRect method only between calls to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; methods, as described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks.</source>
+          <target state="translated">呼び出し間でのみ AddDirtyRect メソッドを呼び出して、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;と&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;メソッド、」の説明に従って、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;クラスの「解説」&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Int32Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the area that changed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Int32Rect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>変更領域を表すです。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Dimensions are in pixels.</source>
+          <target state="translated">ディメンションでは、(ピクセル単位) です。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The bitmap has not been locked by a call to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock<ept id="p1">*</ept>&gt; methods.</source>
+          <target state="translated">呼び出しによって、ビットマップがロックされていない、 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; または&lt;&gt; <ept id="p1">*</ept>&gt; メソッドです。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;dirtyRect&lt;/code&gt;</ph> falls outside the bounds of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;dirtyRect&lt;/code&gt;</ph>境界の外側にある、 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets a pointer to the back buffer.</source>
+          <target state="translated">バック バッファーへのポインターを取得します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The back buffer contains the bitmap contents in the pixel format requested by the user.</source>
+          <target state="translated">バック バッファーには、ユーザーによって指定されたピクセル形式のビットマップのコンテンツが含まれています。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Update the back buffer only between calls to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; methods.</source>
+          <target state="translated">バック バッファーへの呼び出し間でのみを更新、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;と&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;メソッド&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If you do not follow the Lock/Unlock workflow described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks, undefined behaviors, such as tearing, can occur.</source>
+          <target state="translated">記述されたロック/ロック解除のワークフローを実行しないかどうか、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;クラスの「解説」を、設定解除を行うなど、未定義の動作が発生することができます。&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The address of the back buffer does not change.</source>
+          <target state="translated">バック バッファーのアドレスは変更されません。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Thread Safety    You can pass the BackBuffer pointer to external components and other threads for processing, but if you do, you must provide you own thread coordination.</source>
+          <target state="translated">スレッドの安全性を外部コンポーネントおよびその他のスレッド処理のために、バック バッファー ポインターを渡すことができますが場合は、必要がありますを指定する、独自のスレッド調整します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>In particular, you must ensure that the UI thread specifies changed areas by calling the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt; method, and that the UI thread unlocks the buffer by calling the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; method.</source>
+          <target state="translated">UI スレッドが呼び出すことによって変更された領域を指定することを確認する必要があります具体的には、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;メソッド、および UI スレッドが、呼び出すことにより、バッファーをロック解除こと、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;メソッド&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; that points to the base address of the back buffer.</source>
+          <target state="translated">&lt;xref:System.IntPtr&gt;バック バッファーのベース アドレスを指す&lt;/xref:System.IntPtr&gt;。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the number of bytes in a single row of pixel data.</source>
+          <target state="translated">ピクセル データの単一行のバイト数を示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An integer indicating the number of bytes in a single row of pixel data.</source>
+          <target state="translated">ピクセル データの単一行のバイト数を示す整数。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, making deep copies of this object's values.</source>
+          <target state="translated">この変更可能な複製を作成<bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、このオブジェクトの値の詳細コピーを作成します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>When copying dependency properties, this method copies resource references and data bindings (but they might no longer resolve) but not animations or their current values.</source>
+          <target state="translated">依存関係プロパティをコピーするときにこのメソッドはコピー リソース参照とデータ バインディング (ただし、解決できなくなる可能性があります)、アニメーションやその現在の値ではありません。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This method is used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects (or any &lt;xref:System.Windows.Freezable&gt; object).</source>
+          <target state="translated">変更可能なコピーを生成するためにこのメソッドが使用される固定された&lt;xref:System.Windows.Freezable&gt;オブジェクト (または any&lt;xref:System.Windows.Freezable&gt;オブジェクト).&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For convenience, this method shadows the inherited version with a strongly typed implementation.</source>
+          <target state="translated">便宜上は、このメソッドは、厳密に型指定された実装が継承したバージョンをシャドウします。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of the current object.</source>
+          <target state="translated">現在のオブジェクトの変更可能な複製。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The cloned object's &lt;xref:System.Windows.Freezable.IsFrozen<bpt id="p1">*</bpt>&gt; property will be <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> even if the source's &lt;xref:System.Windows.Freezable.IsFrozen<ept id="p1">*</ept>&gt; property was <bpt id="p3">&lt;xref uid="langword_csharp_true." name="true." href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept></source>
+          <target state="translated">複製されたオブジェクトの&lt;&gt; <bpt id="p1">*</bpt>&gt; プロパティになります<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>場合でも、ソースの&lt;&gt; <ept id="p1">*</ept>&gt; プロパティ<bpt id="p3">&lt;xref uid="langword_csharp_true." name="true." href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ByteAnimationUsingKeyFrames"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, making deep copies of this object's current values.</source>
+          <target state="translated">この変更可能な複製を作成<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ByteAnimationUsingKeyFrames"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト、このオブジェクトの現在の値の詳細コピーを作成します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Resource references, data bindings, and animations are not copied, but their current values are.</source>
+          <target state="translated">リソース参照、データ バインディング、およびアニメーションはコピーされませんが、現在の値。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This method is used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects (or any &lt;xref:System.Windows.Freezable&gt; object).</source>
+          <target state="translated">変更可能なコピーを生成するためにこのメソッドが使用される固定された&lt;xref:System.Windows.Freezable&gt;オブジェクト (または any&lt;xref:System.Windows.Freezable&gt;オブジェクト).&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For convenience, this method shadows the inherited version with a strongly typed implementation.</source>
+          <target state="translated">便宜上は、このメソッドは、厳密に型指定された実装が継承したバージョンをシャドウします。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;。&lt;/xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of the current object.</source>
+          <target state="translated">現在のオブジェクトの変更可能な複製。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The cloned object's &lt;xref:System.Windows.Freezable.IsFrozen<bpt id="p1">*</bpt>&gt; property will be <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> even if the source's &lt;xref:System.Windows.Freezable.IsFrozen<ept id="p1">*</ept>&gt; property was <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">複製されたオブジェクトの&lt;&gt; <bpt id="p1">*</bpt>&gt; プロパティ<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>場合でも、ソースの&lt;&gt; <ept id="p1">*</ept>&gt; プロパティが<bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Reserves the back buffer for updates.</source>
+          <target state="translated">更新プログラムのバック バッファーを予約します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The Lock method increments the lock count.</source>
+          <target state="translated">Lock メソッドは、ロック カウントをインクリメントします。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>When a &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; is locked, the rendering system does not send updates until the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; is fully unlocked by calls to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; method.</source>
+          <target state="translated">ときに、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;がロックされると、レンダリング システム更新を送信しませんまで、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;への呼び出しによって完全にロック解除、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;メソッド&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt;&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt;。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You can use the Lock method to support multi-threaded implementations.</source>
+          <target state="translated">Lock メソッドは、マルチ スレッドの実装をサポートするために使用できます。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>In these scenarios, the UI thread locks the bitmap and exposes the back buffer to other threads.</source>
+          <target state="translated">これらのシナリオでは、UI スレッドは、ビットマップをロックし、他のスレッドのバック バッファーを公開します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>When the worker thread has finished a frame, the UI thread adds changed rectangles and unlocks the buffer.</source>
+          <target state="translated">ワーカー スレッドには、フレームが完了したら、UI スレッドが変更された四角形を追加し、バッファーのロックを解除します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The UI thread can block when the render thread acquires a lock on the back buffer to copy it forward to the front buffer.</source>
+          <target state="translated">レンダーのスレッドがバック バッファー フロントのバッファーにコピーして転送のロックを取得すると、UI スレッドをブロックできます。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If the latency from this block is too long, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock%2A&gt; method to wait for a short time and then unblock the UI thread to perform other tasks while the back buffer is locked.</source>
+          <target state="translated">このブロックからの待機時間が長すぎる場合を使用して、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock%2A&gt;メソッドを短い時間待機し、バック バッファーのロック中に、その他のタスクを実行する UI スレッドのブロックを解除します&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Attempts to lock the bitmap, waiting for no longer than the specified length of time.</source>
+          <target state="translated">ビットマップのロックしようと待機時間の指定された長さよりもします。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When a lock is acquired, the behavior of the TryLock method is the same as the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; method.</source>
+          <target state="translated">TryLock メソッドの動作が同じでは、ロックが取得されるときに、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;メソッド&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Duration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the length of time to wait.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Duration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>待機する時間の長さを表すです。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A value of 0 returns immediately.</source>
+          <target state="translated">0 の値が直ちに返されます。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A value of &lt;xref:System.Windows.Duration.Forever*&gt; blocks indefinitely.</source>
+          <target state="translated">値&lt;xref:System.Windows.Duration.Forever*&gt;無期限にブロックされます&lt;/xref:System.Windows.Duration.Forever*&gt;。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the lock was acquired; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ロックが取得された場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> is set to <ph id="ph2">&lt;xref:System.Windows.Duration.Automatic*&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>設定されている<ph id="ph2">&lt;xref:System.Windows.Duration.Automatic*&gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Releases the back buffer to make it available for display.</source>
+          <target state="translated">表示するために使用可能にするバック バッファーを解放します。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The Unlock method decrements the lock count.</source>
+          <target state="translated">ロック カウントをロック解除メソッド デクリメントします。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>When the lock count reaches 0, a render pass is requested if the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt; method has been called.</source>
+          <target state="translated">場合、レンダリング パスが要求されたロック数が 0 に達したときに、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;メソッドが呼び出されました&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The bitmap has not been locked by a call to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock<ept id="p1">*</ept>&gt; methods.</source>
+          <target state="translated">呼び出しによって、ビットマップがロックされていない、 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; または&lt;&gt; <ept id="p1">*</ept>&gt; メソッドです。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">ビットマップの指定した領域のピクセルを更新します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overloads are preferred over using this method.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;と&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;オーバー ロードが、このメソッドを使用してより優先されます&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In partial trust, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overload.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;、部分信頼で使用して、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;オーバー ロードします&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The rectangle of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to update.</source>
+          <target state="translated">四角形、 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を更新します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The pixel array used to update the bitmap.</source>
+          <target state="translated">ビットマップの更新に使用されるピクセルの配列。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The stride of the update region in <ph id="ph1">`pixels`</ph>.</source>
+          <target state="translated">更新領域のストライド<ph id="ph1">`pixels`</ph>です。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The input buffer offset.</source>
+          <target state="translated">入力バッファーのオフセット。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">1 つ以上の次の条件は true です。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>境界の外側にある、 <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">offset</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 0</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">offset</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 0</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph> has a rank other than 1 or 2, or its length is less than or equal to 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph>ランクが 1 または 2、以外またはその長さが 0 以下です。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">ビットマップの指定した領域のピクセルを更新します。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overloads are preferred over using this method.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;と&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;オーバー ロードが、このメソッドを使用してより優先されます&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In partial trust, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overload.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;、部分信頼で使用して、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;オーバー ロードします&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The rectangle of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to update.</source>
+          <target state="translated">四角形、 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を更新します。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The input buffer used to update the bitmap.</source>
+          <target state="translated">ビットマップの更新に使用する入力バッファー。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The size of the input buffer.</source>
+          <target state="translated">入力バッファーのサイズ。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The stride of the update region in <ph id="ph1">`buffer`</ph>.</source>
+          <target state="translated">更新領域のストライド<ph id="ph1">`buffer`</ph>です。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">1 つ以上の次の条件は true です。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>境界の外側にある、 <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">stride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">stride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">ビットマップの指定した領域のピクセルを更新します。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt; method to update the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; automatically with the contents of <ph id="ph1">`sourceBuffer`</ph>.</source>
+          <target state="translated">呼び出す、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;を更新するメソッド、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;の内容を自動的に<ph id="ph1">`sourceBuffer`</ph>&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt;&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Calling this method is the equivalent of using the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; workflow described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks.</source>
+          <target state="translated">使用しての該当するショートカットは、このメソッドを呼び出す、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;と&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;で説明されているワークフロー、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;クラスの「解説」&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Use this overload in partial trust.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 部分的な信頼でのこのオーバー ロードを使用します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The rectangle in <ph id="ph1">`sourceBuffer`</ph> to copy.</source>
+          <target state="translated">四角形に<ph id="ph1">`sourceBuffer`</ph>をコピーします。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The input buffer used to update the bitmap.</source>
+          <target state="translated">ビットマップの更新に使用する入力バッファー。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The stride of the input buffer, in bytes.</source>
+          <target state="translated">(バイト単位) の入力バッファーのストライド。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The destination x-coordinate of the left-most pixel in the back buffer.</source>
+          <target state="translated">バック バッファーの左端のピクセルの宛先の x 座標。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The destination y-coordinate of the top-most pixel in the back buffer.</source>
+          <target state="translated">バック バッファー内の最上位のピクセルの宛先の y 座標。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">1 つ以上の次の条件は true です。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>境界の外側にある、 <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">destinationY</ph><ept id="p2">&lt;/code&gt;</ept> is outside the bounds of the <bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept>または<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">destinationY</ph> <ept id="p2">&lt;/code&gt;</ept>がの境界外の<bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferStride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferStride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph> has a rank other than 1 or 2, or its length is less than or equal to 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph>ランクが 1 または 2、以外またはその長さが 0 以下です。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">ビットマップの指定した領域のピクセルを更新します。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Call the WritePixels method to update the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; automatically with the contents of <ph id="ph1">`sourceBuffer`</ph>.</source>
+          <target state="translated">更新 WritePixels メソッドを呼び出して、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;の内容を自動的に<ph id="ph1">`sourceBuffer`</ph>&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt;。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Calling this method is the equivalent of using the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; workflow described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks.</source>
+          <target state="translated">使用しての該当するショートカットは、このメソッドを呼び出す、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;と&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;で説明されているワークフロー、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;クラスの「解説」&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In partial trust, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overload.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;、部分信頼で使用して、&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;オーバー ロードします&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The rectangle in <ph id="ph1">`sourceBuffer`</ph> to copy.</source>
+          <target state="translated">四角形に<ph id="ph1">`sourceBuffer`</ph>をコピーします。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The input buffer used to update the bitmap.</source>
+          <target state="translated">ビットマップの更新に使用する入力バッファー。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The size of the input buffer.</source>
+          <target state="translated">入力バッファーのサイズ。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The stride of the input buffer, in bytes.</source>
+          <target state="translated">(バイト単位) の入力バッファーのストライド。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The destination x-coordinate of the left-most pixel in the back buffer.</source>
+          <target state="translated">バック バッファーの左端のピクセルの宛先の x 座標。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The destination y-coordinate of the top-most pixel in the back buffer.</source>
+          <target state="translated">バック バッファー内の最上位のピクセルの宛先の y 座標。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">1 つ以上の次の条件は true です。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>境界の外側にある、 <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">destinationY</ph><ept id="p2">&lt;/code&gt;</ept> is outside the bounds of the <bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept>または<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">destinationY</ph> <ept id="p2">&lt;/code&gt;</ept>がの境界外の<bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">sourceBufferStride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">sourceBufferStride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

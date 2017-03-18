@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bb1676ab9866f7f37575525135dd99ae25d12bf6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Objects.ObjectStateManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c77b56573ab42b9a7f0f7f3a045dda805d475d13</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3bb9cc802753aeb081f6ed6facf5ac9f3fb6dd28</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Maintains object state and identity management for entity type instances and relationship instances.</source>
+          <target state="translated">會維護實體類型執行個體和關聯性執行個體的物件狀態和身分識別的管理。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ObjectStateManager tracks query results, and provides logic to merge multiple overlapping query results.</source>
+          <target state="translated">ObjectStateManager 追蹤查詢結果，並且提供合併多個重疊查詢結果的邏輯。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It also performs in-memory change tracking when a user inserts, deletes, or modifies objects, and provides the change set for updates.</source>
+          <target state="translated">它也會執行記憶體中時，變更追蹤使用者插入、 刪除或修改物件，並提供更新變更集。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This change set is used by the change processor to persist modifications.</source>
+          <target state="translated">變更處理器會使用這個變更集來保存修改。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This class is typically used by &lt;xref:System.Data.Objects.ObjectContext&gt; and not directly in applications.</source>
+          <target state="translated">這個類別通常由&lt;xref:System.Data.Objects.ObjectContext&gt;並不是直接在應用程式。&lt;/xref:System.Data.Objects.ObjectContext&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which supplies mapping and metadata information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，其提供對應和中繼資料資訊。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Changes state of the <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for a specific object to the specified <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">entityState</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">狀態變更<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>針對指定的特定物件<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">entityState</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Calling the ChangeObjectState method to change the state of an object to &lt;xref:System.Data.EntityState&gt; does not cause related objects in a constrained relationship to be deleted.</source>
+          <target state="translated">呼叫 ChangeObjectState 方法，若要變更物件的狀態&lt;xref:System.Data.EntityState&gt;要刪除的條件約束關聯性中不會造成相關的物件。&lt;/xref:System.Data.EntityState&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Changing the state of an object does not affect related objects in the object graph.</source>
+          <target state="translated">變更物件的狀態不會影響的物件圖形中的相關的物件。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When you change the &lt;xref:System.Data.EntityState&gt; of an entity object entry to &lt;xref:System.Data.EntityState&gt;, all the properties of the object are marked as modified, regardless of the current or original values.</source>
+          <target state="translated">當您變更&lt;xref:System.Data.EntityState&gt;的實體物件項目以&lt;xref:System.Data.EntityState&gt;，物件的所有屬性都標示為已修改，不論目前或原始值。&lt;/xref:System.Data.EntityState&gt; &lt;/xref:System.Data.EntityState&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Data.EntityState&gt; of an entity object entry is changed to &lt;xref:System.Data.EntityState&gt;, &lt;xref:System.Data.EntityState&gt;, or &lt;xref:System.Data.EntityState&gt;, the relationship entries for the object are also updated.</source>
+          <target state="translated">當&lt;xref:System.Data.EntityState&gt;之實體物件的項目會變成&lt;xref:System.Data.EntityState&gt;， &lt;xref:System.Data.EntityState&gt;，或&lt;xref:System.Data.EntityState&gt;，也會更新物件的關聯性項目。&lt;/xref:System.Data.EntityState&gt; &lt;/xref:System.Data.EntityState&gt; &lt;/xref:System.Data.EntityState&gt; &lt;/xref:System.Data.EntityState&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The object for which the state must be changed.</source>
+          <target state="translated">必須為其變更狀態的物件。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The new state of the object.</source>
+          <target state="translated">物件的新狀態。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When the object is not detached and does not have an entry in the state manager.</source>
+          <target state="translated">當物件不是已卸離，狀態管理員沒有項目。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-or-       When you try to change the state to <bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from any other &lt;xref:System.Data.EntityState.&gt;       -or-       When <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p2">&lt;/code&gt;</ept> is not a valid <bpt id="p3">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">-或-當您嘗試將狀態變更為<bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>從任何其他&lt;xref:System.Data.EntityState.&gt;-或-當<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">state</ph> <ept id="p2">&lt;/code&gt;</ept>不是有效<bpt id="p3">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>值。&lt;/xref:System.Data.EntityState.&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Changes the state of the relationship between two entity objects that is specified based on the two related objects and the name of the navigation property.</source>
+          <target state="translated">變更指定的兩個實體物件之間的關聯性的狀態依據兩個相關的物件和導覽屬性的名稱。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Entries for the objects at both ends of the specified relationship must exist in the &lt;xref:System.Data.Objects.ObjectStateManager&gt;.</source>
+          <target state="translated">項目在指定的關聯性兩端的物件必須存在於&lt;xref:System.Data.Objects.ObjectStateManager&gt;.&lt;/xref:System.Data.Objects.ObjectStateManager&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is not supported for relationships based on a foreign key association.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 外部索引鍵關聯為基礎的關聯性不支援這個方法。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The object instance or <bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the source entity at one end of the relationship.</source>
+          <target state="translated">物件執行個體或<bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>位於關聯性某一端之來源實體。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The object instance or <bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the target entity at the other end of the relationship.</source>
+          <target state="translated">物件執行個體或<bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>關聯性另一端之目標實體。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The name of the navigation property on <ph id="ph1">`source`</ph> that returns the specified <ph id="ph2">`target`</ph>.</source>
+          <target state="translated">上的導覽屬性名稱<ph id="ph1">`source`</ph>傳回指定<ph id="ph2">`target`</ph>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The requested <bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the specified relationship.</source>
+          <target state="translated">要求<bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定之關聯性。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the relationship that was changed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>已變更的關聯性。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When trying to change the state of the relationship to a state other than <bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> when either <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p3">&lt;/code&gt;</ept> or <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p4">&lt;/code&gt;</ept> is in a <bpt id="p5">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">當嘗試變更關聯性的狀態為狀態以外<bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>當任一<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">source</ph> <ept id="p3">&lt;/code&gt;</ept>或<bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">target</ph> <ept id="p4">&lt;/code&gt;</ept>處於<bpt id="p5">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>狀態。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-or-       When you try to change the state of the relationship to a state other than <bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> when either <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p3">&lt;/code&gt;</ept> or <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p4">&lt;/code&gt;</ept> is in an <bpt id="p5">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">-或-當您嘗試變更關聯性的狀態為狀態以外<bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>當任一<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">source</ph> <ept id="p3">&lt;/code&gt;</ept>或<bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">target</ph> <ept id="p4">&lt;/code&gt;</ept>處於<bpt id="p5">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>狀態。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>-or-       When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> is not a valid <bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">-或-當<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">state</ph> <ept id="p1">&lt;/code&gt;</ept>不是有效<bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Changes the state of the relationship between two entity objects that is specified based on the two related objects and the properties of the relationship.</source>
+          <target state="translated">變更指定的兩個實體物件之間的關聯性的狀態依據兩個相關的物件和關聯性的屬性。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Entries for the objects at both ends of the specified relationship must exist in the &lt;xref:System.Data.Objects.ObjectStateManager&gt;.</source>
+          <target state="translated">項目在指定的關聯性兩端的物件必須存在於&lt;xref:System.Data.Objects.ObjectStateManager&gt;.&lt;/xref:System.Data.Objects.ObjectStateManager&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is not supported for relationships that are based on a foreign key association.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 為基礎的外部索引鍵關聯的關聯性不支援這個方法。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Defining and Managing Relationships<ept id="p1">](http://msdn.microsoft.com/en-us/2c92c097-56bd-4145-989e-16d92475ecda)</ept></source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>定義及管理關聯性<ept id="p1">](http://msdn.microsoft.com/en-us/2c92c097-56bd-4145-989e-16d92475ecda)</ept></target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The object instance or <bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the source entity at one end of the relationship.</source>
+          <target state="translated">物件執行個體或<bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>位於關聯性某一端之來源實體。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The object instance or <bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the target entity at the other end of the relationship.</source>
+          <target state="translated">物件執行個體或<bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>關聯性另一端之目標實體。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The name of the relationship.</source>
+          <target state="translated">關聯性的名稱。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The role name at the <ph id="ph1">`target`</ph> end of the relationship.</source>
+          <target state="translated">位於角色名稱<ph id="ph1">`target`</ph>此關聯性端點。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The requested <bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the specified relationship.</source>
+          <target state="translated">要求<bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定之關聯性。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the relationship that was changed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>已變更的關聯性。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When you try to change the state of the relationship to a state other than <bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> when either <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p3">&lt;/code&gt;</ept> or <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p4">&lt;/code&gt;</ept> is in a <bpt id="p5">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">當您嘗試變更關聯性的狀態為狀態以外<bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>當任一<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">source</ph> <ept id="p3">&lt;/code&gt;</ept>或<bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">target</ph> <ept id="p4">&lt;/code&gt;</ept>處於<bpt id="p5">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>狀態。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-or-       When you try to change the state of the relationship to a state other than <bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> when either <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p3">&lt;/code&gt;</ept> or <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p4">&lt;/code&gt;</ept> is in an <bpt id="p5">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">-或-當您嘗試變更關聯性的狀態為狀態以外<bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>當任一<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">source</ph> <ept id="p3">&lt;/code&gt;</ept>或<bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">target</ph> <ept id="p4">&lt;/code&gt;</ept>處於<bpt id="p5">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>狀態。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-or-       When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> is not a valid <bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">-或-當<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">state</ph> <ept id="p1">&lt;/code&gt;</ept>不是有效<bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Returns a collection of <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for objects or relationships with the given state.</source>
+          <target state="translated">傳回的集合<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件或關聯性，具有給定狀態的物件。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.EntityState&gt; is a bit field, so state entries for multiple states can be retrieved in one call by doing a bitwise OR of more than one &lt;xref:System.Data.EntityState&gt; values.</source>
+          <target state="translated">&lt;xref:System.Data.EntityState&gt;是位元欄位，因此可以在單一呼叫中擷取多個狀態的狀態項目，執行位元或多個&lt;xref:System.Data.EntityState&gt;值。&lt;/xref:System.Data.EntityState&gt; &lt;/xref:System.Data.EntityState&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to filter the returned <bpt id="p2">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.EntityState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用來篩選傳回<bpt id="p2">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects in the given <bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">集合<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件中指定<bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref href="System.Data.EntityState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Returns an <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the object or relationship entry with the specified key.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>具有指定索引鍵的物件或關聯性項目。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Data.Objects.ObjectStateManager.TryGetObjectStateEntry%28System.Data.EntityKey%2CSystem.Data.Objects.ObjectStateEntry%40%29&gt; method to return an &lt;xref:System.Data.Objects.ObjectStateEntry&gt; object without having to handle the &lt;xref:System.InvalidOperationException&gt; raised by the GetObjectStateEntry method.</source>
+          <target state="translated">使用&lt;xref:System.Data.Objects.ObjectStateManager.TryGetObjectStateEntry%28System.Data.EntityKey%2CSystem.Data.Objects.ObjectStateEntry%40%29&gt;方法以傳回&lt;xref:System.Data.Objects.ObjectStateEntry&gt;物件而不需要處理&lt;xref:System.InvalidOperationException&gt;GetObjectStateEntry 方法所引發。&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Data.Objects.ObjectStateEntry&gt; &lt;/xref:System.Data.Objects.ObjectStateManager.TryGetObjectStateEntry%28System.Data.EntityKey%2CSystem.Data.Objects.ObjectStateEntry%40%29&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The corresponding <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the given <bpt id="p2">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">對應<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>針對給定<bpt id="p2">&lt;xref href="System.Data.EntityKey"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> cannot be found in the state manager.</source>
+          <target state="translated">當指定<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p1">&lt;/code&gt;</ept>狀態管理員中找不到。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>No entity with the specified <bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> exists in the <bpt id="p2">&lt;xref href="System.Data.Objects.ObjectStateManager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">使用指定的實體不<bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>存在於<bpt id="p2">&lt;xref href="System.Data.Objects.ObjectStateManager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns an <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the specified object.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定的物件。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Data.Objects.ObjectStateManager.TryGetObjectStateEntry%28System.Object%2CSystem.Data.Objects.ObjectStateEntry%40%29&gt; method to return an &lt;xref:System.Data.Objects.ObjectStateEntry&gt; object without having to handle the &lt;xref:System.InvalidOperationException&gt; raised by the GetObjectStateEntry method.</source>
+          <target state="translated">使用&lt;xref:System.Data.Objects.ObjectStateManager.TryGetObjectStateEntry%28System.Object%2CSystem.Data.Objects.ObjectStateEntry%40%29&gt;方法以傳回&lt;xref:System.Data.Objects.ObjectStateEntry&gt;物件而不需要處理&lt;xref:System.InvalidOperationException&gt;GetObjectStateEntry 方法所引發。&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Data.Objects.ObjectStateEntry&gt; &lt;/xref:System.Data.Objects.ObjectStateManager.TryGetObjectStateEntry%28System.Object%2CSystem.Data.Objects.ObjectStateEntry%40%29&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to which the retrieved <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> belongs.</source>
+          <target state="translated">&lt;xref:System.Object&gt;要擷取<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>所屬。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The corresponding <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the given &lt;xref:System.Object&gt;.</source>
+          <target state="translated">對應<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>給定&lt;xref:System.Object&gt;。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>No entity for the specified &lt;xref:System.Object&gt; exists in the <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">沒有所指定的實體&lt;xref:System.Object&gt;存在於<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used by the specified object.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，會由指定的物件。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Calling the GetRelationshipManager method is the same as calling the &lt;xref:System.Data.Objects.ObjectStateManager.TryGetRelationshipManager%2A&gt; method, except that this method raises an exception instead of returning <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">呼叫 GetRelationshipManager 方法等同於呼叫&lt;xref:System.Data.Objects.ObjectStateManager.TryGetRelationshipManager%2A&gt;方法，不同之處在於此方法就會引發例外狀況而不是傳回<ph id="ph1">`false`</ph>。&lt;/xref:System.Data.Objects.ObjectStateManager.TryGetRelationshipManager%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Data.Objects.ObjectStateManager.TryGetRelationshipManager%2A&gt; method to avoid handling the &lt;xref:System.InvalidOperationException&gt; that occurs when a &lt;xref:System.Data.Objects.DataClasses.RelationshipManager&gt; cannot be returned for the supplied entity.</source>
+          <target state="translated">呼叫&lt;xref:System.Data.Objects.ObjectStateManager.TryGetRelationshipManager%2A&gt;方法來避免處理&lt;xref:System.InvalidOperationException&gt;發生此情況時&lt;xref:System.Data.Objects.DataClasses.RelationshipManager&gt;無法為提供的實體傳回。&lt;/xref:System.Data.Objects.DataClasses.RelationshipManager&gt; &lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Data.Objects.ObjectStateManager.TryGetRelationshipManager%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The object for which to return the <bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這是要傳回的物件<bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the specified object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定的物件。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>When a <bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> cannot be returned for the specified <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">當<bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>無法傳回所指定<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this state manager.</source>
+          <target state="translated">取得<bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>這個狀態管理員相關聯。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; class is a central programming interface that you can use to interact with the Entity Data Model (EDM) metadata at runtime and in the context of an application.</source>
+          <target state="translated">&lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt;類別是中央程式設計介面可讓您在執行階段，並在應用程式的內容中的實體資料模型 (EDM) 中繼資料進行互動。&lt;/xref:System.Data.Metadata.Edm.MetadataWorkspace&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this <bpt id="p2">&lt;xref href="System.Data.Objects.ObjectStateManager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>與此相關聯<bpt id="p2">&lt;xref href="System.Data.Objects.ObjectStateManager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Occurs when entities are added to or removed from the state manager.</source>
+          <target state="translated">發生於加入或移除狀態管理員中的實體。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Tries to retrieve the corresponding <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the object or relationship with the specified <bpt id="p2">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">嘗試擷取對應<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件或關聯性，以指定<bpt id="p2">&lt;xref href="System.Data.EntityKey"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Use TryGetObjectStateEntry to return an &lt;xref:System.Data.Objects.ObjectStateEntry&gt; without having to handle the &lt;xref:System.InvalidOperationException&gt; raised by the &lt;xref:System.Data.Objects.ObjectStateManager.GetObjectStateEntry%28System.Data.EntityKey%29&gt; method.</source>
+          <target state="translated">傳回使用 TryGetObjectStateEntry&lt;xref:System.Data.Objects.ObjectStateEntry&gt;而不需要處理&lt;xref:System.InvalidOperationException&gt;引發&lt;xref:System.Data.Objects.ObjectStateManager.GetObjectStateEntry%28System.Data.EntityKey%29&gt;方法。&lt;/xref:System.Data.Objects.ObjectStateManager.GetObjectStateEntry%28System.Data.EntityKey%29&gt; &lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Data.Objects.ObjectStateEntry&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The given <bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定<bpt id="p1">&lt;xref href="System.Data.EntityKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the given <bpt id="p2">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> This parameter is passed uninitialized.</source>
+          <target state="translated">這個方法傳回時，包含<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>針對給定<bpt id="p2">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A Boolean value that is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is a corresponding <bpt id="p2">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for the given <bpt id="p3">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">布林值，是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果沒有相對應<bpt id="p2">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>針對給定<bpt id="p3">&lt;xref href="System.Data.EntityKey"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>，否則<bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (<bpt id="p2">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> in Visual Basic) value is provided for <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (<bpt id="p2">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>在 Visual Basic 中) 提供值給<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p3">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Tries to retrieve the corresponding <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the specified &lt;xref:System.Object&gt;.</source>
+          <target state="translated">嘗試擷取對應<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定&lt;xref:System.Object&gt;。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Use the TryGetObjectStateEntry method to return an &lt;xref:System.Data.Objects.ObjectStateEntry&gt; without having to handle the &lt;xref:System.InvalidOperationException&gt; raised by the &lt;xref:System.Data.Objects.ObjectStateManager.GetObjectStateEntry%28System.Object%29&gt; method.</source>
+          <target state="translated">使用 TryGetObjectStateEntry 方法來傳回&lt;xref:System.Data.Objects.ObjectStateEntry&gt;而不需要處理&lt;xref:System.InvalidOperationException&gt;引發&lt;xref:System.Data.Objects.ObjectStateManager.GetObjectStateEntry%28System.Object%29&gt;方法。&lt;/xref:System.Data.Objects.ObjectStateManager.GetObjectStateEntry%28System.Object%29&gt; &lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Data.Objects.ObjectStateEntry&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to which the retrieved <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> belongs.</source>
+          <target state="translated">&lt;xref:System.Object&gt;要擷取<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>所屬。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the <bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the given <bpt id="p2">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> This parameter is passed uninitialized.</source>
+          <target state="translated">這個方法傳回時，包含<bpt id="p1">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>針對給定<bpt id="p2">&lt;xref href="System.Data.EntityKey"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A Boolean value that is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is a corresponding <bpt id="p2">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for the given object; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">布林值，是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果沒有相對應<bpt id="p2">&lt;xref href="System.Data.Objects.ObjectStateEntry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>指定的物件; 否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used by the specified object.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，會由指定的物件。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Objects.ObjectStateManager.GetRelationshipManager%2A&gt; method is used to obtain the &lt;xref:System.Data.Objects.DataClasses.RelationshipManager&gt; for objects that are persistence ignorant.</source>
+          <target state="translated">&lt;xref:System.Data.Objects.ObjectStateManager.GetRelationshipManager%2A&gt;方法用來取得&lt;xref:System.Data.Objects.DataClasses.RelationshipManager&gt;是持續性無知物件。&lt;/xref:System.Data.Objects.DataClasses.RelationshipManager&gt; &lt;/xref:System.Data.Objects.ObjectStateManager.GetRelationshipManager%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When objects implement &lt;xref:System.Data.Objects.DataClasses.IEntityWithRelationships&gt; or inherit from &lt;xref:System.Data.Objects.DataClasses.EntityObject&gt;, the &lt;xref:System.Data.Objects.DataClasses.RelationshipManager&gt; is accessed from the &lt;xref:System.Data.Objects.DataClasses.IEntityWithRelationships.RelationshipManager%2A&gt; property.</source>
+          <target state="translated">當物件實作&lt;xref:System.Data.Objects.DataClasses.IEntityWithRelationships&gt;或繼承自&lt;xref:System.Data.Objects.DataClasses.EntityObject&gt;、&lt;xref:System.Data.Objects.DataClasses.RelationshipManager&gt;存取從&lt;xref:System.Data.Objects.DataClasses.IEntityWithRelationships.RelationshipManager%2A&gt;屬性。&lt;/xref:System.Data.Objects.DataClasses.IEntityWithRelationships.RelationshipManager%2A&gt; &lt;/xref:System.Data.Objects.DataClasses.RelationshipManager&gt; &lt;/xref:System.Data.Objects.DataClasses.EntityObject&gt; &lt;/xref:System.Data.Objects.DataClasses.IEntityWithRelationships&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Objects.DataClasses.RelationshipManager&gt; cannot be returned when the object is in a &lt;xref:System.Data.EntityState&gt; state.</source>
+          <target state="translated">&lt;xref:System.Data.Objects.DataClasses.RelationshipManager&gt;當物件處於無法傳回&lt;xref:System.Data.EntityState&gt;狀態。&lt;/xref:System.Data.EntityState&gt; &lt;/xref:System.Data.Objects.DataClasses.RelationshipManager&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Calling the TryGetRelationshipManager method is the same as calling the &lt;xref:System.Data.Objects.ObjectStateManager.GetRelationshipManager%2A&gt; method, except that this method returns <ph id="ph1">`false`</ph> instead of raising an exception.</source>
+          <target state="translated">呼叫 TryGetRelationshipManager 方法等同於呼叫&lt;xref:System.Data.Objects.ObjectStateManager.GetRelationshipManager%2A&gt;方法，不同之處在於這個方法會傳回<ph id="ph1">`false`</ph>而非引發例外狀況。&lt;/xref:System.Data.Objects.ObjectStateManager.GetRelationshipManager%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The object for which to return the <bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這是要傳回的物件<bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the <bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the <ph id="ph1">`entity`</ph>.</source>
+          <target state="translated">這個方法傳回時，包含<bpt id="p1">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如<ph id="ph1">`entity`</ph>。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance was returned for the supplied <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p3">&lt;/code&gt;</ept>; otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Data.Objects.DataClasses.RelationshipManager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>卻傳回執行個體所提供<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p3">&lt;/code&gt;</ept>，否則為<bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

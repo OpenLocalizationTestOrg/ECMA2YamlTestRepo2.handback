@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a492a8dede305facaa8f65abb90b5e58afe89f43</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.ToolStripRenderer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">20c0ce19aa2d31f4161a1e4764f8c4fefece38b3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fc8e701dcc25bc739dc17fb389b37b501a335872</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Handles the painting functionality for <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Kezeli a kifestési funkciót a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumok.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the ToolStripRenderer class to apply a particular style or theme to a &lt;xref:System.Windows.Forms.ToolStrip&gt;.</source>
+          <target state="translated">A ToolStripRenderer osztály használatával egy adott stílus és téma alkalmazása &lt;xref:System.Windows.Forms.ToolStrip&gt;.&lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rather than custom painting a &lt;xref:System.Windows.Forms.ToolStrip&gt; and the &lt;xref:System.Windows.Forms.ToolStripItem&gt; objects it contains, you set the &lt;xref:System.Windows.Forms.ToolStrip.Renderer%2A?displayProperty=fullName&gt; property to an object that inherits from ToolStripRenderer.</source>
+          <target state="translated">Egyéni kifestési helyett egy &lt;xref:System.Windows.Forms.ToolStrip&gt;és a &lt;xref:System.Windows.Forms.ToolStripItem&gt;benne lévő objektumokat, állítsa be a &lt;xref:System.Windows.Forms.ToolStrip.Renderer%2A?displayProperty=fullName&gt;tulajdonság, amely örökli az ToolStripRenderer objektumra.&lt;/xref:System.Windows.Forms.ToolStrip.Renderer%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.ToolStripItem&gt; &lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The painting specified by the ToolStripRenderer is applied to the &lt;xref:System.Windows.Forms.ToolStrip&gt;, as well as the items it contains.</source>
+          <target state="translated">A megadott a ToolStripRenderer kifestési vonatkozik, az a &lt;xref:System.Windows.Forms.ToolStrip&gt;, valamint a benne található elemek.&lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can do custom painting in &lt;xref:System.Windows.Forms.ToolStrip&gt; controls in several ways.</source>
+          <target state="translated">A teheti meg egyéni kifestési &lt;xref:System.Windows.Forms.ToolStrip&gt;többféleképpen szabályozza.&lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As with other Windows Forms controls, the &lt;xref:System.Windows.Forms.ToolStrip&gt; and &lt;xref:System.Windows.Forms.ToolStripItem&gt; both have overridable <ph id="ph1">`OnPaint`</ph> methods and <ph id="ph2">`Paint`</ph> events.</source>
+          <target state="translated">Csakúgy, mint a többi Windows Forms vezérlő a &lt;xref:System.Windows.Forms.ToolStrip&gt;és &lt;xref:System.Windows.Forms.ToolStripItem&gt;is felülbírálható <ph id="ph1">`OnPaint`</ph> módszerek és <ph id="ph2">`Paint`</ph> események.&lt;/xref:System.Windows.Forms.ToolStripItem&gt; &lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As with regular painting, the coordinate system is relative to the client area of the control; that is, the upper left-hand corner of the control is 0, 0.</source>
+          <target state="translated">A rendszeres kifestési a koordináta-rendszerére lesz a vezérlő; ügyfélterületének viszonyítva Ez azt jelenti, hogy a vezérlő bal felső sarkában értéke 0, 0.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Paint`</ph> event and <ph id="ph2">`OnPaint`</ph> method for a &lt;xref:System.Windows.Forms.ToolStripItem&gt; behave like other control paint events.</source>
+          <target state="translated">A <ph id="ph1">`Paint`</ph> esemény és <ph id="ph2">`OnPaint`</ph> módszer egy &lt;xref:System.Windows.Forms.ToolStripItem&gt;egyéb vezérlési paint eseményeket viselkednek.&lt;/xref:System.Windows.Forms.ToolStripItem&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ToolStripRenderer class has overridable methods for painting the background, item background, item image, item arrow, item text, and border of the &lt;xref:System.Windows.Forms.ToolStrip&gt;.</source>
+          <target state="translated">A ToolStripRenderer osztály van a háttérben, elem hátterének, elem kép, cikk nyílra, elem szövege és a &lt;xref:System.Windows.Forms.ToolStrip&gt;.&lt;/xref:System.Windows.Forms.ToolStrip&gt; szegélye kifestésekor felülbírálható módszerei</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The event arguments for these methods expose several properties such as rectangles, colors, and text formats that you can adjust as desired.</source>
+          <target state="translated">Ezek a módszerek esemény argumentumai például téglalapok színek vagy szöveges formátumokból is be a kívánt módon, hogy több Tulajdonságok mutatása.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To adjust just a few aspects of how an item is painted, you typically override the ToolStripRenderer.</source>
+          <target state="translated">Úgy, hogy hogyan kerül meghívásra elem csak néhány aspektusait, akkor általában bírálja felül a ToolStripRenderer.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are writing a new item and want to control all aspects of the painting, override the <ph id="ph1">`OnPaint`</ph> method.</source>
+          <target state="translated">Ha új elem írása, és a kifestési minden szempontját vezérelhető, bírálja felül a <ph id="ph1">`OnPaint`</ph> metódust.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>From within <ph id="ph1">`OnPaint`</ph>, you can use methods from the ToolStripRenderer.</source>
+          <target state="translated">Belül <ph id="ph1">`OnPaint`</ph>, használhatja a ToolStripRenderer származó metódusokat.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the &lt;xref:System.Windows.Forms.ToolStrip&gt; is double buffered, taking advantage of the &lt;xref:System.Windows.Forms.ControlStyles&gt; setting.</source>
+          <target state="translated">Alapértelmezés szerint a &lt;xref:System.Windows.Forms.ToolStrip&gt;dupla pufferelt, lehetővé teszi a &lt;xref:System.Windows.Forms.ControlStyles&gt;beállítás.&lt;/xref:System.Windows.Forms.ControlStyles&gt; &lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Forms.ToolStripRenderer&gt; is an abstract class, so the constructor is only available to classes derived from it.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.ToolStripRenderer&gt;absztrakt osztály, akkor van, így a konstruktor csak érhető el abból származtatott osztályokat.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Creates a gray-scale copy of a given image.</source>
+          <target state="translated">A megadott lemezkép szürkeárnyalatos másolatát hozza létre.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The image to be copied.</source>
+          <target state="translated">Másolja a lemezképet.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Drawing.Image"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a copy of the given image, but with a gray-scale color matrix.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Drawing.Image"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely egy másolatot a megadott lemezkép, de egy szürkeárnyalatos szín mátrixban.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Draws an arrow on a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Nyíl megrajzolja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawArrow method provides an entry point to the arrow rendering code.</source>
+          <target state="translated">A DrawArrow metódus a nyíl megjelenítési kód belépési pontként szolgál.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw an arrow when overriding the &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt; method, or to force an arrow to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja e nyíl felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy az egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; e nyíl kényszerítése&lt;/xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way an arrow is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderArrow%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a nyíl megjelenítése, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderArrow%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderArrow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripArrowRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains data to draw the arrow.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripArrowRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a nyíl megrajzolásához adatokat tartalmaz.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Draws the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripButton"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Megrajzolja a hátterére egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripButton"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawButtonBackground method provides an entry point to the rendering code for the background of a &lt;xref:System.Windows.Forms.ToolStripButton&gt;.</source>
+          <target state="translated">A DrawButtonBackground módszer lehetővé teszi a megjelenítést kód belépési pont az &lt;xref:System.Windows.Forms.ToolStripButton&gt;.&lt;/xref:System.Windows.Forms.ToolStripButton&gt; a háttér</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw the background of a button when overriding the &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt; method, or to force the background of a button to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja a háttérben gomb megrajzolásához felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy a háttérben rajzolandó egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; gomb kényszerítése&lt;/xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the background is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderButtonBackground%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a háttérben megjelenítése, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderButtonBackground%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderButtonBackground%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains data to draw the button's background.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , hogy a gomb háttér megrajzolásához adatokat tartalmaz.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Draws the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripDropDownButton"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Megrajzolja a hátterére egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripDropDownButton"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawDropDownButtonBackground method provides the entry point to the rendering code for the background of a &lt;xref:System.Windows.Forms.ToolStripDropDownButton&gt;.</source>
+          <target state="translated">DrawDropDownButtonBackground metódus a megjelenítési kódot a belépési pontot biztosít a háttérben &lt;xref:System.Windows.Forms.ToolStripDropDownButton&gt;.&lt;/xref:System.Windows.Forms.ToolStripDropDownButton&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw the background of a drop-down button when overriding the &lt;xref:System.Windows.Forms.ToolStripDropDownButton.OnPaint%2A?displayProperty=fullName&gt; method, or to force the background of a drop-down button to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja a háttérben egy legördülő gomb megrajzolásához felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripDropDownButton.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy az egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; kell rajzolni egy legördülő gomb hátterére kényszerítése&lt;/xref:System.Windows.Forms.ToolStripDropDownButton.OnPaint%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the background is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderDropDownButtonBackground%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a háttérben megjelenítése, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderDropDownButtonBackground%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderDropDownButtonBackground%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the drop-down button's background.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az adatokat a legördítő gomb háttér megrajzolásához.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Draws a move handle on a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Move-leíró megrajzolja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawGrip method provides an entry point to the rendering code for a move handle located on a &lt;xref:System.Windows.Forms.ToolStrip&gt;.</source>
+          <target state="translated">A DrawGrip módszer lehetővé teszi az megjelenítési kódot belépési pont a számára egy &lt;xref:System.Windows.Forms.ToolStrip&gt;.&lt;/xref:System.Windows.Forms.ToolStrip&gt; található move.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method when overriding the &lt;xref:System.Windows.Forms.ToolStrip.OnPaintGrip%2A?displayProperty=fullName&gt; method, or to force a move handle to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja, felülbírálásához a &lt;xref:System.Windows.Forms.ToolStrip.OnPaintGrip%2A?displayProperty=fullName&gt;metódus, vagy az egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; kell rajzolni egy áthelyezési leíró kényszerítése&lt;/xref:System.Windows.Forms.ToolStrip.OnPaintGrip%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way a move handle is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderGrip%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a move-leíró lett megjelenítve, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderGrip%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderGrip%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripGripRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the move handle.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripGripRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az adatokat a move leíró megrajzolásához.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Draws the space around an image on a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Kép körül terület megrajzolja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawImageMargin method provides the entry point to the rendering code for the image.</source>
+          <target state="translated">A DrawImageMargin metódus a megjelenítési kódot a belépési pontot biztosít a kép.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw the image margin when overriding the &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt; method, or to force the image margin to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja a kép margója. megrajzolásához felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy a kép margója rajzolandó egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; kényszerítése&lt;/xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the image margin is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderImageMargin%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a kép margója megjelenítése, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderImageMargin%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderImageMargin%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the space around the image.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az adatokat a hely a kép körül megrajzolásához.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Draws the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Megrajzolja a hátterére egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawItemBackground method provides the entry point to the rendering code for the background of an item.</source>
+          <target state="translated">A DrawItemBackground metódus a belépési pont a megjelenítési kód biztosít elem a háttérben.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw the background of an item when overriding the &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt; method, or to force the background of an item to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja a háttérben elem megrajzolásához felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy a háttérben, az egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; kell rajzolni egy cikk kényszerített&lt;/xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the background of an item is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderItemBackground%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a háttérben elem megjelenítése, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderItemBackground%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderItemBackground%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the background of the item.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az adatokat, az elem hátterének megrajzolásához.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Draws an image on a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the item is in a selected state.</source>
+          <target state="translated">Kép megrajzolja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> azt jelzi, hogy az elem kijelölt állapotban van.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawItemCheck method provides the entry point to the rendering code for an image in a selected state.</source>
+          <target state="translated">A DrawItemCheck metódus a belépési pont a megjelenítési kód biztosít kijelölt állapotban kép.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw a selected image when overriding the &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt; method, or to force a selected image to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja a kiválasztott kép megrajzolásához felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy az egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; kell rajzolni egy kijelölt képet kényszerítése&lt;/xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way a selected image is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderItemCheck%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a kiválasztott kép megjelenítése, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderItemCheck%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderItemCheck%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemImageRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the selected image.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemImageRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az adatokat a kiválasztott kép megrajzolásához.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Draws an image on a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Kép megrajzolja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawItemImage method provides the entry point to the rendering code for an image.</source>
+          <target state="translated">A DrawItemImage metódus a belépési pont a megjelenítési kód biztosít a lemezkép.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw an image when overriding the &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt; method or to force the image to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja a kép megrajzolásához felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;metódust vagy a kép rajzolandó egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; kényszerítése&lt;/xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the image is rendered, override the <ph id="ph1">`OnDrawItem`</ph> method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a kép megjelenítése, bírálja felül a <ph id="ph1">`OnDrawItem`</ph> &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; származtatott osztályban található módszer</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemImageRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the image.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemImageRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az adatokat a kép megrajzolásához.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Draws text on a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Szöveg megrajzolja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawItemText method provides the entry point to the rendering code for the text of a &lt;xref:System.Windows.Forms.ToolStripItem&gt;.</source>
+          <target state="translated">A DrawItemText metódus a belépési pont a megjelenítési kód biztosít &lt;xref:System.Windows.Forms.ToolStripItem&gt;.&lt;/xref:System.Windows.Forms.ToolStripItem&gt; szövege</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw the item text when overriding the &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt; method, or to force the item text to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja az elem szövegének kirajzolási felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy az elem szövege rajzolandó egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; kényszerítése&lt;/xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the item text is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderItemText%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a cikk szöveg, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderItemText%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderItemText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemTextRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the text.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemTextRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely szövegének kirajzolási adatokat tartalmazza.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Draws the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripLabel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Megrajzolja a hátterére egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripLabel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawLabelBackground method provides the entry point to the rendering code for the background of a &lt;xref:System.Windows.Forms.ToolStripLabel&gt;.</source>
+          <target state="translated">DrawLabelBackground metódus a megjelenítési kódot a belépési pontot biztosít a háttérben &lt;xref:System.Windows.Forms.ToolStripLabel&gt;.&lt;/xref:System.Windows.Forms.ToolStripLabel&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw the background of a &lt;xref:System.Windows.Forms.ToolStripLabel&gt; when overriding the &lt;xref:System.Windows.Forms.ToolStripLabel.OnPaint%2A?displayProperty=fullName&gt; method, or to force the background of a &lt;xref:System.Windows.Forms.ToolStripLabel&gt; to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja a háttérben megrajzolásához egy &lt;xref:System.Windows.Forms.ToolStripLabel&gt;felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripLabel.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy egy &lt;xref:System.Windows.Forms.ToolStripLabel&gt;egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; rajzolandó&lt;/xref:System.Windows.Forms.ToolStripLabel&gt; hátterének kényszerítése&lt;/xref:System.Windows.Forms.ToolStripLabel.OnPaint%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.ToolStripLabel&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the background of a &lt;xref:System.Windows.Forms.ToolStripLabel&gt; is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderLabelBackground%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a háttérben, egy &lt;xref:System.Windows.Forms.ToolStripLabel&gt;van megjelenítve, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderLabelBackground%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderLabelBackground%2A&gt; &lt;/xref:System.Windows.Forms.ToolStripLabel&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the background for the label.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az adatokat a címke a háttérben megrajzolásához.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Draws the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripMenuItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Megrajzolja a hátterére egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripMenuItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawMenuItemBackground method provides the entry point to the rendering code for the background of a &lt;xref:System.Windows.Forms.ToolStripMenuItem&gt;.</source>
+          <target state="translated">DrawMenuItemBackground metódus a megjelenítési kódot a belépési pontot biztosít a háttérben &lt;xref:System.Windows.Forms.ToolStripMenuItem&gt;.&lt;/xref:System.Windows.Forms.ToolStripMenuItem&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw the background of a &lt;xref:System.Windows.Forms.ToolStripMenuItem&gt; when overriding the &lt;xref:System.Windows.Forms.ToolStripMenuItem.OnPaint%2A?displayProperty=fullName&gt; method, or to force the background of a &lt;xref:System.Windows.Forms.ToolStripMenuItem&gt; to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja a háttérben megrajzolásához egy &lt;xref:System.Windows.Forms.ToolStripMenuItem&gt;felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripMenuItem.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy egy &lt;xref:System.Windows.Forms.ToolStripMenuItem&gt;egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; rajzolandó&lt;/xref:System.Windows.Forms.ToolStripMenuItem&gt; hátterének kényszerítése&lt;/xref:System.Windows.Forms.ToolStripMenuItem.OnPaint%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.ToolStripMenuItem&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the background for a &lt;xref:System.Windows.Forms.ToolStripMenuItem&gt; is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderMenuItemBackground%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a háttérben a egy &lt;xref:System.Windows.Forms.ToolStripMenuItem&gt;van megjelenítve, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderMenuItemBackground%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderMenuItemBackground%2A&gt; &lt;/xref:System.Windows.Forms.ToolStripMenuItem&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the background for the menu item.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az adatokat megrajzolja a menüelemhez tartozó a háttérben.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Draws the background for an overflow button.</source>
+          <target state="translated">A túlcsordulási gombon hátterének megrajzolja.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawOverflowButtonBackground method provides the entry point to the rendering code for the background of an overflow button.</source>
+          <target state="translated">A DrawOverflowButtonBackground metódus a belépési pont a megjelenítési kód biztosít egy túlcsordulási gombon hátterének.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw the background of an overflow button when overriding the &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt; method, or to force the background for an overflow button to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja a háttérben Túlcsordulás gomb megrajzolásához felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy az egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; kell rajzolni egy túlcsordulási gombon hátterének kényszerítése&lt;/xref:System.Windows.Forms.ToolStripItem.OnPaint%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the background for an overflow button is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderOverflowButtonBackground%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a túlcsordulási gombon hátterének megjelenítése, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderOverflowButtonBackground%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderOverflowButtonBackground%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Draws a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSeparator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Draws a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSeparator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawSeparator method provides the entry point to the rendering code for a &lt;xref:System.Windows.Forms.ToolStripSeparator&gt;.</source>
+          <target state="translated">A DrawSeparator metódus a belépési pont a megjelenítési kód biztosít &lt;xref:System.Windows.Forms.ToolStripSeparator&gt;.&lt;/xref:System.Windows.Forms.ToolStripSeparator&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw the &lt;xref:System.Windows.Forms.ToolStripSeparator&gt; when overriding the &lt;xref:System.Windows.Forms.ToolStrip.OnPaint%2A?displayProperty=fullName&gt; method, or to force a &lt;xref:System.Windows.Forms.ToolStripSeparator&gt; to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert megrajzolásához a &lt;xref:System.Windows.Forms.ToolStripSeparator&gt;felülbírálásához a &lt;xref:System.Windows.Forms.ToolStrip.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy egy &lt;xref:System.Windows.Forms.ToolStripSeparator&gt;egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; rajzolandó&lt;/xref:System.Windows.Forms.ToolStripSeparator&gt; kényszerítése&lt;/xref:System.Windows.Forms.ToolStrip.OnPaint%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.ToolStripSeparator&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the &lt;xref:System.Windows.Forms.ToolStripSeparator&gt; is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderSeparator%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a &lt;xref:System.Windows.Forms.ToolStripSeparator&gt;van megjelenítve, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderSeparator%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderSeparator%2A&gt; &lt;/xref:System.Windows.Forms.ToolStripSeparator&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSeparatorRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripSeparator"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSeparatorRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megrajzolásához adatokat tartalmazza, amely a <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripSeparator"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Draws a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSplitButton"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Draws a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSplitButton"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawSplitButton method provides the entry point to the rendering code for a &lt;xref:System.Windows.Forms.ToolStripSplitButton&gt;.</source>
+          <target state="translated">A DrawSplitButton metódus a belépési pont a megjelenítési kód biztosít &lt;xref:System.Windows.Forms.ToolStripSplitButton&gt;.&lt;/xref:System.Windows.Forms.ToolStripSplitButton&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw a &lt;xref:System.Windows.Forms.ToolStripSplitButton&gt; when overriding the &lt;xref:System.Windows.Forms.ToolStripSplitButton.OnPaint%2A?displayProperty=fullName&gt; method, or to force a &lt;xref:System.Windows.Forms.ToolStripSplitButton&gt; to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert megrajzolásához egy &lt;xref:System.Windows.Forms.ToolStripSplitButton&gt;felülbírálásához a &lt;xref:System.Windows.Forms.ToolStripSplitButton.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy egy &lt;xref:System.Windows.Forms.ToolStripSplitButton&gt;egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; rajzolandó&lt;/xref:System.Windows.Forms.ToolStripSplitButton&gt; kényszerítése&lt;/xref:System.Windows.Forms.ToolStripSplitButton.OnPaint%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.ToolStripSplitButton&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the &lt;xref:System.Windows.Forms.ToolStripSplitButton&gt; is rendered, override the &lt;xref:System.Windows.Forms.ToolStripSystemRenderer.OnRenderSplitButtonBackground%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a &lt;xref:System.Windows.Forms.ToolStripSplitButton&gt;van megjelenítve, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripSystemRenderer.OnRenderSplitButtonBackground%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripSystemRenderer.OnRenderSplitButtonBackground%2A&gt; &lt;/xref:System.Windows.Forms.ToolStripSplitButton&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Draws a sizing grip.</source>
+          <target state="translated">Megrajzolja méretező nyíllal.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Draws the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Megrajzolja a hátterére egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawToolStripBackground method provides the entry point to the rendering code for the background of a &lt;xref:System.Windows.Forms.ToolStrip&gt;.</source>
+          <target state="translated">DrawToolStripBackground metódus a megjelenítési kódot a belépési pontot biztosít a háttérben &lt;xref:System.Windows.Forms.ToolStrip&gt;.&lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw the background of a &lt;xref:System.Windows.Forms.ToolStrip&gt; when overriding the &lt;xref:System.Windows.Forms.ToolStrip.OnPaintBackground%2A?displayProperty=fullName&gt; method, or to force the background of a &lt;xref:System.Windows.Forms.ToolStrip&gt; to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja a háttérben megrajzolásához egy &lt;xref:System.Windows.Forms.ToolStrip&gt;felülbírálásához a &lt;xref:System.Windows.Forms.ToolStrip.OnPaintBackground%2A?displayProperty=fullName&gt;metódus, vagy egy &lt;xref:System.Windows.Forms.ToolStrip&gt;egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; rajzolandó&lt;/xref:System.Windows.Forms.ToolStrip&gt; hátterének kényszerítése&lt;/xref:System.Windows.Forms.ToolStrip.OnPaintBackground%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the background of a &lt;xref:System.Windows.Forms.ToolStrip&gt; is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderToolStripBackground%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a háttérben, egy &lt;xref:System.Windows.Forms.ToolStrip&gt;van megjelenítve, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderToolStripBackground%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderToolStripBackground%2A&gt; &lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the background for the <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hátterére megrajzolásához adatokat tartalmazza, amely a <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Draws the border for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A szegély megrajzolja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DrawToolStripBorder method provides the entry point to the rendering code for the border of a &lt;xref:System.Windows.Forms.ToolStrip&gt;.</source>
+          <target state="translated">A DrawToolStripBorder metódus a megjelenítési kódot a belépési pontot biztosít &lt;xref:System.Windows.Forms.ToolStrip&gt;.&lt;/xref:System.Windows.Forms.ToolStrip&gt; szegélye</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to draw the border of a &lt;xref:System.Windows.Forms.ToolStrip&gt; when overriding the &lt;xref:System.Windows.Forms.ToolStrip.OnPaint%2A?displayProperty=fullName&gt; method, or to force the border of a &lt;xref:System.Windows.Forms.ToolStrip&gt; to be drawn in a custom &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ezt a módszert használja a szegélye megrajzolásához egy &lt;xref:System.Windows.Forms.ToolStrip&gt;felülbírálásához a &lt;xref:System.Windows.Forms.ToolStrip.OnPaint%2A?displayProperty=fullName&gt;metódus, vagy egy &lt;xref:System.Windows.Forms.ToolStrip&gt;egyéni &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; rajzolandó&lt;/xref:System.Windows.Forms.ToolStrip&gt; szegélye kényszerítése&lt;/xref:System.Windows.Forms.ToolStrip.OnPaint%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the way the border of a &lt;xref:System.Windows.Forms.ToolStrip&gt; is rendered, override the &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderToolStripBorder%2A&gt; method in a class derived from &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.</source>
+          <target state="translated">Ha meg szeretné változtatni a szegély a egy &lt;xref:System.Windows.Forms.ToolStrip&gt;van megjelenítve, bírálja felül a &lt;xref:System.Windows.Forms.ToolStripRenderer.OnRenderToolStripBorder%2A&gt;metódus &lt;xref:System.Windows.Forms.ToolStripRenderer&gt;.&lt;/xref:System.Windows.Forms.ToolStripRenderer&gt; -ból származtatott osztályt a&lt;/xref:System.Windows.Forms.ToolStripRenderer.OnRenderToolStripBorder%2A&gt; &lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the data to draw the border for the <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az adatokat a kirajzolása a <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Draws the background of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A háttérben megrajzolja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanelRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanelRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Draws the background of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A háttérben megrajzolja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanelRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanelRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Draws the background of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripStatusLabel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A háttérben megrajzolja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripStatusLabel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, provides for custom initialization of the given <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, biztosít az egyéni inicializálása a megadott <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Initialize method to set properties, such as the &lt;xref:System.Windows.Forms.ToolStrip.BackColor%2A?displayProperty=fullName&gt; or &lt;xref:System.Windows.Forms.ToolStrip.Font%2A?displayProperty=fullName&gt;, when a &lt;xref:System.Windows.Forms.ToolStrip&gt; is rendered.</source>
+          <target state="translated">Az Initialize metódus segítségével állítsa be a tulajdonságokat, mint például a &lt;xref:System.Windows.Forms.ToolStrip.BackColor%2A?displayProperty=fullName&gt;vagy &lt;xref:System.Windows.Forms.ToolStrip.Font%2A?displayProperty=fullName&gt;, amikor egy &lt;xref:System.Windows.Forms.ToolStrip&gt;lett megjelenítve.&lt;/xref:System.Windows.Forms.ToolStrip&gt; &lt;/xref:System.Windows.Forms.ToolStrip.Font%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.ToolStrip.BackColor%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be initialized.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> inicializálása.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Initializes the specified <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A megadott inicializálja <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, provides for custom initialization of the given <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, biztosít az egyéni inicializálása a megadott <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the InitializeItem method to set properties, such as the &lt;xref:System.Windows.Forms.ToolStripItem.BackColor%2A?displayProperty=fullName&gt; or &lt;xref:System.Windows.Forms.ToolStripItem.Font%2A?displayProperty=fullName&gt;, when a &lt;xref:System.Windows.Forms.ToolStripItem&gt; is rendered.</source>
+          <target state="translated">A InitializeItem módszer segítségével állítsa be a tulajdonságokat, mint például a &lt;xref:System.Windows.Forms.ToolStripItem.BackColor%2A?displayProperty=fullName&gt;vagy &lt;xref:System.Windows.Forms.ToolStripItem.Font%2A?displayProperty=fullName&gt;, amikor egy &lt;xref:System.Windows.Forms.ToolStripItem&gt;lett megjelenítve.&lt;/xref:System.Windows.Forms.ToolStripItem&gt; &lt;/xref:System.Windows.Forms.ToolStripItem.Font%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.ToolStripItem.BackColor%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be initialized.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> inicializálása.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Initializes the specified <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A megadott inicializálja <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets or sets the offset multiplier for twice the offset along the x-axis.</source>
+          <target state="translated">Lekérdezi vagy beállítja a eltolási szorzószáma kétszer az x tengely mentén eltolását.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets or sets the offset multiplier for twice the offset along the y axis.</source>
+          <target state="translated">Lekérdezi vagy beállítja a eltolási szorzószáma kétszer az eltolás az y tengelyen.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderArrow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderArrow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderArrow method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderArrow módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripArrowRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripArrowRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderButtonBackground"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderButtonBackground"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderButtonBackground method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderButtonBackground módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderDropDownButtonBackground"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderDropDownButtonBackground"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderDropDownButtonBackground method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderDropDownButtonBackground módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderGrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderGrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderGrip method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderGrip módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripGripRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripGripRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Draws the item background.</source>
+          <target state="translated">Az elem hátterének megrajzolja.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderImageMargin method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderImageMargin módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Raises the &lt;xref:System.Windows.Forms.ToolStripSystemRenderer.OnRenderItemBackground*&gt; event.</source>
+          <target state="translated">Kiváltja a &lt;xref:System.Windows.Forms.ToolStripSystemRenderer.OnRenderItemBackground*&gt;esemény.&lt;/xref:System.Windows.Forms.ToolStripSystemRenderer.OnRenderItemBackground*&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderItemBackground method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderItemBackground módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderItemCheck"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderItemCheck"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderItemCheck method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderItemCheck módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemImageRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemImageRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderItemImage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderItemImage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderItemImage method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderItemImage módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemImageRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemImageRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderItemText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderItemText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderItemText method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderItemText módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemTextRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemTextRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderLabelBackground"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderLabelBackground"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderLabelBackground method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderLabelBackground módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderMenuItemBackground"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderMenuItemBackground"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderMenuItemBackground method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderMenuItemBackground módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderOverflowButtonBackground"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderOverflowButtonBackground"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderOverflowButtonBackground method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderOverflowButtonBackground módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderSeparator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderSeparator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderSeparator method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderSeparator módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSeparatorRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSeparatorRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Raises the OnRenderSplitButtonBackground event.</source>
+          <target state="translated">Kiváltja a OnRenderSplitButtonBackground esemény.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderSplitButtonBackground method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderSplitButtonBackground módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderStatusStripSizingGrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderStatusStripSizingGrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderStatusStripSizingGrip method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderStatusStripSizingGrip módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderToolStripBackground"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderToolStripBackground"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderToolStripBackground method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderToolStripBackground módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderToolStripBorder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderToolStripBorder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderToolStripBorder method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderToolStripBorder módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderToolStripContentPanelBackground"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderToolStripContentPanelBackground"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderToolStripContentPanelBackground method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderToolStripContentPanelBackground módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanelRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanelRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderToolStripPanelBackground"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderToolStripPanelBackground"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderToolStripPanelBackground method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderToolStripPanelBackground módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanelRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanelRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderToolStripStatusLabelBackground"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripRenderer.RenderToolStripStatusLabelBackground"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnRenderToolStripStatusLabelBackground method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnRenderToolStripStatusLabelBackground módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItemRenderEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Occurs when an arrow on a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, amikor egy mutató nyílra a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Occurs when the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripButton"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered</source>
+          <target state="translated">Akkor következik be, amikor a háttérben egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripButton"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Occurs when the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripDropDownButton"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, amikor a háttérben egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripDropDownButton"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Occurs when the move handle for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, ha az áthelyezés kezelni egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Draws the margin between an image and its container.</source>
+          <target state="translated">Megrajzolja a margó kép és a tároló között.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Occurs when the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, amikor a háttérben egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Occurs when the image for a selected <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, ha a kiválasztott kép <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Occurs when the image for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, amikor a kép egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Occurs when the text for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, amikor az a szöveg egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>Occurs when the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripLabel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, amikor a háttérben egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripLabel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Occurs when the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripMenuItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, amikor a háttérben egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripMenuItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Occurs when the background for an overflow button is rendered.</source>
+          <target state="translated">A túlcsordulási gombon hátterének megjelenítése előtt következik be.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>Occurs when a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSeparator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, amikor egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSeparator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>Occurs when the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSplitButton"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, amikor a háttérben egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripSplitButton"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>Occurs when the display style changes.</source>
+          <target state="translated">A megjelenítési stílus megváltozásakor következik be.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>Occurs when the background for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, amikor a háttérben egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Occurs when the border for a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is rendered.</source>
+          <target state="translated">Akkor következik be, amikor a szegély egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStrip"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megjelenítése.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>Draws the background of a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Megrajzolja a hátterére egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripContentPanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Draws the background of a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Megrajzolja a hátterére egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripPanel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>Draws the background of a <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripStatusLabel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Megrajzolja a hátterére egy <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripStatusLabel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>események<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>Applies the F:System.Windows.Forms.ToolStripRenderer.Offset2X and F:System.Windows.Forms.ToolStripRenderer.Offset2Y specified to scaling the arrow icon, if scaling is required per the DPI settings of the computer.</source>
+          <target state="translated">A F:System.Windows.Forms.ToolStripRenderer.Offset2X és meghatározott skálázás nyíl ikonra, ha a skálázás szükséges a DPI-beállítások a számítógép F:System.Windows.Forms.ToolStripRenderer.Offset2Y vonatkozik.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
