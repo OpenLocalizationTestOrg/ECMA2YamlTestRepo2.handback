@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e674a08da3b960e30128d1630787f553764af671</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.OracleClient.OracleBFile.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">301ec1c3352d0b944d3b69cf7b8a9622c2751424</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a6357e2b92e69ae6219d65418d496dd74cc4a2c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a managed OracleBFile object designed to work with the Oracle <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data type.</source>
+          <target state="translated">Hiermee geeft u een beheerd OracleBFile-object dat is ontworpen voor gebruik met de Oracle <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevenstype.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Deze klasse kan niet worden overgenomen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Oracle <ph id="ph1">`BFILE`</ph> data type is an Oracle <ph id="ph2">`LOB`</ph> data type that contains a reference to binary data with a maximum size of 4 gigabytes.</source>
+          <target state="translated">De Oracle <ph id="ph1">`BFILE`</ph> gegevenstype is een Oracle <ph id="ph2">`LOB`</ph> gegevenstype met een verwijzing naar binaire gegevens met een maximale grootte van 4 GB.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An Oracle <ph id="ph1">`BFILE`</ph> differs from other Oracle <ph id="ph2">`LOB`</ph> data types in that its data is stored in a physical file in the operating system instead of on the server.</source>
+          <target state="translated">Een Oracle <ph id="ph1">`BFILE`</ph> verschilt van andere Oracle <ph id="ph2">`LOB`</ph> gegevenstypen in dat de gegevens worden opgeslagen in een fysiek bestand in het besturingssysteem in plaats van op de server.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the <ph id="ph1">`BFILE`</ph> data type provides read-only access to data.</source>
+          <target state="translated">Houd er rekening mee dat de <ph id="ph1">`BFILE`</ph> gegevenstype biedt alleen-lezen toegang tot gegevens.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, write-oriented methods inherited from the &lt;xref:System.IO.Stream&gt; class are not supported.</source>
+          <target state="translated">Daarom schrijven gerichte methoden overgenomen van de &lt;xref:System.IO.Stream&gt;klasse worden niet ondersteund.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other characteristics of a <ph id="ph1">`BFILE`</ph> data type that distinguish it from a <ph id="ph2">`LOB`</ph> data type are that it:      -   Contains unstructured data.</source>
+          <target state="translated">Andere kenmerken van een <ph id="ph1">`BFILE`</ph> gegevenstype dat onderscheiden van een <ph id="ph2">`LOB`</ph> gegevenstype dat deze zijn:-ongestructureerde gegevens bevat.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Supports server-side chunking.</source>
+          <target state="translated">-Serverzijde verdeling in segmenten ondersteunt.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Uses reference copy semantics.</source>
+          <target state="translated">-Gebruik verwijzen naar semantiek kopiëren.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you perform a copy operation on a <ph id="ph1">`BFILE`</ph>, only the <ph id="ph2">`BFILE`</ph> locator (which is a reference to the file) is copied.</source>
+          <target state="translated">Bijvoorbeeld, als u een kopieerbewerking uitvoeren op een <ph id="ph1">`BFILE`</ph>, alleen de <ph id="ph2">`BFILE`</ph> locator (dit is een verwijzing naar het bestand) wordt gekopieerd.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data in the file is not copied.</source>
+          <target state="translated">De gegevens in het bestand is niet gekopieerd.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`BFILE`</ph> data type should be used for referencing <ph id="ph2">`LOB`</ph>s that are large in size, and therefore, not practical to store in the database.</source>
+          <target state="translated">De <ph id="ph1">`BFILE`</ph> gegevenstype moet worden gebruikt voor het verwijzen naar <ph id="ph2">`LOB`</ph>s die groot, en daarom niet praktisch is om op te slaan in de database.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is client, server, and communication overhead for using a <ph id="ph1">`BFILE`</ph> data type compared to the <ph id="ph2">`LOB`</ph> data type.</source>
+          <target state="translated">De overhead voor het gebruik van client en server-communicatie wordt een <ph id="ph1">`BFILE`</ph> gegevenstype vergeleken met de <ph id="ph2">`LOB`</ph> gegevenstype.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is more efficient to access a <ph id="ph1">`BFILE`</ph> if you only need to obtain a small amount of data.</source>
+          <target state="translated">Het is efficiënter voor toegang tot een <ph id="ph1">`BFILE`</ph> als u alleen moet een kleine hoeveelheid gegevens te verkrijgen.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is more efficient to access database-resident <ph id="ph1">`LOB`</ph>s if you need to obtain the entire object.</source>
+          <target state="translated">Het is efficiënter voor toegang tot database residente <ph id="ph1">`LOB`</ph>s als u nodig hebt om het gehele object te verkrijgen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each non-NULL OracleBFile object is associated with two entities that define the location of the underlying physical file:      -   An Oracle DIRECTORY object, which is a database alias for a directory in the file system, and      -   The file name of the underlying physical file, which is located in the directory associated with the DIRECTORY object.</source>
+          <target state="translated">Elk niet - NULL OracleBFile-object is gekoppeld aan twee entiteiten die de locatie van het onderliggende fysieke bestand definiëren:-een Oracle-DIRECTORY-object is een database-alias voor een map in het bestandssysteem en -de bestandsnaam van het onderliggende fysieke bestand, dat in de map die is gekoppeld aan de DIRECTORY-object bevindt zich.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After a <ph id="ph1">`BFILE`</ph> is created, you can retrieve its locator in the form of an OracleBFile object using the &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt; or &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt; methods.</source>
+          <target state="translated">Na een <ph id="ph1">`BFILE`</ph> is gemaakt, vindt u de locator in de vorm van een OracleBFile object met behulp van de &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt;of &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt;methoden.&lt;/xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt; &lt;/xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To obtain an OracleBFile object, call the &lt;xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt; method.</source>
+          <target state="translated">Aanroepen voor een object OracleBFile de &lt;xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt;methode.&lt;/xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The physical file that an OracleBFile object is associated with does not need to exist until you attempt to access it.</source>
+          <target state="translated">Het fysieke bestand dat een OracleBFile-object is gekoppeld aan hoeft niet bestaan totdat u probeert om deze te openen.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application can bind an OracleBFile to a nonexistent file, create the physical file in the expected location, and then call &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;.</source>
+          <target state="translated">Een toepassing een OracleBFile binden aan een niet-bestaand bestand, het fysieke bestand maken op de verwachte locatie en vervolgens aanroepen &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;.&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to access a closed OracleBFile using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods reopens an OracleBFile stream automatically.</source>
+          <target state="translated">Elke poging om toegang te krijgen tot een gesloten OracleBFile met de &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;of &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;methoden opnieuw een stroom OracleBFile automatisch geopend.&lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following C# example demonstrates how you can create a <ph id="ph1">`BFILE`</ph> in an Oracle table, and then retrieve it in the form of an OracleBFile object.</source>
+          <target state="translated">De volgende C#-voorbeeld laat zien hoe u kunt maken een <ph id="ph1">`BFILE`</ph> in een Oracle tabel en vervolgens in de vorm van een object OracleBFile opgehaald.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The example demonstrates the use of the &lt;xref:System.Data.OracleClient.OracleDataReader&gt; object and the OracleBFile&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; and &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; methods.</source>
+          <target state="translated">Het voorbeeld ziet u het gebruik van de &lt;xref:System.Data.OracleClient.OracleDataReader&gt;object en de OracleBFile&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; en &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;methoden.&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>DataWorks OracleClient.BFile#1<ept id="p2">](~/add/codesnippet/csharp/t-system.data.oracleclie_3_1.cs)</ept><ept id="p1">]</ept>       For more information about creating and using an Oracle <ph id="ph1">`BFILE`</ph>, see the appropriate topic in your Oracle documentation.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>DataWorks OracleClient.BFile#1<ept id="p2">](~/add/codesnippet/csharp/t-system.data.oracleclie_3_1.cs)</ept> <ept id="p1">]</ept> voor meer informatie over het maken en gebruiken van een Oracle <ph id="ph1">`BFILE`</ph>, Zie de betreffende onderwerpen in de Oracle-documentatie.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`BeginWrite`</ph>, <ph id="ph3">`EndWrite`</ph>, and <ph id="ph4">`WriteByte`</ph> methods, which are inherited from the <ph id="ph5">`System.IO.Stream`</ph> class, are not supported because the <ph id="ph6">`BFILE`</ph> data type is read-only.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; De <ph id="ph2">`BeginWrite`</ph>, <ph id="ph3">`EndWrite`</ph>, en <ph id="ph4">`WriteByte`</ph> methoden die zijn overgenomen van de <ph id="ph5">`System.IO.Stream`</ph> klasse, worden niet ondersteund omdat de <ph id="ph6">`BFILE`</ph> gegevenstype is alleen-lezen.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream can be read.</source>
+          <target state="translated">Haalt een waarde die aangeeft of de <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> stroom kan worden gelezen.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed or disposed; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als een <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> is gesloten of verwijderd, anders <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether forward-seek and backward-seek operations can be performed.</source>
+          <target state="translated">Haalt een waarde die aangeeft of forward zoeken en achterwaartse-zoekbewerkingen kunnen worden uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed or disposed; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als een <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> is gesloten of verwijderd, anders <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the object supports writing.</source>
+          <target state="translated">Haalt een waarde die aangeeft of het object schrijven ondersteunt.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Always returns <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> because the Oracle <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data type is read-only.</source>
+          <target state="translated">Retourneert altijd <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> omdat de Oracle <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gegevenstype is alleen-lezen.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Creates a copy of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the same physical file as the original.</source>
+          <target state="translated">Maakt een kopie van dit <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object dat is gekoppeld aan de dezelfde fysiek bestand als het origineel.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The properties of the new &lt;xref:System.Data.OracleClient.OracleBFile&gt; object initially have the same values as those of the original object.</source>
+          <target state="translated">De eigenschappen van de nieuwe &lt;xref:System.Data.OracleClient.OracleBFile&gt;object in eerste instantie hebben dezelfde waarden als die van het oorspronkelijke object.&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, after the Clone is complete, each &lt;xref:System.Data.OracleClient.OracleBFile&gt; object is independent from the other.</source>
+          <target state="translated">Echter, nadat het klonen voltooid, elke is &lt;xref:System.Data.OracleClient.OracleBFile&gt;object is niet afhankelijk van de andere.&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, changing the value of the &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt; property on the original &lt;xref:System.Data.OracleClient.OracleBFile&gt; does not change the value of &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt; on the copy.</source>
+          <target state="translated">Als u bijvoorbeeld de waarde van de &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;eigenschap op de oorspronkelijke &lt;xref:System.Data.OracleClient.OracleBFile&gt;verandert niet de waarde van &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;op de kopie.&lt;/xref:System.Data.OracleClient.OracleBFile.Position%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the same physical file as the original <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een nieuwe <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object gekoppeld aan hetzelfde fysieke bestand als de oorspronkelijke <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used by this instance of the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Haalt de <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt door dit exemplaar van de <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The connection to a data source.</source>
+          <target state="translated">De verbinding met een gegevensbron.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The default is a null value.</source>
+          <target state="translated">De standaardwaarde is een null-waarde.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Copies the entire contents of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning of a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Kopieert de volledige inhoud van dit <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> aan het begin van een bestemming <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">De onderliggende gegevenstypen van de bron &lt;xref:System.Data.OracleClient.OracleBFile&gt;en de bestemming &lt;xref:System.Data.OracleClient.OracleLob&gt;moet compatibel zijn.&lt;/xref:System.Data.OracleClient.OracleLob&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">Bijvoorbeeld, u binaire gegevens kan niet kopiëren naar een bestemming &lt;xref:System.Data.OracleClient.OracleLob&gt;die een character-gegevenstype heeft.&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the CopyTo operation to execute correctly.</source>
+          <target state="translated">U moet schrijftoegang tot de bestemming &lt;xref:System.Data.OracleClient.OracleLob&gt;voor de bewerking CopyTo correct uitgevoerd.&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></source>
+          <target state="translated">De bestemming<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">Het aantal bytes dat wordt gekopieerd.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">De bestemming <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> een verwijzing is null-object.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Het doel is een null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">- of - de verbinding met waarvoor deze <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is gekoppeld is gesloten.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object is gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Copies the entire contents of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> at the specified offset.</source>
+          <target state="translated">Kopieert de volledige inhoud van dit <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> naar een bestemming <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> bij de opgegeven offset.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">De onderliggende gegevenstypen van de bron &lt;xref:System.Data.OracleClient.OracleBFile&gt;en de bestemming &lt;xref:System.Data.OracleClient.OracleLob&gt;moet compatibel zijn.&lt;/xref:System.Data.OracleClient.OracleLob&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">Bijvoorbeeld, u binaire gegevens kan niet kopiëren naar een bestemming &lt;xref:System.Data.OracleClient.OracleLob&gt;die een character-gegevenstype heeft.&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; operation to execute correctly.</source>
+          <target state="translated">U moet schrijftoegang tot de bestemming &lt;xref:System.Data.OracleClient.OracleLob&gt;voor de &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt;bewerking correct uitgevoerd.&lt;/xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; &lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De bestemming <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The offset to which to copy.</source>
+          <target state="translated">De offset waarnaar u wilt kopiëren.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">Het aantal bytes dat wordt gekopieerd.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">De bestemming <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> een verwijzing is null-object.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Het doel is een null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">- of - de verbinding met waarvoor deze <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is gekoppeld is gesloten.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object is gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Copies from this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> with the specified amount of data, the source offset, and the destination offset.</source>
+          <target state="translated">Exemplaren van deze <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> naar een bestemming <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> met de opgegeven hoeveelheid gegevens, de verschuiving van de bron en de verschuiving van de bestemming.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">De onderliggende gegevenstypen van de bron &lt;xref:System.Data.OracleClient.OracleBFile&gt;en de bestemming &lt;xref:System.Data.OracleClient.OracleLob&gt;moet compatibel zijn.&lt;/xref:System.Data.OracleClient.OracleLob&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">Bijvoorbeeld, u binaire gegevens kan niet kopiëren naar een bestemming &lt;xref:System.Data.OracleClient.OracleLob&gt;die een character-gegevenstype heeft.&lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; operation to execute correctly.</source>
+          <target state="translated">U moet schrijftoegang tot de bestemming &lt;xref:System.Data.OracleClient.OracleLob&gt;voor de &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt;bewerking correct uitgevoerd.&lt;/xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; &lt;/xref:System.Data.OracleClient.OracleLob&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The offset from which to copy.</source>
+          <target state="translated">De offset waaruit u wilt kopiëren.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De bestemming <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The offset to which to copy.</source>
+          <target state="translated">De offset waarnaar u wilt kopiëren.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The quantity of data, in bytes, to copy.</source>
+          <target state="translated">De hoeveelheid gegevens, in bytes, te kopiëren.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">Het aantal bytes dat wordt gekopieerd.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The value of the amount parameter is less than zero or greater than 4 gigabytes.</source>
+          <target state="translated">De waarde van de parameter bedrag is kleiner dan nul of groter zijn dan 4 GB.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">De bestemming <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> een verwijzing is null-object.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Het doel is een null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">- of - de verbinding met waarvoor deze <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is gekoppeld is gesloten.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object is gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets the name of the DIRECTORY object, with which an <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">Hiermee wordt de naam van de DIRECTORY-object waarmee een <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object is gekoppeld.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each non-NULL &lt;xref:System.Data.OracleClient.OracleBFile&gt; object is associated with two entities that define the location of underlying physical file:      -   An Oracle DIRECTORY object, which is a database alias for a directory in the file system, and      -   The file name of the underlying physical file, which is located in the directory associated with the DIRECTORY object.</source>
+          <target state="translated">Elke niet-NULL &lt;xref:System.Data.OracleClient.OracleBFile&gt;object is gekoppeld aan twee entiteiten die de locatie van de onderliggende fysieke bestand definiëren:-een Oracle-DIRECTORY-object is een database-alias voor een map in het bestandssysteem en -de bestandsnaam van het onderliggende fysieke bestand, dat in de map die is gekoppeld aan de DIRECTORY-object bevindt zich.&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DirectoryName property returns the name of the DIRECTORY object from the Oracle database.</source>
+          <target state="translated">De eigenschap DirectoryName retourneert de naam van het DIRECTORY-object van de Oracle-database.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about creating and using an Oracle <ph id="ph1">`BFILE`</ph>, see the appropriate topic in your Oracle documentation.</source>
+          <target state="translated">Voor meer informatie over het maken en gebruiken van een Oracle <ph id="ph1">`BFILE`</ph>, Zie de betreffende onderwerpen in de Oracle-documentatie.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The name of the DIRECTORY object.</source>
+          <target state="translated">De naam van het DIRECTORY-object.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Attempted to call <bpt id="p1">&lt;xref uid="langword_csharp_DirectoryName" name="DirectoryName" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on a closed or disposed <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Er is geprobeerd om aan te roepen <bpt id="p1">&lt;xref uid="langword_csharp_DirectoryName" name="DirectoryName" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> op een gesloten of verwijderd <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether a physical file containing <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data exists in the operating system.</source>
+          <target state="translated">Haalt een waarde die aangeeft of een fysieke bestand met <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevens aanwezig in het besturingssysteem.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a physical file containing <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data exists; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als een fysieke bestand met <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gegevens bestaat; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object is gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The connection with which a <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">De verbinding waarmee een <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is gekoppeld is gesloten.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets the name of the <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> without the path.</source>
+          <target state="translated">Hiermee wordt de naam van de <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zonder het pad.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For &lt;xref:System.Data.OracleClient.OracleBFile.Null&gt;, an empty string is returned.</source>
+          <target state="translated">Voor &lt;xref:System.Data.OracleClient.OracleBFile.Null&gt;, een lege tekenreeks geretourneerd.&lt;/xref:System.Data.OracleClient.OracleBFile.Null&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The name of the BFILE.</source>
+          <target state="translated">De naam van de BBESTAND.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object is gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Momenteel niet ondersteund.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">Hiermee wordt een waarde die aangeeft of de <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is een <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> stroom.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is a <bpt id="p3">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> stream; otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is a <bpt id="p3">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> stream; otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets a value that returns the length in bytes of the physical file with which the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">Hiermee wordt een waarde die de lengte in bytes van het fysieke bestand waarmee retourneert de <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object is gekoppeld.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A long value representing the length of the physical file in bytes.</source>
+          <target state="translated">Een lange waarde op voor de lengte van het fysieke bestand in bytes.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">Methoden zijn aangeroepen nadat de stroom is gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Represents a null <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is not bound to a physical file.</source>
+          <target state="translated">Hiermee geeft u een null <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -object dat niet is gebonden aan een fysiek bestand.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Null can be useful when you want to perform a comparison operation on an &lt;xref:System.Data.OracleClient.OracleBFile&gt; to determine nullability.</source>
+          <target state="translated">Null kan nuttig zijn wanneer u een bewerking voor tekenreeksvergelijking uitvoeren wilt op een &lt;xref:System.Data.OracleClient.OracleBFile&gt;om te bepalen van null-waarden.&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to perform a read operation on a Null object succeeds, but does not return any data.</source>
+          <target state="translated">Elke poging om uit te voeren een leesbewerking op een Null-object is geslaagd, maar geen gegevens geretourneerd.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to perform a write operation on a Null object generates an exception.</source>
+          <target state="translated">Elke poging om uit te voeren een schrijfbewerking voor een Null-object wordt een uitzondering gegenereerd.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Selecting a <ph id="ph1">`BFILE`</ph> column that contains a null value returns Null.</source>
+          <target state="translated">Als u een <ph id="ph1">`BFILE`</ph> kolom met een null-waarde retourneert Null.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Gets the current read position in the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">De huidige positie in lezen opgehaald de <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> stroom.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Seeking to any location beyond the length of the stream is not supported.</source>
+          <target state="translated">Zoeken naar andere locaties dan de lengte van de stroom wordt niet ondersteund.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Position`</ph> property does not keep track of the number of bytes from the stream that have been consumed, skipped, or both.</source>
+          <target state="translated">De <ph id="ph1">`Position`</ph> eigenschap komt niet bijhouden van het aantal bytes uit de stroom die is verbruikt, overgeslagen, of beide.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The current position within the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">De huidige positie binnen de <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> stroom.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Attempted to set a position with a negative value or greater than the length of the stream.</source>
+          <target state="translated">Er is geprobeerd om een positie met een negatieve waarde of groter is dan de lengte van de stroom te stellen.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">Methoden zijn aangeroepen nadat de stroom is gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Reads a sequence of bytes from the current <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream and advances the position within the stream by the number of bytes read.</source>
+          <target state="translated">Een reeks bytes leest uit de huidige <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> stream en ontwikkelingen de positie binnen de stroom door het aantal bytes gelezen.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Read method read a maximum of <ph id="ph1">`count`</ph> bytes from the current stream and store them in <ph id="ph2">`buffer`</ph> beginning at <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">De methode Read lezen maximaal <ph id="ph1">`count`</ph> bytes uit de huidige stream en op te slaan in <ph id="ph2">`buffer`</ph> beginnen bij <ph id="ph3">`offset`</ph>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current position within the stream is advanced by the number of bytes read; however, if an exception occurs, the current position within the stream remains unchanged.</source>
+          <target state="translated">De huidige positie in de stroom is geavanceerde door het aantal gelezen bytes. echter, als een uitzondering optreedt, de huidige positie in de stroom blijft ongewijzigd.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read returns the number of bytes read.</source>
+          <target state="translated">Lees retourneert het aantal bytes dat is gelezen.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value is zero only if the position is currently at the end of the stream.</source>
+          <target state="translated">De geretourneerde waarde gelijk is aan nul alleen als de positie momenteel aan het einde van de stroom is.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read will block until at least one byte of data can be read, in the event that no data is available.</source>
+          <target state="translated">Lezen wordt geblokkeerd totdat ten minste één byte aan gegevens kan worden gelezen in het geval dat gegevens niet beschikbaar.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read returns 0 only when the end of the file has been reached.</source>
+          <target state="translated">Alleen-lezen retourneert 0 wanneer het einde van het bestand is bereikt.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read is free to return fewer bytes than requested even if the end of the stream has not been reached.</source>
+          <target state="translated">Gelezen is gratis minder bytes dan aangevraagde retourneren, zelfs als het einde van de stroom niet is bereikt.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to access a closed &lt;xref:System.Data.OracleClient.OracleBFile&gt; using the Read or &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods reopens an &lt;xref:System.Data.OracleClient.OracleBFile&gt; stream automatically.</source>
+          <target state="translated">Elke poging om toegang te krijgen tot een gesloten &lt;xref:System.Data.OracleClient.OracleBFile&gt;met het lezen of &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;methoden opent opnieuw een &lt;xref:System.Data.OracleClient.OracleBFile&gt;automatisch stream.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the Read and &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">De volgende C#-voorbeeld wordt ervan uitgegaan dat dit schema in een tabel Oracle: <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph> het voorbeeld worden de lees en &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;methoden gebruiken om een &lt;xref:System.Data.OracleClient.OracleBFile&gt;object.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An array of bytes.</source>
+          <target state="translated">Een matrix met bytes.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>When this method returns, the buffer contains the specified byte array with the values between <ph id="ph1">`offset`</ph> and (<ph id="ph2">`offset`</ph><ph id="ph3"> + </ph><ph id="ph4">`count`</ph>) replaced by the bytes read from the current source.</source>
+          <target state="translated">Wanneer deze methode retourneert, de buffer bevat de opgegeven byte-matrix met de waarden tussen <ph id="ph1">`offset`</ph> en (<ph id="ph2">`offset`</ph><ph id="ph3"> + </ph><ph id="ph4">`count`</ph>) vervangen door het aantal bytes lezen uit de huidige bron.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The zero-based byte offset in <ph id="ph1">`buffer`</ph> at which to begin storing the data read from the current stream.</source>
+          <target state="translated">De op nul gebaseerde byte-offset in <ph id="ph1">`buffer`</ph> waarop u wilt beginnen met opslaan van de gegevens uit de huidige stroom lezen.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to be read from the current stream.</source>
+          <target state="translated">Het maximum aantal bytes dat moet worden gelezen uit de huidige stroom.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The total number of bytes read into the buffer.</source>
+          <target state="translated">Het totale aantal bytes in de buffer gelezen.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This may be less than the number of bytes requested if that many bytes are not currently available, or zero if the end of the file has been reached.</source>
+          <target state="translated">Dit kan zijn dat kleiner is dan het aantal bytes aangevraagd als dat veel bytes momenteel niet beschikbaar zijn, of nul als het einde van het bestand is bereikt.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The sum of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">count</ph><ept id="p2">&lt;/code&gt;</ept> is larger than the buffer length.</source>
+          <target state="translated">De som van <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept> en <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">count</ph> <ept id="p2">&lt;/code&gt;</ept> groter is dan de bufferlengte.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> is negative.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>of <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> negatief is.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The connection with which a <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">De verbinding waarmee een <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is gekoppeld is gesloten.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An I/O error occurred.</source>
+          <target state="translated">Er is een i/o-fout opgetreden.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">Methoden zijn aangeroepen nadat de stroom is gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Sets the position on the current <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">Hiermee stelt u de positie op de huidige <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> stroom.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`offset`</ph> is negative, the new position is required to precede the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">Als <ph id="ph1">`offset`</ph> is negatief, de nieuwe positie moet worden voorafgegaan door de positie die is opgegeven door <ph id="ph2">`origin`</ph> door het aantal bytes dat is opgegeven door <ph id="ph3">`offset`</ph>.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`offset`</ph> is zero, the new position is required to be the position specified by <ph id="ph2">`origin`</ph>.</source>
+          <target state="translated">Als <ph id="ph1">`offset`</ph> gelijk is aan nul, de nieuwe positie is vereist voor de positie die is opgegeven door <ph id="ph2">`origin`</ph>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`offset`</ph> is positive, the new position is required to follow the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">Als <ph id="ph1">`offset`</ph> positief is, de nieuwe positie is vereist voor het volgen van de positie die is opgegeven door <ph id="ph2">`origin`</ph> door het aantal bytes dat is opgegeven door <ph id="ph3">`offset`</ph>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Seeking to any location beyond the length of the stream is not supported.</source>
+          <target state="translated">Zoeken naar andere locaties dan de lengte van de stroom wordt niet ondersteund.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to access a closed &lt;xref:System.Data.OracleClient.OracleBFile&gt; using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; or Seek methods reopens an &lt;xref:System.Data.OracleClient.OracleBFile&gt; stream automatically.</source>
+          <target state="translated">Elke poging om toegang te krijgen tot een gesloten &lt;xref:System.Data.OracleClient.OracleBFile&gt;met behulp van de &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;of methoden opent opnieuw proberen een &lt;xref:System.Data.OracleClient.OracleBFile&gt;automatisch stream.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; and Seek methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">De volgende C#-voorbeeld wordt ervan uitgegaan dat dit schema in een tabel Oracle: <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph> het voorbeeld worden de &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;en zoekmethoden voor toegang tot een &lt;xref:System.Data.OracleClient.OracleBFile&gt;object.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A byte offset relative to origin.</source>
+          <target state="translated">Een byte-offset ten opzichte van oorsprong.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is negative, the new position will precede the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">Als <ph id="ph1">`offset`</ph> is negatief, de nieuwe positie voorafgaat aan de positie die is opgegeven door <ph id="ph2">`origin`</ph> door het aantal bytes dat is opgegeven door <ph id="ph3">`offset`</ph>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is zero, the new position will be the position specified by <ph id="ph2">`origin`</ph>.</source>
+          <target state="translated">Als <ph id="ph1">`offset`</ph> gelijk is aan nul, de nieuwe positie is de positie die is opgegeven door <ph id="ph2">`origin`</ph>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is positive, the new position will follow the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">Als <ph id="ph1">`offset`</ph> positief is, wordt de positie die is opgegeven door volgt u de nieuwe positie <ph id="ph2">`origin`</ph> door het aantal bytes dat is opgegeven door <ph id="ph3">`offset`</ph>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref uid="langword_csharp_System.IO.SeekOrigin" name="System.IO.SeekOrigin" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the reference point used to obtain the new position.</source>
+          <target state="translated">Een waarde van het type <bpt id="p1">&lt;xref uid="langword_csharp_System.IO.SeekOrigin" name="System.IO.SeekOrigin" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die wijzen op het referentiepunt gebruikt voor het verkrijgen van de nieuwe positie.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The new position within the current stream.</source>
+          <target state="translated">De nieuwe positie binnen de huidige stroom.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Attempted to set a position with a negative value or greater than the length of the stream.</source>
+          <target state="translated">Er is geprobeerd om een positie met een negatieve waarde of groter is dan de lengte van de stroom te stellen.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">Methoden zijn aangeroepen nadat de stroom is gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Binds the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to a different file in the operating system.</source>
+          <target state="translated">Koppelt de <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object naar een ander bestand in het besturingssysteem.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetFileName operation must be within a transaction to succeed.</source>
+          <target state="translated">De bewerking SetFileName moet binnen een transactie te kunnen uitvoeren.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Simply calling SetFileName on a <ph id="ph1">`BFILE`</ph> associates the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object with a different file, but does not update the Oracle table.</source>
+          <target state="translated">Aanroepen van SetFileName gewoon op een <ph id="ph1">`BFILE`</ph> koppelt de &lt;xref:System.Data.OracleClient.OracleBFile&gt;object met een ander bestand, maar worden niet bijgewerkt in de tabel Oracle.&lt;/xref:System.Data.OracleClient.OracleBFile&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To update the Oracle table after calling SetFileName, you must call the <ph id="ph1">`Update`</ph> method of the &lt;xref:System.Data.OracleClient.OracleDataAdapter&gt; and then commit the transaction.</source>
+          <target state="translated">Voor het bijwerken van de Oracle-tabel na het aanroepen van SetFileName, belt u het <ph id="ph1">`Update`</ph> methode van de &lt;xref:System.Data.OracleClient.OracleDataAdapter&gt;en voer vervolgens de transactie.&lt;/xref:System.Data.OracleClient.OracleDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once you retrieve the &lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt; property, they are cached in the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object and are unaffected by any cloned &lt;xref:System.Data.OracleClient.OracleBFile&gt; objects' calls to SetFileName, or by any changes to the <ph id="ph1">`BFILE`</ph> in the database.</source>
+          <target state="translated">Zodra u ophalen de &lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;of &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;eigenschap, worden deze opgeslagen in de &lt;xref:System.Data.OracleClient.OracleBFile&gt;object en worden hierdoor niet beïnvloed door een gekloond &lt;xref:System.Data.OracleClient.OracleBFile&gt;objecten aanroepen naar SetFileName of door wijzigingen in de <ph id="ph1">`BFILE`</ph> in de database.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In other words, they might not represent the actual values of the <ph id="ph1">`BFILE`</ph> object in the server.</source>
+          <target state="translated">Met andere woorden: ze mogelijk niet weer de werkelijke waarden van de <ph id="ph1">`BFILE`</ph> -object in de server.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Furthermore, retrieving either property (&lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;) causes both property values to be retrieved from the server and cached in the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">Bovendien ophalen van de eigenschap (&lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt; of &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;) zorgt ervoor dat beide eigenschapswaarden worden opgehaald van de server en in het cachegeheugen van de &lt;xref:System.Data.OracleClient.OracleBFile&gt;object.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the SetFileName, &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; and &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">De volgende C#-voorbeeld wordt ervan uitgegaan dat dit schema in een tabel Oracle: <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph> het voorbeeld worden de SetFileName &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;en &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;methoden gebruiken om een &lt;xref:System.Data.OracleClient.OracleBFile&gt;object.&lt;/xref:System.Data.OracleClient.OracleBFile&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; &lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The alias of the directory object that contains a physical file.</source>
+          <target state="translated">De alias van de directoryobject dat een fysiek bestand bevat.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The name of the file in the operating system.</source>
+          <target state="translated">De naam van het bestand in het besturingssysteem.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The operation must be within a transaction.</source>
+          <target state="translated">De bewerking moet binnen een transactie.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Momenteel niet ondersteund.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Momenteel niet ondersteund.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The exception that is thrown when an invoked method is not supported, or when there is an attempt to read, seek, or write to a stream that does not support the invoked functionality.</source>
+          <target state="translated">De uitzondering die wordt gegenereerd wanneer een aangeroepen methode wordt niet ondersteund, of wanneer er een poging om te lezen, zoeken en schrijven naar een stroom die geen ondersteuning biedt voor de aangeroepen functie.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Array&gt; of type &lt;xref:System.Byte&gt; that contains the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data.</source>
+          <target state="translated">Haalt een &lt;xref:System.Array&gt;van het type &lt;xref:System.Byte&gt;die bevat de <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevens.&lt;/xref:System.Byte&gt; &lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Value property reads the entire <ph id="ph1">`BFILE`</ph> at one time.</source>
+          <target state="translated">De eigenschap Value leest de gehele <ph id="ph1">`BFILE`</ph> in één keer.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A benefit of using <ph id="ph2">`BFILE`</ph>s is the ability to retrieve large amounts of data in chunks at the client.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Voordeel van het gebruik <ph id="ph2">`BFILE`</ph>s is de mogelijkheid om op te halen van grote hoeveelheden gegevens in reeksen op de client.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, when you use Value, you obtain all the data for the BFILE column as one contiguous chunk, which can significantly increase application overhead.</source>
+          <target state="translated">Echter als u de waarde gebruikt, krijgt u de gegevens voor de kolom BBESTAND als één aaneengesloten chunk die kan toepassing overhead aanzienlijk verhogen.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Array&gt; of type &lt;xref:System.Byte&gt; that contains the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data.</source>
+          <target state="translated">Een &lt;xref:System.Array&gt;van het type &lt;xref:System.Byte&gt;die bevat de <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevens.&lt;/xref:System.Byte&gt; &lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Momenteel niet ondersteund.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Momenteel niet ondersteund.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Momenteel niet ondersteund.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">Momenteel niet ondersteund.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The exception that is thrown when an invoked method is not supported, or when there is an attempt to read, seek, or write to a stream that does not support the invoked functionality.</source>
+          <target state="translated">De uitzondering die wordt gegenereerd wanneer een aangeroepen methode wordt niet ondersteund, of wanneer er een poging om te lezen, zoeken en schrijven naar een stroom die geen ondersteuning biedt voor de aangeroepen functie.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

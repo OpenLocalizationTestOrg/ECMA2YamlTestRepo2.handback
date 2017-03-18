@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0fbe1474b80238431b358b91c8f9c975727d6a40</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.SqlTypes.SqlFileStream.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dc5a7f78e1dd0214ffc36362f74e5067e216b77e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8bf291f2e6258e871507bc2ebacc0b09eb7747d7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Exposes SQL Server data that is stored with the FILESTREAM column attribute as a sequence of bytes.</source>
+          <target state="translated">Visar SQL Server-data som lagras med attributet FILESTREAM-kolumnen som en byte-sekvens.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlFileStream class is used to work with <ph id="ph1">`varbinary(max)`</ph> data stored with the FILESTREAM attribute in a SQL Server 2008 database.</source>
+          <target state="translated">Klassen SqlFileStream används för att arbeta med <ph id="ph1">`varbinary(max)`</ph> data som lagras med attributet FILESTREAM i en SQL Server 2008-databas.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must install the .NET Framework 3.5 SP1 (or later) to use &lt;xref:System.Data.SqlTypes.SqlFileStream&gt; to work with FILESTREAM data.</source>
+          <target state="translated">Du måste installera .NET Framework 3.5 SP1 (eller senare) att använda &lt;xref:System.Data.SqlTypes.SqlFileStream&gt;att arbeta med FILESTREAM-data.&lt;/xref:System.Data.SqlTypes.SqlFileStream&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifying the FILESTREAM attribute on a <ph id="ph1">`varbinary(max)`</ph> column causes SQL Server to store the data in the local NTFS file system instead of in the database file.</source>
+          <target state="translated">Att ange FILESTREAM attributet för en <ph id="ph1">`varbinary(max)`</ph> kolumnen gör att SQL Server för att lagra data i lokala NTFS-filsystemet i stället för i databasen.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Transact-SQL statements provide data manipulation capabilities within the server, and Win32 file system interfaces provide streaming access to the data.</source>
+          <target state="translated">Transact-SQL-uttryck innehåller data manipulation funktioner inom server och gränssnitt för Win32 filen system ger strömmande åtkomst till data.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Individual files stored in a FILESTREAM column cannot be opened directly from the NTFS file system.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Enskilda filer som lagras i en FILESTREAM-kolumn kan inte öppnas direkt från NTFS-filsystemet.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Streaming FILESTREAM data works only in the context of a SQL Server transaction.</source>
+          <target state="translated">FILESTREAM-data för strömning fungerar bara i kontexten för en SQL Server-transaktion.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlFileStream class is derived from the &lt;xref:System.IO.Stream&gt; class, which represents an abstraction of a sequence of bytes from some arbitrary data source such as a file or a block of memory.</source>
+          <target state="translated">SqlFileStream klassen härleds från den &lt;xref:System.IO.Stream&gt;klass som representerar en abstraktion av ett antal byte från vissa valfri datakälla, till exempel en fil eller ett minnesblock.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can read from a FILESTREAM by transferring data from a stream into a data structure such as an array of bytes.</source>
+          <target state="translated">Du kan läsa från en FILESTREAM genom att överföra data från en dataström till en datastruktur som en matris med byte.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can write to a FILESTREAM by transferring the data from a data structure into a stream.</source>
+          <target state="translated">Du kan skriva till en FILESTREAM genom att överföra data från en datastruktur i en dataström.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also seek within the stream, which allows you to query and modify data at the current position within the stream.</source>
+          <target state="translated">Du kan också söka i dataströmmen, där du kan fråga efter och ändra data på aktuell position i dataströmmen.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For conceptual documentation and code examples, see <bpt id="p1">[</bpt>FILESTREAM Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Konceptuell dokumentation och kodexempel finns <bpt id="p1">[</bpt>FILESTREAM-Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For documentation about setting up and configuring FILESTREAM data on SQL Server,  see <bpt id="p1">[</bpt>Designing and Implementing FILESTREAM Storage<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=121499)</ept> in SQL Server 2008 Books Online.</source>
+          <target state="translated">Dokumentation om hur du ställer in och konfigurerar FILESTREAM-data på SQL Server finns <bpt id="p1">[</bpt>utforma och implementera FILESTREAM-lagring<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=121499)</ept> i SQL Server 2008 Books Online.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an exception is thrown, any open transactions should be rolled back.</source>
+          <target state="translated">Om ett undantag ska eventuella öppna transaktioner återställas.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, data loss can occur.</source>
+          <target state="translated">Annars kan data gå förlorade.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The logical path to the file.</source>
+          <target state="translated">Den logiska sökvägen till filen.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The path can be retrieved by using the Transact-SQL Pathname function on the underlying FILESTREAM column in the table.</source>
+          <target state="translated">Sökvägen kan hämtas med hjälp av Transact-SQL-Pathname-funktionen på den underliggande FILESTREAM-kolumnen i tabellen.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The transaction context for the <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Transaktionskontexten för den <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Applications should return the byte array returned by calling the GET_FILESTREAM_TRANSACTION_CONTEXT method.</source>
+          <target state="translated">Program ska returnera Bytematrisen som returneras genom att anropa metoden GET_FILESTREAM_TRANSACTION_CONTEXT.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The access mode to use when opening the file.</source>
+          <target state="translated">Åtkomstläge ska använda när du öppnar filen.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Supported <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values are <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Supported <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values are <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Read" name="FileAccess.Read" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object can be used to read all of the existing data.</source>
+          <target state="translated">När du använder <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Read" name="FileAccess.Read" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objekt som kan användas för att läsa alla befintliga data.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Write" name="FileAccess.Write" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> points to a zero byte file.</source>
+          <target state="translated">När du använder <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Write" name="FileAccess.Write" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> pekar på en noll byte-fil.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Existing data will be overwritten when the object is closed and the transaction is committed.</source>
+          <target state="translated">Befintliga data skrivs över när objektet har stängts och genomförs transaktionen.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.ReadWrite" name="FileAccess.ReadWrite" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> points to a file which has all the existing data in it.</source>
+          <target state="translated">När du använder <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.ReadWrite" name="FileAccess.ReadWrite" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> pekar på en fil som har alla befintliga data i den.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The handle is positioned at the beginning of the file.</source>
+          <target state="translated">Referensen har placerats i början av filen.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can use one of the <bpt id="p1">&lt;xref uid="langword_csharp_System.IO" name="System.IO" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref uid="langword_csharp_Seek" name="Seek" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> methods to move the handle position within the file to write or append new data.</source>
+          <target state="translated">Du kan använda en av de <bpt id="p1">&lt;xref uid="langword_csharp_System.IO" name="System.IO" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <bpt id="p2">&lt;xref uid="langword_csharp_Seek" name="Seek" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> metoder för att flytta positionen referensen i filen för att skriva eller lägga till nya data.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is a null reference, or <ph id="ph2">&lt;code&gt;transactionContext&lt;/code&gt;</ph> is null.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>är en null-referens eller <ph id="ph2">&lt;code&gt;transactionContext&lt;/code&gt;</ph> är null.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The file cannot be found.</source>
+          <target state="translated">Att det går inte hitta filen.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An I/O error occurred.</source>
+          <target state="translated">Ett i/o-fel uppstod.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">Anroparen har inte behörigheten som krävs.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">path</ph><ept id="p1">&lt;/code&gt;</ept> is invalid, such as being on an unmapped drive.</source>
+          <target state="translated">Den angivna <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">path</ph> <ept id="p1">&lt;/code&gt;</ept> är ogiltig, till exempel på en omappade enhet.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The access requested is not permitted by the operating system for the specified path.</source>
+          <target state="translated">Den begärda åtkomsten tillåts inte av operativsystemet för den angivna sökvägen.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This occurs when Write or ReadWrite access is specified, and the file or directory is set for read-only access.</source>
+          <target state="translated">Detta inträffar när skrivbehörighet eller ReadWrite åtkomst har angetts och filen eller katalogen är för skrivskyddad åtkomst.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>NtCreateFile fails with error code set to ERROR_SHARING_VIOLATION.</source>
+          <target state="translated">NtCreateFile misslyckas med felkoden inställd på ERROR_SHARING_VIOLATION.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an exception is thrown, any open transactions should be rolled back.</source>
+          <target state="translated">Om ett undantag ska eventuella öppna transaktioner återställas.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, data loss can occur.</source>
+          <target state="translated">Annars kan data gå förlorade.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The logical path to the file.</source>
+          <target state="translated">Den logiska sökvägen till filen.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The path can be retrieved by using the Transact-SQL Pathname function on the underlying FILESTREAM column in the table.</source>
+          <target state="translated">Sökvägen kan hämtas med hjälp av Transact-SQL-Pathname-funktionen på den underliggande FILESTREAM-kolumnen i tabellen.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The transaction context for the <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Transaktionskontexten för den <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When set to null, an implicit transaction will be used for the <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">När värdet är null, en implicit transaktion ska användas för den <bpt id="p1">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Applications should return the byte array returned by calling the GET_FILESTREAM_TRANSACTION_CONTEXT method.</source>
+          <target state="translated">Program ska returnera Bytematrisen som returneras genom att anropa metoden GET_FILESTREAM_TRANSACTION_CONTEXT.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The access mode to use when opening the file.</source>
+          <target state="translated">Åtkomstläge ska använda när du öppnar filen.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Supported <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values are <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Supported <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values are <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Read" name="FileAccess.Read" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object can be used to read all of the existing data.</source>
+          <target state="translated">När du använder <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Read" name="FileAccess.Read" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objekt som kan användas för att läsa alla befintliga data.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Write" name="FileAccess.Write" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> points to a zero byte file.</source>
+          <target state="translated">När du använder <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.Write" name="FileAccess.Write" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> pekar på en noll byte-fil.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Existing data will be overwritten when the object is closed and the transaction is committed.</source>
+          <target state="translated">Befintliga data skrivs över när objektet har stängts och genomförs transaktionen.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When using <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.ReadWrite" name="FileAccess.ReadWrite" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> points to a file which has all the existing data in it.</source>
+          <target state="translated">När du använder <bpt id="p1">&lt;xref uid="langword_csharp_FileAccess.ReadWrite" name="FileAccess.ReadWrite" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_SqlFileStream" name="SqlFileStream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> pekar på en fil som har alla befintliga data i den.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The handle is positioned at the beginning of the file.</source>
+          <target state="translated">Referensen har placerats i början av filen.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can use one of the <bpt id="p1">&lt;xref uid="langword_csharp_System.IO" name="System.IO" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref uid="langword_csharp_Seek" name="Seek" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> methods to move the handle position within the file to write or append new data.</source>
+          <target state="translated">Du kan använda en av de <bpt id="p1">&lt;xref uid="langword_csharp_System.IO" name="System.IO" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <bpt id="p2">&lt;xref uid="langword_csharp_Seek" name="Seek" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> metoder för att flytta positionen referensen i filen för att skriva eller lägga till nya data.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specifies the option to use while opening the file.</source>
+          <target state="translated">Anger om du vill använda när filen öppnades.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Supported <bpt id="p1">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values are <bpt id="p2">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, and <bpt id="p5">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Supported <bpt id="p1">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values are <bpt id="p2">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, and <bpt id="p5">&lt;xref href="System.IO.FileOptions"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The allocation size to use while creating a file.</source>
+          <target state="translated">Den allokering storleken som ska användas när du skapar en fil.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If set to 0, the default value is used.</source>
+          <target state="translated">Om värdet är 0 standardvärdet används.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph> is a null reference, or <ph id="ph2">&lt;code&gt;transactionContext&lt;/code&gt;</ph> is null.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;path&lt;/code&gt;</ph>är en null-referens eller <ph id="ph2">&lt;code&gt;transactionContext&lt;/code&gt;</ph> är null.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The file cannot be found.</source>
+          <target state="translated">Att det går inte hitta filen.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An I/O error occurred.</source>
+          <target state="translated">Ett i/o-fel uppstod.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">Anroparen har inte behörigheten som krävs.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">path</ph><ept id="p1">&lt;/code&gt;</ept> is invalid, such as being on an unmapped drive.</source>
+          <target state="translated">Den angivna <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">path</ph> <ept id="p1">&lt;/code&gt;</ept> är ogiltig, till exempel på en omappade enhet.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The access requested is not permitted by the operating system for the specified path.</source>
+          <target state="translated">Den begärda åtkomsten tillåts inte av operativsystemet för den angivna sökvägen.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This occurs when Write or ReadWrite access is specified, and the file or directory is set for read-only access.</source>
+          <target state="translated">Detta inträffar när skrivbehörighet eller ReadWrite åtkomst har angetts och filen eller katalogen är för skrivskyddad åtkomst.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>NtCreateFile fails with error code set to ERROR_SHARING_VIOLATION.</source>
+          <target state="translated">NtCreateFile misslyckas med felkoden inställd på ERROR_SHARING_VIOLATION.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous read operation.</source>
+          <target state="translated">Börjar en asynkron läsning.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt; property to determine whether the current instance supports reading.</source>
+          <target state="translated">Använd den &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;egenskapen för att avgöra om den aktuella instansen stöder läsning.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The buffer to read the data into.</source>
+          <target state="translated">Den buffert som används för att läsa data i.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The byte offset in <ph id="ph1">`buffer`</ph> at which to begin writing data read from the stream.</source>
+          <target state="translated">Byte-förskjutning i <ph id="ph1">`buffer`</ph> som du vill börja skriva data läses från dataströmmen.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to read.</source>
+          <target state="translated">Maximalt antal byte som ska läsas.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An optional asynchronous callback, to be called when the read is complete.</source>
+          <target state="translated">Ett valfritt asynkront motanrop, anropas när Läs är klar.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous read request from other requests</source>
+          <target state="translated">Ett objekt för användaren som särskiljer den här viss asynkron läsbegäran från andra begäranden</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents the asynchronous read, which could still be pending.</source>
+          <target state="translated">En &lt;xref:System.IAsyncResult&gt;som representerar asynkron läsning, som kan fortfarande vara väntande.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Reading data is not supported on the stream.</source>
+          <target state="translated">Läsningen av data stöds inte på strömmen.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous write operation.</source>
+          <target state="translated">Börjar en asynkron skrivning.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt; property to determine whether the current instance supports writing.</source>
+          <target state="translated">Använd den &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;egenskapen för att avgöra om den aktuella instansen stöder skrivning.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The buffer to write data from.</source>
+          <target state="translated">Den buffert som används för att skriva data från.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The byte offset in <ph id="ph1">`buffer`</ph> from which to begin writing.</source>
+          <target state="translated">Byte-förskjutning i <ph id="ph1">`buffer`</ph> som du vill börja skriva.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to write.</source>
+          <target state="translated">Maximalt antal byte att skriva.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An optional asynchronous callback, to be called when the write is complete.</source>
+          <target state="translated">Ett valfritt asynkront motanrop, anropas när skrivningen är klar.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous write request from other requests.</source>
+          <target state="translated">Ett användardefinierade objekt som särskiljer viss asynkron skrivning begäran från andra begäranden.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents the asynchronous write, which could still be pending.</source>
+          <target state="translated">En &lt;xref:System.IAsyncResult&gt;som representerar asynkron skrivning, som kan fortfarande vara väntande.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Writing data is not supported on the stream.</source>
+          <target state="translated">Skrivningen av data stöds inte på strömmen.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current stream supports reading.</source>
+          <target state="translated">Hämtar ett värde som anger om den aktuella dataströmmen har stöd för läsning.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current stream supports reading; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den aktuella dataströmmen stöder läsning; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current stream supports seeking.</source>
+          <target state="translated">Hämtar ett värde som anger om den aktuella dataströmmen har stöd för sökning.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current stream supports seeking; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den aktuella dataströmmen stöder sökning; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current stream can time out.</source>
+          <target state="translated">Hämtar ett värde som anger om den aktuella dataströmmen kan timeout.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current stream can time out; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den aktuella dataströmmen kan timeout; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current stream supports writing.</source>
+          <target state="translated">Hämtar ett värde som anger om den aktuella dataströmmen har stöd för skrivning.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current stream supports writing; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den aktuella dataströmmen stöder skrivning; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Waits for the pending asynchronous read to complete.</source>
+          <target state="translated">Väntar på att väntande asynkron läsning ska slutföras.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The reference to the pending asynchronous request to finish.</source>
+          <target state="translated">Referens till väntande asynkron begäran för att avsluta.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The number of bytes read from the stream, between zero (0) and the number of bytes you requested.</source>
+          <target state="translated">Antalet byte lästes in från strömmen mellan noll (0) och antalet byte som du begärde.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Streams return zero (0) only at the end of the stream, otherwise, they should block until at least one byte is available.</source>
+          <target state="translated">Dataströmmar returnerar noll (0) endast i slutet på dataströmmen kan annars de bör blockera tills minst en byte är tillgänglig.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; object did not come from the corresponding <bpt id="p1">&lt;xref uid="langword_csharp_BeginRead" name="BeginRead" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;objektet kom inte från motsvarande <bpt id="p1">&lt;xref uid="langword_csharp_BeginRead" name="BeginRead" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> metod.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Ends an asynchronous write operation.</source>
+          <target state="translated">Avslutar en asynkron skrivning.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A reference to the outstanding asynchronous I/O request.</source>
+          <target state="translated">En referens till utestående asynkrona i/o-begäran.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; object did not come from the corresponding <bpt id="p1">&lt;xref uid="langword_csharp_BeginWrite" name="BeginWrite" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;objektet kom inte från motsvarande <bpt id="p1">&lt;xref uid="langword_csharp_BeginWrite" name="BeginWrite" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> metod.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Ensures that resources are freed and other cleanup operations are performed when the garbage collector reclaims the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Säkerställer att frigörs resurser och andra rensningsåtgärder utförs när skräpinsamlingen återtar den <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>clears all buffers for this stream and causes any buffered data to be written to the underlying device.</source>
+          <target state="translated">Rensar alla buffertar för den här dataströmmen och gör att alla buffrade data skrivs till den underliggande enheten.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the length of the current stream in bytes.</source>
+          <target state="translated">Hämtar ett värde som anger längden på den aktuella dataströmmen i byte.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int64&gt; indicating the length of the current stream in bytes.</source>
+          <target state="translated">En &lt;xref:System.Int64&gt;som anger längden på den aktuella dataströmmen i byte.&lt;/xref:System.Int64&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Gets the logical path of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> passed to the constructor.</source>
+          <target state="translated">Hämtar den logiska sökvägen för den <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> överförs till konstruktorn.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A string value indicating the name of the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ett strängvärde som anger namnet på den <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets or sets the position within the current stream.</source>
+          <target state="translated">Hämtar eller anger positionen inom den aktuella dataströmmen.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The current position within the <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aktuell position i den <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read.</source>
+          <target state="translated">Läser en sekvens med byte från den aktuella dataströmmen och framsteg position i dataströmmen med antalet lästa byte.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt; property to determine whether the current instance supports writing.</source>
+          <target state="translated">Använd den &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;egenskapen för att avgöra om den aktuella instansen stöder skrivning.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>An array of bytes.</source>
+          <target state="translated">En matris med byte.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>When this method returns, the buffer contains the specified byte array with the values between offset and (offset + count - 1) replaced by the bytes read from the current source.</source>
+          <target state="translated">När den här metoden returnerar innehåller bufferten angivna byte-matris med värden mellan förskjutning och (offset + count - 1) ersättas med byte som läses från den aktuella källan.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The zero-based byte offset in buffer at which to begin storing the data read from the current stream.</source>
+          <target state="translated">Nollbaserade byte-förskjutning i bufferten som du vill börja lagra data har lästs från den aktuella dataströmmen.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to be read from the current stream.</source>
+          <target state="translated">Maximalt antal byte som ska läsas från den aktuella dataströmmen.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The total number of bytes read into the buffer.</source>
+          <target state="translated">Läsa in det totala antalet byte i bufferten.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This can be less than the number of bytes requested if that many bytes are not currently available, or zero (0) if the end of the stream has been reached.</source>
+          <target state="translated">Detta kan vara mindre än antalet byte på begäran om att många byte är inte tillgängliga eller noll (0) om slutet på dataströmmen har nåtts.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The object does not support reading of data.</source>
+          <target state="translated">Objektet stöder inte läsning av data.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream.</source>
+          <target state="translated">Läser en byte från dataströmmen avancerar position i dataströmmen av en byte och returnerar -1 om i slutet av dataströmmen.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt; property to determine whether the current instance supports reading.</source>
+          <target state="translated">Använd den &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;egenskapen för att avgöra om den aktuella instansen stöder läsning.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The unsigned byte cast to an &lt;xref:System.Int32&gt;, or -1 if at the end of the stream.</source>
+          <target state="translated">Osignerad byte omvandlas till en &lt;xref:System.Int32&gt;, eller -1 om i slutet av dataströmmen.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The object does not support reading of data.</source>
+          <target state="translated">Objektet stöder inte läsning av data.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value, in milliseconds, that determines how long the stream will attempt to read before timing out.</source>
+          <target state="translated">Hämtar eller anger ett värde, i millisekunder, som avgör hur länge dataströmmen försöker läsa innan den avbryts.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A value, in milliseconds, that determines how long the stream will attempt to read before timing out.</source>
+          <target state="translated">Ett värde, i millisekunder, som avgör hur lång tid dataströmmen försöker läsa innan den avbryts.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Sets the position within the current stream.</source>
+          <target state="translated">Anger positionen i den aktuella dataströmmen.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A byte offset relative to the <ph id="ph1">`origin`</ph> parameter</source>
+          <target state="translated">En byte-förskjutning förhållande till den <ph id="ph1">`origin`</ph> parameter</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A value of type &lt;xref:System.IO.SeekOrigin&gt; indicating the reference point used to obtain the new position</source>
+          <target state="translated">Ett värde av typen &lt;xref:System.IO.SeekOrigin&gt;som anger referenspunkten för att hämta en ny plats&lt;/xref:System.IO.SeekOrigin&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The new position within the current stream.</source>
+          <target state="translated">Ny plats i den aktuella dataströmmen.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Sets the length of the current stream.</source>
+          <target state="translated">Anger längden på den aktuella dataströmmen.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt; property to determine whether the current instance supports reading.</source>
+          <target state="translated">Använd den &lt;xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;egenskapen för att avgöra om den aktuella instansen stöder läsning.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The desired length of the current stream in bytes.</source>
+          <target state="translated">Önskad längden på den aktuella dataströmmen i byte.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The object does not support reading of data.</source>
+          <target state="translated">Objektet stöder inte läsning av data.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets or sets the transaction context for this <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Hämtar eller anger transaktionskontexten för den här <bpt id="p1">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">transactionContext</ph><ept id="p1">&lt;/code&gt;</ept> array that was passed to the constructor for this <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">transactionContext</ph> <ept id="p1">&lt;/code&gt;</ept> matris som skickades till konstruktorn för den här <bpt id="p2">&lt;xref href="System.Data.SqlTypes.SqlFileStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written.</source>
+          <target state="translated">Skriver en byte-sekvens till den aktuella dataströmmen och framsteg aktuell position i dataströmmen med antalet skrivna byte.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt; property to determine whether the current instance supports writing.</source>
+          <target state="translated">Använd den &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;egenskapen för att avgöra om den aktuella instansen stöder skrivning.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An array of bytes.</source>
+          <target state="translated">En matris med byte.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This method copies <ph id="ph1">`count`</ph> bytes from <ph id="ph2">`buffer`</ph> to the current stream.</source>
+          <target state="translated">Den här metoden kopierar <ph id="ph1">`count`</ph> byte från <ph id="ph2">`buffer`</ph> till den aktuella dataströmmen.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The zero-based byte offset in <ph id="ph1">`buffer`</ph> at which to begin copying bytes to the current stream.</source>
+          <target state="translated">Nollbaserade byte-förskjutning i <ph id="ph1">`buffer`</ph> som du vill börja kopiera byte till den aktuella dataströmmen.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The number of bytes to be written to the current stream.</source>
+          <target state="translated">Antal byte som ska skrivas till den aktuella dataströmmen.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The object does not support writing of data.</source>
+          <target state="translated">Objektet stöder inte skrivning av data.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Writes a byte to the current position in the stream and advances the position within the stream by one byte.</source>
+          <target state="translated">Skriver en byte till aktuell position i dataströmmen och framsteg position i dataströmmen vid ett byte.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt; property to determine whether the current instance supports writing.</source>
+          <target state="translated">Använd den &lt;xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;egenskapen för att avgöra om den aktuella instansen stöder skrivning.&lt;/xref:System.Data.SqlTypes.SqlFileStream.CanWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The byte to write to the stream.</source>
+          <target state="translated">Byte att skriva till dataströmmen.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The object does not support writing of data.</source>
+          <target state="translated">Objektet stöder inte skrivning av data.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value, in milliseconds, that determines how long the stream will attempt to write before timing out.</source>
+          <target state="translated">Hämtar eller anger ett värde, i millisekunder, som anger hur länge dataströmmen görs ett försök att skriva innan den avbryts.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A value, in milliseconds, that determines how long the stream will attempt to write before timing out.</source>
+          <target state="translated">Ett värde, i millisekunder, som avgör hur lång tid dataströmmen försöker att skriva innan den avbryts.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

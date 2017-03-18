@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7eaeef8182df822d8450ac41fd997baeb1b5ca0a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.IStackWalk.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1d82e212664542ea10575b94c8c1a0c20fc534ea</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3847cece6936397f0018f665bdc1dd7b863aea97</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages the stack walk that determines whether all callers in the call stack have the required permissions to access a protected resource.</source>
+          <target state="translated">Hanterar stackstegningen som avgör om anropare i anropsstacken har behörigheterna som krävs för att få åtkomst till en skyddad resurs.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Partially trusted code always presents a security risk.</source>
+          <target state="translated">Delvis betrodd kod utgör alltid en säkerhetsrisk.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can sometimes be manipulated to perform actions on behalf of malicious code that does not have permission to access a resource.</source>
+          <target state="translated">Det kan ibland hanteras för att utföra åtgärder för skadlig kod som inte har behörighet att komma åt en resurs.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this way, malicious code can achieve higher security access than it should be allowed.</source>
+          <target state="translated">På så sätt kan kan skadlig kod uppnå högre säkerhetsåtkomst än ska tillåtas.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The common language runtime helps protect managed code from these attacks by running a stack walk on all calls.</source>
+          <target state="translated">Common language runtime skyddar förvaltad kod från dessa attacker genom att köra en stackstegningen på alla anrop.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The stack walk requires that all code in the call stack has permission to access a protected resource.</source>
+          <target state="translated">Stackstegningen kräver att all kod i anropsstacken har behörighet att komma åt en skyddad resurs.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the code attempting the attack will always be somewhere in the call stack, it will be unable to exceed its own security permissions.</source>
+          <target state="translated">Eftersom koden försöker angreppet kommer alltid att vara någonstans i anropsstacken, kan den inte överskrider sin egen säkerhetsbehörigheter.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Asserts that the calling code can access the resource identified by the current permission object, even if callers higher in the stack have not been granted permission to access the resource.</source>
+          <target state="translated">Kontroller att den anropande koden har åtkomst till den resurs som identifieras av det aktuella objektet behörighet, även om anropare högre upp i stacken inte har beviljats behörighet att komma åt resursen.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling Assert stops the permission check on callers higher in the call stack.</source>
+          <target state="translated">Anropa Assert stoppar behörighet Kontrollera anropare högre upp i anropsstacken.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, even if these callers do not have the requisite permissions, they can still access resources.</source>
+          <target state="translated">Därför även om dessa anropare inte har behörigheterna som krävs, de kan fortfarande komma åt resurser.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An assertion is effective only if the code that calls Assert passes the security check for the permission that it is asserting.</source>
+          <target state="translated">Ett intyg fungerar bara om den kod som anropar Assert skickar säkerhetskontrollen för den behörighet som den garanterar.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A call to Assert is effective until the calling code returns to its caller or until a subsequent call to Assert renders the previous assertion ineffective.</source>
+          <target state="translated">Ett anrop till Assert börjar gälla förrän den anropande koden returnerar till den ursprungliga anroparen eller ett anrop till Assert återgivningar tidigare kontroll ineffektiv.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, &lt;xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt; or &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; removes a pending Assert.</source>
+          <target state="translated">Dessutom &lt;xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt;eller &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt;tar bort en väntande Assert.&lt;/xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; &lt;/xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assert is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">Assert ignoreras för en behörighet inte eftersom en begäran om att behörighet kommer att misslyckas.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if code lower on the call stack calls &lt;xref:System.Security.IStackWalk.Demand%2A&gt; for that permission, a &lt;xref:System.Security.SecurityException&gt; is thrown when the stack walk reaches the code that tried to call Assert.</source>
+          <target state="translated">Men om lägre i anropsstacken koden anropar &lt;xref:System.Security.IStackWalk.Demand%2A&gt;för den behörigheten, en &lt;xref:System.Security.SecurityException&gt;när stackstegningen når den kod som försökte anropa Assert.&lt;/xref:System.Security.SecurityException&gt; &lt;/xref:System.Security.IStackWalk.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This happens because the code that called Assert has not been granted the permission, even though it tried to Assert it.</source>
+          <target state="translated">Detta beror på att den kod som kallas Assert inte har beviljats behörigheten, även om den försökte Assert den.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because calling Assert removes the requirement that all code in the call chain must be granted permission to access the specified resource, it can open up security vulnerabilities if used incorrectly or inappropriately.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Eftersom anropa Assert undanröjer behovet att all kod i kedjan anrop måste ha behörighet att komma åt den angivna resursen, som kan öppnas av säkerhetsproblem om används på fel sätt felaktigt.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it should be used with great caution.</source>
+          <target state="translated">Det bör därför användas med mycket försiktig.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The calling code does not have <bpt id="p1">&lt;xref href="System.Security.Permissions.SecurityPermissionFlag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den anropande koden inte har <bpt id="p1">&lt;xref href="System.Security.Permissions.SecurityPermissionFlag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Determines at run time whether all callers in the call stack have been granted the permission specified by the current permission object.</source>
+          <target state="translated">Anger under körning om anropare i anropsstacken har beviljats behörigheten som anges av det aktuella objektet behörighet.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is typically used by secure libraries to ensure that callers have permission to access a resource.</source>
+          <target state="translated">Den här metoden används vanligtvis av säker bibliotek för att säkerställa att anropare har behörighet att komma åt en resurs.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a file class in a secure class library calls Demand for the necessary &lt;xref:System.Security.Permissions.FileIOPermission&gt; before performing a file operation requested by the caller.</source>
+          <target state="translated">Till exempel en fil klass i en säker klassbiblioteket anropar behovet av nödvändiga &lt;xref:System.Security.Permissions.FileIOPermission&gt;innan du utför en åtgärd för filen som angavs av anroparen.&lt;/xref:System.Security.Permissions.FileIOPermission&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The permissions of the code that calls this method are not examined; the check begins from the immediate caller of that code and proceeds up the stack.</source>
+          <target state="translated">Behörigheterna för den kod som anropar den här metoden är inte undersökas. kontrollen börjar från den omedelbara anroparen av koden och fortsätter uppåt i stapeln.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Demand succeeds only if no &lt;xref:System.Security.SecurityException&gt; is raised.</source>
+          <target state="translated">Begäran fungerar endast om ingen &lt;xref:System.Security.SecurityException&gt;utlöses.&lt;/xref:System.Security.SecurityException&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A caller higher in the call stack does not have the permission specified by the current permission object.</source>
+          <target state="translated">En högre upp i anropsstacken anroparen har inte behörigheten som anges av det aktuella objektet behörighet.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-or-       A caller in the call stack has called &lt;xref:System.Security.IStackWalk.Deny*&gt; on the current permission object.</source>
+          <target state="translated">- eller - kallas för en anropare i anropsstacken &lt;xref:System.Security.IStackWalk.Deny*&gt;i det aktuella objektet behörighet.&lt;/xref:System.Security.IStackWalk.Deny*&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Causes every &lt;xref:System.Security.IStackWalk.Demand*&gt; for the current object that passes through the calling code to fail.</source>
+          <target state="translated">Gör att varje &lt;xref:System.Security.IStackWalk.Demand*&gt;för det aktuella objekt som passerar den anropande koden misslyckas.&lt;/xref:System.Security.IStackWalk.Demand*&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method prevents callers higher in the call stack from accessing the protected resource through the code that calls this method, even if those callers have been granted permission to access it.</source>
+          <target state="translated">Den här metoden förhindrar anropare högre upp i anropsstacken från att komma åt den skyddade resursen via den kod som anropar den här metoden, även om de som har fått behörighet att komma åt den.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">Anropsstacken representeras vanligtvis växande ned, så att metoder högre upp i anropsstacken anropa metoder lägre i anropsstacken.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Deny can limit the liability of the programmer or help prevent accidental security vulnerabilities because it helps prevent the method that calls Deny from being used to access the resource protected by the denied permission.</source>
+          <target state="translated">Neka kan begränsa programmeraren ansvar eller förhindra oavsiktliga säkerhetsrisker eftersom den förhindrar den metod som anropar neka används för åtkomst till resursen som skyddas av nekade behörigheten.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a method calls Deny on a permission, and if a &lt;xref:System.Security.IStackWalk.Demand%2A&gt; for that permission is invoked by a caller lower in the call stack, that security check will fail when it reaches the Deny.</source>
+          <target state="translated">Om ett metodanrop neka på en behörighet, och om en &lt;xref:System.Security.IStackWalk.Demand%2A&gt;för behörigheten anropas av en lägre i anropsstacken anropare som säkerhetskontrollen misslyckas när den når neka.&lt;/xref:System.Security.IStackWalk.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Deny is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">Neka ignoreras för en behörighet inte eftersom en begäran om att behörighet kommer att misslyckas.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Causes every &lt;xref:System.Security.IStackWalk.Demand*&gt; for all objects except the current one that passes through the calling code to fail, even if code higher in the call stack has been granted permission to access other resources.</source>
+          <target state="translated">Gör att varje &lt;xref:System.Security.IStackWalk.Demand*&gt;för alla objekt, men det aktuella som passerar den anropande koden misslyckas, även om koden högre upp i anropsstacken har beviljats behörighet att komma åt andra resurser.&lt;/xref:System.Security.IStackWalk.Demand*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>PermitOnly is similar to &lt;xref:System.Security.IStackWalk.Deny%2A&gt;, in that both cause stack walks to fail when they would otherwise succeed.</source>
+          <target state="translated">PermitOnly liknar &lt;xref:System.Security.IStackWalk.Deny%2A&gt;, att både orsaka stacken får inte fungerar när de annars skulle lyckas.&lt;/xref:System.Security.IStackWalk.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The difference is that &lt;xref:System.Security.IStackWalk.Deny%2A&gt; specifies permissions that will cause the stack walk to fail, but PermitOnly specifies the only permissions that do not cause the stack walk to fail.</source>
+          <target state="translated">Skillnaden är att &lt;xref:System.Security.IStackWalk.Deny%2A&gt;anger behörigheter som gör att stacken beskriver misslyckas, men PermitOnly anger endast behörigheter som inte orsakar stackstegningen misslyckas.&lt;/xref:System.Security.IStackWalk.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to ensure that your code can be used to access only the specified resources.</source>
+          <target state="translated">Anropa den här metoden för att säkerställa att din kod kan användas för åtkomst till endast de angivna resurserna.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>PermitOnly is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">PermitOnly ignoreras för en behörighet inte eftersom en begäran om att behörighet kommer att misslyckas.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if code lower on the call stack later calls &lt;xref:System.Security.IStackWalk.Demand%2A&gt; for that permission, a &lt;xref:System.Security.SecurityException&gt; is thrown when the stack walk reaches the code that tried to call PermitOnly.</source>
+          <target state="translated">Men om koden lägre på anropet stacken senare anrop &lt;xref:System.Security.IStackWalk.Demand%2A&gt;för den behörigheten, en &lt;xref:System.Security.SecurityException&gt;när stackstegningen når den kod som försökte anropa PermitOnly.&lt;/xref:System.Security.SecurityException&gt; &lt;/xref:System.Security.IStackWalk.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because the code that called PermitOnly has not been granted the permission, even though it called PermitOnly for that permission.</source>
+          <target state="translated">Detta beror på att den kod som kallas PermitOnly inte har beviljats behörigheten, även om den anropas PermitOnly för den behörigheten.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">Anropsstacken representeras vanligtvis växande ned, så att metoder högre upp i anropsstacken anropa metoder lägre i anropsstacken.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
