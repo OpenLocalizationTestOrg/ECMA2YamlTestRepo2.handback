@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">349f40645525c276c7c4161c56320c9e84d6b66a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.MenuCommandService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67f5a8c428c79200c2b65219a6f8e3f2e49da690</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">135ed7fa15e3f44be5535dbea2556c5d1c638420</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IMenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Implementerar den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IMenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gränssnitt.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MenuCommandService class implements the &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt; interface, which is the managed interface used to add handlers for menu commands and to define verbs.</source>
+          <target state="translated">MenuCommandService-klassen implementerar den &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt;gränssnitt, vilket är det hanterade gränssnittet som används för att lägga till hanterare för menykommandon och definiera verb.&lt;/xref:System.ComponentModel.Design.IMenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MenuCommandService class is automatically offered by the package class to offer global commands for an entire package, and it is also offered by the <ph id="ph1">`Microsoft.VisualStudio.Shell.WindowPane`</ph> class to offer commands for the current window.</source>
+          <target state="translated">Klassen MenuCommandService erbjuds automatiskt av Paketklassen att erbjuda globala kommandon för en hel paketet och den också erbjuds av den <ph id="ph1">`Microsoft.VisualStudio.Shell.WindowPane`</ph> klassen för att erbjuda kommandon för det aktuella fönstret.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This offering is always done through the service container, so anyone deriving from the package or window pane classes can remove or replace the default implementation of the &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt; interface.</source>
+          <target state="translated">Det här erbjudandet alltid görs via tjänstbehållaren, så vem som helst som härleds från paketet eller fönstret rutan klasser kan ta bort eller ersätta standardimplementering av den &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt;gränssnitt.&lt;/xref:System.ComponentModel.Design.IMenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MenuCommandService class utilizes several other services.</source>
+          <target state="translated">Klassen MenuCommandService använder flera tjänster.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All of these services are optional, so the behavior of the MenuCommandService class degrades if one or more services are missing.</source>
+          <target state="translated">Alla dessa tjänster är valfria, så beteendet för klassen MenuCommandService försämrar om det saknas en eller flera tjänster.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows which services are used and for what purpose.</source>
+          <target state="translated">I följande tabell visas vilka tjänster som används och i vilket syfte.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Service|Purpose|   |-------------|-------------|   |&lt;xref:System.ComponentModel.Design.ISelectionService&gt;|Used to discover the current selection in order to obtain verbs offered by the currently selected designer.|   |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|Used to obtain the designer for the currently selected component, if any.|   |<ph id="ph1">`Microsoft.VisualStudio.Shell.Interop.IVsUIShell`</ph>|Used to notify <ph id="ph2">[!INCLUDE[vsprvs](~/add/includes/vsprvs-md.md)]</ph> that the command status has changed.|   |<ph id="ph3">`Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager`</ph>|Used to show context menus.|</source>
+          <target state="translated">| Tjänsten | Syfte |   |-------------|-------------|   | &lt;xref:System.ComponentModel.Design.ISelectionService&gt;| Används för att identifiera den aktuella markeringen för att få verb som erbjuds av den markerade designern. |   | &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;| För att hämta designer för den markerade komponenten eventuella. |   | <ph id="ph1">`Microsoft.VisualStudio.Shell.Interop.IVsUIShell`</ph>| Används för att meddela <ph id="ph2">[!INCLUDE[vsprvs](~/add/includes/vsprvs-md.md)]</ph> som Kommandostatus har ändrats. |   | <ph id="ph3">`Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager`</ph>| Används för att visa snabbmenyer. |&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.ISelectionService&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service is being used with a designer, the <ph id="ph1">`serviceProvider`</ph> parameter should be the service provider for the designer, as is the case with &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.</source>
+          <target state="translated">Om tjänsten används med en designer av <ph id="ph1">`serviceProvider`</ph> parameter ska vara tjänstleverantör för designer, vilket är fallet med &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The service provider that this service uses to obtain other services.</source>
+          <target state="translated">Den tjänsteleverantör som tjänsten använder för att hämta andra tjänster.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Adds a command handler to the menu command service.</source>
+          <target state="translated">Lägger till en kommandohanterare tjänsten menyn kommando.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddCommand method adds a command handler to the menu command service.</source>
+          <target state="translated">Metoden AddCommand lägger till en kommandohanterare på menyn kommando-tjänsten.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Command handlers do not define the text, shortcut, or placement of a menu item.</source>
+          <target state="translated">Kommandot hanterare definierar inte text, genväg eller placeringen för ett menyalternativ.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rather, they define the menu item’s behavior if the item is clicked.</source>
+          <target state="translated">I stället definiera menyalternativets beteende om objektet klickas.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A command handler <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">command</ph><ept id="p1">&lt;/code&gt;</ept> already exists.</source>
+          <target state="translated">Kommandohanterare <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">command</ph> <ept id="p1">&lt;/code&gt;</ept> finns redan.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Adds a verb to the verb table of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Lägger till ett verb till tabellen verb för den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This verb is available regardless of what designer is currently selected.</source>
+          <target state="translated">Detta verb är tillgänglig oavsett vilken designer är markerad.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike menu commands, verbs can define the text that is displayed to the user, but they do not define the placement of the command on the actual menu.</source>
+          <target state="translated">Till skillnad från menyn kommandon verb kan definiera den text som visas för användaren, men de definierar inte placeringen av kommandot på menyn faktiska.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Frigör alla resurser som används av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call Dispose when you are finished using the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.</source>
+          <target state="translated">Anropa Dispose när du är klar med hjälp av &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method leaves the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; in an unusable state.</source>
+          <target state="translated">Metoden Dispose lämnar den &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;oanvändbar.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; was occupying.</source>
+          <target state="translated">När du anropar Dispose, måste du släppa alla referenser till den &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;så skräpinsamlingen kan frigöra minne som den &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;var upptar.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt; &lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>Rensa ohanterade resurser<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> och <bpt id="p2">[</bpt>implementera en metod för ta bort<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alltid anropet avyttra innan du släpper senaste referens till &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">De resurser som den använder frigörs annars inte förrän skräpinsamlingen anrop av &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;objektets <ph id="ph1">`Finalize`</ph> metod.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Frigör alla resurser som används av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph>method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Den här metoden anropas av allmänheten <ph id="ph1">`Dispose()`</ph>metod och &lt;xref:System.Object.Finalize%2A&gt;metod.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>anropar den skyddade <ph id="ph2">`Dispose(Boolean)`</ph> metod med den <ph id="ph3">`disposing`</ph> parametern <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;anropar <ph id="ph1">`Dispose`</ph> med <ph id="ph2">`disposing`</ph> inställd på <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; references.</source>
+          <target state="translated">När den <ph id="ph1">`disposing`</ph> parametern är true, den här metoden Frigör alla resurser som innehas av alla hanterade objekt som den här &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;referenser.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Den här metoden startar den <ph id="ph1">`Dispose()`</ph> metod för varje refererade till objekt.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Frisläpp både hanterade och ohanterade resurser. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> att släppa endast resurser som inte hanteras.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Ensures that the verb list has been created.</source>
+          <target state="translated">Garanterar att Verblistan med som har skapats.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EnsureVerbs method creates the verb list if it has not already been created.</source>
+          <target state="translated">Metoden EnsureVerbs skapar Verblistan med, om den inte redan har skapats.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Searches for the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command ID.</source>
+          <target state="translated">Söker efter den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som är associerade med det angivna kommando-ID.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.CommandID"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to find.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.CommandID"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> att hitta.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the command is not found.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associerade med det angivna kommandot, annars <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> om kommandot inte finns.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Searches for the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command.</source>
+          <target state="translated">Söker efter den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som är associerade med det angivna kommandot.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The GUID of the command.</source>
+          <target state="translated">GUID för kommandot.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The ID of the command.</source>
+          <target state="translated">ID för kommandot.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the command is not found.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associerade med det angivna kommandot, annars <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> om kommandot inte finns.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the command list for a given GUID.</source>
+          <target state="translated">Hämtar Kommandolistan över för ett givet GUID.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The GUID of the command list.</source>
+          <target state="translated">GUID för Kommandolistan.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of commands.</source>
+          <target state="translated">En &lt;xref:System.Collections.ICollection&gt;kommandon.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the requested service.</source>
+          <target state="translated">Hämtar en referens till den begärda tjänsten.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the service to retrieve.</source>
+          <target state="translated">Den &lt;xref:System.Type&gt;av tjänsten för att hämta.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A reference to <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">serviceType</ph><ept id="p1">&lt;/code&gt;</ept>; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the service is not found.</source>
+          <target state="translated">En referens till <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">serviceType</ph> <ept id="p1">&lt;/code&gt;</ept>, annars <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> om tjänsten inte hittas.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Invokes the given command on the local form or in the global environment.</source>
+          <target state="translated">Anropar det angivna kommandot i det lokala formuläret eller i den globala miljön.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The local form is first searched for the given command ID.</source>
+          <target state="translated">Formuläret lokala genomsöks först efter det angivna kommando-ID.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is found, it is invoked.</source>
+          <target state="translated">Om det hittas anropas.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the command ID is passed to the global environment command handler, if one is available.</source>
+          <target state="translated">Annars har kommando-ID överförts till kommandohanteraren globala miljön om det inte finns.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The command to invoke.</source>
+          <target state="translated">Kommandot för att starta.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the command was found; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, om kommandot kunde hittas. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Invokes the given command with the given parameter on the local form or in the global environment.</source>
+          <target state="translated">Anropar det angivna kommandot med en given parameter i formuläret lokala eller i den globala miljön.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The local form is first searched for the given command ID.</source>
+          <target state="translated">Formuläret lokala genomsöks först efter det angivna kommando-ID.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is found, it is invoked.</source>
+          <target state="translated">Om det hittas anropas.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the command ID is passed to the global environment command handler, if one is available.</source>
+          <target state="translated">Annars har kommando-ID överförts till kommandohanteraren globala miljön om det inte finns.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The command to invoke.</source>
+          <target state="translated">Kommandot för att starta.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A parameter for the invocation.</source>
+          <target state="translated">En parameter för anropet.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the command was found; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, om kommandot kunde hittas. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Occurs when the status of a menu command has changed.</source>
+          <target state="translated">Inträffar när ett kommando status har ändrats.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Mer information om hur du hanterar händelser finns <bpt id="p1">[</bpt>NIB: förbrukar händelser<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService.MenuCommandsChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService.MenuCommandsChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnCommandsChanged method is called by a menu command when its status has changed.</source>
+          <target state="translated">OnCommandsChanged-metoden anropas av ett kommando när dess status har ändrats.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Att en händelse utlöstes anropar händelsehanteraren via ett ombud.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>NIB: att en händelse utlöstes<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnCommandsChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Metoden OnCommandsChanged kan också härledda klasser att hantera händelsen utan att koppla en delegat.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Det här är den prioriterade metoden för hantering av händelsen i en härledd klass.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandsChangedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandsChangedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innehåller informationen om händelsen.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Removes the given menu command from the document.</source>
+          <target state="translated">Tar bort det angivna kommandot från dokumentet.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no more commands in the command group, the group is removed.</source>
+          <target state="translated">Om det finns inga fler kommandon i gruppen kommandot, bort gruppen.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The command to remove.</source>
+          <target state="translated">Kommandot för att ta bort.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Removes the given verb from the document.</source>
+          <target state="translated">Tar bort det angivna verbet från dokumentet.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The verb to remove.</source>
+          <target state="translated">Verb som tar bort.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Shows the shortcut menu with the given command ID at the given location.</source>
+          <target state="translated">Visar snabbmenyn med det angivna kommando-ID på den angivna platsen.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation does nothing.</source>
+          <target state="translated">Standardimplementering ingenting.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The shortcut menu to display.</source>
+          <target state="translated">Snabbmenyn som visas.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The x-coordinate of the shortcut menu's location.</source>
+          <target state="translated">X-koordinaten för platsen på snabbmenyn.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The y-coordinate of the shortcut menu's location.</source>
+          <target state="translated">Y-koordinaten för platsen på snabbmenyn.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the designer verbs that are currently available.</source>
+          <target state="translated">Hämtar en samling av designer verb som är tillgängliga.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Verbs property provides a collection of verbs.</source>
+          <target state="translated">Egenskapen verb ger en uppsättning verb.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These verbs come from two places:      -   Verbs added through the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt; method of Verbs.</source>
+          <target state="translated">Dessa verb som kommer från två platser:-verb som lagts till via den &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;metod för verb.&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Verbs offered by the currently selected designer.</source>
+          <target state="translated">-Verb som erbjuds av den markerade designern.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Verbs added to this service through the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt; method are called global verbs because they are global to this service, but generally there is one instance of this service for each tool or document window.</source>
+          <target state="translated">Verb som lagts till i den här tjänsten via den &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;metoden kallas globala verb eftersom de är globala för den här tjänsten, men i allmänhet är det en instans av den här tjänsten för varje verktyg eller dokumentet fönster.&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Designer verbs are obtained by querying the service provider for &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; and &lt;xref:System.ComponentModel.Design.ISelectionService&gt;.</source>
+          <target state="translated">Designer verb hämtas genom att fråga tjänstleverantör för &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;och &lt;xref:System.ComponentModel.Design.ISelectionService&gt;.&lt;/xref:System.ComponentModel.Design.ISelectionService&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the selection service offers a primary selection, and a designer can be obtained for that selection from &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;, the designer’s verbs are added to this list.</source>
+          <target state="translated">Om tjänsten markeringen erbjuder en primär markering och kan hämta en designer för markeringen från &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;, med designer verb läggs till i listan.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the name of a global verb conflicts with the name of a designer verb, the designer-provided designer verb takes precedence.</source>
+          <target state="translated">Om namnet på en global verb står i konflikt med namnet på ett designer verb, företräde som tillhandahålls av designer designer verbet.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerbCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the designer verbs that are currently available.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerbCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> designer verb som är tillgängliga.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

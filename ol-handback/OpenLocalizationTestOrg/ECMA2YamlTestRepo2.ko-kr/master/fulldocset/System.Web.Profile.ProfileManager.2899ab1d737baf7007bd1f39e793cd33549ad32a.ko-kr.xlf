@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa85ec3909bb99a35bb9a953217ab4b61195b561</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Profile.ProfileManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a0afb91e2db39be083ca1d2d2ce7b4d829095d11</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f0b89e7ca1b1e081eaba838e37bb67d0c447bee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages user profile data and settings.</source>
+          <target state="translated">사용자 프로필 데이터 및 설정을 관리합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ASP.NET profile is used to store and retrieve user settings in a data source such as a database.</source>
+          <target state="translated">ASP.NET 프로필 저장 하 고 데이터베이스와 같은 데이터 원본에서 사용자 설정을 검색에 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user profile is accessed using the &lt;xref:System.Web.HttpContext.Profile%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.HttpContext.Profile%2A&gt;현재 &lt;xref:System.Web.HttpContext&gt;.&lt;/xref:System.Web.HttpContext&gt; 의 속성&lt;/xref:System.Web.HttpContext.Profile%2A&gt; 을 사용 하 여 사용자 프로필에 액세스 하는</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Profile information and property values are managed using a profile provider.</source>
+          <target state="translated">프로필 정보 및 속성 값은 프로필 공급자를 사용 하 여 관리 됩니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProfileManager class is used to manage profile settings, search for user profiles, and delete user profiles that are no longer in use.</source>
+          <target state="translated">ProfileManager 클래스는 사용자 프로필에 대 한 검색 및 더 이상 사용에서 되지 않는 사용자 프로필을 삭제, 프로필 설정을 관리에 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProfileManager class provides static methods and properties that can be accessed by referencing the ProfileManager class in your application code.</source>
+          <target state="translated">ProfileManager 클래스는 응용 프로그램 코드에서 ProfileManager 클래스를 참조 하 여 액세스할 수 있는 정적 메서드 및 속성을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example, see the Example section in this topic and additional examples in the topics for members of the ProfileManager class.</source>
+          <target state="translated">예를 들어이 항목의 예제 섹션 및 항목의 추가 예 ProfileManager 클래스의 멤버에 대 한 참조입니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the user profile is disabled for all ASP.NET applications.</source>
+          <target state="translated">기본적으로 사용자 프로필은 모든 ASP.NET 응용 프로그램에 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To enable the user profile, set the <ph id="ph1">`enabled`</ph> attribute of the  configuration element to true, as shown in the following example.</source>
+          <target state="translated">사용자 프로필을 사용 하려면 설정는 <ph id="ph1">`enabled`</ph> true 이면 다음 예에서 같이 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;configuration&gt;     &lt;system.web&gt;       &lt;profile enabled="true" /&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>       For more information about the user profile, see <bpt id="p1">[</bpt>ASP.NET Profile Properties Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated"><ph id="ph1">```   &lt;configuration&gt;     &lt;system.web&gt;       &lt;profile enabled="true" /&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>사용자 프로필에 대 한 자세한 내용은 참조 <bpt id="p1">[</bpt>ASP.NET 프로필 속성 개요<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A profile provider is used to store and retrieve properties in the user profile.</source>
+          <target state="translated">프로필 공급자는 저장 하 고 사용자 프로필에 대 한 속성 검색 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework includes a &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class that stores user profile properties in a SQL Server database.</source>
+          <target state="translated">.NET framework는 &lt;xref:System.Web.Profile.SqlProfileProvider&gt;SQL Server 데이터베이스의 사용자 프로필 속성을 저장 하는 클래스입니다.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Web.Profile.SqlProfileProvider&gt; instance named <ph id="ph1">`AspNetSqlProvider`</ph> is specified in the machine configuration as the default profile provider.</source>
+          <target state="translated">A &lt;xref:System.Web.Profile.SqlProfileProvider&gt;명명 된 인스턴스 <ph id="ph1">`AspNetSqlProvider`</ph> 기본 프로필 공급자로 컴퓨터 구성에 지정 되어 있습니다.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`AspNetSqlProvider`</ph> instance connects to the SQL Server database on the local Web server.</source>
+          <target state="translated"><ph id="ph1">`AspNetSqlProvider`</ph> 인스턴스는 로컬 웹 서버에 SQL Server 데이터베이스에 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify a &lt;xref:System.Web.Profile.SqlProfileProvider&gt; that connects to another SQL Server as the default profile provider by using the  configuration element and the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element, as shown in the following example.</source>
+          <target state="translated">지정할 수는 &lt;xref:System.Web.Profile.SqlProfileProvider&gt;하는 다른 SQL Server 기본 프로필 공급자를 사용 하 여 연결 구성 요소 및 <ph id="ph1">`defaultProvider`</ph> 다음 예제와 같이 구성 요소의 특성.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adds a profile property programmatically.</source>
+          <target state="translated">프로필 속성을 프로그래밍 방식으로 추가합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is functionally equivalent to adding the property to the <ph id="ph1">`profile`</ph> section of the configuration file.</source>
+          <target state="translated">이 메서드는 기능적으로 해당 속성을 추가 하는 <ph id="ph1">`profile`</ph> 구성 파일의 섹션입니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To call this method to add the profile property, you must make the call in a method that is marked with the &lt;xref:System.Web.PreApplicationStartMethodAttribute&gt; attribute.</source>
+          <target state="translated">로 표시 된 메서드에서 호출 확인 해야 하는 프로필 속성을 추가 하려면이 메서드를 호출 하려면는 &lt;xref:System.Web.PreApplicationStartMethodAttribute&gt;특성.&lt;/xref:System.Web.PreApplicationStartMethodAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The property settings to be added.</source>
+          <target state="translated">추가할 속성 설정입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the application for which to store and retrieve profile information.</source>
+          <target state="translated">저장 하 고 프로필 정보를 검색에 대 한 응용 프로그램의 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Profile.ProfileManager&gt; uses the ApplicationName property to associate profile information with different applications.</source>
+          <target state="translated">&lt;xref:System.Web.Profile.ProfileManager&gt;ApplicationName 속성을 사용 하 여 다른 응용 프로그램과 함께 프로필 정보를 연결할 수 있습니다.&lt;/xref:System.Web.Profile.ProfileManager&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This enables multiple applications to use the same database to store user information without running into conflicts between duplicate users.</source>
+          <target state="translated">이렇게 하면 여러 응용 프로그램이 동일한 데이터베이스를 사용 하 여 중복 된 사용자 간의 충돌을 일으키지 않고 사용자 정보를 저장할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Multiple ASP.NET applications can use the same user database by specifying the same value in the ApplicationName property.</source>
+          <target state="translated">여러 ASP.NET 응용 프로그램 ApplicationName 속성에 동일한 값을 지정 하 여 동일한 사용자 데이터베이스를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ApplicationName property can be set programmatically, or it can be set declaratively in the configuration file for the Web application by using the <ph id="ph1">`applicationName`</ph> attribute.</source>
+          <target state="translated">ApplicationName 속성을 프로그래밍 방식으로 설정할 수 있습니다. 또는 사용 하 여 웹 응용 프로그램에 대 한 구성 파일에서 선언적으로 설정할 수 있습니다는 <ph id="ph1">`applicationName`</ph> 특성입니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a value is not specified for the <ph id="ph1">`applicationName`</ph> attribute in the configuration file for the Web application, then the profile providers included with the .NET Framework use the &lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt; property value for ASP.NET applications.</source>
+          <target state="translated">에 대 한 값을 지정 하지 않으면는 <ph id="ph1">`applicationName`</ph> 다음.NET Framework에 포함 된 프로필 공급자를 사용 하 여 웹 응용 프로그램에 대 한 구성 파일의 특성은 &lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;ASP.NET 응용 프로그램에 대 한 속성 값입니다.&lt;/xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For non-ASP.NET applications, the default value is the &lt;xref:System.Diagnostics.ProcessModule.ModuleName%2A&gt; property value, without the file extension.</source>
+          <target state="translated">기본값은 ASP.NET 이외의 응용 프로그램의 경우는 &lt;xref:System.Diagnostics.ProcessModule.ModuleName%2A&gt;파일 확장명을 제외한 속성 값.&lt;/xref:System.Diagnostics.ProcessModule.ModuleName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ApplicationName property exposes the &lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A?displayProperty=fullName&gt; property of the default profile provider.</source>
+          <target state="translated">ApplicationName 속성 노출 된 &lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A?displayProperty=fullName&gt;기본 프로필 공급자의 속성입니다.&lt;/xref:System.Configuration.SettingsProvider.ApplicationName%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they may be configured with a different application name.</source>
+          <target state="translated">사용자 프로필 기본 공급자가 아닌 프로필 공급자가 관리 하는 속성이 있으면 다른 응용 프로그램 이름으로 구성할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To access the application name of a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and access the &lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt; property of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자의 응용 프로그램 이름에 액세스 하려면 사용 하 여 프로필 공급자에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성 및 액세스는 &lt;xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt;직접 공급자의 속성입니다.&lt;/xref:System.Configuration.SettingsProvider.ApplicationName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because a single default profile provider instance is used for all of the requests served by an &lt;xref:System.Web.HttpApplication&gt; object, you can have multiple requests executing concurrently and attempting to set the ApplicationName property value.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 하나의 기본 프로필 공급자 인스턴스는 모든 요청에 의해 처리에 사용 되므로 &lt;xref:System.Web.HttpApplication&gt;개체를 동시에 실행 되 고 ApplicationName 속성 값을 설정 하는 여러 요청을 할 수 있습니다.&lt;/xref:System.Web.HttpApplication&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ApplicationName property is not thread safe for multiple writes, and changing the ApplicationName property value can result in unexpected behavior for multiple users of an application.</source>
+          <target state="translated">ApplicationName 속성이 스레드로부터 여러 쓰기 작업에 대해 안전 하지 않습니다. 및 응용 프로그램의 여러 사용자에 대 한 예기치 않은 동작이 발생할 수 있습니다 ApplicationName 속성 값을 변경 합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is recommended that you avoid writing code that allows users to set the ApplicationName property unless you require it.</source>
+          <target state="translated">사용자가 필요한 경우에 ApplicationName 속성을 설정할 수 있는 코드를 작성 하지 않는 것이 좋습니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of an application where setting the ApplicationName property may be required is an administrative application that manages profile data for multiple applications.</source>
+          <target state="translated">ApplicationName 속성을 설정 필요할 수 있는 응용 프로그램의 예로 여러 응용 프로그램에 대 한 프로필 데이터를 관리 하는 관리 응용 프로그램입니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such an application should be a single-user application and not a Web application.</source>
+          <target state="translated">단일 사용자 응용 프로그램 및 웹 응용 프로그램이 아닙니다. 이러한 응용 프로그램 이어야 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The name of the application for which to store and retrieve profile information.</source>
+          <target state="translated">프로필 정보 저장 및 검색을 응용 프로그램의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the user profile will be automatically saved at the end of the execution of an ASP.NET page.</source>
+          <target state="translated">ASP.NET 페이지의 실행의 끝에 사용자 프로필을 자동으로 저장 됩니다 있는지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AutomaticSaveEnabled property indicates whether automatic saving of the user profile is enabled for the application.</source>
+          <target state="translated">AutomaticSaveEnabled 속성은 사용자 프로필의 자동 저장 응용 프로그램에 대 한 사용 되는지 여부를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If automatic saving is enabled, the &lt;xref:System.Web.Profile.ProfileModule&gt; object raises the &lt;xref:System.Web.Profile.ProfileModule.ProfileAutoSaving&gt; event and calls the &lt;xref:System.Web.Profile.ProfileBase.Save%2A&gt; method during the &lt;xref:System.Web.HttpApplication.EndRequest&gt; event at the end of the execution of an ASP.NET page.</source>
+          <target state="translated">자동 저장을 사용 하는 경우는 &lt;xref:System.Web.Profile.ProfileModule&gt;발생 시키는 개체의 &lt;xref:System.Web.Profile.ProfileModule.ProfileAutoSaving&gt;이벤트 및 호출은 &lt;xref:System.Web.Profile.ProfileBase.Save%2A&gt;동안 메서드는 &lt;xref:System.Web.HttpApplication.EndRequest&gt;ASP.NET 페이지의 실행이 끝날 때 이벤트.&lt;/xref:System.Web.HttpApplication.EndRequest&gt; &lt;/xref:System.Web.Profile.ProfileBase.Save%2A&gt; &lt;/xref:System.Web.Profile.ProfileModule.ProfileAutoSaving&gt; &lt;/xref:System.Web.Profile.ProfileModule&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AutomaticSaveEnabled property is set using the <ph id="ph1">`automaticSaveEnabled`</ph> attribute of the  element in the Web.config file for an ASP.NET application.</source>
+          <target state="translated">사용 하 여 AutomaticSaveEnabled 속성이 설정 되어는 <ph id="ph1">`automaticSaveEnabled`</ph> ASP.NET 응용 프로그램에 대 한 Web.config 파일에서 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user profile will be automatically saved at the end of the execution of an ASP.NET page; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ASP.NET 페이지; 실행의 끝에 사용자 프로필을 자동으로 저장 됩니다 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An attempt was made to get the AutomaticSaveEnabled property value without at least <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> permission.</source>
+          <target state="translated">최소한 없이 AutomaticSaveEnabled 속성 값을 얻을 했습니다 <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 권한.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Deletes user profile data for which the last activity date and time occurred before the specified date and time.</source>
+          <target state="translated">마지막 작업 날짜 및 시간 발생 한 지정 된 날짜와 시간 이전의 사용자 프로필 데이터를 삭제 합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteInactiveProfiles method is used to remove unused profile data from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">DeleteInactiveProfiles 메서드를 사용 하 여에서 지정한 응용 프로그램에 대 한 데이터 원본에서 사용 되지 않는 프로필 데이터를 제거 하는 <ph id="ph1">`applicationName`</ph> 구성 파일에는 특성입니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`authenticationOption`</ph> 익명 프로필 사용할지 지정 하려면 매개 변수는 프로필 또는를 검색할 수 있는 모든 프로필에만 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, any profile with a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value is deleted.</source>
+          <target state="translated">검색된 된 프로필의와 프로필는 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;또는 지정 된 이전에 발생 하는 <ph id="ph1">`userInactiveSinceDate`</ph> 매개 변수 값이 삭제 됩니다.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteInactiveProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">DeleteInactiveProfiles 메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt;기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the profile information in the other data source is not deleted.</source>
+          <target state="translated">사용자 프로필에는 기본 공급자가 아닌 프로필 공급자가 관리 되는 속성이 포함 되어, 다른 데이터 소스에 프로필 정보는 삭제 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To delete inactive profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 하는 비활성 프로필을 삭제 하려면 사용 하 여 프로필 공급자에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are deleted.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열거 값을 익명으로 여부 인증 되었는지 또는 지정 두 가지 유형의 프로필 삭제 됩니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;사용자 프로필이 비활성 상태 인지를 식별 하는.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">경우는 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;사용자의 프로필 또는이 날짜 및 시간, 이전 프로필 비활성으로 간주 됩니다.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">데이터 소스에서 삭제 하는 프로필의 수입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Deletes the profile for the specified user name from the data source.</source>
+          <target state="translated">데이터 원본에서 지정된 된 사용자 이름에 대 한 프로필을 삭제합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfile method deletes all profile information and properties for the user profile for the specified <ph id="ph1">`username`</ph> from the data source for the specified &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;.</source>
+          <target state="translated">모든 프로필 정보 및 지정 된 사용자 프로필에 대 한 속성 DeleteProfile 메서드 삭제 <ph id="ph1">`username`</ph> &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;.&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; 지정된에 대 한 데이터 원본에서</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfile method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the default profile provider to perform the delete operation.</source>
+          <target state="translated">DeleteProfile 메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;삭제 작업을 수행 하려면 기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they are not deleted.</source>
+          <target state="translated">사용자 프로필 기본 공급자가 아닌 프로필 공급자가 관리 하는 속성이 있으면 삭제 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To delete profile properties that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 되는 프로필 속성을 삭제 하려면 사용 하 여 프로필 공급자에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The user name for the profile to be deleted.</source>
+          <target state="translated">삭제할 프로필에 대 한 사용자 이름입니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user profile was found and deleted; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>사용자 프로필을 찾아 삭제 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph> is an empty string ("") or contains a comma.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph>빈 문자열 ("") 또는 쉼표를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;username&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Deletes profile properties and information for the supplied list of user names.</source>
+          <target state="translated">프로필 속성 및 사용자 이름의 지정된 된 목록에 대 한 정보를 삭제합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfiles method deletes all profile information and properties for the specified profiles from the data source for the application specified by the &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; property.</source>
+          <target state="translated">지정한 응용 프로그램에 대 한 데이터 소스에서 지정된 된 프로필에 대 한 모든 속성과 프로필 정보를 삭제 하는 DeleteProfiles 메서드는 &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;속성.&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The list of profiles to delete is specified as a string array of user names.</source>
+          <target state="translated">삭제할 프로필 목록에 사용자 이름의 문자열 배열로 지정 됩니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If profile properties and information exist in the data source for a user name in the <ph id="ph1">`usernames`</ph> parameter, they are deleted.</source>
+          <target state="translated">프로필 속성 및 정보에 사용자 이름에 대 한 데이터 원본에 존재 하는 경우는 <ph id="ph1">`usernames`</ph> 매개 변수를 삭제 합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value may differ from the length of the specified array of <ph id="ph1">`usernames`</ph>.</source>
+          <target state="translated">반환 값의 지정 된 배열의 길이에서 다를 수 있습니다 <ph id="ph1">`usernames`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This indicates that some of the profiles in the specified array of <ph id="ph1">`usernames`</ph> were already deleted from the data store.</source>
+          <target state="translated">나타냅니다 지정된 된 배열에서 프로필의 일부 <ph id="ph1">`usernames`</ph> 데이터 저장소에서 이미 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">DeleteProfiles 메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they are not deleted.</source>
+          <target state="translated">사용자 프로필 기본 공급자가 아닌 프로필 공급자가 관리 하는 속성이 있으면 삭제 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To delete profile properties that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 되는 프로필 속성을 삭제 하려면 사용 하 여 프로필 공급자에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A string array of user names for profiles to be deleted.</source>
+          <target state="translated">삭제할 프로필에 대 한 사용자 이름의 문자열 배열입니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">데이터 소스에서 삭제 하는 프로필의 수입니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Deletes profile properties and information from the data source for the supplied list of profiles.</source>
+          <target state="translated">제공 된 프로필 목록에 대 한 데이터 원본에서 프로필 속성 및 정보를 삭제합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfiles method deletes all profile information and properties for the specified profiles from the data source for the application specified by the &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; property.</source>
+          <target state="translated">지정한 응용 프로그램에 대 한 데이터 소스에서 지정된 된 프로필에 대 한 모든 속성과 프로필 정보를 삭제 하는 DeleteProfiles 메서드는 &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;속성.&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The list of profiles to delete is specified using a &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; that is passed as the <ph id="ph1">`profiles`</ph> parameter.</source>
+          <target state="translated">삭제할 프로필 목록을 사용 하 여 지정 하는 &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;변수로 전달 되는 <ph id="ph1">`profiles`</ph> 매개 변수.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; can be returned from the &lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt;, &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;, &lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;, and &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; methods.</source>
+          <target state="translated">A &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;에서 반환 될 수는 &lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt;, &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;, &lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;, 및 &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;메서드.&lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the return value may differ from the &lt;xref:System.Web.Profile.ProfileInfoCollection.Count%2A&gt; value for the supplied &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated">Note 반환 값 &lt;xref:System.Web.Profile.ProfileInfoCollection.Count%2A&gt;제공 된 &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; 에 대 한 값&lt;/xref:System.Web.Profile.ProfileInfoCollection.Count%2A&gt; 과 다를 수 있습니다</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This indicates that some of the profiles in the specified &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; were already deleted from the data store.</source>
+          <target state="translated">있음을 나타냅니다에 지정 된 프로필 중 일부가 &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;데이터 저장소에서 이미 삭제 되었습니다.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A?displayProperty=fullName&gt; method of the default profile provider.</source>
+          <target state="translated">DeleteProfiles 메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A?displayProperty=fullName&gt;기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, they are not deleted.</source>
+          <target state="translated">사용자 프로필 기본 공급자가 아닌 프로필 공급자가 관리 하는 속성이 있으면 삭제 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To delete profile properties that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 되는 프로필 속성을 삭제 하려면 사용 하 여 프로필 공급자에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.DeleteProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains profile information for profiles to be deleted.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 삭제할 프로필에 대 한 프로필 정보를 포함 하 합니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The number of profiles deleted from the data source.</source>
+          <target state="translated">데이터 소스에서 삭제 하는 프로필의 수입니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the user profile is enabled for the application.</source>
+          <target state="translated">응용 프로그램에 대 한 사용자 프로필 사용 되는지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user profile is enabled for an application using the <ph id="ph1">`enabled`</ph> attribute of the  configuration element.</source>
+          <target state="translated">사용자 프로 파일을 사용 하 여 응용 프로그램에 대 한 활성화는 <ph id="ph1">`enabled`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user profile is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>사용자 프로필을 사용 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Retrieves profile information for all profiles in which the last activity date occurred on or before the specified date and time and the user name for the profile matches the specified name.</source>
+          <target state="translated">또는 지정한 날짜 이전에 발생 했습니다. 마지막 작업 날짜 및 시간과 프로필에 대 한 사용자 이름에 지정된 된 이름과 일치 하는 모든 프로필에 대 한 프로필 정보를 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindInactiveProfilesByUserName method is used to retrieve profile information for all unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">지정한 응용 프로그램에 대 한 모든 사용 하지 않는 사용자 프로필에 대 한 프로필 정보를 검색 하 고 FindInactiveProfilesByUserName 메서드를 사용 하는 <ph id="ph1">`applicationName`</ph> 구성 파일에는 특성입니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will only retrieve profiles for which the profile user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value.</source>
+          <target state="translated">이 메서드는 프로필 사용자 이름이 일치 하는 제공 된 프로필 검색 <ph id="ph1">`usernameToMatch`</ph> 매개 변수 값입니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`authenticationOption`</ph> 익명 프로필 사용할지 지정 하려면 매개 변수는 프로필 또는를 검색할 수 있는 모든 프로필에만 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, any profile with a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value is returned.</source>
+          <target state="translated">검색된 된 프로필의와 프로필는 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;또는 지정 된 이전에 발생 하는 <ph id="ph1">`userInactiveSinceDate`</ph> 매개 변수 값이 반환 됩니다.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can retrieve this information in pages of data using the overload for the &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%28System.Web.Profile.ProfileAuthenticationOption%2CSystem.String%2CSystem.DateTime%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40%29&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">에 대 한 오버 로드를 사용 하 여 데이터 페이지에서이 정보를 검색할 수는 &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%28System.Web.Profile.ProfileAuthenticationOption%2CSystem.String%2CSystem.DateTime%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40%29&gt;추가로 사용 하는 메서드 <ph id="ph1">`pageIndex`</ph> 및 <ph id="ph2">`pageSize`</ph> 매개 변수.&lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%28System.Web.Profile.ProfileAuthenticationOption%2CSystem.String%2CSystem.DateTime%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40%29&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Your profile provider may support wildcard characters in the <ph id="ph2">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 프로필 공급자에서 와일드 카드 문자를 지원할 수 있습니다는 <ph id="ph2">`usernameToMatch`</ph> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">예를 들어는 &lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;의 메서드는 &lt;xref:System.Web.Profile.SqlProfileProvider&gt;클래스에서 와일드 카드 문자는 지원의 <ph id="ph1">`usernameToMatch`</ph> 매개 변수.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindInactiveProfilesByUserName method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A?displayProperty=fullName&gt; method of the default profile provider.</source>
+          <target state="translated">FindInactiveProfilesByUserName 메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A?displayProperty=fullName&gt;기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">사용자 프로필에는 기본 공급자가 아닌 프로필 공급자가 관리 되는 속성이 포함 되어, 다른 프로필 공급자에 대 한 데이터 원본 검색 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find inactive profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 하는 비활성 프로필을 찾으려면 프로필 공급자를 사용 하 여에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열거 값을 익명으로 여부 인증 되었는지 또는 지정 두 가지 유형의 프로필 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">검색할 사용자 이름입니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;사용자 프로필이 비활성 상태 인지를 식별 하는.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">경우는 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;사용자의 프로필 또는이 날짜 및 시간, 이전 프로필 비활성으로 간주 됩니다.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for inactive profiles in which the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용자 이름과 일치는 제공 된 비활성 프로필에 대 한 사용자 프로필 정보를 포함 하 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>빈 문자열 ("").</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Retrieves profile information in pages of data for profiles in which the last activity date occurred on or before the specified date and time and the user name for the profile matches the specified name.</source>
+          <target state="translated">또는 지정한 날짜 이전에 발생 했습니다. 마지막 작업 날짜 및 시간과 프로필에 대 한 사용자 이름에 지정된 된 이름과 일치 하는 프로필에 대 한 데이터 페이지에서 프로필 정보를 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindInactiveProfilesByUserName method is used to retrieve profile information for unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">지정한 응용 프로그램에 대 한 사용 되지 않는 사용자 프로필에 대 한 프로필 정보를 검색 하 고 FindInactiveProfilesByUserName 메서드를 사용 하는 <ph id="ph1">`applicationName`</ph> 구성 파일에는 특성입니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will only retrieve profiles for which the user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value.</source>
+          <target state="translated">이 메서드는 사용자 이름이 제공 된 일치 하는 프로필 검색 <ph id="ph1">`usernameToMatch`</ph> 매개 변수 값입니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`authenticationOption`</ph> 익명 프로필 사용할지 지정 하려면 매개 변수는 프로필 또는를 검색할 수 있는 모든 프로필에만 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, any profile is returned that has a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">검색된 된 프로필의 모든 프로필이 반환 됩니다는 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;또는 지정 된 이전에 발생 하는 <ph id="ph1">`userInactiveSinceDate`</ph> 매개 변수 값.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results returned by FindInactiveProfilesByUserName are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">의해 제한 되는 FindInactiveProfilesByUserName에서 반환 된 결과 <ph id="ph1">`pageIndex`</ph> 및 <ph id="ph2">`pageSize`</ph> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; collection.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph> 의 최대 수를 식별 하는 매개 변수 &lt;xref:System.Web.Profile.ProfileInfo&gt;에서 반환 하는 개체는 &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;컬렉션.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; &lt;/xref:System.Web.Profile.ProfileInfo&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; 0 identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph> 매개 변수를 반환할 결과 페이지를 식별; 0 첫 번째 페이지를 식별 합니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the <ph id="ph4">`authenticationOption`</ph> and <ph id="ph5">`userInactiveSinceDate`</ph> parameters.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> 매개 변수는 한 <ph id="ph2">`out`</ph> 구성 된 비활성 사용자 프로필의 총 수로 설정 된 매개 변수 <ph id="ph3">`applicationName`</ph>에 따라는 <ph id="ph4">`authenticationOption`</ph> 및 <ph id="ph5">`userInactiveSinceDate`</ph> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is 1 with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth inactive profiles.</source>
+          <target state="translated">예를 들어 13 명의 사용자가 구성 된 경우 <ph id="ph1">`applicationName`</ph>, 및 <ph id="ph2">`pageIndex`</ph> 값이 1는 <ph id="ph3">`pageSize`</ph> 5는 &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;반환 된에 6 번째부터 10 번째까지의 비활성 프로필을 포함 합니다.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> 매개 변수는 13으로 설정 됩니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that your profile provider may support wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">프로필 공급자에서 와일드 카드 문자를 지원 될 수 있습니다는 <ph id="ph1">`usernameToMatch`</ph> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">예를 들어는 &lt;xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;의 메서드는 &lt;xref:System.Web.Profile.SqlProfileProvider&gt;클래스에서 와일드 카드 문자는 지원의 <ph id="ph1">`usernameToMatch`</ph> 매개 변수.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindInactiveProfilesByUserName method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the default profile provider.</source>
+          <target state="translated">FindInactiveProfilesByUserName 메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">사용자 프로필에는 기본 공급자가 아닌 프로필 공급자가 관리 되는 속성이 포함 되어, 다른 프로필 공급자에 대 한 데이터 원본 검색 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find inactive profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 하는 비활성 프로필을 찾으려면 프로필 공급자를 사용 하 여에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값, 익명으로 여부 인증 되었는지 또는 지정 두 가지 유형의 프로필 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">검색할 사용자 이름입니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;사용자 프로필이 비활성 상태 인지를 식별 하는.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">경우는 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;사용자의 프로필 또는이 날짜 및 시간, 이전 프로필 비활성으로 간주 됩니다.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">반환할 결과 페이지의 인덱스입니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>0부터 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">반환할 결과 페이지의 크기입니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">이 메서드가 반환 될 때 프로필의 총 수를 식별 하는 정수를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">이 매개 변수는 초기화 되지 않은 상태로 전달 됩니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for inactive profiles where the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용자 일치 하는 이름이 제공 된 비활성 프로필에 대 한 사용자 프로필 정보를 포함 하 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Retrieves all profile information for profiles in which the user name matches the specified name.</source>
+          <target state="translated">사용자 이름이 지정된 된 이름과 일치 하는 프로필에 대 한 모든 프로필 정보를 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindProfilesByUserName method returns a list of all profile information for which the user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value for the configured &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; property value.</source>
+          <target state="translated">모든 프로필에 대 한 정보는 사용자 이름이 제공 된 일치 하는 목록을 반환 하는 FindProfilesByUserName 메서드 <ph id="ph1">`usernameToMatch`</ph> 구성 된 매개 변수 값 &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;속성 값.&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`authenticationOption`</ph> 익명 프로필 사용할지 지정 하려면 매개 변수는 프로필 또는를 검색할 수 있는 모든 프로필에만 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can retrieve profile information for user profiles in pages of data using the overload for the &lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">사용자 프로필에 대 한 오버 로드를 사용 하 여 데이터의 페이지에 대 한 프로필 정보를 검색할 수는 &lt;xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;추가로 사용 하는 메서드 <ph id="ph1">`pageIndex`</ph> 및 <ph id="ph2">`pageSize`</ph> 매개 변수.&lt;/xref:System.Web.Profile.ProfileManager.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that your profile provider may support wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">프로필 공급자에서 와일드 카드 문자를 지원 될 수 있습니다는 <ph id="ph1">`usernameToMatch`</ph> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">예를 들어는 &lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;의 메서드는 &lt;xref:System.Web.Profile.SqlProfileProvider&gt;클래스에서 와일드 카드 문자는 지원의 <ph id="ph1">`usernameToMatch`</ph> 매개 변수.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindProfilesByUserName method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt; method of the default profile provider.</source>
+          <target state="translated">FindProfilesByUserName 메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt;기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">사용자 프로필에는 기본 공급자가 아닌 프로필 공급자가 관리 되는 속성이 포함 되어, 다른 프로필 공급자에 대 한 데이터 원본 검색 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 하는 프로필을 찾으려면 프로필 공급자를 사용 하 여에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.FindProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열거 값을 익명으로 여부 인증 되었는지 또는 지정 두 가지 유형의 프로필 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">검색할 사용자 이름입니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for profiles where the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용자 일치 하는 이름이 제공 된 프로필에 대 한 사용자 프로필 정보를 포함 하 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>빈 문자열 ("").</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Retrieves profile information in pages of data for profiles in which the user name matches the specified name.</source>
+          <target state="translated">사용자 이름이 지정된 된 이름과 일치 하는 프로필에 대 한 데이터 페이지에서 프로필 정보를 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; method returns a list of profile information for which the profile user name matches the supplied <ph id="ph1">`usernameToMatch`</ph> parameter value of the configured &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;메서드는 프로필 사용자 이름이 일치 하는 제공 된 프로필 정보 목록을 반환 <ph id="ph1">`usernameToMatch`</ph> 매개 변수 값으로 구성 된 &lt;xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt;.&lt;/xref:System.Web.Profile.ProfileManager.ApplicationName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`authenticationOption`</ph> 익명 프로필 사용할지 지정 하려면 매개 변수는 프로필 또는를 검색할 수 있는 모든 프로필에만 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that your profile provider may support wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">프로필 공급자에서 와일드 카드 문자를 지원 될 수 있습니다는 <ph id="ph1">`usernameToMatch`</ph> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt; method of the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; class supports wildcard characters in the <ph id="ph1">`usernameToMatch`</ph> parameter.</source>
+          <target state="translated">예를 들어는 &lt;xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;의 메서드는 &lt;xref:System.Web.Profile.SqlProfileProvider&gt;클래스에서 와일드 카드 문자는 지원의 <ph id="ph1">`usernameToMatch`</ph> 매개 변수.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt; &lt;/xref:System.Web.Profile.SqlProfileProvider.FindProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results returned by FindProfilesByUserName are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">의해 제한 되는 FindProfilesByUserName에서 반환 된 결과 <ph id="ph1">`pageIndex`</ph> 및 <ph id="ph2">`pageSize`</ph> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph> &lt;xref:System.Web.Profile.ProfileInfo&gt; &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; 반환할 개체&lt;/xref:System.Web.Profile.ProfileInfo&gt; 의 최대 수를 식별 하는 매개 변수</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph> ; 반환할 결과 페이지를 식별 하는 매개 변수&amp;0; 첫 번째 페이지를 식별 합니다.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the application specified by the <ph id="ph3">`applicationName`</ph> attribute in the configuration file, based on the supplied <ph id="ph4">`authenticationOption`</ph>.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> 매개 변수는 한 <ph id="ph2">`out`</ph> 비활성 사용자 프로필에서 지정한 응용 프로그램에 대 한 총 수로 설정 된 매개 변수는 <ph id="ph3">`applicationName`</ph> 구성 파일에서 특성을 기반으로 제공 된 <ph id="ph4">`authenticationOption`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is 1 with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth profiles.</source>
+          <target state="translated">예를 들어 13 명의 사용자가 구성 된 경우 <ph id="ph1">`applicationName`</ph>, 및 <ph id="ph2">`pageIndex`</ph> 값이 1는 <ph id="ph3">`pageSize`</ph> 5는 &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;반환 된 6 번째부터 10 번째까지의 프로필이 포함 합니다.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> 매개 변수는 13으로 설정 됩니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt; method calls the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the default profile provider.</source>
+          <target state="translated">&lt;xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.FindInactiveProfilesByUserName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">사용자 프로필에는 기본 공급자가 아닌 프로필 공급자가 관리 되는 속성이 포함 되어, 다른 프로필 공급자에 대 한 데이터 원본 검색 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 하는 프로필을 찾으려면 프로필 공급자를 사용 하 여에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.FindInactiveProfilesByUserName%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열거 값을 익명으로 여부 인증 되었는지 또는 지정 두 가지 유형의 프로필 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The user name for which to search.</source>
+          <target state="translated">검색할 사용자 이름입니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">반환할 결과 페이지의 인덱스입니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>0부터 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">반환할 결과 페이지의 크기입니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">이 메서드가 반환 될 때 프로필의 총 수를 식별 하는 정수를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">이 매개 변수는 초기화 되지 않은 상태로 전달 됩니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for profiles where the user name matches the supplied <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">usernameToMatch</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용자 일치 하는 이름이 제공 된 프로필에 대 한 사용자 프로필 정보를 포함 하 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">usernameToMatch</ph> <ept id="p2">&lt;/code&gt;</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;usernameToMatch&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Retrieves all user profile data for profiles in which the last activity date occurred on or before the specified date and time.</source>
+          <target state="translated">마지막 작업 날짜 이거나 지정 된 날짜와 시간 이전의 프로필에 대 한 모든 사용자 프로필 데이터를 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllInactiveProfiles method is used to retrieve profile information from the data source for all unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">지정한 응용 프로그램에 대 한 모든 사용 하지 않는 사용자 프로필에 대 한 데이터 원본에서 프로필 정보를 검색 하 고 GetAllInactiveProfiles 메서드를 사용 하는 <ph id="ph1">`applicationName`</ph> 구성 파일에는 특성입니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`authenticationOption`</ph> 익명 프로필 사용할지 지정 하려면 매개 변수는 프로필 또는를 검색할 수 있는 모든 프로필에만 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, any profile is returned that has a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">검색된 된 프로필의 모든 프로필이 반환 됩니다는 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;또는 지정 된 이전에 발생 하는 <ph id="ph1">`userInactiveSinceDate`</ph> 매개 변수 값.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can retrieve profile information for inactive user profiles in pages of data using the overload for the &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">비활성 사용자 프로필에 대 한 오버 로드를 사용 하 여 데이터의 페이지에 대 한 프로필 정보를 검색할 수는 &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;추가로 사용 하는 메서드 <ph id="ph1">`pageIndex`</ph> 및 <ph id="ph2">`pageSize`</ph> 매개 변수.&lt;/xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllInactiveProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">GetAllInactiveProfiles 메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">사용자 프로필에는 기본 공급자가 아닌 프로필 공급자가 관리 되는 속성이 포함 되어, 다른 프로필 공급자에 대 한 데이터 원본 검색 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find unused profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 되는 사용 되지 않는 프로필을 찾으려면 프로필 공급자를 사용 하 여에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열거 값을 익명으로 여부 인증 되었는지 또는 지정 두 가지 유형의 프로필 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;사용자 프로필이 비활성 상태 인지를 식별 하는.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">경우는 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;사용자의 프로필 또는이 날짜 및 시간, 이전 프로필 비활성으로 간주 됩니다.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information about the inactive profiles.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 비활성 프로필에 대 한 사용자 프로필 정보를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Retrieves a page of <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for user profiles in which the last activity date occurred on or before the specified date and time.</source>
+          <target state="translated">페이지를 검색 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용자 프로필의 마지막 작업 날짜 또는 지정 된 날짜 및 시간 이전에 대 한 개체입니다.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllInactiveProfiles method is used to retrieve profile information from the data source for unused user profiles for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">지정한 응용 프로그램에 대 한 사용 되지 않는 사용자 프로필에 대 한 데이터 원본에서 프로필 정보를 검색 하 고 GetAllInactiveProfiles 메서드를 사용 하는 <ph id="ph1">`applicationName`</ph> 구성 파일에는 특성입니다.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`authenticationOption`</ph> 익명 프로필 사용할지 지정 하려면 매개 변수는 프로필 또는를 검색할 수 있는 모든 프로필에만 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, any profile is returned that has a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">검색된 된 프로필의 모든 프로필이 반환 됩니다는 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;이전인 지정 된 <ph id="ph1">`userInactiveSinceDate`</ph> 매개 변수 값.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results returned by GetAllInactiveProfiles are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">의해 제한 되는 GetAllInactiveProfiles에서 반환 된 결과 <ph id="ph1">`pageIndex`</ph> 및 <ph id="ph2">`pageSize`</ph> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph> &lt;xref:System.Web.Profile.ProfileInfo&gt; &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; 반환할 개체&lt;/xref:System.Web.Profile.ProfileInfo&gt; 의 최대 수를 식별 하는 매개 변수</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph> ; 반환할 결과 페이지를 식별 하는 매개 변수&amp;0; 첫 번째 페이지를 식별 합니다.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the <ph id="ph4">`authenticationOption`</ph> and <ph id="ph5">`userInactiveSinceDate`</ph> parameters.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> 매개 변수는 한 <ph id="ph2">`out`</ph> 구성 된 비활성 사용자 프로필의 총 수로 설정 된 매개 변수 <ph id="ph3">`applicationName`</ph>에 따라는 <ph id="ph4">`authenticationOption`</ph> 및 <ph id="ph5">`userInactiveSinceDate`</ph> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is one with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth inactive profiles.</source>
+          <target state="translated">예를 들어 13 명의 사용자가 구성 된 경우 <ph id="ph1">`applicationName`</ph>, 및 <ph id="ph2">`pageIndex`</ph> 값이 1는 <ph id="ph3">`pageSize`</ph> 5는 &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;반환 된에 6 번째부터 10 번째까지의 비활성 프로필을 포함 합니다.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> 매개 변수는 13으로 설정 됩니다.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllInactiveProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">GetAllInactiveProfiles 메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">사용자 프로필에는 기본 공급자가 아닌 프로필 공급자가 관리 되는 속성이 포함 되어, 다른 프로필 공급자에 대 한 데이터 원본 검색 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 하는 프로필을 찾으려면 프로필 공급자를 사용 하 여에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllInactiveProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열거 값을 익명으로 여부 인증 되었는지 또는 지정 두 가지 유형의 프로필 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;사용자 프로필이 비활성 상태 인지를 식별 하는.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">경우는 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;사용자의 프로필 또는이 날짜 및 시간, 이전 프로필 비활성으로 간주 됩니다.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">반환할 결과 페이지의 인덱스입니다.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>0부터 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">반환할 결과 페이지의 크기입니다.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">이 메서드가 반환 될 때 프로필의 총 수를 식별 하는 정수를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">이 매개 변수는 초기화 되지 않은 상태로 전달 됩니다.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information about the inactive profiles.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 비활성 프로필에 대 한 사용자 프로필 정보를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Retrieves user profile data for profiles in the data source.</source>
+          <target state="translated">프로필 데이터 원본에 대 한 사용자 프로필 데이터를 검색합니다.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllProfiles method is used to retrieve profile information from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">지정한 응용 프로그램에 대 한 데이터 원본에서 프로필 정보를 검색 하 고 GetAllProfiles 메서드를 사용 하는 <ph id="ph1">`applicationName`</ph> 구성 파일에는 특성입니다.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`authenticationOption`</ph> 익명 프로필 사용할지 지정 하려면 매개 변수는 프로필 또는를 검색할 수 있는 모든 프로필에만 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can retrieve pages of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects for user profiles using the overload for the &lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt; method that takes additional <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">페이지를 검색할 수 있습니다 &lt;xref:System.Web.Profile.ProfileInfo&gt;에 대 한 오버 로드를 사용 하 여 사용자 프로필에 대 한 개체는 &lt;xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt;추가로 사용 하는 메서드 <ph id="ph1">`pageIndex`</ph> 및 <ph id="ph2">`pageSize`</ph> 매개 변수.&lt;/xref:System.Web.Profile.ProfileManager.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileInfo&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">GetAllProfiles 메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">사용자 프로필에는 기본 공급자가 아닌 프로필 공급자가 관리 되는 속성이 포함 되어, 다른 프로필 공급자에 대 한 데이터 원본 검색 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 하는 프로필을 찾으려면 프로필 공급자를 사용 하 여에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열거 값을 익명으로 여부 인증 되었는지 또는 지정 두 가지 유형의 프로필 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for all of the profiles in the data source.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 의 모든 데이터 원본에 대 한 프로필에 대 한 사용자 프로필 정보를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Retrieves pages of user profile data.</source>
+          <target state="translated">사용자 프로필 데이터의 페이지를 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllProfiles method is used to retrieve profile information from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">지정한 응용 프로그램에 대 한 데이터 원본에서 프로필 정보를 검색 하 고 GetAllProfiles 메서드를 사용 하는 <ph id="ph1">`applicationName`</ph> 구성 파일에는 특성입니다.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`authenticationOption`</ph> 익명 프로필 사용할지 지정 하려면 매개 변수는 프로필 또는를 검색할 수 있는 모든 프로필에만 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results returned by &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt; are constrained by the <ph id="ph1">`pageIndex`</ph> and <ph id="ph2">`pageSize`</ph> parameters.</source>
+          <target state="translated">반환 된 결과 &lt;xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;의해 제한 되는 <ph id="ph1">`pageIndex`</ph> 및 <ph id="ph2">`pageSize`</ph> 매개 변수.&lt;/xref:System.Web.Profile.ProfileManager.GetAllInactiveProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageSize`</ph> parameter identifies the maximum number of &lt;xref:System.Web.Profile.ProfileInfo&gt; objects to return in the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.</source>
+          <target state="translated"><ph id="ph1">`pageSize`</ph> &lt;xref:System.Web.Profile.ProfileInfo&gt; &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt; 반환할 개체&lt;/xref:System.Web.Profile.ProfileInfo&gt; 의 최대 수를 식별 하는 매개 변수</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`pageIndex`</ph> parameter identifies which page of results to return; zero identifies the first page.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph> ; 반환할 결과 페이지를 식별 하는 매개 변수&amp;0; 첫 번째 페이지를 식별 합니다.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter is an <ph id="ph2">`out`</ph> parameter that is set to the total number of inactive user profiles for the configured <ph id="ph3">`applicationName`</ph>, based on the supplied <ph id="ph4">`authenticationOption`</ph>.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> 매개 변수는 한 <ph id="ph2">`out`</ph> 구성 된 비활성 사용자 프로필의 총 수로 설정 된 매개 변수 <ph id="ph3">`applicationName`</ph>, 제공 된 기준 <ph id="ph4">`authenticationOption`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if there are 13 users for the configured <ph id="ph1">`applicationName`</ph>, and the <ph id="ph2">`pageIndex`</ph> value is one with a <ph id="ph3">`pageSize`</ph> of 5, the &lt;xref:System.Web.Profile.ProfileInfoCollection&gt; returned will contain the sixth through the tenth profiles.</source>
+          <target state="translated">예를 들어 13 명의 사용자가 구성 된 경우 <ph id="ph1">`applicationName`</ph>, 및 <ph id="ph2">`pageIndex`</ph> 값이 1는 <ph id="ph3">`pageSize`</ph> 5는 &lt;xref:System.Web.Profile.ProfileInfoCollection&gt;반환 된 6 번째부터 10 번째까지의 프로필이 포함 합니다.&lt;/xref:System.Web.Profile.ProfileInfoCollection&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`totalRecords`</ph> parameter will be set to 13.</source>
+          <target state="translated"><ph id="ph1">`totalRecords`</ph> 매개 변수는 13으로 설정 됩니다.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetAllProfiles method calls the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the default profile provider.</source>
+          <target state="translated">GetAllProfiles 메서드 호출의 &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;기본 프로필 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default profile provider is specified using the <ph id="ph1">`defaultProvider`</ph> attribute of the  configuration element.</source>
+          <target state="translated">기본 프로필 공급자를 사용 하 여 지정 된 <ph id="ph1">`defaultProvider`</ph> 구성 요소의 특성입니다.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the user profile contains properties that are managed by a profile provider other than the default provider, the data source for the other profile provider is not searched.</source>
+          <target state="translated">사용자 프로필에는 기본 공급자가 아닌 프로필 공급자가 관리 되는 속성이 포함 되어, 다른 프로필 공급자에 대 한 데이터 원본 검색 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find profiles that are managed by a profile provider other than the default provider, obtain a reference to the profile provider using the &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt; property and call the &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; method of the provider directly.</source>
+          <target state="translated">기본 공급자가 아닌 프로필 공급자가 관리 하는 프로필을 찾으려면 프로필 공급자를 사용 하 여에 대 한 참조를 가져올는 &lt;xref:System.Web.Profile.ProfileManager.Providers%2A&gt;속성과 호출은 &lt;xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt;직접 공급자의.&lt;/xref:System.Web.Profile.ProfileProvider.GetAllProfiles%2A&gt; &lt;/xref:System.Web.Profile.ProfileManager.Providers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열거 값을 익명으로 여부 인증 되었는지 또는 지정 두 가지 유형의 프로필 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The index of the page of results to return.</source>
+          <target state="translated">반환할 결과 페이지의 인덱스입니다.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`pageIndex`</ph> is zero-based.</source>
+          <target state="translated"><ph id="ph1">`pageIndex`</ph>0부터 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The size of the page of results to return.</source>
+          <target state="translated">반환할 결과 페이지의 크기입니다.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an integer that identifies the total number of profiles.</source>
+          <target state="translated">이 메서드가 반환 될 때 프로필의 총 수를 식별 하는 정수를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">이 매개 변수는 초기화 되지 않은 상태로 전달 됩니다.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing user profile information for all of the profiles in the data source.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 의 모든 데이터 원본에 대 한 프로필에 대 한 사용자 프로필 정보를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Gets the number of profiles in which the last activity date occurred on or before the specified date.</source>
+          <target state="translated">지정한 날짜 이전 프로필의 마지막 작업 날짜 수를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetNumberOfInactiveProfiles method is used to retrieve a count of all of the unused user profiles from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">고 GetNumberOfInactiveProfiles 메서드를 사용 하 여 지정 된 응용 프로그램에 대 한 데이터 원본에서 모든 사용 하지 않는 사용자 프로필의 수를 검색 하는 <ph id="ph1">`applicationName`</ph> 구성 파일에는 특성입니다.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`authenticationOption`</ph> 익명 프로필 사용할지 지정 하려면 매개 변수는 프로필 또는를 검색할 수 있는 모든 프로필에만 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the searched profiles, all profiles are counted that have a &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt; that occurs on or before the specified <ph id="ph1">`userInactiveSinceDate`</ph> parameter value.</source>
+          <target state="translated">검색된 된 프로필의 모든 프로필이 계산 되는 한 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;또는 지정 된 이전에 발생 하는 <ph id="ph1">`userInactiveSinceDate`</ph> 매개 변수 값.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열거 값을 익명으로 여부 인증 되었는지 또는 지정 두 가지 유형의 프로필 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; object that identifies which user profiles are considered inactive.</source>
+          <target state="translated">A &lt;xref:System.DateTime&gt;사용자 프로필이 비활성 상태 인지를 식별 하는 개체입니다.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt; of a user profile occurs on or before this date and time, the profile is considered inactive.</source>
+          <target state="translated">경우는 &lt;xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;사용자의 프로필 또는이 날짜 및 시간, 이전 프로필 비활성으로 간주 됩니다.&lt;/xref:System.Web.Profile.ProfileInfo.LastActivityDate*&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The number of profiles in the data source for which the last activity date occurred before the specified date and time.</source>
+          <target state="translated">지정 된 날짜와 시간 이전의 마지막 작업 날짜 발생 한 데이터 원본에서 프로필의 수입니다.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Gets the number of profiles in the data source.</source>
+          <target state="translated">데이터 원본에서 프로필의 수를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetNumberOfProfiles method is used to retrieve a count of all of the user profiles from the data source for the application specified by the <ph id="ph1">`applicationName`</ph> attribute in the configuration file.</source>
+          <target state="translated">고 GetNumberOfProfiles 메서드를 사용 하 여 지정 된 응용 프로그램에 대 한 데이터 원본의 모든 사용자 프로필의 수를 검색 하는 <ph id="ph1">`applicationName`</ph> 구성 파일에는 특성입니다.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`authenticationOption`</ph> parameter to specify whether you want only anonymous profiles, only authenticated profiles, or all profiles to be searched.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`authenticationOption`</ph> 익명 프로필 사용할지 지정 하려면 매개 변수는 프로필 또는를 검색할 수 있는 모든 프로필에만 인증 합니다.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values, specifying whether anonymous, authenticated, or both types of profiles are returned.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileAuthenticationOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열거 값을 익명으로 여부 인증 되었는지 또는 지정 두 가지 유형의 프로필 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The number of profiles in the data source.</source>
+          <target state="translated">데이터 원본에서 프로필의 수입니다.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the default profile provider for the application.</source>
+          <target state="translated">응용 프로그램에 대 한 기본 프로필 공급자에 대 한 참조를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Provider property enables you to reference the default profile provider for an application directly.</source>
+          <target state="translated">공급자 속성을 사용 하면 응용 프로그램에 대 한 기본 프로필 공급자를 직접 참조할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is commonly used to access custom members of the profile provider that are not part of the &lt;xref:System.Web.Profile.ProfileProvider&gt; abstract base class.</source>
+          <target state="translated">이 일반적으로 &lt;xref:System.Web.Profile.ProfileProvider&gt;추상 기본 클래스로&lt;/xref:System.Web.Profile.ProfileProvider&gt; 의 일부분이 아닌 프로필 공급자의 사용자 지정 멤버에 액세스 사용</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The default profile provider for the application.</source>
+          <target state="translated">응용 프로그램에 대 한 기본 프로필 공급자입니다.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>An attempt was made to get the Provider property value without at least <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> permission.</source>
+          <target state="translated">최소한 없이 공급자 속성 값을 얻을 했습니다 <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 권한.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the profile providers for the ASP.NET application.</source>
+          <target state="translated">ASP.NET 응용 프로그램에 대 한 프로필 공급자의 컬렉션을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Providers property references all of the profile providers enabled for an application, including providers added in the machine configuration and providers added in all Web.config files.</source>
+          <target state="translated">컴퓨터 구성 및 모든 Web.config 파일에 추가 하는 공급자에서 추가 공급자를 포함 하 여 공급자 속성 모든 응용 프로그램에 대해 사용 가능한 프로필 공급자를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can control which profile providers are available for an application using the  element of the  section in the configuration file.</source>
+          <target state="translated">구성 파일에서 섹션의 요소를 사용 하 여 응용 프로그램에 사용할 수 있는 프로필 공급자를 제어할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following Web.config file removes the profile providers specified in parent configuration files and adds a &lt;xref:System.Web.Profile.SqlProfileProvider&gt; instance as the profile provider for the application.</source>
+          <target state="translated">다음 Web.config 파일은 부모 구성 파일에 지정 된 프로필 공급자를 제거 하 고 추가 하는 예를 들어 한 &lt;xref:System.Web.Profile.SqlProfileProvider&gt;인스턴스 응용 프로그램에 대 한 프로필 공급자로.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;configuration&gt;     &lt;connectionStrings&gt;       &lt;add name="SqlServices" connectionString=         "Data Source=MySqlServer;Integrated Security=SSPI;Initial Catalog=aspnetdb;" /&gt;     &lt;/connectionStrings&gt;     &lt;system.web&gt;       &lt;profile enabled="true" defaultProvider="SqlProvider"&gt;         &lt;providers&gt;           &lt;clear /&gt;           &lt;add name="SqlProvider"             type="System.Web.Profile.SqlProfileProvider"             connectionStringName="SqlServices"             applicationName="MyApplication" /&gt;         &lt;/providers&gt;       &lt;/profile&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>       When specifying the  section, you must specify a default provider by setting the <ph id="ph2">`defaultProvider`</ph> attribute.</source>
+          <target state="translated"><ph id="ph1">```   &lt;configuration&gt;     &lt;connectionStrings&gt;       &lt;add name="SqlServices" connectionString=         "Data Source=MySqlServer;Integrated Security=SSPI;Initial Catalog=aspnetdb;" /&gt;     &lt;/connectionStrings&gt;     &lt;system.web&gt;       &lt;profile enabled="true" defaultProvider="SqlProvider"&gt;         &lt;providers&gt;           &lt;clear /&gt;           &lt;add name="SqlProvider"             type="System.Web.Profile.SqlProfileProvider"             connectionStringName="SqlServices"             applicationName="MyApplication" /&gt;         &lt;/providers&gt;       &lt;/profile&gt;     &lt;/system.web&gt;   &lt;/configuration&gt;   ```</ph>섹션을 지정할 때 설정 하 여 기본 공급자를 지정 해야는 <ph id="ph2">`defaultProvider`</ph> 특성입니다.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not specify a  section in your Web.config file, the values from the machine configuration are used and the &lt;xref:System.Web.Profile.SqlProfileProvider&gt; instance named AspNetSqlProvider is established as the default provider.</source>
+          <target state="translated">Web.config 파일의 섹션을 지정 하지 않는 컴퓨터 구성에서 값이 사용 되 고 &lt;xref:System.Web.Profile.SqlProfileProvider&gt;AspNetSqlProvider 명명 된 인스턴스는 기본 공급자로 설정 됩니다.&lt;/xref:System.Web.Profile.SqlProfileProvider&gt;</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can obtain a strongly typed reference to a provider from the Providers collection by indexing the profile provider by name and casting it as the desired type.</source>
+          <target state="translated">이름으로 프로필 공급자를 인덱싱하고 원하는 형식으로 캐스팅 하 공급자 컬렉션에서 공급자에 강력한 형식의 참조를 가져올 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileProviderCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the profile providers configured for the ASP.NET application.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Profile.ProfileProviderCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ASP.NET 응용 프로그램에 대해 구성 된 프로필 공급자의 합니다.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>An attempt was made to get the Providers property value without at least <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> permission.</source>
+          <target state="translated">최소한 없이 공급자 속성 값을 얻을 했습니다 <bpt id="p1">&lt;xref href="System.Web.AspNetHostingPermissionLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 권한.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

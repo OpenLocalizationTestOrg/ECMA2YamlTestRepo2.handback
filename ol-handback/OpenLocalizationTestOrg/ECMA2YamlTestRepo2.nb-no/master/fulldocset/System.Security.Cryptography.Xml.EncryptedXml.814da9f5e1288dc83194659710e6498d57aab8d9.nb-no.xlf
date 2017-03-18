@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12f80ed60245d7c52ea0edc1401cacfa93aa4f6a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Xml.EncryptedXml.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4cce05afd13613a4d2e806bcb720969ec4d38ea8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa9e34d6a63bddb1a486bbf636a935b8b823b9f6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the process model for implementing XML encryption.</source>
+          <target state="translated">Representerer prosessmodellen for implementering av XML-kryptering.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EncryptedXml class is the main class used for XML encryption in the .NET Framework.</source>
+          <target state="translated">Klassen EncryptedXml er primære klassen som brukes for XML-kryptering i .NET Framework.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XML Encryption is a standards-based, interoperable way to encrypt all or part of an XML document or any arbitrary data.</source>
+          <target state="translated">XML-kryptering er en standard-baserte, brukes sammen måte å kryptere hele eller deler av et XML-dokument eller tilfeldig data.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework XML encryption classes implement the World Wide Web Consortium (W3C) specification for XML encryption located at http://www.w3.org/TR/xmlenc-core/.</source>
+          <target state="translated">.NET Framework XML kryptering klasser implementere spesifikasjonen World Wide Web Consortium (W3C) for XML-kryptering på http://www.w3.org/TR/xmlenc-core/.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the EncryptedXml class whenever you need to share encrypted XML data between applications or organizations in a standard way.</source>
+          <target state="translated">Bruk EncryptedXml klassen når du trenger å dele krypterte XML-data mellom programmer eller organisasjoner på en vanlig måte.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any data encrypted using this class can be decrypted by any implementation of the W3C specification for XML encryption.</source>
+          <target state="translated">Alle data som er kryptert ved hjelp av denne klassen kan dekrypteres av noen implementeringer av W3C-spesifikasjonen for XML-kryptering.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XML encryption replaces any plain text XML element or document with the <ph id="ph1">`&lt;EncryptedData&gt;`</ph> element, which contains an encrypted (or cipher text) representation of plain text XML or any arbitrary data.</source>
+          <target state="translated">XML-kryptering erstatter en ren tekst XML-element eller et dokument med den <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elementet som inneholder en kryptert (eller cipher tekst) representasjon av ren tekst XML eller tilfeldig data.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`&lt;EncryptedData&gt;`</ph> element can optionally contain information about where to find a key that will decrypt the cipher text, and which cryptographic algorithm was used to encrypt the plain text.</source>
+          <target state="translated">Den <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elementet kan eventuelt inneholder informasjon om hvor du finner en nøkkel som dekrypterer sifferkodetekst, og hvilke kryptografisk algoritme ble brukt til å kryptere ren tekst.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element is similar to the <ph id="ph2">`&lt;EncryptedData&gt;`</ph> element in style and usage, except that it allows you to encrypt a key that will decrypt the value of the <ph id="ph3">`&lt;EncryptedData&gt;`</ph> element.</source>
+          <target state="translated">Den <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> elementet er lik den <ph id="ph2">`&lt;EncryptedData&gt;`</ph> elementet i stil og bruk, bortsett fra at den gjør det mulig å kryptere en nøkkel som dekrypterer verdien for den <ph id="ph3">`&lt;EncryptedData&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element and the <ph id="ph2">`&lt;EncryptedData&gt;`</ph> element will never contain an unencrypted key.</source>
+          <target state="translated">Legg merke til at den <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> elementet og <ph id="ph2">`&lt;EncryptedData&gt;`</ph> elementet aldri inneholder en ukryptert nøkkel.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use one of the following methods to exchange key information:      -   Do not include any key information.</source>
+          <target state="translated">Bruk følgende metoder til exchange nøkkelinformasjon:-inneholder ikke noen viktig informasjon.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you choose this option, both parties must agree on an algorithm and key before they exchange encrypted data.</source>
+          <target state="translated">Hvis du velger dette alternativet, må begge parter enige om en krypteringsalgoritmen og før de utveksle krypterte data.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Include the location of the key in the Uniform Resource Identifier (URI) attribute of the <ph id="ph1">`&lt;RetrievalMethod&gt;`</ph> element.</source>
+          <target state="translated">-Inkluder plasseringen av nøkkelen i attributtet Uniform URI (Resource Identifier) for den <ph id="ph1">`&lt;RetrievalMethod&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both parties must agree on the key location ahead of time and this location must be kept secret.</source>
+          <target state="translated">Begge parter må enige om plassering forhånd, og denne plasseringen må holdes skjult.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Include a string name that maps to a key in the <ph id="ph1">`&lt;KeyName&gt;`</ph> element.</source>
+          <target state="translated">-Inkluderer et navn på tilkoblingsstrengen som tilordnes til en nøkkel i den <ph id="ph1">`&lt;KeyName&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both parties must agree on the key name mapping before they exchange encrypted data and this mapping must be kept secret.</source>
+          <target state="translated">Begge parter må godta på Nøkkelnavn-tilordning, før de exchange krypterte data og tilordningen må holdes skjult.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Include an encrypted key in the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element.</source>
+          <target state="translated">-Inkluderer en kryptert nøkkel i den <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both parties must agree on the key that decrypts the encrypted key before they exchange encrypted data.</source>
+          <target state="translated">Begge parter må enige om nøkkelen som dekrypterer den krypterte nøkkelen før de utveksle krypterte data.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can optionally include a name or location of the key that will decrypt the key in the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element.</source>
+          <target state="translated">Du kan inkludere eller en plassering av nøkkelen som dekrypterer nøkkelen i den <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the default constructor for the main class for XML encryption in the .NET Framework.</source>
+          <target state="translated">Dette er standardkonstruktør for klassen primære for XML-kryptering i .NET Framework.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified XML document.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse ved hjelp av det angitte XML-dokumentet.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to create an &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; object when you want to specify the XML document to encrypt.</source>
+          <target state="translated">Bruk denne konstruktøren til å opprette en &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;objekt når du vil angi XML-dokumentet til å kryptere.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`document`</ph> parameter comprises the XML elements that later form the encrypted XML.</source>
+          <target state="translated">Den <ph id="ph1">`document`</ph> parameteren består av XML-elementer som utgjør senere krypterte XML.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to initialize the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet brukes til å starte den <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified XML document and evidence.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse ved hjelp av angitte XML-dokumentet og bevis.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to create an &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; object when you want to specify the XML document to encrypt and provide security evidence.</source>
+          <target state="translated">Bruk denne konstruktøren til å opprette en &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;objekt når du vil angi XML-dokumentet for å kryptere og angi sikkerhetsbevis.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`document`</ph> parameter comprises the XML elements that later form the encrypted XML.</source>
+          <target state="translated">Den <ph id="ph1">`document`</ph> parameteren består av XML-elementer som utgjør senere krypterte XML.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to initialize the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet brukes til å starte den <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tilknyttet den <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Defines a mapping between a key name and a symmetric key or an asymmetric key.</source>
+          <target state="translated">Definerer en tilordning mellom et nøkkelnavn og en symmetrisk nøkkel eller en asymmetrisk nøkkel.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddKeyNameMapping method allows you to map a symmetric key or an asymmetric key to a string name.</source>
+          <target state="translated">Metoden AddKeyNameMapping kan du tilordne en symmetrisk nøkkel eller en asymmetrisk nøkkel til et navn på tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds the values of the <ph id="ph1">`keyName`</ph> and <ph id="ph2">`keyObject`</ph> parameters to a table of valid key name mappings.</source>
+          <target state="translated">Denne metoden legger til verdiene i den <ph id="ph1">`keyName`</ph> og <ph id="ph2">`keyObject`</ph> parametere til en tabell med gyldig nøkkel name tilordninger.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.ClearKeyNameMappings%2A&gt; method to clear the key name mappings table.</source>
+          <target state="translated">Bruk av &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.ClearKeyNameMappings%2A&gt;metode for å fjerne tabellen Nøkkelnavn tilordninger.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.ClearKeyNameMappings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The name to map to <ph id="ph1">`keyObject`</ph>.</source>
+          <target state="translated">Navnet skal tilordnes <ph id="ph1">`keyObject`</ph>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The symmetric key to map to <ph id="ph1">`keyName`</ph>.</source>
+          <target state="translated">Den symmetriske nøkkelen som skal tilordnes <ph id="ph1">`keyName`</ph>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyName</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyObject</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyObject</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyObject</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not an RSA algorithm or a symmetric key.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyObject</ph> <ept id="p1">&lt;/code&gt;</ept> -parameteren er ikke en RSA-algoritmen eller en symmetrisk nøkkel.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Resets all key name mapping.</source>
+          <target state="translated">Tilbakestiller alle Nøkkelnavn-tilordning.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to clear all key name mapping that you have set using the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.AddKeyNameMapping%2A&gt; method.</source>
+          <target state="translated">Bruk denne metoden til å tømme alle Nøkkelnavn-tilordning som du har angitt ved hjelp av den &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.AddKeyNameMapping%2A&gt;metoden.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.AddKeyNameMapping%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Decrypts an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element using the specified symmetric algorithm.</source>
+          <target state="translated">Dekrypterer en <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementet ved hjelp av den angitte symmetriske algoritmen.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the DecryptData method to decrypt an &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt; element using a symmetric key.</source>
+          <target state="translated">Bruk DecryptData-metoden til å kryptere en &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt;elementet ved hjelp av en symmetrisk nøkkel.&lt;/xref:System.Security.Cryptography.Xml.EncryptedData&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the DecryptData method only decrypts top-level &lt;<ph id="ph1">`EncryptedData`</ph>&gt; tags.</source>
+          <target state="translated">Legg merke til at metoden DecryptData bare dekrypterer på øverste nivå <ph id="ph1">`EncryptedData`</ph>&gt; koder.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In cases where one or more &lt;<ph id="ph1">`EncryptedData`</ph>&gt; tags have been encrypted and are contained within higher level &lt;<ph id="ph2">`EncryptedData`</ph>&gt; tags, you can call the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt; method separately for each one.</source>
+          <target state="translated">I tilfeller der ett eller flere <ph id="ph1">`EncryptedData`</ph>&gt; koder er kryptert og innenfor høyere nivå <ph id="ph2">`EncryptedData`</ph>&gt; koder, kan du kalle den &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt;metoden separat for hver enkelt.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt; method for a code example.</source>
+          <target state="translated">Se den &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt;metode for et kodeeksempel.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptDocument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The data to decrypt.</source>
+          <target state="translated">Dataene som skal dekrypteres.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The symmetric key used to decrypt <ph id="ph1">`encryptedData`</ph>.</source>
+          <target state="translated">Den symmetriske nøkkelen som brukes til å dekryptere <ph id="ph1">`encryptedData`</ph>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the raw decrypted plain text.</source>
+          <target state="translated">En bytematrise som inneholder de rå dekrypteres ren tekst.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Decrypts all <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> elements of the XML document that were specified during initialization of the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Dekrypterer alle <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementer i XML-dokumentet som ble angitt under initialisering av den <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DecryptDocument method decrypts all <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elements of the XML document loaded during initialization.</source>
+          <target state="translated">Metoden DecryptDocument dekrypterer alle <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elementer i XML-dokumentet ble lastet inn under initialisering.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you call this method, all <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elements in the document are replaced with plain text versions.</source>
+          <target state="translated">Når du kalle denne metoden alle <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elementer i dokumentet erstattes med versjoner for ren tekst.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DecryptDocument method decrypts only top-level <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elements.</source>
+          <target state="translated">Metoden DecryptDocument dekrypterer bare på øverste nivå <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elementer.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need to decrypt a super-encrypted document (a document that is encrypted more than once), you must call the DecryptDocument method repeatedly until all the <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elements have been decrypted.</source>
+          <target state="translated">Hvis du trenger å dekryptere en kryptert hevet dokumentet (et dokument som er kryptert mer enn én gang), du må kalle metoden DecryptDocument gjentatte ganger før alle de <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elementer er dekrypteres.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The DecryptDocument method decrypts only valid XML data.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; For DecryptDocument metoden dekrypterer bare gyldige XML-data.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To decrypt arbitrary data, use the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptData%2A&gt; method.</source>
+          <target state="translated">Hvis du vil kryptere tilfeldig, kan du bruke den &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptData%2A&gt;metoden.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use XML Encryption with X.509 certificates, you must have the Microsoft Enhanced Cryptographic Provider installed and the X.509 certificate must use the Enhanced Provider.</source>
+          <target state="translated">Hvis du vil bruke XML-kryptering med X.509-sertifikater, må du ha Microsoft utvidet kryptografiske leverandøren er installert og X.509-sertifikatet må bruke utvidet leverandøren.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not have the Microsoft Enhanced Cryptographic Provider installed or the X.509 certificate does not use the Enhanced Provider, a &lt;xref:System.Security.Cryptography.CryptographicException&gt; with an "Unknown Error" will be thrown when you decrypt an XML document.</source>
+          <target state="translated">Hvis du ikke har Microsoft utvidet kryptografiske leverandøren er installert eller X.509-sertifikatet bruker ikke utvidet-leverandør en &lt;xref:System.Security.Cryptography.CryptographicException&gt;med en "Ukjent feil" vil bli utløst når du dekrypterer et XML-dokument.&lt;/xref:System.Security.Cryptography.CryptographicException&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The cryptographic key used to decrypt the document was not found.</source>
+          <target state="translated">Den kryptografiske nøkkelen som brukes til å dekryptere dokumentet ble ikke funnet.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Determines the key represented by the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Bestemmer nøkkelen som representerer den <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementet.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DecryptEncryptedKey method decrypts an encrypted key contained within the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element of an XML document.</source>
+          <target state="translated">Metoden DecryptEncryptedKey dekrypterer en kryptert nøkkel innenfor den <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> elementet i et XML-dokument.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This recursive method finds the key represented by the &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt; object.</source>
+          <target state="translated">Denne metoden for rekursiv finner nøkkelen som representerer den &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt;objektet.&lt;/xref:System.Security.Cryptography.Xml.EncryptedKey&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that an &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt; object can contain another &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt; object that specifies its &lt;xref:System.Security.Cryptography.Xml.KeyInfo&gt; value.</source>
+          <target state="translated">Legg merke til at en &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt;objektet kan inneholde en annen &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt;objekt som angir den &lt;xref:System.Security.Cryptography.Xml.KeyInfo&gt;verdi.&lt;/xref:System.Security.Cryptography.Xml.KeyInfo&gt; &lt;/xref:System.Security.Cryptography.Xml.EncryptedKey&gt; &lt;/xref:System.Security.Cryptography.Xml.EncryptedKey&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the key to retrieve.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder nøkkelen for å hente.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the key.</source>
+          <target state="translated">En bytematrise som inneholder nøkkelen.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedKey</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedKey</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedKey</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not the Triple DES Key Wrap algorithm or the Advanced Encryption Standard (AES) Key Wrap algorithm (also called Rijndael).</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedKey</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke algoritmen tre ganger DES nøkkelen bryte eller algoritmen Avansert Encryption AES (Standard) nøkkelen bryte (også kalt Rijndael).</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Decrypts an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element using a symmetric algorithm.</source>
+          <target state="translated">Dekrypterer en <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementet ved hjelp av en symmetrisk algoritmen.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptKey%2A&gt; method decrypts an encrypted key contained within the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element of an XML document.</source>
+          <target state="translated">Den &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptKey%2A&gt;metoden dekrypterer en kryptert nøkkel innenfor den <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> elementet i et XML-dokument.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.DecryptKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method accepts a value for the <ph id="ph1">`symmetricAlgorithm`</ph> parameter that represents either the Triple DES algorithm or the AES key wrap algorithm (also called Rijndael).</source>
+          <target state="translated">Denne metoden godtar en verdi for den <ph id="ph1">`symmetricAlgorithm`</ph> parameter som representerer algoritmen tre ganger DES eller AES-nøkkel brytes algoritmen (også kalt Rijndael).</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An array of bytes that represents an encrypted <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">En bytematrise som representerer en kryptert <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementet.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The symmetric key used to decrypt <ph id="ph1">`keyData`</ph>.</source>
+          <target state="translated">Den symmetriske nøkkelen som brukes til å dekryptere <ph id="ph1">`keyData`</ph>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the plain text key.</source>
+          <target state="translated">En bytematrise som inneholder nøkkelen ren tekst.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> element is not the Triple DES Key Wrap algorithm or the Advanced Encryption Standard (AES) Key Wrap algorithm (also called Rijndael).</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept> -elementet er ikke algoritmen tre ganger DES nøkkelen bryte eller algoritmen Avansert Encryption AES (Standard) nøkkelen bryte (også kalt Rijndael).</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Decrypts an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element using an asymmetric algorithm.</source>
+          <target state="translated">Dekrypterer en <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementet ved hjelp av en asymmetrisk algoritmen.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DecryptKey method decrypts an encrypted key contained within the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element of an XML document.</source>
+          <target state="translated">Metoden DecryptKey dekrypterer en kryptert nøkkel innenfor den <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> elementet i et XML-dokument.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method accepts a value for the <ph id="ph1">`rsa`</ph> parameter that represents either the RSA PKCS#1 v1.5 algorithm or the RSA PKCS#1 type 2 algorithm (also called OAEP padding).</source>
+          <target state="translated">Denne metoden godtar en verdi for den <ph id="ph1">`rsa`</ph> parameter som representerer algoritmen RSA PKCS #1 v1.5 eller RSA PKCS #1 typen 2 algoritmen (også kalt OAEP utfylling).</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An array of bytes that represents an encrypted <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">En bytematrise som representerer en kryptert <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementet.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The asymmetric key used to decrypt <ph id="ph1">`keyData`</ph>.</source>
+          <target state="translated">Den asymmetriske nøkkelen som brukes til å dekryptere <ph id="ph1">`keyData`</ph>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A value that specifies whether to use Optimal Asymmetric Encryption Padding (OAEP).</source>
+          <target state="translated">En verdi som angir om du vil bruke optimale asymmetrisk kryptering fylle (OAEP).</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the plain text key.</source>
+          <target state="translated">En bytematrise som inneholder nøkkelen ren tekst.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rsa</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rsa</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets or sets the evidence of the <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from which the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is constructed.</source>
+          <target state="translated">Henter eller angir bevis på den <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet som den <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektet bygges.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the XML document used to create the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; object has any security evidence, you should add the evidence to the DocumentEvidence property.</source>
+          <target state="translated">Hvis XML-dokumentet brukes til å opprette den &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;objektet har sikkerhet tegn, må du legge til bevis egenskapen DocumentEvidence.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not set this property, any associated &lt;xref:System.Security.Cryptography.Xml.CipherReference&gt; objects will not be dereferenced because they will not be granted the required permission set.</source>
+          <target state="translated">Hvis du ikke angi denne egenskapen, og eventuelle tilhørende &lt;xref:System.Security.Cryptography.Xml.CipherReference&gt;objekter kan ikke være forsøkte å nå refererende fordi de ikke vil bli gitt nødvendige tillatelsene.&lt;/xref:System.Security.Cryptography.Xml.CipherReference&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets or sets the encoding used for XML encryption.</source>
+          <target state="translated">Henter eller angir kodingen som brukes for XML-kryptering.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>UTF-8 encoding is the default encoding for XML encryption.</source>
+          <target state="translated">UTF-8-koding er standard for kryptering av XML-koding.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this property to specify other types of encoding from the &lt;xref:System.Text.Encoding&gt; class, such as UTF-16 or ASCII.</source>
+          <target state="translated">Du kan bruke denne egenskapen til å angi andre typer koding fra den &lt;xref:System.Text.Encoding&gt;klasse, for eksempel UTF-16 eller ASCII.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Text.Encoding&gt; object.</source>
+          <target state="translated">En &lt;xref:System.Text.Encoding&gt;objektet.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Encrypts the outer XML of an element using the specified X.509 certificate.</source>
+          <target state="translated">Krypterer ytre XML-filen for et element med det angitte X.509-sertifikatet.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Encrypt method is a convenient way to encrypt the outer XML of an element using a certificate.</source>
+          <target state="translated">Metoden Krypter er en enkel måte å kryptere ytre XML-filen for et element med et sertifikat.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method generates a 256-bit Advanced Encryption Standard (AES) session key to encrypt an XML element and then encrypts and signs the AES key using the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object.</source>
+          <target state="translated">Denne metoden genererer en 256-biters Avansert Encryption AES (Standard) øktnøkkel for å kryptere en XML-elementet krypterer og logger på AES key ved hjelp av den &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;objektet.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Encrypt method then returns the resulting XML as an &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt; element.</source>
+          <target state="translated">Metoden Krypter returnerer resulterende XML-filen som et &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt;element.&lt;/xref:System.Security.Cryptography.Xml.EncryptedData&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need more control over the encryption, so you can place the encrypted information into a <ph id="ph1">`&lt;CipherReference&gt;`</ph> element or specify whether the entire XML element or just its contents should be encrypted, use the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt; method overloads.</source>
+          <target state="translated">Hvis du trenger mer kontroll over kryptering, så kan du plassere krypterte informasjonen inn i en <ph id="ph1">`&lt;CipherReference&gt;`</ph> element eller angi om hele XML-elementet eller bare innholdet skal være kryptert, bruker den &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt;metoden overbelastninger.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use XML Encryption with X.509 certificates, you must have the Microsoft Enhanced Cryptographic Provider installed and the X.509 certificate must use the Enhanced Provider.</source>
+          <target state="translated">Hvis du vil bruke XML-kryptering med X.509-sertifikater, må du ha Microsoft utvidet kryptografiske leverandøren er installert og X.509-sertifikatet må bruke utvidet leverandøren.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not have the Microsoft Enhanced Cryptographic Provider installed or the X.509 certificate does not use the Enhanced Provider, a &lt;xref:System.Security.Cryptography.CryptographicException&gt; with an "Unknown Error" will be thrown when you decrypt an XML document.</source>
+          <target state="translated">Hvis du ikke har Microsoft utvidet kryptografiske leverandøren er installert eller X.509-sertifikatet bruker ikke utvidet-leverandør en &lt;xref:System.Security.Cryptography.CryptographicException&gt;med en "Ukjent feil" vil bli utløst når du dekrypterer et XML-dokument.&lt;/xref:System.Security.Cryptography.CryptographicException&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The XML element to encrypt.</source>
+          <target state="translated">XML-elementet til å kryptere.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The X.509 certificate to use for encryption.</source>
+          <target state="translated">X.509 sertifikatet som skal brukes til kryptering.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element that represents the encrypted XML data.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> element som representerer de krypterte dataene for XML.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">inputElement</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">inputElement</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">certificate</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter does not represent an RSA key algorithm.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">certificate</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren representerer ikke en key RSA-algoritmen.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Encrypts the outer XML of an element using the specified key in the key mapping table.</source>
+          <target state="translated">Krypterer ytre XML-filen for et element med den angitte nøkkelen i tilordningstabellen for.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is a convenient way to encrypt the outer XML of an element using a key name.</source>
+          <target state="translated">Denne metoden er en enkel måte å kryptere ytre XML-filen for et element med navnet på en.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need more control over the encryption, so you can place the encrypted information into a <ph id="ph1">`&lt;CipherReference&gt;`</ph> element or specify whether the entire XML element or just its contents should be encrypted, use the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt; method overloads.</source>
+          <target state="translated">Hvis du trenger mer kontroll over kryptering, så kan du plassere krypterte informasjonen inn i en <ph id="ph1">`&lt;CipherReference&gt;`</ph> element eller angi om hele XML-elementet eller bare innholdet skal være kryptert, bruker den &lt;xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt;metoden overbelastninger.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml.EncryptData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of all supported algorithms, see the list of constant fields associated with the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; class.</source>
+          <target state="translated">En liste over alle støttede algoritmer, kan du vise listen over konstant felt som er forbundet med &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;klasse.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The XML element to encrypt.</source>
+          <target state="translated">XML-elementet til å kryptere.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A key name that can be found in the key mapping table.</source>
+          <target state="translated">Navnet på en som finnes i tilordningstabellen for.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the encrypted XML data.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet som representerer de krypterte dataene for XML.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">inputElement</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">inputElement</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyName</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyName</ph><ept id="p1">&lt;/code&gt;</ept> parameter does not match a registered key name pair.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyName</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren samsvarer ikke med noen registrerte nøkkelnavn.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-or-       The cryptographic key described by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not supported.</source>
+          <target state="translated">- eller - krypteringsnøkkelen beskrevet av det <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyName</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren støttes ikke.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Encrypts data in the specified byte array using the specified symmetric algorithm.</source>
+          <target state="translated">Krypterer data i den angitte Bytematrisen ved hjelp av den angitte symmetriske algoritmen.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned byte array can be placed into a <ph id="ph1">`&lt;CipherValue&gt;`</ph> element.</source>
+          <target state="translated">Den returnerte Bytematrisen kan plasseres i en <ph id="ph1">`&lt;CipherValue&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method assumes that the data specified in the <ph id="ph1">`plaintext`</ph> parameter is a byte array that contains XML data.</source>
+          <target state="translated">Denne metoden antar at dataene som er angitt i den <ph id="ph1">`plaintext`</ph> parameteren er en bytematrise som inneholder XML-data.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The data to encrypt.</source>
+          <target state="translated">Dataene for å kryptere.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The symmetric algorithm to use for encryption.</source>
+          <target state="translated">Symmetriske algoritmen som skal brukes til kryptering.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A byte array of encrypted data.</source>
+          <target state="translated">En bytematrise til krypterte data.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">plaintext</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">plaintext</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The data could not be encrypted using the specified parameters.</source>
+          <target state="translated">Kan ikke kryptere dataene ved hjelp av de angitte parameterne.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Encrypts the specified element or its contents using the specified symmetric algorithm.</source>
+          <target state="translated">Krypterer det angitte elementet eller innholdet ved hjelp av den angitte symmetriske algoritmen.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned byte array data is the value of the <ph id="ph1">`&lt;CipherValue&gt;`</ph> element.</source>
+          <target state="translated">Datatypen returnerte byte matrise er verdien for den <ph id="ph1">`&lt;CipherValue&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The element or its contents to encrypt.</source>
+          <target state="translated">Elementet eller innholdet til å kryptere.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The symmetric algorithm to use for encryption.</source>
+          <target state="translated">Symmetriske algoritmen som skal brukes til kryptering.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to encrypt only the contents of the element; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to encrypt the entire element.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>til å kryptere bare innholdet i elementet; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> til å kryptere hele elementet.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the encrypted data.</source>
+          <target state="translated">En bytematrise som inneholder de krypterte dataene.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">inputElement</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">inputElement</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Encrypts a key using a symmetric algorithm that a recipient uses to decrypt an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Krypterer en nøkkel med en symmetrisk algoritme som en mottaker bruker til å kryptere en <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementet.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the EncryptKey method to encrypt the key that a recipient uses to decrypt an <ph id="ph1">`&lt;EncryptedData&gt;`</ph> element.</source>
+          <target state="translated">Bruk EncryptKey-metoden til å kryptere nøkkelen som en mottaker bruker til å kryptere en <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method accepts a value for the <ph id="ph1">`symmetricAlgorithm`</ph> parameter that represents either the Triple DES algorithm or the AES key wrap algorithm (also called Rijndael).</source>
+          <target state="translated">Denne metoden godtar en verdi for den <ph id="ph1">`symmetricAlgorithm`</ph> parameter som representerer algoritmen tre ganger DES eller AES-nøkkel brytes algoritmen (også kalt Rijndael).</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this method does not automatically place the encrypted key within an <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element.</source>
+          <target state="translated">Merk at denne metoden ikke automatisk inn den krypterte nøkkelen i en <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must manually create the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element within your document.</source>
+          <target state="translated">Du må opprette manuelt i <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> elementet i dokumentet.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The key to encrypt.</source>
+          <target state="translated">Nøkkelen til å kryptere.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The symmetric key used to encrypt <ph id="ph1">`keyData`</ph>.</source>
+          <target state="translated">Den symmetriske nøkkelen som brukes til å kryptere <ph id="ph1">`keyData`</ph>.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>A byte array that represents the encrypted value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">En bytematrise som representerer den krypterte verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithm</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not the Triple DES Key Wrap algorithm or the Advanced Encryption Standard (AES) Key Wrap algorithm (also called Rijndael).</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithm</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke algoritmen tre ganger DES nøkkelen bryte eller algoritmen Avansert Encryption AES (Standard) nøkkelen bryte (også kalt Rijndael).</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Encrypts the key that a recipient uses to decrypt an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Krypterer nøkkelen en mottaker bruker til å dekryptere en <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementet.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the EncryptKey method to encrypt the key that a recipient uses to decrypt an <ph id="ph1">`&lt;EncryptedData&gt;`</ph> element.</source>
+          <target state="translated">Bruk EncryptKey-metoden til å kryptere nøkkelen som en mottaker bruker til å kryptere en <ph id="ph1">`&lt;EncryptedData&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method accepts a value for <ph id="ph1">`rsa`</ph> that represents either the RSA PKCS#1 v1.5 algorithm or the RSA PKCS#1 type 2 algorithm (also called OAEP).</source>
+          <target state="translated">Denne metoden godtar en verdi for <ph id="ph1">`rsa`</ph> som representerer algoritmen RSA PKCS #1 v1.5 eller RSA PKCS #1 typen 2 algoritmen (også kalt OAEP).</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this method does not automatically place the encrypted key within an <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element.</source>
+          <target state="translated">Merk at denne metoden ikke automatisk inn den krypterte nøkkelen i en <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> elementet.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must manually create the <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> element within your document.</source>
+          <target state="translated">Du må opprette manuelt i <ph id="ph1">`&lt;EncryptedKey&gt;`</ph> elementet i dokumentet.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The key to encrypt.</source>
+          <target state="translated">Nøkkelen til å kryptere.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The asymmetric key used to encrypt <ph id="ph1">`keyData`</ph>.</source>
+          <target state="translated">Den asymmetriske nøkkelen som brukes til å kryptere <ph id="ph1">`keyData`</ph>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>A value that specifies whether to use Optimal Asymmetric Encryption Padding (OAEP).</source>
+          <target state="translated">En verdi som angir om du vil bruke optimale asymmetrisk kryptering fylle (OAEP).</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>A byte array that represents the encrypted value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">En bytematrise som representerer den krypterte verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rsa</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">rsa</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Retrieves the decryption initialization vector (IV) from an <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Henter dekryptering Initialiseringsvektoren (IV) fra en <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Given an &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt; object, this method retrieves the decryption initialization vector (IV).</source>
+          <target state="translated">Gitt en &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt;objektet, denne metoden henter dekryptering Initialiseringsvektoren (IV).&lt;/xref:System.Security.Cryptography.Xml.EncryptedData&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default behavior retrieves the IV as the first bytes of the &lt;xref:System.Security.Cryptography.Xml.CipherData.CipherValue%2A&gt; byte array.</source>
+          <target state="translated">Standardvirkemåten henter IV som de første bytene av &lt;xref:System.Security.Cryptography.Xml.CipherData.CipherValue%2A&gt;bytematrise.&lt;/xref:System.Security.Cryptography.Xml.CipherData.CipherValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of Uniform Resource Identifier (URI) values supported by the <ph id="ph1">`symmetricAlgorithmUri`</ph> parameter, see the list of constant fields associated with the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; class.</source>
+          <target state="translated">For en verdiliste identifikator URI (Uniform Resource) støttes i <ph id="ph1">`symmetricAlgorithmUri`</ph> parameteren vise listen over konstant felt som er forbundet med &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;klasse.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the initialization vector (IV) to retrieve.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet som inneholder Initialiseringsvektoren (IV) som skal hentes.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The Uniform Resource Identifier (URI) that describes the cryptographic algorithm associated with the <ph id="ph1">`encryptedData`</ph> value.</source>
+          <target state="translated">Uniform Resource Identifier (URI) som beskriver den kryptografiske algoritmen som er knyttet til den <ph id="ph1">`encryptedData`</ph> verdi.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the decryption initialization vector (IV).</source>
+          <target state="translated">En bytematrise som inneholder dekryptering Initialiseringsvektoren (IV).</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter has an &lt;xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt; property that is null.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren har en &lt;xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt;-egenskap som er null.&lt;/xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">symmetricAlgorithmUrisymAlgUri</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a supported algorithm.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">symmetricAlgorithmUrisymAlgUri</ph> <ept id="p1">&lt;/code&gt;</ept> er ikke en støttet algoritmen.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Retrieves the decryption key from the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Henter dekrypteringsnøkkelen fra den angitte <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Given an &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt; object, this method looks for the decryption key that can be used to retrieve the plain text data.</source>
+          <target state="translated">Gitt en &lt;xref:System.Security.Cryptography.Xml.EncryptedData&gt;objektet, denne metoden ser etter dekrypteringsnøkkelen som kan brukes til å hente data for ren tekst.&lt;/xref:System.Security.Cryptography.Xml.EncryptedData&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a key name is specified, the method looks for the symmetric algorithm or asymmetric algorithm that is associated with the key name as defined in the key name mapping.</source>
+          <target state="translated">Hvis et nøkkelnavn er angitt, ser metoden for den symmetriske algoritmen eller asymmetriske algoritmen som er forbundet med navnet som er definert i tilordningen for nøkkelnavn.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, if a retrieval method or an &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt; object is specified, the method loads the &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt; object and calls the GetDecryptionKey method.</source>
+          <target state="translated">Hvis ikke, hvis en metode for henting eller en &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt;objekt er angitt, metoden laster inn den &lt;xref:System.Security.Cryptography.Xml.EncryptedKey&gt;objekt og kaller GetDecryptionKey-metoden.&lt;/xref:System.Security.Cryptography.Xml.EncryptedKey&gt; &lt;/xref:System.Security.Cryptography.Xml.EncryptedKey&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the decryption key to retrieve.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder dekrypteringsnøkkelen til å hente.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The size of the decryption key to retrieve.</source>
+          <target state="translated">Størrelsen på dekrypteringsnøkkelen til å hente.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the decryption key.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tilknyttet dekrypteringsnøkkelen.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The encryptedData parameter has an &lt;xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt; property that is null.</source>
+          <target state="translated">Parameteren encryptedData har en &lt;xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt;-egenskap som er null.&lt;/xref:System.Security.Cryptography.Xml.EncryptedType.EncryptionMethod*&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>-or-       The encrypted key cannot be retrieved using the specified parameters.</source>
+          <target state="translated">- eller - den krypterte nøkkelen kan ikke hente med de angitte parameterne.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Determines how to resolve internal Uniform Resource Identifier (URI) references.</source>
+          <target state="translated">Bestemmer hvordan du løser interne Uniform URI (Resource Identifier)-referanser.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetIdElement method determines how to resolve internal Uniform Resource Identifiers (URIs).</source>
+          <target state="translated">Metoden GetIdElement bestemmer hvordan du løser intern Uniform Resource identifikatorer (URIer).</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It looks for elements with a specified value or for elements with an ID attribute that has a specified value.</source>
+          <target state="translated">Det ser ut for elementer med en angitt verdi eller elementer med ID-attributt som har en angitt verdi.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains an element with an ID value.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder et element med ID-verdien.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>A string that represents the ID value.</source>
+          <target state="translated">En streng som representerer ID-verdien.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains an ID indicating how internal Uniform Resource Identifiers (URIs) are to be resolved.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder en ID som angir hvordan intern Uniform Resource identifikatorer (URIer) som ikke løses.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Gets or sets the cipher mode used for XML encryption.</source>
+          <target state="translated">Henter eller angir chiffermodus brukes for XML-kryptering.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Cipher Block Chaining (CBC) mode is the default cipher mode for XML encryption.</source>
+          <target state="translated">Blokker sammenkjeding CBC () chiffermodus er standard chiffermodus for XML-kryptering.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this property to specify other cipher modes of the &lt;xref:System.Security.Cryptography.CipherMode&gt; enumeration, such as Cipher Feedback (CFB) mode.</source>
+          <target state="translated">Du kan bruke denne egenskapen til å angi andre cipher modusene for den &lt;xref:System.Security.Cryptography.CipherMode&gt;opplisting som Cipher tilbakemelding (CFB)-modus.&lt;/xref:System.Security.Cryptography.CipherMode&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CipherMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Security.Cryptography.CipherMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Gets or sets the padding mode used for XML encryption.</source>
+          <target state="translated">Henter eller angir utfyllingen modusen som brukes for XML-kryptering.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ISO-10126 padding is the default padding mode for XML encryption.</source>
+          <target state="translated">ISO-10126 utfylling er utfylling standardmodus for XML-kryptering.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this property to specify other padding modes of the &lt;xref:System.Security.Cryptography.PaddingMode&gt; enumeration, such as ANSI X9.23 or PKCS#5.</source>
+          <target state="translated">Du kan bruke denne egenskapen til å angi andre utfylling modusene for den &lt;xref:System.Security.Cryptography.PaddingMode&gt;opplisting, for eksempel ANSI X9.23 eller PKCS&amp;#5;.&lt;/xref:System.Security.Cryptography.PaddingMode&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.PaddingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the type of padding used for encryption.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Security.Cryptography.PaddingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier som angir utfyllingen som brukes til kryptering.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Gets or sets the recipient of the encrypted key information.</source>
+          <target state="translated">Henter eller angir mottakeren av krypterte viktig informasjon.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can access the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; object referenced by a key name by examining the &lt;xref:System.Security.Cryptography.Xml.EncryptedKey.CarriedKeyName%2A&gt; property.</source>
+          <target state="translated">Du har tilgang til den &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;objektet som refererer til et nøkkelnavn ved å undersøke den &lt;xref:System.Security.Cryptography.Xml.EncryptedKey.CarriedKeyName%2A&gt;egenskapen.&lt;/xref:System.Security.Cryptography.Xml.EncryptedKey.CarriedKeyName%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Recipient property to identify the &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt; element that the current recipient can decrypt to retrieve a decryption key.</source>
+          <target state="translated">Bruk mottaker-egenskapen til å identifisere den &lt;xref:System.Security.Cryptography.Xml.EncryptedXml&gt;element som mottakeren kan dekryptere for å hente en dekrypteringsnøkkelen.&lt;/xref:System.Security.Cryptography.Xml.EncryptedXml&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The recipient of the encrypted key information.</source>
+          <target state="translated">Mottakeren krypterte viktig informasjon.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Replaces an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element with a specified decrypted sequence of bytes.</source>
+          <target state="translated">Erstatter en <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> element med en angitt dekrypterte serie med byte.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ReplaceData method replaces an <ph id="ph1">`&lt;EncryptedData&gt;`</ph> element with the value of the <ph id="ph2">`decryptedData`</ph> parameter.</source>
+          <target state="translated">Metoden ReplaceData erstatter en <ph id="ph1">`&lt;EncryptedData&gt;`</ph> element med verdien for den <ph id="ph2">`decryptedData`</ph> parameteren.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element to replace.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementet skal erstatte.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The decrypted data to replace <ph id="ph1">`inputElement`</ph> with.</source>
+          <target state="translated">Dekrypterte dataene du vil erstatte <ph id="ph1">`inputElement`</ph> med.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">inputElement</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">inputElement</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">decryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">decryptedData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Replaces the specified element with the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Erstatter det angitte elementet med det angitte <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ReplaceElement method replaces the <ph id="ph1">`inputElement`</ph> parameter with the value specified by the <ph id="ph2">`encryptedData`</ph> parameter.</source>
+          <target state="translated">Metoden ReplaceElement erstatter det <ph id="ph1">`inputElement`</ph> parameter med verdien som er angitt av den <ph id="ph2">`encryptedData`</ph> parameteren.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The element to replace with an <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Elementet erstatte med en <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedData&amp;gt;" name="&amp;lt;EncryptedData&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementet.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to replace the <ph id="ph1">`inputElement`</ph> parameter with.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet skal erstatte den <ph id="ph1">`inputElement`</ph> parameter med.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to replace only the contents of the element; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to replace the entire element.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>erstatte innholdet i elementet; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> å erstatte hele elementet.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">inputElement</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">inputElement</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>-or-       The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">encryptedData</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- eller - verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">encryptedData</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used by the Document Object Model (DOM) to resolve external XML references.</source>
+          <target state="translated">Henter eller angir den <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt av den modellen DOM (Document Object) for å løse eksterne XML-referanser.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property contains an &lt;xref:System.Xml.XmlResolver&gt; object used to resolve external XML resources such as entities, document type definitions (DTDs), or schemas.</source>
+          <target state="translated">Denne egenskapen inneholder en &lt;xref:System.Xml.XmlResolver&gt;objektet brukes til å løse eksterne XML-ressurser som enheter, dokumentet typedefinisjoner (DTDer) eller XML-skjemaer.&lt;/xref:System.Xml.XmlResolver&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Gets or sets the XML digital signature recursion depth to prevent infinite recursion and stack overflow.</source>
+          <target state="translated">Henter eller angir XML-digital signatur rekursjonsdybden hindre uendelig rekursjon og stakkoverflyt.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>This might happen if the digital signature XML contains the URI which then points back to the original XML.</source>
+          <target state="translated">Dette kan skje hvis den digitale signaturen XML inneholder URIEN som peker tilbake til den opprinnelige XML.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Returns &lt;xref:System.Int32&gt;.</source>
+          <target state="translated">Returnerer &lt;xref:System.Int32&gt;.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 128-bit Advanced Encryption Standard (AES) Key Wrap algorithm (also known as the Rijndael Key Wrap algorithm).</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for 128-biters Avansert Encryption AES (Standard) nøkkelen bryte algoritmen (også kjent som Rijndael nøkkelen bryte algoritmen).</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncAES128KeyWrapUrl field is "http://www.w3.org/2001/04/xmlenc#kw-aes128".</source>
+          <target state="translated">Verdien i feltet XmlEncAES128KeyWrapUrl er "http://www.w3.org/2001/04/xmlenc#kw-aes128".</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 128-bit Advanced Encryption Standard (AES) algorithm (also known as the Rijndael algorithm).</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for algoritmen 128-biters Avansert Encryption AES (Standard) (også kjent som algoritmen Rijndael).</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncAES128Url field is "http://www.w3.org/2001/04/xmlenc#aes128-cbc".</source>
+          <target state="translated">Verdien i feltet XmlEncAES128Url er "http://www.w3.org/2001/04/xmlenc#aes128-cbc".</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 192-bit Advanced Encryption Standard (AES) Key Wrap algorithm (also known as the Rijndael Key Wrap algorithm).</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for 192 bits Avansert Encryption AES (Standard) nøkkelen bryte algoritmen (også kjent som Rijndael nøkkelen bryte algoritmen).</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncAES192KeyWrapUrl field is "http://www.w3.org/2001/04/xmlenc#kw-aes192".</source>
+          <target state="translated">Verdien i feltet XmlEncAES192KeyWrapUrl er "http://www.w3.org/2001/04/xmlenc#kw-aes192".</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 192-bit Advanced Encryption Standard (AES) algorithm (also known as the Rijndael algorithm).</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for algoritmen 192 bits Avansert Encryption AES (Standard) (også kjent som algoritmen Rijndael).</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncAES192Url field is "http://www.w3.org/2001/04/xmlenc#aes192-cbc".</source>
+          <target state="translated">Verdien i feltet XmlEncAES192Url er "http://www.w3.org/2001/04/xmlenc#aes192-cbc".</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 256-bit Advanced Encryption Standard (AES) Key Wrap algorithm (also known as the Rijndael Key Wrap algorithm).</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for 256-biters Avansert Encryption AES (Standard) nøkkelen bryte algoritmen (også kjent som Rijndael nøkkelen bryte algoritmen).</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncAES256KeyWrapUrl field is "http://www.w3.org/2001/04/xmlenc#kw-aes256".</source>
+          <target state="translated">Verdien i feltet XmlEncAES256KeyWrapUrl er "http://www.w3.org/2001/04/xmlenc#kw-aes256".</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the 256-bit Advanced Encryption Standard (AES) algorithm (also known as the Rijndael algorithm).</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for algoritmen 256-biters Avansert Encryption AES (Standard) (også kjent som algoritmen Rijndael).</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncAES256Url field is "http://www.w3.org/2001/04/xmlenc#aes256-cbc".</source>
+          <target state="translated">Verdien i feltet XmlEncAES256Url er "http://www.w3.org/2001/04/xmlenc#aes256-cbc".</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the Digital Encryption Standard (DES) algorithm.</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for algoritmen Digital Encryption Standard (DES).</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncDESUrl field is "http://www.w3.org/2001/04/xmlenc#des-cbc".</source>
+          <target state="translated">Verdien i feltet XmlEncDESUrl er "http://www.w3.org/2001/04/xmlenc#des-cbc".</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for XML encryption element content.</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for XML-kryptering elementinnhold.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncElementContentUrl field is "http://www.w3.org/2001/04/xmlenc#Content".</source>
+          <target state="translated">Verdien i feltet XmlEncElementContentUrl er "http://www.w3.org/2001/04/xmlenc#Content".</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for an XML encryption element.</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for en XML-elementet for kryptering.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncElementUrl field is "http://www.w3.org/2001/04/xmlenc#Element".</source>
+          <target state="translated">Verdien i feltet XmlEncElementUrl er "http://www.w3.org/2001/04/xmlenc#Element".</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the XML encryption <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for XML-kryptering <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;EncryptedKey&amp;gt;" name="&amp;lt;EncryptedKey&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementet.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncEncryptedKeyUrl field is "http://www.w3.org/2001/04/xmlenc#EncryptedKey".</source>
+          <target state="translated">Verdien i feltet XmlEncEncryptedKeyUrl er "http://www.w3.org/2001/04/xmlenc#EncryptedKey".</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for XML encryption syntax and processing.</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for XML-kryptering syntaksen og all behandling.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncNamespaceUrl field is "http://www.w3.org/2001/04/xmlenc#".</source>
+          <target state="translated">Verdien i feltet XmlEncNamespaceUrl er "http://www.w3.org/2001/04/xmlenc#".</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the RSA Public Key Cryptography Standard (PKCS) Version 1.5 algorithm.</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for algoritmen RSA offentlige nøkkelen kryptografi Standard (PKCS) versjon 1,5.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncRSA15Url field is "http://www.w3.org/2001/04/xmlenc#rsa-1_5".</source>
+          <target state="translated">Verdien i feltet XmlEncRSA15Url er "http://www.w3.org/2001/04/xmlenc#rsa-1_5".</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the RSA Optimal Asymmetric Encryption Padding (OAEP) encryption algorithm.</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for krypteringsalgoritmen RSA optimale asymmetrisk kryptering fylle (OAEP).</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncRSAOAEPUrl field is "http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p".</source>
+          <target state="translated">Verdien i feltet XmlEncRSAOAEPUrl er "http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p".</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the SHA-256 algorithm.</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for algoritmen SHA-256.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncSHA256Url field is "http://www.w3.org/2001/04/xmlenc#sha256".</source>
+          <target state="translated">Verdien i feltet XmlEncSHA256Url er "http://www.w3.org/2001/04/xmlenc#sha256".</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the SHA-512 algorithm.</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for algoritmen SHA&amp;512;.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncSHA512Url field is "http://www.w3.org/2001/04/xmlenc#sha512".</source>
+          <target state="translated">Verdien i feltet XmlEncSHA512Url er "http://www.w3.org/2001/04/xmlenc#sha512".</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the TRIPLEDES key wrap algorithm.</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for algoritmen TRIPLEDES key brytes.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncTripleDESKeyWrapUrl field is "http://www.w3.org/2001/04/xmlenc#kw-tripledes".</source>
+          <target state="translated">Verdien i feltet XmlEncTripleDESKeyWrapUrl er "http://www.w3.org/2001/04/xmlenc#kw-tripledes".</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Represents the namespace Uniform Resource Identifier (URI) for the Triple DES algorithm.</source>
+          <target state="translated">Representerer navneområdet Uniform URI (Resource Identifier) for algoritmen DES tre ganger.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">Dette feltet er konstant.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlEncTripleDESUrl field is "http://www.w3.org/2001/04/xmlenc#tripledes-cbc".</source>
+          <target state="translated">Verdien i feltet XmlEncTripleDESUrl er "http://www.w3.org/2001/04/xmlenc#tripledes-cbc".</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

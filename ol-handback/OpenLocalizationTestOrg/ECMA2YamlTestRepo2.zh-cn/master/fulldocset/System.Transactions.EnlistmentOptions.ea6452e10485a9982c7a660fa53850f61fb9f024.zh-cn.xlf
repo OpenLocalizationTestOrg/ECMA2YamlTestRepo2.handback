@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac6f589ebd88ec6fd5ab3dabcd0469833bad3ac0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.EnlistmentOptions.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c27e0223a944d8b2a765590834dc6d08e2619f5a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e648c59395a1288ed590431151e26a14a014e6ee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Determines whether the object should be enlisted during the prepare phase.</source>
+          <target state="translated">确定对象是否应登记的准备阶段。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This enumeration is passed into the &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt; and &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; and methods to notify the transaction manager whether the resource manager needs to create another enlistment during the Prepare phase.</source>
+          <target state="translated">此枚举传递给&lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;和&lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;和方法，以通知事务管理器资源管理器是否需要创建另一个登记的准备阶段。&lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt; &lt;/xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For more information on enlistment, see <bpt id="p1">[</bpt>Enlisting Resources as Participants in a Transaction<ept id="p1">](http://msdn.microsoft.com/en-us/7bf66ce7-4190-4910-89d7-df4ad43e9f31)</ept>.</source>
+          <target state="translated">登记的详细信息，请参阅<bpt id="p1">[</bpt>作为参与者在事务中登记资源<ept id="p1">](http://msdn.microsoft.com/en-us/7bf66ce7-4190-4910-89d7-df4ad43e9f31)</ept>。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If EnlistDuringPrepareRequired is specified during enlistment, the resource manager indicates that it wants to receive a Prepare notification while new enlistments are still allowed for the transaction.</source>
+          <target state="translated">如果在登记期间指定 EnlistDuringPrepareRequired，资源管理器指示它想要时为事务仍然允许新的登记接收准备通知。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A resource manager who acts as a cache for another durable resource, such as a backend database, would probably use this option during enlistment.</source>
+          <target state="translated">充当对另一个持久的资源，如后端数据库，缓存的资源管理器可能需要使用此选项在登记期间。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When the caching resource gets its Prepare notification, it transfers its content to the durable resource.</source>
+          <target state="translated">当缓存资源获取其准备通知时，它将其内容传输到持久的资源。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>By doing so, the durable resource enlists on the transaction to become a participant of the 2 Phase Commit (2PC) protocol.</source>
+          <target state="translated">通过这样做，持久资源登记在事务成为 2 的阶段提交 (2PC) 协议的参与者。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Before this happens, only the caching resource (not the durable resource) was enlisted.</source>
+          <target state="translated">发生这种情况之前，登记缓存资源 （不是持久的资源）。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If None is specified, the enlistment indicates that it will not receive a Prepare notification until it is too late to create new enlistments in 2PC.</source>
+          <target state="translated">如果未指定，登记指示它将不接收准备通知时才执行太迟在 2PC 中创建新的登记。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In our preceding scenario, if a caching resource specifies this option during enlistment, and attempts to flush its cache during the Prepare notification, the durable resource gets an exception when it attempts on enlisting since it is too late.</source>
+          <target state="translated">在前面的方案中，如果缓存的资源指定此选项在登记期间，并尝试在准备通知过程中刷新其缓存持久资源获取异常时在尝试登记，因为它太迟。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>None should be used as a default.</source>
+          <target state="translated">不应为默认值。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The object must enlist during the initial phase of the commitment process.</source>
+          <target state="translated">对象必须在承诺过程的初始阶段登记。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The object does not require enlistment during the initial phase of the commitment process.</source>
+          <target state="translated">对象不需要的初始阶段的承诺进程的登记。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

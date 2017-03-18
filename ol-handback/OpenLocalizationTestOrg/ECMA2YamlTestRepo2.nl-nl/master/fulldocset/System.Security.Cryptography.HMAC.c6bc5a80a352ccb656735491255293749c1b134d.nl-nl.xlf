@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">65f5548ceb690d405588bc63f179d053b9f7583c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.HMAC.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e6d103fea467e4af94d842c2f922e668e3db6d2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a5b1dbe68e4febc431dcd82ffe25ef630f13d624</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the abstract class from which all implementations of Hash-based Message Authentication Code (HMAC) must derive.</source>
+          <target state="translated">Hiermee geeft u de abstracte klasse waaruit alle implementaties van HMAC Hash-based Message Authentication Code () moeten worden afgeleid.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Hash-based Message Authentication Code (HMAC) can be used to determine whether a message sent over an insecure channel has been tampered with, provided that the sender and receiver share a secret key.</source>
+          <target state="translated">Een Hash-based Message Authentication Code (HMAC) kan worden gebruikt om te bepalen of een bericht wordt verzonden via een onbeveiligde kanaal is geknoeid, mits de verzender en ontvanger een geheime sleutel delen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sender computes the hash value for the original data and sends both the original data and the HMAC as a single message.</source>
+          <target state="translated">De afzender berekent de hash-waarde voor de oorspronkelijke gegevens en de oorspronkelijke gegevens zowel de HMAC verzendt als één bericht.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The receiver recomputes the hash value on the received message and checks that the computed hash value matches the transmitted hash value.</source>
+          <target state="translated">De ontvanger de hash-waarde voor het ontvangen bericht opnieuw berekenen en controleert of de berekende hashwaarde overeenkomt met de verzonden hash-waarde.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMAC can be used with any iterative cryptographic hash function, such as MD5 or SHA-1, in combination with a secret shared key.</source>
+          <target state="translated">HMAC kan worden gebruikt met elke iteratieve cryptografische hash-functie, zoals MD5 of SHA-1, in combinatie met een gedeelde geheime sleutel.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The cryptographic strength of HMAC depends on the properties of the underlying hash function.</source>
+          <target state="translated">De cryptografische sterkte van HMAC is afhankelijk van de eigenschappen van de onderliggende hashfunctie.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any change to the data or the hash value results in a mismatch, because knowledge of the secret key is required to change the message and reproduce the correct hash value.</source>
+          <target state="translated">Elke wijziging van de gegevens of de hash-waarde resulteert in een niet-overeenkomende, omdat de geheime sleutel is vereist voor het wijzigen van het bericht en de juiste hash-waarde reproduceren.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if the original and computed hash values match, the message is authenticated.</source>
+          <target state="translated">Als de oorspronkelijke en berekende hash-waarden overeenkomen, wordt daarom het bericht geverifieerd.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMAC"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMAC"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets or sets the block size to use in the hash value.</source>
+          <target state="translated">Opgehaald of ingesteld van de grootte van het blok moet worden gebruikt in de hash-waarde.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Hash-based Message Authentication Code (HMAC) uses a hash function where data is hashed by iterating a basic compression function on blocks of data.</source>
+          <target state="translated">Een Hash-based Message Authentication Code (HMAC) maakt gebruik van een hash-functie waarbij gegevens door middel van een functie standaard compressie op blokken met gegevens iteraties wordt opgedeeld.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>BlockSizeValue is the byte size of such a block.</source>
+          <target state="translated">BlockSizeValue is de grootte in bytes van dergelijke blok.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Its value is 64 bytes.</source>
+          <target state="translated">De waarde is 64 bytes.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The block size to use in the hash value.</source>
+          <target state="translated">De grootte van het blok moet worden gebruikt in de hash-waarde.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the default implementation of a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">Hiermee maakt een exemplaar van de standaardimplementatie van een Hash-based Message Authentication Code (HMAC).</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, this overload uses the SHA-1 implementation of HMAC.</source>
+          <target state="translated">Deze overbelasting gebruikt standaard de SHA-1-implementatie van HMAC.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to specify a different implementation, use the &lt;xref:System.Security.Cryptography.HMAC.Create%28System.String%29&gt; overload, which lets you specify an algorithm name, instead.</source>
+          <target state="translated">Als u opgeven van een andere implementatie wilt, gebruikt u de &lt;xref:System.Security.Cryptography.HMAC.Create%28System.String%29&gt;overbelasting, waarmee u kunt in plaats daarvan de naam van een algoritme opgeven.&lt;/xref:System.Security.Cryptography.HMAC.Create%28System.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A new SHA-1 instance, unless the default settings have been changed by using the <bpt id="p1">[</bpt><ph id="ph1">&amp;lt;</ph>cryptoClass<ph id="ph2">&amp;gt;</ph> element<ept id="p1">](../Topic/%3CcryptoClass%3E%20Element.md)</ept>.</source>
+          <target state="translated">Een nieuwe SHA-1-exemplaar, tenzij de standaardinstellingen zijn gewijzigd met behulp van de <bpt id="p1">[</bpt> <ph id="ph1">&amp;lt;</ph>cryptoClass<ph id="ph2">&amp;gt;</ph> element<ept id="p1">](../Topic/%3CcryptoClass%3E%20Element.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the specified implementation of a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">Hiermee maakt een exemplaar van de opgegeven implementatie van een Hash-based Message Authentication Code (HMAC).</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMAC supports a number of hash algorithms, including MD5, SHA-1, SHA-256, and RIPEMD160.</source>
+          <target state="translated">HMAC ondersteunt een aantal hash-algoritmen, zoals MD5, SHA-1, SHA-256 en RIPEMD160.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the full list, see the supported values for the <ph id="ph1">`algorithmName`</ph> parameter.</source>
+          <target state="translated">Zie voor een volledige lijst, de ondersteunde waarden voor de <ph id="ph1">`algorithmName`</ph> parameter.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The HMAC implementation to use.</source>
+          <target state="translated">Het HMAC-implementatie te gebruiken.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following table shows the valid values for the <ph id="ph1">`algorithmName`</ph> parameter and the algorithms they map to.</source>
+          <target state="translated">De volgende tabel bevat de geldige waarden voor de <ph id="ph1">`algorithmName`</ph> parameter en de algoritmen deze worden toegewezen aan.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Parameter value</source>
+          <target state="translated">Waarde van parameter</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Implements</source>
+          <target state="translated">Implements</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>System.Security.Cryptography.HMAC</source>
+          <target state="translated">System.Security.Cryptography.HMAC</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>System.Security.Cryptography.KeyedHashAlgorithm</source>
+          <target state="translated">System.Security.Cryptography.KeyedHashAlgorithm</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>HMACMD5</source>
+          <target state="translated">HMACMD5</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>System.Security.Cryptography.HMACMD5</source>
+          <target state="translated">System.Security.Cryptography.HMACMD5</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>HMACRIPEMD160</source>
+          <target state="translated">HMACRIPEMD160</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>System.Security.Cryptography.HMACRIPEMD160</source>
+          <target state="translated">System.Security.Cryptography.HMACRIPEMD160</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>HMACSHA1</source>
+          <target state="translated">HMACSHA1</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>System.Security.Cryptography.HMACSHA1</source>
+          <target state="translated">System.Security.Cryptography.HMACSHA1</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>HMACSHA256</source>
+          <target state="translated">HMACSHA256</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>System.Security.Cryptography.HMACSHA256</source>
+          <target state="translated">System.Security.Cryptography.HMACSHA256</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>HMACSHA384</source>
+          <target state="translated">HMACSHA384</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>System.Security.Cryptography.HMACSHA384</source>
+          <target state="translated">System.Security.Cryptography.HMACSHA384</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>HMACSHA512</source>
+          <target state="translated">HMACSHA512</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>System.Security.Cryptography.HMACSHA512</source>
+          <target state="translated">System.Security.Cryptography.HMACSHA512</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>MACTripleDES</source>
+          <target state="translated">MACTripleDES</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>System.Security.Cryptography.MACTripleDES</source>
+          <target state="translated">System.Security.Cryptography.MACTripleDES</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A new instance of the specified HMAC implementation.</source>
+          <target state="translated">Een nieuw exemplaar van de opgegeven HMAC-implementatie.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMAC"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class when a key change is legitimate and optionally releases the managed resources.</source>
+          <target state="translated">Heft de niet-beheerde bronnen worden gebruikt door de <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMAC"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse wanneer een wijziging in de sleutel geldig is en eventueel de beheerde bronnen vrij.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the <ph id="ph2">`Finalize`</ph> method.</source>
+          <target state="translated">Deze methode wordt aangeroepen door het publiek <ph id="ph1">`Dispose()`</ph> methode en de <ph id="ph2">`Finalize`</ph> methode.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>Hiermee wordt de beveiligde <ph id="ph2">`Dispose(Boolean)`</ph> methode met de <ph id="ph3">`disposing`</ph> parameter ingesteld op <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Finalize`</ph> invokes <ph id="ph2">`Dispose`</ph> with <ph id="ph3">`disposing`</ph> set to <ph id="ph4">`false`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Finalize`</ph>roept <ph id="ph2">`Dispose`</ph> met <ph id="ph3">`disposing`</ph> ingesteld op <ph id="ph4">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Security.Cryptography.HMAC&gt; references.</source>
+          <target state="translated">Wanneer de <ph id="ph1">`disposing`</ph> parameter <ph id="ph2">`true`</ph>, deze methode worden alle resources die beheerde objecten waarover vrijgegeven dat dit &lt;xref:System.Security.Cryptography.HMAC&gt;verwijzingen.&lt;/xref:System.Security.Cryptography.HMAC&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Deze methode roept de <ph id="ph1">`Dispose()`</ph> methode van elk object waarnaar wordt verwezen.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>voor het vrijgeven van zowel beheerde als onbeheerde hulpbronnen; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> om alleen niet-beheerde bronnen vrij te geven.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, routes data written to the object into the default <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMAC"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> hash algorithm for computing the hash value.</source>
+          <target state="translated">Wanneer in een afgeleide klasse genegeerd, stuurt gegevens die naar het object wordt geschreven naar de standaard <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMAC"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hash-algoritme voor het verwerken van de hash-waarde.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not called by application code.</source>
+          <target state="translated">Deze methode wordt niet aangeroepen door de toepassingscode.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This abstract method performs the hash computation.</source>
+          <target state="translated">Deze abstracte methode voert de berekening van de hash.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Every write to the cryptographic stream object passes the data through this method.</source>
+          <target state="translated">Elke schrijfbewerking naar de cryptografische stroomobject wordt doorgegeven via deze methode.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For each block of data, this method updates the state of the hash object so that a correct hash value is returned at the end of the data stream.</source>
+          <target state="translated">Deze methode werkt de status van het hash-object voor elk gegevensblok, zodat een juiste hash-waarde wordt geretourneerd aan het einde van de gegevensstroom.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The input data.</source>
+          <target state="translated">De invoergegevens.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The offset into the byte array from which to begin using data.</source>
+          <target state="translated">De offset in de bytematrix waaruit de gegevens in gebruik neemt.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The number of bytes in the array to use as data.</source>
+          <target state="translated">Het aantal bytes in de matrix te gebruiken als gegevens.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, finalizes the hash computation after the last data is processed by the cryptographic stream object.</source>
+          <target state="translated">Wanneer in een afgeleide klasse genegeerd, wordt de hash-berekening nadat de laatste gegevens wordt verwerkt door de cryptografische stroomobject.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not called by application code.</source>
+          <target state="translated">Deze methode wordt niet aangeroepen door de toepassingscode.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method finalizes any partial computation and returns the correct hash value of the data stream.</source>
+          <target state="translated">Deze methode wordt een gedeeltelijke berekening en retourneert de juiste hash-waarde van de gegevensstroom.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The computed hash code in a byte array.</source>
+          <target state="translated">De berekende hash-code in een byte-matrix.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the hash algorithm to use for hashing.</source>
+          <target state="translated">Opgehaald of ingesteld van de naam van het hash-algoritme gebruiken voor de hash.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The name of the hash algorithm.</source>
+          <target state="translated">De naam van het hash-algoritme.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The current hash algorithm cannot be changed.</source>
+          <target state="translated">Het huidige hash-algoritme kan niet worden gewijzigd.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Initializes an instance of the default implementation of <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMAC"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Initialiseert een exemplaar van de standaardimplementatie van <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMAC"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Hash-based Message Authentication Code (HMAC) can be used to determine whether a message sent over an insecure channel has been tampered with, provided that the sender and receiver share a secret key.</source>
+          <target state="translated">Een Hash-based Message Authentication Code (HMAC) kan worden gebruikt om te bepalen of een bericht wordt verzonden via een onbeveiligde kanaal is geknoeid, mits de verzender en ontvanger een geheime sleutel delen.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sender computes the hash value for the original data and sends both the original data and the HMAC as a single message.</source>
+          <target state="translated">De afzender berekent de hash-waarde voor de oorspronkelijke gegevens en de oorspronkelijke gegevens zowel de HMAC verzendt als één bericht.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The receiver recomputes the hash value on the received message and checks that the computed hash value matches the transmitted hash value.</source>
+          <target state="translated">De ontvanger de hash-waarde voor het ontvangen bericht opnieuw berekenen en controleert of de berekende hashwaarde overeenkomt met de verzonden hash-waarde.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMAC can be used with any iterative cryptographic hash function, such as MD5 or SHA-1, in combination with a secret shared key.</source>
+          <target state="translated">HMAC kan worden gebruikt met elke iteratieve cryptografische hash-functie, zoals MD5 of SHA-1, in combinatie met een gedeelde geheime sleutel.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The cryptographic strength of HMAC depends on the properties of the underlying hash function.</source>
+          <target state="translated">De cryptografische sterkte van HMAC is afhankelijk van de eigenschappen van de onderliggende hashfunctie.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any change to the data or the hash value will result in a mismatch, because knowledge of the secret key is required to change the message and reproduce the correct hash value.</source>
+          <target state="translated">Elke wijziging van de gegevens of de hash-waarde resulteert in een niet-overeenkomende, omdat de geheime sleutel is vereist voor het wijzigen van het bericht en de juiste hash-waarde reproduceren.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if the original and computed hash values match, the message is authenticated.</source>
+          <target state="translated">Als de oorspronkelijke en berekende hash-waarden overeenkomen, wordt daarom het bericht geverifieerd.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets or sets the key to use in the hash algorithm.</source>
+          <target state="translated">Opgehaald of ingesteld van de sleutel moet worden gebruikt in de hash-algoritme.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is the key for the keyed hash algorithm.</source>
+          <target state="translated">Deze eigenschap is de sleutel voor het sleutelhash-algoritme.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Hash-based Message Authentication Code (HMAC) can be used to determine whether a message sent over an insecure channel has been tampered with, provided that the sender and receiver share a secret key.</source>
+          <target state="translated">Een Hash-based Message Authentication Code (HMAC) kan worden gebruikt om te bepalen of een bericht wordt verzonden via een onbeveiligde kanaal is geknoeid, mits de verzender en ontvanger een geheime sleutel delen.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sender computes the hash value for the original data and sends both the original data and the HMAC as a single message.</source>
+          <target state="translated">De afzender berekent de hash-waarde voor de oorspronkelijke gegevens en de oorspronkelijke gegevens zowel de HMAC verzendt als één bericht.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The receiver recomputes the hash value on the received message and checks that the computed hash value matches the transmitted hash value.</source>
+          <target state="translated">De ontvanger de hash-waarde voor het ontvangen bericht opnieuw berekenen en controleert of de berekende hashwaarde overeenkomt met de verzonden hash-waarde.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMAC can be used with any iterative cryptographic hash function, such as MD5 or SHA-1, in combination with a secret shared key.</source>
+          <target state="translated">HMAC kan worden gebruikt met elke iteratieve cryptografische hash-functie, zoals MD5 of SHA-1, in combinatie met een gedeelde geheime sleutel.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The cryptographic strength of HMAC depends on the properties of the underlying hash function.</source>
+          <target state="translated">De cryptografische sterkte van HMAC is afhankelijk van de eigenschappen van de onderliggende hashfunctie.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any change to the data or the hash value results in a mismatch, because knowledge of the secret key is required to change the message and reproduce the correct hash value.</source>
+          <target state="translated">Elke wijziging van de gegevens of de hash-waarde resulteert in een niet-overeenkomende, omdat de geheime sleutel is vereist voor het wijzigen van het bericht en de juiste hash-waarde reproduceren.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if the original and computed hash values match, the message is authenticated.</source>
+          <target state="translated">Als de oorspronkelijke en berekende hash-waarden overeenkomen, wordt daarom het bericht geverifieerd.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The key to use in the hash algorithm.</source>
+          <target state="translated">De sleutel moet worden gebruikt in de hash-algoritme.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>An attempt is made to change the Key property after hashing has begun.</source>
+          <target state="translated">Een poging is gedaan sleutel-eigenschap te wijzigen nadat hashing is gestart.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

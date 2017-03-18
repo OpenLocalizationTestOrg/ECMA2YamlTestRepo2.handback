@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45067e92be61e8499bf16b2756ef7c1dcdfdabf9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.BinaryMessageFormatter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">811b8fb0eb971264835e4129cee2e20db0b7b50f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c60982990d4a8c8ec1ef19c0737b143bb56ccaa</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serializes or deserializes an object, or an entire graph of connected objects, to or from the body of a Message Queuing message, using a binary format.</source>
+          <target state="translated">Serializa ou desserializa um objeto ou um gráfico inteiro de objetos conectados, ou para o corpo de uma mensagem de enfileiramento de mensagens, usando um formato binário.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BinaryMessageFormatter is very efficient and can be used to serialize most objects.</source>
+          <target state="translated">O BinaryMessageFormatter é muito eficiente e pode ser usado para serializar a maioria dos objetos.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result is very compact and fast to parse, but does not allow for loosely coupled messaging as the &lt;xref:System.Messaging.XmlMessageFormatter&gt; does.</source>
+          <target state="translated">O resultado é muito compact e rápidas para analisar, mas não permitir acoplados de forma flexível de mensagens como o &lt;xref:System.Messaging.XmlMessageFormatter&gt;does.&lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Loosely coupled means that the client and the server can independently version the type that is sent and received.</source>
+          <target state="translated">Acoplamento significa que o cliente e o servidor independentemente podem versão o tipo que é enviado e recebido.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the application sends a message to the queue using an instance of the &lt;xref:System.Messaging.MessageQueue&gt; class, the formatter serializes the object into a stream and inserts it into the message body.</source>
+          <target state="translated">Quando o aplicativo envia uma mensagem à fila utilizando uma instância do &lt;xref:System.Messaging.MessageQueue&gt;classe, o formatador serializa o objeto em um fluxo e o insere no corpo da mensagem.&lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When reading from a queue using a &lt;xref:System.Messaging.MessageQueue&gt;, the formatter deserializes the message data into the &lt;xref:System.Messaging.Message.Body%2A&gt; property of a &lt;xref:System.Messaging.Message&gt;.</source>
+          <target state="translated">Durante a leitura de uma fila usando um &lt;xref:System.Messaging.MessageQueue&gt;o formatador desserializa os dados da mensagem para a &lt;xref:System.Messaging.Message.Body%2A&gt;propriedade de &lt;xref:System.Messaging.Message&gt;.&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Body%2A&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>BinaryMessageFormatter provides faster throughput than the &lt;xref:System.Messaging.XmlMessageFormatter&gt;.</source>
+          <target state="translated">BinaryMessageFormatter fornece a taxa de transferência mais rápida que o &lt;xref:System.Messaging.XmlMessageFormatter&gt;.&lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the BinaryMessageFormatter when pure speed rather than loosely coupled messaging is desired.</source>
+          <target state="translated">Use o BinaryMessageFormatter quando a velocidade pura, em vez de acoplados de forma flexível de mensagens for desejada.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class without specifying a type style or top object assembly style.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe sem especificar um estilo de tipo ou objeto superior assembly.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify values for the &lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt; property (which defines how the root object in a graph is laid out) and the &lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; property (which defines how object type descriptions are laid out) before using an instance of the &lt;xref:System.Messaging.BinaryMessageFormatter&gt; class to serialize and send a message.</source>
+          <target state="translated">Você deve especificar valores para o &lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;propriedade (que define como o objeto raiz em um gráfico é apresentado) e o &lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt;propriedade (que define como as descrições de tipo de objeto são dispostas) antes de usar uma instância do &lt;xref:System.Messaging.BinaryMessageFormatter&gt;classe para serializar e enviar uma mensagem.&lt;/xref:System.Messaging.BinaryMessageFormatter&gt; &lt;/xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; &lt;/xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying the formats of the root object and the type descriptions.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe, especificando os formatos do objeto raiz e as descrições de tipo.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Determines how the top (root) object of a graph is laid out in the serialized stream.</source>
+          <target state="translated">Determina como o objeto superior (raiz) de um gráfico é apresentado no fluxo serializado.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Determines how type descriptions are laid out in the serialized stream.</source>
+          <target state="translated">Determina como as descrições de tipo são apresentadas no fluxo serializado.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Determines whether the formatter can deserialize the contents of the message.</source>
+          <target state="translated">Determina se o formatador pode desserializar o conteúdo da mensagem.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CanRead returns <ph id="ph1">`false`</ph> if the message body is not a binary object.</source>
+          <target state="translated">CanRead retorna <ph id="ph1">`false`</ph> se o corpo da mensagem não é um objeto binário.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On the receiving computer, CanRead returns <ph id="ph1">`true`</ph> if the assembly for the class to be deserialized exists locally.</source>
+          <target state="translated">No computador de recebimento, CanRead retorna <ph id="ph1">`true`</ph> se o assembly para a classe a ser desserializado existe localmente.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The assembly must be found in the global assembly cache, or be linked to the application (for example, if the object represents a custom class).</source>
+          <target state="translated">O assembly deve ser encontrado no cache de assembly global, ou ser vinculado ao aplicativo (por exemplo, se o objeto representa uma classe personalizada).</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to inspect.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para inspecionar.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the binary message formatter can deserialize the message; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o formatador de mensagem binária pode desserializar a mensagem. Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class whose read/write properties (the root object and type description formats) are the same as the current <bpt id="p2">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Cria uma instância do <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe cuja leitura/gravação (as raiz objeto e do tipo descrição formatos) de propriedades são os mesmos atual <bpt id="p2">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates a copy of the formatter and initializes all its properties to the values of this &lt;xref:System.Messaging.BinaryMessageFormatter&gt;.</source>
+          <target state="translated">Esse método cria uma cópia do formatador e inicializa a todas as suas propriedades para os valores desse &lt;xref:System.Messaging.BinaryMessageFormatter&gt;.&lt;/xref:System.Messaging.BinaryMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used for scalability, but does not guarantee read or write thread safety.</source>
+          <target state="translated">Ele é usado para escalabilidade, mas não garante a leitura ou gravação acesso thread-safe.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An object whose properties are identical to those of this <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, but whose metadata does not specify it to be a formatter class instance.</source>
+          <target state="translated">Um objeto cujas propriedades são idênticas desse <bpt id="p1">&lt;xref href="System.Messaging.BinaryMessageFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, mas cujos metadados não especifica a ser uma instância da classe de formatador.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Reads the contents from the given message and creates an object that contains the deserialized message.</source>
+          <target state="translated">Lê o conteúdo da mensagem determinada e cria um objeto que contém a mensagem desserializada.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  Calling this method with untrusted data is a security risk.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; Chamar esse método com dados não confiáveis é um risco de segurança.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method only with trusted data.</source>
+          <target state="translated">Chame este método apenas com dados confiáveis.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Untrusted Data Security Risks<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>riscos de segurança de dados não confiável<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The body of the message must be in binary format, and the same serializer must be used to deserialize the message as that which initially serialized it.</source>
+          <target state="translated">O corpo da mensagem deve estar no formato binário, e o serializador mesmo deve ser usado para desserializar a mensagem que que inicialmente serializada-lo.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the body represents a custom class, the assembly for that class must exist locally.</source>
+          <target state="translated">Se o corpo representa uma classe personalizada, o assembly para essa classe deve existir localmente.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, in binary format, to deserialize.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, em formato binário, a ser desserializado.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The deserialized message.</source>
+          <target state="translated">A mensagem desserializada.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The message's &lt;xref:System.Messaging.Message.BodyType*&gt; property does not indicate a binary object.</source>
+          <target state="translated">A mensagem &lt;xref:System.Messaging.Message.BodyType*&gt;propriedade não indica um objeto binário.&lt;/xref:System.Messaging.Message.BodyType*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that defines how the top (root) object of a graph is deserialized with regards to finding and loading its assembly.</source>
+          <target state="translated">Obtém ou define um valor que determina como o objeto superior (raiz) de um gráfico é desserializado em relação a encontrar e carregar seu assembly.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently, you should accept the default value, <ph id="ph1">`AssemblyStyle`</ph>.</source>
+          <target state="translated">No momento, você deve aceitar o valor padrão, <ph id="ph1">`AssemblyStyle`</ph>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that defines the deserialization behavior.</source>
+          <target state="translated">Uma da <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterAssemblyStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores que define o comportamento de desserialização.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that defines how type descriptions are laid out in the serialized stream.</source>
+          <target state="translated">Obtém ou define um valor que define como as descrições de tipo são dispostas no fluxo serializado.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently, you should accept the default value, <ph id="ph1">`TypesWhenNeeded`</ph>.</source>
+          <target state="translated">No momento, você deve aceitar o valor padrão, <ph id="ph1">`TypesWhenNeeded`</ph>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterTypeStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines the type description format.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Runtime.Serialization.Formatters.FormatterTypeStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que define o formato de descrição de tipo.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Serializes an object into the body of the message.</source>
+          <target state="translated">Serializa um objeto no corpo da mensagem.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The top object format and type format need not be specified to write to the queue as they must be when reading.</source>
+          <target state="translated">O formato do objeto superior e o formato de tipo não precisam ser especificadas para gravar na fila como eles devem ser durante a leitura.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt; and &lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; properties are used by the formatter only when deserializing a message.</source>
+          <target state="translated">O &lt;xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;e &lt;xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt;propriedades são usadas pelo formatador apenas ao desserializar uma mensagem.&lt;/xref:System.Messaging.BinaryMessageFormatter.TypeFormat%2A&gt; &lt;/xref:System.Messaging.BinaryMessageFormatter.TopObjectFormat%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Messaging.BinaryMessageFormatter&gt; can serialize most objects, but the result is not loosely coupled.</source>
+          <target state="translated">O &lt;xref:System.Messaging.BinaryMessageFormatter&gt;pode serializar a maioria dos objetos, mas o resultado não é flexível.&lt;/xref:System.Messaging.BinaryMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, it is compact, so the formatter is efficient for large objects.</source>
+          <target state="translated">No entanto, é compact, portanto, o formatador é eficiente para objetos grandes.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose &lt;xref:System.Messaging.Message.Body*&gt; property will contain the serialized object.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cujo &lt;xref:System.Messaging.Message.Body*&gt;propriedade conterá o objeto serializado.&lt;/xref:System.Messaging.Message.Body*&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The object to be serialized into the message body.</source>
+          <target state="translated">O objeto a ser serializado no corpo da mensagem.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
