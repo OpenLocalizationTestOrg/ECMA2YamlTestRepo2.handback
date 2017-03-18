@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">703166311b55867a0fdb500259e145bb21b21f1e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.ISettingsProviderService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84ade620bca0dda865bee66987224308a36b57ae</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ce66b8bf1016e4d2087e097ff17d013d3be96d4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an interface for defining an alternate application settings provider.</source>
+          <target state="translated">Biedt een interface voor het definiëren van een andere toepassing instellingen provider.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.IPersistComponentSettings&gt; interface enables controls and components hosted in an application to persist their application settings in a manner largely transparent to the application.</source>
+          <target state="translated">De &lt;xref:System.Configuration.IPersistComponentSettings&gt;interface kunnen besturingselementen en onderdelen die worden gehost in een toepassing om vast te leggen van de toepassingsinstellingen op een manier die grotendeels transparant voor de toepassing.&lt;/xref:System.Configuration.IPersistComponentSettings&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, in some cases, the application or environment may need to override the settings provider natively used by a component with one of its own choosing.</source>
+          <target state="translated">Echter, in sommige gevallen kan de toepassing of de omgeving moet mogelijk overschrijven de instellingen voor provider systeemeigen gebruikt door een component met een van de eigen kiezen.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ISettingsProviderService interface enables the creation of a lightweight service that communicates such an alternate settings provider, typically offered through the owning &lt;xref:System.ComponentModel.Container&gt;.</source>
+          <target state="translated">De interface ISettingsProviderService wordt het maken van een lichtgewicht service die dergelijke een alternatieve instellingen voor provider communiceert, die meestal worden aangeboden via de eigenaar van &lt;xref:System.ComponentModel.Container&gt;.&lt;/xref:System.ComponentModel.Container&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ISettingsProviderService is commonly used by design-time tools and debuggers that provide special support for application settings.</source>
+          <target state="translated">ISettingsProviderService wordt meestal gebruikt door het moment van ontwerp hulpprogramma's en foutopsporing die speciale ondersteuning voor toepassingsinstellingen bieden.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To make such an arrangement function seamlessly, the &lt;xref:System.Configuration.ApplicationSettingsBase&gt; class contains constructors that take a reference to the owning component.</source>
+          <target state="translated">Om te laten dergelijke een rangschikking naadloos werken, de &lt;xref:System.Configuration.ApplicationSettingsBase&gt;klasse bevat een constructors die een verwijzing naar het onderdeel dat.&lt;/xref:System.Configuration.ApplicationSettingsBase&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These constructors automatically query for compatible settings providers.</source>
+          <target state="translated">Deze constructors vragen automatisch voor providers van compatibele instellingen.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Returns the settings provider compatible with the specified settings property.</source>
+          <target state="translated">Retourneert de provider van instellingen compatibel zijn met de eigenschap opgegeven instellingen.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetSettingsProvider method enables an &lt;xref:System.Configuration.ISettingsProviderService&gt; to offer its serialization services to any sited component.</source>
+          <target state="translated">De methode GetSettingsProvider kan een &lt;xref:System.Configuration.ISettingsProviderService&gt;te bieden de serialisatie-services voor elk onderdeel vestigingsplaats.&lt;/xref:System.Configuration.ISettingsProviderService&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method determines if the associated settings provider can persist the specified application settings property type.</source>
+          <target state="translated">Deze methode bepaalt als de bijbehorende instellingen provider het eigenschapstype van de opgegeven toepassing-instellingen kunt behouden.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it can, this method returns a reference to that settings provider; otherwise it returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Als dat mogelijk is, retourneert deze methode een verwijzing naar die instellingen provider; anders wordt <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Configuration.SettingsProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that requires serialization.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Configuration.SettingsProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvoor serialisatie is vereist.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If found, the <bpt id="p1">&lt;xref href="System.Configuration.SettingsProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can persist the specified settings property; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Als gevonden, de <bpt id="p1">&lt;xref href="System.Configuration.SettingsProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die de eigenschap opgegeven instellingen kunt behouden; anders <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
