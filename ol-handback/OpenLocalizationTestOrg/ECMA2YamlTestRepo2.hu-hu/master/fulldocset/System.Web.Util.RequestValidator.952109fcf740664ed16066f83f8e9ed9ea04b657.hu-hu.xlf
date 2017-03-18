@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ebde0b61b8421721905d96cb9de07d3b84868839</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Util.RequestValidator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7278070a9f6c1801e6376457ee0b898c19d5cc12</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c6cb5c517f6be788ab39e0dbdd493c3802459b38</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines base methods for custom request validation.</source>
+          <target state="translated">Egyéni kérelem érvényesítéshez alap módszerek meghatározása.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, ASP.NET does not validate requests until code explicitly requests a value from the request.</source>
+          <target state="translated">Alapértelmezés szerint az ASP.NET nem ellenőrzi kérelmek amíg kód explicit módon lekér egy értéket a kérelemből.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, ASP.NET does not validate query-string values until code accesses the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; collection.</source>
+          <target state="translated">Például az ASP.NET lekérdezés-karakterlánc-értékek nem ellenőrzi, amíg nem fér hozzá a kódot a &lt;xref:System.Web.HttpRequest.QueryString%2A&gt;gyűjtemény.&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, ASP.NET also does not validate some types of request data, such as form values, cookies, the names of files that have been uploaded using HTTP, and the value of the &lt;xref:System.Web.HttpRequest.RawUrl%2A&gt; property.</source>
+          <target state="translated">Alapértelmezés szerint az ASP.NET is nem felel meg bizonyos típusú kérelem adatai, például az űrlap értékek, a cookie-k, a HTTP és a értékének feltöltött fájlok nevét a &lt;xref:System.Web.HttpRequest.RawUrl%2A&gt;tulajdonság.&lt;/xref:System.Web.HttpRequest.RawUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RequestValidator class is a base class that you can implement in order to provide custom request validation.</source>
+          <target state="translated">A RequestValidator osztály egy olyan alaposztálytól, annak egyéni kérelem ellenőrzése érdekében, hogy valósíthat meg.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By implementing this class, you can determine when validation occurs and what type of request data to perform validation on.</source>
+          <target state="translated">Ez az osztály implementálásával azt is meghatározhatja a érvényesítési esetén, és milyen típusú érvényesítést hajt végre a kérelem adatai.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, ASP.NET provides cross-site scripting (XSS) checks.</source>
+          <target state="translated">Alapértelmezés szerint az ASP.NET ellenőrzések többhelyes scripting (lehetővé) biztosít.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you can supplement or replace the request validation logic that is provided in ASP.NET by creating a custom implementation of the XSS.</source>
+          <target state="translated">Azonban kiegészítik, vagy cserélje le a kérelem ellenőrzési logikát, hozzon létre egy egyéni megvalósításában a lehetővé ASP.NET foglalt.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can write a custom request validation implementation that scans for SQL injection attacks in addition to checking for XSS attacks.</source>
+          <target state="translated">Például lehet írni a egyéni kérelem érvényesítési megvalósítása, amely SQL injektálási támadások lehetővé támadások ellenőrzése mellett keres.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create custom request validation, you write a custom class that derives from the RequestValidator base class.</source>
+          <target state="translated">Egyéni kérelem érvényesítési létrehozásához írt egyéni osztály, amely a RequestValidator alaposztályból származik.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You then configure ASP.NET to use the custom request validator in the application-level Web.config file.</source>
+          <target state="translated">Ezután konfigurálja az egyéni kérelem érvényesítő használni az alkalmazás szintű Web.config fájlban az ASP.NET.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can put the custom class in the App_Code folder, in a compiled class library in the Bin folder, or in a compiled class library in the GAC.</source>
+          <target state="translated">Az egyéni osztály az App_Code mappa, a Bin mappában lefordított osztály könyvtárban, vagy egy lefordított osztály könyvtárban található helyezhetik.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Only one custom request validation type can be configured for an application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Csak egy egyéni kérelem érvényesítéstípus konfigurálhatja a kérelmet.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not possible to configure a different request validation type for individual virtual paths or pages.</source>
+          <target state="translated">Nincs lehetőség egy másik kérelem ellenőrzési típusa. az egyes virtuális elérési utak vagy lapok konfigurálása.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Util.RequestValidator&gt; class has a default constructor.</source>
+          <target state="translated">A &lt;xref:System.Web.Util.RequestValidator&gt;osztály rendelkezik alapértelmezett konstruktorral.&lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a new instance of the class is initialized, an internal method retrieves custom validation details from the application's configuration information.</source>
+          <target state="translated">Az osztály új példánya inicializálásakor egy belső metódus egyéni ellenőrzési részletek átmásolja az alkalmazás konfigurációs adatokat.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The configuration details are contained in the &lt;xref:System.Web.Configuration.HttpRuntimeSection&gt; section.</source>
+          <target state="translated">A konfigurációs részletek találhatók a &lt;xref:System.Web.Configuration.HttpRuntimeSection&gt;szakasz.&lt;/xref:System.Web.Configuration.HttpRuntimeSection&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>httpRuntime Element (ASP.NET Settings Schema)<ept id="p1">](http://msdn.microsoft.com/en-us/e9b81350-8aaf-47cc-9843-5f7d0c59f369)</ept> and the &lt;xref:System.Web.Configuration.HttpRuntimeSection.RequestValidationType%2A&gt; attribute.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>httpRuntime elem (ASP.NET beállítási séma)<ept id="p1">](http://msdn.microsoft.com/en-us/e9b81350-8aaf-47cc-9843-5f7d0c59f369)</ept> és a &lt;xref:System.Web.Configuration.HttpRuntimeSection.RequestValidationType%2A&gt;attribútum.&lt;/xref:System.Web.Configuration.HttpRuntimeSection.RequestValidationType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During initialization, a single instance of the &lt;xref:System.Web.Util.RequestValidator&gt; class is created, and a reference to the instance is maintained in the &lt;xref:System.Web.Util.RequestValidator.Current%2A&gt; property.</source>
+          <target state="translated">Egyetlen példány futhat az inicializálás során a &lt;xref:System.Web.Util.RequestValidator&gt;osztály jön létre, és hivatkozni kell a példány megőrződik a &lt;xref:System.Web.Util.RequestValidator.Current%2A&gt;tulajdonság.&lt;/xref:System.Web.Util.RequestValidator.Current%2A&gt; &lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET does not create a new request validator instance per request.</source>
+          <target state="translated">Az ASP.NET nem hoz létre egy új kérelmet érvényesítő példány kérelmenként.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, custom implementations of the &lt;xref:System.Web.Util.RequestValidator&gt; class must be thread-safe.</source>
+          <target state="translated">Ezért egyéni implementációja a &lt;xref:System.Web.Util.RequestValidator&gt;osztály szálbiztos kell lennie.&lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets or sets a reference to the current <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that will be used in an application.</source>
+          <target state="translated">Lekérdezi vagy beállítja a hivatkozás az aktuális <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az alkalmazásban használt példány.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Current property maintains a reference to the single allowed instance of the &lt;xref:System.Web.Util.RequestValidator&gt; class.</source>
+          <target state="translated">Az aktuális tulajdonság tartja nyilván &lt;xref:System.Web.Util.RequestValidator&gt;osztály&lt;/xref:System.Web.Util.RequestValidator&gt; egyetlen példánya</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no instance exists, a new one is created.</source>
+          <target state="translated">Ha nem létezik, egy új jön létre.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an instance already exists, the current instance is returned.</source>
+          <target state="translated">Ha már létezik, az aktuális példány ad vissza.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During initialization, a single instance of the &lt;xref:System.Web.Util.RequestValidator&gt; class is created, and a reference to the instance is made available in the Current property.</source>
+          <target state="translated">Egyetlen példány futhat az inicializálás során a &lt;xref:System.Web.Util.RequestValidator&gt;osztály jön létre, és hivatkozni kell a példány felhasználhatóvá válik az aktuális tulajdonság.&lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET does not create a new request validator instance per request.</source>
+          <target state="translated">Az ASP.NET nem hoz létre egy új kérelmet érvényesítő példány kérelmenként.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, custom implementations of the &lt;xref:System.Web.Util.RequestValidator&gt; class must be thread-safe.</source>
+          <target state="translated">Ezért egyéni implementációja a &lt;xref:System.Web.Util.RequestValidator&gt;osztály szálbiztos kell lennie.&lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Current property is not thread-safe while the property is setting a reference to the current &lt;xref:System.Web.Util.RequestValidator&gt; class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Az aktuális tulajdonság értéke nem szálbiztos közben a tulajdonság állít egy hivatkozást a jelenlegi &lt;xref:System.Web.Util.RequestValidator&gt;osztályhoz.&lt;/xref:System.Web.Util.RequestValidator&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy példányát a <bpt id="p1">&lt;xref href="System.Web.Util.RequestValidator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A tulajdonság <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Provides a public method that calls the protected &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString*&gt; method in order to validate HTTP request data.</source>
+          <target state="translated">Nyilvános metódus, amely behívja a védett &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString*&gt;metódus ellenőrizni fogja az HTTP-kérelem adatai.&lt;/xref:System.Web.Util.RequestValidator.IsValidRequestString*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The InvokeIsValidRequestString method provides public access to the protected &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt; method.</source>
+          <target state="translated">A InvokeIsValidRequestString módszer lehetővé teszi a védett nyilvános hozzáférés &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt;metódus.&lt;/xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This lets you create a custom wrapper class for the &lt;xref:System.Web.Util.RequestValidator&gt; class and call the &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt; method without having to inherit from the &lt;xref:System.Web.Util.RequestValidator&gt; class.</source>
+          <target state="translated">Ez lehetővé teszi az &lt;xref:System.Web.Util.RequestValidator&gt;osztály és hívja meg a &lt;xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt;metódus anélkül, hogy az &lt;xref:System.Web.Util.RequestValidator&gt;osztály&lt;/xref:System.Web.Util.RequestValidator&gt; örökli&lt;/xref:System.Web.Util.RequestValidator.IsValidRequestString%2A&gt; &lt;/xref:System.Web.Util.RequestValidator&gt; egyéni burkoló osztály létrehozása</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about request validation, see &lt;xref:System.Web.UnvalidatedRequestValues&gt;.</source>
+          <target state="translated">Kérelem érvényesítése kapcsolatos információkért lásd: &lt;xref:System.Web.UnvalidatedRequestValues&gt;.&lt;/xref:System.Web.UnvalidatedRequestValues&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The HTTP context of the request.</source>
+          <target state="translated">A kérelem HTTP-környezetben.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The HTTP request data to validate.</source>
+          <target state="translated">A HTTP-kérelem adatai érvényesítéséhez.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An enumeration that represents the source of request data that is being validated.</source>
+          <target state="translated">Enumerálást érvényesítésre kerül-kérelem adatok forrását jelöli.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The following are possible values for the enumeration:      -   <bpt id="p1">&lt;xref uid="langword_csharp_QueryString" name="QueryString" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph1">      -   </ph><bpt id="p2">&lt;xref uid="langword_csharp_Form " name="Form " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><ph id="ph2">      -   </ph><bpt id="p3">&lt;xref uid="langword_csharp_Cookies" name="Cookies" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><ph id="ph3">      -   </ph><bpt id="p4">&lt;xref uid="langword_csharp_Files" name="Files" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><ph id="ph4">      -   </ph><bpt id="p5">&lt;xref uid="langword_csharp_Path" name="Path" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><ph id="ph5">      -   </ph><bpt id="p6">&lt;xref uid="langword_csharp_PathInfo" name="PathInfo" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept><ph id="ph6">      -   </ph><bpt id="p7">&lt;xref uid="langword_csharp_Headers" name="Headers" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept></source>
+          <target state="translated">A számbavétel a lehetséges értékek a következők:-<bpt id="p1">&lt;xref uid="langword_csharp_QueryString" name="QueryString" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph1">      -   </ph><bpt id="p2">&lt;xref uid="langword_csharp_Form " name="Form " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><ph id="ph2">      -   </ph><bpt id="p3">&lt;xref uid="langword_csharp_Cookies" name="Cookies" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><ph id="ph3">      -   </ph><bpt id="p4">&lt;xref uid="langword_csharp_Files" name="Files" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><ph id="ph4">      -   </ph><bpt id="p5">&lt;xref uid="langword_csharp_Path" name="Path" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><ph id="ph5">      -   </ph><bpt id="p6">&lt;xref uid="langword_csharp_PathInfo" name="PathInfo" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept><ph id="ph6">      -   </ph><bpt id="p7">&lt;xref uid="langword_csharp_Headers" name="Headers" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>(Optional) The key in the request collection of the item to validate.</source>
+          <target state="translated">(Választható) A kulcs az elem ellenőrzése a kérelem gyűjteményében.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This parameter is used if the data to validate is obtained from a collection.</source>
+          <target state="translated">Ezt a paramétert akkor használatos, ha az adatok érvényesítéséhez egységekre egy gyűjteményből.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If the data to validate is not from a collection, this parameter can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ha az adatok érvényesítése nem egy gyűjteményből, ez a paraméter lehet <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When this method returns, indicates the zero-based starting point of the problematic or invalid text in the request collection.</source>
+          <target state="translated">Ez a módszer adja vissza, ha azt jelzi, a nulla alapú kiindulási pont a request gyűjtemény a problémás vagy érvénytelen szöveg.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Ez a paraméter lett átadva nem inicializált.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the string to validate does not contain unencoded characters that could be used in a malicious scripting attack; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha ellenőrzése a karakterlánc nem tartalmaz, amelyeket a rosszindulatú parancsfájlok támadás; használhatnak kódolatlan karakter Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Validates a string that contains HTTP request data.</source>
+          <target state="translated">Ellenőrzi a HTTP-kérelem adatai tartalmazó karakterlánc.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You implement this method to perform custom validation of request data.</source>
+          <target state="translated">Ez a módszer kérelem adatai egyéni ellenőrzés végrehajtása valósíthatja meg.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base behavior of the IsValidRequestString method is like the behavior that ASP.NET implements internally to check for dangerous strings in cross-site scripting validation.</source>
+          <target state="translated">A kiinduló IsValidRequestString metódus működése például viselkedését megvalósító ASP.NET belső többhelyes scripting érvényesítési veszélyes karakterláncok kereséséhez.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>How To: Prevent Cross-Site Scripting in ASP.NET<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=178708)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>Útmutató: többhelyes parancsfájlok tiltása ASP.NET<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=178708)</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If custom validation logic detects an error, this method should return <ph id="ph1">`false`</ph> and provide a value in <ph id="ph2">`validationFailureIndex`</ph> to indicate the starting point of the text that caused the error.</source>
+          <target state="translated">Ha egyéni ellenőrzési logika hibát észlel, ezt a módszert kell visszaadnia <ph id="ph1">`false`</ph> , és adjon meg egy értéket <ph id="ph2">`validationFailureIndex`</ph> a kiindulási pont a hibát okozó szöveg jelzi.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value in <ph id="ph1">`validationFailureIndex`</ph> must be 0 or a positive integer.</source>
+          <target state="translated">Az értéket <ph id="ph1">`validationFailureIndex`</ph> 0 vagy pozitív egész számnak kell lennie.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The logic in a request validation check proceeds as follows:      -   The &lt;xref:System.Web.HttpRequest&gt; class performs a null-character removal check on the incoming data.</source>
+          <target state="translated">A programot a kérelem érvényességének ellenőrzése a következőképp: - a &lt;xref:System.Web.HttpRequest&gt;osztály ellenőrzi a null karakter eltávolításának a beérkező adatokon.&lt;/xref:System.Web.HttpRequest&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Web.HttpRequest&gt; class calls either the IsValidRequestString method (the default implementation of the base method) or calls a derived version of the method.</source>
+          <target state="translated">-A &lt;xref:System.Web.HttpRequest&gt;osztály vagy IsValidRequestString metódus (az alapértelmezett alkalmazása az alapmetódust), vagy egy származtatott verziója metódus meghívja.&lt;/xref:System.Web.HttpRequest&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If IsValidRequestString method returns <ph id="ph1">`false`</ph> to indicate a validation failure, ASP.NET constructs an error string (if necessary) and throws an &lt;xref:System.Web.HttpRequestValidationException&gt; exception.</source>
+          <target state="translated">-Ha IsValidRequestString metódus visszaadja <ph id="ph1">`false`</ph> érvényesítési hibát jelzi, hogy az ASP.NET hoz létre egy hiba karakterlánca (ha szükséges), és jelez egy &lt;xref:System.Web.HttpRequestValidationException&gt;kivétel.&lt;/xref:System.Web.HttpRequestValidationException&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The context of the current request.</source>
+          <target state="translated">Az aktuális kérés környezetében.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The HTTP request data to validate.</source>
+          <target state="translated">A HTTP-kérelem adatai érvényesítéséhez.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>An enumeration that represents the source of request data that is being validated.</source>
+          <target state="translated">Enumerálást érvényesítésre kerül-kérelem adatok forrását jelöli.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The following are possible values for the enumeration:       <bpt id="p1">&lt;xref uid="langword_csharp_QueryString" name="QueryString" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref uid="langword_csharp_Form " name="Form " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><bpt id="p3">&lt;xref uid="langword_csharp_Cookies" name="Cookies" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><bpt id="p4">&lt;xref uid="langword_csharp_Files" name="Files" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><bpt id="p5">&lt;xref uid="langword_csharp_RawUrl" name="RawUrl" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><bpt id="p6">&lt;xref uid="langword_csharp_Path" name="Path" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept><bpt id="p7">&lt;xref uid="langword_csharp_PathInfo" name="PathInfo" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept><bpt id="p8">&lt;xref uid="langword_csharp_Headers" name="Headers" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept></source>
+          <target state="translated">A számbavétel a lehetséges értékek a következők:<bpt id="p1">&lt;xref uid="langword_csharp_QueryString" name="QueryString" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref uid="langword_csharp_Form " name="Form " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><bpt id="p3">&lt;xref uid="langword_csharp_Cookies" name="Cookies" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><bpt id="p4">&lt;xref uid="langword_csharp_Files" name="Files" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><bpt id="p5">&lt;xref uid="langword_csharp_RawUrl" name="RawUrl" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept><bpt id="p6">&lt;xref uid="langword_csharp_Path" name="Path" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept><bpt id="p7">&lt;xref uid="langword_csharp_PathInfo" name="PathInfo" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept><bpt id="p8">&lt;xref uid="langword_csharp_Headers" name="Headers" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The key in the request collection of the item to validate.</source>
+          <target state="translated">A kulcs az elem ellenőrzése a kérelem gyűjteményében.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This parameter is optional.</source>
+          <target state="translated">Ez a paraméter nem kötelező megadni.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This parameter is used if the data to validate is obtained from a collection.</source>
+          <target state="translated">Ezt a paramétert akkor használatos, ha az adatok érvényesítéséhez egységekre egy gyűjteményből.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If the data to validate is not from a collection, <ph id="ph1">`collectionKey`</ph> can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ha az adatok érvényesítése nem egy gyűjteményből <ph id="ph1">`collectionKey`</ph> lehet <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When this method returns, indicates the zero-based starting point of the problematic or invalid text in the request collection.</source>
+          <target state="translated">Ez a módszer adja vissza, ha azt jelzi, a nulla alapú kiindulási pont a request gyűjtemény a problémás vagy érvénytelen szöveg.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Ez a paraméter lett átadva nem inicializált.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the string to be validated is valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a karakterlánc az ellenőrizendő érvényes; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
