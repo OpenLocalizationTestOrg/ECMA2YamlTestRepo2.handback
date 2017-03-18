@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da43b1cd743b18a64a4ade7bbd474cea30fea2f5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.NestedContainer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2eccf58dd2e1a892e973be9cfbab052b7bfb23a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">20e1ff09577a568da8fae95447e0c184e8ef9546</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the base implementation for the <bpt id="p1">&lt;xref href="System.ComponentModel.INestedContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface, which enables containers to have an owning component.</source>
+          <target state="translated">Az alapszintű megvalósítás biztosít a <bpt id="p1">&lt;xref href="System.ComponentModel.INestedContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> felület, amely lehetővé teszi a tárolók tartalmaz egy tulajdonos összetevőt.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The NestedContainer class is a simple implementation of the &lt;xref:System.ComponentModel.INestedContainer&gt; interface, which defines a component that logically contains zero or more other components and is owned by a parent component.</source>
+          <target state="translated">A NestedContainer osztály egy egyszerű végrehajtását a &lt;xref:System.ComponentModel.INestedContainer&gt;felület, amely meghatározza egy összetevő, amely logikailag nulla vagy több összetevőt tartalmaz, és tulajdonában van egy szülő-összetevő.&lt;/xref:System.ComponentModel.INestedContainer&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The behavior of nested containers differs from a standard &lt;xref:System.ComponentModel.Container&gt; in a number of ways, including the following:      -   Site characteristics such as &lt;xref:System.ComponentModel.Component.DesignMode%2A&gt; and &lt;xref:System.ComponentModel.Component.GetService%2A&gt; are routed through the owning component’s site.</source>
+          <target state="translated">Beágyazott tároló a viselkedés eltér a szabványos &lt;xref:System.ComponentModel.Container&gt;különféle módokon, például az alábbiakat:-jellemzők például a hely &lt;xref:System.ComponentModel.Component.DesignMode%2A&gt;és &lt;xref:System.ComponentModel.Component.GetService%2A&gt;a tulajdonos összetevő webhelyen keresztül továbbítódnak.&lt;/xref:System.ComponentModel.Component.GetService%2A&gt; &lt;/xref:System.ComponentModel.Component.DesignMode%2A&gt; &lt;/xref:System.ComponentModel.Container&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The site’s &lt;xref:System.ComponentModel.ISite.Name%2A&gt; property is a qualified name that includes the owning component’s name followed by a period (.) and the child component’s name.</source>
+          <target state="translated">– A hely &lt;xref:System.ComponentModel.ISite.Name%2A&gt;tulajdonsága, amely tartalmazza a tulajdonos összetevő neve, végül pedig a pont (.) és a gyermek összetevőnév minősített nevet.&lt;/xref:System.ComponentModel.ISite.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.ComponentModel.NestedContainer.GetService%2A&gt; provides support for the &lt;xref:System.ComponentModel.INestedContainer&gt; as a service.</source>
+          <target state="translated">- &lt;xref:System.ComponentModel.NestedContainer.GetService%2A&gt;támogatást nyújt a &lt;xref:System.ComponentModel.INestedContainer&gt;szolgáltatásként.&lt;/xref:System.ComponentModel.INestedContainer&gt; &lt;/xref:System.ComponentModel.NestedContainer.GetService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When the owning component is disposed, the container is disposed as well.</source>
+          <target state="translated">-Ha a tulajdonos összetevő eldobása, a tároló eldobása is.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, designers treat nested containers differently.</source>
+          <target state="translated">Emellett a tervezők kezelni beágyazott tárolók másképp.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A designer host is only interested in one container—the one associated with the host.</source>
+          <target state="translated">A Tervező állomás csak olyan több tároló iránt érdeklődik – a gazdagéphez tartozó egyik.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, component add and remove events are not raised when a component is added to or removed from a nested container.</source>
+          <target state="translated">Ezért összetevő hozzáadása, és távolítsa el az események vannak nem következik be, amikor egy összetevő van hozzá vagy nem távolítható el a beágyazott tároló.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, because services flow through to the nested container, component change events are raised when a component in a nested container is changed.</source>
+          <target state="translated">Azonban a beágyazott tárolóhoz áramlása szolgáltatások, mert összetevő állapotváltozási események vannak megváltozásakor kiváltott beágyazott tároló összetevőt.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This disparity in event tracking also impacts undo functionality, which is closely tied to serialization.</source>
+          <target state="translated">A teljesítménybeli eltérést az események követése is hatással van a visszavonás működését, ami szerializálási kötődik.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The standard undo engine uses &lt;xref:System.ComponentModel.Design.IReferenceService&gt; to track changes made to components.</source>
+          <target state="translated">A szabványos visszavonási motor által &lt;xref:System.ComponentModel.Design.IReferenceService&gt;összetevők végzett változásainak követése.&lt;/xref:System.ComponentModel.Design.IReferenceService&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the undo engine cannot identify a name for a component through the reference service, the engine will ignore any changes for that component.</source>
+          <target state="translated">Ha a visszavonás-motor nem tudja azonosítani a referencia-szolgáltatáson keresztül összetevő nevét, a motor figyelmen kívül hagyja az adott összetevő a módosításokat.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This service automatically recognizes changes to contained components only if they are exposed as public read-only properties of the same name in their owners.</source>
+          <target state="translated">Csak akkor, ha ugyanezen a néven: a tulajdonos nyilvános olvasási tulajdonságainak ki vannak téve a szolgáltatás automatikusan felismeri tartalmazott összetevők módosításait.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the developer must pass component change events up to the owner.</source>
+          <target state="translated">Ellenkező esetben a fejlesztői át kell mennie összetevő állapotváltozási események akár a tulajdonosa.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if a nested component’s <ph id="ph1">`Text`</ph> property is resurfaced on its owning component as an <ph id="ph2">`Address`</ph> property, when the <ph id="ph3">`Text`</ph> property is changed, a property change must be programmatically made for the corresponding <ph id="ph4">`Address`</ph> property or else that change will not be tracked by undo.</source>
+          <target state="translated">Például, ha egy beágyazott összetevő <ph id="ph1">`Text`</ph> tulajdonság van resurfaced, mint a tulajdonos összetevő egy <ph id="ph2">`Address`</ph> tulajdonság, ha a <ph id="ph3">`Text`</ph> tulajdonság megváltozásakor következik be, egy tulajdonság programozott módon módosítani kell a megfelelő <ph id="ph4">`Address`</ph> tulajdonság, vagy pedig, hogy módosítás nem követi a visszavonás által.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.NestedContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.ComponentModel.NestedContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor enlists in its owner's &lt;xref:System.ComponentModel.IComponent.Disposed&gt; event so that the nested container's &lt;xref:System.ComponentModel.NestedContainer.Dispose%2A&gt; method will automatically be called.</source>
+          <target state="translated">Ez a konstruktor felveszi a tulajdonos &lt;xref:System.ComponentModel.IComponent.Disposed&gt;esemény, hogy a beágyazott tároló &lt;xref:System.ComponentModel.NestedContainer.Dispose%2A&gt;metódus automatikusan hívható.&lt;/xref:System.ComponentModel.NestedContainer.Dispose%2A&gt; &lt;/xref:System.ComponentModel.IComponent.Disposed&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that owns this nested container.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> birtokló a beágyazott tárolóban.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;owner&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;owner&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates a site for the component within the container.</source>
+          <target state="translated">Helyet hoz létre. az összetevő a tárolóban.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`name`</ph> parameter is <ph id="ph2">`null`</ph>, the &lt;xref:System.ComponentModel.IComponent&gt; is added to the nested container without an identifying name.</source>
+          <target state="translated">Ha a <ph id="ph1">`name`</ph> paraméter <ph id="ph2">`null`</ph>, a &lt;xref:System.ComponentModel.IComponent&gt;hozzáadódik a beágyazott tároló nélkül azonosító nevet.&lt;/xref:System.ComponentModel.IComponent&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create a site for.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a helyet hoz létre.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The name to assign to <ph id="ph1">`component`</ph>, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to skip the name assignment.</source>
+          <target state="translated">A név, hozzárendelése <ph id="ph1">`component`</ph>, vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kihagyását a hozzárendelést.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The newly created <bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az újonnan létrehozott <bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;component&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the nested container.</source>
+          <target state="translated">A beágyazott tároló által használt erőforrások kiadását.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Ezt a módszert nevezik nyilvános <ph id="ph1">`Dispose()`</ph> metódus és a &lt;xref:System.Object.Finalize%2A&gt;metódus.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>meghívja a védett <ph id="ph2">`Dispose(Boolean)`</ph> metódust a <ph id="ph3">`disposing`</ph> paraméter <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;Elindítja a <ph id="ph1">`Dispose`</ph> rendelkező <ph id="ph2">`disposing`</ph> beállítása <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.NestedContainer&gt; references.</source>
+          <target state="translated">Ha a <ph id="ph1">`disposing`</ph> paraméter értéke igaz, ez a módszer minden felügyelt objektum által tárolt összes erőforrás kiadja a &lt;xref:System.ComponentModel.NestedContainer&gt;hivatkozik.&lt;/xref:System.ComponentModel.NestedContainer&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Ez a metódus meghívja a <ph id="ph1">`Dispose()`</ph> minden hivatkozott metódusa.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>a kibocsátási felügyelt és a nem felügyelt erőforrások; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> csak a nem felügyelt erőforrások kijelölése.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the service object of the specified type, if it is available.</source>
+          <target state="translated">A service objektum a megadott típus beolvasása, amennyiben az rendelkezésre áll.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides the &lt;xref:System.ComponentModel.Container.GetService%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Ezt a módszert felülbírálja a &lt;xref:System.ComponentModel.Container.GetService%2A?displayProperty=fullName&gt;metódus.&lt;/xref:System.ComponentModel.Container.GetService%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation only resolves requests for the &lt;xref:System.ComponentModel.INestedContainer&gt; and &lt;xref:System.ComponentModel.IContainer&gt; services.</source>
+          <target state="translated">Ez a megvalósítás csak oldja fel a kérelmeket a &lt;xref:System.ComponentModel.INestedContainer&gt;és &lt;xref:System.ComponentModel.IContainer&gt;szolgáltatások.&lt;/xref:System.ComponentModel.IContainer&gt; &lt;/xref:System.ComponentModel.INestedContainer&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the service to retrieve.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;beolvasni a szolgáltatás.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that implements the requested service, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service cannot be resolved.</source>
+          <target state="translated">Egy &lt;xref:System.Object&gt;, amely implementálja a kért szolgáltatást, vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha a szolgáltatás nem lehet feloldani.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the owning component for this nested container.</source>
+          <target state="translated">A tulajdonos összetevő lekérdezi a beágyazott tároló.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The owning component is the characteristic that differentiates nested containers from ordinary containers.</source>
+          <target state="translated">A tulajdonos összetevője a különbséget tesz a szokványos tárolókból beágyazott tárolók jellemző.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that owns this nested container.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> birtokló a beágyazott tárolóban.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets the name of the owning component.</source>
+          <target state="translated">Lekérdezi a tulajdonos összetevő neve.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property may be overridden to provide a custom owner name.</source>
+          <target state="translated">Ez a tulajdonság egyéni tulajdonos nevének felülírható.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation searches the owner's site for &lt;xref:System.ComponentModel.INestedSite&gt; and calls &lt;xref:System.ComponentModel.INestedSite.FullName%2A&gt;, or &lt;xref:System.ComponentModel.ISite.Name%2A&gt; if there is no nested site.</source>
+          <target state="translated">Az alapértelmezett implementációja keres a tulajdonos hely &lt;xref:System.ComponentModel.INestedSite&gt;és hívások &lt;xref:System.ComponentModel.INestedSite.FullName%2A&gt;, vagy &lt;xref:System.ComponentModel.ISite.Name%2A&gt;nem beágyazott hely esetén.&lt;/xref:System.ComponentModel.ISite.Name%2A&gt; &lt;/xref:System.ComponentModel.INestedSite.FullName%2A&gt; &lt;/xref:System.ComponentModel.INestedSite&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If neither is available, this property returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Ha egyik sem érhető el, ez a tulajdonság adja vissza <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The name of the owning component.</source>
+          <target state="translated">A tulajdonos összetevő neve.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">349f40645525c276c7c4161c56320c9e84d6b66a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.MenuCommandService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67f5a8c428c79200c2b65219a6f8e3f2e49da690</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">135ed7fa15e3f44be5535dbea2556c5d1c638420</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IMenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Megvalósítja a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IMenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> felületet.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MenuCommandService class implements the &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt; interface, which is the managed interface used to add handlers for menu commands and to define verbs.</source>
+          <target state="translated">A MenuCommandService osztály megvalósítja a &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt;-illesztő a felügyelt felület menüparancsai kezelőkkel hozzáadásához és a műveletek.&lt;/xref:System.ComponentModel.Design.IMenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MenuCommandService class is automatically offered by the package class to offer global commands for an entire package, and it is also offered by the <ph id="ph1">`Microsoft.VisualStudio.Shell.WindowPane`</ph> class to offer commands for the current window.</source>
+          <target state="translated">A MenuCommandService osztály automatikusan felajánlott a csomag osztály tesz egy teljes csomag globális parancsok és is a által kínált a <ph id="ph1">`Microsoft.VisualStudio.Shell.WindowPane`</ph> tesz az aktuális ablak parancsok osztály.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This offering is always done through the service container, so anyone deriving from the package or window pane classes can remove or replace the default implementation of the &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt; interface.</source>
+          <target state="translated">Az ajánlat mindig segítségével történik a szolgáltatási tárolót, így bárki, aki a csomagból való származtatás vagy ablak ablaktábla osztályok, távolítsa el, vagy cserélje le a alapértelmezett implementációja a &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt;felületet.&lt;/xref:System.ComponentModel.Design.IMenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MenuCommandService class utilizes several other services.</source>
+          <target state="translated">A MenuCommandService osztály számos más szolgáltatást használja.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All of these services are optional, so the behavior of the MenuCommandService class degrades if one or more services are missing.</source>
+          <target state="translated">Ezek a szolgáltatások összes nem kötelező, ezért a MenuCommandService osztály viselkedését csökkenti, ha hiányzik egy vagy több szolgáltatás.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows which services are used and for what purpose.</source>
+          <target state="translated">Az alábbi táblázat mutatja, hogy mely szolgáltatásokat használja, és milyen célból.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Service|Purpose|   |-------------|-------------|   |&lt;xref:System.ComponentModel.Design.ISelectionService&gt;|Used to discover the current selection in order to obtain verbs offered by the currently selected designer.|   |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|Used to obtain the designer for the currently selected component, if any.|   |<ph id="ph1">`Microsoft.VisualStudio.Shell.Interop.IVsUIShell`</ph>|Used to notify <ph id="ph2">[!INCLUDE[vsprvs](~/add/includes/vsprvs-md.md)]</ph> that the command status has changed.|   |<ph id="ph3">`Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager`</ph>|Used to show context menus.|</source>
+          <target state="translated">| Szolgáltatás |} Cél |}   |-------------|-------------|   | &lt;xref:System.ComponentModel.Design.ISelectionService&gt;| A jelenleg kijelölt designer által kínált műveletek eléréséhez a jelenlegi kijelölés felderítésére használt. |}   | &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;| A jelenleg kiválasztott összetevőhöz designer beszerzése használható, ha bármely. |}   | <ph id="ph1">`Microsoft.VisualStudio.Shell.Interop.IVsUIShell`</ph>| Arról értesíti az <ph id="ph2">[!INCLUDE[vsprvs](~/add/includes/vsprvs-md.md)]</ph> , amely a parancs állapota megváltozott. |}   | <ph id="ph3">`Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager`</ph>| Helyi menük megjelenítésére használ. |}&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.ISelectionService&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service is being used with a designer, the <ph id="ph1">`serviceProvider`</ph> parameter should be the service provider for the designer, as is the case with &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.</source>
+          <target state="translated">Ha a szolgáltatás használatos a tervezővel a <ph id="ph1">`serviceProvider`</ph> paraméternek kell lennie a szolgáltató a Designer, mint a &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt; esetében</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The service provider that this service uses to obtain other services.</source>
+          <target state="translated">A szolgáltató ezt a szolgáltatást használó más szolgáltatások beszerzése.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Adds a command handler to the menu command service.</source>
+          <target state="translated">A menüre parancsszolgáltatás ad hozzá egy parancskezelő.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddCommand method adds a command handler to the menu command service.</source>
+          <target state="translated">A AddCommand metódus hozzáadja a menüre parancsszolgáltatás parancskezelő.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Command handlers do not define the text, shortcut, or placement of a menu item.</source>
+          <target state="translated">A parancs kezelők nem határoznak meg a szöveg, a helyi vagy a menüelem elhelyezését.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rather, they define the menu item’s behavior if the item is clicked.</source>
+          <target state="translated">Ehelyett meghatározzák a menüpont viselkedés Ha elemet.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A command handler <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">command</ph><ept id="p1">&lt;/code&gt;</ept> already exists.</source>
+          <target state="translated">A parancskezelő <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">command</ph> <ept id="p1">&lt;/code&gt;</ept> már létezik.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Adds a verb to the verb table of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy művelet hozzáadja a művelet táblájához a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This verb is available regardless of what designer is currently selected.</source>
+          <target state="translated">Ehhez a művelethez függetlenül attól, milyen designer kijelölt érhető el.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike menu commands, verbs can define the text that is displayed to the user, but they do not define the placement of the command on the actual menu.</source>
+          <target state="translated">Eltérően menüparancsai műveletek határozhatja meg a felhasználók számára megjelenő szöveg, de azok nem határoznak meg a parancs elhelyezkedését a tényleges menü.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Feloldja a által használt erőforrások a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call Dispose when you are finished using the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.</source>
+          <target state="translated">Dispose hívható, amikor végzett a &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt; használatával</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method leaves the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; in an unusable state.</source>
+          <target state="translated">A Dispose metódus elhagyja a &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;használhatatlan állapotban.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; was occupying.</source>
+          <target state="translated">Hívása Dispose, után fel kell szabadítania mutató összes hivatkozást az &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;, a szemétgyűjtő is visszaszerezni a memória, amely a &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;lett elfoglaló.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt; &lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>nem felügyelt erőforrások tisztítás<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> és <bpt id="p2">[</bpt>eldobásakor metódusának<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Mindig hívás eldobásakor az &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt; utolsó referenciaként a engedélyezés előtt</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">Ellenkező esetben az erőforrásoknak nem szabadul szemétgyűjtő hívást csak a &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;objektum <ph id="ph1">`Finalize`</ph> metódus.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Feloldja a által használt erőforrások a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph>method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Ezt a módszert nevezik nyilvános <ph id="ph1">`Dispose()`</ph>metódus és a &lt;xref:System.Object.Finalize%2A&gt;metódus.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>meghívja a védett <ph id="ph2">`Dispose(Boolean)`</ph> metódust a <ph id="ph3">`disposing`</ph> paraméter <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;Elindítja a <ph id="ph1">`Dispose`</ph> rendelkező <ph id="ph2">`disposing`</ph> beállítása <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; references.</source>
+          <target state="translated">Ha a <ph id="ph1">`disposing`</ph> paraméter értéke igaz, ez a módszer minden felügyelt objektum által tárolt összes erőforrás kiadja a &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;hivatkozik.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Ez a metódus meghívja a <ph id="ph1">`Dispose()`</ph> minden hivatkozott metódusa.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>a kibocsátási felügyelt és a nem felügyelt erőforrások; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> csak a nem felügyelt erőforrások kijelölése.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Ensures that the verb list has been created.</source>
+          <target state="translated">Biztosítja, hogy létrejött-e a műveletlista.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EnsureVerbs method creates the verb list if it has not already been created.</source>
+          <target state="translated">A EnsureVerbs módszer a műveletlista hoz létre, ha már nem létezik.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Searches for the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command ID.</source>
+          <target state="translated">Megkeresi a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> társított a megadott parancs azonosítóját.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.CommandID"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to find.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.CommandID"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> található.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the command is not found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> társítva az adott parancs; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha a parancs nem található.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Searches for the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command.</source>
+          <target state="translated">Megkeresi a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és az adott parancshoz tartozó.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The GUID of the command.</source>
+          <target state="translated">A parancs GUID Azonosítóját.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The ID of the command.</source>
+          <target state="translated">A parancs azonosítója.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the command is not found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> társítva az adott parancs; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha a parancs nem található.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the command list for a given GUID.</source>
+          <target state="translated">A megadott GUID parancs listájának beolvasása.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The GUID of the command list.</source>
+          <target state="translated">A parancs lista GUID Azonosítóját.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of commands.</source>
+          <target state="translated">Egy &lt;xref:System.Collections.ICollection&gt;parancsok.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the requested service.</source>
+          <target state="translated">Lekér egy hivatkozást a kért szolgáltatást.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the service to retrieve.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;beolvasni a szolgáltatás.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A reference to <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">serviceType</ph><ept id="p1">&lt;/code&gt;</ept>; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the service is not found.</source>
+          <target state="translated">Hivatkozás <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">serviceType</ph> <ept id="p1">&lt;/code&gt;</ept>; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha a szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Invokes the given command on the local form or in the global environment.</source>
+          <target state="translated">Meghívja az adott parancs a helyi űrlap vagy a globális környezetben.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The local form is first searched for the given command ID.</source>
+          <target state="translated">A helyi űrlaplista először kell keresni a megadott parancs azonosítóját.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is found, it is invoked.</source>
+          <target state="translated">Ha megtalálja, meghívták.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the command ID is passed to the global environment command handler, if one is available.</source>
+          <target state="translated">Ellenkező esetben a következő parancsazonosítót: kerülnek a globális környezetben parancskezelő, ha elérhető ilyen.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The command to invoke.</source>
+          <target state="translated">A paranccsal jeleníthető meg.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the command was found; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, ha a parancs volt található. Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Invokes the given command with the given parameter on the local form or in the global environment.</source>
+          <target state="translated">Meghívja az adott parancs az adott paraméterrel a helyi űrlap vagy a globális környezetben.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The local form is first searched for the given command ID.</source>
+          <target state="translated">A helyi űrlaplista először kell keresni a megadott parancs azonosítóját.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is found, it is invoked.</source>
+          <target state="translated">Ha megtalálja, meghívták.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the command ID is passed to the global environment command handler, if one is available.</source>
+          <target state="translated">Ellenkező esetben a következő parancsazonosítót: kerülnek a globális környezetben parancskezelő, ha elérhető ilyen.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The command to invoke.</source>
+          <target state="translated">A paranccsal jeleníthető meg.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A parameter for the invocation.</source>
+          <target state="translated">A hívás paraméter.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the command was found; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, ha a parancs volt található. Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Occurs when the status of a menu command has changed.</source>
+          <target state="translated">Egy parancs állapotának megváltozásakor következik be.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Események kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>NIB: fel események<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService.MenuCommandsChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService.MenuCommandsChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnCommandsChanged method is called by a menu command when its status has changed.</source>
+          <target state="translated">A OnCommandsChanged metódust hívja menüparancs amikor állapota megváltozott.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>NIB: esemény indítása<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnCommandsChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnCommandsChanged módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandsChangedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandsChangedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az eseményadatok.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Removes the given menu command from the document.</source>
+          <target state="translated">A megadott parancs eltávolítja a dokumentumot.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no more commands in the command group, the group is removed.</source>
+          <target state="translated">Ha a parancs csoport nincs további parancsok is tartalmaz, a rendszer eltávolítja a csoport.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The command to remove.</source>
+          <target state="translated">A parancs beírásával távolítsa el.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Removes the given verb from the document.</source>
+          <target state="translated">A megadott művelet eltávolítja a dokumentumot.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The verb to remove.</source>
+          <target state="translated">A művelet eltávolítja.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Shows the shortcut menu with the given command ID at the given location.</source>
+          <target state="translated">A megadott parancs azonosítóval, az adott helyen a helyi menü megjelenítése</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation does nothing.</source>
+          <target state="translated">Az alapértelmezett implementációja nincs semmi hatása.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The shortcut menu to display.</source>
+          <target state="translated">A megjelenő helyi menü.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The x-coordinate of the shortcut menu's location.</source>
+          <target state="translated">Az x koordinátáját a helyi menü helyét.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The y-coordinate of the shortcut menu's location.</source>
+          <target state="translated">Az y koordinátáját a helyi menü helyét.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the designer verbs that are currently available.</source>
+          <target state="translated">Lekérdezi a Tervező HTTP-parancsokat, amelyek jelenleg gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Verbs property provides a collection of verbs.</source>
+          <target state="translated">A műveletek tulajdonság műveletek gyűjteményét tartalmazza.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These verbs come from two places:      -   Verbs added through the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt; method of Verbs.</source>
+          <target state="translated">Ezek a műveletek származhat két helyen:-műveletek hozzáadva a &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;Műveletek metódusában.&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Verbs offered by the currently selected designer.</source>
+          <target state="translated">-A kijelölt designer által kínált műveletek.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Verbs added to this service through the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt; method are called global verbs because they are global to this service, but generally there is one instance of this service for each tool or document window.</source>
+          <target state="translated">Műveletek a szolgáltatás hozzá a &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;metódus nevezzük globális műveletek, mert a szolgáltatás a globális, de általában nincs minden eszközt vagy dokumentum ablak a szolgáltatás egy példánya.&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Designer verbs are obtained by querying the service provider for &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; and &lt;xref:System.ComponentModel.Design.ISelectionService&gt;.</source>
+          <target state="translated">Tervező műveletek akkor kapja meg a szolgáltató és &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;xref:System.ComponentModel.Design.ISelectionService&gt;.&lt;/xref:System.ComponentModel.Design.ISelectionService&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; lekérdezésével</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the selection service offers a primary selection, and a designer can be obtained for that selection from &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;, the designer’s verbs are added to this list.</source>
+          <target state="translated">Ha a kijelölési szolgáltatás elsődleges kijelölés nyújt, és a Tervező érhető el, hogy a kijelölés &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;, a Tervező műveletek bekerülnek a lista.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the name of a global verb conflicts with the name of a designer verb, the designer-provided designer verb takes precedence.</source>
+          <target state="translated">Ha egy globális művelet neve ütközik egy Tervező művelet neve, a megadott Tervező Tervező művelet élvez elsőbbséget.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerbCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the designer verbs that are currently available.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerbCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyek jelenleg a Tervező műveletekre.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
