@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e9700e3e84b6b2084491d25bc5fea87d509504a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.SqlServer.Server.SqlPipe.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">29620c754bec2ec1b2d6f4d83e2f4194fb636e8c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">32db9fcbb176f251a16f9423dd4247d0ace51a45</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows managed stored procedures running in-process on a SQL Server database to return results back to the caller.</source>
+          <target state="translated">Permite que os procedimentos armazenados gerenciados no processo em execução em um banco de dados do SQL Server para retornar resultados de volta para o chamador.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Essa classe não pode ser herdada.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance of this class is made available to managed stored procedures through the &lt;xref:Microsoft.SqlServer.Server.SqlContext.Pipe%2A&gt; property of the &lt;xref:Microsoft.SqlServer.Server.SqlContext&gt; class.</source>
+          <target state="translated">Uma instância dessa classe é disponibilizada para os procedimentos armazenados gerenciados por meio da &lt;xref:Microsoft.SqlServer.Server.SqlContext.Pipe%2A&gt;propriedade de &lt;xref:Microsoft.SqlServer.Server.SqlContext&gt;classe.&lt;/xref:Microsoft.SqlServer.Server.SqlContext&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlContext.Pipe%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Executes the command passed as a parameter and sends the results to the client.</source>
+          <target state="translated">Executa o comando passado como um parâmetro e envia os resultados ao cliente.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to any actual results, other messages and errors are also sent directly to the client.</source>
+          <target state="translated">Além de todos os resultados reais, os outros erros e mensagens também são enviados diretamente para o cliente.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Output parameters and return values are not sent to the client; these are available to the caller, through the parameters collection of the command object.</source>
+          <target state="translated">Parâmetros de saída e valores de retorno não são enviados ao cliente; eles estão disponíveis para o chamador, através da coleção de parâmetros de objeto de comando.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the command is not bound to an in-process connection, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">Se o comando não está associado a uma conexão em processo, um &lt;xref:System.InvalidOperationException&gt;é gerada.&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not supported on commands bound to out-of-process connections.</source>
+          <target state="translated">Esse método não tem suporte em comandos associados a conexões de saída do processo.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are errors in the &lt;xref:System.Data.SqlClient.SqlCommand&gt; object that was submitted, exceptions are sent to the pipe, but a copy is also sent to calling managed code.</source>
+          <target state="translated">Se houver erros no &lt;xref:System.Data.SqlClient.SqlCommand&gt;objeto que foi enviado, exceções são enviadas ao pipe, mas uma cópia também é enviada para chamar código gerenciado.&lt;/xref:System.Data.SqlClient.SqlCommand&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the calling code doesn't catch the exception, it will propagate up the stack to the Transact-SQL code and appear in the output twice.</source>
+          <target state="translated">Se o código de chamada não capturar a exceção, ela será propagada até a pilha no código Transact-SQL e aparecer duas vezes na saída.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the calling code does catch the exception, the pipe consumer will still see the error, but there will not be a duplicate error.</source>
+          <target state="translated">Se o código de chamada capturar a exceção, o consumidor de pipe ainda verá o erro, mas não haverá erro duplicado.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to be executed.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto a ser executado.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">command</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">command</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This method is not supported on commands bound to out-of-process connections.</source>
+          <target state="translated">Esse método não tem suporte em comandos associados a conexões de saída do processo.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is in the mode of sending single result sets back to the client.</source>
+          <target state="translated">Obtém um valor que indica se o <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> está no modo de enviar conjuntos de resultados único para o cliente.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This property is read-only.</source>
+          <target state="translated">Essa propriedade é somente leitura.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt; method has been called and the <bpt id="p2">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is in the mode of sending single result sets back to the client; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;método foi chamado e o <bpt id="p2">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> está no modo de enviar conjuntos de resultados único para o cliente; caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Sends a single-row result set directly to the client or current output consumer.</source>
+          <target state="translated">Envia um resultado de única linha definido diretamente para o cliente ou consumidor de saída atual.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The single-row result set sent to the client: a <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">O conjunto de resultados de uma linha enviado ao cliente: um <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Sends a multirow result set directly to the client or current output consumer.</source>
+          <target state="translated">Envia um resultado de multilinha definido diretamente para o cliente ou consumidor de saída atual.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.SqlClient.SqlDataReader&gt; object passed in as a parameter has hidden columns, those columns are not propagated to the result set sent to the client.</source>
+          <target state="translated">Se o &lt;xref:System.Data.SqlClient.SqlDataReader&gt;objeto passado como um parâmetro tem ocultos colunas, as colunas não são propagadas para o conjunto de resultados enviado ao cliente.&lt;/xref:System.Data.SqlClient.SqlDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The multirow result set to be sent to the client: a <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">O resultado multilinha definidas para serem enviadas para o cliente: um <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">reader</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">reader</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Sends a string message directly to the client or current output consumer.</source>
+          <target state="translated">Envia uma mensagem de cadeia de caracteres diretamente para o cliente ou consumidor de saída atual.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The message string is sent as an informational message to the client.</source>
+          <target state="translated">A cadeia de caracteres de mensagem é enviada como uma mensagem informativa ao cliente.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Client applications can listen to messages through different mechanisms, depending on the data access application programming interface (API) that they use.</source>
+          <target state="translated">Aplicativos cliente podem escutar mensagens por meio de mecanismos diferentes, dependendo de dados acesso aplicativo interface de programação (API) que eles usam.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the client is using ADO.NET, the messages transmit through the &lt;xref:System.Data.SqlClient.SqlConnection.InfoMessage&gt; event.</source>
+          <target state="translated">Por exemplo, se o cliente está usando ADO.NET, as mensagens de transmissão por meio de &lt;xref:System.Data.SqlClient.SqlConnection.InfoMessage&gt;evento.&lt;/xref:System.Data.SqlClient.SqlConnection.InfoMessage&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The message string to be sent to the client.</source>
+          <target state="translated">A cadeia de caracteres de mensagem a ser enviada ao cliente.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> is greater than 4,000 characters.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">message</ph> <ept id="p1">&lt;/code&gt;</ept> é maior do que 4.000 caracteres.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Marks the end of a result set, and returns the <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance back to the initial state.</source>
+          <target state="translated">Marca o fim de um conjunto de resultados e retorna o <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlPipe"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância para o estado inicial.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Managed stored procedures can send result sets to clients that are not implementing a &lt;xref:System.Data.SqlClient.SqlDataReader&gt;.</source>
+          <target state="translated">Procedimentos armazenados gerenciados podem enviar conjuntos de resultados para os clientes que não estão implementando um &lt;xref:System.Data.SqlClient.SqlDataReader&gt;.&lt;/xref:System.Data.SqlClient.SqlDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method, along with &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt; and &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;, allow stored procedures to send custom result sets to the client.</source>
+          <target state="translated">Esse método, juntamente com &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt;e &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;, permitir que os procedimentos armazenados enviar conjuntos de resultados personalizados ao cliente.&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt; method was not previously called.</source>
+          <target state="translated">O &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;método não foi chamado anteriormente.&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Sends a single row of data back to the client.</source>
+          <target state="translated">Envia uma única linha de dados de volta ao cliente.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Managed stored procedures can send result sets to clients that are not implementing a &lt;xref:System.Data.SqlClient.SqlDataReader&gt;.</source>
+          <target state="translated">Procedimentos armazenados gerenciados podem enviar conjuntos de resultados para os clientes que não estão implementando um &lt;xref:System.Data.SqlClient.SqlDataReader&gt;.&lt;/xref:System.Data.SqlClient.SqlDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method, along with &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt; and &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;, allows stored procedures to send custom result sets to the client.</source>
+          <target state="translated">Esse método, juntamente com &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt;e &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;, permite que procedimentos armazenados enviar conjuntos de resultados personalizados ao cliente.&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SendResultsRow method sends a single row of data back to the client.</source>
+          <target state="translated">O método SendResultsRow envia uma única linha de dados de volta ao cliente.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rows can subsequently be returned to the caller by calling SendResultsRow, one time for each row being sent.</source>
+          <target state="translated">Linhas subsequentemente podem ser retornadas ao chamador chamando SendResultsRow, uma vez para cada linha que está sendo enviada.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After all the rows have been sent, a call to the &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; method is required to mark the end of the result set.</source>
+          <target state="translated">Depois que todas as linhas forem enviadas, uma chamada para o &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;método é necessário para marcar o fim do conjunto de resultados.&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with the column values for the row to be sent to the client.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto com os valores de coluna para a linha a ser enviado ao cliente.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The schema for the record must match the schema described by the metadata of the <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> passed to the &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt; method.</source>
+          <target state="translated">O esquema para o registro deve corresponder ao esquema descrito por metadados do <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> passado para o &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;método.&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt; method was not previously called.</source>
+          <target state="translated">O &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;método não foi chamado anteriormente.&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsStart*&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Marks the beginning of a result set to be sent back to the client, and uses the record parameter to construct the metadata that describes the result set.</source>
+          <target state="translated">Marca o início de um conjunto de resultados a ser enviada de volta para o cliente e usa o parâmetro de registro para criar os metadados que descrevem o conjunto de resultados.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Managed stored procedures can send result sets to clients that are not implementing a &lt;xref:System.Data.SqlClient.SqlDataReader&gt;.</source>
+          <target state="translated">Procedimentos armazenados gerenciados podem enviar conjuntos de resultados para os clientes que não estão implementando um &lt;xref:System.Data.SqlClient.SqlDataReader&gt;.&lt;/xref:System.Data.SqlClient.SqlDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method, along with &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt; and &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;, allow stored procedures to send custom result sets to the client.</source>
+          <target state="translated">Esse método, juntamente com &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;e &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;, permitir que os procedimentos armazenados enviar conjuntos de resultados personalizados ao cliente.&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SendResultsStart method marks the beginning of a result set, and uses the record parameter to construct the metadata that describes the result set.</source>
+          <target state="translated">O método SendResultsStart marca o início de um conjunto de resultados e usa o parâmetro de registro para criar os metadados que descrevem o conjunto de resultados.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All the subsequent rows, sent using the &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt; method, must match that metadata definition.</source>
+          <target state="translated">Todas as linhas subsequentes, enviadas usando o &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;método, deve corresponder àquela definição de metadados.&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that after calling SendResultsStart, only &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt; and &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; can be called.</source>
+          <target state="translated">Observe que depois de chamar SendResultsStart, apenas &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;e &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;pode ser chamado.&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any other method in the same instance of &lt;xref:Microsoft.SqlServer.Server.SqlPipe&gt; throws an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">Qualquer outro método na mesma instância de &lt;xref:Microsoft.SqlServer.Server.SqlPipe&gt;lança um &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:Microsoft.SqlServer.Server.SqlPipe&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt; sets &lt;xref:Microsoft.SqlServer.Server.SqlPipe&gt; back to the initial state where other methods can be called.</source>
+          <target state="translated">&lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;define &lt;xref:Microsoft.SqlServer.Server.SqlPipe&gt;volta para o estado inicial onde outros métodos podem ser chamados.&lt;/xref:Microsoft.SqlServer.Server.SqlPipe&gt;&lt;/xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After control returns to Transact-SQL from CLR execution, do not attempt to use a static or local variable initialized to CLR memory.</source>
+          <target state="translated">Depois que o controle retorna para o Transact-SQL de execução de CLR, não tente usar uma variável estática ou local inicializada para a memória do CLR.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, do not store an instance of an in process class, for example <ph id="ph1">`SQLDataRecord`</ph>, which will be used after control returns from CLR.</source>
+          <target state="translated">Por exemplo, armazenamento não de uma instância de um processo na classe, por exemplo <ph id="ph1">`SQLDataRecord`</ph>, que será usado depois que o controle retorna do CLR.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>One exception is the <ph id="ph1">`SQLMetaData`</ph> in process class.</source>
+          <target state="translated">Uma exceção é o <ph id="ph1">`SQLMetaData`</ph> na classe de processo.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from which metadata is extracted and used to describe the result set.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="Microsoft.SqlServer.Server.SqlDataRecord"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto do qual os metadados são extraídos e usados para descrever o conjunto de resultados.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">record</ph><ept id="p1">&lt;/code&gt;</ept> has no columns or has not been initialized.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">record</ph> <ept id="p1">&lt;/code&gt;</ept> não tem colunas ou não foi inicializado.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A method other than &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsRow<bpt id="p1">*</bpt>&gt; or &lt;xref:Microsoft.SqlServer.Server.SqlPipe.SendResultsEnd<ept id="p1">*</ept>&gt; was called after the SendResultsStart method.</source>
+          <target state="translated">Um método diferente do &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; ou &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; foi chamado depois do método SendResultsStart.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

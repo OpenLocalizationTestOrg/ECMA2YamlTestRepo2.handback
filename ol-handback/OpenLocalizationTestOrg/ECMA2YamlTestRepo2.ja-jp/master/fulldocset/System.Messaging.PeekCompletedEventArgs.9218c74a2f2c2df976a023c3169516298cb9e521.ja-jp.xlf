@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1760ecc87b3cd04b5a6e237efc7328ea69b3f2b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.PeekCompletedEventArgs.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2a804d4a0c39141ea25bcd38aab4dec2d762dee</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a498762110cbd6a0ec16a82463b4c5396871b719</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides data for the <bpt id="p1">&lt;xref href="System.Messaging.MessageQueue.PeekCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">データを提供、 <bpt id="p1">&lt;xref href="System.Messaging.MessageQueue.PeekCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>When your asynchronous peek operation calls an event handler, an instance of this class is passed to the handler.</source>
+          <target state="translated">非同期操作を呼び出すと、イベント ハンドラー、このクラスのインスタンスはハンドラーに渡されます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>When you use event notification to peek (read without removing) messages asynchronously from the queue, you must create a method that handles your message processing.</source>
+          <target state="translated">を使用するとイベント通知メッセージをピーク (削除せずに読み取られる) を非同期的に、キューからメッセージを処理するメソッドを作成する必要があります。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your code must call &lt;xref:System.Messaging.MessageQueue.BeginPeek%2A&gt; to begin the asynchronous processing.</source>
+          <target state="translated">コードを呼び出す必要があります&lt;xref:System.Messaging.MessageQueue.BeginPeek%2A&gt;非同期処理を開始します&lt;/xref:System.Messaging.MessageQueue.BeginPeek%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When a message is peeked, your application is notified through the &lt;xref:System.Messaging.MessageQueue.PeekCompleted&gt; event.</source>
+          <target state="translated">を介して、アプリケーションが通知メッセージをピーク時に、&lt;xref:System.Messaging.MessageQueue.PeekCompleted&gt;イベント&lt;/xref:System.Messaging.MessageQueue.PeekCompleted&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An instance of PeekCompletedEventArgs is passed into the event delegate that calls your event handler.</source>
+          <target state="translated">PeekCompletedEventArgs のインスタンスは、イベント ハンドラーを呼び出してイベント デリゲートに渡されます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The data associated with the &lt;xref:System.Messaging.MessageQueue.PeekCompleted&gt; event is contained in the delegate's &lt;xref:System.Messaging.ReceiveCompletedEventArgs.AsyncResult%2A&gt; parameter.</source>
+          <target state="translated">関連付けられているデータ、&lt;xref:System.Messaging.MessageQueue.PeekCompleted&gt;デリゲートのイベントが含まれている&lt;xref:System.Messaging.ReceiveCompletedEventArgs.AsyncResult%2A&gt;パラメーター&lt;/xref:System.Messaging.ReceiveCompletedEventArgs.AsyncResult%2A&gt; &lt;/xref:System.Messaging.MessageQueue.PeekCompleted&gt; 。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>There are two ways to provide notification of event completion: event notification and callbacks.</source>
+          <target state="translated">イベントの完了通知を提供する&amp;2; つの方法: イベント通知とコールバック。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>PeekCompletedEventArgs is used only with event notification.</source>
+          <target state="translated">PeekCompletedEventArgs は、イベント通知でのみ使用します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For information comparing callbacks and event notification, see "Events vs. Callbacks" on MSDN.</source>
+          <target state="translated">コールバックとイベント通知の比較については、「イベントとを参照してください。 します。MSDN で"コールバック。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>PeekCompletedEventArgs provides access to the message that initiated the end of the asynchronous peek operation, through the &lt;xref:System.Messaging.PeekCompletedEventArgs.Message%2A&gt; member.</source>
+          <target state="translated">PeekCompletedEventArgs を介して非同期操作の終了を開始メッセージへのアクセスを提供する、&lt;xref:System.Messaging.PeekCompletedEventArgs.Message%2A&gt;メンバー&lt;/xref:System.Messaging.PeekCompletedEventArgs.Message%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This is an alternate access to the message, and behaves much the same as a call to &lt;xref:System.Messaging.MessageQueue.EndPeek%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">これは、メッセージへのアクセスを代替であり、 &lt;xref:System.Messaging.MessageQueue.EndPeek%2A?displayProperty=fullName&gt;。&lt;/xref:System.Messaging.MessageQueue.EndPeek%2A?displayProperty=fullName&gt;への呼び出しと同様の動作</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets or sets the result of the asynchronous operation requested.</source>
+          <target state="translated">取得または要求された非同期操作の結果を設定します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>AsyncResult identifies ongoing or completed asynchronous operations.</source>
+          <target state="translated">AsyncResult は、進行中または完了した非同期操作を識別します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The property contains data that helps determine which of several potential asynchronous operations to complete, and when passed to the event handler, enables &lt;xref:System.Messaging.MessageQueue.EndPeek%2A&gt; to access the message associated with the completed operation.</source>
+          <target state="translated">プロパティが完了するにはいくつかの潜在的な非同期操作を特定するのに役立つデータを格納でき、イベント ハンドラーに渡されると、&lt;xref:System.Messaging.MessageQueue.EndPeek%2A&gt;完了した操作に関連付けられているメッセージへのアクセスします&lt;/xref:System.Messaging.MessageQueue.EndPeek%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you call &lt;xref:System.Messaging.MessageQueue.BeginPeek%2A&gt;, a &lt;xref:System.IAsyncResult&gt; is returned immediately, even though a message, if one exists, has not yet been retrieved because the operation is not completed.</source>
+          <target state="translated">呼び出すと&lt;xref:System.Messaging.MessageQueue.BeginPeek%2A&gt;、&lt;xref:System.IAsyncResult&gt;場合でも、メッセージ、1 つ存在する場合、まだ取得されていません、操作が完了していないため、すぐに返される&lt;/xref:System.IAsyncResult&gt;&lt;/xref:System.Messaging.MessageQueue.BeginPeek%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The AsyncResult indicates the state of the asynchronous operation.</source>
+          <target state="translated">AsyncResult は、非同期操作の状態を示します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Messaging.MessageQueue.BeginPeek%2A&gt; creates the object, which is modified throughout the operation until &lt;xref:System.Messaging.MessageQueue.EndPeek%2A&gt; completes it.</source>
+          <target state="translated">&lt;xref:System.Messaging.MessageQueue.BeginPeek%2A&gt;&lt;xref:System.Messaging.MessageQueue.EndPeek%2A&gt;それが完了する&lt;/xref:System.Messaging.MessageQueue.EndPeek%2A&gt;まで、操作全体にわたって変更されると、オブジェクトを作成します&lt;/xref:System.Messaging.MessageQueue.BeginPeek%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IAsyncResult&gt; that contains the data associated with the peek operation.</source>
+          <target state="translated">A&lt;xref:System.IAsyncResult&gt;ピーク操作に関連付けられているデータが含まれています&lt;/xref:System.IAsyncResult&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets the message associated with the asynchronous peek operation.</source>
+          <target state="translated">非同期操作に関連付けられたメッセージを取得します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The Message property provides a means for retrieving the message that initiated the end of the asynchronous peek operation.</source>
+          <target state="translated">メッセージ プロパティは、非同期操作の終了を開始したメッセージを取得するための手段を提供します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Messaging.MessageQueue.EndPeek%2A?displayProperty=fullName&gt; is called the first time the Message property is read, so it is not necessary to call &lt;xref:System.Messaging.MessageQueue.EndPeek%2A&gt; prior to getting the value of this property.</source>
+          <target state="translated">&lt;xref:System.Messaging.MessageQueue.EndPeek%2A?displayProperty=fullName&gt;呼び出される、メッセージ プロパティは読み取り、初めてのために呼び出す必要はありません&lt;xref:System.Messaging.MessageQueue.EndPeek%2A&gt;前に、このプロパティの値を取得します&lt;/xref:System.Messaging.MessageQueue.EndPeek%2A&gt;。&lt;/xref:System.Messaging.MessageQueue.EndPeek%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the end result of the asynchronous peek operation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>非同期操作の最終結果を表すです。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The Message could not be retrieved.</source>
+          <target state="translated">メッセージを取得できませんでした。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The time-out on the asynchronous operation might have expired.</source>
+          <target state="translated">非同期操作のタイムアウト時間は過ぎています可能性があります。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

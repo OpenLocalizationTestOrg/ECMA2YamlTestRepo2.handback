@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c153e92446f2aa231b4aa6f2a08581b6bf5483ca</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Net.Sockets.TransmitFileOptions.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">03203ee61e8dd29b3daeecdd2186d2fe343e1781</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">420f593717b1640a7ba1df181b5db816c7f83160</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The TransmitFileOptions enumeration defines values used in file transfer requests.</source>
+          <target state="translated">TransmitFileOptions 枚举定义的文件传输请求中使用的值。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> The flags Disconnect and ReuseSocket return the socket to a disconnected, reusable state after the file has been transmitted.</source>
+          <target state="translated"><bpt id="p1">**</bpt>请注意<ept id="p1">**</ept>断开连接和 ReuseSocket 返回套接字断开连接，可重用的标志状态后已传输文件。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>These flags should not be used on a socket where quality of service (QOS) has been requested, because the service provider might immediately delete any quality of service associated with the socket before the file transfer has completed.</source>
+          <target state="translated">因为服务提供商可能会立即删除任何文件传输完成之前，与套接字关联的服务质量，不应在其中的服务质量 (QOS) 已请求，套接字上使用这些标志。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The best approach for a QOS-enabled socket is to call &lt;xref:System.Net.Sockets.Socket.Close%2A&gt; when the file transfer has completed, rather than relying on these flags.</source>
+          <target state="translated">启用 QOS 的套接字的最佳方法是调用&lt;xref:System.Net.Sockets.Socket.Close%2A&gt;时文件传输已完成，而不是依赖于这些标志。&lt;/xref:System.Net.Sockets.Socket.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Start a transport-level disconnect after all the file data has been queued for transmission.</source>
+          <target state="translated">开始传输级断开所有连接数据已在排队传输的文件。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When used with ReuseSocket, these flags return the socket to a disconnected, reusable state after the file has been transmitted.</source>
+          <target state="translated">当用于 ReuseSocket，这些标志套接字断开连接、 可重复使用的状态后返回传输文件。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The socket handle may be reused when the request completes.</source>
+          <target state="translated">在请求完成后，可以重用 socket 句柄。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This flag is valid only if Disconnect is also specified.</source>
+          <target state="translated">此标志将还指定断开连接时才有效。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When used with Disconnect, these flags return the socket to a disconnected, reusable state after the file has been transmitted.</source>
+          <target state="translated">当用于断开连接，这些标志套接字断开连接、 可重复使用的状态后返回已传输文件。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use the default thread to process long file transfer requests.</source>
+          <target state="translated">使用的默认线程来处理长文件传输请求。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Use kernel asynchronous procedure calls (APCs) instead of worker threads to process long file transfer requests.</source>
+          <target state="translated">使用内核异步过程调用 (Apc) 而不是辅助线程来处理长文件传输请求。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Long requests are defined as requests that require more than a single read from the file or a cache; the request therefore depends on the size of the file and the specified length of the send packet.</source>
+          <target state="translated">长的请求被定义为从文件或缓存; 多个单个读取需要的请求请求因此依赖于文件的大小和发送数据包的指定的长度。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use system threads to process long file transfer requests.</source>
+          <target state="translated">使用系统线程来处理长文件传输请求。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Complete the file transfer request immediately, without pending.</source>
+          <target state="translated">完成文件传输请求，无需立即，挂起。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If this flag is specified and the file transfer succeeds, the data has been accepted by the system but not necessarily acknowledged by the remote end.</source>
+          <target state="translated">如果指定此标志和文件传输成功，数据已接受的系统，但不是一定由远程端确认。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Do not use this flag with the Disconnect and ReuseSocket flags.</source>
+          <target state="translated">具有断开连接和 ReuseSocket 标志，不要使用此标志。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

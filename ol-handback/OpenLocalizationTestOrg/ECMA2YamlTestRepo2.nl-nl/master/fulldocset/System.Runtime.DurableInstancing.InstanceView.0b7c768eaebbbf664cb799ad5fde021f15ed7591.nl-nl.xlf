@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3723103732fd2131c6b15a30e26329918a8fc881</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.DurableInstancing.InstanceView.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5490f070188c4caedd675c72df7aefd91ac5e1c7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dbeb6fbe78c45388e05c79a1914da074c1c72d6a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a view of an instance.</source>
+          <target state="translated">Hiermee geeft u een weergave van een exemplaar.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Runtime.DurableInstancing.InstanceStore.Execute*&gt; method implementations return an InstanceView object that provides a view into the instance data in the persistence store.</source>
+          <target state="translated">Bijvoorbeeld, de &lt;xref:System.Runtime.DurableInstancing.InstanceStore.Execute*&gt;implementaties van methoden retourneren een InstanceView-object dat voorziet in een overzicht van de exemplaargegevens in het persistentie-archief.&lt;/xref:System.Runtime.DurableInstancing.InstanceStore.Execute*&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each InstanceView object is associated with an InstanceHandle.</source>
+          <target state="translated">Elk object InstanceView is gekoppeld aan een InstanceHandle.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an InstanceView returned from InstanceStore.Execute, the associated handle is the one passed to Execute.</source>
+          <target state="translated">Voor een InstanceView geretourneerd van InstanceStore.Execute, is de bijbehorende ingang doorgegeven aan uitvoeren.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an InstanceView returned from InstancePersistenceContext.InstanceView, the associated handle is the one passed to TryCommand.</source>
+          <target state="translated">Voor een InstanceView geretourneerd van InstancePersistenceContext.InstanceView, is de bijbehorende ingang doorgegeven aan TryCommand.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An InstanceHandle may have zero or more InstanceView objects associated with it at any given time.</source>
+          <target state="translated">Een InstanceHandle misschien nul of meer InstanceView objecten worden gekoppeld op elk moment.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>InstanceView objects returned from InstanceStore.Execute are immutable and represent a snapshot of the known instance state after the successful execution of that command.</source>
+          <target state="translated">Objecten uit InstanceStore.Execute InstanceView zijn niet-wijzigbaar en een momentopname van de status van de bekende exemplaar na de voltooiing van uitvoering van de opdracht vertegenwoordigen.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>InstanceView objects returned from InstancePersistenceContext are mutable and represent the current known instance state as it is being updated during the execution of the command.</source>
+          <target state="translated">InstanceView objecten geretourneerd van InstancePersistenceContext veranderlijke en die de huidige exemplaarstatus van de bekende vertegenwoordigt die tijdens het uitvoeren van de opdracht wordt bijgewerkt.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(If the command ultimately fails, this intermediate state is discarded).</source>
+          <target state="translated">(Als de opdracht uiteindelijk mislukt, wordt deze status tussenliggende genegeerd).</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets instance data as a dictionary of names and values.</source>
+          <target state="translated">Hiermee haalt u de gegevens als een dictionary van namen en waarden.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The instance data.</source>
+          <target state="translated">De exemplaargegevens.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Gets the consistency status of the InstanceData property.</source>
+          <target state="translated">Hiermee wordt de status van de consistentie van de eigenschap InstanceData opgehaald.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The consistency (None, In Doubt, and Partial) of the instance data.</source>
+          <target state="translated">De consistentiecontrole (geen, onzeker en gedeeltelijke) van de exemplaargegevens.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>InstanceValueConsistency.None indicates that the InstanceData property holds a fully populated and locked set of instance data.</source>
+          <target state="translated">InstanceValueConsistency.None geeft aan dat de eigenschap InstanceData een volledig ingevuld en vergrendelde verzameling exemplaargegevens bevat.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets the identifier (ID) of the instance as a GUID.</source>
+          <target state="translated">Hiermee haalt u de id (ID) van het exemplaar dat als een GUID.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The ID of the instance or Guid.Empty if the associated instance handle is not bound to an instance.</source>
+          <target state="translated">De ID van het exemplaar of Guid.Empty als de ingang van het bijbehorende exemplaar niet is gebonden aan een exemplaar.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets the instance keys as a dictionary of instance key identifiers and associated <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceKeyView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">De sleutels exemplaar opgehaald als een woordenlijst van het exemplaar van sleutel-id's en bijbehorende <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceKeyView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A dictionary of instance key identifiers and their associated instance key view objects.</source>
+          <target state="translated">Een woordenlijst van het exemplaar van sleutel-id's en hun bijbehorende exemplaarsleutel objecten weergeven.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the consistency status of the InstanceKeys property.</source>
+          <target state="translated">Hiermee wordt de status van de consistentie van de eigenschap InstanceKeys opgehaald.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The consistency value of instance keys.</source>
+          <target state="translated">De waarde van de consistentie van exemplaar sleutels.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>InstanceValueConsistency.None indicates that the InstanceKeys property holds a fully populated and locked set of instance keys (though not necessarily each key’s metadata).</source>
+          <target state="translated">InstanceValueConsistency.None geeft aan dat de eigenschap InstanceKeys een set volledig ingevuld en vergrendelde exemplaar sleutels bevat (maar niet noodzakelijkerwijs metagegevens voor elke sleutel).</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets the metadata of an instance as a dictionary of names and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Haalt de metagegevens van een exemplaar als een dictionary van namen en <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The metadata of the instance.</source>
+          <target state="translated">De metagegevens van het exemplaar.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the consistency status of the InstanceMetadata property.</source>
+          <target state="translated">Hiermee wordt de status van de consistentie van de eigenschap InstanceMetadata opgehaald.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The consistency of the instance metadata.</source>
+          <target state="translated">De consistentie van metagegevens van het exemplaar.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>InstanceValueConsistency.None indicates that the InstanceMetadata property holds a fully populated and locked set of instance metadata.</source>
+          <target state="translated">InstanceValueConsistency.None geeft aan dat de eigenschap InstanceMetadata een set volledig ingevuld en vergrendelde exemplaar metagegevens bevat.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the owner of the instance.</source>
+          <target state="translated">Hiermee haalt u de eigenaar van het exemplaar.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The owner of the instance.</source>
+          <target state="translated">De eigenaar van het exemplaar.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns null if the associated instance handle is not bound to an instance owner.</source>
+          <target state="translated">Retourneert null als de ingang van het bijbehorende exemplaar niet is gebonden aan een exemplaareigenaar.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the metadata for an instance owner as a dictionary of names and values.</source>
+          <target state="translated">Hiermee haalt de metagegevens voor een exemplaareigenaar als een dictionary van namen en waarden.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A dictionary containing instance-owner metadata.</source>
+          <target state="translated">Een woordenlijst die exemplaareigenaar metagegevens bevat.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the consistency status of the InstanceOwnerMetadata property.</source>
+          <target state="translated">Hiermee wordt de status van de consistentie van de eigenschap InstanceOwnerMetadata opgehaald.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The consistency of the instance owner metadata.</source>
+          <target state="translated">De consistentie van de metagegevens van het exemplaar eigenaar.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns null if the associated instance handle is not bound to an instance owner.</source>
+          <target state="translated">Retourneert null als de ingang van het bijbehorende exemplaar niet is gebonden aan een exemplaareigenaar.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets the state of the instance (Unknown, Uninitialized, Initialized, or Completed).</source>
+          <target state="translated">Hiermee haalt u de status van het exemplaar (Uninitialized onbekend Initialized of voltooid).</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The state of the instance.</source>
+          <target state="translated">De status van het exemplaar.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Hiermee wordt een verzameling <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The collection is automatically reset to empty each time a command is executed against the associated instance handle.</source>
+          <target state="translated">De verzameling wordt automatisch opnieuw ingesteld op leeg telkens wanneer die een opdracht is uitgevoerd op basis van de ingang van het bijbehorende exemplaar.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Een verzameling van <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the associated instance handle is bound to an instance.</source>
+          <target state="translated">Retourneert een waarde die aangeeft of het bijbehorende exemplaar-ingang is gebonden aan een exemplaar.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the associated instance handle is bound to an instance; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het bijbehorende exemplaar verwerken is gebonden aan een exemplaar; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the associated instance handle is bound to an instance owner.</source>
+          <target state="translated">Retourneert een waarde die aangeeft of het bijbehorende exemplaar-ingang is gebonden aan een exemplaareigenaar.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the associated instance handle is bound to an instance owner; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het bijbehorende exemplaar verwerken is gebonden aan een exemplaareigenaar; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the associated instance handle is bound to an instance lock.</source>
+          <target state="translated">Retourneert een waarde die aangeeft of het bijbehorende exemplaar-ingang is gebonden aan een vergrendeling voor exemplaar.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the associated instance handle is bound to an instance lock; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het bijbehorende exemplaar verwerken is gebonden aan een vergrendeling voor exemplaar; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
