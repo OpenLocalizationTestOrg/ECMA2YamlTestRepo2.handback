@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c231658a86f40d1ab2b69484646ccdd23473e80f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.RSAParameters.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">732e729e252bd983c04720cd658a255ba2278bb4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58371a00afa2079ec926141aaf065a8450d99356</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the standard parameters for the <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">A szabványos paramétereit a <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> algoritmus.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.RSA&gt; class exposes an &lt;xref:System.Security.Cryptography.RSA.ExportParameters%2A&gt; method that enables you to retrieve the raw RSA key in the form of an RSAParameters structure.</source>
+          <target state="translated">A &lt;xref:System.Security.Cryptography.RSA&gt;tesz elérhetővé osztály egy &lt;xref:System.Security.Cryptography.RSA.ExportParameters%2A&gt;módszer, amelynek segítségével lekérheti a nyers RSA-kulcs egy RSAParameters struktúra formájában.&lt;/xref:System.Security.Cryptography.RSA.ExportParameters%2A&gt; &lt;/xref:System.Security.Cryptography.RSA&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Understanding the contents of this structure requires familiarity with how the &lt;xref:System.Security.Cryptography.RSA&gt; algorithm works.</source>
+          <target state="translated">Ez a struktúra tartalmát megértéséhez szükséges az ismerős &lt;xref:System.Security.Cryptography.RSA&gt;algoritmus működik.&lt;/xref:System.Security.Cryptography.RSA&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The next section discusses the algorithm briefly.</source>
+          <target state="translated">A következő szakasz röviden ismerteti a algoritmus.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RSA Algorithm    To generate a key pair, you start by creating two large prime numbers named p and q.</source>
+          <target state="translated">RSA algoritmust a hozhat létre a kulcspár, akkor először hozzon létre p és q nevű két nagy prímszámokat.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These numbers are multiplied and the result is called n.</source>
+          <target state="translated">Ezeket a számokat a rendszer meg kell szorozni, és az eredmény n nevezik.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because p and q are both prime numbers, the only factors of n are 1, p, q, and n.</source>
+          <target state="translated">Mivel p és q mindkét prímszámokat, n biztosan 1, a p, a q és az n csak tényezők.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If we consider only numbers that are less than n, the count of numbers that are relatively prime to n, that is, have no factors in common with n, equals (p - 1)(q - 1).</source>
+          <target state="translated">Csak a kevesebb mint n számok javasolt, ha a száma, amelyek viszonylag elsődleges-n, ez azt jelenti, hogy számok rendelkező nincs tényezők közös n, egyenlő (p - 1)(q-1).</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Now you choose a number e, which is relatively prime to the value you calculated.</source>
+          <target state="translated">Most választja egy szám-e, amely viszonylag elsődleges számolt ki értékre.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The public key is now represented as {e, n}.</source>
+          <target state="translated">A nyilvános kulcs {e, n} most jelzi.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create the private key, you must calculate d, which is a number such that (d)(e) mod (p - 1)(q - 1) = 1.</source>
+          <target state="translated">A titkos kulcs létrehozásához ki kell d, amely szám úgy, hogy (d)(e) MOD elemet (p - 1)(q-1) = 1.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In accordance with the Euclidean algorithm, the private key is now {d, n}.</source>
+          <target state="translated">A Euclidean algoritmus megfelelően a titkos kulcs már {d, n}.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Encryption of plaintext m to ciphertext c is defined as c = (m ^ e) mod n.</source>
+          <target state="translated">Egyszerű szöveges m c titkosított szöveg titkosítási van definiálva, c = (m ^ e) mod n.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Decryption would then be defined as m = (c ^ d) mod n.</source>
+          <target state="translated">Visszafejtési volna majd kell definiálni m = (c ^ d) mod n.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Summary of Fields    Section A.1.2 of the <bpt id="p1">[</bpt>PKCS #1: RSA Cryptography Standard<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept> on the RSA Laboratories Web site defines a format for RSA private keys.</source>
+          <target state="translated">A mezők szakasz A.1.2 összefoglalását a <bpt id="p1">[</bpt>PKCS #1: RSA titkosítási szabvány<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept> RSA laboratórium webes hely határozza meg a titkos kulcsokhoz RSA formátum.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table summarizes the fields of the RSAParameters structure.</source>
+          <target state="translated">A következő táblázat összefoglalja a mezők RSAParameters struktúra.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The third column provides the corresponding field in section A.1.2 of <bpt id="p1">[</bpt>PKCS #1: RSA Cryptography Standard<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept>.</source>
+          <target state="translated">A harmadik oszlop nyújt a megfelelő mező A.1.2 szakaszában az <bpt id="p1">[</bpt>PKCS #1: RSA titkosítási szabvány<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=113155)</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|RSAParameters field|Contains|Corresponding PKCS #1 field|   |---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|----------------------------------|   |&lt;xref:System.Security.Cryptography.RSAParameters.D&gt;|d, the private exponent|privateExponent|   |&lt;xref:System.Security.Cryptography.RSAParameters.DP&gt;|d mod (p - 1)|exponent1|   |&lt;xref:System.Security.Cryptography.RSAParameters.DQ&gt;|d mod (q - 1)|exponent2|   |&lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt;|e, the public exponent|publicExponent|   |&lt;xref:System.Security.Cryptography.RSAParameters.InverseQ&gt;|(InverseQ)(q) = 1 mod p|coefficient|   |&lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;|n|modulus|   |&lt;xref:System.Security.Cryptography.RSAParameters.P&gt;|p|prime1|   |&lt;xref:System.Security.Cryptography.RSAParameters.Q&gt;|q|prime2|       The security of RSA derives from the fact that, given the public key { e, n }, it is computationally infeasible to calculate d, either directly or by factoring n into p and q.</source>
+          <target state="translated">| RSAParameters mező |} Tartalmaz |} Megfelelő PKCS #1 mező |}   |---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|----------------------------------|   | &lt;xref:System.Security.Cryptography.RSAParameters.D&gt;|} d, a saját kitevő |} privateExponent |}   | &lt;xref:System.Security.Cryptography.RSAParameters.DP&gt;|} d mod (p - 1) |} exponent1 |}   | &lt;xref:System.Security.Cryptography.RSAParameters.DQ&gt;|} d mod (q - 1) |} exponent2 |}   | &lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt;|} e, a nyilvános kitevő |} publicExponent |}   | &lt;xref:System.Security.Cryptography.RSAParameters.InverseQ&gt;| (InverseQ) q = 1 mod p |} együttható |}   | &lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;|} n |} modulus |}   | &lt;xref:System.Security.Cryptography.RSAParameters.P&gt;|} p |} prime1 |}   | &lt;xref:System.Security.Cryptography.RSAParameters.Q&gt;|} q |} prime2 |}       RSA biztonsági származik a tényt, hogy az, a nyilvános kulcs {e, n} tekintve számításilag lehetetlen kiszámításához d, közvetlenül vagy n faktoring p és q. által&lt;/xref:System.Security.Cryptography.RSAParameters.Q&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.P&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.Modulus&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.InverseQ&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.Exponent&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.DQ&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.DP&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.D&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, any part of the key related to d, p, or q must be kept secret.</source>
+          <target state="translated">Ezért a d, a p, vagy a q kapcsolatos kulcs bármely részét kell tartani titkos.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call       &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters%2A&gt; and ask for only the public key information, this is why you will receive only &lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt; and &lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;.</source>
+          <target state="translated">Ha meghívja-e &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters%2A&gt;, és kérjen csak a nyilvánoskulcs-adatokat, ezért csak &lt;xref:System.Security.Cryptography.RSAParameters.Exponent&gt;és &lt;xref:System.Security.Cryptography.RSAParameters.Modulus&gt;.&lt;/xref:System.Security.Cryptography.RSAParameters.Modulus&gt; &lt;/xref:System.Security.Cryptography.RSAParameters.Exponent&gt; fog kapni.&lt;/xref:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The other fields are available only if you have access to the private key, and you request it.</source>
+          <target state="translated">Csak akkor, ha a titkos kulccsal rendelkezik, és kér le, a más mezők érhetők el.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RSAParameters is not encrypted in any way, so you must be careful when you use it with the private key information.</source>
+          <target state="translated">RSAParameters nem titkosítottak bármely olyan módon, így gondosan kell a titkos kulcs adataival használatakor.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In fact, none of the fields that contain private key information can be serialized.</source>
+          <target state="translated">Valójában a titkos kulcs adataival tartalmazó mezők egyike törzsparaméter szerializálható.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you try to serialize an RSAParameters structure with a remoting call or by using one of the serializers, you will receive only public key information.</source>
+          <target state="translated">Ha lehet, mert egy RSAParameters struktúra egy távoli eljáráshívás-hívással vagy a objektumszerializáló egyikének használatával kísérli meg, csak nyilvánoskulcs-adatokat fog kapni.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to pass private key information, you will have to manually send that data.</source>
+          <target state="translated">Ha a titkos kulcs adataival átadni kívánt, akkor manuálisan elküldeni az adatokat.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In all cases, if anyone can derive the parameters, the key that you transmit becomes useless.</source>
+          <target state="translated">Minden olyan esetben ha bárki származtathatók-paraméterek, a kulcsot, akkor továbbítja lesz használhatatlan.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_D" name="D" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Jelzi a <bpt id="p1">&lt;xref uid="langword_csharp_D" name="D" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> paramétere a <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> algoritmus.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_DP" name="DP" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Jelzi a <bpt id="p1">&lt;xref uid="langword_csharp_DP" name="DP" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> paramétere a <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> algoritmus.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_DQ" name="DQ" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Jelzi a <bpt id="p1">&lt;xref uid="langword_csharp_DQ" name="DQ" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> paramétere a <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> algoritmus.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_Exponent" name="Exponent" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Jelzi a <bpt id="p1">&lt;xref uid="langword_csharp_Exponent" name="Exponent" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> paramétere a <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> algoritmus.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_InverseQ" name="InverseQ" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Jelzi a <bpt id="p1">&lt;xref uid="langword_csharp_InverseQ" name="InverseQ" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> paramétere a <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> algoritmus.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_Modulus" name="Modulus" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Jelzi a <bpt id="p1">&lt;xref uid="langword_csharp_Modulus" name="Modulus" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> paramétere a <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> algoritmus.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_P" name="P" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Jelzi a <bpt id="p1">&lt;xref uid="langword_csharp_P" name="P" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> paramétere a <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> algoritmus.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref uid="langword_csharp_Q" name="Q" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter for the <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Jelzi a <bpt id="p1">&lt;xref uid="langword_csharp_Q" name="Q" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> paramétere a <bpt id="p2">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> algoritmus.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

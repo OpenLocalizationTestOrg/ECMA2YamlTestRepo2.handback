@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c215bbd5e7edd14be095df950c5bb0fa830185ba</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Claims.Claim.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a8ad1d022110d87acd4e94e1e03bdf686a5fbb4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">02a30af582dad39f927f5190aacddb73f812b2ec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a claim.</source>
+          <target state="translated">Egy jogcímet képviseli.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A claim is a statement about a subject by an issuer.</source>
+          <target state="translated">A jogcím egy utasítást a tulajdonos által kibocsátó kapcsolatos.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Claims represent attributes of the subject that are useful in the context of authentication and authorization operations.</source>
+          <target state="translated">Jogcímek határoz meg a tulajdonos, melyek hasznosak lehetnek a környezetben, hitelesítési és engedélyezési műveletek attribútumait.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subjects and issuers are both entities that are part of an identity scenario.</source>
+          <target state="translated">Témák és a tanúsítványkibocsátók is mindkét entitásokat, amelyek egy identitás használatára.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some typical examples of a subject are: a user, an application or service, a device, or a computer.</source>
+          <target state="translated">A tulajdonos néhány jellemző példa: a felhasználó, egy alkalmazás vagy szolgáltatás, egy eszköz vagy egy számítógép.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some typical examples of an issuer are: the operating system, an application.</source>
+          <target state="translated">Néhány jellemző példa egy kibocsátó: az operációs rendszer, az alkalmazás.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>a service, a role provider, an identity provider, or a federation provider.</source>
+          <target state="translated">egy szolgáltatás, a szerepkör-szolgáltató, az identitásszolgáltató vagy összevonás-szolgáltatóként.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An issuer delivers claims by issuing security tokens, typically through a Security Token Service (STS).</source>
+          <target state="translated">A kibocsátó jogcímek biztonsági jogkivonatokat, általában keresztül a biztonsági jogkivonat-szolgáltatás (STS) kiállításával nyújt.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(In WIF, you can build an STS by deriving from the &lt;xref:System.IdentityModel.SecurityTokenService&gt; class.) On occasion, the collection of claims received from an issuer can be extended by subject attributes stored directly at the resource.</source>
+          <target state="translated">(A WIF, készíthető az STS szolgáltatással származó a &lt;xref:System.IdentityModel.SecurityTokenService&gt;osztály)&lt;/xref:System.IdentityModel.SecurityTokenService&gt; Előfordulhat a gyűjtemény jogcím kibocsátó kapott bővíthető közvetlenül, az erőforrás tárolt tulajdonosi attribútumokkal.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A claim can be evaluated to determine access rights to data and other secured resources during the process of authorization and can also be used to make or express authentication decisions about a subject.</source>
+          <target state="translated">A jogcím kiértékelése az adatokhoz való hozzáférési jogok határozza meg, és az egyéb védett erőforrásokhoz engedélyezési folyamata során, és vagy express a hitelesítési döntések kapcsolatos tárgy is használható.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Beginning with .NET 4.5, the Windows Identity Foundation (WIF) classes, which implement claims-based identity, have been fully integrated into the .NET Framework.</source>
+          <target state="translated">Kezdve a .NET 4.5, a Windows Identity Foundation (WIF) osztályokat, jogcímalapú identitás alkalmazásához rendelkezik teljesen integrálva lett a .NET-keretrendszer.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The claims concept is implemented by the Claim class.</source>
+          <target state="translated">A jogcímek fogalom a jogcímek osztály valósítják meg.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following describes important properties of the Claim class:      -   The &lt;xref:System.Security.Claims.Claim.Type%2A&gt; property is a string (typically a URI) that contains the semantic information about the claim; it tells you what the value of the claim means.</source>
+          <target state="translated">A következő szakasz ismerteti a fontos a jogcím-osztály tulajdonságai: - a &lt;xref:System.Security.Claims.Claim.Type%2A&gt;tulajdonság a jogcím szemantikai információt tartalmazó karakterlánc (általában URI); a jelzi, hogy mit jelent a jogcím értéke.&lt;/xref:System.Security.Claims.Claim.Type%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a claim with a claim type of &lt;xref:System.Security.Claims.ClaimTypes.GivenName&gt; (“http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname”) represents a user’s first name.</source>
+          <target state="translated">Például egy olyan jogcím típusú jogcímet &lt;xref:System.Security.Claims.ClaimTypes.GivenName&gt;("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname") a felhasználó utónevét jelöli.&lt;/xref:System.Security.Claims.ClaimTypes.GivenName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the &lt;xref:System.Security.Claims.Claim.Type%2A&gt; property can be one of the well-known claim types defined in the &lt;xref:System.Security.Claims.ClaimTypes&gt; class, or it can be an arbitrary URI as defined by the issuer.</source>
+          <target state="translated">Értékét a &lt;xref:System.Security.Claims.Claim.Type%2A&gt;tulajdonság definiált jól ismert jogcím-típusok egyike lehet a &lt;xref:System.Security.Claims.ClaimTypes&gt;osztály, vagy lehet egy tetszőleges URI-azonosító, a kibocsátó által definiált konfigurációjának kialakításához.&lt;/xref:System.Security.Claims.ClaimTypes&gt; &lt;/xref:System.Security.Claims.Claim.Type%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a claim type of “urn:spendinglimit” might represent a user attribute which makes sense within the business context of the issuer.</source>
+          <target state="translated">A jogcím típusa "urn: spendinglimit", például egy felhasználó attribútuma, amely a kibocsátó üzleti kontextusában szabálykészletében előfordulhat, hogy jelöli.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Security.Claims.Claim.Value%2A&gt; property contains the value of the claim.</source>
+          <target state="translated">-A &lt;xref:System.Security.Claims.Claim.Value%2A&gt;tulajdonsága tartalmazza a jogcím értéke.&lt;/xref:System.Security.Claims.Claim.Value%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to reduce dependencies and simplify administration, in WIF the value of a claim is represented only as a string.</source>
+          <target state="translated">Csökkentse a függőségeket, és felügyelete, a WIF egyszerűsítése érdekében a jogcím értéke csak a string típusúként jelzi.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more complex value types, it is recommended that you use standard XML schema types to indicate how the value is meant to be serialized into and deserialized from a string.</source>
+          <target state="translated">A komplex értékű típusokon ajánlott használt XML-séma alaptípusok jelzik, hogy az érték szolgál, hogy lehet szerializálni és deszerializálni a karakterlánc hogyan.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt; property contains a string that identifies the type information for the value.</source>
+          <target state="translated">-A &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt;tulajdonság, amely azonosítja az értéket a típus adatainak karakterláncot tartalmaz.&lt;/xref:System.Security.Claims.Claim.ValueType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property should be used to understand the format of the value and to provide information about how to deserialize it.</source>
+          <target state="translated">Ez a tulajdonság az érték formátuma megértéséhez, és ismertetik, hogyan kell deszerializálni azt kell használni.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your solution requires complex value types, it is recommended that you use standard XML schema types in the &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt; property to indicate how the &lt;xref:System.Security.Claims.Claim.Value%2A&gt; property is meant to be serialized into and deserialized from a string.</source>
+          <target state="translated">Ha a megoldás összetett értéktípusok van szüksége, javasoljuk, hogy használja-e a szabványos XML sématípusok a &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt;tulajdonság, amely jelzi az &lt;xref:System.Security.Claims.Claim.Value%2A&gt;tulajdonság el lehet szerializálni, és a karakterlánc deszerializálása.&lt;/xref:System.Security.Claims.Claim.Value%2A&gt; &lt;/xref:System.Security.Claims.Claim.ValueType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property is a &lt;xref:System.Security.Claims.ClaimsIdentity&gt; object that represents the subject of the claim.</source>
+          <target state="translated">-A &lt;xref:System.Security.Claims.Claim.Subject%2A&gt;tulajdonság egy &lt;xref:System.Security.Claims.ClaimsIdentity&gt;az igényben képviselő objektum.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt; &lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The subject of the claim is the entity (typically the user who is requesting access to a resource) about which the claim is asserted.</source>
+          <target state="translated">Az igényben lényege, hogy az entitás (általában a felhasználó által a kért erőforráshoz való hozzáférés) a jogcím magas.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.ClaimsIdentity&gt; contains, among its properties, a collection of claims that describe the properties and attributes of the subject as attested to by one or more issuers.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.ClaimsIdentity&gt;tartalmaz, a tulajdonságok között a tulajdonságait leíró jogcímek gyűjteménye és a tulajdonos, mert egy vagy több kibocsátók igazolt attribútumait.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; property contains the name of the entity that issued the claim.</source>
+          <target state="translated">-A &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;tulajdonság, amely kiállította a jogcímet entitás nevét tartalmazza.&lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The issuer of a claim is represented in WIF by a string that contains a name taken from a list of well-known issuers that is maintained by the issuer name registry.</source>
+          <target state="translated">A jogcím kiállítóját a jól ismert kiállítók listáját, amelyek a kibocsátó neve beállításjegyzék tartja fenn vett nevét tartalmazó karakterlánc által képviselt a WIF.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The issuer name registry is an instance of a class that derives from the &lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt; class.</source>
+          <target state="translated">A kibocsátó neve beállításjegyzék a példánya: egy osztály, amely a a &lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt;osztályból&lt;/xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt; származik</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The issuer name registry associates a mnemonic name to the cryptographic material needed to verify the signatures of tokens produced by the corresponding issuer.</source>
+          <target state="translated">A kibocsátó neve beállításjegyzék társítja a mnemonikus nevét, hogy a megfelelő kibocsátó által előállított tokenek vizsgálhassa szükséges titkosítási anyagot.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt; class, available out of the box with .NET 4.5, associates the mnemonic name for each issuer with its corresponding X.509 certificate.</source>
+          <target state="translated">Például a &lt;xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt;osztály a .NET 4.5, nem érhető el minden kiállító mnemonikus nevét társítja a megfelelő X.509-tanúsítvány.&lt;/xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The list of well-known issuers is typically built at startup time by the issuer name registry.</source>
+          <target state="translated">A kibocsátó neve beállításkulcs általában épül fel indításkor az a jól ismert kiállítók listájának.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The list used by the &lt;xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt; is specified in the application configuration file.</source>
+          <target state="translated">A listán, használja a &lt;xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt;van megadva, az alkalmazás konfigurációs fájljában.&lt;/xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; property contains the name of the entity that originally issued the claim.</source>
+          <target state="translated">-A &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;tulajdonság, amely eredetileg kiállította a jogcímet entitás nevét tartalmazza.&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is designed to facilitate scenarios where a claim may pass through multiple issuers before it is presented by the client to the RP application; such as federation scenarios.</source>
+          <target state="translated">Ez a tulajdonság alkalmas forgatókönyvek, ahol a jogcím előfordulhat, hogy továbbítása több kiállítók előtt azt számára jelenik meg a függő Entitás alkalmazásnak, az ügyfél által például az összevonási forgatókönyveket.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can examine the &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; property to determine the entity that originally issued the claim.</source>
+          <target state="translated">Ellenőrizheti a &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;tulajdonság határozza meg az entitás, amely eredetileg kiállította a jogcímet.&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name is taken from the list of well-known issuers maintained by the issuer name registry, as in the case of the &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; property.</source>
+          <target state="translated">A név a kibocsátó neve, ahogy a gyorsítás esetében is beállításjegyzék által fenntartott jól ismert kiállítók listájának származik a &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;tulajdonság.&lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The security claim.</source>
+          <target state="translated">A biztonsági jogcímet.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified reader, and subject.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott Reader osztály, és a tulajdonos.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The binary reader.</source>
+          <target state="translated">A bináris olvasó.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The subject that this claim describes.</source>
+          <target state="translated">A tárgy, a jogcímszabály-leíró.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified security claim, and subject.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott biztonsági jogcímet, és a tulajdonos.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The security claim.</source>
+          <target state="translated">A biztonsági jogcímet.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The subject that this claim describes.</source>
+          <target state="translated">A tárgy, a jogcímszabály-leíró.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified claim type, and value.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály bizonyos jogcímtípust és értéket.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property is set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.Subject%2A&gt;tulajdonsága <ph id="ph1">`null`</ph>.&lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; and &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; properties are set to &lt;xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt;.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;és &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;a &lt;xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt;.&lt;/xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt; vannak beállítva&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; &lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt; property is set to &lt;xref:System.Security.Claims.ClaimValueTypes.String?displayProperty=fullName&gt;</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt;tulajdonsága &lt;xref:System.Security.Claims.ClaimValueTypes.String?displayProperty=fullName&gt;&lt;/xref:System.Security.Claims.ClaimValueTypes.String?displayProperty=fullName&gt; &lt;/xref:System.Security.Claims.Claim.ValueType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">A jogcím típusa.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">A jogcím értéke.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified claim type, value, and value type.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott jogcímtípus, érték és értéktípus.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property is set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.Subject%2A&gt;tulajdonsága <ph id="ph1">`null`</ph>.&lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; and &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; properties are set to &lt;xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt;.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;és &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;a &lt;xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt;.&lt;/xref:System.Security.Claims.ClaimsIdentity.DefaultIssuer&gt; vannak beállítva&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; &lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">A jogcím típusa.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">A jogcím értéke.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The claim value type.</source>
+          <target state="translated">A jogcím értékének típusa.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">Ha ez a paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, majd <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> szolgál.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified claim type, value, value type, and issuer.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott jogcímtípus, értéket, típusa és kibocsátó.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property is set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.Subject%2A&gt;tulajdonsága <ph id="ph1">`null`</ph>.&lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; property is set according to the value of the <ph id="ph1">`issuer`</ph> parameter.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;tulajdonság értékének szerint van beállítva a <ph id="ph1">`issuer`</ph> paraméter.&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">A jogcím típusa.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">A jogcím értéke.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The claim value type.</source>
+          <target state="translated">A jogcím értékének típusa.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">Ha ez a paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, majd <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> szolgál.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The claim issuer.</source>
+          <target state="translated">A jogcím kibocsátó.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If this parameter is empty or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">Ha ez a paraméter üres vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, majd <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> szolgál.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified claim type, value, value type, issuer,  and original issuer.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott jogcímtípus, a érték, a értéktípus, a kibocsátó és az eredeti kibocsátó osztályra.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property is set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.Subject%2A&gt;tulajdonsága <ph id="ph1">`null`</ph>.&lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">A jogcím típusa.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">A jogcím értéke.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The claim value type.</source>
+          <target state="translated">A jogcím értékének típusa.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">Ha ez a paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, majd <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> szolgál.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The claim issuer.</source>
+          <target state="translated">A jogcím kibocsátó.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If this parameter is empty or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">Ha ez a paraméter üres vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, majd <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> szolgál.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The original issuer of the claim.</source>
+          <target state="translated">A jogcím az eredeti kibocsátó.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If this parameter is empty or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then the &lt;xref:System.Security.Claims.Claim.OriginalIssuer<bpt id="p2">*</bpt>&gt; property is set to the value of the &lt;xref:System.Security.Claims.Claim.Issuer<ept id="p2">*</ept>&gt; property.</source>
+          <target state="translated">Ha ez a paraméter üres vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, akkor a &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; tulajdonsága értékének a &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; tulajdonság.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified claim type, value, value type, issuer, original issuer and subject.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megadott jogcímtípus, érték, értéktípus, kibocsátó, eredeti kibocsátó és tulajdonos osztály.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">A jogcím típusa.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">A jogcím értéke.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The claim value type.</source>
+          <target state="translated">A jogcím értékének típusa.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">Ha ez a paraméter <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, majd <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimValueTypes.String"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> szolgál.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The claim issuer.</source>
+          <target state="translated">A jogcím kibocsátó.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If this parameter is empty or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">Ha ez a paraméter üres vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, majd <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsIdentity.DefaultIssuer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> szolgál.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The original issuer of the claim.</source>
+          <target state="translated">A jogcím az eredeti kibocsátó.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If this parameter is empty or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, then the &lt;xref:System.Security.Claims.Claim.OriginalIssuer<bpt id="p2">*</bpt>&gt; property is set to the value of the &lt;xref:System.Security.Claims.Claim.Issuer<ept id="p2">*</ept>&gt; property.</source>
+          <target state="translated">Ha ez a paraméter üres vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, akkor a &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; tulajdonsága értékének a &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; tulajdonság.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The subject that this claim describes.</source>
+          <target state="translated">A tárgy, a jogcímszabály-leíró.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Returns a new <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object copied from this object.</source>
+          <target state="translated">Visszaadja egy új <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum másolta át ezt az objektumot.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The new claim does not have a subject.</source>
+          <target state="translated">Az új jogcímet nem rendelkezik a tulajdonos.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a shallow copy operation.</source>
+          <target state="translated">Ez az sekély a másolási műveletek.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property of the new &lt;xref:System.Security.Claims.Claim&gt; object is set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.Subject%2A&gt;az új tulajdonság &lt;xref:System.Security.Claims.Claim&gt;objektum be van állítva, <ph id="ph1">`null`</ph>.&lt;/xref:System.Security.Claims.Claim&gt; &lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The new claim object.</source>
+          <target state="translated">Az új jogcímet objektum.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Returns a new <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object copied from this object.</source>
+          <target state="translated">Visszaadja egy új <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum másolta át ezt az objektumot.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The subject of the new claim is set to the specified ClaimsIdentity.</source>
+          <target state="translated">A megadott ClaimsIdentity az igényben új van beállítva.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a shallow copy operation.</source>
+          <target state="translated">Ez az sekély a másolási műveletek.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.Subject%2A&gt; property of the new &lt;xref:System.Security.Claims.Claim&gt; object is set to the value of the <ph id="ph1">`identity`</ph> parameter.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.Subject%2A&gt;az új tulajdonság &lt;xref:System.Security.Claims.Claim&gt;objektum be van állítva, az értékre a <ph id="ph1">`identity`</ph> paraméter.&lt;/xref:System.Security.Claims.Claim&gt; &lt;/xref:System.Security.Claims.Claim.Subject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The intended subject of the new claim.</source>
+          <target state="translated">A tervezett igényben új.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The new claim object.</source>
+          <target state="translated">Az új jogcímet objektum.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Returns &lt;xref:System.Byte&gt;.</source>
+          <target state="translated">&lt;xref:System.Byte&gt;.&lt;/xref:System.Byte&gt; Beolvasása</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets the issuer of the claim.</source>
+          <target state="translated">Lekérdezi a jogcím kiállítóját.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the Issuer property is a name that is taken from a list of well-known issuers maintained by the issuer name registry.</source>
+          <target state="translated">A kibocsátó tulajdonsága értéke a nevet, amely a jól ismert tartja fenn a kibocsátó neve beállításjegyzék kiállítók listáját származik.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The issuer name registry is an instance of a class that derives from the &lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt; class.</source>
+          <target state="translated">A kibocsátó neve beállításjegyzék a példánya: egy osztály, amely a a &lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt;osztályból&lt;/xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt; származik</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The issuer name registry associates a mnemonic name (the issuer name) with the cryptographic material that is needed to verify signatures of tokens produced by the issuer; for example, an X.509 certificate.</source>
+          <target state="translated">A kibocsátó neve beállításjegyzék mnemonikus nevét (a kibocsátó neve) társítja a kriptográfiai anyagokat, ahhoz szükséges, hogy a kibocsátó; által gyártott tokenek aláírások ellenőrzése Ha például egy X.509 tanúsítvány.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>A name that refers to the issuer of the claim.</source>
+          <target state="translated">A jogcím kiállítóját hivatkozó név.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets the original issuer of the claim.</source>
+          <target state="translated">Lekérdezi az eredeti a jogcím kiállítóját.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Contains the name of the entity that originally issued the claim.</source>
+          <target state="translated">Az entitás, amely eredetileg kiállította a jogcímet nevét tartalmazza.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is designed to facilitate scenarios where a claim may pass through multiple issuers before it is presented by the client to the RP application; such as federation scenarios.</source>
+          <target state="translated">Ez a tulajdonság alkalmas forgatókönyvek, ahol a jogcím előfordulhat, hogy továbbítása több kiállítók előtt azt számára jelenik meg a függő Entitás alkalmazásnak, az ügyfél által például az összevonási forgatókönyveket.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the OriginalIssuer property is a name that is taken from a list of well-known issuers maintained by the issuer name registry.</source>
+          <target state="translated">Az OriginalIssuer tulajdonság értéke a nevet, amely a jól ismert tartja fenn a kibocsátó neve beállításjegyzék kiállítók listáját származik.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The issuer name registry is an instance of a class that derives from the &lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt; class.</source>
+          <target state="translated">A kibocsátó neve beállításjegyzék a példánya: egy osztály, amely a a &lt;xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt;osztályból&lt;/xref:System.IdentityModel.Tokens.IssuerNameRegistry&gt; származik</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The issuer name registry associates a mnemonic name (the issuer name) with the cryptographic material that is needed to verify signatures of tokens produced by the issuer; for example, an X.509 certificate.</source>
+          <target state="translated">A kibocsátó neve beállításjegyzék mnemonikus nevét (a kibocsátó neve) társítja a kriptográfiai anyagokat, ahhoz szükséges, hogy a kibocsátó; által gyártott tokenek aláírások ellenőrzése Ha például egy X.509 tanúsítvány.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Except for delegation and federation scenarios, the &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; property and the OriginalIssuer property will usually have the same value.</source>
+          <target state="translated">Delegálás és az összevonási forgatókönyveket, kivéve a &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;tulajdonság és az OriginalIssuer tulajdonság általában tartozhat azonos érték.&lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value of the OriginalIssuer property differs from the value of the &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; property, the claim was first issued by the original issuer and was subsequently re-issued by the issuer.</source>
+          <target state="translated">Ha az OriginalIssuer tulajdonság értéke eltér az értékét a &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;tulajdonság, a jogcím először az eredeti kibocsátó adta ki, és ezt követően újra ki a kibocsátó.&lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>A name that refers to the original issuer of the claim.</source>
+          <target state="translated">A jogcím az eredeti kibocsátó hivatkozó név.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets a dictionary that contains additional properties associated with this claim.</source>
+          <target state="translated">Lekérdezi a jogcím társított további tulajdonságokat tartalmazó dictionary.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Properties property provides a dictionary of name-value pairs that allows metadata or other information about the claim to be associated with it.</source>
+          <target state="translated">A Tulajdonságok tulajdonság név-érték párokból álló dictionary, amely lehetővé teszi a metaadatok és a jogcím hozzárendelhető egyéb adatait tartalmazza.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For claims generated from SAML tokens, this dictionary may contain keys given by the constants in the &lt;xref:System.Security.Claims.ClaimProperties&gt; class.</source>
+          <target state="translated">A jogcímek SAML-jogkivonatokat által létrehozott, az ehhez a szótárhoz tartalmazhat a konstansok &lt;xref:System.Security.Claims.ClaimProperties&gt;osztály&lt;/xref:System.Security.Claims.ClaimProperties&gt; által megadott kulcsok</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A dictionary that contains additional properties associated with the claim.</source>
+          <target state="translated">A jogcímek társított további tulajdonságokat tartalmazó szótárban.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The properties are represented as name-value pairs.</source>
+          <target state="translated">A Tulajdonságok név-érték párként jelennek meg.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets the subject of the claim.</source>
+          <target state="translated">Lekérdezi az igényben.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The subject is the entity about which the claim is asserted.</source>
+          <target state="translated">A tárgy az az entitás, amelyekről a jogcím határoznak megerősítéséhez.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some typical examples are a user, an application or service, a device, or a computer.</source>
+          <target state="translated">Néhány tipikus többek között a felhasználó, egy alkalmazás vagy szolgáltatás, egy eszköz vagy egy számítógép.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The subject is represented by a &lt;xref:System.Security.Claims.ClaimsIdentity&gt;, which contains a collection of claims that describe it.</source>
+          <target state="translated">A tulajdonos egy &lt;xref:System.Security.Claims.ClaimsIdentity&gt;a jogcímeket, amely tőle ismertetik gyűjteményét tartalmazza, amely&lt;/xref:System.Security.Claims.ClaimsIdentity&gt; jelképezi</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The subject of the claim.</source>
+          <target state="translated">Az igényben.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Returns a string representation of this <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ez a karakterlánc alakot adja vissza <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string that is returned contains the values of the &lt;xref:System.Security.Claims.Claim.Type%2A&gt; and &lt;xref:System.Security.Claims.Claim.Value%2A&gt; properties in the following format:.”Type: Value”.</source>
+          <target state="translated">A visszaadott karakterlánc tartalmaz a &lt;xref:System.Security.Claims.Claim.Type%2A&gt;értékeit és &lt;xref:System.Security.Claims.Claim.Value%2A&gt;tulajdonságait a következő formátumban:. " Típus: érték ".&lt;/xref:System.Security.Claims.Claim.Value%2A&gt; &lt;/xref:System.Security.Claims.Claim.Type%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The string representation of this <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ez a karakterlánc-ábrázolása <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets the claim type of the claim.</source>
+          <target state="translated">Lekérdezi a jogcímszabályok a jogcím típusával.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Type property provides the semantic content of the claim, that is, it states what the claim is about.</source>
+          <target state="translated">A Type tulajdonságot olyan jogcím szemantikai tartalmak találhatók meg, ez azt jelenti, hogy azt jelzi, mi az a jogcímet.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a claim with a claim type of &lt;xref:System.Security.Claims.ClaimTypes.GivenName&gt; (“http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname”) represents a user’s first name.</source>
+          <target state="translated">Például egy olyan jogcím típusú jogcímet &lt;xref:System.Security.Claims.ClaimTypes.GivenName&gt;("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname") a felhasználó utónevét jelöli.&lt;/xref:System.Security.Claims.ClaimTypes.GivenName&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The claim type is typically a URI; however, you are not limited to any specific format other than that it must be representable as a string.</source>
+          <target state="translated">A jogcím típusa általában esetén egy URI; azonban Ön korlátozódnak nem bármely meghatározott formátumban modultól eltérő értéket képvisel karakterláncként legyen.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The only general requirement is that the claim issuer and the claim consumer must agree about the meaning of the claim.</source>
+          <target state="translated">A csak általános követelmény az, hogy a jogcímek kiállítója és a jogcímek fogyasztó kapcsolatban a jogcím hozzá kell járulniuk.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Constants for the well-known claim types used by Windows Identity Foundation (WIF) are available through the &lt;xref:System.Security.Claims.ClaimTypes&gt; class.</source>
+          <target state="translated">A Windows Identity Foundation (WIF) által használt ismert jogcímtípusok állandókat &lt;xref:System.Security.Claims.ClaimTypes&gt;osztály&lt;/xref:System.Security.Claims.ClaimTypes&gt; keresztül érhetők el</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The claim value is provided by the &lt;xref:System.Security.Claims.Claim.Value%2A&gt; property.</source>
+          <target state="translated">A jogcím értéke szolgáltatja a &lt;xref:System.Security.Claims.Claim.Value%2A&gt;tulajdonság.&lt;/xref:System.Security.Claims.Claim.Value%2A&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The claim type.</source>
+          <target state="translated">A jogcím típusa.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets the value of the claim.</source>
+          <target state="translated">Lekérdezi a jogcím értéke.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of a claim is represented only as a string.</source>
+          <target state="translated">A jogcím értéke csak karakterlánc jelzi.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more complex value types, it is recommended that you use standard XML schema types to indicate how the value is meant to be serialized and deserialized to and from a string.</source>
+          <target state="translated">Összetettebb értéktípusnál javasolt annak jelzésére, hogy hogyan értéke célja, hogy a szerializált és deszerializálni a karakterlánc érkező vagy oda irányuló használhatja a szabványos XML sématípusok.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt; property provides the underlying syntactic type information about the value.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.ValueType%2A&gt;tulajdonság az alapul szolgáló szintaktikai típusú információkat nyújt azokról az érték.&lt;/xref:System.Security.Claims.Claim.ValueType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.Claim.Type%2A&gt; property provides the semantic information about the value; that is, it provides the meaning of the value and tells a claim consumer how to interpret it.</source>
+          <target state="translated">A &lt;xref:System.Security.Claims.Claim.Type%2A&gt;tulajdonság a szemantikai információkat nyújt azokról a érték; Ez azt jelenti, hogy az érték szerinti biztosít, és közli a jogcím fogyasztó értelmezése azt.&lt;/xref:System.Security.Claims.Claim.Type%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The claim value.</source>
+          <target state="translated">A jogcím értéke.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Gets the value type of the claim.</source>
+          <target state="translated">Lekérdezi a jogcím az érték típusa.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ValueType property contains a string that identifies the type information of the value.</source>
+          <target state="translated">A ValueType tulajdonsága karakterlánc, amely azonosítja a típussal kapcsolatos információk, az érték tartalmazza.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property can be used to understand the format of the value and to provide information about how to serialize and deserialize the value.</source>
+          <target state="translated">Ez a tulajdonság tudni, hogy az érték formátuma és szerializálása és deszerializálása értéke kapcsolatos információk megadására használható.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your solution requires complex value types, it is recommended that you use standard XML schema types in the ValueType property to indicate how the &lt;xref:System.Security.Claims.Claim.Value%2A&gt; property is meant to be serialized and deserialized from a string.</source>
+          <target state="translated">Ha a megoldás összetett típust igényel, javasolt használt XML-séma alaptípusok ValueType tulajdonságában jelzi az &lt;xref:System.Security.Claims.Claim.Value%2A&gt;tulajdonság az célja, hogy a szerializált és deszerializálni a karakterlánc.&lt;/xref:System.Security.Claims.Claim.Value%2A&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The claim value type.</source>
+          <target state="translated">A jogcím értékének típusa.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Writes this <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the writer.</source>
+          <target state="translated">Ez ír <bpt id="p1">&lt;xref href="System.Security.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az író.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The writer to write this claim</source>
+          <target state="translated">Az író ezt az igényt írása</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The user data to claim</source>
+          <target state="translated">A jogcím-a felhasználói adatok</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
