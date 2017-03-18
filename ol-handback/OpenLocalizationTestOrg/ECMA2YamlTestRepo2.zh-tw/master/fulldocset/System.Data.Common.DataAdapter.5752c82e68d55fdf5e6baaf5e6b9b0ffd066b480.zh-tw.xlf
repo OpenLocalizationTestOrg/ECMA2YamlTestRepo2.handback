@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8da166a9a74c4582bfebd6a1dcc3ec852ebd872</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Common.DataAdapter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ee82b60c07972bbe007c66ce65324d748344259</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2693b6e2644f1aca065b62309ba9acc8eda7cab</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a set of SQL commands and a database connection that are used to fill the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and update the data source.</source>
+          <target state="translated">代表一組 SQL 命令和資料庫連接，用來填滿<bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>並更新資料來源。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The DataAdapter serves as a bridge between a &lt;xref:System.Data.DataSet&gt; and a data source for retrieving and saving data.</source>
+          <target state="translated">資料配接器做為之間的橋樑&lt;xref:System.Data.DataSet&gt;以及用來擷取並儲存資料的資料來源。&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The DataAdapter provides this bridge by mapping &lt;xref:System.Data.Common.DataAdapter.Fill%2A&gt;, which changes the data in the &lt;xref:System.Data.DataSet&gt; to match the data in the data source, and &lt;xref:System.Data.IDataAdapter.Update%2A&gt;, which changes the data in the data source to match the data in the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">資料配接器藉由對應&lt;xref:System.Data.Common.DataAdapter.Fill%2A&gt;的變更&lt;xref:System.Data.DataSet&gt;以符合資料來源和&lt;xref:System.Data.IDataAdapter.Update%2A&gt;、 變更資料來源，以符合在&lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;資料中的資料&lt;/xref:System.Data.IDataAdapter.Update%2A&gt;中的資料&lt;/xref:System.Data.DataSet&gt;中的資料，&lt;/xref:System.Data.Common.DataAdapter.Fill%2A&gt;提供這個橋接器</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you are connecting to a SQL Server database, you can increase overall performance by using the &lt;xref:System.Data.SqlClient.SqlDataAdapter&gt; along with its associated &lt;xref:System.Data.SqlClient.SqlCommand&gt; and &lt;xref:System.Data.SqlClient.SqlConnection&gt; objects.</source>
+          <target state="translated">如果您要連接到 SQL Server 資料庫，您可以藉由提高整體效能&lt;xref:System.Data.SqlClient.SqlDataAdapter&gt;以及與其相關聯&lt;xref:System.Data.SqlClient.SqlCommand&gt;和&lt;xref:System.Data.SqlClient.SqlConnection&gt;物件。&lt;/xref:System.Data.SqlClient.SqlConnection&gt; &lt;/xref:System.Data.SqlClient.SqlCommand&gt; &lt;/xref:System.Data.SqlClient.SqlDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For OLE DB-supported data sources, use the DataAdapter with its associated &lt;xref:System.Data.OleDb.OleDbCommand&gt; and &lt;xref:System.Data.OleDb.OleDbConnection&gt; objects.</source>
+          <target state="translated">對於 OLE DB 支援的資料來源，使用資料配接器相關聯的&lt;xref:System.Data.OleDb.OleDbCommand&gt;和&lt;xref:System.Data.OleDb.OleDbConnection&gt;物件。&lt;/xref:System.Data.OleDb.OleDbConnection&gt; &lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For ODBC-supported data sources, use the DataAdapter with its associated &lt;xref:System.Data.Odbc.OdbcCommand&gt; and &lt;xref:System.Data.Odbc.OdbcConnection&gt; objects.</source>
+          <target state="translated">ODBC 支援的資料來源使用資料配接器相關聯的&lt;xref:System.Data.Odbc.OdbcCommand&gt;和&lt;xref:System.Data.Odbc.OdbcConnection&gt;物件。&lt;/xref:System.Data.Odbc.OdbcConnection&gt; &lt;/xref:System.Data.Odbc.OdbcCommand&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For Oracle databases, use the DataAdapter with its associated &lt;xref:System.Data.OracleClient.OracleCommand&gt; and &lt;xref:System.Data.OracleClient.OracleConnection&gt; objects.</source>
+          <target state="translated">針對 Oracle 資料庫使用資料配接器相關聯的&lt;xref:System.Data.OracleClient.OracleCommand&gt;和&lt;xref:System.Data.OracleClient.OracleConnection&gt;物件。&lt;/xref:System.Data.OracleClient.OracleConnection&gt; &lt;/xref:System.Data.OracleClient.OracleCommand&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When an instance of DataAdapter is created, the read/write properties are set to initial values.</source>
+          <target state="translated">建立資料配接器的執行個體時，讀取/寫入屬性會設為初始的值。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For a list of these values, see the DataAdapter constructor.</source>
+          <target state="translated">如需這些值的清單，請參閱資料配接器建構函式。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of a <bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When an instance of &lt;xref:System.Data.Common.DataAdapter&gt; is created, the following read/write properties are set to the following initial values.</source>
+          <target state="translated">執行個體時&lt;xref:System.Data.Common.DataAdapter&gt;會建立下列讀取/寫入屬性會設為下列的初始值。&lt;/xref:System.Data.Common.DataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;|<ph id="ph1">`MissingMappingAction.Passthrough`</ph>|   |&lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;|<ph id="ph2">`MissingSchemaAction.Add`</ph>|   |&lt;xref:System.Data.Common.DataAdapter.TableMappings%2A&gt;|An array of &lt;xref:System.Data.Common.DataAdapter.TableMappings%2A&gt; objects.|       You can change the value of any of these properties through a separate call to the property.</source>
+          <target state="translated">|屬性 |初始值 |  |----------------|-------------------|  |&lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;|<ph id="ph1">`MissingMappingAction.Passthrough`</ph>|  |&lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;|<ph id="ph2">`MissingSchemaAction.Add`</ph>|  |&lt;xref:System.Data.Common.DataAdapter.TableMappings%2A&gt;|&lt;xref:System.Data.Common.DataAdapter.TableMappings%2A&gt;物件的陣列。 |      您可以變更任何這些屬性，透過呼叫另一個屬性的值。&lt;/xref:System.Data.Common.DataAdapter.TableMappings%2A&gt; &lt;/xref:System.Data.Common.DataAdapter.TableMappings%2A&gt; &lt;/xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; &lt;/xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of a <bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from an existing object of the same type.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>從現有的物件相同類型的類別。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This overload of the &lt;xref:System.Data.Common.DataAdapter&gt; constructor is designed for use by a .NET Framework data provider when implementing a similar constructor for use in a clone implementation.</source>
+          <target state="translated">這個多載&lt;xref:System.Data.Common.DataAdapter&gt;建構函式適用於.NET Framework 資料提供者實作 clone 實作中使用類似的建構函式時。&lt;/xref:System.Data.Common.DataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to create the new <bpt id="p2">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用來建立新物件<bpt id="p2">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether &lt;xref:System.Data.DataRow.AcceptChanges<bpt id="p1">*</bpt>&gt; is called on a <bpt id="p2">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> after it is added to the <bpt id="p3">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> during any of the <ept id="p1">*</ept><bpt id="p4">*</bpt>Fill<ept id="p4">*</ept>* operations.</source>
+          <target state="translated">取得或設定值，指出是否&lt;&gt; <bpt id="p1">*</bpt>&gt; 上呼叫<bpt id="p2">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>加入至之後<bpt id="p3">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>的任何一個期間<ept id="p1">*</ept><bpt id="p4">*</bpt>填滿<ept id="p4">*</ept>* 作業。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`false`</ph>, &lt;xref:System.Data.DataRow.AcceptChanges%2A&gt; is not called, and the newly added rows are treated as inserted rows.</source>
+          <target state="translated">如果<ph id="ph1">`false`</ph>，&lt;xref:System.Data.DataRow.AcceptChanges%2A&gt;未呼叫 vspackage，以及新加入的資料列視為插入的資料列。&lt;/xref:System.Data.DataRow.AcceptChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.Data.DataRow.AcceptChanges*&gt; is called on the <bpt id="p2">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.Data.DataRow.AcceptChanges*&gt;上呼叫<bpt id="p2">&lt;xref href="System.Data.DataRow"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，否則為<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。&lt;/xref:System.Data.DataRow.AcceptChanges*&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets whether &lt;xref:System.Data.DataRow.AcceptChanges<bpt id="p1">*</bpt>&gt; is called during a &lt;xref:System.Data.Common.DataAdapter.Update<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">取得或設定是否&lt;&gt; <bpt id="p1">*</bpt>&gt; 期間會呼叫&lt;&gt; <ept id="p1">*</ept>&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>During a call to the <ph id="ph1">`Update`</ph> method of a <ph id="ph2">`DataAdapter`</ph>, the database can send data back to your ADO.NET application as output parameters or as the first returned record of a result set.</source>
+          <target state="translated">在呼叫<ph id="ph1">`Update`</ph>方法<ph id="ph2">`DataAdapter`</ph>，資料庫可以傳送資料回 ADO.NET 應用程式做為輸出參數或做為第一個傳回結果集的記錄。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>ADO.NET can retrieve these values and update the corresponding columns in the &lt;xref:System.Data.DataRow&gt; being updated.</source>
+          <target state="translated">ADO.NET 可以擷取這些值，並更新中的對應資料行&lt;xref:System.Data.DataRow&gt;正在更新。&lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>By default, ADO.NET calls the <ph id="ph1">`AcceptChanges`</ph> method of the <ph id="ph2">`DataRow`</ph> after the update.</source>
+          <target state="translated">根據預設，ADO.NET 呼叫<ph id="ph1">`AcceptChanges`</ph>方法<ph id="ph2">`DataRow`</ph>更新之後。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>However, if you want to merge the updated row back into another &lt;xref:System.Data.DataTable&gt;, you may want to preserver the original value of a primary key column.</source>
+          <target state="translated">不過，如果您想要合併更新的資料列放回另一個&lt;xref:System.Data.DataTable&gt;，您可能想要保留主要索引鍵資料行的原始值。&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, a primary key column corresponding to an automatically incrementing column in the database, such as an identity column, can contain new values that are assigned by the database that do not match the original values assigned in the <ph id="ph1">`DataRow`</ph>.</source>
+          <target state="translated">例如，主索引鍵資料行對應至資料庫，例如識別資料行中的自動遞增資料行可以包含新值指派資料庫的不符合中指派的原始值<ph id="ph1">`DataRow`</ph>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>By default, <ph id="ph1">`AcceptChanges`</ph> is called implicitly after an update, and the original values in the row, which may have been &lt;xref:System.Data.DataColumn.AutoIncrement%2A&gt; values assigned by ADO.NET, are lost.</source>
+          <target state="translated">根據預設，<ph id="ph1">`AcceptChanges`</ph>之後更新和原始值的資料列可能已在隱含地呼叫&lt;xref:System.Data.DataColumn.AutoIncrement%2A&gt;ADO.NET 中，所指派的值會遺失。&lt;/xref:System.Data.DataColumn.AutoIncrement%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can preserve the original values in the <ph id="ph1">`DataRow`</ph> by preventing <ph id="ph2">`ADO.NET`</ph> from calling <ph id="ph3">`AcceptChanges`</ph> after it performs an update on a row, by setting the AcceptChangesDuringUpdate property to <ph id="ph4">`false`</ph>, which preserves the original values.</source>
+          <target state="translated">您可以保留中的原始值<ph id="ph1">`DataRow`</ph>藉由防止<ph id="ph2">`ADO.NET`</ph>呼叫<ph id="ph3">`AcceptChanges`</ph>它 AcceptChangesDuringUpdate 屬性設定為執行資料列更新之後<ph id="ph4">`false`</ph>，保留原始值。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Setting the <ph id="ph2">`AcceptChangesDuringUpdate`</ph> property to <ph id="ph3">`false`</ph> applies to all data modifications, not only inserts.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 設定<ph id="ph2">`AcceptChangesDuringUpdate`</ph>屬性<ph id="ph3">`false`</ph>適用於所有資料修改，不只會插入。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If you want to edit or delete rows in the same update, and if you want to suppress the call to <ph id="ph1">`AcceptChanges`</ph> only for inserts, then instead of setting <ph id="ph2">`AccceptChangesDuringUpdate`</ph> to <ph id="ph3">`false`</ph>, use an event handler for the <ph id="ph4">`RowUpdated`</ph> event of the <ph id="ph5">`DataAdapter`</ph>.</source>
+          <target state="translated">如果您想要編輯或刪除資料列，在相同的更新中，而且您想要隱藏呼叫<ph id="ph1">`AcceptChanges`</ph>只會針對插入，則不會設定<ph id="ph2">`AccceptChangesDuringUpdate`</ph>至<ph id="ph3">`false`</ph>，使用的事件處理常式<ph id="ph4">`RowUpdated`</ph>事件<ph id="ph5">`DataAdapter`</ph>。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the event handler you can check the &lt;xref:System.Data.Common.RowUpdatedEventArgs.StatementType%2A&gt; to determine if the data modification is an insert, and if <ph id="ph1">`true`</ph>, set the &lt;xref:System.Data.Common.RowUpdatedEventArgs.Status%2A&gt; property of the &lt;xref:System.Data.Common.RowUpdatedEventArgs&gt; to &lt;xref:System.Data.UpdateStatus&gt;.</source>
+          <target state="translated">在事件處理常式可以檢查&lt;xref:System.Data.Common.RowUpdatedEventArgs.StatementType%2A&gt;可判斷資料的修改是插入、 以及如果<ph id="ph1">`true`</ph>，設定&lt;xref:System.Data.Common.RowUpdatedEventArgs.Status%2A&gt;屬性&lt;xref:System.Data.Common.RowUpdatedEventArgs&gt;至&lt;xref:System.Data.UpdateStatus&gt;。&lt;/xref:System.Data.UpdateStatus&gt; &lt;/xref:System.Data.Common.RowUpdatedEventArgs&gt; &lt;/xref:System.Data.Common.RowUpdatedEventArgs.Status%2A&gt; &lt;/xref:System.Data.Common.RowUpdatedEventArgs.StatementType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information and an example, see <bpt id="p1">[</bpt>Retrieving Identity or Autonumber Values<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊和範例，請參閱<bpt id="p1">[</bpt>擷取識別或自動編號值<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.Data.DataRow.AcceptChanges<bpt id="p2">*</bpt>&gt; is called during an &lt;xref:System.Data.Common.DataAdapter.Update<ept id="p2">*</ept>&gt;; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;&gt; <bpt id="p2">*</bpt>&gt; 期間會呼叫&lt;&gt; <ept id="p2">*</ept>&gt;，否則為<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Creates a copy of this instance of <bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">建立的這個執行個體的複本<bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This method is deprecated.</source>
+          <target state="translated">這個方法已被取代。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Common.DataAdapter.%23ctor%2A&gt; constructor should be used instead of this method.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DataAdapter.%23ctor%2A&gt;應該使用建構函式，而不是此方法。&lt;/xref:System.Data.Common.DataAdapter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>All the commands, the &lt;xref:System.Data.Common.DataAdapter.TableMappings%2A&gt;, the &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;, and the &lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt; are cloned.</source>
+          <target state="translated">所有命令， &lt;xref:System.Data.Common.DataAdapter.TableMappings%2A&gt;、 &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;，而&lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;就會遭到複製。&lt;/xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt; &lt;/xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; &lt;/xref:System.Data.Common.DataAdapter.TableMappings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>However, the connections for the commands are not copied, but shared.</source>
+          <target state="translated">不過，命令的連接不會複製，而共用。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Thus, the cloned &lt;xref:System.Data.Common.DataAdapter&gt; can be used against the same connection as the original.</source>
+          <target state="translated">因此，複製&lt;xref:System.Data.Common.DataAdapter&gt;可針對與原始連線相同。&lt;/xref:System.Data.Common.DataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The cloned instance of <bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">複製的執行個體的<bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that specifies whether to generate an exception when an error is encountered during a row update.</source>
+          <target state="translated">取得或設定值，指定是否要產生例外狀況錯誤時遇到期間更新的資料列。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`ContinueUpdateOnError`</ph> is set to <ph id="ph2">`true`</ph>, no exception is thrown when an error occurs during the update of a row.</source>
+          <target state="translated">如果<ph id="ph1">`ContinueUpdateOnError`</ph>設<ph id="ph2">`true`</ph>，一個資料列更新期間發生錯誤時，會擲回任何例外狀況。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The update of the row is skipped and the error information is placed in the &lt;xref:System.Data.DataRow.RowError%2A&gt; property of the row in error.</source>
+          <target state="translated">已略過資料列的更新和錯誤資訊置於&lt;xref:System.Data.DataRow.RowError%2A&gt;中錯誤的資料列的屬性。&lt;/xref:System.Data.DataRow.RowError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Common.DataAdapter&gt; continues to update subsequent rows.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DataAdapter&gt;繼續更新後續資料列。&lt;/xref:System.Data.Common.DataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`ContinueUpdateOnError`</ph> is set to <ph id="ph2">`false`</ph>, an exception is thrown when an error occurs during the update of a row.</source>
+          <target state="translated">如果<ph id="ph1">`ContinueUpdateOnError`</ph>設<ph id="ph2">`false`</ph>，一個資料列更新期間發生錯誤時，會擲回例外狀況。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to continue the update without generating an exception; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要繼續更新，而不會產生例外狀況;否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Data.Common.DataTableMappingCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">建立新<bpt id="p1">&lt;xref href="System.Data.Common.DataTableMappingCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A new table mapping collection.</source>
+          <target state="translated">新的資料表的對應集合。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">所使用的 unmanaged 的資源釋出<bpt id="p1">&lt;xref href="System.Data.Common.DataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>並選擇性釋放 managed 的資源。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This method is called by the public &lt;xref:System.IDisposable.Dispose%2A&gt; method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">這個方法會呼叫公用&lt;xref:System.IDisposable.Dispose%2A&gt;方法和&lt;xref:System.Object.Finalize%2A&gt;方法。&lt;/xref:System.Object.Finalize%2A&gt; &lt;/xref:System.IDisposable.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose`</ph>叫用受保護<ph id="ph2">`Dispose(Boolean)`</ph>方法<ph id="ph3">`disposing`</ph>參數設定為<ph id="ph4">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;叫用<ph id="ph1">`Dispose`</ph>與<ph id="ph2">`disposing`</ph>設<ph id="ph3">`false`</ph>。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Data.Common.DataAdapter&gt; references.</source>
+          <target state="translated">當<ph id="ph1">`disposing`</ph>參數是<ph id="ph2">`true`</ph>，這個方法的任何 managed 物件所持有的資源全部釋出這個&lt;xref:System.Data.Common.DataAdapter&gt;參考。&lt;/xref:System.Data.Common.DataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose`</ph> method of each referenced object.</source>
+          <target state="translated">這個方法會叫用<ph id="ph1">`Dispose`</ph>每個參考物件的方法。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示釋放 managed 和 unmanaged 資源，<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示只釋放 unmanaged 的資源。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Adds or refreshes rows in the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to match those in the data source.</source>
+          <target state="translated">加入或重新整理中的資料列<bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>以符合資料來源。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The Fill method retrieves rows from the data source using the SELECT statement specified by an associated &lt;xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt; property.</source>
+          <target state="translated">Fill 方法從使用 SELECT 陳述式指定由相關聯的資料來源擷取資料列&lt;xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt;屬性。&lt;/xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The connection object associated with the SELECT statement must be valid, but it does not need to be open.</source>
+          <target state="translated">SELECT 陳述式相關聯的連接物件必須有效，但它不需要開啟。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the connection is closed before Fill is called, it is opened to retrieve data, then closed.</source>
+          <target state="translated">如果連接已關閉，會在呼叫填滿之前，它會開啟擷取資料，然後關閉。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If the connection is open before Fill is called, it remains open.</source>
+          <target state="translated">如果連接為開啟，會在呼叫填滿之前，它會保持開啟。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The Fill operation then adds the rows to destination &lt;xref:System.Data.DataTable&gt; objects in the &lt;xref:System.Data.DataSet&gt;, creating the &lt;xref:System.Data.DataTable&gt; objects if they do not already exist.</source>
+          <target state="translated">填滿作業接著會將資料列加入到目的地&lt;xref:System.Data.DataTable&gt;中的物件&lt;xref:System.Data.DataSet&gt;、 建立&lt;xref:System.Data.DataTable&gt;如果它們尚不存在的物件。&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When creating &lt;xref:System.Data.DataTable&gt; objects, the Fill operation normally creates only column name metadata.</source>
+          <target state="translated">建立時&lt;xref:System.Data.DataTable&gt;物件填入作業通常會建立只有資料行名稱中繼資料。&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>However, if the &lt;xref:System.Data.IDataAdapter.MissingSchemaAction%2A&gt; property is set to <ph id="ph1">`AddWithKey`</ph>, appropriate primary keys and constraints are also created.</source>
+          <target state="translated">不過，如果&lt;xref:System.Data.IDataAdapter.MissingSchemaAction%2A&gt;屬性設定為<ph id="ph1">`AddWithKey`</ph>，也會建立適當的主索引鍵和條件約束。&lt;/xref:System.Data.IDataAdapter.MissingSchemaAction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`SelectCommand`</ph> returns the results of an OUTER JOIN, the <ph id="ph2">`DataAdapter`</ph> does not set a &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt; value for the resulting &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">如果<ph id="ph1">`SelectCommand`</ph>傳回結果的 OUTER JOIN，<ph id="ph2">`DataAdapter`</ph>未設定&lt;xref:System.Data.DataTable.PrimaryKey%2A&gt;值，產生&lt;xref:System.Data.DataTable&gt;。&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable.PrimaryKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You must explicitly define the primary key to ensure that duplicate rows are resolved correctly.</source>
+          <target state="translated">您必須明確定義主索引鍵，以確保正確解析重複的資料列。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Defining Primary Keys<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>定義主索引鍵<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If the data adapter encounters duplicate columns while populating a &lt;xref:System.Data.DataTable&gt;, it generates names for the subsequent columns, using the pattern "columnname1", "columnname2", "columnname3", and so on.</source>
+          <target state="translated">如果資料配接器遇到重複的資料行在填入&lt;xref:System.Data.DataTable&gt;，它會產生名稱，後續的資料行，並使用模式 」 columnname1"、"columnname2"、"columnname3"，等等。&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If the incoming data contains unnamed columns, they are placed in the &lt;xref:System.Data.DataSet&gt; according to the pattern "Column1", "Column2", and so on.</source>
+          <target state="translated">如果內送資料中包含未命名資料行，它們會放置於&lt;xref:System.Data.DataSet&gt;根據模式"Column1"、"Column2"，等等。&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>When multiple result sets are added to the &lt;xref:System.Data.DataSet&gt; each result set is placed in a separate table.</source>
+          <target state="translated">當多個結果集加入至&lt;xref:System.Data.DataSet&gt;放置於個別的資料表中每個結果集。&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Additional result sets are named by appending integral values to the specified table name (for example, "Table", "Table1", "Table2", and so on).</source>
+          <target state="translated">其他結果集的命名方式是附加至指定的資料表名稱 （例如，"Table"、"Table1"、"Table2"等等） 的整數值。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Applications using column and table names should ensure that conflicts with these naming patterns does not occur.</source>
+          <target state="translated">使用資料行和資料表名稱的應用程式應確保這些命名模式衝突不會發生。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When the SELECT statement used to populate the &lt;xref:System.Data.DataSet&gt; returns multiple results, such as a batch SQL statements, if one of the results contains an error, all subsequent results are skipped and not added to the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">當 SELECT 陳述式用來填入&lt;xref:System.Data.DataSet&gt;傳回多個結果，例如批次 SQL 陳述式中，如果其中一個結果包含錯誤，所有後續的結果會略過，不會加入至&lt;xref:System.Data.DataSet&gt;。&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can use the Fill method multiple times on the same &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">您可以使用的填滿方法多次於相同&lt;xref:System.Data.DataTable&gt;。&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If a primary key exists, incoming rows are merged with matching rows that already exist.</source>
+          <target state="translated">如果主索引鍵存在，內送資料列會合併具有相符的資料列已經存在。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If no primary key exists, incoming rows are appended to the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">如果沒有主索引鍵存在，內送資料列會附加至&lt;xref:System.Data.DataTable&gt;。&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When handling batch SQL statements that return multiple results, the implementation of &lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt; for the .NET Framework Data Provider for OLE DB retrieves schema information for only the first result.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 時處理批次 SQL 陳述式會傳回多個結果，實作&lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;的.NET Framework Data Provider for OLE DB 擷取結構描述資訊，只有第一個結果。&lt;/xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To retrieve schema information for multiple results, use &lt;xref:System.Data.Common.DbDataAdapter.Fill%2A&gt; with the &lt;xref:System.Data.MissingSchemaAction&gt; set to <ph id="ph1">`AddWithKey`</ph>.</source>
+          <target state="translated">若要擷取多個結果的結構描述資訊，請使用&lt;xref:System.Data.Common.DbDataAdapter.Fill%2A&gt;與&lt;xref:System.Data.MissingSchemaAction&gt;設<ph id="ph1">`AddWithKey`</ph>。&lt;/xref:System.Data.MissingSchemaAction&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Fill%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to fill with records and, if necessary, schema.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>填滿記錄，如有必要，結構描述。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The number of rows successfully added to or refreshed in the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">資料列數目已成功加入，或在中重新整理<bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This does not include rows affected by statements that do not return rows.</source>
+          <target state="translated">這不包括不傳回資料列的陳述式所影響的資料列。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Adds or refreshes rows in the <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to match those in the data source using the <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> name and the specified <bpt id="p3">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">加入或重新整理中的資料列<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>以符合資料來源使用<bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>名稱，而指定<bpt id="p3">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>See the remarks for <ph id="ph1">`System.Data.Common.DataAdapter.Fill(System.Data.DataSet)`</ph> for additional information.</source>
+          <target state="translated">請參閱備註<ph id="ph1">`System.Data.Common.DataAdapter.Fill(System.Data.DataSet)`</ph>如需詳細資訊。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to fill with records.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>填滿記錄。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">執行個體<bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The number of rows successfully added to or refreshed in the <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">資料列數目已成功加入，或在中重新整理<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This does not include rows affected by statements that do not return rows.</source>
+          <target state="translated">這不包括不傳回資料列的陳述式所影響的資料列。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Adds or refreshes rows in a specified range in the collection of <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects to match those in the data source.</source>
+          <target state="translated">加入或重新整理的集合中的指定範圍中的資料列<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>以符合資料來源中的物件。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>See the remarks for <ph id="ph1">`System.Data.Common.DataAdapter.Fill(System.Data.DataSet)`</ph> for additional information.</source>
+          <target state="translated">請參閱備註<ph id="ph1">`System.Data.Common.DataAdapter.Fill(System.Data.DataSet)`</ph>如需詳細資訊。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects to fill with records.</source>
+          <target state="translated">集合<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>填滿記錄物件。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">執行個體<bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The zero-based index of the starting record.</source>
+          <target state="translated">起始記錄的以零為起始的索引。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>An integer indicating the maximum number of records.</source>
+          <target state="translated">表示最大記錄數目的整數。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The number of rows successfully added to or refreshed in the <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">資料列數目已成功加入，或在中重新整理<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This does not include rows affected by statements that do not return rows.</source>
+          <target state="translated">這不包括不傳回資料列的陳述式所影響的資料列。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Adds or refreshes rows in a specified range in the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to match those in the data source using the <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and <bpt id="p3">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> names.</source>
+          <target state="translated">加入或重新整理指定範圍中的資料列<bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>以符合資料來源使用<bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>和<bpt id="p3">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>名稱。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>See the remarks for <ph id="ph1">`System.Data.Common.DataAdapter.Fill(System.Data.DataSet)`</ph> for additional information.</source>
+          <target state="translated">請參閱備註<ph id="ph1">`System.Data.Common.DataAdapter.Fill(System.Data.DataSet)`</ph>如需詳細資訊。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to fill with records.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>填滿記錄。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A string indicating the name of the source table.</source>
+          <target state="translated">字串，表示來源資料表的名稱。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">執行個體<bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The zero-based index of the starting record.</source>
+          <target state="translated">起始記錄的以零為起始的索引。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An integer indicating the maximum number of records.</source>
+          <target state="translated">表示最大記錄數目的整數。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The number of rows successfully added to or refreshed in the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">資料列數目已成功加入，或在中重新整理<bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This does not include rows affected by statements that do not return rows.</source>
+          <target state="translated">這不包括不傳回資料列的陳述式所影響的資料列。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Returned when an error occurs during a fill operation.</source>
+          <target state="translated">填滿作業期間發生錯誤時傳回。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>FillError<ept id="p1">**</ept> event allows a user to determine whether or not the fill operation should continue after the error occurs.</source>
+          <target state="translated"><bpt id="p1">**</bpt>FillError<ept id="p1">**</ept>事件可讓使用者決定是否填滿作業應該繼續之後就會發生錯誤。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Examples of when the <bpt id="p1">**</bpt>FillError<ept id="p1">**</ept> event might occur are:      -   The data being added to a <ph id="ph1">`DataSet`</ph> cannot be converted to a common language runtime type without losing precision.</source>
+          <target state="translated">範例<bpt id="p1">**</bpt>FillError<ept id="p1">**</ept>事件可能是:-正在加入的資料<ph id="ph1">`DataSet`</ph>無法轉換成 common language runtime 類型，而不會遺失有效位數。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>-   The row being added contains data that violates a Constraint that must be enforced on a <ph id="ph1">`DataColumn`</ph> in the <ph id="ph2">`DataSet`</ph>.</source>
+          <target state="translated">-正在加入的資料列包含違反條件約束必須強制執行上的資料<ph id="ph1">`DataColumn`</ph>中<ph id="ph2">`DataSet`</ph>。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.LoadOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that determines how the adapter fills the <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> from the <bpt id="p3">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得或設定<bpt id="p1">&lt;xref href="System.Data.LoadOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，決定配接器的填滿<bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>從<bpt id="p3">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.LoadOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.LoadOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and configures the schema to match that in the data source based on the specified <bpt id="p3">&lt;xref href="System.Data.SchemaType"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新增<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定<bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>並設定基礎結構描述要比對資料來源中指定<bpt id="p3">&lt;xref href="System.Data.SchemaType"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The FillSchema method retrieves the schema from the data source using the &lt;xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt;.</source>
+          <target state="translated">FillSchema 方法從資料來源使用&lt;xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt;.&lt;/xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt;擷取結構描述</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The connection object associated with the &lt;xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt; must be valid, but it does not need to be open.</source>
+          <target state="translated">連接物件相關聯&lt;xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt;必須有效，但它不需要開啟。&lt;/xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If the connection is closed before FillSchema is called, it is opened to retrieve data and then closed.</source>
+          <target state="translated">如果連接已關閉 FillSchema 呼叫之前，擷取資料開啟和關閉。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If the connection is open before FillSchema is called, it remains open.</source>
+          <target state="translated">如果連接為開啟，會在呼叫 FillSchema 之前，它會保持開啟。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>A FillSchema operation adds a &lt;xref:System.Data.DataTable&gt; to the destination &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">FillSchema 作業新增&lt;xref:System.Data.DataTable&gt;至目的地&lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>It then adds columns to the &lt;xref:System.Data.DataColumnCollection&gt; of the &lt;xref:System.Data.DataTable&gt;, and configures the following &lt;xref:System.Data.DataColumn&gt; properties if they exist at the data source:      -   &lt;xref:System.Data.DataColumn.AllowDBNull%2A&gt;      -   &lt;xref:System.Data.DataColumn.AutoIncrement%2A&gt;.</source>
+          <target state="translated">接著它會加入至資料行&lt;xref:System.Data.DataColumnCollection&gt;的&lt;xref:System.Data.DataTable&gt;，並設定下列&lt;xref:System.Data.DataColumn&gt;屬性如果存在於資料來源:- &lt;xref:System.Data.DataColumn.AllowDBNull%2A&gt;- &lt;xref:System.Data.DataColumn.AutoIncrement%2A&gt;.&lt;/xref:System.Data.DataColumn.AutoIncrement%2A&gt; &lt;/xref:System.Data.DataColumn.AllowDBNull%2A&gt; &lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataColumnCollection&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You must set &lt;xref:System.Data.DataColumn.AutoIncrementStep%2A&gt; and &lt;xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt; separately.</source>
+          <target state="translated">您必須設定&lt;xref:System.Data.DataColumn.AutoIncrementStep%2A&gt;和&lt;xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt;個別。&lt;/xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt; &lt;/xref:System.Data.DataColumn.AutoIncrementStep%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Data.DataColumn.MaxLength%2A&gt;      -   &lt;xref:System.Data.DataColumn.ReadOnly%2A&gt;      -   &lt;xref:System.Data.DataColumn.Unique%2A&gt;       FillSchema also configures the &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt; and &lt;xref:System.Data.DataTable.Constraints%2A&gt; properties according to the following rules:      -   If one or more primary key columns are returned by the &lt;xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt;, they are used as the primary key columns for the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">- &lt;xref:System.Data.DataColumn.MaxLength%2A&gt;- &lt;xref:System.Data.DataColumn.ReadOnly%2A&gt;- &lt;xref:System.Data.DataColumn.Unique%2A&gt;FillSchema 也會設定&lt;xref:System.Data.DataTable.PrimaryKey%2A&gt;和&lt;xref:System.Data.DataTable.Constraints%2A&gt;屬性根據下列規則:-如果一或多個主索引鍵資料行所傳回的&lt;xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt;，它們會當做&lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;的主索引鍵資料行&lt;/xref:System.Data.IDbDataAdapter.SelectCommand%2A&gt;&lt;/xref:System.Data.DataTable.Constraints%2A&gt;&lt;/xref:System.Data.DataTable.PrimaryKey%2A&gt;&lt;/xref:System.Data.DataColumn.Unique%2A&gt;&lt;/xref:System.Data.DataColumn.ReadOnly%2A&gt;&lt;/xref:System.Data.DataColumn.MaxLength%2A&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>-   If no primary key columns are returned but unique columns are, the unique columns are used as the primary key if, and only if, all the unique columns are nonnullable.</source>
+          <target state="translated">-如果傳回沒有主索引鍵資料行，但是唯一的資料行，唯一的資料行可用的主索引鍵，如果且只有唯一的資料行都不可為 null。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>If any of the columns are nullable, a &lt;xref:System.Data.UniqueConstraint&gt; is added to the &lt;xref:System.Data.ConstraintCollection&gt;, but the &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt; property is not set.</source>
+          <target state="translated">如果任何資料行可為 null，&lt;xref:System.Data.UniqueConstraint&gt;加入至&lt;xref:System.Data.ConstraintCollection&gt;，但&lt;xref:System.Data.DataTable.PrimaryKey%2A&gt;屬性未設定。&lt;/xref:System.Data.DataTable.PrimaryKey%2A&gt; &lt;/xref:System.Data.ConstraintCollection&gt; &lt;/xref:System.Data.UniqueConstraint&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-   If both primary key columns and unique columns are returned, the primary key columns are used as the primary key columns for the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">-如果傳回主要索引鍵資料行，唯一的資料行，主索引鍵資料行作為主索引鍵資料行&lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The underlying data store may allow column attributes that are not supported in a &lt;xref:System.Data.DataColumn&gt;, which causes some column attributes to not translate correctly.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 基礎資料存放區可能會允許不支援的資料行屬性&lt;xref:System.Data.DataColumn&gt;，因而導致不正確轉譯的某些資料行屬性。&lt;/xref:System.Data.DataColumn&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> allows an identity column with a data type of tinyint whereas a &lt;xref:System.Data.DataColumn&gt; only allows Int16, Int32, and Int64 to have the &lt;xref:System.Data.DataColumn.AutoIncrement%2A&gt; property set.</source>
+          <target state="translated">例如，<ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>允許 tinyint 資料類型的識別欄位，而&lt;xref:System.Data.DataColumn&gt;只允許 Int16、 Int32、 以及具有 Int64&lt;xref:System.Data.DataColumn.AutoIncrement%2A&gt;屬性集。&lt;/xref:System.Data.DataColumn.AutoIncrement%2A&gt; &lt;/xref:System.Data.DataColumn&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`FillSchema`</ph> silently ignores cases where the &lt;xref:System.Data.DataColumn&gt; cannot accurately mirror the data source and throws no exception.</source>
+          <target state="translated"><ph id="ph1">`FillSchema`</ph>以無訊息方式略過的情況下其中&lt;xref:System.Data.DataColumn&gt;無法精確地反映資料來源，並擲回任何例外狀況。&lt;/xref:System.Data.DataColumn&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Note that primary keys and unique constraints are added to the &lt;xref:System.Data.ConstraintCollection&gt; according to the preceding rules, but other constraint types are not added.</source>
+          <target state="translated">請注意，會將主索引鍵和唯一條件約束加入至&lt;xref:System.Data.ConstraintCollection&gt;根據前述規則，但其他條件約束類型不會加入。&lt;/xref:System.Data.ConstraintCollection&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If a unique clustered index is defined on a column or columns in a SQL Server table and the primary key constraint is defined on a separate set of columns, then the names of the columns in the clustered index will be returned.</source>
+          <target state="translated">如果唯一叢集索引上的資料行或 SQL Server 資料表中的資料行定義和叢集索引中的資料行的名稱將會傳回一組個別的資料行上定義主索引鍵條件約束。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To return the name or names of the primary key columns, use a query hint with the SELECT statement that specifies the name of the primary key index.</source>
+          <target state="translated">若要傳回的主索引鍵資料行的名稱，使用指定名稱的主索引鍵的 SELECT 陳述式中的查詢提示。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>For more information about specifying query hints, see <bpt id="p1">[</bpt>Query Hint (Transact-SQL)<ept id="p1">](http://msdn.microsoft.com/library/ms181714.aspx)</ept>.</source>
+          <target state="translated">如需有關指定查詢提示的詳細資訊，請參閱<bpt id="p1">[</bpt>查詢提示 (TRANSACT-SQL)<ept id="p1">](http://msdn.microsoft.com/library/ms181714.aspx)</ept>。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Data.Common.DataAdapter&gt; encounters duplicate columns while populating a &lt;xref:System.Data.DataTable&gt;, it generates names for the subsequent columns, using the pattern "<bpt id="p1">*</bpt>columnname<ept id="p1">*</ept>1", "<bpt id="p2">*</bpt>columnname<ept id="p2">*</ept>2", "<bpt id="p3">*</bpt>columnname<ept id="p3">*</ept>3", and so on.</source>
+          <target state="translated">如果&lt;xref:System.Data.Common.DataAdapter&gt;遇到重複的資料行在填入&lt;xref:System.Data.DataTable&gt;，它會產生後續的資料行，並使用模式的名稱"<bpt id="p1">*</bpt>columnname<ept id="p1">*</ept>1"，"<bpt id="p2">*</bpt>columnname<ept id="p2">*</ept>2"，"<bpt id="p3">*</bpt>columnname<ept id="p3">*</ept>3 」，依此類推。&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.Common.DataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>If the incoming data contains unnamed columns, they are placed in the &lt;xref:System.Data.DataSet&gt; according to the pattern "Column1", "Column2", and so on.</source>
+          <target state="translated">如果內送資料中包含未命名資料行，它們會放置於&lt;xref:System.Data.DataSet&gt;根據模式"Column1"、"Column2"，等等。&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>When multiple result sets are added to the &lt;xref:System.Data.DataSet&gt; each result set is placed in a separate table.</source>
+          <target state="translated">當多個結果集加入至&lt;xref:System.Data.DataSet&gt;放置於個別的資料表中每個結果集。&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Additional result sets are named by appending integral values to the specified table name (for example, "Table", "Table1", "Table2", and so on).</source>
+          <target state="translated">其他結果集的命名方式是附加至指定的資料表名稱 （例如，"Table"、"Table1"、"Table2"等等） 的整數值。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Applications using column and table names should ensure that conflicts with these naming patterns does not occur.</source>
+          <target state="translated">使用資料行和資料表名稱的應用程式應確保這些命名模式衝突不會發生。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>FillSchema does not return any rows.</source>
+          <target state="translated">FillSchema 不傳回任何資料列。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Data.Common.DataAdapter.Fill%2A&gt; method to add rows to a &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Data.Common.DataAdapter.Fill%2A&gt;要加入資料列至&lt;xref:System.Data.DataTable&gt;。&lt;/xref:System.Data.DataTable&gt;方法&lt;/xref:System.Data.Common.DataAdapter.Fill%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When handling batch SQL statements that return multiple results, the implementation of &lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt; for the .NET Framework Data Provider for OLE DB retrieves schema information for only the first result.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 時處理批次 SQL 陳述式會傳回多個結果，實作&lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;的.NET Framework Data Provider for OLE DB 擷取結構描述資訊，只有第一個結果。&lt;/xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>To retrieve schema information for multiple results, use &lt;xref:System.Data.Common.DbDataAdapter.Fill%2A&gt; with the &lt;xref:System.Data.MissingSchemaAction&gt; set to <ph id="ph1">`AddWithKey`</ph>.</source>
+          <target state="translated">若要擷取多個結果的結構描述資訊，請使用&lt;xref:System.Data.Common.DbDataAdapter.Fill%2A&gt;與&lt;xref:System.Data.MissingSchemaAction&gt;設<ph id="ph1">`AddWithKey`</ph>。&lt;/xref:System.Data.MissingSchemaAction&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Fill%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be filled with the schema from the data source.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>来填入資料來源的結構描述。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.SchemaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Data.SchemaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains schema information returned from the data source.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>從資料來源傳回的物件，其中包含結構描述資訊。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新增<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定<bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be filled from the <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要填滿從<bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.SchemaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Data.SchemaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be used as the data source when filling the <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>填滿時，做為資料來源使用<bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains schema information returned from the data source.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>從資料來源傳回的物件，其中包含結構描述資訊。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新增<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定<bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be filled from the <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要填滿從<bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.SchemaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Data.SchemaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The name of the source table to use for table mapping.</source>
+          <target state="translated">要用於資料表對應的來源資料表的名稱。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be used as the data source when filling the <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>填滿時，做為資料來源使用<bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>A reference to a collection of <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that were added to the <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">集合的參考<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件新增至<bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Gets the parameters set by the user when executing an SQL SELECT statement.</source>
+          <target state="translated">取得執行的 SQL SELECT 陳述式時，使用者所設定的參數。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Data.IDataParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that contains the parameters set by the user.</source>
+          <target state="translated">陣列<bpt id="p1">&lt;xref href="System.Data.IDataParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用者設定物件，包含的參數。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Indicates whether a <bpt id="p1">&lt;xref href="System.Data.Common.DataTableMappingCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been created.</source>
+          <target state="translated">指出是否<bpt id="p1">&lt;xref href="System.Data.Common.DataTableMappingCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>已建立。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref href="System.Data.Common.DataTableMappingCollection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has been created; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Data.Common.DataTableMappingCollection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已建立; 否則為<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Determines the action to take when incoming data does not have a matching table or column.</source>
+          <target state="translated">決定內送資料並沒有相符的資料表或資料行時要採取的動作。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Common.DataAdapter.TableMappings%2A&gt; property provides the master mapping between the returned records and the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DataAdapter.TableMappings%2A&gt;屬性會提供傳回的記錄和&lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;之間的主要對應&lt;/xref:System.Data.Common.DataAdapter.TableMappings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.MissingMappingAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Data.MissingMappingAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Passthrough" name="Passthrough" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_Passthrough" name="Passthrough" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The value set is not one of the <bpt id="p1">&lt;xref href="System.Data.MissingMappingAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">設定的值不是其中一個<bpt id="p1">&lt;xref href="System.Data.MissingMappingAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Determines the action to take when existing <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> schema does not match incoming data.</source>
+          <target state="translated">決定現有時要採取的動作<bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結構描述內送的資料不相符。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.MissingSchemaAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Data.MissingSchemaAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The value set is not one of the <bpt id="p1">&lt;xref href="System.Data.MissingSchemaAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">設定的值不是其中一個<bpt id="p1">&lt;xref href="System.Data.MissingSchemaAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Invoked when an error occurs during a <bpt id="p1">&lt;xref uid="langword_csharp_Fill" name="Fill" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">期間發生錯誤時叫用<bpt id="p1">&lt;xref uid="langword_csharp_Fill" name="Fill" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.FillErrorEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.FillErrorEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Resets &lt;xref:System.Data.Common.DataAdapter.FillLoadOption<bpt id="p1">*</bpt>&gt; to its default state and causes <ph id="ph1">&amp;lt;</ph>xref:System.Data.Common.DataAdapter.Fill%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> to honor &lt;xref:System.Data.Common.DataAdapter.AcceptChangesDuringFill<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">重設&lt;&gt; <bpt id="p1">*</bpt>&gt; 其預設狀態和原因<ph id="ph1">&amp;lt;</ph>xref:System.Data.Common.DataAdapter.Fill%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>遵守&lt;&gt; <ept id="p1">*</ept>&gt;。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Gets or sets whether the <bpt id="p1">&lt;xref uid="langword_csharp_Fill" name="Fill" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method should return provider-specific values or common CLS-compliant values.</source>
+          <target state="translated">取得或設定是否<bpt id="p1">&lt;xref uid="langword_csharp_Fill" name="Fill" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>方法應傳回提供者特定值或符合 CLS 標準的通用值。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">預設值為 <ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref uid="langword_csharp_Fill" name="Fill" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method should return provider-specific values; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> to return common CLS-compliant values.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref uid="langword_csharp_Fill" name="Fill" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>方法應傳回提供者專屬的值，否則為<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>傳回符合 CLS 標準的通用值。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Data.Common.DataAdapter.AcceptChangesDuringFill*&gt; property should be persisted.</source>
+          <target state="translated">決定是否&lt;xref:System.Data.Common.DataAdapter.AcceptChangesDuringFill*&gt;屬性必須永續性。&lt;/xref:System.Data.Common.DataAdapter.AcceptChangesDuringFill*&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Data.Common.DataAdapter.AcceptChangesDuringFill*&gt; property is persisted; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.Data.Common.DataAdapter.AcceptChangesDuringFill*&gt;屬性會保存，否則為<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Data.Common.DataAdapter.AcceptChangesDuringFill*&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Data.Common.DataAdapter.FillLoadOption*&gt; property should be persisted.</source>
+          <target state="translated">決定是否&lt;xref:System.Data.Common.DataAdapter.FillLoadOption*&gt;屬性必須永續性。&lt;/xref:System.Data.Common.DataAdapter.FillLoadOption*&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Data.Common.DataAdapter.FillLoadOption*&gt; property is persisted; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.Data.Common.DataAdapter.FillLoadOption*&gt;屬性會保存，否則為<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Data.Common.DataAdapter.FillLoadOption*&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Determines whether one or more <bpt id="p1">&lt;xref href="System.Data.Common.DataTableMapping"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects exist and they should be persisted.</source>
+          <target state="translated">判斷是否有一個或多個<bpt id="p1">&lt;xref href="System.Data.Common.DataTableMapping"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件存在，而且應該保存。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if one or more <bpt id="p2">&lt;xref href="System.Data.Common.DataTableMapping"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects exist; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果一或多個<bpt id="p2">&lt;xref href="System.Data.Common.DataTableMapping"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>存在的物件; 否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Indicates how a source table is mapped to a dataset table.</source>
+          <target state="translated">表示來源資料表對應至 dataset 資料表的方式。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">這個成員是明確介面成員實作。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DataAdapter&gt; instance is cast to an &lt;xref:System.Data.IDataAdapter&gt; interface.</source>
+          <target state="translated">它可用時，才&lt;xref:System.Data.Common.DataAdapter&gt;執行個體轉換成&lt;xref:System.Data.IDataAdapter&gt;介面。&lt;/xref:System.Data.IDataAdapter&gt; &lt;/xref:System.Data.Common.DataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Fore more information, see &lt;xref:System.Data.IDataAdapter.TableMappings%2A&gt;.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Data.IDataAdapter.TableMappings%2A&gt;.&lt;/xref:System.Data.IDataAdapter.TableMappings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>A collection that provides the master mapping between the returned records and the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">提供傳回的記錄之間的主要對應的集合和<bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The default value is an empty collection.</source>
+          <target state="translated">預設值為空集合。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Gets a collection that provides the master mapping between a source table and a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得集合，其中提供來源資料表之間的主要對應和<bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>When reconciling changes, the &lt;xref:System.Data.Common.DataAdapter&gt; uses the &lt;xref:System.Data.Common.DataTableMappingCollection&gt; collection to associate the column names used by the data source with the column names used by the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">當重新調整變更時，&lt;xref:System.Data.Common.DataAdapter&gt;使用該&lt;xref:System.Data.Common.DataTableMappingCollection&gt;集合相關聯&lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;所使用的資料行名稱的資料來源所使用的資料行名稱&lt;/xref:System.Data.Common.DataTableMappingCollection&gt;&lt;/xref:System.Data.Common.DataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A collection that provides the master mapping between the returned records and the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">提供傳回的記錄之間的主要對應的集合和<bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The default value is an empty collection.</source>
+          <target state="translated">預設值為空集合。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Calls the respective INSERT, UPDATE, or DELETE statements for each inserted, updated, or deleted row in the specified <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from a <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> named "Table."</source>
+          <target state="translated">呼叫個別的 INSERT、 UPDATE 或 DELETE 陳述式，針對每個插入、 更新或刪除資料列中指定<bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>從<bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>名為"Table"。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The update is performed on a by-row basis.</source>
+          <target state="translated">執行更新時，為基礎的資料列。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>For every inserted, modified, and deleted row, the Update method determines the type of change that has been performed on it (Insert, Update or Delete).</source>
+          <target state="translated">每個插入、 修改和刪除資料列，更新方法會判斷已在其上執行變更的類型 （插入、 更新或刪除）。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Depending on the type of change, the <ph id="ph1">`Insert`</ph>, <ph id="ph2">`Update,`</ph> or <ph id="ph3">`Delete`</ph> command template executes to propagate the modified row to the data source.</source>
+          <target state="translated">根據變更的類型<ph id="ph1">`Insert`</ph>，<ph id="ph2">`Update,`</ph>或<ph id="ph3">`Delete`</ph>傳播修改過的資料列至資料來源執行命令範本。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>When an application calls the Update method, the &lt;xref:System.Data.Common.DataAdapter&gt; examines the &lt;xref:System.Data.DataRow.RowState%2A&gt; property, and executes the required INSERT, UPDATE, or DELETE statements iteratively for each row, based on the order of the indexes configured in the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">當應用程式呼叫更新方法時，&lt;xref:System.Data.Common.DataAdapter&gt;檢查&lt;xref:System.Data.DataRow.RowState%2A&gt;屬性，並執行必要的 INSERT、 UPDATE 或 DELETE 陳述式，反覆地針對每個資料列，並根據&lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;中設定的索引順序&lt;/xref:System.Data.DataRow.RowState%2A&gt;&lt;/xref:System.Data.Common.DataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>For example, Update might execute a DELETE statement, followed by an INSERT statement, and then another DELETE statement, due to the ordering of the rows in the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">比方說，更新可能會執行 DELETE 陳述式，後面接著 INSERT 陳述式和另一個的 DELETE 陳述式，因為&lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;中的資料列的順序</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>It should be noted that these statements are not performed as a batch process; each row is updated individually.</source>
+          <target state="translated">請注意這些陳述式不會執行以批次的處理程序。個別更新每個資料列。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>An application can call the &lt;xref:System.Data.DataSet.GetChanges%2A&gt; method in situations where you must control the sequence of statement types (for example, INSERT before UPDATE).</source>
+          <target state="translated">應用程式可以呼叫&lt;xref:System.Data.DataSet.GetChanges%2A&gt;情況下，您必須在其中控制陳述式型別序列中的方法 （例如，更新之前插入）。&lt;/xref:System.Data.DataSet.GetChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Updating Data Sources with DataAdapters<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>以 Dataadapter 更新資料來源<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>If INSERT, UPDATE, or DELETE statements have not been specified, the Update method generates an exception.</source>
+          <target state="translated">如果 INSERT、 UPDATE 或 DELETE 陳述式未指定，更新方法會產生例外狀況。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>However, you can create a &lt;xref:System.Data.SqlClient.SqlCommandBuilder&gt; or &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt; object to automatically generate SQL statements for single-table updates if you set the <ph id="ph1">`SelectCommand`</ph> property of a .NET Framework data provider.</source>
+          <target state="translated">不過，您可以建立&lt;xref:System.Data.SqlClient.SqlCommandBuilder&gt;或&lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;物件來自動產生的單一資料表更新 SQL 陳述式，如果您設定<ph id="ph1">`SelectCommand`</ph>.NET Framework 資料提供者的屬性。&lt;/xref:System.Data.OleDb.OleDbCommandBuilder&gt; &lt;/xref:System.Data.SqlClient.SqlCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Then, any additional SQL statements that you do not set are generated by the <bpt id="p1">**</bpt>CommandBuilder<ept id="p1">**</ept>.</source>
+          <target state="translated">然後，您未設定任何其他 SQL 陳述式由產生<bpt id="p1">**</bpt>CommandBuilder<ept id="p1">**</ept>。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>This generation logic requires key column information to be present in the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">此產生邏輯需要存在於&lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;的索引鍵資料行資訊</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>For more information see <bpt id="p1">[</bpt>Generating Commands with CommandBuilders<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>Commandbuilder 產生命令<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The Update method retrieves rows from the table listed in the first mapping before performing an update.</source>
+          <target state="translated">Update 方法之前執行更新的第一個對應中所列的資料表中擷取資料列。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The Update then refreshes the row using the value of the &lt;xref:System.Data.IDbCommand.UpdatedRowSource%2A&gt; property.</source>
+          <target state="translated">更新會再重新整理使用的值的資料列&lt;xref:System.Data.IDbCommand.UpdatedRowSource%2A&gt;屬性。&lt;/xref:System.Data.IDbCommand.UpdatedRowSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Any additional rows returned are ignored.</source>
+          <target state="translated">傳回的任何其他資料列都會被忽略。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>After any data is loaded back into the &lt;xref:System.Data.DataSet&gt;, the &lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt; event is raised, allowing the user to inspect the reconciled &lt;xref:System.Data.DataSet&gt; row and any output parameters returned by the command.</source>
+          <target state="translated">任何資料會載入回後&lt;xref:System.Data.DataSet&gt;、&lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt;引發事件，讓使用者檢查調解&lt;xref:System.Data.DataSet&gt;資料列和任何輸出命令所傳回的參數。&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>After a row updates successfully, the changes to that row are accepted.</source>
+          <target state="translated">已成功更新資料列之後，會接受該資料列所做的變更。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>When using Update, the order of execution is as follows:      1.</source>
+          <target state="translated">使用 Update，執行的順序時，如下所示︰ 1。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The values in the &lt;xref:System.Data.DataRow&gt; are moved to the parameter values.</source>
+          <target state="translated">中的值&lt;xref:System.Data.DataRow&gt;移到參數值。&lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdating%2A&gt; event is raised.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdating%2A&gt;就會引發事件。&lt;/xref:System.Data.Common.DbDataAdapter.OnRowUpdating%2A&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The command executes.</source>
+          <target state="translated">執行命令。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>If the command is set to <ph id="ph1">`FirstReturnedRecord`</ph>, then the first returned result is placed in the &lt;xref:System.Data.DataRow&gt;.</source>
+          <target state="translated">如果命令設定為<ph id="ph1">`FirstReturnedRecord`</ph>，則第一個傳回結果會放在&lt;xref:System.Data.DataRow&gt;.&lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>If there are output parameters, they are placed in the &lt;xref:System.Data.DataRow&gt;.</source>
+          <target state="translated">如果沒有輸出參數，它們會放置於&lt;xref:System.Data.DataRow&gt;.&lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>6.</source>
+          <target state="translated">6.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt; event is raised.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt;就會引發事件。&lt;/xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>7.</source>
+          <target state="translated">7.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.DataRow.AcceptChanges%2A?displayProperty=fullName&gt; is called.</source>
+          <target state="translated">&lt;xref:System.Data.DataRow.AcceptChanges%2A?displayProperty=fullName&gt;會呼叫。&lt;/xref:System.Data.DataRow.AcceptChanges%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>This will raise both the &lt;xref:System.Data.DataTable.RowChanging?displayProperty=fullName&gt; and &lt;xref:System.Data.DataTable.RowChanged?displayProperty=fullName&gt; events for the updated &lt;xref:System.Data.DataRow&gt;.</source>
+          <target state="translated">這會引發兩個的&lt;xref:System.Data.DataTable.RowChanging?displayProperty=fullName&gt;和&lt;xref:System.Data.DataTable.RowChanged?displayProperty=fullName&gt;更新&lt;xref:System.Data.DataRow&gt;。&lt;/xref:System.Data.DataRow&gt;事件&lt;/xref:System.Data.DataTable.RowChanged?displayProperty=fullName&gt;&lt;/xref:System.Data.DataTable.RowChanging?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Each command associated with the &lt;xref:System.Data.Common.DataAdapter&gt; usually has a parameters collection associated with it.</source>
+          <target state="translated">關聯&lt;xref:System.Data.Common.DataAdapter&gt;通常會有與其相關聯的參數集合&lt;/xref:System.Data.Common.DataAdapter&gt;的每個命令</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Parameters are mapped to the current row through the <ph id="ph1">`SourceColumn`</ph> and <ph id="ph2">`SourceVersion`</ph> properties of a.NET data provider's <ph id="ph3">`Parameter`</ph> class.</source>
+          <target state="translated">參數對應到目前的資料列，透過<ph id="ph1">`SourceColumn`</ph>和<ph id="ph2">`SourceVersion`</ph>的.net 資料提供者的屬性<ph id="ph3">`Parameter`</ph>類別。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`SourceColumn`</ph> refers to a &lt;xref:System.Data.DataTable&gt; column that the &lt;xref:System.Data.Common.DataAdapter&gt; references to obtain parameter values for the current row.</source>
+          <target state="translated"><ph id="ph1">`SourceColumn`</ph>是指&lt;xref:System.Data.DataTable&gt;資料行，&lt;xref:System.Data.Common.DataAdapter&gt;以取得目前資料列的參數值的參考。&lt;/xref:System.Data.Common.DataAdapter&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`SourceColumn`</ph> refers to the unmapped column name before any table mappings have been applied.</source>
+          <target state="translated"><ph id="ph1">`SourceColumn`</ph>在套用任何資料表對應之前，是指未對應的資料行名稱。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`SourceColumn`</ph> refers to a nonexistent column, the action taken depends on one of the following &lt;xref:System.Data.MissingMappingAction&gt; values.</source>
+          <target state="translated">如果<ph id="ph1">`SourceColumn`</ph>參考到不存在的資料行中，所採取的動作取決於下列其中一種&lt;xref:System.Data.MissingMappingAction&gt;值。&lt;/xref:System.Data.MissingMappingAction&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>|Enumeration value|Action taken|   |-----------------------|------------------|   |<ph id="ph1">`MissingMappingAction.Passthrough`</ph>|Use the source column names and table names in the &lt;xref:System.Data.DataSet&gt; if no mapping is present.|   |<ph id="ph2">`MissingMappingAction.Ignore`</ph>|A &lt;xref:System.SystemException&gt; is generated.</source>
+          <target state="translated">|列舉值 |採取動作 |  |-----------------------|------------------|  |<ph id="ph1">`MissingMappingAction.Passthrough`</ph>|來源資料行名稱和資料表名稱使用&lt;xref:System.Data.DataSet&gt;中，如果不不存在任何對應。 |  |<ph id="ph2">`MissingMappingAction.Ignore`</ph>|A&lt;xref:System.SystemException&gt;產生。&lt;/xref:System.SystemException&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>When the mappings are explicitly set, a missing mapping for an input parameter is usually the result of an error.|   |<ph id="ph1">`MissingMappingAction.Error`</ph>|A &lt;xref:System.SystemException&gt; is generated.|       The <ph id="ph2">`SourceColumn`</ph> property is also used to map the value for output or input/output parameters back to the <ph id="ph3">`DataSet`</ph>.</source>
+          <target state="translated">對應會明確設定時，遺失對應的輸入的參數通常錯誤的結果。 |  |<ph id="ph1">`MissingMappingAction.Error`</ph>|產生&lt;xref:System.SystemException&gt;。 |      <ph id="ph2">`SourceColumn`</ph>屬性也用來對應輸出的值，或輸入/輸出參數回<ph id="ph3">`DataSet`</ph>。&lt;/xref:System.SystemException&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>An exception is generated if it refers to a nonexistent column.</source>
+          <target state="translated">如果它是指不存在的資料行，會產生例外狀況。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`SourceVersion`</ph> property of a .NET data provider's <ph id="ph2">`Parameter`</ph> class determines whether to use the Original, Current, or Proposed version of the column value.</source>
+          <target state="translated"><ph id="ph1">`SourceVersion`</ph> .NET 資料提供者的屬性<ph id="ph2">`Parameter`</ph>類別會決定是否要使用的資料行值的原始、 Current 或 Proposed 版本。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>This capability is often used to include original values in the WHERE clause of an UPDATE statement to check for optimistic concurrency violations.</source>
+          <target state="translated">這項功能通常用於在 UPDATE 陳述式來檢查有開放式同步存取違規的 WHERE 子句中包含原始值。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Calling the &lt;xref:System.Data.DataSet.AcceptChanges%2A&gt; method or &lt;xref:System.Data.DataTable.AcceptChanges%2A&gt; method will commit all changes in the &lt;xref:System.Data.DataSet&gt; or &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">呼叫&lt;xref:System.Data.DataSet.AcceptChanges%2A&gt;方法&lt;xref:System.Data.DataTable.AcceptChanges%2A&gt;將會認可所有變更&lt;xref:System.Data.DataSet&gt;或&lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTable.AcceptChanges%2A&gt; &lt;/xref:System.Data.DataSet.AcceptChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>If either of these methods are called before the &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt; method is called, no changes will be committed when the &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt; method is called, unless further changes have been made since &lt;xref:System.Data.DataSet.AcceptChanges%2A&gt; or &lt;xref:System.Data.DataTable.AcceptChanges%2A&gt; was called.</source>
+          <target state="translated">如果其中一種方法呼叫之前&lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;呼叫方法時，不會認可變更時&lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;呼叫方法時，除非後進行進一步變更&lt;xref:System.Data.DataSet.AcceptChanges%2A&gt;或&lt;xref:System.Data.DataTable.AcceptChanges%2A&gt;呼叫。&lt;/xref:System.Data.DataTable.AcceptChanges%2A&gt; &lt;/xref:System.Data.DataSet.AcceptChanges%2A&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If an error occurs while updating a row, an exception is thrown and execution of the update is discontinued.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果更新的資料列時發生錯誤，擲回例外狀況和已停止執行更新。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>To continue the update operation without generating exceptions when an error is encountered, set the &lt;xref:System.Data.Common.DataAdapter.ContinueUpdateOnError%2A&gt; property to <ph id="ph1">`true`</ph> before calling &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;.</source>
+          <target state="translated">若要繼續更新作業，而不會產生例外狀況，當發生錯誤時，設定&lt;xref:System.Data.Common.DataAdapter.ContinueUpdateOnError%2A&gt;屬性<ph id="ph1">`true`</ph>之前呼叫&lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;.&lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt; &lt;/xref:System.Data.Common.DataAdapter.ContinueUpdateOnError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>You may also respond to errors on a per-row basis within the <ph id="ph1">`RowUpdated`</ph> event of a DataAdapter.</source>
+          <target state="translated">您可能也會回應內的每個資料列基礎上的錯誤<ph id="ph1">`RowUpdated`</ph>DataAdapter 的事件。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>To continue the update operation without generating an exception within the <ph id="ph1">`RowUpdated`</ph> event, set the &lt;xref:System.Data.Common.RowUpdatedEventArgs.Status%2A&gt; property of the &lt;xref:System.Data.Common.RowUpdatedEventArgs&gt; to &lt;xref:System.Data.UpdateStatus&gt;.</source>
+          <target state="translated">若要繼續更新作業，而不會產生例外狀況中的<ph id="ph1">`RowUpdated`</ph>事件時，設定&lt;xref:System.Data.Common.RowUpdatedEventArgs.Status%2A&gt;&lt;xref:System.Data.Common.RowUpdatedEventArgs&gt;至&lt;xref:System.Data.UpdateStatus&gt;。&lt;/xref:System.Data.UpdateStatus&gt;&lt;/xref:System.Data.Common.RowUpdatedEventArgs&gt;屬性&lt;/xref:System.Data.Common.RowUpdatedEventArgs.Status%2A&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  For every column that you propagate to the data source onUpdate, a parameter should be added to the <ph id="ph1">`InsertCommand`</ph>, <ph id="ph2">`UpdateCommand`</ph>, or <ph id="ph3">`DeleteCommand`</ph>.</source>
+          <target state="translated">&gt;&gt; 每個資料行，您將傳播到資料來源 onUpdate，參數應該加入至<ph id="ph1">`InsertCommand`</ph>， <ph id="ph2">`UpdateCommand`</ph>，或<ph id="ph3">`DeleteCommand`</ph>。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`SourceColumn`</ph> property of the parameter should be set to the name of the column.</source>
+          <target state="translated"><ph id="ph1">`SourceColumn`</ph>參數的屬性應該設定為資料行的名稱。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>This setting indicates that the value of the parameter is not set manually, but is taken from the particular column in the currently processed row.</source>
+          <target state="translated">此設定表示參數的值未以手動方式設定，但會從目前所處理的資料列中的特定資料行中取得。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to update the data source.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用來更新資料來源。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The number of rows successfully updated from the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">已成功從更新的資料列數目<bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The source table is invalid.</source>
+          <target state="translated">無效的來源資料表。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>An attempt to execute an INSERT, UPDATE, or DELETE statement resulted in zero records affected.</source>
+          <target state="translated">嘗試執行的 INSERT、 UPDATE 或 DELETE 陳述式產生零個受影響的記錄。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

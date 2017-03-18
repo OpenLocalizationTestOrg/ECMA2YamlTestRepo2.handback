@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8726a92759c697345e37daf2a6c047e116443cbd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceProcess.ServiceController.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e1f55d6ddab357c6d46a00e1cbe4f84aaf19673</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e908aa01071028bf42f34ded53086d90a1e6aed0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a Windows service and allows you to connect to a running or stopped service, manipulate it, or get information about it.</source>
+          <target state="translated">Windows 서비스를 나타내며 실행 중이거나 중지 된 서비스에 연결, 조작 또는 항목에 대 한 정보를 가져올 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the ServiceController class to connect to and control the behavior of existing services.</source>
+          <target state="translated">연결 하 고 기존 서비스의 동작을 제어 하는 ServiceController 클래스를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of the ServiceController class, you set its properties so it interacts with a specific Windows service.</source>
+          <target state="translated">ServiceController 클래스의 인스턴스를 만들 때 특정 Windows 서비스와 상호 작용 하도록 속성을 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then use the class to start, stop, and otherwise manipulate the service.</source>
+          <target state="translated">그런 다음 시작, 중지, 그렇지 않으면 서비스를 관리 하는 클래스를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will most likely use the ServiceController component in an administrative capacity.</source>
+          <target state="translated">대부분 관리 목적에서 ServiceController 구성 요소를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you could create a Windows or Web application that sends custom commands to a service through the ServiceController instance.</source>
+          <target state="translated">예를 들어 ServiceController 인스턴스를 통해 서비스에 사용자 지정 명령을 보냅니다 하는 Windows 또는 웹 응용 프로그램을 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This would be useful, because the Service Control Manager (SCM) Microsoft Management Console snap-in does not support custom commands.</source>
+          <target state="translated">서비스 제어 관리자 (SCM) Microsoft Management Console 스냅인을 사용 하는 사용자 지정 명령의 지원 하지 않으므로 유용 하 게 것.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you create an instance of ServiceController, you must set two properties on it to identify the service with which it interacts: the computer name and the name of the service you want to control.</source>
+          <target state="translated">작용할 서비스를 식별 하는 데 두 개의 속성을 설정 해야 ServiceController의 인스턴스를 만든 후: 컴퓨터 이름 및 제어 하려는 서비스의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  By default, &lt;xref:System.ServiceProcess.ServiceController.MachineName%2A&gt; is set to the local computer, so you do not need to change it unless you want to set the instance to point to another computer.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 기본적으로 &lt;xref:System.ServiceProcess.ServiceController.MachineName%2A&gt;로컬 컴퓨터로 설정 되어 있으므로 다른 컴퓨터를 가리키도록 인스턴스 설정 하려는 경우가 아니면 변경할 필요가 없습니다.&lt;/xref:System.ServiceProcess.ServiceController.MachineName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generally, the service author writes code that customizes the action associated with a specific command.</source>
+          <target state="translated">일반적으로 서비스 작성자가 특정 명령과 연결 된 동작을 사용자 지정 코드를 작성 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a service can contain code to respond to an &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt; command.</source>
+          <target state="translated">예를 들어, 서비스에 응답 하는 코드를 포함할 수 있습니다는 &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt;명령입니다.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the custom processing for the &lt;xref:System.ServiceProcess.ServiceController.Pause%2A&gt; task runs before the system pauses the service.</source>
+          <target state="translated">경우에 대 한 사용자 지정 처리는 &lt;xref:System.ServiceProcess.ServiceController.Pause%2A&gt;시스템 서비스가 일시 중지 되기 전에 작업 실행.&lt;/xref:System.ServiceProcess.ServiceController.Pause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of commands a service can process depends on its properties; for example, you can set the &lt;xref:System.ServiceProcess.ServiceController.CanStop%2A&gt; property for a service to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">서비스가 처리할 수 있는 명령 집합이 속성에 따라 다릅니다. 예를 들어, 설정할 수는 &lt;xref:System.ServiceProcess.ServiceController.CanStop%2A&gt;를 서비스에 대 한 속성 <ph id="ph1">`false`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.CanStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This setting renders the <ph id="ph1">`Stop`</ph> command unavailable on that particular service; it prevents you from stopping the service from the SCM by disabling the necessary button.</source>
+          <target state="translated">이 설정은 렌더링는 <ph id="ph1">`Stop`</ph> 해당 서비스에서 사용할 수 없는 명령;에 필요한 단추를 사용 하지 않도록 설정 하 여 SCM에서 서비스를 중지 되지 않도록 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you try to stop the service from your code, the system raises an error and displays the error message "Failed to stop <ph id="ph1">`servicename`</ph>."</source>
+          <target state="translated">사용자 코드에서 서비스를 중지 하려고 하면 시스템에서 오류가 발생 하 고 오류 메시지를 표시 "를 중지 하지 못했습니다 <ph id="ph1">`servicename`</ph>."</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is not associated with a specific service.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 특정 서비스와 연결 되지 않은 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is associated with an existing service on the local computer.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 로컬 컴퓨터에 기존 서비스와 연결 된 클래스를 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service to the system.</source>
+          <target state="translated">시스템에 서비스를 식별 하는 이름입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This can also be the display name for the service.</source>
+          <target state="translated">서비스에 대 한 표시 이름을 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>잘못 되었습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is associated with an existing service on the specified computer.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정된 된 컴퓨터에서 기존 서비스와 연결 된 클래스를 합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the <ph id="ph1">`machineName`</ph> parameter, you can use "." to represent the local computer.</source>
+          <target state="translated">에 대 한는 <ph id="ph1">`machineName`</ph> 사용할 수 있습니다 매개 변수를 "." 로컬 컴퓨터를 나타낼 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service to the system.</source>
+          <target state="translated">시스템에 서비스를 식별 하는 이름입니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This can also be the display name for the service.</source>
+          <target state="translated">서비스에 대 한 표시 이름을 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The computer on which the service resides.</source>
+          <target state="translated">서비스가 상주 하는 컴퓨터입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>잘못 되었습니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;machineName&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated">-또는- <ph id="ph1">&lt;code&gt;machineName&lt;/code&gt;</ph> 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service can be paused and resumed.</source>
+          <target state="translated">서비스를 중지 하거나 시작할 수 있는지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be paused; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>서비스를 일시 중지할 수 있고 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service should be notified when the system is shutting down.</source>
+          <target state="translated">시스템이 종료 될 때 서비스 알림을 받을지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service should be notified when the system is shutting down; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>시스템이 종료 될 때;는 서비스가 알림을 받아야 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service can be stopped after it has started.</source>
+          <target state="translated">시작 된 후 서비스를 중지할 수 있는지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be stopped and the &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt; method called; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>서비스를 중지할 수 있습니다 및 &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt;메서드 호출 되 고, 그러지 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Disconnects this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance from the service and frees all the resources that the instance allocated.</source>
+          <target state="translated">연결을 끊고 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 서비스에서 인스턴스 및 인스턴스가 할당 된 모든 리소스를 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Close releases all the handles associated with the &lt;xref:System.ServiceProcess.ServiceController&gt; instance.</source>
+          <target state="translated">닫기를 해제와 관련 된 모든 핸들의 &lt;xref:System.ServiceProcess.ServiceController&gt;인스턴스.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Continues a service after it has been paused.</source>
+          <target state="translated">일시 중지 된 후에 서비스를 계속 합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call Continue for a service, its status is first changed to <ph id="ph1">`ContinuePending`</ph> and then, when the Continue method returns, it is changed to <ph id="ph2">`Running`</ph>.</source>
+          <target state="translated">계속 하기를 호출 하는 서비스에 대 한 상태가 처음으로 변경 됩니다 <ph id="ph1">`ContinuePending`</ph> 그런 다음 계속 메서드의 반환 값으로 변경 될 및 <ph id="ph2">`Running`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call Continue for the service until the service controller status is <ph id="ph1">`Paused`</ph>.</source>
+          <target state="translated">서비스 컨트롤러 상태가 될 때까지 계속 서비스에 대해 호출할 수 없습니다 <ph id="ph1">`Paused`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the set of services that depends on the service associated with this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">이 연결 된 서비스에 종속 된 서비스의 집합을 가져옵니다 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DependentServices array represents the services that the system stops if your application calls &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for this service.</source>
+          <target state="translated">응용 프로그램에서 호출 하는 경우 시스템을 중지 하는 서비스를 나타내는 DependentServices 배열 &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;이 서비스에 대 한.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances, each of which is associated with a service that depends on this service.</source>
+          <target state="translated">배열을 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 각각이 서비스에 의존 하는 서비스와 연결 된 인스턴스.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets a friendly name for the service.</source>
+          <target state="translated">서비스에 사용할 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the DisplayName to an empty string (""), but setting the property to <ph id="ph1">`null`</ph> throws an exception.</source>
+          <target state="translated">DisplayName을 빈 문자열로 설정할 수 있습니다 (""),이 속성을 설정 하지만 <ph id="ph1">`null`</ph> 예외를 throw 합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The friendly name of the service, which can be used to identify the service.</source>
+          <target state="translated">서비스를 식별 하는 데 사용할 수 있는 서비스의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The DisplayName is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">DisplayName이 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">사용 하는 관리 되지 않는 리소스를 해제는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 관리 되는 리소스를 선택적으로 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph>method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">이 메서드는 public <ph id="ph1">`Dispose()`</ph>메서드 및 &lt;xref:System.Object.Finalize%2A&gt;메서드.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>보호 된 호출 <ph id="ph2">`Dispose(Boolean)`</ph> 메서드는 <ph id="ph3">`disposing`</ph> 매개 변수 설정 <ph id="ph4">`true`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;호출 <ph id="ph1">`Dispose`</ph> 와 <ph id="ph2">`disposing`</ph> 로 설정 <ph id="ph3">`false`</ph>합니다.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ServiceProcess.ServiceController&gt; references.</source>
+          <target state="translated">경우는 <ph id="ph1">`disposing`</ph> 매개 변수가 true 이면이 메서드는 관리 개체가 보유 하는 모든 리소스를 해제 합니다.이 &lt;xref:System.ServiceProcess.ServiceController&gt;참조.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">이 메서드 호출에서 <ph id="ph1">`Dispose()`</ph> 각 참조 된 개체의 메서드.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>관리 되는 관리 되지 않는 리소스만 해제 하려면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 만 관리 되지 않는 리소스를 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Executes a custom command on the service.</source>
+          <target state="translated">서비스에서 사용자 지정 명령을 실행합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call ExecuteCommand, the status of the service does not change.</source>
+          <target state="translated">명령 실행을 호출 하는 경우에 서비스의 상태 변경 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service was started, the status remains <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">서비스가 시작 된 경우 상태가 유지 되 고 <ph id="ph1">`Running`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service was stopped, the status remains <ph id="ph1">`Stopped`</ph>, and so on.</source>
+          <target state="translated">서비스가 중지 된 상태가 유지 되 고 <ph id="ph1">`Stopped`</ph>등입니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To process the custom command, the service must override the &lt;xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt; method and provide a handler for the command identified by the <ph id="ph1">`command`</ph> parameter.</source>
+          <target state="translated">사용자 지정 명령, 처리 서비스 재정의 해야 합니다는 &lt;xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt;메서드 변수로 지정 된 명령에 대 한 처리기를 제공 하 고는 <ph id="ph1">`command`</ph> 매개 변수.&lt;/xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An application-defined command flag that indicates which custom command to execute.</source>
+          <target state="translated">실행할 사용자 지정 명령을 나타내는 응용 프로그램 정의 명령 플래그입니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The value must be between 128 and 256, inclusive.</source>
+          <target state="translated">값은 128 및 256의 사이 여야 합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Retrieves the device driver services on the local computer.</source>
+          <target state="translated">로컬 컴퓨터에서 장치 드라이버 서비스를 검색합니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetDevices returns only the device driver services from the local computer.</source>
+          <target state="translated">GetDevices 장치 드라이버 서비스는 로컬 컴퓨터에서 반환합니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve the non-device driver services or services that are not drivers, call the &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; method.</source>
+          <target state="translated">비 장치 드라이버 서비스 또는 드라이버가 아닌 서비스를 검색 하려면는 &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;메서드.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">함께 두 메서드는 컴퓨터에서 모든 서비스에 대 한 액세스를 제공합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a device driver service on the local computer.</source>
+          <target state="translated">형식의 배열 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 에 있는 각 요소는 로컬 컴퓨터에 장치 드라이버 서비스와 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Retrieves the device driver services on the specified computer.</source>
+          <target state="translated">지정된 된 컴퓨터에 장치 드라이버 서비스를 검색합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; returns only the device driver services from the specified computer.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;지정된 된 컴퓨터에서 장치 드라이버 서비스를 반환합니다.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve the non-device driver services or services that are not drivers, call the &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; method.</source>
+          <target state="translated">비 장치 드라이버 서비스 또는 드라이버가 아닌 서비스를 검색 하려면는 &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;메서드.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">함께 두 메서드는 컴퓨터에서 모든 서비스에 대 한 액세스를 제공합니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The computer from which to retrieve the device driver services.</source>
+          <target state="translated">장치 드라이버 서비스를 검색할 컴퓨터입니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a device driver service on the specified computer.</source>
+          <target state="translated">형식의 배열 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 에 있는 각 요소는 지정된 된 컴퓨터에서 장치 드라이버 서비스와 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">machineName</ph><ept id="p1">&lt;/code&gt;</ept> parameter has invalid syntax.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">machineName</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수의 구문이 잘못 되었습니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Retrieves all the services on the local computer, except for the device driver services.</source>
+          <target state="translated">장치 드라이버 서비스를 제외 하 고 로컬 컴퓨터에서 모든 서비스를 검색합니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetServices returns only the non-device driver services and the services that are not drivers from the local computer.</source>
+          <target state="translated">GetServices만 비 장치 드라이버 서비스와 서비스는 로컬 컴퓨터에서 드라이버를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve device driver services, call the &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; method.</source>
+          <target state="translated">장치 드라이버 서비스를 검색 하려면는 &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;메서드.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">함께 두 메서드는 컴퓨터에서 모든 서비스에 대 한 액세스를 제공합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a service on the local computer.</source>
+          <target state="translated">형식의 배열 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 에 있는 각 요소는 로컬 컴퓨터에는 서비스와 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Retrieves all the services on the specified computer, except for the device driver services.</source>
+          <target state="translated">장치 드라이버 서비스를 제외 하 고 지정된 된 컴퓨터에서 모든 서비스를 검색합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; returns only the non-device driver services and the services that are not drivers from the specified computer.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;지정 된 컴퓨터에서 드라이버가 아닌 서비스와 비 장치 드라이버 서비스에만 반환 합니다.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve device driver services, call the &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; method.</source>
+          <target state="translated">장치 드라이버 서비스를 검색 하려면는 &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;메서드.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">함께 두 메서드는 컴퓨터에서 모든 서비스에 대 한 액세스를 제공합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The computer from which to retrieve the services.</source>
+          <target state="translated">서비스를 검색할 컴퓨터입니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a service on the specified computer.</source>
+          <target state="translated">형식의 배열 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 에 있는 각 요소는 지정된 된 컴퓨터에는 서비스와 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">machineName</ph><ept id="p1">&lt;/code&gt;</ept> parameter has invalid syntax.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">machineName</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수의 구문이 잘못 되었습니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the computer on which this service resides.</source>
+          <target state="translated">이 서비스가 상주 하는 컴퓨터의 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The computer name is the name of the server that is running this service, without the preceding backslash characters (<ph id="ph1">\\</ph><ph id="ph2">\\</ph>).</source>
+          <target state="translated">컴퓨터 이름 앞에 백슬래시 문자 없이이 서비스를 실행 하는 서버의 이름인 (<ph id="ph1">\\</ph><ph id="ph2">\\</ph>).</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The name of the computer that is running the service associated with this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">이 연결 된 서비스를 실행 하는 컴퓨터의 이름을 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The default is the local computer (".").</source>
+          <target state="translated">기본값은 로컬 컴퓨터 (".").</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The MachineName syntax is invalid.</source>
+          <target state="translated">MachineName 구문이 잘못 되었습니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Suspends a service's operation.</source>
+          <target state="translated">서비스 작업을 일시 중단합니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Continue%2A&gt; for the service until the service controller status is <ph id="ph1">`Paused`</ph>.</source>
+          <target state="translated">호출할 수 없습니다 &lt;xref:System.ServiceProcess.ServiceController.Continue%2A&gt;서비스 컨트롤러 상태는 해당 서비스에 대해 <ph id="ph1">`Paused`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Continue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Refreshes property values by resetting the properties to their current values.</source>
+          <target state="translated">속성의 현재 값을 다시 설정 하 여 속성 값을 새로 고칩니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Refresh method causes the &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;, &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;, and &lt;xref:System.ServiceProcess.ServiceController.Status%2A&gt; properties to be reset to their current values when they are next referenced.</source>
+          <target state="translated">새로 고침 메서드를 사용 하면는 &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;, &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;, 및 &lt;xref:System.ServiceProcess.ServiceController.Status%2A&gt;속성이 다음 참조 될 때 현재 값으로 다시 설정 됩니다.&lt;/xref:System.ServiceProcess.ServiceController.Status%2A&gt; &lt;/xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt; &lt;/xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets the handle for the service.</source>
+          <target state="translated">서비스에 대 한 핸들을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; that contains the handle for the service.</source>
+          <target state="translated">A &lt;xref:System.Runtime.InteropServices.SafeHandle&gt;서비스에 대 한 핸들을 포함 하는.&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name that identifies the service that this instance references.</source>
+          <target state="translated">이 인스턴스가 참조 하는 서비스를 식별 하는 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceName identifies the service to the Service Control Manager.</source>
+          <target state="translated">ServiceName 서비스의 서비스 제어 관리자를 식별합니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing this property causes the &lt;xref:System.ServiceProcess.ServiceController&gt; instance to bind to another service, it does not change what the Service Control Manager's Microsoft Management Console snap-in displays.</source>
+          <target state="translated">이 속성을 변경 하면는 &lt;xref:System.ServiceProcess.ServiceController&gt;다른 서비스에 바인딩하는 변경 되지 않습니다 어떤 서비스 제어 관리자의 Microsoft Management Console 스냅인 표시 인스턴스.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are implementing a custom service, the value of this property must be identical to the name recorded for the service in the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; property of the corresponding &lt;xref:System.ServiceProcess.ServiceInstaller&gt; class.</source>
+          <target state="translated">이 속성의 값이 &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;해당 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;클래스&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; 의 속성&lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; 에 대 한 서비스에 대 한 기록 된 이름과 동일 해야 사용자 지정 서비스를 구현 하는 경우</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In code, the ServiceName is usually set in the <ph id="ph1">`main()`</ph> function of the executable.</source>
+          <target state="translated">코드에서 ServiceName은 일반적으로 설정는 <ph id="ph1">`main()`</ph> 실행 파일의 함수입니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you reset the ServiceName property, the method that sets the property sets this instance's &lt;xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt; to an empty string ("").</source>
+          <target state="translated">ServiceName 속성을 다시 설정 하는 경우 속성을 설정 하는 메서드가이 인스턴스를 설정 하는 &lt;xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt;빈 문자열 ("").&lt;/xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service that this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references.</source>
+          <target state="translated">서비스를 식별 하는 이름이 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스가 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">기본값은 빈 문자열 ("").</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The ServiceName is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">ServiceName은 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The syntax of the ServiceName property is invalid.</source>
+          <target state="translated">ServiceName 속성의 구문이 잘못 되었습니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The set of services that this service depends on.</source>
+          <target state="translated">이 서비스에 종속 하는 서비스의 집합입니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any service in the ServicesDependedOn array is not running, you will not be able to start this service.</source>
+          <target state="translated">ServicesDependedOn 배열에 있는 모든 서비스를 실행 하지 않는 경우이 서비스를 시작할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances, each of which is associated with a service that must be running for this service to run.</source>
+          <target state="translated">배열을 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 각각이 서비스를 실행에 대 한 실행 되어야 하는 서비스와 연결 된 인스턴스.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets the type of service that this object references.</source>
+          <target state="translated">이 개체가 참조 하는 서비스의 유형을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The service type indicates how the service is used by the system.</source>
+          <target state="translated">서비스 유형 시스템에서 서비스 사용 방식을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the ServiceType property represents a set of flags combined using the bitwise OR operator.</source>
+          <target state="translated">ServiceType이 속성의 값의 비트 OR 연산자를 사용 하 여 결합 된 플래그의 집합을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, used to indicate the network service type.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 네트워크 서비스 형식을 나타내는 데 사용 되는 값입니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Starts the service, passing no arguments.</source>
+          <target state="translated">인수를 전달 하는 서비스를 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for the service until the service controller status is <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">호출할 수 없습니다 &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;서비스 컨트롤러 상태는 해당 서비스에 대해 <ph id="ph1">`Running`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Starts a service, passing the specified arguments.</source>
+          <target state="translated">지정된 된 인수를 전달 하면서 서비스를 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for the service until the service controller status is <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">호출할 수 없습니다 &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;서비스 컨트롤러 상태는 해당 서비스에 대해 <ph id="ph1">`Running`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>An array of arguments to pass to the service when it starts.</source>
+          <target state="translated">배열 시작 될 때 서비스에 전달할 인수입니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The service cannot be started.</source>
+          <target state="translated">서비스를 시작할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-or-       A member of the array is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-또는-배열 멤버는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates how the service represented by the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object starts.</source>
+          <target state="translated">서비스에서 표시 하는 방법을 나타내는 값을 가져옵니다는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 시작 개체입니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A value that indicates how the service starts.</source>
+          <target state="translated">서비스 시작 방법을 지정 하는 값입니다.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Gets the status of the service that is referenced by this instance.</source>
+          <target state="translated">이 인스턴스에서 참조 하는 서비스의 상태를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The status indicates the current state of the service.</source>
+          <target state="translated">상태는 서비스의 현재 상태를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of possible values includes several that indicate whether a state-changing command is pending.</source>
+          <target state="translated">가능한 값의 집합 상태 변경 명령이 보류 중인지 여부를 나타내는 몇 개가 포함 되어 있습니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates whether the service is running, stopped, or paused, or whether a start, stop, pause, or continue command is pending.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 서비스가 실행 중지 또는 일시 중지 또는 시작, 중지, 일시 중지, 여부 명령을 계속 보류 중입니다. 되었는지를 나타내는 값입니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Stops this service and any services that are dependent on this service.</source>
+          <target state="translated">이 서비스 및이 서비스에 종속 되는 서비스를 중지 합니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any services depend on this service for their operation, they will be stopped before this service is stopped.</source>
+          <target state="translated">해당 작업에 대 한이 서비스에 종속 된 모든 서비스가이 서비스를 중지 하기 전에 중지 됩니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt; property contains the set of services that depend on this one.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;이 여기에 종속 된 서비스의 집합을 포함 하는 속성.&lt;/xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you stop a service that this service depends on, call the Stop method on this service within the Stop method of the parent service.</source>
+          <target state="translated">이 서비스에 종속 하는 서비스를 중지 하는 경우 부모 서비스의 중지 메서드 내에서이 서비스에서 중지 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt; property contains the services that this service depends on.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;속성이이 서비스에 종속 된 서비스를 포함 합니다.&lt;/xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">시스템 API에 액세스 하는 오류가 발생 했습니다.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">서비스를 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Infinitely waits for the service to reach the specified status.</source>
+          <target state="translated">지정된 된 상태에 도달 하기 위해 서비스에 대 한 무한 대기 합니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use WaitForStatus to suspend an application's processing until the service has reached the required status.</source>
+          <target state="translated">WaitForStatus를 사용 하 여 응용 프로그램의 서비스에 필요한 상태에 도달할 때까지 처리를 일시 중단 합니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; method waits approximately 250 milliseconds between each status check.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;는 &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;메서드 간의 각 상태를 확인 하는 약 250 밀리초를 대기 합니다.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; cannot detect the case of the observed service changing to the <ph id="ph1">`desiredStatus`</ph> and then immediately to another status in that interval.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;관찰 된 서비스를 변경 하는 대/소문자를 검색할 수 없는 <ph id="ph1">`desiredStatus`</ph> 해당 간격에 대 한 다음 다른 상태를 즉시 합니다.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The status to wait for.</source>
+          <target state="translated">에 대 한 대기 상태입니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">desiredStatus</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not any of the values defined in the <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">desiredStatus</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수에서 정의 된 값 중 하나는 <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 열거 합니다.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Waits for the service to reach the specified status or for the specified time-out to expire.</source>
+          <target state="translated">지정된 된 상태에 도달 하는 서비스 또는 지정 된 제한 시간이 만료 될 때까지 대기 합니다.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; to suspend an application's processing until the service has reached the required status.</source>
+          <target state="translated">사용 하 여 &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;서비스가 필요한 상태에 도달한 될 때까지 처리의 응용 프로그램 일시 중단 합니다.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; method waits approximately 250 milliseconds between each status check.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;는 &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;메서드 간의 각 상태를 확인 하는 약 250 밀리초를 대기 합니다.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; cannot detect the case of the observed service changing to the <ph id="ph1">`desiredStatus`</ph> and then immediately to another status in that interval.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;관찰 된 서비스를 변경 하는 대/소문자를 검색할 수 없는 <ph id="ph1">`desiredStatus`</ph> 해당 간격에 대 한 다음 다른 상태를 즉시 합니다.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The status to wait for.</source>
+          <target state="translated">에 대 한 대기 상태입니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; object specifying the amount of time to wait for the service to reach the specified status.</source>
+          <target state="translated">A &lt;xref:System.TimeSpan&gt;서비스가 지정 된 상태에 도달할 때까지 대기 하는 시간을 지정 하는 개체입니다.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">desiredStatus</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not any of the values defined in the <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">desiredStatus</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수에서 정의 된 값 중 하나는 <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 열거 합니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The value specified for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter expires.</source>
+          <target state="translated">에 지정 된 값은 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> 만료 된 매개 변수입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
