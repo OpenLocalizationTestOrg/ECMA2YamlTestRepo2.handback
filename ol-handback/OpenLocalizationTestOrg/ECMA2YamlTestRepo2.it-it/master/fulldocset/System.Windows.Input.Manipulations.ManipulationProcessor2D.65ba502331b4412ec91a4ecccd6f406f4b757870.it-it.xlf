@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18ef70bdf2ab3b0562446ea83bf803187fe1856d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Input.Manipulations.ManipulationProcessor2D.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c50648a73b45f1ab4228c3419d0462734d1dbe3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7f3e8b33bc8c32996b8197c82c9ae5ed624abf4a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements a multiple-input, single-output compositor for two-dimensional (2-D) transformations in a shared coordinate space.</source>
+          <target state="translated">Implementa un filtro compositor più input e un singolo output per le trasformazioni di bidimensionali (2D) in uno spazio di coordinate condiviso.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A ManipulationProcessor2D object treats a collection of manipulators as a composite object.</source>
+          <target state="translated">Un oggetto ManipulationProcessor2D considera una raccolta di manipolatori come un oggetto composito.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your application is then freed from the necessity of tracking and managing individual manipulators.</source>
+          <target state="translated">L'applicazione viene liberata quindi la necessità di monitoraggio e gestione dei singoli manipolatori.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A manipulation processor by itself does not cause an element to move.</source>
+          <target state="translated">Un processore di modifica da sola non causa un elemento da spostare.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your application begins a manipulation as necessary, and then receives information from a manipulation processor by listening to the &lt;xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Started&gt;, &lt;xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Delta&gt; and &lt;xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Completed&gt; events.</source>
+          <target state="translated">L'applicazione avvia una modifica in base alle esigenze e quindi riceve informazioni da un processore di modifica in attesa per il &lt;xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Started&gt;, &lt;xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Delta&gt;e &lt;xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Completed&gt;eventi.&lt;/xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Completed&gt; &lt;/xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Delta&gt; &lt;/xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Started&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The values received via these events enable you to change the location, size or orientation of an element as needed.</source>
+          <target state="translated">I valori ricevuti tramite questi eventi consentono di modificare la posizione, dimensione o orientamento di un elemento in base alle esigenze.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You inform a manipulation processor which types of manipulations are allowed (translate, scale, rotate) by setting the &lt;xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.SupportedManipulations%2A&gt; property.</source>
+          <target state="translated">Informare un processore di modifica sono consentiti i tipi di modifiche (tradurre, scala, rotazione) impostando il &lt;xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.SupportedManipulations%2A&gt;proprietà.&lt;/xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.SupportedManipulations%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then provide non-conditional logic to the transformation of the element that is being manipulated.</source>
+          <target state="translated">È quindi possibile fornire la logica non condizionale alla trasformazione dell'elemento che è stato modificato.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For instance, instead of checking if rotation is enabled before changing the orientation of an element, you can unconditionally apply the rotation factor received from the manipulation processor; if rotation is not enabled, the manipulation processor will report that no rotational change has occurred.</source>
+          <target state="translated">Ad esempio, invece di controllare se la rotazione è abilitata prima di modificare l'orientamento di un elemento, in modo non condizionale applicare il fattore di rotazione ricevuto dal processore di modifica; Se la rotazione non è abilitata, verrà segnalato il processore di modifica che non si è verificata alcuna modifica rotazionale.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an element that is being manipulated is released (all manipulators are removed), you can use inertia processing to simulate friction and cause the element to gradually slow its movements before coming to a stop.</source>
+          <target state="translated">Quando viene rilasciato un elemento che è stato modificato (vengono rimossi tutti i manipolatori), è possibile utilizzare l'elaborazione dell'inerzia per simulare le forze di attrito e causare l'elemento di rallentare gradualmente i movimenti prima dell'arresto.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information see the &lt;xref:System.Windows.Input.Manipulations.InertiaProcessor2D&gt; class.</source>
+          <target state="translated">Per ulteriori informazioni, vedere la &lt;xref:System.Windows.Input.Manipulations.InertiaProcessor2D&gt;classe.&lt;/xref:System.Windows.Input.Manipulations.InertiaProcessor2D&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Windows.Input.Manipulations.ManipulationProcessor2D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Crea un nuovo <bpt id="p1">&lt;xref href="System.Windows.Input.Manipulations.ManipulationProcessor2D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The initial set of supported manipulations.</source>
+          <target state="translated">Il set iniziale di manipolazioni supportate.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">supportedManipulations</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid combination of the <bpt id="p2">&lt;xref href="System.Windows.Input.Manipulations.Manipulations2D"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">Il <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">supportedManipulations</ph> <ept id="p1">&lt;/code&gt;</ept> parametro non è una combinazione valida del <bpt id="p2">&lt;xref href="System.Windows.Input.Manipulations.Manipulations2D"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> valori di enumerazione.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Windows.Input.Manipulations.ManipulationProcessor2D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Crea un nuovo <bpt id="p1">&lt;xref href="System.Windows.Input.Manipulations.ManipulationProcessor2D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The initial set of supported manipulations.</source>
+          <target state="translated">Il set iniziale di manipolazioni supportate.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Pivot information for single-manipulator rotations.</source>
+          <target state="translated">Le informazioni per le rotazioni del singolo manipolatore pivot.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">supportedManipulations</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid combination of the <bpt id="p2">&lt;xref href="System.Windows.Input.Manipulations.Manipulations2D"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">Il <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">supportedManipulations</ph> <ept id="p1">&lt;/code&gt;</ept> parametro non è una combinazione valida del <bpt id="p2">&lt;xref href="System.Windows.Input.Manipulations.Manipulations2D"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> valori di enumerazione.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Occurs when a manipulation has competed.</source>
+          <target state="translated">Si verifica quando una modifica è stata completata.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Forces the current manipulation to complete and raises the <bpt id="p1">&lt;xref href="System.Windows.Input.Manipulations.ManipulationProcessor2D.Completed"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Forza il completamento della manipolazione corrente e genera il <bpt id="p1">&lt;xref href="System.Windows.Input.Manipulations.ManipulationProcessor2D.Completed"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> evento.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The timestamp to complete the manipulation, in 100-nanosecond ticks.</source>
+          <target state="translated">Il timestamp per completare la modifica, in tick di 100 nanosecondi.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The timestamp is less than the previous timestamp for the current manipulation.</source>
+          <target state="translated">Il timestamp è minore del timestamp precedente per la modifica corrente.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Occurs when the manipulation origin has changed or when translation, scaling, or rotation have occurred.</source>
+          <target state="translated">Si verifica quando l'origine della manipolazione viene modificata o quando si sono verificate rotazione, ridimensionamento o conversione.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Delta event and the &lt;xref:System.Windows.Input.Manipulations.InertiaProcessor2D.Delta?displayProperty=fullName&gt; event are the same type.</source>
+          <target state="translated">L'evento Delta e &lt;xref:System.Windows.Input.Manipulations.InertiaProcessor2D.Delta?displayProperty=fullName&gt;evento sono dello stesso tipo.&lt;/xref:System.Windows.Input.Manipulations.InertiaProcessor2D.Delta?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you can use the same event handler for both events.</source>
+          <target state="translated">In genere, è possibile utilizzare lo stesso gestore eventi per entrambi gli eventi.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets or sets the minimum radius, in coordinate units, necessary for a manipulator to participate in scaling and rotation.</source>
+          <target state="translated">Ottiene o imposta il raggio minimo, in unità di coordinate, necessario per un manipolatore deve far parte di scalabilità e la rotazione.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a manipulator is extremely close to the center of mass of the manipulators currently being processed, a very small manipulator motion can become a very large change to rotation or scaling.</source>
+          <target state="translated">Se un manipolatore è molto vicino al centro della massa dei manipolatori in fase di elaborazione, un movimento manipolatore molto piccoli può diventare una modifica di dimensioni molto grande a rotazione o ridimensionamento.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid this problem, set MinimumScaleRotateRadius to something greater than zero.</source>
+          <target state="translated">Per evitare questo problema, impostare MinimumScaleRotateRadius su un valore maggiore di zero.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any manipulator that is closer than that distance to the center of mass will not be included in rotation and scaling operations.</source>
+          <target state="translated">I manipolatori che più si avvicina a distanza al centro della massa non verrà incluso nella rotazione e le operazioni di ridimensionamento.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A typical value to use should be based on the likely magnitude of "accidental" motions of the manipulators.</source>
+          <target state="translated">Un valore tipico da utilizzare deve essere basato relativa alla grandezza probabile dei movimenti "accidentale" dei manipolatori.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the manipulator is a human finger touching a screen, a radius corresponding to a centimeter or so might be appropriate.</source>
+          <target state="translated">Ad esempio, se il manipolatore è un dito umano toccare una schermata, un raggio corrispondente a un centimetro o scopo potrebbe essere appropriato.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value for MinimumScaleRotateRadius must be a finite, non-negative number.</source>
+          <target state="translated">Il valore per MinimumScaleRotateRadius deve essere un numero finito non negativo.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The minimum radius, in coordinate units, necessary for a manipulator to participate in scaling and rotation.</source>
+          <target state="translated">Il raggio minimo, in unità di coordinate, necessario per un manipolatore deve far parte di scalabilità e la rotazione.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets or sets the pivot information for the manipulation processor.</source>
+          <target state="translated">Ottiene o imposta le informazioni di pivot per il processore di manipolazione.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Pivot property is used to provide pivot information for single-manipulator rotations.</source>
+          <target state="translated">La proprietà Pivot viene utilizzata per fornire informazioni pivot per le rotazioni del singolo manipolatore.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property to null disables single-manipulator rotations.</source>
+          <target state="translated">Impostando questa proprietà su null disabilita le rotazioni del singolo manipolatore.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The pivot information for the manipulation processor.</source>
+          <target state="translated">Le informazioni di pivot per il processore di manipolazione.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Processes the specified manipulators as a single batch action.</source>
+          <target state="translated">Elabora i manipolatori specificati come una singola azione batch.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameter <ph id="ph1">`manipulators`</ph> may be an empty list or null.</source>
+          <target state="translated">Il parametro <ph id="ph1">`manipulators`</ph> potrebbe essere un elenco vuoto o null.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this results in the number of manipulators reaching zero, the &lt;xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Completed&gt; event is raised.</source>
+          <target state="translated">Se il numero di manipolatori che raggiungono zero, di conseguenza il &lt;xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Completed&gt;viene generato l'evento.&lt;/xref:System.Windows.Input.Manipulations.ManipulationProcessor2D.Completed&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The timestamp for the batch, in 100-nanosecond ticks.</source>
+          <target state="translated">Il timestamp per il batch, in tick di 100 nanosecondi.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The set of manipulators that are currently in scope.</source>
+          <target state="translated">Il set di manipolatori che sono attualmente nell'ambito.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The timestamp is less than the previous timestamp for the current manipulation.</source>
+          <target state="translated">Il timestamp è minore del timestamp precedente per la modifica corrente.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Sets parameters on the manipulation processor.</source>
+          <target state="translated">Imposta i parametri nel processore di manipolazione.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Parameters to set.</source>
+          <target state="translated">Parametri da impostare.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Occurs when a new manipulation has started.</source>
+          <target state="translated">Si verifica quando una nuova modifica è stata avviata.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets or sets the current set of supported manipulations.</source>
+          <target state="translated">Ottiene o imposta il set corrente di manipolazioni supportate.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The current set of supported manipulations.</source>
+          <target state="translated">Il set corrente di manipolazioni supportate.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The property tries to set a value that is not a valid combination of the <bpt id="p1">&lt;xref href="System.Windows.Input.Manipulations.Manipulations2D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>       enumeration values.</source>
+          <target state="translated">La proprietà tenta di impostare un valore che non è una combinazione valida del <bpt id="p1">&lt;xref href="System.Windows.Input.Manipulations.Manipulations2D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valori di enumerazione.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

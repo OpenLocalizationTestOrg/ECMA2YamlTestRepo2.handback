@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5db20e0152d72f9bceb6d42d24984805e588c69</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.DirectoryServices.DirectoryEntry.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ee853f25979fb9030384b910aa7d789c168df3b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">931ac6de4bcd673db51ef8da6ac9cb9224166f5a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The DirectoryEntry class encapsulates a node or object in the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">DirectoryEntry 클래스 노드 또는 Active Directory 도메인 서비스 계층 구조에서 개체를 캡슐화합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this class for binding to objects, or reading and updating attributes.</source>
+          <target state="translated">이 클래스를 사용 하 여 개체에 바인딩 또는 읽고 특성을 업데이트 합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DirectoryEntry, along with helper classes, provides support for life-cycle management and navigation methods.</source>
+          <target state="translated">DirectoryEntry, 도우미 클래스와 함께 지원 수명 주기에 대 한 관리 및 탐색 방법을 제공합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These include creating, deleting, renaming, moving a child node, and enumerating children.</source>
+          <target state="translated">여기에 만들기, 삭제, 이름 바꾸기, 자식 노드를 이동 및 열거 자식을 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you modify a node, you must commit your changes in order for them to be saved to the tree.</source>
+          <target state="translated">노드를 수정한 후에 트리에 저장 하려면에서 변경 내용을 커밋해야 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; property.</source>
+          <target state="translated">자세한 내용은 참조는 &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;속성.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DirectoryEntry can be used to access regular entries and some, but not all, information from schema entries.</source>
+          <target state="translated">DirectoryEntry는 스키마 항목에서 일반 항목 및 일부는 아니지만 일부, 정보에 액세스할 데 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Active Directory Domain Services hierarchy contains up to several thousand nodes.</source>
+          <target state="translated">최대 몇 천 노드에서 Active Directory 도메인 서비스 계층에 포함 되어 있습니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each node represents an object, such as a network printer or a user in a domain.</source>
+          <target state="translated">각 노드는 네트워크 프린터 또는 도메인 사용자 등의 개체를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Corporate networks constantly change as new employees are hired and objects such as network printers and computers are added.</source>
+          <target state="translated">회사 네트워크에는 지속적으로 새 직원을 채용 하 고 컴퓨터 및 네트워크 프린터와 같은 개체를 추가 하는 대로 변경 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Active Directory Service Interfaces (ADSI) technology provides ways to programmatically add these objects to the directory tree.</source>
+          <target state="translated">Active Directory 서비스 인터페이스 (ADSI) 기술은 프로그래밍 방식으로 디렉터리 트리를 이러한 개체를 추가 하는 방법을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a directory entry in the hierarchy, use the &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt; property.</source>
+          <target state="translated">계층의 디렉터리 항목을 만들려면 사용는 &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;속성.&lt;/xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt; property is a collection that provides an &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt; method, through which you add a node to the collection directly below the parent node that you are currently bound to.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;속성은 제공 하는 컬렉션 한 &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt;노드 컬렉션에 바인딩된 현재 부모 노드 바로 아래에 추가 하는 메서드.&lt;/xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When adding a node to the collection, you must specify a name for the new node and the name of a schema template that you want to associate with the node.</source>
+          <target state="translated">컬렉션에 노드를 추가할 때는 노드와 연관 시킬 스키마 서식 파일의 이름과 새 노드에 대 한 이름을 지정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might want to use a schema titled "Computer" to add new computers to the hierarchy.</source>
+          <target state="translated">예를 들어 다음 계층에 새 컴퓨터를 추가 하려면 "설치 컴퓨터" 라는 스키마를 사용 하는 것이 좋습니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class also contains attribute caching, which can be useful for optimizing network traffic.</source>
+          <target state="translated">이 클래스도 포함 특성 캐싱, 네트워크 트래픽을 최적화 하는 데 유용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use attribute caching, see the &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; property.</source>
+          <target state="translated">특성 캐시를 사용 하려면 참조는 &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;속성.&lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The classes associated with the DirectoryEntry component can be used with any of the Active Directory Domain Services service providers.</source>
+          <target state="translated">Active Directory 도메인 서비스 서비스 공급자를 사용 하 여 DirectoryEntry 구성 요소와 관련 된 클래스를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some of the current providers are Internet Information Services (IIS), Lightweight Directory Access Protocol (LDAP), Novell NetWare Directory Service (NDS), and WinNT.</source>
+          <target state="translated">현재 공급자의 일부는 인터넷 정보 서비스 (IIS), LDAP Lightweight Directory Access Protocol (), Novell NetWare 디렉터리 서비스 (NDS), 및 WinNT 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is assumed that you have a general understanding of Active Directory Domain Services before using this class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;이 클래스를 사용 하기 전에 Active Directory 도메인 서비스에 대 한 기본적인 지식이 있다고 가정 합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.DirectoryServices?displayProperty=fullName&gt; namespace overview.</source>
+          <target state="translated">자세한 내용은 참조는 &lt;xref:System.DirectoryServices?displayProperty=fullName&gt;네임 스페이스 개요.&lt;/xref:System.DirectoryServices?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that binds to the specified native Active Directory Domain Services object.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정 된 네이티브 Active Directory 도메인 서비스 개체에 바인딩되는 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor enables a program to use the methods and properties of the &lt;xref:System.DirectoryServices.DirectoryEntry&gt; class on a native Active Directory Domain Services object that implements the IADs interface through a native API.</source>
+          <target state="translated">이 생성자를 사용 하면 프로그램 메서드와 속성을 사용 하는 &lt;xref:System.DirectoryServices.DirectoryEntry&gt;네이티브 API 통해 Iad 인터페이스를 구현 하는 네이티브 Active Directory 도메인 서비스 개체에는 클래스입니다.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the IADs interface, see the topic <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> in the MSDN Library at <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">IADs 인터페이스에 대 한 자세한 내용은 항목을 참조 하십시오. <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> MSDN library에서 <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The name of the native Active Directory Domain Services object to bind to.</source>
+          <target state="translated">바인딩할 네이티브 Active Directory 도메인 서비스 개체의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that binds this instance to the node in Active Directory Domain Services located at the specified path.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정된 된 경로에 있는 Active Directory 도메인 서비스의 노드에이 인스턴스를 바인딩하는 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The path at which to bind the DirectoryEntry to the directory.</source>
+          <target state="translated">에 DirectoryEntry 디렉터리에 바인딩되는 경로입니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt;속성은이 값으로 초기화 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.Path*&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The path of this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 경로 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt;속성은이 값으로 초기화 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.Path*&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The user name to use when authenticating the client.</source>
+          <target state="translated">클라이언트를 인증할 때 사용할 사용자 이름입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Username*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectoryEntry.Username*&gt;속성은이 값으로 초기화 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.Username*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The password to use when authenticating the client.</source>
+          <target state="translated">클라이언트를 인증할 때 사용할 암호입니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Password*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectoryEntry.Password*&gt;속성은이 값으로 초기화 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.Password*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The path of this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 경로 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt;속성은이 값으로 초기화 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.Path*&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The user name to use when authenticating the client.</source>
+          <target state="translated">클라이언트를 인증할 때 사용할 사용자 이름입니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Username*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectoryEntry.Username*&gt;속성은이 값으로 초기화 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.Username*&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The password to use when authenticating the client.</source>
+          <target state="translated">클라이언트를 인증할 때 사용할 암호입니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Password*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectoryEntry.Password*&gt;속성은이 값으로 초기화 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.Password*&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.AuthenticationTypes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.DirectoryServices.AuthenticationTypes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.AuthenticationType*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectoryEntry.AuthenticationType*&gt;속성은이 값으로 초기화 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.AuthenticationType*&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets or sets the type of authentication to use.</source>
+          <target state="translated">사용할 인증 유형을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Prior to <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>, the default value is &lt;xref:System.DirectoryServices.AuthenticationTypes&gt;.</source>
+          <target state="translated">이전에 <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>, 기본값은 &lt;xref:System.DirectoryServices.AuthenticationTypes&gt;.&lt;/xref:System.DirectoryServices.AuthenticationTypes&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Beginning with <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>, the default value is &lt;xref:System.DirectoryServices.AuthenticationTypes&gt;.</source>
+          <target state="translated">부터는 <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>, 기본값은 &lt;xref:System.DirectoryServices.AuthenticationTypes&gt;.&lt;/xref:System.DirectoryServices.AuthenticationTypes&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.AuthenticationTypes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.DirectoryServices.AuthenticationTypes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the child entries of this node in the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">Active Directory 도메인 서비스 계층의 자식이 노드의 항목을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The child entries are only the immediate children of this node.</source>
+          <target state="translated">자식 항목은이 노드의 직계 자식만 합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to find, retrieve, or create a directory entry in the hierarchy.</source>
+          <target state="translated">찾을 검색을 만들거나, 디렉터리 항목 계층 구조에서이 속성을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is a collection that, along with the usual iteration capabilities, provides an &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt; method through which you add a node to the collection directly below the parent node that you are currently bound to.</source>
+          <target state="translated">이 속성은 일반 반복 기능과 함께 제공 하는 컬렉션 한 &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt;노드 컬렉션에 바인딩된 현재 부모 노드 바로 아래에 추가 하는 메서드.&lt;/xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When adding a node to the collection, you must specify a name for the new node and the name of a schema template that you want to associate with the node.</source>
+          <target state="translated">컬렉션에 노드를 추가할 때는 노드와 연관 시킬 스키마 서식 파일의 이름과 새 노드에 대 한 이름을 지정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might want to use a schema titled "Computer" to add new computers to the hierarchy.</source>
+          <target state="translated">예를 들어 다음 계층에 새 컴퓨터를 추가 하려면 "설치 컴퓨터" 라는 스키마를 사용 하는 것이 좋습니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  By default, changes are made locally to a cache.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 기본적으로에 변경 내용이 로컬로 캐시 합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you modify or add a node, you must call the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; method to commit your changes in order for them to be saved to the tree.</source>
+          <target state="translated">수정 하거나 노드 추가 후에 호출 해야 합니다는 &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;트리에 저장 하려면에서 변경 내용을 적용 하려면 메서드.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt; before calling &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;, any uncommitted changes to the property cache will be lost.</source>
+          <target state="translated">호출 하는 경우 &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt;호출 하기 전에 &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;을 속성 캐시에 커밋되지 않은 변경 내용이 손실 됩니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; and &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt; methods, and the &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; property.</source>
+          <target state="translated">자세한 내용은 참조는 &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;및 &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt;메서드 및 &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;속성.&lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntries"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object containing the child entries of this node in the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntries"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Active Directory 도메인 서비스 계층 구조에서이 노드의 자식 항목을 포함 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Closes the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and releases any system resources that are associated with this component.</source>
+          <target state="translated">닫습니다는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체를이 구성 요소와 연결 된 시스템 리소스를 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to release unmanaged system resources, without waiting for garbage collection.</source>
+          <target state="translated">가비지 수집을 대기 하지 않고 관리 되지 않는 시스템 리소스를 해제 하려면이 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Following a call to Close, any operations on the &lt;xref:System.DirectoryServices.DirectoryEntry&gt; might raise exceptions.</source>
+          <target state="translated">나오는 닫기, 모든 작업에 대 한 호출에는 &lt;xref:System.DirectoryServices.DirectoryEntry&gt;예외가 발생할 수 있습니다.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Saves changes that are made to a directory entry to the underlying directory store.</source>
+          <target state="translated">내부 디렉터리 저장소 디렉터리 항목에 대 한 변경 내용을 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, changes to properties are made locally to a cache, and property values to be read are cached after the first read.</source>
+          <target state="translated">기본적으로 속성에 변경 내용이 로컬로 캐시 하 고 속성 값을 읽을 수는 첫 번째 읽은 후에 캐시 됩니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;.</source>
+          <target state="translated">자세한 내용은 &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;.&lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; 을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changes made to the cache include changes to the properties as well as calls to &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt; (if this is the newly created entry).</source>
+          <target state="translated">캐시에 대 한 변경 내용 속성 뿐만 아니라 호출 &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt;(새로 만든 경우).&lt;/xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  If you call &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt; before calling CommitChanges, any uncommitted changes to the property cache will be lost.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 호출 하는 경우 &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;CommitChanges를 호출 하기 전에 속성 캐시에 커밋되지 않은 변경 내용이 손실 됩니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Security      -   Use the &lt;xref:System.DirectoryServices.DirectoryServicesPermission&gt; class for reading, writing, deleting, changing, and adding to the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">보안-사용 된 &lt;xref:System.DirectoryServices.DirectoryServicesPermission&gt;읽기, 쓰기, 삭제, 변경 및 Active Directory 도메인 서비스 계층에 추가 대 한 클래스입니다.&lt;/xref:System.DirectoryServices.DirectoryServicesPermission&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Associated enumeration: &lt;xref:System.DirectoryServices.DirectoryServicesPermissionAccess&gt;.</source>
+          <target state="translated">연관 된 열거형: &lt;xref:System.DirectoryServices.DirectoryServicesPermissionAccess&gt;.&lt;/xref:System.DirectoryServices.DirectoryServicesPermissionAccess&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Creates a copy of this entry as a child of the specified parent.</source>
+          <target state="translated">지정 된 부모의 자식으로이 항목의 복사본을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; is <ph id="ph1">`true`</ph>, call &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; on the new object to make the copy permanent.</source>
+          <target state="translated">경우 &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;은 <ph id="ph1">`true`</ph>, 호출 &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;영구의 복사본을 만드는 새 개체에.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Lightweight Directory Access Protocol (LDAP) provider does not currently support the CopyTo method.</source>
+          <target state="translated">LDAP Lightweight Directory Access Protocol () 공급자는 CopyTo 메서드를 현재 지원 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The distinguished name of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that will be the parent for the copy that is being created.</source>
+          <target state="translated">고유 이름을 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 만들어지는 복사본의 부모가 될 개체입니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the copy of this entry as a child of the new parent.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 새 부모의 자식으로이 항목의 복사본을 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not a container.</source>
+          <target state="translated">지정 된 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨테이너가 아닌 합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Creates a copy of this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, as a child of the specified parent <bpt id="p2">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object, with the specified new name.</source>
+          <target state="translated">이 파일의 복사본을 만듭니다 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체에서 지정 된 부모의 자식 <bpt id="p2">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 개체와 새 이름 지정된 합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Lightweight Directory Access Protocol (LDAP) provider does not currently support this method.</source>
+          <target state="translated">LDAP Lightweight Directory Access Protocol () 공급자는이 메서드를 현재 지원 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; is <ph id="ph1">`true`</ph>, call &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; on the new object to make the copy permanent.</source>
+          <target state="translated">경우 &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;은 <ph id="ph1">`true`</ph>, 호출 &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;영구의 복사본을 만드는 새 개체에.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The DN of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that will be the parent for the copy that is being created.</source>
+          <target state="translated">DN는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 만들어지는 복사본의 부모가 될 개체입니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The name of the copy of this entry.</source>
+          <target state="translated">이 항목의 복사본의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A renamed copy of this entry as a child of the specified parent.</source>
+          <target state="translated">지정 된 부모의 자식으로이 항목의 이름이 변경 된 복사본입니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is not a container.</source>
+          <target state="translated">지정 된 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체가 컨테이너가 아닙니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Deletes this entry and its entire subtree from the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">Active Directory 도메인 서비스 계층에서이 항목 및의 전체 하위 트리를 삭제합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the Active Directory Service Interfaces (ADSI) system-supplied providers, only the Lightweight Directory Access Protocol (LDAP) currently supports this operation.</source>
+          <target state="translated">서비스 인터페이스 ADSI (Active Directory) 시스템 제공 공급자만 LDAP Lightweight Directory Access Protocol () 현재이 작업을 지원합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  The entry and its entire subtree are deleted from the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 항목의 전체 하위 트리 Active Directory 도메인 서비스 계층에서 삭제 됩니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Security      -   Use &lt;xref:System.DirectoryServices.DirectoryServicesPermission&gt; for deleting entries from the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">보안-사용 &lt;xref:System.DirectoryServices.DirectoryServicesPermission&gt;Active Directory 도메인 서비스 계층 구조에서 항목을 삭제 하기 위한.&lt;/xref:System.DirectoryServices.DirectoryServicesPermission&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Associated enumeration: &lt;xref:System.DirectoryServices.DirectoryServicesPermissionAccess?displayProperty=fullName&gt;.</source>
+          <target state="translated">연관 된 열거형: &lt;xref:System.DirectoryServices.DirectoryServicesPermissionAccess?displayProperty=fullName&gt;.&lt;/xref:System.DirectoryServices.DirectoryServicesPermissionAccess?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not a container.</source>
+          <target state="translated">지정 된 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨테이너가 아닌 합니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Disposes of the resources (other than memory) that are used by the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">리소스 (메모리 제외)에서 사용 되는 삭제는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public &lt;xref:System.ComponentModel.Component.Dispose%2A&gt; method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">이 메서드는 public &lt;xref:System.ComponentModel.Component.Dispose%2A&gt;메서드 및 &lt;xref:System.Object.Finalize%2A&gt;메서드.&lt;/xref:System.Object.Finalize%2A&gt; &lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ComponentModel.Component.Dispose%2A&gt; invokes the protected Dispose method with the <ph id="ph1">`disposing`</ph> parameter set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Component.Dispose%2A&gt;보호 된 Dispose 메서드를 호출 하는 <ph id="ph1">`disposing`</ph> 매개 변수 설정 <ph id="ph2">`true`</ph>합니다.&lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes &lt;xref:System.ComponentModel.Component.Dispose%2A&gt; with <ph id="ph1">`disposing`</ph> set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;호출 &lt;xref:System.ComponentModel.Component.Dispose%2A&gt;와 <ph id="ph1">`disposing`</ph> 로 설정 <ph id="ph2">`false`</ph>.&lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources that are held by any managed objects that this &lt;xref:System.DirectoryServices.DirectoryEntry&gt; object references.</source>
+          <target state="translated">경우는 <ph id="ph1">`disposing`</ph> 매개 변수는 <ph id="ph2">`true`</ph>,이 메서드는 관리 개체가 보유 하 고 있는 모든 리소스를 해제 합니다.이 &lt;xref:System.DirectoryServices.DirectoryEntry&gt;개체에서 참조.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the &lt;xref:System.ComponentModel.Component.Dispose%2A&gt; method of each referenced object.</source>
+          <target state="translated">이 메서드 호출의 &lt;xref:System.ComponentModel.Component.Dispose%2A&gt;각 참조 된 개체의.&lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the &lt;xref:System.ComponentModel.Component.Dispose%2A&gt; and &lt;xref:System.Object.Finalize%2A&gt; methods, see <bpt id="p1">[</bpt>Overriding the Finalize Method<ept id="p1">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</source>
+          <target state="translated">에 대 한 자세한 내용은 &lt;xref:System.ComponentModel.Component.Dispose%2A&gt;및 &lt;xref:System.Object.Finalize%2A&gt;메서드 참조 <bpt id="p1">[</bpt>Finalize 메서드를 재정의<ept id="p1">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.&lt;/xref:System.Object.Finalize%2A&gt; &lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>관리 되는 관리 되지 않는 리소스만 해제 하려면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 만 관리 되지 않는 리소스를 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Determines if the specified path represents an actual entry in the directory service.</source>
+          <target state="translated">지정 된 경로가 디렉터리 서비스의 실제 항목을 나타내는지 여부를 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The path of the entry to verify.</source>
+          <target state="translated">확인할 항목의 경로입니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified path represents a valid entry in the directory service; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>지정 된 경로가 디렉터리 서비스의 유효한 항목을 나타내는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets the GUID of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">GUID를 가져옵니다는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When binding to an object in Active Directory Domain Services, use the &lt;xref:System.DirectoryServices.DirectoryEntry.NativeGuid%2A&gt; property.</source>
+          <target state="translated">Active Directory 도메인 서비스에서 개체를 바인딩할 때 사용 된 &lt;xref:System.DirectoryServices.DirectoryEntry.NativeGuid%2A&gt;속성.&lt;/xref:System.DirectoryServices.DirectoryEntry.NativeGuid%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; structure that represents the GUID of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A &lt;xref:System.Guid&gt;의 GUID를 나타내는 구조는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Calls a method on the native Active Directory Domain Services object.</source>
+          <target state="translated">네이티브 Active Directory 도메인 서비스 개체에 대 한 메서드를 호출합니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the return value of the native method implements the IADs interface, a corresponding &lt;xref:System.DirectoryServices.DirectoryEntry&gt; is returned.</source>
+          <target state="translated">네이티브 메서드의 반환 값에 해당 하는 Iad 인터페이스를 구현 하는 경우 &lt;xref:System.DirectoryServices.DirectoryEntry&gt;반환 됩니다.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the IADs interface, see the topic <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> in the MSDN Library at <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept>.</source>
+          <target state="translated">IADs 인터페이스에 대 한 자세한 내용은 항목을 참조 하십시오. <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> MSDN library에서 <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The name of the method to invoke.</source>
+          <target state="translated">호출할 메서드의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Object&gt; objects that contains the arguments of the method to invoke.</source>
+          <target state="translated">형식의 배열 &lt;xref:System.Object&gt;호출할 메서드의 인수를 포함 하는 개체입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The return value of the invoked method.</source>
+          <target state="translated">호출 된 메서드의 반환 값입니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The native method threw a &lt;xref:System.Runtime.InteropServices.COMException&gt; exception.</source>
+          <target state="translated">네이티브 메서드에서 &lt;xref:System.Runtime.InteropServices.COMException&gt;예외.&lt;/xref:System.Runtime.InteropServices.COMException&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The native method threw a &lt;xref:System.Reflection.TargetInvocationException&gt; exception.</source>
+          <target state="translated">네이티브 메서드에서 &lt;xref:System.Reflection.TargetInvocationException&gt;예외.&lt;/xref:System.Reflection.TargetInvocationException&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Exception.InnerException*&gt; property contains a &lt;xref:System.Runtime.InteropServices.COMException&gt; exception that contains information about the actual error that occurred.</source>
+          <target state="translated">&lt;xref:System.Exception.InnerException*&gt;속성을 포함 한 &lt;xref:System.Runtime.InteropServices.COMException&gt;실제 발생 한 오류에 대 한 정보를 포함 하는 예외입니다.&lt;/xref:System.Runtime.InteropServices.COMException&gt; &lt;/xref:System.Exception.InnerException*&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets a property from the native Active Directory Domain Services object.</source>
+          <target state="translated">네이티브 Active Directory 도메인 서비스 개체에서 속성을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should not be used.</source>
+          <target state="translated">이 메서드는 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt; property should be used to access the properties of the &lt;xref:System.DirectoryServices.DirectoryEntry&gt; object.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt;속성의 속성에 액세스 하는 데 사용 해야는 &lt;xref:System.DirectoryServices.DirectoryEntry&gt;개체입니다.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The name of the property to get.</source>
+          <target state="translated">가져올 속성의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>An object that represents the requested property.</source>
+          <target state="translated">요청 된 속성을 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Sets a property on the native Active Directory Domain Services object.</source>
+          <target state="translated">네이티브 Active Directory 도메인 서비스 개체의 속성을 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should not be used.</source>
+          <target state="translated">이 메서드는 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt; property should be used to access the properties of the &lt;xref:System.DirectoryServices.DirectoryEntry&gt; object.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt;속성의 속성에 액세스 하는 데 사용 해야는 &lt;xref:System.DirectoryServices.DirectoryEntry&gt;개체입니다.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The name of the property to set.</source>
+          <target state="translated">설정할 속성의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The Active Directory Domain Services object to set.</source>
+          <target state="translated">설정할 Active Directory 도메인 서비스 개체입니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Moves this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the specified parent.</source>
+          <target state="translated">이 이동 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 를 지정한 부모 개체입니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; is <ph id="ph1">`true`</ph>, call the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; method on the new object to make the move permanent.</source>
+          <target state="translated">경우 &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;은 <ph id="ph1">`true`</ph>, 호출 된 &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;영구적 이동 수 있도록 새 개체의 메서드를.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The parent to which you want to move this entry.</source>
+          <target state="translated">이 항목을 이동 하려면 부모입니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not a container.</source>
+          <target state="translated">지정 된 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨테이너가 아닌 합니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Moves this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the specified parent and changes its name to the specified value.</source>
+          <target state="translated">이 이동 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체를 지정 된 부모로 지정된 된 값에 해당 이름을 변경 합니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; is <ph id="ph1">`true`</ph>, call &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; on the new object to make the move permanent.</source>
+          <target state="translated">경우 &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;은 <ph id="ph1">`true`</ph>, 호출 &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;영구 이동 하 게 새 개체에.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The parent to which you want to move this entry.</source>
+          <target state="translated">이 항목을 이동 하려면 부모입니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The new name of this entry.</source>
+          <target state="translated">이 항목의 새 이름입니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not a container.</source>
+          <target state="translated">지정 된 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨테이너가 아닌 합니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets the name of the object as named with the underlying directory service.</source>
+          <target state="translated">기본 디렉터리 서비스와 이름이 같은 개체의 이름을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This name, along with &lt;xref:System.DirectoryServices.DirectoryEntry.SchemaClassName%2A&gt;, distinguishes this entry from its siblings and must be unique among its siblings in each container.</source>
+          <target state="translated">이 이름, 방향으로 표시 된 &lt;xref:System.DirectoryServices.DirectoryEntry.SchemaClassName%2A&gt;, 형제 항목에서이 항목을 구별 하 고 각 컨테이너에 있는 형제 사이에서 고유 해야 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.SchemaClassName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The name of the object as named with the underlying directory service.</source>
+          <target state="translated">기본 디렉터리 서비스와 이름이 같은 개체의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Gets the GUID of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, as returned from the provider.</source>
+          <target state="translated">GUID를 가져옵니다는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>에서 공급자에서 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the NativeGuid property when binding an object in Active Directory Domain Services.</source>
+          <target state="translated">Active Directory 도메인 서비스에서 개체를 바인딩할 경우 NativeGuid 속성을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Lightweight Directory Access Protocol (LDAP) provider returns the globally unique identifier of a &lt;xref:System.DirectoryServices.DirectoryEntry&gt; in a different format than the Internet Information Services (IIS), Novell NetWare Directory Server (NDS), and WinNT providers.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Lightweight Directory Access Protocol (LDAP) 공급자의 전역 고유 식별자를 반환 합니다.는 &lt;xref:System.DirectoryServices.DirectoryEntry&gt;인터넷 정보 서비스 (IIS), Novell NetWare 디렉터리 서버 (NDS) 및 WinNT 공급자 보다 다른 형식으로.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; structure that represents the GUID of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, as returned from the provider.</source>
+          <target state="translated">A &lt;xref:System.Guid&gt;의 GUID를 나타내는 구조는 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>공급자가 반환한,.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Gets the native Active Directory Service Interfaces (ADSI) object.</source>
+          <target state="translated">네이티브 ADSI Active Directory 서비스 인터페이스 () 개체를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to cast the native Active Directory Domain Services object, which implements the IADs interface, when you want to use a COM interface.</source>
+          <target state="translated">이 속성을 COM 인터페이스를 사용 하려는 경우에 Iad 인터페이스를 구현 하는 네이티브 Active Directory 도메인 서비스 개체를 캐스팅을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the IADs interface, see the topic <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> in the MSDN Library at <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept>.</source>
+          <target state="translated">IADs 인터페이스에 대 한 자세한 내용은 항목을 참조 하십시오. <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> MSDN library에서 <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This object is for advanced scenarios that cannot be accomplished with the &lt;xref:System.DirectoryServices?displayProperty=fullName&gt; classes alone.</source>
+          <target state="translated">이 개체는 구현할 수 없는 고급 시나리오에는 &lt;xref:System.DirectoryServices?displayProperty=fullName&gt;클래스 단독.&lt;/xref:System.DirectoryServices?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use it, you need to import one of the COM interfaces from the IADs family, then cast this property to that interface.</source>
+          <target state="translated">이 기능을 사용 하려면 Iad 제품군에서 COM 인터페이스 중 하나를 가져와 다음이 속성을 해당 인터페이스를 캐스팅 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The native ADSI object.</source>
+          <target state="translated">네이티브 ADSI 개체입니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Gets or sets the security descriptor for this entry.</source>
+          <target state="translated">이 항목에 대 한 보안 설명자를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectorySecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the security descriptor for this directory entry.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectorySecurity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 디렉터리 항목에 대 한 보안 설명자를 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Gets the provider-specific options for this entry.</source>
+          <target state="translated">이 항목에 대 한 공급자별 옵션을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntryConfiguration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the provider-specific options for this entry.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntryConfiguration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 항목에 대 한 공급자별 옵션을 포함 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Gets this entry's parent in the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">Active Directory 도메인 서비스 계층 구조에서이 항목의이 부모를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the parent of this entry.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 항목의 부모를 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Sets the password to use when authenticating the client.</source>
+          <target state="translated">클라이언트를 인증할 때 사용할 암호를 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the &lt;xref:System.DirectoryServices.DirectoryEntry.Username%2A&gt; and Password properties to specify alternate credentials with which to access the information in Active Directory Domain Services.</source>
+          <target state="translated">설정할 수 있습니다는 &lt;xref:System.DirectoryServices.DirectoryEntry.Username%2A&gt;및 암호 속성을 Active Directory 도메인 서비스의 정보에 액세스할 수 있는 대체 자격 증명을 지정 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any other &lt;xref:System.DirectoryServices.DirectoryEntry&gt; objects retrieved from this instance (for example, through &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;) are automatically created with the same alternate credentials.</source>
+          <target state="translated">다른 모든 &lt;xref:System.DirectoryServices.DirectoryEntry&gt;이 인스턴스에서 검색 개체 (예: 전자 &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;) 동일한 대체 자격 증명을 사용 하 여 자동으로 만들어집니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The password to use when authenticating the client.</source>
+          <target state="translated">클라이언트를 인증할 때 사용할 암호입니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Gets or sets the path for this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 대 한 경로 가져오거나 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The path of this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">이 경로 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">기본값은 빈 문자열 ("").</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Gets the Active Directory Domain Services properties for this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">이 대 한 Active Directory 도메인 서비스 속성을 가져옵니다 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the property is not initialized, Properties calls the ADSI interface <bpt id="p1">[</bpt>IADs::Get<ept id="p1">](http://msdn2.microsoft.com/library/aa746347.aspx)</ept> method to retrieve the value from the cache.</source>
+          <target state="translated">속성이 초기화 되지 않은 경우 속성 ADSI 인터페이스를 호출 하는 <bpt id="p1">[</bpt>IADs::Get<ept id="p1">](http://msdn2.microsoft.com/library/aa746347.aspx)</ept> 캐시에서 값을 검색 하는 메서드입니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underling cache has not been loaded, <bpt id="p1">[</bpt>IADs::Get<ept id="p1">](http://msdn2.microsoft.com/library/aa746347.aspx)</ept> implicitly calls <bpt id="p2">[</bpt>IADs::GetInfo<ept id="p2">](http://msdn2.microsoft.com/library/aa746349.aspx)</ept>.</source>
+          <target state="translated">기본 캐시 로드 되지 않은 경우 <bpt id="p1">[</bpt>IADs::Get<ept id="p1">](http://msdn2.microsoft.com/library/aa746347.aspx)</ept> 암시적으로 호출 <bpt id="p2">[</bpt>IADs::GetInfo<ept id="p2">](http://msdn2.microsoft.com/library/aa746349.aspx)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method loads the values of the supported properties that have not been set in the cache from the underlying directory store.</source>
+          <target state="translated">이 메서드는 지원 되는 내부 디렉터리 저장소 캐시에 설정 하지 않은 속성의 값을 로드 합니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent calls to Properties retrieves the property values in the cache only.</source>
+          <target state="translated">속성에 대 한 후속 호출에만 캐시의 속성 값을 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To control property cache loading, call &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;.</source>
+          <target state="translated">호출 &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;.&lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt; 속성 캐시 로드를 제어 하려면</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> The Properties property is not supported for use with the Active Directory Client Extension (DSClient) for <ph id="ph1">[!INCLUDE[WinNt4Family](~/add/includes/ajax-current-ext-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept> 에 대 한 Active Directory 클라이언트 확장 (DSClient) 사용 하기 위해 속성 속성이 지원 되지 않는 <ph id="ph1">[!INCLUDE[WinNt4Family](~/add/includes/ajax-current-ext-md.md)]</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.PropertyCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the properties that are set on this entry.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.PropertyCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 항목에 설정 된 속성을 포함 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Loads the property values for this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object into the property cache.</source>
+          <target state="translated">속성 값이 로드 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 속성 캐시에 개체입니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Loads the values of the specified properties into the property cache.</source>
+          <target state="translated">지정된 된 속성의 값을 속성 캐시에 로드합니다.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An array of the specified properties.</source>
+          <target state="translated">지정된 된 속성의 배열입니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Changes the name of this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">이 항목의 이름을 변경 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph> &gt;  This will also affect the path that is used to refer to this entry.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph>&gt;이 항목을 참조 하는 데 사용 되는 경로 영향이 있습니다이 있습니다.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; is <ph id="ph1">`true`</ph>, be sure to call the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; method on the new object to make the move permanent.</source>
+          <target state="translated">경우 &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;은 <ph id="ph1">`true`</ph>, 호출 하는 &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;영구적 이동 수 있도록 새 개체의 메서드를.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The new name of the entry.</source>
+          <target state="translated">항목의 새 이름입니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Gets the name of the schema class for this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">이 대 한 스키마 클래스의 이름을 가져옵니다 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the same as the &lt;xref:System.DirectoryServices.DirectoryEntry.Name%2A&gt; property of the &lt;xref:System.DirectoryServices.DirectoryEntry.SchemaEntry%2A&gt; property.</source>
+          <target state="translated">이와 동일는 &lt;xref:System.DirectoryServices.DirectoryEntry.Name%2A&gt;의 속성은 &lt;xref:System.DirectoryServices.DirectoryEntry.SchemaEntry%2A&gt;속성.&lt;/xref:System.DirectoryServices.DirectoryEntry.SchemaEntry%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.DirectoryServices.DirectoryEntry&gt; object's schema defines its properties and methods.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry&gt;속성 및 메서드에 개체의 스키마를 정의 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The name of the schema class for this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">이 대 한 스키마 클래스의 이름 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Gets the schema object for this entry.</source>
+          <target state="translated">이 항목에 대 한 스키마 개체를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An entry's schema determines a list of its mandatory and optional property names.</source>
+          <target state="translated">항목의 스키마의 필수 및 선택적 속성 이름 목록을 확인합니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this property to find out what properties and methods are available on the associated object.</source>
+          <target state="translated">연결된 된 개체에서 사용할 수 있는 속성 및 메서드를 확인 하려면이 속성을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the schema class for this entry.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 항목에 대 한 스키마 클래스를 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the cache should be committed after each operation.</source>
+          <target state="translated">각 작업이 끝난 후 캐시를 커밋할 수 있는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, changes to properties are made locally to a cache, and property values to be read are cached after the first read.</source>
+          <target state="translated">기본적으로 속성에 변경 내용이 로컬로 캐시 하 고 속성 값을 읽을 수는 첫 번째 읽은 후에 캐시 됩니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the UsePropertyCache property is <ph id="ph1">`true`</ph>, access to the &lt;xref:System.DirectoryServices.DirectoryEntry&gt; object's properties is faster.</source>
+          <target state="translated">UsePropertyCache 속성이 <ph id="ph1">`true`</ph>에 대 한 액세스는 &lt;xref:System.DirectoryServices.DirectoryEntry&gt;개체의 속성 빠릅니다.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this to <ph id="ph1">`false`</ph> will cause the cache to be committed after each operation.</source>
+          <target state="translated">이 값을 설정 <ph id="ph1">`false`</ph> 캐시가 각 작업이 끝난 후 커밋됩니다.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the UsePropertyCache property is <ph id="ph1">`true`</ph> and you want to commit cached changes, call the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; method.</source>
+          <target state="translated">UsePropertyCache 속성이 <ph id="ph1">`true`</ph> 호출 캐시 커밋 변경 하려는 &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;메서드.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To update values in the cache after changes to the directory are made, call the &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt; method.</source>
+          <target state="translated">파일을 디렉터리로 변경한 후 캐시에서 값을 업데이트 하려면 호출 된 &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;메서드.&lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  If you call &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt; before calling &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;, any uncommitted changes to the property cache will be lost.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 호출 하는 경우 &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;호출 하기 전에 &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;을 속성 캐시에 커밋되지 않은 변경 내용이 손실 됩니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Internet Information Services (IIS) provider does not support committing the cache after each operation.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 인터넷 정보 서비스 (IIS) 공급자는 각 작업이 끝난 후 캐시를 커밋하기를 지원 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the cache should not be committed after each operation; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>캐시를 커밋하려면 각 작업이 끝난 후 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Gets or sets the user name to use when authenticating the client.</source>
+          <target state="translated">클라이언트를 인증할 때 사용할 사용자 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the Username and &lt;xref:System.DirectoryServices.DirectoryEntry.Password%2A&gt; in order to specify alternate credentials with which to access the information in Active Directory Domain Services.</source>
+          <target state="translated">사용자 이름을 설정할 수 있습니다 및 &lt;xref:System.DirectoryServices.DirectoryEntry.Password%2A&gt;Active Directory 도메인 서비스의 정보에 액세스할 수 있는 대체 자격 증명을 지정할 수 있도록 합니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.Password%2A&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any other &lt;xref:System.DirectoryServices.DirectoryEntry&gt; objects retrieved from this instance (for example, through &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;) are automatically created with the same alternate credentials.</source>
+          <target state="translated">다른 모든 &lt;xref:System.DirectoryServices.DirectoryEntry&gt;이 인스턴스에서 검색 개체 (예: 전자 &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;) 동일한 대체 자격 증명을 사용 하 여 자동으로 만들어집니다.&lt;/xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The user name to use when authenticating the client.</source>
+          <target state="translated">클라이언트를 인증할 때 사용할 사용자 이름입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

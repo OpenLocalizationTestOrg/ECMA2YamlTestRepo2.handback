@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">514fca8437e5c547f43d247b8f574dc8f9764fc0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.OleDb.OleDbParameter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1776792017b34f42868e68afb59e84800d77b68f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">148d9453c4c9a0d9f73fe59788a14ee1c13995a8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a parameter to an <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally its mapping to a <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> column.</source>
+          <target state="translated">매개 변수를 나타내는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 에 대 한 매핑도 필요에 따라는 <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 열입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">이 클래스는 상속 될 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OLE DB.NET Framework Data Provider uses positional parameters that are marked with a question mark (?) instead of named parameters.</source>
+          <target state="translated">OLE DB.NET Framework 데이터 공급자는 명명 된 매개 변수 대신 물음표 (?)로 표시 된 위치 매개 변수를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When querying an Oracle database using the Microsoft OLE DB Provider for Oracle (MSDAORA) and the OLE DB.NET Framework Data Provider, using the <ph id="ph1">`LIKE`</ph> clause to query values in fixed-length fields may not return all expected matches.</source>
+          <target state="translated">Microsoft OLE DB Provider를 사용 하 여 Oracle MSDAORA () 및 OLE DB.NET Framework 데이터 공급자에 대 한 Oracle 데이터베이스를 쿼리할 때 사용 하는 <ph id="ph1">`LIKE`</ph> 절 쿼리 고정 길이 필드 값을 일치 하는 모든 필요한 항목을 반환할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The reason is that when Oracle matches values for fixed-length fields in a <ph id="ph1">`LIKE`</ph> clause, it matches the entire length of the string, including any padding trailing spaces.</source>
+          <target state="translated">Oracle의 고정 길이 필드 값을 일치 하는 경우는 이유는는 <ph id="ph1">`LIKE`</ph> 절 뒤쪽 채움 공백을 포함 하 여 문자열의 전체 길이 일치 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if a table in an Oracle database contains a field named "Field1" that is defined as <ph id="ph1">`char(3)`</ph>, and you enter the value "a" into a row of that table, the following code does not return the row.</source>
+          <target state="translated">예를 들어 테이블에 Oracle 데이터베이스 필드가 "Field1"으로 정의 된 <ph id="ph1">`char(3)`</ph>, 값을 입력 하 고 다음 코드를 해당 테이블의 행에 "a" 반환 하지 않는 행입니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```vb#   Dim queryString As String = "SELECT * FROM Table1 WHERE Field1 LIKE ?"   Dim command As OleDbCommand = New OleDbCommand(queryString, connection)   command.Parameters.Add("@p1", OleDbType.Char, 3).Value = "a"   Dim reader As OleDbDataReader = command.ExecuteReader()   ```</ph>      <ph id="ph2">```c#   string queryString = "SELECT * FROM Table1 WHERE Field1 LIKE ?";   OleDbCommand command = new OleDbCommand(queryString, connection);   command.Parameters.Add("@p1", OleDbType.Char, 3).Value = "a";   OleDbDataReader reader = command.ExecuteReader();   ```</ph>       This is because Oracle stores the column value as "a  " (padding "a", with trailing spaces, to the fixed field length of 3), which Oracle does not treat as a match for the parameter value of "a" in the case of a <ph id="ph3">`LIKE`</ph> comparison of fixed-length fields.</source>
+          <target state="translated"><ph id="ph1">```vb#   Dim queryString As String = "SELECT * FROM Table1 WHERE Field1 LIKE ?"   Dim command As OleDbCommand = New OleDbCommand(queryString, connection)   command.Parameters.Add("@p1", OleDbType.Char, 3).Value = "a"   Dim reader As OleDbDataReader = command.ExecuteReader()   ```</ph>      <ph id="ph2">```c#   string queryString = "SELECT * FROM Table1 WHERE Field1 LIKE ?";   OleDbCommand command = new OleDbCommand(queryString, connection);   command.Parameters.Add("@p1", OleDbType.Char, 3).Value = "a";   OleDbDataReader reader = command.ExecuteReader();   ```</ph>Oracle "a"로 서의 열 값을 저장 하기 때문에 이것이 (패딩 "a"와 후행 공백 3의 고정된 필드 길이), Oracle의 경우 "a"의 매개 변수 값에 대 한 일치 하는 항목으로 처리 하지 않습니다는 <ph id="ph3">`LIKE`</ph> 고정 길이 필드의 비교 합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To resolve this problem, append a percentage ("%") wildcard character to the parameter value (<ph id="ph1">`"a%"`</ph>), or use an SQL <ph id="ph2">`=`</ph> comparison instead.</source>
+          <target state="translated">이 문제를 해결 하려면 매개 변수 값에 백분율 ("%") 와일드 카드 문자를 추가 (<ph id="ph1">`"a%"`</ph>), 하거나 SQL을 사용 하 여 <ph id="ph2">`=`</ph> 비교 대신 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name and data type.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 매개 변수 이름과 데이터 형식을 사용 하는 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data type, and if appropriate, &lt;xref:System.Data.OleDb.OleDbParameter.Size%2A&gt; and &lt;xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt; are inferred from the value of the <ph id="ph1">`dataType`</ph> parameter.</source>
+          <target state="translated">데이터 형식, 적절 한 경우 &lt;xref:System.Data.OleDb.OleDbParameter.Size%2A&gt;및 &lt;xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt;의 값에서 유추 되는 <ph id="ph1">`dataType`</ph> 매개 변수.&lt;/xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.Size%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The name of the parameter to map.</source>
+          <target state="translated">매핑할 매개 변수의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The value supplied in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dataType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an invalid back-end data type.</source>
+          <target state="translated">제공 된 값이 고 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dataType</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수는 올바르지 않은 백 엔드 데이터 형식입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name and the value of the new <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 매개 변수 이름과 새 값을 사용 하 여 클래스 <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use caution when you are using this overload of the &lt;xref:System.Data.OleDb.OleDbParameter&gt; constructor to specify integer parameter values.</source>
+          <target state="translated">이 오버 로드를 사용 하는 경우 주의 해야는 &lt;xref:System.Data.OleDb.OleDbParameter&gt;정수 매개 변수 값을 지정 하는 생성자입니다.&lt;/xref:System.Data.OleDb.OleDbParameter&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this overload takes a <ph id="ph1">`value`</ph> of type &lt;xref:System.Object&gt;, you must convert the integral value to an &lt;xref:System.Object&gt; type when the value is zero, as the following C# example demonstrates.</source>
+          <target state="translated">이 오버 로드 때문에 <ph id="ph1">`value`</ph> 형식의 &lt;xref:System.Object&gt;, 정수 값을 변환 해야는 &lt;xref:System.Object&gt;다음 C# 예제에서 보여 주듯이 값이&amp;0; 인 경우을 입력 합니다.&lt;/xref:System.Object&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   Parameter = new OleDbParameter("@pname", Convert.ToInt32(0));   ```</ph>       If you do not perform this conversion, the compiler assumes that you are trying to call the &lt;xref:System.Data.OleDb.OleDbParameter.%23ctor%2A&gt; constructor overload.</source>
+          <target state="translated"><ph id="ph1">```   Parameter = new OleDbParameter("@pname", Convert.ToInt32(0));   ```</ph>이 변환을 수행 하지 않으면 컴파일러를 호출 하는 것을 가정은 &lt;xref:System.Data.OleDb.OleDbParameter.%23ctor%2A&gt;생성자 오버 로드.&lt;/xref:System.Data.OleDb.OleDbParameter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The name of the parameter to map.</source>
+          <target state="translated">매핑할 매개 변수의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The value of the new <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">새 값 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name, data type, and length.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 매개 변수 이름, 데이터 형식 및 길이 사용 하는 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbParameter.Size%2A&gt; is inferred from the value of the <ph id="ph1">`dataType`</ph> parameter if it is not explicitly set in the <ph id="ph2">`size`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbParameter.Size%2A&gt;의 값에서 유추는 <ph id="ph1">`dataType`</ph> 명시적으로 설정 하지 않으면 매개 변수는 <ph id="ph2">`size`</ph> 매개 변수.&lt;/xref:System.Data.OleDb.OleDbParameter.Size%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The name of the parameter to map.</source>
+          <target state="translated">매핑할 매개 변수의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The length of the parameter.</source>
+          <target state="translated">매개 변수의 길이입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The value supplied in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dataType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an invalid back-end data type.</source>
+          <target state="translated">제공 된 값이 고 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dataType</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수는 올바르지 않은 백 엔드 데이터 형식입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name, data type, length, and source column name.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 매개 변수 이름, 데이터 형식, 길이 및 소스 열 이름을 사용 하는 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbParameter.Size%2A&gt; is inferred from the value of the <ph id="ph1">`dataType`</ph> parameter if it is not explicitly set in the <ph id="ph2">`size`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbParameter.Size%2A&gt;의 값에서 유추는 <ph id="ph1">`dataType`</ph> 명시적으로 설정 하지 않으면 매개 변수는 <ph id="ph2">`size`</ph> 매개 변수.&lt;/xref:System.Data.OleDb.OleDbParameter.Size%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The name of the parameter to map.</source>
+          <target state="translated">매핑할 매개 변수의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The length of the parameter.</source>
+          <target state="translated">매개 변수의 길이입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The name of the source column.</source>
+          <target state="translated">원본 열의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The value supplied in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dataType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an invalid back-end data type.</source>
+          <target state="translated">제공 된 값이 고 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dataType</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수는 올바르지 않은 백 엔드 데이터 형식입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name, data type, length, source column name, parameter direction, numeric precision, and other properties.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 매개 변수 이름, 데이터 형식, 길이, 원본 열 이름, 매개 변수 방향, 전체 자릿수, 및 기타 속성을 사용 하는 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbParameter.Size%2A&gt; and &lt;xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt; are inferred from the value of the <ph id="ph1">`dataType`</ph> parameter if they are not explicitly set in the <ph id="ph2">`size`</ph> and <ph id="ph3">`precision`</ph> parameters.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbParameter.Size%2A&gt;및 &lt;xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt;의 값에서 유추 되는 <ph id="ph1">`dataType`</ph> 명시적으로 설정 되지 않은 경우 매개 변수는 <ph id="ph2">`size`</ph> 및 <ph id="ph3">`precision`</ph> 매개 변수.&lt;/xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.Size%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The name of the parameter.</source>
+          <target state="translated">매개 변수의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The length of the parameter.</source>
+          <target state="translated">매개 변수의 길이입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the value of the field can be null; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>필드의 값을 null; 허용 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The total number of digits to the left and right of the decimal point to which &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt; is resolved.</source>
+          <target state="translated">부분 왼쪽과 하는 소수점 오른쪽의 총 수 &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt;확인 됩니다.&lt;/xref:System.Data.OleDb.OleDbParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The total number of decimal places to which &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt; is resolved.</source>
+          <target state="translated">되는 소수 자릿수의 총 &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt;확인 됩니다.&lt;/xref:System.Data.OleDb.OleDbParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The name of the source column.</source>
+          <target state="translated">원본 열의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that is the value of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변수의 값인은 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The value supplied in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dataType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an invalid back-end data type.</source>
+          <target state="translated">제공 된 값이 고 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dataType</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수는 올바르지 않은 백 엔드 데이터 형식입니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that uses the parameter name, data type, length, source column name, parameter direction, numeric precision, and other properties.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 매개 변수 이름, 데이터 형식, 길이, 원본 열 이름, 매개 변수 방향, 전체 자릿수, 및 기타 속성을 사용 하는 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbParameter.Size%2A&gt; and &lt;xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt; are inferred from the value of the <ph id="ph1">`dataType`</ph> parameter if they are not explicitly set in the <ph id="ph2">`size`</ph> and <ph id="ph3">`precision`</ph> parameters.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbParameter.Size%2A&gt;및 &lt;xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt;의 값에서 유추 되는 <ph id="ph1">`dataType`</ph> 명시적으로 설정 되지 않은 경우 매개 변수는 <ph id="ph2">`size`</ph> 및 <ph id="ph3">`precision`</ph> 매개 변수.&lt;/xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.Size%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The name of the parameter.</source>
+          <target state="translated">매개 변수의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The length of the parameter.</source>
+          <target state="translated">매개 변수의 길이입니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The total number of digits to the left and right of the decimal point to which &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt; is resolved.</source>
+          <target state="translated">부분 왼쪽과 하는 소수점 오른쪽의 총 수 &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt;확인 됩니다.&lt;/xref:System.Data.OleDb.OleDbParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The total number of decimal places to which &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt; is resolved.</source>
+          <target state="translated">되는 소수 자릿수의 총 &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt;확인 됩니다.&lt;/xref:System.Data.OleDb.OleDbParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The name of the source column.</source>
+          <target state="translated">원본 열의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the source column is nullable; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if it is not.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>원본 열이 null을 허용 하는 경우 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 없는 경우.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that is the value of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;변수의 값인은 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The value supplied in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dataType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an invalid back-end data type.</source>
+          <target state="translated">제공 된 값이 고 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dataType</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수는 올바르지 않은 백 엔드 데이터 형식입니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the parameter.</source>
+          <target state="translated">가져오거나는 <bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; and DbType are linked.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt;고 연결 된 DbType.&lt;/xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, setting the DbType changes the &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; to a supporting &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt;.</source>
+          <target state="translated">따라서 DbType 설정 &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt;지원 &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt;.&lt;/xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; 변경</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of the supported data types, see the appropriate &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; member.</source>
+          <target state="translated">지원 되는 데이터 형식의 목록에 대 한 적절 한 참조 &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt;멤버.&lt;/xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>DataAdapter Parameters<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>DataAdapter 매개 변수<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The property was not set to a valid <bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">속성을 유효한 설정 되지 않았습니다 <bpt id="p1">&lt;xref href="System.Data.DbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the parameter is input-only, output-only, bidirectional, or a stored procedure return-value parameter.</source>
+          <target state="translated">여부는 매개 변수는 입력 전용, 출력 전용, 양방향 또는 저장된 프로시저 반환 값 매개 변수를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.ParameterDirection&gt; is output, and execution of the associated &lt;xref:System.Data.OleDb.OleDbCommand&gt; does not return a value, the &lt;xref:System.Data.OleDb.OleDbParameter&gt; contains a null value.</source>
+          <target state="translated">경우는 &lt;xref:System.Data.ParameterDirection&gt;출력과 연결 된 실행은 &lt;xref:System.Data.OleDb.OleDbCommand&gt;는 값을 반환 하지 않습니다는 &lt;xref:System.Data.OleDb.OleDbParameter&gt;null 값을 포함 합니다.&lt;/xref:System.Data.OleDb.OleDbParameter&gt; &lt;/xref:System.Data.OleDb.OleDbCommand&gt; &lt;/xref:System.Data.ParameterDirection&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Output`</ph>, <ph id="ph2">`InputOut`</ph>, and <ph id="ph3">`ReturnValue`</ph> parameters returned by calling &lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt; cannot be accessed until you call &lt;xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> on the &lt;xref:System.Data.OleDb.OleDbDataReader&gt;.</source>
+          <target state="translated"><ph id="ph1">`Output`</ph><ph id="ph2">`InputOut`</ph>, 및 <ph id="ph3">`ReturnValue`</ph> 매개 변수를 호출 하 여 반환 된 &lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;호출할 때까지 액세스할 수 없습니다 &lt;xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt;또는 <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> &lt;xref:System.Data.OleDb.OleDbDataReader&gt;.&lt;/xref:System.Data.OleDb.OleDbDataReader&gt; &lt;/xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt; &lt;/xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Input" name="Input" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_Input" name="Input" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The property was not set to one of the valid <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">유효 기간 중 하나에 속성이 설정 되지 않았습니다 <bpt id="p1">&lt;xref href="System.Data.ParameterDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the parameter accepts null values.</source>
+          <target state="translated">매개 변수가 null 값을 허용 하는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Null values are handled using the &lt;xref:System.DBNull&gt; class.</source>
+          <target state="translated">&lt;xref:System.DBNull&gt;클래스&lt;/xref:System.DBNull&gt; 를 사용 하 여 null 값 처리</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if null values are accepted; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>null 값이 허용 되 면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the parameter.</source>
+          <target state="translated">가져오거나는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OleDbType and &lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt; are linked.</source>
+          <target state="translated">OleDbType 및 &lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;연결 됩니다.&lt;/xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, setting the &lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt; changes the OleDbType to a supporting &lt;xref:System.Data.OleDb.OleDbType&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;변경 내용을 지원 &lt;xref:System.Data.OleDb.OleDbType&gt;.&lt;/xref:System.Data.OleDb.OleDbType&gt; OleDbType&lt;/xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt; 설정</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of the supported data types, see the appropriate &lt;xref:System.Data.OleDb.OleDbType&gt; member.</source>
+          <target state="translated">지원 되는 데이터 형식의 목록에 대 한 적절 한 참조 &lt;xref:System.Data.OleDb.OleDbType&gt;멤버.&lt;/xref:System.Data.OleDb.OleDbType&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>DataAdapter Parameters<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>DataAdapter 매개 변수<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the parameter.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이름을 가져오거나 설정 합니다.는 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OLE DB .NET Provider uses positional parameters that are marked with a question mark (?) instead of named parameters.</source>
+          <target state="translated">OLE DB.NET 공급자는 명명 된 매개 변수 대신 물음표 (?)로 표시 된 위치 매개 변수를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The name of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이름에서 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">기본값은 빈 문자열 ("").</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum number of digits used to represent the &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt; property.</source>
+          <target state="translated">나타내는 데 사용 되는 최대 자릿수를 가져오거나 설정 합니다.는 &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt;속성.&lt;/xref:System.Data.OleDb.OleDbParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Precision property is only used for decimal and numeric input parameters.</source>
+          <target state="translated">전체 자릿수 속성은&amp;10; 진수 및 숫자 입력된 매개 변수에 대해서만 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Precision property should be set only for <ph id="ph1">`Decimal`</ph> and <ph id="ph2">`Numeric`</ph> parameters prior to calling the &lt;xref:System.Data.OleDb.OleDbCommand.Prepare%2A&gt; method of the &lt;xref:System.Data.OleDb.OleDbCommand&gt;.</source>
+          <target state="translated">전체 자릿수 속성에 대해서만 설정 해야 <ph id="ph1">`Decimal`</ph> 및 <ph id="ph2">`Numeric`</ph> &lt;xref:System.Data.OleDb.OleDbCommand.Prepare%2A&gt; &lt;xref:System.Data.OleDb.OleDbCommand&gt;.&lt;/xref:System.Data.OleDb.OleDbCommand&gt; 메서드&lt;/xref:System.Data.OleDb.OleDbCommand.Prepare%2A&gt; 호출 하기 전에 매개 변수</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property to a value other than the value in the database depends on the implementation of the data provider and may return an error code, truncate, or round data.</source>
+          <target state="translated">데이터베이스의 값이 아닌 값으로이 속성을 설정 합니다. 데이터 공급자의 구현에 따라 및 오류 코드, truncate, 또는 라운드 데이터를 반환할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Precision`</ph> property only affects parameters whose &lt;xref:System.Data.OleDb.OleDbType&gt; is <ph id="ph2">`Decimal`</ph>, <ph id="ph3">`Numeric`</ph>, or <ph id="ph4">`VarNumeric`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Precision`</ph> 매개 변수 속성에만 영향을 가진 &lt;xref:System.Data.OleDb.OleDbType&gt;은 <ph id="ph2">`Decimal`</ph>, <ph id="ph3">`Numeric`</ph>, 또는 <ph id="ph4">`VarNumeric`</ph>.&lt;/xref:System.Data.OleDb.OleDbType&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For other data types, <ph id="ph1">`Precision`</ph> is ignored.</source>
+          <target state="translated">다른 데이터 형식에 대 한 <ph id="ph1">`Precision`</ph> 는 무시 됩니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Use of this property to coerce data passed to the database is not supported.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 데이터베이스에 전달 되는 데이터를 강제 변환할이 속성의 사용은 지원 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To round, truncate, or otherwise coerce data before passing it to the database, use the &lt;xref:System.Math&gt; class that is part of the <ph id="ph1">`System`</ph> namespace prior to assigning a value to the parameter's <ph id="ph2">`Value`</ph> property.</source>
+          <target state="translated">반올림 하거나 그렇지 않으면 데이터베이스에 전달 하기 전에 데이터를 강제를 사용 하 여는 &lt;xref:System.Math&gt;의 일부인 클래스는 <ph id="ph1">`System`</ph> 네임 스페이스에 매개 변수의 값을 할당 하기 전에 <ph id="ph2">`Value`</ph> 속성.&lt;/xref:System.Math&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  .NET Framework data providers that are included with the .NET Framework version 1.0 do not verify the Precision or &lt;xref:System.Data.OleDb.OleDbParameter.Scale%2A&gt; of &lt;xref:System.Decimal&gt; parameter values.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;.NET Framework 버전 1.0에 포함 된.NET framework 데이터 공급자의 전체 자릿수 확인 안 함 또는 &lt;xref:System.Data.OleDb.OleDbParameter.Scale%2A&gt;의 &lt;xref:System.Decimal&gt;매개 변수 값.&lt;/xref:System.Decimal&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.Scale%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can cause truncated data to be inserted at the data source.</source>
+          <target state="translated">이 인해 잘린된 데이터를 데이터 소스에서 삽입할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are using .NET Framework version 1.0, validate the Precision and &lt;xref:System.Data.OleDb.OleDbParameter.Scale%2A&gt; of &lt;xref:System.Decimal&gt; values before setting the parameter value.</source>
+          <target state="translated">.NET Framework 버전 1.0 사용 하는 경우 전체 자릿수의 유효성을 검사 하 고 &lt;xref:System.Data.OleDb.OleDbParameter.Scale%2A&gt;의 &lt;xref:System.Decimal&gt;값 매개 변수 값을 설정 하기 전에.&lt;/xref:System.Decimal&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.Scale%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.OleDb.OleDbParameter.Scale%2A&gt; values that exceed the &lt;xref:System.Decimal&gt; parameter scale are still truncated.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbParameter.Scale%2A&gt;초과 하는 값은 &lt;xref:System.Decimal&gt;매개 변수 크기는 여전히 잘립니다.&lt;/xref:System.Decimal&gt;&lt;/xref:System.Data.OleDb.OleDbParameter.Scale%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The maximum number of digits used to represent the &lt;xref:System.Data.OleDb.OleDbParameter.Value<bpt id="p1">*</bpt>&gt; property. The default value is 0, which indicates that the data provider sets the precision for &lt;xref:System.Data.OleDb.OleDbParameter.Value<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">나타내는 데 사용 하는 최대 자릿수는 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 속성. 기본값은 0으로,이 데이터 공급자에 대 한 전체 자릿수 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; 합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Resets the type associated with this <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 연결 된 형식을 다시 설정 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When executing a command that includes parameter values, code can either set the type of a parameter explicitly, or the parameter can infer its type from its value.</source>
+          <target state="translated">명령을 실행할 때 매개 변수 값을 포함 하는 코드 형식의 매개 변수를 명시적으로 설정 하거나 수 또는 매개 변수 값에서 형식을 유추할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method resets the parameter so that it can again infer its type from the value passed in the parameter.</source>
+          <target state="translated">이 메서드를 호출 하 여 다시 매개 변수에 전달 된 값에서 해당 형식을 유추할 수 있는 매개 변수 다시 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method affects both the &lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt; and &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; properties of the &lt;xref:System.Data.OleDb.OleDbParameter&gt;.</source>
+          <target state="translated">이 메서드를 호출 영향을 두는 &lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;및 &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; &lt;xref:System.Data.OleDb.OleDbParameter&gt;.&lt;/xref:System.Data.OleDb.OleDbParameter&gt; 속성&lt;/xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Resets the type associated with this <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 연결 된 형식을 다시 설정 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When executing a command that includes parameter values, code can either set the type of a parameter explicitly, or the parameter can infer its type from its value.</source>
+          <target state="translated">명령을 실행할 때 매개 변수 값을 포함 하는 코드 형식의 매개 변수를 명시적으로 설정 하거나 수 또는 매개 변수 값에서 형식을 유추할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method resets the parameter so that it can again infer its type from the value passed in the parameter.</source>
+          <target state="translated">이 메서드를 호출 하 여 다시 매개 변수에 전달 된 값에서 해당 형식을 유추할 수 있는 매개 변수 다시 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method affects both the &lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt; and &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; properties of the &lt;xref:System.Data.OleDb.OleDbParameter&gt;.</source>
+          <target state="translated">이 메서드를 호출 영향을 두는 &lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;및 &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; &lt;xref:System.Data.OleDb.OleDbParameter&gt;.&lt;/xref:System.Data.OleDb.OleDbParameter&gt; 속성&lt;/xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of decimal places to which &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt; is resolved.</source>
+          <target state="translated">소수 자릿수를 가져오거나 &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt;확인 됩니다.&lt;/xref:System.Data.OleDb.OleDbParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Scale property is only used for decimal and numeric input parameters before calling the &lt;xref:System.Data.OleDb.OleDbCommand.Prepare%2A&gt; method of the &lt;xref:System.Data.OleDb.OleDbCommand&gt; and to specify numeric output parameters.</source>
+          <target state="translated">눈금 속성은 호출 하기 전에&amp;10; 진수 및 숫자 입력된 매개 변수에 대해서만 사용 됩니다는 &lt;xref:System.Data.OleDb.OleDbCommand.Prepare%2A&gt;의 메서드는 &lt;xref:System.Data.OleDb.OleDbCommand&gt;및 숫자 출력 매개 변수를 지정 합니다.&lt;/xref:System.Data.OleDb.OleDbCommand&gt; &lt;/xref:System.Data.OleDb.OleDbCommand.Prepare%2A&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property to a value other than the value in the database depends on the implementation of the data provider and may return an error code, truncate, or round data.</source>
+          <target state="translated">데이터베이스의 값이 아닌 값으로이 속성을 설정 합니다. 데이터 공급자의 구현에 따라 및 오류 코드, truncate, 또는 라운드 데이터를 반환할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using SQL Server Native Client 10 (or later), to bind a parameter whose type is <ph id="ph1">`Decimal`</ph>, <ph id="ph2">`Numeric,``VarNumeric, DBDate`</ph>, or <ph id="ph3">`DBTimeStamp`</ph>, you must manually specify an appropriate scale value.</source>
+          <target state="translated">SQL Server Native Client 10 (또는 이상)를 사용 하는 경우는 형식의 매개 변수를 바인딩할 <ph id="ph1">`Decimal`</ph>, <ph id="ph2">`Numeric,``VarNumeric, DBDate`</ph>, 또는 <ph id="ph3">`DBTimeStamp`</ph>, 적합 한 크기 값을 수동으로 지정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Use of this property to coerce data passed to the database is not supported.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 데이터베이스에 전달 되는 데이터를 강제 변환할이 속성의 사용은 지원 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To round, truncate, or otherwise coerce data before passing it to the database, use the &lt;xref:System.Math&gt; class that is part of the <ph id="ph1">`System`</ph> namespace prior to assigning a value to the parameter's <ph id="ph2">`Value`</ph> property.</source>
+          <target state="translated">반올림 하거나 그렇지 않으면 데이터베이스에 전달 하기 전에 데이터를 강제를 사용 하 여는 &lt;xref:System.Math&gt;의 일부인 클래스는 <ph id="ph1">`System`</ph> 네임 스페이스에 매개 변수의 값을 할당 하기 전에 <ph id="ph2">`Value`</ph> 속성.&lt;/xref:System.Math&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  .NET Framework data providers that are included with the .NET Framework version 1.0 do not verify the &lt;xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt; or Scale of &lt;xref:System.Decimal&gt; parameter values.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;.NET Framework 버전 1.0에 포함 된.NET framework 데이터 공급자를 확인 하지 않습니다는 &lt;xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt;또는 소수 자릿수가 &lt;xref:System.Decimal&gt;매개 변수 값.&lt;/xref:System.Decimal&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can cause truncated data to be inserted at the data source.</source>
+          <target state="translated">이 인해 잘린된 데이터를 데이터 소스에서 삽입할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are using .NET Framework version 1.0, validate the &lt;xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt; and &lt;xref:System.Data.OleDb.OleDbParameter&gt; of &lt;xref:System.Decimal&gt; values before setting the parameter value.</source>
+          <target state="translated">.NET Framework 버전 1.0 사용 하는 경우 유효성 검사는 &lt;xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt;및 &lt;xref:System.Data.OleDb.OleDbParameter&gt;의 &lt;xref:System.Decimal&gt;값 매개 변수 값을 설정 하기 전에.&lt;/xref:System.Decimal&gt; &lt;/xref:System.Data.OleDb.OleDbParameter&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.Precision%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Scale values that exceed the &lt;xref:System.Decimal&gt; parameter scale are still truncated.</source>
+          <target state="translated">초과 하는 값의 크기를 조정 된 &lt;xref:System.Decimal&gt;매개 변수 크기는 여전히 잘립니다.&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The number of decimal places to which &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt; is resolved.</source>
+          <target state="translated">에 소수 자릿수 &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt;확인 됩니다.&lt;/xref:System.Data.OleDb.OleDbParameter.Value*&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The default is 0.</source>
+          <target state="translated">기본값은 0입니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum size, in bytes, of the data within the column.</source>
+          <target state="translated">열에 데이터를 바이트 단위로 최대 크기를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Size property is used for binary and string types.</source>
+          <target state="translated">Size 속성 이진 및 문자열 형식에 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For nonstring data types and ANSI string data, the Size property refers to the number of bytes.</source>
+          <target state="translated">문자열이 아닌 데이터 형식 및 ANSI 문자열 데이터의 크기 속성이 바이트 수를 의미합니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For Unicode string data, Size refers to the number of characters.</source>
+          <target state="translated">유니코드 문자열 데이터에 대 한 크기는 문자 수를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The count for strings does not include the terminating character.</source>
+          <target state="translated">문자열에 대 한 개수 종결 문자를 포함 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For variable-length data types, Size describes the maximum amount of data to transmit to the server.</source>
+          <target state="translated">가변 길이 데이터 형식에 대 한 크기는 서버에 전송할 데이터의 최대 크기를 설명 합니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, for a Unicode string value, Size could be used to limit the amount of data sent to the server to the first 100 characters.</source>
+          <target state="translated">예를 들어 유니코드 문자열 값에 대 한 크기 처음 100 자가 하는 서버에 전송 된 데이터의 양을 제한 하는 데 사용 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For bidirectional and output parameters, and return values, you must set the value of Size.</source>
+          <target state="translated">양방향 및 출력 매개 변수 및 반환 값에 대 한 크기의 값을 설정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is not required for input parameters, and if not explicitly set, the value of is inferred from the actual size of the specified parameter when a parameterized statement is executed.</source>
+          <target state="translated">이 입력된 매개 변수에 대 한 명시적으로 설정의 값에서에서 유추 됩니다 지정된 된 매개 변수의 실제 크기 매개 변수가 있는 문을 실행 하 고 있습니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;, &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt;, and Size properties of a parameter can be inferred by setting &lt;xref:System.Data.OleDb.OleDbParameter.Value%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;, &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt;, &lt;xref:System.Data.OleDb.OleDbParameter.Value%2A&gt;.&lt;/xref:System.Data.OleDb.OleDbParameter.Value%2A&gt; 를 설정 하 여 매개 변수 크기 속성을 유추할 수&lt;/xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you are not required to specify them.</source>
+          <target state="translated">따라서는 지정할 필요가 없습니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, they are not exposed in &lt;xref:System.Data.OleDb.OleDbParameter&gt; property settings.</source>
+          <target state="translated">그러나에 노출 되지 않습니다 &lt;xref:System.Data.OleDb.OleDbParameter&gt;속성 설정을.&lt;/xref:System.Data.OleDb.OleDbParameter&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the size of the parameter has been inferred, Size does not contain the inferred value after statement execution.</source>
+          <target state="translated">예를 들어 매개 변수의 크기 유추 된 경우 문 실행 다음 유추 된 값 크기에 포함 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For fixed-length data types, the value of Size is ignored.</source>
+          <target state="translated">고정 길이 데이터 형식에 대 한 크기의 값은 무시 됩니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be retrieved for informational purposes, and returns the maximum amount of bytes the provider uses when transmitting the value of the parameter to the server.</source>
+          <target state="translated">정보 제공 목적으로 검색할 수 있습니다 하 고 공급자 서버에 매개 변수 값을 전송할 때 사용 하는 바이트의 최대 크기를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the size of the value supplied for an &lt;xref:System.Data.OleDb.OleDbParameter&gt; exceeds the specified Size, the &lt;xref:System.Data.OleDb.OleDbParameter.Value%2A&gt; of the &lt;xref:System.Data.OleDb.OleDbParameter&gt; contains the specified value, truncated to the size of the &lt;xref:System.Data.OleDb.OleDbParameter&gt;.</source>
+          <target state="translated">제공 된 값의 크기 &lt;xref:System.Data.OleDb.OleDbParameter&gt;는 &lt;xref:System.Data.OleDb.OleDbParameter.Value%2A&gt; &lt;xref:System.Data.OleDb.OleDbParameter&gt; &lt;xref:System.Data.OleDb.OleDbParameter&gt;.&lt;/xref:System.Data.OleDb.OleDbParameter&gt; 의 크기에 맞게 잘리고에 지정 된 값&lt;/xref:System.Data.OleDb.OleDbParameter&gt; 의&lt;/xref:System.Data.OleDb.OleDbParameter.Value%2A&gt; 지정된 된 크기를 초과&lt;/xref:System.Data.OleDb.OleDbParameter&gt; 하는 경우</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The maximum size, in bytes, of the data within the column.</source>
+          <target state="translated">열에 데이터를 바이트 단위로 최대 크기입니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The default value is inferred from the parameter value.</source>
+          <target state="translated">기본값은 매개 변수 값에서 유추 됩니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the source column mapped to the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and used for loading or returning the &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt;.</source>
+          <target state="translated">에 매핑되는 원본 열의 이름을 가져오거나 설정 합니다.는 <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 를 로드 하거나 반환 &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt;.&lt;/xref:System.Data.OleDb.OleDbParameter.Value*&gt; 사용</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When SourceColumn is set to anything other than an empty string, the value of the parameter is retrieved from the column with the SourceColumn name.</source>
+          <target state="translated">SourceColumn은 빈 문자열 이외의 값으로 설정 되 면 매개 변수의 값은 SourceColumn 이름으로 열에서 검색 됩니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Data.OleDb.OleDbParameter.Direction%2A&gt; is set to <ph id="ph1">`Input`</ph>, the value is taken from the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">경우 &lt;xref:System.Data.OleDb.OleDbParameter.Direction%2A&gt;로 설정 된 <ph id="ph1">`Input`</ph>, &lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt; 값을 가져옵니다&lt;/xref:System.Data.OleDb.OleDbParameter.Direction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Data.OleDb.OleDbParameter.Direction%2A&gt; is set to <ph id="ph1">`Output`</ph>, the value is taken from the data source.</source>
+          <target state="translated">경우 &lt;xref:System.Data.OleDb.OleDbParameter.Direction%2A&gt;로 설정 된 <ph id="ph1">`Output`</ph>, 데이터 원본에서 값을 가져옵니다.&lt;/xref:System.Data.OleDb.OleDbParameter.Direction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Data.OleDb.OleDbParameter.Direction%2A&gt; of <ph id="ph1">`InputOutput`</ph> is a combination of both.</source>
+          <target state="translated">A &lt;xref:System.Data.OleDb.OleDbParameter.Direction%2A&gt;의 <ph id="ph1">`InputOutput`</ph> 둘의 조합입니다.&lt;/xref:System.Data.OleDb.OleDbParameter.Direction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to use the SourceColumn property, see <bpt id="p1">[</bpt>DataAdapter Parameters<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Updating Data Sources with DataAdapters<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">SourceColumn 속성을 사용 하는 방법에 대 한 자세한 내용은 참조 <bpt id="p1">[</bpt>DataAdapter 매개 변수<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> 및 <bpt id="p2">[</bpt>Dataadapter로 데이터 원본 업데이트<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The name of the source column mapped to the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">에 매핑되는 원본 열의 이름은 <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The default is an empty string.</source>
+          <target state="translated">기본값은 빈 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Sets or gets a value which indicates whether the source column is nullable.</source>
+          <target state="translated">원본 열이 null을 허용 하는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This allows <bpt id="p1">&lt;xref href="System.Data.Common.DbCommandBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to correctly generate Update statements for nullable columns.</source>
+          <target state="translated">이 통해 <bpt id="p1">&lt;xref href="System.Data.Common.DbCommandBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> null 허용 열에 대 한 Update 문을 올바르게 생성할 하 합니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SourceColumnNullMapping is used by the &lt;xref:System.Data.Common.DbCommandBuilder&gt; to correctly generate update commands when dealing with nullable columns.</source>
+          <target state="translated">SourceColumnNullMapping에서 사용 되는 &lt;xref:System.Data.Common.DbCommandBuilder&gt;null 허용 열을 다룰 때 제대로 업데이트 명령을 생성 합니다.&lt;/xref:System.Data.Common.DbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generally, use of SourceColumnNullMapping is limited to developers inheriting from &lt;xref:System.Data.Common.DbCommandBuilder&gt;.</source>
+          <target state="translated">일반적으로 SourceColumnNullMapping의 사용이 &lt;xref:System.Data.Common.DbCommandBuilder&gt;.&lt;/xref:System.Data.Common.DbCommandBuilder&gt; 으로 제한</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.Common.DbCommandBuilder&gt; uses this property to determine whether the source column is nullable, and sets this property to <ph id="ph1">`true`</ph> if it is nullable, and <ph id="ph2">`false`</ph> if it is not.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DbCommandBuilder&gt;원본 열이 null을 허용 하 고이 속성을 설정 하는지 여부를 확인 하려면이 속성을 사용 하 여 <ph id="ph1">`true`</ph> 은 null을 허용 하는 경우 및 <ph id="ph2">`false`</ph> 없는 경우.&lt;/xref:System.Data.Common.DbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.Data.Common.DbCommandBuilder&gt; is generating its Update statement, it examines the SourceColumnNullMapping for each parameter.</source>
+          <target state="translated">때 &lt;xref:System.Data.Common.DbCommandBuilder&gt;은 각 매개 변수에 대해 SourceColumnNullMapping 검사는 Update 문을 생성 합니다.&lt;/xref:System.Data.Common.DbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the property is <ph id="ph1">`true`</ph>, &lt;xref:System.Data.Common.DbCommandBuilder&gt; generates a WHERE clauses like the following (in this query expression, "FieldName" represents the name of the field):      <ph id="ph2">```   ((@IsNull_FieldName = 1 AND FieldName IS NULL) OR      (FieldName = @Original_FieldName))   ```</ph>       If SourceColumnNullMapping for the field is false, &lt;xref:System.Data.Common.DbCommandBuilder&gt; generates the following WHERE clause:      <ph id="ph3">```   FieldName = @OriginalFieldName   ```</ph>       In addition, <ph id="ph4">@IsNull_FieldName</ph> contains 1 if the source field contains null, and 0 if it does not.</source>
+          <target state="translated">속성이 <ph id="ph1">`true`</ph>, &lt;xref:System.Data.Common.DbCommandBuilder&gt;다음과 같은 WHERE 절을 생성 (이 쿼리 식은 "FieldName" 나타냅니다 필드의 이름): <ph id="ph2">```   ((@IsNull_FieldName = 1 AND FieldName IS NULL) OR      (FieldName = @Original_FieldName))   ```</ph> 필드에 대 한 경우 SourceColumnNullMapping이 false 이면 &lt;xref:System.Data.Common.DbCommandBuilder&gt;다음 WHERE 절을 생성: <ph id="ph3">```   FieldName = @OriginalFieldName   ```</ph> 또한 <ph id="ph4">@IsNull_FieldName</ph> 원본 필드 및 포함 된 경우 null, 0 그렇지 않은 경우 1을 포함 합니다.&lt;/xref:System.Data.Common.DbCommandBuilder&gt; &lt;/xref:System.Data.Common.DbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This mechanism allows for a performance optimization in SQL Server, and provides for common code that works across multiple providers.</source>
+          <target state="translated">이 메커니즘의 SQL Server 성능 최적화 기능을 허용 하 고 여러 공급자 들 간에 작동 하는 일반적인 코드에 대 한 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the source column is nullable; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if it is not.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>원본 열이 null을 허용 하는 경우 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 없는 경우.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use when you load &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt;.</source>
+          <target state="translated">가져오거나는 <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> &lt;xref:System.Data.OleDb.OleDbParameter.Value*&gt;.&lt;/xref:System.Data.OleDb.OleDbParameter.Value*&gt; 를 로드할 때 사용할</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Used by &lt;xref:System.Data.OleDb.OleDbDataAdapter.UpdateCommand%2A&gt; during an update operation to determine whether the parameter value is set to <ph id="ph1">`Current`</ph> or <ph id="ph2">`Original`</ph>.</source>
+          <target state="translated">사용 하는 &lt;xref:System.Data.OleDb.OleDbDataAdapter.UpdateCommand%2A&gt;매개 변수 값 설정 되는지 여부를 결정 하는 업데이트 작업 중 <ph id="ph1">`Current`</ph> 또는 <ph id="ph2">`Original`</ph>.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.UpdateCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This lets primary keys be updated.</source>
+          <target state="translated">이렇게 하면 기본 키를 업데이트할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is set to the version of the &lt;xref:System.Data.DataRow&gt; used by the &lt;xref:System.Data.DataRow.Item%2A&gt; property, or the &lt;xref:System.Data.DataRow.GetChildRows%2A&gt; method of the &lt;xref:System.Data.DataRow&gt; object.</source>
+          <target state="translated">이 속성의 버전에는 &lt;xref:System.Data.DataRow&gt;에서 사용 하는 &lt;xref:System.Data.DataRow.Item%2A&gt;속성을 또는 &lt;xref:System.Data.DataRow.GetChildRows%2A&gt;의 메서드는 &lt;xref:System.Data.DataRow&gt;개체입니다.&lt;/xref:System.Data.DataRow&gt; &lt;/xref:System.Data.DataRow.GetChildRows%2A&gt; &lt;/xref:System.Data.DataRow.Item%2A&gt; &lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Current" name="Current" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_Current" name="Current" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The property was not set to one of the <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">속성 중 하나로 설정 되지 않았습니다 고 <bpt id="p1">&lt;xref href="System.Data.DataRowVersion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">이 멤버에 대 한 참조 <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">이 멤버는 명시적 인터페이스 멤버 구현 이며</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbParameter&gt; instance is cast to an &lt;xref:System.ICloneable&gt; interface.</source>
+          <target state="translated">사용할 수 있습니다 경우에만 &lt;xref:System.Data.OleDb.OleDbParameter&gt;인스턴스로 캐스팅 되는 &lt;xref:System.ICloneable&gt;인터페이스.&lt;/xref:System.ICloneable&gt; &lt;/xref:System.Data.OleDb.OleDbParameter&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.Object&gt; that is a copy of this instance.</source>
+          <target state="translated">새 &lt;xref:System.Object&gt;이 인스턴스의 복사본입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Gets a string that contains the &lt;xref:System.Data.OleDb.OleDbParameter.ParameterName*&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbParameter.ParameterName*&gt;.&lt;/xref:System.Data.OleDb.OleDbParameter.ParameterName*&gt; 를 포함 하는 문자열을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>A string that contains the &lt;xref:System.Data.OleDb.OleDbParameter.ParameterName*&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbParameter.ParameterName*&gt;.&lt;/xref:System.Data.OleDb.OleDbParameter.ParameterName*&gt; 를 포함 하는 문자열</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the parameter.</source>
+          <target state="translated">매개 변수의 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For input parameters, the value is bound to the &lt;xref:System.Data.OleDb.OleDbCommand&gt; that is sent to the server.</source>
+          <target state="translated">에 바인딩된 값에 대 한 입력된 매개 변수는 &lt;xref:System.Data.OleDb.OleDbCommand&gt;서버로 보내집니다.&lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For output and return value parameters, the value is set on completion of the &lt;xref:System.Data.OleDb.OleDbCommand&gt; and after the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; is closed.</source>
+          <target state="translated">완료에는 값이 설정 출력 및 반환 값 매개 변수는 &lt;xref:System.Data.OleDb.OleDbCommand&gt;후는 &lt;xref:System.Data.OleDb.OleDbDataReader&gt;닫힙니다.&lt;/xref:System.Data.OleDb.OleDbDataReader&gt; &lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you send a null parameter value to the server, you must specify &lt;xref:System.DBNull&gt;, not null.</source>
+          <target state="translated">서버에 null 매개 변수 값을 보낼 때 지정 해야 &lt;xref:System.DBNull&gt;, null이 아닌.&lt;/xref:System.DBNull&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The null value in the system is an empty object that has no value.</source>
+          <target state="translated">시스템에서 null 값은 값이 없는 빈 개체입니다.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.DBNull&gt; is used to represent null values.</source>
+          <target state="translated">&lt;xref:System.DBNull&gt;null 값을 나타내는 데 사용 됩니다.&lt;/xref:System.DBNull&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application specifies the database type, the bound value is converted to that type when the provider sends the data to the server.</source>
+          <target state="translated">응용 프로그램 데이터베이스 형식을 지정 하는 경우 바인딩된 값 공급자가 서버에 데이터를 보낼 때 해당 형식으로 변환 됩니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The provider tries to convert any type of value if it supports the &lt;xref:System.IConvertible&gt; interface.</source>
+          <target state="translated">공급자가 지 원하는 경우 모든 유형의 값을 변환 하는 &lt;xref:System.IConvertible&gt;인터페이스.&lt;/xref:System.IConvertible&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversion errors may result if the specified type is not compatible with the value.</source>
+          <target state="translated">지정된 된 형식의 값과 호환 되지 않는 경우 변환 오류가 발생할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the &lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt; and &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; properties can be inferred by setting the Value.</source>
+          <target state="translated">둘 다는 &lt;xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;및 &lt;xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt;속성 값을 설정 하 여 유추할 수 있습니다.&lt;/xref:System.Data.OleDb.OleDbParameter.OleDbType%2A&gt; &lt;/xref:System.Data.OleDb.OleDbParameter.DbType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Value property is overwritten by the Update method of &lt;xref:System.Data.IDbDataAdapter&gt;.</source>
+          <target state="translated">Value 속성을 덮어씁니다 &lt;xref:System.Data.IDbDataAdapter&gt;.&lt;/xref:System.Data.IDbDataAdapter&gt; 의 Update 메서드</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that is the value of the parameter.</source>
+          <target state="translated">&lt;xref:System.Object&gt;매개 변수 값.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The default value is null.</source>
+          <target state="translated">기본값은 null입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

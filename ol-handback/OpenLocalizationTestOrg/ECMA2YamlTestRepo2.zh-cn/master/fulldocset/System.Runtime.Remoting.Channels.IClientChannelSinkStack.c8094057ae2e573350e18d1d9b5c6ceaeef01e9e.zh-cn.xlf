@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a4211e680eb2ed0a94e8f6223ea0787105b6aa41</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Channels.IClientChannelSinkStack.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac0ecfc97932764a99cee9ff1613cdca337a33d7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cba03d7cc6ea6fb568d286dc373922a9e39df0ed</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides functionality for a stack of client channel sinks that must be invoked during an asynchronous message response decoding.</source>
+          <target state="translated">提供的客户端堆栈必须异步消息响应解码过程中调用的信道接收器的功能。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The IClientChannelSinkStack is used during processing of responses to asynchronous calls.</source>
+          <target state="translated">IClientChannelSinkStack 主要用于对异步调用的响应的处理过程。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>During a synchronous call, the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A?displayProperty=fullName&gt; method is called when a message is outbound to the server.</source>
+          <target state="translated">在同步调用，&lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A?displayProperty=fullName&gt;消息被发送到服务器时调用方法。&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Each sink in the sink chain calls the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt; method on the next sink until the call reaches the transport sink at the end of the chain.</source>
+          <target state="translated">在接收器链调用中的每个接收器&lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt;方法之前调用到达传输接收器链末尾对下一个接收器。&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>From there the message is transported to the server.</source>
+          <target state="translated">从该处消息传输到服务器。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When the formatter sink is called through the &lt;xref:System.Runtime.Remoting.Messaging.IMessageSink.AsyncProcessMessage%2A&gt; method, it dispatches the call asynchronously by calling &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt; on the next channel sink.</source>
+          <target state="translated">当通过调用格式化程序接收器&lt;xref:System.Runtime.Remoting.Messaging.IMessageSink.AsyncProcessMessage%2A&gt;方法，它调用异步调度通过调用&lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;对下一个通道接收器。&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt; &lt;/xref:System.Runtime.Remoting.Messaging.IMessageSink.AsyncProcessMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A stack of reply sinks is needed to process the response.</source>
+          <target state="translated">所需的答复接收器堆栈来处理该响应。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Any sink that wants to process the response needs to push itself to the client channel sink stack inside of &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;.</source>
+          <target state="translated">想要处理的响应任何接收器需要将其自身推送到客户端通道接收器堆栈内&lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Pops the information associated with all the sinks from the sink stack up to and including the specified sink.</source>
+          <target state="translated">弹出达与从接收器堆栈的所有接收器关联和包括指定的接收器的信息。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The sink to remove and return from the sink stack.</source>
+          <target state="translated">若要移除并返回从接收器堆栈接收器。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Information generated on the request side and associated with the specified sink.</source>
+          <target state="translated">请求端上生成并与指定的接收器相关联的信息。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直接调用方没有基础结构权限。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Pushes the specified sink and information associated with it onto the sink stack.</source>
+          <target state="translated">将指定的接收器和与它关联到接收器堆栈信息的推送。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The information generated on the request side and specified in the <ph id="ph1">`state`</ph> parameter is returned in the <ph id="ph2">`state`</ph> parameter of the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessResponse%2A&gt; method on the corresponding sink.</source>
+          <target state="translated">信息请求端上生成并中指定<ph id="ph1">`state`</ph>参数中返回<ph id="ph2">`state`</ph>参数&lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessResponse%2A&gt;相应接收器上的方法。&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessResponse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The sink to push onto the sink stack.</source>
+          <target state="translated">要推送到接收器堆栈接收器。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Information generated on the request side that is needed on the response side.</source>
+          <target state="translated">在响应端需要的请求端上生成的信息。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直接调用方没有基础结构权限。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

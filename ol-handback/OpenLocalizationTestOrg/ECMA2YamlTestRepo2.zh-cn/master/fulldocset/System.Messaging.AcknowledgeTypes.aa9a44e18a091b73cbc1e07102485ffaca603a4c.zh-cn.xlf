@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a508efce93571ff0820406ef3cd83961ac62d776</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.AcknowledgeTypes.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3a5699a2dd85e913f53a58686c539c042ff4be0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ffb688fc15bf965b207bd8b03cfbc03ff8a45bb0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the types of acknowledgment message that Message Queuing returns to the sending application.</source>
+          <target state="translated">指定消息队列返回给发送应用程序的确认消息的类型。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The AcknowledgeTypes class provides a set of flags that you can combine to request one or more categories of acknowledgment messages.</source>
+          <target state="translated">AcknowledgeTypes 类提供一组标志，你可以组合使用来请求一个或多个类别的确认消息。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>When an application sends a message, it can request that Message Queuing return acknowledgment messages indicating the success or failure of the original message.</source>
+          <target state="translated">当应用程序发送一条消息时，它可以请求，消息队列返回指示成功或失败的原始消息的确认消息。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Message Queuing sends these acknowledgment messages to the administration queue you specify.</source>
+          <target state="translated">消息队列将这些确认消息发送到你指定的管理队列。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Acknowledgment types can be divided broadly into four groups: positive arrival acknowledgments, positive read acknowledgments, negative arrival acknowledgments, and negative read acknowledgments.</source>
+          <target state="translated">确认类型可广泛划分为四个组︰ 正到达确认、 肯定读取的确认、 否定到达确认和否定读取的确认。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Requesting acknowledgments enables your application to receive notification of certain occurrences—for example, a message reaching its destination queue, a message being retrieved, or a time-out preventing a message from reaching or being retrieved from the destination queue.</source>
+          <target state="translated">请求确认使你的应用程序可以接收特定事件的通知-例如，消息到达其目标队列、 正在检索消息或超时妨碍到达或正在从目标队列检索消息。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When you are using the &lt;xref:System.Messaging.Message&gt; class to send messages to a queue, you specify the types of acknowledgments your application should receive in the &lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt; property, as well as the administration queue that receives the acknowledgment messages in the &lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt; property.</source>
+          <target state="translated">如果要使用&lt;xref:System.Messaging.Message&gt;类将消息发送到队列中，指定类型的确认你的应用程序应接收在&lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt;属性，以及接收的确认消息中的管理队列&lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt;属性。&lt;/xref:System.Messaging.Message.AdministrationQueue%2A&gt; &lt;/xref:System.Messaging.Message.AcknowledgeType%2A&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When you use the &lt;xref:System.Messaging.Message&gt; class to read acknowledgment messages in the administration queue, the instance's &lt;xref:System.Messaging.Message.Acknowledgment%2A&gt; property indicates the condition responsible for the acknowledgment message, for example, if a time-out expired before the original message was read from the queue.</source>
+          <target state="translated">当你使用&lt;xref:System.Messaging.Message&gt;类来读取确认消息中的管理队列，该实例的&lt;xref:System.Messaging.Message.Acknowledgment%2A&gt;属性指示的条件负责的确认消息，例如，如果超时过期之前的原始消息已从队列中读取。&lt;/xref:System.Messaging.Message.Acknowledgment%2A&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A mask used to request positive acknowledgment if the original message reaches the queue or negative acknowledgment if the time-to-reach-queue timer expires or if the original message cannot be authenticated.</source>
+          <target state="translated">一个掩码，用于请求肯定确认，如果在原始消息到达队列或否定确认，如果在到达队列时间计时器过期或原始消息无法进行身份验证。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A mask used to request positive acknowledgment if the original message is received from the queue before its time-to-be-received timer expires or negative acknowledgment otherwise.</source>
+          <target state="translated">用于请求肯定确认，如果其接收时间计时器过期之前，从该队列接收原始消息或否定确认，否则的掩码。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A mask used to request a negative acknowledgment when the original message fails to be received from the queue.</source>
+          <target state="translated">用于从队列接收原始消息失败时请求将否定确认的掩码。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Using the &lt;xref:System.Messaging.MessageQueue.Peek%2A?displayProperty=fullName&gt; method does not remove a message from the queue, so this acknowledgment type could be returned even if you did peek the message.</source>
+          <target state="translated">使用&lt;xref:System.Messaging.MessageQueue.Peek%2A?displayProperty=fullName&gt;因此无法返回此确认类型，即使未扫视消息方法不会从队列中删除一条消息。&lt;/xref:System.Messaging.MessageQueue.Peek%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Only the &lt;xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt; method (or the related asynchronous &lt;xref:System.Messaging.MessageQueue.BeginReceive%2A?displayProperty=fullName&gt; method) removes a message from the queue.</source>
+          <target state="translated">仅&lt;xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt;方法 (或相关异步&lt;xref:System.Messaging.MessageQueue.BeginReceive%2A?displayProperty=fullName&gt;方法) 中从队列中移除消息。&lt;/xref:System.Messaging.MessageQueue.BeginReceive%2A?displayProperty=fullName&gt; &lt;/xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A mask used to request that no acknowledgment messages (positive or negative) be posted.</source>
+          <target state="translated">发布用于请求任何确认消息 （正或负） 的掩码。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A mask used to request a negative acknowledgment when the original message cannot reach the queue.</source>
+          <target state="translated">用于原始消息无法到达队列时请求将否定确认的掩码。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This can happen when the time-to-reach-queue timer expires or if a message cannot be authenticated.</source>
+          <target state="translated">这可能发生在到达队列时间计时器过期时，或如果消息无法进行身份验证。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A mask used to request a negative acknowledgment when an error occurs that prevents the original message from being received from the queue before its time-to-be-received timer expires.</source>
+          <target state="translated">掩码，用于请求将否定确认，发生错误时可阻止原始消息的接收时间计时器终止之前从队列接收。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A mask used to request a positive acknowledgment when the original message reaches the queue.</source>
+          <target state="translated">用于在原始消息到达队列时请求肯定确认的掩码。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A mask used to request a positive acknowledgment when the original message is successfully retrieved from the queue.</source>
+          <target state="translated">用于请求肯定确认时原始消息已成功从队列检索的掩码。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

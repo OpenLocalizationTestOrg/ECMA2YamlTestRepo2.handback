@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a64c16d4669c656e23b4e623e8655f7b71ef07c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f91861f91bd4704eef2bfb2e62926669175777bc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2f7711d0f39b410b54ecfe1039fca63901605b05</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Processes session tokens by using signing and encryption keys specified in the ASP.NET <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;machineKey&amp;gt;" name="&amp;lt;machineKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element in a configuration file.</source>
+          <target state="translated">ASP.NET で指定された署名と暗号化キーを使用してセッション トークンを処理<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;machineKey&amp;gt;" name="&amp;lt;machineKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>構成ファイル内の要素。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>By default, the &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; class uses the &lt;xref:System.IdentityModel.ProtectedDataCookieTransform&gt; class, which uses the Data Protection API (DPAPI), to protect the session token.</source>
+          <target state="translated">既定では、&lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;クラスの使用、&lt;xref:System.IdentityModel.ProtectedDataCookieTransform&gt;セッション トークンを保護するデータ保護 API (DPAPI) を使用するクラス&lt;/xref:System.IdentityModel.ProtectedDataCookieTransform&gt;&lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The DPAPI provides protection by using the user or machine credentials and stores the key data in the user profile.</source>
+          <target state="translated">DPAPI は、ユーザーまたはコンピューターの資格情報を使用して、保護を提供し、ユーザー プロファイルにキーのデータを格納します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This means that a session token signed and encrypted on one computer cannot be validated or decrypted on a different computer.</source>
+          <target state="translated">セッション トークンが署名され、1 台のコンピューター上で暗号化することを意味の検証または別のコンピューターでの暗号化を解除できません。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>By contrast, the MachineKeySessionSecurityTokenHandler class uses the &lt;xref:System.IdentityModel.Services.MachineKeyTransform&gt; class, which protects the session cookie data by using the cryptographic material specified in the <ph id="ph1">`&lt;machineKey&gt;`</ph> element in the configuration file.</source>
+          <target state="translated">MachineKeySessionSecurityTokenHandler クラスを使用してこれに対し、&lt;xref:System.IdentityModel.Services.MachineKeyTransform&gt;で指定された暗号化マテリアルを使用して、セッション cookie のデータを保護するには、クラス、<ph id="ph1">`&lt;machineKey&gt;`</ph>構成ファイル内の要素&lt;/xref:System.IdentityModel.Services.MachineKeyTransform&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This means that the same keys (and session tokens) can be used across multiple computers.</source>
+          <target state="translated">これは、同じキー (およびセッション トークン) を複数のコンピューターで使用できることを意味します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This is particularly important when an application is deployed in a web farm.</source>
+          <target state="translated">これは、機能は、web ファームでアプリケーションを展開するときに特に重要です。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information about how to use Windows Identity Foundation to protect applications that are deployed in a web farm, see <bpt id="p1">[</bpt>WIF and Web Farms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Windows Identity Foundation を使用して web ファームにデプロイされているアプリケーションを保護する方法の詳細については、次を参照してください。 <bpt id="p1">[</bpt>WIF および Web ファーム<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Configure the application to use the MachineKeySessionSecurityTokenHandler by adding it to the token handler collection.</source>
+          <target state="translated">トークン ハンドラー コレクションに追加することで、MachineKeySessionSecurityTokenHandler を使用するアプリケーションを構成します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You must first remove the &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; (or any handler derived from the &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; class) from the token handler collection if such a handler is present.</source>
+          <target state="translated">削除する必要があります、 &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;(またはから派生した任意のハンドラー、&lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;クラス) このようなハンドラーが存在する場合は、トークンのハンドラー コレクションから&lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;&lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is because MachineKeySessionSecurityTokenHandler derives from &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; and a token handler collection cannot contain multiple handlers of any given type.</source>
+          <target state="translated">これから派生する MachineKeySessionSecurityTokenHandler ので&lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;トークン ハンドラーのコレクションが、指定された型の複数のハンドラーを含めることはできません&lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that has the specified default token lifetime.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を既定値が指定されたトークンの有効期間を持つクラス。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The default lifetime for a token.</source>
+          <target state="translated">トークンの既定の有効期間。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;tokenLifetime&lt;/code&gt;</ph> is shorter than or equal to <ph id="ph2">&amp;lt;</ph>xref:System.TimeSpan?displayProperty=fullName<ph id="ph3">&amp;gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;tokenLifetime&lt;/code&gt;</ph>も短いか等しい<ph id="ph2">&amp;lt;</ph>xref:System.TimeSpan?displayProperty=fullName<ph id="ph3">&amp;gt;</ph></target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
