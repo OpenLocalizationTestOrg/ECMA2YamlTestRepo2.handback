@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01f4fcfd0dab5d932e39f791cb9498e75f2095c4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xaml.XamlObjectWriter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5471c74c3ad45da9c7b1397248af4d7ce200daa</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ccaa85da6afa8c83ee32cc538c7f313b515358e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creates an object graph from a source XAML node stream.</source>
+          <target state="translated">소스 XAML 노드 스트림에서 개체 그래프를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Write`</ph> methods of XamlObjectWriter implement a pattern so that the XamlObjectWriter uses the &lt;xref:System.Xaml.XamlWriter&gt; that is defined by the &lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt; method.</source>
+          <target state="translated"><ph id="ph1">`Write`</ph> XamlObjectWriter의 메서드는 XamlObjectWriter 사용 하는 패턴을 구현는 &lt;xref:System.Xaml.XamlWriter&gt;정의 되는 &lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt;메서드.&lt;/xref:System.Xaml.XamlWriter.WriteNode%2A&gt; &lt;/xref:System.Xaml.XamlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt; logic switches between the <ph id="ph1">`Write`</ph> methods, depending on which node type is at the current position in the reader.</source>
+          <target state="translated">&lt;xref:System.Xaml.XamlWriter.WriteNode%2A&gt;전환 하는 논리는 <ph id="ph1">`Write`</ph> 메서드를 따라 어떤 노드 형식이 판독기의 현재 위치에 있습니다.&lt;/xref:System.Xaml.XamlWriter.WriteNode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Scope    A XamlObjectWriter has a concept of scope; that is, the XamlObjectWriter maintains a conceptual point of reference in its output object graph.</source>
+          <target state="translated">범위는 XamlObjectWriter 개념이 범위가 지정 됩니다. 즉,는 XamlObjectWriter 개념적 출력 개체 그래프에 대 한 참조 지점 유지 관리합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a particular scope, certain operations might be valid or invalid, or produce a no-operation result.</source>
+          <target state="translated">특정 범위에 대 한 특정 작업 올 바르 거 나 유효 하지 수도 아니요 작업 결과 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you call &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; to write directives for initialization on an object that already exists as an instance, the default implementation throws an exception.</source>
+          <target state="translated">예를 들어, 호출 하는 경우 &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;기본 구현 인스턴스로 존재 하므로 이미 있는 개체에 초기화에 대 한 지시문 쓰려고 예외를 throw 합니다.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A possible technique for tracking scope in a custom XamlObjectWriter is to align the node actions with a stack or frame class.</source>
+          <target state="translated">사용자 지정 XamlObjectWriter에서 범위를 추적 하기 위한 가능한 기술에는 스택 또는 프레임 클래스를 사용 하 여 노드 작업을 맞추는 것입니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The stack or frame can keep track of push and pop for each level of object-model depth that is entered or exited while the XamlObjectWriter writes the object graph.</source>
+          <target state="translated">스택 또는 프레임의 추적할 수 푸시 및 팝을 시작 하거나 XamlObjectWriter는 개체 그래프를 작성 하는 동안 종료 하는 개체 모델의 각 수준에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Callbacks    To support intermediate and advanced XamlObjectWriter scenarios, the mechanism of writing an object graph provides callback entry points that occur when a XamlObjectWriter commits or is about to commit certain actions.</source>
+          <target state="translated">콜백을를 지원 중급 및 고급 XamlObjectWriter 시나리오, 개체 그래프를 작성 하는 메커니즘 제공 콜백은 XamlObjectWriter 커밋 또는 특정 작업을 커밋에 때 발생 하는 진입점 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some callbacks are enabled in the settings and are not specific to the object type or the member being written; however, callback information is often available in context or is in the event data that is sent through the callback.</source>
+          <target state="translated">일부 콜백을 설정에서 사용 되 고 개체 유형 또는 쓰여지는; 멤버에 한정 되지 않는 그러나 콜백 정보 컨텍스트에서 사용할 수 종종 되었거나 되는 콜백을 통해 전송 된 데이터를 이벤트.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following is a list of relevant callbacks:      -   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt; is invoked when the scope goes to a new object and at the &lt;xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt; phase of object lifetime for each created object.</source>
+          <target state="translated">다음은 관련 콜백이 목록이:-선언 된 콜백 &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt;범위가에 새 개체를 이동할 때 호출 되는 &lt;xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt;생성된 된 각 개체에 대 한 개체 수명의 단계.&lt;/xref:System.ComponentModel.ISupportInitialize.BeginInit%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt; is invoked when the scope goes to a new object and at the &lt;xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt; phase of object lifetime for each created object.</source>
+          <target state="translated">선언 된-콜백 &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt;범위가에 새 개체를 이동할 때 호출 되는 &lt;xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt;생성된 된 각 개체에 대 한 개체 수명의 단계.&lt;/xref:System.ComponentModel.ISupportInitialize.EndInit%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt; is invoked when the scope starts in an object, and occurs when the first &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; call to that object scope is made but not yet committed.</source>
+          <target state="translated">-콜백을 선언 된 &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt;범위 개체에 시작 하 고 발생 될 때 호출 되는 경우 첫 번째 &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;해당 개체 범위를 호출 했지만 아직 커밋되지 않은.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt; is invoked when the scope starts in an object, and happens when the &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; call to that object scope is made but not yet committed.</source>
+          <target state="translated">-콜백을 선언 된 &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt;범위 개체에 시작 하 고 수행 될 때 호출 되는 경우는 &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;해당 개체 범위를 호출 했지만 아직 커밋되지 않은.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The callback that is declared by &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt; is invoked when &lt;xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt; is called.</source>
+          <target state="translated">선언 된-콜백 &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;호출할 때 &lt;xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt;호출 됩니다.&lt;/xref:System.Xaml.XamlObjectWriter.OnSetValue%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Writing Dictionary Keys    The default implementation of XamlObjectWriter supports type conversion on the constraints of a &lt;xref:System.Collections.Generic.Dictionary%602&gt; before the dictionary contents are added to the object graph.</source>
+          <target state="translated">제한 사항에 형식 변환을 지원 사전 키는 XamlObjectWriter의 기본 구현을 작성 한 &lt;xref:System.Collections.Generic.Dictionary%602&gt;사전 전에 내용이 개체 그래프에 추가 됩니다.&lt;/xref:System.Collections.Generic.Dictionary%602&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this manner, a generic dictionary can be keyed at run time by objects and can match the relevant generic <ph id="ph1">`Add`</ph> and indexer behavior.</source>
+          <target state="translated">이러한 방식으로 제네릭 사전 개체에 의해 런타임 시 입력 될 수 및 관련 제네릭 맞는지 <ph id="ph1">`Add`</ph> 및 인덱서 동작 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, as implemented for the base XamlObjectWriter, this capability exists only for object graph creation from the base &lt;xref:System.Collections.Generic.Dictionary%602&gt; class and not for derived classes of &lt;xref:System.Collections.Generic.Dictionary%602&gt;.</source>
+          <target state="translated">그러나 기본 XamlObjectWriter에 대 한 구현 된 대로이 기능을 위해서만 존재 기본에서 개체 그래프를 만들거나 &lt;xref:System.Collections.Generic.Dictionary%602&gt;클래스 &lt;xref:System.Collections.Generic.Dictionary%602&gt;.&lt;/xref:System.Collections.Generic.Dictionary%602&gt; 의 파생된 클래스에&lt;/xref:System.Collections.Generic.Dictionary%602&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Checks for Disposed    XAML writers are potentially used for deferred operations or where a call is made against a XAML writer instance that has been disposed in the interim.</source>
+          <target state="translated">지연 된 작업 또는 중간에 삭제 된 XAML 작성기 인스턴스에 대해 호출할 위치에 잠재적으로 삭제 하는 XAML 작성기에 대 한 검사 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Various APIs of XamlObjectWriter might throw &lt;xref:System.ObjectDisposedException&gt; in these cases.</source>
+          <target state="translated">다양 한 Api XamlObjectWriter 스트림이 &lt;xref:System.ObjectDisposedException&gt;이러한 경우.&lt;/xref:System.ObjectDisposedException&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using  the XAML schema context that is used by a <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스에서 사용 되는 XAML 스키마 컨텍스트를 사용 하는 <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A XAML schema context that is shared with the XAML reader that provides nodes for writing.</source>
+          <target state="translated">쓰기를 위한 노드를 제공 하는 XAML 판독기와 공유 하는 XAML 스키마 컨텍스트.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the context that is used by a <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and its settings.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스에서 사용 되는 컨텍스트를 사용 하는 <bpt id="p2">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 및 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A XAML schema context that is shared with the XAML reader that provides nodes for writing.</source>
+          <target state="translated">쓰기를 위한 노드를 제공 하는 XAML 판독기와 공유 하는 XAML 스키마 컨텍스트.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A settings object that specifies certain options for <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> behavior and output.</source>
+          <target state="translated">특정 옵션을 지정 하는 설정 개체 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 동작과 출력 합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;schemaContext&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Resets all possible frames and clears the object graph.</source>
+          <target state="translated">가능한 모든 프레임을 다시 설정 하 고 개체 그래프를 지웁니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and optionally, releases the managed resources.</source>
+          <target state="translated">사용 하는 관리 되지 않는 리소스를 해제는 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 선택적으로 관리 되는 리소스를 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release the managed resources; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>관리 되는 리소스만 해제 하려면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt; method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">호출 &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt;연관 된 메서드가 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterBeginInitHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">보고 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The object is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">개체로 패키지 됩니다 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 처리기가 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt; method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">호출 &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt;연관 된 메서드가 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterEndInitHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">보고 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The value  is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">값은로 패키지 됩니다 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 처리기가 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">호출 &lt;xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt;참조와 연결 된 메서드 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.AfterPropertiesHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The object to report on.</source>
+          <target state="translated">보고 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This is packaged into <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">이로 패키지 됩니다 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 처리기가 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">호출 &lt;xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt;참조와 연결 된 메서드 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 <bpt id="p2">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.BeforePropertiesHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The value to pass through <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when the handler is invoked.</source>
+          <target state="translated">통해 전달할 값을 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 처리기가 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Invokes any &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt; referenced method that is associated with <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this writer, as long as <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">handled</ph><ept id="p2">&lt;/code&gt;</ept> in <bpt id="p3">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> event data is not <bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">호출 &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt;참조와 연결 된 메서드 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriterSettings"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 길이 만큼이 작성기에 대 한 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">handled</ph> <ept id="p2">&lt;/code&gt;</ept> 에 <bpt id="p3">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 이벤트 데이터가 않습니다 <bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.&lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler*&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`SetValue`</ph> operation for this XAML writer has an associated handler (a &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt; is declared in &lt;xref:System.Xaml.XamlObjectWriterSettings&gt;), this method creates new &lt;xref:System.Windows.Markup.XamlSetValueEventArgs&gt; and passes them to the handler.</source>
+          <target state="translated">경우는 <ph id="ph1">`SetValue`</ph> 이 XAML 작성기에 대 한 작업에 연결 된 처리기가 (한 &lt;xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;에 선언 된 &lt;xref:System.Xaml.XamlObjectWriterSettings&gt;),이 메서드가 만드는 새 &lt;xref:System.Windows.Markup.XamlSetValueEventArgs&gt;처리기에 전달 합니다.&lt;/xref:System.Windows.Markup.XamlSetValueEventArgs&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings&gt; &lt;/xref:System.Xaml.XamlObjectWriterSettings.XamlSetValueHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value is set by reading the &lt;xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt; value that is passed through the event data.</source>
+          <target state="translated">반환 값이 참조 하 여 설정 된 &lt;xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt;이벤트 데이터를 통해 전달 되는 값입니다.&lt;/xref:System.Windows.Markup.XamlSetValueEventArgs.Handled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no handler exists and this method is invoked, the call returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">호출에서 반환 하는 경우 처리기 존재 하 고이 메서드가 호출 된 경우 <ph id="ph1">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The object to report as the source to the handler.</source>
+          <target state="translated">처리기에 대 한 원본으로 보고서에 사용 되는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The name of the property to set, which is passed to the handler as part of <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">일환으로 처리기에 전달 되는 속성을 설정 하 고, 이름을 <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The value to provide for the property that is named by <ph id="ph1">`property`</ph>.</source>
+          <target state="translated">로 명명 된 속성에 제공할 값 <ph id="ph1">`property`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The value is passed to the handler as part of <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">값의의 일부로 처리기에 전달 <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlSetValueEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A Boolean value that is set by any associated handler; otherwise, <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">연결된 된 처리기;으로 설정 하는 부울 값 그렇지 않으면 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See Remarks.</source>
+          <target state="translated">설명 부분을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the last object that was written.</source>
+          <target state="translated">작성 된 마지막 개체를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Typically only called when the node stream is at its end and the object graph is complete.</source>
+          <target state="translated">일반적으로 노드 스트림의 끝에 있고 개체 그래프가 완성 된 때만 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most typical usage of Result is to call it only when the node stream is known to be at its end, and the object graph is complete.</source>
+          <target state="translated">결과의 가장 일반적인 사용의 끝에 노드 스트림의 알려져 개체 그래프가 완성 된 경우에이 호출 하는 것입니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the object graph is likely to be incomplete, and is not useful for most platform scenarios.</source>
+          <target state="translated">그렇지 않은 경우 개체 그래프 완료 하지 못할 수 이며 대부분의 플랫폼 시나리오에 유용 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Result typically only contains a non-null value if it is called immediately after a call to &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;, and if the current scope is in the member where the object provides a value.</source>
+          <target state="translated">결과 일반적으로 포함 된 null이 아닌 값에 대 한 호출 후 즉시 호출 되 면 &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;, 현재 범위는 개체 값을 제공 하는 멤버의 경우.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The last object written, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">마지막으로 작성 된 개체 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>See Remarks.</source>
+          <target state="translated">설명 부분을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Windows.Markup.INameScope&gt; service that maintains the XAML namescope for the absolute node root of the XAML object writer.</source>
+          <target state="translated">가져옵니다는 &lt;xref:System.Windows.Markup.INameScope&gt;XAML 개체 작성기의 절대 노드 루트에 대 한 XAML 이름 범위를 유지 하는 서비스.&lt;/xref:System.Windows.Markup.INameScope&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property may come from the object writer context.</source>
+          <target state="translated">이 속성의 값으로 개체 작성기 컨텍스트에서 수행할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Markup.INameScope&gt; service that maintains the XAML namescope for the current root of the object writer.</source>
+          <target state="translated">&lt;xref:System.Windows.Markup.INameScope&gt;개체 작성기의 현재 루트에 대 한 XAML 이름 범위를 유지 하는 서비스.&lt;/xref:System.Windows.Markup.INameScope&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the active XAML schema context.</source>
+          <target state="translated">활성 XAML 스키마 컨텍스트를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XAML schema context is a necessary information source for most practical object-writing scenarios.</source>
+          <target state="translated">XAML 스키마 컨텍스트는 대부분의 실제 개체 작성 시나리오에 대 한 필요한 정보 소스입니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XAML schema context influences the type lookup for backing types and holds information about the assemblies where backing types exist.</source>
+          <target state="translated">XAML 스키마 컨텍스트 지원 형식에 대 한 유형 조회에 영향을 줍니다 및 지원 형식이 있는 어셈블리에 대 한 정보를 보유 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default XAML schema context is based on CLR type-mapping rules.</source>
+          <target state="translated">기본 XAML 스키마 컨텍스트는 CLR 형식 매핑 규칙을 기반으로 합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Frameworks typically provide their own XAML schema context in order to assure that that the assembly-loading mechanisms match the framework's programming amd application models.</source>
+          <target state="translated">프레임 워크는 일반적으로 하는 어셈블리 로드 메커니즘 프레임 워크의 프로그래밍 및 응용 프로그램 모델과 일치 하는지 확인 하기 위해 자신의 XAML 스키마 컨텍스트를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The XAML schema context.</source>
+          <target state="translated">XAML 스키마 컨텍스트입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Implements <ph id="ph1">&amp;lt;</ph>xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> and provides line information for exceptions.</source>
+          <target state="translated">구현 <ph id="ph1">&amp;lt;</ph>xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> 예외에 대 한 줄 정보를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This service method is not intended to be called directly from your code.</source>
+          <target state="translated">이 서비스 메서드의 사용자 코드에서 직접 호출할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if you are creating a derived class from &lt;xref:System.Xaml.XamlObjectWriter&gt; and expect to report a context where line numbers are unavailable or not useful, this method may be called.</source>
+          <target state="translated">그러나에서 파생된 된 클래스를 만드는 경우 &lt;xref:System.Xaml.XamlObjectWriter&gt;및 줄 번호 사용할 수 없는 컨텍스트를 보고 하기 위해 활성화 되거나 유용 하지이 메서드가 호출 될 수 있습니다.&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The line number from the reader.</source>
+          <target state="translated">판독기에서 줄 번호입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The line position from the reader.</source>
+          <target state="translated">판독기에서 줄 위치입니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets a value that reports whether a line information service should provide values and therefore, should also call the &lt;xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt; method when it is relevant.</source>
+          <target state="translated">가져온 줄 정보 서비스가 제공 해야 하는지 여부를 보고 하는 값 값 이므로 호출 또한 해야는 &lt;xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt;경우 관련 방법.&lt;/xref:System.Xaml.IXamlLineInfoConsumer.SetLineInfo*&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation always returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">이 구현은 항상 <ph id="ph1">`true`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if line information is used by the writer; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>작성기;에서 줄 정보를 사용 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Closes the current member scope, and may write the value of the member scope while it closes.</source>
+          <target state="translated">현재 멤버 범위를 닫고 닫는 동안에 멤버 범위 변수의 값을 쓸 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The new scope becomes the parent object scope of the member.</source>
+          <target state="translated">새 범위에는 멤버의 부모 개체 범위가 됩니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Failed to create member value from a value node that is encountered between this call and a previous <bpt id="p1">&lt;xref uid="langword_csharp_StartMember" name="StartMember" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 호출 하 고 이전 사이 발생 하는 값 노드로부터의 멤버 값을 만들지 못했습니다 <bpt id="p1">&lt;xref uid="langword_csharp_StartMember" name="StartMember" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Closes the current object scope in the writer.</source>
+          <target state="translated">작성기에서 현재 개체 범위를 닫습니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The new object scope becomes the parent member scope.</source>
+          <target state="translated">새 개체 범위는 부모 멤버 범위가 됩니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this <ph id="ph1">`EndObject`</ph> position scope is closing the root object, the new object scope becomes the root scope.</source>
+          <target state="translated">이 경우 <ph id="ph1">`EndObject`</ph> 위치 범위가 루트 개체를 닫고, 새 개체 범위 루트 범위가 있습니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call to &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; might not yet have created the object because an object member might be a necessary initialization pathway, such as initialization text or initialization parameters.</source>
+          <target state="translated">에 대 한 호출 &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;아직 만들지 않은 경우 개체는 개체 멤버 초기화 텍스트 초기화 매개 변수 등의 필요한 초기화 변수와 수 있기 때문입니다.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For these cases, the call to WriteEndObject actually writes the object.</source>
+          <target state="translated">이러한 경우에 대 한 WriteEndObject에 대 한 호출은 실제로 개체를 씁니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Writes the conceptual <bpt id="p1">&lt;xref uid="langword_csharp_StartObject" name="StartObject" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into the object graph when the specified object is a default or implicit value of the parent property.</source>
+          <target state="translated">개념적 씁니다 <bpt id="p1">&lt;xref uid="langword_csharp_StartObject" name="StartObject" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정된 개체가 기본값 또는 암시적 값 부모 속성의 경우 개체 그래프에 있습니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The implicit value comes from information that is obtained from the XAML schema context and backing type information, instead of being specified as an object value in the input XAML node set.</source>
+          <target state="translated">XAML 스키마 컨텍스트에서 가져온 정보 및 입력된 XAML 노드 집합에서 개체 값으로 지정 되지 않고 지원 형식 정보에서 암시적 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The difference between writing with WriteGetObject and writing with &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; can be seen in the resulting object graph.</source>
+          <target state="translated">WriteGetObject 쓰고로 작성의 차이점 &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;결과 개체 그래프에서 볼 수 있습니다.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WriteGetObject does not construct an instance of a type because the WriteGetObject API has no information to inform the object graph of what to construct.</source>
+          <target state="translated">WriteGetObject은 WriteGetObject API에 생성할 개체 그래프를 정보가 없으므로 형식의 인스턴스를 생성 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, the object was created when the parent property was initialized; so a &lt;xref:System.Xaml.XamlObjectWriter&gt; does not need to construct it.</source>
+          <target state="translated">Parent 속성; 초기화 될 때 개체가 만들어진 대신, 하므로 &lt;xref:System.Xaml.XamlObjectWriter&gt;생성 하십시오. 필요가 없음&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; specifies that an instance of that type should be constructed and inserted into the object graph.</source>
+          <target state="translated">반면, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;해당 형식의 인스턴스 생성 및 개체 그래프에 삽입을 지정 합니다.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you think of the XAML node stream as a series of frames, a WriteGetObject is balanced to a &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; call.</source>
+          <target state="translated">에 WriteGetObject 균형 일련의 프레임으로 XAML 노드 스트림의 생각 되 면 한 &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;호출.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the number of WriteGetObject plus &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; calls should equal the number of &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; calls as part of a complete object-writing evaluation of the XAML node stream.</source>
+          <target state="translated">따라서 더하기 WriteGetObject 수가 &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;호출의 수와 같아야 &lt;xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt;XAML 노드 스트림의 전체 개체 쓰기 평가의 일부로 호출.&lt;/xref:System.Xaml.XamlObjectWriter.WriteEndObject%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The conceptual <ph id="ph1">`StartObject`</ph> position for an implicit object in the object graph is necessary because although the object value itself is an implicit default, that object might still have members that need to be written based on the XAML node stream.</source>
+          <target state="translated">개념적 <ph id="ph1">`StartObject`</ph> 암시적 개체는 개체 그래프에는 필요한 개체를 쓸 수 기반으로 해야 XAML 노드 스트림에서 멤버 개체 값 자체 암시적 기본값인 경우에 있을 수 있습니다 위치를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A typical scenario where this occurs is when &lt;xref:System.Xaml.XamlObjectWriter&gt; writes member nodes for a collection property, and the collection initialization is implicit to creating the object that owns the collection property.</source>
+          <target state="translated">일반적인 시나리오가 현상이 발생 하는 경우 &lt;xref:System.Xaml.XamlObjectWriter&gt;컬렉션 속성을 초기화 하는 컬렉션에 대 한 쓰기 멤버 노드는 컬렉션 속성을 소유 하는 개체를 만드는 암시적.&lt;/xref:System.Xaml.XamlObjectWriter&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Defines a namespace declaration that applies to the next object scope or member scope.</source>
+          <target state="translated">다음 개체 범위 또는 멤버 범위에 적용 되는 네임 스페이스 선언은 정의 합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A namespace declaration can be written if the current scope is a root scope, object scope, or member scope.</source>
+          <target state="translated">현재 범위는 루트 범위, 개체 범위 또는 멤버 범위 경우 네임 스페이스 선언을 작성할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, WriteNamespace can only be called immediately before a call to one of the following: WriteNamespace, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;, or &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;.</source>
+          <target state="translated">그러나 WriteNamespace 에서만 호출 될 수는 다음 중 하나를 호출 하기 직전: WriteNamespace, &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;, 또는 &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The consecutive WriteNamespace case is for writing multiple namespace declarations to the same node.</source>
+          <target state="translated">연속 된 WriteNamespace 대/소문자는 동일한 노드를 여러 네임 스페이스 선언을 쓸 때 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Eventually, either &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt; or &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; must be called.</source>
+          <target state="translated">결국 &lt;xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;또는 &lt;xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt;호출 해야 합니다.&lt;/xref:System.Xaml.XamlObjectWriter.WriteStartMember%2A&gt; &lt;/xref:System.Xaml.XamlObjectWriter.WriteStartObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WriteNamespace does not use a <ph id="ph1">`Start`</ph><ph id="ph2">/</ph><ph id="ph3">`End`</ph> metaphor.</source>
+          <target state="translated">WriteNamespace 사용 하지 않는 한 <ph id="ph1">`Start`</ph> <ph id="ph2">/</ph> <ph id="ph3">`End`</ph> 메타포 합니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although a XAML namespace has members in the CLR representation sense, the members are known and do not need to be represented as a special type of &lt;xref:System.Xaml.XamlMember&gt; for extensibility.</source>
+          <target state="translated">XAML 네임 스페이스에는 CLR 표현의에 멤버가 있지만 멤버를 하며 특수 한 유형의으로 표현 될 필요가 없습니다 &lt;xref:System.Xaml.XamlMember&gt;확장성.&lt;/xref:System.Xaml.XamlMember&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To access the values of a &lt;xref:System.Xaml.NamespaceDeclaration&gt;, you access its &lt;xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt; and &lt;xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt; properties.</source>
+          <target state="translated">값에 액세스 하는 &lt;xref:System.Xaml.NamespaceDeclaration&gt;를 액세스 하면 해당 &lt;xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt;및 &lt;xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt;속성.&lt;/xref:System.Xaml.NamespaceDeclaration.Prefix%2A&gt; &lt;/xref:System.Xaml.NamespaceDeclaration.Namespace%2A&gt; &lt;/xref:System.Xaml.NamespaceDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A namespace declaration may have a &lt;xref:System.String.Empty?displayProperty=fullName&gt; value for the prefix.</source>
+          <target state="translated">네임 스페이스 선언에 사용할 수는 &lt;xref:System.String.Empty?displayProperty=fullName&gt;접두사 값입니다.&lt;/xref:System.String.Empty?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.String.Empty?displayProperty=fullName&gt; prefix represents a declaration of the default XAML namespace.</source>
+          <target state="translated">A &lt;xref:System.String.Empty?displayProperty=fullName&gt;접두사의 기본 XAML 네임 스페이스 선언을 나타냅니다.&lt;/xref:System.String.Empty?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not attempt to use null to represent the default prefix;  it throws an exception in this API.</source>
+          <target state="translated">기본 접두사; 나타내기 위해 null을 사용 하지 마십시오  이 API의 예외를 throw 합니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Xaml.NamespaceDeclaration&gt;.</source>
+          <target state="translated">자세한 내용은 &lt;xref:System.Xaml.NamespaceDeclaration&gt;.&lt;/xref:System.Xaml.NamespaceDeclaration&gt; 을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The namespace declaration to write.</source>
+          <target state="translated">작성 하는 네임 스페이스 선언 합니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A component of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A component of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">namespaceDeclaration</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Tried to write a XAML namespace node in an invalid scope.</source>
+          <target state="translated">잘못 된 범위에서 XAML 네임 스페이스 노드를 쓰려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Writes a new member node into the current object scope, and the scope becomes a new member scope.</source>
+          <target state="translated">현재 개체 범위에 새 멤버 노드를 작성 범위에 새 멤버 범위 됩니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The XAML property to write.</source>
+          <target state="translated">XAML 쓸 속성입니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Typically you obtain this value from a XAML reader through the XAML node stream intermediate.</source>
+          <target state="translated">일반적으로 XAML 노드 스트림의 중간 통해 XAML 판독기에서이 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> has <ph id="ph2">&lt;xref:System.Xaml.XamlMember.IsUnknown*&gt;</ph> set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>has <ph id="ph2">&lt;xref:System.Xaml.XamlMember.IsUnknown*&gt;</ph> set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;xref:System.Xaml.XamlLanguage.UnknownContent*&gt;</ph> passed, which indicates that the XAML node stream contained content for an object that does not support content.</source>
+          <target state="translated">-또는- <ph id="ph1">&lt;xref:System.Xaml.XamlLanguage.UnknownContent*&gt;</ph> XAML 노드 스트림의 콘텐츠를 지원 하지 않는 개체에 대 한 콘텐츠에 포함 되어 있음을 나타냅니다를 전달 합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-or-       Attempted to write a start member in an invalid scope.</source>
+          <target state="translated">-또는-잘못 된 범위에서 시작 멤버를 쓰려고 시도 합니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> specifies a property that is already explicitly set in the parent object scope.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>부모 개체 범위에 이미 명시적으로 설정 된 속성을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;property&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Writes an object node into the current scope, and sets the scope to a new object scope.</source>
+          <target state="translated">현재 범위에 개체 노드를 작성 하 고 새 개체 범위에 범위를 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The type to write.</source>
+          <target state="translated">쓰기 형식입니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Typically you obtain this value from a XAML reader.</source>
+          <target state="translated">일반적으로 XAML 판독기에서이 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Processing an &lt;xref:System.Xaml.XamlType.IsUnknown*&gt; type and cannot create an object.</source>
+          <target state="translated">처리는 &lt;xref:System.Xaml.XamlType.IsUnknown*&gt;입력 하 고 개체를 만들 수 없습니다.&lt;/xref:System.Xaml.XamlType.IsUnknown*&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-or-       Attempted to write a start object in an invalid scope.</source>
+          <target state="translated">-또는-잘못 된 범위에서 시작 개체를 쓰려고 시도 합니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Attempted to write a root object when the root object was already provided in the settings.</source>
+          <target state="translated">설정에 이미 제공 된 루트 개체가 때 루트 개체에 쓰려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xamlType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xamlType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Writes a value to the current member scope.</source>
+          <target state="translated">현재 멤버 범위에 값을 씁니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If the current scope is inside a collection, dictionary, or array object, the value should be added to the collection, dictionary, or array.</source>
+          <target state="translated">현재 범위 컬렉션, 사전 또는 배열 개체 안에 있으면 값 컬렉션, 사전 또는 배열에 추가할 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The value to write.</source>
+          <target state="translated">작성할 값입니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Attempted to write a value in an invalid scope.</source>
+          <target state="translated">잘못 된 범위에서 값을 쓰려고 했습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f46f26f817ff4ccf6cdac6af6745ea987544feb4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xaml.Schema.XamlTypeInvoker.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6052aa85ef25d0eb52f1eebe762f2de1f0e2971</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ed2f65b53c0363f360d41a10ec4c1b54e4ec8cb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an extension point that can construct instances of a XAML type through techniques other than reflection and constructors.</source>
+          <target state="translated">리플렉션 및 생성자 아닌 다른 기술을 통해 XAML 형식의 인스턴스를 생성할 수 있는 확장 지점을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The purpose of XamlTypeInvoker is to enable an extensible XAML type system, schema, and a working run time that does not rely as fully on CLR features such as CLR attributes, reflection information through &lt;xref:System.Type&gt; and &lt;xref:System.Reflection.MemberInfo&gt;, and so on.</source>
+          <target state="translated">확장 가능한 XAML 형식 시스템, 스키마 및 CLR 특성을 통해 리플렉션 정보 등의 CLR 기능에 완벽 하 게 의존 하지 않는 런타임에 작업을 사용 하도록 설정 하려면 XamlTypeInvoker의 목적은 &lt;xref:System.Type&gt;및 &lt;xref:System.Reflection.MemberInfo&gt;등.&lt;/xref:System.Reflection.MemberInfo&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subclasses of XamlTypeInvoker are used as input parameters for the alternate constructors of XAML schema classes such as &lt;xref:System.Xaml.XamlType&gt;.</source>
+          <target state="translated">XamlTypeInvoker의 서브 클래스는 XAML 스키마 클래스 &lt;xref:System.Xaml.XamlType&gt;.&lt;/xref:System.Xaml.XamlType&gt; 등의 다른 생성자에 대 한 입력된 매개 변수로 사용</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You subclass &lt;xref:System.Xaml.XamlType&gt; and pass the XamlTypeInvoker through to the base constructor.</source>
+          <target state="translated">서브 클래스를 만들 &lt;xref:System.Xaml.XamlType&gt;통해 XamlTypeInvoker 기본 생성자에 전달 합니다.&lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Along with defining a XamlTypeInvoker for the constructor, you must also provide overrides for at least some of the <ph id="ph1">`Lookup`</ph> methods of &lt;xref:System.Xaml.XamlType&gt;.</source>
+          <target state="translated">생성자에 대 한 XamlTypeInvoker 정의 함께 제공 해야에 대 한 재정의 이상 중 일부는 <ph id="ph1">`Lookup`</ph> &lt;xref:System.Xaml.XamlType&gt;안내 하십시오.&lt;/xref:System.Xaml.XamlType&gt; 메서드</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XamlTypeInvoker has a default implementation.</source>
+          <target state="translated">XamlTypeInvoker는 기본 구현이 있습니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation follows a similar model to the default implementation of XAML schema types &lt;xref:System.Xaml.XamlType&gt; and &lt;xref:System.Xaml.XamlMember&gt;: the CLR type system is used for instantiation, values and lookups, including using CLR attributes, &lt;xref:System.Type&gt; and &lt;xref:System.Reflection.MemberInfo&gt;, and so on.</source>
+          <target state="translated">기본 구현에서는 XAML 스키마 형식의 기본 구현에는 비슷한 모델을 따릅니다 &lt;xref:System.Xaml.XamlType&gt;및 &lt;xref:System.Xaml.XamlMember&gt;: 인스턴스화, 값 및 CLR 특성을 사용 하는 등, 조회에 대 한 CLR 형식 시스템을 사용 하는 &lt;xref:System.Type&gt;및 &lt;xref:System.Reflection.MemberInfo&gt;등.&lt;/xref:System.Reflection.MemberInfo&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Xaml.XamlMember&gt; &lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XamlTypeInvoker provides methods for basic instantiation (&lt;xref:System.Xaml.Schema.XamlTypeInvoker.CreateInstance%2A&gt;) and methods that are relevant for types where the &lt;xref:System.Xaml.XamlType&gt; represents a collection, dictionary or array (&lt;xref:System.Xaml.Schema.XamlTypeInvoker.AddToCollection%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.AddToDictionary%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetEnumeratorMethod%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetItems%2A&gt;).</source>
+          <target state="translated">XamlTypeInvoker 기본 인스턴스 (&lt;xref:System.Xaml.Schema.XamlTypeInvoker.CreateInstance%2A&gt;)을 제공 하며 메서드 관련이 있는 형식에 대 한 여기서는 &lt;xref:System.Xaml.XamlType&gt;나타냅니다 컬렉션, 사전 또는 배열 (&lt;xref:System.Xaml.Schema.XamlTypeInvoker.AddToCollection%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.AddToDictionary%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetEnumeratorMethod%2A&gt;; &lt;xref:System.Xaml.Schema.XamlTypeInvoker.GetItems%2A&gt;).&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.GetItems%2A&gt;&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.GetEnumeratorMethod%2A&gt;&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A&gt;&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.AddToDictionary%2A&gt;&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.AddToCollection%2A&gt;&lt;/xref:System.Xaml.XamlType&gt;&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation is empty.</source>
+          <target state="translated">기본 구현은 비어 있습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is invoked internally to provide a value for &lt;xref:System.Xaml.Schema.XamlTypeInvoker.UnknownInvoker%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Xaml.Schema.XamlTypeInvoker.UnknownInvoker%2A&gt;.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.UnknownInvoker%2A&gt; 에 대 한 값을 제공 하려면이 생성자는 내부적으로 호출</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; subclass, it is expected that you either use the &lt;xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt; signature for construction or provide an override that calls &lt;xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt; as base.</source>
+          <target state="translated">에 대 한는 &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;하위 클래스 중 하나를 사용 하는 것으로 예상 되는 &lt;xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt;생성에 대 한 서명 하거나 호출 하는 재정의 제공 &lt;xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt;기반으로 합니다.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt; &lt;/xref:System.Xaml.Schema.XamlTypeInvoker.%23ctor%28System.Xaml.XamlType%29&gt; &lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Providing the &lt;xref:System.Xaml.XamlType&gt; implements a default pattern where &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; is immutable.</source>
+          <target state="translated">제공 하는 &lt;xref:System.Xaml.XamlType&gt;기본은 구현 패턴 where &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;는 변경할 수 없습니다.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, based on a provided <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스를 기반으로 제공 된 <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is called internally based on the &lt;xref:System.Xaml.XamlType&gt; where the &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; is used for construction.</source>
+          <target state="translated">이 생성자를 기반으로 내부적으로 호출 됩니다는 &lt;xref:System.Xaml.XamlType&gt;여기서는 &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;생성에 사용 됩니다.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`type`</ph> provided here is relevant to all other method calls for &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;.</source>
+          <target state="translated"><ph id="ph1">`type`</ph> &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt; 에 대 한 다른 모든 메서드 호출 여기에 관련이 제공</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the specific XAML type relevant to this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값이 관련 된 특정 XAML 형식이 <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Adds the provided item to an instance of the type that is relevant to this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이에 관련 된 형식의 인스턴스를 제공된 된 항목 추가 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should only call this method on a &lt;xref:System.Xaml.XamlType&gt; that represents a collection.</source>
+          <target state="translated">에이 메서드를 호출 해야는 &lt;xref:System.Xaml.XamlType&gt;컬렉션을 나타내는.&lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An instance of the type specified by the <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used for constructing this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">로 지정 된 형식의 인스턴스는 <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 구성 하는 데 <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The item to add.</source>
+          <target state="translated">추가할 항목입니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Invoked this method on a <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is based on an unknown <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">에이 메서드를 호출는 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 알 수를 기반으로 하는 <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       Invoked this method on a <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> where the relevant type is not a collection.</source>
+          <target state="translated"><bpt id="p1">**</bpt>-또는-<ept id="p1">**</ept> 에이 메서드를 호출는 <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 관련 형식이 컬렉션이 아닌 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&amp;lt;</ph>xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> for this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returns <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> 이 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 반환 <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Adds the provided key and item value to an instance of the type that is relevant to this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">제공 된 키와 항목 값이 관련 된 형식의 인스턴스를 추가 하는 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should only call this method on a &lt;xref:System.Xaml.XamlType&gt; that represents a dictionary.</source>
+          <target state="translated">에이 메서드를 호출 해야는 &lt;xref:System.Xaml.XamlType&gt;사전을 나타내는.&lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An instance of the type specified by the <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used for constructing this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">로 지정 된 형식의 인스턴스는 <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 구성 하는 데 <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Dictionary key for the item to add.</source>
+          <target state="translated">추가할 항목에 대 한 사전 키입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The item value to add.</source>
+          <target state="translated">추가할 항목 값입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Invoked this method on a <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is based on an unknown <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">에이 메서드를 호출는 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 알 수를 기반으로 하는 <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       Invoked this method on a <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> where the relevant type is not a dictionary.</source>
+          <target state="translated"><bpt id="p1">**</bpt>-또는-<ept id="p1">**</ept> 에이 메서드를 호출는 <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 여기서 관련 형식 사전이 아닙니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&amp;lt;</ph>xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> for this <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returns <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>xref:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> 이 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 반환 <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Creates an object instance based on the construction-initiated <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">생성자가 시작한에 따라 개체 인스턴스를 만들고 <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An array of objects that supply the <bpt id="p1">&lt;xref uid="langword_csharp_x:ConstructorArgs" name="x:ConstructorArgs" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the instance.</source>
+          <target state="translated">제공 하는 개체의 배열에서 <bpt id="p1">&lt;xref uid="langword_csharp_x:ConstructorArgs" name="x:ConstructorArgs" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>May be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for types that do not require or use <bpt id="p2">&lt;xref uid="langword_csharp_x:ConstructorArgs" name="x:ConstructorArgs" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">되었을 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 요구 또는 사용 하지 않는 형식에 대 한 <bpt id="p2">&lt;xref uid="langword_csharp_x:ConstructorArgs" name="x:ConstructorArgs" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The created instance based on the construction-initiated <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">생성된 된 인스턴스 생성자가 시작한 기반 <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Could not resolve a constructor.</source>
+          <target state="translated">생성자를 확인할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Returns the relevant <bpt id="p1">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method for a <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that is relevant to a collection or dictionary.</source>
+          <target state="translated">관련 반환 <bpt id="p1">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 에 대 한 메서드는 <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 하는 컬렉션 또는 사전와 관련이 있습니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should return <ph id="ph1">`null`</ph> for cases where the &lt;xref:System.Xaml.XamlType&gt; for this &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; is not a writeable collection or dictionary.</source>
+          <target state="translated">이 메서드에서 반환 해야 <ph id="ph1">`null`</ph> 경우 여기서는 &lt;xref:System.Xaml.XamlType&gt;이 &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;쓰기 가능한 컬렉션 또는 사전 아닙니다.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;/xref:System.Xaml.XamlType&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, should return <ph id="ph1">`null`</ph> for cases where &lt;xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt; returns <ph id="ph2">`None`</ph>.</source>
+          <target state="translated">특히 반환 해야 <ph id="ph1">`null`</ph> 경우 여기서 &lt;xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt;반환 <ph id="ph2">`None`</ph>.&lt;/xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  If you are not accessing a fully trusted XAML type system, this method has the potential to report false &lt;xref:System.Reflection.MethodInfo&gt; information to callers.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 완전히 신뢰할 수 있는 XAML 형식 시스템을 액세스 하지 않는 경우이 메서드는 보고서 false로 &lt;xref:System.Reflection.MethodInfo&gt;호출자에 게 정보.&lt;/xref:System.Reflection.MethodInfo&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the item type that is used by the <bpt id="p2">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>사용 되는 항목 형식에는 <bpt id="p2">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 메서드.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>CLR &lt;xref:System.Reflection.MethodInfo&gt; information for the <bpt id="p1">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method, or null.</source>
+          <target state="translated">CLR &lt;xref:System.Reflection.MethodInfo&gt;에 대 한 정보는 <bpt id="p1">&lt;xref uid="langword_csharp_Add" name="Add" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 메서드 또는 null입니다.&lt;/xref:System.Reflection.MethodInfo&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;contentType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;contentType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Returns an object representing a method that can enumerate over items.</source>
+          <target state="translated">항목을 열거할 수 있는 메서드를 나타내는 개체를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Should return <ph id="ph1">`null`</ph> for cases where &lt;xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt; returns <ph id="ph2">`None`</ph>.</source>
+          <target state="translated">반환 해야 <ph id="ph1">`null`</ph> 경우 여기서 &lt;xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt;반환 <ph id="ph2">`None`</ph>.&lt;/xref:System.Xaml.XamlType.LookupCollectionKind%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  If you are not accessing a fully trusted XAML type system, this method has the potential to report false &lt;xref:System.Reflection.MethodInfo&gt; information to callers.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 완전히 신뢰할 수 있는 XAML 형식 시스템을 액세스 하지 않는 경우이 메서드는 보고서 false로 &lt;xref:System.Reflection.MethodInfo&gt;호출자에 게 정보.&lt;/xref:System.Reflection.MethodInfo&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Reflection.MethodInfo&gt; for an enumerator method, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Reflection.MethodInfo&gt;열거자 방법의 경우 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.&lt;/xref:System.Reflection.MethodInfo&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IEnumerator&gt; object representing the set of items.</source>
+          <target state="translated">반환 된 &lt;xref:System.Collections.IEnumerator&gt;항목 집합을 나타내는 개체입니다.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>An instance of the type specified by the <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used for constructing this <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">로 지정 된 형식의 인스턴스는 <bpt id="p1">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 구성 하는 데 <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">An &lt;xref:System.Collections.IEnumerator&gt; object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Invoked this method on a <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is based on an unknown <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">에이 메서드를 호출는 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 알 수를 기반으로 하는 <bpt id="p2">&lt;xref href="System.Xaml.XamlType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-or-<ept id="p1">**</ept>       Invoked this method on a <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> where the relevant type is not a collection or dictionary.</source>
+          <target state="translated"><bpt id="p1">**</bpt>-또는-<ept id="p1">**</ept> 에이 메서드를 호출는 <bpt id="p2">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 관련 형식 하지 않은 컬렉션 또는 사전입니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instance&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets the handler to use when a <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> calls into an implemented &lt;xref:System.Windows.Markup.MarkupExtension&gt;.</source>
+          <target state="translated">사용 하는 경우 처리기를 가져옵니다는 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 구현된 &lt;xref:System.Windows.Markup.MarkupExtension&gt;.&lt;/xref:System.Windows.Markup.MarkupExtension&gt; 하 여 호출</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The event handler is based on &lt;xref:System.EventHandler%601&gt; constrained with &lt;xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt; event data.</source>
+          <target state="translated">이벤트 처리기는 기반 &lt;xref:System.EventHandler%601&gt;의 제약을 받는 &lt;xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt;이벤트 데이터입니다.&lt;/xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt; &lt;/xref:System.EventHandler%601&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value returned invokes the &lt;xref:System.Xaml.XamlType.LookupSetMarkupExtensionHandler%2A&gt; behavior of the &lt;xref:System.Xaml.XamlType&gt; that the &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; is based on.</source>
+          <target state="translated">호출 반환 되는 값은 &lt;xref:System.Xaml.XamlType.LookupSetMarkupExtensionHandler%2A&gt;의 동작은 &lt;xref:System.Xaml.XamlType&gt;하는 &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;기반으로 합니다.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;/xref:System.Xaml.XamlType&gt; &lt;/xref:System.Xaml.XamlType.LookupSetMarkupExtensionHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value is <ph id="ph1">`null`</ph> for a &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; that is based on an unknown &lt;xref:System.Xaml.XamlType&gt;.</source>
+          <target state="translated">반환 값은 <ph id="ph1">`null`</ph> &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;xref:System.Xaml.XamlType&gt;.&lt;/xref:System.Xaml.XamlType&gt; 알 수를 기반으로 하는&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A handler implementation that handles this case.</source>
+          <target state="translated">이 경우를 처리 하는 처리기 구현입니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets the handler to use when a <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> calls into a CLR-implemented <bpt id="p2">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">사용 하는 경우 처리기를 가져옵니다는 <bpt id="p1">&lt;xref href="System.Xaml.XamlObjectWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> CLR 구현 하 여 호출 <bpt id="p2">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The event handler is based on &lt;xref:System.EventHandler%601&gt; constrained with &lt;xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt; event data.</source>
+          <target state="translated">이벤트 처리기는 기반 &lt;xref:System.EventHandler%601&gt;의 제약을 받는 &lt;xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt;이벤트 데이터입니다.&lt;/xref:System.Windows.Markup.XamlSetMarkupExtensionEventArgs&gt; &lt;/xref:System.EventHandler%601&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value returned invokes the &lt;xref:System.Xaml.XamlType.LookupSetTypeConverterHandler%2A&gt; behavior of the &lt;xref:System.Xaml.XamlType&gt; that the &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; is based on.</source>
+          <target state="translated">호출 반환 되는 값은 &lt;xref:System.Xaml.XamlType.LookupSetTypeConverterHandler%2A&gt;의 동작은 &lt;xref:System.Xaml.XamlType&gt;하는 &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;기반으로 합니다.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;/xref:System.Xaml.XamlType&gt; &lt;/xref:System.Xaml.XamlType.LookupSetTypeConverterHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value is <ph id="ph1">`null`</ph> for a &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; that is based on an unknown &lt;xref:System.Xaml.XamlType&gt;.</source>
+          <target state="translated">반환 값은 <ph id="ph1">`null`</ph> &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; &lt;xref:System.Xaml.XamlType&gt;.&lt;/xref:System.Xaml.XamlType&gt; 알 수를 기반으로 하는&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A handler implementation that handles this case.</source>
+          <target state="translated">이 경우를 처리 하는 처리기 구현입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Provides a static value that represents an unknown, not fully implemented <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">완전히 구현 되지 않은 알 수를 나타내는 정적 값을 제공 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Supplying this value for a &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt; parameter of System.Xaml defined API will typically cause the called code to throw exceptions.</source>
+          <target state="translated">이 값을 제공 하는 &lt;xref:System.Xaml.Schema.XamlTypeInvoker&gt;System.Xaml의 매개 변수 정의 API 호출된 된 코드가 예외를 throw 하면 일반적으로.&lt;/xref:System.Xaml.Schema.XamlTypeInvoker&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A static value that represents an unknown, not fully implemented <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">완전히 구현 되지 않은 알 수를 나타내는 정적 값 <bpt id="p1">&lt;xref href="System.Xaml.Schema.XamlTypeInvoker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

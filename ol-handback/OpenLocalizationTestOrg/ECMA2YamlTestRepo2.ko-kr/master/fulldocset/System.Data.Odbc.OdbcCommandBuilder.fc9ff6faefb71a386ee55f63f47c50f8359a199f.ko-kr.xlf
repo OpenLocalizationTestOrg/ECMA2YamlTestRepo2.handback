@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b9abaa7d180f7a0294d4c4878914081840dbe0f2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Odbc.OdbcCommandBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">acd8d76dfc6ffe11a9bab755ee2b4ad23fcd3fba</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3788bd5a16f8c721d31e3e70ace3a8c1ee08276d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Automatically generates single-table commands that are used to reconcile changes made to a <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the associated data source.</source>
+          <target state="translated">변경 내용을 조정 하는 데 사용 되는 단일 테이블 명령을 자동으로 생성 한 <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 연결 된 데이터 원본과 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">이 클래스는 상속 될 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt; does not automatically generate the SQL statements required to reconcile changes made to a &lt;xref:System.Data.DataSet&gt; associated with the data source.</source>
+          <target state="translated">&lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;변경 내용을 조정 하는 데 필요한 SQL 문을 자동으로 생성 되지 않습니다는 &lt;xref:System.Data.DataSet&gt;데이터 원본과 관련 된.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you can create an OdbcCommandBuilder object that generates SQL statements for single-table updates by setting the &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt; property of the &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.</source>
+          <target state="translated">그러나 &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt; &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; 의 속성&lt;/xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt; 을 설정 하 여 단일 테이블 업데이트에 대 한 SQL 문을 생성 하는 OdbcCommandBuilder 개체를 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OdbcCommandBuilder then generates any additional SQL statements that you do not set.</source>
+          <target state="translated">OdbcCommandBuilder 설정 하지 않는 추가적인 모든 SQL 문을 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The relationship between an &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt; and its corresponding OdbcCommandBuilder is always one-to-one.</source>
+          <target state="translated">간의 관계는 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;되며 해당 해당 OdbcCommandBuilder 일대일 항상.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create this correspondence, you set the &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt; property of the OdbcCommandBuilder object.</source>
+          <target state="translated">이 관계를 만들려면 설정는 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;OdbcCommandBuilder 개체의 속성입니다.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This causes the OdbcCommandBuilder to register itself as a listener, which produces the output of &lt;xref:System.Data.Odbc.OdbcDataAdapter.RowUpdating&gt; events that affect the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">이 인해 OdbcCommandBuilder &lt;xref:System.Data.Odbc.OdbcDataAdapter.RowUpdating&gt; &lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt; 에 영향을 주는 이벤트&lt;/xref:System.Data.Odbc.OdbcDataAdapter.RowUpdating&gt; 의 출력을 생성 하는 수신기로 등록</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To generate INSERT, UPDATE, or DELETE statements, the OdbcCommandBuilder uses the &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt; property to retrieve a required set of metadata.</source>
+          <target state="translated">OdbcCommandBuilder 사용 하 여 INSERT, UPDATE 또는 DELETE 문을 생성 하려면는 &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt;필요한 메타 데이터 집합을 검색할 속성.&lt;/xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you change the value of &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt; after the metadata has been retrieved, such as after the first update, you should then call the &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt; method to update the metadata.</source>
+          <target state="translated">값을 변경 하면 &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt;후 메타 데이터를 검색 한 첫 번째 업데이트 이후 호출 해야 하는 등의 &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;메서드 메타 데이터를 업데이트 합니다.&lt;/xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt; &lt;/xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the SELECT statement assigned to the &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt; property uses aliased column names, the resulting INSERT, UPDATE, and DELETE statements may be inaccurate or fail.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;에 할당 된 SELECT 문의 경우는 &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt;속성 별칭이 지정 된 열 이름, 결과 삽입, 업데이트, 사용 및 DELETE 문을 수 정확 하지 않을 수 또는 실패.&lt;/xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying ODBC driver cannot provide the appropriate base column name for the alias column name (using the SQL_DESC_BASE_COLUMN_NAME value of <ph id="ph1">`SQLColAttribute`</ph>), the alias name could be used in the generated INSERT, UPDATE, and DELETE statements.</source>
+          <target state="translated">기본 ODBC 드라이버는 열 별칭에 대 한 적절 한 기본 열 이름을 제공할 수 없는 경우 (SQL_DESC_BASE_COLUMN_NAME 값을 사용 하 여 <ph id="ph1">`SQLColAttribute`</ph>), 별칭 이름을 생성 된 INSERT, UPDATE 및 DELETE 문에서 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the Microsoft ODBC Driver for Oracle returns the alias name as the base column name.</source>
+          <target state="translated">예를 들어 Microsoft ODBC Driver for Oracle 기본 열 이름으로 별칭 이름을 반환합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the generated INSERT, UPDATE, and DELETE statements would cause errors.</source>
+          <target state="translated">따라서 생성 된 INSERT, UPDATE 및 DELETE 문은 오류가 발생 하 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OdbcCommandBuilder also uses the &lt;xref:System.Data.Odbc.OdbcCommand.Connection%2A&gt;, &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt;, and &lt;xref:System.Data.Odbc.OdbcCommand.Transaction%2A&gt; properties referenced by the &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt;.</source>
+          <target state="translated">OdbcCommandBuilder 또한 사용 하 여는 &lt;xref:System.Data.Odbc.OdbcCommand.Connection%2A&gt;, &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; &lt;xref:System.Data.Odbc.OdbcCommand.Transaction%2A&gt;에 &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt;.&lt;/xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt; 참조 되는 속성&lt;/xref:System.Data.Odbc.OdbcCommand.Transaction%2A&gt; 및&lt;/xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; &lt;/xref:System.Data.Odbc.OdbcCommand.Connection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user should call &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt; if one or more of these properties are modified, or if the value of the &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt; property itself is changed.</source>
+          <target state="translated">호출 해야 합니다 &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;이러한 속성 중 하나 이상이 수정 되는 경우 또는 경우의 값은 &lt;xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt;자체 속성이 변경 될.&lt;/xref:System.Data.Odbc.OdbcDataAdapter.SelectCommand%2A&gt; &lt;/xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise the &lt;xref:System.Data.Odbc.OdbcDataAdapter.InsertCommand%2A&gt;, &lt;xref:System.Data.Odbc.OdbcDataAdapter.UpdateCommand%2A&gt;, and &lt;xref:System.Data.Odbc.OdbcDataAdapter.DeleteCommand%2A&gt; properties retain their previous values.</source>
+          <target state="translated">그렇지 않은 경우는 &lt;xref:System.Data.Odbc.OdbcDataAdapter.InsertCommand%2A&gt;, &lt;xref:System.Data.Odbc.OdbcDataAdapter.UpdateCommand%2A&gt;, 및 &lt;xref:System.Data.Odbc.OdbcDataAdapter.DeleteCommand%2A&gt;속성 이전 값을 유지 합니다.&lt;/xref:System.Data.Odbc.OdbcDataAdapter.DeleteCommand%2A&gt; &lt;/xref:System.Data.Odbc.OdbcDataAdapter.UpdateCommand%2A&gt; &lt;/xref:System.Data.Odbc.OdbcDataAdapter.InsertCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call &lt;xref:System.ComponentModel.Component.Dispose%2A&gt;, the OdbcCommandBuilder is disassociated from the &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;, and the generated commands are no longer used.</source>
+          <target state="translated">호출 하는 경우 &lt;xref:System.ComponentModel.Component.Dispose%2A&gt;는 OdbcCommandBuilder에서 분리는 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;, 생성된 된 명령을 더 이상 사용 됩니다.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; &lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommandBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommandBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base constructor initializes all fields to their default values.</source>
+          <target state="translated">기본 생성자는 모든 필드를를 기본값으로 초기화합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommandBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the associated <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcDataAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommandBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스와 연결 된 <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcDataAdapter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt; registers itself as a listener for &lt;xref:System.Data.Odbc.OdbcDataAdapter.RowUpdating&gt; events that are generated by the &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt; specified in this property.</source>
+          <target state="translated">&lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt;자체에 대 한 수신기로 등록 &lt;xref:System.Data.Odbc.OdbcDataAdapter.RowUpdating&gt;에서 생성 되는 이벤트는 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;이 속성에 지정 된.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; &lt;/xref:System.Data.Odbc.OdbcDataAdapter.RowUpdating&gt; &lt;/xref:System.Data.Odbc.OdbcCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create a new instance of &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt;, any existing &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt; associated with this &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt; is released.</source>
+          <target state="translated">새 인스턴스를 만들 때 &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt;, 모든 기존 &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt;이 연관 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;해제 됩니다.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; &lt;/xref:System.Data.Odbc.OdbcCommandBuilder&gt; &lt;/xref:System.Data.Odbc.OdbcCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to associate with this <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcCommandBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 연결할 개체 <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcCommandBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets or sets an <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for which this <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcCommandBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object will generate SQL statements.</source>
+          <target state="translated">가져오거나는 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 대 한 개체 <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcCommandBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 개체는 SQL 문을 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt; registers itself as a listener for &lt;xref:System.Data.Odbc.OdbcDataAdapter.RowUpdating&gt; events that are generated by the &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt; specified in this property.</source>
+          <target state="translated">&lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt;자체에 대 한 수신기로 등록 &lt;xref:System.Data.Odbc.OdbcDataAdapter.RowUpdating&gt;에서 생성 되는 이벤트는 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;이 속성에 지정 된.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; &lt;/xref:System.Data.Odbc.OdbcDataAdapter.RowUpdating&gt; &lt;/xref:System.Data.Odbc.OdbcCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create a new instance of &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt;, any existing &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt; associated with this &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt; is released.</source>
+          <target state="translated">새 인스턴스를 만들 때 &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt;, 모든 기존 &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt;이 연관 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;해제 됩니다.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; &lt;/xref:System.Data.Odbc.OdbcCommandBuilder&gt; &lt;/xref:System.Data.Odbc.OdbcCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is associated with this <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcCommandBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcDataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 과 관련 된 개체 <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcCommandBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Retrieves parameter information from the stored procedure specified in the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and populates the &lt;xref:System.Data.Odbc.OdbcCommand.Parameters*&gt; collection of the specified <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">에 지정 된 저장된 프로시저에서 매개 변수 정보를 검색 된 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 채웁니다는 &lt;xref:System.Data.Odbc.OdbcCommand.Parameters*&gt;는 지정 된 컬렉션 <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 개체입니다.&lt;/xref:System.Data.Odbc.OdbcCommand.Parameters*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DeriveParameters overwrites any existing parameter information for the &lt;xref:System.Data.Odbc.OdbcCommand&gt;.</source>
+          <target state="translated">DeriveParameters &lt;xref:System.Data.Odbc.OdbcCommand&gt;.&lt;/xref:System.Data.Odbc.OdbcCommand&gt; 에 대 한 모든 기존 매개 변수 정보를 덮어씁니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DeriveParameters requires an additional call to the data source to obtain the information.</source>
+          <target state="translated">DeriveParameters에는 정보를 가져오는 데이터 원본에 추가로 호출을 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the parameter information is known in advance, it is more efficient to populate the parameters collection by setting the information explicitly.</source>
+          <target state="translated">매개 변수 정보는 사전에 알고 있는 경우 정보를 명시적으로 설정 하 여 매개 변수 컬렉션을 채우는 데 더 효율적입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can only use DeriveParameters with stored procedures.</source>
+          <target state="translated">저장된 프로시저와 함께 DeriveParameters만 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot use DeriveParameters to populate the &lt;xref:System.Data.Odbc.OdbcParameterCollection&gt; with arbitrary Transact-SQL statements, such as a parameterized SELECT statement.</source>
+          <target state="translated">DeriveParameters 채우는 데 사용할 수 없습니다는 &lt;xref:System.Data.Odbc.OdbcParameterCollection&gt;임의의 Transact SQL 문, 매개 변수가 있는 SELECT 문 처럼.&lt;/xref:System.Data.Odbc.OdbcParameterCollection&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> referencing the stored procedure from which the parameter information is to be derived.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 있는 매개 변수 정보 파생 되어야 하는 저장된 프로시저를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The derived parameters are added to the &lt;xref:System.Data.Odbc.OdbcCommand.Parameters*&gt; collection of the <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">파생 된 매개 변수를 추가 &lt;xref:System.Data.Odbc.OdbcCommand.Parameters*&gt;의 컬렉션은 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.Odbc.OdbcCommand.Parameters*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The underlying ODBC driver does not support returning stored procedure parameter information, or the command text is not a valid stored procedure name, or the <bpt id="p1">&lt;xref href="System.Data.CommandType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specified was not <bpt id="p2">&lt;xref uid="langword_csharp_CommandType.StoredProcedure" name="CommandType.StoredProcedure" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본 ODBC 드라이버는 저장된 프로시저 매개 변수 정보를 반환을 지원 하지 않거나 명령 텍스트는 올바른 저장된 프로시저 이름이 아닙니다. 또는 <bpt id="p1">&lt;xref href="System.Data.CommandType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 없습니다 지정 <bpt id="p2">&lt;xref uid="langword_csharp_CommandType.StoredProcedure" name="CommandType.StoredProcedure" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets the automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform deletions at the data source.</source>
+          <target state="translated">자동으로 생성 된 가져옵니다 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 데이터 소스에서 삭제를 수행 하는 데 필요한 개체입니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the GetDeleteCommand method for informational or troubleshooting purposes because it returns the &lt;xref:System.Data.Odbc.OdbcCommand&gt; object to be executed.</source>
+          <target state="translated">반환 하기 때문에 문제 해결 용도로 GetDeleteCommand 메서드를 사용할 수는 &lt;xref:System.Data.Odbc.OdbcCommand&gt;실행할 개체입니다.&lt;/xref:System.Data.Odbc.OdbcCommand&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use GetDeleteCommand as the basis of a modified command.</source>
+          <target state="translated">또한 수정 된 명령 기반으로 GetDeleteCommand를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might call GetDeleteCommand and modify the &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; value, and then explicitly set that on the &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.</source>
+          <target state="translated">GetDeleteCommand를 호출 하 고 수정 &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt;값을 명시적으로 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; 에 설정할&lt;/xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; 수 예를 들어</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the SQL statement is first generated, you must explicitly call &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt; if it changes the statement in any way.</source>
+          <target state="translated">명시적으로 호출 해야 SQL 문을 처음 생성 후 &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;문을 어떤 식으로든에서 변경 하는 경우.&lt;/xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the GetDeleteCommand will be using information from the previous statement, which might not be correct.</source>
+          <target state="translated">그렇지 않은 경우는 GetDeleteCommand 이전 문의 올바르지 않을 수 있는 정보를에서 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SQL statements are first generated when the application calls either &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt; or GetDeleteCommand.</source>
+          <target state="translated">응용 프로그램 중 하나를 호출 하는 경우에 SQL 문을 생성할 먼저는 &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;또는 GetDeleteCommand.&lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform deletions.</source>
+          <target state="translated">자동으로 생성 된 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 삭제를 수행 하는 데 필요한 개체입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform deletions at the data source.</source>
+          <target state="translated">자동으로 생성 된 가져옵니다 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 데이터 소스에서 삭제를 수행 하는 데 필요한 개체입니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt; method for informational or troubleshooting purposes because it returns the &lt;xref:System.Data.Odbc.OdbcCommand&gt; object to be executed.</source>
+          <target state="translated">사용할 수 있습니다는 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt;반환 하기 때문에 목적으로 하는 문제 해결에 대 한 메서드는 &lt;xref:System.Data.Odbc.OdbcCommand&gt;실행할 개체입니다.&lt;/xref:System.Data.Odbc.OdbcCommand&gt; &lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt; as the basis of a modified command.</source>
+          <target state="translated">사용할 수도 있습니다 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt;의 수정 된 명령 기반으로 합니다.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might call &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt; and modify the &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; value, and then explicitly set that on the &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.</source>
+          <target state="translated">예를 들어 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt;수정 &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt;값을 명시적으로 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; 를 설정&lt;/xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; 하 고&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt; 을 호출할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the SQL statement is first generated, you must explicitly call &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt; if it changes the statement in any way.</source>
+          <target state="translated">명시적으로 호출 해야 SQL 문을 처음 생성 후 &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;문을 어떤 식으로든에서 변경 하는 경우.&lt;/xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt; will be using information from the previous statement, which might not be correct.</source>
+          <target state="translated">그렇지 않은 경우는 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt;이전 문의 올바르지 않을 수 있는 정보를에서 사용 하는.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SQL statements are first generated when the application calls either &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt; or &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt;.</source>
+          <target state="translated">SQL 문은 처음으로 생성 됩니다는 응용 프로그램 중 하나 &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;나 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt;.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand%2A&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt; 호출 하는 경우</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default behavior, when generating parameter names, is to use <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>, and so on for the various parameters.</source>
+          <target state="translated">매개 변수 이름을 생성할 때의 기본 동작을 사용 하는 <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>, 다양 한 매개 변수 대.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Passing <ph id="ph1">`true`</ph> for the <ph id="ph2">`useColumnsForParameterNames`</ph> parameter lets you force the &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt; to generate parameters based on the column names instead.</source>
+          <target state="translated">전달 <ph id="ph1">`true`</ph> 에 대 한는 <ph id="ph2">`useColumnsForParameterNames`</ph> 매개 변수에 &lt;xref:System.Data.Odbc.OdbcCommandBuilder&gt;대신 열 이름에 따라 매개 변수를 생성 합니다.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This succeeds only if the following conditions are met:      -   The &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNameMaxLength&gt; has been specified, and its length is equal to or greater than the generated parameter name.</source>
+          <target state="translated">다음 조건에 해당 하는 경우에이 작업은 성공:- &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNameMaxLength&gt;를 지정 하면이 고 길이 생성 된 매개 변수 이름 보다 크거나 같은.&lt;/xref:System.Data.Common.DbMetaDataColumnNames.ParameterNameMaxLength&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The generated parameter name meets the criteria specified in the &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNamePattern&gt; regular expression.</source>
+          <target state="translated">-생성 된 매개 변수 이름에 지정 된 조건에 부합는 &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNamePattern&gt;정규식.&lt;/xref:System.Data.Common.DbMetaDataColumnNames.ParameterNamePattern&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterMarkerFormat&gt; is specified.</source>
+          <target state="translated">-A &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterMarkerFormat&gt;지정 됩니다.&lt;/xref:System.Data.Common.DbMetaDataColumnNames.ParameterMarkerFormat&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, generate parameter names matching column names, if it is possible.</source>
+          <target state="translated">경우 <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 가능한 경우 열 이름과 일치 하는 매개 변수 이름을 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, generate <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>, and so on.</source>
+          <target state="translated">경우 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 생성 <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>등입니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform deletions.</source>
+          <target state="translated">자동으로 생성 된 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 삭제를 수행 하는 데 필요한 개체입니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets the automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform insertions at the data source.</source>
+          <target state="translated">자동으로 생성 된 가져옵니다 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체가 데이터 원본에 삽입 하는 데 필요 합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the GetInsertCommand method for informational or troubleshooting purposes because it returns the &lt;xref:System.Data.Odbc.OdbcCommand&gt; object to be executed.</source>
+          <target state="translated">반환 하기 때문에 문제 해결 용도로 GetInsertCommand 메서드를 사용할 수는 &lt;xref:System.Data.Odbc.OdbcCommand&gt;실행할 개체입니다.&lt;/xref:System.Data.Odbc.OdbcCommand&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use GetInsertCommand as the basis of a modified command.</source>
+          <target state="translated">또한 수정 된 명령 기반으로 GetInsertCommand를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might call GetInsertCommand and modify the &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; value, and then explicitly set that on the &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.</source>
+          <target state="translated">GetInsertCommand를 호출 하 고 수정 &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt;값을 명시적으로 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; 에 설정할&lt;/xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; 수 예를 들어</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the SQL statement is first generated, you must explicitly call &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt; if it changes the statement in any way.</source>
+          <target state="translated">명시적으로 호출 해야 SQL 문을 처음 생성 후 &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;문을 어떤 식으로든에서 변경 하는 경우.&lt;/xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the GetInsertCommand still will be using information from the previous statement, which might not be correct.</source>
+          <target state="translated">그렇지 않은 경우는 GetInsertCommand 여전히 됩니다 정보를에서 사용는 이전 문을 올바르지 않을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SQL statements are first generated when the application calls either &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt; or GetInsertCommand.</source>
+          <target state="translated">응용 프로그램 중 하나를 호출 하는 경우에 SQL 문을 생성할 먼저는 &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;또는 GetInsertCommand.&lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform insertions.</source>
+          <target state="translated">자동으로 생성 된 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체가 삽입 하는 데 필요 합니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets the automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform insertions at the data source.</source>
+          <target state="translated">자동으로 생성 된 가져옵니다 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체가 데이터 원본에 삽입 하는 데 필요 합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt; method for informational or troubleshooting purposes because it returns the &lt;xref:System.Data.Odbc.OdbcCommand&gt; object to be executed.</source>
+          <target state="translated">사용할 수 있습니다는 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt;반환 하기 때문에 목적으로 하는 문제 해결에 대 한 메서드는 &lt;xref:System.Data.Odbc.OdbcCommand&gt;실행할 개체입니다.&lt;/xref:System.Data.Odbc.OdbcCommand&gt; &lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt; as the basis of a modified command.</source>
+          <target state="translated">사용할 수도 있습니다 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt;의 수정 된 명령 기반으로 합니다.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might call &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt; and modify the &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; value, and then explicitly set that on the &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.</source>
+          <target state="translated">예를 들어 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt;수정 &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt;값을 명시적으로 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; 를 설정&lt;/xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; 하 고&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt; 을 호출할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the SQL statement is first generated, you must explicitly call &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt; if it changes the statement in any way.</source>
+          <target state="translated">명시적으로 호출 해야 SQL 문을 처음 생성 후 &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;문을 어떤 식으로든에서 변경 하는 경우.&lt;/xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt; will be using information from the previous statement, which might not be correct.</source>
+          <target state="translated">그렇지 않은 경우는 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt;이전 문의 올바르지 않을 수 있는 정보를에서 사용 하는.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SQL statements are first generated when the application calls either &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt; or &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt;.</source>
+          <target state="translated">SQL 문은 처음으로 생성 됩니다는 응용 프로그램 중 하나 &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;나 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt;.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand%2A&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt; 호출 하는 경우</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default behavior, when generating parameter names, is to use <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>, and so on for the various parameters.</source>
+          <target state="translated">매개 변수 이름을 생성할 때의 기본 동작을 사용 하는 <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>, 다양 한 매개 변수 대.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Passing <ph id="ph1">`true`</ph> for the <ph id="ph2">`useColumnsForParameterNames`</ph> parameter lets you force the &lt;xref:System.Data.Common.DbCommandBuilder&gt; to generate parameters based on the column names instead.</source>
+          <target state="translated">전달 <ph id="ph1">`true`</ph> 에 대 한는 <ph id="ph2">`useColumnsForParameterNames`</ph> 매개 변수에 &lt;xref:System.Data.Common.DbCommandBuilder&gt;대신 열 이름에 따라 매개 변수를 생성 합니다.&lt;/xref:System.Data.Common.DbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This succeeds only if the following conditions are met:      -   The &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNameMaxLength&gt; has been specified, and its length is equal to or greater than the generated parameter name.</source>
+          <target state="translated">다음 조건에 해당 하는 경우에이 작업은 성공:- &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNameMaxLength&gt;를 지정 하면이 고 길이 생성 된 매개 변수 이름 보다 크거나 같은.&lt;/xref:System.Data.Common.DbMetaDataColumnNames.ParameterNameMaxLength&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The generated parameter name meets the criteria specified in the &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNamePattern&gt; regular expression.</source>
+          <target state="translated">-생성 된 매개 변수 이름에 지정 된 조건에 부합는 &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNamePattern&gt;정규식.&lt;/xref:System.Data.Common.DbMetaDataColumnNames.ParameterNamePattern&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterMarkerFormat&gt; is specified.</source>
+          <target state="translated">-A &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterMarkerFormat&gt;지정 됩니다.&lt;/xref:System.Data.Common.DbMetaDataColumnNames.ParameterMarkerFormat&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, generate parameter names matching column names, if it is possible.</source>
+          <target state="translated">경우 <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 가능한 경우 열 이름과 일치 하는 매개 변수 이름을 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, generate <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>, and so on.</source>
+          <target state="translated">경우 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 생성 <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>등입니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform insertions.</source>
+          <target state="translated">자동으로 생성 된 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체가 삽입 하는 데 필요 합니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets the automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform updates at the data source.</source>
+          <target state="translated">자동으로 생성 된 가져옵니다 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 데이터 원본에서 업데이트를 수행 하는 데 필요한 개체입니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the GetUpdateCommand method for informational or troubleshooting purposes because it returns the &lt;xref:System.Data.Odbc.OdbcCommand&gt; object to be executed.</source>
+          <target state="translated">반환 하기 때문에 문제 해결 용도로 GetUpdateCommand 메서드를 사용할 수는 &lt;xref:System.Data.Odbc.OdbcCommand&gt;실행할 개체입니다.&lt;/xref:System.Data.Odbc.OdbcCommand&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use GetUpdateCommand as the basis of a modified command.</source>
+          <target state="translated">또한 수정 된 명령 기반으로 GetUpdateCommand를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might call GetUpdateCommand and modify the &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; value, and then explicitly set that on the &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.</source>
+          <target state="translated">GetUpdateCommand를 호출 하 고 수정 &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt;값을 명시적으로 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; 에 설정할&lt;/xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; 수 예를 들어</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the SQL statement is first generated, you must explicitly call &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt; if it changes the statement in any way.</source>
+          <target state="translated">명시적으로 호출 해야 SQL 문을 처음 생성 후 &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;문을 어떤 식으로든에서 변경 하는 경우.&lt;/xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the GetUpdateCommand still will be using information from the previous statement, which might not be correct.</source>
+          <target state="translated">그렇지 않은 경우는 GetUpdateCommand 여전히 됩니다 정보를에서 사용는 이전 문을 올바르지 않을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SQL statements are first generated when the application calls either &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt; or GetUpdateCommand.</source>
+          <target state="translated">응용 프로그램 중 하나를 호출 하는 경우에 SQL 문을 생성할 먼저는 &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;또는 GetUpdateCommand.&lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform updates.</source>
+          <target state="translated">자동으로 생성 된 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 업데이트를 수행 하는 데 필요한 개체입니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Gets the automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform updates at the data source.</source>
+          <target state="translated">자동으로 생성 된 가져옵니다 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 데이터 원본에서 업데이트를 수행 하는 데 필요한 개체입니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt; method for informational or troubleshooting purposes because it returns the &lt;xref:System.Data.Odbc.OdbcCommand&gt; object to be executed.</source>
+          <target state="translated">사용할 수 있습니다는 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt;반환 하기 때문에 목적으로 하는 문제 해결에 대 한 메서드는 &lt;xref:System.Data.Odbc.OdbcCommand&gt;실행할 개체입니다.&lt;/xref:System.Data.Odbc.OdbcCommand&gt; &lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt; as the basis of a modified command.</source>
+          <target state="translated">사용할 수도 있습니다 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt;의 수정 된 명령 기반으로 합니다.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might call &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt; and modify the &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; value, and then explicitly set that on the &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.</source>
+          <target state="translated">예를 들어 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt;수정 &lt;xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt;값을 명시적으로 &lt;xref:System.Data.Odbc.OdbcDataAdapter&gt;.&lt;/xref:System.Data.Odbc.OdbcDataAdapter&gt; 를 설정&lt;/xref:System.Data.Odbc.OdbcCommand.CommandTimeout%2A&gt; 하 고&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt; 을 호출할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the SQL statement is first generated, you must explicitly call &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt; if it changes the statement in any way.</source>
+          <target state="translated">명시적으로 호출 해야 SQL 문을 처음 생성 후 &lt;xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;문을 어떤 식으로든에서 변경 하는 경우.&lt;/xref:System.Data.Common.DbCommandBuilder.RefreshSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt; still will be using information from the previous statement, which might not be correct.</source>
+          <target state="translated">그렇지 않은 경우는 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt;여전히 됩니다 수 정보를에서 사용 하는 이전 문을 올바르지 않을 수 있습니다.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SQL statements are first generated when the application calls either &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt; or &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt;.</source>
+          <target state="translated">SQL 문은 처음으로 생성 됩니다는 응용 프로그램 중 하나 &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;나 &lt;xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt;.&lt;/xref:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand%2A&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt; 호출 하는 경우</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default behavior, when generating parameter names, is to use <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>, and so on for the various parameters.</source>
+          <target state="translated">매개 변수 이름을 생성할 때의 기본 동작을 사용 하는 <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>, 다양 한 매개 변수 대.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Passing <ph id="ph1">`true`</ph> for the <ph id="ph2">`useColumnsForParameterNames`</ph> parameter lets you force the &lt;xref:System.Data.Common.DbCommandBuilder&gt; to generate parameters based on the column names instead.</source>
+          <target state="translated">전달 <ph id="ph1">`true`</ph> 에 대 한는 <ph id="ph2">`useColumnsForParameterNames`</ph> 매개 변수에 &lt;xref:System.Data.Common.DbCommandBuilder&gt;대신 열 이름에 따라 매개 변수를 생성 합니다.&lt;/xref:System.Data.Common.DbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This succeeds only if the following conditions are met:      -   The &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNameMaxLength&gt; has been specified, and its length is equal to or greater than the generated parameter name.</source>
+          <target state="translated">다음 조건에 해당 하는 경우에이 작업은 성공:- &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNameMaxLength&gt;를 지정 하면이 고 길이 생성 된 매개 변수 이름 보다 크거나 같은.&lt;/xref:System.Data.Common.DbMetaDataColumnNames.ParameterNameMaxLength&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The generated parameter name meets the criteria specified in the &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNamePattern&gt; regular expression.</source>
+          <target state="translated">-생성 된 매개 변수 이름에 지정 된 조건에 부합는 &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterNamePattern&gt;정규식.&lt;/xref:System.Data.Common.DbMetaDataColumnNames.ParameterNamePattern&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterMarkerFormat&gt; is specified.</source>
+          <target state="translated">-A &lt;xref:System.Data.Common.DbMetaDataColumnNames.ParameterMarkerFormat&gt;지정 됩니다.&lt;/xref:System.Data.Common.DbMetaDataColumnNames.ParameterMarkerFormat&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, generate parameter names matching column names, if it is possible.</source>
+          <target state="translated">경우 <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 가능한 경우 열 이름과 일치 하는 매개 변수 이름을 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, generate <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>, and so on.</source>
+          <target state="translated">경우 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 생성 <ph id="ph1">@p1</ph>, <ph id="ph2">@p2</ph>등입니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The automatically generated <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object required to perform updates.</source>
+          <target state="translated">자동으로 생성 된 <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 업데이트를 수행 하는 데 필요한 개체입니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Given an unquoted identifier in the correct catalog case, returns the correct quoted form of that identifier.</source>
+          <target state="translated">제공 되는 올바른 카탈로그에서는 따옴표가 없는 식별자 올바른 반환 형식의 해당 식별자를 따옴표로 묶을 합니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This includes correctly escaping any embedded quotes in the identifier.</source>
+          <target state="translated">여기에 식별자에 포함 된 따옴표를 이스케이프 합니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The original unquoted identifier.</source>
+          <target state="translated">원래 따옴표가 없는 식별자입니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The quoted version of the identifier.</source>
+          <target state="translated">따옴표 붙은 식별자의 버전입니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Embedded quotes within the identifier are correctly escaped.</source>
+          <target state="translated">식별자에 포함 된 따옴표가 이스케이프 올바르게 됩니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Given an unquoted identifier in the correct catalog case, returns the correct quoted form of that identifier.</source>
+          <target state="translated">제공 되는 올바른 카탈로그에서는 따옴표가 없는 식별자 올바른 반환 형식의 해당 식별자를 따옴표로 묶을 합니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This includes correctly escaping any embedded quotes in the identifier.</source>
+          <target state="translated">여기에 식별자에 포함 된 따옴표를 이스케이프 합니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The original unquoted identifier.</source>
+          <target state="translated">원래 따옴표가 없는 식별자입니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>When a connection is passed, causes the managed wrapper to get the quote character from the ODBC driver, calling SQLGetInfo(SQL_IDENTIFIER_QUOTE_CHAR).</source>
+          <target state="translated">한 연결을 전달 하면 사용자가 관리 되는 래퍼 SQLGetInfo(SQL_IDENTIFIER_QUOTE_CHAR) 호출 ODBC 드라이버에서 인용 문자를 가져올 수 합니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>When no connection is passed, the string is quoted using values from &lt;xref:System.Data.Common.DbCommandBuilder.QuotePrefix<bpt id="p1">*</bpt>&gt; and &lt;xref:System.Data.Common.DbCommandBuilder.QuoteSuffix<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">문자열 값을 사용 하 나와 연결 없음이 전달 되 면 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 및 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; 합니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The quoted version of the identifier.</source>
+          <target state="translated">따옴표 붙은 식별자의 버전입니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Embedded quotes within the identifier are correctly escaped.</source>
+          <target state="translated">식별자에 포함 된 따옴표가 이스케이프 올바르게 됩니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Given a quoted identifier, returns the correct unquoted form of that identifier, including correctly unescaping any embedded quotes in the identifier.</source>
+          <target state="translated">따옴표가 없는 올바른 형식의 올바르게 포함 하 여 해당 식별자에는 식별자에 포함 된 따옴표 이스케이프 취소 반환 따옴표 붙은 식별자를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The identifier that will have its embedded quotes removed.</source>
+          <target state="translated">포함 된 따옴표 제거 하는 식별자입니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The unquoted identifier, with embedded quotes correctly unescaped.</source>
+          <target state="translated">포함 된 따옴표가 이스케이프 해제 따옴표가 없는 식별자입니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Given a quoted identifier, returns the correct unquoted form of that identifier, including correctly unescaping any embedded quotes in the identifier.</source>
+          <target state="translated">따옴표가 없는 올바른 형식의 올바르게 포함 하 여 해당 식별자에는 식별자에 포함 된 따옴표 이스케이프 취소 반환 따옴표 붙은 식별자를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The identifier that will have its embedded quotes removed.</source>
+          <target state="translated">포함 된 따옴표 제거 하는 식별자입니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Data.Odbc.OdbcConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The unquoted identifier, with embedded quotes correctly unescaped.</source>
+          <target state="translated">포함 된 따옴표가 이스케이프 해제 따옴표가 없는 식별자입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

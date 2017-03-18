@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6575fef3945d2c71d8ce5747d792d2a524287c39</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xml.XmlUrlResolver.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">675ea20850fe9a7e2c27a7a0cfbaa200fc887658</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a97154ecefd8f34a23c6defbcf1294f1299db18d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Resolves external XML resources named by a Uniform Resource Identifier (URI).</source>
+          <target state="translated">여는 식별자 URI (Uniform Resource)을 명명 된 외부 XML 리소스를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XmlUrlResolver is used to resolve external XML resources such as entities, document type definitions (DTDs) or schemas.</source>
+          <target state="translated">XmlUrlResolver는 엔터티를 문서 유형 정의 (Dtd) 또는 스키마와 같은 외부 XML 리소스를 확인 하는 데 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is also used to process include and import elements found in Extensible StyleSheet Language (XSL) style sheets or XML Schema definition language (XSD) schemas.</source>
+          <target state="translated">사용 하는 것도 프로세스 포함 및 스타일 시트 XSL (Extensible Language) 스타일 시트 또는 XML 스키마 정의 언어 (XSD) 스키마에 요소를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XmlUrlResolver is the default resolver for all classes in the &lt;xref:System.Xml&gt; namespace.</source>
+          <target state="translated">XmlUrlResolver는 모든 클래스에 대 한 기본 해결 프로그램은 &lt;xref:System.Xml&gt;네임 스페이스.&lt;/xref:System.Xml&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It supports the <ph id="ph1">`file://`</ph> and <ph id="ph2">`http://`</ph> protocols and requests from the &lt;xref:System.Net.WebRequest&gt; class.</source>
+          <target state="translated">지원 된 <ph id="ph1">`file://`</ph> 및 <ph id="ph2">`http://`</ph> 프로토콜 및 &lt;xref:System.Net.WebRequest&gt;클래스&lt;/xref:System.Net.WebRequest&gt; 와에서 요청</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  XmlUrlResolver objects can contain sensitive information such as user credentials.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; XmlUrlResolver 개체는 사용자 자격 증명과 같은 중요 한 정보를 포함할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should be careful when you cache XmlUrlResolver objects and should not pass XmlUrlResolver objects to an untrusted component.</source>
+          <target state="translated">XmlUrlResolver 개체를 캐시 하 고 신뢰할 수 없는 구성 요소에 XmlUrlResolver 개체를 전달 하지 않아야 하는 경우 주의 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Resolving DTDs    If an XML reader (&lt;xref:System.Xml.XmlReader&gt;) is reading an XML file that contains an external DTD, it calls the &lt;xref:System.Xml.XmlUrlResolver.GetEntityAsync%2A?displayProperty=fullName&gt; method to get a stream representation of the DTD.</source>
+          <target state="translated">Dtd 경우 XML 판독기 해결 (&lt;xref:System.Xml.XmlReader&gt;) 외부 DTD를 포함 하는 XML 파일을 읽고, 호출의 &lt;xref:System.Xml.XmlUrlResolver.GetEntityAsync%2A?displayProperty=fullName&gt;DTD의 스트림을 표시 하는 메서드.&lt;/xref:System.Xml.XmlUrlResolver.GetEntityAsync%2A?displayProperty=fullName&gt; &lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the URI of the DTD is a relative URI, the XML reader calls the &lt;xref:System.Xml.XmlUrlResolver.ResolveUri%2A?displayProperty=fullName&gt; method and returns an absolute URI for the given <ph id="ph1">`relativeUri`</ph> and <ph id="ph2">`baseURi`</ph> parameters.</source>
+          <target state="translated">XML 판독기를 호출 하는 DTD의 URI는 상대 URI 이면는 &lt;xref:System.Xml.XmlUrlResolver.ResolveUri%2A?displayProperty=fullName&gt;메서드에 대 한 절대 URI를 반환 하 고는 주어진 <ph id="ph1">`relativeUri`</ph> 및 <ph id="ph2">`baseURi`</ph> 매개 변수.&lt;/xref:System.Xml.XmlUrlResolver.ResolveUri%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the XmlUrlResolver doesn't know how to resolve the URI, it returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">반환 하는 경우에 XmlUrlResolver URI를 확인 하는 방법을 모릅니다, <ph id="ph1">`null`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Xml.XmlUrlResolver.GetEntity%2A?displayProperty=fullName&gt; method uses the information in the &lt;xref:System.Xml.XmlUrlResolver.Credentials%2A&gt; property as appropriate to gain access to the resource.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlUrlResolver.GetEntity%2A?displayProperty=fullName&gt;에 정보를 사용 하는 메서드는 &lt;xref:System.Xml.XmlUrlResolver.Credentials%2A&gt;를 적절 하 게 리소스에 액세스 하는 속성.&lt;/xref:System.Xml.XmlUrlResolver.Credentials%2A&gt; &lt;/xref:System.Xml.XmlUrlResolver.GetEntity%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no <ph id="ph1">`get`</ph> accessor to this property for security reasons.</source>
+          <target state="translated">없는 <ph id="ph1">`get`</ph> 보안상의 이유로이 속성에는 접근자입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When overwriting &lt;xref:System.Xml.XmlResolver&gt;, <bpt id="p1">**</bpt>GetEntity<ept id="p1">**</ept> is the method that utilizes the credential information in the <bpt id="p2">**</bpt>Credentials<ept id="p2">**</ept> property.</source>
+          <target state="translated">덮어쓸 때 &lt;xref:System.Xml.XmlResolver&gt;, <bpt id="p1">**</bpt>GetEntity<ept id="p1">**</ept> 에서 자격 증명 정보를 활용 하는 방법은 <bpt id="p2">**</bpt>자격 증명<ept id="p2">**</ept> 속성.&lt;/xref:System.Xml.XmlResolver&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Resolving all other XML resources is very similar to resolving DTDs.</source>
+          <target state="translated">다른 모든 XML 리소스를 확인 하는 것은 Dtd를 확인 하는 매우 유사 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Xml.XmlResolver&gt; negotiates the connection with the external resource and returns a &lt;xref:System.IO.Stream&gt; representation of the content.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlResolver&gt;외부 리소스와의 연결을 협상 하 고 반환 된 &lt;xref:System.IO.Stream&gt;콘텐츠의 표현입니다.&lt;/xref:System.IO.Stream&gt;&lt;/xref:System.Xml.XmlResolver&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The object that is making the call to &lt;xref:System.Xml.XmlResolver&gt; interprets the stream.</source>
+          <target state="translated">에 대 한 호출을 수행 하는 개체 &lt;xref:System.Xml.XmlResolver&gt;크거나.&lt;/xref:System.Xml.XmlResolver&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extending the XmlUrlResolver class    The default behavior of the XmlUrlResolver class is to resolve an XML data resource from its source, not from cache.</source>
+          <target state="translated">캐시에서가 아니라 해당 소스에서 XML 데이터 리소스를 해결 하는 XmlUrlResolver 클래스 XmlUrlResolver 클래스의 기본 동작을 확장 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In some cases, resolving a data resource from cache can improve the performance of an application by saving a trip to the data resource's server.</source>
+          <target state="translated">경우에 따라 캐시에서 데이터 리소스를 확인 합니다. 성능을 향상 시킬 수는 응용 프로그램의 한 이동 데이터 리소스의 서버에 저장 하 여 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The performance gains here must be weighed against the need for up-to-date content.</source>
+          <target state="translated">성능 향상을 최신 내용의 필요에 대 한 가중치가 적용 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example extends XmlUrlResolver and builds a new class, <ph id="ph1">`XmlCachingResolver`</ph>, to retrieve resources from the cache.</source>
+          <target state="translated">다음 예제에서는 XmlUrlResolver를 확장 하 고 새 클래스를 작성 <ph id="ph1">`XmlCachingResolver`</ph>캐시에서 리소스를 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is done by overriding the &lt;xref:System.Xml.XmlUrlResolver.Credentials%2A?displayProperty=fullName&gt; property and the &lt;xref:System.Xml.XmlUrlResolver.GetEntity%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">재정의 하 여 이렇게는 &lt;xref:System.Xml.XmlUrlResolver.Credentials%2A?displayProperty=fullName&gt;속성 및 &lt;xref:System.Xml.XmlUrlResolver.GetEntity%2A?displayProperty=fullName&gt;메서드.&lt;/xref:System.Xml.XmlUrlResolver.GetEntity%2A?displayProperty=fullName&gt; &lt;/xref:System.Xml.XmlUrlResolver.Credentials%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>XmlCachingResolver_ex#1<ept id="p2">](~/add/codesnippet/visualbasic/t-system.xml.xmlurlresol_1.vb)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>XmlCachingResolver_ex#1<ept id="p4">](~/add/codesnippet/csharp/t-system.xml.xmlurlresol_1.cs)</ept><ept id="p3">]</ept>       The caching behavior of the <ph id="ph1">`XmlCachingResolver`</ph> class is implemented in the <ph id="ph2">`GetEntity`</ph> method.</source>
+          <target state="translated"><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>XmlCachingResolver_ex&amp;#1;<ept id="p2">](~/add/codesnippet/visualbasic/t-system.xml.xmlurlresol_1.vb)</ept><ept id="p1">]</ept><bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>XmlCachingResolver_ex&amp;#1;<ept id="p4">](~/add/codesnippet/csharp/t-system.xml.xmlurlresol_1.cs)</ept> <ept id="p3">]</ept> 의 캐싱 동작은 <ph id="ph1">`XmlCachingResolver`</ph> 클래스에서 구현 되는 <ph id="ph2">`GetEntity`</ph> 메서드.  </target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is done by creating new &lt;xref:System.Net.WebRequest&gt; and &lt;xref:System.Net.Cache.HttpRequestCachePolicy&gt; objects.</source>
+          <target state="translated">새로 만드는 이렇게 &lt;xref:System.Net.WebRequest&gt;및 &lt;xref:System.Net.Cache.HttpRequestCachePolicy&gt;개체.&lt;/xref:System.Net.Cache.HttpRequestCachePolicy&gt; &lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Net.Cache.HttpRequestCachePolicy&gt; object is created using the &lt;xref:System.Net.Cache.HttpRequestCacheLevel&gt; member of the &lt;xref:System.Net.Cache.HttpRequestCacheLevel&gt; enumeration.</source>
+          <target state="translated">&lt;xref:System.Net.Cache.HttpRequestCachePolicy&gt;개체를 사용 하 여 만든는 &lt;xref:System.Net.Cache.HttpRequestCacheLevel&gt;의 멤버는 &lt;xref:System.Net.Cache.HttpRequestCacheLevel&gt;열거형.&lt;/xref:System.Net.Cache.HttpRequestCacheLevel&gt; &lt;/xref:System.Net.Cache.HttpRequestCacheLevel&gt; &lt;/xref:System.Net.Cache.HttpRequestCachePolicy&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Net.WebRequest.CachePolicy%2A&gt; property of the &lt;xref:System.Net.WebRequest&gt; object is set with the &lt;xref:System.Net.Cache.HttpRequestCachePolicy&gt; object.</source>
+          <target state="translated">&lt;xref:System.Net.WebRequest.CachePolicy%2A&gt;의 속성은 &lt;xref:System.Net.WebRequest&gt;으로 설정 된 개체는 &lt;xref:System.Net.Cache.HttpRequestCachePolicy&gt;개체입니다.&lt;/xref:System.Net.Cache.HttpRequestCachePolicy&gt; &lt;/xref:System.Net.WebRequest&gt; &lt;/xref:System.Net.WebRequest.CachePolicy%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance of the <ph id="ph1">`XmlCachingResolver`</ph> class is created with the <ph id="ph2">`Boolean``enableHttpCaching`</ph>.</source>
+          <target state="translated">인스턴스는 <ph id="ph1">`XmlCachingResolver`</ph> 클래스 만들어집니다는 <ph id="ph2">`Boolean``enableHttpCaching`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this value is set to <ph id="ph1">`true`</ph>, the instance resolves a resource from the default cache if possible.</source>
+          <target state="translated">이 값으로 설정 되 면 <ph id="ph1">`true`</ph>, 가능한 경우 기본 캐시에서 리소스 인스턴스를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`enableHttpCaching`</ph> is set to <ph id="ph2">`false`</ph>, the instance uses the default behavior and resolves resources from their source.</source>
+          <target state="translated">때 <ph id="ph1">`enableHttpCaching`</ph> 로 설정 된 <ph id="ph2">`false`</ph>, 인스턴스는 기본 동작을 사용 하 고 해당 원본에서 리소스를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This example leverages the extensibility of the XML classes in the .NET Framework.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;이 예제에서는.NET Framework의 XML 클래스의 확장성을 이용 합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other classes can be extended and customized to suit the needs of a particular application.</source>
+          <target state="translated">다른 클래스 및 확장에 특정 응용 프로그램의 요구에 맞게 사용자 지정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xml.XmlUrlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Xml.XmlUrlResolver"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets or sets the cache policy for the underlying &lt;xref:System.Net.WebRequest&gt; object.</source>
+          <target state="translated">원본에 대 한 캐시 정책을 가져오거나 설정 합니다. &lt;xref:System.Net.WebRequest&gt;개체입니다.&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The cache policy for the underlying web request.</source>
+          <target state="translated">기본 웹 요청에 대 한 캐시 정책입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Sets credentials used to authenticate web requests.</source>
+          <target state="translated">웹 요청을 인증 하는 데 사용 되는 자격 증명을 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the virtual directory does not require authentication, this property does not need to be set.</source>
+          <target state="translated">가상 디렉터리에 인증이 필요 하지 않는 경우이 속성이 필요는 없습니다 설정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the credentials of the user must be supplied.</source>
+          <target state="translated">그렇지 않으면 사용자의 자격 증명이 제공 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can associate different credentials with different URIs and add them to a cache.</source>
+          <target state="translated">다양 한 Uri에 다른 자격 증명을 연결 하 고 캐시에 추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then use the credentials to check authentication for different URIs, regardless of the original source of the XML.</source>
+          <target state="translated">다음 XML의 원본 소스와 다른 Uri에 대 한 인증을 확인 하려면 자격 증명을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following C# code shows how to set the Credentials property to a credential cache.</source>
+          <target state="translated">다음 C# 코드에 자격 증명 캐시에 자격 증명 속성을 설정 하는 방법을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The credentials to be used to authenticate web requests.</source>
+          <target state="translated">웹 요청을 인증 하는 데 사용할 자격 증명입니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If this property is not set, the value defaults to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; that is, the <bpt id="p2">&lt;xref uid="langword_csharp_XmlUrlResolver" name="XmlUrlResolver" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has no user credentials.</source>
+          <target state="translated">기본값은이 속성을 설정 하지 않으면 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 즉는 <bpt id="p2">&lt;xref uid="langword_csharp_XmlUrlResolver" name="XmlUrlResolver" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 에 사용자 자격 증명이 없습니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Maps a URI to an object that contains the actual resource.</source>
+          <target state="translated">실제 리소스가 포함 된 개체로 URI를 매핑합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used when the caller wants to map a given URI to an object that contains the resource that the URI represents.</source>
+          <target state="translated">이 메서드는 호출자가 URI가 나타내는 리소스를 포함 하는 개체에 지정된 된 URI를 매핑할 때 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the asynchronous version of this method, see &lt;xref:System.Xml.XmlUrlResolver.GetEntityAsync%2A&gt;.</source>
+          <target state="translated">이 메서드의 비동기 버전 &lt;xref:System.Xml.XmlUrlResolver.GetEntityAsync%2A&gt;.&lt;/xref:System.Xml.XmlUrlResolver.GetEntityAsync%2A&gt; 을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Your application can mitigate memory denial of service threats to the GetEntity method by implementing IStream&lt;xref:System.Runtime.InteropServices.ComTypes.IStream&gt; to limit the number of bytes read.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; IStream을 구현 하 여 응용 프로그램 메모리 GetEntity 메서드에 대 한 서비스 거부를 완화할 수&lt;xref:System.Runtime.InteropServices.ComTypes.IStream&gt; 읽은 바이트 수를 제한 합니다.&lt;/xref:System.Runtime.InteropServices.ComTypes.IStream&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This helps guard against situations where malicious code attempts to pass an infinite stream of bytes to the GetEntity method.</source>
+          <target state="translated">이렇게 하면 악의적인 코드 여기서 GetEntity 메서드에 무한 바이트 스트림을 전달 하려고 하는 상황을 방지 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The URI returned from &lt;xref:System.Xml.XmlResolver.ResolveUri*&gt;.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlResolver.ResolveUri*&gt;.&lt;/xref:System.Xml.XmlResolver.ResolveUri*&gt; 에서 반환 된 URI</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Currently not used.</source>
+          <target state="translated">현재 사용 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The type of object to return.</source>
+          <target state="translated">반환할 개체의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The current implementation only returns &lt;xref:System.IO.Stream&gt; objects.</source>
+          <target state="translated">현재 구현만 반환 &lt;xref:System.IO.Stream&gt;개체입니다.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A stream object or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a type other than stream is specified.</source>
+          <target state="translated">Stream 개체 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 스트림 외의 다른 형식을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;ofObjectToReturn&lt;/code&gt;</ph> is neither <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nor a <bpt id="p2">&lt;xref uid="langword_csharp_Stream" name="Stream" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> type.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;ofObjectToReturn&lt;/code&gt;</ph>가 아닌 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 또는 <bpt id="p2">&lt;xref uid="langword_csharp_Stream" name="Stream" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 유형입니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The specified URI is not an absolute URI.</source>
+          <target state="translated">지정된 된 URI는 절대 URI가 아닙니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;absoluteUri&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;absoluteUri&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>There is a runtime error (for example, an interrupted server connection).</source>
+          <target state="translated">런타임 오류 (예를 들어 중단 된 서버 연결)입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Asynchronously maps a URI to an object that contains the actual resource.</source>
+          <target state="translated">실제 리소스가 포함 된 개체로 URI를 비동기적으로 매핑합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The URI returned from &lt;xref:System.Xml.XmlResolver.ResolveUri*&gt;.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlResolver.ResolveUri*&gt;.&lt;/xref:System.Xml.XmlResolver.ResolveUri*&gt; 에서 반환 된 URI</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Currently not used.</source>
+          <target state="translated">현재 사용 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The type of object to return.</source>
+          <target state="translated">반환할 개체의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The current implementation only returns &lt;xref:System.IO.Stream&gt; objects.</source>
+          <target state="translated">현재 구현만 반환 &lt;xref:System.IO.Stream&gt;개체입니다.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A stream object or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a type other than stream is specified.</source>
+          <target state="translated">Stream 개체 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 스트림 외의 다른 형식을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets or sets the network proxy for the underlying &lt;xref:System.Net.WebRequest&gt; object.</source>
+          <target state="translated">원본에 대 한 네트워크 프록시를 가져오거나 &lt;xref:System.Net.WebRequest&gt;개체입니다.&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.IWebProxy&gt; to use to access the Internet resource.</source>
+          <target state="translated">&lt;xref:System.Net.IWebProxy&gt;인터넷 리소스에 액세스 하는 데.&lt;/xref:System.Net.IWebProxy&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Resolves the absolute URI from the base and relative URIs.</source>
+          <target state="translated">기본 및 상대 Uri에서 절대 URI를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The absolute URI can be used as the base URI for any subsequent requests for entities that are relative to this URI.</source>
+          <target state="translated">이 URI를 기준으로 하는 엔터티에 대 한 후속 요청에 대 한 기본 URI로 절대 URI는 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The base URI used to resolve the relative URI.</source>
+          <target state="translated">기본 URI는 상대 URI를 확인 하는 데 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The URI to resolve.</source>
+          <target state="translated">확인할 URI입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The URI can be absolute or relative.</source>
+          <target state="translated">절대 또는 상대 URI 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If absolute, this value effectively replaces the <ph id="ph1">`baseUri`</ph> value.</source>
+          <target state="translated">경우 절대이 값이 대체는 <ph id="ph1">`baseUri`</ph> 값입니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If relative, it combines with the <ph id="ph1">`baseUri`</ph> to make an absolute URI.</source>
+          <target state="translated">경우 상대와 결합 하 여는 <ph id="ph1">`baseUri`</ph> 를 절대 URI를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The absolute URI, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the relative URI cannot be resolved.</source>
+          <target state="translated">절대 URI 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 상대 URI를 확인할 수 없는 경우.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;baseUri&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph2">&lt;code&gt;relativeUri&lt;/code&gt;</ph> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;baseUri&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph2">&lt;code&gt;relativeUri&lt;/code&gt;</ph> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
