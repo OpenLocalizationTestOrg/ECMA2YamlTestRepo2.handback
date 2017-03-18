@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4309d0fdcd0905db65698eebc7cfa2b9ea7faa4f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Activities.Presentation.View.IExpressionEditorService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5239bf87fa756f07a578a6be6574f565eea95d06</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">946a67aa0bad135586e48e03ad586965f874a38c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creates or closes expression editors.</source>
+          <target state="translated">Crea o chiude gli editor di espressioni.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An expression editor is a Visual Basic control used to edit expressions inside Visual Studio.</source>
+          <target state="translated">Un editor di espressioni è un controllo di Visual Basic utilizzato per modificare le espressioni all'interno di Visual Studio.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This control provides a full-fledged IDE editing experience, including IntelliSense, colorization, ParamInfo, error squiggles, among other features.</source>
+          <target state="translated">Questo controllo fornisce un IDE completa che modifica l'esperienza, tra cui IntelliSense, colorazione, ParamInfo, durante la digitazione, fra le altre funzionalità.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IExpressionEditorService can also be used to manage instances of custom expression editors.</source>
+          <target state="translated">Il IExpressionEditorService anche utilizzabile per gestire le istanze di editor di espressioni personalizzato.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To register a custom expression editor, you must publish the IExpressionEditorService using the following code :       <ph id="ph1">`this.expressionEditorService = new ExpressionEditorService();`</ph>       <ph id="ph2">`this.workflowDesigner.Context.Services.Publish&lt;IExpressionEditorService&gt;(this.expressionEditorService);`</ph>       An expression editor is created when an &lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt; instance gains focus and is destroyed on losing focus of a valid expression, or on reloading of the designer.</source>
+          <target state="translated">Per registrare un editor di espressioni personalizzato, è necessario pubblicare il IExpressionEditorService utilizzando il seguente codice: <ph id="ph1">`this.expressionEditorService = new ExpressionEditorService();`</ph> <ph id="ph2">`this.workflowDesigner.Context.Services.Publish&lt;IExpressionEditorService&gt;(this.expressionEditorService);`</ph> un editor di espressioni viene creato quando un &lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt;istanza lo stato attivo e viene eliminato definitivamente perde lo stato attivo di un'espressione valida oppure al nuovo caricamento della finestra di progettazione.&lt;/xref:System.Activities.Presentation.View.ExpressionTextBox&gt;       </target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default expression editor is not available for use in rehosted applications.</source>
+          <target state="translated">L'editor di espressioni predefinito non è disponibile per l'utilizzo in applicazioni riallocate.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the default expression editor is used in a rehosted application, a text box is available for editing.</source>
+          <target state="translated">Se l'editor di espressioni predefinito viene utilizzato in un'applicazione riallocata, una casella di testo è disponibile per la modifica.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, custom expression editors can be used in a rehosted application by publishing the IExpressionEditorService in the application.</source>
+          <target state="translated">Tuttavia, gli editor di espressioni personalizzato utilizzabile in un'applicazione riallocata pubblicando il IExpressionEditorService nell'applicazione.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are using an &lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt; control in a custom activity designer, it is not necessary to create and destroy expression editors using this interface.</source>
+          <target state="translated">Se si utilizza un &lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt;controllo in un ActivityDesigner personalizzato, non è necessario creare e distruggere gli editor di espressioni utilizzando questa interfaccia.&lt;/xref:System.Activities.Presentation.View.ExpressionTextBox&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt; class manages this for you.</source>
+          <target state="translated">La &lt;xref:System.Activities.Presentation.View.ExpressionTextBox&gt;classe gestisce questo per l'utente.&lt;/xref:System.Activities.Presentation.View.ExpressionTextBox&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Closes all the active expression editors.</source>
+          <target state="translated">Chiude tutti gli editor di espressione attiva.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Creates a new expression editor.</source>
+          <target state="translated">Crea una nuova espressione editor.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Used to set the context for the editor session.</source>
+          <target state="translated">Consente di impostare il contesto per la sessione dell'editor.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The imported namespaces to be used by the expression editor.</source>
+          <target state="translated">Spazi dei nomi importati utilizzati dall'editor di espressioni.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Local variables for the expression editor.</source>
+          <target state="translated">Variabili locali per l'editor espressioni.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A string used to populate the expression editor.</source>
+          <target state="translated">Stringa utilizzata per popolare l'editor espressioni.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Returns a<bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Restituisce un<bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Creates a new expression editor using the specified assemblies, imported namespaces, variables, expression text, and expression type.</source>
+          <target state="translated">Crea una nuova espressione editor utilizzando l'assembly specificato, spazi dei nomi importati, variabili, testo dell'espressione e il tipo di espressione.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The local and referenced assemblies in the environment.</source>
+          <target state="translated">Gli assembly locali e di riferimenti nell'ambiente.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The imported namespaces used by the expression editor.</source>
+          <target state="translated">L'importati spazi dei nomi utilizzati dall'editor di espressioni.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Local variables for the expression editor.</source>
+          <target state="translated">Variabili locali per l'editor espressioni.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A string used to populate the expression editor.</source>
+          <target state="translated">Stringa utilizzata per popolare l'editor espressioni.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The type of the expression.</source>
+          <target state="translated">Il tipo dell'espressione.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A new instance of the <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Una nuova istanza di <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Creates a new expression editor using the specified assemblies, imported namespaces, variables, expression text, and the initial size.</source>
+          <target state="translated">Crea una nuova espressione editor utilizzando le dimensioni iniziali, testo dell'espressione, variabili, spazi dei nomi importati e gli assembly specificati.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The local and referenced assemblies in the environment.</source>
+          <target state="translated">Gli assembly locali e di riferimenti nell'ambiente.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The imported namespaces used by the expression editor.</source>
+          <target state="translated">L'importati spazi dei nomi utilizzati dall'editor di espressioni.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Local variables for the expression editor.</source>
+          <target state="translated">Variabili locali per l'editor espressioni.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A string used to populate the expression editor.</source>
+          <target state="translated">Stringa utilizzata per popolare l'editor espressioni.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The initial height and width of the expression editor control.</source>
+          <target state="translated">L'altezza e larghezza iniziali del controllo editor espressioni.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A new instance of the <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Una nuova istanza di <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Creates a new expression editor using the specified assemblies, imported namespaces, variables, expression text, expression type, and the initial size.</source>
+          <target state="translated">Crea una nuova espressione editor utilizzando gli assembly specificati, spazi dei nomi importati, variabili, testo dell'espressione, il tipo di espressione e le dimensioni iniziali.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The local and referenced assemblies in the environment.</source>
+          <target state="translated">Gli assembly locali e di riferimenti nell'ambiente.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The imported namespaces used by the expression editor.</source>
+          <target state="translated">L'importati spazi dei nomi utilizzati dall'editor di espressioni.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Local variables for the expression editor.</source>
+          <target state="translated">Variabili locali per l'editor espressioni.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string used to populate the expression editor.</source>
+          <target state="translated">Stringa utilizzata per popolare l'editor espressioni.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The type of the expression.</source>
+          <target state="translated">Il tipo dell'espressione.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The initial height and width of the expression editor control.</source>
+          <target state="translated">L'altezza e larghezza iniziali del controllo editor espressioni.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A new instance of the <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Una nuova istanza di <bpt id="p1">&lt;xref href="System.Activities.Presentation.View.IExpressionEditorInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Updates the context for the editing session.</source>
+          <target state="translated">Aggiorna il contesto della sessione di modifica.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Used to set the context for the editor session.</source>
+          <target state="translated">Consente di impostare il contesto per la sessione dell'editor.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The imported namespaces used by the expression editor.</source>
+          <target state="translated">L'importati spazi dei nomi utilizzati dall'editor di espressioni.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

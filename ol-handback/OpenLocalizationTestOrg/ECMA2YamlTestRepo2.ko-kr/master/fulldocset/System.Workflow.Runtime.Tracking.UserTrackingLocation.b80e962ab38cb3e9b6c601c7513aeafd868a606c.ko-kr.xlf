@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f86e9cf2dce7cad440e1c2877b5b7c8c11d81bcc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Tracking.UserTrackingLocation.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f3c8236627ca22a254009d2f846db8466d194529</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f582cb6900d3dd17d46260ccd37d553f88082435</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines an activity-qualified location that corresponds to a user event in the potential execution path of a root workflow instance.</source>
+          <target state="translated">루트 워크플로 인스턴스의 잠재적 실행 경로에 있는 사용자 이벤트에 해당 하는 활동 정규화 된 위치를 정의 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">이 클래스는 상속 될 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       An activity designer or a workflow designer may use any of the overloaded &lt;xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt; and &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt; methods to instrument the workflow to emit data to the runtime tracking infrastructure as a user event.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>활동 디자이너나 워크플로 디자이너를 사용할 수는 오버 로드 된 &lt;xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt;및 &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt;런타임 추적 인프라가 사용자 이벤트로 데이터를 내보낼 워크플로를 계측 하는 방법.&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data emitted is referred to as user data.</source>
+          <target state="translated">내보낸 데이터를 사용자 데이터 라고 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike activity status events, and workflow status events, which occur only on activity or workflow status changes, user events can occur at any location that is instrumented in a workflow.</source>
+          <target state="translated">활동 상태 이벤트 및 활동 또는 워크플로 상태가 변경 될 경우에 발생 하는 워크플로 상태 이벤트와 달리 사용자 이벤트는 워크플로에서 계측 되는 모든 위치에서 발생할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A UserTrackingLocation defines the matching parameters for such a location by specifying the type of the user data, the type of the activity from which it must be emitted, a collection of conditions that can more precisely qualify an instance or instances of this activity, an optional key name with which the user data must be associated, whether derived types of the user data should be matched, and whether user data emitted from activities derived from the type of the specified activity should be matched.</source>
+          <target state="translated">형식 사용자 데이터의 형식을 지정 하 여 해당 위치에 대 한 일치 하는 매개 변수를 정의 하는 한 UserTrackingLocation 올 것 내보내야, 인스턴스 또는 선택적 키 이름 된 사용자 데이터 연결, 해야이 활동의 인스턴스를 보다 정확 하 게 정규화 할 수 있는 조건 컬렉션을 활동의 여부 사용자 데이터의 파생된 형식을 일치 해야 합니다. 및 여부 지정된 된 활동 형식에서 파생 된 활동에서 내보낸 사용자 데이터는 일치 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A single UserTrackingLocation may refer to more than one actual location in the potential execution path of a workflow instance.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 단일 UserTrackingLocation 워크플로 인스턴스의 잠재적 실행 경로 있는 둘 이상의 실제 위치를 참조할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may add a UserTrackingLocation to either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A?displayProperty=fullName&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A?displayProperty=fullName&gt; in order to define the match parameters for a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt; in a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.</source>
+          <target state="translated">중 하나 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A?displayProperty=fullName&gt;또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A?displayProperty=fullName&gt; &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt; &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; 에&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt; 대 한 일치 매개 변수를 정의 하기 위해&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A?displayProperty=fullName&gt; 에 UserTrackingLocation를 추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are three general conditions which must be met in the following order for the UserTrackingLocation to be matched by the runtime tracking infrastructure: the activity that has emitted a user event must match the set of activities specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt;, and &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt;; the key, if one exists, associated with the user data must match &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;; and, the type of the user data emitted by the user event must match the set of user data types specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;, and &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt;.</source>
+          <target state="translated">없는 세 가지 일반적인 런타임 추적 인프라가 일치 시킬 UserTrackingLocation에 대 한 다음과 같은 순서로 충족 해야 함: 사용자 이벤트를 발생 시킨가 활동 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;, 지정 된 작업 집합이 같아야 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt;, 및 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt;; 한 경우 키가 있는 연결 된 데이터가 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;; 사용자와 일치 해야 하 고 사용자 이벤트에 의해 내보낸 사용자 데이터 유형의 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;로 지정 된 사용자 데이터 형식 집합이 같아야 합니다. , &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;, and &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only if all three of these conditions are met, does the runtime tracking infrastructure consider the UserTrackingLocation matched.</source>
+          <target state="translated">에서는 세 가지 이러한 조건이 모두 충족 되는 경우에 런타임 추적 인프라가 고려 일치 UserTrackingLocation.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To configure a UserTrackingLocation, you must set either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; to specify the type of the user data to be matched and either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; to specify the type of the activity from which the user data must be emitted to be matched.</source>
+          <target state="translated">UserTrackingLocation를 구성 하려면 설정 해야 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;하나 및 일치 시킬 사용자 데이터의 형식을 지정할 수 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;있는 사용자 데이터를 내보내야 일치 시킬 활동의 종류를 지정할 수 있습니다.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may add &lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt; objects to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt; to more completely qualify the activity from which the user data must be emitted.</source>
+          <target state="translated">추가할 수 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt;개체를 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt;보다 완전 하 게 사용자 데이터 내보내야 하는 활동을 정규화 하.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.Conditions%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may set &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt; to specify that user data derived from the user data type specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; should be matched, and you may set &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt; to specify that user data emitted from activities derived from the activity type specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; should be matched.</source>
+          <target state="translated">설정할 수 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt;로 지정 된 사용자 데이터 형식에서 파생 된 사용자 데이터를 지정 하려면 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;일치 해야 합니다. 설정할 수 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt;하 여 지정 된 활동 형식에서 파생 된 활동에서 내보낸 사용자 데이터를 지정 하려면 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;일치 해야 합니다..&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedActivityTypes%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.MatchDerivedArgumentTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may set &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt; to specify that only user data associated with the specified key name should be matched for this UserTrackingLocation.</source>
+          <target state="translated">설정할 수 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;사용자 지정 하려면 지정 된 키 이름과 연결 된 데이터는이 UserTrackingLocation에 대 한 일치 해야 합니다.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt; is a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic), the runtime tracking structure will not try to match the key associated with the user data.</source>
+          <target state="translated">경우 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;가 null 참조 (<ph id="ph1">`Nothing`</ph> Visual basic에서), 사용자 데이터와 연결 된 키와 일치 하도록 런타임 추적 구조를 시도 하지 것입니다.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.KeyName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default constructor initializes an empty &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">기본 생성자는 빈을 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; 를 초기화합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify both the type of the user data to match and the type of the activity from which it must be emitted in order to be matched.</source>
+          <target state="translated">일치 시킬 사용자 데이터의 형식과 일치 하기 위해 발생 해야 하는 작업의 유형을 지정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, to configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; you must explicitly set either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; to specify the type of an activity from which user data must be emitted to be matched, and you must also explicitly set either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; to specify the type of the user data to be matched.</source>
+          <target state="translated">따라서 구성 하는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;명시적으로 설정 해야 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;설정를 일치 시킬 사용자 데이터를 내보내야 하 고 명시적으로 해야 하는 활동의 유형을 지정 하 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt;일치 시킬 사용자 데이터의 형식을 지정 하려면.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may further configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">추가로 구성할 수 있습니다는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;기타 속성을 설정 하 여.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the unqualified name of the common language runtime (CLR) type of the user data.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용자 데이터의 공용 언어 런타임 (CLR) 형식의 정규화 되지 않은 이름을 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches user data of the specified type emitted from the workflow.</source>
+          <target state="translated">이 생성자는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;는 워크플로에서 내보낸 지정 된 형식의 사용자 데이터와 일치 하는.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify the unqualified name of the &lt;xref:System.Type&gt; of the user data to be matched for <ph id="ph1">`argumentTypeName`</ph>.</source>
+          <target state="translated">정규화 되지 않은 이름을 지정 해야 합니다는 &lt;xref:System.Type&gt;에 대해 일치 시킬 사용자 데이터의 <ph id="ph1">`argumentTypeName`</ph>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly set either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; in your code to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">중 하나 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; 올바르게 구성 하려면 코드에서&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; 명시적으로 설정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">추가로 정규화 할 수 있습니다는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;기타 속성을 설정 하 여.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the CLR type of the user data to be matched.</source>
+          <target state="translated">일치 시킬 사용자 데이터 CLR 형식의 정규화 되지 않은 이름입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the common language runtime (CLR) type of the user data.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스 사용자 데이터의 공용 언어 런타임 (CLR) 형식을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches user data of the specified type emitted from the workflow.</source>
+          <target state="translated">이 생성자는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;는 워크플로에서 내보낸 지정 된 형식의 사용자 데이터와 일치 하는.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly set either &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; in your code to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">중 하나 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; 올바르게 구성 하려면 코드에서&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; 명시적으로 설정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">추가로 정규화 할 수 있습니다는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;기타 속성을 설정 하 여.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the user data to be matched.</source>
+          <target state="translated">&lt;xref:System.Type&gt;일치 시킬 사용자 데이터의.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the unqualified name of the common language runtime (CLR) type of the user data and the unqualified name of the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용자 데이터의 공용 언어 런타임 (CLR) 형식 및 사용자 데이터 내보내야 하는 활동의 CLR 형식의 정규화 되지 않은 이름을 정규화 되지 않은 이름을 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches all user data of the specified type emitted from activities of the specified type.</source>
+          <target state="translated">이 생성자는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;지정 된 형식의 활동에서 내보낸 지정 된 형식의 모든 사용자 데이터를 일치 하는.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify the unqualified name of the &lt;xref:System.Type&gt; of the activity and of the user data.</source>
+          <target state="translated">정규화 되지 않은 이름을 지정 해야 합니다는 &lt;xref:System.Type&gt;활동 및 사용자 데이터.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example the unqualified name of the &lt;xref:System.Type&gt; of a &lt;xref:System.Workflow.Activities.CodeActivity&gt; activity is "Code".</source>
+          <target state="translated">예를 들어의 정규화 되지 않은 이름을 &lt;xref:System.Type&gt;의 &lt;xref:System.Workflow.Activities.CodeActivity&gt;활동 "Code"입니다.&lt;/xref:System.Workflow.Activities.CodeActivity&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">추가로 정규화 할 수 있습니다는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;기타 속성을 설정 하 여.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the CLR type of the user data to be matched.</source>
+          <target state="translated">일치 시킬 사용자 데이터 CLR 형식의 정규화 되지 않은 이름입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">사용자 데이터 내보내야 하는 활동의 CLR 형식의 정규화 되지 않은 이름입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the unqualified name of the common language runtime (CLR) type of the user data and the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용자 데이터의 공용 언어 런타임 (CLR) 형식 및 사용자 데이터 내보내야 하는 활동의 CLR 형식의 정규화 되지 않은 이름을 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches all user data of the specified type emitted from activities of the specified type.</source>
+          <target state="translated">이 생성자는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;지정 된 형식의 활동에서 내보낸 지정 된 형식의 모든 사용자 데이터를 일치 하는.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify the unqualified name of the &lt;xref:System.Type&gt; of the user data.</source>
+          <target state="translated">정규화 되지 않은 이름을 지정 해야 합니다는 &lt;xref:System.Type&gt;사용자 데이터.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">추가로 정규화 할 수 있습니다는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;기타 속성을 설정 하 여.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the CLR type of the user data to be matched.</source>
+          <target state="translated">일치 시킬 사용자 데이터 CLR 형식의 정규화 되지 않은 이름입니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the activity from which the user data must be emitted.</source>
+          <target state="translated">&lt;xref:System.Type&gt;사용자 데이터 내보내야 하는 활동의.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the common language runtime (CLR) type of the user data and unqualified name of the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용자 데이터 및 사용자 데이터 내보내야 하는 활동의 CLR 형식의 정규화 되지 않은 이름을의 공용 언어 런타임 (CLR) 형식을 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches all user data of the specified type emitted from activities of the specified type.</source>
+          <target state="translated">이 생성자는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;지정 된 형식의 활동에서 내보낸 지정 된 형식의 모든 사용자 데이터를 일치 하는.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify the unqualified name of the &lt;xref:System.Type&gt; of the activity.</source>
+          <target state="translated">정규화 되지 않은 이름을 지정 해야 합니다는 &lt;xref:System.Type&gt;활동의.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example the unqualified name of the &lt;xref:System.Type&gt; of a &lt;xref:System.Workflow.Activities.CodeActivity&gt; activity is "Code".</source>
+          <target state="translated">예를 들어의 정규화 되지 않은 이름을 &lt;xref:System.Type&gt;의 &lt;xref:System.Workflow.Activities.CodeActivity&gt;활동 "Code"입니다.&lt;/xref:System.Workflow.Activities.CodeActivity&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">추가로 정규화 할 수 있습니다는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;기타 속성을 설정 하 여.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the user data to be matched.</source>
+          <target state="translated">&lt;xref:System.Type&gt;일치 시킬 사용자 데이터의.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">사용자 데이터 내보내야 하는 활동의 CLR 형식의 정규화 되지 않은 이름입니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the common language runtime (CLR) type of the user data and the CLR type of the activity from which the user data must be emitted.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용자 데이터의 공용 언어 런타임 (CLR) 형식 및 사용자 데이터 내보내야 하는 활동의 CLR 형식을 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; that matches all user data of the specified type emitted from activities of the specified type.</source>
+          <target state="translated">이 생성자는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;지정 된 형식의 활동에서 내보낸 지정 된 형식의 모든 사용자 데이터를 일치 하는.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may further qualify the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; by setting its other properties.</source>
+          <target state="translated">추가로 정규화 할 수 있습니다는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;기타 속성을 설정 하 여.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the user data to be matched.</source>
+          <target state="translated">&lt;xref:System.Type&gt;일치 시킬 사용자 데이터의.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the activity from which the user data must be emitted.</source>
+          <target state="translated">&lt;xref:System.Type&gt;사용자 데이터 내보내야 하는 활동의.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets or sets the common language runtime (CLR) type of the activity from which the user data must be emitted to be tracked.</source>
+          <target state="translated">있는 사용자 데이터를 내보내야를 추적 하는 활동의 공용 언어 런타임 (CLR) 형식을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to specify the type of the activity in a version-independent manner, use &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;.</source>
+          <target state="translated">버전에 관계 없이 활동 형식을 지정 하려는 경우 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; 사용</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify either ActivityType or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">ActivityType 또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; 올바르게 구성 하려면&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; 을 지정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the activity from which the data must be emitted.</source>
+          <target state="translated">&lt;xref:System.Type&gt;데이터 내보내야 하는 활동의.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets or sets the unqualified name of the common language runtime (CLR) type of the activity from which the user data must be emitted to be tracked.</source>
+          <target state="translated">사용자 데이터를 내보내야를 추적 하는 활동의 공용 언어 런타임 (CLR) 형식의 정규화 되지 않은 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify the unqualified name of the type of the activity.</source>
+          <target state="translated">활동 형식의 정규화 되지 않은 이름을 지정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, to specify the unqualified name of a &lt;xref:System.Workflow.Activities.CodeActivity&gt; activity, set ActivityTypeName to "Code".</source>
+          <target state="translated">예를 들어, 정규화 되지 않은 이름을 지정 하는 &lt;xref:System.Workflow.Activities.CodeActivity&gt;활동, ActivityTypeName을 "Code"로 설정 합니다.&lt;/xref:System.Workflow.Activities.CodeActivity&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ActivityTypeName provides a much easier way to specify the type of the activity that emits the user data when you author a profile directly in XML.</source>
+          <target state="translated">ActivityTypeName를 XML로 직접 프로필을 작성할 때 사용자 데이터를 내보내는 활동 형식을 지정 하는 보다 편리한 방법을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ActivityTypeName also provides a version-independent way of referring to the type of the activity.</source>
+          <target state="translated">ActivityTypeName는 또한 활동의 형식을 참조 하는 버전에 관계 없이 방법을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify either ActivityTypeName or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">ActivityTypeName 또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; 올바르게 구성 하려면&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; 를 지정 해야</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the &lt;xref:System.Type&gt; of the activity from which the data must be emitted.</source>
+          <target state="translated">정규화 되지 않은 이름을 &lt;xref:System.Type&gt;데이터 내보내야 하는 활동의.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets or sets the common language runtime (CLR) type of the user data to be tracked.</source>
+          <target state="translated">추적할 사용자 데이터의 공용 언어 런타임 (CLR) 형식을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to specify the type of the user data in a version-independent manner, use &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;.</source>
+          <target state="translated">버전에 관계 없이 사용자 데이터의 형식을 지정 하려는 경우 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; 사용</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify either ArgumentType or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">ArgumentType 또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; 올바르게 구성 하려면&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName%2A&gt; 을 지정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the user data to be tracked.</source>
+          <target state="translated">&lt;xref:System.Type&gt;의 사용자 데이터를 추적할 수 있습니다.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets or sets the unqualified name of the common language runtime (CLR) type of the user data to be tracked.</source>
+          <target state="translated">추적할 사용자 데이터의 공용 언어 런타임 (CLR) 형식의 정규화 되지 않은 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ArgumentTypeName provides a much easier way to specify the type of the user data when you author a profile directly in XML.</source>
+          <target state="translated">ArgumentTypeName는 XML로 직접 프로필을 작성할 때 사용자 데이터의 형식을 지정 하는 보다 편리한 방법을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ArgumentTypeName also provides a version-independent way of referring to the type of the user data.</source>
+          <target state="translated">ArgumentTypeName는 또한 사용자 데이터의 형식을 참조 하는 버전에 관계 없이 방법을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must specify either ArgumentTypeName or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; to properly configure the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.</source>
+          <target state="translated">ArgumentTypeName 또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; 올바르게 구성 하려면&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType%2A&gt; 를 지정 해야</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The unqualified name of the &lt;xref:System.Type&gt; of the user data.</source>
+          <target state="translated">정규화 되지 않은 이름을 &lt;xref:System.Type&gt;사용자 데이터.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets a collection of conditions that are used to qualify the activity from which the user data must be emitted to be tracked.</source>
+          <target state="translated">사용자 데이터를 내보내야를 추적 하는 활동 정규화에 사용 되는 조건 컬렉션을을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use Conditions to more precisely define the instance of the activity type specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; from which the user event must be emitted to match the tracking location.</source>
+          <target state="translated">조건을 사용 하 여 보다 정확 하 게 하 여 지정 된 활동 형식의 인스턴스를 정의 하려면 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;또는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt;있는 사용자 이벤트 내보내야 하 여 추적 위치를 일치에서.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you want to match only &lt;xref:System.Workflow.Activities.CodeActivity&gt; activities with an &lt;xref:System.Workflow.ComponentModel.Activity.Name%2A&gt; equal to "MyCode", you can set &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; to "Code" and add an &lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt; to Conditions that specifies that the ID property of the activity instance must be equal to "MyCode".</source>
+          <target state="translated">예를 들어, 일치 시키려면 &lt;xref:System.Workflow.Activities.CodeActivity&gt;사용 하 여 활동은 &lt;xref:System.Workflow.ComponentModel.Activity.Name%2A&gt;"MyCode" 같음, 설정할 수 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt;을 "Code"로 추가 하 고는 &lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt;활동 인스턴스의 ID 속성이 "MyCode" 크거나 같아야 함을 지정 하는 상황.&lt;/xref:System.Workflow.Runtime.Tracking.ActivityTrackingCondition&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName%2A&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.Name%2A&gt; &lt;/xref:System.Workflow.Activities.CodeActivity&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Every &lt;xref:System.Workflow.Runtime.Tracking.TrackingCondition&gt; in Conditions must be true for the activity to be matched.</source>
+          <target state="translated">모든 &lt;xref:System.Workflow.Runtime.Tracking.TrackingCondition&gt;조건이 충족 되어야 일치 시킬 활동에 대 한.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingCondition&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingConditionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used to qualify the activity from which the user data must be emitted.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingConditionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 사용자 데이터 내보내야 하는 활동 정규화 하는 데 사용 되는 합니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Get or sets the name with which the user data must be associated for the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be matched.</source>
+          <target state="translated">가져오기 이름을 하거나 설정 된 사용자 데이터에 대 한 연결 되어야 합니다는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 일치할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An activity designer or a workflow designer can use either &lt;xref:System.Workflow.ComponentModel.Activity.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt; or &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt; to associate a string key with the user data that is emitted in a user event.</source>
+          <target state="translated">활동 디자이너나 워크플로 디자이너를 사용할 수 &lt;xref:System.Workflow.ComponentModel.Activity.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt;또는 &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt;문자열 키를 사용자 이벤트에 내보낼 사용자 데이터와 연결할.&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.TrackData%28System.String%2CSystem.Object%29?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If KeyName is not a null reference (<ph id="ph1">`Nothing`</ph>), the key associated with the user data must match the value of KeyName for the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; to be matched.</source>
+          <target state="translated">KeyName이 null 참조 (<ph id="ph1">`Nothing`</ph>), 사용자 데이터와 연결 된 키에 대 한 KeyName 값과 일치 해야 합니다는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;일치 시킬.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If KeyName is a null reference (<ph id="ph1">`Nothing`</ph>), the runtime tracking infrastructure does not check for a matching key to determine whether the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; is matched.</source>
+          <target state="translated">KeyName이 null 참조 (<ph id="ph1">`Nothing`</ph>) 런타임 추적 인프라의 일치 하는 키를 확인 하는 확인 하지 않습니다 여부는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;일치 합니다.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_string" name="string" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> key with which the user data must be associated for the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to be matched or a null reference (<bpt id="p3">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_string" name="string" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 키나 사용자 데이터를 연결 해야는 <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocation"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 일치 시킬 이거나 null 참조 (<bpt id="p3">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> Visual basic에서).</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the user data should be tracked when it is emitted from activities derived from the activity type specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">사용자 데이터 추적할지 여부 내보낼 때 지정 된 활동 형식에서 파생 된 활동에서 나타내는 값을 가져오거나 설정 합니다. &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 또는 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; 합니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user data should be tracked when it is emitted from activities derived from the type specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityType<bpt id="p2">*</bpt>&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ActivityTypeName<ept id="p2">*</ept>&gt;; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>지정 된 형식에서 파생 된 활동에서 내보낼 때 사용자 데이터를 추적 해야 하면 &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; 또는 &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; 고, 그렇지 않으면, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The User tracking location is a way to filter user tracked data.</source>
+          <target state="translated">사용자 추적 위치는 사용자 추적 데이터를 필터링 하는 방법입니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The user can filter by the type of the user tracked data by specifying the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">사용자 지정 하 여 사용자 추적 데이터의 형식으로 필터링 할 수는 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 또는 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; 합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Setting the <bpt id="p1">&lt;xref uid="langword_csharp_MatchDerrivedArgumentTypes" name="MatchDerrivedArgumentTypes" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value to <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> specifies that the user tracked data can be of type ArgumentType/ArgumentTypeName or a type derived from the ArgumentType/ArgumentTypeName.</source>
+          <target state="translated">설정의 <bpt id="p1">&lt;xref uid="langword_csharp_MatchDerrivedArgumentTypes" name="MatchDerrivedArgumentTypes" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <bpt id="p2">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 값을 <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 사용자 추적 데이터 ArgumentType/ArgumentTypeName 유형일 수 있습니다 또는 ArgumentType/ArgumentTypeName에서 파생 된 형식을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if user data derived from the type of the user data specified by &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentType<bpt id="p2">*</bpt>&gt; or &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation.ArgumentTypeName<ept id="p2">*</ept>&gt; should be tracked; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>에 지정 된 사용자 데이터 형식에서 파생 된 사용자 데이터 &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; 또는 &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; 추적 된 건너뛸 필요가 없으면, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

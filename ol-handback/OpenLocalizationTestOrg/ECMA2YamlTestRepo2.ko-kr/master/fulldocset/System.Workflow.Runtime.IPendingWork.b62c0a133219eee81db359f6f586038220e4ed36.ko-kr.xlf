@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af9bced2de01de8bb0ebaf377610d9c0d03d41ea</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.IPendingWork.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a9099dbff8d6c3223bb9a99c590e49389cbb72bb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8c3d5482da4a5b36338236c3dfee478fc0ffc26f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides methods to participate in a work batch.</source>
+          <target state="translated">작업 일괄 처리에 참여 하는 메서드를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       The IPendingWork interface is provided for services that want to participate in the workflow runtime engine batching mechanism.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>IPendingWork 인터페이스 메커니즘을 일괄 처리 하는 워크플로 런타임 엔진에 참여 하는 서비스에 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The batching mechanism is especially useful for services that use a durable store.</source>
+          <target state="translated">영 속 저장소를 사용 하는 서비스에 대 한 일괄 처리 메커니즘은 특히 유용 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is often important in these cases to maintain consistency between the durable store used by the service and the internal state of the workflow runtime engine.</source>
+          <target state="translated">종종 이러한 경우 워크플로 런타임 엔진의 내부 상태와 서비스에서 사용 하는 영 속 저장소 간의 일관성을 유지 하는 것이 유용 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want your service to participate in workflow transaction batching provided by the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;, you must implement the methods defined by the IPendingWork interface.</source>
+          <target state="translated">서비스는 워크플로 트랜잭션 일괄 처리에서 제공에 참여 하도록 하려는 경우는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;, IPendingWork 인터페이스에 의해 정의 된 메서드를 구현 해야 합니다.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow runtime engine will call the &lt;xref:System.Workflow.Runtime.IPendingWork.Commit%2A&gt; method on your service to commit the batch.</source>
+          <target state="translated">워크플로 런타임 엔진에서 호출 됩니다는 &lt;xref:System.Workflow.Runtime.IPendingWork.Commit%2A&gt;일괄 처리 커밋을 서비스에서 메서드.&lt;/xref:System.Workflow.Runtime.IPendingWork.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt; class implements the IPendingWork interface.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;클래스 IPendingWork 인터페이스를 구현 합니다.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Commits the list of work items by using the specified <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">지정 된를 사용 하 여 작업 항목 목록을 커밋합니다 <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow runtime engine calls the Commit method when its semantics dictate that the pending work in the work batch should be committed.</source>
+          <target state="translated">워크플로 런타임 엔진은 해당 의미 체계가 작업 일괄 처리의 보류 중인 작업 커밋되어야 함을 지시 Commit 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When it reaches a commit point, the workflow runtime engine calls the Commit method on each &lt;xref:System.Workflow.Runtime.IPendingWork&gt; object in its work batch; the workflow runtime engine passes the Commit method the collection of items associated with that &lt;xref:System.Workflow.Runtime.IPendingWork&gt; object.</source>
+          <target state="translated">커밋 지점에 도달 하면 워크플로 런타임 엔진은 각 Commit 메서드를 호출할 &lt;xref:System.Workflow.Runtime.IPendingWork&gt;은 작업 일괄 처리에서 개체, 않으면 워크플로 런타임 엔진은 통과 Commit 메서드와 연결 된 항목의 컬렉션 &lt;xref:System.Workflow.Runtime.IPendingWork&gt;개체입니다.&lt;/xref:System.Workflow.Runtime.IPendingWork&gt; &lt;/xref:System.Workflow.Runtime.IPendingWork&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Either all of the work in a batch succeeds or none of it succeeds.</source>
+          <target state="translated">일괄 처리에서 작업을 모두 성공 하거나 모두 실패 합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should throw an exception if any of the work items passed to the Commit method in your implementation cannot be committed.</source>
+          <target state="translated">Commit 메서드 구현에서에 전달 되는 작업 항목이 커밋할 수 없는 경우 예외를 throw 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on your implementation, you may want to perform some rollback in your Commit method if it cannot commit its work items.</source>
+          <target state="translated">구현에 따라 작업 항목을 커밋할 수 없는 경우 커밋 메서드에서 일부 롤백을 수행 해야 할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the workflow runtime engine successfully commits all of the work in the work batch, it calls &lt;xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt; with the <ph id="ph1">`succeeded`</ph> parameter set to <ph id="ph2">`true`</ph>; otherwise, it calls &lt;xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt; with <ph id="ph3">`succeeded`</ph> set to <ph id="ph4">`false`</ph>.</source>
+          <target state="translated">워크플로 런타임 엔진의 모든 작업 일괄 처리에서 작업을 성공적으로 커밋하면, 호출 &lt;xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt;와 <ph id="ph1">`succeeded`</ph> 매개 변수 설정 <ph id="ph2">`true`</ph>, 그렇지 않으면 호출 &lt;xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt;와 <ph id="ph3">`succeeded`</ph> 로 설정 <ph id="ph4">`false`</ph>.&lt;/xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt; &lt;/xref:System.Workflow.Runtime.IPendingWork.Complete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the pending work.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 보류 중인 작업을 연관 됩니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The work items to be committed.</source>
+          <target state="translated">작업 항목을 커밋할 수입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Called when the transaction has completed.</source>
+          <target state="translated">트랜잭션이 완료 될 때 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`succeeded`</ph> is <ph id="ph2">`true`</ph>, the transaction succeeded and any resources used by the work batch may be released.</source>
+          <target state="translated">경우 <ph id="ph1">`succeeded`</ph> 은 <ph id="ph2">`true`</ph>이면 트랜잭션이 성공 했으며 작업 일괄 처리에서 사용 하는 모든 리소스를 해제할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`succeeded`</ph> is <ph id="ph2">`false`</ph>, the transaction failed.</source>
+          <target state="translated">경우 <ph id="ph1">`succeeded`</ph> 은 <ph id="ph2">`false`</ph>, 트랜잭션이 실패 했습니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on your implementation, you can perform any appropriate roll back on the work in the work batch when the transaction fails.</source>
+          <target state="translated">구현에 따라 트랜잭션이 실패할 경우 작업 일괄 처리에서 작업 적절 한 롤백을 수행할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the transaction succeeded; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>트랜잭션이 성공 했으면; 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of work items.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;작업 항목.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Allows the items in the work batch to assert whether they must commit immediately.</source>
+          <target state="translated">항목이 있는지 여부를 즉시 커밋되어야 어설션 작업 일괄 처리에서 수 있도록 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If MustCommit returns <ph id="ph1">`false`</ph>, the work can be postponed to a future commit point.</source>
+          <target state="translated">MustCommit 반환 하는 경우 <ph id="ph1">`false`</ph>, 작업이 이후 커밋 지점으로 연기 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any of the items must be committed, then return <ph id="ph1">`true`</ph> and all items will be committed at the current commit point.</source>
+          <target state="translated">항목을 커밋해야 하는 경우 다음 반환 <ph id="ph1">`true`</ph> 모든 항목이 현재 커밋 지점에서 커밋됩니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a discussion about possible commit points, see the &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt; class.</source>
+          <target state="translated">가능한 커밋 지점에 대 한 논의 알려면 &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;클래스&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of work items.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;작업 항목.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if any item in the collection must be committed immediately; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>컬렉션의 항목이 즉시 커밋되어야; 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

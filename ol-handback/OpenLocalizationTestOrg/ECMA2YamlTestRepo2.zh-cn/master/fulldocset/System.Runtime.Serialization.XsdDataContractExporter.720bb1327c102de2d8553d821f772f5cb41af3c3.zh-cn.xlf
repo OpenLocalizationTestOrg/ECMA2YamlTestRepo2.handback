@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9572ccf006d4af469072d3fb715f2677c9bb52d7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.XsdDataContractExporter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">44f7819453e9c461c4942b4a2a39218f409e2413</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">326d48fe5900e17205386489368fe2678423741f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows the transformation of a set of <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> types that are used in data contracts into an XML schema file (.xsd).</source>
+          <target state="translated">用于将一组<ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>成 XML 架构文件 (.xsd) 在数据协定中使用的类型。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the XsdDataContractExporter class when you have created a Web service that incorporates data represented by common language runtime (CLR) types and when you need to export XML schemas for each type to be consumed by other Web services.</source>
+          <target state="translated">如果你已创建包含表示由公共语言运行时 (CLR) 类型和你需要导出为其他 Web 服务将使用的每个类型的 XML 架构的数据的 Web 服务，请使用 XsdDataContractExporter 类。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>That is, XsdDataContractExporter transforms a set of CLR types into XML schemas.</source>
+          <target state="translated">也就是说，XsdDataContractExporter 将一组 CLR 类型转换为 XML 架构。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>(For more information about the types that can be used, see <bpt id="p1">[</bpt>Types Supported by the Data Contract Serializer<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.) The schemas can then be exposed through a Web Services Description Language (WSDL) document for use by others who need to interoperate with your service.</source>
+          <target state="translated">(有关可用的类型的详细信息，请参阅<bpt id="p1">[</bpt>类型受数据协定序列化程序<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。)架构然后可以通过使用 Web 服务描述语言 (WSDL) 文档的其他用户需要与你的服务交互操作公开。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Conversely, if you are creating a Web service that must interoperate with an existing Web service, use the &lt;xref:System.Runtime.Serialization.XsdDataContractImporter&gt; to transform XML schemas and create the CLR types that represent the data in a selected programming language.</source>
+          <target state="translated">相反，如果你要创建必须进行互操作的 Web 服务与现有 Web 服务，则使用&lt;xref:System.Runtime.Serialization.XsdDataContractImporter&gt;来转换 XML 架构，并且创建表示所选的编程语言中的数据的 CLR 类型。&lt;/xref:System.Runtime.Serialization.XsdDataContractImporter&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The XsdDataContractExporter generates an &lt;xref:System.Xml.Schema.XmlSchemaSet&gt; object that contains the collection of schemas.</source>
+          <target state="translated">XsdDataContractExporter 生成&lt;xref:System.Xml.Schema.XmlSchemaSet&gt;包含架构集合的对象。&lt;/xref:System.Xml.Schema.XmlSchemaSet&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Access the set of schemas through the &lt;xref:System.Xml.Schema.XmlSchemaSet.Schemas%2A&gt; property.</source>
+          <target state="translated">访问通过架构集中&lt;xref:System.Xml.Schema.XmlSchemaSet.Schemas%2A&gt;属性。&lt;/xref:System.Xml.Schema.XmlSchemaSet.Schemas%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To quickly generate XML schema definition (XSD) files that other Web services can consume, use the XsdDataContractExporter.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 若要快速生成其他 Web 服务可以使用的 XML 架构定义 (XSD) 文件，使用 XsdDataContractExporter。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Exporting Schemas Into an XmlSchemaSet    To create an instance of the &lt;xref:System.Xml.Schema.XmlSchemaSet&gt; class that contains XML schema files, you should be aware of the following.</source>
+          <target state="translated">导出架构到 XmlSchemaSet 到创建的实例&lt;xref:System.Xml.Schema.XmlSchemaSet&gt;类，该类包含 XML 架构文件，你应注意以下事项。&lt;/xref:System.Xml.Schema.XmlSchemaSet&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The set of types you are exporting are recorded as an internal set of data contracts.</source>
+          <target state="translated">要导出的类型的一套被记录为一组内部数据协定。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Thus, you can call the &lt;xref:System.Runtime.Serialization.XsdDataContractExporter.CanExport%2A&gt; method multiple times to add new types to the schema set without degrading performance because only the new types will be added to the set.</source>
+          <target state="translated">因此，你可以调用&lt;xref:System.Runtime.Serialization.XsdDataContractExporter.CanExport%2A&gt;方法多次将新类型添加到架构集而不会降低性能，因为仅将新类型将添加到集。&lt;/xref:System.Runtime.Serialization.XsdDataContractExporter.CanExport%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>During the &lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Export%2A&gt; operation, the existing schemas are compared to the new schemas being added.</source>
+          <target state="translated">期间&lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Export%2A&gt;操作，现有架构与要添加的新架构进行比较。&lt;/xref:System.Runtime.Serialization.XsdDataContractExporter.Export%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If there are conflicts, an exception will be thrown.</source>
+          <target state="translated">如果存在冲突，则将引发异常。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A conflict is usually detected if two types with the same data contract name but different contracts (different members) are exported by the same XsdDataContractExporter instance.</source>
+          <target state="translated">如果两种类型具有相同的数据协定名称，但不同由同一个 XsdDataContractExporter 实例导出协定 （不同的成员） 将通常检测冲突。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Using the Exporter    A recommended way of using this class is as follows:      1.</source>
+          <target state="translated">使用导出程序建议使用此类的方法是，如下所示︰ 1。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Use one of the &lt;xref:System.Runtime.Serialization.XsdDataContractExporter.CanExport%2A&gt; overloads to determine whether the specified type or set of types can be exported.</source>
+          <target state="translated">使用之一&lt;xref:System.Runtime.Serialization.XsdDataContractExporter.CanExport%2A&gt;重载来确定是否可以导出指定的类型集。&lt;/xref:System.Runtime.Serialization.XsdDataContractExporter.CanExport%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use one of the overloads that is appropriate to your requirements.</source>
+          <target state="translated">使用适合于你的要求的重载之一。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Call the corresponding &lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Export%2A&gt; method.</source>
+          <target state="translated">调用对应&lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Export%2A&gt;方法。&lt;/xref:System.Runtime.Serialization.XsdDataContractExporter.Export%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Retrieve the schemas from the &lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Schemas%2A&gt;property.</source>
+          <target state="translated">检索从架构&lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Schemas%2A&gt;属性。&lt;/xref:System.Runtime.Serialization.XsdDataContractExporter.Schemas%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.XsdDataContractExporter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Runtime.Serialization.XsdDataContractExporter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.XsdDataContractExporter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified set of schemas.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Runtime.Serialization.XsdDataContractExporter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与指定的架构集的类。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Use this overload when you have an existing &lt;xref:System.Xml.Schema.XmlSchemaSet&gt; to which you want to add new schemas.</source>
+          <target state="translated">当你拥有现有使用此重载&lt;xref:System.Xml.Schema.XmlSchemaSet&gt;到想要添加新架构。&lt;/xref:System.Xml.Schema.XmlSchemaSet&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>After you construct a &lt;xref:System.Runtime.Serialization.XsdDataContractExporter&gt; with this overload, call the &lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Export%2A&gt; method to add new types to the existing set.</source>
+          <target state="translated">在构造之后&lt;xref:System.Runtime.Serialization.XsdDataContractExporter&gt;使用此重载调用&lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Export%2A&gt;方法以将新类型添加到现有集。&lt;/xref:System.Runtime.Serialization.XsdDataContractExporter.Export%2A&gt; &lt;/xref:System.Runtime.Serialization.XsdDataContractExporter&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the schemas to be exported.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含要导出的架构。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the set of .common language runtime (CLR) types contained in a set of assemblies can be exported.</source>
+          <target state="translated">获取一个值，该值指示是否可以导出的一组程序集中包含的公共语言运行时 (CLR) 类型集。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph> of &lt;xref:System.Reflection.Assembly&gt; that contains the assemblies with the types to export.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph>的&lt;xref:System.Reflection.Assembly&gt;，其中包含要导出的类型程序集。&lt;/xref:System.Reflection.Assembly&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the types can be exported; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果可以导出类型;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the set of .common language runtime (CLR) types contained in a <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph> can be exported.</source>
+          <target state="translated">获取一个值，该值指示是否的公共语言运行时 (CLR) 类型集包含在<ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph>可以导出。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph> that contains the specified types to export.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph> ，其中包含要导出的指定的类型。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the types can be exported; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果可以导出类型;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the specified common language runtime (CLR) type can be exported.</source>
+          <target state="translated">获取一个值，该值指示是否可以导出指定的公共语言运行时 (CLR) 类型。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; to export.</source>
+          <target state="translated">&lt;xref:System.Type&gt;导出。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the type can be exported; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果可以导出类型;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Transforms the types contained in the specified collection of assemblies.</source>
+          <target state="translated">指定的程序集集合中包含的类型进行转换。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph> (of &lt;xref:System.Reflection.Assembly&gt;) that contains the types to export.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph> (的&lt;xref:System.Reflection.Assembly&gt;)，其中包含要导出的类型。&lt;/xref:System.Reflection.Assembly&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">assemblies</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">assemblies</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Reflection.Assembly&gt; in the collection is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Reflection.Assembly&gt;集合中<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Reflection.Assembly&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Transforms the types contained in the <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph> passed to this method.</source>
+          <target state="translated">中包含的类型进行转换<ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph>传递给此方法。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A  <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph> (of &lt;xref:System.Type&gt;) that contains the types to export.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.ICollection%601<ph id="ph2">&amp;gt;</ph> (的&lt;xref:System.Type&gt;)，其中包含要导出的类型。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">types</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">types</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A type in the collection is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">集合中的类型是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Transforms the specified <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> type into an XML schema definition language (XSD) schema.</source>
+          <target state="translated">转换指定<ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>成 XML 架构定义语言 (XSD) 架构的类型。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Runtime.Serialization.XsdDataContractExporter.CanExport%2A&gt; to determine whether the type can be exported.</source>
+          <target state="translated">调用&lt;xref:System.Runtime.Serialization.XsdDataContractExporter.CanExport%2A&gt;来确定是否可以导出类型。&lt;/xref:System.Runtime.Serialization.XsdDataContractExporter.CanExport%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>After calling the Export method, the schema can be retrieved through the &lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Schemas%2A&gt; property.</source>
+          <target state="translated">调用导出方法后，架构可以检索通过&lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Schemas%2A&gt;属性。&lt;/xref:System.Runtime.Serialization.XsdDataContractExporter.Schemas%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; to transform into an XML schema.</source>
+          <target state="translated">&lt;xref:System.Type&gt;将转换成 XML 架构。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Returns the top-level name and namespace for the &lt;xref:System.Type&gt;.</source>
+          <target state="translated">返回的顶级名称和命名空间&lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; to query.</source>
+          <target state="translated">&lt;xref:System.Type&gt;查询。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlQualifiedName&gt; that represents the top-level name and namespace for this &lt;xref:System.Type&gt;, which is written to the stream when writing this object.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlQualifiedName&gt;，它表示的顶级名称和命名空间此&lt;xref:System.Type&gt;，这在写入此对象时写入到流。&lt;/xref:System.Type&gt; &lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Returns the XML schema type for the specified type.</source>
+          <target state="translated">返回指定类型的 XML 架构类型。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The main purpose of this method is to allow anonymous types in XML schema to be represented.</source>
+          <target state="translated">此方法的主要用途是允许在要表示的 XML 架构中使用匿名类型。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Because anonymous types do not have a contract name and namespace, they cannot be looked up using the &lt;xref:System.Runtime.Serialization.XsdDataContractExporter.GetSchemaTypeName%2A&gt;.</source>
+          <target state="translated">匿名类型不具有协定名称和命名空间，因为它们不能查找使用&lt;xref:System.Runtime.Serialization.XsdDataContractExporter.GetSchemaTypeName%2A&gt;.&lt;/xref:System.Runtime.Serialization.XsdDataContractExporter.GetSchemaTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This method returns the &lt;xref:System.Xml.Schema.XmlSchemaType&gt; definition for such types.</source>
+          <target state="translated">此方法返回&lt;xref:System.Xml.Schema.XmlSchemaType&gt;这种类型的定义。&lt;/xref:System.Xml.Schema.XmlSchemaType&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The types for which the &lt;xref:System.Runtime.Serialization.XsdDataContractExporter.GetSchemaTypeName%2A&gt; method returns a valid name, this method returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">为其类型&lt;xref:System.Runtime.Serialization.XsdDataContractExporter.GetSchemaTypeName%2A&gt;方法返回有效名称，此方法返回<ph id="ph1">`null`</ph>。&lt;/xref:System.Runtime.Serialization.XsdDataContractExporter.GetSchemaTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The type to return a schema for.</source>
+          <target state="translated">要返回的架构的类型。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the XML schema.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>是否包含 XML 架构。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Returns the contract name and contract namespace for the &lt;xref:System.Type&gt;.</source>
+          <target state="translated">返回&lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt;的协定名称和协定命名空间</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; that was exported.</source>
+          <target state="translated">&lt;xref:System.Type&gt;导出。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that represents the contract name of the type and its namespace.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlQualifiedName&gt;表示的类型和其命名空间的协定名称。&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets or sets an <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ExportOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains options that can be set for the export operation.</source>
+          <target state="translated">获取或设置<bpt id="p1">&lt;xref href="System.Runtime.Serialization.ExportOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它包含可为导出操作设置的选项。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.Serialization.ExportOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains options used to customize how types are exported to schemas.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Serialization.ExportOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它包含用于自定义如何将类型导出到架构的选项。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets the collection of exported XML schemas.</source>
+          <target state="translated">获取导出的 XML 架构的集合。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the schemas transformed from the set of common language runtime (CLR) types after calling the &lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Export*&gt; method.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它包含在调用后从公共语言运行时 (CLR) 类型集转换架构&lt;xref:System.Runtime.Serialization.XsdDataContractExporter.Export*&gt;方法。&lt;/xref:System.Runtime.Serialization.XsdDataContractExporter.Export*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
