@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">769f987c2f161a822c0bd8c49ab873c66eaa9bed</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.EntityClient.EntityDataReader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fee4523fbd7b9738c99c23badf28be0639afb37c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06798344aa0e35afe5c55736009e9b8c7d9c6a0e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Reads a forward-only stream of rows from a data source.</source>
+          <target state="translated">Leest alleen stroom met rijen van een gegevensbron.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Combines the functionality of the &lt;xref:System.Data.Common.DbDataReader&gt; class and the &lt;xref:System.Data.IExtendedDataRecord&gt; interface.</source>
+          <target state="translated">Combineert de functionaliteit van de &lt;xref:System.Data.Common.DbDataReader&gt;klasse en de &lt;xref:System.Data.IExtendedDataRecord&gt;interface.&lt;/xref:System.Data.IExtendedDataRecord&gt; &lt;/xref:System.Data.Common.DbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An EntityDataReader has no public constructor.</source>
+          <target state="translated">Een EntityDataReader bevat geen openbare constructor.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can only be obtained through one of the <ph id="ph1">`EntityCommand.ExecuteReader`</ph> method overloads.</source>
+          <target state="translated">Kan alleen worden verkregen via een van de <ph id="ph1">`EntityCommand.ExecuteReader`</ph> methode overloads.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> puts output parameters from stored procedures at the end of the result stream, after all the result sets.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>parameters van opgeslagen procedures aan het einde van de resultaatstroom Puts uitvoer na de resultatensets.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, to get output parameter values, an application must consume all the records in all the result sets.</source>
+          <target state="translated">Een toepassing moet daarom om uitvoer parameterwaarden, gebruiken alle records in de resultatensets.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application closes the EntityDataReader (which would also close the &lt;xref:System.Data.Common.DbDataReader&gt;), output parameters might not be populated.</source>
+          <target state="translated">Als de toepassing wordt gesloten voor de EntityDataReader (die ook sluiten door de &lt;xref:System.Data.Common.DbDataReader&gt;), output-parameters kunnen niet worden gevuld.&lt;/xref:System.Data.Common.DbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>EntityDataReader does not implicitly consume result sets to make output parameters available.</source>
+          <target state="translated">EntityDataReader verbruikt impliciet geen resultatensets output-parameters beschikbaar te maken.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, note the following:      -   EntityDataReader calls the &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; only when &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; is explicitly called.</source>
+          <target state="translated">Daarom Let op het volgende:-EntityDataReader roept de &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;alleen wanneer &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt;expliciet wordt aangeroepen.&lt;/xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; throws an exeption, <bpt id="p1">[</bpt>EntityDataReader<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> will wrap it in &lt;xref:System.Data.EntityException&gt; (or a derived exception).</source>
+          <target state="translated">Als &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;genereert een exeption <bpt id="p1">[</bpt>EntityDataReader<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> in laten teruglopen &lt;xref:System.Data.EntityException&gt;(of een afgeleide uitzondering).&lt;/xref:System.Data.EntityException&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt; only closes the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">- &lt;xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt;sluit u alleen de &lt;xref:System.Data.Common.DbDataReader&gt;, zonder verbruikt in behandeling zijnde records of resultaatsets.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt; only disposes of the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">- &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;alleen verwijdert de &lt;xref:System.Data.Common.DbDataReader&gt;, zonder verbruikt in behandeling zijnde records of resultaatsets.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For code examples, see <bpt id="p1">[</bpt>Working with EntityClient<ept id="p1">](http://msdn.microsoft.com/en-us/dec4728c-8dff-4e30-abe0-0f78fb5d5af5)</ept>.</source>
+          <target state="translated">Zie voor voorbeelden van programmacode <bpt id="p1">[</bpt>werken met de EntityClient<ept id="p1">](http://msdn.microsoft.com/en-us/dec4728c-8dff-4e30-abe0-0f78fb5d5af5)</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Closes the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Hiermee sluit u de <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> puts output parameters from stored procedures at the end of the result stream, after all the result sets.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>parameters van opgeslagen procedures aan het einde van de resultaatstroom Puts uitvoer na de resultatensets.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, to get output parameter values, an application must consume all the records in all the result sets.</source>
+          <target state="translated">Een toepassing moet daarom om uitvoer parameterwaarden, gebruiken alle records in de resultatensets.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application closes the &lt;xref:System.Data.EntityClient.EntityDataReader&gt; (which would also close the &lt;xref:System.Data.Common.DbDataReader&gt;), output parameters might not be populated.</source>
+          <target state="translated">Als de toepassing wordt gesloten de &lt;xref:System.Data.EntityClient.EntityDataReader&gt;(die ook sluiten door de &lt;xref:System.Data.Common.DbDataReader&gt;), output-parameters kunnen niet worden gevuld.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.EntityClient.EntityDataReader&gt; does not implicitly consume result sets to make output parameters available.</source>
+          <target state="translated">&lt;xref:System.Data.EntityClient.EntityDataReader&gt;impliciet verbruikt geen resultatensets output-parameters beschikbaar te maken.&lt;/xref:System.Data.EntityClient.EntityDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, note the following:      -   &lt;xref:System.Data.EntityClient.EntityDataReader&gt; calls the &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; only when &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; is explicitly called.</source>
+          <target state="translated">Daarom Let op het volgende:- &lt;xref:System.Data.EntityClient.EntityDataReader&gt;aanroepen de &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;alleen wanneer &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt;expliciet wordt aangeroepen.&lt;/xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; throws an exception, &lt;xref:System.Data.EntityClient.EntityDataReader&gt; will wrap it in &lt;xref:System.Data.EntityException&gt; (or a derived exception).</source>
+          <target state="translated">Als &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;genereert een uitzondering &lt;xref:System.Data.EntityClient.EntityDataReader&gt;in laten teruglopen &lt;xref:System.Data.EntityException&gt;(of een afgeleide uitzondering).&lt;/xref:System.Data.EntityException&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Close only closes the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">-Sluit sluit u alleen de &lt;xref:System.Data.Common.DbDataReader&gt;, zonder verbruikt in behandeling zijnde records of resultaatsets.&lt;/xref:System.Data.Common.DbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt; only disposes of the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">- &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;alleen verwijdert de &lt;xref:System.Data.Common.DbDataReader&gt;, zonder verbruikt in behandeling zijnde records of resultaatsets.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets <bpt id="p1">&lt;xref href="System.Data.Common.DataRecordInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Data.IExtendedDataRecord"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gets <bpt id="p1">&lt;xref href="System.Data.Common.DataRecordInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Data.IExtendedDataRecord"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The information of a data record.</source>
+          <target state="translated">De gegevens van een record.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the depth of nesting for the current row.</source>
+          <target state="translated">Haalt een waarde die aangeeft van de diepte van het nesten van voor de huidige rij.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The outermost table has a depth of zero.</source>
+          <target state="translated">De buitenste tabel heeft een diepte van nul.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The depth of nesting for the current row.</source>
+          <target state="translated">De diepte van het nesten van voor de huidige rij.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Releases the resources consumed by this <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and calls &lt;xref:System.Data.EntityClient.EntityDataReader.Close*&gt;.</source>
+          <target state="translated">Versies van de resources die door dit <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en aanroepen &lt;xref:System.Data.EntityClient.EntityDataReader.Close*&gt;.&lt;/xref:System.Data.EntityClient.EntityDataReader.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> puts output parameters from stored procedures at the end of the result stream, after all the result sets.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph>parameters van opgeslagen procedures aan het einde van de resultaatstroom Puts uitvoer na de resultatensets.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, to get output parameter values, an application must consume all the records in all the result sets.</source>
+          <target state="translated">Een toepassing moet daarom om uitvoer parameterwaarden, gebruiken alle records in de resultatensets.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application closes the &lt;xref:System.Data.EntityClient.EntityDataReader&gt; (which would also close the &lt;xref:System.Data.Common.DbDataReader&gt;), output parameters might not be populated.</source>
+          <target state="translated">Als de toepassing wordt gesloten de &lt;xref:System.Data.EntityClient.EntityDataReader&gt;(die ook sluiten door de &lt;xref:System.Data.Common.DbDataReader&gt;), output-parameters kunnen niet worden gevuld.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[</bpt>EntityDataReader<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> does not implicitly consume result sets to make output parameters available.</source>
+          <target state="translated"><bpt id="p1">[</bpt>EntityDataReader<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> impliciet verbruikt geen resultatensets output-parameters beschikbaar te maken.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, note the following:      -   &lt;xref:System.Data.Odbc.OdbcError&gt; calls the &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; only when &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; is explicitly called.</source>
+          <target state="translated">Daarom Let op het volgende:- &lt;xref:System.Data.Odbc.OdbcError&gt;aanroepen de &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;alleen wanneer &lt;xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt;expliciet wordt aangeroepen.&lt;/xref:System.Data.EntityClient.EntityDataReader.NextResult%2A?displayProperty=fullName&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; &lt;/xref:System.Data.Odbc.OdbcError&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt; throws an exception, &lt;xref:System.Data.Odbc.OdbcError&gt; will wrap it in &lt;xref:System.Data.EntityException&gt; (or a derived exception).</source>
+          <target state="translated">Als &lt;xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;genereert een uitzondering &lt;xref:System.Data.Odbc.OdbcError&gt;in laten teruglopen &lt;xref:System.Data.EntityException&gt;(of een afgeleide uitzondering).&lt;/xref:System.Data.EntityException&gt; &lt;/xref:System.Data.Odbc.OdbcError&gt; &lt;/xref:System.Data.Common.DbDataReader.NextResult%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt; only closes the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">- &lt;xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt;sluit u alleen de &lt;xref:System.Data.Common.DbDataReader&gt;, zonder verbruikt in behandeling zijnde records of resultaatsets.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt; only disposes of the &lt;xref:System.Data.Common.DbDataReader&gt;, without consuming any pending records or result sets.</source>
+          <target state="translated">- &lt;xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;alleen verwijdert de &lt;xref:System.Data.Common.DbDataReader&gt;, zonder verbruikt in behandeling zijnde records of resultaatsets.&lt;/xref:System.Data.Common.DbDataReader&gt; &lt;/xref:System.Data.EntityClient.EntityDataReader.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>voor het vrijgeven van zowel beheerde als onbeheerde hulpbronnen; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> om alleen niet-beheerde bronnen vrij te geven.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the number of columns in the current row.</source>
+          <target state="translated">Hiermee haalt het aantal kolommen in de huidige rij.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Includes hidden fields.</source>
+          <target state="translated">Verborgen velden bevat.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Data.EntityClient.EntityDataReaderr.VisibleFieldCount%2A&gt; to exclude hidden fields.</source>
+          <target state="translated">Gebruik &lt;xref:System.Data.EntityClient.EntityDataReaderr.VisibleFieldCount%2A&gt;verborgen velden uitsluiten.&lt;/xref:System.Data.EntityClient.EntityDataReaderr.VisibleFieldCount%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The number of columns in the current row.</source>
+          <target state="translated">Het aantal kolommen in de huidige rij.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a Boolean.</source>
+          <target state="translated">Hiermee haalt de waarde van de opgegeven kolom als een Booleaanse waarde.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a byte.</source>
+          <target state="translated">Hiermee haalt de waarde van de opgegeven kolom als een byte.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Reads a stream of bytes from the specified column, starting at location indicated by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dataIndex</ph><ept id="p1">&lt;/code&gt;</ept>, into the buffer, starting at the location indicated by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">bufferIndex</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Een stroom bytes leest uit de opgegeven kolom, beginnend bij de locatie die wordt aangegeven door <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dataIndex</ph> <ept id="p1">&lt;/code&gt;</ept>, in de buffer die wordt gestart op de locatie aangegeven door <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">bufferIndex</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The index within the row from which to begin the read operation.</source>
+          <target state="translated">De index binnen de rij waaruit de leesbewerking begint.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The buffer into which to copy the data.</source>
+          <target state="translated">De buffer waarin de gegevens te kopiëren.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The index with the buffer to which the data will be copied.</source>
+          <target state="translated">De index met de buffer waarnaar de gegevens worden gekopieerd.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The maximum number of characters to read.</source>
+          <target state="translated">Het maximum aantal tekens dat moet worden gelezen.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The actual number of bytes read.</source>
+          <target state="translated">Het werkelijke aantal gelezen bytes.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a single character.</source>
+          <target state="translated">Hiermee haalt de waarde van de opgegeven kolom als een enkel teken.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Reads a stream of characters from the specified column, starting at location indicated by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dataIndex</ph><ept id="p1">&lt;/code&gt;</ept>, into the buffer, starting at the location indicated by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">bufferIndex</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Leest u een reeks tekens uit de opgegeven kolom, beginnend bij de locatie die wordt aangegeven door <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dataIndex</ph> <ept id="p1">&lt;/code&gt;</ept>, in de buffer die wordt gestart op de locatie aangegeven door <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">bufferIndex</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The index within the row from which to begin the read operation.</source>
+          <target state="translated">De index binnen de rij waaruit de leesbewerking begint.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The buffer into which to copy the data.</source>
+          <target state="translated">De buffer waarin de gegevens te kopiëren.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The index with the buffer to which the data will be copied.</source>
+          <target state="translated">De index met de buffer waarnaar de gegevens worden gekopieerd.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The maximum number of characters to read.</source>
+          <target state="translated">Het maximum aantal tekens dat moet worden gelezen.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The actual number of characters read.</source>
+          <target state="translated">Het werkelijke aantal tekens is gelezen.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Returns nested readers as <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Retourneert de geneste lezers als <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The ordinal of the column.</source>
+          <target state="translated">Het volgnummer van de kolom.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The nested readers as <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">De geneste lezers als <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Returns a nested <bpt id="p1">&lt;xref href="System.Data.Common.DbDataRecord"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert een geneste <bpt id="p1">&lt;xref href="System.Data.Common.DbDataRecord"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The number of the <bpt id="p1">&lt;xref uid="langword_csharp_DbDataRecord" name="DbDataRecord" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to return.</source>
+          <target state="translated">Het nummer van de <bpt id="p1">&lt;xref uid="langword_csharp_DbDataRecord" name="DbDataRecord" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om terug te keren.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The nested data record.</source>
+          <target state="translated">De gegevensrecord geneste.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets the name of the data type of the specified column.</source>
+          <target state="translated">Hiermee haalt u de naam van het gegevenstype van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The name of the data type.</source>
+          <target state="translated">De naam van het gegevenstype.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">Hiermee wordt de waarde van de opgegeven kolom als een &lt;xref:System.DateTime&gt;object.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the requested column ordinal that can be overridden with a provider-specific implementation.</source>
+          <target state="translated">Retourneert een <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -object voor de gevraagde kolom met rangtelwoord die kan worden onderdrukt met een provider-specifieke implementatie.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A data reader.</source>
+          <target state="translated">Een gegevenslezer.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.Decimal&gt; object.</source>
+          <target state="translated">Hiermee wordt de waarde van de opgegeven kolom als een &lt;xref:System.Decimal&gt;object.&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a double-precision floating point number.</source>
+          <target state="translated">Hiermee haalt de waarde van de opgegeven kolom als een getal met dubbele precisie drijvende komma.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IEnumerator&gt; that can be used to iterate through the rows in the data reader.</source>
+          <target state="translated">Retourneert een &lt;xref:System.Collections.IEnumerator&gt;die kunnen worden gebruikt om de rijen in de gegevenslezer doorlopen.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; that can be used to iterate through the rows in the data reader.</source>
+          <target state="translated">Een &lt;xref:System.Collections.IEnumerator&gt;die kunnen worden gebruikt om de rijen in de gegevenslezer doorlopen.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets the data type of the specified column.</source>
+          <target state="translated">Hiermee haalt u het gegevenstype van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The data type of the specified column.</source>
+          <target state="translated">Het gegevenstype van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a single-precision floating point number.</source>
+          <target state="translated">Hiermee haalt de waarde van de opgegeven kolom als een getal met enkele precisie drijvende komma.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a globally-unique identifier (GUID).</source>
+          <target state="translated">Hiermee haalt de waarde van de opgegeven kolom als een globally unique identifier (GUID).</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 16-bit signed integer.</source>
+          <target state="translated">Hiermee haalt de waarde van de opgegeven kolom als een 16-bits geheel getal met teken.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 32-bit signed integer.</source>
+          <target state="translated">Hiermee haalt de waarde van de opgegeven kolom als een 32-bits geheel getal met teken.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 64-bit signed integer.</source>
+          <target state="translated">Hiermee haalt de waarde van de opgegeven kolom als een 64-bits geheel getal met teken.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets the name of the column, given the zero-based column ordinal.</source>
+          <target state="translated">Hiermee haalt u de naam van de kolom, krijgt de op nul gebaseerde kolom rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The name of the specified column.</source>
+          <target state="translated">De naam van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Gets the column ordinal given the name of the column.</source>
+          <target state="translated">Hiermee haalt u de kolom rangtelwoord krijgt de naam van de kolom.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">De naam van de kolom.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The name specified is not a valid column name.</source>
+          <target state="translated">De opgegeven naam is geen geldige kolomnaam.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Returns the provider-specific field type of the specified column.</source>
+          <target state="translated">Retourneert het veldtype provider-specifieke van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; object that describes the data type of the specified column.</source>
+          <target state="translated">De &lt;xref:System.Type&gt;object die worden beschreven van het gegevenstype van de opgegeven kolom.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as an instance of &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Hiermee wordt de waarde van de opgegeven kolom als een instantie van &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets all provider-specific attribute columns in the collection for the current row.</source>
+          <target state="translated">Hiermee haalt alle providerspecifiek kenmerkkolommen in de verzameling voor de huidige rij.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An array of &lt;xref:System.Object&gt; into which to copy the attribute columns.</source>
+          <target state="translated">Een matrix van &lt;xref:System.Object&gt;waarin het kopiëren van de kenmerkkolommen.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The number of instances of &lt;xref:System.Object&gt; in the array.</source>
+          <target state="translated">Het aantal exemplaren van &lt;xref:System.Object&gt;in de matrix.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata of the <bpt id="p2">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert een <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die beschrijft de kolommetagegevens van de van de <bpt id="p2">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die beschrijft de kolommetagegevens van de.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as an instance of &lt;xref:System.String&gt;.</source>
+          <target state="translated">Hiermee wordt de waarde van de opgegeven kolom als een instantie van &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as an instance of &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Hiermee wordt de waarde van de opgegeven kolom als een instantie van &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Populates an array of objects with the column values of the current row.</source>
+          <target state="translated">Hiermee wordt een matrix met objecten met de kolomwaarden van de huidige rij gevuld.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>An array of &lt;xref:System.Object&gt; into which to copy the attribute columns.</source>
+          <target state="translated">Een matrix van &lt;xref:System.Object&gt;waarin het kopiëren van de kenmerkkolommen.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The number of instances of &lt;xref:System.Object&gt; in the array.</source>
+          <target state="translated">Het aantal exemplaren van &lt;xref:System.Object&gt;in de matrix.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains one or more rows.</source>
+          <target state="translated">Hiermee wordt een waarde die aangeeft of dit <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> bevat een of meer rijen.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains one or more rows; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> bevat een of meer rijen; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated">Haalt een waarde die aangeeft of de <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is gesloten.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> is gesloten, anders, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the column contains nonexistent or missing values.</source>
+          <target state="translated">Hiermee wordt een waarde die aangeeft of de kolom niet-bestaande of ontbrekende waarden bevat.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified column is equivalent to <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de opgegeven kolom is gelijk aan <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as an instance of &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Hiermee wordt de waarde van de opgegeven kolom als een instantie van &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">De op nul gebaseerde kolom met rangtelwoord</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as an instance of &lt;xref:System.Object&gt;.</source>
+          <target state="translated">Hiermee wordt de waarde van de opgegeven kolom als een instantie van &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">De naam van de kolom.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">De waarde van de opgegeven kolom.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Advances the reader to the next result when reading the results of a batch of statements.</source>
+          <target state="translated">De lezer verplaatst naar het volgende resultaat bij het lezen van de resultaten van een reeks instructies.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method allows you to process multiple result sets returned when a batch is submitted to the data provider.</source>
+          <target state="translated">Deze methode kunt u meerdere resultatensets worden geretourneerd wanneer een batch wordt verzonden naar de gegevensprovider verwerken.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are more result sets; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als er meer resultatensets; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Advances the reader to the next record in a result set.</source>
+          <target state="translated">De lezer verplaatst naar de volgende record in een resultatenset.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default position of a data reader is before the first record.</source>
+          <target state="translated">De standaardpositie van een gegevenslezer is voordat de eerste record.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must call <ph id="ph1">`Read`</ph> to begin accessing data.</source>
+          <target state="translated">Daarom moet u aanroepen <ph id="ph1">`Read`</ph> om te beginnen met toegang tot gegevens.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are more rows; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als er meer rijen. anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Gets the number of rows changed, inserted, or deleted by execution of the SQL statement.</source>
+          <target state="translated">Hiermee haalt u het aantal rijen gewijzigd of verwijderd door de uitvoering van de SQL-instructie ingevoegd.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`RecordsAffected`</ph> property is not set until all rows are read and you close the <ph id="ph2">`DataReader`</ph>.</source>
+          <target state="translated">De <ph id="ph1">`RecordsAffected`</ph> eigenschap is niet ingesteld totdat alle rijen worden gelezen en u sluit het <ph id="ph2">`DataReader`</ph>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The number of rows changed, inserted, or deleted.</source>
+          <target state="translated">Het aantal rijen gewijzigd, ingevoegd of verwijderd.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Returns -1 for SELECT statements; 0 if no rows were affected or the statement failed.</source>
+          <target state="translated">Retourneert-1 voor SELECT-instructies; 0 als er geen rijen is van invloed op of de instructie is mislukt.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets the number of fields in the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that are not hidden.</source>
+          <target state="translated">Hiermee wordt het aantal velden in de <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die niet zijn verborgen.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used to determine how many fields in the &lt;xref:System.Data.EntityClient.EntityDataReader&gt; are visible.</source>
+          <target state="translated">Deze waarde wordt gebruikt om te bepalen hoeveel velden in de &lt;xref:System.Data.EntityClient.EntityDataReader&gt;zichtbaar zijn.&lt;/xref:System.Data.EntityClient.EntityDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a SELECT on a partial primary key returns the remaining parts of the key as hidden fields.</source>
+          <target state="translated">Bijvoorbeeld, retourneert een Selecteer voor een gedeeltelijke primaire sleutel de resterende onderdelen van de sleutel als verborgen velden.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The hidden fields are always appended behind the visible fields.</source>
+          <target state="translated">Verborgen velden worden altijd toegevoegd achter zichtbare velden.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The number of fields that are not hidden.</source>
+          <target state="translated">Het aantal velden die niet zijn verborgen.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

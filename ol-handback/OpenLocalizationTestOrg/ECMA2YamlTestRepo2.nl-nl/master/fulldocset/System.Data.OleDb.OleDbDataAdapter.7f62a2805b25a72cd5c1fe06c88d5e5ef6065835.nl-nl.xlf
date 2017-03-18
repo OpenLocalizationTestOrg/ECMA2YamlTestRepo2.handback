@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fcc31274176c0f8129b121de304d7162d769c64d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.OleDb.OleDbDataAdapter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c9277bd099a1164b12ad7e98968598224c466902</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">02a3d91f94bf1cfef8c580e14ed15cbad374e867</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a set of data commands and a database connection that are used to fill the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and update the data source.</source>
+          <target state="translated">Hiermee geeft u een reeks opdrachten voor gegevens en de verbinding met een database die worden gebruikt voor het vervullen van de <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en de gegevensbron bijwerken.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OleDbDataAdapter serves as a bridge between a &lt;xref:System.Data.DataSet&gt; and data source for retrieving and saving data.</source>
+          <target state="translated">De interne OleDbDataAdapter fungeert als een brug tussen een &lt;xref:System.Data.DataSet&gt;en de gegevensbron voor het ophalen en opslaan van gegevens.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OleDbDataAdapter provides this bridge by using &lt;xref:System.Data.Common.DbDataAdapter.Fill%2A&gt; to load data from the data source into the &lt;xref:System.Data.DataSet&gt;, and using &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt; to send changes made in the &lt;xref:System.Data.DataSet&gt; back to the data source.</source>
+          <target state="translated">De interne OleDbDataAdapter biedt deze brug door middel van &lt;xref:System.Data.Common.DbDataAdapter.Fill%2A&gt;om gegevens te laden uit de gegevensbron in de &lt;xref:System.Data.DataSet&gt;, en het gebruik van &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;voor het verzenden van wijzigingen in de &lt;xref:System.Data.DataSet&gt;terug naar de gegevensbron.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Fill%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the OleDbDataAdapter fills a &lt;xref:System.Data.DataSet&gt;, it will create the appropriate tables and columns for the returned data if they do not already exist.</source>
+          <target state="translated">Wanneer de interne OleDbDataAdapter vult een &lt;xref:System.Data.DataSet&gt;, wordt gemaakt de juiste tabellen en kolommen voor de geretourneerde gegevens als deze niet al bestaan.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, primary key information is not included in the implicitly created schema unless the &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; property is set to &lt;xref:System.Data.MissingSchemaAction&gt;.</source>
+          <target state="translated">Primaire-sleutelgegevens is echter niet opgenomen in het schema impliciet gemaakt tenzij de &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;eigenschap is ingesteld op &lt;xref:System.Data.MissingSchemaAction&gt;.&lt;/xref:System.Data.MissingSchemaAction&gt; &lt;/xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may also have the OleDbDataAdapter create the schema of the &lt;xref:System.Data.DataSet&gt;, including primary key information, before filling it with data using &lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;.</source>
+          <target state="translated">Misschien hebt u ook de interne OleDbDataAdapter het schema van het &lt;xref:System.Data.DataSet&gt;inclusief informatie over primaire sleutels, voordat het vullen met gegevens met behulp van &lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;.&lt;/xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt; &lt;/xref:System.Data.DataSet&gt; maken</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Adding Existing Constraints to a DataSet<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>bestaande beperkingen toe te voegen aan een gegevensset<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that some OLE DB providers, including the MSDataShape provider, do not return base table or primary key information.</source>
+          <target state="translated">Houd er rekening mee dat sommige OLE DB-providers, met inbegrip van de provider MSDataShape niet basistabel of een primaire-sleutelgegevens retourneren.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the OleDbDataAdapter cannot correctly set the &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt; property on any created &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Daarom instellen de interne OleDbDataAdapter correct de &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt;eigenschap op alle gemaakte &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable.PrimaryKey%2A&gt; niet</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In these cases you should explicitly specify primary keys for tables in the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">In dergelijke gevallen moet u expliciet primaire sleutels voor tabellen in de &lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt; opgeven</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OleDbDataAdapter also includes the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;, &lt;xref:System.Data.OleDb.OleDbDataAdapter.InsertCommand%2A&gt;, &lt;xref:System.Data.OleDb.OleDbDataAdapter.DeleteCommand%2A&gt;, &lt;xref:System.Data.OleDb.OleDbDataAdapter.UpdateCommand%2A&gt;, and &lt;xref:System.Data.Common.DataAdapter.TableMappings%2A&gt; properties to facilitate the loading and updating of data.</source>
+          <target state="translated">De interne OleDbDataAdapter bevat ook de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;, &lt;xref:System.Data.OleDb.OleDbDataAdapter.InsertCommand%2A&gt;, &lt;xref:System.Data.OleDb.OleDbDataAdapter.DeleteCommand%2A&gt;, &lt;xref:System.Data.OleDb.OleDbDataAdapter.UpdateCommand%2A&gt;, en &lt;xref:System.Data.Common.DataAdapter.TableMappings%2A&gt;Eigenschappen om het laden en het bijwerken van gegevens te vergemakkelijken.&lt;/xref:System.Data.Common.DataAdapter.TableMappings%2A&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter.UpdateCommand%2A&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter.DeleteCommand%2A&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter.InsertCommand%2A&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of OleDbDataAdapter, properties are set to their initial values.</source>
+          <target state="translated">Wanneer u een exemplaar van de interne OleDbDataAdapter maakt, worden de eigenschappen ingesteld op de oorspronkelijke waarden.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of these values, see the OleDbDataAdapter constructor.</source>
+          <target state="translated">Zie de interne OleDbDataAdapter-constructor voor een lijst van deze waarden.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;, the following read/write properties are set to the following initial values.</source>
+          <target state="translated">Wanneer u een exemplaar van maakt &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;, de volgende eigenschappen voor lezen/schrijven zijn ingesteld op de volgende beginwaarden.&lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;|<ph id="ph1">`MissingMappingAction.Passthrough`</ph>|   |&lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;|<ph id="ph2">`MissingSchemaAction.Add`</ph>|       You can change the value of any of these properties through a separate call to the property.</source>
+          <target state="translated">| Eigenschappen | Initiële waarde |   |----------------|-------------------|   | &lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;| <ph id="ph1">`MissingMappingAction.Passthrough`</ph>|   | &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;| <ph id="ph2">`MissingSchemaAction.Add`</ph>|       U kunt de waarde van een van deze eigenschappen via een afzonderlijke aanroep van de eigenschap wijzigen.&lt;/xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; &lt;/xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> as the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt; property.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;eigenschap.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation of the &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; constructor sets the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; property to the value specified in the <ph id="ph1">`selectCommand`</ph> parameter.</source>
+          <target state="translated">Deze implementatie van de &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;constructor stelt de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;eigenschap in op de opgegeven waarde in de <ph id="ph1">`selectCommand`</ph> parameter.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;, the following read/write properties are set to the following initial values.</source>
+          <target state="translated">Wanneer u een exemplaar van maakt &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;, de volgende eigenschappen voor lezen/schrijven zijn ingesteld op de volgende beginwaarden.&lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;|<ph id="ph1">`MissingMappingAction.Passthrough`</ph>|   |&lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;|<ph id="ph2">`MissingSchemaAction.Add`</ph>|       You can change the value of any of these properties through a separate call to the property.</source>
+          <target state="translated">| Eigenschappen | Initiële waarde |   |----------------|-------------------|   | &lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;| <ph id="ph1">`MissingMappingAction.Passthrough`</ph>|   | &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;| <ph id="ph2">`MissingSchemaAction.Add`</ph>|       U kunt de waarde van een van deze eigenschappen via een afzonderlijke aanroep van de eigenschap wijzigen.&lt;/xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; &lt;/xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a SELECT statement or stored procedure, and is set as the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt; property of the <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die een SELECT-instructie of opgeslagen procedure is en is ingesteld als de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;eigenschap van de <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met een &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation of the &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; opens and closes an &lt;xref:System.Data.OleDb.OleDbConnection&gt; if it is not already open.</source>
+          <target state="translated">Deze implementatie van de &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;wordt geopend en wordt gesloten een &lt;xref:System.Data.OleDb.OleDbConnection&gt;Als deze nog niet is geopend.&lt;/xref:System.Data.OleDb.OleDbConnection&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be useful in an application that must call the &lt;xref:System.Data.Common.DbDataAdapter.Fill%2A&gt; method for two or more &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; objects.</source>
+          <target state="translated">Dit is handig in een toepassing die moet worden aangeroepen de &lt;xref:System.Data.Common.DbDataAdapter.Fill%2A&gt;methode voor twee of meer &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;objecten.&lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Fill%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.OleDb.OleDbConnection&gt; is already open, you must explicitly call &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> to close it.</source>
+          <target state="translated">Als de &lt;xref:System.Data.OleDb.OleDbConnection&gt;is al is geopend, moet u expliciet aanroepen &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;of <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> deze sluiten&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;, the following read/write properties are set to the following initial values.</source>
+          <target state="translated">Wanneer u een exemplaar van maakt &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;, de volgende eigenschappen voor lezen/schrijven zijn ingesteld op de volgende beginwaarden.&lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;|<ph id="ph1">`MissingMappingAction.Passthrough`</ph>|   |&lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;|<ph id="ph2">`MissingSchemaAction.Add`</ph>|       You can change the value of either of these properties through a separate call to the property.</source>
+          <target state="translated">| Eigenschappen | Initiële waarde |   |----------------|-------------------|   | &lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;| <ph id="ph1">`MissingMappingAction.Passthrough`</ph>|   | &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;| <ph id="ph2">`MissingSchemaAction.Add`</ph>|       U kunt de waarde van deze eigenschappen via een afzonderlijke aanroep van de eigenschap wijzigen.&lt;/xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; &lt;/xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A string that is an SQL SELECT statement or stored procedure to be used by the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt; property of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een tekenreeks die een SQL SELECT-instructie of opgeslagen procedure moet worden gebruikt door de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;eigenschap van de <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the connection.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de verbinding.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met een &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; constructor uses the <ph id="ph1">`selectConnectionString`</ph> parameter to set the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; property.</source>
+          <target state="translated">Deze overbelasting van de &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;constructor gebruikt de <ph id="ph1">`selectConnectionString`</ph> parameter in te stellen de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;eigenschap.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, it does not open the connection.</source>
+          <target state="translated">De verbinding worden echter niet geopend.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You still must explicitly open the connection.</source>
+          <target state="translated">U moet nog steeds expliciet de verbinding openen.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;, the following read/write properties are set to the following initial values.</source>
+          <target state="translated">Wanneer u een exemplaar van maakt &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;, de volgende eigenschappen voor lezen/schrijven zijn ingesteld op de volgende beginwaarden.&lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;|<ph id="ph1">`MissingMappingAction.Passthrough`</ph>|   |&lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;|<ph id="ph2">`MissingSchemaAction.Add`</ph>|       You can change the value of any of these properties through a separate call to the property.</source>
+          <target state="translated">| Eigenschappen | Initiële waarde |   |----------------|-------------------|   | &lt;xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;| <ph id="ph1">`MissingMappingAction.Passthrough`</ph>|   | &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;| <ph id="ph2">`MissingSchemaAction.Add`</ph>|       U kunt de waarde van een van deze eigenschappen via een afzonderlijke aanroep van de eigenschap wijzigen.&lt;/xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; &lt;/xref:System.Data.Common.DataAdapter.MissingMappingAction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string that is an SQL SELECT statement or stored procedure to be used by the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt; property of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een tekenreeks die een SQL SELECT-instructie of opgeslagen procedure moet worden gebruikt door de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;eigenschap van de <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The connection string.</source>
+          <target state="translated">De verbindingstekenreeks.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets or sets an SQL statement or stored procedure for deleting records from the data set.</source>
+          <target state="translated">Opgehaald of ingesteld van een SQL-instructie of opgeslagen procedure voor het verwijderen van records uit de gegevensset.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;, if this property is not set and primary key information is present in the &lt;xref:System.Data.DataSet&gt;, the DeleteCommand can be generated automatically if you set the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; property and use the &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.</source>
+          <target state="translated">Tijdens &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;, als deze eigenschap niet is ingesteld en gegevens van primaire sleutel aanwezig in het &lt;xref:System.Data.DataSet&gt;DeleteCommand kan worden gegenereerd, automatisch als u de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;eigenschap en gebruik de &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.&lt;/xref:System.Data.OleDb.OleDbCommandBuilder&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; instellen is&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then, any additional commands that you do not set are generated by the &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.</source>
+          <target state="translated">Vervolgens worden alle extra opdrachten die u instelt gegenereerd door de &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.&lt;/xref:System.Data.OleDb.OleDbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This generation logic requires key column information to be present in the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">Deze logica generatie vereist sleutelkolomgegevens moeten zich in de &lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Generating Commands with CommandBuilders<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>opdrachten genereren met CommandBuilders<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When DeleteCommand is assigned to a previously created &lt;xref:System.Data.OleDb.OleDbCommand&gt;, the &lt;xref:System.Data.OleDb.OleDbCommand&gt; is not cloned.</source>
+          <target state="translated">Wanneer de DeleteCommand wordt toegewezen aan een eerder gemaakte &lt;xref:System.Data.OleDb.OleDbCommand&gt;, wordt de &lt;xref:System.Data.OleDb.OleDbCommand&gt;niet is gekloond.&lt;/xref:System.Data.OleDb.OleDbCommand&gt; &lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeleteCommand maintains a reference to the previously created &lt;xref:System.Data.OleDb.OleDbCommand&gt; object.</source>
+          <target state="translated">De DeleteCommand onderhoudt een verwijzing naar het eerder gemaakte &lt;xref:System.Data.OleDb.OleDbCommand&gt;object.&lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used during &lt;xref:System.Data.Common.DbDataAdapter.Update*&gt; to delete records in the data source that correspond to deleted rows in the <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt tijdens &lt;xref:System.Data.Common.DbDataAdapter.Update*&gt;Verwijderde records verwijderen uit de gegevensbron die overeenkomen met rijen in de <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.Common.DbDataAdapter.Update*&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Adds or refreshes rows in a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to match those in an ADO <bpt id="p2">&lt;xref uid="langword_csharp_Recordset" name="Recordset" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref uid="langword_csharp_Record" name="Record" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object using the specified <bpt id="p4">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> and ADO objects.</source>
+          <target state="translated">Wordt toegevoegd of vernieuwt rijen in een <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> overeenkomen met die in een ADO <bpt id="p2">&lt;xref uid="langword_csharp_Recordset" name="Recordset" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> of <bpt id="p3">&lt;xref uid="langword_csharp_Record" name="Record" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> object met de opgegeven <bpt id="p4">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> en ADO-objecten.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The link between ActiveX Data Objects (ADO) and ADO.NET is a one-way operation in that you can copy data from ADO to the &lt;xref:System.Data.DataSet&gt;, but any updates to the data must be handled by ADO.NET.</source>
+          <target state="translated">De koppeling tussen ActiveX Data Objects (ADO) en ADO.NET is een eenrichtingsbewerking in die u gegevens van ADO kopiëren kunt de &lt;xref:System.Data.DataSet&gt;, maar de updates op de gegevens moeten worden verwerkt door ADO.NET.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the Fill method does not close the input <ph id="ph1">`Recordset`</ph> on completion of the Fill operation.</source>
+          <target state="translated">Deze overbelasting van de methode opvulling sluit de invoer niet <ph id="ph1">`Recordset`</ph> na voltooiing van de doorvoerbewerking.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When handling batch SQL statements that return multiple results, this implementation of Fill and &lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt; for the OLE DB.NET Framework Data Provider retrieves schema information for only the first result.</source>
+          <target state="translated">Bij het verwerken van batch SQL-instructies die deze implementatie van de opvulling van meerdere resultaten retourneren en &lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;voor de OLE DB.NET Framework-gegevensprovider schema-informatie voor alleen het eerste resultaat opgehaald.&lt;/xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Fill operation adds the rows to the specified destination &lt;xref:System.Data.DataTable&gt; object in the &lt;xref:System.Data.DataSet&gt;, creating the &lt;xref:System.Data.DataTable&gt; object if it does not already exist.</source>
+          <target state="translated">De doorvoerbewerking worden de rijen toegevoegd aan de opgegeven bestemming &lt;xref:System.Data.DataTable&gt;object in de &lt;xref:System.Data.DataSet&gt;, maken de &lt;xref:System.Data.DataTable&gt;object als deze niet al bestaat.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create a &lt;xref:System.Data.DataTable&gt; object, the Fill operation ordinarily creates only column name metadata.</source>
+          <target state="translated">Bij het maken van een &lt;xref:System.Data.DataTable&gt;object, de doorvoerbewerking maakt normaal gesproken alleen naam kolommetagegevens.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; property is set to <ph id="ph1">`AddWithKey`</ph>, appropriate primary keys and constraints are also created.</source>
+          <target state="translated">Echter, als de &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;eigenschap is ingesteld op <ph id="ph1">`AddWithKey`</ph>, beperkingen en de juiste primaire sleutels zijn gemaakt.&lt;/xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the Fill method multiple times on the same &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">U kunt de methode opvulling meerdere keren gebruiken op de dezelfde &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a primary key exists, incoming rows are merged with matching rows that already exist.</source>
+          <target state="translated">Als een primaire sleutel bestaat, worden binnenkomende rijen worden samengevoegd met overeenkomende rijen die al bestaan.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no primary key exists, incoming rows are appended to the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Als er geen primaire sleutel bevat, zijn binnenkomende rijen toegevoegd aan de &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If primary key information is present, any duplicate rows are reconciled and only appear one time in the &lt;xref:System.Data.DataTable&gt; that corresponds to the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">Als primaire-sleutelgegevens aanwezig is, alle dubbele rijen zijn afgestemd en slechts één keer in de &lt;xref:System.Data.DataTable&gt;die overeenkomt met de &lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTable&gt; voorkomen</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Primary key information may be set either through &lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;, by specifying the &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt; property of the &lt;xref:System.Data.DataTable&gt;, or by setting the &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; property to <ph id="ph1">`AddWithKey`</ph>.</source>
+          <target state="translated">Primaire-sleutelgegevens kan worden ingesteld via &lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;, door te geven de &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt;eigenschap van de &lt;xref:System.Data.DataTable&gt;, of door de &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;eigenschap <ph id="ph1">`AddWithKey`</ph>.&lt;/xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable.PrimaryKey%2A&gt; &lt;/xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; returns the results of an OUTER JOIN, the <ph id="ph1">`DataAdapter`</ph> does not set a &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt; value for the resulting &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Als de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;de resultaten van een OUTER JOIN retourneert de <ph id="ph1">`DataAdapter`</ph> stelt een &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt;waarde voor de resulterende &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable.PrimaryKey%2A&gt; niet&lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly define the primary key to make sure that duplicate rows are resolved correctly.</source>
+          <target state="translated">De primaire sleutel om ervoor te zorgen dat de dubbele rijen op de juiste manier worden omgezet, moet u expliciet definiëren.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Defining Primary Keys<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>primaire sleutels definiëren<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To function correctly with the .NET Framework Data Provider for OLE DB, <ph id="ph1">`AddWithKey`</ph> requires that the native OLE DB provider obtains required primary key information by setting the DBPROP_UNIQUEROWS property, and then determines which columns are primary key columns by examining DBCOLUMN_KEYCOLUMN in the <ph id="ph2">`IColumnsRowset`</ph>.</source>
+          <target state="translated">Correct werken met .NET Framework Data Provider voor OLE DB <ph id="ph1">`AddWithKey`</ph> vereist dat native OLE DB-provider vereist primaire-sleutelgegevens verkrijgt door de eigenschap DBPROP_UNIQUEROWS en wordt vervolgens bepaald welke kolommen zijn primaire sleutelkolommen door DBCOLUMN_KEYCOLUMN in in de <ph id="ph2">`IColumnsRowset`</ph>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively the user may explicitly set the primary key constraints on each &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">U kunt ook kan de gebruiker expliciet de primaire-sleutelbeperkingen op elke &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; instellen</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This makes sure that incoming records that match existing records are updated instead of appended.</source>
+          <target state="translated">Dit zorgt ervoor dat inkomende records die overeenkomen met bestaande records worden bijgewerkt in plaats van toegevoegd.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; encounters duplicate columns while populating a &lt;xref:System.Data.DataTable&gt;, it generates names for the subsequent columns, using the pattern "<bpt id="p1">*</bpt>columnname<ept id="p1">*</ept>1", "<bpt id="p2">*</bpt>columnname<ept id="p2">*</ept>2", "<bpt id="p3">*</bpt>columnname<ept id="p3">*</ept>3", and so on.</source>
+          <target state="translated">Als de &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;tegenkomt dubbele kolommen tijdens het vullen van een &lt;xref:System.Data.DataTable&gt;, genereert namen voor de volgende kolommen in het gebruik van het patroon "<bpt id="p1">*</bpt>columnname<ept id="p1">*</ept>1", "<bpt id="p2">*</bpt>columnname<ept id="p2">*</ept>2","<bpt id="p3">*</bpt>columnname<ept id="p3">*</ept>3 ', enzovoort.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Empty column names are added to the &lt;xref:System.Data.DataTable&gt;, using an empty string for the first column, followed by "1", "2", "3", and so on for the subsequent empty columns.</source>
+          <target state="translated">Lege kolomnamen worden toegevoegd aan de &lt;xref:System.Data.DataTable&gt;, met een lege tekenreeks voor de eerste kolom, gevolgd door '1', '2', '3', enzovoort voor de volgende lege kolommen.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values in ADO <ph id="ph1">`Recordset`</ph> or <ph id="ph2">`Record`</ph> objects are converted to common language runtime types for storage in the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">Waarden in de ADO <ph id="ph1">`Recordset`</ph> of <ph id="ph2">`Record`</ph> objecten worden geconverteerd naar de common language runtime-typen voor opslag in de &lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This overload of the Fill method does not implicitly call <ph id="ph2">`Close`</ph> on the ADO object when the fill operation is complete.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Deze overbelasting van de opvulling-methode niet impliciet aanroepen <ph id="ph2">`Close`</ph> op het object ADO wanneer de doorvoerbewerking voltooid is.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, always call <ph id="ph1">`Close`</ph> when you are finished using ADO <ph id="ph2">`Recordset`</ph> or <ph id="ph3">`Record`</ph> objects.</source>
+          <target state="translated">Daarom altijd aanroepen <ph id="ph1">`Close`</ph> wanneer u klaar bent met ADO <ph id="ph2">`Recordset`</ph> of <ph id="ph3">`Record`</ph> objecten.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This makes sure that the underlying connection to a data source is released in a timely manner, and also prevents possible access violations because of unmanaged ADO objects being reclaimed by garbage collection when existing references still exist.</source>
+          <target state="translated">Dit zorgt ervoor dat de onderliggende verbinding met een gegevensbron tijdig worden vrijgegeven en voorkomt ook dat er mogelijk toegangsfouten vanwege niet-beheerde ADO-objecten door de garbage collector wordt vrijgemaakt wanneer bestaande verwijzingen, nog bestaan.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call the <ph id="ph1">`TableMappings.Add`</ph> method on a <ph id="ph2">`DataAdapter`</ph> and you explicitly map the source table parameter to an empty string, the dataset is successfully filled using the source table, but the dataset will be populated with nothing.</source>
+          <target state="translated">Als u aanroept de <ph id="ph1">`TableMappings.Add`</ph> methode op een <ph id="ph2">`DataAdapter`</ph> en u de parameter van de tabel source expliciet toewijzen aan een lege tekenreeks, de gegevensset is gevuld met behulp van de brontabel, maar de gegevensset wordt gevuld met nothing.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the following example, <ph id="ph1">`rDataSet`</ph> will be populated with nothing.</source>
+          <target state="translated">Bijvoorbeeld, in het volgende voorbeeld <ph id="ph1">`rDataSet`</ph> wordt gevuld met nothing.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   rAdapter.TableMappings.Add("source table", "");   rAdapter.Fill(rDataSet, "source table");      ```</ph>       This example shows how you can skip a result when dealing with multiple results.</source>
+          <target state="translated"><ph id="ph1">```   rAdapter.TableMappings.Add("source table", "");   rAdapter.Fill(rDataSet, "source table");      ```</ph>In dit voorbeeld ziet hoe u een resultaat kunt overslaan bij omgaan met meerdere resultaten.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example uses an &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; to fill a &lt;xref:System.Data.DataTable&gt; using an ADO <ph id="ph1">`Recordset`</ph>.</source>
+          <target state="translated">Het volgende voorbeeld wordt een &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;voor het vervullen van een &lt;xref:System.Data.DataTable&gt;een ADO <ph id="ph1">`Recordset`</ph>.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This example assumes that you have created an ADO <ph id="ph1">`Recordset`</ph>.</source>
+          <target state="translated">In dit voorbeeld wordt ervan uitgegaan dat u hebt gemaakt dat een ADO <ph id="ph1">`Recordset`</ph>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```vb#   Dim custDA As OleDbDataAdapter = New OleDbDataAdapter()        Dim custDS As DataSet = New DataSet        Dim custTable As DataTable = New DataTable("Customers")        custTable.Columns.Add("CustomerID", Type.GetType("System.String"))        custTable.Columns.Add("CompanyName", Type.GetType("System.String"))        custDS.Tables.Add(custTable)        'Use ADO objects from ADO library (msado15.dll) imported        ' as.NET library ADODB.dll using TlbImp.exe        Dim adoConn As ADODB.Connection = New ADODB.Connection()        Dim adoRS As ADODB.Recordset = New ADODB.Recordset()        adoConn.Open("Provider=SQLOLEDB;Data Source=localhost;Initial Catalog=Northwind;Integrated Security=SSPI;", "", "", -1)        adoRS.Open("SELECT CustomerID, CompanyName FROM Customers", adoConn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly, 1)        custDA.Fill(custTable, adoRS)        adoRS.Close()        adoConn.Close()   ```</ph>      <ph id="ph2">```c#   OleDbDataAdapter custDA = new OleDbDataAdapter();        DataSet custDS = new DataSet();        DataTable custTable = new DataTable("Customers");        custTable.Columns.Add("CustomerID", typeof(String));        custTable.Columns.Add("CompanyName", typeof(String));        custDS.Tables.Add(custTable);        //Use ADO objects from ADO library (msado15.dll) imported        //  as.NET library ADODB.dll using TlbImp.exe        ADODB.Connection adoConn = new ADODB.Connection();        ADODB.Recordset adoRS = new ADODB.Recordset();        adoConn.Open("Provider=SQLOLEDB;Data Source=localhost;Initial Catalog=Northwind;Integrated Security=SSPI;", "", "", -1);        adoRS.Open("SELECT CustomerID, CompanyName FROM Customers", adoConn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly, 1);        custDA.Fill(custTable, adoRS);        adoRS.Close();        adoConn.Close();   ```</ph></source>
+          <target state="translated"><ph id="ph1">```vb#   Dim custDA As OleDbDataAdapter = New OleDbDataAdapter()        Dim custDS As DataSet = New DataSet        Dim custTable As DataTable = New DataTable("Customers")        custTable.Columns.Add("CustomerID", Type.GetType("System.String"))        custTable.Columns.Add("CompanyName", Type.GetType("System.String"))        custDS.Tables.Add(custTable)        'Use ADO objects from ADO library (msado15.dll) imported        ' as.NET library ADODB.dll using TlbImp.exe        Dim adoConn As ADODB.Connection = New ADODB.Connection()        Dim adoRS As ADODB.Recordset = New ADODB.Recordset()        adoConn.Open("Provider=SQLOLEDB;Data Source=localhost;Initial Catalog=Northwind;Integrated Security=SSPI;", "", "", -1)        adoRS.Open("SELECT CustomerID, CompanyName FROM Customers", adoConn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly, 1)        custDA.Fill(custTable, adoRS)        adoRS.Close()        adoConn.Close()   ```</ph>      <ph id="ph2">```c#   OleDbDataAdapter custDA = new OleDbDataAdapter();        DataSet custDS = new DataSet();        DataTable custTable = new DataTable("Customers");        custTable.Columns.Add("CustomerID", typeof(String));        custTable.Columns.Add("CompanyName", typeof(String));        custDS.Tables.Add(custTable);        //Use ADO objects from ADO library (msado15.dll) imported        //  as.NET library ADODB.dll using TlbImp.exe        ADODB.Connection adoConn = new ADODB.Connection();        ADODB.Recordset adoRS = new ADODB.Recordset();        adoConn.Open("Provider=SQLOLEDB;Data Source=localhost;Initial Catalog=Northwind;Integrated Security=SSPI;", "", "", -1);        adoRS.Open("SELECT CustomerID, CompanyName FROM Customers", adoConn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly, 1);        custDA.Fill(custTable, adoRS);        adoRS.Close();        adoConn.Close();   ```</ph></target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to fill with records and, if it is required, schema.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te vullen met records en, indien vereist, schema.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An ADO <bpt id="p1">&lt;xref uid="langword_csharp_Recordset" name="Recordset" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_Record" name="Record" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">An ADO <bpt id="p1">&lt;xref uid="langword_csharp_Recordset" name="Recordset" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_Record" name="Record" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The number of rows successfully refreshed to the <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Het aantal rijen is vernieuwd en de <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This does not include rows affected by statements that do not return rows.</source>
+          <target state="translated">Dit omvat geen rijen zijn beïnvloed door de instructies die geen rijen geretourneerd.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Adds or refreshes rows in the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to match those in an ADO <bpt id="p2">&lt;xref uid="langword_csharp_Recordset" name="Recordset" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref uid="langword_csharp_Record" name="Record" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object using the specified <bpt id="p4">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, ADO object, and source table name.</source>
+          <target state="translated">Wordt toegevoegd of vernieuwt rijen in de <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> overeenkomen met die in een ADO <bpt id="p2">&lt;xref uid="langword_csharp_Recordset" name="Recordset" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> of <bpt id="p3">&lt;xref uid="langword_csharp_Record" name="Record" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> object met de opgegeven <bpt id="p4">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>, ADO-object als bron tabelnaam worden opgegeven.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The link between ActiveX Data Objects (ADO) and ADO.NET is a one-way operation in that you can copy data from ADO to the &lt;xref:System.Data.DataSet&gt;, but any updates to the data must be handled by ADO.NET.</source>
+          <target state="translated">De koppeling tussen ActiveX Data Objects (ADO) en ADO.NET is een eenrichtingsbewerking in die u gegevens van ADO kopiëren kunt de &lt;xref:System.Data.DataSet&gt;, maar de updates op de gegevens moeten worden verwerkt door ADO.NET.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt; method iterates through multiple results by calling the <ph id="ph1">`NextRecordset`</ph> method on the <ph id="ph2">`Recordset`</ph>, closing the input <ph id="ph3">`Recordset`</ph> on completion of the &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt; operation.</source>
+          <target state="translated">De &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;methode meerdere resultaten doorlopen door het aanroepen van de <ph id="ph1">`NextRecordset`</ph> methode op de <ph id="ph2">`Recordset`</ph>, sluiten van de invoer <ph id="ph3">`Recordset`</ph> na voltooiing van de &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;bewerking.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt; operation adds the rows to the specified destination &lt;xref:System.Data.DataTable&gt; object in the &lt;xref:System.Data.DataSet&gt;, creating the &lt;xref:System.Data.DataTable&gt; object if it does not already exist.</source>
+          <target state="translated">De &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;bewerking worden de rijen toegevoegd aan de opgegeven bestemming &lt;xref:System.Data.DataTable&gt;object in de &lt;xref:System.Data.DataSet&gt;, maken de &lt;xref:System.Data.DataTable&gt;object als deze niet al bestaat.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create a &lt;xref:System.Data.DataTable&gt; object, the &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt; operation ordinarily creates only column name metadata.</source>
+          <target state="translated">Bij het maken van een &lt;xref:System.Data.DataTable&gt;object, de &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;bewerking maakt normaal gesproken alleen naam kolommetagegevens.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; property is set to <ph id="ph1">`AddWithKey`</ph>, appropriate primary keys and constraints are also created.</source>
+          <target state="translated">Echter, als de &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;eigenschap is ingesteld op <ph id="ph1">`AddWithKey`</ph>, beperkingen en de juiste primaire sleutels zijn gemaakt.&lt;/xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If primary key information is present, any duplicate rows are reconciled and only appear one time in the &lt;xref:System.Data.DataTable&gt; that corresponds to the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">Als primaire-sleutelgegevens aanwezig is, alle dubbele rijen zijn afgestemd en slechts één keer in de &lt;xref:System.Data.DataTable&gt;die overeenkomt met de &lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTable&gt; voorkomen</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Primary key information may be set either through &lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;, by specifying the &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt; property of the &lt;xref:System.Data.DataTable&gt;, or by setting the &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; property to <ph id="ph1">`AddWithKey`</ph>.</source>
+          <target state="translated">Primaire-sleutelgegevens kan worden ingesteld via &lt;xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;, door te geven de &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt;eigenschap van de &lt;xref:System.Data.DataTable&gt;, of door de &lt;xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt;eigenschap <ph id="ph1">`AddWithKey`</ph>.&lt;/xref:System.Data.Common.DataAdapter.MissingSchemaAction%2A&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable.PrimaryKey%2A&gt; &lt;/xref:System.Data.Common.DbDataAdapter.FillSchema%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To function correctly with the .NET Framework Data Provider for OLE DB, <ph id="ph1">`AddWithKey`</ph> requires the native OLE DB provider to obtain required primary key information by setting the DBPROP_UNIQUEROWS property, and then determine which columns are primary key columns by examining DBCOLUMN_KEYCOLUMN in the <bpt id="p1">**</bpt>IColumnsRowset<ept id="p1">**</ept>.</source>
+          <target state="translated">Correct werken met .NET Framework Data Provider voor OLE DB <ph id="ph1">`AddWithKey`</ph> vereist native OLE DB-provider vereist primaire-sleutelgegevens verkrijgen door de eigenschap DBPROP_UNIQUEROWS en vervolgens bepalen welke kolommen zijn primaire sleutelkolommen door DBCOLUMN_KEYCOLUMN in in de <bpt id="p1">**</bpt>IColumnsRowset<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively the user may explicitly set the primary key constraints on each &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">U kunt ook kan de gebruiker expliciet de primaire-sleutelbeperkingen op elke &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; instellen</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This ensures that incoming records that match existing records are updated instead of appended.</source>
+          <target state="translated">Dit zorgt ervoor dat inkomende records die overeenkomen met bestaande records worden bijgewerkt in plaats van toegevoegd.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; returns the results of an OUTER JOIN, the <ph id="ph1">`DataAdapter`</ph> does not set a &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt; value for the resulting &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Als de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;de resultaten van een OUTER JOIN retourneert de <ph id="ph1">`DataAdapter`</ph> stelt een &lt;xref:System.Data.DataTable.PrimaryKey%2A&gt;waarde voor de resulterende &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable.PrimaryKey%2A&gt; niet&lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly define the primary key to make sure that duplicate rows are resolved correctly.</source>
+          <target state="translated">De primaire sleutel om ervoor te zorgen dat de dubbele rijen op de juiste manier worden omgezet, moet u expliciet definiëren.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Defining Primary Keys<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>primaire sleutels definiëren<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`Recordset`</ph> is closed before the starting of the &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt; operation, no error results.</source>
+          <target state="translated">Als de <ph id="ph1">`Recordset`</ph> is gesloten voordat het starten van de &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;bewerking, er zijn geen foutresultaten.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is required for handling of multiple results, because queries that do not return rows are indicated by a closed <ph id="ph1">`Recordset`</ph>.</source>
+          <target state="translated">Dit is vereist voor de verwerking van meerdere resultaten omdat query's die geen rijen retourneren worden aangegeven door een gesloten <ph id="ph1">`Recordset`</ph>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; just calls <ph id="ph1">`NextRecordset`</ph> on the closed <ph id="ph2">`Recordset`</ph> and continues processing.</source>
+          <target state="translated">De &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;alleen aanroepen <ph id="ph1">`NextRecordset`</ph> op de gesloten <ph id="ph2">`Recordset`</ph> en wordt de verwerking vervolgd.&lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an error is encountered while populating the data set, rows added before the occurrence of the error remain in the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">Als een fout is opgetreden tijdens het vullen van de gegevensset, rijen die zijn toegevoegd voordat het exemplaar van de fout blijft aanwezig in de &lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The rest of the operation is aborted.</source>
+          <target state="translated">De rest van de bewerking is afgebroken.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.Common.DbDataAdapter&gt; object encounters duplicate columns while populating a &lt;xref:System.Data.DataTable&gt;, it generates names for the subsequent columns, using the pattern "<bpt id="p1">*</bpt>columnname<ept id="p1">*</ept>1", "<bpt id="p2">*</bpt>columnname<ept id="p2">*</ept>2", "<bpt id="p3">*</bpt>columnname<ept id="p3">*</ept>3", and so on.</source>
+          <target state="translated">Als de &lt;xref:System.Data.Common.DbDataAdapter&gt;object dubbele kolommen tegenkomt tijdens het vullen van een &lt;xref:System.Data.DataTable&gt;, genereert namen voor de volgende kolommen in het gebruik van het patroon "<bpt id="p1">*</bpt>columnname<ept id="p1">*</ept>1", "<bpt id="p2">*</bpt>columnname<ept id="p2">*</ept>2","<bpt id="p3">*</bpt>columnname<ept id="p3">*</ept>3 ', enzovoort.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.Common.DbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the incoming data contains unnamed columns, they are placed in the &lt;xref:System.Data.DataSet&gt; according to the pattern "Column1", "Column2", and so on.</source>
+          <target state="translated">Als de inkomende gegevens naamloze kolommen bevat, worden geplaatst de &lt;xref:System.Data.DataSet&gt;volgens het patroon "Kolom1", "Kolom2", enzovoort.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When multiple result sets are added to the &lt;xref:System.Data.DataSet&gt; each result set is placed in a separate table.</source>
+          <target state="translated">Wanneer meerdere resultatensets worden toegevoegd aan de &lt;xref:System.Data.DataSet&gt;elke resultatenset wordt geplaatst in een afzonderlijke tabel.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Additional result sets are named by appending integral values to the specified table name (for example, "Table", "Table1", "Table2", and so on.).</source>
+          <target state="translated">Als u meer resultatensets worden benoemd met integraal waarden toe te voegen aan de opgegeven tabelnaam (bijvoorbeeld 'Tabel', 'Table1', "Tabel2", enzovoort.).</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applications that use column and table names should make sure that conflicts with these naming patterns does not occur.</source>
+          <target state="translated">Toepassingen die gebruikmaken van de kolom- en tabelnamen moeten ervoor zorgen dat wordt veroorzaakt een conflict met deze patronen naming wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values in ADO <ph id="ph1">`Recordset`</ph> or <ph id="ph2">`Record`</ph> objects are converted to common language runtime types for storage in the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">Waarden in de ADO <ph id="ph1">`Recordset`</ph> of <ph id="ph2">`Record`</ph> objecten worden geconverteerd naar de common language runtime-typen voor opslag in de &lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This overload of the &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt; method implicitly calls <ph id="ph2">`Close`</ph> on the ADO object when the fill operation is complete.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Deze overbelasting van de &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;methode impliciet roept <ph id="ph2">`Close`</ph> op het object ADO wanneer de doorvoerbewerking voltooid is.&lt;/xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example uses an &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; to fill a &lt;xref:System.Data.DataSet&gt; using an ADO <ph id="ph1">`Recordset`</ph> that is an ADO <ph id="ph2">`Record`</ph> object.</source>
+          <target state="translated">Het volgende voorbeeld wordt een &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;voor het vervullen van een &lt;xref:System.Data.DataSet&gt;een ADO <ph id="ph1">`Recordset`</ph> die een ADO <ph id="ph2">`Record`</ph> object.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This example assumes that you have created an ADO <ph id="ph1">`RecordSet`</ph> and <ph id="ph2">`Record`</ph> object.</source>
+          <target state="translated">In dit voorbeeld wordt ervan uitgegaan dat u hebt gemaakt dat een ADO <ph id="ph1">`RecordSet`</ph> en <ph id="ph2">`Record`</ph> object.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```vb#   Dim custDA As OleDbDataAdapter = New OleDbDataAdapter()        Dim custDS As DataSet = New DataSet        'Use ADO objects from ADO library (msado15.dll) imported        ' as.NET library ADODB.dll using TlbImp.exe        Dim adoConn As ADODB.Connection = New ADODB.Connection()        Dim adoRS As ADODB.Recordset = New ADODB.Recordset()        adoConn.Open("Provider=SQLOLEDB;Data Source=localhost;Initial Catalog=Northwind;Integrated Security=SSPI;", "", "", -1)        adoRS.Open("SELECT * FROM Customers", adoConn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly, 1)        custDA.Fill(custDS, adoRS, "Customers")        adoConn.Close()   ```</ph>      <ph id="ph2">```c#   OleDbDataAdapter custDA = new OleDbDataAdapter();        DataSet custDS = new DataSet();        //Use ADO objects from ADO library (msado15.dll) imported        // as.NET library ADODB.dll using TlbImp.exe        ADODB.Connection adoConn = new ADODB.Connection();        ADODB.Recordset adoRS = new ADODB.Recordset();        adoConn.Open("Provider=SQLOLEDB;Data Source=localhost;Initial Catalog=Northwind;Integrated Security=SSPI;", "", "", -1);        adoRS.Open("SELECT * FROM Customers", adoConn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly, 1);        custDA.Fill(custDS, adoRS, "Customers");        adoConn.Close();   ```</ph></source>
+          <target state="translated"><ph id="ph1">```vb#   Dim custDA As OleDbDataAdapter = New OleDbDataAdapter()        Dim custDS As DataSet = New DataSet        'Use ADO objects from ADO library (msado15.dll) imported        ' as.NET library ADODB.dll using TlbImp.exe        Dim adoConn As ADODB.Connection = New ADODB.Connection()        Dim adoRS As ADODB.Recordset = New ADODB.Recordset()        adoConn.Open("Provider=SQLOLEDB;Data Source=localhost;Initial Catalog=Northwind;Integrated Security=SSPI;", "", "", -1)        adoRS.Open("SELECT * FROM Customers", adoConn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly, 1)        custDA.Fill(custDS, adoRS, "Customers")        adoConn.Close()   ```</ph>      <ph id="ph2">```c#   OleDbDataAdapter custDA = new OleDbDataAdapter();        DataSet custDS = new DataSet();        //Use ADO objects from ADO library (msado15.dll) imported        // as.NET library ADODB.dll using TlbImp.exe        ADODB.Connection adoConn = new ADODB.Connection();        ADODB.Recordset adoRS = new ADODB.Recordset();        adoConn.Open("Provider=SQLOLEDB;Data Source=localhost;Initial Catalog=Northwind;Integrated Security=SSPI;", "", "", -1);        adoRS.Open("SELECT * FROM Customers", adoConn, ADODB.CursorTypeEnum.adOpenForwardOnly, ADODB.LockTypeEnum.adLockReadOnly, 1);        custDA.Fill(custDS, adoRS, "Customers");        adoConn.Close();   ```</ph></target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to fill with records and, if it is required, schema.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te vullen met records en, indien vereist, schema.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An ADO <bpt id="p1">&lt;xref uid="langword_csharp_Recordset" name="Recordset" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_Record" name="Record" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">An ADO <bpt id="p1">&lt;xref uid="langword_csharp_Recordset" name="Recordset" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_Record" name="Record" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The source table used for the table mappings.</source>
+          <target state="translated">De brontabel gebruikt voor de Tabeltoewijzingen.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The number of rows successfully added to or refreshed in the <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Het aantal rijen is toegevoegd aan of vernieuwd in de <bpt id="p1">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This does not include rows affected by statements that do not return rows.</source>
+          <target state="translated">Dit omvat geen rijen zijn beïnvloed door de instructies die geen rijen geretourneerd.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The source table is invalid.</source>
+          <target state="translated">De brontabel is ongeldig.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Gets or sets an SQL statement or stored procedure used to insert new records into the data source.</source>
+          <target state="translated">Opgehaald of ingesteld van een SQL-instructie of opgeslagen procedure gebruikt voor het invoegen van nieuwe records in de gegevensbron.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;, if this property is not set and primary key information is present in the &lt;xref:System.Data.DataSet&gt;, the InsertCommand can be generated automatically if you set the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; property and use the &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.</source>
+          <target state="translated">Tijdens &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;, als deze eigenschap niet is ingesteld en gegevens van primaire sleutel aanwezig in het &lt;xref:System.Data.DataSet&gt;InsertCommand kan worden gegenereerd, automatisch als u de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;eigenschap en gebruik de &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.&lt;/xref:System.Data.OleDb.OleDbCommandBuilder&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; instellen is&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then, any additional commands that you do not set are generated by the &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.</source>
+          <target state="translated">Vervolgens worden alle extra opdrachten die u instelt gegenereerd door de &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.&lt;/xref:System.Data.OleDb.OleDbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This generation logic requires key column information to be present in the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">Deze logica generatie vereist sleutelkolomgegevens moeten zich in de &lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Generating Commands with CommandBuilders<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>opdrachten genereren met CommandBuilders<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When InsertCommand is assigned to a previously created &lt;xref:System.Data.OleDb.OleDbCommand&gt;, the &lt;xref:System.Data.OleDb.OleDbCommand&gt; is not cloned.</source>
+          <target state="translated">Wanneer InsertCommand is toegewezen aan een eerder gemaakte &lt;xref:System.Data.OleDb.OleDbCommand&gt;, wordt de &lt;xref:System.Data.OleDb.OleDbCommand&gt;niet is gekloond.&lt;/xref:System.Data.OleDb.OleDbCommand&gt; &lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The InsertCommand maintains a reference to the previously created &lt;xref:System.Data.OleDb.OleDbCommand&gt; object.</source>
+          <target state="translated">Het object InsertCommand onderhoudt een verwijzing naar het eerder gemaakte &lt;xref:System.Data.OleDb.OleDbCommand&gt;object.&lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If execution of this command returns rows, these rows may be added to the &lt;xref:System.Data.DataSet&gt; depending on how you set the &lt;xref:System.Data.OleDb.OleDbCommand.UpdatedRowSource%2A&gt; property of the &lt;xref:System.Data.OleDb.OleDbCommand&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als de uitvoering van deze opdracht rijen retourneert, deze rijen kunnen worden toegevoegd aan de &lt;xref:System.Data.DataSet&gt;, afhankelijk van hoe u stelt de &lt;xref:System.Data.OleDb.OleDbCommand.UpdatedRowSource%2A&gt;eigenschap van de &lt;xref:System.Data.OleDb.OleDbCommand&gt;object.&lt;/xref:System.Data.OleDb.OleDbCommand&gt; &lt;/xref:System.Data.OleDb.OleDbCommand.UpdatedRowSource%2A&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used during &lt;xref:System.Data.Common.DbDataAdapter.Update*&gt; to insert records in the data source that correspond to new rows in the <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt tijdens &lt;xref:System.Data.Common.DbDataAdapter.Update*&gt;records invoegen in de gegevensbron die overeenkomen met de nieuwe rijen in de <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.Common.DbDataAdapter.Update*&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Occurs during &lt;xref:System.Data.Common.DbDataAdapter.Update*&gt; after a command is executed against the data source.</source>
+          <target state="translated">Deze gebeurtenis treedt op tijdens &lt;xref:System.Data.Common.DbDataAdapter.Update*&gt;nadat een opdracht is uitgevoerd voor de gegevensbron.&lt;/xref:System.Data.Common.DbDataAdapter.Update*&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The attempt to update is made.</source>
+          <target state="translated">De poging om bij te werken is gedaan.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Therefore, the event occurs.</source>
+          <target state="translated">Daarom wordt de gebeurtenis plaatsvindt.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;, there are two events that occur per data row updated.</source>
+          <target state="translated">Als u werkt met &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;, er zijn twee gebeurtenissen die per gegevensrij bijgewerkt plaatsvinden.&lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of execution is as follows:      1.</source>
+          <target state="translated">De volgorde van de uitvoering is als volgt: 1.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The values in the &lt;xref:System.Data.DataRow&gt; are moved to the parameter values.</source>
+          <target state="translated">De waarden in de &lt;xref:System.Data.DataRow&gt;worden verplaatst naar de parameterwaarden.&lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdating%2A&gt; event is raised.</source>
+          <target state="translated">De &lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdating%2A&gt;gebeurtenis is opgetreden.&lt;/xref:System.Data.Common.DbDataAdapter.OnRowUpdating%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The command executes.</source>
+          <target state="translated">De opdracht wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the command is set to <ph id="ph1">`FirstReturnedRecord`</ph>, the first returned result is placed in the &lt;xref:System.Data.DataRow&gt;.</source>
+          <target state="translated">Als de opdracht is ingesteld op <ph id="ph1">`FirstReturnedRecord`</ph>, de eerste geretourneerd resultaat wordt geplaatst in de &lt;xref:System.Data.DataRow&gt;.&lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are output parameters, they are placed in the &lt;xref:System.Data.DataRow&gt;.</source>
+          <target state="translated">Als er output-parameters, zijn ze in de &lt;xref:System.Data.DataRow&gt;.&lt;/xref:System.Data.DataRow&gt; geplaatst</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>6.</source>
+          <target state="translated">6.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt; event is raised.</source>
+          <target state="translated">De &lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt;gebeurtenis is opgetreden.&lt;/xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>7.</source>
+          <target state="translated">7.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.DataRow.AcceptChanges%2A&gt; is called.</source>
+          <target state="translated">&lt;xref:System.Data.DataRow.AcceptChanges%2A&gt;wordt aangeroepen.&lt;/xref:System.Data.DataRow.AcceptChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Occurs during &lt;xref:System.Data.Common.DbDataAdapter.Update*&gt; before a command is executed against the data source.</source>
+          <target state="translated">Deze gebeurtenis treedt op tijdens &lt;xref:System.Data.Common.DbDataAdapter.Update*&gt;voordat een opdracht is uitgevoerd voor de gegevensbron.&lt;/xref:System.Data.Common.DbDataAdapter.Update*&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The attempt to update is made.</source>
+          <target state="translated">De poging om bij te werken is gedaan.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Therefore, the event occurs.</source>
+          <target state="translated">Daarom wordt de gebeurtenis plaatsvindt.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;, there are two events that occur per data row updated.</source>
+          <target state="translated">Als u werkt met &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;, er zijn twee gebeurtenissen die per gegevensrij bijgewerkt plaatsvinden.&lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of execution is as follows:      1.</source>
+          <target state="translated">De volgorde van de uitvoering is als volgt: 1.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The values in the &lt;xref:System.Data.DataRow&gt; are moved to the parameter values.</source>
+          <target state="translated">De waarden in de &lt;xref:System.Data.DataRow&gt;worden verplaatst naar de parameterwaarden.&lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdating%2A&gt; event is raised.</source>
+          <target state="translated">De &lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdating%2A&gt;gebeurtenis is opgetreden.&lt;/xref:System.Data.Common.DbDataAdapter.OnRowUpdating%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The command executes.</source>
+          <target state="translated">De opdracht wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the command is set to <ph id="ph1">`FirstReturnedRecord`</ph>, the first returned result is placed in the &lt;xref:System.Data.DataRow&gt;.</source>
+          <target state="translated">Als de opdracht is ingesteld op <ph id="ph1">`FirstReturnedRecord`</ph>, de eerste geretourneerd resultaat wordt geplaatst in de &lt;xref:System.Data.DataRow&gt;.&lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are output parameters, they are placed in the &lt;xref:System.Data.DataRow&gt;.</source>
+          <target state="translated">Als er output-parameters, zijn ze in de &lt;xref:System.Data.DataRow&gt;.&lt;/xref:System.Data.DataRow&gt; geplaatst</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>6.</source>
+          <target state="translated">6.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt; event is raised.</source>
+          <target state="translated">De &lt;xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt;gebeurtenis is opgetreden.&lt;/xref:System.Data.Common.DbDataAdapter.OnRowUpdated%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>7.</source>
+          <target state="translated">7.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.DataRow.AcceptChanges%2A&gt; is called.</source>
+          <target state="translated">&lt;xref:System.Data.DataRow.AcceptChanges%2A&gt;wordt aangeroepen.&lt;/xref:System.Data.DataRow.AcceptChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Gets or sets an SQL statement or stored procedure used to select records in the data source.</source>
+          <target state="translated">Opgehaald of ingesteld van een SQL-instructie of opgeslagen procedure gebruikt om records te selecteren in de gegevensbron.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When SelectCommand is assigned to a previously created &lt;xref:System.Data.OleDb.OleDbCommand&gt;, the &lt;xref:System.Data.OleDb.OleDbCommand&gt; is not cloned.</source>
+          <target state="translated">Wanneer de SelectCommand is toegewezen aan een eerder gemaakte &lt;xref:System.Data.OleDb.OleDbCommand&gt;, wordt de &lt;xref:System.Data.OleDb.OleDbCommand&gt;niet is gekloond.&lt;/xref:System.Data.OleDb.OleDbCommand&gt; &lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SelectCommand maintains a reference to the previously created &lt;xref:System.Data.OleDb.OleDbCommand&gt; object.</source>
+          <target state="translated">De SelectCommand onderhoudt een verwijzing naar het eerder gemaakte &lt;xref:System.Data.OleDb.OleDbCommand&gt;object.&lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the SelectCommand returns no rows, no tables are added to the &lt;xref:System.Data.DataSet&gt;, and no exception is raised.</source>
+          <target state="translated">Als de SelectCommand geen rijen retourneert, er zijn geen tabellen worden toegevoegd aan de &lt;xref:System.Data.DataSet&gt;, en geen uitzondering gegenereerd.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used during &lt;xref:System.Data.Common.DbDataAdapter.Fill*&gt; to select records from data source for placement in the <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die wordt gebruikt tijdens &lt;xref:System.Data.Common.DbDataAdapter.Fill*&gt;om records te selecteren van gegevensbron voor de plaatsing in de <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.Common.DbDataAdapter.Fill*&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Data.IDbDataAdapter.DeleteCommand*&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.Data.IDbDataAdapter.DeleteCommand*&gt;.&lt;/xref:System.Data.IDbDataAdapter.DeleteCommand*&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; instance is cast to an &lt;xref:System.Data.IDbDataAdapter&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;exemplaar is geconverteerd naar een &lt;xref:System.Data.IDbDataAdapter&gt;interface.&lt;/xref:System.Data.IDbDataAdapter&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used during an update to delete records in the data source for deleted rows in the data set.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wordt gebruikt tijdens een update om records in de gegevensbron voor verwijderde rijen in de gegevensset te verwijderen.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Data.IDbDataAdapter.InsertCommand*&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.Data.IDbDataAdapter.InsertCommand*&gt;.&lt;/xref:System.Data.IDbDataAdapter.InsertCommand*&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; instance is cast to an &lt;xref:System.Data.IDbDataAdapter&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;exemplaar is geconverteerd naar een &lt;xref:System.Data.IDbDataAdapter&gt;interface.&lt;/xref:System.Data.IDbDataAdapter&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used during an update to insert records from a data source for placement in the data set.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die tijdens het bijwerken wordt gebruikt voor het invoegen van records uit een gegevensbron voor de plaatsing in de gegevensset.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Data.IDbDataAdapter.SelectCommand*&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.Data.IDbDataAdapter.SelectCommand*&gt;.&lt;/xref:System.Data.IDbDataAdapter.SelectCommand*&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; instance is cast to an &lt;xref:System.Data.IDbDataAdapter&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;exemplaar is geconverteerd naar een &lt;xref:System.Data.IDbDataAdapter&gt;interface.&lt;/xref:System.Data.IDbDataAdapter&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used during an update to select records from a data source for placement in the data set.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die tijdens het bijwerken wordt gebruikt om records te selecteren van een gegevensbron voor de plaatsing in de gegevensset.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Data.IDbDataAdapter.UpdateCommand*&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.Data.IDbDataAdapter.UpdateCommand*&gt;.&lt;/xref:System.Data.IDbDataAdapter.UpdateCommand*&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; instance is cast to an &lt;xref:System.Data.IDbDataAdapter&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;exemplaar is geconverteerd naar een &lt;xref:System.Data.IDbDataAdapter&gt;interface.&lt;/xref:System.Data.IDbDataAdapter&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used during an update to update records in the data source for modified rows in the data set.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wordt gebruikt tijdens een update-update-records in de gegevensbron voor gewijzigde rijen in de gegevensset.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt; instance is cast to an &lt;xref:System.ICloneable&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.OleDb.OleDbDataAdapter&gt;exemplaar is geconverteerd naar een &lt;xref:System.ICloneable&gt;interface.&lt;/xref:System.ICloneable&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.Object&gt; that is a copy of this instance.</source>
+          <target state="translated">Een nieuwe &lt;xref:System.Object&gt;die een kopie van dit exemplaar.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Gets or sets an SQL statement or stored procedure used to update records in the data source.</source>
+          <target state="translated">Opgehaald of ingesteld van een SQL-instructie of opgeslagen procedure gebruikt voor het bijwerken van de records in de gegevensbron.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;, if this property is not set and primary key information is present in the &lt;xref:System.Data.DataSet&gt;, the UpdateCommand can be generated automatically if you set the &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; property and use the &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.</source>
+          <target state="translated">Tijdens &lt;xref:System.Data.Common.DbDataAdapter.Update%2A&gt;, als deze eigenschap niet is ingesteld en gegevens van primaire sleutel aanwezig in het &lt;xref:System.Data.DataSet&gt;UpdateCommand kan worden gegenereerd, automatisch als u de &lt;xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt;eigenschap en gebruik de &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.&lt;/xref:System.Data.OleDb.OleDbCommandBuilder&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter.SelectCommand%2A&gt; instellen is&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.Common.DbDataAdapter.Update%2A&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then, any additional commands that you do not set are generated by the &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.</source>
+          <target state="translated">Vervolgens worden alle extra opdrachten die u instelt gegenereerd door de &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;.&lt;/xref:System.Data.OleDb.OleDbCommandBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This generation logic requires key column information to be present in the &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">Deze logica generatie vereist sleutelkolomgegevens moeten zich in de &lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Generating Commands with CommandBuilders<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>opdrachten genereren met CommandBuilders<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When UpdateCommand is assigned to a previously created &lt;xref:System.Data.OleDb.OleDbCommand&gt;, the &lt;xref:System.Data.OleDb.OleDbCommand&gt; is not cloned.</source>
+          <target state="translated">Wanneer de UpdateCommand wordt toegewezen aan een eerder gemaakte &lt;xref:System.Data.OleDb.OleDbCommand&gt;, wordt de &lt;xref:System.Data.OleDb.OleDbCommand&gt;niet is gekloond.&lt;/xref:System.Data.OleDb.OleDbCommand&gt; &lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UpdateCommand maintains a reference to the previously created &lt;xref:System.Data.OleDb.OleDbCommand&gt; object.</source>
+          <target state="translated">De UpdateCommand onderhoudt een verwijzing naar het eerder gemaakte &lt;xref:System.Data.OleDb.OleDbCommand&gt;object.&lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If execution of this command returns rows, these rows may be merged with the &lt;xref:System.Data.DataSet&gt; depending on how you set the &lt;xref:System.Data.OleDb.OleDbCommand.UpdatedRowSource%2A&gt; property of the &lt;xref:System.Data.OleDb.OleDbCommand&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als de uitvoering van deze opdracht rijen retourneert, deze rijen kunnen worden samengevoegd met de &lt;xref:System.Data.DataSet&gt;, afhankelijk van hoe u stelt de &lt;xref:System.Data.OleDb.OleDbCommand.UpdatedRowSource%2A&gt;eigenschap van de &lt;xref:System.Data.OleDb.OleDbCommand&gt;object.&lt;/xref:System.Data.OleDb.OleDbCommand&gt; &lt;/xref:System.Data.OleDb.OleDbCommand.UpdatedRowSource%2A&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used during &lt;xref:System.Data.Common.DbDataAdapter.Update*&gt; to update records in the data source that correspond to modified rows in the <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebruikt tijdens &lt;xref:System.Data.Common.DbDataAdapter.Update*&gt;gewijzigd om bij te werken records in de gegevensbron die overeenkomen met rijen in de <bpt id="p2">&lt;xref href="System.Data.DataSet"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.Common.DbDataAdapter.Update*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
