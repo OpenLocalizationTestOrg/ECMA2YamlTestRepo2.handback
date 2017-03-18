@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2cdb41f8e8a7eec77ef040478f81ea6fc02f64b5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Linq.DataLoadOptions.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0144f987147039031cc2b0f33b98cff6768fcd30</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48066f9c720b67ea98b118a637283129e4350531</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides for immediate loading and filtering of related data.</source>
+          <target state="translated">Biedt om direct te laden en gerelateerde gegevens filteren.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">##</ph> General    When you query for an object, you actually retrieve only the object you requested.</source>
+          <target state="translated"><ph id="ph1">##</ph>Algemene wanneer u een query voor een object, u alleen het opgevraagde object op te halen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">*</bpt>related<ept id="p1">*</ept> objects are not automatically fetched at the same time.</source>
+          <target state="translated">De <bpt id="p1">*</bpt>gerelateerde<ept id="p1">*</ept> objecten worden niet automatisch is opgehaald op hetzelfde moment.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(For more information, see <bpt id="p1">[</bpt>Querying Across Relationships<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.)       The DataLoadOptions class provides two methods to achieve immediate loading of specified related data.</source>
+          <target state="translated">(Zie voor meer informatie <bpt id="p1">[</bpt>opvragen via relaties<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.)       De klasse DataLoadOptions biedt twee methoden voor het bereiken van direct bij het laden van de opgegeven gerelateerde gegevens.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; method allows for immediate loading of data related to the main target.</source>
+          <target state="translated">De &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;methode kunt u direct laden van gegevens met betrekking tot het belangrijkste doel.&lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Linq.DataLoadOptions.AssociateWith%2A&gt; method allows for filtering related objects.</source>
+          <target state="translated">De &lt;xref:System.Data.Linq.DataLoadOptions.AssociateWith%2A&gt;methode voor het filteren van verwante objecten kunt.&lt;/xref:System.Data.Linq.DataLoadOptions.AssociateWith%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rules    Note the following rules regarding DataLoadOptions usage:      -   Assigning a DataLoadOptions to a &lt;xref:System.Data.Linq.DataContext&gt; after the first query has been executed generates an exception.</source>
+          <target state="translated">Regels Let op de volgende regels met betrekking tot DataLoadOptions gebruik:-het toewijzen van een DataLoadOptions naar een &lt;xref:System.Data.Linq.DataContext&gt;nadat de eerste query is uitgevoerd, genereert een uitzondering.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Modifying a DataLoadOptions after it has been assigned to a &lt;xref:System.Data.Linq.DataContext&gt; generates an exception      ## Cycle Handling    &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; and &lt;xref:System.Data.Linq.DataLoadOptions.AssociateWith%2A&gt; directives must not create cycles.</source>
+          <target state="translated">-Een DataLoadOptions wijzigen nadat deze is toegewezen aan een &lt;xref:System.Data.Linq.DataContext&gt;genereert een uitzondering ## cyclus verwerken &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;en &lt;xref:System.Data.Linq.DataLoadOptions.AssociateWith%2A&gt;richtlijnen moeten cycli niet maken.&lt;/xref:System.Data.Linq.DataLoadOptions.AssociateWith%2A&gt; &lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; &lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following represent examples of such graphs:      -   Example 1: Self recursive          -   <ph id="ph1">`dlo.LoadWith&lt;Employee&gt;(e =&gt; e.Reports);`</ph>      -   Example 2: Back-pointers          -   <ph id="ph2">`dlo.LoadWith &lt;Customer&gt;(c =&gt; C.Orders);`</ph><ph id="ph3">          -   </ph><ph id="ph4">`dlo.LoadWith &lt;Order&gt;(o =&gt; o.Customer);`</ph>      -   Example 3: Longer cycles           Although this should not occur in a well-normalized model, it is possible.</source>
+          <target state="translated">De volgende voorbeelden van dergelijke grafieken vertegenwoordigen:-voorbeeld 1: Self recursieve - <ph id="ph1">`dlo.LoadWith&lt;Employee&gt;(e =&gt; e.Reports);`</ph> -voorbeeld 2: Back-aanwijzers - <ph id="ph2">`dlo.LoadWith &lt;Customer&gt;(c =&gt; C.Orders);`</ph> <ph id="ph3">          -   </ph> <ph id="ph4">`dlo.LoadWith &lt;Order&gt;(o =&gt; o.Customer);`</ph> -voorbeeld 3: langer cycli Hoewel dit niet in een goed genormaliseerde model gebeurt, is het mogelijk.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <ph id="ph1">`dlo.LoadWith &lt;A&gt;(a =&gt; a.Bs);`</ph><ph id="ph2">          -   </ph><ph id="ph3">`dlo.LoadWith &lt;B&gt;(b =&gt; b.Cs);`</ph><ph id="ph4">          -   </ph><ph id="ph5">`dlo.LoadWith &lt;C&gt;(c =&gt; c.As);`</ph>      -   Example 4: Self recursive subQueries          -   <ph id="ph6">`dlo.AssociateWith&lt;A&gt;(a=&gt;a.As.Where(a=&gt;a.Id=33));`</ph>      -   Example 5: Longer recursive subqueries          -   <ph id="ph7">`dlo.AssociateWith&lt;A&gt;(a=&gt;a.Bs.Where(b=&gt;b.Id==3));`</ph><ph id="ph8">          -   </ph><ph id="ph9">`dlo.AssociateWith&lt;B&gt;(b=&gt;b.As.Where(a=&gt;a.Id==3));`</ph>       The following are some general rules that help you understand what occurs in these scenarios.</source>
+          <target state="translated">- <ph id="ph1">`dlo.LoadWith &lt;A&gt;(a =&gt; a.Bs);`</ph> <ph id="ph2">          -   </ph> <ph id="ph3">`dlo.LoadWith &lt;B&gt;(b =&gt; b.Cs);`</ph> <ph id="ph4">          -   </ph> <ph id="ph5">`dlo.LoadWith &lt;C&gt;(c =&gt; c.As);`</ph> -Voorbeeld 4: Self recursieve subquery's - <ph id="ph6">`dlo.AssociateWith&lt;A&gt;(a=&gt;a.As.Where(a=&gt;a.Id=33));`</ph> -voorbeeld 5: langer recursieve subquery's - <ph id="ph7">`dlo.AssociateWith&lt;A&gt;(a=&gt;a.Bs.Where(b=&gt;b.Id==3));`</ph> <ph id="ph8">          -   </ph> <ph id="ph9">`dlo.AssociateWith&lt;B&gt;(b=&gt;b.As.Where(a=&gt;a.Id==3));`</ph> hieronder vindt u enkele algemene regels die u helpen begrijpen wat er gebeurt in deze scenario's.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>LoadWith<ept id="p1">**</ept> Each call to &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; checks whether cycles have been introduced into the graph.</source>
+          <target state="translated"><bpt id="p1">**</bpt>LoadWith<ept id="p1">**</ept> elke aanroep van &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;controleert of cycli zijn geïntroduceerd in de grafiek.&lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are, as in Examples 1, 2, and 3, an exception is thrown.</source>
+          <target state="translated">Als er, zoals in de voorbeelden 1, 2 en 3 een uitzondering is opgetreden.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>AssociateWith<ept id="p1">**</ept> The engine at run time does not apply the existing SubQuery clauses to the relationship inside the expression.</source>
+          <target state="translated"><bpt id="p1">**</bpt>AssociateWith<ept id="p1">**</ept> de motor tijdens de uitvoering niet de bestaande SubQuery kunnen van toepassing op de relatie in de expressie.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   In Example 4, the <ph id="ph1">`Where`</ph> clause is executed against all <ph id="ph2">`A`</ph>, not just the ones sub-filtered by the SubQuery expression itself (because that would be recursive)      -   In Example 5, the first <ph id="ph3">`Where`</ph> clause is applied to all the <ph id="ph4">`B`</ph>s, even though there are subqueries on <ph id="ph5">`B`</ph>.</source>
+          <target state="translated">-In voorbeeld 4, de <ph id="ph1">`Where`</ph> component wordt uitgevoerd tegen alle <ph id="ph2">`A`</ph>, niet alleen de resources subplan gefilterd door de SubQuery expressie zelf (omdat die recursieve) - In voorbeeld 5, de eerste <ph id="ph3">`Where`</ph> component wordt toegepast op alle de <ph id="ph4">`B`</ph>s, zelfs als er subquery's zijn op <ph id="ph5">`B`</ph>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The second <ph id="ph1">`Where`</ph> clause is applied to all the <ph id="ph2">`A`</ph>s even though there are subqueries on <ph id="ph3">`A`</ph>.</source>
+          <target state="translated">De tweede <ph id="ph1">`Where`</ph> component wordt toegepast op alle de <ph id="ph2">`A`</ph>subquery's s, zelfs als er op <ph id="ph3">`A`</ph>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataLoadOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.Linq.DataLoadOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Filters the objects retrieved for a particular relationship.</source>
+          <target state="translated">Filtert de objecten die zijn opgehaald voor een bepaalde relatie.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the following example, the inner loop iterates only over those <ph id="ph1">`Orders`</ph> that have not been shipped today.</source>
+          <target state="translated">In het volgende voorbeeld wordt de binnenste lus doorloopt alleen via de <ph id="ph1">`Orders`</ph> die niet nu zijn verzonden.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Identifies the query to be used on a particular one-to-many field or property.</source>
+          <target state="translated">De query moet worden gebruikt op een bepaald een-op-veel-veld of eigenschap identificeert.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Note the following:       If the expression does not start with a field or property that represents a one-to-many relationship, an exception is thrown.</source>
+          <target state="translated">Let op het volgende: als de expressie niet met een veld of eigenschap die een een-op-veel-relatie vertegenwoordigt begint, wordt een uitzondering gegenereerd.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If an operator other than a valid operator appears in the expression, an exception is thrown.</source>
+          <target state="translated">Als een operator dan een geldige operator wordt weergegeven in de expressie, wordt een uitzondering opgetreden.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Valid operators are as follows:       Where       OrderBy       ThenBy       OrderByDescending       ThenByDescending       Take</source>
+          <target state="translated">Geldige operatoren zijn als volgt: waarin OrderBy ThenBy OrderByDescending ThenByDescending uitvoeren</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Retrieves specified data related to the main target by using a lambda expression.</source>
+          <target state="translated">Haalt gegevens met betrekking tot het belangrijkste doel met behulp van een lambda-expressie opgegeven.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the following example, all the <ph id="ph1">`Orders`</ph> for all the <ph id="ph2">`Customers`</ph> who are located in London are retrieved when the query is executed.</source>
+          <target state="translated">In het volgende voorbeeld alle de <ph id="ph1">`Orders`</ph> voor alle de <ph id="ph2">`Customers`</ph> die zich bevinden in Londen worden opgehaald wanneer de query wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a result, successive access to the <ph id="ph1">`Orders`</ph> property on a <ph id="ph2">`Customer`</ph> object does not trigger a new database query.</source>
+          <target state="translated">Als gevolg hiervan, opeenvolgende toegang tot de <ph id="ph1">`Orders`</ph> -eigenschap op een <ph id="ph2">`Customer`</ph> object niet automatisch een nieuwe databasequery.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A lambda expression that identifies the related material.</source>
+          <target state="translated">Een lambda-expressie die het gerelateerde materiaal identificeert.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
