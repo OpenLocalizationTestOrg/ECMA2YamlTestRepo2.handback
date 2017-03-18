@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">88ca00b5db35cee261c59e92176dad4bc51de421</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.DurableInstancing.InstanceStore.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">144880670beb80dbad8d62fc18d00aa9afb6e727</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d99f3187ffcf6621b226e438a5ef8b06e1385860</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an instance store.</source>
+          <target state="translated">인스턴스 저장소를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A persistence provider provides access to an instance store through a concrete implementation of the InstanceStore class.</source>
+          <target state="translated">지 속성 공급자는 InstanceStore 클래스의 구체적인 구현을 통해 인스턴스 저장소에 대 한 액세스를 제공합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Persistence providers may call InstanceHandle.Free on handles passed to TryCommand, even after the command has finished executing.</source>
+          <target state="translated">지 속성 공급자는 명령 실행을 마친 후에 TryCommand에 전달 된 핸들에서 InstanceHandle.Free를 호출할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>But persistence providers must not hold strong references to InstanceHandle or InstanceOwner objects, as this can prevent InstanceStore from being garbage collected.</source>
+          <target state="translated">하지만 이렇게 하면 InstanceStore 가비지 수집 되지 않도록 방지할 수 대로 지 속성 공급자를 강력한 가져야 합니다. InstanceHandle 또는 InstanceOwner 개체를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  Workflow definitions for persisted workflows cannot be changed.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt; 지속형된 워크플로에 대 한 워크플로 정의 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a workflow definition is changed after it is persisted, the workflow runtime will crash when the workflow is reloaded.</source>
+          <target state="translated">워크플로 정의 유지 된 후 변경 되 면 워크플로 런타임은 워크플로가 다시 로드할 때 작동이 중단 됩니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes an instance of the <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Asynchronously executes persistence commands such as <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.LoadWorkflowCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Activities.DurableInstancing.SaveWorkflowCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">등을 지 속성 명령을 비동기적으로 실행 <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.LoadWorkflowCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 및 <bpt id="p2">&lt;xref href="System.Activities.DurableInstancing.SaveWorkflowCommand"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A host calls the BeginExecute method to execute a persistence command against an instance handle asynchronously.</source>
+          <target state="translated">호스트는 인스턴스 핸들에 대해 지 속성 명령을 비동기적으로 실행 하는 BeginExecute 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host obtains the instance handle by invoking the &lt;xref:System.Runtime.DurableInstancing.InstanceStore.CreateInstanceHandle%2A&gt; method.</source>
+          <target state="translated">호스트를 호출 하 여 인스턴스 핸들을 가져옵니다는 &lt;xref:System.Runtime.DurableInstancing.InstanceStore.CreateInstanceHandle%2A&gt;메서드.&lt;/xref:System.Runtime.DurableInstancing.InstanceStore.CreateInstanceHandle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance handle may be bound to entities that represent the context and subject of the command, such as an instance, instance owner, or instance lock.</source>
+          <target state="translated">인스턴스 핸들이 인스턴스, 인스턴스 소유자 또는 인스턴스 잠금과 같은 명령 주체 및 컨텍스트를 나타내는 엔터티에 바인딩할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one command may be issued against an instance handle at a time.</source>
+          <target state="translated">하나의 명령이 한 번에 인스턴스 핸들에 대해 실행 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An instance handle.</source>
+          <target state="translated">인스턴스 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The command to be executed.</source>
+          <target state="translated">실행할 명령입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The timeout value for the command execution.</source>
+          <target state="translated">명령 실행에 대 한 제한 시간 값입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives notification of the completion of the asynchronous operation.</source>
+          <target state="translated">비동기 작업의 완료에 대 한 알림을 수신 하는 비동기 콜백 대리자입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The state information.</source>
+          <target state="translated">상태 정보입니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The state of the asynchronous operation.</source>
+          <target state="translated">비동기 작업의 상태입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A persistence provider implements this method, which determines whether a particular persistence command can be executed.</source>
+          <target state="translated">지 속성 공급자는 특정 지 속성 명령을 실행할 수 있는지 여부를 결정 하는이 메서드를 구현 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the command can be executed, executes the command asynchronously.</source>
+          <target state="translated">명령을 실행할 수는 명령을 비동기적으로 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the command can be executed, the persistence provider calls relevant methods on the InstancePersistenceContext to provide the results of the command.</source>
+          <target state="translated">명령, 실행할 수 있으면 지 속성 공급자 명령의 결과 제공 하는 InstancePersistenceContext에서 관련 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  Even though this method is declared as <ph id="ph2">`virtual`</ph> rather than <ph id="ph3">`abstract`</ph>, there is no implementation.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt;으로이 메서드를 선언 하는 경우에 <ph id="ph2">`virtual`</ph> 대신 <ph id="ph3">`abstract`</ph>, 구현은 없습니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method must be overridden in order to provide functionality.</source>
+          <target state="translated">기능을 제공 하기 위해이 메서드를 재정의 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The instance context.</source>
+          <target state="translated">인스턴스 컨텍스트입니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The persistence command to be executed.</source>
+          <target state="translated">실행할 지 속성 명령입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The timeout value for the command execution.</source>
+          <target state="translated">명령 실행에 대 한 제한 시간 값입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives notification of the completion of the asynchronous operation.</source>
+          <target state="translated">비동기 작업의 완료에 대 한 알림을 수신 하는 비동기 콜백 대리자입니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The state information.</source>
+          <target state="translated">상태 정보입니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The state of the asynchronous operation.</source>
+          <target state="translated">비동기 작업의 상태입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to listen for any events raised by the instance store for a specific instance handle.</source>
+          <target state="translated">특정 인스턴스 핸들에 대 한 인스턴스 저장소에서 발생 한 이벤트 수신 대기 하는 비동기 작업을 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An instance handle.</source>
+          <target state="translated">인스턴스 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The period after which the operation times out.</source>
+          <target state="translated">작업 시간이 초과 되는 기간입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The method to be called after the asynchronous operation is complete.</source>
+          <target state="translated">비동기 작업이 완료 된 후 호출 될 메서드.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An object containing the state information associated with the asynchronous operation.</source>
+          <target state="translated">비동기 작업과 연결 된 상태 정보를 포함 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.IAsyncResult&gt; object..</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;개체..&lt;/xref:System.IAsyncResult&gt; 를 반환 함</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Creates an instance handle.</source>
+          <target state="translated">인스턴스 핸들을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The instance handle.</source>
+          <target state="translated">인스턴스 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Creates an instance handle.</source>
+          <target state="translated">인스턴스 핸들을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the DefaultInstanceOwner is set, the value is automatically bound as the new handle’s instance owner.</source>
+          <target state="translated">DefaultInstanceOwner가 설정 값은 자동으로 새 핸들의 인스턴스 소유자로 바인딩됩니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The instance identifier passed as a parameter is automatically bound as the new handle’s instance.</source>
+          <target state="translated">매개 변수로 전달 된 인스턴스 식별자는 자동으로 새 핸들의 인스턴스로 바인딩됩니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>An instance identifier.</source>
+          <target state="translated">인스턴스 식별자입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">Guid.empty가 아니어야 합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The instance handle.</source>
+          <target state="translated">인스턴스 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates an instance handle.</source>
+          <target state="translated">인스턴스 핸들을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If the instance owner passed as a parameter is not null, the value is automatically bound as the new handle’s instance owner.</source>
+          <target state="translated">매개 변수로 전달 된 인스턴스 소유자는 null이 아니면 값은 자동으로 새 핸들의 인스턴스 소유자로 바인딩됩니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>(Otherwise, no instance owner is bound, even if DefaultInstanceOwner is set.)</source>
+          <target state="translated">(그렇지 않은 경우 인스턴스 소유자가 바인딩되지 않습니다 DefaultInstanceOwner가 설정 하는 경우에.)</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The owner of an instance.</source>
+          <target state="translated">인스턴스 소유자입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The instance handle.</source>
+          <target state="translated">인스턴스 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A null value indicates that the new handle should not be automatically bound to an instance owner.</source>
+          <target state="translated">Null 값을 새 핸들 자동으로 바인딩되지 않아야 인스턴스 소유자에 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Creates an instance handle.</source>
+          <target state="translated">인스턴스 핸들을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If the instance owner passed as a parameter is not null, the value is automatically bound as the new handle’s instance owner.</source>
+          <target state="translated">매개 변수로 전달 된 인스턴스 소유자는 null이 아니면 값은 자동으로 새 핸들의 인스턴스 소유자로 바인딩됩니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>(Otherwise, no instance owner is bound, even if DefaultInstanceOwner is set.) The instance identifier passed as a parameter is automatically bound as the new handle’s instance.</source>
+          <target state="translated">(그렇지 않은 경우 인스턴스 소유자가 바인딩되지 않습니다 DefaultInstanceOwner가 설정 하는 경우에.) 매개 변수로 전달 된 인스턴스 식별자는 자동으로 새 핸들의 인스턴스로 바인딩됩니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>An InstanceOwner object  that represents the owner of an instance.</source>
+          <target state="translated">인스턴스 소유자를 나타내는 InstanceOwner 개체입니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Pass null as the value for this parameter to indicate that the new handle should not be automatically bound to an instance owner.</source>
+          <target state="translated">이 매개 변수를 나타내는 새 핸들 자동으로 바인딩되지 않아야 인스턴스 소유자에 대 한 값으로 null을 전달 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An instance identifier.</source>
+          <target state="translated">인스턴스 식별자입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">Guid.empty가 아니어야 합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The instance handle.</source>
+          <target state="translated">인스턴스 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets or sets the default instance owner.</source>
+          <target state="translated">기본 인스턴스 소유자를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some hosts infer the instance owner to use by reading this property.</source>
+          <target state="translated">일부 호스트는이 속성을 읽어 사용할 인스턴스 소유자를 유추 합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WorkflowApplication can use this property.</source>
+          <target state="translated">WorkflowApplication이이 속성을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WorkflowServiceHost does not use this property.</source>
+          <target state="translated">WorkflowServiceHost에서이 속성을 사용 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultInstanceOwner propery must be set to null when it is no longer necessary.</source>
+          <target state="translated">DefaultInstanceOwner 속성은 더 이상 필요한 경우 null로 설정 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>InstanceStore objects might not be garbage collected if DefaultInstanceOwner is not null.</source>
+          <target state="translated">InstanceStore 개체가 가비지 수집 DefaultInstanceOwner null이 아닐 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  Even though this method is declared as <ph id="ph2">`virtual`</ph> rather than <ph id="ph3">`abstract`</ph>, there is no implementation.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt;으로이 메서드를 선언 하는 경우에 <ph id="ph2">`virtual`</ph> 대신 <ph id="ph3">`abstract`</ph>, 구현은 없습니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method must be overridden in order to provide functionality.</source>
+          <target state="translated">기능을 제공 하기 위해이 메서드를 재정의 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The default instance owner.</source>
+          <target state="translated">기본 인스턴스 소유자입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Ends the asynchronous operation.</source>
+          <target state="translated">비동기 작업을 종료 합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If BeginExecute was called under a transaction, this state may include uncommitted data.</source>
+          <target state="translated">트랜잭션에서 BeginExecute가 호출 하는 경우이 상태는 커밋되지 않은 데이터를 포함할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once the transaction is committed successfully, the data in the InstanceView object can be considered committed.</source>
+          <target state="translated">트랜잭션이 성공적으로 커밋되면 InstanceView 개체로 간주할 수의 데이터는 커밋된 합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The result of the operation.</source>
+          <target state="translated">작업의 결과입니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>An InstanceView object  representing the known state of the instance after the successful completion of the command.</source>
+          <target state="translated">명령이 완료 된 후 인스턴스의 알려진된 상태를 나타내는 InstanceView 개체입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Ends an asynchronous operation.</source>
+          <target state="translated">비동기 작업을 끝냅니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The result of the operation.</source>
+          <target state="translated">작업의 결과입니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A persistence provider implementation should return false if it doesn’t support the command passed to the BeginTryCommand method.</source>
+          <target state="translated">지 속성 공급자 구현에서는 BeginTryCommand 메서드에 전달 된 명령을 지원 하지 않을 경우 false를 반환 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Otherwise it should return true or throw an exception.</source>
+          <target state="translated">그렇지 않으면 true를 반환 하거나 예외를 throw 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Ends the asynchronous operation initiated by the &lt;xref:System.Runtime.DurableInstancing.InstanceStore.BeginWaitForEvents*&gt; method.</source>
+          <target state="translated">시작 된 비동기 작업을 종료 하는 &lt;xref:System.Runtime.DurableInstancing.InstanceStore.BeginWaitForEvents*&gt;메서드.&lt;/xref:System.Runtime.DurableInstancing.InstanceStore.BeginWaitForEvents*&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An IAsyncResult object that was handed over to the client by the Begin method.</source>
+          <target state="translated">Begin 메서드에 의해 클라이언트에 전달 된 IAsyncResult 개체.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Returns a list of <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects..</source>
+          <target state="translated">목록을 반환 <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체...</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Executes a persistence command synchronously.</source>
+          <target state="translated">지 속성 명령을 동기적으로 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Examples of persistence commands are: <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.LoadWorkflowCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Activities.DurableInstancing.SaveWorkflowCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">지 속성 명령의 예로: <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.LoadWorkflowCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 및 <bpt id="p2">&lt;xref href="System.Activities.DurableInstancing.SaveWorkflowCommand"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A host calls the Execute method to execute a persistence command against an instance handle, which the host obtains by invoking the &lt;xref:System.Runtime.DurableInstancing.InstanceStore.CreateInstanceHandle%2A&gt; method.</source>
+          <target state="translated">호출 하 여 가져오고 호스트는 인스턴스 핸들에 대해 지 속성 명령을 실행 하려면 Execute 메서드를 호출 하는 호스트는 &lt;xref:System.Runtime.DurableInstancing.InstanceStore.CreateInstanceHandle%2A&gt;메서드.&lt;/xref:System.Runtime.DurableInstancing.InstanceStore.CreateInstanceHandle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance handle may be bound to entities that represent the context and subject of the command, such as an instance, instance owner, or instance lock.</source>
+          <target state="translated">인스턴스 핸들이 인스턴스, 인스턴스 소유자 또는 인스턴스 잠금과 같은 명령 주체 및 컨텍스트를 나타내는 엔터티에 바인딩할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one command may be issued against an instance handle at a time.</source>
+          <target state="translated">하나의 명령이 한 번에 인스턴스 핸들에 대해 실행 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  If this method is executed with a &lt;xref:System.Activities.DurableInstancing.CreateWorkflowOwnerCommand&gt;, it will create an &lt;xref:System.Runtime.DurableInstancing.InstanceOwner&gt; and bind it to the instance.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt;으로이 메서드를 실행 한 &lt;xref:System.Activities.DurableInstancing.CreateWorkflowOwnerCommand&gt;, 만들어집니다는 &lt;xref:System.Runtime.DurableInstancing.InstanceOwner&gt;인스턴스에 바인딩합니다.&lt;/xref:System.Runtime.DurableInstancing.InstanceOwner&gt; &lt;/xref:System.Activities.DurableInstancing.CreateWorkflowOwnerCommand&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that no other process will be able to access that workflow; if the process ends, the workflow cannot be recovered or executed.</source>
+          <target state="translated">다른 프로세스가 해당 워크플로;에 액세스할 수 됩니다. 프로세스가 종료 되 면 워크플로 복구 하거나 실행할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If such a workflow is executed again, a &lt;xref:System.Runtime.DurableInstancing.InstanceLockedException&gt; will be thrown.</source>
+          <target state="translated">워크플로 다시 실행 되는 경우는 &lt;xref:System.Runtime.DurableInstancing.InstanceLockedException&gt;throw 됩니다.&lt;/xref:System.Runtime.DurableInstancing.InstanceLockedException&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  If &lt;xref:System.Activities.DurableInstancing.CreateWorkflowOwnerCommand&gt; is not used, the instance store will create a temporary &lt;xref:System.Runtime.DurableInstancing.InstanceOwner&gt; that will be deleted at the end of the process.</source>
+          <target state="translated">&gt;&gt; If &lt;xref:System.Activities.DurableInstancing.CreateWorkflowOwnerCommand&gt;은 사용 하지 않을 경우 인스턴스 저장소 만들어집니다. 임시 &lt;xref:System.Runtime.DurableInstancing.InstanceOwner&gt;하는 프로세스의 끝에 삭제 됩니다.&lt;/xref:System.Runtime.DurableInstancing.InstanceOwner&gt; &lt;/xref:System.Activities.DurableInstancing.CreateWorkflowOwnerCommand&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the process ends before the workflow’s final persistence point, this exception will be thrown, unless the period of time specified in the <bpt id="p1">**</bpt>HostLockRenewalPeriod<ept id="p1">**</ept> parameter has expired.</source>
+          <target state="translated">그러나 프로세스 워크플로의 마지막 지 속성 지점 앞으로 끝나는 경우이 예외가 throw 됩니다, 시간에 지정 된 경우는 <bpt id="p1">**</bpt>HostLockRenewalPeriod<ept id="p1">**</ept> 매개 변수 만료 되었습니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>An instance handle.</source>
+          <target state="translated">인스턴스 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The command to be executed.</source>
+          <target state="translated">실행할 명령입니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The timeout value for the operation.</source>
+          <target state="translated">작업에 대 한 제한 시간 값입니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An InstanceView object representing the known state of the instance after the successful completion of the command.</source>
+          <target state="translated">명령이 완료 된 후 인스턴스의 알려진된 상태를 나타내는 InstanceView 개체입니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If Execute was called under a transaction, this state may include uncommitted data.</source>
+          <target state="translated">트랜잭션 내에서 Execute를 호출 하는 경우이 상태는 커밋되지 않은 데이터를 포함할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Once the transaction is committed successfully, the data in the InstanceView object can be considered committed</source>
+          <target state="translated">트랜잭션이 성공적으로 커밋되면 InstanceView 개체로 간주할 수의 데이터는 커밋된</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets all the signaled events bound to an <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceOwner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">신호를 받은 이벤트에 바인딩된 모든 가져옵니다는 <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceOwner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceOwner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the owner of an instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceOwner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스의 소유자를 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Returns an array of <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects..</source>
+          <target state="translated">배열을 반환 <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체...</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets each InstanceOwner object that is bound to a valid instance handle or has not been garbage collected.</source>
+          <target state="translated">유효한 인스턴스 핸들에 바인딩되거나 가비지 수집 되지 않았지만 각 InstanceOwner 개체를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Returns an array of InstanceOwner objects.</source>
+          <target state="translated">InstanceOwner 개체 배열을 반환합니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The owner of the instance.</source>
+          <target state="translated">인스턴스 소유자입니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Invoked when an instance handle is freed.</source>
+          <target state="translated">인스턴스 핸들이 해제 될 때 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The instance handle that was freed.</source>
+          <target state="translated">해제 된 인스턴스 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The persistence provider’s user context information that was returned from OnNewInstanceHandle, or null if OnNewInstanceHandle is not overridden.</source>
+          <target state="translated">OnNewInstanceHandle이 재정의 되지 않는 경우 null 또는, OnNewInstanceHandle에서 반환 된 지 속성 공급자의 사용자 컨텍스트 정보입니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Invoked when a new instance handle is created.</source>
+          <target state="translated">새 인스턴스 핸들이 만들어질 때 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>An instance handle.</source>
+          <target state="translated">인스턴스 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>An object.</source>
+          <target state="translated">개체입니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This user context object will be available to the persistence provider when commands are executed using the handle, and when the handle is freed.</source>
+          <target state="translated">이 사용자 컨텍스트 개체 핸들을 사용 하 여 명령이 실행 되 고 핸들이 해제 될 때 지 속성 공급자에 게 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Resets the signaled event and removes the event from the signaled events list maintained by the instance owner.</source>
+          <target state="translated">신호를 받은 이벤트를 다시 설정 하 고 인스턴스 소유자에 의해 관리 되는 신호를 받은 이벤트 목록에서 이벤트를 제거 합니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The persistence event that was signaled earlier and to be reset.</source>
+          <target state="translated">이전 신호를 받은 지 속성 이벤트를 다시 설정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The instance owner associated with the persistence event.</source>
+          <target state="translated">지 속성 이벤트와 연결 된 인스턴스 소유자입니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An instance store invokes this method to signal an event.</source>
+          <target state="translated">인스턴스 저장소에 이벤트를 알리기 위해이 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A workflow host that subscribes for this persistence event receives it and takes an appropriate action.</source>
+          <target state="translated">이 지 속성 이벤트를 구독 하는 워크플로 호스트를 받아 적절 한 작업을 수행 합니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The persistence event to be signaled.</source>
+          <target state="translated">지 속성 이벤트 신호를 보낼 수입니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The instance owner.</source>
+          <target state="translated">인스턴스 소유자입니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A persistence provider implements this method, which determines whether a particular persistence command can be executed and if the command can be executed executes it asynchronously.</source>
+          <target state="translated">지 속성 공급자는 특정 지 속성 명령이 실행 될 수 있는지 여부를 결정 하는 명령을 실행할 수 있으면이 비동기적으로 실행 하는이 메서드를 구현 합니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the command can be executed, the persistence provider calls relevant methods on the &lt;xref:System.Runtime.DurableInstancing.InstancePersistenceContext&gt; to provide the results of the command.</source>
+          <target state="translated">지 속성 공급자에서 관련 메서드를 호출 하는 경우 명령이 실행 될 수는 &lt;xref:System.Runtime.DurableInstancing.InstancePersistenceContext&gt;명령의 결과 제공 합니다.&lt;/xref:System.Runtime.DurableInstancing.InstancePersistenceContext&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The instance context.</source>
+          <target state="translated">인스턴스 컨텍스트입니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The command to be executed.</source>
+          <target state="translated">실행할 명령입니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Timeout value for the operation.</source>
+          <target state="translated">작업에 대 한 제한 시간 값입니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>A persistence provider implementation should return <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if it doesn’t support the command passed as a parameter; otherwise it should return <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or throw an exception.</source>
+          <target state="translated">지 속성 공급자 구현을 반환 해야 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ; 매개 변수로 전달 된 명령을 지원 하지 않을 경우 그렇지 않으면 반환 해야 <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 이거나 예외를 throw 합니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A workflow host typically invokes this method to wait for an event to be signaled.</source>
+          <target state="translated">워크플로 호스트는 일반적으로 이벤트에서 신호를 받을 때까지 대기 하려면이 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The instance handle that is bound to the event.</source>
+          <target state="translated">이벤트에 바인딩된 인스턴스 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The time span after which the waiting operation times out.</source>
+          <target state="translated">대기 작업 시간이 초과 되는 시간 범위입니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A list of <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">목록이 <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

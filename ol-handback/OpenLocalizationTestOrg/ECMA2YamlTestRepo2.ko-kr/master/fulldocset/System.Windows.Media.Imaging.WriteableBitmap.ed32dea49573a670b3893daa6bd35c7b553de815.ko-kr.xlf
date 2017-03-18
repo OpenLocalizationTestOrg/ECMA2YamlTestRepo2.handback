@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">faf57873fca871d80aeb3a278f0713ecc5d950ce</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Imaging.WriteableBitmap.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d708cc89ae10f66aa6f3a3212c8f1133b5c71a0c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb37e1f4058175b86c50fba158227e5ebde5620e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be written to and updated.</source>
+          <target state="translated">제공는 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 있는에 기록 하 고 업데이트할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the WriteableBitmap class to update and render a bitmap on a per-frame basis.</source>
+          <target state="translated">WriteableBitmap 클래스를 사용 하 여 업데이트 하 고 프레임별으로 비트맵을 렌더링 합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is useful for generating algorithmic content, such as a fractal image, and for data visualization, such as a music visualizer.</source>
+          <target state="translated">프랙탈 이미지와 같은 알고리즘 내용 생성에 대 한 데이터 시각화를 음악 시각화 도우미에 유용 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The WriteableBitmap class uses two buffers.</source>
+          <target state="translated">WriteableBitmap 클래스는 두 개의 버퍼를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">*</bpt>back buffer<ept id="p1">*</ept> is allocated in system memory and accumulates content that is not currently displayed.</source>
+          <target state="translated"><bpt id="p1">*</bpt>백 버퍼<ept id="p1">*</ept> 시스템 메모리에 할당 하 고 표시 되지 않는 콘텐츠를 누적 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">*</bpt>front buffer<ept id="p1">*</ept> is allocated in system memory and contains the content that is currently displayed.</source>
+          <target state="translated"><bpt id="p1">*</bpt>프런트 버퍼<ept id="p1">*</ept> 시스템 메모리에 할당 되 고 현재 표시 되는 콘텐츠를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The rendering system copies the front buffer to video memory for display.</source>
+          <target state="translated">렌더링 시스템 표시에 대 한 비디오 메모리에 프런트 버퍼를 복사합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two threads use these buffers.</source>
+          <target state="translated">두 스레드는 이러한 버퍼를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">*</bpt>user interface (UI) thread<ept id="p1">*</ept> generates the UI but does not present it to the screen.</source>
+          <target state="translated"><bpt id="p1">*</bpt>사용자 인터페이스 (UI) 스레드에서<ept id="p1">*</ept> UI를 생성 하지만 화면에 표시 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UI thread responds to user input, timers, and other events.</source>
+          <target state="translated">UI 스레드는 사용자 입력, 타이머, 및 기타 이벤트에 응답합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application can have multiple UI threads.</source>
+          <target state="translated">응용 프로그램이 여러 UI 스레드를 가질 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">*</bpt>render thread<ept id="p1">*</ept> composes and renders changes from the UI thread.</source>
+          <target state="translated"><bpt id="p1">*</bpt>렌더 스레드에<ept id="p1">*</ept> 작성 하 고 UI 스레드에서 변경 내용을 렌더링 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is only one render thread per application.</source>
+          <target state="translated">응용 프로그램당 하나만 렌더링 스레드가 있습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UI thread writes content to the back buffer.</source>
+          <target state="translated">UI 스레드는 백 버퍼에 콘텐츠를 씁니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The render thread reads content from the front buffer and copies it to video memory.</source>
+          <target state="translated">렌더링 스레드에서 프런트 버퍼의 내용을 읽고 비디오 메모리에 복사 합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changes to the back buffer are tracked with changed rectangular regions.</source>
+          <target state="translated">변경 된 사각형 영역 백 버퍼에 대 한 변경 내용은 추적 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call one of the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt; overloads to update and display content in the back buffer automatically.</source>
+          <target state="translated">하나를 호출 하는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;오버 로드를 업데이트 하 고 백 버퍼에 자동으로 콘텐츠를 표시 합니다.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For greater control over updates, and for multi-threaded access to the back buffer, use the following workflow.</source>
+          <target state="translated">업데이트를 보다 효율적으로 제어 하 고 백 버퍼에 대 한 다중 스레드 액세스에 대 한 다음 워크플로 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; method to reserve the back buffer for updates.</source>
+          <target state="translated">호출 된 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;업데이트에 대 한 백 버퍼를 예약 하는 메서드.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Obtain a pointer to the back buffer by accessing the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.BackBuffer%2A&gt; property.</source>
+          <target state="translated">에 액세스 하 여 백 버퍼에 대 한 포인터를 가져오는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.BackBuffer%2A&gt;속성.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.BackBuffer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Write changes to the back buffer.</source>
+          <target state="translated">백 버퍼에 쓰기 변경합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other threads may write changes to the back buffer when the WriteableBitmap is locked.</source>
+          <target state="translated">WriteableBitmap 잠겨 있을 때 다른 스레드에서 백 버퍼에 변경 내용을 쓸 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt; method to indicate areas that have changed.</source>
+          <target state="translated">호출 된 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;메서드 변경 된 영역을 나타냅니다.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; method to release the back buffer and allow presentation to the screen.</source>
+          <target state="translated">호출 된 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;백 버퍼를 해제 하 고 화면에 표시할 수 있게 하기 메서드.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When updates are sent to the rendering thread, the rendering thread copies the changed rectangles from the back buffer to the front buffer.</source>
+          <target state="translated">업데이트 렌더링 스레드에 전송 되 면 렌더링 스레드에서 변경 된 사각형 백 버퍼에서는 전면 버퍼로 복사 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The rendering system controls this exchange to avoid deadlocks and redraw artifacts, such as "tearing".</source>
+          <target state="translated">렌더링 시스템이 교착 상태를 방지 하 고이 exchange를 "실행" 등의 아티팩트를 다시 그리기를 제어 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the given <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스 사용은 주어진 <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.%23ctor%28System.Int32%2CSystem.Int32%2CSystem.Double%2CSystem.Double%2CSystem.Windows.Media.PixelFormat%2CSystem.Windows.Media.Imaging.BitmapPalette%29&gt; constructor is preferred over using this constructor.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.%23ctor%28System.Int32%2CSystem.Int32%2CSystem.Double%2CSystem.Double%2CSystem.Windows.Media.PixelFormat%2CSystem.Windows.Media.Imaging.BitmapPalette%29&gt;생성자가이 생성자를 사용 하는 보다 선호 됩니다.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.%23ctor%28System.Int32%2CSystem.Int32%2CSystem.Double%2CSystem.Double%2CSystem.Windows.Media.PixelFormat%2CSystem.Windows.Media.Imaging.BitmapPalette%29&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`source`</ph> does not use a natively supported bitmap format, format conversions are applied for each frame update, which reduces performance.</source>
+          <target state="translated">경우 <ph id="ph1">`source`</ph> 를 고유 하 게 지원 되는 비트맵 형식으로 형식 변환이 하므로 성능이 저하 각 프레임 업데이트에 적용 되므로 사용 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for initialization.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 초기화에 사용할 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified parameters.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정된 된 매개 변수를 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The preferred values for <ph id="ph1">`pixelFormat`</ph> are &lt;xref:System.Windows.Media.PixelFormats.Bgr32%2A&gt; and &lt;xref:System.Windows.Media.PixelFormats.Pbgra32%2A&gt;.</source>
+          <target state="translated">에 대 한 기본 설정된 값 <ph id="ph1">`pixelFormat`</ph> 및 &lt;xref:System.Windows.Media.PixelFormats.Bgr32%2A&gt; &lt;xref:System.Windows.Media.PixelFormats.Pbgra32%2A&gt;.&lt;/xref:System.Windows.Media.PixelFormats.Pbgra32%2A&gt; &lt;/xref:System.Windows.Media.PixelFormats.Bgr32%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These formats are natively supported and do not require a format conversion.</source>
+          <target state="translated">이러한 형식은 기본적으로 지 원하는 이며 형식 변환이 필요 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other <ph id="ph1">`pixelFormat`</ph> values require a format conversion for each frame update, which reduces performance.</source>
+          <target state="translated">다른 <ph id="ph1">`pixelFormat`</ph> 값 하므로 성능이 저하 각 프레임 업데이트에 대 한 형식 변환이 필요 합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The desired width of the bitmap.</source>
+          <target state="translated">원하는 비트맵의 너비입니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The desired height of the bitmap.</source>
+          <target state="translated">비트맵의 원하는 높이입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The horizontal <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> of the bitmap.</source>
+          <target state="translated">가로 <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> 비트맵의 합니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The vertical <ph id="ph1">[!INCLUDE[TLA#tla_dpi](../Token/TLA%23tla_dpi_md.md)]</ph> of the bitmap.</source>
+          <target state="translated">세로 <ph id="ph1">[!INCLUDE[TLA#tla_dpi](../Token/TLA%23tla_dpi_md.md)]</ph> 비트맵의 합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.PixelFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the bitmap.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.PixelFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 비트맵의 합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapPalette"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the bitmap.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapPalette"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 비트맵의 합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specifies the area of the bitmap that changed.</source>
+          <target state="translated">변경 하는 비트맵의 영역을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the AddDirtyRect method to indicate changes your code has made to the back buffer.</source>
+          <target state="translated">백 버퍼에 호출을 나타내는 AddDirtyRect 메서드 코드를 변경 했습니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call this method multiple times, the changed areas are accumulated in a sufficient, but not necessarily minimal, representation.</source>
+          <target state="translated">이 메서드를 여러 번 호출 하면 변경된 된 영역 충분 하지만 최소한 반드시, 표현에 누적 됩니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For efficiency, only the areas that are marked as dirty are guaranteed to be copied forward to the front buffer.</source>
+          <target state="translated">효율성을 높이기 위해 프런트 버퍼에 복사 될 커밋되지 않은 것으로 표시 된 영역에만 보장 됩니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, any portion of the bitmap may be copied forward, so you must ensure that the entire back buffer is always valid.</source>
+          <target state="translated">그러나 일부 비트맵의 복사 될 수도, 전체 백 버퍼는 항상 유효한 지 확인 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the AddDirtyRect method only between calls to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; methods, as described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks.</source>
+          <target state="translated">에 대 한 호출 사이만 AddDirtyRect 메서드를 호출 하는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;및 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;에 설명 된 대로 메서드는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;클래스 설명.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Int32Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the area that changed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Int32Rect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 변경 된 영역을 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Dimensions are in pixels.</source>
+          <target state="translated">차원은 (픽셀)에서입니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The bitmap has not been locked by a call to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock<ept id="p1">*</ept>&gt; methods.</source>
+          <target state="translated">비트맵에 대 한 호출에 의해 잠기지 않은 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 또는 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; 메서드.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;dirtyRect&lt;/code&gt;</ph> falls outside the bounds of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;dirtyRect&lt;/code&gt;</ph>범위 밖에 놓이게는 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets a pointer to the back buffer.</source>
+          <target state="translated">백 버퍼에 대 한 포인터를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The back buffer contains the bitmap contents in the pixel format requested by the user.</source>
+          <target state="translated">백 버퍼는 사용자가 요청한 픽셀 형식에서 비트맵 콘텐츠를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Update the back buffer only between calls to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; methods.</source>
+          <target state="translated">백 버퍼에 대 한 호출 사이만 업데이트는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;및 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;메서드.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not follow the Lock/Unlock workflow described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks, undefined behaviors, such as tearing, can occur.</source>
+          <target state="translated">에 설명 된 잠금/잠금 해제 워크플로 준수 하지 않는 경우는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;클래스 설명 하는 데 필요한와 같은 정의 되지 않은 동작을 발생할 수 있습니다.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The address of the back buffer does not change.</source>
+          <target state="translated">백 버퍼의 주소를 변경 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thread Safety    You can pass the BackBuffer pointer to external components and other threads for processing, but if you do, you must provide you own thread coordination.</source>
+          <target state="translated">스레드 안전 전달할 수 백 버퍼 포인터 외부 구성 요소 및 처리를 위해 다른 스레드에서 있지만 이렇게 하면 제공 해야 하면 자체의 스레드를 조정 합니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In particular, you must ensure that the UI thread specifies changed areas by calling the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt; method, and that the UI thread unlocks the buffer by calling the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; method.</source>
+          <target state="translated">UI 스레드를 호출 하 여 변경 된 영역을 지정 하는지 확인 해야 특히는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;메서드와 UI 스레드에 호출 하 여 버퍼의 잠금을 해제 하는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;메서드.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; that points to the base address of the back buffer.</source>
+          <target state="translated">&lt;xref:System.IntPtr&gt;백 버퍼의 기본 주소를 가리키는.&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the number of bytes in a single row of pixel data.</source>
+          <target state="translated">픽셀 데이터의 단일 행의 바이트 수를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An integer indicating the number of bytes in a single row of pixel data.</source>
+          <target state="translated">픽셀 데이터의 단일 행의 바이트 수를 나타내는 정수입니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, making deep copies of this object's values.</source>
+          <target state="translated">수정 가능한 복제본을 만듭니다 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>,이 개체 값의 전체 복사본입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>When copying dependency properties, this method copies resource references and data bindings (but they might no longer resolve) but not animations or their current values.</source>
+          <target state="translated">종속성 속성을 복사 하는 경우이 메서드는 리소스 참조와 데이터 바인딩을 복사 (하지만 이러한 요소는 더 이상 확인) 나 하지 않습니다 애니메이션의 현재 값입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects (or any &lt;xref:System.Windows.Freezable&gt; object).</source>
+          <target state="translated">수정 가능한 복사본을 생성 하기 위해이 메서드는 고정 된 &lt;xref:System.Windows.Freezable&gt;개체 (또는 모든 &lt;xref:System.Windows.Freezable&gt;개체).&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For convenience, this method shadows the inherited version with a strongly typed implementation.</source>
+          <target state="translated">편의 위해이 메서드는 강력한 형식의 구현이 포함 된 상속 된 버전을 숨깁니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">자세한 내용은 &lt;xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt; 을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of the current object.</source>
+          <target state="translated">현재 개체의 수정 가능한 복제본입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The cloned object's &lt;xref:System.Windows.Freezable.IsFrozen<bpt id="p1">*</bpt>&gt; property will be <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> even if the source's &lt;xref:System.Windows.Freezable.IsFrozen<ept id="p1">*</ept>&gt; property was <bpt id="p3">&lt;xref uid="langword_csharp_true." name="true." href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept></source>
+          <target state="translated">복제 된 개체의 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 속성은 됩니다 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 경우에 원본의 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; 속성은<bpt id="p3">&lt;xref uid="langword_csharp_true." name="true." href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ByteAnimationUsingKeyFrames"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, making deep copies of this object's current values.</source>
+          <target state="translated">수정 가능한 복제본을 만듭니다 <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ByteAnimationUsingKeyFrames"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체를이 개체의 현재 값의 전체 복사본입니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Resource references, data bindings, and animations are not copied, but their current values are.</source>
+          <target state="translated">리소스 참조, 데이터 바인딩 및 애니메이션은 복사 되지 않지만 이러한 요소의 현재 값은입니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects (or any &lt;xref:System.Windows.Freezable&gt; object).</source>
+          <target state="translated">수정 가능한 복사본을 생성 하기 위해이 메서드는 고정 된 &lt;xref:System.Windows.Freezable&gt;개체 (또는 모든 &lt;xref:System.Windows.Freezable&gt;개체).&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For convenience, this method shadows the inherited version with a strongly typed implementation.</source>
+          <target state="translated">편의 위해이 메서드는 강력한 형식의 구현이 포함 된 상속 된 버전을 숨깁니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">자세한 내용은 &lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt; 을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of the current object.</source>
+          <target state="translated">현재 개체의 수정 가능한 복제본입니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The cloned object's &lt;xref:System.Windows.Freezable.IsFrozen<bpt id="p1">*</bpt>&gt; property will be <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> even if the source's &lt;xref:System.Windows.Freezable.IsFrozen<ept id="p1">*</ept>&gt; property was <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">복제 된 개체의 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 속성은 됩니다 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 경우에 원본의 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; 속성은 <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Reserves the back buffer for updates.</source>
+          <target state="translated">업데이트에 대 한 백 버퍼를 예약합니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Lock method increments the lock count.</source>
+          <target state="translated">Lock 메서드 잠금 수를 증가 시킵니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; is locked, the rendering system does not send updates until the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; is fully unlocked by calls to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; method.</source>
+          <target state="translated">경우는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;은 잠긴 렌더링 시스템 보내지 않습니다 업데이트 될 때까지 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;를 호출 하 여 잠금을 완전히 해제는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;메서드.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the Lock method to support multi-threaded implementations.</source>
+          <target state="translated">다중 스레드 구현을 지원 하기 위해 Lock 메서드를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In these scenarios, the UI thread locks the bitmap and exposes the back buffer to other threads.</source>
+          <target state="translated">이러한 시나리오에서 UI 스레드를 비트맵 잠그고 다른 스레드에 백 버퍼를 노출 합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the worker thread has finished a frame, the UI thread adds changed rectangles and unlocks the buffer.</source>
+          <target state="translated">작업자 스레드 프레임 완료 되 면 UI 스레드에서 변경 된 사각형을 추가 하 고 버퍼의 잠금을 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UI thread can block when the render thread acquires a lock on the back buffer to copy it forward to the front buffer.</source>
+          <target state="translated">UI 스레드 렌더링 스레드에서 앞으로 프런트 버퍼에 복사 하는 백 버퍼에 잠금을 획득 하는 경우 차단할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the latency from this block is too long, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock%2A&gt; method to wait for a short time and then unblock the UI thread to perform other tasks while the back buffer is locked.</source>
+          <target state="translated">사용 하 여이 블록의 대기 시간이 너무 긴 경우는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock%2A&gt;메서드는 짧은 시간 동안 대기 하 고 다음 백 버퍼 잠겨 있는 동안 다른 작업을 수행 하는 UI 스레드를 차단 해제를.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Attempts to lock the bitmap, waiting for no longer than the specified length of time.</source>
+          <target state="translated">비트맵을 잠그려고 시도 시간을 지정된 된 길이 보다 더 이상에 대 한 대기 합니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a lock is acquired, the behavior of the TryLock method is the same as the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; method.</source>
+          <target state="translated">TryLock 메서드는 잠금을 획득할 때와 같습니다는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;메서드.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Duration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the length of time to wait.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Duration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 대기 하는 시간 길이 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A value of 0 returns immediately.</source>
+          <target state="translated">값이 0 즉시 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A value of &lt;xref:System.Windows.Duration.Forever*&gt; blocks indefinitely.</source>
+          <target state="translated">값이 &lt;xref:System.Windows.Duration.Forever*&gt;무기한 차단.&lt;/xref:System.Windows.Duration.Forever*&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the lock was acquired; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>잠금을 획득; 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> is set to <ph id="ph2">&lt;xref:System.Windows.Duration.Automatic*&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>로 설정 된 <ph id="ph2">&lt;xref:System.Windows.Duration.Automatic*&gt;</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Releases the back buffer to make it available for display.</source>
+          <target state="translated">표시를 위해 사용할 수 있도록 백 버퍼를 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Unlock method decrements the lock count.</source>
+          <target state="translated">잠금 횟수를 잠금 해제 메서드 줄입니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the lock count reaches 0, a render pass is requested if the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt; method has been called.</source>
+          <target state="translated">잠금 수가 0에 도달 하는 경우 렌더링 단계 요청 됩니다는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;메서드가 호출 되었습니다.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The bitmap has not been locked by a call to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock<ept id="p1">*</ept>&gt; methods.</source>
+          <target state="translated">비트맵에 대 한 호출에 의해 잠기지 않은 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 또는 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; 메서드.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">비트맵의 지정된 된 지역에 있는 픽셀을 업데이트합니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overloads are preferred over using this method.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;및 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;오버 로드는이 메서드를 사용 하 여 보다 우선 합니다.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In partial trust, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overload.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 부분 신뢰에서 사용 하 여는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;오버 로드.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The rectangle of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to update.</source>
+          <target state="translated">사각형은 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 를 업데이트 합니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The pixel array used to update the bitmap.</source>
+          <target state="translated">비트맵을 업데이트 하는 데 사용 하는 픽셀 배열입니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The stride of the update region in <ph id="ph1">`pixels`</ph>.</source>
+          <target state="translated">업데이트 영역에 stride <ph id="ph1">`pixels`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The input buffer offset.</source>
+          <target state="translated">입력된 버퍼 오프셋입니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">다음 조건 중 하나 이상이 true입니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>범위 밖에 놓이게는 <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">offset</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 0</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">offset</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 0</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph> has a rank other than 1 or 2, or its length is less than or equal to 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph>차수가 1 또는 2, 했거나이 해당 길이 0 보다 작거나 합니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">비트맵의 지정된 된 지역에 있는 픽셀을 업데이트합니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overloads are preferred over using this method.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;및 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;오버 로드는이 메서드를 사용 하 여 보다 우선 합니다.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In partial trust, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overload.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 부분 신뢰에서 사용 하 여는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;오버 로드.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The rectangle of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to update.</source>
+          <target state="translated">사각형은 <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 를 업데이트 합니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The input buffer used to update the bitmap.</source>
+          <target state="translated">비트맵을 업데이트 하는 데 사용 하는 입력된 버퍼.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The size of the input buffer.</source>
+          <target state="translated">입력된 버퍼의 크기입니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The stride of the update region in <ph id="ph1">`buffer`</ph>.</source>
+          <target state="translated">업데이트 영역에 stride <ph id="ph1">`buffer`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">다음 조건 중 하나 이상이 true입니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>범위 밖에 놓이게는 <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">stride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">stride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">비트맵의 지정된 된 지역에 있는 픽셀을 업데이트합니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt; method to update the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; automatically with the contents of <ph id="ph1">`sourceBuffer`</ph>.</source>
+          <target state="translated">호출 된 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;업데이트 하는 메서드는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;의 내용으로 자동으로 <ph id="ph1">`sourceBuffer`</ph>.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method is the equivalent of using the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; workflow described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks.</source>
+          <target state="translated">이 메서드는 호출를 사용 하 여 해당 하는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;및 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;에 설명 된 워크플로 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;클래스 설명.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Use this overload in partial trust.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 부분 신뢰 환경에서이 오버 로드를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The rectangle in <ph id="ph1">`sourceBuffer`</ph> to copy.</source>
+          <target state="translated">에 사각형 <ph id="ph1">`sourceBuffer`</ph> 복사 합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The input buffer used to update the bitmap.</source>
+          <target state="translated">비트맵을 업데이트 하는 데 사용 하는 입력된 버퍼.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The stride of the input buffer, in bytes.</source>
+          <target state="translated">입력된 버퍼의 바이트의 진행 속도입니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The destination x-coordinate of the left-most pixel in the back buffer.</source>
+          <target state="translated">대상의 x 좌표 백 버퍼에서 맨 왼쪽 픽셀이 합니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The destination y-coordinate of the top-most pixel in the back buffer.</source>
+          <target state="translated">대상 y-좌표 백 버퍼에 있는 최상위 픽셀의 합니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">다음 조건 중 하나 이상이 true입니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>범위 밖에 놓이게는 <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">destinationY</ph><ept id="p2">&lt;/code&gt;</ept> is outside the bounds of the <bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept>또는 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">destinationY</ph> <ept id="p2">&lt;/code&gt;</ept> 의 범위를 벗어난는 <bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferStride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferStride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph> has a rank other than 1 or 2, or its length is less than or equal to 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph>차수가 1 또는 2, 했거나이 해당 길이 0 보다 작거나 합니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">비트맵의 지정된 된 지역에 있는 픽셀을 업데이트합니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the WritePixels method to update the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; automatically with the contents of <ph id="ph1">`sourceBuffer`</ph>.</source>
+          <target state="translated">업데이트 하려면 WritePixels 메서드를 호출 하 여 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;의 내용으로 자동으로 <ph id="ph1">`sourceBuffer`</ph>.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method is the equivalent of using the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; workflow described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks.</source>
+          <target state="translated">이 메서드는 호출를 사용 하 여 해당 하는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;및 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;에 설명 된 워크플로 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;클래스 설명.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In partial trust, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overload.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 부분 신뢰에서 사용 하 여는 &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;오버 로드.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The rectangle in <ph id="ph1">`sourceBuffer`</ph> to copy.</source>
+          <target state="translated">에 사각형 <ph id="ph1">`sourceBuffer`</ph> 복사 합니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The input buffer used to update the bitmap.</source>
+          <target state="translated">비트맵을 업데이트 하는 데 사용 하는 입력된 버퍼.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The size of the input buffer.</source>
+          <target state="translated">입력된 버퍼의 크기입니다.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The stride of the input buffer, in bytes.</source>
+          <target state="translated">입력된 버퍼의 바이트의 진행 속도입니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The destination x-coordinate of the left-most pixel in the back buffer.</source>
+          <target state="translated">대상의 x 좌표 백 버퍼에서 맨 왼쪽 픽셀이 합니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The destination y-coordinate of the top-most pixel in the back buffer.</source>
+          <target state="translated">대상 y-좌표 백 버퍼에 있는 최상위 픽셀의 합니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">다음 조건 중 하나 이상이 true입니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>범위 밖에 놓이게는 <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">destinationY</ph><ept id="p2">&lt;/code&gt;</ept> is outside the bounds of the <bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept>또는 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">destinationY</ph> <ept id="p2">&lt;/code&gt;</ept> 의 범위를 벗어난는 <bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">sourceBufferStride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">sourceBufferStride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

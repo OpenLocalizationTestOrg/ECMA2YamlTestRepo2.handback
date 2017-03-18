@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f86253333e53ca3871219758020441b2d701ecce</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.DurableInstancing.InstancePersistenceContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">28da28f7812a2668d1f6a96a95502e17436e3b1b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">990124a075b4e789241961da4beb47ac45bb9a0e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents execution state information while a persistence command is being executed.</source>
+          <target state="translated">Rappresenta le informazioni sullo stato di esecuzione durante l'esecuzione di un comando di persistenza.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance of this class is passed to the TryCommand method of persistence provider implementations.</source>
+          <target state="translated">Un'istanza di questa classe viene passata al metodo TryCommand delle implementazioni di provider di persistenza.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Persistence providers use this class to inspect the in-memory view of the instance as well as indicate the results of operations on the external store which may affect the view or other in-memory context.</source>
+          <target state="translated">I provider di persistenza utilizzano questa classe per controllare la visualizzazione in memoria dell'istanza, nonché indicare i risultati delle operazioni sull'archivio esterno che potrebbero influire sulla visualizzazione o su altro contesto in memoria.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully associated a key to the current instance in the instance store.</source>
+          <target state="translated">Indica che il provider di persistenza ha associato correttamente una chiave per l'istanza corrente nell'archivio di istanze.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The identifier of the key is specified as a parameter.</source>
+          <target state="translated">L'identificatore della chiave viene specificato come parametro.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance key must be unassociated.</source>
+          <target state="translated">La chiave di istanza deve essere non associata.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza, nonché un blocco su quell'istanza.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The instance key identifier  for the key that has been associated.</source>
+          <target state="translated">Identificatore di chiave di istanza per la chiave che è stata associata.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">Non deve essere Empty.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Begin an asynchronous operation to bind an existing lock on an instance to the current instance handle.</source>
+          <target state="translated">Avviare un'operazione asincrona per associare un blocco esistente su un'istanza all'handle dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The version of the existing lock is passed as a parameter.</source>
+          <target state="translated">La versione del blocco esistente viene passata come parametro.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When attempting to acquire a lock, the persistence provider may decide that the current instance is already locked in the current store.</source>
+          <target state="translated">Quando si tenta di acquisire un blocco, il provider di persistenza potrebbe decidere che l'istanza corrente è già bloccata nell'archivio corrente.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the lock token matches the current handle’s lock token, then the persistence provider can attempt to reclaim the lock by inspecting its version and passing it to BeginBindReclaimedLock.</source>
+          <target state="translated">Se il token di blocco corrisponde al token di blocco dell'handle corrente, il provider di persistenza può tentare di recuperare il blocco controllandone la versione e passandolo a BeginBindReclaimedLock.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The persistence provider must not make changes to the instance until the lock is successfully reclaimed.</source>
+          <target state="translated">Il provider di persistenza non deve apportare modifiche all'istanza finché il blocco viene recuperato correttamente.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no other handle is bound to the lock, then the BeginBindReclaimedLock operation succeeds and the current handle becomes bound to the lock.</source>
+          <target state="translated">Se nessun altro handle è associato al blocco, quindi il BeginBindReclaimedLock operazione ha esito positivo e l'handle corrente viene associato al blocco.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, BeginBindReclaimedLock or EndBindReclaimedLock throws InstanceHandleConflictException.</source>
+          <target state="translated">In caso contrario, BeginBindReclaimedLock o EndBindReclaimedLock genera InstanceHandleConflictException.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If commands are in progress on other handles, the operation may not complete while waiting for the outcome of those commands to decide whether the lock can be reclaimed.</source>
+          <target state="translated">Se i comandi sono in corso su altri handle, l'operazione potrebbe non essere completata durante l'attesa per il risultato di tali comandi per decidere se è possibile recuperare il blocco.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance and a lock owner.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza e un proprietario di blocco.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance must not be completed.</source>
+          <target state="translated">L'istanza non deve essere completata.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lock token associated with the lock owner is used to identify the owner of the lock.</source>
+          <target state="translated">Il token di blocco associato al proprietario di blocco viene utilizzato per identificare il proprietario del blocco.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a lock is bound to a handle, it remains bound for the lifetime of the handle.</source>
+          <target state="translated">Una volta che un blocco è associato a un handle, esso rimane associato per la durata dell'handle.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Neither the lock token nor the instance version can be changed.</source>
+          <target state="translated">Il token di blocco né la versione dell'istanza può essere modificata.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The version of the lock held on the instance, or zero if the persistence provider does not implement lock versions.</source>
+          <target state="translated">La versione del blocco mantenuto sull'istanza oppure zero se il provider di persistenza non implementa le versioni di blocco.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The timeout period for the asynchronous operation.</source>
+          <target state="translated">Il periodo di timeout per l'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">Il metodo da chiamare al completamento dell'operazione.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">Le informazioni sullo state associate all'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Lo stato di un'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Begins executing a persistence command asynchronously.</source>
+          <target state="translated">Inizia l'esecuzione di un comando di persistenza in modo asincrono.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A persistence provider can use this method to execute sub-commands as part of a command.</source>
+          <target state="translated">Un provider di persistenza può utilizzare questo metodo per eseguire sottocomandi come parte di un comando.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sub-command will be executed using BeginTryCommand, similar to commands passed to InstanceStore.BeginExecute.</source>
+          <target state="translated">Il sottocomando sarà eseguito utilizzando BeginTryCommand, simile ai comandi passati a BeginExecute.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Commands can be nested, but a command must not execute more than one sub-command at a time.</source>
+          <target state="translated">I comandi possono essere annidati, ma un comando non deve eseguire più di un sottocomando alla volta.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The persistence command to be executed.</source>
+          <target state="translated">Il comando di persistenza da eseguire.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The time-out value for the operation.</source>
+          <target state="translated">Il valore di timeout per l'operazione.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification of the asynchronous receive that a request operation completes.</source>
+          <target state="translated">Delegato che riceve la notifica asincrona di ricezione che viene completata un'operazione di richiesta.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The state information.</source>
+          <target state="translated">Le informazioni sullo stato.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Lo stato di un'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Binds a newly acquired lock on an instance to the current instance handle.</source>
+          <target state="translated">Associa un blocco appena acquisito su un'istanza all'handle dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The version of the acquired lock is passed as a parameter.</source>
+          <target state="translated">La versione del blocco acquisito viene passata come parametro.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a persistence provider implements lock versioning, then each time a lock is acquired on the instance, the version must be incremented by one in the external store.</source>
+          <target state="translated">Se un provider di persistenza implementa il controllo delle versioni di blocco, quindi ogni volta che viene acquisito un blocco sull'istanza, la versione deve essere incrementata di uno nell'archivio esterno.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first time the instance is locked, the version should be 1.</source>
+          <target state="translated">La prima volta che l'istanza è bloccata, la versione deve essere 1.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each lock acquisition invalidates the previous lock.</source>
+          <target state="translated">Ogni acquisizione del blocco invalida il blocco precedente.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance and a lock owner.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza e un proprietario di blocco.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance must not be completed.</source>
+          <target state="translated">L'istanza non deve essere completata.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lock token associated with the lock owner is used to identify the owner of the lock       Once a lock is bound to a handle, it remains bound for the lifetime of the handle.</source>
+          <target state="translated">Il token di blocco associato al proprietario di blocco viene utilizzato per identificare il proprietario del blocco dopo un blocco è associato a un handle, esso rimane associato per la durata dell'handle.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Neither the lock token nor the instance version can be changed.</source>
+          <target state="translated">Il token di blocco né la versione dell'istanza può essere modificata.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Version of the lock acquired on the instance, or zero if the persistence provider does not implement lock versions.</source>
+          <target state="translated">Versione del blocco acquisito sull'istanza oppure zero se il provider di persistenza non implementa le versioni di blocco.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Binds an <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to an instance handle.</source>
+          <target state="translated">Associa un <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per un handle di istanza.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object containing information about the event.</source>
+          <target state="translated">Un <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstancePersistenceEvent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto contenente informazioni sull'evento.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Binds an instance whose identifier is specified as a parameter to the current instance handle.</source>
+          <target state="translated">Associa un'istanza il cui identificatore è specificato come parametro all'handle dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once an instance is bound to a handle, it remains bound for the lifetime of the handle.</source>
+          <target state="translated">Una volta un'istanza è associata a un handle, esso rimane associato per la durata dell'handle.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No other instance can ever be bound to the handle.</source>
+          <target state="translated">Nessun'altra istanza può essere mai associata all'handle.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An instance identifier.</source>
+          <target state="translated">Identificatore dell'istanza.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">Non deve essere Empty.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Binds an instance owner to the current instance handle.</source>
+          <target state="translated">Associa un proprietario di istanza all'handle dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once an instance owner is bound to a handle, it remains bound for the lifetime of the handle.</source>
+          <target state="translated">Una volta associato un proprietario di istanza a un handle, esso rimane associato per la durata dell'handle.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No other instance owner can ever be bound to the handle.</source>
+          <target state="translated">Nessun altro proprietario di istanza può essere sempre associato all'handle.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The identifier for the instance owner.</source>
+          <target state="translated">L'identificatore per il proprietario dell'istanza.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The lock token of the instance owner.</source>
+          <target state="translated">Il token di blocco del proprietario dell'istanza.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A persistence provider may choose to use the same value for the instance owner identifier and the owner’s lock token.</source>
+          <target state="translated">Un provider di persistenza può scegliere di utilizzare lo stesso valore per l'identificatore di proprietario di istanza e il token di blocco del proprietario.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Binds an existing lock on an instance to the current instance handle.</source>
+          <target state="translated">Associa un blocco esistente su un'istanza all'handle dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The version of the existing lock is passed as a parameter.</source>
+          <target state="translated">La versione del blocco esistente viene passata come parametro.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When attempting to acquire a lock, the persistence provider may decide that the current instance is already locked in the current store.</source>
+          <target state="translated">Quando si tenta di acquisire un blocco, il provider di persistenza potrebbe decidere che l'istanza corrente è già bloccata nell'archivio corrente.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the lock token matches the current handle’s lock token, then the persistence provider can attempt to reclaim the lock by inspecting its version and passing it to BindReclaimedLock.</source>
+          <target state="translated">Se il token di blocco corrisponde al token di blocco dell'handle corrente, il provider di persistenza può tentare di recuperare il blocco controllandone la versione e passandolo a BindReclaimedLock.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The persistence provider must not make changes to the instance until the lock is successfully reclaimed.</source>
+          <target state="translated">Il provider di persistenza non deve apportare modifiche all'istanza finché il blocco viene recuperato correttamente.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no other handle is bound to the lock, then BindReclaimedLock succeeds and the current handle becomes bound to the lock.</source>
+          <target state="translated">Se nessun altro handle è associato al blocco, BindReclaimedLock ha esito positivo e l'handle corrente viene associato al blocco.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, BindReclaimedLock throws InstanceHandleConflictException.</source>
+          <target state="translated">In caso contrario, BindReclaimedLock genera InstanceHandleConflictException.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If commands are in progress on other handles, BindReclaimedLock may block waiting for the outcome of those commands before deciding whether the lock can be reclaimed.</source>
+          <target state="translated">Se i comandi sono in corso su altri handle, BindReclaimedLock può bloccare l'attesa per il risultato di tali comandi prima di decidere se è possibile recuperare il blocco.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance and a lock owner.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza e un proprietario di blocco.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance must not be completed.</source>
+          <target state="translated">L'istanza non deve essere completata.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lock token associated with the lock owner is used to identify the owner of the lock.</source>
+          <target state="translated">Il token di blocco associato al proprietario di blocco viene utilizzato per identificare il proprietario del blocco.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a lock is bound to a handle, it remains bound for the lifetime of the handle.</source>
+          <target state="translated">Una volta che un blocco è associato a un handle, esso rimane associato per la durata dell'handle.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Neither the lock token nor the instance version can be changed.</source>
+          <target state="translated">Il token di blocco né la versione dell'istanza può essere modificata.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Version of the lock held on the instance, or zero if the persistence provider does not implement lock versions.</source>
+          <target state="translated">Versione del blocco mantenuto sull'istanza oppure zero se il provider di persistenza non implementa le versioni di blocco.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The time-out value for the operation.</source>
+          <target state="translated">Il valore di timeout per l'operazione.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully marked the current instance as complete in the instance store.</source>
+          <target state="translated">Indica che il provider di persistenza ha contrassegnato correttamente l'istanza corrente come completa nell'archivio di istanze.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza, nonché un blocco su quell'istanza.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance must be initialized and not be already completed.</source>
+          <target state="translated">L'istanza deve essere inizializzato e non è già stata completata.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(An instance is initialized if a set of instance data has ever been persisted to it.) All of the keys associated to the instance must be completed.</source>
+          <target state="translated">(Un'istanza viene inizializzata se un set di dati dell'istanza è mai stata resa persistente a esso). Tutte le chiavi associate all'istanza devono essere eseguite.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully marked a key as complete in the external store.</source>
+          <target state="translated">Indica che il provider di persistenza ha contrassegnato correttamente una chiave come completa nell'archivio esterno.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The identifier of the key is specified as a parameter.</source>
+          <target state="translated">L'identificatore della chiave viene specificato come parametro.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza, nonché un blocco su quell'istanza.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance key must be associated to the current instance and not be already completed.</source>
+          <target state="translated">La chiave di istanza deve essere associata all'istanza corrente e non è già stata completata.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The instance key identifier for the key that has been completed.</source>
+          <target state="translated">Identificatore di chiave di istanza per la chiave che è stata completata.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">Non deve essere Empty.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Creates an instance of an exception which can be thrown from TryCommand to trigger BindReclaimedLock behavior.</source>
+          <target state="translated">Crea un'istanza di un'eccezione che può essere generata da TryCommand per attivare il comportamento di BindReclaimedLock.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sample code:      <ph id="ph1">```      protected override bool TryCommand(InstancePersistenceContext context, InstancePersistenceCommand command, TimeSpan timeout)   {       throw context.CreateBindReclaimedLockException(5);   }   is equivalent to   protected override bool TryCommand(InstancePersistenceContext context, InstancePersistenceCommand command, TimeSpan timeout)   {       context.BindReclaimedLock(5, timeout);       throw new OperationCanceledException();   }      ```</ph></source>
+          <target state="translated">Esempio di codice:<ph id="ph1">```      protected override bool TryCommand(InstancePersistenceContext context, InstancePersistenceCommand command, TimeSpan timeout)   {       throw context.CreateBindReclaimedLockException(5);   }   is equivalent to   protected override bool TryCommand(InstancePersistenceContext context, InstancePersistenceCommand command, TimeSpan timeout)   {       context.BindReclaimedLock(5, timeout);       throw new OperationCanceledException();   }      ```</ph></target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The version of the lock held on the instance, or zero if the persistence provider does not implement lock versions.</source>
+          <target state="translated">La versione del blocco mantenuto sull'istanza oppure zero se il provider di persistenza non implementa le versioni di blocco.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An exception.</source>
+          <target state="translated">Un'eccezione.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Ends the asynchronous operation started by the &lt;xref:System.Runtime.DurableInstancing.InstancePersistenceContext.BeginBindReclaimedLock*&gt; method.</source>
+          <target state="translated">Termina l'operazione asincrona avviata dal &lt;xref:System.Runtime.DurableInstancing.InstancePersistenceContext.BeginBindReclaimedLock*&gt;metodo.&lt;/xref:System.Runtime.DurableInstancing.InstancePersistenceContext.BeginBindReclaimedLock*&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The result of the asynchronous operation.</source>
+          <target state="translated">Il risultato dell'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Ends the asynchronous operation.</source>
+          <target state="translated">Termina l'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Lo stato di un'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Executes a persistence command.</source>
+          <target state="translated">Esegue un comando di persistenza.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A persistence provider can use this method to execute sub-commands as part of a command.</source>
+          <target state="translated">Un provider di persistenza può utilizzare questo metodo per eseguire sottocomandi come parte di un comando.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sub-command will be executed using TryCommand, similar to commands passed to InstanceStore.Execute.</source>
+          <target state="translated">Il sottocomando sarà eseguito utilizzando TryCommand, simile ai comandi passati a instancestore. Execute.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Commands can be nested, but a command must not execute more than one sub-command at a time.</source>
+          <target state="translated">I comandi possono essere annidati, ma un comando non deve eseguire più di un sottocomando alla volta.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The persistence command to be executed.</source>
+          <target state="translated">Il comando di persistenza da eseguire.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The time-out value for the operation.</source>
+          <target state="translated">Il valore di timeout per l'operazione.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Gets the current instance handle.</source>
+          <target state="translated">Ottiene l'handle dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The current instance handle.</source>
+          <target state="translated">Handle dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets the version of the lock held on the current instance by the current instance handle.</source>
+          <target state="translated">Ottiene la versione del blocco mantenuto sull'istanza corrente dall'handle dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The persistence provider should check this value against the lock version of the lock held on an instance in the instance store when performing an operation that requires a lock (such as persisting instance data) using a handle bound to the lock.</source>
+          <target state="translated">Il provider di persistenza deve controllare questo valore rispetto alla versione del blocco mantenuto su un'istanza nell'archivio di istanze quando viene eseguita un'operazione che richiede un blocco (ad esempio, rendere persistenti i dati di istanza) mediante un handle associato al blocco.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the lock version doesn’t match, the command should fail with InstanceLockLostException.</source>
+          <target state="translated">Se la versione del blocco non corrisponde, il comando deve avere esito negativo e genera InstanceLockLostException.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The version of the instance lock bound to the current instance handle, or -1 if the handle isn’t bound to a lock.</source>
+          <target state="translated">La versione del blocco dell'istanza associato all'handle dell'istanza corrente, oppure -1 se l'handle non è associato a un blocco.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets the instance view object that represents the in-memory state of the current instance.</source>
+          <target state="translated">Ottiene l'oggetto visualizzazione dell'istanza che rappresenta lo stato in memoria dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This view reflects updates as they are made by the command in progress.</source>
+          <target state="translated">Questa visualizzazione riflette gli aggiornamenti sono state apportate dal comando in corso.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The instance view object.</source>
+          <target state="translated">L'oggetto visualizzazione dell'istanza.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully retrieved the current instance from the instance store.</source>
+          <target state="translated">Indica che il provider di persistenza ha recuperato correttamente l'istanza corrente dall'archivio di istanze.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the instance handle is bound to a lock or the loaded instance is marked as complete, the loaded data is considered to be consistent; otherwise, it is considered to be in doubt.</source>
+          <target state="translated">Se l'handle dell'istanza viene associato a un blocco o l'istanza caricata è contrassegnata come completa, i dati caricati sono considerati coerenti; in caso contrario, vengono considerati incerti.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">Le informazioni sullo stato di istanza.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The instance data as a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">I dati dell'istanza come dizionario di &lt;xref:System.Xml.Linq.XName&gt;e <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti.&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Instance metadata as a collection of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">I metadati dell'istanza come raccolta di &lt;xref:System.Xml.Linq.XName&gt;e <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti.&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Associated instance key metadata as a dictionary of instance identifier and instance key metadata, which is a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">I metadati di chiave di istanza associati come dizionario di identificatore di istanza e i metadati di chiave di istanza, ovvero un dizionario di &lt;xref:System.Xml.Linq.XName&gt;e <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti.&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Completed instance metadata as a dictionary of instance identifier and instance key metadata, which is a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Metadati dell'istanza completata come dizionario di identificatore di istanza e i metadati di chiave di istanza, ovvero un dizionario di &lt;xref:System.Xml.Linq.XName&gt;e <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti.&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets the lock token of the instance owner bound to the current instance handle.</source>
+          <target state="translated">Ottiene il blocco del proprietario dell'istanza associato all'handle dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The persistence provider should check this value against the lock token of the lock held on an instance in the instance store when performing an operation that requires a lock (such as persisting instance data) using a handle bound to the lock.</source>
+          <target state="translated">Il provider di persistenza deve controllare questo valore rispetto al token del blocco mantenuto su un'istanza nell'archivio di istanze quando viene eseguita un'operazione che richiede un blocco (ad esempio, rendere persistenti i dati di istanza) mediante un handle associato al blocco.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the lock token doesn’t match, the command should fail with InstanceLockLostException.</source>
+          <target state="translated">Se il token di blocco non corrisponde, il comando deve avere esito negativo e genera InstanceLockLostException.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The persistence provider should use this value as the lock token when acquiring a new lock on an instance (such as persisting instance data using a handle not already bound to a lock).</source>
+          <target state="translated">Il provider di persistenza deve utilizzare questo valore come token di blocco durante l'acquisizione di un nuovo blocco su un'istanza (ad esempio, rendere persistenti i dati di istanza tramite un handle non è già associato a un blocco).</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the instance is already locked in the instance store and the lock token matches this lock token, the persistence provider can attempt to reclaim the instance using BindReclaimedLock.</source>
+          <target state="translated">Se l'istanza è già bloccata nell'archivio di istanze e il token di blocco corrisponde a questo token di blocco, il provider di persistenza può tentare di recuperare l'istanza utilizzando BindReclaimedLock.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The lock token bound to the current instance handle, or Guid.Empty if the handle isn’t bound to an instance owner.</source>
+          <target state="translated">Il token di blocco associato all'handle dell'istanza corrente o GUID. Empty se l'handle non è associato a un proprietario di istanza.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully persisted a set of instance data to the instance store.</source>
+          <target state="translated">Indica che il provider di persistenza ha reso correttamente persistente un set di dati dell'istanza nell'archivio di istanze.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This has the effect of initializing the instance if it wasn’t already.</source>
+          <target state="translated">Questo ha l'effetto di inizializzazione dell'istanza, se non è stato già.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza, nonché un blocco su quell'istanza.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each set of instance data completely replaces the previous set.</source>
+          <target state="translated">Ogni set di dati dell'istanza sostituisce completamente il set precedente.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of instance data may be null – this is the same as empty.</source>
+          <target state="translated">Il set di dati di istanza può essere null – questo è lo stesso come vuoti.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Persisting a null set of instance data deletes the existing set of instance data.</source>
+          <target state="translated">Il mantenimento di un set di dati dell'istanza null Elimina il set di dati dell'istanza esistente.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(Persisting a set of instance data has no effect on instance metadata.)</source>
+          <target state="translated">(Rendere persistente un set di dati dell'istanza ha alcun effetto sui metadati dell'istanza).</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Instance data as a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Dati dell'istanza come dizionario di &lt;xref:System.Xml.Linq.XName&gt;e <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti.&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Adds the <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> passed as a parameter to a list of <bpt id="p2">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects in an <bpt id="p3">&lt;xref href="System.Runtime.DurableInstancing.InstanceView"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aggiunge il <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> passato come parametro a un elenco di <bpt id="p2">&lt;xref href="System.Runtime.DurableInstancing.InstanceStoreQueryResult"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gli oggetti in un <bpt id="p3">&lt;xref href="System.Runtime.DurableInstancing.InstanceView"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The results of a query against an instance store.</source>
+          <target state="translated">I risultati di una query su un archivio di istanze.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully read some instance key metadata for a key associated to the current instance from the instance store.</source>
+          <target state="translated">Indica che il provider di persistenza ha letto correttamente alcuni metadati di chiave di istanza per una chiave associata all'istanza corrente dall'archivio di istanze.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the instance handle is bound to a lock or the current instance is marked as complete, the metadata is considered to be consistent; otherwise, it is considered to be in doubt.</source>
+          <target state="translated">Se l'handle dell'istanza viene associato a un blocco o l'istanza corrente è contrassegnata come completa, i metadati sono considerati coerenti; in caso contrario, vengono considerati incerti.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The instance key identifier for the key whose metadata was read.</source>
+          <target state="translated">Identificatore di chiave di istanza per la chiave i cui metadati è stato letto.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">Non deve essere Empty.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The metadata as a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">I metadati come dizionario di &lt;xref:System.Xml.Linq.XName&gt;e <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti.&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the metadata represents all of the metadata associated to the instance key, otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se i metadati rappresentano tutti i metadati associati alla chiave di istanza, in caso contrario <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully read some instance metadata for the current instance from the instance store.</source>
+          <target state="translated">Indica che il provider di persistenza ha letto correttamente alcuni metadati dell'istanza per l'istanza corrente dall'archivio di istanze.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The metadata as a dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">I metadati come dizionario di &lt;xref:System.Xml.Linq.XName&gt;e <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti.&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the metadata represents all of the metadata associated to the instance, otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se i metadati rappresentano tutti i metadati associati all'istanza, in caso contrario <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Sets the instance owner metadata using the data passed in the parameter.</source>
+          <target state="translated">Imposta i metadati del proprietario di istanza utilizzando i dati passati nel parametro.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the instance handle is bound to a lock or the current instance is marked as complete, the metadata is considered to be consistent; otherwise, it is considered to be in doubt.</source>
+          <target state="translated">Se l'handle dell'istanza viene associato a un blocco o l'istanza corrente è contrassegnata come completa, i metadati sono considerati coerenti; in caso contrario, vengono considerati incerti.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The dictionary of &lt;xref:System.Xml.Linq.XName&gt; and <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Il dizionario di &lt;xref:System.Xml.Linq.XName&gt;e <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti.&lt;/xref:System.Xml.Linq.XName&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The value to specify whether the consistency to be set to <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValueConsistency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Runtime.DurableInstancing.InstanceValueConsistency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore per specificare se la coerenza deve essere impostato su <bpt id="p1">&lt;xref href="System.Runtime.DurableInstancing.InstanceValueConsistency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> o <bpt id="p2">&lt;xref href="System.Runtime.DurableInstancing.InstanceValueConsistency"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Sets the cancellation handler to be called when the cancel of an operation is requested.</source>
+          <target state="translated">Imposta il gestore di annullamento da chiamare quando viene richiesto l'annullamento di un'operazione.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the cancellation handler is called, the persistence provider should cancel all pending operations and throw OperationCanceledException from TryCommand to indicate that the persistence command was interrupted before it could be completed.</source>
+          <target state="translated">Se viene chiamato il gestore di annullamento, il provider di persistenza deve annullare tutte le operazioni in sospeso e generare OperationCanceledException da TryCommand per indicare che il comando di persistenza è stata interrotta prima di essere completata.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The reference to a function to be called.</source>
+          <target state="translated">Riferimento a una funzione da chiamare.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully disassociated a key from the current instance in the instance store.</source>
+          <target state="translated">Indica che il provider di persistenza ha dissociato correttamente una chiave dall'istanza corrente nell'archivio di istanze.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The identifier of the key is specified as a parameter.</source>
+          <target state="translated">L'identificatore della chiave viene specificato come parametro.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza, nonché un blocco su quell'istanza.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance key must be associated to the current instance and must be marked complete.</source>
+          <target state="translated">La chiave di istanza deve essere associata all'istanza corrente e deve essere contrassegnato come completata.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance must not be marked complete.</source>
+          <target state="translated">L'istanza corrente non deve essere contrassegnata come completa.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The instance key identifier for the key that has been unassociated.</source>
+          <target state="translated">Identificatore di chiave di istanza per la chiave dissociata.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">Non deve essere Empty.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Gets the user context information attached to the current instance handle.</source>
+          <target state="translated">Ottiene le informazioni sul contesto utente associati all'handle dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The object is the one that is returned from InstanceStore.OnNewInstanceHandle for the current instance handle.</source>
+          <target state="translated">L'oggetto è quello restituito da Onnewinstancehandle per l'handle dell'istanza corrente.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The user context information.</source>
+          <target state="translated">Le informazioni sul contesto utente.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully written a metadata value for an instance key that is associated with the current instance to the instance store</source>
+          <target state="translated">Indica che il provider di persistenza ha scritto correttamente un valore di metadati per una chiave di istanza che viene associato all'istanza corrente nell'archivio di istanze</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance as well as a lock on that instance.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza, nonché un blocco su quell'istanza.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance key must be associated with the current instance and must not be completed.</source>
+          <target state="translated">La chiave di istanza deve essere associata all'istanza corrente e non deve essere completata.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The instance key identifier for the key.</source>
+          <target state="translated">Identificatore di chiave di istanza per la chiave.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Must not be Guid.Empty.</source>
+          <target state="translated">Non deve essere Empty.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The name of the metadata property.</source>
+          <target state="translated">Il nome della proprietà dei metadati.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The value of the metadata property.</source>
+          <target state="translated">Il valore della proprietà dei metadati.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully written a metadata value for the current instance to the external instance store.</source>
+          <target state="translated">Indica che il provider di persistenza ha scritto correttamente un valore di metadati per l'istanza corrente nell'archivio di istanze esterno.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance as well as has a lock on that instance.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un'istanza, nonché dispone di un blocco su quell'istanza.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance must not be completed.</source>
+          <target state="translated">L'istanza non deve essere completata.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The name of the metadata property.</source>
+          <target state="translated">Il nome della proprietà dei metadati.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The value of the metadata property.</source>
+          <target state="translated">Il valore della proprietà dei metadati.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Indicates that the persistence provider has successfully written a metadata value for the current instance owner to the instance store.</source>
+          <target state="translated">Indica che il provider di persistenza ha scritto correttamente un valore di metadati per il proprietario dell'istanza corrente nell'archivio di istanze.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current instance handle must be bound to an instance owner.</source>
+          <target state="translated">Handle dell'istanza corrente deve essere associato a un proprietario di istanza.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The name of the metadata property.</source>
+          <target state="translated">Il nome della proprietà dei metadati.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The value of the metadata property.</source>
+          <target state="translated">Il valore della proprietà dei metadati.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

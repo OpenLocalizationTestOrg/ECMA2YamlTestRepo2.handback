@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b64572575619f7a896684e2196bf4e2b0992954f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Reflection.Emit.DynamicILInfo.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5a5c362050b52a243b66dd52c38cc7f8d60d798</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8886c1867fbf54fb3be60e1ace1708b37380f95d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides support for alternative ways to generate the Microsoft intermediate language (MSIL) and metadata for a dynamic method, including methods for creating tokens and for inserting the code, exception handling, and local variable signature blobs.</source>
+          <target state="translated">Biedt ondersteuning voor alternatieve manieren voor het genereren van de tussenliggende taal (MSIL) van Microsoft en de metagegevens voor een dynamische methode, met inbegrip van methoden voor het maken van tokens en voor het invoegen van de code, de afhandeling van uitzonderingen en de lokale variabele handtekening blobs.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DynamicILInfo class allows developers to write their own MSIL generators instead of using &lt;xref:System.Reflection.Emit.ILGenerator&gt;.</source>
+          <target state="translated">De klasse DynamicILInfo kan ontwikkelaars hun eigen MSIL genereren in plaats van &lt;xref:System.Reflection.Emit.ILGenerator&gt;.&lt;/xref:System.Reflection.Emit.ILGenerator&gt; schrijven</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create instances of other types, call methods, and so on, the MSIL you generate must include tokens for those entities.</source>
+          <target state="translated">Exemplaren van andere typen maken, aanroepen van methoden, enzovoort, moet de MSIL u genereren tokens voor deze entiteiten bevatten.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DynamicILInfo class provides several overloads of the &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt; method, which return tokens valid in the scope of the current DynamicILInfo.</source>
+          <target state="translated">De klasse DynamicILInfo biedt verschillende overloads van de &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt;methode, die tokens in het bereik van de huidige DynamicILInfo geldig retourneren.&lt;/xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you need to call an overload of the &lt;xref:System.Console.WriteLine%2A?displayProperty=fullName&gt; method, you can obtain a &lt;xref:System.RuntimeMethodHandle&gt; for that overload and pass it to the &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt; method to obtain a token to embed in your MSIL.</source>
+          <target state="translated">Bijvoorbeeld, als u nodig hebt om aan te roepen een overbelasting van de &lt;xref:System.Console.WriteLine%2A?displayProperty=fullName&gt;methode, kunt u een &lt;xref:System.RuntimeMethodHandle&gt;voor die van de overbelasting en doorgegeven aan de &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt;methode een token voor het insluiten in uw MSIL te verkrijgen.&lt;/xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt; &lt;/xref:System.RuntimeMethodHandle&gt; &lt;/xref:System.Console.WriteLine%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once you have created &lt;xref:System.Byte&gt; arrays for your local variable signature, exceptions, and code body, you can use the &lt;xref:System.Reflection.Emit.DynamicILInfo.SetCode%2A&gt;, &lt;xref:System.Reflection.Emit.DynamicILInfo.SetExceptions%2A&gt;, and &lt;xref:System.Reflection.Emit.DynamicILInfo.SetLocalSignature%2A&gt; methods to insert them into the &lt;xref:System.Reflection.Emit.DynamicMethod&gt; associated with your DynamicILInfo object.</source>
+          <target state="translated">Nadat u hebt gemaakt &lt;xref:System.Byte&gt;matrices voor uw lokale variabele handtekening, uitzonderingen en code-instantie, kunt u de &lt;xref:System.Reflection.Emit.DynamicILInfo.SetCode%2A&gt;, &lt;xref:System.Reflection.Emit.DynamicILInfo.SetExceptions%2A&gt;, en &lt;xref:System.Reflection.Emit.DynamicILInfo.SetLocalSignature%2A&gt;methoden voegt u deze in de &lt;xref:System.Reflection.Emit.DynamicMethod&gt;die zijn gekoppeld aan uw DynamicILInfo-object.&lt;/xref:System.Reflection.Emit.DynamicMethod&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.SetLocalSignature%2A&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.SetExceptions%2A&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.SetCode%2A&gt; &lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generating your own metadata and MSIL requires familiarity with the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">Uw eigen metagegevens en MSIL genereren, moet bekend bent met de Common Language Infrastructure (CLI)-documentatie, met name ' partitie II: metagegevens definitie en semantiek' en 'Partitie III: CIL instructie instellen'.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">De documentatie is beschikbaar online; Zie <bpt id="p1">[</bpt>ECMA C# en algemene Language Infrastructure standaarden<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> op MSDN en <bpt id="p2">[</bpt>standaard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> op de website van Ecma International.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Do not use DynamicILInfo to generate code that creates a delegate to another dynamic method by calling the delegate constructor directly.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; DynamicILInfo geen gebruiken voor het genereren van code die wordt gemaakt van een gemachtigde van een andere dynamische methode door rechtstreeks aanroepen van de gemachtigdenconstructor.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, use the &lt;xref:System.Reflection.Emit.DynamicMethod.CreateDelegate%2A&gt; method to create the delegate.</source>
+          <target state="translated">Gebruik in plaats daarvan de &lt;xref:System.Reflection.Emit.DynamicMethod.CreateDelegate%2A&gt;methode voor het maken van de gemachtigde.&lt;/xref:System.Reflection.Emit.DynamicMethod.CreateDelegate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A delegate that is created with the delegate constructor does not have a reference to the target dynamic method.</source>
+          <target state="translated">Een gemachtigde dat wordt gemaakt met de gemachtigden-constructor heeft geen een verwijzing naar de doel-dynamische methode.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The dynamic method might be reclaimed by garbage collection while the delegate is still in use.</source>
+          <target state="translated">De dynamische methode kan worden vrijgemaakt door de garbage collector, terwijl de gemachtigde nog in gebruik is.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets the dynamic method whose body is generated by the current instance.</source>
+          <target state="translated">Hiermee haalt u de dynamische methode waarvan instantie wordt gegenereerd door het huidige exemplaar.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object is always associated with a dynamic method.</source>
+          <target state="translated">Een &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;object is altijd gekoppeld aan een dynamische methode.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The purpose of the &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; class is to provide another way of inserting the MSIL stream, exception handling, and local variable signature into a dynamic method, for developers who want to generate MSIL without using the &lt;xref:System.Reflection.Emit.ILGenerator&gt; class.</source>
+          <target state="translated">Het doel van de &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;klasse is het bieden van een andere manier van het invoegen van de stroom MSIL, afhandeling van uitzonderingen en lokale variabele handtekening in een dynamische methode, voor ontwikkelaars die genereren MSIL wilt zonder gebruik van de &lt;xref:System.Reflection.Emit.ILGenerator&gt;klasse.&lt;/xref:System.Reflection.Emit.ILGenerator&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Reflection.Emit.DynamicMethod&gt; object representing the dynamic method for which the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is generating code.</source>
+          <target state="translated">Een &lt;xref:System.Reflection.Emit.DynamicMethod&gt;-object als de dynamische methode waarvoor de huidige <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object genereren van code.&lt;/xref:System.Reflection.Emit.DynamicMethod&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing the signature for the associated dynamic method.</source>
+          <target state="translated">Een token is ongeldig in het bereik van de huidige opgehaald <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, die de handtekening voor de bijbehorende dynamische methode vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on signature blobs, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">Voor informatie over de blobs in handtekening, Zie de documentatie van de Common Language Infrastructure (CLI), met name 'partitie II: metagegevens definitie en semantiek'.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">De documentatie is beschikbaar online; Zie <bpt id="p1">[</bpt>ECMA C# en algemene Language Infrastructure standaarden<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> op MSDN en <bpt id="p2">[</bpt>standaard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> op de website van Ecma International.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An array that contains the signature.</source>
+          <target state="translated">Een matrix met de handtekening.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A token that can be embedded in the metadata and the MSIL stream for the associated dynamic method.</source>
+          <target state="translated">Een token dat kan worden ingesloten in de metagegevens en de MSIL-stroom voor de bijbehorende dynamische methode.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a dynamic method to be called from the associated method.</source>
+          <target state="translated">Een token is ongeldig in het bereik van de huidige opgehaald <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, die een dynamische methode worden aangeroepen vanuit de bijbehorende methode vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The token returned by this method overload allows you to call a dynamic method from the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Het token dat is geretourneerd door deze methode-overload kunt u een dynamische methode aanroepen vanuit de dynamische methode die is gekoppeld aan de huidige &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;object.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To call the associated dynamic method recursively, pass the value of the &lt;xref:System.Reflection.Emit.DynamicILInfo.DynamicMethod%2A&gt; property.</source>
+          <target state="translated">Voor het aanroepen van de bijbehorende dynamische methode recursief, geeft u de waarde van de &lt;xref:System.Reflection.Emit.DynamicILInfo.DynamicMethod%2A&gt;eigenschap.&lt;/xref:System.Reflection.Emit.DynamicILInfo.DynamicMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The dynamic method to call.</source>
+          <target state="translated">De dynamische methode aan te roepen.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A token that can be embedded in the MSIL stream for the associated dynamic method, as the target of an MSIL instruction.</source>
+          <target state="translated">Een token dat kan worden ingesloten in de MSIL-stroom voor de bijbehorende dynamische methode als het doel van een MSIL-instructie.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a field to be accessed from the associated dynamic method.</source>
+          <target state="translated">Een token is ongeldig in het bereik van de huidige opgehaald <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, dat een veld worden geopend vanaf de bijbehorende dynamische methode vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must obtain a token for any field that will be accessed by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Moet u een token voor elk veld dat wordt geopend door de dynamische methode die is gekoppeld aan de huidige &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;object.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.FieldInfo&gt; for the field you want to access, then use the &lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt; property to get the &lt;xref:System.RuntimeFieldHandle&gt;.</source>
+          <target state="translated">Gebruik de &lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt;methode &lt;xref:System.Reflection.FieldInfo&gt;voor het veld dat u openen wilt, gebruikt u de &lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt;eigenschap ophalen van de &lt;xref:System.RuntimeFieldHandle&gt;.&lt;/xref:System.RuntimeFieldHandle&gt; &lt;/xref:System.Reflection.FieldInfo.FieldHandle%2A&gt; &lt;/xref:System.Reflection.FieldInfo&gt; ophalen&lt;/xref:System.Type.GetField%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The field to be accessed.</source>
+          <target state="translated">Het veld worden geopend.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses fields, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een token dat kan worden gebruikt als de operand van een MSIL-instructie die toegang heeft tot de velden in het bereik van de huidige <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a method to be accessed from the associated dynamic method.</source>
+          <target state="translated">Een token is ongeldig in het bereik van de huidige opgehaald <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, die een methode om te worden bereikt vanaf de bijbehorende dynamische methode vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must obtain a token for any method that will be accessed by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Moet u een token voor een methode die wordt geopend door de dynamische methode die is gekoppeld aan de huidige &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;object.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.MethodInfo&gt; for the method you want to access, and then use the &lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt; property to get the &lt;xref:System.RuntimeMethodHandle&gt;.</source>
+          <target state="translated">Gebruik de &lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;methode om op te halen &lt;xref:System.Reflection.MethodInfo&gt;voor de methode die u wilt openen, en vervolgens de &lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt;eigenschap ophalen van de &lt;xref:System.RuntimeMethodHandle&gt;.&lt;/xref:System.RuntimeMethodHandle&gt; &lt;/xref:System.Reflection.MethodBase.MethodHandle%2A&gt; gebruiken&lt;/xref:System.Reflection.MethodInfo&gt; &lt;/xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  For a method that belongs to a generic type, use the &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%28System.RuntimeMethodHandle%2CSystem.RuntimeTypeHandle%29&gt; method overload and specify a &lt;xref:System.RuntimeTypeHandle&gt; for the generic type.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Gebruiken voor een methode die bij een generiek type hoort, de &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%28System.RuntimeMethodHandle%2CSystem.RuntimeTypeHandle%29&gt;methode van de overbelasting en geef een &lt;xref:System.RuntimeTypeHandle&gt;voor het algemene type.&lt;/xref:System.RuntimeTypeHandle&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%28System.RuntimeMethodHandle%2CSystem.RuntimeTypeHandle%29&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The method to be accessed.</source>
+          <target state="translated">De methode die worden geopend.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses methods, such as &lt;xref:System.Reflection.Emit.OpCodes.Call&gt; or &lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een token dat kan worden gebruikt als de operand van een MSIL-instructie die toegang heeft tot methoden, zoals &lt;xref:System.Reflection.Emit.OpCodes.Call&gt;of &lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;, in het bereik van de huidige <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.&lt;/xref:System.Reflection.Emit.OpCodes.Ldtoken&gt; &lt;/xref:System.Reflection.Emit.OpCodes.Call&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a type to be used in the associated dynamic method.</source>
+          <target state="translated">Een token is ongeldig in het bereik van de huidige opgehaald <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, die een type moet worden gebruikt in de bijbehorende dynamische methode.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The token returned by this method overload allows you to define a local variable type, and emit MSIL to create an instance of a type in the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Het token dat is geretourneerd door deze methode-overload kunt u een lokale variabele type definiëren en verzenden van MSIL-exemplaar wilt maken van een type in de dynamische methode die is gekoppeld aan de huidige &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;object.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To get a &lt;xref:System.RuntimeTypeHandle&gt; representing a type, use the &lt;xref:System.Type.TypeHandle%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Ophalen van een &lt;xref:System.RuntimeTypeHandle&gt;die een type, gebruiken de &lt;xref:System.Type.TypeHandle%2A?displayProperty=fullName&gt;eigenschap.&lt;/xref:System.Type.TypeHandle%2A?displayProperty=fullName&gt; &lt;/xref:System.RuntimeTypeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The type to be used.</source>
+          <target state="translated">Het type moet worden gebruikt.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that requires a type, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een token dat kan worden gebruikt als de operand van een MSIL-instructie die is vereist van een type in het bereik van de huidige <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a string literal to be used in the associated dynamic method.</source>
+          <target state="translated">Een token is ongeldig in het bereik van de huidige opgehaald <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, die een tekenreeks die moet worden gebruikt in de bijbehorende dynamische methode letterlijke vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The string to be used.</source>
+          <target state="translated">De tekenreeks die moet worden gebruikt.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that requires a string, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een token dat kan worden gebruikt als de operand van een MSIL-instructie die is vereist een tekenreeks, in het bereik van de huidige <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a field to be accessed from the associated dynamic method; the field is on the specified generic type.</source>
+          <target state="translated">Een token is ongeldig in het bereik van de huidige opgehaald <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, dat een veld worden geopend vanaf de bijbehorende dynamische methode; vertegenwoordigt het veld is op de opgegeven algemeen type.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must obtain a token for any field that will be accessed by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Moet u een token voor elk veld dat wordt geopend door de dynamische methode die is gekoppeld aan de huidige &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;object.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.FieldInfo&gt; for the field you want to access, and then use the &lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt; property to get the &lt;xref:System.RuntimeFieldHandle&gt;.</source>
+          <target state="translated">Gebruik de &lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt;methode &lt;xref:System.Reflection.FieldInfo&gt;voor het veld dat u wilt openen, en gebruik vervolgens de &lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt;eigenschap ophalen van de &lt;xref:System.RuntimeFieldHandle&gt;.&lt;/xref:System.RuntimeFieldHandle&gt; &lt;/xref:System.Reflection.FieldInfo.FieldHandle%2A&gt; &lt;/xref:System.Reflection.FieldInfo&gt; ophalen&lt;/xref:System.Type.GetField%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The field to be accessed.</source>
+          <target state="translated">Het veld worden geopend.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The generic type the field belongs to.</source>
+          <target state="translated">Het algemene type dat het veld hoort.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses fields in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een token dat kan worden gebruikt als de operand van een MSIL-instructie die toegang heeft tot de velden in het bereik van de huidige <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a method on a generic type.</source>
+          <target state="translated">Een token is ongeldig in het bereik van de huidige opgehaald <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, die een methode op een generiek type vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must obtain a token for any method that will be called by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Moet u een token voor een methode die wordt aangeroepen door de dynamische methode die is gekoppeld aan de huidige &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;object.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.MethodInfo&gt; for the method you want to call, and then use the &lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt; property to get the &lt;xref:System.RuntimeMethodHandle&gt;.</source>
+          <target state="translated">Gebruik de &lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;methode om op te halen &lt;xref:System.Reflection.MethodInfo&gt;voor de methode die u wilt aanroepen, en vervolgens de &lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt;eigenschap ophalen van de &lt;xref:System.RuntimeMethodHandle&gt;.&lt;/xref:System.RuntimeMethodHandle&gt; &lt;/xref:System.Reflection.MethodBase.MethodHandle%2A&gt; gebruiken&lt;/xref:System.Reflection.MethodInfo&gt; &lt;/xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The method.</source>
+          <target state="translated">De methode.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The generic type the method belongs to.</source>
+          <target state="translated">Het generieke type van de methode hoort bij.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses methods, such as &lt;xref:System.Reflection.Emit.OpCodes.Call&gt; or &lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een token dat kan worden gebruikt als de operand van een MSIL-instructie die toegang heeft tot methoden, zoals &lt;xref:System.Reflection.Emit.OpCodes.Call&gt;of &lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;, in het bereik van de huidige <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.&lt;/xref:System.Reflection.Emit.OpCodes.Ldtoken&gt; &lt;/xref:System.Reflection.Emit.OpCodes.Call&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Sets the code body of the associated dynamic method.</source>
+          <target state="translated">Hiermee stelt u de hoofdtekst van de code van de bijbehorende dynamische methode.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No validity checks are performed on the MSIL stream.</source>
+          <target state="translated">Er is geen geldigheid controles worden uitgevoerd op de MSIL-stroom.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method a second time replaces the first MSIL stream with the second.</source>
+          <target state="translated">Een tweede keer u deze methode aanroept, wordt de eerste MSIL-stroom vervangen door de tweede.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generating your own metadata and MSIL requires familiarity with the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">Uw eigen metagegevens en MSIL genereren, moet bekend bent met de Common Language Infrastructure (CLI)-documentatie, met name ' partitie II: metagegevens definitie en semantiek' en 'Partitie III: CIL instructie instellen'.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">De documentatie is beschikbaar online; Zie <bpt id="p1">[</bpt>ECMA C# en algemene Language Infrastructure standaarden<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> op MSDN en <bpt id="p2">[</bpt>standaard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> op de website van Ecma International.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An array that contains the MSIL stream.</source>
+          <target state="translated">Een matrix met de MSIL-stroom.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The maximum number of items on the operand stack when the method is executing.</source>
+          <target state="translated">Het maximum aantal items op de stack operand bij het uitvoeren van de methode.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Sets the code body of the associated dynamic method.</source>
+          <target state="translated">Hiermee stelt u de hoofdtekst van de code van de bijbehorende dynamische methode.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No validity checks are performed on the MSIL stream.</source>
+          <target state="translated">Er is geen geldigheid controles worden uitgevoerd op de MSIL-stroom.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method a second time replaces the first MSIL stream with the second.</source>
+          <target state="translated">Een tweede keer u deze methode aanroept, wordt de eerste MSIL-stroom vervangen door de tweede.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generating your own metadata and MSIL requires familiarity with the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set."</source>
+          <target state="translated">Genereren van uw eigen metagegevens en MSIL vereist kennis van de documentatie van de Common Language Infrastructure (CLI), met name 'partitie II: metagegevens definitie en semantiek' en ' partitie III: CIL instructieset. "</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">De documentatie is beschikbaar online; Zie <bpt id="p1">[</bpt>ECMA C# en algemene Language Infrastructure standaarden<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> op MSDN en <bpt id="p2">[</bpt>standaard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> op de website van Ecma International.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A pointer to a byte array containing the MSIL stream.</source>
+          <target state="translated">Een verwijzing naar een bytematrix die de MSIL-stroom bevat.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The number of bytes in the MSIL stream.</source>
+          <target state="translated">Het aantal bytes in de MSIL-stroom.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The maximum number of items on the operand stack when the method is executing.</source>
+          <target state="translated">Het maximum aantal items op de stack operand bij het uitvoeren van de methode.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;code&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph2">&lt;code&gt;codeSize&lt;/code&gt;</ph> is greater than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;code&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en <ph id="ph2">&lt;code&gt;codeSize&lt;/code&gt;</ph> is groter dan 0.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;codeSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;codeSize&lt;/code&gt;</ph>is kleiner dan 0.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Sets the exception metadata for the associated dynamic method.</source>
+          <target state="translated">Hiermee stelt u de metagegevens van de uitzondering voor de bijbehorende dynamische methode.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception metadata for a method defines the location and size of all <ph id="ph1">`try`</ph>, <ph id="ph2">`catch`</ph>, <ph id="ph3">`finally`</ph>, filter, and fault blocks.</source>
+          <target state="translated">De metagegevens van de uitzondering voor een methode definieert de locatie en grootte van alle <ph id="ph1">`try`</ph>, <ph id="ph2">`catch`</ph>, <ph id="ph3">`finally`</ph>, filter en fout-blokken.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on the layout of this metadata, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">Zie voor informatie over de indeling van deze metagegevens, de documentatie van de Common Language Infrastructure (CLI), met name 'partitie II: metagegevens definitie en semantiek'.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">De documentatie is beschikbaar online; Zie <bpt id="p1">[</bpt>ECMA C# en algemene Language Infrastructure standaarden<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> op MSDN en <bpt id="p2">[</bpt>standaard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> op de website van Ecma International.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An array that contains the exception metadata.</source>
+          <target state="translated">Een matrix die de metagegevens van de uitzondering bevat.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Sets the exception metadata for the associated dynamic method.</source>
+          <target state="translated">Hiermee stelt u de metagegevens van de uitzondering voor de bijbehorende dynamische methode.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception metadata for a method defines the location and size of all <ph id="ph1">`try`</ph>, <ph id="ph2">`catch`</ph>, <ph id="ph3">`finally`</ph>, filter, and fault blocks.</source>
+          <target state="translated">De metagegevens van de uitzondering voor een methode definieert de locatie en grootte van alle <ph id="ph1">`try`</ph>, <ph id="ph2">`catch`</ph>, <ph id="ph3">`finally`</ph>, filter en fout-blokken.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on the layout of this metadata, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">Zie voor informatie over de indeling van deze metagegevens, de documentatie van de Common Language Infrastructure (CLI), met name ' partitie II: metagegevens definitie en semantiek' en 'Partitie III: CIL instructie instellen'.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">De documentatie is beschikbaar online; Zie <bpt id="p1">[</bpt>ECMA C# en algemene Language Infrastructure standaarden<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> op MSDN en <bpt id="p2">[</bpt>standaard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> op de website van Ecma International.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A pointer to a byte array containing the exception metadata.</source>
+          <target state="translated">Een verwijzing naar een bytematrix die de metagegevens van de uitzondering bevat.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The number of bytes of exception metadata.</source>
+          <target state="translated">Het aantal bytes van de metagegevens van de uitzondering.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;exceptions&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph2">&lt;code&gt;exceptionSize&lt;/code&gt;</ph> is greater than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;exceptions&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en <ph id="ph2">&lt;code&gt;exceptionSize&lt;/code&gt;</ph> is groter dan 0.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;exceptionSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;exceptionSize&lt;/code&gt;</ph>is kleiner dan 0.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Sets the local variable signature that describes the layout of local variables for the associated dynamic method.</source>
+          <target state="translated">Hiermee stelt u de lokale variabele handtekening die de indeling van de lokale variabelen voor de bijbehorende dynamische methode beschrijft.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The local variable signature describes the layout of a method's local variables.</source>
+          <target state="translated">De lokale variabele handtekening beschrijft de indeling van een methode lokale variabelen.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To simplify construction of the local variable signature, use the <ph id="ph1">`static`</ph> (<ph id="ph2">`Shared`</ph> in Visual Basic) &lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.Emit.SignatureHelper&gt; for the local signature.</source>
+          <target state="translated">Gebruiken om te maken van de lokale variabele handtekening vereenvoudigen, de <ph id="ph1">`static`</ph> (<ph id="ph2">`Shared`</ph> in Visual Basic) &lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;methode voor het ophalen van een &lt;xref:System.Reflection.Emit.SignatureHelper&gt;voor de lokale handtekening.&lt;/xref:System.Reflection.Emit.SignatureHelper&gt; &lt;/xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on local variable signatures, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">Zie de documentatie van de Common Language Infrastructure (CLI), met name 'partitie II: metagegevens definitie en semantiek' voor meer informatie over lokale variabele handtekeningen.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">De documentatie is beschikbaar online; Zie <bpt id="p1">[</bpt>ECMA C# en algemene Language Infrastructure standaarden<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> op MSDN en <bpt id="p2">[</bpt>standaard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> op de website van Ecma International.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>An array that contains the layout of local variables for the associated &lt;xref:System.Reflection.Emit.DynamicMethod&gt;.</source>
+          <target state="translated">Een matrix met de indeling van de lokale variabelen voor de bijbehorende &lt;xref:System.Reflection.Emit.DynamicMethod&gt;.&lt;/xref:System.Reflection.Emit.DynamicMethod&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Sets the local variable signature that describes the layout of local variables for the associated dynamic method.</source>
+          <target state="translated">Hiermee stelt u de lokale variabele handtekening die de indeling van de lokale variabelen voor de bijbehorende dynamische methode beschrijft.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The local variable signature describes the layout of a method's local variables.</source>
+          <target state="translated">De lokale variabele handtekening beschrijft de indeling van een methode lokale variabelen.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To simplify construction of the local variable signature, use the <ph id="ph1">`static`</ph> (<ph id="ph2">`Shared`</ph> in Visual Basic) &lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.Emit.SignatureHelper&gt; for the local signature.</source>
+          <target state="translated">Gebruiken om te maken van de lokale variabele handtekening vereenvoudigen, de <ph id="ph1">`static`</ph> (<ph id="ph2">`Shared`</ph> in Visual Basic) &lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;methode voor het ophalen van een &lt;xref:System.Reflection.Emit.SignatureHelper&gt;voor de lokale handtekening.&lt;/xref:System.Reflection.Emit.SignatureHelper&gt; &lt;/xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on local variable signatures, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">Zie de documentatie van de Common Language Infrastructure (CLI), met name 'partitie II: metagegevens definitie en semantiek' voor meer informatie over lokale variabele handtekeningen.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">De documentatie is beschikbaar online; Zie <bpt id="p1">[</bpt>ECMA C# en algemene Language Infrastructure standaarden<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> op MSDN en <bpt id="p2">[</bpt>standaard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> op de website van Ecma International.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An array that contains the layout of local variables for the associated &lt;xref:System.Reflection.Emit.DynamicMethod&gt;.</source>
+          <target state="translated">Een matrix met de indeling van de lokale variabelen voor de bijbehorende &lt;xref:System.Reflection.Emit.DynamicMethod&gt;.&lt;/xref:System.Reflection.Emit.DynamicMethod&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The number of bytes in the signature.</source>
+          <target state="translated">Het aantal bytes in de handtekening.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;localSignature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph2">&lt;code&gt;signatureSize&lt;/code&gt;</ph> is greater than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;localSignature&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en <ph id="ph2">&lt;code&gt;signatureSize&lt;/code&gt;</ph> is groter dan 0.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;signatureSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;signatureSize&lt;/code&gt;</ph>is kleiner dan 0.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fba5e6929959852d868d0a3334aaf9a93a7acba9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Serialization.ContextStack.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9401efd9a112820cb392ac723e238cb96df3cbc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">51bb5506215bed4ac62bc2e1619a432f3365b1a4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a stack object that can be used by a serializer to make information available to nested serializers.</source>
+          <target state="translated">入れ子になったシリアライザーに情報を使用できるように、シリアライザーで使用できるスタック オブジェクトを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Some serializers require information about the context of an object to correctly persist their state.</source>
+          <target state="translated">シリアライザーによっては、正しくの状態を維持するためのオブジェクトのコンテキストに関する情報を必要とします。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The ContextStack class enables a serializer to set data about the context of an object that is being serialized to a stack where another serializer can access it.</source>
+          <target state="translated">ContextStack クラスは、別のシリアライザーがアクセスできる場所スタックにシリアル化するオブジェクトのコンテキストに関するデータを設定するシリアライザーを使用します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The value of the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt; property is provided by an &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt; to share information of use to some serializers.</source>
+          <target state="translated">値、&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt;によって提供されるプロパティ、&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;のいくつかのシリアライザーを使用して情報を共有します&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A context stack is useful because the process of serializing a design document can be deeply nested, and objects at each level of nesting may require context information to correctly persist the state of the object.</source>
+          <target state="translated">コンテキスト スタック便利なデザイン ドキュメントのシリアル化のプロセスを深く入れ子にすることができます、およびオブジェクトの入れ子の各レベルにはオブジェクトの状態を正しく維持するためのコンテキスト情報が必要です。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A serializer can set a context object to the stack before invoking a nested serializer.</source>
+          <target state="translated">シリアライザーは、入れ子になったシリアライザーを呼び出す前に、スタックにコンテキストのオブジェクトを設定できます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Each object set to the stack should be removed by the serializer that set it after a call to a nested serializer returns.</source>
+          <target state="translated">入れ子になったシリアライザーへの呼び出しが返された後に設定するシリアライザーによってスタックに設定された各オブジェクトを削除してください。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Typically, the objects on the stack contain information about the context of the current object that is being serialized.</source>
+          <target state="translated">通常、スタック上のオブジェクトには、現在のオブジェクトのシリアル化するコンテキストについての情報が含まれて。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A parent serializer adds context information to the stack about the next object to be serialized, calls an appropriate serializer and, when the serializer finishes executing on the object, removes the context information from the stack.</source>
+          <target state="translated">親シリアライザーは、適切なシリアライザーを呼び出しますコンテキスト情報をシリアル化するのには、次のオブジェクトはスタックに追加、および、このシリアライザーは、オブジェクトの実行が完了したら、スタックからコンテキスト情報を削除します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It is up to the implementation of each serializer to determine what objects get pushed on this stack.</source>
+          <target state="translated">このスタックにプッシュされるどのようなオブジェクトを決定するには、各シリアライザーの実装の責任です。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>As an example, an object with a property named <ph id="ph1">`Enabled`</ph> has a data type of &lt;xref:System.Boolean&gt;.</source>
+          <target state="translated">たとえば、プロパティを持つオブジェクトが名前付き<ph id="ph1">`Enabled`</ph> &lt;xref:System.Boolean&gt;.&lt;/xref:System.Boolean&gt;のデータ型を持つ</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If a serializer writes this value to a data stream, it might need to include the context or type of property it is writing.</source>
+          <target state="translated">シリアライザーは、この値をデータ ストリームに書き込み場合、は、コンテキストまたはデータが書き込まれてプロパティの型を含める必要があります。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The serializer does not have this information, however, because it is only instructed to write the &lt;xref:System.Boolean&gt; value.</source>
+          <target state="translated">シリアライザーがこの情報は、ただし、書き込むのみから指示されたため、&lt;xref:System.Boolean&gt;値&lt;/xref:System.Boolean&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To provide this information to the serializer, the parent serializer can push a &lt;xref:System.ComponentModel.PropertyDescriptor&gt; that points to the <ph id="ph1">`Enabled`</ph> property on the context stack.</source>
+          <target state="translated">親のシリアライザーをプッシュできるシリアライザーにこの情報を提供する、&lt;xref:System.ComponentModel.PropertyDescriptor&gt;を指す、<ph id="ph1">`Enabled`</ph>コンテキスト スタックにプロパティ&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ContextStack"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ContextStack"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Appends an object to the end of the stack, rather than pushing it onto the top of the stack.</source>
+          <target state="translated">スタックの一番上にプッシュするのではなく、スタックの末尾にオブジェクトを追加します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This method allows a serializer to communicate with other serializers by adding contextual data objects that do not have to be removed in order.</source>
+          <target state="translated">このメソッドは、他のシリアライザーがない順序で削除するコンテキスト データ オブジェクトを追加することによって通信するためにシリアライザーを使用します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>There is no way to remove an object that was appended to the end of the stack without removing all other objects.</source>
+          <target state="translated">その他のすべてのオブジェクトを削除することがなく、スタックの末尾に追加されたオブジェクトを削除する方法はありません。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A context object to append to the stack.</source>
+          <target state="translated">スタックに追加するコンテキスト オブジェクト。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;context&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;context&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the current object on the stack.</source>
+          <target state="translated">スタック上には、現在のオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The current object is the object at the top of the stack, or the object last added to the stack.</source>
+          <target state="translated">現在のオブジェクトは、スタックの上部にあるオブジェクトまたはスタックに最後に追加されたオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The current object on the stack, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no objects were pushed.</source>
+          <target state="translated">スタック上の現在のオブジェクトまたは<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトにプッシュされていない場合。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the object on the stack at the specified level.</source>
+          <target state="translated">スタック上で、指定されたレベル オブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The level of the object to retrieve on the stack.</source>
+          <target state="translated">スタック上で取得するオブジェクトのレベル。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Level 0 is the top of the stack, level 1 is the next down, and so on.</source>
+          <target state="translated">レベル 0 は、スタックの一番上、レベル 1 次、ダウンします。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This level must be 0 or greater.</source>
+          <target state="translated">このレベルは、0 以上にする必要があります。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If level is greater than the number of levels on the stack, it returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">レベルがかどうか、スタック上のレベル数より大きく、それを返します<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The object on the stack at the specified level, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no object exists at that level.</source>
+          <target state="translated">指定されたレベルでは、スタック上のオブジェクトまたは<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>そのレベルでオブジェクトが存在しない場合。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;level&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;level&lt;/code&gt;</ph>0 未満です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the first object on the stack that inherits from or implements the specified type.</source>
+          <target state="translated">継承されるか、指定された型を実装するスタックの最初のオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A check is made on each level of the stack, searching for an object that implements or inherits <ph id="ph1">`type`</ph>.</source>
+          <target state="translated">実装または継承するオブジェクトを検索、スタックの各レベルのチェックを行う<ph id="ph1">`type`</ph>です。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If a match is found, it is returned.</source>
+          <target state="translated">一致が見つかった場合が返されます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A type to retrieve from the context stack.</source>
+          <target state="translated">コンテキスト スタックから取得する型。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The first object on the stack that inherits from or implements the specified type, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no object on the stack implements the type.</source>
+          <target state="translated">継承されるか、指定された型を実装して、スタックの最初のオブジェクトまたは<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>型を実装するスタック上のオブジェクトがない場合。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Removes the current object off of the stack, returning its value.</source>
+          <target state="translated">その値を返す、スタックから現在のオブジェクトを削除します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The object removed from the stack; <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no objects are on the stack.</source>
+          <target state="translated">スタックから削除されたオブジェクト<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトがない場合、スタックにします。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Pushes, or places, the specified object onto the stack.</source>
+          <target state="translated">プッシュ、またはオブジェクトを配置して、指定したスタックにします。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The context object to push onto the stack.</source>
+          <target state="translated">スタックにプッシュするコンテキスト オブジェクト。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;context&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;context&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

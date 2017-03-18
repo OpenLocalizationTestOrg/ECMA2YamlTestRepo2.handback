@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">277a8fd852714e01a1d80a232ab4875f756d1d0e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.InteropServices.ExtensibleClassFactory.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">26531ad0eccb8e3fc90302f29bfd4d3df12d8954</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4be4e2544388b5ec157d51a66036108484994984</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables customization of managed objects that extend from unmanaged objects during creation.</source>
+          <target state="translated">Hiermee schakelt u aanpassingen van beheerde objecten die tijdens het maken van van niet-beheerde objecten uitbreiden.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`ExtensibleClassFactory`</ph> allows users to specify a <ph id="ph2">`delegate`</ph> that is called during construction of a runtime callable wrapper (RCW) that provides an instance of the underlying COM object.</source>
+          <target state="translated">De <ph id="ph1">`ExtensibleClassFactory`</ph> kunnen gebruikers opgeven een <ph id="ph2">`delegate`</ph> die tijdens het ontwerpen van een runtime callable wrapper (RCW) waarmee een exemplaar van het onderliggende COM-object wordt aangeroepen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In effect, the callback acts as the class factory for the COM object wrapped by the RCW.</source>
+          <target state="translated">In feite fungeert de callback als de classfactory voor het COM-object ingepakt door de RCW.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Without the callback, the common language runtime creates the underlying COM object by calling <ph id="ph1">`CoCreateInstance`</ph>.</source>
+          <target state="translated">De common language runtime wordt zonder de callback het onderliggende COM-object gemaakt door het aanroepen van <ph id="ph1">`CoCreateInstance`</ph>.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This callback provides an alternative way of activating the underlying object, such as with a COM moniker or by providing a singleton object.</source>
+          <target state="translated">Deze retouraanroep biedt een andere manier van het activeren van het onderliggende object, zoals met een COM-moniker of door een singleton-object.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.InteropServices.ExtensibleClassFactory.RegisterObjectCreationCallback%2A&gt; method must be called in the <ph id="ph1">`static`</ph> initializer of the class that is extending the RCW.</source>
+          <target state="translated">De &lt;xref:System.Runtime.InteropServices.ExtensibleClassFactory.RegisterObjectCreationCallback%2A&gt;methode moet worden aangeroepen de <ph id="ph1">`static`</ph> initialisatiefunctie voor objecten van de klasse die uitbreiding van de RCW.&lt;/xref:System.Runtime.InteropServices.ExtensibleClassFactory.RegisterObjectCreationCallback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one object creation callback is permitted per object type.</source>
+          <target state="translated">Retouraanroep voor het maken van slechts één object is per objecttype toegestaan.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the extensible RCW is activated, the callback is registered.</source>
+          <target state="translated">Wanneer de extensible RCW is geactiveerd, wordt de retouraanroep is geregistreerd.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the underlying COM object needs to be created, the callback is called to provide a reference to the object.</source>
+          <target state="translated">Als het onderliggende COM-object worden gemaakt moet, wordt de callback aangeroepen om aan te bieden een verwijzing naar het object.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The callback must return an <ph id="ph1">`IUnknown`</ph> interface pointer for the base object.</source>
+          <target state="translated">De callback moet retourneren een <ph id="ph1">`IUnknown`</ph> interface-aanwijzer voor het basisobject.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Registers a <bpt id="p1">&lt;xref uid="langword_csharp_delegate" name="delegate" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is called when an instance of a managed type, that extends from an unmanaged type, needs to allocate the aggregated unmanaged object.</source>
+          <target state="translated">Registreert een <bpt id="p1">&lt;xref uid="langword_csharp_delegate" name="delegate" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die wordt aangeroepen wanneer een exemplaar van een beheerde type, die van type zonder begeleiding loopt, moet het samengevoegde niet-beheerde object toewijzen.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This <ph id="ph1">`delegate`</ph> allocates and aggregates the unmanaged object and is called in place of <ph id="ph2">`CoCreateInstance`</ph>.</source>
+          <target state="translated">Dit <ph id="ph1">`delegate`</ph> toewijst en het niet-beheerde object samenvoegt en wordt aangeroepen in plaats van <ph id="ph2">`CoCreateInstance`</ph>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This <ph id="ph1">`delegate`</ph> must be registered in the context of the <ph id="ph2">`static`</ph> class initializer for which the callbacks will be made.</source>
+          <target state="translated">Dit <ph id="ph1">`delegate`</ph> moeten worden geregistreerd in de context van de <ph id="ph2">`static`</ph> klasseninitialisatiefunctie waarvoor de callbacks worden aangebracht.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one class in an hierarchy should register a <ph id="ph1">`delegate`</ph> callback.</source>
+          <target state="translated">Slechts één klasse in een hiërarchie moet registreren een <ph id="ph1">`delegate`</ph> retouraanroep.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_delegate" name="delegate" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is called in place of <bpt id="p2">&lt;xref uid="langword_csharp_CoCreateInstance" name="CoCreateInstance" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref uid="langword_csharp_delegate" name="delegate" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die wordt aangeroepen in plaats van <bpt id="p2">&lt;xref uid="langword_csharp_CoCreateInstance" name="CoCreateInstance" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
