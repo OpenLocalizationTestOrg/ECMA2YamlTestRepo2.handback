@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db59589a9649cbb3311644562225a8f1b0e47703</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.PageStatePersister.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f022ff73d71593d83363da0a455543d21b1cd3d1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e03efa1c8c4e1efee68d70f704c0deaaa0733f13</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the base functionality for ASP.NET view state persistence mechanisms.</source>
+          <target state="translated">Inneholder den grunnleggende funksjonaliteten for ASP.NET visningen tilstand utholdenhet mekanismer.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HTTP requests and responses are inherently stateless.</source>
+          <target state="translated">HTTP-forespørsler og svar er arvbart uten status.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To maintain state information between HTTP requests, ASP.NET server pages can store &lt;xref:System.Web.UI.Page&gt; state.</source>
+          <target state="translated">Hvis du vil ha informasjon om mellom HTTP-forespørsler, ASP.NET server pages kan lagre &lt;xref:System.Web.UI.Page&gt;tilstand.&lt;/xref:System.Web.UI.Page&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state, called view state, consists of page and control settings and data that make the page and controls appear as if they are the same ones that the user saw and interacted with on their last round trip to the server.</source>
+          <target state="translated">Denne tilstanden kalles visningsstatus, består av siden og innstillinger og data som gjør siden, og kontroller vises som om de er de samme som som brukeren så og samhandler med på de siste runde til serveren.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Several mechanisms exist to store view state between successive requests to the same page.</source>
+          <target state="translated">Det finnes flere mekanismer for å lagre visningsstatusen mellom etterfølgende forespørsler til samme side.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The abstract PageStatePersister class represents the base class for these state information storage mechanisms.</source>
+          <target state="translated">Den abstrakte klassen PageStatePersister representerer basisklasse for disse tilstand informasjon lagring mekanismer.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default view state persistence mechanism in ASP.NET is to maintain the state information as a Base64-encoded string in a hidden HTML element (an element with the <ph id="ph1">`type`</ph> attribute set to <ph id="ph2">`"hidden"`</ph>) on the page.</source>
+          <target state="translated">Vis status utholdenhet standardmekanismen i ASP.NET er til å lagre tilstandsinformasjon som en Base64-kodet streng i en skjult HTML-element (et element med den <ph id="ph1">`type`</ph> attributtet <ph id="ph2">`"hidden"`</ph>) på siden.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An ASP.NET page uses a &lt;xref:System.Web.UI.HiddenFieldPageStatePersister&gt; object to perform this work, using an &lt;xref:System.Web.UI.IStateFormatter&gt; instance to serialize and deserialize object state information.</source>
+          <target state="translated">En ASP.NET-side bruker en &lt;xref:System.Web.UI.HiddenFieldPageStatePersister&gt;objektet til å utføre dette fungerer, ved hjelp av en &lt;xref:System.Web.UI.IStateFormatter&gt;forekomsten serialisere og deserialisere objektet statusinformasjon.&lt;/xref:System.Web.UI.IStateFormatter&gt; &lt;/xref:System.Web.UI.HiddenFieldPageStatePersister&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternately, you can store the view state for your pages in the &lt;xref:System.Web.HttpContext.Session%2A&gt; object on the server using the &lt;xref:System.Web.UI.SessionPageStatePersister&gt; class for mobile clients with limited bandwidth and resources.</source>
+          <target state="translated">Alternativt kan du lagre visningsstatusen for sidene i den &lt;xref:System.Web.HttpContext.Session%2A&gt;objekt på serveren ved hjelp av &lt;xref:System.Web.UI.SessionPageStatePersister&gt;klasse for mobile klienter med begrenset båndbredde og ressurser.&lt;/xref:System.Web.UI.SessionPageStatePersister&gt; &lt;/xref:System.Web.HttpContext.Session%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In some cases, you might disable view state persistence altogether.</source>
+          <target state="translated">I noen tilfeller kan du deaktivere visningen tilstand utholdenhet helt.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do this, the result is that sometimes pages and controls that rely on state persistence do not behave correctly.</source>
+          <target state="translated">Hvis du gjør dette, vil resultatet er at noen ganger sider og kontroller som avhenger av tilstanden utholdenhet ikke fungerer kanskje riktig.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about page state management and view state, see <bpt id="p1">[</bpt>ASP.NET State Management Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om siden tilstand management og vise status <bpt id="p1">[</bpt>ASP.NET oversikt over tilstand<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are writing controls, you can store state information for the controls in the &lt;xref:System.Web.UI.Control.ViewState%2A&gt; dictionary, which is a &lt;xref:System.Web.UI.StateBag&gt; object.</source>
+          <target state="translated">Hvis du skriver kontroller, kan du lagre tilstandsinformasjon for kontrollene i den &lt;xref:System.Web.UI.Control.ViewState%2A&gt;ordlisten, som er en &lt;xref:System.Web.UI.StateBag&gt;objektet.&lt;/xref:System.Web.UI.StateBag&gt; &lt;/xref:System.Web.UI.Control.ViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A developer would retrieve the control state through the &lt;xref:System.Web.UI.PageStatePersister.ControlState%2A&gt; property.</source>
+          <target state="translated">Utvikler vil hente tilstanden kontrollen via den &lt;xref:System.Web.UI.PageStatePersister.ControlState%2A&gt;egenskapen.&lt;/xref:System.Web.UI.PageStatePersister.ControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You assign keys and values to the &lt;xref:System.Web.UI.Control.ViewState%2A&gt; property, and the &lt;xref:System.Web.UI.Page&gt; object serializes the state information between requests.</source>
+          <target state="translated">Du tilordne nøkler og verdier av &lt;xref:System.Web.UI.Control.ViewState%2A&gt;egenskapen og &lt;xref:System.Web.UI.Page&gt;objektet serializes statusinformasjon mellom forespørsler.&lt;/xref:System.Web.UI.Page&gt; &lt;/xref:System.Web.UI.Control.ViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To perform custom state handling in your control, override the &lt;xref:System.Web.UI.Control.LoadViewState%2A&gt; and &lt;xref:System.Web.UI.Control.SaveViewState%2A&gt; methods.</source>
+          <target state="translated">Hvis du vil utføre egendefinerte tilstand behandler i din besittelse, eller den &lt;xref:System.Web.UI.Control.LoadViewState%2A&gt;og &lt;xref:System.Web.UI.Control.SaveViewState%2A&gt;metoder.&lt;/xref:System.Web.UI.Control.SaveViewState%2A&gt; &lt;/xref:System.Web.UI.Control.LoadViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any state information that is stored in this dictionary is lost when view state is disabled by a page developer.</source>
+          <target state="translated">Tilstandsinformasjon som er lagret i ordlisten går tapt når visningsstatusen er deaktivert av utvikler siden.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To mitigate this, in ASP.NET version 2.0 you can store critical state information in a separate object, called control state.</source>
+          <target state="translated">Du kan redusere, i ASP.NET versjon 2.0, kan du lagre kritiske statusinformasjon i en separat objektet kontrollen tilstand.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The control state object is not affected when view state is disabled by a page developer.</source>
+          <target state="translated">Tilstanden Kontrollobjekt påvirkes ikke når visningsstatusen er deaktivert av utvikler siden.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Storing state information in the control state object requires that the control override the &lt;xref:System.Web.UI.Control.LoadControlState%2A&gt; and &lt;xref:System.Web.UI.Control.SaveControlState%2A&gt; methods and that the control be registered to store state information in control state every time the control is initialized.</source>
+          <target state="translated">Lagrer tilstandsinformasjon i status Kontrollobjekt krever at kontrollen overstyrer den &lt;xref:System.Web.UI.Control.LoadControlState%2A&gt;og &lt;xref:System.Web.UI.Control.SaveControlState%2A&gt;metoder og at kontrollen er registrert for å lagre statusinformasjon i kontrollere tilstand hver gang kontrollen er initialisert.&lt;/xref:System.Web.UI.Control.SaveControlState%2A&gt; &lt;/xref:System.Web.UI.Control.LoadControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can register a control to use control state by overriding the &lt;xref:System.Web.UI.Control.OnInit%2A&gt; method and calling the &lt;xref:System.Web.UI.Page.RegisterRequiresControlState%2A&gt; method.</source>
+          <target state="translated">Du kan registrere en kontroll for å bruke kontrollen tilstanden ved å overstyre den &lt;xref:System.Web.UI.Control.OnInit%2A&gt;metoden og kaller den &lt;xref:System.Web.UI.Page.RegisterRequiresControlState%2A&gt;metoden.&lt;/xref:System.Web.UI.Page.RegisterRequiresControlState%2A&gt; &lt;/xref:System.Web.UI.Control.OnInit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about using the &lt;xref:System.Web.UI.Control.ViewState%2A&gt; property and control state when developing controls, see <bpt id="p1">[</bpt>Developing Custom ASP.NET Server Controls<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">For mer informasjon om hvordan du bruker den &lt;xref:System.Web.UI.Control.ViewState%2A&gt;egenskapen og kontroll tilstand når du utvikler kontroller, se <bpt id="p1">[</bpt>utvikler egendefinerte ASP.NET-serverkontroller<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.Control.ViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To maintain view state on clients that cannot support the existing view state persistence mechanisms, you can extend the PageStatePersister class to introduce your own view state persistence methods, and you can use page adapters to configure your ASP.NET application to use different view state persistence mechanisms based on the type of client to which a page is served.</source>
+          <target state="translated">Hvis du vil beholde visningsstatus på klienter som ikke støtter eksisterende visningen tilstand utholdenhet mekanismer, du kan utvide PageStatePersister klassen for å introdusere din egen Vis tilstand utholdenhet metoder, og du kan bruke siden kort til å konfigurere programmet for ASP.NET å bruke annen visning tilstand utholdenhet mekanismer avhengig av klienten som en side som er behandlet.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes that derive from the PageStatePersister class must override the abstract &lt;xref:System.Web.UI.PageStatePersister.Save%2A&gt; method to store view state and control state in the persistence medium, and override the &lt;xref:System.Web.UI.PageStatePersister.Load%2A&gt; method to extract it.</source>
+          <target state="translated">Klasser som er avledet fra klassen PageStatePersister må overstyre abstrakt &lt;xref:System.Web.UI.PageStatePersister.Save%2A&gt;metode for å lagre visningsstatus og kontrollere tilstand i utholdenhet-medium og Overstyr &lt;xref:System.Web.UI.PageStatePersister.Load%2A&gt;metode for å hente det.&lt;/xref:System.Web.UI.PageStatePersister.Load%2A&gt; &lt;/xref:System.Web.UI.PageStatePersister.Save%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need to serialize view state and control state to a string, you can use the &lt;xref:System.Web.UI.IStateFormatter&gt; object that is accessed using the &lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt; property.</source>
+          <target state="translated">Hvis du trenger å serialisere visningsstatus og kontroll tilstand til en streng, kan du bruke den &lt;xref:System.Web.UI.IStateFormatter&gt;objekt som er tilgjengelig via den &lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt;egenskapen.&lt;/xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt; &lt;/xref:System.Web.UI.IStateFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It efficiently serializes and deserializes object state information to a Base64-encoded string.</source>
+          <target state="translated">Effektivt serializes og deserializes objektinformasjon tilstand til en Base64-kodet streng.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also override the &lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt; property to supply your own object state serialization mechanism.</source>
+          <target state="translated">Du kan også overstyre den &lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt;til å angi din egen objektet tilstand serialisering mekanisme.&lt;/xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.PageStatePersister"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Web.UI.PageStatePersister"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the view state persistence mechanism is created for.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som visningen tilstand utholdenhet mekanisme opprettes for.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">page</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">page</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets or sets an object that represents the data that controls contained by the current <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object use to persist across HTTP requests to the Web server.</source>
+          <target state="translated">Henter eller angir et objekt som representerer dataene som styrer ved gjeldende <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektbruk skal opprettholdes HTTP-forespørsler til nettserveren.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Control state is an object comprised of critical view state data that Web server controls need to function, and is contained in a separate object from normal view state information.</source>
+          <target state="translated">Kontroll-tilstanden er et objekt som består av kritiske visningen tilstand dataene som Web server kontroller, må funksjonen og ligger i en separat objektet fra normal visning statusinformasjon.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Control state data is not affected when view state is disabled at the &lt;xref:System.Web.UI.Page&gt; level, but requires extra implementation steps to use.</source>
+          <target state="translated">Tilstandsdata påvirkes ikke når visningsstatusen er deaktivert på den &lt;xref:System.Web.UI.Page&gt;nivået, men krever ekstra implementering trinn for å bruke.&lt;/xref:System.Web.UI.Page&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on using the &lt;xref:System.Web.UI.Control.ViewState%2A&gt; property and control state when developing controls, see <bpt id="p1">[</bpt>Developing Custom ASP.NET Server Controls<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">For mer informasjon om hvordan du bruker den &lt;xref:System.Web.UI.Control.ViewState%2A&gt;egenskapen og kontroll tilstand når du utvikler kontroller, se <bpt id="p1">[</bpt>utvikler egendefinerte ASP.NET-serverkontroller<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.Control.ViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An object that contains view state data.</source>
+          <target state="translated">Et objekt som inneholder tilstandsdata for visningen.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Overridden by derived classes to deserialize and load persisted state information when a <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object initializes its control hierarchy.</source>
+          <target state="translated">Overstyres av avledede klasser deserialisere for å laste inn faste statusinformasjon når en <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet initialiserer sitt kontrollhierarki.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes that derive from the &lt;xref:System.Web.UI.PageStatePersister&gt; class implement the Load method to initialize the &lt;xref:System.Web.UI.PageStatePersister.ViewState%2A&gt; and &lt;xref:System.Web.UI.PageStatePersister.ControlState%2A&gt; properties from some persisted format.</source>
+          <target state="translated">Klasser som er avledet fra den &lt;xref:System.Web.UI.PageStatePersister&gt;klassen implementerer Load-metode for å initialisere den &lt;xref:System.Web.UI.PageStatePersister.ViewState%2A&gt;og &lt;xref:System.Web.UI.PageStatePersister.ControlState%2A&gt;Egenskaper fra et fast format.&lt;/xref:System.Web.UI.PageStatePersister.ControlState%2A&gt; &lt;/xref:System.Web.UI.PageStatePersister.ViewState%2A&gt; &lt;/xref:System.Web.UI.PageStatePersister&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that the view state persistence mechanism is created for.</source>
+          <target state="translated">Henter eller angir den <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet som visningen tilstand utholdenhet mekanisme opprettes for.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the Page property to access the current &lt;xref:System.Web.HttpContext&gt; object.</source>
+          <target state="translated">Du kan bruke egenskapen siden for å få tilgang til gjeldende &lt;xref:System.Web.HttpContext&gt;objektet.&lt;/xref:System.Web.HttpContext&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the <bpt id="p2">&lt;xref href="System.Web.UI.PageStatePersister"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is associated with.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som den <bpt id="p2">&lt;xref href="System.Web.UI.PageStatePersister"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> er knyttet til.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Overridden by derived classes to serialize persisted state information when a <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is unloaded from memory.</source>
+          <target state="translated">Overstyres av avledede klasser til å serialisere faste statusinformasjon når en <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet som er lastet ned fra minnet.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes that derive from the &lt;xref:System.Web.UI.PageStatePersister&gt; class implement the Save method to persist the contents of the &lt;xref:System.Web.UI.PageStatePersister.ViewState%2A&gt; and &lt;xref:System.Web.UI.PageStatePersister.ControlState%2A&gt; properties to a persistence medium.</source>
+          <target state="translated">Klasser som er avledet fra den &lt;xref:System.Web.UI.PageStatePersister&gt;implementere klassen metoden lagre for å beholde innholdet i den &lt;xref:System.Web.UI.PageStatePersister.ViewState%2A&gt;og &lt;xref:System.Web.UI.PageStatePersister.ControlState%2A&gt;egenskapene til en utholdenhet middels.&lt;/xref:System.Web.UI.PageStatePersister.ControlState%2A&gt; &lt;/xref:System.Web.UI.PageStatePersister.ViewState%2A&gt; &lt;/xref:System.Web.UI.PageStatePersister&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets an <bpt id="p1">&lt;xref href="System.Web.UI.IStateFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is used to serialize and deserialize the state information contained in the &lt;xref:System.Web.UI.PageStatePersister.ViewState<bpt id="p2">*</bpt>&gt; and &lt;xref:System.Web.UI.PageStatePersister.ControlState<ept id="p2">*</ept>&gt; properties during calls to the &lt;xref:System.Web.UI.PageStatePersister.Save<bpt id="p3">*</bpt>&gt; and &lt;xref:System.Web.UI.PageStatePersister.Load<ept id="p3">*</ept>&gt; methods.</source>
+          <target state="translated">Henter en <bpt id="p1">&lt;xref href="System.Web.UI.IStateFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som brukes til å serialisere og deserialisere statusinformasjon i den &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; og &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; egenskaper under kall til den &lt;&gt; &lt;/&gt; <bpt id="p3">*</bpt>&gt; og &lt;&gt; &lt;/&gt; <ept id="p3">*</ept>&gt; metoder.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override the StateFormatter property to provide your own view state formatter.</source>
+          <target state="translated">Du kan overstyre StateFormatter-egenskapen for å gi din egen visningen tilstand formatering.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Web.UI.IStateFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used to serialize and deserialize object state.</source>
+          <target state="translated">En forekomst av <bpt id="p1">&lt;xref href="System.Web.UI.IStateFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som brukes til å serialisere og deserialisere objekt tilstand.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets or sets an object that represents the data that controls contained by the current <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object use to persist across HTTP requests to the Web server.</source>
+          <target state="translated">Henter eller angir et objekt som representerer dataene som styrer ved gjeldende <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektbruk skal opprettholdes HTTP-forespørsler til nettserveren.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>View state is a dictionary of state data that Web server controls need to function and render themselves.</source>
+          <target state="translated">Visningsstatusen er en ordliste for dataene som server webkontroller må funksjonen og gjengi seg.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Control developers typically access the view state object using the &lt;xref:System.Web.UI.Control.ViewState%2A&gt; property.</source>
+          <target state="translated">Kontrollutviklere vanligvis få tilgang til visningen tilstand objektet bruker den &lt;xref:System.Web.UI.Control.ViewState%2A&gt;egenskapen.&lt;/xref:System.Web.UI.Control.ViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>View state is affected when view state is disabled at the &lt;xref:System.Web.UI.Page&gt; level, and as a result controls might not behave correctly in these scenarios.</source>
+          <target state="translated">Visningsstatusen påvirkes når visningsstatusen er deaktivert på den &lt;xref:System.Web.UI.Page&gt;nivå, og derfor Kontroller kanskje ikke fungere som det skal i følgende scenarioer.&lt;/xref:System.Web.UI.Page&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on using &lt;xref:System.Web.UI.Control.ViewState%2A&gt; and control state when developing controls, see <bpt id="p1">[</bpt>Developing Custom ASP.NET Server Controls<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">For mer informasjon om hvordan du bruker &lt;xref:System.Web.UI.Control.ViewState%2A&gt;og kontrollere statusen når du utvikler kontroller, kan du se <bpt id="p1">[</bpt>utvikler egendefinerte ASP.NET-serverkontroller<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.Control.ViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An object that contains view state data.</source>
+          <target state="translated">Et objekt som inneholder tilstandsdata for visningen.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

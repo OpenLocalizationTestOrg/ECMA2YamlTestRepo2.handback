@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b8d893056fbb3ae8d56821de245d2ef1440d2db9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.XmlSiteMapProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90ac718c9ca5d45e2ded638c504951b9378ee869</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e955d26c39c6827a5b8262d1ff65a56073132be</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The XmlSiteMapProvider class is derived from the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and is the default site map provider for ASP.NET.</source>
+          <target state="translated">Az XmlSiteMapProvider szolgáltató osztály származik a <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály, és az alapértelmezett webhely térkép szolgáltató az ASP.NET.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The XmlSiteMapProvider class generates site map trees from XML files with the file name extension .sitemap.</source>
+          <target state="translated">Az XmlSiteMapProvider szolgáltató osztály hely térkép fák és a fájl neve a bővítmény .sitemap XML-fájlokat hozza létre.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlSiteMapProvider class loads site map data from an XML file that follows a known schema.</source>
+          <target state="translated">Az XmlSiteMapProvider szolgáltató osztály betölti a térkép helyadatok egy ismert séma a következő XML-fájlból.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The site map data is bounded by <ph id="ph1">`&lt;siteMap&gt;`</ph> tags and consists of nested <ph id="ph2">`&lt;siteMapNode&gt;`</ph> tags.</source>
+          <target state="translated">A térkép helyadatokat korlátozódik <ph id="ph1">`&lt;siteMap&gt;`</ph> címkéket és áll beágyazott <ph id="ph2">`&lt;siteMapNode&gt;`</ph> címkék.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two constraints are imposed by the &lt;xref:System.Web.SiteMapProvider&gt; and XmlSiteMapProvider classes on the structure of the site map data:      -   Only one root node can exist.</source>
+          <target state="translated">Két megkötések elő vannak a &lt;xref:System.Web.SiteMapProvider&gt;és a hely szerkezetének XmlSiteMapProvider osztályok adatok leképezése:-csak egy gyökércsomópont létezhet.&lt;/xref:System.Web.SiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   For &lt;xref:System.Web.SiteMapNode&gt; objects that specify URLs, the URLs must be unique within the scope of the provider.</source>
+          <target state="translated">-A &lt;xref:System.Web.SiteMapNode&gt;objektum által megadott URL-címeket, az URL-címeket a szolgáltató hatókörén belül egyedinek kell lennie.&lt;/xref:System.Web.SiteMapNode&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(For nodes that do not specify URLs, all keys must be unique.)       The following code example shows an example of an XML file that can be used with the XmlSiteMapProvider.</source>
+          <target state="translated">(Csomópontok, amely nem ad meg URL-címeket, az összes kulcs egyedinek kell lennie.)       Az alábbi példakód egy XML-fájl, amely az XmlSiteMapProvider szolgáltatón használható példáját mutatja be.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;siteMap&gt;     &lt;siteMapNode title="RootNode" description="This is the root node of the site map. There can be only one root node." url="Page1.aspx" &gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page2.aspx"&gt;         &lt;siteMapNode title="ChildOfChildNode" description="SiteMapNode objects can be nested to any level." url="Page3.aspx"/&gt;       &lt;/siteMapNode&gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page4.aspx"/&gt;     &lt;/siteMapNode&gt;   &lt;/siteMap&gt;   ```</ph>       The XmlSiteMapProvider is the default provider for ASP.NET and it reads XML data from a file named Web.sitemap that is located within the directory structure of the ASP.NET application.</source>
+          <target state="translated"><ph id="ph1">```   &lt;siteMap&gt;     &lt;siteMapNode title="RootNode" description="This is the root node of the site map. There can be only one root node." url="Page1.aspx" &gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page2.aspx"&gt;         &lt;siteMapNode title="ChildOfChildNode" description="SiteMapNode objects can be nested to any level." url="Page3.aspx"/&gt;       &lt;/siteMapNode&gt;       &lt;siteMapNode title="ChildofRootNode" description="Descriptions do not have to be unique." url="Page4.aspx"/&gt;     &lt;/siteMapNode&gt;   &lt;/siteMap&gt;   ```</ph>Az XmlSiteMapProvider szolgáltató az alapértelmezett szolgáltató az ASP.NET és az XML-adatok, amelyek található, az ASP.NET-alkalmazás könyvtárszerkezete Web.sitemap nevű fájlból olvassa be.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the Web.sitemap file is located at the application root; however, if you want to change the name or location of the file from which the XmlSiteMapProvider loads data, you can override the default configuration in your Web.config file.</source>
+          <target state="translated">Alapértelmezés szerint a Web.sitemap fájl itt található: az alkalmazás gyökérkönyvtárában; azonban ha módosítja a nevét vagy a fájl, amelyből az XmlSiteMapProvider szolgáltatón adatokat tölt helyét, felülbírálhatja az alapértelmezett konfiguráció a Web.config fájlban.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By overriding the default configuration settings in your Web.config file, you can tailor the behavior of the XmlSiteMapProvider for each ASP.NET application, as necessary.</source>
+          <target state="translated">Felülbírálható az alapértelmezett konfigurációs beállításokat a Web.config fájlban, az XmlSiteMapProvider szolgáltatón minden ASP.NET-alkalmazás, szükség szerint viselkedését testre szabni.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following code example demonstrates an example Web.config file, where the XmlSiteMapProvider is still used, but a different site map file is used.</source>
+          <target state="translated">Az alábbi példakód mutatja be egy példa Web.config fájlt, az XmlSiteMapProvider szolgáltató még mindig használatban van, de egy másik helyen térkép fájllal.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because all providers in a &lt;xref:System.Web.SiteMapProviderCollection&gt; object must be named uniquely, the one that is specified in the Web.config file uses a name other than the default but is also set as the default provider so that it will be used instead of the XmlSiteMapProvider that is specified in the default ASP.NET configuration.</source>
+          <target state="translated">Mivel az összes szolgáltatót a &lt;xref:System.Web.SiteMapProviderCollection&gt;objektum egyedi névvel kell ellátni, azt, amelyik a Web.config fájlban az alapértelmezett értéktől eltérő nevet használja, de is értéke az alapértelmezett szolgáltató, hogy a rendszer azt használja az XmlSiteMapProvider szolgáltató az alapértelmezett ASP.NET konfiguráció megadott helyett.&lt;/xref:System.Web.SiteMapProviderCollection&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can change the name of the site navigation data file, but you cannot change its extension.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Módosíthatja a navigációs adatok fájlnak a nevét, de nem módosíthatja a kiterjesztése.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlSiteMapProvider only reads data from files that are named with the file name extension .sitemap.</source>
+          <target state="translated">Az XmlSiteMapProvider szolgáltatón csak olvassa be az adatokat, a fájl neve a bővítmény .sitemap nevű.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Creates a new, unnamed, instance of the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Létrehoz egy új, névtelen, példánya a <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the collections that are maintained by the current provider.</source>
+          <target state="translated">Hozzáad egy <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum az az aktuális szolgáltató által fenntartott gyűjteményekhez.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`node`</ph> parameter is added to an internal collection, and a parent/child relationship is created between it and <ph id="ph2">`parentNode`</ph>.</source>
+          <target state="translated">A <ph id="ph1">`node`</ph> paraméter van hozzáadva egy belső gyűjteményhez, és egy szülő-gyermek kapcsolat jön létre között, és <ph id="ph2">`parentNode`</ph>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class, derived from the &lt;xref:System.Web.StaticSiteMapProvider&gt; class and the default site map provider for ASP.NET, uses the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of a &lt;xref:System.Web.SiteMapNode&gt; object as a lookup key in its internal collections, by default.</source>
+          <target state="translated">A &lt;xref:System.Web.XmlSiteMapProvider&gt;-ból származtatott osztályt a &lt;xref:System.Web.StaticSiteMapProvider&gt;osztály és az alapértelmezett webhely térkép szolgáltató az ASP.NET, használja a &lt;xref:System.Web.SiteMapNode.Url%2A&gt;tulajdonsága egy &lt;xref:System.Web.SiteMapNode&gt;objektum saját belső gyűjtemények, alapértelmezés szerint a keresési kulcsként.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt; &lt;/xref:System.Web.StaticSiteMapProvider&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of the &lt;xref:System.Web.SiteMapNode&gt; is set, it must be unique within the scope of the provider.</source>
+          <target state="translated">Ha a &lt;xref:System.Web.SiteMapNode.Url%2A&gt;tulajdonsága a &lt;xref:System.Web.SiteMapNode&gt;beállítva, a szolgáltató hatókörén belül egyedinek kell lennie.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNode%2A&gt; method attempts to retrieve nodes based on their &lt;xref:System.Web.SiteMapNode.Url%2A&gt;.</source>
+          <target state="translated">A &lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNode%2A&gt;metódus megpróbálja beolvasni a &lt;xref:System.Web.SiteMapNode.Url%2A&gt;.&lt;/xref:System.Web.SiteMapNode.Url%2A&gt; csomópontjai&lt;/xref:System.Web.XmlSiteMapProvider.FindSiteMapNode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, you can use the &lt;xref:System.Web.SiteMapNode.Key%2A&gt; property, and the corresponding &lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; method, to retrieve nodes.</source>
+          <target state="translated">Ellenkező esetben használhatja a &lt;xref:System.Web.SiteMapNode.Key%2A&gt;tulajdonság, és a megfelelő &lt;xref:System.Web.XmlSiteMapProvider.FindSiteMapNodeFromKey%2A&gt;metódus csomópontok beolvasni.&lt;/xref:System.Web.XmlSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; &lt;/xref:System.Web.SiteMapNode.Key%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the provider.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a szolgáltató hozzáadása.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> under which to add <ph id="ph1">`node`</ph>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> alapján, amelyhez hozzá <ph id="ph1">`node`</ph>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;parentNode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;parentNode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not the provider associated with <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">node</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Az aktuális <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> van a szolgáltató nem társított <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">node</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Links a child site map provider to the current provider.</source>
+          <target state="translated">Egy alárendelt hely térkép szolgáltatót csatolja a jelenlegi szolgáltató.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddProvider method links <ph id="ph1">`providerName`</ph> to the current provider as a child of the current provider.</source>
+          <target state="translated">A AddProvider metódus hivatkozások <ph id="ph1">`providerName`</ph> az aktuális szolgáltatóhoz, a jelenlegi szolgáltató gyermekeként.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The root node of <ph id="ph1">`providerName`</ph> is added to the hierarchy for the current provider as a child node of <ph id="ph2">`parentNode`</ph>.</source>
+          <target state="translated">A legfelső szintű csomópontja <ph id="ph1">`providerName`</ph> meg van adva a hierarchiában található az aktuális szolgáltató az gyermekcsomópontja <ph id="ph2">`parentNode`</ph>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the parent provider calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method on <ph id="ph1">`providerName`</ph>, the exceptions that are described in the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method might be thrown.</source>
+          <target state="translated">Mivel a szülő szolgáltató meghívja a &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;metódust a <ph id="ph1">`providerName`</ph>, a kivételeket a ismertetett a &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;metódus jelezni, előfordulhat, hogy.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name of one of the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects currently registered in the &lt;xref:System.Web.SiteMap.Providers*&gt;.</source>
+          <target state="translated">Az egyik nevét a <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a &lt;xref:System.Web.SiteMap.Providers*&gt;.&lt;/xref:System.Web.SiteMap.Providers*&gt; jelenleg regisztrált objektumok</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A site map node of the current site map provider under which the root node and all nodes of the child provider is added.</source>
+          <target state="translated">Az aktuális hely térkép szolgáltató, amely alatt a gyökércsomópont és a gyermek szolgáltató összes csomópontja fel hely térkép csomópontja.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SiteMapNode.Provider*&gt; property of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">parentNode</ph><ept id="p1">&lt;/code&gt;</ept> does not reference the current provider.</source>
+          <target state="translated">A &lt;xref:System.Web.SiteMapNode.Provider*&gt;tulajdonsága a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">parentNode</ph> <ept id="p1">&lt;/code&gt;</ept> az aktuális szolgáltató nem hivatkozik.&lt;/xref:System.Web.SiteMapNode.Provider*&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;parentNode&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;parentNode&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> cannot be resolved.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>nem oldható fel.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The site map file used by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">providerName</ph><ept id="p1">&lt;/code&gt;</ept> is already in use within the provider hierarchy.</source>
+          <target state="translated">A leképezési fájlban által használt <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">providerName</ph> <ept id="p1">&lt;/code&gt;</ept> már használja a szolgáltató hierarchián belül.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-or-       The root node returned by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">providerName</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">– vagy – a gyökércsomópont által visszaadott <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">providerName</ph> <ept id="p1">&lt;/code&gt;</ept> van <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-or-       The root node returned by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">providerName</ph><ept id="p1">&lt;/code&gt;</ept> has a URL or key that is already registered with the parent <bpt id="p2">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">– vagy – a gyökércsomópont által visszaadott <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">providerName</ph> <ept id="p1">&lt;/code&gt;</ept> URL-cím vagy kulcs, amely már regisztrálva van a szülő rendelkezik <bpt id="p2">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Loads the site map information from an XML file and builds it in memory.</source>
+          <target state="translated">A térkép információkat betölt egy XML-fájlból, és létrehozta a memóriában.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BuildSiteMap method is called to load and build the site map from persistent storage.</source>
+          <target state="translated">A BuildSiteMap metódus lehívásra kerül betölteni, és a webhelytérkép az állandó tároló létrehozása.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the default behavior when security trimming is enabled, see "Remarks" in &lt;xref:System.Web.SiteMapProvider.IsAccessibleToUser%2A&gt;.</source>
+          <target state="translated">"Az alapértelmezett viselkedés biztonsági elrejtés engedélyezésekor a rendszer Megjegyzés" című a &lt;xref:System.Web.SiteMapProvider.IsAccessibleToUser%2A&gt;.&lt;/xref:System.Web.SiteMapProvider.IsAccessibleToUser%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the &lt;xref:System.Web.XmlSiteMapProvider&gt; object parses and loads site map data, all loaded &lt;xref:System.Web.SiteMapNode&gt; objects and &lt;xref:System.Web.SiteMapNodeCollection&gt; collections are made read-only.</source>
+          <target state="translated">Után a &lt;xref:System.Web.XmlSiteMapProvider&gt;objektum elemez, és betölti a térkép helyadatokat, az összes betöltött &lt;xref:System.Web.SiteMapNode&gt;objektumok és &lt;xref:System.Web.SiteMapNodeCollection&gt;gyűjtemények válnak, csak olvasható.&lt;/xref:System.Web.SiteMapNodeCollection&gt; &lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Web.XmlSiteMapProvider&gt; parses the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property from a site map file, it converts application-relative URLs, as well as relative URLs, to application-absolute virtual paths.</source>
+          <target state="translated">Ha a &lt;xref:System.Web.XmlSiteMapProvider&gt;elemzi a &lt;xref:System.Web.SiteMapNode.Url%2A&gt;tulajdonság hely térkép fájlból történő átalakítja alkalmazás relatív URL-címeket, valamint a relatív URL-címeket, és alkalmazás-abszolút virtuális elérési utakat.&lt;/xref:System.Web.SiteMapNode.Url%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; subscribes to file change notifications for the .sitemap file.</source>
+          <target state="translated">A &lt;xref:System.Web.XmlSiteMapProvider&gt;számítógépcsoportra fizetett elő a .sitemap fájlok fájlmódosítási.&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any change is made to the .sitemap file, the &lt;xref:System.Web.XmlSiteMapProvider&gt; is reloaded, and the site map structure is rebuilt.</source>
+          <target state="translated">Ha bármilyen változás történik a .sitemap fájlba a &lt;xref:System.Web.XmlSiteMapProvider&gt;van töltve, és a térkép Helystruktúra újraépítésekor.&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Returns the root <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the site map navigation structure.</source>
+          <target state="translated">Visszaadja a legfelső szintű <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az a hely térkép navigációs szerkezetben.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is specified but the path lies outside the current directory structure for the application.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> van megadva, de az elérési út az alkalmazás aktuális könyvtárstruktúrát kívül esik.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A named provider cannot be found in the current site map providers collection.</source>
+          <target state="translated">Az aktuális hely térkép szolgáltatók gyűjtemény nevű szolgáltató nem található.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;siteMapNode&amp;gt;" name="&amp;lt;siteMapNode&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> referencing a site map file contains an empty string for the <bpt id="p2">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;siteMapNode&amp;gt;" name="&amp;lt;siteMapNode&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hely térkép fájlra hivatkozik tartalmaz egy üres karakterlánccal a <bpt id="p2">&lt;xref uid="langword_csharp_siteMapFile" name="siteMapFile" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Removes all elements in the collections of child and parent site map nodes and site map providers that the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object internally tracks as part of its state.</source>
+          <target state="translated">Eltávolítja az összes elem a gyermek és szülő hely térkép csomópontok és a hely térkép szolgáltatók gyűjteményei, amelyek a <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum belső állapotában részeként nyomon követi.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the inherited Clear method to provide additional state cleanup beyond the basic &lt;xref:System.Web.StaticSiteMapProvider.Clear%2A?displayProperty=fullName&gt; implementation, including clearing its child provider tracking and the &lt;xref:System.Web.XmlSiteMapProvider.RootNode%2A&gt; property tracking mechanisms.</source>
+          <target state="translated">A &lt;xref:System.Web.XmlSiteMapProvider&gt;osztály felülbírálja az örökölt egyértelmű metódust a basic túl további állapot tisztítás &lt;xref:System.Web.StaticSiteMapProvider.Clear%2A?displayProperty=fullName&gt;végrehajtása, beleértve a megszüntetésével, a gyermek-szolgáltató nyomon követése és a &lt;xref:System.Web.XmlSiteMapProvider.RootNode%2A&gt;mechanizmusok követési tulajdonság.&lt;/xref:System.Web.XmlSiteMapProvider.RootNode%2A&gt; &lt;/xref:System.Web.StaticSiteMapProvider.Clear%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the currently requested page.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a jelenleg a kért lap képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The site map object that represents the currently requested page.</source>
+          <target state="translated">A térkép objektumhoz, amely a jelenleg a kért lap jelöli.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Notifies the file monitor of the Web.sitemap file that the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object no longer requires the file to be monitored.</source>
+          <target state="translated">Értesíti a Web.sitemap fájlfigyelője fájlt, amely a <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum már nem szükséges a figyelni kívánt fájlt.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class implements the &lt;xref:System.IDisposable.Dispose%2A&gt; method of the &lt;xref:System.IDisposable&gt; interface to release its associated file monitor when the site map file is unloaded from memory.</source>
+          <target state="translated">A &lt;xref:System.Web.XmlSiteMapProvider&gt;osztály megvalósítja a &lt;xref:System.IDisposable.Dispose%2A&gt;metódusában a &lt;xref:System.IDisposable&gt;kapcsolat az adott fájl figyelő felszabadíthatják a leképezési fájlban távolítva a memóriából.&lt;/xref:System.IDisposable&gt; &lt;/xref:System.IDisposable.Dispose%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the &lt;xref:System.Web.XmlSiteMapProvider.Dispose%2A&gt; method calls the overload that takes a &lt;xref:System.Boolean&gt; parameter and sets the value to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Ez túlterhelése a &lt;xref:System.Web.XmlSiteMapProvider.Dispose%2A&gt;metódus meghívja a rendelkező túlterhelést egy &lt;xref:System.Boolean&gt;paramétert és értéket állítja be <ph id="ph1">`true`</ph>.&lt;/xref:System.Boolean&gt; &lt;/xref:System.Web.XmlSiteMapProvider.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Notifies the file monitor of the Web.sitemap file that the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object no longer requires the file to be monitored.</source>
+          <target state="translated">Értesíti a Web.sitemap fájlfigyelője fájlt, amely a <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum már nem szükséges a figyelni kívánt fájlt.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The Dispose method takes a Boolean parameter indicating whether the method is called by user code.</source>
+          <target state="translated">A Dispose metódus egy jelzi, hogy a metódust hívja a programkód logikai paramétert fogad.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method returns <ph id="ph1">`true`</ph> if the Dispose method is called by user code.</source>
+          <target state="translated">A Dispose metódus visszaadja <ph id="ph1">`true`</ph> a Dispose metódus által a felhasználói kód hívása esetén.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise it returns <ph id="ph1">`false`</ph>, if the Dispose method is called by the finalizer thread during run time.</source>
+          <target state="translated">Egyéb esetben ad vissza <ph id="ph1">`false`</ph>, ha a Dispose metódus lehívásra kerül a szál által futásidőben.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>a kibocsátási felügyelt és a nem felügyelt erőforrások; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> csak a nem felügyelt erőforrások kijelölése.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Retrieves a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the page at the specified URL.</source>
+          <target state="translated">Lekéri egy <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a lapon megadott URL-címen képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; object overrides the &lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNode%2A&gt; method to ensure that any linked child providers are searched for the node if the implementation of the base class does not return a node for the specified URL.</source>
+          <target state="translated">A &lt;xref:System.Web.XmlSiteMapProvider&gt;felülbírálások objektum a &lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNode%2A&gt;módszer annak biztosítására, hogy minden kapcsolódó gyermek szolgáltatók történik a Keresés a csomóponthoz, ha az alaposztály végrehajtásának nem ad vissza egy csomópontot a megadott URL-címhez.&lt;/xref:System.Web.StaticSiteMapProvider.FindSiteMapNode%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`rawUrl`</ph> parameter should be either an absolute virtual path or an application-relative path, depending on how it is specified in the XML site map data file.</source>
+          <target state="translated">A <ph id="ph1">`rawUrl`</ph> paraméter lehet abszolút virtuális elérési utat vagy egy alkalmazás relatív elérési utat, attól függően, hogy hogyan van megadva a hely térkép XML-adatfájl.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class and classes that are derived from it use the URL of a &lt;xref:System.Web.SiteMapNode&gt; object as a key in the various collections that the class maintains.</source>
+          <target state="translated">A &lt;xref:System.Web.XmlSiteMapProvider&gt;osztály és osztályokat is, abból származtatott URL-CÍMÉT használja a &lt;xref:System.Web.SiteMapNode&gt;objektum, amely megőrzi az osztály különböző gyűjteményekbe kulcsként.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, these URLs must be unique within the scope of the site map.</source>
+          <target state="translated">Az URL-címek, ezért a webhelytérkép hatókörén belül egyedinek kell lennie.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the URL is not found within the immediate site map data that is managed by the &lt;xref:System.Web.XmlSiteMapProvider&gt;, it calls the FindSiteMapNode on each child provider that is linked to it through the <ph id="ph1">`provider`</ph> attribute of its site map nodes.</source>
+          <target state="translated">Ha az URL-cím nem található a közvetlen leképezés helyadatokat által kezelt belül a &lt;xref:System.Web.XmlSiteMapProvider&gt;, a FindSiteMapNode minden gyermek szolgáltatót, azt a kapcsolódó meghívja a <ph id="ph1">`provider`</ph> attribútum hely térkép csomópontja.&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindSiteMapNode method indirectly calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method to retrieve the top-level node in the site map.</source>
+          <target state="translated">A FindSiteMapNode közvetve metódushívások a &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;metódusának segítéségével lekérheti a webhelytérkép legfelső szintű csomópontja.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, any exceptions that occur for the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method can also occur when calling the FindSiteMapNode method.</source>
+          <target state="translated">Ezért a fellépő kivételeket a &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;módszer akkor is előfordulhat, FindSiteMapNode metódus hívásakor.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A URL that identifies the page for which to retrieve a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy URL-címet, amely azonosítja a olvassa be az oldal egy <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the page identified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">rawURL</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelöli az oldal által azonosított <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">rawURL</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A child provider linked to the current site map provider returned a node that is not valid.</source>
+          <target state="translated">Az aktuális hely térkép szolgáltató adott vissza, amely nem érvényes csomópont kapcsolódó egy gyermek-szolgáltatótól.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Retrieves a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object based on a specified key.</source>
+          <target state="translated">Lekéri egy <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum a megadott kulcs alapján.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the &lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; method to ensure that any linked child providers are searched for the node, if the implementation for the base class does not return a node for <ph id="ph1">`key`</ph>.</source>
+          <target state="translated">A &lt;xref:System.Web.XmlSiteMapProvider&gt;felülbírálások osztály a &lt;xref:System.Web.StaticSiteMapProvider.FindSiteMapNodeFromKey%2A&gt;módszer annak érdekében, hogy minden kapcsolódó gyermek szolgáltatók figyelembe veszi a keresésnél a csomópont, ha a megvalósítását az alaposztályban nem ad vissza egy csomópont <ph id="ph1">`key`</ph>.&lt;/xref:System.Web.StaticSiteMapProvider.FindSiteMapNodeFromKey%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; object, derived from the &lt;xref:System.Web.StaticSiteMapProvider&gt; class and the default site map provider for ASP.NET, uses the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of a &lt;xref:System.Web.SiteMapNode&gt; object as a lookup key in its internal collections, by default.</source>
+          <target state="translated">A &lt;xref:System.Web.XmlSiteMapProvider&gt;objektum származik a &lt;xref:System.Web.StaticSiteMapProvider&gt;osztály és az alapértelmezett webhely térkép szolgáltató az ASP.NET, használja a &lt;xref:System.Web.SiteMapNode.Url%2A&gt;tulajdonsága egy &lt;xref:System.Web.SiteMapNode&gt;objektum saját belső gyűjtemények, alapértelmezés szerint a keresési kulcsként.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt; &lt;/xref:System.Web.StaticSiteMapProvider&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property of the &lt;xref:System.Web.SiteMapNode&gt; is set, it must be unique within the scope of the provider.</source>
+          <target state="translated">Ha a &lt;xref:System.Web.SiteMapNode.Url%2A&gt;tulajdonsága a &lt;xref:System.Web.SiteMapNode&gt;beállítva, a szolgáltató hatókörén belül egyedinek kell lennie.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no &lt;xref:System.Web.SiteMapNode.Url%2A&gt; is specified, the &lt;xref:System.Web.XmlSiteMapProvider&gt; automatically generates a &lt;xref:System.Web.SiteMapNode.Key%2A&gt; to track the nodes.</source>
+          <target state="translated">Ha nincs &lt;xref:System.Web.SiteMapNode.Url%2A&gt;meg van adva, a &lt;xref:System.Web.XmlSiteMapProvider&gt;automatikusan létrehozza a &lt;xref:System.Web.SiteMapNode.Key%2A&gt;a csomópontok nyomon követésére.&lt;/xref:System.Web.SiteMapNode.Key%2A&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt; &lt;/xref:System.Web.SiteMapNode.Url%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FindSiteMapNodeFromKey method might call the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method on any child providers that are associated with the current provider.</source>
+          <target state="translated">A FindSiteMapNodeFromKey metódus hívása előfordulhat, hogy a &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;bármely vannak társítva a jelenlegi szolgáltató alárendelt hitelesítésszolgáltatók metódusa.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the exceptions that are described in the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method might be thrown.</source>
+          <target state="translated">Ezért a ismertetett kivételek a &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;metódus jelezni, előfordulhat, hogy.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A lookup key with which to search for a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Keresse meg a keresési kulcs egy <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the page identified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p2">&lt;/code&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, if security trimming is enabled and the node cannot be shown to the current user or the node is not found by <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">key</ph><ept id="p4">&lt;/code&gt;</ept> in the node collection.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelöli az oldal által azonosított <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p2">&lt;/code&gt;</ept>; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>, ha biztonsági elrejtés engedélyezve van a csomópont nem jeleníthető meg az aktuális felhasználónak vagy és a csomópont nem található <bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">key</ph> <ept id="p4">&lt;/code&gt;</ept> a csomópont gyűjteményben.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A child provider linked to the current site map provider returned a node that is not valid.</source>
+          <target state="translated">Az aktuális hely térkép szolgáltató adott vissza, amely nem érvényes csomópont kapcsolódó egy gyermek-szolgáltatótól.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Returns the child nodes of the site map.</source>
+          <target state="translated">Oldaltérkép csomópontok gyermekét adja vissza.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to get child nodes from.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumot a gyermekcsomópontok lekérése.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A collection of site map nodes.</source>
+          <target state="translated">Hely térkép csomópontok gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Returns the parent node of the site map.</source>
+          <target state="translated">A szülőcsomópont oldaltérkép adja vissza.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to get the parent node from.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumot a szülő csomópontban az beszerzése.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The parent node of the site map.</source>
+          <target state="translated">A szülőcsomópont oldaltérkép.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Retrieves the top-level node of the current site map data structure.</source>
+          <target state="translated">Lekérdezi az aktuális hely térkép adatszerkezet a legfelső szintű csomópontja.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetRootNodeCore method calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method to retrieve the top-level node in the site map.</source>
+          <target state="translated">A GetRootNodeCore metódushívások a &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;metódusának segítéségével lekérheti a webhelytérkép legfelső szintű csomópontja.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, any exceptions that occur for the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method can also occur when calling the GetRootNodeCore method.</source>
+          <target state="translated">Ezért a fellépő kivételeket a &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;módszer akkor is előfordulhat, GetRootNodeCore metódus hívásakor.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the top-level node in the current site map data structure.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy az aktuális hely térkép adatszerkezet legfelső szintű csomópontja.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Inicializálja a <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The Initialize method does not actually build a site map, it only prepares the state of the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to do so.</source>
+          <target state="translated">Inicializálási metódusa ténylegesen összeállítani a webhelytérkép, állapotának csak előkészíti a <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ehhez.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the inherited Initialize method to apply several attributes, such as the <ph id="ph1">`siteMapFile`</ph> and <ph id="ph2">`description`</ph> attributes, to the <ph id="ph3">`attributes`</ph> collection.</source>
+          <target state="translated">A &lt;xref:System.Web.XmlSiteMapProvider&gt;osztály felülbírálja az örökölt inicializálási metódusa számos attribútum alkalmazandó az <ph id="ph1">`siteMapFile`</ph> és <ph id="ph2">`description`</ph> attribútumok, hogy a <ph id="ph3">`attributes`</ph> gyűjtemény.&lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to initialize.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> inicializálni.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can contain additional attributes to help initialize <ph id="ph1">`name`</ph>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> inicializálása segítségével további attribútumokat, amelyek tartalmazhat <ph id="ph1">`name`</ph>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>These attributes are read from the <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> configuration in the Web.config file.</source>
+          <target state="translated">Ezek az attribútumok pedig olvassa a rendszer a <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a Web.config fájlban található konfigurációs beállításokat.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is initialized more than once.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.XmlSiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> egynél többször inicializálva van.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Removes the specified <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from all node collections that are tracked by the provider.</source>
+          <target state="translated">Eltávolítja a megadott <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az összes csomópont gyűjtemény a szolgáltató által követett objektum.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The node to remove from the node collections.</source>
+          <target state="translated">A csomópont eltávolítása a csomópont gyűjtemények.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Removes a linked child site map provider from the hierarchy for the current provider.</source>
+          <target state="translated">A csatolt gyermek hely térkép szolgáltató eltávolítása a hierarchiában, a jelenlegi szolgáltató.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RemoveProvider method removes <ph id="ph1">`providerName`</ph> from the hierarchy for the current provider, including any parent/child relationships that are established by the &lt;xref:System.Web.XmlSiteMapProvider.AddProvider%2A&gt; method between site map nodes of the current provider and the removed provider.</source>
+          <target state="translated">A helyette a RemoveProvider metódus <ph id="ph1">`providerName`</ph> a hierarchiából, a jelenlegi szolgáltató, beleértve a szülő-gyermek kapcsolat által létrehozott a &lt;xref:System.Web.XmlSiteMapProvider.AddProvider%2A&gt;hely térkép csomópontok az aktuális szolgáltató és az eltávolított szolgáltató közötti metódus.&lt;/xref:System.Web.XmlSiteMapProvider.AddProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The name of one of the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects currently registered in the &lt;xref:System.Web.SiteMap.Providers*&gt;.</source>
+          <target state="translated">Az egyik nevét a <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a &lt;xref:System.Web.SiteMap.Providers*&gt;.&lt;/xref:System.Web.SiteMap.Providers*&gt; jelenleg regisztrált objektumok</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> cannot be resolved.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>nem oldható fel.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> is not a registered child provider of the current site map provider.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>nincs a jelenlegi hely térkép szolgáltató regisztrált gyermek szolgáltató.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Gets the root node of the site map.</source>
+          <target state="translated">Lekérdezi a gyökércsomópont oldaltérkép.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RootNode property calls the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method to retrieve the top-level node in the site map.</source>
+          <target state="translated">A RootNode tulajdonság hívások a &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;metódusának segítéségével lekérheti a webhelytérkép legfelső szintű csomópontja.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, any exceptions that occur for the &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt; method can also occur when accessing the RootNode property.</source>
+          <target state="translated">Ezért a fellépő kivételeket a &lt;xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;módszer akkor is előfordulhat, a RootNode tulajdonság elérésekor.&lt;/xref:System.Web.XmlSiteMapProvider.BuildSiteMap%2A&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.SiteMapProvider&gt; and &lt;xref:System.Web.XmlSiteMapProvider&gt; classes permit only one root &lt;xref:System.Web.SiteMapNode&gt; object in a site map.</source>
+          <target state="translated">A &lt;xref:System.Web.SiteMapProvider&gt;és &lt;xref:System.Web.XmlSiteMapProvider&gt;osztályok lehetővé teszik a csak egy legfelső szintű &lt;xref:System.Web.SiteMapNode&gt;webhelytérkép objektumban.&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt; &lt;/xref:System.Web.SiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class overrides the abstract &lt;xref:System.Web.SiteMapProvider.RootNode%2A?displayProperty=fullName&gt; property and provides a simple implementation to track the root node.</source>
+          <target state="translated">A &lt;xref:System.Web.XmlSiteMapProvider&gt;osztály felülbírálja az absztrakt &lt;xref:System.Web.SiteMapProvider.RootNode%2A?displayProperty=fullName&gt;tulajdonság és egyszerű valósítja meg a gyökércsomópont nyomon követésére.&lt;/xref:System.Web.SiteMapProvider.RootNode%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.XmlSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the root node of the site map; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if security trimming is enabled and the root node is not accessible to the current user.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a gyökércsomópont oldaltérkép; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, ha biztonsági elrejtés engedélyezve van, és a gyökércsomópont nem érhető el az aktuális felhasználónak.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

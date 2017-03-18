@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81b05796a739bacecb2b4767c2e09a967faf0c94</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.UndoEngine.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">738d498bf12364af3ce7a38eaee9b4f2c0eadeae</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e645f4fc50a72e0c2ff000e207f782eb1d17c5e2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies generic undo/redo functionality at design time.</source>
+          <target state="translated">Anger allmän Ångra/Gör om funktionerna i designläge.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UndoEngine abstract class provides a default implementation of undo functionality at design time.</source>
+          <target state="translated">Den abstrakta klassen UndoEngine innehåller en standardimplementering Ångra funktioner i designläge.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An undo unit represents a single unit of undoable work.</source>
+          <target state="translated">En enhet för Ångra representerar en enda arbetsenhet inte kan ångras.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This unit is added to a stack and the user can then walk the stack to undo each action.</source>
+          <target state="translated">Den här enheten har lagts till i en grupp och användaren kan sedan gå grupp om du vill ångra varje åtgärd.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Undo units typically are designed to toggle, which means that calling undo twice returns the application to its starting state.</source>
+          <target state="translated">Ångra enheter är vanligtvis utformade för att växla, vilket innebär att anropa Ångra returnerar två gånger programmet till dess första tillstånd.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UndoEngine class takes advantage of the following characteristics of objects running within the designer:      -   All interesting objects can be persisted to some format by the designer loader.</source>
+          <target state="translated">Klassen UndoEngine drar nytta av följande egenskaper för objekt som körs inom designern: – alla intressanta objekt kan sparas till vissa format av Designerinläsaren.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   All objects raise property-change notifications when a property is changed.</source>
+          <target state="translated">-Alla objekt öka egenskapen ändringsmeddelanden när en egenskap ändras.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; offers the idea of transactions, which can be used to fabricate an undo action that spans multiple smaller actions.</source>
+          <target state="translated">- &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;erbjuder uppfattning om transaktioner som kan användas för att detaljritningar åtgärden Ångra som sträcker sig över flera mindre åtgärder.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With these features, UndoEngine can fabricate any undo units it needs automatically.</source>
+          <target state="translated">Med dessa funktioner detaljritningar UndoEngine några Ångra-enheter måste automatiskt.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Do not change property values directly.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Inte ändra egenskapsvärden direkt.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UndoEngine class requires you to use the appropriate &lt;xref:System.ComponentModel.TypeDescriptor&gt; to change property values.</source>
+          <target state="translated">Klassen UndoEngine måste du använda rätt &lt;xref:System.ComponentModel.TypeDescriptor&gt;att ändra egenskapsvärden.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>UndoEngine monitors for change notifications to create undo units, and the units themselves consist of serialized object states.</source>
+          <target state="translated">UndoEngine Övervakare för meddelanden att skapa om ångra enheter och enheter själva består av det serialiserade objektet tillstånd.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the services that must be available when UndoEngine is created.</source>
+          <target state="translated">I följande tabell visas de tjänster som måste vara tillgänglig när UndoEngine skapas.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;|Saves property and object values for a component before and after a change is made.|   |&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;|Notifies the undo engine of changes made to components.|   |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|Used to track transactions.|      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because the UndoEngine class requires &lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt; and &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;, it is available only at design time.</source>
+          <target state="translated">| Tjänsten | Beskrivning |   |-------------|-----------------|   | &lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;| Sparar egenskapen och objekt värden för en komponent före och efter att en ändring görs. |   | &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;| Meddelar motorn ångra ändringar komponenter. |   | &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;| Används för att spåra transaktioner. |      &gt; <ph id="ph1">[!NOTE]</ph> &gt; Eftersom klassen UndoEngine kräver &lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;och &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;, den är tillgänglig endast i designläge.&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The undo engine tracks transactions and creates a single undo unit that encompasses a transaction.</source>
+          <target state="translated">Ångra motorn spårar transaktioner och skapar en enhet för enkel Ångra som omfattar en transaktion.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a result, the undo engine has control over the duration of an undoable action.</source>
+          <target state="translated">Därför kan har Ångra-motorn kontroll över varaktigheten för en åtgärd som inte kan ångras.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, because transactions can be named, undoable actions inherit their names from the current transaction.</source>
+          <target state="translated">Dessutom eftersom transaktioner kan namnges ärver Ångra deras namn från den aktuella transaktionen.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no transaction is available and a change is reported, the undo engine creates an undo name based on the type of change (for example, "Change property 'Text'").</source>
+          <target state="translated">Om ingen transaktion är tillgänglig och en ändring rapporteras skapar Ångra motorn ett Ångra namn baserat på vilken typ av ändring (till exempel "ändra egenskapen 'Text'").</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.UndoEngine&gt; requires several services from the <ph id="ph1">`provider`</ph> parameter to be useful.</source>
+          <target state="translated">Den &lt;xref:System.ComponentModel.Design.UndoEngine&gt;kräver flera tjänster från den <ph id="ph1">`provider`</ph> parameter ska vara användbar.&lt;/xref:System.ComponentModel.Design.UndoEngine&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A parenting service provider.</source>
+          <target state="translated">En överordnande tjänstprovider.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A required service cannot be found.</source>
+          <target state="translated">En tjänst som krävs kan inte hittas.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for required services.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för tjänster som krävs.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you have removed this service, ensure that you provide a replacement.</source>
+          <target state="translated">Om du har tagit bort den här tjänsten måste du ersätta.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Creates a new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.</source>
+          <target state="translated">Skapar en ny &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of the CreateUndoUnit method simply returns a new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.</source>
+          <target state="translated">Standardimplementering av metoden CreateUndoUnit returnerar bara en ny &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, &lt;xref:System.ComponentModel.Design.UndoEngine&gt; does nothing with the <ph id="ph1">`primary`</ph> parameter, but some implementations of undo, such as those involving the COM <ph id="ph2">`Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit`</ph> design pattern, may need to identify the difference between a primary unit and its children.</source>
+          <target state="translated">Som standard &lt;xref:System.ComponentModel.Design.UndoEngine&gt;händer ingenting med den <ph id="ph1">`primary`</ph> parameter, men vissa implementeringar av Ångra, till exempel sådana som omfattar COM <ph id="ph2">`Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit`</ph> utforma mönster kan behöva identifiera skillnaden mellan en primär enhet och dess underordnade.&lt;/xref:System.ComponentModel.Design.UndoEngine&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name of the unit to create.</source>
+          <target state="translated">Namnet på enheten som du skapar.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create the first of a series of nested units; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to create subsequent nested units.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>att skapa först i en serie av kapslade enheter. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> att skapa efterföljande kapslade enheter.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt; with a specified name.</source>
+          <target state="translated">En ny &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;med ett angivet namn.&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Frigör alla resurser som används av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Släpper de ohanterade resurser som används av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> och släpper du de hantera resurserna.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Frisläpp både hanterade och ohanterade resurser. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> att släppa endast resurser som inte hanteras.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enables or disables the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aktiverar eller inaktiverar det <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is enabled; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den <bpt id="p2">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> är aktiverade, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the requested service.</source>
+          <target state="translated">Hämtar den begärda tjänsten.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">Typ av tjänst för att hämta.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The requested service, if found.</source>
+          <target state="translated">Den begärda tjänsten om hittades.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is required but cannot be found.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>är obligatorisk, men kan inte hittas.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you have removed this service, ensure that you provide a replacement.</source>
+          <target state="translated">Om du har tagit bort den här tjänsten måste du ersätta.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets the requested service.</source>
+          <target state="translated">Hämtar den begärda tjänsten.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">Typ av tjänst för att hämta.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The requested service, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the requested service is not found.</source>
+          <target state="translated">Den begärda tjänsten eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om det gick inte att hitta den begärda tjänsten.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undoing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undoing"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.EventArgs&gt;som innehåller informationen om händelsen.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undone"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.EventArgs&gt;som innehåller informationen om händelsen.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Occurs immediately before an undo action is performed.</source>
+          <target state="translated">Inträffar innan en Ångra-åtgärd utförs.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Indicates if an undo action is in progress.</source>
+          <target state="translated">Anger om en Ångra-åtgärd pågår.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if an undo action is in progress; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om en Ångra-åtgärd pågår; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Occurs immediately after an undo action is performed.</source>
+          <target state="translated">Inträffar omedelbart efter en Ångra-åtgärd utförs.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Undone event is always raised, even if an exception is thrown.</source>
+          <target state="translated">Ångra händelsen inträffar alltid, även om ett undantag.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
