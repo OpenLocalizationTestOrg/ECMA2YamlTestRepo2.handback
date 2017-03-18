@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">63eafba92c6e33e4dacbdfc8e30a29575dff3689</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.ComponentModel.Compiler.Validator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">750e8d17946270655a6aed2ee0dfa67f08d39020</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dcb5f9e4d0f888cbe44e3c6757f5ccf4e31e4da</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Base class for all validator components.</source>
+          <target state="translated">Basisklasse voor alle onderdelen van de validatiefunctie.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       The Validator class is used to ensure that activities are configured properly at design time.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>De klasse Validator wordt gebruikt om ervoor te zorgen dat activiteiten juist zijn geconfigureerd in de ontwerpfase.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validators are instantiated during design time when the designer validates the properties assigned to activities; if an activity's parameters are not configured properly, the designer will show smart tag errors for the incorrect values.</source>
+          <target state="translated">Validatiefuncties worden geconcretiseerd tijdens ontwerptijd, wanneer de ontwerpfunctie de eigenschappen die zijn toegewezen aan activiteiten valideert; Als een activiteit parameters niet juist zijn geconfigureerd, wordt de ontwerpfunctie voor infolabel fouten voor de onjuiste waarden weergegeven.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validators also run during compile time, and will return validation errors if constraints such as object parent or child type, minimum number of children, etc. are not correct.</source>
+          <target state="translated">Validatiefuncties ook uitvoeren tijdens het moment van compileren en validatiefouten wordt geretourneerd als beperkingen zoals bovenliggende of onderliggende objecttype, minimum aantal onderliggende items, etc. niet juist.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validators will also run at runtime when a markup-based workflow is instantiated using the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt; method.</source>
+          <target state="translated">Validatiefuncties tijdens runtime wordt ook uitgevoerd wanneer een werkstroom op basis van een markup wordt gestart met behulp van de &lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt;methode.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The main purpose of a Validator is to ensure that errors are known during design time, and are not exposed as exceptions during runtime.</source>
+          <target state="translated">Het belangrijkste doel van een validatiefunctie is om ervoor te zorgen dat fouten tijdens de ontwerpfase worden aangeduid, en niet worden weergegeven als uitzonderingen tijdens runtime.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validators are associated with the activities that they validate using the &lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidatorAttribute.ValidatorTypeName%2A&gt; attribute; all activity validators must inherit from the &lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidator&gt; class.</source>
+          <target state="translated">Validatiefuncties zijn gekoppeld aan de activiteiten die ze controleren met behulp van het &lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidatorAttribute.ValidatorTypeName%2A&gt;kenmerk; alle activiteit voor validatiefuncties moeten worden overgenomen van de &lt;xref:System.Workflow.ComponentModel.Compiler.ActivityValidator&gt;klasse.&lt;/xref:System.Workflow.ComponentModel.Compiler.ActivityValidator&gt; &lt;/xref:System.Workflow.ComponentModel.Compiler.ActivityValidatorAttribute.ValidatorTypeName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, validators will validate meta properties; they do not validate instance properties which are settable at runtime.</source>
+          <target state="translated">Standaard valideert validatiefuncties meta-eigenschappen; Deze instantie-eigenschappen die kunnen worden ingesteld tijdens runtime wordt niet gevalideerd.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.Validator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.Validator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Helper method to extract the full property name.</source>
+          <target state="translated">Help-methode voor het uitpakken van de volledige eigenschapsnaam.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Useful when the validated property is nested.</source>
+          <target state="translated">Dit is nuttig wanneer de eigenschap gevalideerde is genest.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method traverses the &lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt; in the stack to build the full name of the property.</source>
+          <target state="translated">De methode passeert de &lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;in de stack voor het bouwen van de volledige naam van de eigenschap.&lt;/xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example: the name My.Actor.Bas is built using three &lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt; items.</source>
+          <target state="translated">Bijvoorbeeld: de naam van de My.Actor.Bas wordt gebouwd met drie &lt;xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;items.&lt;/xref:System.Workflow.ComponentModel.Compiler.PropertyValidationContext&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the validated property belongs to an object that is an item in a collection, the method will produce the name of the collection.</source>
+          <target state="translated">Als de eigenschap gevalideerde bij een object dat een item in een verzameling hoort, levert de methode op de naam van de verzameling.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> linked to the validation.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gekoppeld aan de validatie.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The full property name.</source>
+          <target state="translated">De naam van de volledige-eigenschap.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Validates the specified object and returns a collection of validation errors.</source>
+          <target state="translated">Het opgegeven object valideert en retourneert een verzameling met validatiefouten.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The validation manager linked to the validation.</source>
+          <target state="translated">De validatie manager gekoppeld aan de validatie.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be validated.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;moet worden gevalideerd.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the validation errors resulting from this operation.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die het resultaat zijn van deze bewerking validatiefouten bevat.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, validates a change based on a specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> being added or removed.</source>
+          <target state="translated">Wanneer in een afgeleide klasse genegeerd, valideert een wijziging op basis van een opgegeven <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wordt toegevoegd of verwijderd.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This function is called during the application of changes that are made to the workflow during dynamic updates.</source>
+          <target state="translated">Deze functie wordt aangeroepen tijdens de toepassing van de wijzigingen die zijn aangebracht aan de werkstroom tijdens dynamische updates.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the base implementation, a null reference (Visual Basic <ph id="ph1">`Nothing`</ph>) is returned.</source>
+          <target state="translated">In de basisimplementatie een null-verwijzing (Visual Basic <ph id="ph1">`Nothing`</ph>) wordt geretourneerd.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De opgegeven <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityChangeAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De opgegeven <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityChangeAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationError"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> generated by the operation.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationError"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die worden gegenereerd door de bewerking.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;action&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;action&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Helper method to automatically validate the specific objects properties.</source>
+          <target state="translated">Help-methode om te valideren automatisch de eigenschappen van de specifieke objecten.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The validation manager linked to the validation.</source>
+          <target state="translated">De validatie manager gekoppeld aan de validatie.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be validated.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> moet worden gevalideerd.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the validation errors resulting from this operation.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die het resultaat zijn van deze bewerking validatiefouten bevat.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;obj&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Performs validation on a property and returns a <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the results of that validation.</source>
+          <target state="translated">Een eigenschap worden gevalideerd en retourneert een <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die de resultaten van deze validatie bevat.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no errors result from the validation, an empty &lt;xref:System.Workflow.ComponentModel.Compiler.ValidationErrorCollection&gt; is returned.</source>
+          <target state="translated">Als er geen fouten het gevolg zijn van de validatie, een lege &lt;xref:System.Workflow.ComponentModel.Compiler.ValidationErrorCollection&gt;wordt geretourneerd.&lt;/xref:System.Workflow.ComponentModel.Compiler.ValidationErrorCollection&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Reflection.PropertyInfo&gt; on the subject property.</source>
+          <target state="translated">De &lt;xref:System.Reflection.PropertyInfo&gt;op de eigenschap subject.&lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The owner of the property.</source>
+          <target state="translated">De eigenaar van de eigenschap.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The value of the property.</source>
+          <target state="translated">De waarde van de eigenschap.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this operation.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor deze bewerking.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the results of that validation.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Compiler.ValidationErrorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die de resultaten van deze validatie bevat.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
