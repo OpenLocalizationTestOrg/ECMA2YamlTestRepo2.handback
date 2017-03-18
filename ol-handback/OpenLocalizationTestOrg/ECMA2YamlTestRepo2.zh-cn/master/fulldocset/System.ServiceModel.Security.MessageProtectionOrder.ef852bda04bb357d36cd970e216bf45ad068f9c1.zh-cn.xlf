@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eacfd25f843c901f38e13dbe58c22aaeebb44050</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Security.MessageProtectionOrder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f740def12655494c1d652713da19a3ef80e9f719</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3d1a2e6662b4ea5b4ce1902cd38e249205487063</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the order of operations that protect a message.</source>
+          <target state="translated">指定保护消息的操作的顺序。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This enumeration is used with the &lt;xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt; property of the &lt;xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement&gt; and the &lt;xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt; property of the &lt;xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement&gt; classes.</source>
+          <target state="translated">此枚举用于&lt;xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt;属性&lt;xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement&gt;和&lt;xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt;属性&lt;xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement&gt;类。&lt;/xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement&gt; &lt;/xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement&gt; &lt;/xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If a message is vulnerable to a digest attack (for example, if the message is short or the entropy is low), you should use the SignBeforeEncryptAndEncryptSignature or EncryptBeforeSign option.</source>
+          <target state="translated">如果消息容易受到摘要攻击 （例如，如果消息很短或平均信息量较低），应使用为 SignBeforeEncryptAndEncryptSignature 或 EncryptBeforeSign 选项。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">*</bpt>Entropy<ept id="p1">*</ept> is random data provided by a server, a client, or both, and is used to create a shared key for encrypting and decrypting data.)      ## What Is Ordered?</source>
+          <target state="translated">(<bpt id="p1">*</bpt>平均信息量<ept id="p1">*</ept>是由服务器、 客户端，或同时，提供的随机数据，用于创建共享的密钥用于加密和解密数据。)     # # 哪些内容进行排序？</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> offers three different protection levels that determine how messages are secured using SOAP message security.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>提供三个不同的保护级别，确定消息如何使用 SOAP 消息安全保护。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The default is SignBeforeEncryptAndEncryptSignature.</source>
+          <target state="translated">默认值为 SignBeforeEncryptAndEncryptSignature。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This setting first signs the message, encrypts the message body, and then encrypts the XML signature.</source>
+          <target state="translated">此设置首先签名消息，加密消息正文，然后加密 XML 签名。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This reduces the likelihood of a successful cryptographic guessing attack against the signature.</source>
+          <target state="translated">这减少了对该签名了成功加密猜测攻击的可能性。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>However, using the default has performance implications.</source>
+          <target state="translated">但是，使用默认值对性能产生影响。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In effect, there is a tradeoff of performance for increased security.</source>
+          <target state="translated">实际上，是性能的为了提高安全性打折扣。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Encrypting the signature can decrease performance between 10 percent and 40 percent.</source>
+          <target state="translated">加密签名可以降低 10%到 40%的性能。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the data content of the message is of low value, and performance throughput is more significant, use SignBeforeEncrypt.</source>
+          <target state="translated">如果消息的数据内容为低的值，并且性能吞吐量更重要，则使用 SignBeforeEncrypt。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>With this setting, the signature digest is sent in clear text, and thus the message is more vulnerable to guess-and-verify attacks on low entropy.</source>
+          <target state="translated">使用此设置，签名摘要将以明文形式发送，因此该消息更易受到低平均信息量的猜测和验证攻击。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Custom Bindings Only    To change the <ph id="ph1">`MessageProtectionOrder`</ph> property requires the creation of a custom security binding.</source>
+          <target state="translated">自定义绑定仅对更改<ph id="ph1">`MessageProtectionOrder`</ph>属性需要创建自定义安全绑定。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information about creating custom bindings, see <bpt id="p1">[</bpt>Creating User-Defined Bindings<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关创建自定义绑定的详细信息，请参阅<bpt id="p1">[</bpt>创建用户定义绑定<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information about creating a custom binding for a specific authentication mode, see <bpt id="p1">[</bpt>How to: Create a SecurityBindingElement for a Specified Authentication Mode<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关创建自定义绑定的特定身份验证模式的详细信息，请参阅<bpt id="p1">[</bpt>如何︰ 为指定的身份验证模式创建 SecurityBindingElement<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Specifies that the SOAP message is encrypted before a digital signature is generated for the SOAP message.</source>
+          <target state="translated">指定之前为 SOAP 消息生成数字签名的加密 SOAP 消息。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specifies that a digital signature is generated for the SOAP message before any portion of the SOAP message is encrypted, but the digital signature is not encrypted.</source>
+          <target state="translated">指定之前加密 SOAP 消息的任何部分，但不是加密数字签名的 SOAP 消息生成数字签名。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Specifies that a digital signature is generated for the SOAP message before any portion of the SOAP message is encrypted, and the digital signature is encrypted.</source>
+          <target state="translated">指定之前加密 SOAP 消息的任何部分，并且加密数字签名的 SOAP 消息生成数字签名。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

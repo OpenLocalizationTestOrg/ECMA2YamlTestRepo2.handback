@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8de420758489b2a020aef93c47a079826b53586f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Clipboard.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">414a6c630332434ea5aaf3ca2461cf3aac281b47</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6caf5de5dde9c15476a4718d4f31aaecb8894de4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides static methods that facilitate transferring data to and from the system Clipboard.</source>
+          <target state="translated">Biedt statische methoden voor gegevensoverdracht van en naar het systeemklembord.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All applications for <ph id="ph1">[!INCLUDE[TLA#tla_mswin](~/add/includes/tlasharptla-mswin-md.md)]</ph> share the system Clipboard, so the contents are subject to change when you switch to another application.</source>
+          <target state="translated">Alle aanvragen voor <ph id="ph1">[!INCLUDE[TLA#tla_mswin](~/add/includes/tlasharptla-mswin-md.md)]</ph> delen van het systeem-Klembord, zodat de inhoud nog worden gewijzigd wanneer u naar een andere toepassing overschakelt.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of predefined formats available to use with the Clipboard class, see the &lt;xref:System.Windows.DataFormats&gt; class.</source>
+          <target state="translated">Zie voor een lijst met vooraf gedefinieerde indelingen beschikbaar voor gebruik met de Klembord-klasse, de &lt;xref:System.Windows.DataFormats&gt;klasse.&lt;/xref:System.Windows.DataFormats&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Security Alert:<ept id="p1">**</ept> For security purposes, the following points should be kept in mind.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Beveiligingswaarschuwing:<ept id="p1">**</ept> om veiligheidsredenen moet de volgende punten moeten rekening worden gehouden.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Paste operations need to be user initiated (Ctrl-V, Paste Menu).</source>
+          <target state="translated">-Plakbewerkingen moeten gebruiker gestarte (Ctrl-V, Menu plakken).</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Copy can only be on user selected content.</source>
+          <target state="translated">-Exemplaar kan alleen worden op de geselecteerde gebruiker inhoud.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   On copy or cut, partial trust code puts plaintext and <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> on to the clipboard.</source>
+          <target state="translated">-Op kopiëren of knip code met gedeeltelijk vertrouwen worden geplaatst als leesbare tekst en <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> doorsturen naar het Klembord.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Plaintext includes text, Unicode text, OEM (Object Exchange Model) text, and CSV (Comma-separated values).</source>
+          <target state="translated">Als leesbare tekst bevat tekst, Unicode-tekst, OEM (objectmodel Exchange)-tekst en CSV (door komma's gescheiden waarden).</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   On paste, <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> will paste in <ph id="ph2">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> if the source of that content is from a equally trusted or more trusted site.</source>
+          <target state="translated">-Bij plakken, <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> worden geplakt <ph id="ph2">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> als de bron van die inhoud van een site evenveel vertrouwd of meer vertrouwd is.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically:          -   A partial trust application can paste <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> from a full trust application.</source>
+          <target state="translated">Name: - een toepassing met gedeeltelijk vertrouwen kunt plakken <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> vanuit een toepassing volledig vertrouwen.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A partial trust application can paste <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> from a partial trust application.</source>
+          <target state="translated">-Een toepassing met gedeeltelijk vertrouwen kunt plakken <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> vanuit een toepassing met gedeeltelijk vertrouwen.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A full trust application can paste XAML only from another fully trusted application.</source>
+          <target state="translated">-Een toepassing volledig vertrouwen kunt XAML plakken alleen vanuit een andere volledig vertrouwde toepassing.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A non-<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> full trust application can examine the ApplicationTrust format on the clipboard and sanitize the XAML if appropriate.</source>
+          <target state="translated">-Een niet -<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> volledig vertrouwen toepassing kunt bekijken van de indeling ApplicationTrust op het Klembord en opschonen van de XAML, indien van toepassing.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Clears any data from the system Clipboard.</source>
+          <target state="translated">Worden alle gegevens van het systeem-Klembord gewist.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method is equivalent to calling <bpt id="p1">**</bpt>OleSetClipboard<ept id="p1">**</ept>(<bpt id="p2">**</bpt>null<ept id="p2">**</ept>).</source>
+          <target state="translated">Deze methode aanroept, is gelijk aan het aanroepen van <bpt id="p1">**</bpt>OleSetClipboard<ept id="p1">**</ept>(<bpt id="p2">**</bpt>null<ept id="p2">**</ept>).</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format.</source>
+          <target state="translated">Query's van het Klembord op de aanwezigheid van gegevens in de <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevensindeling.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`true`</ph> only if the specified data format exists natively on the Clipboard; this method does not check for the presence of auto-convertible data formats.</source>
+          <target state="translated">Deze methode retourneert <ph id="ph1">`true`</ph> alleen als de indeling van de opgegeven systeemeigen op het Klembord bestaat; deze methode wordt niet gecontroleerd op de aanwezigheid van automatisch converteerbaar gegevensindelingen.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Clipboard contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data format; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het Klembord bevat gegevens in de <bpt id="p2">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gegevensindeling; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in a specified data format.</source>
+          <target state="translated">Query uitgevoerd op het Klembord op de aanwezigheid van gegevens in een indeling voor de opgegeven gegevens.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A query for the data format &lt;xref:System.Windows.DataFormats.Bitmap&gt; or &lt;xref:System.Windows.DataFormats.FileDrop&gt; will return <ph id="ph1">`true`</ph> if the data can be automatically converted to the specified data format.</source>
+          <target state="translated">Een query voor de gegevensindeling &lt;xref:System.Windows.DataFormats.Bitmap&gt;of &lt;xref:System.Windows.DataFormats.FileDrop&gt;retourneert <ph id="ph1">`true`</ph> of de gegevens automatisch kan worden geconverteerd naar de opgegeven gegevensindeling.&lt;/xref:System.Windows.DataFormats.FileDrop&gt; &lt;/xref:System.Windows.DataFormats.Bitmap&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For other data formats, this method returns <ph id="ph1">`true`</ph> only if the specified format is available natively on the Clipboard.</source>
+          <target state="translated">Voor andere gegevensopmaak deze methode retourneert <ph id="ph1">`true`</ph> alleen als de opgegeven indeling systeemeigen op het Klembord beschikbaar is.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The format of the data to look for.</source>
+          <target state="translated">De indeling van de gegevens te zoeken.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">Zie <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor vooraf gedefinieerde indelingen.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data in the specified format is available on the Clipboard; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als gegevens in de opgegeven indeling beschikbaar op het Klembord is; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>See Remarks.</source>
+          <target state="translated">Zie de opmerkingen.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format.</source>
+          <target state="translated">Query's van het Klembord op de aanwezigheid van gegevens in de <bpt id="p1">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevensindeling.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`true`</ph> only if the specified data format exists natively or is available as an auto-convertible data format on the Clipboard; this method does not check for the presence of auto-convertible data formats.</source>
+          <target state="translated">Deze methode retourneert <ph id="ph1">`true`</ph> alleen als de indeling van de opgegeven systeemeigen bestaat of beschikbaar als een automatische converteerbaar gegevensindeling op het Klembord is; deze methode wordt niet gecontroleerd op de aanwezigheid van automatisch converteerbaar gegevensindelingen.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Clipboard contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data format; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het Klembord bevat gegevens in de <bpt id="p2">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gegevensindeling; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format.</source>
+          <target state="translated">Query's van het Klembord op de aanwezigheid van gegevens in de <bpt id="p1">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevensindeling.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`true`</ph> only if the specified data format exists natively or is available as an auto-convertible data format on the Clipboard; this method does not check for the presence of auto-convertible data formats.</source>
+          <target state="translated">Deze methode retourneert <ph id="ph1">`true`</ph> alleen als de indeling van de opgegeven systeemeigen bestaat of beschikbaar als een automatische converteerbaar gegevensindeling op het Klembord is; deze methode wordt niet gecontroleerd op de aanwezigheid van automatisch converteerbaar gegevensindelingen.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A bitmap represents a computer graphic as an array of bits in memory, and these bits represent the attributes of the individual pixels in an image.</source>
+          <target state="translated">Een bitmap vertegenwoordigt een afbeelding van de computer als een matrix van bits in het geheugen en deze bits vertegenwoordigen de kenmerken van de afzonderlijke pixels in een afbeelding.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Clipboard contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data format; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het Klembord bevat gegevens in de <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gegevensindeling; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">Query's van het Klembord op de aanwezigheid van gegevens in de <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> indeling.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`true`</ph> only if the specified data format exists natively on the Clipboard; this method does not check for the presence of auto-convertible data formats.</source>
+          <target state="translated">Deze methode retourneert <ph id="ph1">`true`</ph> alleen als de indeling van de opgegeven systeemeigen op het Klembord bestaat; deze methode wordt niet gecontroleerd op de aanwezigheid van automatisch converteerbaar gegevensindelingen.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.DataFormats.UnicodeText&gt; data format denotes 16-bit character encoded Unicode, also referred to as UTF-16, and USC-2.</source>
+          <target state="translated">De &lt;xref:System.Windows.DataFormats.UnicodeText&gt;gegevensindeling geeft teken 16-bits gecodeerde Unicode, ook wel aangeduid als UTF-16 en USC-2.&lt;/xref:System.Windows.DataFormats.UnicodeText&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Clipboard contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data format; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het Klembord bevat gegevens in de <bpt id="p2">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gegevensindeling; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in a text data format.</source>
+          <target state="translated">Het Klembord op de aanwezigheid van gegevens in een tekstindeling gegevens een query.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`true`</ph> only if the specified data format exists natively in the data object; this method does not check for the presence of auto-convertible data formats.</source>
+          <target state="translated">Deze methode retourneert <ph id="ph1">`true`</ph> alleen als de indeling van de opgegeven systeemeigen in het gegevensobject bestaat; deze methode wordt niet gecontroleerd op de aanwezigheid van automatisch converteerbaar gegevensindelingen.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A member of the <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that specifies the text data format to query for.</source>
+          <target state="translated">Een lid van de <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -opsomming die aan de query voor de indeling van de tekst bevat.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Clipboard contains data in the specified text data format; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het Klembord gegevens in de indeling van de opgegeven tekst bevat; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> does not specify a valid member of <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>geeft geen geldig lid van <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Permanently adds the data that is on the <bpt id="p1">&lt;xref href="System.Windows.Clipboard"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> so that it is available after the data's original application closes.</source>
+          <target state="translated">Permanent voegt de gegevens die zich op de <bpt id="p1">&lt;xref href="System.Windows.Clipboard"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zodat deze beschikbaar nadat de gegevens oorspronkelijke toepassing wordt gesloten is.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Returns a stream of Clipboard data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format.</source>
+          <target state="translated">Retourneert een stream van de Klembord-gegevens in de <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevensindeling.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns a stream only if the specified format exists natively in the data object; this method does not return auto-convertible data.</source>
+          <target state="translated">Deze methode retourneert een stroom alleen als de opgegeven indeling systeemeigen voorkomt in het gegevensobject; Deze methode retourneert geen automatische converteerbaar gegevens.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A stream that contains the data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the Clipboard does not contain data in this format.</source>
+          <target state="translated">Een stream met de gegevens in de <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -indeling of <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als het Klembord bevat geen gegevens in deze indeling.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Retrieves data in a specified format from the Clipboard.</source>
+          <target state="translated">Haalt gegevens op in een specifieke indeling van het Klembord.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A string that specifies the format of the data to retrieve.</source>
+          <target state="translated">Een tekenreeks waarmee de indeling van de gegevens moeten worden opgehaald.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For a set of predefined data formats, see the <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Zie voor een reeks vooraf gedefinieerde gegevensopmaak, de <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An object that contains the data in the specified format, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data is unavailable in the specified format.</source>
+          <target state="translated">Een object met de gegevens in de opgegeven indeling of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als de gegevens niet beschikbaar in de opgegeven indeling zijn.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Returns a data object that represents the entire contents of the Clipboard.</source>
+          <target state="translated">Retourneert een gegevensobject met de volledige inhoud van het Klembord.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Access to data on the system Clipboard is enabled through a <bpt id="p1">*</bpt>data object<ept id="p1">*</ept>, that is, an object that implements the &lt;xref:System.Windows.IDataObject&gt; interface.</source>
+          <target state="translated">Toegang tot gegevens op het systeem-Klembord wordt ingeschakeld via een <bpt id="p1">*</bpt>gegevensobject<ept id="p1">*</ept>, dat wil zeggen, een object dat implementeert de &lt;xref:System.Windows.IDataObject&gt;interface.&lt;/xref:System.Windows.IDataObject&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A list of predefined formats is defined by the &lt;xref:System.Windows.DataFormats&gt; class.</source>
+          <target state="translated">Een lijst met vooraf gedefinieerde indelingen wordt gedefinieerd door de &lt;xref:System.Windows.DataFormats&gt;klasse.&lt;/xref:System.Windows.DataFormats&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the methods specified by &lt;xref:System.Windows.IDataObject&gt; and fields in &lt;xref:System.Windows.DataFormats&gt; to examine and extract the data from the data object.</source>
+          <target state="translated">Gebruik de methoden die is opgegeven door &lt;xref:System.Windows.IDataObject&gt;en velden in &lt;xref:System.Windows.DataFormats&gt;om te controleren en de gegevens ophalen uit het gegevensobject.&lt;/xref:System.Windows.DataFormats&gt; &lt;/xref:System.Windows.IDataObject&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To examine the formats of data on the system Clipboard, call &lt;xref:System.Windows.IDataObject.GetFormats%2A&gt; on the data object returned by this method.</source>
+          <target state="translated">Om te controleren van de indelingen van gegevens op het systeem-Klembord, roepen &lt;xref:System.Windows.IDataObject.GetFormats%2A&gt;op het gegevensobject geretourneerd door deze methode.&lt;/xref:System.Windows.IDataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve data from the system Clipboard, call &lt;xref:System.Windows.IDataObject.GetData%2A&gt; and specify the desired data format.</source>
+          <target state="translated">Voor informatie over het ophalen van gegevens uit het systeem Klembord aanroepen &lt;xref:System.Windows.IDataObject.GetData%2A&gt;en geef de gewenste gegevensindeling.&lt;/xref:System.Windows.IDataObject.GetData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The system Clipboard is shared by all applications, so data on the Clipboard is subject to change by other applications.</source>
+          <target state="translated">Het systeem dat Klembord wordt gedeeld door alle toepassingen, zo gegevens op het Klembord kan worden gewijzigd door andere toepassingen.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A data object that enables access to the entire contents of the system Clipboard, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no data on the Clipboard.</source>
+          <target state="translated">Een gegevensobject waarmee toegang tot de volledige inhoud van het systeemklembord of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als er geen gegevens op het Klembord.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Returns a string collection that contains a list of dropped files available on the Clipboard.</source>
+          <target state="translated">Retourneert een string-verzameling die een lijst met verwijderde bestanden die beschikbaar zijn op het Klembord bevat.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A collection of strings, where each string specifies the name of a file in the list of dropped files on the Clipboard, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data is unavailable in this format.</source>
+          <target state="translated">Een verzameling van tekenreeksen, waarbij elke tekenreeks Hiermee geeft u de naam van een bestand in de lijst met verwijderde bestanden op het Klembord of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als de gegevens niet beschikbaar in deze indeling zijn.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from the Clipboard that contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">Retourneert een <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object van het Klembord met gegevens in de <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> indeling.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns a &lt;xref:System.Windows.Media.Imaging.BitmapSource&gt; object, either when data is available natively or when data can be auto-converted to the &lt;xref:System.Windows.DataFormats.Bitmap&gt; data format.</source>
+          <target state="translated">Deze methode retourneert een &lt;xref:System.Windows.Media.Imaging.BitmapSource&gt;object, wanneer gegevens systeemeigen beschikbaar is of wanneer de gegevens kunnen worden automatisch geconverteerd naar de &lt;xref:System.Windows.DataFormats.Bitmap&gt;gegevensindeling.&lt;/xref:System.Windows.DataFormats.Bitmap&gt; &lt;/xref:System.Windows.Media.Imaging.BitmapSource&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A bitmap represents a computer graphic as an array of bits in memory, and these bits represent the attributes of the individual pixels in an image.</source>
+          <target state="translated">Een bitmap vertegenwoordigt een afbeelding van de computer als een matrix van bits in het geheugen en deze bits vertegenwoordigen de kenmerken van de afzonderlijke pixels in een afbeelding.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> format, or <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the data is unavailable in this format.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met gegevens in de <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> -indeling of <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> als de gegevens niet beschikbaar in deze indeling zijn.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Returns a string containing the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data on the Clipboard.</source>
+          <target state="translated">Retourneert een tekenreeks met de <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevens op het Klembord.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.DataFormats.UnicodeText&gt; data format denotes 16-bit character encoded Unicode, also referred to as UTF-16, and UCS-2.</source>
+          <target state="translated">De &lt;xref:System.Windows.DataFormats.UnicodeText&gt;gegevensindeling geeft teken 16-bits gecodeerde Unicode, ook wel aangeduid als UTF-16 en UCS-2.&lt;/xref:System.Windows.DataFormats.UnicodeText&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A string containing the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data , or an empty string if no <bpt id="p2">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data is available on the Clipboard.</source>
+          <target state="translated">Een tekenreeks met de <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevens of een lege tekenreeks als er geen <bpt id="p2">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gegevens zijn beschikbaar op het Klembord.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Returns a string containing text data on the Clipboard.</source>
+          <target state="translated">Retourneert een tekenreeks met tekstgegevens op het Klembord.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A member of <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the text data format to retrieve.</source>
+          <target state="translated">Een lid van <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die aangeeft dat de indeling van de tekst ophalen.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A string containing text data in the specified data format, or an empty string if no corresponding text data is available.</source>
+          <target state="translated">Een tekenreeks met tekstgegevens in de indeling van de opgegeven of een lege tekenreeks als de overeenkomstige tekstgegevens niet beschikbaar.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Compares a specified data object to the contents of the Clipboard.</source>
+          <target state="translated">Vergelijkt een object opgegeven gegevens tot de inhoud van het Klembord.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to determine if a data object that was previously placed on the Clipboard is still present and unmodified.</source>
+          <target state="translated">Gebruik deze methode om te bepalen of een gegevensobject dat eerder is geplaatst op het Klembord nog steeds aanwezig en ongewijzigd is.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A data object to compare to the contents of the system Clipboard.</source>
+          <target state="translated">Een object van de gegevens te vergelijken met de inhoud van het systeem Klembord.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified data object matches what is on the system Clipboard; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het opgegeven gegevensobject overeenkomt met wat er op het systeem-Klembord; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing the Clipboard.</source>
+          <target state="translated">Er is een fout opgetreden bij het openen van het Klembord.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The exception details will include an <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the specific error; see <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">De uitzonderingsdetails bevat een <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die de specifieke fout identificeert; Zie <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Stores audio data (<bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format) on the Clipboard.</source>
+          <target state="translated">Audio-gegevens opslaat (<bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevensindeling) op het Klembord.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The audio data is specified as a byte array.</source>
+          <target state="translated">De audiogegevens is opgegeven als een byte-matrix.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion disabled.</source>
+          <target state="translated">Deze methode worden gegevens toegevoegd met autoconversie uitgeschakeld.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A byte array that contains audio data to store on the Clipboard.</source>
+          <target state="translated">Een bytematrix die audio gegevens op te slaan op het Klembord bevat.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;audioBytes&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;audioBytes&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Stores audio data (<bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format) on the Clipboard.</source>
+          <target state="translated">Audio-gegevens opslaat (<bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevensindeling) op het Klembord.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The audio data is specified as a stream.</source>
+          <target state="translated">De audiogegevens is opgegeven als een stroom.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion disabled.</source>
+          <target state="translated">Deze methode worden gegevens toegevoegd met autoconversie uitgeschakeld.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>A stream that contains audio data to store on the Clipboard.</source>
+          <target state="translated">Een stroom die audio gegevens op te slaan op het Klembord bevat.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;audioStream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;audioStream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Stores the specified data on the Clipboard in the specified format.</source>
+          <target state="translated">De opgegeven gegevens opgeslagen op het Klembord in de opgegeven indeling.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion enabled if the corresponding data format is &lt;xref:System.Windows.DataFormats.FileDrop&gt; or &lt;xref:System.Windows.DataFormats.Bitmap&gt;.</source>
+          <target state="translated">Deze methode worden gegevens toegevoegd met autoconversie ingeschakeld als de bijbehorende gegevensindeling &lt;xref:System.Windows.DataFormats.FileDrop&gt;of &lt;xref:System.Windows.DataFormats.Bitmap&gt;.&lt;/xref:System.Windows.DataFormats.Bitmap&gt; &lt;/xref:System.Windows.DataFormats.FileDrop&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, auto-conversion is disabled.</source>
+          <target state="translated">Anders wordt de automatische omzetting is uitgeschakeld.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A string that specifies the format to use to store the data.</source>
+          <target state="translated">Een tekenreeks die de indeling moet worden gebruikt voor het opslaan van de gegevens aangeeft.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for a set of predefined data formats.</source>
+          <target state="translated">Zie de <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse voor een reeks vooraf gedefinieerde gegevensopmaak.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An object representing the data to store on the Clipboard.</source>
+          <target state="translated">Een object representatie van de gegevens op te slaan op het Klembord.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Places a specified non-persistent data object on the system Clipboard.</source>
+          <target state="translated">Een object opgegeven niet-permanente gegevens op het systeem-Klembord geplaatst.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, data placed on the system Clipboard with &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt; is automatically cleared from the Clipboard when the application exits.</source>
+          <target state="translated">Standaard gegevens op het systeem-Klembord geplaatst met &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt;automatisch van het Klembord wordt gewist wanneer de toepassing wordt afgesloten.&lt;/xref:System.Windows.Clipboard.SetDataObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The default behavior of clearing the Clipboard on application exit might differ from other implementations, which might leave data on the Clipboard on application exit rather than clearing it by default.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Het standaardgedrag van het Klembord op het afsluiten van de toepassing uit te schakelen kan verschillen van andere implementaties, die mogelijk gegevens op het Klembord op het afsluiten van de toepassing in plaats van uit te schakelen standaard blijven staan.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt; overload and specify the <ph id="ph1">`copy`</ph> parameter as <ph id="ph2">`true`</ph> if you do not want data cleared from the Clipboard on application exit.</source>
+          <target state="translated">Gebruik de &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt;overbelasting en geef de <ph id="ph1">`copy`</ph> parameter als <ph id="ph2">`true`</ph> als u niet dat gegevens van het Klembord op de toepassing afsluiten gewist wilt.&lt;/xref:System.Windows.Clipboard.SetDataObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  &lt;xref:System.Windows.DataObject&gt; provides a basic implementation of the &lt;xref:System.Windows.IDataObject&gt; interface.</source>
+          <target state="translated">&gt;&gt; &lt;xref:System.Windows.DataObject&gt;biedt een eenvoudige implementatie van de &lt;xref:System.Windows.IDataObject&gt;interface.&lt;/xref:System.Windows.IDataObject&gt; &lt;/xref:System.Windows.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A data object (an object that implements <bpt id="p1">&lt;xref href="System.Windows.IDataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) to place on the system Clipboard.</source>
+          <target state="translated">Een gegevensobject (een object dat wordt geïmplementeerd <bpt id="p1">&lt;xref href="System.Windows.IDataObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>) om op het systeem-Klembord te plaatsen.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing the Clipboard.</source>
+          <target state="translated">Er is een fout opgetreden bij het openen van het Klembord.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The exception details will include an <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the specific error; see <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">De uitzonderingsdetails bevat een <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die de specifieke fout identificeert; Zie <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Places a specified data object on the system Clipboard and accepts a Boolean parameter that indicates whether the data object should be left on the Clipboard when the application exits.</source>
+          <target state="translated">Een object opgegeven gegevens op het systeem-Klembord geplaatst en accepteert een Boole-parameter die aangeeft of het gegevensobject op het Klembord blijven moet wanneer de toepassing wordt afgesloten.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.DataObject&gt; provides a basic implementation of the &lt;xref:System.Windows.IDataObject&gt; interface.</source>
+          <target state="translated">&lt;xref:System.Windows.DataObject&gt;biedt een eenvoudige implementatie van de &lt;xref:System.Windows.IDataObject&gt;interface.&lt;/xref:System.Windows.IDataObject&gt;&lt;/xref:System.Windows.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Clipboard.IsCurrent%2A&gt; determines the data object previously placed on the clipboard by the last &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt; call.</source>
+          <target state="translated">&lt;xref:System.Windows.Clipboard.IsCurrent%2A&gt;bepaalt het gegevensobject eerder geplaatst op het Klembord op de laatste &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt;aanroepen.&lt;/xref:System.Windows.Clipboard.SetDataObject%2A&gt;&lt;/xref:System.Windows.Clipboard.IsCurrent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>A data object (an object that implements <bpt id="p1">&lt;xref href="System.Windows.IDataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) to place on the system Clipboard.</source>
+          <target state="translated">Een gegevensobject (een object dat wordt geïmplementeerd <bpt id="p1">&lt;xref href="System.Windows.IDataObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>) om op het systeem-Klembord te plaatsen.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to leave the data on the system Clipboard when the application exits; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to clear the data from the system Clipboard when the application exits.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>de gegevens op het systeem Klembord verlaten wanneer de toepassing wordt afgesloten. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> de gegevens uit het systeem Klembord wissen wanneer de toepassing wordt afgesloten.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>An error occured when accessing the Clipboard.</source>
+          <target state="translated">Er is een fout opgetreden bij het openen van het Klembord.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The exception details will include an <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the specific error; see <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">De uitzonderingsdetails bevat een <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die de specifieke fout identificeert; Zie <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Stores <bpt id="p1">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data on the Clipboard.</source>
+          <target state="translated">Winkels <bpt id="p1">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevens op het Klembord.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The dropped file list is specified as a string collection.</source>
+          <target state="translated">De lijst verwijderd bestand is opgegeven als een tekenreeks-verzameling.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion enabled.</source>
+          <target state="translated">Deze methode worden gegevens toegevoegd met autoconversie ingeschakeld.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A string collection that contains the dropped file list to store in the data object.</source>
+          <target state="translated">Een verzameling van het type tekenreeks met de lijst verwijderd bestand op te slaan in het gegevensobject.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileDropList&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileDropList&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileDropList&lt;/code&gt;</ph> contains zero strings, or the full path to file specified in the list cannot be resolved.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileDropList&lt;/code&gt;</ph>bevat nul tekenreeksen, of het volledige pad naar het bestand dat is opgegeven in de lijst kan niet worden omgezet.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Stores <bpt id="p1">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data on the Clipboard.</source>
+          <target state="translated">Winkels <bpt id="p1">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevens op het Klembord.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The image data is specified as a <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De afbeeldingsgegevens is opgegeven als een <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A bitmap represents a computer graphic as an array of bits in memory, and these bits represent the attributes of the individual pixels in an image.</source>
+          <target state="translated">Een bitmap vertegenwoordigt een afbeelding van de computer als een matrix van bits in het geheugen en deze bits vertegenwoordigen de kenmerken van de afzonderlijke pixels in een afbeelding.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion enabled.</source>
+          <target state="translated">Deze methode worden gegevens toegevoegd met autoconversie ingeschakeld.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the image data to store on the Clipboard.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -object dat de gegevens van de installatiekopie op te slaan op het Klembord bevat.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Stores <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data on the Clipboard.</source>
+          <target state="translated">Winkels <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevens op het Klembord.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This data format denotes 16-bit character encoded Unicode, also referred to as UTF-16, and UCS-2.</source>
+          <target state="translated">De indeling van deze gegevens geeft teken 16-bits gecodeerde Unicode, ook wel aangeduid als UTF-16 en UCS-2.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion disabled.</source>
+          <target state="translated">Deze methode worden gegevens toegevoegd met autoconversie uitgeschakeld.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>A string that contains the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data to store on the Clipboard.</source>
+          <target state="translated">Een tekenreeks met de <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevens worden opgeslagen op het Klembord.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;text&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;text&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Stores text data on the Clipboard in a specified text data format.</source>
+          <target state="translated">Slaat gegevens op het Klembord in een gegevensindeling van de opgegeven tekst.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data to store is specified as a string.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gegevens worden opgeslagen als een tekenreeks is opgegeven.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion disabled.</source>
+          <target state="translated">Deze methode worden gegevens toegevoegd met autoconversie uitgeschakeld.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A string that contains the text data to store on the Clipboard.</source>
+          <target state="translated">Een tekenreeks waarin de gegevens op te slaan op het Klembord.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>A member of <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the specific text data format to store.</source>
+          <target state="translated">Een lid van <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die aangeeft dat de indeling van de specifieke tekst om op te slaan.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;text&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;text&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

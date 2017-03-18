@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c49f0e1be87f960b7dfcf7d811ca0b2f625045e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Rfc2898DeriveBytes.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a6a9f209f8390dfc2a467b0d3d7c3200a0fe6241</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8c70f348fc116936174057b69bfe07f4c9d5fd90</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements password-based key derivation functionality, PBKDF2, by using a pseudo-random number generator based on <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Implementa baseada em senha da chave funcionalidade de derivação, PBKDF2, usando um gerador de número pseudoaleatório com base em <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rfc2898DeriveBytes takes a password, a salt, and an iteration count, and then generates keys through calls to the &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes.GetBytes%2A&gt; method.</source>
+          <target state="translated">Rfc2898DeriveBytes usa uma senha, um valor falso e um número de iteração e, em seguida, gera chaves por meio de chamadas para o &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes.GetBytes%2A&gt;método.&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes.GetBytes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 inclui métodos para criar um vetor de chave e de inicialização (IV) de uma senha e um valor falso.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">Você pode usar PBKDF2, uma função de derivação de chaves com base em senha, para gerar chaves usando uma função pseudo-aleatório que permita que as chaves de comprimento praticamente ilimitada para ser gerado.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Rfc2898DeriveBytes class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">A classe Rfc2898DeriveBytes pode ser usada para gerar uma chave derivada de uma chave de base e outros parâmetros.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">Em uma função de derivação de chaves com base em senha, a chave de base é uma senha e os outros parâmetros são um valor falso e um número de iteração.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about PBKDF2, see RFC 2898, "PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre PBKDF2, consulte RFC 2898 "PKCS #5: baseada em senha Cryptography Specification Version 2.0," disponível no <bpt id="p1">[</bpt>de comentários Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">Consulte a seção 5.2, "PBKDF2" para obter detalhes completos.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nunca codificar uma senha em seu código-fonte.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Senhas codificadas podem ser recuperadas de um assembly usando o <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, usando um editor hexadecimal ou, simplesmente abrindo o assembly em um editor de texto como Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a password and salt to derive the key.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> usando uma senha e um valor falso para derivar a chave de classe.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The salt size must be 8 bytes or larger.</source>
+          <target state="translated">O tamanho de salt deve ser 8 bytes ou maior.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 inclui métodos para criar um vetor de chave e de inicialização (IV) de uma senha e um valor falso.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">Você pode usar PBKDF2, uma função de derivação de chaves com base em senha, para gerar chaves usando uma função pseudo-aleatório que permita que as chaves de comprimento praticamente ilimitada para ser gerado.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">O &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;classe pode ser usada para gerar uma chave derivada de uma chave de base e outros parâmetros.&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">Em uma função de derivação de chaves com base em senha, a chave de base é uma senha e os outros parâmetros são um valor falso e um número de iteração.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about PBKDF2, see RFC 2898, "PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre PBKDF2, consulte RFC 2898 "PKCS #5: baseada em senha Cryptography Specification Version 2.0," disponível no <bpt id="p1">[</bpt>de comentários Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">Consulte a seção 5.2, "PBKDF2" para obter detalhes completos.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nunca codificar uma senha em seu código-fonte.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Senhas codificadas podem ser recuperadas de um assembly usando o <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, usando um editor hexadecimal ou, simplesmente abrindo o assembly em um editor de texto como Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The password used to derive the key.</source>
+          <target state="translated">A senha usada para derivar a chave.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The key salt used to derive the key.</source>
+          <target state="translated">O salt chave usado para derivar a chave.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes or the iteration count is less than 1.</source>
+          <target state="translated">O tamanho de salt especificado é menor do que 8 bytes ou a contagem de iterações for menor que 1.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The password or salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A senha ou salt está <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the password and salt size to derive the key.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> usando a senha e o tamanho de salt para derivar a chave de classe.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The salt size must be 8 bytes or larger.</source>
+          <target state="translated">O tamanho de salt deve ser 8 bytes ou maior.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 inclui métodos para criar um vetor de chave e de inicialização (IV) de uma senha e um valor falso.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">Você pode usar PBKDF2, uma função de derivação de chaves com base em senha, para gerar chaves usando uma função pseudo-aleatório que permita que as chaves de comprimento praticamente ilimitada para ser gerado.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">O &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;classe pode ser usada para gerar uma chave derivada de uma chave de base e outros parâmetros.&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">Em uma função de derivação de chaves com base em senha, a chave de base é uma senha e os outros parâmetros são um valor falso e um número de iteração.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about PBKDF2, see RFC 2898, "PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre PBKDF2, consulte RFC 2898 "PKCS #5: baseada em senha Cryptography Specification Version 2.0," disponível no <bpt id="p1">[</bpt>de comentários Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">Consulte a seção 5.2, "PBKDF2" para obter detalhes completos.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nunca codificar uma senha em seu código-fonte.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Senhas codificadas podem ser recuperadas de um assembly usando o <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, usando um editor hexadecimal ou, simplesmente abrindo o assembly em um editor de texto como Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The password used to derive the key.</source>
+          <target state="translated">A senha usada para derivar a chave.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The size of the random salt that you want the class to generate.</source>
+          <target state="translated">O tamanho do salt aleatório que você deseja gerar a classe.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes.</source>
+          <target state="translated">O tamanho de salt especificado é menor do que 8 bytes.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The password or salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A senha ou salt está <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a password, a salt, and number of iterations to derive the key.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> usando uma senha, um valor falso e o número de iterações para derivar a chave de classe.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The salt size must be 8 bytes or larger and the iteration count must be greater than zero.</source>
+          <target state="translated">O tamanho de salt deve ser 8 bytes ou maior e a contagem de iteração deve ser maior que zero.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The minimum recommended number of iterations is 1000.</source>
+          <target state="translated">O número mínimo recomendado de iterações é 1000.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 inclui métodos para criar um vetor de chave e de inicialização (IV) de uma senha e um valor falso.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">Você pode usar PBKDF2, uma função de derivação de chaves com base em senha, para gerar chaves usando uma função pseudo-aleatório que permita que as chaves de comprimento praticamente ilimitada para ser gerado.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">O &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;classe pode ser usada para gerar uma chave derivada de uma chave de base e outros parâmetros.&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">Em uma função de derivação de chaves com base em senha, a chave de base é uma senha e os outros parâmetros são um valor falso e um número de iteração.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about PBKDF2, see RFC 2898, "PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre PBKDF2, consulte RFC 2898 "PKCS #5: baseada em senha Cryptography Specification Version 2.0," disponível no <bpt id="p1">[</bpt>de comentários Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">Consulte a seção 5.2, "PBKDF2" para obter detalhes completos.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nunca codificar uma senha em seu código-fonte.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Senhas codificadas podem ser recuperadas de um assembly usando o <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, usando um editor hexadecimal ou, simplesmente abrindo o assembly em um editor de texto como Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The password used to derive the key.</source>
+          <target state="translated">A senha usada para derivar a chave.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The key salt used to derive the key.</source>
+          <target state="translated">O salt chave usado para derivar a chave.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The number of iterations for the operation.</source>
+          <target state="translated">O número de iterações para a operação.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes or the iteration count is less than 1.</source>
+          <target state="translated">O tamanho de salt especificado é menor do que 8 bytes ou a contagem de iterações for menor que 1.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The password or salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A senha ou salt está <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a password, a salt, and number of iterations to derive the key.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> usando uma senha, um valor falso e o número de iterações para derivar a chave de classe.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The salt size must be 8 bytes or larger and the iteration count must be greater than zero.</source>
+          <target state="translated">O tamanho de salt deve ser 8 bytes ou maior e a contagem de iteração deve ser maior que zero.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The minimum recommended number of iterations is 1000.</source>
+          <target state="translated">O número mínimo recomendado de iterações é 1000.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 inclui métodos para criar um vetor de chave e de inicialização (IV) de uma senha e um valor falso.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">Você pode usar PBKDF2, uma função de derivação de chaves com base em senha, para gerar chaves usando uma função pseudo-aleatório que permita que as chaves de comprimento praticamente ilimitada para ser gerado.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">O &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;classe pode ser usada para gerar uma chave derivada de uma chave de base e outros parâmetros.&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">Em uma função de derivação de chaves com base em senha, a chave de base é uma senha e os outros parâmetros são um valor falso e um número de iteração.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about PBKDF2, see RFC 2898, "PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre PBKDF2, consulte RFC 2898 "PKCS #5: baseada em senha Cryptography Specification Version 2.0," disponível no <bpt id="p1">[</bpt>de comentários Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">Consulte a seção 5.2, "PBKDF2" para obter detalhes completos.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nunca codificar uma senha em seu código-fonte.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Senhas codificadas podem ser recuperadas de um assembly usando o <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, usando um editor hexadecimal ou, simplesmente abrindo o assembly em um editor de texto como Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The password used to derive the key.</source>
+          <target state="translated">A senha usada para derivar a chave.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The key salt used to derive the key.</source>
+          <target state="translated">O salt chave usado para derivar a chave.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The number of iterations for the operation.</source>
+          <target state="translated">O número de iterações para a operação.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes or the iteration count is less than 1.</source>
+          <target state="translated">O tamanho de salt especificado é menor do que 8 bytes ou a contagem de iterações for menor que 1.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The password or salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A senha ou salt está <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a password, a salt size, and number of iterations to derive the key.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> usando uma senha, um tamanho de salt e o número de iterações para derivar a chave de classe.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The salt size must be 8 bytes or larger and the iteration count must be greater than zero.</source>
+          <target state="translated">O tamanho de salt deve ser 8 bytes ou maior e a contagem de iteração deve ser maior que zero.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The minimum recommended number of iterations is 1000.</source>
+          <target state="translated">O número mínimo recomendado de iterações é 1000.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RFC 2898 includes methods for creating a key and initialization vector (IV) from a password and salt.</source>
+          <target state="translated">RFC 2898 inclui métodos para criar um vetor de chave e de inicialização (IV) de uma senha e um valor falso.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use PBKDF2, a password-based key derivation function, to derive keys using a pseudo-random function that allows keys of virtually unlimited length to be generated.</source>
+          <target state="translated">Você pode usar PBKDF2, uma função de derivação de chaves com base em senha, para gerar chaves usando uma função pseudo-aleatório que permita que as chaves de comprimento praticamente ilimitada para ser gerado.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class can be used to produce a derived key from a base key and other parameters.</source>
+          <target state="translated">O &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;classe pode ser usada para gerar uma chave derivada de uma chave de base e outros parâmetros.&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a password-based key derivation function, the base key is a password and the other parameters are a salt value and an iteration count.</source>
+          <target state="translated">Em uma função de derivação de chaves com base em senha, a chave de base é uma senha e os outros parâmetros são um valor falso e um número de iteração.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on PBKDF2, see RFC 2898,"PKCS #5: Password-Based Cryptography Specification Version 2.0," available on the <bpt id="p1">[</bpt>Request for Comments Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre PBKDF2, consulte RFC 2898 "PKCS n º 5: Password-Based Cryptography Specification Version 2.0," disponível no <bpt id="p1">[</bpt>de comentários Web site<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=37119)</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See section 5.2, "PBKDF2," for complete details.</source>
+          <target state="translated">Consulte a seção 5.2, "PBKDF2" para obter detalhes completos.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard-code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nunca codificar uma senha em seu código-fonte.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly by using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, by using a hexadecimal editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Senhas codificadas podem ser recuperadas de um assembly usando o <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, usando um editor hexadecimal ou, simplesmente abrindo o assembly em um editor de texto como Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The password used to derive the key.</source>
+          <target state="translated">A senha usada para derivar a chave.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The size of the random salt that you want the class to generate.</source>
+          <target state="translated">O tamanho do salt aleatório que você deseja gerar a classe.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The number of iterations for the operation.</source>
+          <target state="translated">O número de iterações para a operação.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes or the iteration count is less than 1.</source>
+          <target state="translated">O tamanho de salt especificado é menor do que 8 bytes ou a contagem de iterações for menor que 1.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The password or salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A senha ou salt está <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;iterations &lt;/code&gt;</ph>is out of range.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;iterations &lt;/code&gt;</ph>está fora do intervalo.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This parameter requires a non-negative number.</source>
+          <target state="translated">Este parâmetro requer um número negativo.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Derives a cryptographic key from the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Derive uma chave criptográfica do <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This function is a wrapper for the Crypto API function CryptDeriveKey(), and is intended to offer interoperability with applications using the Crypto API.</source>
+          <target state="translated">Essa função é um wrapper para a função de API de criptografia CryptDeriveKey() e pretende oferecer interoperabilidade com aplicativos usando a API de criptografia.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`keySize`</ph> parameter is set to 0 bits, the default key size for the specified algorithm is used.</source>
+          <target state="translated">Se o <ph id="ph1">`keySize`</ph> parâmetro for definido como 0 bits, o tamanho de chave padrão para o algoritmo especificado será usado.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The algorithm name for which to derive the key.</source>
+          <target state="translated">O nome do algoritmo para a qual derivar a chave.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The hash algorithm name to use to derive the key.</source>
+          <target state="translated">O nome do algoritmo de hash a ser usado para derivar a chave.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The size of the key, in bits, to derive.</source>
+          <target state="translated">O tamanho da chave em bits, derivar.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The initialization vector (IV) to use to derive the key.</source>
+          <target state="translated">O vetor de inicialização (IV) a ser usado para derivar a chave.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The derived key.</source>
+          <target state="translated">A chave derivada.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keySize</ph><ept id="p1">&lt;/code&gt;</ept> parameter is incorrect.</source>
+          <target state="translated">O <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keySize</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro está incorreto.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-or-       The cryptographic service provider (CSP) cannot be acquired.</source>
+          <target state="translated">- ou - não é possível obter o provedor de serviços de criptografia (CSP).</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">algname</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid algorithm name.</source>
+          <target state="translated">- ou - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">algname</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro não é um nome de algoritmo válido.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">alghashname</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid hash algorithm name.</source>
+          <target state="translated">- ou - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">alghashname</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro não é um nome de algoritmo de hash válido.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and optionally releases the managed resources.</source>
+          <target state="translated">Libera os recursos não gerenciados usados pelo <bpt id="p1">&lt;xref href="System.Security.Cryptography.Rfc2898DeriveBytes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe e, opcionalmente, libera os recursos gerenciados.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the <ph id="ph2">`Finalize`</ph> method.</source>
+          <target state="translated">Este método é chamado pelo público <ph id="ph1">`Dispose()`</ph> método e o <ph id="ph2">`Finalize`</ph> método.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>invoca o protegido <ph id="ph2">`Dispose(Boolean)`</ph> método com o <ph id="ph3">`disposing`</ph> parâmetro definido como <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Finalize`</ph> invokes <ph id="ph2">`Dispose`</ph> with <ph id="ph3">`disposing`</ph> set to <ph id="ph4">`false`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Finalize`</ph>invoca <ph id="ph2">`Dispose`</ph> com <ph id="ph3">`disposing`</ph> definido como <ph id="ph4">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; references.</source>
+          <target state="translated">Quando o <ph id="ph1">`disposing`</ph> parâmetro é <ph id="ph2">`true`</ph>, esse método libera todos os recursos mantidos por qualquer objeto gerenciado que este &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;referências.&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Este método chama o <ph id="ph1">`Dispose()`</ph> método de cada objeto referenciado.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para liberar recursos gerenciados e não gerenciados; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para liberar apenas recursos não gerenciados.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Returns the pseudo-random key for this object.</source>
+          <target state="translated">Retorna a chave pseudo-aleatório para este objeto.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class implements PBKDF2 functionality by using a pseudorandom number generator based on &lt;xref:System.Security.Cryptography.HMACSHA1&gt;.</source>
+          <target state="translated">A &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;classe implementa funcionalidade PBKDF2 usando um gerador de números pseudoaleatórios com base em &lt;xref:System.Security.Cryptography.HMACSHA1&gt;.&lt;/xref:System.Security.Cryptography.HMACSHA1&gt; &lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt; class takes a password, a salt, and an iteration count, and then generates keys through calls to the GetBytes method.</source>
+          <target state="translated">O &lt;xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;classe usa uma senha, um valor falso e um número de iteração e, em seguida, gera chaves por meio de chamadas para o método GetBytes.&lt;/xref:System.Security.Cryptography.Rfc2898DeriveBytes&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Repeated calls to this method will not generate the same key; instead, appending two calls of the GetBytes method with a <ph id="ph1">`cb`</ph> parameter value of <ph id="ph2">`20`</ph> is the equivalent of calling the GetBytes method once with a <ph id="ph3">`cb`</ph> parameter value of <ph id="ph4">`40`</ph>.</source>
+          <target state="translated">Chamadas repetidas para este método não irá gerar a mesma chave; em vez disso, acrescentando duas chamadas do método GetBytes com um <ph id="ph1">`cb`</ph> valor de parâmetro de <ph id="ph2">`20`</ph> é o equivalente a chamar o método GetBytes uma vez com um <ph id="ph3">`cb`</ph> valor de parâmetro de <ph id="ph4">`40`</ph>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The number of pseudo-random key bytes to generate.</source>
+          <target state="translated">O número de bytes de chave pseudo-aleatório para gerar.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A byte array filled with pseudo-random key bytes.</source>
+          <target state="translated">Uma matriz de bytes é preenchida com pseudo-aleatório bytes de chave.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;cb &lt;/code&gt;</ph>is out of range.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;cb &lt;/code&gt;</ph>está fora do intervalo.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This parameter requires a non-negative number.</source>
+          <target state="translated">Este parâmetro requer um número negativo.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of iterations for the operation.</source>
+          <target state="translated">Obtém ou define o número de iterações para a operação.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Iteration count is the number of times an operation is performed.</source>
+          <target state="translated">Contagem de iteração é o número de vezes que uma operação é executada.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For this method, the count should be greater than zero.</source>
+          <target state="translated">Para esse método, a contagem deve ser maior que zero.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The minimum recommended number of iterations is 1000.</source>
+          <target state="translated">O número mínimo recomendado de iterações é 1000.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The number of iterations for the operation.</source>
+          <target state="translated">O número de iterações para a operação.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The number of iterations is less than 1.</source>
+          <target state="translated">O número de iterações é menor que 1.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Resets the state of the operation.</source>
+          <target state="translated">Redefine o estado da operação.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is automatically called if the salt or iteration count is modified.</source>
+          <target state="translated">Esse método é chamado automaticamente se a contagem de iteração salt é modificada.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets or sets the key salt value for the operation.</source>
+          <target state="translated">Obtém ou define o valor de sal chave para a operação.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Salt, a random set of bytes, is used to make unauthorized decrypting of a message more difficult.</source>
+          <target state="translated">Salt, um conjunto aleatório de bytes, é usado para fazer a descriptografia não autorizado de uma mensagem mais difícil.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A dictionary attack is an attack in which the attacker attempts to decrypt an encrypted message by comparing the encrypted value with previously computed encrypted values for the most likely keys.</source>
+          <target state="translated">Um ataque de dicionário é um ataque em que o invasor tenta descriptografar uma mensagem criptografada, comparando o valor criptografado com valores criptografados anteriormente computados para as chaves mais prováveis.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This attack is made much more difficult by the introduction of salt, or random bytes, at the end of the password before the key derivation.</source>
+          <target state="translated">Esse ataque torna muito mais difícil pela introdução de sal ou aleatórios bytes, no final da senha antes da derivação de chaves.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The key salt value for the operation.</source>
+          <target state="translated">O valor de sal chave para a operação.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The specified salt size is smaller than 8 bytes.</source>
+          <target state="translated">O tamanho de salt especificado é menor do que 8 bytes.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The salt is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O salt é <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
