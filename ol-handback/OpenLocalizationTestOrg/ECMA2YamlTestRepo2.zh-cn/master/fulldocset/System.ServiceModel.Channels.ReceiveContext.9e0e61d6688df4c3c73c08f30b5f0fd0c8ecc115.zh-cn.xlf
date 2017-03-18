@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">621528a6d5c7466f901525d02d087cfc39428b0d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Channels.ReceiveContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3529c3e8e39b351b2eccf893dd2115fc58c7881a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bad1d1f5b3c8c70236dfb617d97e941d6f919966</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Derive from this class to implement a custom state machine for receive context functionality.</source>
+          <target state="translated">派生自该类可以实现一个自定义状态机针对接收上下文功能。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Receive context functionality is two-fold.</source>
+          <target state="translated">接收上下文功能具有二重性。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>When working with a queued channel, receive context allows you to lock a message prior to processing it.</source>
+          <target state="translated">在使用队列通道时，接收上下文将让你锁定之前对其进行处理的消息。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If a failure occurs, the message remains locked so that the service that is processing the message maintains ownership (another service cannot receive and process the same message) and may choose to perform some other action on it.</source>
+          <target state="translated">如果发生故障，以便处理消息的服务能够保持的所有权 （另一个服务无法接收和处理同一消息） 将保持锁定状态消息，可以选择对它执行一些其他操作。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When working with a one-way channel, receive context allows a service to control when it sends an acknowledgement message or it can indicate a problem by sending a negative acknowledgement message.</source>
+          <target state="translated">在使用单向通道时，接收上下文允许服务，以控制当它发送确认消息或它可能通过发送否定确认消息中指示的问题。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The client can then choose to resend the message if it receives a negative acknowledgement or if it does not receive an acknowledgement within a certain period of time.</source>
+          <target state="translated">客户端然后可以选择重新发送消息，如果它收到否定确认或者如果未收到确认在一段时间内。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.ReceiveContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ServiceModel.Channels.ReceiveContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Causes the state machine to transition to the abandoned state with the specified timeout value.</source>
+          <target state="translated">使状态机转换到放弃状态带指定的超时值。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">若要完成的放弃操作超时。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Causes the state machine to transition to the abandoned state with the specified exception and timeout value.</source>
+          <target state="translated">使用指定的异常和超时值将导致状态机转换到放弃状态。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The exception that causes the abandon operation.</source>
+          <target state="translated">导致放弃操作的异常。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">若要完成的放弃操作超时。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous abandon operation with the specified  timeout, asynchronous callback, and user-defined state data.</source>
+          <target state="translated">开始异步放弃操作使用指定的超时、 异步回调和用户定义的状态数据。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">若要完成的放弃操作超时。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">接收异步操作完成通知的异步回调委托。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The user-defined state data.</source>
+          <target state="translated">用户定义状态数据。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IAsyncResult&gt; that references the asynchronous abandon operation.</source>
+          <target state="translated">A&lt;xref:System.IAsyncResult&gt;引用异步放弃操作。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous abandon operation with the specified exception, timeout, asynchronous callback, and user-defined state data.</source>
+          <target state="translated">开始异步放弃操作使用指定的异常、 超时、 异步回调和用户定义的状态数据。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An exception that contains the reason for the abandon operation.</source>
+          <target state="translated">包含的放弃操作的原因的异常。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">若要完成的放弃操作超时。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">接收异步操作完成通知的异步回调委托。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>the user-defined state data.</source>
+          <target state="translated">用户定义状态数据。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that references the asynchronous abandon operation.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;引用异步放弃操作。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous complete operation with the specified  timeout, asynchronous callback, and user-defined state data.</source>
+          <target state="translated">开始异步完成操作使用指定的超时、 异步回调和用户定义的状态数据。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The timeout for the complete operation to complete.</source>
+          <target state="translated">若要完成的完成操作超时。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">接收异步操作完成通知的异步回调委托。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The user-defined state data.</source>
+          <target state="translated">用户定义状态数据。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IAsyncResult&gt; that references the asynchronous complete operation.</source>
+          <target state="translated">A&lt;xref:System.IAsyncResult&gt;引用异步完成操作。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Causes the state machine to transition to the completed state with the specified timeout value.</source>
+          <target state="translated">使状态机转换到已完成状态带指定的超时值。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The timeout for the complete operation to complete.</source>
+          <target state="translated">若要完成的完成操作超时。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Completes an asynchronous abandon operation.</source>
+          <target state="translated">完成异步放弃操作。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to one of the &lt;xref:System.ServiceModel.Activities.WorkflowControlClient.BeginAbandon*&gt; methods.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;之一调用所返回&lt;xref:System.ServiceModel.Activities.WorkflowControlClient.BeginAbandon*&gt;方法。&lt;/xref:System.ServiceModel.Activities.WorkflowControlClient.BeginAbandon*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Completes an asynchronous complete operation.</source>
+          <target state="translated">完成异步完成操作。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to the &lt;xref:System.ServiceModel.Channels.ReceiveContext.BeginComplete*&gt; method.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;返回通过调用&lt;xref:System.ServiceModel.Channels.ReceiveContext.BeginComplete*&gt;方法。&lt;/xref:System.ServiceModel.Channels.ReceiveContext.BeginComplete*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Causes the state machine to transition to the faulted state.</source>
+          <target state="translated">使状态机转换到出错状态。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Defines the event to raised when an exception has occurred during the messaging process.</source>
+          <target state="translated">定义要在消息传递过程中出现了异常时引发的事件。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The name of the receive context.</source>
+          <target state="translated">接收上下文的名称。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the abandoned state with the specified timeout value.</source>
+          <target state="translated">状态机转换到带指定的超时值的放弃状态时调用。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">若要完成的放弃操作超时。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the abandoned state with the specified exception and timeout value.</source>
+          <target state="translated">状态机转换到带指定的异常和超时值的放弃状态时调用。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An exception that contains the reason for the abandon operation.</source>
+          <target state="translated">包含的放弃操作的原因的异常。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">若要完成的放弃操作超时。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the abandoned state asynchronously with the specified timeout value, callback, and state data.</source>
+          <target state="translated">状态机转换到带指定的超时值、 回调和状态数据以异步方式的放弃状态时调用。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">若要完成的放弃操作超时。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">接收异步操作完成通知的异步回调委托。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The user defined state data.</source>
+          <target state="translated">用户定义状态数据。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IAsyncResult&gt; that references the asynchronous operation.</source>
+          <target state="translated">A&lt;xref:System.IAsyncResult&gt;引用异步操作。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the abandoned state asynchronously with the specified exception, timeout value, callback, and state data.</source>
+          <target state="translated">状态机转换到放弃状态以异步方式与指定的异常、 超时值、 回调和状态数据时调用。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An exception that contains the reason for the abandon operation.</source>
+          <target state="translated">包含的放弃操作的原因的异常。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">若要完成的放弃操作超时。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">接收异步操作完成通知的异步回调委托。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The user-defined state data.</source>
+          <target state="translated">用户定义状态数据。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IAsyncResult&gt; that references the asynchronous operation.</source>
+          <target state="translated">A&lt;xref:System.IAsyncResult&gt;引用异步操作。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the completed state asynchronously with the specified timeout, callback, and state data.</source>
+          <target state="translated">状态机转换到带指定超时值、 回调和状态数据以异步方式完成状态时调用。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The timeout for the complete operation to complete.</source>
+          <target state="translated">若要完成的完成操作超时。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">接收异步操作完成通知的异步回调委托。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The user-defined state data.</source>
+          <target state="translated">用户定义状态数据。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IAsyncResult&gt; that references the asynchronous operation.</source>
+          <target state="translated">A&lt;xref:System.IAsyncResult&gt;引用异步操作。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the completed state with the specified timeout value.</source>
+          <target state="translated">状态机转换到带指定的超时值的完成状态时调用。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The timeout for the complete operation to complete.</source>
+          <target state="translated">若要完成的完成操作超时。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the abandoned state asynchronously.</source>
+          <target state="translated">当状态机异步转换到放弃状态时调用。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to one of the &lt;xref:System.ServiceModel.Channels.ReceiveContext.OnBeginAbandon*&gt; methods.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;之一调用所返回&lt;xref:System.ServiceModel.Channels.ReceiveContext.OnBeginAbandon*&gt;方法。&lt;/xref:System.ServiceModel.Channels.ReceiveContext.OnBeginAbandon*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the completed state asynchronously.</source>
+          <target state="translated">当状态机异步转换到已完成状态时调用。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to the &lt;xref:System.ServiceModel.Channels.ReceiveContext.OnBeginComplete*&gt;</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;返回通过调用&lt;xref:System.ServiceModel.Channels.ReceiveContext.OnBeginComplete*&gt;&lt;/xref:System.ServiceModel.Channels.ReceiveContext.OnBeginComplete*&gt;&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the faulted state.</source>
+          <target state="translated">状态机转换到出错状态时调用。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets or sets the state of the state machine.</source>
+          <target state="translated">获取或设置状态机的状态。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The current receive context state of the state machine.</source>
+          <target state="translated">当前接收上下文状态的状态机。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An object used for locking the <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.ReceiveContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">用于锁定的对象<bpt id="p1">&lt;xref href="System.ServiceModel.Channels.ReceiveContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>实例。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object&gt;.</source>
+          <target state="translated">&lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Attempts to get the receive context from the specified message.</source>
+          <target state="translated">尝试从指定的消息获取接收上下文。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The message.</source>
+          <target state="translated">消息。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The receive context.</source>
+          <target state="translated">接收上下文。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the receive context is retrieved successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果成功，则检索接收上下文否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Attempts to get the receive context from the specified message properties collection.</source>
+          <target state="translated">尝试从指定的消息属性集合获取接收上下文。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The message properties collection.</source>
+          <target state="translated">消息属性集合。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The receive context.</source>
+          <target state="translated">接收上下文。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the receive context is retrieved successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果成功，则检索接收上下文否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

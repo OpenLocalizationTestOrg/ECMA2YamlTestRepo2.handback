@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">87fa89cbca3e6118b43867cec21cab8910ad51a7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.EnterpriseServices.IAsyncErrorNotify.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f76406ad20f572d9ff8ef1addfffe408a79a7185</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d87c5d65a4bcce55235924f809608b77607038be</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements error trapping on the asynchronous batch work that is submitted by the <bpt id="p1">&lt;xref href="System.EnterpriseServices.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">提交的异步批处理工作上的实现错误捕获<bpt id="p1">&lt;xref href="System.EnterpriseServices.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>IAsyncErrorNotify is used to implement error trapping on the asynchronous batch work that is submitted by the &lt;xref:System.EnterpriseServices.Activity&gt; object.</source>
+          <target state="translated">IAsyncErrorNotify 用于提交的异步批处理工作上实现错误捕获&lt;xref:System.EnterpriseServices.Activity&gt;对象。&lt;/xref:System.EnterpriseServices.Activity&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Implement this interface on the object that is passed in the call to &lt;xref:System.EnterpriseServices.Activity.AsynchronousCall%2A&gt; on the &lt;xref:System.EnterpriseServices.Activity&gt; object.</source>
+          <target state="translated">在调用中传递的对象上实现此接口&lt;xref:System.EnterpriseServices.Activity.AsynchronousCall%2A&gt;上&lt;xref:System.EnterpriseServices.Activity&gt;对象。&lt;/xref:System.EnterpriseServices.Activity&gt; &lt;/xref:System.EnterpriseServices.Activity.AsynchronousCall%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.EnterpriseServices.Activity.AsynchronousCall%2A&gt; determines if an error occurred in batch work that is running asynchronously.</source>
+          <target state="translated">&lt;xref:System.EnterpriseServices.Activity.AsynchronousCall%2A&gt;确定在以异步方式运行的批处理工作中是否发生了错误。&lt;/xref:System.EnterpriseServices.Activity.AsynchronousCall%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This interface enables you to be informed of errors that occur in asynchronous batch work, and the process will terminate (failfast) on any unrecoverable error.</source>
+          <target state="translated">此接口，可在异步批处理工作中发生的错误通知并在有任何不可恢复的错误，则进程将终止 (failfast)。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For information about failfast, see the "Fault Isolation and Failfast Policy" topic in the Platform SDK in MSDN.</source>
+          <target state="translated">Failfast 有关的信息，请参阅 MSDN 中的平台 SDK 中的"错误隔离和 Failfast 策略"主题。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Handles errors for asynchronous batch work.</source>
+          <target state="translated">处理异步批处理工作的错误。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This method should be implemented to gracefully handle errors that occur when batch work is running asynchronously.</source>
+          <target state="translated">此方法应实现妥善处理以异步方式运行批处理工作时出现的错误。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Because the process terminates (failfast) on any unrecoverable error, without this method there is no way of knowing when errors occur in asynchronous batch work.</source>
+          <target state="translated">因为在进程终止 (failfast) 在有任何不可恢复的错误，而无需此方法没有无法知道错误发生在异步批处理工作中。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The process also terminates when this method returns an error as its return value.</source>
+          <target state="translated">此方法返回作为其返回值出错时，也会终止进程。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The batch work itself is implemented in &lt;xref:System.EnterpriseServices.IServiceCall.OnCall%2A&gt;, and it is run asynchronously by calling &lt;xref:System.EnterpriseServices.Activity.AsynchronousCall%2A&gt;.</source>
+          <target state="translated">在中实现批处理工作自身&lt;xref:System.EnterpriseServices.IServiceCall.OnCall%2A&gt;，并通过调用&lt;xref:System.EnterpriseServices.Activity.AsynchronousCall%2A&gt;.&lt;/xref:System.EnterpriseServices.Activity.AsynchronousCall%2A&gt;以异步方式运行&lt;/xref:System.EnterpriseServices.IServiceCall.OnCall%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This method supports the standard return values <ph id="ph1">`E_FAIL`</ph>, <ph id="ph2">`E_INVALIDARG`</ph>, and <ph id="ph3">`E_OUTOFMEMORY`</ph>, as well as <ph id="ph4">`S_OK`</ph>, which indicates the method call returned successfully.</source>
+          <target state="translated">此方法支持标准的返回值<ph id="ph1">`E_FAIL`</ph>， <ph id="ph2">`E_INVALIDARG`</ph>，和<ph id="ph3">`E_OUTOFMEMORY`</ph>，以及<ph id="ph4">`S_OK`</ph>，指示方法调用成功返回。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The HRESULT of the error that occurred while the batch work was running asynchronously.</source>
+          <target state="translated">以异步方式运行的批处理工作时出现的错误的 HRESULT。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
