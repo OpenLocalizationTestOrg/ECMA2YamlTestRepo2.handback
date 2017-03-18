@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05341b24816b6b5fc059951d6a7af2d112f7f8f6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.ECDiffieHellmanCng.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">be8de649adf464bc82b062f5ae3090bb11cf58f3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">754734b7a0e7795c930c3485ff540813fbe3d4a3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a Cryptography Next Generation (CNG) implementation of the Elliptic Curve Diffie-Hellman (ECDH) algorithm.</source>
+          <target state="translated">Biedt een Cryptography Next Generation (CNG)-implementatie van het algoritme Elliptic Curve Diffie-Hellman (ECDH).</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is used to perform cryptographic operations.</source>
+          <target state="translated">Deze klasse wordt gebruikt om uit te voeren cryptografische bewerkingen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ECDiffieHellmanCng class enables two parties to exchange private key material even if they are communicating through a public channel.</source>
+          <target state="translated">De klasse ECDiffieHellmanCng kan twee partijen voor het uitwisselen van privésleutelmateriaal, zelfs als ze via een openbare-kanaal communiceren.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both parties can calculate the same secret value, which is referred to as the <bpt id="p1">*</bpt>secret agreement<ept id="p1">*</ept> in the managed Diffie-Hellman classes.</source>
+          <target state="translated">Beide partijen kunnen berekenen dezelfde geheime waarde, waarnaar wordt verwezen als de <bpt id="p1">*</bpt>geheime overeenkomst<ept id="p1">*</ept> in de beheerde Diffie-Hellman-klassen.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The secret agreement can then be used for a variety of purposes, including as a symmetric key.</source>
+          <target state="translated">De geheime overeenkomst kan vervolgens worden gebruikt voor verschillende doeleinden, waaronder als een symmetrische sleutel.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, instead of exposing the secret agreement directly, the ECDiffieHellmanCng class does some post-processing on the agreement before providing the value.</source>
+          <target state="translated">In plaats van de geheime overeenkomst rechtstreeks kernbewerkingen, komt de klasse ECDiffieHellmanCng echter bepaalde na verwerking op de overeenkomst voordat u de waarde op te geven.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This post processing is referred to as the <bpt id="p1">*</bpt>key derivation function (KDF)<ept id="p1">*</ept>; you can select which KDF you want to use and set its parameters through a set of properties on the instance of the Diffie-Hellman object.</source>
+          <target state="translated">Deze naverwerking wordt aangeduid als de <bpt id="p1">*</bpt>sleutelfunctie afleiding (KDF)<ept id="p1">*</ept>; u kunt selecteren welke KDF die u wilt gebruiken en de parameters met een reeks eigenschappen instellen op het exemplaar van het Diffie-Hellman-object.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Key derivation function|Properties|   |-----------------------------|----------------|   |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt; - The hash algorithm that is used to process the secret agreement.</source>
+          <target state="translated">| Sleutel voor de afleidingsfunctie | Eigenschappen |   |-----------------------------|----------------|   | &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;| &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt;-Het hash-algoritme dat wordt gebruikt voor het verwerken van de geheime overeenkomst.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt; - An optional byte array to prepend to the secret agreement before hashing it.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;-Een optionele bytematrix toevoegen aan de geheime overeenkomst voordat deze hashing aan.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt; - An optional byte array to append to the secret agreement before hashing it.|   |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt; - The hash algorithm that is used to process the secret agreement.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;-Een optionele bytematrix toe te voegen aan de geheime overeenkomst voordat deze-hashing. |   | &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;| &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt;-Het hash-algoritme dat wordt gebruikt voor het verwerken van de geheime overeenkomst.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;- An optional byte array to prepend to the secret agreement before hashing it.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;-Een optionele bytematrix toevoegen aan de geheime overeenkomst voordat deze hashing aan.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt; - An optional byte array to append to the secret agreement before hashing it.|   |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Label%2A&gt; - The label for key derivation.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;-Een optionele bytematrix toe te voegen aan de geheime overeenkomst voordat deze-hashing. |   | &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;| &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Label%2A&gt;-Het label voor de afgeleide sleutel.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.Label%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed%2A&gt; - The seed for key derivation.|       The result of passing the secret agreement through the key derivation function is a byte array that may be used as key material for your application.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed%2A&gt;-De seed voor sleutelafleiding. |       Het resultaat van het doorgeven van de geheime overeenkomst met de functie van de afgeleide sleutel is een bytematrix die kan worden gebruikt als sleutelmateriaal voor uw toepassing.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The number of bytes of key material generated is dependent on the key derivation function; for example, SHA-256 will generate 256 bits of key material, whereas SHA-512 will generate 512 bits of key material.The basic flow of an ECDH key exchange is as follows:      1.</source>
+          <target state="translated">Het aantal bytes van sleutelmateriaal gegenereerd, is afhankelijk van de functie van de afgeleide sleutel. SHA-256 genereert bijvoorbeeld 256 bits sleutelmateriaal opslaat, terwijl het SHA-512 512 bits van-sleutelmateriaal dat wordt gegenereerd. De basisprincipes van een sleuteluitwisseling ECDH is als volgt: 1.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alice and Bob create a key pair to use for the Diffie-Hellman key exchange operation      2.</source>
+          <target state="translated">Maak een sleutelpaar moet worden gebruikt voor de Diffie-Hellman-sleuteluitwisseling bewerking 2 Alice en Bob.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alice and Bob configure the KDF using parameters the agree on.</source>
+          <target state="translated">Configureer de KDF met parameters de akkoord op Alice en Bob.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alice sends Bob her public key.</source>
+          <target state="translated">Els verzendt Bob haar openbare sleutel.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Bob sends Alice his public key.</source>
+          <target state="translated">Bob verzendt Els zijn openbare sleutel.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alice and Bob use each other's public keys to generate the secret agreement, and apply the KDF to the secret agreement to generate key material.</source>
+          <target state="translated">Els Bob elkaars openbare sleutels gebruikt voor het genereren van de geheime overeenkomst en de KDF van toepassing op de geheime overeenkomst voor het genereren van sleutelmateriaal opslaat.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a random key pair.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met een willekeurige sleutelpaar.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The random key pair has a default public key length of 521 bits.</source>
+          <target state="translated">Het willekeurige sleutelpaar heeft een openbare standaard-sleutellengte van 521 bits.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a random key pair, using the specified key size.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met een willekeurige sleutelpaar met behulp van de opgegeven sleutelgrootte.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The random key pair will have the public key length defined by the <ph id="ph1">`keySize`</ph> parameter.</source>
+          <target state="translated">Het willekeurige sleutelpaar heeft de lengte voor openbare sleutel die zijn gedefinieerd door de <ph id="ph1">`keySize`</ph> parameter.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The size of the key.</source>
+          <target state="translated">De grootte van de sleutel.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Valid key sizes are 256, 384, and 521 bits.</source>
+          <target state="translated">Ongeldig key grootten zijn 256, 384 en 521 bits.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keySize&lt;/code&gt;</ph> specifies an invalid length.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keySize&lt;/code&gt;</ph>Hiermee geeft u een ongeldige lengte.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Cryptography Next Generation (CNG) classes are not supported on this system.</source>
+          <target state="translated">Cryptography Next Generation (CNG)-klassen worden niet ondersteund op dit systeem.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified <bpt id="p2">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met behulp van de opgegeven <bpt id="p2">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The key that will be used as input to the cryptographic operations performed by the current object.</source>
+          <target state="translated">De sleutel die wordt gebruikt als invoer voor de cryptografische bewerkingen uitgevoerd door het huidige object.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph> does not specify an Elliptic Curve Diffie-Hellman (ECDH) algorithm group.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph>geeft geen algoritmegroep Elliptic Curve Diffie-Hellman (ECDH).</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Cryptography Next Generation (CNG) classes are not supported on this system.</source>
+          <target state="translated">Cryptography Next Generation (CNG)-klassen worden niet ondersteund op dit systeem.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Derives bytes that can be used as a key using a hash function, given another party's public key, hash algorithm's name, a prepend value and an append value.</source>
+          <target state="translated">Bytes die kunnen worden gebruikt als een hash-functie met openbare sleutel van een andere partij, de naam van hash-algoritme, een prepend-waarde en een toevoeg-waarde opgegeven sleutel is afgeleid.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value of <ph id="ph1">`secretPrepend`</ph> or <ph id="ph2">`secretAppend`</ph> is <ph id="ph3">`null`</ph>, they are treated as empty arrays.</source>
+          <target state="translated">Als de waarde van <ph id="ph1">`secretPrepend`</ph> of <ph id="ph2">`secretAppend`</ph> is <ph id="ph3">`null`</ph>, worden deze behandeld als lege matrices.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The other party's public key.</source>
+          <target state="translated">De openbare sleutel van de andere partij.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The hash algorithm  to use to derive the key material.</source>
+          <target state="translated">Het hash-algoritme gebruiken voor het afleiden van het sleutelmateriaal.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A value to prepend to the derived secret before hashing.</source>
+          <target state="translated">Een waarde voor het afgeleide geheim voordat hashing toevoegen aan het begin.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A value to append to the derived secret before hashing.</source>
+          <target state="translated">Een waarde toe te voegen aan het afgeleide geheim voordat hashing.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The key material from the key exchange with the other party’s public key.</source>
+          <target state="translated">Het sleutelmateriaal van de uitwisseling van sleutel met de openbare sleutel van de andere partij.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is niet een sleutel ECDH of is niet de juiste grootte.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> of <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">Alle andere fouten.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Derives bytes that can be used as a key using a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">Afgeleid bytes dat kunnen worden gebruikt als een sleutel met een Hash-based Message Authentication Code (HMAC).</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value of <ph id="ph1">`secretPrepend`</ph> or <ph id="ph2">`secretAppend`</ph> is <ph id="ph3">`null`</ph>, they are treated as empty arrays.</source>
+          <target state="translated">Als de waarde van <ph id="ph1">`secretPrepend`</ph> of <ph id="ph2">`secretAppend`</ph> is <ph id="ph3">`null`</ph>, worden deze behandeld als lege matrices.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value of <ph id="ph1">`hmacKey`</ph> is <ph id="ph2">`null`</ph>, the result of the Elliptic Curve Diffie-Hellman (ECDH) algorithm will be used as the HMAC key.</source>
+          <target state="translated">Als de waarde van <ph id="ph1">`hmacKey`</ph> is <ph id="ph2">`null`</ph>, het resultaat van het algoritme Elliptic Curve Diffie-Hellman (ECDH) wordt gebruikt als de sleutel voor HMAC.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The other party's public key.</source>
+          <target state="translated">De openbare sleutel van de andere partij.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use to derive the key material.</source>
+          <target state="translated">Het hash-algoritme gebruiken voor het afleiden van het sleutelmateriaal.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The key for the HMAC.</source>
+          <target state="translated">De sleutel voor de HMAC.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A value to prepend to the derived secret before hashing.</source>
+          <target state="translated">Een waarde voor het afgeleide geheim voordat hashing toevoegen aan het begin.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A value to append to the derived secret before hashing.</source>
+          <target state="translated">Een waarde toe te voegen aan het afgeleide geheim voordat hashing.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The key material from the key exchange with the other party’s public key.</source>
+          <target state="translated">Het sleutelmateriaal van de uitwisseling van sleutel met de openbare sleutel van de andere partij.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is niet een sleutel ECDH of is niet de juiste grootte.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> of <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">Alle andere fouten.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Derives the key material that is generated from the secret agreement between two parties, given a <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">Is afgeleid van het sleutelmateriaal dat is gegenereerd op basis van de geheime overeenkomst tussen twee partijen, krijgt een <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met de openbare sleutel van de tweede partij.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An object that contains the public part of the Elliptic Curve Diffie-Hellman (ECDH) key from the other party in the key exchange.</source>
+          <target state="translated">Een object dat het openbare deel van de sleutel Elliptic Curve Diffie-Hellman (ECDH) van de andere partij in de sleuteluitwisseling bevat.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the key material.</source>
+          <target state="translated">Een bytematrix die de sleutelmateriaal bevat.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This information is generated from the secret agreement that is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">Deze informatie wordt gegenereerd vanuit de geheime overeenkomst die wordt berekend op basis van de persoonlijke sleutel van het huidige object en de opgegeven openbare sleutel.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is ongeldig.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Either its <ph id="ph1">&lt;xref:System.Security.Cryptography.CngKey.AlgorithmGroup*&gt;</ph> property does not specify <ph id="ph2">&lt;xref:System.Security.Cryptography.CngAlgorithmGroup.ECDiffieHellman*&gt;</ph> or its key size does not match the key size of this instance.</source>
+          <target state="translated">Ofwel de <ph id="ph1">&lt;xref:System.Security.Cryptography.CngKey.AlgorithmGroup*&gt;</ph> eigenschap specificeert niet <ph id="ph2">&lt;xref:System.Security.Cryptography.CngAlgorithmGroup.ECDiffieHellman*&gt;</ph> of de grootte van de sleutel komt niet overeen met de sleutelgrootte van dit exemplaar.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This object's &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction<bpt id="p1">*</bpt>&gt; property specifies the <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> key derivation function, but either &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Label<ept id="p1">*</ept>&gt; or &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed*&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dit object &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; eigenschap geeft u de <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> functie van de afgeleide sleutel, maar een &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; of &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed*&gt;is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed*&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">Alle andere fouten.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Derives the key material that is generated from the secret agreement between two parties, given an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">Is afgeleid van het sleutelmateriaal dat is gegenereerd op basis van de geheime overeenkomst tussen twee partijen, krijgt een <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met de openbare sleutel van de tweede partij.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The public key from the other party in the key exchange.</source>
+          <target state="translated">De openbare sleutel van de andere partij in de sleuteluitwisseling.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the key material.</source>
+          <target state="translated">Een bytematrix die de sleutelmateriaal bevat.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This information is generated from the secret agreement that is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">Deze informatie wordt gegenereerd vanuit de geheime overeenkomst die wordt berekend op basis van de persoonlijke sleutel van het huidige object en de opgegeven openbare sleutel.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCngPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> key.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is niet een <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCngPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> sleutel.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Derives bytes that can be used as a key using a Transport Layer Security (TLS) Pseudo-Random Function (PRF) derivation algorithm.</source>
+          <target state="translated">Bytes die kunnen worden gebruikt als een sleutel met een algoritme Transport Layer Security (TLS) Pseudo-Random functie (PRF)-afleiding is afgeleid.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The other party's public key.</source>
+          <target state="translated">De openbare sleutel van de andere partij.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The ASCII-encoded PRF label.</source>
+          <target state="translated">Het label PRF ASCII-codering.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The 64-byte PRF seed.</source>
+          <target state="translated">De 64-byte PRF seed.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The key material from the key exchange with the other party’s public key.</source>
+          <target state="translated">Het sleutelmateriaal van de uitwisseling van sleutel met de openbare sleutel van de andere partij.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;prfLabel&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;prfLabel&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is niet een sleutel ECDH of is niet de juiste grootte.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph> is not exactly 64 bytes in length.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph>is niet precies 64 bytes lang.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-or-       All other cryptographic errors.</source>
+          <target state="translated">- of - andere cryptografische fouten.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets a handle to the secret agreement generated between two parties, given a <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">Haalt een ingang naar de geheime overeenkomst gegenereerd tussen twee partijen, krijgt een <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met de openbare sleutel van de tweede partij.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>An object that contains the public part of the Elliptic Curve Diffie-Hellman (ECDH) key from the other party in the key exchange.</source>
+          <target state="translated">Een object dat het openbare deel van de sleutel Elliptic Curve Diffie-Hellman (ECDH) van de andere partij in de sleuteluitwisseling bevat.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A handle to the secret agreement.</source>
+          <target state="translated">Een ingang naar de geheime overeenkomst.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This information is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">Deze informatie wordt berekend op basis van de persoonlijke sleutel van het huidige object en de opgegeven openbare sleutel.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is niet een sleutel ECDH of is niet de juiste grootte.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">Alle andere fouten.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets a handle to the secret agreement generated between two parties, given an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">Haalt een ingang naar de geheime overeenkomst gegenereerd tussen twee partijen, krijgt een <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met de openbare sleutel van de tweede partij.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The public key from the other party in the key exchange.</source>
+          <target state="translated">De openbare sleutel van de andere partij in de sleuteluitwisseling.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A handle to the secret agreement.</source>
+          <target state="translated">Een ingang naar de geheime overeenkomst.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This information is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">Deze informatie wordt berekend op basis van de persoonlijke sleutel van het huidige object en de opgegeven openbare sleutel.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> key.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is niet een <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> sleutel.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This method is not implemented.</source>
+          <target state="translated">Deze methode is niet geïmplementeerd.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To deserialize an XML key, use the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.FromXmlString%28System.String%2CSystem.Security.Cryptography.ECKeyXmlFormat%29&gt; overload instead.</source>
+          <target state="translated">Voor het deserialiseren van een XML-sleutel gebruikt de &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.FromXmlString%28System.String%2CSystem.Security.Cryptography.ECKeyXmlFormat%29&gt;in plaats daarvan de overbelasting.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.FromXmlString%28System.String%2CSystem.Security.Cryptography.ECKeyXmlFormat%29&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The XML-based key information to be deserialized.</source>
+          <target state="translated">De XML-indeling sleutelinformatie te deserialiseren.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This method was not overridden for this instance.</source>
+          <target state="translated">Deze methode kan niet worden genegeerd voor dit exemplaar.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Deserializes the key information from an XML string by using the specified format.</source>
+          <target state="translated">De belangrijkste gegevens uit een XML-tekenreeks deserializes met behulp van de opgegeven indeling.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The XML-based key information to be deserialized.</source>
+          <target state="translated">De XML-indeling sleutelinformatie te deserialiseren.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the format of the XML string.</source>
+          <target state="translated">Een van de opsommingswaarden die specificeert de indeling van de XML-tekenreeks.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The only currently accepted format is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De enige geaccepteerd indeling is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph> is malformed.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph>is niet goed gevormd.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> specifies an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>Hiermee geeft u een ongeldige indeling.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The only accepted value is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De enige toegestane waarde is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">Alle andere fouten.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Gets or sets the hash algorithm to use when generating key material.</source>
+          <target state="translated">Opgehaald of ingesteld van het hash-algoritme moet worden gebruikt bij het genereren van sleutelmateriaal opslaat.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is used by Cryptography Next Generation (CNG) objects only if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; or &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; value is set in the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property.</source>
+          <target state="translated">Deze eigenschap wordt gebruikt door Cryptography Next Generation (CNG)-objecten alleen als de &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;of &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;waarde is ingesteld in de &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;eigenschap.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property accepts the following algorithms: &lt;xref:System.Security.Cryptography.CngAlgorithm.MD5%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha1%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha384%2A&gt;, and &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha512%2A&gt;.</source>
+          <target state="translated">Deze eigenschap accepteert de volgende algoritmen: &lt;xref:System.Security.Cryptography.CngAlgorithm.MD5%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha1%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha384%2A&gt;, en &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha512%2A&gt;.&lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha512%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha384%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha1%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.MD5%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other custom hash algorithms may also be used.</source>
+          <target state="translated">Andere aangepaste hash-algoritmen kunnen ook worden gebruikt.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default algorithm is &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;.</source>
+          <target state="translated">De standaard-algoritme is &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;.&lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An object that specifies the hash algorithm.</source>
+          <target state="translated">Een object dat het hash-algoritme.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The value is <bpt id="p1">&lt;xref uid="langword_csharp_null." name="null." href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></source>
+          <target state="translated">De waarde is<bpt id="p1">&lt;xref uid="langword_csharp_null." name="null." href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets or sets the Hash-based Message Authentication Code (HMAC) key to use when deriving key material.</source>
+          <target state="translated">Opgehaald of ingesteld van de HMAC Hash-based Message Authentication Code ()-sleutel moet worden gebruikt als deze is afgeleid van sleutelmateriaal opslaat.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property applies only when the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; value is set in the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property, and the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.UseSecretAgreementAsHmacKey%2A&gt; property is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Deze eigenschap geldt alleen wanneer de &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;waarde is ingesteld in de &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;eigenschap, en de &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.UseSecretAgreementAsHmacKey%2A&gt;eigenschap is <ph id="ph1">`false`</ph>.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.UseSecretAgreementAsHmacKey%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">De waarde is standaard <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The Hash-based Message Authentication Code (HMAC) key to use when deriving key material.</source>
+          <target state="translated">De HMAC Hash-based Message Authentication Code ()-sleutel moet worden gebruikt als deze is afgeleid van sleutelmateriaal opslaat.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Specifies the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used by the current object for cryptographic operations.</source>
+          <target state="translated">Hiermee geeft u de <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die wordt gebruikt door het huidige object voor cryptografische bewerkingen.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The key pair used by this object to perform cryptographic operations.</source>
+          <target state="translated">Het sleutelpaar dat wordt gebruikt door dit object cryptografische bewerkingen uit te voeren.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Gets or sets the key derivation function for the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Opgehaald of ingesteld van de functie van de afgeleide sleutel voor de <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property specifies the key derivation function that is used to transform the secret agreement into key material.</source>
+          <target state="translated">Deze eigenschap geeft u de functie afgeleide sleutel die wordt gebruikt voor het transformeren van de geheime overeenkomst in sleutelmateriaal opslaat.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values: <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values: <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The enumeration value is out of range.</source>
+          <target state="translated">De opsommingswaarde is buiten het bereik.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets or sets the label value that is used for key derivation.</source>
+          <target state="translated">Opgehaald of ingesteld van de waarde voor het label dat wordt gebruikt voor de afgeleide sleutel.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; value is set in the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property.</source>
+          <target state="translated">Deze waarde wordt gebruikt voor de afgeleide sleutel als de &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;waarde is ingesteld in de &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;eigenschap.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, it is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Dit is standaard <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The label value.</source>
+          <target state="translated">De waarde voor het label.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets the public key that can be used by another <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to generate a shared secret agreement.</source>
+          <target state="translated">De openbare sleutel die kan worden gebruikt door een andere opgehaald <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object voor het genereren van een gedeelde geheime overeenkomst.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The public key that is associated with this instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">De openbare sleutel die is gekoppeld aan dit exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that will be appended to the secret agreement when generating key material.</source>
+          <target state="translated">Opgehaald of ingesteld van een waarde die wordt toegevoegd aan de geheime overeenkomst bij het genereren van sleutelmateriaal opslaat.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; or &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; key derivation function (KDF) is used.</source>
+          <target state="translated">Deze waarde wordt gebruikt voor de afgeleide sleutel als de &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;of &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;sleutelafleiding-functie (KDF) wordt gebruikt.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value is appended to the secret agreement, and the combined value is passed to the KDF to generate the key material.</source>
+          <target state="translated">De waarde wordt toegevoegd aan de geheime overeenkomst en de gecombineerde waarde wordt doorgegeven aan de KDF voor het genereren van het sleutelmateriaal.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">De waarde is standaard <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The value that is appended to the secret agreement.</source>
+          <target state="translated">De waarde die wordt toegevoegd aan de geheime overeenkomst.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that will be added to the beginning of the secret agreement when deriving key material.</source>
+          <target state="translated">Opgehaald of ingesteld van een waarde die wordt toegevoegd aan het begin van de geheime overeenkomst als deze is afgeleid van sleutelmateriaal opslaat.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property is set to one of the following values:      -   &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;      -   &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;       The value is prepended to the secret agreement, and the combined value is passed to the key derivation function (KDF) to generate the key material.</source>
+          <target state="translated">Deze waarde wordt gebruikt voor de afgeleide sleutel als de &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;eigenschap is ingesteld op een van de volgende waarden:- &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;- &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;de waarde is de functienaam geplaatst om de geheime overeenkomst en de gecombineerde waarde wordt doorgegeven aan de afgeleide sleutel-functie (KDF) voor het genereren van het sleutelmateriaal.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">De waarde is standaard <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The value that is appended to the beginning of the secret agreement during key derivation.</source>
+          <target state="translated">De waarde die wordt toegevoegd aan het begin van de geheime overeenkomst tijdens de afgeleide sleutel.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Gets or sets the seed value that will be used when deriving key material.</source>
+          <target state="translated">Opgehaald of ingesteld van de basiswaarde die wordt gebruikt als deze is afgeleid van sleutelmateriaal opslaat.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property is set to &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.</source>
+          <target state="translated">Deze waarde wordt gebruikt voor de afgeleide sleutel als de &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;eigenschap is ingesteld op &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">De waarde is standaard <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The seed value.</source>
+          <target state="translated">De seed-waarde.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>This method is not implemented.</source>
+          <target state="translated">Deze methode is niet geïmplementeerd.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To convert the current key to an XML representation, use the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.ToXmlString%28System.Security.Cryptography.ECKeyXmlFormat%29&gt; overload instead.</source>
+          <target state="translated">U kunt de huidige sleutel converteren naar een XML-representatie met de &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.ToXmlString%28System.Security.Cryptography.ECKeyXmlFormat%29&gt;in plaats daarvan de overbelasting.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.ToXmlString%28System.Security.Cryptography.ECKeyXmlFormat%29&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include private parameters; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>om op te nemen persoonlijke parameters. anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Not applicable.</source>
+          <target state="translated">Niet van toepassing.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This method was not overridden for this instance.</source>
+          <target state="translated">Deze methode kan niet worden genegeerd voor dit exemplaar.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Serializes the key information to an XML string by using the specified format.</source>
+          <target state="translated">De gegevens van de sleutel naar een XML-tekenreeks serialiseert met behulp van de opgegeven indeling.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the format of the XML string.</source>
+          <target state="translated">Een van de opsommingswaarden die specificeert de indeling van de XML-tekenreeks.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The only currently accepted format is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De enige geaccepteerd indeling is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>A string object that contains the key information, serialized to an XML string, according to the requested format.</source>
+          <target state="translated">Een tekenreeksobject dat de gegevens van de sleutel, geserialiseerd naar een XML-tekenreeks, volgens de aangevraagde indeling bevat.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> specifies an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>Hiermee geeft u een ongeldige indeling.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The only accepted value is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De enige toegestane waarde is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the secret agreement is used as a Hash-based Message Authentication Code (HMAC) key to derive key material.</source>
+          <target state="translated">Haalt een waarde die aangeeft of de geheime overeenkomst wordt gebruikt als een HMAC Hash-based Message Authentication Code ()-sleutel worden afgeleid van sleutelmateriaal opslaat.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">-</ph>   This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property is set to &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.</source>
+          <target state="translated"><ph id="ph1">-</ph>Deze waarde wordt gebruikt voor de afgeleide sleutel als de &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;eigenschap is ingesteld op &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; &lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the value is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">De waarde is standaard <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the secret agreement is used as an HMAC key to derive key material; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de geheime overeenkomst wordt gebruikt als een HMAC-sleutel worden afgeleid van sleutelmateriaal; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

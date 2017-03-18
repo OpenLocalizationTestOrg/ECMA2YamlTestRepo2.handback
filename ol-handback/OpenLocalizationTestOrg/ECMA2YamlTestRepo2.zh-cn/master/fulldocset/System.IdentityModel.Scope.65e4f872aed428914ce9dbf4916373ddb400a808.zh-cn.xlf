@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0131a4243069a10cd83052e713bacc542eb28acd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Scope.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e0260c1c5e9e1f3bfcd72ce2ab5f6602e4bc5a0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">77e0d71c8f84b563ca3cdfe0b4f8ace4b6dfe68d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the configuration for the token issuance request.</source>
+          <target state="translated">表示令牌颁发请求的配置。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Scope class encapsulates information about the relying party (RP) associated with a security token request (RST).</source>
+          <target state="translated">作用域类封装有关与安全令牌请求 (RST) 关联的信赖方 (RP) 的信息。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This information is used by implementations of the &lt;xref:System.IdentityModel.SecurityTokenService&gt; class (STS) in the token issuance pipeline to return a response (RSTR) to a security token request (RST).</source>
+          <target state="translated">此信息由的实现&lt;xref:System.IdentityModel.SecurityTokenService&gt;令牌颁发管道返回响应 (RSTR) 对安全令牌请求 (RST) 中的类 (STS)。&lt;/xref:System.IdentityModel.SecurityTokenService&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Scope objects contain information about the address of the RP, the encrypting and signing credentials to be used with the issued security token, and whether the token itself or symmetric keys issued with the token should be encrypted.</source>
+          <target state="translated">对象的范围包含地址的相关信息的 RP、 加密和签名凭据要用于颁发的安全令牌中，并且是否与颁发的令牌本身或对称密钥应加密令牌。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>By default, both the token and symmetric keys are encrypted.</source>
+          <target state="translated">默认情况下，令牌和对称密钥进行加密。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can extend the Scope class to carry additional information about the request, such as token types accepted by the RP, default token lifetime, maximum token lifetime, algorithm suites used by the RP, and so on; however, the information encapsulated in this class should not vary for individual requests.</source>
+          <target state="translated">你可以扩展作用域类来执行请求，如令牌类型由 RP，接受默认令牌生存期、 最大令牌生存期、 算法套件使用 RP，等等。 有关其他信息但是，此类中封装的信息不应有所不同的各个请求。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The token issuance pipeline is implemented in the &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method and this method invokes the &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; method to get the configuration for the RST.</source>
+          <target state="translated">在中实现令牌颁发管道&lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;时，因此该方法将调用&lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;方法以获取 RST 的配置。&lt;/xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You must implement a &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; method in your custom STS and return a Scope object appropriate for the RP and your STS implementation.</source>
+          <target state="translated">必须实现&lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;在自定义 STS 和返回范围的对象适用于 RP 和 STS 实现的方法。&lt;/xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values for the new &lt;xref:System.IdentityModel.Scope&gt; instance.</source>
+          <target state="translated">下表显示的初始属性值的新&lt;xref:System.IdentityModel.Scope&gt;实例。&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>|Property|Value.|   |--------------|------------|   |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|<ph id="ph1">`null`</ph> .|   |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|An empty dictionary.|   |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|<ph id="ph4">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|   |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|</source>
+          <target state="translated">|属性 |值。 |  |--------------|------------|  |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|<ph id="ph1">`null`</ph> .|  |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|  |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|返回空字典。 |  |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|  |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|<ph id="ph4">`null`</ph>.|  |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|  |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;&lt;/xref:System.IdentityModel.Scope.Properties%2A&gt;&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified appliesTo address.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类指定的 appliesTo 地址。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values for the new &lt;xref:System.IdentityModel.Scope&gt; instance.</source>
+          <target state="translated">下表显示的初始属性值的新&lt;xref:System.IdentityModel.Scope&gt;实例。&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>|Property|Value.|   |--------------|------------|   |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|The value of the <ph id="ph1">`appliesToAddress`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|An empty dictionary.|   |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|<ph id="ph4">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|   |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|</source>
+          <target state="translated">|属性 |值。 |  |--------------|------------|  |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|值<ph id="ph1">`appliesToAddress`</ph>参数。 |  |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|  |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|返回空字典。 |  |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|  |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|<ph id="ph4">`null`</ph>.|  |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|  |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;&lt;/xref:System.IdentityModel.Scope.Properties%2A&gt;&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The appliesTo address of the relying party.</source>
+          <target state="translated">信赖方 appliesTo 地址。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">通常为 URI。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified appliesTo address and encrypting credentials.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，该类具有指定的 appliesTo 地址和加密凭据。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values for the new &lt;xref:System.IdentityModel.Scope&gt; instance.</source>
+          <target state="translated">下表显示的初始属性值的新&lt;xref:System.IdentityModel.Scope&gt;实例。&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>|Property|Value.|   |--------------|------------|   |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|The value of the <ph id="ph1">`appliesToAddress`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|An empty dictionary.|   |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|The value of the <ph id="ph4">`signingCredentials`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|   |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|</source>
+          <target state="translated">|属性 |值。 |  |--------------|------------|  |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|值<ph id="ph1">`appliesToAddress`</ph>参数。 |  |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|  |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|返回空字典。 |  |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|  |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|值<ph id="ph4">`signingCredentials`</ph>参数。 |  |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|  |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;&lt;/xref:System.IdentityModel.Scope.Properties%2A&gt;&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The appliesTo address of the relying party.</source>
+          <target state="translated">信赖方 appliesTo 地址。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">通常为 URI。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The encrypting credentials for the relying party.</source>
+          <target state="translated">信赖方的加密凭据。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified appliesTo address and signing credentials.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，该类具有指定的 appliesTo 地址和签名凭据。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values for the new &lt;xref:System.IdentityModel.Scope&gt; instance.</source>
+          <target state="translated">下表显示的初始属性值的新&lt;xref:System.IdentityModel.Scope&gt;实例。&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>|Property|Value.|   |--------------|------------|   |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|The value of the <ph id="ph1">`appliesToAddress`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|An empty dictionary.|   |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|The value of the <ph id="ph4">`signingCredentials`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|   |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|</source>
+          <target state="translated">|属性 |值。 |  |--------------|------------|  |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|值<ph id="ph1">`appliesToAddress`</ph>参数。 |  |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|  |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|返回空字典。 |  |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|  |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|值<ph id="ph4">`signingCredentials`</ph>参数。 |  |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|  |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;&lt;/xref:System.IdentityModel.Scope.Properties%2A&gt;&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The appliesTo address of the relying party.</source>
+          <target state="translated">信赖方 appliesTo 地址。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">通常为 URI。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The signing credentials for the relying party.</source>
+          <target state="translated">信赖方签名凭据。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified appliesTo address, signing credentials, and encrypting credentials.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类指定的 appliesTo 地址，签名凭据，并对凭据进行加密。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values for the new &lt;xref:System.IdentityModel.Scope&gt; instance.</source>
+          <target state="translated">下表显示的初始属性值的新&lt;xref:System.IdentityModel.Scope&gt;实例。&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|The value of the <ph id="ph1">`appliesToAddress`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|The value of the <ph id="ph2">`encryptingCredentials`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|An empty dictionary.|   |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|The value of the <ph id="ph4">`signingCredentials`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|   |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|</source>
+          <target state="translated">|属性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|值<ph id="ph1">`appliesToAddress`</ph>参数。 |  |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|值<ph id="ph2">`encryptingCredentials`</ph>参数。 |  |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|返回空字典。 |  |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|  |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|值<ph id="ph4">`signingCredentials`</ph>参数。 |  |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|  |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;&lt;/xref:System.IdentityModel.Scope.Properties%2A&gt;&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The appliesTo address of the relying party.</source>
+          <target state="translated">信赖方 appliesTo 地址。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">通常为 URI。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The signing credentials for the relying party.</source>
+          <target state="translated">信赖方签名凭据。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The encrypting credentials for the relying party.</source>
+          <target state="translated">信赖方的加密凭据。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets or sets the appliesTo address of the relying party.</source>
+          <target state="translated">获取或设置信赖方的 appliesTo 地址。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The appliesTo address of the relying party.</source>
+          <target state="translated">信赖方 appliesTo 地址。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">通常为 URI。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets or sets the encrypting credentials for the relying party.</source>
+          <target state="translated">获取或设置为信赖方的加密凭据。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt; property is <ph id="ph1">`true`</ph>, the credentials are used to encrypt issued security tokens.</source>
+          <target state="translated">如果&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;属性是<ph id="ph1">`true`</ph>，凭据用于加密颁发的安全令牌。&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt; property is <ph id="ph1">`true`</ph>, the credentials are used to encrypt symmetric keys issued with security tokens.</source>
+          <target state="translated">如果&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;属性是<ph id="ph1">`true`</ph>，凭据用于加密颁发与安全令牌的对称密钥。&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The encrypting credentials to be used for the relying party.</source>
+          <target state="translated">用于为信赖方的加密凭据。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets the properties bag to extend the object.</source>
+          <target state="translated">获取属性包可以扩展对象。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The properties bag.</source>
+          <target state="translated">属性包中。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets or sets the replyTo address of the relying party.</source>
+          <target state="translated">获取或设置信赖方的 replyTo 地址。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The replyTo address of the relying party.</source>
+          <target state="translated">信赖方 replyTo 地址。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">通常为 URI。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets or sets the signing credentials for the relying party.</source>
+          <target state="translated">获取或设置为信赖方的签名凭据。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The signing credentials to be used for the relying party.</source>
+          <target state="translated">用于为信赖方的签名凭据。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether issued symmetric keys must be encrypted.</source>
+          <target state="translated">获取或设置一个值，该值指示是否必须加密颁发的对称密钥。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If the SymmetricKeyEncryptionRequired property is <ph id="ph1">`true`</ph>, symmetric keys are encrypted using the credentials in the &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt; property.</source>
+          <target state="translated">如果 SymmetricKeyEncryptionRequired 属性为<ph id="ph1">`true`</ph>，对称密钥加密的使用中的凭据&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;属性。&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if symmetric keys must be encrypted; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果必须加密对称密钥;，否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether issued security tokens must be encrypted.</source>
+          <target state="translated">获取或设置一个值，该值指示是否必须加密颁发的安全令牌。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If the TokenEncryptionRequired property is <ph id="ph1">`true`</ph>, security tokens are encrypted using the credentials in the &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt; property.</source>
+          <target state="translated">如果 TokenEncryptionRequired 属性为<ph id="ph1">`true`</ph>，安全令牌使用中的凭据进行加密&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;属性。&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if security tokens must be encrypted; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果安全令牌必须加密;，否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

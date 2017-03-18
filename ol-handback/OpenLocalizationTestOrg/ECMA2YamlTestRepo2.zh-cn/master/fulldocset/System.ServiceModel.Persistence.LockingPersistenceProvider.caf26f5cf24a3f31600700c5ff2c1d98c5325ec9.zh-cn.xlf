@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2848460277feb5e92893724265aff400b4a9f74d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Persistence.LockingPersistenceProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">207ce573424dba0fcefbbb6f5b19f82ce4a47f59</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dad933128142c7997bb69ccedf1d400a1864bb4e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The abstract base class from which all durable service persistence providers that implement locking are derived.</source>
+          <target state="translated">抽象基类从中派生所有持久性服务永久性提供程序实现锁定的。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In addition to persistence, the LockingPersistenceProvider class implements locking of service state data records.</source>
+          <target state="translated">除了持久性，LockingPersistenceProvider 类实现服务状态数据记录的锁定。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Methods that interact with persisted data (such as the <ph id="ph1">`Load`</ph> method) have an optional parameter (<ph id="ph2">`lockInstance`</ph>) that defines whether locks on the data in question are released or maintained.</source>
+          <target state="translated">与之交互的方法保存数据 (如<ph id="ph1">`Load`</ph>方法) 具有一个可选参数 (<ph id="ph2">`lockInstance`</ph>)，它定义是否发布或维护相关数据的锁。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, creates a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified identity value.</source>
+          <target state="translated">在派生类中实现时创建的新实例<bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，使用指定的标识值配置。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The unique identifier to be associated with this persistence provider instance.</source>
+          <target state="translated">为要与此永久性提供程序实例相关联的唯一标识符。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to create instance state information in the persistence store using the parameters.</source>
+          <target state="translated">开始一个异步操作以在持久性存储区中使用参数创建实例状态信息。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This method does not unlock the instance after saving the state information.</source>
+          <target state="translated">此方法不会在保存状态信息后进行解锁实例。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This method calls into the &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginCreate%2A&gt; method, which takes an additional parameter to determine whether the instance is unlocked.</source>
+          <target state="translated">此方法调入&lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginCreate%2A&gt;方法，后者采用附加参数来确定实例是否为解锁。&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginCreate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This method passes <ph id="ph1">`false`</ph> as a value for this parameter to the calling method.</source>
+          <target state="translated">此方法将传递<ph id="ph1">`false`</ph>作为此参数为调用的方法的值。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The instance whose state information is saved into the persistence store.</source>
+          <target state="translated">其状态信息保存到持久性存储区的实例。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must be completed without timing out.</source>
+          <target state="translated">必须在其中完成该操作而不超时间隔。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">在操作完成时接收通知的委托。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">与异步操作关联的状态信息。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to create instance state information in the persistence store using the parameters.</source>
+          <target state="translated">开始一个异步操作以在持久性存储区中使用参数创建实例状态信息。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This method unlocks the instance after saving the instance state if the value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">unlockInstance</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此方法如果保存实例状态后解除对该实例的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">unlockInstance</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The instance whose state information is saved into the persistence store.</source>
+          <target state="translated">其状态信息保存到持久性存储区的实例。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must be completed without timing out.</source>
+          <target state="translated">必须在其中完成该操作而不超时间隔。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance must be unlocked in the persistence store; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果在持久性存储区; 中的实例必须为解锁否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">在操作完成时接收通知的委托。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">与异步操作关联的状态信息。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to load an instance based on state information in the persistence store using the parameters.</source>
+          <target state="translated">开始一个异步操作以加载实例基于持久性存储区使用的参数中的状态信息。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This method does not lock the instance.</source>
+          <target state="translated">此方法不会锁定该实例。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This method calls into the &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginLoad%2A&gt;, which takes an additional parameter that specifies whether the instance must be locked in the persistence store.</source>
+          <target state="translated">此方法调入&lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginLoad%2A&gt;，其采用附加参数，指定是否必须在持久性存储区中锁定实例。&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This method passes <ph id="ph1">`false`</ph> as a value for this parameter to the calling method.</source>
+          <target state="translated">此方法将传递<ph id="ph1">`false`</ph>作为此参数为调用的方法的值。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must be completed without timing out.</source>
+          <target state="translated">必须在其中完成该操作而不超时间隔。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">在操作完成时接收通知的委托。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">与异步操作关联的状态信息。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to load an instance based on state information in the persistence store using the parameters.</source>
+          <target state="translated">开始一个异步操作以加载实例基于持久性存储区使用的参数中的状态信息。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This method locks the instance after loading the instance state if the value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">lockInstance</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果加载实例状态后，此方法锁定实例的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">lockInstance</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An interval in which the operation must be completed before timing out.</source>
+          <target state="translated">间隔在超时前必须在其中完成该操作。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance must be locked; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果必须锁定实例，则否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">在操作完成时接收通知的委托。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">与异步操作关联的状态信息。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the beginning of the LoadIfChanged phase.</source>
+          <target state="translated">在派生类中实现时表示进入 loadifchanged 阶段开始。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The LoadIfChanged phase occurs when state data is loaded into the persistence provider from the persistence store and the state data in the persistence store has been changed.</source>
+          <target state="translated">进入 loadifchanged 阶段状态数据加载到永久性提供程序从持久性存储区，并且持久性存储区中的状态数据已更改时发生。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This method call does not lock the instance in the persistence store.</source>
+          <target state="translated">此方法调用不会锁定持久性存储区中的实例。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this operation.</source>
+          <target state="translated">时间段，永久性提供程序后将中止此操作。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The token returned by a previous <bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method that represents the current state held by the caller.</source>
+          <target state="translated">通过前一个返回的标记<bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>表示的当前状态的方法由调用方。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">要完成该操作时调用的方法。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">用户提供的对象，用于区分此特定异步操作与其他操作。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the beginning of the LoadIfChanged phase.</source>
+          <target state="translated">在派生类中实现时表示进入 loadifchanged 阶段开始。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The LoadIfChanged phase occurs when state data is loaded into the persistence provider from the persistence store and the state data in the persistence store has been changed.</source>
+          <target state="translated">进入 loadifchanged 阶段状态数据加载到永久性提供程序从持久性存储区，并且持久性存储区中的状态数据已更改时发生。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This method call lets you specify whether you want to lock the instance in the persistence store.</source>
+          <target state="translated">此方法调用中，可以指定你是否想要锁定的持久性存储中的实例。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this operation.</source>
+          <target state="translated">时间段，永久性提供程序后将中止此操作。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The token returned by a previous <bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method that represents the current state held by the caller.</source>
+          <target state="translated">通过前一个返回的标记<bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>表示的当前状态的方法由调用方。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance is locked in the persistence store; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果在持久性存储区; 中锁定实例否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">要完成该操作时调用的方法。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">用户提供的对象，用于区分此特定异步操作与其他操作。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to unlock an instance in the persistence store.</source>
+          <target state="translated">开始一个异步操作以在持久性存储区中的实例进行解锁。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An interval in which the operation must be completed before timing out.</source>
+          <target state="translated">间隔在超时前必须在其中完成该操作。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">在操作完成时接收通知的委托。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">与异步操作关联的状态信息。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to update instance state information in the persistence store using the parameters passed.</source>
+          <target state="translated">开始一个异步操作以更新实例状态信息在持久性存储区使用传递的参数。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This operation does not unlock the instance in the instance store.</source>
+          <target state="translated">此操作不会进行解锁实例存储中的实例。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This method calls into the &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginUpdate%2A&gt; method and passes a <ph id="ph1">`false`</ph> value for the <ph id="ph2">`unlockInstance`</ph> parameter.</source>
+          <target state="translated">此方法调入&lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginUpdate%2A&gt;方法并传递<ph id="ph1">`false`</ph>值<ph id="ph2">`unlockInstance`</ph>参数。&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginUpdate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The instance whose state information is being updated in the persistence store.</source>
+          <target state="translated">在持久性存储区中正在更新其状态信息实例。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must complete without timing out.</source>
+          <target state="translated">在其中操作必须完成而不超时的时间间隔。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation is completed.</source>
+          <target state="translated">用于在操作完成时接收通知的委托。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The state information about the asynchronous operation.</source>
+          <target state="translated">有关异步操作的状态信息。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to update instance state information in the persistence store using the parameters passed.</source>
+          <target state="translated">开始一个异步操作以更新实例状态信息在持久性存储区使用传递的参数。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This operation locks the instance in the persistence store if the value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">unlockInstance</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果此操作将锁定持久性存储区中的实例的值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">unlockInstance</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The instance whose state information is being updated in the persistence store.</source>
+          <target state="translated">在持久性存储区中正在更新其状态信息实例。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must complete without timing out.</source>
+          <target state="translated">在其中操作必须完成而不超时的时间间隔。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance must be locked after the instance state is updated in the persistence store; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果必须锁定实例，在持久性存储区; 中更新实例状态后否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">在操作完成时接收通知的委托。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The state information about the asynchronous operation.</source>
+          <target state="translated">有关异步操作的状态信息。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Creates instance state information in the persistence store using parameters passed into the method.</source>
+          <target state="translated">使用传入方法的参数的持久性存储中创建实例状态信息。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This method does not unlock the instance in the persistence store after saving the instance state.</source>
+          <target state="translated">此方法不会在保存实例状态后进行解锁持久性存储区中的实例。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The instance object whose state information must be saved into the persistence store.</source>
+          <target state="translated">其状态信息必须保存到持久性存储区的实例对象。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must complete before timing out.</source>
+          <target state="translated">该操作在超时前必须完成的时间间隔。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The state information.</source>
+          <target state="translated">状态信息。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This method creates instance state information in the persistence store using parameters passed into the method.</source>
+          <target state="translated">此方法使用传入方法的参数的持久性存储中创建实例状态信息。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The method unlocks the instance in the instance store if the value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">unlockInstance</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">该方法将解除实例存储中的实例，如果值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">unlockInstance</ph> <ept id="p1">&lt;/code&gt;</ept>参数是<bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The instance object whose state information is saved into the persistence store.</source>
+          <target state="translated">其状态信息保存到持久性存储区中的实例对象。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The interval within which the operation must complete before timing out.</source>
+          <target state="translated">在此操作必须完成在超时前的时间间隔。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance must be unlocked in the persistence store; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果在持久性存储区; 中的实例必须为解锁否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The state information.</source>
+          <target state="translated">状态信息。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Ends the asynchronous operation to unlock an instance in the persistence store.</source>
+          <target state="translated">结束异步操作以在持久性存储区中的实例进行解锁。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The result returned by the unlock operation.</source>
+          <target state="translated">解锁操作返回的结果。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Loads service state information from the persistence store without locking the instance.</source>
+          <target state="translated">加载服务而不锁定实例从持久性存储区的状态信息。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This method invokes the &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Load%2A&gt; method with <ph id="ph1">`lockInstance`</ph> parameter set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">此方法调用&lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Load%2A&gt;方法替换<ph id="ph1">`lockInstance`</ph>参数设置为<ph id="ph2">`false`</ph>。&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Load%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">时间段，永久性提供程序后将中止此尝试。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The service state information.</source>
+          <target state="translated">服务状态信息。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Loads state information from the persistence store after locking the instance.</source>
+          <target state="translated">加载状态锁定实例后从持久性存储区的信息。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The period after which the persistence provider aborts this operation.</source>
+          <target state="translated">段，永久性提供程序后将中止此操作。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance should be locked; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果应锁定实例，则否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The state information.</source>
+          <target state="translated">状态信息。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Loads the instance state information from the persistence store if the state information has been changed since the last time the information was loaded by the caller.</source>
+          <target state="translated">如果自上次被调用方加载后已更改的状态信息，请从持久性存储区中加载实例状态信息。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This method does not lock the instance in the persistence store.</source>
+          <target state="translated">此方法不会锁定持久性存储区中的实例。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this operation.</source>
+          <target state="translated">时间段，永久性提供程序后将中止此操作。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The token returned by the previous <bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method calls, which represents the current state held by the caller.</source>
+          <target state="translated">通过对前一个返回的标记<bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>方法调用，表示调用方具有的当前状态。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The actual instance state information.</source>
+          <target state="translated">实际的实例状态信息。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance should be locked in the persistence store at the end of this operation; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果应在此操作; 的末尾处的持久性存储中锁定实例否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Loads the instance state information from the persistence store if the state information has been changed since the last time the information was loaded by the caller.</source>
+          <target state="translated">如果自上次被调用方加载后已更改的状态信息，请从持久性存储区中加载实例状态信息。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This method also lets the caller specify whether to lock the instance in the persistence store.</source>
+          <target state="translated">此方法还允许调用方指定是否锁定持久性存储区中的实例。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this operation.</source>
+          <target state="translated">时间段，永久性提供程序后将中止此操作。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The token returned by the previous Create or Update method calls, which represents the current state held by the caller.</source>
+          <target state="translated">返回的标记以前创建或更新的方法调用，表示调用方具有的当前状态。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance should be locked in the persistence store at the end of this operation; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果应在此操作; 的末尾处的持久性存储中锁定实例否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">实例状态信息。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance should be locked in the persistence store at the end of this operation; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果应在此操作; 的末尾处的持久性存储中锁定实例否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Unlocks the instance whose ID is specified when constructing the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object in the persistence store.</source>
+          <target state="translated">解除对该实例在构造时指定其 ID <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>持久性存储中的对象。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts the operation.</source>
+          <target state="translated">时间段，永久性提供程序后将中止该操作。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, updates the instance state information in the persistence store.</source>
+          <target state="translated">派生类中实现时，更新持久性存储区中的实例状态信息。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This method does not unlock the instance after updating the instance state information in the persistence store.</source>
+          <target state="translated">此方法不会在更新持久性存储区中的实例状态信息后进行解锁实例。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">实例状态信息。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts the operation.</source>
+          <target state="translated">时间段，永久性提供程序后将中止该操作。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">实例状态信息。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, updates the instance state information in the persistence store.</source>
+          <target state="translated">派生类中实现时，更新持久性存储区中的实例状态信息。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This method does not unlock the instance after updating the instance state information in the persistence store.</source>
+          <target state="translated">此方法不会在更新持久性存储区中的实例状态信息后进行解锁实例。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">实例状态信息。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts the operation.</source>
+          <target state="translated">时间段，永久性提供程序后将中止该操作。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance is unlocked after the instance state information is updated; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果更新实例状态信息; 后，该实例处于解除锁定状态否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">实例状态信息。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da391c9aa45e2027310a9e336ad16a700507517f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.Enlistment.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e07f0ace76e6cbb1a21d52ced3c272305e4059ee</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54d0bb115a84606af08497fc06255c6601c27fae</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Facilitates communication between an enlisted transaction participant and the transaction manager during the final phase of the transaction.</source>
+          <target state="translated">Muliggjør kommunikasjon mellom en innrullerte transaksjonen deltakeren og transaksjonsbehandling under den siste fasen av transaksjonen.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt; and &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; methods of the &lt;xref:System.Transactions.Transaction&gt; object are invoked to enlist a participant in a transaction, they return this object describing the enlistment.</source>
+          <target state="translated">Når den &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;og &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;metoder for den &lt;xref:System.Transactions.Transaction&gt;objektet er startet for å registrere deltar i en transaksjon, de returnerer dette objektet som beskriver innrulleringen.&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt; &lt;/xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During the final phase of the transaction commit, the transaction manager passes this object to a resource manager implementing the &lt;xref:System.Transactions.IEnlistmentNotification&gt; interface that has enlisted in a transaction.</source>
+          <target state="translated">Under den siste fasen av transaksjon transaksjonen sender transaksjonsbehandling for dette objektet til en ressursansvarlig implementering av &lt;xref:System.Transactions.IEnlistmentNotification&gt;grensesnitt som er oppført i en transaksjon.&lt;/xref:System.Transactions.IEnlistmentNotification&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, the transaction manager calls either the &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; or the &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; method of the participant, depending on whether the latter has decided to commit or roll back the transaction.</source>
+          <target state="translated">Nærmere bestemt transaksjonsbehandling kaller enten den &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;eller &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;metode for deltakeren, avhengig av om den siste har valgt å lagre eller rulle tilbake transaksjonen.&lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The participant should call the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method of this object to let the transaction manager know that it has completed its work.</source>
+          <target state="translated">Deltakeren må kalle den &lt;xref:System.Transactions.Enlistment.Done%2A&gt;metoden for dette objektet la transaksjonsbehandlingen vite at den er fullført arbeidet.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An enlistment can call the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method at anytime before it has called &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; in the prepare phase.</source>
+          <target state="translated">En oppføring kan kalle den &lt;xref:System.Transactions.Enlistment.Done%2A&gt;-metoden på når som helst før det kalt &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;på prepare-fase.&lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; &lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By doing so, the enlistment is casting a read only vote, meaning that it votes commit on the transaction but does not need to receive the final outcome.</source>
+          <target state="translated">På denne måten kaster innrulleringen en lesefeil bare stemme, betyr det commit-svar på transaksjonen, men trenger ikke å motta endelige resultatet.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that, after the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method is called, the enlisted participant receives no further notifications from the transaction manager.</source>
+          <target state="translated">Legg merke til at, etter den &lt;xref:System.Transactions.Enlistment.Done%2A&gt;-metoden, innrullerte deltakeren mottar ingen flere meldinger fra transaksjonsbehandling.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Indicates that the transaction participant has completed its work.</source>
+          <target state="translated">Angir at deltakeren transaksjonen er fullført arbeidet.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During the final phase of the transaction commit, the transaction manager calls either the &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;, &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; or &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; method of the participant, depending on whether the transaction is to be committed or rolled back.</source>
+          <target state="translated">Under den siste fasen av transaksjonen transaksjon, kaller transaksjonsbehandling enten den &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;, &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;eller &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;metode for deltakeren, avhengig av om transaksjonen er iverksatt eller rullet tilbake.&lt;/xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resource manager should perform any work necessary to finish the transaction and then inform the transaction manager that it has finished by calling the Done method on the <ph id="ph1">`enlistment`</ph> parameter.</source>
+          <target state="translated">Ressursbehandling må utføre arbeid nødvendig for å fullføre transaksjonen, og informere transaksjonsbehandling at det er ferdig ved å kalle metoden ferdig på den <ph id="ph1">`enlistment`</ph> parameteren.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the resource manager has enlisted durably, but does not respond by calling Done method, the transaction manager is unsure that the resource manager has received the respective notification call.</source>
+          <target state="translated">Hvis ressursbehandling er oppført robust, men ikke svarer ved å kalle metoden har gjort, er transaksjonsbehandling sikker på at Ressursbehandling har mottatt respektive varsling-kall.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As such, the transaction manager keeps waiting for a response, and maintains information relevant to this transaction.</source>
+          <target state="translated">Som en transaksjonsbehandling beholder venter på svar, og beholder informasjon som er relevante for denne transaksjonen.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Done is never called, this piece of information is kept around indefinitely in memory or in a system-wide resource.</source>
+          <target state="translated">Hvis gjort er aldri kalles denne opplysning holdes rundt på ubestemt tid i minnet eller i en systemomfattende ressurs.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This results in resources not being able to be reclaimed.</source>
+          <target state="translated">Dette resulterer i ressurser som ikke kunne være gode.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of a distributed transaction, this could eventually fill the MSDTC log which halts the MSDTC process.</source>
+          <target state="translated">Hvis det er en distribuert transaksjon, kan dette oppgavestatusen fylt MSDTC-loggen som stanser MSDTC-tjenesten.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of a transaction managed by &lt;xref:System.Transactions&gt;, this results in a gradual and continual increase in the memory consumption of the resource manager's process.</source>
+          <target state="translated">Hvis det er en transaksjon som administreres av &lt;xref:System.Transactions&gt;, dette fører til en gradvis og kontinuerlige økning i minneforbruk av prosessen for ressursbehandlingen.&lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it is crucial that you call the Done method once your resource manager is done with your prepare work.</source>
+          <target state="translated">Det er derfor viktig at du kalle metoden ferdig når ressursbehandlingen er ferdig med din forberede jobb.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An enlistment can call the Done method at anytime before it has called &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; in the prepare phase.</source>
+          <target state="translated">En oppføring kan kalle metoden ferdig når som helst før det kalles &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;på prepare-fase.&lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By doing so, the enlistment is casting a read only vote, meaning that it votes commit on the transaction but does not need to receive the final outcome.</source>
+          <target state="translated">På denne måten kaster innrulleringen en lesefeil bare stemme, betyr det commit-svar på transaksjonen, men trenger ikke å motta endelige resultatet.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that, after this method is called, the enlisted participant receives no further notifications from the transaction manager.</source>
+          <target state="translated">Merk at når denne metoden kalles, innrullerte deltakeren mottar ingen flere meldinger fra transaksjonsbehandling.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

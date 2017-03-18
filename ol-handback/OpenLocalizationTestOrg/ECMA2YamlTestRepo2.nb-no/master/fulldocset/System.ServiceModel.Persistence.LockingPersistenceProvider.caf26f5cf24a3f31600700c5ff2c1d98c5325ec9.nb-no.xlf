@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2848460277feb5e92893724265aff400b4a9f74d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Persistence.LockingPersistenceProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67e03e660431fa212d4c1d87f312410177653737</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dad933128142c7997bb69ccedf1d400a1864bb4e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The abstract base class from which all durable service persistence providers that implement locking are derived.</source>
+          <target state="translated">Den abstrakt basisklassen som alle robust utholdenhet tjenesteleverandører som implementerer låsing er avledet fra.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to persistence, the LockingPersistenceProvider class implements locking of service state data records.</source>
+          <target state="translated">I tillegg til vedvarende implementerer klassen LockingPersistenceProvider låsing av tjenesten tilstand dataposter.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Methods that interact with persisted data (such as the <ph id="ph1">`Load`</ph> method) have an optional parameter (<ph id="ph2">`lockInstance`</ph>) that defines whether locks on the data in question are released or maintained.</source>
+          <target state="translated">Metoder som fungerer sammen med faste data (slik som den <ph id="ph1">`Load`</ph> metoden) har en valgfri parameter (<ph id="ph2">`lockInstance`</ph>) som definerer om låser på de aktuelle dataene er utgitt eller beholdes.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, creates a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified identity value.</source>
+          <target state="translated">Når implementert i en avledet klasse, oppretter du en ny forekomst av den <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse, konfigurert med den angitte ID-verdien.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The unique identifier to be associated with this persistence provider instance.</source>
+          <target state="translated">Den unike identifikatoren som skal knyttes til denne forekomsten av utholdenhet leverandøren.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to create instance state information in the persistence store using the parameters.</source>
+          <target state="translated">Starter en asynkron operasjon for å opprette forekomster statusinformasjon i det vedvarende lageret ved hjelp av parameterne.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This method does not unlock the instance after saving the state information.</source>
+          <target state="translated">Denne metoden ikke låse opp forekomsten etter statusinformasjon er lagret.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method calls into the &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginCreate%2A&gt; method, which takes an additional parameter to determine whether the instance is unlocked.</source>
+          <target state="translated">Denne metoden kall til den &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginCreate%2A&gt;metoden som tar en ekstra parameter for å fastsette om forekomsten er låst.&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginCreate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method passes <ph id="ph1">`false`</ph> as a value for this parameter to the calling method.</source>
+          <target state="translated">Denne metoden sender <ph id="ph1">`false`</ph> som en verdi for denne parameteren til kall-metoden.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The instance whose state information is saved into the persistence store.</source>
+          <target state="translated">Forekomsten der statusinformasjon er lagret i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must be completed without timing out.</source>
+          <target state="translated">Intervallet operasjonen må fullføres uten tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">Representanten som varsles når operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">Tilstandsinformasjon som er knyttet til den asynkrone operasjonen.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Statusen for en asynkron operasjon.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to create instance state information in the persistence store using the parameters.</source>
+          <target state="translated">Starter en asynkron operasjon for å opprette forekomster statusinformasjon i det vedvarende lageret ved hjelp av parameterne.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This method unlocks the instance after saving the instance state if the value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">unlockInstance</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Denne metoden låses forekomsten når du har lagret tilstanden forekomst Hvis verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">unlockInstance</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The instance whose state information is saved into the persistence store.</source>
+          <target state="translated">Forekomsten der statusinformasjon er lagret i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must be completed without timing out.</source>
+          <target state="translated">Intervallet operasjonen må fullføres uten tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance must be unlocked in the persistence store; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis forekomsten må være låst i vedvarende lager; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">Representanten som varsles når operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">Tilstandsinformasjon som er knyttet til den asynkrone operasjonen.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Statusen for en asynkron operasjon.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to load an instance based on state information in the persistence store using the parameters.</source>
+          <target state="translated">Starter en asynkron operasjon for å laste inn en forekomst basert på statusinformasjon i vedvarende lager ved hjelp av parameterne.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This method does not lock the instance.</source>
+          <target state="translated">Denne metoden låser ikke forekomsten.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method calls into the &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginLoad%2A&gt;, which takes an additional parameter that specifies whether the instance must be locked in the persistence store.</source>
+          <target state="translated">Denne metoden kall til den &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginLoad%2A&gt;, som bruker den andre parameteren som angir om forekomsten må være låst i vedvarende lager.&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method passes <ph id="ph1">`false`</ph> as a value for this parameter to the calling method.</source>
+          <target state="translated">Denne metoden sender <ph id="ph1">`false`</ph> som en verdi for denne parameteren til kall-metoden.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must be completed without timing out.</source>
+          <target state="translated">Intervallet operasjonen må fullføres uten tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">Representanten som varsles når operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">Tilstandsinformasjon som er knyttet til den asynkrone operasjonen.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Statusen for en asynkron operasjon.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to load an instance based on state information in the persistence store using the parameters.</source>
+          <target state="translated">Starter en asynkron operasjon for å laste inn en forekomst basert på statusinformasjon i vedvarende lager ved hjelp av parameterne.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This method locks the instance after loading the instance state if the value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">lockInstance</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Denne metoden låser forekomsten etter innlasting av tilstanden forekomst Hvis verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">lockInstance</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An interval in which the operation must be completed before timing out.</source>
+          <target state="translated">Et intervall operasjonen må fullføres før tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance must be locked; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis forekomsten må være låst; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">Representanten som varsles når operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">Tilstandsinformasjon som er knyttet til den asynkrone operasjonen.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Statusen for en asynkron operasjon.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the beginning of the LoadIfChanged phase.</source>
+          <target state="translated">Representerer begynnelsen av LoadIfChanged fase når implementert i en avledet klasse.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The LoadIfChanged phase occurs when state data is loaded into the persistence provider from the persistence store and the state data in the persistence store has been changed.</source>
+          <target state="translated">LoadIfChanged fase oppstår når dataene er lastet inn i utholdenhet leverandøren fra vedvarende lager og Tilstandsdataene i vedvarende lager er endret.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This method call does not lock the instance in the persistence store.</source>
+          <target state="translated">Metodekallet låser ikke forekomst i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this operation.</source>
+          <target state="translated">Hvor lang tid før utholdenhet leverandøren avbryter denne operasjonen.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The token returned by a previous <bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method that represents the current state held by the caller.</source>
+          <target state="translated">Token ble returnert av en tidligere <bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> metode som representerer den gjeldende tilstanden holdes av oppkalleren.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">Metoden som skal kalles når operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">Et gitt objekt som skiller denne bestemt asynkrone operasjonen av andre operasjoner.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Statusen for en asynkron operasjon.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the beginning of the LoadIfChanged phase.</source>
+          <target state="translated">Representerer begynnelsen av LoadIfChanged fase når implementert i en avledet klasse.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The LoadIfChanged phase occurs when state data is loaded into the persistence provider from the persistence store and the state data in the persistence store has been changed.</source>
+          <target state="translated">LoadIfChanged fase oppstår når dataene er lastet inn i utholdenhet leverandøren fra vedvarende lager og Tilstandsdataene i vedvarende lager er endret.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This method call lets you specify whether you want to lock the instance in the persistence store.</source>
+          <target state="translated">Metodekallet lar deg angi om du vil låse forekomst i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this operation.</source>
+          <target state="translated">Hvor lang tid før utholdenhet leverandøren avbryter denne operasjonen.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The token returned by a previous <bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method that represents the current state held by the caller.</source>
+          <target state="translated">Token ble returnert av en tidligere <bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> metode som representerer den gjeldende tilstanden holdes av oppkalleren.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance is locked in the persistence store; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis forekomsten er låst i vedvarende lager; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">Metoden som skal kalles når operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">Et gitt objekt som skiller denne bestemt asynkrone operasjonen av andre operasjoner.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Statusen for en asynkron operasjon.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to unlock an instance in the persistence store.</source>
+          <target state="translated">Starter en asynkron operasjon for å låse opp en forekomst i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An interval in which the operation must be completed before timing out.</source>
+          <target state="translated">Et intervall operasjonen må fullføres før tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">Representanten som varsles når operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The state information associated with the asynchronous operation.</source>
+          <target state="translated">Tilstandsinformasjon som er knyttet til den asynkrone operasjonen.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Statusen for en asynkron operasjon.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to update instance state information in the persistence store using the parameters passed.</source>
+          <target state="translated">Starter en asynkron operasjon for å oppdatere informasjon om forekomsten i vedvarende lager ved hjelp av parameterne som ble sendt.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This operation does not unlock the instance in the instance store.</source>
+          <target state="translated">Denne operasjonen Lås ikke forekomst i forekomst-butikken.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method calls into the &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginUpdate%2A&gt; method and passes a <ph id="ph1">`false`</ph> value for the <ph id="ph2">`unlockInstance`</ph> parameter.</source>
+          <target state="translated">Denne metoden kall til den &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginUpdate%2A&gt;metoden og formidler en <ph id="ph1">`false`</ph> verdi den <ph id="ph2">`unlockInstance`</ph> parameteren.&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.BeginUpdate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The instance whose state information is being updated in the persistence store.</source>
+          <target state="translated">Forekomsten der statusinformasjon oppdateres i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must complete without timing out.</source>
+          <target state="translated">Intervallet som Utfør operasjonen uten å bli tidsavbrutt.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation is completed.</source>
+          <target state="translated">Representanten som varsles når operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The state information about the asynchronous operation.</source>
+          <target state="translated">Tilstandsinformasjon om den asynkrone operasjonen.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Statusen for en asynkron operasjon.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to update instance state information in the persistence store using the parameters passed.</source>
+          <target state="translated">Starter en asynkron operasjon for å oppdatere informasjon om forekomsten i vedvarende lager ved hjelp av parameterne som ble sendt.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This operation locks the instance in the persistence store if the value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">unlockInstance</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Denne operasjonen låser forekomst i vedvarende lager hvis verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">unlockInstance</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The instance whose state information is being updated in the persistence store.</source>
+          <target state="translated">Forekomsten der statusinformasjon oppdateres i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must complete without timing out.</source>
+          <target state="translated">Intervallet som Utfør operasjonen uten å bli tidsavbrutt.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance must be locked after the instance state is updated in the persistence store; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis forekomsten må være låst når tilstanden forekomsten oppdateres i vedvarende lager; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The delegate that receives the notification when the operation completes.</source>
+          <target state="translated">Representanten som varsles når operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The state information about the asynchronous operation.</source>
+          <target state="translated">Tilstandsinformasjon om den asynkrone operasjonen.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The status of an asynchronous operation.</source>
+          <target state="translated">Statusen for en asynkron operasjon.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Creates instance state information in the persistence store using parameters passed into the method.</source>
+          <target state="translated">Oppretter forekomst statusinformasjon i vedvarende lager med parametere som overføres til metoden.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This method does not unlock the instance in the persistence store after saving the instance state.</source>
+          <target state="translated">Denne metoden ikke låse opp forekomst i vedvarende lager når du har lagret tilstanden forekomst.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The instance object whose state information must be saved into the persistence store.</source>
+          <target state="translated">Objekt forekomst der statusinformasjon må lagres i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The interval in which the operation must complete before timing out.</source>
+          <target state="translated">Intervallet som operasjonen må fullføres før tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The state information.</source>
+          <target state="translated">Tilstandsinformasjon.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This method creates instance state information in the persistence store using parameters passed into the method.</source>
+          <target state="translated">Denne metoden oppretter forekomsten statusinformasjon i vedvarende lager med parametere som overføres til metoden.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The method unlocks the instance in the instance store if the value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">unlockInstance</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Metoden låses forekomst i forekomsten store Hvis verdien for den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">unlockInstance</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The instance object whose state information is saved into the persistence store.</source>
+          <target state="translated">Objekt forekomst der statusinformasjon er lagret i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The interval within which the operation must complete before timing out.</source>
+          <target state="translated">Intervallet som operasjonen må fullføres før tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance must be unlocked in the persistence store; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis forekomsten må være låst i vedvarende lager; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The state information.</source>
+          <target state="translated">Tilstandsinformasjon.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Ends the asynchronous operation to unlock an instance in the persistence store.</source>
+          <target state="translated">Avsluttes den asynkrone operasjonen for å låse opp en forekomst i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The result returned by the unlock operation.</source>
+          <target state="translated">Resultatet som returneres av unlock-operasjonen.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Loads service state information from the persistence store without locking the instance.</source>
+          <target state="translated">Laster behandle statusinformasjon fra vedvarende lager uten å låse forekomsten.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Load%2A&gt; method with <ph id="ph1">`lockInstance`</ph> parameter set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">Denne metoden starter den &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Load%2A&gt;metode med <ph id="ph1">`lockInstance`</ph> parameteren satt til <ph id="ph2">`false`</ph>.&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Load%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">Hvor lang tid før utholdenhet leverandøren avbryter forsøket.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The service state information.</source>
+          <target state="translated">Tilstandsinformasjon for tjenesten.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Loads state information from the persistence store after locking the instance.</source>
+          <target state="translated">Laster tilstandsinformasjon fra vedvarende lager etter låsing forekomsten.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The period after which the persistence provider aborts this operation.</source>
+          <target state="translated">Perioden utholdenhet leverandøren avbryter før denne operasjonen.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance should be locked; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis forekomsten skal låses; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The state information.</source>
+          <target state="translated">Tilstandsinformasjon.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Loads the instance state information from the persistence store if the state information has been changed since the last time the information was loaded by the caller.</source>
+          <target state="translated">Laster inn forekomsten statusinformasjon fra vedvarende lager hvis statusinformasjon er endret siden sist informasjonen som ble lastet inn av oppkalleren.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This method does not lock the instance in the persistence store.</source>
+          <target state="translated">Denne metoden låser ikke forekomst i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this operation.</source>
+          <target state="translated">Hvor lang tid før utholdenhet leverandøren avbryter denne operasjonen.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The token returned by the previous <bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method calls, which represents the current state held by the caller.</source>
+          <target state="translated">Token ble returnert av forrige <bpt id="p1">&lt;xref uid="langword_csharp_Create" name="Create" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> metodekall som representerer den gjeldende tilstanden holdes av oppkalleren.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The actual instance state information.</source>
+          <target state="translated">Den faktiske forekomsten informasjon om.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance should be locked in the persistence store at the end of this operation; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis forekomsten skal låses i vedvarende lager på slutten av denne operasjonen. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Loads the instance state information from the persistence store if the state information has been changed since the last time the information was loaded by the caller.</source>
+          <target state="translated">Laster inn forekomsten statusinformasjon fra vedvarende lager hvis statusinformasjon er endret siden sist informasjonen som ble lastet inn av oppkalleren.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This method also lets the caller specify whether to lock the instance in the persistence store.</source>
+          <target state="translated">Denne metoden kan også oppkalleren angi om du vil låse forekomst i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this operation.</source>
+          <target state="translated">Hvor lang tid før utholdenhet leverandøren avbryter denne operasjonen.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The token returned by the previous Create or Update method calls, which represents the current state held by the caller.</source>
+          <target state="translated">Tokenet returnert av de forrige metodekall oppretting eller oppdatering som representerer den gjeldende tilstanden holdes av oppkalleren.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance should be locked in the persistence store at the end of this operation; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis forekomsten skal låses i vedvarende lager på slutten av denne operasjonen. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">Tilstandsinformasjon for forekomsten.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance should be locked in the persistence store at the end of this operation; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis forekomsten skal låses i vedvarende lager på slutten av denne operasjonen. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Unlocks the instance whose ID is specified when constructing the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object in the persistence store.</source>
+          <target state="translated">Låses forekomsten med IDen angis når den <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts the operation.</source>
+          <target state="translated">Hvor lang tid før utholdenhet leverandøren avbryter operasjonen.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, updates the instance state information in the persistence store.</source>
+          <target state="translated">Når implementert i en avledet klasse, oppdaterer du forekomsten statusinformasjon i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This method does not unlock the instance after updating the instance state information in the persistence store.</source>
+          <target state="translated">Denne metoden ikke låse opp forekomsten når du har oppdatert forekomsten statusinformasjon i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">Tilstandsinformasjon for forekomsten.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts the operation.</source>
+          <target state="translated">Hvor lang tid før utholdenhet leverandøren avbryter operasjonen.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">Tilstandsinformasjon for forekomsten.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, updates the instance state information in the persistence store.</source>
+          <target state="translated">Når implementert i en avledet klasse, oppdaterer du forekomsten statusinformasjon i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This method does not unlock the instance after updating the instance state information in the persistence store.</source>
+          <target state="translated">Denne metoden ikke låse opp forekomsten når du har oppdatert forekomsten statusinformasjon i vedvarende lager.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">Tilstandsinformasjon for forekomsten.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts the operation.</source>
+          <target state="translated">Hvor lang tid før utholdenhet leverandøren avbryter operasjonen.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance is unlocked after the instance state information is updated; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis forekomsten er låst etter at forekomsten statusinformasjon er oppdatert; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The instance state information.</source>
+          <target state="translated">Tilstandsinformasjon for forekomsten.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
