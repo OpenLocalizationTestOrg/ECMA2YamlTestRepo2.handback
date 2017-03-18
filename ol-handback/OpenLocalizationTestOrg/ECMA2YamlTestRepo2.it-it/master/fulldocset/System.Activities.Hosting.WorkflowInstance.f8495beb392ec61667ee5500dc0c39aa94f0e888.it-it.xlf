@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">930ac95ff671b66ba5f8573e049a24cbc598dc05</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Activities.Hosting.WorkflowInstance.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df0058954fe7f6d73d618669ef2ef912f6af1a1d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67a9ef1bba121f95d14f52bf556741e8cf4f96ca</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>WorkflowInstance is a lightweight, per-instance runtime for executing a workflow program.</source>
+          <target state="translated">WorkflowInstance è un runtime per istanza leggero per l'esecuzione di un programma di flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It can be constructed to create a new workflow instance or from existing instance state.</source>
+          <target state="translated">Può essere costruito per creare una nuova istanza del flusso di lavoro o di stato dell'istanza esistente.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The APIs that &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; exposes are the minimal set of runtime controls from which higher level operations can be implemented.</source>
+          <target state="translated">Le API che &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;espone costituiscono il set minimo di controlli di runtime da cui operazioni di livello superiore possono essere implementate.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This API set represents the entire breadth of functionality of the runtime.</source>
+          <target state="translated">Questo set di API rappresenta l'intera gamma di funzionalità del runtime.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>WorkflowInstance is an abstract class and relies on a host’s implementation of its abstract methods in order to provide host functionality such as synchronization, persistence, tracking, and extensions.</source>
+          <target state="translated">WorkflowInstance è una classe astratta e si basa sull'implementazione di un host dei metodi astratti per fornire funzionalità host, quali sincronizzazione, persistenza, rilevamento e le estensioni.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WorkflowInstance is single threaded and assumes that the host synchronizes all access to it.</source>
+          <target state="translated">WorkflowInstance è singolo thread singolo e presuppone che l'host sincronizzi tutti gli accessi a esso.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An attempt to call multiple APIs simultaneously will result in an &lt;xref:System.InvalidOperationException&gt; being thrown.</source>
+          <target state="translated">Tentativo di chiamare più API contemporaneamente comporterà un &lt;xref:System.InvalidOperationException&gt;generata.&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Internally, a WorkflowInstance has two states: Running and Paused.</source>
+          <target state="translated">Internamente, un'istanza WorkflowInstance dispone di due stati: in esecuzione e sospeso.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The only way to cause the runtime to transition from paused to running is to call &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.</source>
+          <target state="translated">L'unico modo per fare in modo il runtime per eseguire la transizione da messo in pausa all'esecuzione consiste nel chiamare &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All actions (except Pause) can only be taken while the runtime is Paused.</source>
+          <target state="translated">Tutte le azioni (tranne la sospensione) possono essere eseguite solo durante il runtime è sospeso.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime will become spontaneously Paused in the following situations:      -   An error fatal to the runtime has occurred.</source>
+          <target state="translated">Il runtime verrà automaticamente sospeso nelle situazioni seguenti:-si è verificato un errore irreversibile di runtime.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host will be signaled through &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt; (which does not signal a transition to Paused) and then notified through &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;.</source>
+          <target state="translated">L'host verrà segnalato tramite &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt;(che non segnala una transizione alla sospensione), quindi notificato tramite &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   An exception in the workflow was uncaught and escaped the root.</source>
+          <target state="translated">-Un'eccezione nel flusso di lavoro è stata intercettata e caratteri di escape radice.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host will be notified through the &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException%2A&gt; method.</source>
+          <target state="translated">L'host riceverà una notifica tramite il &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException%2A&gt;metodo.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The scheduler has run out of work items and is now &lt;xref:System.Activities.Hosting.WorkflowInstanceState&gt;.</source>
+          <target state="translated">-L'utilità di pianificazione ha esaurito gli elementi di lavoro viene ora &lt;xref:System.Activities.Hosting.WorkflowInstanceState&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstanceState&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host will be notified through the &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; method.</source>
+          <target state="translated">L'host riceverà una notifica tramite il &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;metodo.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the scheduler could have run out of work items because the instance is idle or because the instance is complete.</source>
+          <target state="translated">Si noti che l'utilità di pianificazione potrebbe avere esaurito gli elementi di lavoro perché l'istanza è inattiva o perché l'istanza è stata completata.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt; value of the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property can be used to differentiate between the two.</source>
+          <target state="translated">Il &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;valore il &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;proprietà può essere usata per distinguere tra i due.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host can request a change from Running to Paused by calling the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt; or &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.PauseWhenPersistable%2A&gt; methods of the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; instance returned by the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property.</source>
+          <target state="translated">L'host può richiedere una modifica dall'esecuzione alla sospensione chiamando i &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt;o &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.PauseWhenPersistable%2A&gt;metodi del &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;istanza restituita dal &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;proprietà.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.PauseWhenPersistable%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This request should not be considered to have a specific response meaning that the host should not attempt to correlate an OnNotify<bpt id="p1">*</bpt> or &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt; with a specific call to pause. In response to a pause request, the runtime may transition to Paused and call &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; while the scheduler still has pending work items. The &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt; value of the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property can be used to determine whether the scheduler has no more work or was interrupted by a request to pause.       The &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt; method of the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; instance returned by the &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; property is the only method which can be called while the WorkflowInstance is in the Running state. All other methods will throw an &lt;xref:System.InvalidOperationException&gt; if called.Given the rules for how WorkflowInstance transitions from one state to another, the public notion of Running and Paused can be defined as follows:      -   Running – The state between a call to &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt; and the next WorkflowInstance.OnNotify<ept id="p1">*</ept>.</source>
+          <target state="translated">Questa richiesta non deve essere considerata una risposta specifica pertanto l'host non deve tentare di correlare un metodo OnNotify<bpt id="p1">*</bpt> o &lt;xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt;con una chiamata specifica alla sospensione.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnRequestAbort%2A&gt; In risposta a una richiesta di sospensione, il runtime potrebbe eseguire la transizione alla sospensione e chiamare &lt;xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt;mentre l'utilità di pianificazione sono ancora presenti elementi di lavoro in sospeso.&lt;/xref:System.Activities.Hosting.WorkflowInstance.OnNotifyPaused%2A&gt; Il &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;valore il &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;proprietà può essere utilizzata per determinare se l'utilità di pianificazione ha non altre operazioni o è stata interrotta da una richiesta di sospensione.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.State%2A&gt;       Il &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt;metodo il &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;istanza restituita dal &lt;xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt;proprietà è l'unico metodo che può essere chiamato mentre WorkflowInstance è in stato di esecuzione.&lt;/xref:System.Activities.Hosting.WorkflowInstance.Controller%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.RequestPause%2A&gt; Tutti gli altri metodi genererà un &lt;xref:System.InvalidOperationException&gt;se chiamato. Stabilite le regole per la modalità di WorkflowInstance transizione da uno stato a un altro, la nozione pubblica di esecuzione e di sospensione può essere definita come segue: - esecuzione: lo stato tra una chiamata a &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;e il successivo WorkflowInstance.OnNotify<ept id="p1">*</ept>.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt; &lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Paused – The state between the last WorkflowInstance.OnNotify* and the next call to &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.</source>
+          <target state="translated">-In pausa – lo stato tra l'ultimo OnNotify * e la successiva chiamata a &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Run%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified workflow definition.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe con la definizione di flusso di lavoro specificata.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The activity that defines the workflow.</source>
+          <target state="translated">Attività che definisce il flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified workflow definition and definition identity.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe con la definizione di flusso di lavoro specificata e l'identità della definizione.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The activity that defines the workflow.</source>
+          <target state="translated">Attività che definisce il flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The definition identity.</source>
+          <target state="translated">L'identità di definizione.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to begin sending pending tracking records to tracking participants asynchronously.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per iniziare l'invio in sospeso ai partecipanti di rilevamento in modo asincrono i record di rilevamento.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The time period after which to abort the attempt.</source>
+          <target state="translated">Il periodo di tempo dopo il quale interrompere il tentativo.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The method to be called when the track operation has completed.</source>
+          <target state="translated">Il metodo da chiamare al termine dell'operazione di rilevamento.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The information about the asynchronous operation.</source>
+          <target state="translated">Le informazioni sull'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The status of the current track operation.</source>
+          <target state="translated">Lo stato dell'operazione di rilevamento corrente.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; instance for this <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ottiene il &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;istanza per questo <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The controller instance for this workflow instance.</source>
+          <target state="translated">L'istanza del controller per l'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets or sets the definition identity of <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ottiene o imposta l'identità di definizione del <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The definition identity of <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">L'identità della definizione di <bpt id="p1">&lt;xref href="System.Activities.Hosting.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Calls &lt;xref:System.Disposable.Dispose*&gt; on all extensions that implement &lt;xref:System.IDisposable&gt;.</source>
+          <target state="translated">Viene chiamato &lt;xref:System.Disposable.Dispose*&gt;su tutte le estensioni che implementano &lt;xref:System.IDisposable&gt;.&lt;/xref:System.IDisposable&gt; &lt;/xref:System.Disposable.Dispose*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to end the track operation.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per terminare l'operazione di traccia.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The status of the asynchronous track operation.</source>
+          <target state="translated">Lo stato dell'operazione di rilevamento asincrona.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to send pending tracking records to tracking participants.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per inviare i record di rilevamento ai partecipanti di rilevamento in sospeso.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The time period after which to abort the attempt.</source>
+          <target state="translated">Il periodo di tempo dopo il quale interrompere il tentativo.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Retrieves the list of activity that is blocking the update of the workflow.</source>
+          <target state="translated">Recupera l'elenco di attività che blocca l'aggiornamento del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The deserialized runtime state.</source>
+          <target state="translated">Lo stato di runtime deserializzato.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The update map.</source>
+          <target state="translated">La mappa di aggiornamento.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The list of activity that is blocking the update.</source>
+          <target state="translated">Elenco di attività che blocca l'aggiornamento.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets or sets the root environment for the workflow instance’s arguments and variables.</source>
+          <target state="translated">Ottiene o imposta l'ambiente radice per gli argomenti e variabili dell'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is set after the workflow instance is initialized and &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt; returns <ph id="ph1">`true`</ph>, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">Se questa proprietà è impostata dopo l'istanza del flusso di lavoro è inizializzata e &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;restituisce <ph id="ph1">`true`</ph>, un &lt;xref:System.InvalidOperationException&gt;viene generata un'eccezione.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The root environment for the workflow instance’s arguments and variables.</source>
+          <target state="translated">Ambiente radice per gli argomenti e variabili dell'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the unique identifier for the workflow instance.</source>
+          <target state="translated">Ottiene l'identificatore univoco per l'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The unique identifier for the workflow instance.</source>
+          <target state="translated">Identificatore univoco per l'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Called by the host to initialize the workflow instance with the workflow run-time state.</source>
+          <target state="translated">Chiamato dall'host per inizializzare l'istanza del flusso di lavoro con lo stato di runtime del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The run-time state used to execute the workflow.</source>
+          <target state="translated">Lo stato di runtime utilizzato per eseguire il flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Called by the host to initialize the workflow instance with the argument values and execution properties.</source>
+          <target state="translated">Chiamato dall'host per inizializzare l'istanza del flusso di lavoro con i valori degli argomenti e le proprietà di esecuzione.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The input parameters to the workflow, keyed by argument name.</source>
+          <target state="translated">I parametri di input per il flusso di lavoro codificati dal nome dell'argomento.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The list of workflow execution properties.</source>
+          <target state="translated">L'elenco di proprietà di esecuzione del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Called by the host to initialize the workflow instance with the workflow run-time state and update map.</source>
+          <target state="translated">Chiamato dall'host per inizializzare l'istanza del flusso di lavoro con lo stato di runtime del flusso di lavoro e aggiornare la mappa.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The run-time state used to execute the workflow.</source>
+          <target state="translated">Lo stato di runtime utilizzato per eseguire il flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The update map.</source>
+          <target state="translated">La mappa di aggiornamento.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the workflow instance has been initialized.</source>
+          <target state="translated">Ottiene un valore che indica se l'istanza del flusso di lavoro è stata inizializzata.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the workflow instance has been initialized; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se l'istanza del flusso di lavoro è stata inizializzata. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that new instance keys should be associated with this instance.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per notificare all'host che le nuove chiavi di istanza devono essere associate a questa istanza.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The instance keys to associate with this workflow instance.</source>
+          <target state="translated">Le chiavi di istanza da associare a questa istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation completes.</source>
+          <target state="translated">Il metodo da chiamare al completamento dell'operazione.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An optional application-specific object that contains information about the asynchronous operation.</source>
+          <target state="translated">Oggetto facoltativo specifico dell'applicazione che contiene informazioni sull'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A reference to the asynchronous associate keys operation.</source>
+          <target state="translated">Operazione di chiavi di associazione di un riferimento a asincrona.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Asynchronous call to ask host to flush pending tracking records to tracking participants.</source>
+          <target state="translated">Chiamata asincrona per chiedere all'host di scaricare i record di rilevamento ai partecipanti di rilevamento in sospeso.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The method to be called when the track operation has completed.</source>
+          <target state="translated">Il metodo da chiamare al termine dell'operazione di rilevamento.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The information about the asynchronous operation.</source>
+          <target state="translated">Le informazioni sull'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The status of the current track operation.</source>
+          <target state="translated">Lo stato dell'operazione di rilevamento corrente.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Asynchronous call to ask the host to persist the workflow.</source>
+          <target state="translated">Chiamata asincrona per chiedere all'host di rendere persistente il flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The method to be called when the persist operation has completed.</source>
+          <target state="translated">Il metodo da chiamare quando l'operazione di persistenza è stata completata.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An optional application-specific object that contains information about the asynchronous operation.</source>
+          <target state="translated">Oggetto facoltativo specifico dell'applicazione che contiene informazioni sull'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A reference to the current persist operation.</source>
+          <target state="translated">Operazione della persistenza un riferimento all'oggetto corrente.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a resume bookmark operation is beginning.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per notificare all'host che sta iniziando un'operazione di ripresa di segnalibro.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The bookmark to resume.</source>
+          <target state="translated">Il segnalibro da riprendere.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The data to be passed to the activity that created the <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">I dati da passare all'attività che ha creato il <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The interval in which the resume operation must complete before the operation is canceled and a &lt;xref:System.TimeoutException&gt; is thrown.</source>
+          <target state="translated">Intervallo in cui l'operazione di ripresa deve essere completata prima che l'operazione sia annullata e un &lt;xref:System.TimeoutException&gt;viene generata un'eccezione.&lt;/xref:System.TimeoutException&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The method to be called when the resume operation has completed.</source>
+          <target state="translated">Il metodo da chiamare quando l'operazione di ripresa è stata completata.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An optional application-specific object that contains information about the asynchronous operation.</source>
+          <target state="translated">Oggetto facoltativo specifico dell'applicazione che contiene informazioni sull'operazione asincrona.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A reference to the asynchronous resume operation.</source>
+          <target state="translated">Un riferimento all'operazione di ripresa asincrona.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a certain set of instance keys should no longer be associated with this instance.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per notificare all'host che un determinato set di chiavi di istanza non deve essere associato a questa istanza.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The list of keys to disassociate.</source>
+          <target state="translated">L'elenco di chiavi da disassociare.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that an associate keys operation is complete.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per notificare all'host che un'operazione di associazione delle chiavi è stata completata.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The reference to the asynchronous associate keys operation.</source>
+          <target state="translated">Il riferimento a asincrona operazione di associazione chiavi.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host when the flush tracking records operation is complete.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per notificare all'host quando l'operazione di scaricamento rilevamento record è stata completata.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The status of the asynchronous flush tracking records operation.</source>
+          <target state="translated">Lo stato dello scaricamento asincrono operazione record di rilevamento.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a persist operation is complete.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per notificare all'host che un'operazione di persistenza è stata completata.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The reference to the asynchronous persist operation.</source>
+          <target state="translated">Operazione della persistenza asincrona il riferimento.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that a resume bookmark operation is complete.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per notificare all'host che un'operazione di ripresa di segnalibro è stata completata.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The reference to the asynchronous resume bookmark operation.</source>
+          <target state="translated">Il riferimento all'operazione di segnalibro di ripresa asincrona.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that indicates the result of a <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> resume operation.</source>
+          <target state="translated">Uno dei valori di enumerazione che indica il risultato di un <bpt id="p1">&lt;xref href="System.Activities.Bookmark"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> operazione di ripresa.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that the workflow instance has transitioned from the running state to the paused state.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per notificare all'host che l'istanza del flusso di lavoro ha eseguito la transizione dallo stato di esecuzione per lo stato sospeso.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host an unhandled exception has occurred in the workflow instance.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per notificare all'host di che un'eccezione non gestita nell'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The unhandled exception.</source>
+          <target state="translated">Eccezione non gestita.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The activity that threw the exception.</source>
+          <target state="translated">L'attività che ha generato l'eccezione.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The unique identifier of the <bpt id="p1">&lt;xref href="System.Activities.ActivityInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the activity that threw the exception.</source>
+          <target state="translated">Identificatore univoco del <bpt id="p1">&lt;xref href="System.Activities.ActivityInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'attività che ha generato l'eccezione.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Called by the workflow runtime to notify the host that an abort operation has been requested for the workflow instance.</source>
+          <target state="translated">Chiamato dal runtime del flusso di lavoro per notificare all'host che un'operazione di interruzione è stata richiesta per l'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once OnRequestAbort is called, most &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt; APIs except &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Abort%2A&gt; will throw an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">Una volta OnRequestAbort viene chiamato, la maggior parte delle &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;API, ad eccezione di &lt;xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Abort%2A&gt;genererà un &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.Abort%2A&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is expected that after OnRequestAbort is called a host will trend toward a state in which it can satisfy the abort.</source>
+          <target state="translated">È previsto che dopo la chiamata a OnRequestAbort tendenza di un host verso uno stato in cui sia possibile soddisfare l'interruzione.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The reason for aborting the workflow instance.</source>
+          <target state="translated">Motivo dell'interruzione l'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Called by the host to register the specified extension manager, validate that all required extensions are present, and to initialize the collection of extensions to be used.</source>
+          <target state="translated">Chiamato dall'host per registrare il gestore estensioni specificato, confermare che tutte le estensioni obbligatorie siano presente e inizializzare la raccolta di estensioni da utilizzare.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extensions are keyed by type, and a host provided extension will always be used if provided.</source>
+          <target state="translated">Le estensioni vengono codificate in base al tipo e un host fornito estensione verrà sempre utilizzata se specificato.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extensions added through &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt; use the runtime type of the object as the type key.</source>
+          <target state="translated">Le estensioni aggiunte tramite &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;utilizzano il tipo di runtime dell'oggetto come chiave del tipo.&lt;/xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extensions providers added through &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt; use the decared type T of the Func<ph id="ph1">\&lt;</ph>T&gt; as the type key.</source>
+          <target state="translated">Provider di estensioni aggiunti tramite &lt;xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;utilizzano il tipo dichiarato T di Func<ph id="ph1">\&lt;</ph>T &gt; come chiave del tipo.&lt;/xref:System.Activities.Hosting.WorkflowInstanceExtensionManager.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extension providers contributed by activities through the various *ActivityMetadata.AddDefaultExtensionProvider methods are dropped if a host extension exists for the declared type or if there is a broader type provided through AddDefaultExtensionProvider (ex.</source>
+          <target state="translated">I provider di estensioni forniti dalle attività tramite svariati metodi * activitymetadata. adddefaultextensionprovider vengono eliminati se esiste un'estensione host per il tipo dichiarato o se è presente un tipo più ampio fornito tramite AddDefaultExtensionProvider (ad esempio.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>if Func<ph id="ph1">\&lt;</ph>StreamWriter&gt; is provided and Func<ph id="ph2">\&lt;</ph>TextWriter&gt; is provided, only Func<ph id="ph3">\&lt;</ph>StreamWriter&gt; will be kept).</source>
+          <target state="translated">Se Func<ph id="ph1">\&lt;</ph>StreamWriter &gt; viene fornito e Func<ph id="ph2">\&lt;</ph>TextWriter &gt; viene fornito solo Func<ph id="ph3">\&lt;</ph>StreamWriter &gt; verranno mantenuti).</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an extension does not exist in the collection that is required by an activity (expressed by calling <ph id="ph1">\*</ph>ActivityMetadata.RequireExtension) a &lt;xref:System.Activities.ValidationException&gt; is thrown.</source>
+          <target state="translated">Se un'estensione non esiste nella raccolta che è richiesta da un'attività (espressa chiamando <ph id="ph1">\*</ph>activitymetadata. Requireextension) un &lt;xref:System.Activities.ValidationException&gt;viene generata un'eccezione.&lt;/xref:System.Activities.ValidationException&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The extension manager to register.</source>
+          <target state="translated">Il gestore estensioni da registrare.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the host supports the association of &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt; with a run-time instance.</source>
+          <target state="translated">Ottiene un valore che indica se l'host supporta l'associazione di &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;con un'istanza di runtime.&lt;/xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the host supports the association of &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt; with a workflow instance; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se l'host supporta l'associazione di &lt;xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;con un'istanza del flusso di lavoro; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Runtime.Persistence.InstanceView.InstanceKeys*&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.Threading.SynchronizationContext&gt; used for scheduling the workflow instance.</source>
+          <target state="translated">Ottiene o imposta il &lt;xref:System.Threading.SynchronizationContext&gt;utilizzato per la pianificazione dell'istanza del flusso di lavoro.&lt;/xref:System.Threading.SynchronizationContext&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is set after the workflow instance is initialized and &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt; returns <ph id="ph1">`true`</ph>, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">Se questa proprietà è impostata dopo l'istanza del flusso di lavoro è inizializzata e &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;restituisce <ph id="ph1">`true`</ph>, un &lt;xref:System.InvalidOperationException&gt;viene generata un'eccezione.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The synchronization context used for scheduling the workflow instance.</source>
+          <target state="translated">Il contesto di sincronizzazione utilizzato per la pianificazione dell'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Throws an &lt;xref:System.InvalidOperationException&gt; if the workflow instance has been initialized, as determined by &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly*&gt;.</source>
+          <target state="translated">Genera un'eccezione &lt;xref:System.InvalidOperationException&gt;Se l'istanza del flusso di lavoro è stata inizializzata, come determinato da &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly*&gt;.&lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly*&gt; &lt;/xref:System.InvalidOperationException&gt; un</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt; returns <ph id="ph1">`true`</ph>, then an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">Se &lt;xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;restituisce <ph id="ph1">`true`</ph>, quindi un &lt;xref:System.InvalidOperationException&gt;viene generata un'eccezione.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Activities.Hosting.WorkflowInstance.IsReadOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets the workflow definition of the workflow instance.</source>
+          <target state="translated">Ottiene la definizione del flusso di lavoro dell'istanza del flusso di lavoro.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The workflow definition of the workflow instance.</source>
+          <target state="translated">La definizione del flusso di lavoro dell'istanza del flusso di lavoro.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
