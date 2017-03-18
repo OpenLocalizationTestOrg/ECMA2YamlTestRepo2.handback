@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aee558e05285276443f78e5dff25d12615ebce25</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Compilation.AppSettingsExpressionBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a8b5e536a7b4f0b86fe4a4e1c0b421288b3d8915</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">07c0dee0827b395cf543bc7b5982f92e79150925</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Retrieves values, as specified in a declarative expression, from the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">Értékek megadott deklaratív kifejezésben, lekéri a <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AppSettingsExpressionBuilder class provides access to values in the <ph id="ph1">`&lt;appSettings&gt;`</ph> section of the Web.config file.</source>
+          <target state="translated">A AppSettingsExpressionBuilder osztály szereplő értékek hozzáférést biztosít a <ph id="ph1">`&lt;appSettings&gt;`</ph> szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`&lt;appSettings&gt;`</ph> section of the Web.config file contains application-specific values in key/value pairs.</source>
+          <target state="translated">A <ph id="ph1">`&lt;appSettings&gt;`</ph> szakasz a Web.config fájl tartalmazza a kulcs/érték párok alkalmazásspecifikus értékeket.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application value is retrieved by assigning an expression of the form       <ph id="ph1">`&lt;%$ AppSettings: appSettingsKey %&gt;`</ph>       to a property in a control declaration.</source>
+          <target state="translated">Egy alkalmazás érték lekéri az űrlap kifejezés hozzárendelése <ph id="ph1">`&lt;%$ AppSettings: appSettingsKey %&gt;`</ph> vezérlő nyilatkozatban egy tulajdonságra.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The part of the expression before the colon (:) designates the type of expression to be retrieved, and the part after the colon signifies the key.</source>
+          <target state="translated">A kifejezés előtt a kettőspont (:) a részét típusát és kifejezés beolvasni az elem jelöli meg, miután a kettőspont azt jelzi, hogy a kulcs.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The preceding expression would retrieve the following value from the Web.config file.</source>
+          <target state="translated">Az előző kifejezés lenne a következő érték lekérése a Web.config fájlt.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`&lt;appSettings&gt;`</ph>       <ph id="ph2">`&lt;add key="appSettingsKey" value="appSettingsValue"/&gt;`</ph>       <ph id="ph3">`&lt;/appSettings&gt;`</ph>       When the page parser encounters an expression with the <ph id="ph4">`AppSettings`</ph> prefix, it creates an instance of the AppSettingsExpressionBuilder class to handle the expression.</source>
+          <target state="translated"><ph id="ph1">`&lt;appSettings&gt;`</ph>       <ph id="ph2">`&lt;add key="appSettingsKey" value="appSettingsValue"/&gt;`</ph>       <ph id="ph3">`&lt;/appSettings&gt;`</ph>Ha az oldal elemző találkozik egy kifejezést a <ph id="ph4">`AppSettings`</ph> előtag, létrehozza a kifejezés kezelni a AppSettingsExpressionBuilder osztály egy példányát.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expression is encountered in a page that will be compiled, the AppSettingsExpressionBuilder object generates code to retrieve the specified value from the Web.config file.</source>
+          <target state="translated">Ha a kifejezés a rendszer észlelt egy lapon összeállítani, a AppSettingsExpressionBuilder objektum kódot, hogy a megadott érték lekérése a Web.config fájl állít elő.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This code is executed during the execution of the generated page class.</source>
+          <target state="translated">Ez a kód végrehajtása a generált lap osztály végrehajtása közben.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expression is encountered in a page that will not be compiled, the AppSettingsExpressionBuilder object returns the value from the Web.config file when the page is parsed and executed.</source>
+          <target state="translated">Ha a kifejezés nem fordítható lapon nem, a AppSettingsExpressionBuilder objektum a közötti értéket ad vissza a Web.config fájl, ha a lap elemezni és végrehajtani.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Compilation.AppSettingsExpressionBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Web.Compilation.AppSettingsExpressionBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Returns a value from the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">Az értéket adja vissza a <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called when an expression of the form <ph id="ph1">`&lt;%$ AppSettings: someApplicationSetting %&gt;`</ph> is encountered in a no-compile page.</source>
+          <target state="translated">Ezt a módszert nevezik, amikor az űrlap kifejezés <ph id="ph1">`&lt;%$ AppSettings: someApplicationSetting %&gt;`</ph> a rendszer észlelt egy nem-fordítási lapon.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It retrieves the appropriate value from the key/value pairs in the <ph id="ph1">`&lt;appSettings&gt;`</ph> section of the Web.config file.</source>
+          <target state="translated">A megfelelő értéket a átveszi a kulcs/érték párok a <ph id="ph1">`&lt;appSettings&gt;`</ph> szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt; by calling the &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.GetAppSetting%2A&gt; method with the &lt;xref:System.Web.UI.BoundPropertyEntry.Expression%2A&gt; property as the <ph id="ph1">`key`</ph> parameter, the &lt;xref:System.Web.UI.PropertyEntry.Name%2A&gt; property on the &lt;xref:System.Web.UI.PropertyEntry.PropertyInfo%2A?displayProperty=fullName&gt; property as the <ph id="ph2">`propertyName`</ph> parameter, and the &lt;xref:System.Type&gt; of the <ph id="ph3">`target`</ph> parameter as the <ph id="ph4">`targetType`</ph> parameter.</source>
+          <target state="translated">Ezt a módszert felülbírálja &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;meghívásával a &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.GetAppSetting%2A&gt;metódust a &lt;xref:System.Web.UI.BoundPropertyEntry.Expression%2A&gt;tulajdonság a <ph id="ph1">`key`</ph> paraméter, a &lt;xref:System.Web.UI.PropertyEntry.Name%2A&gt;tulajdonságát a &lt;xref:System.Web.UI.PropertyEntry.PropertyInfo%2A?displayProperty=fullName&gt;tulajdonság a <ph id="ph2">`propertyName`</ph> paraméter, és a &lt;xref:System.Type&gt;, a <ph id="ph3">`target`</ph> paraméterként a <ph id="ph4">`targetType`</ph> paraméter.&lt;/xref:System.Type&gt; &lt;/xref:System.Web.UI.PropertyEntry.PropertyInfo%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.PropertyEntry.Name%2A&gt; &lt;/xref:System.Web.UI.BoundPropertyEntry.Expression%2A&gt; &lt;/xref:System.Web.Compilation.AppSettingsExpressionBuilder.GetAppSetting%2A&gt; &lt;/xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The object that contains the property entry.</source>
+          <target state="translated">Az objektum, amely a tulajdonság bejegyzést tartalmaz.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The property to which the expression is bound..</source>
+          <target state="translated">A tulajdonság, amelyre a kifejezés van kötve.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The object that represents parsed data as returned by &lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">Képviselő objektum adatok elemzése, amelyet &lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">A vezérlő vagy lap tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; associated with a key in the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">A &lt;xref:System.Object&gt;kulccsal a kapcsolódó a <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szakasz a Web.config fájl.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns a value from the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">Az értéket adja vissza a <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method retrieves the appropriate value from the key/value pairs in the <ph id="ph1">`&lt;appSettings&gt;`</ph> section of the Web.config file.</source>
+          <target state="translated">Ez a módszer a megfelelő értéket a átveszi a kulcs/érték párok a <ph id="ph1">`&lt;appSettings&gt;`</ph> szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It retrieves the value by getting the &lt;xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt; property with the key as the index.</source>
+          <target state="translated">Ez olvassa be az értéket, pedig a &lt;xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt;tulajdonságot, amelyben a kulcsok az index.&lt;/xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Object&gt; returned is of the type &lt;xref:System.String&gt;.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Nem adott vissza a típusú &lt;xref:System.String&gt;.&lt;/xref:System.String&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The key for the value to be retrieved from the configuration file.</source>
+          <target state="translated">A kulcs az érték a konfigurációs fájlból olvasható.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; associated with the key in the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">A &lt;xref:System.Object&gt;a kulcsot a társított a <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szakasz a Web.config fájl.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The key is not found in Web.config.</source>
+          <target state="translated">A kulcs nem található a Web.config fájlban.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns a value from the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file with the value converted to a target type.</source>
+          <target state="translated">Az értéket adja vissza a <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékét a Web.config fájl alakítja át a céltípussá.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method retrieves the appropriate value from the key/value pairs in the <ph id="ph1">`&lt;appSettings&gt;`</ph> section of the Web.config file.</source>
+          <target state="translated">Ez a módszer a megfelelő értéket a átveszi a kulcs/érték párok a <ph id="ph1">`&lt;appSettings&gt;`</ph> szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value is retrieved by getting the &lt;xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt; property with the key as the index.</source>
+          <target state="translated">Az érték első lekéri a &lt;xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt;tulajdonságot, amelyben a kulcsok az index.&lt;/xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resulting string value is converted to a new type based on the <ph id="ph1">`targetType`</ph> and <ph id="ph2">`propertyName`</ph> parameters.</source>
+          <target state="translated">Az eredményül kapott karakterláncot érték alakítja át egy új típus alapján a <ph id="ph1">`targetType`</ph> és <ph id="ph2">`propertyName`</ph> paraméterek.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The key for a value to be retrieved from the configuration file.</source>
+          <target state="translated">A kulcs a konfigurációs fájlból olvasható és értéknek.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The type of the object that contains the property entry.</source>
+          <target state="translated">Az objektum, amely tartalmaz a tulajdonság típusa.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The name of the property to which the expression is bound.</source>
+          <target state="translated">A tulajdonság, amelyre a kifejezés kötött neve.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; associated with the key in the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">A &lt;xref:System.Object&gt;a kulcsot a társított a <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szakasz a Web.config fájl.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Returns a code expression that is used to perform the property assignment in the generated page class.</source>
+          <target state="translated">A generált lap osztályban a tulajdonság-hozzárendelés végrehajtásához használt kód kifejezést ad vissza.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called during the CodeDOM creation for a page or control.</source>
+          <target state="translated">Ez a módszer lap vagy vezérlőelem neve a CodeDOM létrehozása során.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned &lt;xref:System.CodeDom.CodeExpression&gt; object represents the code expression to add to the property assignment in the generated page class.</source>
+          <target state="translated">A visszaküldött &lt;xref:System.CodeDom.CodeExpression&gt;objektum által jelképezett a kódkifejezés a tulajdonság-hozzárendelést a generált lap osztály hozzáadása&lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The property to which the expression is bound.</source>
+          <target state="translated">A tulajdonság, amelyre a kifejezés van kötve.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The object that represents parsed data as returned by &lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">Képviselő objektum adatok elemzése, amelyet &lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">A vezérlő vagy lap tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used in the property assignment.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely szerepel a tulajdonság-hozzárendelés.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether an expression can be evaluated in a page that is not compiled.</source>
+          <target state="translated">E kifejezés kiértékelése, amelyek nem fordított lapon jelző érték beolvasása.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SupportsEvaluate property indicates whether the &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt; method has been implemented in the class and can return a value for the expression.</source>
+          <target state="translated">A SupportsEvaluate tulajdonság azt jelzi, hogy a &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt;módszer van megvalósítva az osztályban, és visszatérhet a kifejezés értékét.&lt;/xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt; must be implemented within an expression builder for an expression to be evaluated in a page that is not compiled.</source>
+          <target state="translated">&lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt;egy Kifejezésszerkesztő kifejezés, amely nem fordított lapon kiértékelendő belül kell végrehajtani.&lt;/xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder&gt; class supports evaluation of an application setting in a page that is not compiled, so it always returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">A &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder&gt;osztály támogatja a alkalmazás-beállítás értékelése egy oldal, amely nincs lefordítva, így mindig vissza <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.Compilation.AppSettingsExpressionBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>minden esetben.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

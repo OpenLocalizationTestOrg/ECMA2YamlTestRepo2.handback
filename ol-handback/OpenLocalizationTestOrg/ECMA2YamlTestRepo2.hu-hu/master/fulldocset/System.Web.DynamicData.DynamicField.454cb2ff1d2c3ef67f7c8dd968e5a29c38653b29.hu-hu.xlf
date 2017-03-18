@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae3b0664620ea171b0d6688e23b362f6d294b9cc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.DynamicData.DynamicField.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a0677dda5d46df55411b924decb82afdd24ed880</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">877fca7aa50880baf879e7591987b485e2bfe4d9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a data field that is displayed in a data-bound control that uses ASP.NET Dynamic Data features.</source>
+          <target state="translated">ASP.NET rendszerbeli dinamikus adatok szolgáltatásokat használó adathoz kötött vezérlő megjelenő adatmező jelöli.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Declarative Syntax<ept id="p2">](#declarative_syntax)</ept>      <bpt id="p3">&lt;a name="introduction"&gt;</bpt><ept id="p3">&lt;/a&gt;</ept>    ## Introduction    The DynamicField class is used by data-bound controls, such as the &lt;xref:System.Web.UI.WebControls.GridView&gt; and &lt;xref:System.Web.UI.WebControls.DetailsView&gt; controls, to display a field value that uses ASP.NET Dynamic Data features in custom pages.</source>
+          <target state="translated">Ebben a témakörben:- <bpt id="p1">[</bpt>bemutatása<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>deklaratív Szintaxisán<ept id="p2">](#declarative_syntax)</ept> <bpt id="p3">&lt;a name="introduction"&gt;</bpt> <ept id="p3">&lt;/a&gt;</ept> ## bemutatása a dynamicfield csak osztály által használt adathoz kötött vezérlők, például a &lt;xref:System.Web.UI.WebControls.GridView&gt;és &lt;xref:System.Web.UI.WebControls.DetailsView&gt;vezérlők megjelenítéséhez egyéni lapok ASP.NET rendszerbeli dinamikus adatok szolgáltatásokat használó mezőérték.&lt;/xref:System.Web.UI.WebControls.DetailsView&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt;      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DynamicField class provides functionality that resembles that of the &lt;xref:System.Web.UI.WebControls.BoundField&gt; class.</source>
+          <target state="translated">A dynamicfield csak osztály funkciókat biztosít, amelyek hasonlít a &lt;xref:System.Web.UI.WebControls.BoundField&gt;osztályhoz.&lt;/xref:System.Web.UI.WebControls.BoundField&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, because a DynamicField object is used in Dynamic Data applications, you can take advantage of the following Dynamic Data features:      -   Automatically rendering the proper control for a field by using field templates, based on the data type.</source>
+          <target state="translated">Azonban egy dynamicfield csak objektum dinamikus alkalmazások használata, mert kihasználhatja a következő dinamikus adatok szolgáltatások: – automatikusan a megfelelő vezérlő mező leképezésekor mező sablonokkal, az adattípusa alapján.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The field templates can be globally modified for the entire application.</source>
+          <target state="translated">A mező sablonok esetében a teljes alkalmazás globálisan módosítható.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Providing built-in data validation based on the database schema.</source>
+          <target state="translated">-Olyan beépített adatok ellenőrzése az adatbázis-séma alapján.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also add validation types by customizing the data model.</source>
+          <target state="translated">Azt is megteheti érvényesítési típusok testreszabásával az adatmodellt.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Customizing data rendering for individual fields by using attributes in the data model or by using the &lt;xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt; property.</source>
+          <target state="translated">-Az egyes mezőket az adatok ábrázolásakor testreszabása attribútum szerepel az adatmodellben vagy a &lt;xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt;tulajdonság.&lt;/xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DynamicField object renders each field by using a <ph id="ph1">`DynamicControl`</ph> control.</source>
+          <target state="translated">A dynamicfield csak objektum Ez a beállítás minden mező használatával egy <ph id="ph1">`DynamicControl`</ph> vezérlő.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify the data field to display in a DynamicField object, set the &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt; property to the field name.</source>
+          <target state="translated">Adja meg a megjelenítendő dynamicfield csak objektum adat mezője, állítsa be a &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt;tulajdonságot a mező nevét.&lt;/xref:System.Web.DynamicData.DynamicField.DataField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can apply a custom formatting string to the field value by setting the &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt; property.</source>
+          <target state="translated">A mező értékét egy egyéni formázási karakterláncot a beállításával alkalmazhatja a &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;tulajdonság.&lt;/xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default the formatting string is applied to field values only when the data-bound control is in read-only mode.</source>
+          <target state="translated">Alapértelmezés szerint a formázási karakterlánc vonatkozik mezőértékek csak akkor, ha az adathoz kötött vezérlő csak olvasható módban van.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To apply the formatting string to values displayed while the data-bound control is in edit mode, set the &lt;xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">A formázási karakterlánc értékekre alkalmazni kívánt jelenik meg, amíg az adathoz kötött vezérlő szerkesztési módban van, állítsa be a &lt;xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt;tulajdonságot <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a field value is <ph id="ph1">`null`</ph>, you can display a custom caption by setting the &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt; property.</source>
+          <target state="translated">Ha egy mező értéke <ph id="ph1">`null`</ph>, úgy, hogy egy egyéni felirat jelenítheti meg a &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;tulajdonság.&lt;/xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DynamicField object can also automatically convert empty string ("") field values to null values by setting the &lt;xref:System.Web.DynamicData.DynamicField.ConvertEmptyStringToNull%2A&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">A dynamicfield csak objektum is automatikusan alakíthatja üres karakterlánc ("") mezőben értékeket null értékre állításával a &lt;xref:System.Web.DynamicData.DynamicField.ConvertEmptyStringToNull%2A&gt;tulajdonságot <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.DynamicData.DynamicField.ConvertEmptyStringToNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:DynamicField        AccessibleHeaderText="string"            ApplyFormatInEditMode="true|false"         ControlStyle-BackColor="color name|#dddddd"        ControlStyle-BorderColor="color name|#dddddd"        ControlStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         ControlStyle-BorderWidth="size"         ControlStyle-CssClass="string"        ControlStyle-Font-Bold="true|false"        ControlStyle-Font-Italic="true|false"        ControlStyle-Font-Names="string"        ControlStyle-Font-Overline="true|false"         ControlStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        ControlStyle-Font-Strikeout="true|false"          ControlStyle-Font-Underline="true|false"          ControlStyle-ForeColor="color name|#dddddd"          ControlStyle-Height="size"        ControlStyle-Width="size"        ConvertEmptyStringToNull="true|false"         DataField="string"        DataFormatString="string"          FooterStyle-BackColor="color name|#dddddd"        FooterStyle-BorderColor="color name|#dddddd"        FooterStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         FooterStyle-BorderWidth="size"         FooterStyle-CssClass="string"        FooterStyle-Font-Bold="true|false"        FooterStyle-Font-Italic="true|false"        FooterStyle-Font-Names="string"        FooterStyle-Font-Overline="true|false"         FooterStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        FooterStyle-Font-Strikeout="true|false"          FooterStyle-Font-Underline="true|false"          FooterStyle-ForeColor="color name|#dddddd"          FooterStyle-Height="size"        FooterStyle-Width="size"        FooterStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        FooterStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        FooterStyle-Wrap="true|false"          HeaderImageUrl="uri"       HeaderStyle-BackColor="color name|#dddddd"        HeaderStyle-BorderColor="color name|#dddddd"        HeaderStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         HeaderStyle-BorderWidth="size"         HeaderStyle-CssClass="string"        HeaderStyle-Font-Bold="true|false"        HeaderStyle-Font-Italic="true|false"        HeaderStyle-Font-Names="string"        HeaderStyle-Font-Overline="true|false"         HeaderStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        HeaderStyle-Font-Strikeout="true|false"          HeaderStyle-Font-Underline="true|false"          HeaderStyle-ForeColor="color name|#dddddd"          HeaderStyle-Height="size"        HeaderStyle-Width="size"        HeaderStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        HeaderStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        HeaderStyle-Wrap="true|false"          HeaderText="string"       InsertVisible="true|false"           ItemStyle-BackColor="color name|#dddddd"        ItemStyle-BorderColor="color name|#dddddd"        ItemStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         ItemStyle-BorderWidth="size"         ItemStyle-CssClass="string"        ItemStyle-Font-Bold="true|false"        ItemStyle-Font-Italic="true|false"        ItemStyle-Font-Names="string"        ItemStyle-Font-Overline="true|false"         ItemStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        ItemStyle-Font-Strikeout="true|false"          ItemStyle-Font-Underline="true|false"          ItemStyle-ForeColor="color name|#dddddd"          ItemStyle-Height="size"        ItemStyle-Width="size"        ItemStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        ItemStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        ItemStyle-Wrap="true|false"          NullDisplayText="string"        ReadOnly="true|false"         ShowHeader="true|false"         SortExpression="string"        UIHint="string"        ValidationGroup="string"        Visible="true|false"        /&gt;   &lt;asp:DynamicField /&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## Deklaratív Szintaxisán<ph id="ph1">```   &lt;asp:DynamicField        AccessibleHeaderText="string"            ApplyFormatInEditMode="true|false"         ControlStyle-BackColor="color name|#dddddd"        ControlStyle-BorderColor="color name|#dddddd"        ControlStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         ControlStyle-BorderWidth="size"         ControlStyle-CssClass="string"        ControlStyle-Font-Bold="true|false"        ControlStyle-Font-Italic="true|false"        ControlStyle-Font-Names="string"        ControlStyle-Font-Overline="true|false"         ControlStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        ControlStyle-Font-Strikeout="true|false"          ControlStyle-Font-Underline="true|false"          ControlStyle-ForeColor="color name|#dddddd"          ControlStyle-Height="size"        ControlStyle-Width="size"        ConvertEmptyStringToNull="true|false"         DataField="string"        DataFormatString="string"          FooterStyle-BackColor="color name|#dddddd"        FooterStyle-BorderColor="color name|#dddddd"        FooterStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         FooterStyle-BorderWidth="size"         FooterStyle-CssClass="string"        FooterStyle-Font-Bold="true|false"        FooterStyle-Font-Italic="true|false"        FooterStyle-Font-Names="string"        FooterStyle-Font-Overline="true|false"         FooterStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        FooterStyle-Font-Strikeout="true|false"          FooterStyle-Font-Underline="true|false"          FooterStyle-ForeColor="color name|#dddddd"          FooterStyle-Height="size"        FooterStyle-Width="size"        FooterStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        FooterStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        FooterStyle-Wrap="true|false"          HeaderImageUrl="uri"       HeaderStyle-BackColor="color name|#dddddd"        HeaderStyle-BorderColor="color name|#dddddd"        HeaderStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         HeaderStyle-BorderWidth="size"         HeaderStyle-CssClass="string"        HeaderStyle-Font-Bold="true|false"        HeaderStyle-Font-Italic="true|false"        HeaderStyle-Font-Names="string"        HeaderStyle-Font-Overline="true|false"         HeaderStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        HeaderStyle-Font-Strikeout="true|false"          HeaderStyle-Font-Underline="true|false"          HeaderStyle-ForeColor="color name|#dddddd"          HeaderStyle-Height="size"        HeaderStyle-Width="size"        HeaderStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        HeaderStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        HeaderStyle-Wrap="true|false"          HeaderText="string"       InsertVisible="true|false"           ItemStyle-BackColor="color name|#dddddd"        ItemStyle-BorderColor="color name|#dddddd"        ItemStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         ItemStyle-BorderWidth="size"         ItemStyle-CssClass="string"        ItemStyle-Font-Bold="true|false"        ItemStyle-Font-Italic="true|false"        ItemStyle-Font-Names="string"        ItemStyle-Font-Overline="true|false"         ItemStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        ItemStyle-Font-Strikeout="true|false"          ItemStyle-Font-Underline="true|false"          ItemStyle-ForeColor="color name|#dddddd"          ItemStyle-Height="size"        ItemStyle-Width="size"        ItemStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        ItemStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        ItemStyle-Wrap="true|false"          NullDisplayText="string"        ReadOnly="true|false"         ShowHeader="true|false"         SortExpression="string"        UIHint="string"        ValidationGroup="string"        Visible="true|false"        /&gt;   &lt;asp:DynamicField /&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to initialize a new instance of the &lt;xref:System.Web.DynamicData.DynamicField&gt; class.</source>
+          <target state="translated">Ez a konstruktor segítségével &lt;xref:System.Web.DynamicData.DynamicField&gt;osztály&lt;/xref:System.Web.DynamicData.DynamicField&gt; új példányának inicializálása</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is commonly used when adding fields to a dynamically created data-bound control.</source>
+          <target state="translated">Ez a konstruktor gyakran használják, amikor mezőket ad hozzá egy dinamikusan létrehozott adathoz kötött vezérlő.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To dynamically add a &lt;xref:System.Web.DynamicData.DynamicField&gt; object to a data-bound control, create a new &lt;xref:System.Web.DynamicData.DynamicField&gt; object, set its properties, and then add it to the data-bound control's field collection.</source>
+          <target state="translated">A dinamikus módon felveheti egy &lt;xref:System.Web.DynamicData.DynamicField&gt;adathoz kötött vezérlő object, hozzon létre egy új &lt;xref:System.Web.DynamicData.DynamicField&gt;objektum tulajdonságainak beállításához és majd vegye fel az adathoz kötött vezérlő mező gyűjtemény.&lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you are using the &lt;xref:System.Web.UI.WebControls.GridView&gt; control, add the &lt;xref:System.Web.DynamicData.DynamicField&gt; object to the &lt;xref:System.Web.UI.WebControls.GridView.Columns%2A&gt; collection.</source>
+          <target state="translated">Például, ha használja a &lt;xref:System.Web.UI.WebControls.GridView&gt;szabályozása, adja hozzá a &lt;xref:System.Web.DynamicData.DynamicField&gt;az objektum a &lt;xref:System.Web.UI.WebControls.GridView.Columns%2A&gt;gyűjtemény.&lt;/xref:System.Web.UI.WebControls.GridView.Columns%2A&gt; &lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Although you can dynamically add fields to a data-bound control, it is strongly recommended that fields be statically declared and then shown or hidden, as appropriate.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Mezők dinamikusan adathoz kötött vezérlő adhat hozzá, de erősen ajánlott, hogy mezők statikusan deklarált és majd látható vagy rejtett, szükség szerint.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Statically declaring all of your fields reduces the size of the view state for the parent data-bound control.</source>
+          <target state="translated">A statikusan deklaráló a mezők összes csökkenti az a szülő adathoz kötött vezérlő állapotának megtekintése.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the formatted string that is specified by the &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString*&gt; property is applied to field value when the data field is in edit mode.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely azt jelzi, hogy a formátumú karakterlánc, amely megadja a &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString*&gt;tulajdonság a mezőérték akkor érvényes, ha a adatmező szerkesztési módban van.&lt;/xref:System.Web.DynamicData.DynamicField.DataFormatString*&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data-bound controls (such as &lt;xref:System.Web.UI.WebControls.DetailsView&gt;, and &lt;xref:System.Web.UI.WebControls.GridView&gt;) have different display modes that allow the user to read, edit, or insert records.</source>
+          <target state="translated">Adathoz kötött vezérlők (például &lt;xref:System.Web.UI.WebControls.DetailsView&gt;, és &lt;xref:System.Web.UI.WebControls.GridView&gt;) is, amelyek lehetővé teszik a felhasználó olvasása, szerkesztése vagy beszúrása rekordok különböző megjelenítési mód.&lt;/xref:System.Web.UI.WebControls.GridView&gt; &lt;/xref:System.Web.UI.WebControls.DetailsView&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the formatting string specified by the &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt; property is applied to field values only when the data-bound control is in read-only mode.</source>
+          <target state="translated">Alapértelmezés szerint a formázási karakterlánc által meghatározott a &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;tulajdonság vonatkozik mezőértékek csak akkor, ha az adathoz kötött vezérlő csak olvasható módban van.&lt;/xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To apply the formatting string to values displayed while the data-bound control is in edit mode, set the ApplyFormatInEditMode property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">A formázási karakterlánc értékekre alkalmazni kívánt jelenik meg, amíg az adathoz kötött vezérlő szerkesztési módban van, a tulajdonsága ApplyFormatInEditMode <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A &lt;xref:System.Web.DynamicData.DynamicField&gt; object does not automatically remove the formatting when the field is updated in the data source.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A &lt;xref:System.Web.DynamicData.DynamicField&gt;objektum nem távolítja el automatikusan a formázás a mező az adatforrásban frissítésekor.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not want the formatting as part of the value stored, you will need to remove the formatting programmatically.</source>
+          <target state="translated">Ha nem szeretné, hogy a formázás tárolt érték részeként, szüksége lesz a formázás programozott módon.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> applies formatting in edit mode; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> érvényes formázási szerkesztési módban; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.DynamicData.MetaColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that this <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is associated with.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Web.DynamicData.MetaColumn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amelyhez a <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum társítva van.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The meta column.</source>
+          <target state="translated">A meta oszlop.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Provides a mechanism to modify a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that was created by the &lt;xref:System.Web.DynamicData.DynamicField.InitializeCell*&gt; method.</source>
+          <target state="translated">Lehetővé teszi a módosítandó egy <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicControl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> által létrehozott objektum a &lt;xref:System.Web.DynamicData.DynamicField.InitializeCell*&gt;metódus.&lt;/xref:System.Web.DynamicData.DynamicField.InitializeCell*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The control to modify.</source>
+          <target state="translated">A vezérlő módosításához.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether empty string values ("") are automatically converted to null values when the data field is updated in the data source.</source>
+          <target state="translated">Lekérdez vagy beállít egy értéket, amely jelzi, hogy üres karakterlánc-érték ("") automatikusan alakulnak null értékeket az adatok mező az adatforrásban frissítésekor.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sometimes the user might enter an empty string for a field value when updating or inserting records.</source>
+          <target state="translated">Egyes esetekben a felhasználó előfordulhat, hogy adja meg egy üres karakterlánc egy mező értéke, ha a rekordok beszúrása vagy frissítése.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the ConvertEmptyStringToNull property to specify whether an empty string value is automatically converted to null when the data field is updated in the data source.</source>
+          <target state="translated">A ConvertEmptyStringToNull tulajdonság használatával adja meg, hogy egy üres karakterláncértéket automatikusan alakítja át null az adatok mező az adatforrásban frissítésekor.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a &lt;xref:System.Web.DynamicData.DynamicField&gt; object displays null values as empty strings.</source>
+          <target state="translated">Alapértelmezés szerint egy &lt;xref:System.Web.DynamicData.DynamicField&gt;objektum null értéket jeleníti meg üres karakterláncot.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To display a different value, set the &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt; property.</source>
+          <target state="translated">Egy másik értéket jeleníti meg, állítsa be a &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;tulajdonság.&lt;/xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Web.UI.WebControls.Parameter&gt; object of the data source control that the parent control of &lt;xref:System.Web.DynamicData.DynamicField&gt; object is bound to also has a property named &lt;xref:System.Web.UI.WebControls.Parameter.ConvertEmptyStringToNull%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A &lt;xref:System.Web.UI.WebControls.Parameter&gt;adatforrás objektum, amely szabályozza a szülő vezérlő &lt;xref:System.Web.DynamicData.DynamicField&gt;objektumhoz van kötve &lt;xref:System.Web.UI.WebControls.Parameter.ConvertEmptyStringToNull%2A?displayProperty=fullName&gt;.&lt;/xref:System.Web.UI.WebControls.Parameter.ConvertEmptyStringToNull%2A?displayProperty=fullName&gt; nevű tulajdonsággal is rendelkezik&lt;/xref:System.Web.DynamicData.DynamicField&gt; a&lt;/xref:System.Web.UI.WebControls.Parameter&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property performs the same function.</source>
+          <target state="translated">Ez a tulajdonság a azonos funkciót hajt végre.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Make sure that both properties are set appropriately.</source>
+          <target state="translated">Győződjön meg arról, hogy mindkét tulajdonságai megfelelően vannak-e beállítva.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to automatically convert empty string values to null values; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>üres karakterlánc-értékeket automatikusan átalakítása null értékek; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Copies the properties of the current <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the specified <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.DataControlField"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Másolja át a tulajdonságok az aktuális <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott objektum <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.DataControlField"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CopyProperties method is a helper method.</source>
+          <target state="translated">A CopyProperties metódus egy segédmetódust.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used by the &lt;xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt; method to copy the properties of the current &lt;xref:System.Web.DynamicData.DynamicField&gt; object to the &lt;xref:System.Web.DynamicData.DynamicField&gt; object that is passed in the <ph id="ph1">`newField`</ph> parameter.</source>
+          <target state="translated">Használja a &lt;xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt;módszer az aktuális tulajdonságait &lt;xref:System.Web.DynamicData.DynamicField&gt;az objektum a &lt;xref:System.Web.DynamicData.DynamicField&gt;átadott objektum a <ph id="ph1">`newField`</ph> paraméter.&lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataControlField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to copy the properties of the current <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataControlField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az aktuális tulajdonságait <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> számára.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Provides a mechanism for classes that derive from <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to override how a <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is created.</source>
+          <target state="translated">Lehetővé teszi a osztályok, amelyek a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> felülbírálása hogyan egy <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum létrehozása.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A new dynamic control.</source>
+          <target state="translated">Új dinamikus vezérlő.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Creates and returns a new instance of the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Hoz létre, és egy új példányát adja vissza a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateField method is a helper method.</source>
+          <target state="translated">A CreateField metódus egy segédmetódust.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used by the &lt;xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt; method to create an empty &lt;xref:System.Web.DynamicData.DynamicField&gt; object.</source>
+          <target state="translated">Használja a &lt;xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt;módszert hozzon létre egy üres &lt;xref:System.Web.DynamicData.DynamicField&gt;objektum.&lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A new instance of the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányt a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the data field to bind the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to.</source>
+          <target state="translated">Lekérdezi vagy beállítja a nevét, annak az adatmezőnek kötést létrehozni a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the DataField property to specify the data field to bind to the &lt;xref:System.Web.DynamicData.DynamicField&gt; object.</source>
+          <target state="translated">A DataField tulajdonsága segítségével adja meg a adatmező lehet kötést létrehozni a &lt;xref:System.Web.DynamicData.DynamicField&gt;objektum.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data field can be the column name or, for foreign key columns, the relationship name.</source>
+          <target state="translated">Az adatok mező lehet az oszlop neve vagy a külső kulcs oszlopokra, a kapcsolat neve.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the specified data field is displayed by the &lt;xref:System.Web.DynamicData.DynamicField&gt; object using the field template that is associated with the field data type.</source>
+          <target state="translated">Alapértelmezés szerint a megadott mező szerint jelenik meg a &lt;xref:System.Web.DynamicData.DynamicField&gt;objektum, a mező adattípusának társított mező sablonnal.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can change the field template that is rendered for the data field by setting the &lt;xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt; property.</source>
+          <target state="translated">A mező sablont úgy, hogy a adatmező számára megjelenített módosíthatja a &lt;xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt;tulajdonság.&lt;/xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also format the displayed text by setting the &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt; property.</source>
+          <target state="translated">A megjelenített szöveg úgy, hogy is formázhatja a &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;tulajdonság.&lt;/xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a field value is <ph id="ph1">`null`</ph>, an empty string ("") is displayed for the value by default.</source>
+          <target state="translated">Ha egy mező értéke <ph id="ph1">`null`</ph>, üres karakterlánc ("") az érték alapértelmezés szerint megjelenik.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify an alternate caption, set the &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt; property.</source>
+          <target state="translated">Adjon meg egy másik felirat, állítsa be a &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;tulajdonság.&lt;/xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> If you want to change the display and behavior of a data field globally, you must apply attributes to your data model instead of setting this in a particular instance of the &lt;xref:System.Web.DynamicData.DynamicField&gt; object.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Megjegyzés:<ept id="p1">**</ept> a megjelenítési és adatmező viselkedésének globálisan módosítani szeretné, ha attribútumok kell alkalmaznia az adatmodellbe az adott alkalmazáspéldány beállítás helyett a &lt;xref:System.Web.DynamicData.DynamicField&gt;objektum.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET Dynamic Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>ASP.NET rendszerbeli dinamikus adatok<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt; method is called to raise a state change event when the DataField property is set.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;metódus lehívásra kerül kell kiadni, ha a DataField tulajdonsága egy állapotváltozási eseményből.&lt;/xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the DataField property is stored in view state.</source>
+          <target state="translated">A DataField tulajdonsága értékének tárolt megtekintési állapotát.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The name of the data field that the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is bound to.</source>
+          <target state="translated">Az adatok neve mezőben, amely a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumhoz van kötve.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string that specifies the display format for the value of the data field.</source>
+          <target state="translated">Lekérdezi vagy beállítja az adatok mező értékének megjelenítési formátumát meghatározó karakterlánc.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the DataFormatString property to specify a custom display format for the values displayed in the &lt;xref:System.Web.DynamicData.DynamicField&gt; object.</source>
+          <target state="translated">Adja meg egy egyéni megjelenítési formátumát megjelenített értékek a DataFormatString tulajdonság használatával a &lt;xref:System.Web.DynamicData.DynamicField&gt;objektum.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the DataFormatString property is not set, the field value is displayed without any special formatting.</source>
+          <target state="translated">Ha a DataFormatString tulajdonsága nincs beállítva, különleges formázás nélkül a mezőérték jelenik meg.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the formatting string is applied to the field value only when the data-bound control that contains the &lt;xref:System.Web.DynamicData.DynamicField&gt; object is in read-only mode.</source>
+          <target state="translated">Alapértelmezés szerint a formázási karakterlánc vonatkozik az értéket csak akkor, ha az adathoz kötött vezérlő, amely tartalmazza a &lt;xref:System.Web.DynamicData.DynamicField&gt;objektum csak olvasható módban van.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To apply the formatting string to the field value while in edit mode, set the &lt;xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">A formázási karakterlánc alkalmazni a mezőérték szerkesztési módban, állítsa be a &lt;xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt;tulajdonságot <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The display format that you specify using the DataFormatString property is specific to this instance of the &lt;xref:System.Web.DynamicData.DynamicField&gt; class.</source>
+          <target state="translated">Meg kell adnia a DataFormatString tulajdonsággal megjelenítési formátuma csak az ezen példánya számára a &lt;xref:System.Web.DynamicData.DynamicField&gt;osztályhoz.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also change the display format for a data field across the entire application by applying the &lt;xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute&gt; to your data model and setting the &lt;xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute.DataFormatString%2A?displayProperty=fullName&gt; named parameter in the constructor.</source>
+          <target state="translated">Módosíthatja is egy adatmező megjelenítési formátumát a teljes alkalmazás között úgy, hogy alkalmazza a &lt;xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute&gt;a adatmodellt és a beállítás a &lt;xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute.DataFormatString%2A?displayProperty=fullName&gt;elnevezett paraméter a konstruktorban.&lt;/xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute.DataFormatString%2A?displayProperty=fullName&gt; &lt;/xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET Dynamic Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>ASP.NET rendszerbeli dinamikus adatok<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A formatting string that specifies the display format for the value of the data field.</source>
+          <target state="translated">Az adatok mező értékének megjelenítési formátumát meghatározó formázási karakterlánc.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The default is an empty string (""), which indicates that no special formatting is applied to the value.</source>
+          <target state="translated">Az alapértelmezett érték egy üres karakterlánc (""), ami azt jelenti, hogy semmilyen különleges formázás értékre.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Extracts the value of the data field from the current table cell and adds the value to the specified dictionary.</source>
+          <target state="translated">Az adatok mező értékének a a aktuális cellára, és az értékét hozzáadja a megadott szótárban.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The dictionary that will hold the cell values.</source>
+          <target state="translated">A szótár, amely a cella értékét.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The cell that contains the text or controls of the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A szöveges vagy az tartalmazó cellára a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the row state.</source>
+          <target state="translated">Az egyik a számbavételi érték, amely megadja a sor állapotát.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the values of read-only fields in <ph id="ph1">`dictionary`</ph>; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>a csak olvasható mező értékének felvenni <ph id="ph1">`dictionary`</ph>; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Retrieves the specified attribute value.</source>
+          <target state="translated">Lekérdezi a megadott attribútum értéke.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The key of the attribute to get.</source>
+          <target state="translated">A kulcs eléréséhez attribútum.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The value of the attribute.</source>
+          <target state="translated">Az attribútum értékét.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text that is displayed in the header of the data-bound control that contains the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Lekérdezi vagy beállítja az adathoz kötött vezérlő tartalmazó fejlécében megjelenő szöveg a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the HeaderText property to identify a field in a data-bound control with a friendly name.</source>
+          <target state="translated">A HeaderText tulajdonság használatával azonosíthatja a adathoz kötött vezérlő egyik mezőjére felhasználóbarát névvel.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most common application of the HeaderText property is to provide meaningful column names to data fields in a &lt;xref:System.Web.UI.WebControls.GridView&gt; or &lt;xref:System.Web.UI.WebControls.DetailsView&gt; control.</source>
+          <target state="translated">A HeaderText tulajdonság a leggyakrabban használt alkalmazás, hogy adatmezőinek jelentéssel bíró oszlop nevét adja meg a &lt;xref:System.Web.UI.WebControls.GridView&gt;vagy &lt;xref:System.Web.UI.WebControls.DetailsView&gt;vezérlő.&lt;/xref:System.Web.UI.WebControls.DetailsView&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the HeaderText property uses the display name set for the data field by using the &lt;xref:System.ComponentModel.DisplayNameAttribute&gt; attribute.</source>
+          <target state="translated">Alapértelmezés szerint a HeaderText tulajdonság beállítása az adatok mező használatával megjelenítendő nevet használja a &lt;xref:System.ComponentModel.DisplayNameAttribute&gt;attribútum.&lt;/xref:System.ComponentModel.DisplayNameAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the display name is not set, the HeaderText property uses the value of the &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt; property.</source>
+          <target state="translated">Ha a megjelenített név nincs megadva, a HeaderText tulajdonság értékét használja a &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt;tulajdonság.&lt;/xref:System.Web.DynamicData.DynamicField.DataField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The text that is displayed in the header of the data-bound control that contains the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Az adathoz kötött vezérlő tartalmazó fejlécében megjelenő szöveg a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is inside a data-bound control that is not bound to a data source control that implements the <bpt id="p2">&lt;xref href="System.Web.DynamicData.IDynamicDataSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum van, amely nincs kötve, amely megvalósítja az adatforrás-vezérlőhöz adathoz kötött vezérlőn belül a <bpt id="p2">&lt;xref href="System.Web.DynamicData.IDynamicDataSource"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> felületet.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether data field values are HTML-encoded before they are displayed in a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Lekérdez vagy beállít egy értéket, amely azt jelzi, hogy adatokat mezőértékek HTML-kódolású ahhoz, azok megjelennek a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the HtmlEncode property to specify whether field values are HTML-encoded to their respective string representations before they are displayed.</source>
+          <target state="translated">Adja meg, hogy a mezőértékek a megfelelő karakterlánc képviseletein HTML-kódolású ahhoz, azok megjelennek a HtmlEncode tulajdonsággal.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  HTML-encoding field values helps to prevent cross-site scripting attacks and malicious content from being displayed.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; HTML-encoding mező értékei segít megakadályozni a többhelyes parancsfájlok futtatására és a rosszindulatú tartalmat nem jelenik meg.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property should be enabled whenever possible.</source>
+          <target state="translated">Ez a tulajdonság engedélyezni kell, amikor csak lehetséges.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Script Exploits Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>parancsfájl biztonsági réseket áttekintése<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if field values are HTML-encoded before they are displayed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a mezőértékek HTML-kódolású előtt megjelenített; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Adds text or controls to the specified cell.</source>
+          <target state="translated">Meghatározza, hogy a megadott cella vagy szöveges hozzáadása.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The object that contains the text or controls of the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Az objektum, amely tartalmazza a szöveges vagy az a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the function of the <ph id="ph1">`cell`</ph> object.</source>
+          <target state="translated">A számbavételi érték, amely meghatározza a függvény az egyik a <ph id="ph1">`cell`</ph> objektum.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the row state.</source>
+          <target state="translated">Az egyik a számbavételi érték, amely megadja a sor állapotát.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The index of the row that the <ph id="ph1">`cell`</ph> object is contained in.</source>
+          <target state="translated">A sor indexe, amely a <ph id="ph1">`cell`</ph> objektum található.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets or sets the caption that is displayed for a data field when the field value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Lekérdezi vagy beállítja a felirat jelenik meg egy adatmező a mezőérték esetén <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sometimes a field value is stored as null in the data source.</source>
+          <target state="translated">Egyes esetekben a mezőérték tárolja null az adatforrásban.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify a custom caption to display for data fields that have a null value by setting the NullDisplayText property.</source>
+          <target state="translated">Egyéni felirat megjelenítendő adatmezők NullDisplayText tulajdonságának null értékkel rendelkező adhatja meg.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is not set, null field values are displayed as empty strings ("").</source>
+          <target state="translated">Ha ez a tulajdonság nincs beállítva, a mezőértékek null, üres karakterláncok jelennek meg ("").</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The caption that is displayed for a data field when the field value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A felirat jelenik meg egy adatmező a mezőérték esetén <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The default is an empty string (""), which indicates that this property is not set.</source>
+          <target state="translated">Az alapértelmezett érték egy üres karakterlánc (""), ami azt jelenti, hogy ez a tulajdonság nincs beállítva.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Gets the read-only state of the dynamic field.</source>
+          <target state="translated">Lekérdezi a dinamikus mező csak olvasható állapotát.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the ReadOnly property is <ph id="ph1">`true`</ph>, the &lt;xref:System.Web.DynamicData.DynamicField&gt; control loads a read-only template.</source>
+          <target state="translated">Ha a csak olvasható tulajdonság <ph id="ph1">`true`</ph>, a &lt;xref:System.Web.DynamicData.DynamicField&gt;vezérlő tölt be egy csak olvasható sablont.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property requires that view state be enabled.</source>
+          <target state="translated">Ez a tulajdonság szükséges, hogy engedélyezve legyen-e a nézetállapotot.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The read-only state of the dynamic field.</source>
+          <target state="translated">A dinamikus mező csak olvasható állapotát.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Sets an attribute that is associated with the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Egy attribútumot, amelyhez társítva van a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The name of the attribute to be set.</source>
+          <target state="translated">A beállítandó attribútum neve.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The attribute value.</source>
+          <target state="translated">Az attribútum értéke.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets or sets the sort expression that is used when the data field is used to sort the data source by.</source>
+          <target state="translated">Lekérdezi vagy beállítja az adatok mező használata esetén az adatforrás rendezésénél használt rendezési kifejezés.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SortExpression property tries to use the value of the &lt;xref:System.Web.DynamicData.MetaColumn.SortExpression%2A?displayProperty=fullName&gt; property of the column object that is associated with the &lt;xref:System.Web.DynamicData.DynamicField&gt; object by setting the &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt; property.</source>
+          <target state="translated">A SortExpression tulajdonság megkísérli az értékét a &lt;xref:System.Web.DynamicData.MetaColumn.SortExpression%2A?displayProperty=fullName&gt;tulajdonság az oszlop objektum, amelyhez társítva van a &lt;xref:System.Web.DynamicData.DynamicField&gt;objektum úgy, hogy a &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt;tulajdonság.&lt;/xref:System.Web.DynamicData.DynamicField.DataField%2A&gt; &lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.DynamicData.MetaColumn.SortExpression%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt; method is called to raise a state change event when the SortExpression property is set.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;metódus lehívásra kerül egy állapotmódosítási esemény a SortExpression tulajdonság beállításakor emelése.&lt;/xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the SortExpression property is stored in view state.</source>
+          <target state="translated">A SortExpression tulajdonság értékének tárolt megtekintési állapotát.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The sort expression that is used when the data field is used to sort the data source by.</source>
+          <target state="translated">Az adatok mező használata esetén az adatforrás rendezésénél használt rendezési kifejezés.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is inside a data-bound control that is not bound to a data source control that implements the <bpt id="p2">&lt;xref href="System.Web.DynamicData.IDynamicDataSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum van, amely nincs kötve, amely megvalósítja az adatforrás-vezérlőhöz adathoz kötött vezérlőn belül a <bpt id="p2">&lt;xref href="System.Web.DynamicData.IDynamicDataSource"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> felületet.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Gets or sets the field template to use for displaying the data field.</source>
+          <target state="translated">Lekérdezi vagy beállítja a mező megjelenítése a adatmező használt sablon.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the UIHint property to specify the field template to use to display the UI for a data field.</source>
+          <target state="translated">Egy felhasználói felületének megjelenítése használt mező sablon megadásához használja a UIHint tulajdonságot.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Field templates by default are user controls and their names contain a suffix to identify field templates that are used for edit operations and insert operations.</source>
+          <target state="translated">Alapértelmezés szerint a mező sablonok felhasználói vezérlők és a nevük magában egy utótagot Szerkesztés műveleteihez használatosak, és a beszúrási műveletek mező-sablonok azonosításához.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The suffixes are _edit and _insert, respectively.</source>
+          <target state="translated">Az utótagokat a rendszer _edit és _insert, illetve.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set a value to the UIHint property, you set the name without the suffixes.</source>
+          <target state="translated">Amikor egy értéket a UIHint tulajdonság, az utótagok nélkül neve állítható be.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Dynamic Data will identify the current mode of the data field and will render the correct field template.</source>
+          <target state="translated">Dinamikus adatok annak az adatmezőnek a jelenlegi üzemmód azonosítja, és ezzel veszélyezteti a megfelelő mező sablon.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the UIHint property is not set, Dynamic Data by default will render the field template based on the field type.</source>
+          <target state="translated">Ha a UIHint tulajdonság nincs megadva, alapértelmezés szerint dinamikus adatok jelenik meg a mező sablon mező típusa alapján.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET Dynamic Data Scaffolding<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>ASP.NET dinamikus adatok állványok<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The field template that you specify using the UIHint property is specific to this instance of the &lt;xref:System.Web.DynamicData.DynamicField&gt; class.</source>
+          <target state="translated">A mező sablon meg kell adnia a UIHint tulajdonság használatával csak az ezen példánya számára a &lt;xref:System.Web.DynamicData.DynamicField&gt;osztályhoz.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also change the field template used by a data field across the entire application by applying the &lt;xref:System.ComponentModel.DataAnnotations.UIHintAttribute&gt; to your data model.</source>
+          <target state="translated">A mező sablont úgy, hogy alkalmazza a teljes alkalmazás keresztül adatmező által használt is módosíthatja a &lt;xref:System.ComponentModel.DataAnnotations.UIHintAttribute&gt;az adatmodellbe.&lt;/xref:System.ComponentModel.DataAnnotations.UIHintAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the UIHint property overrides the metadata applied to the data model.</source>
+          <target state="translated">A UIHint tulajdonságának beállítása felülbírálja a vonatkozik. az adatmodell metaadatai.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about metadata attributes, see <bpt id="p1">[</bpt>ASP.NET Dynamic Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információ a metaadat-attribútumok: <bpt id="p1">[</bpt>ASP.NET rendszerbeli dinamikus adatok<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt; method is called to raise a state change event when the UIHint property is set.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;metódus lehívásra kerül egy állapotmódosítási esemény UIHint tulajdonság beállításakor emelése.&lt;/xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the UIHint property is stored in view state.</source>
+          <target state="translated">A UIHint tulajdonság értékének tárolt megtekintési állapotát.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The name of the field template to use for displaying the data field.</source>
+          <target state="translated">A megjelenő adat mezőjébe használt mező sablon neve.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that specifies whether the control validates client input.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely megadja, hogy a vezérlő érvényesítse-e az ügyfél bemenet.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control validates client input; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a vezérlő érvényesítse-ügyfél bemeneti; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Web.DynamicData.DynamicControl.ValidationGroup*&gt; object that this <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated with.</source>
+          <target state="translated">Lekérdezi a &lt;xref:System.Web.DynamicData.DynamicControl.ValidationGroup*&gt;objektum, amelyhez a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum társítva van.&lt;/xref:System.Web.DynamicData.DynamicControl.ValidationGroup*&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The name of the validation group to which this validation control belongs.</source>
+          <target state="translated">Neve az érvényesítési csoportnak, amelyhez az érvényesítési vezérlő tartozik.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The default is an empty string (""), which indicates that this property is not set.</source>
+          <target state="translated">Az alapértelmezett érték egy üres karakterlánc (""), ami azt jelenti, hogy ez a tulajdonság nincs beállítva.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
