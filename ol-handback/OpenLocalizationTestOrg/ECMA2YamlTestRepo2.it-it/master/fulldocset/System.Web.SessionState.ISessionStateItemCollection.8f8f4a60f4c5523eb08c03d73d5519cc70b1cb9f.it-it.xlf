@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">723496499ad843f8fc60e97b5b545c17b05316db</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.SessionState.ISessionStateItemCollection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f363a819dea3d4d191c5d94d786ffdfce7836cd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d99a5740c60579eb2f4e6e127c47d0bc09a4da5a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the contract for the collection used by ASP.NET session state to manage session.</source>
+          <target state="translated">Definisce il contratto per la raccolta utilizzata da uno stato sessione ASP.NET per gestire la sessione.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ISessionStateItemCollection interface defines the collection of session items exposed to application code by the &lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt; class.</source>
+          <target state="translated">L'interfaccia ISessionStateItemCollection definisce la raccolta di elementi di sessione esposto al codice dell'applicazione per la &lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt;classe.&lt;/xref:System.Web.SessionState.HttpSessionStateContainer&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ASP.NET implementation of the ISessionStateItemCollection interface is the &lt;xref:System.Web.SessionState.SessionStateItemCollection&gt; class.</source>
+          <target state="translated">L'implementazione dell'interfaccia ISessionStateItemCollection ASP.NET è la &lt;xref:System.Web.SessionState.SessionStateItemCollection&gt;classe.&lt;/xref:System.Web.SessionState.SessionStateItemCollection&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create a class derived from the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; class to store session data, you can either use the &lt;xref:System.Web.SessionState.SessionStateItemCollection&gt; class to manage the stored objects or implement the ISessionStateItemCollection interface on your own collection manager.</source>
+          <target state="translated">Se si crea una classe derivata dalla &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;classe per archiviare i dati della sessione, è possibile utilizzare la &lt;xref:System.Web.SessionState.SessionStateItemCollection&gt;classe per gestire gli oggetti archiviati o implementare l'interfaccia ISessionStateItemCollection in Gestione insieme.&lt;/xref:System.Web.SessionState.SessionStateItemCollection&gt; &lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you implement the ISessionStateItemCollection interface, you must also create a class that inherits the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; class in order to make use of your ISessionStateItemCollection implementation to manage session variables.</source>
+          <target state="translated">Se si implementa l'interfaccia ISessionStateItemCollection, è necessario creare anche una classe che eredita la &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;classe per utilizzare l'implementazione di ISessionStateItemCollection di per gestire le variabili di sessione.&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An ISessionStateItemCollection implementation must also implement the members of the &lt;xref:System.Collections.ICollection&gt; interface.</source>
+          <target state="translated">Un'implementazione di ISessionStateItemCollection deve implementare anche i membri del &lt;xref:System.Collections.ICollection&gt;interfaccia.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Removes all values and keys from the session-state collection.</source>
+          <target state="translated">Rimuove tutte le chiavi e valori dalla raccolta degli stati sessione.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In implementing the Clear method, you should set the &lt;xref:System.Web.SessionState.ISessionStateItemCollection.Dirty%2A&gt; property to <ph id="ph1">`true`</ph> to indicatethatvalues in the &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt; implementation have been modified.</source>
+          <target state="translated">Nell'implementazione del metodo Clear, è necessario impostare il &lt;xref:System.Web.SessionState.ISessionStateItemCollection.Dirty%2A&gt;proprietà <ph id="ph1">`true`</ph> a indicatethatvalues nel &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt;implementazione sono state modificate.&lt;/xref:System.Web.SessionState.ISessionStateItemCollection&gt; &lt;/xref:System.Web.SessionState.ISessionStateItemCollection.Dirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the collection has been marked as changed.</source>
+          <target state="translated">Ottiene o imposta un valore che indica se la raccolta è stata contrassegnata come modificata.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dirty property is used by the &lt;xref:System.Web.SessionState.SessionStateModule&gt; to determine whether the values in an &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt; implementation have been modified.</source>
+          <target state="translated">La proprietà Dirty viene utilizzata il &lt;xref:System.Web.SessionState.SessionStateModule&gt;per determinare se i valori in un &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt;implementazione sono state modificate.&lt;/xref:System.Web.SessionState.ISessionStateItemCollection&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In implementing the &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt; interface, you should initialize the Dirty property as <ph id="ph1">`false`</ph> and set the &lt;xref:System.Web.SessionState.SessionStateItemCollection.Dirty%2A&gt; property to <ph id="ph2">`true`</ph> in the implementations of the &lt;xref:System.Web.SessionState.ISessionStateItemCollection.Remove%2A&gt;, &lt;xref:System.Web.SessionState.ISessionStateItemCollection.RemoveAt%2A&gt;, or &lt;xref:System.Web.SessionState.ISessionStateItemCollection.Clear%2A&gt; methods.</source>
+          <target state="translated">Nell'implementazione di &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt;interfaccia, è necessario inizializzare la proprietà Dirty come <ph id="ph1">`false`</ph> e impostare il &lt;xref:System.Web.SessionState.SessionStateItemCollection.Dirty%2A&gt;proprietà <ph id="ph2">`true`</ph> nelle implementazioni del &lt;xref:System.Web.SessionState.ISessionStateItemCollection.Remove%2A&gt;, &lt;xref:System.Web.SessionState.ISessionStateItemCollection.RemoveAt%2A&gt;, o &lt;xref:System.Web.SessionState.ISessionStateItemCollection.Clear%2A&gt;metodi.&lt;/xref:System.Web.SessionState.ISessionStateItemCollection.Clear%2A&gt; &lt;/xref:System.Web.SessionState.ISessionStateItemCollection.RemoveAt%2A&gt; &lt;/xref:System.Web.SessionState.ISessionStateItemCollection.Remove%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateItemCollection.Dirty%2A&gt; &lt;/xref:System.Web.SessionState.ISessionStateItemCollection&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.SessionState.SessionStateItemCollection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contents have been changed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il <bpt id="p2">&lt;xref href="System.Web.SessionState.SessionStateItemCollection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> contenuto è stati modificati; in caso contrario, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value in the collection by numerical index.</source>
+          <target state="translated">Ottiene o imposta un valore nella raccolta in base all'indice numerico.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The numerical index of the value in the collection.</source>
+          <target state="translated">L'indice numerico del valore nella raccolta.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The value in the collection stored at the specified index.</source>
+          <target state="translated">Il valore nella raccolta di cui è archiviato in corrispondenza dell'indice specificato.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value in the collection by name.</source>
+          <target state="translated">Ottiene o imposta un valore nella raccolta in base al nome.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The key name of the value in the collection.</source>
+          <target state="translated">Il nome della chiave del valore nella raccolta.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The value in the collection with the specified name.</source>
+          <target state="translated">Il valore nella raccolta con il nome specificato.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the variable names for all values stored in the collection.</source>
+          <target state="translated">Ottiene una raccolta dei nomi di variabile per tutti i valori archiviati nella raccolta.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection&gt; that contains all the collection keys.</source>
+          <target state="translated">Il &lt;xref:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection&gt;che contiene tutte le chiavi della raccolta.&lt;/xref:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Deletes an item from the collection.</source>
+          <target state="translated">Elimina un elemento dalla raccolta.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In implementing the Remove method, you should set the &lt;xref:System.Web.SessionState.ISessionStateItemCollection.Dirty%2A&gt; property to <ph id="ph1">`true`</ph> to indicatevalues in the &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt; implementation have been modified.</source>
+          <target state="translated">Nell'implementazione del metodo di installazione, è necessario impostare il &lt;xref:System.Web.SessionState.ISessionStateItemCollection.Dirty%2A&gt;proprietà <ph id="ph1">`true`</ph> a indicatevalues nel &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt;implementazione sono state modificate.&lt;/xref:System.Web.SessionState.ISessionStateItemCollection&gt; &lt;/xref:System.Web.SessionState.ISessionStateItemCollection.Dirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt; implementation does not contain an element with the specified <ph id="ph1">`name`</ph>, the collection should remain unchanged and no exception be thrown.</source>
+          <target state="translated">Se il &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt;implementazione non contiene un elemento con l'oggetto specificato <ph id="ph1">`name`</ph>, la raccolta deve rimanere invariata e non l'eccezione generata.&lt;/xref:System.Web.SessionState.ISessionStateItemCollection&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The name of the item to delete from the collection.</source>
+          <target state="translated">Il nome dell'elemento da eliminare dalla raccolta.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Deletes an item at a specified index from the collection.</source>
+          <target state="translated">Elimina un elemento in corrispondenza dell'indice specificato dalla raccolta.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In implementing the RemoveAt method, you should set the &lt;xref:System.Web.SessionState.ISessionStateItemCollection.Dirty%2A&gt; property to <ph id="ph1">`true`</ph> to indicatevalues in the &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt; implementation have been modified.</source>
+          <target state="translated">Nell'implementazione del metodo RemoveAt, è necessario impostare il &lt;xref:System.Web.SessionState.ISessionStateItemCollection.Dirty%2A&gt;proprietà <ph id="ph1">`true`</ph> a indicatevalues nel &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt;implementazione sono state modificate.&lt;/xref:System.Web.SessionState.ISessionStateItemCollection&gt; &lt;/xref:System.Web.SessionState.ISessionStateItemCollection.Dirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your implementation of the RemoveAt method should throw an &lt;xref:System.ArgumentOutOfRangeException&gt; exception if <ph id="ph1">`index`</ph> is less than zero or is equal to or greater than &lt;xref:System.Collections.ICollection.Count%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">L'implementazione del metodo RemoveAt deve generare un &lt;xref:System.ArgumentOutOfRangeException&gt;eccezione se <ph id="ph1">`index`</ph> è minore di zero oppure è uguale o maggiore di &lt;xref:System.Collections.ICollection.Count%2A?displayProperty=fullName&gt;.&lt;/xref:System.Collections.ICollection.Count%2A?displayProperty=fullName&gt; &lt;/xref:System.ArgumentOutOfRangeException&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The index of the item to remove from the collection.</source>
+          <target state="translated">Indice dell'elemento da rimuovere dalla raccolta.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

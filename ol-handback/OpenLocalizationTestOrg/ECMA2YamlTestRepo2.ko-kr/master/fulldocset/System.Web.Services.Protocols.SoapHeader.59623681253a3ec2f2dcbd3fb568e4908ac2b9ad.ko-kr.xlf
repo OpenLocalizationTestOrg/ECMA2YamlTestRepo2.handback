@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">794e7ed6ede7700f78ce7673a2ee37bdaba24d1f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Services.Protocols.SoapHeader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">553ad95d80a98384bf00fcaef615f51dbec12b16</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b003cd28596535c6d24304ccd5075a885c27a619</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, represents the content of a SOAP header.</source>
+          <target state="translated">파생된 클래스에서 재정의 하는 경우 SOAP 헤더의 내용을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SOAP headers offer a method for passing data to and from an XML Web service method if the data is not directly related to the XML Web service method's primary functionality.</source>
+          <target state="translated">SOAP 헤더는 데이터는 직접 관련이 없는 XML 웹 서비스 메서드의 기본 기능과 경우 XML 웹 서비스 메서드 간에 데이터를 전달 하기 위한 메서드를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For instance, an XML Web service might contain several XML Web service methods that each require a custom authentication scheme.</source>
+          <target state="translated">예를 들어, XML 웹 서비스는 사용자 지정 인증 체계를 각기 여러 XML 웹 서비스 메서드를 포함할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of adding parameters to each XML Web service method for the custom authentication scheme, a &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt;, referring to a class deriving from SoapHeader, can be applied to each XML Web service method.</source>
+          <target state="translated">사용자 지정 인증 체계에 대 한 각 XML 웹 서비스 메서드에 매개 변수를 추가 하는 대신 한 &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt;, SoapHeader에서 파생 된 클래스를 참조, 각 XML 웹 서비스 메서드에 적용할 수 있습니다.&lt;/xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implementation for the class deriving from SoapHeader handles the custom authentication scheme.</source>
+          <target state="translated">SoapHeader에서 파생 된 클래스에 대 한 구현을 사용자 지정 인증 체계를 처리 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this manner, the XML Web service method implements only the functionality specific to it and adds additional functionality using a SOAP header.</source>
+          <target state="translated">이러한 방식으로 XML 웹 서비스 메서드에 특정는 기능을 구현 하 고 SOAP 헤더를 사용 하 여 추가 기능을 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following list outlines the basic steps to receiving and processing a SOAP header:      1.</source>
+          <target state="translated">다음 목록은 윤곽선을 받아 SOAP 헤더를 처리 하는 기본 단계: 1입니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Create a class that derives from SoapHeader representing the data passed into the SOAP header.</source>
+          <target state="translated">SOAP 헤더에 전달 된 데이터를 나타내는 SoapHeader에서 파생 되는 클래스를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Add a member to the class implementing an XML Web service or an XML Web service client proxy class, of the type created in the first step.</source>
+          <target state="translated">XML 웹 서비스를 구현 하는 클래스 또는 XML 웹 서비스 클라이언트 프록시 클래스를 첫 번째 단계에서 만든 형식의 구성원을 추가 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Apply a &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt; to the XML Web service method or the corresponding method in the proxy class, specifying the member created in the second step in the &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt; property.</source>
+          <target state="translated">적용 한 &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt;의 두 번째 단계에서 만든 멤버를 지정 하는 XML 웹 서비스 메서드 또는 프록시 클래스에 해당 하는 메서드는 &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt;속성.&lt;/xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within the XML Web service method or XML Web service client code, access the &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt; property to process the data sent in the SOAP header.</source>
+          <target state="translated">XML 웹 서비스 메서드 또는 XML 웹 서비스 클라이언트 코드 내에서 액세스는 &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt;SOAP 헤더에서 전송 되는 데이터를 처리 하는 속성.&lt;/xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets or sets the recipient of the SOAP header.</source>
+          <target state="translated">SOAP 헤더의 수신자를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set the recipient of a SOAP header, set the Actor property.</source>
+          <target state="translated">SOAP 헤더의 받는 사람을 설정 하려면 행위자 속성을 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regardless of the version of the SOAP protocol used to communicate with an XML Web service, the .NET Framework automatically generates the SOAP message specific to the version of the SOAP protocol.</source>
+          <target state="translated">XML 웹 서비스와 통신 하는 데 사용 된 SOAP 프로토콜의 버전에 관계 없이.NET Framework SOAP 프로토콜의 버전에 고유 SOAP 메시지를 자동으로 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, the XML element and XML namespace representing the recipient differ for the two versions.</source>
+          <target state="translated">특히 XML 요소 및 수신자를 나타내는 XML 네임 스페이스는 두 가지 버전에 대 한 서로 다릅니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XML Web services receiving the SOAP header can get the intended recipient by getting either the &lt;xref:System.Web.Services.Protocols.SoapHeader.Role%2A&gt; or Actor properties.</source>
+          <target state="translated">XML 웹 서비스 SOAP 헤더를 받는 중 하나를 가져오면 해당 수신자를 가져올 수는 &lt;xref:System.Web.Services.Protocols.SoapHeader.Role%2A&gt;또는 행위자 속성.&lt;/xref:System.Web.Services.Protocols.SoapHeader.Role%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The recipient(s) for the <ph id="ph1">`Body`</ph> element and each of the SOAP headers within the <ph id="ph2">`Header`</ph> element of a SOAP message need not be the same.</source>
+          <target state="translated">에 대 한 수신자는 <ph id="ph1">`Body`</ph> 각각 내에서 SOAP 헤더의 요소와는 <ph id="ph2">`Header`</ph> 요소는 SOAP 메시지의 필요 같을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a <ph id="ph1">`Header`</ph> element exists in the SOAP message, it represents additional data that can be sent to and from the XML Web service method or an intermediary.</source>
+          <target state="translated">경우는 <ph id="ph1">`Header`</ph> 요소가 존재 하는 SOAP 메시지, XML 웹 서비스 메서드나 중간자 사이에 보낼 수 있는 추가 데이터를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The recipient of that data, known as the SOAP <ph id="ph1">`Actor`</ph> in version 1.1, can be a different URI than the URI for the XML Web service method.</source>
+          <target state="translated">SOAP 라는 해당 데이터의 받는 사람 <ph id="ph1">`Actor`</ph> 버전 1.1에서는 XML 웹 서비스 메서드에 대 한 URI 이외의 다른 URI 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on the SOAP <ph id="ph1">`actor`</ph> attribute, see the SOAP specification at http://www.w3.org/TR/SOAP/.</source>
+          <target state="translated">SOAP에 대 한 자세한 내용은 <ph id="ph1">`actor`</ph> 특성 http://www.w3.org/TR/SOAP/에 SOAP 사양을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The recipient of the SOAP header.</source>
+          <target state="translated">SOAP 헤더의 수신자입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">기본값은 빈 문자열 ("").</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether an XML Web service method properly processed a SOAP header.</source>
+          <target state="translated">XML 웹 서비스 메서드는 SOAP 헤더를 제대로 처리 하는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For SOAP headers defined by an XML Web service, ASP.NET assumes the XML Web service method properly processed the SOAP header by setting the initial value of DidUnderstand to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">XML 웹 서비스에 의해 정의 된 SOAP 헤더를 ASP.NET에서는 XML 웹 서비스 메서드를 DidUnderstand의 초기 값을 설정 하 여 SOAP 헤더를 제대로 처리 <ph id="ph1">`true`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For SOAP headers not defined by the XML Web service, the initial value is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">XML 웹 서비스에 정의 되지 않은 SOAP 헤더에 대 한 초기 값은 <ph id="ph1">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If ASP.NET detects SOAP headers passed to an XML Web service method with DidUnderstand set to <ph id="ph1">`false`</ph> after the method returns, a &lt;xref:System.Web.Services.Protocols.SoapHeaderException&gt; is thrown back to the XML Web service client instead of the results from the XML Web service method.</source>
+          <target state="translated">ASP.NET 감지 SOAP 헤더 DidUnderstand로 설정 된 XML 웹 서비스 메서드에 전달 <ph id="ph1">`false`</ph> 메서드가 반환 된 후, &lt;xref:System.Web.Services.Protocols.SoapHeaderException&gt;XML 웹 서비스 메서드의 결과 대신 XML 웹 서비스 클라이언트를 다시 throw 됩니다.&lt;/xref:System.Web.Services.Protocols.SoapHeaderException&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the SOAP header was properly processed; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>SOAP 헤더를 올바르게 처리; 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> XML attribute for the SOAP header when communicating with SOAP protocol version 1.1.</source>
+          <target state="translated">값을 가져오거나 설정 합니다.는 <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> SOAP 프로토콜 버전 1.1와 통신할 때 SOAP 헤더에 대 한 XML 특성입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use this property.</source>
+          <target state="translated">이 속성을 사용 하지 마십시오.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead use the &lt;xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt; property.</source>
+          <target state="translated">대신 사용 하 여는 &lt;xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt;속성.&lt;/xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attribute.</source>
+          <target state="translated">값은 <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 특성입니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default is "0".</source>
+          <target state="translated">기본값은 "0"입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The property is set to a value other than: "0", "1", "true", or "false".</source>
+          <target state="translated">속성 이외의 값으로 설정 됩니다: "0", "1", "true" 또는 "false"입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> XML attribute for the SOAP header when communicating with SOAP protocol version 1.2.</source>
+          <target state="translated">값을 가져오거나 설정 합니다.는 <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> SOAP 프로토콜 버전 1.2와 통신할 때 SOAP 헤더에 대 한 XML 특성입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use this property.</source>
+          <target state="translated">이 속성을 사용 하지 마십시오.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead use the &lt;xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt; property.</source>
+          <target state="translated">대신 사용 하 여는 &lt;xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt;속성.&lt;/xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> XML attribute of a SOAP header.</source>
+          <target state="translated">값은 <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> SOAP 헤더의 XML 특성입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The default is "0".</source>
+          <target state="translated">기본값은 "0"입니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The property is set to a value other than: "0", "1", "true", or "false".</source>
+          <target state="translated">속성 이외의 값으로 설정 됩니다: "0", "1", "true" 또는 "false"입니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets or sets the relay attribute of the SOAP 1.2 header.</source>
+          <target state="translated">SOAP 1.2 헤더의 릴레이 특성을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EncodedRelay property applies only to SOAP 1.2 and indicates whether the recipient of the message forwards this header when it forwards the message to the next node downstream.</source>
+          <target state="translated">EncodedRelay 속성 SOAP 1.2에만 적용 되며 메시지의 수신자를 다음 다운스트림 노드로 메시지를 전달 하는 경우이 헤더 전달 하는지 여부를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the .NET Framework does not support SOAP intermediaries, this property is serialized and deserialized but ignored.</source>
+          <target state="translated">.NET Framework SOAP 중간 매개 자의 지원 하지 않으므로이 속성은 직렬화 및 역직렬화 없지만 무시 됩니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Either "0", "false", "1", or "true".</source>
+          <target state="translated">"0", "false", "1" 또는 "true"입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> must be understood.</source>
+          <target state="translated">나타내는 값을 가져오거나 여부는 <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인식 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the XML Web service must properly interpret and process the <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>XML 웹 서비스 제대로 해석 해야 및 처리 하는 경우는 <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, 그렇지 않으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the SOAP header is to be relayed to the next SOAP node if the current node does not understand the header.</source>
+          <target state="translated">SOAP 헤더 현재 노드가 헤더를 인식 하지 못하는 경우 다음 SOAP 노드로 릴레이할 지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default SOAP 1.2 processing rules require SOAP nodes to remove headers that are not understood by the SOAP processing node before passing the message on to the next node.</source>
+          <target state="translated">기본 SOAP 1.2 처리 규칙에는 SOAP 노드에서 다음 노드로 메시지를 전달 하기 전에 SOAP 처리 노드 인식 되지 않는 헤더를 제거 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the SOAP header has a "relay" attribute set to "true"; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>SOAP 헤더에 "릴레이" 특성이 "true"로 설정 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets the recipient of the SOAP header.</source>
+          <target state="translated">SOAP 헤더의 수신자를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set the recipient of a SOAP header, set the &lt;xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt; property.</source>
+          <target state="translated">SOAP 헤더의 수신자를 설정 하려면 설정는 &lt;xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt;속성.&lt;/xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regardless of the version of the SOAP protocol used to communicate with an XML Web service, the .NET Framework automatically generates the SOAP message specific to the version of the SOAP protocol.</source>
+          <target state="translated">XML 웹 서비스와 통신 하는 데 사용 된 SOAP 프로토콜의 버전에 관계 없이.NET Framework SOAP 프로토콜의 버전에 고유 SOAP 메시지를 자동으로 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, the XML element and XML namespace representing the recipient differ for the two versions.</source>
+          <target state="translated">특히 XML 요소 및 수신자를 나타내는 XML 네임 스페이스는 두 가지 버전에 대 한 서로 다릅니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XML Web services receiving the SOAP header can get the intended recipient by getting either the Role or &lt;xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt; properties.</source>
+          <target state="translated">XML 웹 서비스 SOAP 헤더를 받는 역할 중 하나를 가져오면 해당 수신자를 가져올 수 또는 &lt;xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt;속성.&lt;/xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The recipient(s) for the <ph id="ph1">`Body`</ph> element and each of the SOAP headers within the <ph id="ph2">`Header`</ph> element of a SOAP message need not be the same.</source>
+          <target state="translated">에 대 한 수신자는 <ph id="ph1">`Body`</ph> 각각 내에서 SOAP 헤더의 요소와는 <ph id="ph2">`Header`</ph> 요소는 SOAP 메시지의 필요 같을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a <ph id="ph1">`Header`</ph> element exists in the SOAP message, it represents additional data that can be sent to and from the XML Web service method or an intermediary.</source>
+          <target state="translated">경우는 <ph id="ph1">`Header`</ph> 요소가 존재 하는 SOAP 메시지, XML 웹 서비스 메서드나 중간자 사이에 보낼 수 있는 추가 데이터를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The recipient of that data, known as the SOAP <ph id="ph1">`Role`</ph> in version 1.2 of the SOAP specification and the SOAP <ph id="ph2">`Actor`</ph> in version 1.1, can be a different URI than the URI for the XML Web service method.</source>
+          <target state="translated">SOAP 라는 해당 데이터의 받는 사람 <ph id="ph1">`Role`</ph> 버전 SOAP 사양 및 SOAP 1.2에에서 <ph id="ph2">`Actor`</ph> 버전 1.1에서는 XML 웹 서비스 메서드에 대 한 URI 이외의 다른 URI 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on the SOAP <ph id="ph1">`actor`</ph> attribute, see the SOAP specification at http://www.w3.org/TR/SOAP/.</source>
+          <target state="translated">SOAP에 대 한 자세한 내용은 <ph id="ph1">`actor`</ph> 특성 http://www.w3.org/TR/SOAP/에 SOAP 사양을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A URI that represents the recipient of the SOAP header.</source>
+          <target state="translated">SOAP 헤더의 받는 사람을 나타내는 URI입니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">기본값은 빈 문자열 ("").</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

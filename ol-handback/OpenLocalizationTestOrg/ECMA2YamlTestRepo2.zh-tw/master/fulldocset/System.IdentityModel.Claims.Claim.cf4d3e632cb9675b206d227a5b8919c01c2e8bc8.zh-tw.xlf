@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f7174dee376b49a35d1f252ee47692526479dc35</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Claims.Claim.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">30e771ca05bd90b866927b566200552f9f3833a4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">61497a572a943d3ba52c9781e3056b2e0cdc66d8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a claim that is associated with an entity.</source>
+          <target state="translated">表示與實體相關聯的宣告。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Identity Model is a claims-based authorization system.</source>
+          <target state="translated">身分識別模型是宣告為基礎的授權系統。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Claims describe the capabilities associated with some entity in the system, often a user of that system.</source>
+          <target state="translated">宣告會描述在系統中，通常該系統的使用者具有某些實體關聯的功能。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The set of claims associated with a given entity can be thought of as a key.</source>
+          <target state="translated">與特定實體相關聯的宣告集可以視為金鑰。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The particular claims define the shape of that key; much like a physical key is used to open a lock in a door.</source>
+          <target state="translated">這些特定宣告會定義該索引鍵的形狀很像實體索引鍵用來開啟門鎖的鎖定。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this way, claims are used to gain access to resources.</source>
+          <target state="translated">如此一來，宣告可用來存取資源。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Access to a given protected resource is determined by comparing the claims required to access that resource with the claims associated with the entity that attempts access.</source>
+          <target state="translated">指定受保護資源的存取取決於比較嘗試存取的實體與相關聯的宣告存取該資源所需的宣告。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A claim is the expression of a right with respect to a particular value.</source>
+          <target state="translated">宣告就是權限對於特定值的運算式。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A right could be read, write, or possess.</source>
+          <target state="translated">權限可以是讀取、 寫入或擁有。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A value could be a database, a file, a mailbox, or a property.</source>
+          <target state="translated">值可以是資料庫、 檔案、 信箱或屬性。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Claims also have a claim type.</source>
+          <target state="translated">宣告也具有宣告類型。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The combination of claim type and right provides the mechanism for capabilities being specified with respect to the value.</source>
+          <target state="translated">宣告類型和權限的組合提供相關的值所指定的功能的機制。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, a claim of type <ph id="ph1">`file`</ph> with the right <ph id="ph2">`read`</ph> over the value <ph id="ph3">`biography.doc`</ph> indicates that the entity with such a claim has read access to the file biography.doc.</source>
+          <target state="translated">例如，宣告類型<ph id="ph1">`file`</ph>具有權限<ph id="ph2">`read`</ph>值<ph id="ph3">`biography.doc`</ph>表示具有這類宣告的實體檔案 biography.doc 的讀取權限。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A claim of type name with the right &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt; over the value <ph id="ph1">`Martin`</ph> indicates that the entity with the claim possesses a <ph id="ph2">`Name`</ph> property with the value <ph id="ph3">`Martin`</ph>.</source>
+          <target state="translated">型別名稱具有權限的宣告&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;值<ph id="ph1">`Martin`</ph>，表示與宣告實體擁有<ph id="ph2">`Name`</ph>屬性，其值<ph id="ph3">`Martin`</ph>。&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Although various claim types and rights are defined as part of Identity Model, the system is extensible.</source>
+          <target state="translated">雖然各種宣告類型和權限會定義為身分識別模型的一部分，系統就會是可延伸。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The various systems building on top of the Identity Model infrastructure can define claim types and rights as required.</source>
+          <target state="translated">各種身分識別模型基礎結構可以定義為基礎的系統宣告類型和所需的權限。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified type, resource, and right.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別指定的型別、 資源和權限。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[vsindigo](~/add/includes/vsindigo-md.md)]</ph> ships a set of pre-defined claim types and rights that are represented as members of the &lt;xref:System.IdentityModel.Claims.ClaimTypes&gt; and &lt;xref:System.IdentityModel.Claims.Rights&gt; classes.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vsindigo](~/add/includes/vsindigo-md.md)]</ph>隨附的一組預先定義的宣告類型和權限，表示成員為&lt;xref:System.IdentityModel.Claims.ClaimTypes&gt;和&lt;xref:System.IdentityModel.Claims.Rights&gt;類別。&lt;/xref:System.IdentityModel.Claims.Rights&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A uniform resource identifier (URI) that represents a claim type.</source>
+          <target state="translated">統一資源識別元 (URI)，表示宣告類型。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The object with which the new claim is associated.</source>
+          <target state="translated">與新宣告相關聯的物件。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The URI of the right associated with the claim.</source>
+          <target state="translated">與宣告相關聯的權限的 URI。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;claimType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;claimType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;right&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;right&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;claimType&lt;/code&gt;</ph> is zero length.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;claimType&lt;/code&gt;</ph>長度為零。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;right&lt;/code&gt;</ph> is zero length.</source>
+          <target state="translated">-或-<ph id="ph1">&lt;code&gt;right&lt;/code&gt;</ph>長度為零。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the type of the claim.</source>
+          <target state="translated">取得宣告的型別。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The ClaimType property can be one of the pre-defined claim types that are represented by the static properties of the &lt;xref:System.IdentityModel.Claims.ClaimTypes&gt; class.</source>
+          <target state="translated">ClaimType 屬性可以是類別的其中一個預先定義的宣告類型表示的靜態屬性&lt;xref:System.IdentityModel.Claims.ClaimTypes&gt;類別。&lt;/xref:System.IdentityModel.Claims.ClaimTypes&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Claim types specify the type of claim that is being asserted, such as an email address.</source>
+          <target state="translated">宣告類型會指定要經過判斷提示，例如電子郵件地址的宣告的型別。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A URI that represents the type of the claim.</source>
+          <target state="translated">代表類型宣告的 URI。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents a deny-only specified security identifier (SID).</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，表示 deny-only 指定安全識別項 (SID)。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The deny-only SID is a SID_AND_ATTRIBUTES structure with the SE_GROUP_USE_FOR_SENY_ONLY flag set.</source>
+          <target state="translated">禁用 SID 是設定已設定 SE_GROUP_USE_FOR_SENY_ONLY 旗標的 SID_AND_ATTRIBUTES 結構。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.DenyOnlySid%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`sid`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">|屬性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.DenyOnlySid%2A&gt;|  |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|值<ph id="ph1">`sid`</ph>參數。 |  |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.DenyOnlySid%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the deny-only SID.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示禁用 SID。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the SID specified in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">sid</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，代表指定的 SID 中<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">sid</ph> <ept id="p2">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sid&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sid&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified Domain Name System (DNS) name.</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，表示指定的網域名稱系統 (DNS) 名稱。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`dns`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;|</source>
+          <target state="translated">|屬性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;|  |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|值<ph id="ph1">`dns`</ph>參數。 |  |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The DNS name of the entity associated with the claim.</source>
+          <target state="translated">與這個宣告關聯之實體的 DNS 名稱。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此參數不得為<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws a &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這個方法會擲回&lt;xref:System.ArgumentNullException&gt;例外狀況。&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個方法會建立的物件。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dns</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dns</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified hash value.</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，表示指定的雜湊值。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`hash`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">|屬性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt;|  |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|值<ph id="ph1">`hash`</ph>參數。 |  |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An array of byte values that specifies a hash value.</source>
+          <target state="translated">指定雜湊值的位元組值陣列。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此參數不得為<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws a &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這個方法會擲回&lt;xref:System.ArgumentNullException&gt;例外狀況。&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個方法會建立的物件。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">hash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">hash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified email address.</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，表示指定的電子郵件地址。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Email%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`mailAddress`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">|屬性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Email%2A&gt;|  |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|值<ph id="ph1">`mailAddress`</ph>參數。 |  |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Email%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Net.Mail.MailAddress"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the email address this claim represents.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Net.Mail.MailAddress"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定此宣告表示電子郵件地址。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此參數不得為<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這個方法會擲回&lt;xref:System.ArgumentNullException&gt;例外狀況。&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個方法會建立的物件。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">mailAddress</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">mailAddress</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified name.</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，表示指定的名稱。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Name%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`name`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">|屬性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Name%2A&gt;|  |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|值<ph id="ph1">`name`</ph>參數。 |  |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Name%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The name of the entity associated with the claim.</source>
+          <target state="translated">與這個宣告關聯之實體的名稱。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此參數不得為<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這個方法會擲回&lt;xref:System.ArgumentNullException&gt;例外狀況。&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個方法會建立的物件。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified RSA key.</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，表示指定的 RSA 金鑰。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`rsa`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">|屬性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt;|  |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|值<ph id="ph1">`rsa`</ph>參數。 |  |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents an RSA cryptographic key.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，表示 RSA 密碼編譯金鑰。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此參數不得為<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這個方法會擲回&lt;xref:System.ArgumentNullException&gt;例外狀況。&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個方法會建立的物件。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rsa</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rsa</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified Service Principal Name (SPN).</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，表示指定服務主要名稱 (SPN)。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Spn%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`spn`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">|屬性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Spn%2A&gt;|  |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|值<ph id="ph1">`spn`</ph>參數。 |  |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Spn%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The SPN of the entity associated with this claim.</source>
+          <target state="translated">與這個宣告關聯之實體的 SPN。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此參數不得為<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這個方法會擲回&lt;xref:System.ArgumentNullException&gt;例外狀況。&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個方法會建立的物件。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">spn</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">spn</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified thumbprint.</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，表示指定的憑證指紋。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`thumbprint`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">|屬性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt;|  |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|值<ph id="ph1">`thumbprint`</ph>參數。 |  |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An array of byte values that specifies the thumbprint of the entity associated with the claim.</source>
+          <target state="translated">指定與宣告相關聯之實體的憑證指紋的位元組值陣列。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此參數不得為<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這個方法會擲回&lt;xref:System.ArgumentNullException&gt;例外狀況。&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個方法會建立的物件。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">thumbprint</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">thumbprint</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified Universal Principal Name (UPN).</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，代表指定通用主要名稱 (UPN)。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`upn`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">|屬性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt;|  |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|值<ph id="ph1">`upn`</ph>參數。 |  |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The UPN of the entity associated with this claim.</source>
+          <target state="translated">與這個宣告關聯之實體的 UPN。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此參數不得為<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這個方法會擲回&lt;xref:System.ArgumentNullException&gt;例外狀況。&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個方法會建立的物件。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">upn</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">upn</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified Uniform Resource Locator (URL).</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，表示指定的統一資源定位器 (URL)。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Uri%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`uri`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">|屬性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Uri%2A&gt;|  |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|值<ph id="ph1">`uri`</ph>參數。 |  |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Uri%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Uri&gt; that represents the URL of the entity associated with this claim.</source>
+          <target state="translated">A &lt;xref:System.Uri&gt;，代表與這個宣告關聯之實體的 URL。&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此參數不得為<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這個方法會擲回&lt;xref:System.ArgumentNullException&gt;例外狀況。&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個方法會建立的物件。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">uri</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">uri</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified security identifier (SID).</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，代表指定之安全性識別碼 (SID)。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Sid%2A&gt;|   |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|The value of the <ph id="ph1">`sid`</ph> parameter.|   |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|</source>
+          <target state="translated">|屬性 |值 |  |--------------|-----------|  |&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;|&lt;xref:System.IdentityModel.Claims.ClaimTypes.Sid%2A&gt;|  |&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;|值<ph id="ph1">`sid`</ph>參數。 |  |&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;|&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.|&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.Sid%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the SID.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示 SID。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the SID specified in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">sid</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，代表指定的 SID 中<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">sid</ph> <ept id="p2">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sid&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sid&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the specified X.500 distinguished name.</source>
+          <target state="translated">建立<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，表示指定的 X.500 辨別名稱。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.Claims.Claim&gt; object this method creates has the property values shown in the following table.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim&gt;物件，這個方法會建立具有下表所示的屬性值。&lt;/xref:System.IdentityModel.Claims.Claim&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;    &lt;xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt;       &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;    The value of the <ph id="ph1">`x500DistinguishedName`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;    &lt;xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt;       &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;值<ph id="ph1">`x500DistinguishedName`</ph>參數。&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;&lt;/xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;    &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;    &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;&lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the X.500 distinguished name of the entity associated with the claim.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指定與宣告相關聯之實體的 X.500 辨別的名稱。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This parameter must not be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此參數不得為<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If this parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, this method throws an &lt;xref:System.ArgumentNullException&gt; exception.</source>
+          <target state="translated">如果這個參數是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這個方法會擲回&lt;xref:System.ArgumentNullException&gt;例外狀況。&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個方法會建立的物件。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">x500DistinguishedName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">x500DistinguishedName</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets an object that can compare two <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for equality.</source>
+          <target state="translated">取得可以比較兩個物件<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件是否相等。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Use the value of the DefaultComparer property to match any of the pre-defined claim types.</source>
+          <target state="translated">使用 DefaultComparer 屬性的值來比對任何預先定義的宣告類型。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEqualityComparer%601<ph id="ph2">&amp;gt;</ph> interface implementation that compares two <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEqualityComparer%601<ph id="ph2">&amp;gt;</ph>介面實作，可比較兩個<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified object represents the same claim as the current <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">判斷指定的物件是否表示相同的宣告與目前<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This method overrides the &lt;xref:System.Object.Equals%2A&gt; method to provide equality comparisons for &lt;xref:System.IdentityModel.Claims.Claim&gt; objects.</source>
+          <target state="translated">這個方法會覆寫&lt;xref:System.Object.Equals%2A&gt;方法以提供用於相等比較&lt;xref:System.IdentityModel.Claims.Claim&gt;物件。&lt;/xref:System.IdentityModel.Claims.Claim&gt; &lt;/xref:System.Object.Equals%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The comparison consists of three comparisons on the values of the &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;, &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;, and &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt; properties.</source>
+          <target state="translated">比較過程包含三項比較的值&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;， &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;，和&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;屬性。&lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt; &lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt; &lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The comparison algorithm that is used on the &lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt; property depends upon the value of the &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt; property.</source>
+          <target state="translated">適用於比較演算法&lt;xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;屬性的值取決於&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;屬性。&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt; &lt;/xref:System.IdentityModel.Claims.Claim.Resource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The following table details the comparison algorithm that is used for the specified claim type.</source>
+          <target state="translated">下表詳細說明可用來指定的宣告類型的比較演算法。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>|Claim type|Comparison|   |----------------|----------------|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;|Case insensitive string comparison on the resource.|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt;|Byte-by-byte comparison.|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt;|Byte-by-byte comparison on the Modulus and Exponent parts of the algorithm.|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt;|Byte-by-byte comparison.|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt;|SID comparison.|   |&lt;xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt;|Normalized X.500 raw data comparison.|</source>
+          <target state="translated">|宣告類型 |比較 |  |----------------|----------------|  |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;|在資源上的不區分大小寫字串比較。 |  |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt;|位元組的比較。 |  |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt;|位元組的比較演算法的模數和指數部分。 |  |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt;|位元組的比較。 |  |&lt;xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt;|SID 比較。 |  |&lt;xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt;|正規化的 X.500 未經處理資料比較。 |&lt;/xref:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName%2A&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes.Upn%2A&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes.Thumbprint%2A&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes.Rsa%2A&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes.Hash%2A&gt; &lt;/xref:System.IdentityModel.Claims.ClaimTypes.Dns%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The object to compare with the current <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">要與目前比較的物件<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p2">&lt;/code&gt;</ept> represents the same claim as the current <bpt id="p3">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>; otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p2">&lt;/code&gt;</ept>代表相同的宣告與目前<bpt id="p3">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>，否則為<bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Returns a hash code for the current claim.</source>
+          <target state="translated">傳回目前宣告的雜湊碼。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This method generates the same hash code for two objects that are equal according to the &lt;xref:System.IdentityModel.Claims.Claim.Equals%2A&gt; method.</source>
+          <target state="translated">這個方法會產生相同的雜湊程式碼中，兩個物件根據相同的&lt;xref:System.IdentityModel.Claims.Claim.Equals%2A&gt;方法。&lt;/xref:System.IdentityModel.Claims.Claim.Equals%2A&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The hash code for the claim.</source>
+          <target state="translated">宣告雜湊程式碼。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets the resource with which this <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">取得與這個資源<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件有關聯。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The resource with which this <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">與這個資源<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件有關聯。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>A string representation of a uniform resource identifier (URI) that specifies the right associated with this <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">指定與此相關聯的權限統一資源識別元 (URI) 的字串表示<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Pre-defined rights are available as static properties of the <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Rights"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">預先定義的權限可為靜態屬性的<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Rights"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Pre-defined values include &lt;xref:System.IdentityModel.Claims.Rights.Identity%2A&gt;and &lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.</source>
+          <target state="translated">預先定義的值包括&lt;xref:System.IdentityModel.Claims.Rights.Identity%2A&gt;和&lt;xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt;.&lt;/xref:System.IdentityModel.Claims.Rights.PossessProperty%2A&gt; &lt;/xref:System.IdentityModel.Claims.Rights.Identity%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A URI that specifies the right associated with this <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">指定與此相關聯的權限的 URI <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>A pre-defined claim that represents the system entity.</source>
+          <target state="translated">表示系統實體的預先定義的宣告。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the system entity.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，表示系統實體。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>This <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object has the property values shown in the following table.</source>
+          <target state="translated">這<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件具有下表所示的屬性值。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="translated">屬性</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">值</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IdentityModel.Claims.Claim.ClaimType<bpt id="p1">*</bpt><ph id="ph1">&gt;       </ph><ph id="ph2">&lt;/td&gt;</ph><ph id="ph3">&lt;td&gt;</ph> &lt;xref:System.IdentityModel.Claims.ClaimTypes.System<ept id="p1">*</ept><ph id="ph4">&gt;       </ph></source>
+          <target state="translated">&lt;&gt;<bpt id="p1">*</bpt><ph id="ph1">&gt;       </ph><ph id="ph2">&lt;/td&gt;</ph><ph id="ph3">&lt;td&gt;</ph>&lt;&gt;<ept id="p1">*</ept><ph id="ph4">&gt;       </ph></target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IdentityModel.Claims.Claim.Resource<bpt id="p1">*</bpt><ph id="ph1">&gt;       </ph><ph id="ph2">&lt;/td&gt;</ph><ph id="ph3">&lt;td&gt;</ph><bpt id="p2">&lt;xref uid="langword_csharp_System" name="System" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><ph id="ph4">&lt;/td&gt;</ph><ph id="ph5">&lt;/tr&gt;</ph><ph id="ph6">&lt;tr&gt;</ph><ph id="ph7">&lt;td&gt;</ph> &lt;xref:System.IdentityModel.Claims.Claim.Right<ept id="p1">*</ept><ph id="ph8">&gt;       </ph></source>
+          <target state="translated">&lt;&gt;<bpt id="p1">*</bpt><ph id="ph1">&gt;       </ph><ph id="ph2">&lt;/td&gt;</ph><ph id="ph3">&lt;td&gt;</ph><bpt id="p2">&lt;xref uid="langword_csharp_System" name="System" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><ph id="ph4">&lt;/td&gt;</ph><ph id="ph5">&lt;/tr&gt;</ph><ph id="ph6">&lt;tr&gt;</ph><ph id="ph7">&lt;td&gt;</ph>&lt;&gt;<ept id="p1">*</ept><ph id="ph8">&gt;       </ph></target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.IdentityModel.Claims.Rights.Identity*&gt;</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Claims.Rights.Identity*&gt;&lt;/xref:System.IdentityModel.Claims.Rights.Identity*&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Returns a string representation of this <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">傳回這個字串表示<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The string that is returns contains the values of the &lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt; and &lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt; properties.</source>
+          <target state="translated">傳回的字串包含的值&lt;xref:System.IdentityModel.Claims.Claim.Right%2A&gt;和&lt;xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt;屬性。&lt;/xref:System.IdentityModel.Claims.Claim.ClaimType%2A&gt; &lt;/xref:System.IdentityModel.Claims.Claim.Right%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>This <bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">這<bpt id="p1">&lt;xref href="System.IdentityModel.Claims.Claim"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

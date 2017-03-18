@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cb4e4dc781c409c8d64e05fb47a1056b3a6819bf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Routing.Configuration.BackupEndpointCollection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3b6bbbf770ba3c6787bd9069534986fb2d9c41e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">08ca73440eba742672ce969bf9517fe51f504756</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a configuration element that contains a collection of <bpt id="p1">&lt;xref href="System.ServiceModel.Routing.Configuration.BackupEndpointElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">表示一个配置元素，包含一套<bpt id="p1">&lt;xref href="System.ServiceModel.Routing.Configuration.BackupEndpointElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The BackupEndpointCollection contains an ordered collection of endpoints that a message will be transmitted to in the event of a communications exception when sending to the primary endpoint.</source>
+          <target state="translated">BackupEndpointCollection 包含一条消息会将传输到通信异常时发送到主终结点的终结点的有序的集合。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If a send to the primary endpoint contained in &lt;xref:System.ServiceModel.Routing.Configuration.FilterTableEntryElement.EndpointName%2A&gt; fails with a communications exception, the Routing Service will attempt to send the message to the first endpoint contained in the <bpt id="p1">**</bpt>BackupEndpointCollection<ept id="p1">**</ept>.</source>
+          <target state="translated">如果中包含的主要终结点发送&lt;xref:System.ServiceModel.Routing.Configuration.FilterTableEntryElement.EndpointName%2A&gt;通信异常而失败，路由服务将尝试将消息发送到包含中的第一个终结点<bpt id="p1">**</bpt>BackupEndpointCollection<ept id="p1">**</ept>。&lt;/xref:System.ServiceModel.Routing.Configuration.FilterTableEntryElement.EndpointName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If this also fails with a communications exception, the Routing Service will attempt to send the message to the next endpoint contained in the collection until the send attempt succeeds, returns a failure other than a communication exception, or all endpoints in the collection have returned a failure.</source>
+          <target state="translated">如果此操作同样发生通信异常，则路由服务将尝试将消息发送到下一步的终结点包含在集合中，直到发送尝试成功、 返回除通信异常以外的故障或集合中的所有终结点都返回操作失败。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the following example, if a send to the primary endpoint named “Destination” returns a communication exception, the service will attempt to send the message to the “alternateServiceQueue”.</source>
+          <target state="translated">在下面的示例中，如果向名为"Destination"的主终结点返回一个通信异常，则服务会尝试将消息发送到"alternateServiceQueue"。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If this attempt also returns a communication exception, the Routing Service will attempt to send the message to the next endpoint in the collection.</source>
+          <target state="translated">如果此尝试也返回一个通信异常，路由服务将尝试将消息发送到集合中的下一步终结点。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Routing.Configuration.BackupEndpointCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">创建的新实例<bpt id="p1">&lt;xref href="System.ServiceModel.Routing.Configuration.BackupEndpointCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Adds a new <bpt id="p1">&lt;xref href="System.ServiceModel.Routing.Configuration.BackupEndpointElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the collection.</source>
+          <target state="translated">添加新<bpt id="p1">&lt;xref href="System.ServiceModel.Routing.Configuration.BackupEndpointElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到集合。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The backup endpoint element to be added.</source>
+          <target state="translated">要添加的备份终结点元素。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Removes all elements from the collection.</source>
+          <target state="translated">从集合中移除所有元素。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">创建一个新<bpt id="p1">&lt;xref href="System.Configuration.ConfigurationElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A new configuration element.</source>
+          <target state="translated">一个新的配置元素。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets the element key for the specified configuration element.</source>
+          <target state="translated">获取指定的配置元素的元素键。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The configuration element to return the key for.</source>
+          <target state="translated">要返回键的配置元素。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The key for the specified configuration element.</source>
+          <target state="translated">指定的配置元素的键。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name used to identify this collection of elements in the configuration file.</source>
+          <target state="translated">获取或设置用来标识此配置文件中的元素集合的名称。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The name of the collection.</source>
+          <target state="translated">集合的名称。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Removes the first occurrence of <bpt id="p1">&lt;xref href="System.ServiceModel.Routing.Configuration.BackupEndpointElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from the collection.</source>
+          <target state="translated">移除的第一个匹配项<bpt id="p1">&lt;xref href="System.ServiceModel.Routing.Configuration.BackupEndpointElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>从集合。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The backup element to remove from the collection.</source>
+          <target state="translated">要从集合中移除的备份元素。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

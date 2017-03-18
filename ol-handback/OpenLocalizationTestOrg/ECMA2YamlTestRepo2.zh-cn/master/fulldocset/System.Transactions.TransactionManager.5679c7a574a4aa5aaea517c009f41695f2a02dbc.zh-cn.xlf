@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a8b7a8effd49f748548eb5733219f293891b12a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.TransactionManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b19c4a63d42d18d6532a08244f2e606e937abd12</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d92b0c9d819d5bfe87f151c6d1e1c89e777b335a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contains methods used for transaction management.</source>
+          <target state="translated">包含用于事务管理的方法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This class contains static properties and methods used to obtain information about the default transaction options.</source>
+          <target state="translated">此类包含静态属性和方法用于获取事务处理选项的默认值有关的信息。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It also contains several static methods used for recovery of a durable resource when the durable resource fails.</source>
+          <target state="translated">它还包含用于恢复的持久的资源，持久资源失败时的若干静态方法。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>No special action is required of a durable resource if the Microsoft Distributed Transaction Coordinator (MSDTC) fails.</source>
+          <target state="translated">如果 Microsoft 分布式事务处理协调器 (MSDTC) 失败，不不需要持久资源的任何特殊操作。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Gets the default timeout interval for new transactions.</source>
+          <target state="translated">获取新事务的默认超时的间隔。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The timeout interval of a transaction is the time within which the transaction must be completed.</source>
+          <target state="translated">事务的超时时间间隔是必须在其中完成该事务的时间。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the transaction manager has not heard from all transaction participants within the timeout interval, it aborts the transaction.</source>
+          <target state="translated">如果事务管理器在超时间隔内未收到来自所有事务参与者，它会中止的事务。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This value can be set in the <ph id="ph1">`DefaultSettingsSection`</ph> of the config file.</source>
+          <target state="translated">可以将此值设置<ph id="ph1">`DefaultSettingsSection`</ph>的配置文件。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; value that specifies the timeout interval for new transactions.</source>
+          <target state="translated">A&lt;xref:System.TimeSpan&gt;值，该值指定新事务的超时间隔。&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Indicates that a distributed transaction has started.</source>
+          <target state="translated">指示已开始分布式的事务。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Caution<ept id="p1">**</ept> Signing up for this event degrades the performance of all distributed transactions.</source>
+          <target state="translated"><bpt id="p1">**</bpt>警告︰<ept id="p1">**</ept>注册此事件，从而降低服务器的所有分布式事务的性能。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Local transactions are not monitored as performance is affected even more.</source>
+          <target state="translated">如性能影响更多，不会监视本地事务。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>请注意<ept id="p1">**</ept>此方法使用&lt;xref:System.Security.Permissions.SecurityAction&gt;，防止它不受信任的代码中调用; 但是，仅限直接调用方需要拥有<ph id="ph1">`FullTrust`</ph>权限集。&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets or sets a custom transaction factory.</source>
+          <target state="translated">获取或设置自定义事务工厂。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>请注意<ept id="p1">**</ept>此方法使用&lt;xref:System.Security.Permissions.SecurityAction&gt;，防止它不受信任的代码中调用; 但是，仅限直接调用方需要拥有<ph id="ph1">`FullTrust`</ph>权限集。&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.HostCurrentTransactionCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a custom transaction factory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.HostCurrentTransactionCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，包含自定义事务工厂。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the default maximum timeout interval for new transactions.</source>
+          <target state="translated">获取新事务的默认最大超时的间隔。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For an explanation of the timeout interval, see the documentation for the &lt;xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt; property.</source>
+          <target state="translated">超时间隔的说明，请参阅的文档&lt;xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt;属性。&lt;/xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This value can be set in the <ph id="ph1">`MachineSettingsSection`</ph> of the config file.</source>
+          <target state="translated">可以将此值设置<ph id="ph1">`MachineSettingsSection`</ph>的配置文件。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; value that specifies the maximum timeout interval that is allowed when creating new transactions.</source>
+          <target state="translated">A&lt;xref:System.TimeSpan&gt;值，该值指定创建新事务时允许的最大超时间隔。&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Notifies the transaction manager that a resource manager recovering from failure has finished reenlisting in all unresolved transactions.</source>
+          <target state="translated">通知事务管理器资源管理器从故障中恢复已完成所有未解决的事务中登记。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>All durable resource managers should do recovery when they first start up by calling the &lt;xref:System.Transactions.TransactionManager.Reenlist%2A&gt; method for each outstanding transaction.</source>
+          <target state="translated">所有持久资源管理器应执行恢复时在首次启动通过调用&lt;xref:System.Transactions.TransactionManager.Reenlist%2A&gt;对于每个未完成事务的方法。&lt;/xref:System.Transactions.TransactionManager.Reenlist%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Only when all of the reenlistments are done should the resource manager call RecoveryComplete.</source>
+          <target state="translated">仅当所有 reenlistments 完成资源管理器应调用 RecoveryComplete。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">有关恢复的详细信息，请参阅<bpt id="p1">[</bpt>执行恢复<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>请注意<ept id="p1">**</ept>此方法使用&lt;xref:System.Security.Permissions.SecurityAction&gt;，防止它不受信任的代码中调用; 但是，仅限直接调用方需要拥有<ph id="ph1">`FullTrust`</ph>权限集。&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that uniquely identifies the resource to be recovered from.</source>
+          <target state="translated">A&lt;xref:System.Guid&gt;唯一标识要从恢复的资源。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Reenlists a durable participant in a transaction.</source>
+          <target state="translated">重新登记在事务中的持久参与者。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A resource manager facilitates resolution of durable enlistments in a transaction by reenlisting the transaction participant after resource failure.</source>
+          <target state="translated">资源管理器通过在资源失败之后登记事务参与者来促进的在事务中的持久登记的解决。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`resourceManagerIdentifier`</ph> parameter is used to consistently label the participant of a transaction in the event of a resource failure.</source>
+          <target state="translated"><ph id="ph1">`resourceManagerIdentifier`</ph>参数用于一致地标记资源失败时事务的参与者。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When calling the Reenlist method, the resource manager must provide the same <ph id="ph1">`resourceManagerIdentifier`</ph> as it used when it originally called the &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; method during enlistment, or a &lt;xref:System.Transactions.TransactionException&gt; is thrown.</source>
+          <target state="translated">调用重新登记在方法时，资源管理器必须提供相同<ph id="ph1">`resourceManagerIdentifier`</ph>作为它最初调用时，使用&lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;期间登记，方法或&lt;xref:System.Transactions.TransactionException&gt;引发。&lt;/xref:System.Transactions.TransactionException&gt; &lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When a participant is reenlisted using this method, the phase 2 methods of &lt;xref:System.Transactions.IEnlistmentNotification&gt; that correspond to the transaction's outcome (that is, &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; , &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; or &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; ) are called as appropriate.</source>
+          <target state="translated">当重新登记参与者时使用此方法的第 2 阶段方法&lt;xref:System.Transactions.IEnlistmentNotification&gt;对应于事务的结果 (即， &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;，&lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;或&lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;) 相应地调用。&lt;/xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>After the participants are successfully reenlisted, you should then call &lt;xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt; to complete the recovery.</source>
+          <target state="translated">参与者已成功重新登记后，应调用&lt;xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt;完成恢复。&lt;/xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You should only call this method when a resource manager restarts from failure.</source>
+          <target state="translated">资源管理器重新启动从故障时，仅应调用此方法。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In addition, you should only reenlist unresolved transactions logged by a resource manager during the initial Prepare phase of a two-phase commit.</source>
+          <target state="translated">此外，应该仅重新登记在两阶段提交的初始准备阶段中由资源管理器记录的未解析的事务。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Any attempt to call this method at invalid times can produce erroneous results.</source>
+          <target state="translated">任何尝试在无效的时间调用此方法可以产生错误的结果。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the transaction manager fails, and your resource manager performs recovery only a short time after you called the &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; method on an enlistment in phase 1 of the Two-Phase Commit protocol, your resource manager might either receive the &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; or &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; callback.</source>
+          <target state="translated">如果事务管理器失败，并且你的资源管理器执行恢复只在短时间调用后&lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;第 1 阶段中的两阶段提交协议的登记的方法，资源管理器可能会收到&lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;或&lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;回调。&lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; &lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">有关恢复的详细信息，请参阅<bpt id="p1">[</bpt>执行恢复<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>请注意<ept id="p1">**</ept>此方法使用&lt;xref:System.Security.Permissions.SecurityAction&gt;，防止它不受信任的代码中调用; 但是，仅限直接调用方需要拥有<ph id="ph1">`FullTrust`</ph>权限集。&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that uniquely identifies the resource manager.</source>
+          <target state="translated">A&lt;xref:System.Guid&gt;唯一标识资源管理器。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Contains additional information of recovery information.</source>
+          <target state="translated">包含恢复信息的其他的信息。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A resource object that implements <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive notifications.</source>
+          <target state="translated">资源实现的对象， <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>以接收通知。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the enlistment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>描述登记。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph>是无效的。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-or-       Transaction Manager information in <ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph> does not match the configured transaction manager.</source>
+          <target state="translated">-或-事务管理器中的信息<ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph>与已配置的事务管理器不匹配。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;RecoveryInformation&lt;/code&gt;</ph> is not recognized by <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-<ph id="ph1">&lt;code&gt;RecoveryInformation&lt;/code&gt;</ph>无法识别的<bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Transactions.TransactionManager.RecoveryComplete*&gt; has already been called for the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Transactions.TransactionManager.RecoveryComplete*&gt;已调用指定<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">resourceManagerIdentifier</ph> <ept id="p1">&lt;/code&gt;</ept>。&lt;/xref:System.Transactions.TransactionManager.RecoveryComplete*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The reenlistment is rejected.</source>
+          <target state="translated">重新登记被拒绝。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> does not match the content of the specified recovery information in <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">recoveryInformation</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">resourceManagerIdentifier</ph> <ept id="p1">&lt;/code&gt;</ept>与中的指定的恢复信息的内容不匹配<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">recoveryInformation</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

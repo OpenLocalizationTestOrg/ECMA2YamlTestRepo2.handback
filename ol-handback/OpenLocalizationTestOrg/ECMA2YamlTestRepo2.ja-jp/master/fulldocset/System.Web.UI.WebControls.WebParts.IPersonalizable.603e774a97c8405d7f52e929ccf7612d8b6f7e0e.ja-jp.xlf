@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">095851e6541d921e71803788e1cecf122030985a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.IPersonalizable.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f183e34f3da7eca689cfec0ce5f83892a2174b8a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45abccf72de1c2d39bcde41062c41333caba7663</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines additional management capabilities for the application and extraction of personalization state.</source>
+          <target state="translated">アプリケーションとパーソナル化状態の展開の追加の管理機能を定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In addition to using the <ph id="ph1">`Personalizable`</ph> attribute on control properties, a control can also implement IPersonalizable for additional management capabilities for the application and extraction of personalization state.</source>
+          <target state="translated">使用するだけでなく、<ph id="ph1">`Personalizable`</ph>属性でコントロールのプロパティ、コントロール実装こともできます IPersonalizable のパーソナル化状態の抽出とアプリケーションの追加の管理機能。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For example, controls that need to manage private state information should implement this interface.</source>
+          <target state="translated">たとえば、プライベートな状態情報を管理する必要があるコントロールでは、このインターフェイスを実装する必要があります。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Controls that access personalized data through complex mechanisms, such as custom cache solutions, data persistence to mainframes, or XML Web services, should also implement this interface.</source>
+          <target state="translated">カスタム キャッシュ ソリューション、メインフレーム、または XML Web サービス、データの永続性などの複雑なメカニズムを個人用に設定されたデータにアクセスするためのコントロールは、このインターフェイスを実装もする必要があります。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  You should not add types based on classes defined in the App_Code directory and then depend on the default binary serialization mechanism.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; いない App_Code ディレクトリで定義されているクラスに基づいて型を追加し、既定のバイナリのシリアル化機構に依存し、必要があります。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>App_Code-based artifacts are not consistently binary-serializable due to the fact that they can have their assembly names changed at random points in time.</source>
+          <target state="translated">App_Code ベースのアイテムは一貫してバイナリ シリアル化するという事実よります、アセンブリ名にランダムなポイントで変更されたことがあるできます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the custom data that a control manages has changed.</source>
+          <target state="translated">コントロールを管理するカスタムのデータが変更されたかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When data managed by a control has changed, the control is considered "dirty."</source>
+          <target state="translated">コントロールによって管理されているデータが変更されたときに、コントロールと見なされます「ダーティ」です。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A control should return <ph id="ph1">`true`</ph> if the custom data that it manages through the &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt; interface has changed.</source>
+          <target state="translated">コントロールを返す必要があります<ph id="ph1">`true`</ph>かどうか、カスタム データが管理を通じて、&lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt;インターフェイスが変更されました&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If a control returns <ph id="ph1">`true`</ph> from this property, the control's &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt; interface method implementation is called during property value extraction.</source>
+          <target state="translated">コントロールを返す場合<ph id="ph1">`true`</ph>からこのプロパティは、コントロールの&lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt;インターフェイス メソッドの実装は、プロパティ値の抽出中に呼び出されます&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This property is checked automatically by the personalization infrastructure during the latter phases of processing a POST request.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このプロパティが自動的にチェック、パーソナル化インフラストラクチャによって後者のフェーズの POST 要求を処理します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>However, for GET requests, the value returned from the IsDirty property is not checked.</source>
+          <target state="translated">ただし、GET 要求に対して IsDirty プロパティから返される値はチェックされません。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Some other event has to have caused the control to be considered "dirty" for any control state--not just data managed by &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt;--to be saved.</source>
+          <target state="translated">原因で、コントロールの状態: によって管理されるデータだけでなく、「ダーティ」と見なされるコントロールの他のイベントが&lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt;--を保存する&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If a control can mark itself as "dirty" during a GET request, or if the personalization infrastructure under some very specific boundary conditions considers a control "dirty" during a GET request, then &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt; will always be called.</source>
+          <target state="translated">コントロールのマークを付ける自体「ダーティ」GET 要求中に場合、またはインフラストラクチャは、パーソナル化非常に特定する境界条件下で扱いますコントロール「ダーティ」GET 要求中に、場合&lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt;が常に呼び出されます&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Save%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A control can reference its associated &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control and check the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Scope%2A&gt; property to determine the current scope.</source>
+          <target state="translated">コントロールをそれに関連する参照できます&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;を制御し、確認、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Scope%2A&gt;プロパティを現在のスコープを決定します&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Scope%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The "dirty" state of a control's custom data should be appropriate for the current scope.</source>
+          <target state="translated">コントロールのカスタム データの「ダーティ」の状態を現在のスコープに対して適切にする必要があります。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the custom data managed with the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.IPersonalizable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> interface has changed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>カスタム データで管理されている場合、 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.IPersonalizable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>インターフェイスが変更されました。 それ以外の場合、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Loads custom data into a control.</source>
+          <target state="translated">カスタム データをコントロールに読み込みます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This method is called on a control to allow it to load custom data into itself.</source>
+          <target state="translated">このメソッドはそれ自体にカスタム データを読み込むことができるコントロールに呼び出されます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It can also return a value that indicates whether a control's custom state must be written back to the underlying data store, regardless of whether any other personalization data on the page has changed.</source>
+          <target state="translated">コントロールのカスタム状態をページで、他のパーソナル化データが変更されたかどうかに関係なく、基になるデータ ストアに戻る書き込む必要があるかどうかを示す値を返すこともできます。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A control can set its own custom properties and carry out additional internal logic based on the values contained in the personalization dictionary.</source>
+          <target state="translated">コントロールでは、独自のカスタム プロパティを設定でき、パーソナル化ディクショナリに格納されている値に基づく追加の内部ロジックを実行することができます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This method is called by the Web Parts control set while applying personalization data to a control.</source>
+          <target state="translated">このメソッドは、Web パーツ コントロールのパーソナル化データをコントロールに適用するときに設定します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You should also be aware of the merge behavior of &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-scoped versus &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-scoped properties contained in the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt; object.</source>
+          <target state="translated">マージの動作の対応する必要があります&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-とスコープ&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-に含まれるプロパティのスコープ、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt;オブジェクト&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`state`</ph> parameter contains a merged representation of custom data that was loaded from the underlying data store.</source>
+          <target state="translated"><ph id="ph1">`state`</ph>パラメーターには、基になるデータ ストアから読み込まれたカスタム データのマージされた表現が含まれています。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope, all the values that were previously added when the page itself was in &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope would be available.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;ページ自体が以前に追加されたすべての値のスコープ&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープすることができます&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope, if a value associated with &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; personalization scope had one value added when the page was in &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope, and a different value when the page was in &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope, then the personalization infrastructure would only include the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-scoped value (as opposed to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope value) within the <ph id="ph1">`state`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;値に関連付けられている場合、スコープ&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;パーソナル化スコープが追加されたときに&amp;1; つの値を持っていた&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープ、および別の値を使用しているページが&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;スコープ、パーソナル化インフラストラクチャがのみを含めるし、 &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-値のスコープ (はなく、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;値の範囲) 内で、<ph id="ph1">`state`</ph>パラメーター&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; 。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains custom scoped data that was loaded from the underlying data store.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>基になるデータ ストアから読み込まれたカスタムのスコープを持つデータが含まれます。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Saves custom properties and internal state information in the control's <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">コントロールのカスタム プロパティと内部の状態情報が保存<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A server control can store its own custom properties and internal state information the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt; specified in the <ph id="ph1">`state`</ph> parameter.</source>
+          <target state="translated">サーバー コントロールは、独自のカスタム プロパティと内部の状態情報を格納できます、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt;で指定されている、<ph id="ph1">`state`</ph>パラメーター&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt; 。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The information is stored as a series of name/value pairs.</source>
+          <target state="translated">情報は、一連の名前と値のペアとして格納されます。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It is the responsibility of the control to use name/value pairs that it can recognize during subsequent calls made to the control through the &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt; method.</source>
+          <target state="translated">使用してコントロールに対する後続の呼び出し中には認識できる名前/値ペアを使用するコントロールの役割です、&lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt;メソッド&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A control can reference its associated &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control and check the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; object to determine the current scope.</source>
+          <target state="translated">コントロールをそれに関連する参照できます&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;を制御し、確認、 &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;、現在のスコープを決定する&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Custom state information should be appropriate for the current scope.</source>
+          <target state="translated">カスタム状態情報は、現在のスコープに対して適切にする必要があります。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Note that each &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationEntry&gt; value that is added to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt; object should be associated with the appropriate scope value, because the personalization infrastructure depends on this when merging &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-scoped custom data prior to passing it to the &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationEntry&gt;に追加される値、&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt;をマージする場合に、パーソナル化インフラストラクチャがこれに依存するための適切なスコープ値に関連付けられるオブジェクト&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;と&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;-に渡す前にカスタム データのスコープ、&lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt;メソッド&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable.Load%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationDictionary&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationEntry&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When using the standard ASP.NET implementation of Web Parts, controls must ensure that objects placed in the state dictionary can be serialized by the ASP.NET &lt;xref:System.Web.UI.ObjectStateFormatter&gt; class.</source>
+          <target state="translated">コントロールは、ASP.NET&lt;xref:System.Web.UI.ObjectStateFormatter&gt;クラス&lt;/xref:System.Web.UI.ObjectStateFormatter&gt;によって、状態ディクショナリに配置されるオブジェクトをシリアル化できることを確認する必要があります Web パーツの標準の ASP.NET の実装を使用する場合</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In practice, this means the following:      -   Primitive .NET Framework types, strings, and collection-oriented .NET Framework types such as arrays, array lists, hash tables, and hybrid dictionaries, are automatically serializable.</source>
+          <target state="translated">実際には、次をつまり:-.NET Framework のプリミティブ型、文字列、および配列、配列のリスト、ハッシュ テーブル、および、ハイブリッド ディクショナリなどの .NET Framework 型のコレクション指向は自動的にシリアル化します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-   Custom types that supply their own &lt;xref:System.ComponentModel.TypeConverter&gt; classes capable of serializing to and deserializing from strings are considered serializable.</source>
+          <target state="translated">、独自に提供するカスタム型&lt;xref:System.ComponentModel.TypeConverter&gt;にシリアル化して、文字列から逆シリアル化できるクラスがシリアル化可能と見なされます&lt;/xref:System.ComponentModel.TypeConverter&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-   Custom types that can be serialized by the &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt; class are considered serializable.</source>
+          <target state="translated">-カスタムの型によってシリアル化可能な&lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;クラスがシリアル化可能と見なされます&lt;/xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  You should not add types based on classes defined in the App_Code directory and then depend on the default binary serialization mechanism.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; いない App_Code ディレクトリで定義されているクラスに基づいて型を追加し、既定のバイナリのシリアル化機構に依存し、必要があります。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>App_Code-based artifacts are not consistently binary-serializable due to the fact that they can have their assembly names changed at random points in time.</source>
+          <target state="translated">App_Code ベースのアイテムは一貫してバイナリ シリアル化するという事実よります、アセンブリ名にランダムなポイントで変更されたことがあるできます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains custom scoped data that was loaded from the underlying data store.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>基になるデータ ストアから読み込まれたカスタムのスコープを持つデータが含まれます。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
