@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05341b24816b6b5fc059951d6a7af2d112f7f8f6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.ECDiffieHellmanCng.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54a0699364e9853af48e476d08548fcd776bb300</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">754734b7a0e7795c930c3485ff540813fbe3d4a3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a Cryptography Next Generation (CNG) implementation of the Elliptic Curve Diffie-Hellman (ECDH) algorithm.</source>
+          <target state="translated">Diffie-hellman ECDH (Elliptic Curve) アルゴリズムの Cryptography Next Generation (CNG) 実装を提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is used to perform cryptographic operations.</source>
+          <target state="translated">このクラスは、暗号化操作の実行に使用します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The ECDiffieHellmanCng class enables two parties to exchange private key material even if they are communicating through a public channel.</source>
+          <target state="translated">ECDiffieHellmanCng クラスには、パブリック チャネルを介して通信している場合でも、秘密キー マテリアルを交換する&amp;2; つのパーティができるようにします。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Both parties can calculate the same secret value, which is referred to as the <bpt id="p1">*</bpt>secret agreement<ept id="p1">*</ept> in the managed Diffie-Hellman classes.</source>
+          <target state="translated">両方のパーティが同じシークレット、値を計算と呼ばれる、<bpt id="p1">*</bpt>秘密協定<ept id="p1">*</ept>マネージ Diffie-hellman クラスでします。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The secret agreement can then be used for a variety of purposes, including as a symmetric key.</source>
+          <target state="translated">秘密協定は、さまざまな目的で、対称キーとして使用できます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>However, instead of exposing the secret agreement directly, the ECDiffieHellmanCng class does some post-processing on the agreement before providing the value.</source>
+          <target state="translated">ただし、秘密協定を直接公開するには、代わりに ECDiffieHellmanCng クラスがいくつかの値を提供する前に、アグリーメントで後処理できます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This post processing is referred to as the <bpt id="p1">*</bpt>key derivation function (KDF)<ept id="p1">*</ept>; you can select which KDF you want to use and set its parameters through a set of properties on the instance of the Diffie-Hellman object.</source>
+          <target state="translated">この後の処理と呼びます、<bpt id="p1">*</bpt>キー派生関数 (KDF)<ept id="p1">*</ept>; を使用し、Diffie-hellman オブジェクトのインスタンスのプロパティのセットをそのパラメーターを設定するどの KDF を選択することができます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>|Key derivation function|Properties|   |-----------------------------|----------------|   |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt; - The hash algorithm that is used to process the secret agreement.</source>
+          <target state="translated">|キー派生関数 |プロパティ |  |-----------------------------|----------------|  |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt;-秘密協定を処理するために使用するハッシュ アルゴリズム&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt; - An optional byte array to prepend to the secret agreement before hashing it.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;-先頭ハッシュする前に、秘密のアグリーメントに追加する省略可能なバイト配列。&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt; - An optional byte array to append to the secret agreement before hashing it.|   |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt; - The hash algorithm that is used to process the secret agreement.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;-ハッシュする前に、秘密のアグリーメントに追加するには、、省略可能なバイト配列です |。  |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt;-秘密協定を処理するために使用するハッシュ アルゴリズム&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.HashAlgorithm%2A&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;。&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;- An optional byte array to prepend to the secret agreement before hashing it.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;-先頭ハッシュする前に、秘密のアグリーメントに追加する省略可能なバイト配列。&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretPrepend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt; - An optional byte array to append to the secret agreement before hashing it.|   |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Label%2A&gt; - The label for key derivation.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;-省略可能なバイト配列をハッシュする前に、秘密のアグリーメントに追加します |。  |&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;|&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Label%2A&gt;-キー派生のラベル&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.Label%2A&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;。&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.SecretAppend%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed%2A&gt; - The seed for key derivation.|       The result of passing the secret agreement through the key derivation function is a byte array that may be used as key material for your application.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed%2A&gt;キー派生のシードです |。      キー派生関数を通じた秘密協定を渡す場合の結果は、アプリケーションのキー マテリアルとして使用できるをバイト配列です。&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The number of bytes of key material generated is dependent on the key derivation function; for example, SHA-256 will generate 256 bits of key material, whereas SHA-512 will generate 512 bits of key material.The basic flow of an ECDH key exchange is as follows:      1.</source>
+          <target state="translated">生成されたキー マテリアルのバイト数が、キー派生関数に依存します。たとえば、SHA 256 であっても、sha-512 512 ビットのキー マテリアルが生成されますが、256 ビットのキー マテリアルが生成されます。ECDH キー交換の基本的な流れを次に示します: 1。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Alice and Bob create a key pair to use for the Diffie-Hellman key exchange operation      2.</source>
+          <target state="translated">Alice と Bob は、Diffie-hellman キー交換操作 2 を使用するキー ペアを作成します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Alice and Bob configure the KDF using parameters the agree on.</source>
+          <target state="translated">Alice と Bob パラメーターを使用して、同意上、KDF を構成します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Alice sends Bob her public key.</source>
+          <target state="translated">Alice は、Bob に公開キーを送信します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Bob sends Alice his public key.</source>
+          <target state="translated">Bob は、公開鍵を Alice に送信します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Alice and Bob use each other's public keys to generate the secret agreement, and apply the KDF to the secret agreement to generate key material.</source>
+          <target state="translated">Alice と Bob は、互いの公開キーを使用して秘密協定を生成し、キー マテリアルを生成する秘密協定に、KDF を適用します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a random key pair.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ランダム キーのペアを持つクラス。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The random key pair has a default public key length of 521 bits.</source>
+          <target state="translated">ランダムなキー ペアは、521 ビットの既定の公開キー長を持ちます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a random key pair, using the specified key size.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定されたキー サイズを使用して、ランダムなキー ペアを持つクラス。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The random key pair will have the public key length defined by the <ph id="ph1">`keySize`</ph> parameter.</source>
+          <target state="translated">ランダムなキー ペアがによって定義されたパブリック キーの長さが、<ph id="ph1">`keySize`</ph>パラメーター。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The size of the key.</source>
+          <target state="translated">キーのサイズ。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Valid key sizes are 256, 384, and 521 bits.</source>
+          <target state="translated">有効なキー サイズは 256、384、および 521 ビットです。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keySize&lt;/code&gt;</ph> specifies an invalid length.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keySize&lt;/code&gt;</ph>無効な長さを指定します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Cryptography Next Generation (CNG) classes are not supported on this system.</source>
+          <target state="translated">Cryptography Next Generation (CNG) クラスは、このシステムではサポートされません。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified <bpt id="p2">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスを指定して<bpt id="p2">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The key that will be used as input to the cryptographic operations performed by the current object.</source>
+          <target state="translated">現在のオブジェクトによって実行された暗号化操作への入力として使用されるキー。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph> does not specify an Elliptic Curve Diffie-Hellman (ECDH) algorithm group.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;key&lt;/code&gt;</ph>Diffie-hellman ECDH (Elliptic Curve) アルゴリズム グループは指定しません。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Cryptography Next Generation (CNG) classes are not supported on this system.</source>
+          <target state="translated">Cryptography Next Generation (CNG) クラスは、このシステムではサポートされません。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Derives bytes that can be used as a key using a hash function, given another party's public key, hash algorithm's name, a prepend value and an append value.</source>
+          <target state="translated">別のパーティの公開キー、ハッシュ アルゴリズムの名前、prepend 値および追加の値を指定されたハッシュ関数を使用して、キーとして使用できるバイト数を取得します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If the value of <ph id="ph1">`secretPrepend`</ph> or <ph id="ph2">`secretAppend`</ph> is <ph id="ph3">`null`</ph>, they are treated as empty arrays.</source>
+          <target state="translated">場合の値<ph id="ph1">`secretPrepend`</ph>または<ph id="ph2">`secretAppend`</ph>は<ph id="ph3">`null`</ph>、空の配列として扱われます。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The other party's public key.</source>
+          <target state="translated">その他のパーティの公開キー。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The hash algorithm  to use to derive the key material.</source>
+          <target state="translated">使用して、キー マテリアルを派生するハッシュ アルゴリズム。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A value to prepend to the derived secret before hashing.</source>
+          <target state="translated">ハッシュする前に、派生のシークレットを先頭に付加する値。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A value to append to the derived secret before hashing.</source>
+          <target state="translated">ハッシュする前に、派生のシークレットを追加する値。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The key material from the key exchange with the other party’s public key.</source>
+          <target state="translated">他のパーティの公開キーを持つキー交換のキー マテリアル。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>ECDH キーではないか、適切なサイズではありません。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>または<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">その他のすべてのエラーです。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Derives bytes that can be used as a key using a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">ハッシュ ベース メッセージ認証コード (HMAC) を使用して、キーとして使用できるバイト数を取得します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the value of <ph id="ph1">`secretPrepend`</ph> or <ph id="ph2">`secretAppend`</ph> is <ph id="ph3">`null`</ph>, they are treated as empty arrays.</source>
+          <target state="translated">場合の値<ph id="ph1">`secretPrepend`</ph>または<ph id="ph2">`secretAppend`</ph>は<ph id="ph3">`null`</ph>、空の配列として扱われます。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If the value of <ph id="ph1">`hmacKey`</ph> is <ph id="ph2">`null`</ph>, the result of the Elliptic Curve Diffie-Hellman (ECDH) algorithm will be used as the HMAC key.</source>
+          <target state="translated">場合の値<ph id="ph1">`hmacKey`</ph>は<ph id="ph2">`null`</ph>、Diffie-hellman ECDH (Elliptic Curve) アルゴリズムの結果は、HMAC キーとして使用されます。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The other party's public key.</source>
+          <target state="translated">その他のパーティの公開キー。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The hash algorithm to use to derive the key material.</source>
+          <target state="translated">使用して、キー マテリアルを派生するハッシュ アルゴリズム。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The key for the HMAC.</source>
+          <target state="translated">HMAC キー。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A value to prepend to the derived secret before hashing.</source>
+          <target state="translated">ハッシュする前に、派生のシークレットを先頭に付加する値。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A value to append to the derived secret before hashing.</source>
+          <target state="translated">ハッシュする前に、派生のシークレットを追加する値。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The key material from the key exchange with the other party’s public key.</source>
+          <target state="translated">他のパーティの公開キーを持つキー交換のキー マテリアル。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>ECDH キーではないか、適切なサイズではありません。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;hashAlgorithm&lt;/code&gt;</ph>.<ph id="ph2">&lt;xref:System.Security.Cryptography.HashAlgorithmName.Name*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>または<ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">その他のすべてのエラーです。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Derives the key material that is generated from the secret agreement between two parties, given a <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">指定された&amp;2; つのパーティ間の秘密協定から生成されるキー マテリアルを派生して、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&amp;2; 番目のパーティの公開キーを含むオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An object that contains the public part of the Elliptic Curve Diffie-Hellman (ECDH) key from the other party in the key exchange.</source>
+          <target state="translated">キー交換の相手側から Diffie-hellman ECDH (Elliptic Curve) キーのパブリックの部分を格納するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the key material.</source>
+          <target state="translated">キー マテリアルを格納するバイト配列。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This information is generated from the secret agreement that is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">この情報は、現在のオブジェクトの秘密キーと指定した公開キーから計算される秘密協定から生成されます。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>正しくありません。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Either its <ph id="ph1">&lt;xref:System.Security.Cryptography.CngKey.AlgorithmGroup*&gt;</ph> property does not specify <ph id="ph2">&lt;xref:System.Security.Cryptography.CngAlgorithmGroup.ECDiffieHellman*&gt;</ph> or its key size does not match the key size of this instance.</source>
+          <target state="translated">いずれかの<ph id="ph1">&lt;xref:System.Security.Cryptography.CngKey.AlgorithmGroup*&gt;</ph>プロパティが指定されていない<ph id="ph2">&lt;xref:System.Security.Cryptography.CngAlgorithmGroup.ECDiffieHellman*&gt;</ph>か、そのキーのサイズがこのインスタンスのキーのサイズと一致しません。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This object's &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction<bpt id="p1">*</bpt>&gt; property specifies the <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> key derivation function, but either &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Label<ept id="p1">*</ept>&gt; or &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed*&gt; is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">このオブジェクトの&lt;&gt; <bpt id="p1">*</bpt>&gt; プロパティを指定します、 <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>キー派生関数が、いずれかの&lt;&gt; <ept id="p1">*</ept>&gt; または&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed*&gt;は<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.Seed*&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">その他のすべてのエラーです。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Derives the key material that is generated from the secret agreement between two parties, given an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">指定された&amp;2; つのパーティ間の秘密協定から生成されるキー マテリアルを派生して、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&amp;2; 番目のパーティの公開キーを含むオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The public key from the other party in the key exchange.</source>
+          <target state="translated">キー交換の相手側から公開キー。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the key material.</source>
+          <target state="translated">キー マテリアルを格納するバイト配列。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This information is generated from the secret agreement that is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">この情報は、現在のオブジェクトの秘密キーと指定した公開キーから計算される秘密協定から生成されます。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCngPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> key.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph><bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCngPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>キー。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Derives bytes that can be used as a key using a Transport Layer Security (TLS) Pseudo-Random Function (PRF) derivation algorithm.</source>
+          <target state="translated">トランスポート層セキュリティ (TLS) 擬似関数 (PRF) 派生アルゴリズムを使用して、キーとして使用できるバイト数を取得します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The other party's public key.</source>
+          <target state="translated">その他のパーティの公開キー。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The ASCII-encoded PRF label.</source>
+          <target state="translated">ASCII エンコードの PRF ラベルです。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The 64-byte PRF seed.</source>
+          <target state="translated">64 バイトの PRF シードです。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The key material from the key exchange with the other party’s public key.</source>
+          <target state="translated">他のパーティの公開キーを持つキー交換のキー マテリアル。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;prfLabel&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;prfLabel&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>ECDH キーではないか、適切なサイズではありません。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph> is not exactly 64 bytes in length.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;prfSeed&lt;/code&gt;</ph>長さは 64 バイトが正確に一致しません。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-or-       All other cryptographic errors.</source>
+          <target state="translated">または、他のすべての暗号化エラー。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets a handle to the secret agreement generated between two parties, given a <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">指定された&amp;2; つのパーティ間で生成された秘密協定へのハンドルを取得、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&amp;2; 番目のパーティの公開キーを含むオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>An object that contains the public part of the Elliptic Curve Diffie-Hellman (ECDH) key from the other party in the key exchange.</source>
+          <target state="translated">キー交換の相手側から Diffie-hellman ECDH (Elliptic Curve) キーのパブリックの部分を格納するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A handle to the secret agreement.</source>
+          <target state="translated">秘密協定へのハンドル。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This information is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">この情報は、現在のオブジェクトの秘密キーと指定した公開キーから計算されます。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an ECDH key, or it is not the correct size.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>ECDH キーではないか、適切なサイズではありません。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">その他のすべてのエラーです。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets a handle to the secret agreement generated between two parties, given an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the second party's public key.</source>
+          <target state="translated">指定された&amp;2; つのパーティ間で生成された秘密協定へのハンドルを取得、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&amp;2; 番目のパーティの公開キーを含むオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The public key from the other party in the key exchange.</source>
+          <target state="translated">キー交換の相手側から公開キー。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A handle to the secret agreement.</source>
+          <target state="translated">秘密協定へのハンドル。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This information is calculated from the current object's private key and the specified public key.</source>
+          <target state="translated">この情報は、現在のオブジェクトの秘密キーと指定した公開キーから計算されます。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph> is not an <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> key.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;otherPartyPublicKey&lt;/code&gt;</ph><bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanPublicKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>キー。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This method is not implemented.</source>
+          <target state="translated">このメソッドは実装されていません。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To deserialize an XML key, use the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.FromXmlString%28System.String%2CSystem.Security.Cryptography.ECKeyXmlFormat%29&gt; overload instead.</source>
+          <target state="translated">XML キーを逆シリアル化を使用して、&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.FromXmlString%28System.String%2CSystem.Security.Cryptography.ECKeyXmlFormat%29&gt;オーバー ロードを代用します&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.FromXmlString%28System.String%2CSystem.Security.Cryptography.ECKeyXmlFormat%29&gt;。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The XML-based key information to be deserialized.</source>
+          <target state="translated">XML に基づくキー情報を逆シリアル化できません。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This method was not overridden for this instance.</source>
+          <target state="translated">このインスタンスのこのメソッドはオーバーライドされませんでした。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Deserializes the key information from an XML string by using the specified format.</source>
+          <target state="translated">指定された形式を使用して、XML 文字列からキーの情報を逆シリアル化します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The XML-based key information to be deserialized.</source>
+          <target state="translated">XML に基づくキー情報を逆シリアル化できません。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the format of the XML string.</source>
+          <target state="translated">XML 文字列の形式を指定する列挙値の&amp;1; つ。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The only currently accepted format is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">唯一現在受け付け形式は<bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph> is malformed.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xml&lt;/code&gt;</ph>正しくありません。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> specifies an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>無効な形式を指定します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The only accepted value is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">のみ指定できる値は<bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>All other errors.</source>
+          <target state="translated">その他のすべてのエラーです。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Gets or sets the hash algorithm to use when generating key material.</source>
+          <target state="translated">取得またはキー マテリアルを生成するときに使用するハッシュ アルゴリズムを設定します。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>This property is used by Cryptography Next Generation (CNG) objects only if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; or &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; value is set in the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property.</source>
+          <target state="translated">このプロパティは、Cryptography Next Generation (CNG) のオブジェクトの場合のみ、使用、&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;または&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;値が設定されて、&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;プロパティ&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>This property accepts the following algorithms: &lt;xref:System.Security.Cryptography.CngAlgorithm.MD5%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha1%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;, &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha384%2A&gt;, and &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha512%2A&gt;.</source>
+          <target state="translated">このプロパティでは、次のアルゴリズム: &lt;xref:System.Security.Cryptography.CngAlgorithm.MD5%2A&gt;、 &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha1%2A&gt;、 &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;、 &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha384%2A&gt;、 &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha512%2A&gt;&lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha512%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha384%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha1%2A&gt; &lt;/xref:System.Security.Cryptography.CngAlgorithm.MD5%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Other custom hash algorithms may also be used.</source>
+          <target state="translated">その他のカスタムのハッシュ アルゴリズムも使用できます。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The default algorithm is &lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;.</source>
+          <target state="translated">既定のアルゴリズムは&lt;xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;。&lt;/xref:System.Security.Cryptography.CngAlgorithm.Sha256%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An object that specifies the hash algorithm.</source>
+          <target state="translated">ハッシュ アルゴリズムを指定するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The value is <bpt id="p1">&lt;xref uid="langword_csharp_null." name="null." href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></source>
+          <target state="translated">値は、します。<bpt id="p1">&lt;xref uid="langword_csharp_null." name="null." href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets or sets the Hash-based Message Authentication Code (HMAC) key to use when deriving key material.</source>
+          <target state="translated">取得またはキー マテリアルを派生している場合に使用するハッシュ ベース メッセージ認証コード (HMAC) キーを設定します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This property applies only when the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; value is set in the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property, and the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.UseSecretAgreementAsHmacKey%2A&gt; property is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">このプロパティは適用される場合にのみ、&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;値が設定されて、&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;プロパティ、および&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.UseSecretAgreementAsHmacKey%2A&gt;プロパティは<ph id="ph1">`false`</ph>&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.UseSecretAgreementAsHmacKey%2A&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">値は、既定では、<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The Hash-based Message Authentication Code (HMAC) key to use when deriving key material.</source>
+          <target state="translated">キー マテリアルを派生するときに使用するハッシュ ベース メッセージ認証コード (HMAC) キー。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Specifies the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used by the current object for cryptographic operations.</source>
+          <target state="translated">指定します、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CngKey"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>暗号化操作に現在のオブジェクトによって使用されます。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The key pair used by this object to perform cryptographic operations.</source>
+          <target state="translated">暗号化操作の実行にこのオブジェクトによって使用されるキーのペア。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Gets or sets the key derivation function for the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">キー派生関数を取得または設定、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This property specifies the key derivation function that is used to transform the secret agreement into key material.</source>
+          <target state="translated">このプロパティは、キー マテリアルに秘密協定を変換に使用されるキーの派生関数を指定します。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values: <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values: <bpt id="p2">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The enumeration value is out of range.</source>
+          <target state="translated">列挙値が範囲外です。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets or sets the label value that is used for key derivation.</source>
+          <target state="translated">取得またはキーの派生で使用されるラベル値を設定します。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; value is set in the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property.</source>
+          <target state="translated">場合、この値がキー派生の使用は、&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;値が設定されて、&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;プロパティ&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>By default, it is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">既定では<ph id="ph1">`null`</ph>します。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The label value.</source>
+          <target state="translated">ラベルの値。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets the public key that can be used by another <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to generate a shared secret agreement.</source>
+          <target state="translated">別の作業で使用できる公開キーを取得<bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>共有秘密協定を生成するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The public key that is associated with this instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">このインスタンスに関連付けられている公開キー、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECDiffieHellmanCng"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that will be appended to the secret agreement when generating key material.</source>
+          <target state="translated">取得またはキー マテリアルを生成するときに、秘密協定に追加する値を設定します。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; or &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt; key derivation function (KDF) is used.</source>
+          <target state="translated">場合、この値がキー派生の使用は、&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;または&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;キー派生関数 (KDF) を使用します&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The value is appended to the secret agreement, and the combined value is passed to the KDF to generate the key material.</source>
+          <target state="translated">秘密協定に値が追加され、キー マテリアルを生成する KDF を総合した値が渡されます。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">値は、既定では、<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The value that is appended to the secret agreement.</source>
+          <target state="translated">秘密協定に追加される値。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that will be added to the beginning of the secret agreement when deriving key material.</source>
+          <target state="translated">取得またはキー マテリアルを派生している場合に、秘密協定の先頭に追加する値を設定します。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property is set to one of the following values:      -   &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;      -   &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;       The value is prepended to the secret agreement, and the combined value is passed to the key derivation function (KDF) to generate the key material.</source>
+          <target state="translated">場合、この値がキー派生の使用は、&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;プロパティは、次の値のいずれかに設定:- &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;-&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;秘密協定に値が前に、合計値が、キー マテリアルを生成するキーの派生関数 (KDF) に渡されます&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">値は、既定では、<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The value that is appended to the beginning of the secret agreement during key derivation.</source>
+          <target state="translated">キー派生の中に秘密協定の先頭に付加される値。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Gets or sets the seed value that will be used when deriving key material.</source>
+          <target state="translated">取得またはキー マテリアルを派生している場合に使用されるシード値を設定します。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property is set to &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.</source>
+          <target state="translated">場合、この値がキー派生の使用は&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;にプロパティが設定されています。&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>By default, the value is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">値は、既定では、<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The seed value.</source>
+          <target state="translated">シード値。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>This method is not implemented.</source>
+          <target state="translated">このメソッドは実装されていません。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>To convert the current key to an XML representation, use the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.ToXmlString%28System.Security.Cryptography.ECKeyXmlFormat%29&gt; overload instead.</source>
+          <target state="translated">現在のキーを XML 表現に変換するを使用して、&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.ToXmlString%28System.Security.Cryptography.ECKeyXmlFormat%29&gt;オーバー ロードを代用します&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.ToXmlString%28System.Security.Cryptography.ECKeyXmlFormat%29&gt;。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include private parameters; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>プライベート パラメーターを含めるそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Not applicable.</source>
+          <target state="translated">該当なし。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This method was not overridden for this instance.</source>
+          <target state="translated">このインスタンスのこのメソッドはオーバーライドされませんでした。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Serializes the key information to an XML string by using the specified format.</source>
+          <target state="translated">指定された形式を使用して、キー情報を XML 文字列をシリアル化します。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the format of the XML string.</source>
+          <target state="translated">XML 文字列の形式を指定する列挙値の&amp;1; つ。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The only currently accepted format is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">唯一現在受け付け形式は<bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>A string object that contains the key information, serialized to an XML string, according to the requested format.</source>
+          <target state="translated">要求された書式に従って、XML 文字列にシリアル化、キー情報を含む文字列オブジェクト。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> specifies an invalid format.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>無効な形式を指定します。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The only accepted value is <bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">のみ指定できる値は<bpt id="p1">&lt;xref href="System.Security.Cryptography.ECKeyXmlFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the secret agreement is used as a Hash-based Message Authentication Code (HMAC) key to derive key material.</source>
+          <target state="translated">キー マテリアルを派生させる秘密協定がハッシュ ベース メッセージ認証コード (HMAC) のキーとして使用されるかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-</ph>   This value is used for key derivation if the &lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt; property is set to &lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.</source>
+          <target state="translated"><ph id="ph1">-</ph>場合、この値がキー派生の使用は&lt;xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;&lt;xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;.&lt;/xref:System.Security.Cryptography.ECDiffieHellmanKeyDerivationFunction&gt;にプロパティが設定されています。&lt;/xref:System.Security.Cryptography.ECDiffieHellmanCng.KeyDerivationFunction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>By default, the value is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">値は、既定では、<ph id="ph1">`false`</ph>です。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the secret agreement is used as an HMAC key to derive key material; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>キー マテリアルを派生させる秘密協定が HMAC キーとして使用する場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

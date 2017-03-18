@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c4efe615752d1a39875c2ed028d1725e0da5152f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.IDbCommand.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2dcd452cad28da6e41778319e79f348c6186ac4b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f6d95fc4a322c4fc782df15286820356375c65e6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an SQL statement that is executed while connected to a data source, and is implemented by .NET Framework data providers that access relational databases.</source>
+          <target state="translated">データ ソースに接続しているときに実行され、リレーショナル データベースにアクセスする .NET Framework データ プロバイダーによって実装される SQL ステートメントを表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The IDbCommand interface enables an inheriting class to implement a Command class, which represents an SQL statement that is executed at a data source.</source>
+          <target state="translated">IDbCommand インターフェイスにより、データ ソースで実行される SQL ステートメントを表すコマンド クラスの実装、継承したクラスです。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For more information about Command classes, see <bpt id="p1">[</bpt>Executing a Command<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">コマンド クラスの詳細については、次を参照してください。<bpt id="p1">[</bpt>コマンドを実行する<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An application does not create an instance of the IDbCommand interface directly, but creates an instance of a class that inherits IDbCommand.</source>
+          <target state="translated">アプリケーションでは、直接、IDbCommand インターフェイスのインスタンスは作成されませんが、IDbCommand を継承するクラスのインスタンスを作成します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Classes that inherit IDbCommand must implement all inherited members, and typically define additional members to add provider-specific functionality.</source>
+          <target state="translated">IDbCommand を継承するクラスは、継承されたすべてのメンバーを実装し、通常プロバイダー固有の機能を追加するその他のメンバーを定義する必要があります。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, the IDbCommand interface defines the &lt;xref:System.Data.IDbCommand.ExecuteNonQuery%2A&gt; method.</source>
+          <target state="translated">IDbCommand インターフェイスの定義など、&lt;xref:System.Data.IDbCommand.ExecuteNonQuery%2A&gt;メソッド&lt;/xref:System.Data.IDbCommand.ExecuteNonQuery%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In turn, the &lt;xref:System.Data.SqlClient.SqlCommand&gt; class inherits this method, and also defines the &lt;xref:System.Data.SqlClient.SqlCommand.ExecuteXmlReader%2A&gt; method.</source>
+          <target state="translated">さらに、&lt;xref:System.Data.SqlClient.SqlCommand&gt;クラスは、このメソッドを継承しも定義、&lt;xref:System.Data.SqlClient.SqlCommand.ExecuteXmlReader%2A&gt;メソッド&lt;/xref:System.Data.SqlClient.SqlCommand.ExecuteXmlReader%2A&gt;&lt;/xref:System.Data.SqlClient.SqlCommand&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Attempts to cancels the execution of an <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">実行を取り消しますしようとすると、 <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If there is nothing to cancel, nothing happens.</source>
+          <target state="translated">[キャンセル] を何も行われませんが、何も起こりません。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>However, if there is a command in process, and the attempt to cancel fails, no exception is generated.</source>
+          <target state="translated">ただし、プロセスでは、コマンドが、キャンセルの試行が失敗した場合は、例外は生成されません。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text command to run against the data source.</source>
+          <target state="translated">取得またはデータ ソースに対して実行するテキスト コマンドを設定します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Data.IDbCommand.CommandType%2A&gt; property is set to <ph id="ph1">`StoredProcedure`</ph>, set the CommandText property to the name of the stored procedure.</source>
+          <target state="translated">ときに、&lt;xref:System.Data.IDbCommand.CommandType%2A&gt;プロパティに設定されている<ph id="ph1">`StoredProcedure`</ph>、ストアド プロシージャの名前に、CommandText プロパティを設定します&lt;/xref:System.Data.IDbCommand.CommandType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The user may be required to use escape character syntax if the stored procedure name contains any special characters.</source>
+          <target state="translated">ユーザーが、ストアド プロシージャ名に特殊文字が含まれている場合は、エスケープ文字構文を使用する必要あります。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The command will call this stored procedure when you call one of the Execute methods.</source>
+          <target state="translated">コマンドは、Execute メソッドの&amp;1; つを呼び出すときに、このストアド プロシージャを呼び出します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The text command to execute.</source>
+          <target state="translated">実行するテキスト コマンドです。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("").</source>
+          <target state="translated">既定値は空の文字列 ("") です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wait time before terminating the attempt to execute a command and generating an error.</source>
+          <target state="translated">取得またはコマンドを実行する試行を終了し、エラーを生成するまでの待機時間を設定します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The time (in seconds) to wait for the command to execute.</source>
+          <target state="translated">時間 (秒) コマンドの実行を待機します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The default value is 30 seconds.</source>
+          <target state="translated">既定値は 30 秒です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The property value assigned is less than 0.</source>
+          <target state="translated">割り当てられているプロパティの値が 0 未満です。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Indicates or specifies how the &lt;xref:System.Data.IDbCommand.CommandText*&gt; property is interpreted.</source>
+          <target state="translated">表示または指定方法、&lt;xref:System.Data.IDbCommand.CommandText*&gt;プロパティが解釈されます&lt;/xref:System.Data.IDbCommand.CommandText*&gt;。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When you set the CommandType property to <ph id="ph1">`StoredProcedure`</ph>, you should set the &lt;xref:System.Data.IDbCommand.CommandText%2A&gt; property to the name of the stored procedure.</source>
+          <target state="translated">CommandType プロパティに設定すると<ph id="ph1">`StoredProcedure`</ph>、設定する必要があります、&lt;xref:System.Data.IDbCommand.CommandText%2A&gt;プロパティをストアド プロシージャの名前にします&lt;/xref:System.Data.IDbCommand.CommandText%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The command executes this stored procedure when you call one of the Execute methods.</source>
+          <target state="translated">コマンドは、Execute メソッドの&amp;1; つを呼び出すときに、このストアド プロシージャを実行します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.CommandType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Data.CommandType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Text" name="Text" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_Text" name="Text" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.IDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used by this instance of the <bpt id="p2">&lt;xref href="System.Data.IDbCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得または設定、 <bpt id="p1">&lt;xref href="System.Data.IDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のこのインスタンスによって使用される、 <bpt id="p2">&lt;xref href="System.Data.IDbCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The connection to the data source.</source>
+          <target state="translated">データ ソースに接続します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of an <bpt id="p1">&lt;xref href="System.Data.IDbDataParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新しいインスタンスを作成、 <bpt id="p1">&lt;xref href="System.Data.IDbDataParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When inheriting from &lt;xref:System.Data.IDbCommand&gt;, a .NET Framework data provider implements a strongly-typed version of CreateParameter.</source>
+          <target state="translated">継承する場合&lt;xref:System.Data.IDbCommand&gt;、.NET Framework データ プロバイダーは、厳密に型指定されたバージョンの CreateParameter を実装します&lt;/xref:System.Data.IDbCommand&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_IDbDataParameter" name="IDbDataParameter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_IDbDataParameter" name="IDbDataParameter" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Executes an SQL statement against the <bpt id="p1">&lt;xref uid="langword_csharp_Connection" name="Connection" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of a .NET Framework data provider, and returns the number of rows affected.</source>
+          <target state="translated">に対して SQL ステートメントを実行、 <bpt id="p1">&lt;xref uid="langword_csharp_Connection" name="Connection" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト、.NET Framework データ プロバイダーと影響を受ける行の数を返します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can use the ExecuteNonQuery to perform catalog operations (for example, querying the structure of a database or creating database objects such as tables), or to change the data in a database without using a &lt;xref:System.Data.DataSet&gt; by executing UPDATE, INSERT, or DELETE statements.</source>
+          <target state="translated">カタログ操作 (データベースの構造をクエリやテーブルなどのデータベース オブジェクトを作成するなど) を実行する、またはデータベース内のデータの変更を使用せずに、ExecuteNonQuery を使用することができます、 &lt;xref:System.Data.DataSet&gt;UPDATE、INSERT、または DELETE ステートメントを実行しています&lt;/xref:System.Data.DataSet&gt;。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Although the ExecuteNonQuery does not return any rows, any output parameters or return values mapped to parameters are populated with data.</source>
+          <target state="translated">ExecuteNonQuery に行が返されませんが、出力パラメーターまたは戻り値のパラメーターにマップ データが挿入されます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For UPDATE, INSERT, and DELETE statements, the return value is the number of rows affected by the command.</source>
+          <target state="translated">UPDATE、INSERT、および DELETE ステートメントでは、戻り値は、コマンドによって影響を受ける行の数にします。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For all other types of statements, the return value is -1.</source>
+          <target state="translated">その他のすべての種類のステートメントでは、戻り値は-1 です。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The number of rows affected.</source>
+          <target state="translated">影響を受ける行の数。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The connection does not exist.</source>
+          <target state="translated">接続が存在しません。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-or-       The connection is not open.</source>
+          <target state="translated">または、接続が開いていません。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Executes the &lt;xref:System.Data.IDbCommand.CommandText<bpt id="p1">*</bpt>&gt; against the &lt;xref:System.Data.IDbCommand.Connection<ept id="p1">*</ept>&gt; and builds an <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">実行、 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; に対して、 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; をビルドし、 <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Executes the &lt;xref:System.Data.IDbCommand.CommandText<bpt id="p1">*</bpt>&gt; against the &lt;xref:System.Data.IDbCommand.Connection<ept id="p1">*</ept>&gt;, and builds an <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> using one of the <bpt id="p3">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">実行、 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; に対して、 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;、およびビルド、 <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>のいずれかを使用して、 <bpt id="p3">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The caller must call the &lt;xref:System.Data.IDbConnection.Open%2A&gt; method of the &lt;xref:System.Data.IDbCommand.Connection%2A&gt; property.</source>
+          <target state="translated">呼び出し元が呼び出す必要があります、&lt;xref:System.Data.IDbConnection.Open%2A&gt;のメソッド、&lt;xref:System.Data.IDbCommand.Connection%2A&gt;プロパティ&lt;/xref:System.Data.IDbCommand.Connection%2A&gt;&lt;/xref:System.Data.IDbConnection.Open%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Data.IDbCommand.CommandType%2A&gt; property is set to <ph id="ph1">`StoredProcedure`</ph>, the &lt;xref:System.Data.IDbCommand.CommandText%2A&gt; property should be set to the name of the stored procedure.</source>
+          <target state="translated">ときに、&lt;xref:System.Data.IDbCommand.CommandType%2A&gt;プロパティに設定されている<ph id="ph1">`StoredProcedure`</ph>、&lt;xref:System.Data.IDbCommand.CommandText%2A&gt;プロパティは、ストアド プロシージャの名前に設定する必要があります&lt;/xref:System.Data.IDbCommand.CommandText%2A&gt;&lt;/xref:System.Data.IDbCommand.CommandType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command executes this stored procedure when you call &lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt;.</source>
+          <target state="translated">コマンドは、 &lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt;。&lt;/xref:System.Data.IDbCommand.ExecuteReader%2A&gt;を呼び出すときにこのストアド プロシージャを実行します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Use &lt;xref:System.Data.CommandBehavior&gt; to retrieve large values and binary data.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 使用&lt;xref:System.Data.CommandBehavior&gt;大きな値やバイナリ データを取得します&lt;/xref:System.Data.CommandBehavior&gt;。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Otherwise, an &lt;xref:System.OutOfMemoryException&gt; might occur and the connection will be closed.</source>
+          <target state="translated">それ以外の場合、&lt;xref:System.OutOfMemoryException&gt;が発生して、接続は閉じられます&lt;/xref:System.OutOfMemoryException&gt;。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>While the &lt;xref:System.Data.IDataReader&gt; is in use, the associated &lt;xref:System.Data.IDbConnection&gt; is busy serving the &lt;xref:System.Data.IDataReader&gt;.</source>
+          <target state="translated">While&lt;xref:System.Data.IDataReader&gt;&lt;xref:System.Data.IDbConnection&gt;ビジー状態で提供している&lt;xref:System.Data.IDataReader&gt;.&lt;/xref:System.Data.IDataReader&gt;が&lt;/xref:System.Data.IDbConnection&gt;関連付けられている使用中で&lt;/xref:System.Data.IDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>While in this state, no other operations can be performed on the &lt;xref:System.Data.IDbConnection&gt; other than closing it.</source>
+          <target state="translated">この状態で他の操作はありません&lt;xref:System.Data.IDbConnection&gt;それを閉じる以外&lt;/xref:System.Data.IDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This is the case until the &lt;xref:System.Data.IDataReader.Close%2A&gt; method of the DataReader is called.</source>
+          <target state="translated">これは、まで続きます、 &lt;xref:System.Data.IDataReader.Close%2A&gt;、DataReader のメソッドが呼び出されます&lt;/xref:System.Data.IDataReader.Close%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If the DataReader is created with &lt;xref:System.Data.CommandBehavior&gt; set to <ph id="ph1">`CloseConnection`</ph>, closing the DataReader closes the connection automatically.</source>
+          <target state="translated">DataReader が作成された場合&lt;xref:System.Data.CommandBehavior&gt;'éý' <ph id="ph1">`CloseConnection`</ph>DataReader の終了、接続が自動的に終了します&lt;/xref:System.Data.CommandBehavior&gt;。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Executes the query, and returns the first column of the first row in the resultset returned by the query.</source>
+          <target state="translated">クエリを実行し、クエリによって返される結果セットの最初の行の最初の列を返します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Extra columns or rows are ignored.</source>
+          <target state="translated">余分な列または行は無視されます。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Use the ExecuteScalar method to retrieve a single value (for example, an aggregate value) from a database.</source>
+          <target state="translated">ExecuteScalar メソッドを使用すると、データベースから&amp;1; つの値 (たとえば、集計値) を取得できます。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This requires less code than using the &lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt; method, and then performing the operations necessary to generate the single value using the data returned by an &lt;xref:System.Data.IDataReader&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt;メソッド、および&amp;1; つの値を生成するために必要な操作を実行することは、 &lt;xref:System.Data.IDataReader&gt;。&lt;/xref:System.Data.IDataReader&gt;によって返されるデータを使用して&lt;/xref:System.Data.IDbCommand.ExecuteReader%2A&gt;を使用するよりも少ないコードが必要です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A typical ExecuteScalar query can be formatted as in the following C# example:      <ph id="ph1">```   CommandText = "select count(*) as NumberOfRegions from region";   Int32 count = (int) ExecuteScalar();   ```</ph>       If the first column of the first row in the result set is not found, a null reference (<ph id="ph2">`Nothing`</ph> in Visual Basic) is returned.</source>
+          <target state="translated">一般的な ExecuteScalar クエリは、次の c# の例のように形式指定できる:<ph id="ph1">```   CommandText = "select count(*) as NumberOfRegions from region";   Int32 count = (int) ExecuteScalar();   ```</ph>結果セットの最初の行の最初の列が見つからない場合、null 参照 (<ph id="ph2">`Nothing`</ph> Visual Basic で) が返されます。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If the value in the database is <ph id="ph1">`null`</ph>, the query returns <ph id="ph2">`DBNull.Value`</ph>.</source>
+          <target state="translated">データベース内の値が場合<ph id="ph1">`null`</ph>、クエリを返します<ph id="ph2">`DBNull.Value`</ph>です。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The first column of the first row in the resultset.</source>
+          <target state="translated">結果セットの最初の行の最初の列。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.IDataParameterCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gets the <bpt id="p1">&lt;xref href="System.Data.IDataParameterCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The parameters of the SQL statement or stored procedure.</source>
+          <target state="translated">SQL ステートメントまたはストアド プロシージャのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Creates a prepared (or compiled) version of the command on the data source.</source>
+          <target state="translated">データ ソースにコマンドの準備 (またはコンパイル済み) のバージョンを作成します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Data.IDbCommand.CommandType%2A&gt; property is set to <ph id="ph1">`TableDirect`</ph>, Prepare does nothing.</source>
+          <target state="translated">場合、&lt;xref:System.Data.IDbCommand.CommandType%2A&gt;プロパティに設定されている<ph id="ph1">`TableDirect`</ph>準備が何も行われません&lt;/xref:System.Data.IDbCommand.CommandType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Data.IDbCommand.CommandType%2A&gt; is set to <ph id="ph1">`StoredProcedure`</ph>, the call to Prepare should succeed, although it may result in a no-op.</source>
+          <target state="translated">場合&lt;xref:System.Data.IDbCommand.CommandType%2A&gt;に設定されている<ph id="ph1">`StoredProcedure`</ph>、場合する可能性がありますが、準備する呼び出しは成功する必要があります&lt;/xref:System.Data.IDbCommand.CommandType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The server automatically caches plans for reuse as necessary; therefore, there is no need to call this method directly in your client application.</source>
+          <target state="translated">サーバーに自動的に必要に応じて; を再利用のプランがキャッシュします。そのため、クライアント アプリケーションで直接このメソッドを呼び出す必要はありません。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.OleDb.OleDbCommand.Connection<bpt id="p1">*</bpt>&gt; is not set.       -or-       The &lt;xref:System.Data.OleDb.OleDbCommand.Connection<ept id="p1">*</ept>&gt; is not &lt;xref:System.Data.OleDb.OleDbConnection.Open*&gt;.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; が設定されていません。      -or-       The &lt;&gt;<ept id="p1">*</ept>&gt; is not &lt;xref:System.Data.OleDb.OleDbConnection.Open*&gt;.&lt;/xref:System.Data.OleDb.OleDbConnection.Open*&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets or sets the transaction within which the <bpt id="p1">&lt;xref uid="langword_csharp_Command" name="Command" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of a .NET Framework data provider executes.</source>
+          <target state="translated">取得または設定するトランザクション、 <bpt id="p1">&lt;xref uid="langword_csharp_Command" name="Command" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の .NET Framework データ プロバイダー オブジェクトを実行します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>the <bpt id="p1">&lt;xref uid="langword_csharp_Command" name="Command" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of a .NET Framework data provider executes.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Command" name="Command" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の .NET Framework データ プロバイダー オブジェクトを実行します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Gets or sets how command results are applied to the <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when used by the &lt;xref:System.Data.IDataAdapter.Update*&gt; method of a <bpt id="p2">&lt;xref href="System.Data.Common.DbDataAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得または設定にコマンドの結果を適用する方法、 <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>で使用された場合、&lt;xref:System.Data.IDataAdapter.Update*&gt;方法、 <bpt id="p2">&lt;xref href="System.Data.Common.DbDataAdapter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.Data.IDataAdapter.Update*&gt; 。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Both" name="Both" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> unless the command is automatically generated.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_Both" name="Both" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コマンドが自動的に生成される場合を除き、します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Then the default is <bpt id="p1">&lt;xref uid="langword_csharp_None" name="None" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は、 <bpt id="p1">&lt;xref uid="langword_csharp_None" name="None" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The value entered was not one of the <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">入力された値は、のいずれかでがない、 <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
