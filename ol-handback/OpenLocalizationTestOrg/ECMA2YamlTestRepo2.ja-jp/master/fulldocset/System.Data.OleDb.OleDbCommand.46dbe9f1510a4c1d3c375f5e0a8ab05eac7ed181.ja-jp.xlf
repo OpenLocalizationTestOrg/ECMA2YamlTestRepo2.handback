@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b4595426d2635921af616b180f17cba3f2d07d44</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.OleDb.OleDbCommand.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">29aa0d916a3b399da9b5536d7825fe38f5a39a78</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c4009ff0749c6de862e6ec1e8c06d71df4ddf932</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an SQL statement or stored procedure to execute against a data source.</source>
+          <target state="translated">SQL ステートメントまたはデータ ソースに対して実行するストアド プロシージャを表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>When an instance of OleDbCommand is created, the read/write properties are set to their initial values.</source>
+          <target state="translated">発行のインスタンスが作成されると、読み取り/書き込みプロパティは、初期値に設定されます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For a list of these values, see the OleDbCommand constructor.</source>
+          <target state="translated">これらの値の一覧は、OleDbCommand コンス トラクターを参照してください。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>OleDbCommand features the following methods executing commands at a data source:      |Item|Description|   |----------|-----------------|   |&lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;|Executes commands that return rows.</source>
+          <target state="translated">OleDbCommand 機能をデータ ソースでコマンドを実行する次の方法: |項目 |説明 |  |----------|-----------------|  |&lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;|行を返すコマンドを実行します&lt;/xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt; may not have the effect that you want if used to execute commands such as SQL SET statements.|   |&lt;xref:System.Data.OleDb.OleDbCommand.ExecuteNonQuery%2A&gt;|Executes commands such as SQL INSERT, DELETE, UPDATE, and SET statements.|   |&lt;xref:System.Data.OleDb.OleDbCommand.ExecuteScalar%2A&gt;|Retrieves a single value, for example, an aggregate value from a database.|       You can reset the &lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt; property and reuse the OleDbCommand object.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;使用する場合の希望する効果がない可能性があります SQL 設定ステートメントなどのコマンドを実行します |。  |&lt;xref:System.Data.OleDb.OleDbCommand.ExecuteNonQuery%2A&gt;|SQL の INSERT、DELETE、UPDATE、および一連のステートメントなどのコマンドを実行します |。  |&lt;xref:System.Data.OleDb.OleDbCommand.ExecuteScalar%2A&gt;|たとえば、データベースから値の集計、単一の値を取得します |。      リセットすることができます、&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;プロパティと OleDbCommand オブジェクトを再利用します&lt;/xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.ExecuteScalar%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.ExecuteNonQuery%2A&gt;。&lt;/xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>However, you must close the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; before you can execute a new or previous command.</source>
+          <target state="translated">ただし、閉じる必要があります、&lt;xref:System.Data.OleDb.OleDbDataReader&gt;新しいまたは前のコマンドを実行する前にします&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If a fatal &lt;xref:System.Data.OleDb.OleDbException&gt; (for example, a SQL Server severity level of 20 or greater) is generated by the method executing an OleDbCommand, the &lt;xref:System.Data.OleDb.OleDbConnection&gt;, the connection may be closed.</source>
+          <target state="translated">致命的なエラー場合&lt;xref:System.Data.OleDb.OleDbException&gt;(たとえば、SQL Server 重大度レベル以上 20 の)、OleDbCommand を実行しているメソッドによって生成される、 &lt;xref:System.Data.OleDb.OleDbConnection&gt;、接続を閉じることができます&lt;/xref:System.Data.OleDb.OleDbConnection&gt;&lt;/xref:System.Data.OleDb.OleDbException&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>However, the user can reopen the connection and continue.</source>
+          <target state="translated">ただし、ユーザーことができます、接続を再び開き、続行します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The base constructor initializes all fields to their default values.</source>
+          <target state="translated">基本コンス トラクターは、すべてのフィールドを既定値を初期化します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following table shows initial property values for an instance of &lt;xref:System.Data.OleDb.OleDbCommand&gt;.</source>
+          <target state="translated">次の表は、 &lt;xref:System.Data.OleDb.OleDbCommand&gt;。&lt;/xref:System.Data.OleDb.OleDbCommand&gt;のインスタンスの初期プロパティ値を示しています。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>|Properties|Initial Value|   |----------------|-------------------|   |&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;|empty string ("")|   |&lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;|30|   |&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;|<ph id="ph1">`Text`</ph>|   |&lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;|null|</source>
+          <target state="translated">|プロパティ |初期値 |  |----------------|-------------------|  |&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;| 空の文字列 ("") |  |&lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;|&amp;30; |  |&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;|<ph id="ph1">`Text`</ph>|  |&lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;|null|&lt;/xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the text of the query.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クエリのテキストを持つクラス。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following table shows initial property values for an instance of &lt;xref:System.Data.OleDb.OleDbCommand&gt;.</source>
+          <target state="translated">次の表は、 &lt;xref:System.Data.OleDb.OleDbCommand&gt;。&lt;/xref:System.Data.OleDb.OleDbCommand&gt;のインスタンスの初期プロパティ値を示しています。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>|Properties|Initial Value|   |----------------|-------------------|   |&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;|<ph id="ph1">`cmdText`</ph>|   |&lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;|30|   |&lt;xref:System.Data.IDbCommand.CommandType%2A&gt;|<ph id="ph2">`Text`</ph>|   |&lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;|null|</source>
+          <target state="translated">|プロパティ |初期値 |  |----------------|-------------------|  |&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;|<ph id="ph1">`cmdText`</ph>|  |&lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;|&amp;30; |  |&lt;xref:System.Data.IDbCommand.CommandType%2A&gt;|<ph id="ph2">`Text`</ph>|  |&lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;|null|&lt;/xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;&lt;/xref:System.Data.IDbCommand.CommandType%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The text of the query.</source>
+          <target state="translated">クエリのテキスト。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the text of the query and an <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クエリのテキストを持つクラスと<bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following table shows initial property values for an instance of &lt;xref:System.Data.OleDb.OleDbCommand&gt;.</source>
+          <target state="translated">次の表は、 &lt;xref:System.Data.OleDb.OleDbCommand&gt;。&lt;/xref:System.Data.OleDb.OleDbCommand&gt;のインスタンスの初期プロパティ値を示しています。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>|Properties|Initial Value|   |----------------|-------------------|   |&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;|<ph id="ph1">`cmdText`</ph>|   |&lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;|30|   |&lt;xref:System.Data.IDbCommand.CommandType%2A&gt;|<ph id="ph2">`Text`</ph>|   |&lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;|A new &lt;xref:System.Data.OleDb.OleDbConnection&gt; that is the value for the <ph id="ph3">`connection`</ph> parameter.|       You can change the value for any of these parameters by setting the related property.</source>
+          <target state="translated">|プロパティ |初期値 |  |----------------|-------------------|  |&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;|<ph id="ph1">`cmdText`</ph>|  |&lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;|&amp;30; |  |&lt;xref:System.Data.IDbCommand.CommandType%2A&gt;|<ph id="ph2">`Text`</ph>|  |&lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;|値である新しい&lt;xref:System.Data.OleDb.OleDbConnection&gt;、<ph id="ph3">`connection`</ph>パラメーターです |。      これらのパラメーターのいずれかの値を変更するには、関連するプロパティを設定します&lt;/xref:System.Data.OleDb.OleDbConnection&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;&lt;/xref:System.Data.IDbCommand.CommandType%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The text of the query.</source>
+          <target state="translated">クエリのテキスト。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the connection to a data source.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を表すデータ ソースに接続します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the text of the query, an <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and the &lt;xref:System.Data.OleDb.OleDbCommand.Transaction*&gt;.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、クエリのテキストを持つクラス、 <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>、 &lt;xref:System.Data.OleDb.OleDbCommand.Transaction*&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.Transaction*&gt; 。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following table shows initial property values for an instance of &lt;xref:System.Data.OleDb.OleDbCommand&gt;.</source>
+          <target state="translated">次の表は、 &lt;xref:System.Data.OleDb.OleDbCommand&gt;。&lt;/xref:System.Data.OleDb.OleDbCommand&gt;のインスタンスの初期プロパティ値を示しています。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>|Properties|Initial Value|   |----------------|-------------------|   |&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;|<ph id="ph1">`cmdText`</ph>|   |&lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;|30|   |&lt;xref:System.Data.IDbCommand.CommandType%2A&gt;|<ph id="ph2">`Text`</ph>|   |&lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;|A new &lt;xref:System.Data.OleDb.OleDbConnection&gt; that is the value for the <ph id="ph3">`connection`</ph> parameter.|       You can change the value for any of these parameters by setting the related property.</source>
+          <target state="translated">|プロパティ |初期値 |  |----------------|-------------------|  |&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;|<ph id="ph1">`cmdText`</ph>|  |&lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;|&amp;30; |  |&lt;xref:System.Data.IDbCommand.CommandType%2A&gt;|<ph id="ph2">`Text`</ph>|  |&lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;|値である新しい&lt;xref:System.Data.OleDb.OleDbConnection&gt;、<ph id="ph3">`connection`</ph>パラメーターです |。      これらのパラメーターのいずれかの値を変更するには、関連するプロパティを設定します&lt;/xref:System.Data.OleDb.OleDbConnection&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;&lt;/xref:System.Data.IDbCommand.CommandType%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The text of the query.</source>
+          <target state="translated">クエリのテキスト。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the connection to a data source.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を表すデータ ソースに接続します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The transaction in which the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> executes.</source>
+          <target state="translated">これで、トランザクション、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を実行します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Tries to cancel the execution of an <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">実行をキャンセルしようとする、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If there is nothing to cancel, nothing occurs.</source>
+          <target state="translated">[キャンセル] を何も行われませんが、何が発生します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>However, if there is a command in process, and the attempt to cancel fails, no exception is generated.</source>
+          <target state="translated">ただし、プロセスでは、コマンドが、キャンセルの試行が失敗した場合は、例外は生成されません。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is a copy of the current instance.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>現在のインスタンスのコピーであるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is a copy of this instance.</source>
+          <target state="translated">新しい<bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>のこのインスタンスのコピーであるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets the SQL statement or stored procedure to execute at the data source.</source>
+          <target state="translated">取得または SQL ステートメントまたはデータ ソースで実行するストアド プロシージャを設定します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt; property is set to <ph id="ph1">`StoredProcedure`</ph>, the &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt; property should be set to the name of the stored procedure.</source>
+          <target state="translated">ときに、&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;プロパティに設定されている<ph id="ph1">`StoredProcedure`</ph>、&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;プロパティは、ストアド プロシージャの名前に設定する必要があります&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The user may be required to use escape character syntax if the stored procedure name contains any special characters.</source>
+          <target state="translated">ユーザーが、ストアド プロシージャ名に特殊文字が含まれている場合は、エスケープ文字構文を使用する必要あります。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The command executes this stored procedure when you call one of the <ph id="ph1">`Execute`</ph> methods.</source>
+          <target state="translated">コマンドのいずれかを呼び出すときにこのストアド プロシージャが実行される、<ph id="ph1">`Execute`</ph>メソッドです。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt; is set to <ph id="ph1">`TableDirect`</ph>, the &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt; property should be set to the name of the table or tables to be accessed.</source>
+          <target state="translated">ときに&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;に設定されている<ph id="ph1">`TableDirect`</ph>、&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;プロパティにアクセスして、テーブルまたはテーブルの名前に設定する必要があります&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The user may be required to use escape character syntax if any of the named tables contain any special characters.</source>
+          <target state="translated">ユーザーが名前付きのテーブルに特殊文字が含まれている場合、エスケープ文字構文を使用する必要あります。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>All rows and columns of the named table or tables will be returned when you call one of the <ph id="ph1">`Execute`</ph> methods.</source>
+          <target state="translated">すべての行と列の名前付きのテーブルまたはテーブルが返されますの&amp;1; つを呼び出すときに、<ph id="ph1">`Execute`</ph>メソッドです。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You cannot set the &lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;, &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;, and CommandText properties if the current connection is performing an execute or fetch operation.</source>
+          <target state="translated">設定することはできません、 &lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;、 &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;、および現在の接続が実行または fetch 操作を実行している場合に、CommandText プロパティ&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The OLE DB.NET Provider does not support named parameters for passing parameters to an SQL Statement or a stored procedure called by an &lt;xref:System.Data.OleDb.OleDbCommand&gt; when &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt; is set to <ph id="ph1">`Text`</ph>.</source>
+          <target state="translated">OLE DB.NET プロバイダーが SQL ステートメントまたは呼び出されるストアド プロシージャにパラメーターを渡すの名前付きパラメーターをサポートしない、&lt;xref:System.Data.OleDb.OleDbCommand&gt;とき&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;に設定されている<ph id="ph1">`Text`</ph>&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In this case, the question mark (?) placeholder must be used.</source>
+          <target state="translated">この場合、疑問符 (?) プレース ホルダーを使用する必要があります。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example:       <ph id="ph1">`SELECT * FROM Customers WHERE CustomerID = ?`</ph>       Therefore, the order in which &lt;xref:System.Data.OleDb.OleDbParameter&gt; objects are added to the &lt;xref:System.Data.OleDb.OleDbParameterCollection&gt; must directly correspond to the position of the question mark placeholder for the parameter.</source>
+          <target state="translated">例:<ph id="ph1">`SELECT * FROM Customers WHERE CustomerID = ?`</ph>そのため、順序&lt;xref:System.Data.OleDb.OleDbParameter&gt;オブジェクトに追加されます、&lt;xref:System.Data.OleDb.OleDbParameterCollection&gt;パラメーターの疑問符 (?) プレース ホルダーの位置に直接対応する必要があります&lt;/xref:System.Data.OleDb.OleDbParameterCollection&gt;&lt;/xref:System.Data.OleDb.OleDbParameter&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Configuring Parameters and Parameter Data Types<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>構成パラメーターとパラメーターのデータ型<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The SQL statement or stored procedure to execute.</source>
+          <target state="translated">SQL ステートメントまたはストアド プロシージャを実行します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">既定値は、空の文字列です。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wait time before terminating an attempt to execute a command and generating an error.</source>
+          <target state="translated">取得またはコマンドを実行する試行を終了し、エラーを生成するまでの待機時間を設定します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A value of 0 indicates no limit, and should be avoided in a CommandTimeout because an attempt to execute a command will wait indefinitely.</source>
+          <target state="translated">0 の値を使用して、制限がないことを示します、コマンドを実行すると、無期限に待機するために、CommandTimeout に避ける必要があります。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The time (in seconds) to wait for the command to execute.</source>
+          <target state="translated">時間 (秒) コマンドの実行を待機します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The default is 30 seconds.</source>
+          <target state="translated">既定は 30 秒です。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates how the &lt;xref:System.Data.OleDb.OleDbCommand.CommandText*&gt; property is interpreted.</source>
+          <target state="translated">取得または設定を示す値が、どのように&lt;xref:System.Data.OleDb.OleDbCommand.CommandText*&gt;プロパティが解釈されます&lt;/xref:System.Data.OleDb.OleDbCommand.CommandText*&gt;。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When you set the CommandType property to <ph id="ph1">`StoredProcedure`</ph>, you should set the &lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt; property to the name of the stored procedure.</source>
+          <target state="translated">CommandType プロパティに設定すると<ph id="ph1">`StoredProcedure`</ph>、設定する必要があります、&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;プロパティをストアド プロシージャの名前にします&lt;/xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The command executes this stored procedure when you call one of the Execute methods.</source>
+          <target state="translated">コマンドは、Execute メソッドの&amp;1; つを呼び出すときに、このストアド プロシージャを実行します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;, CommandType and &lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt; properties cannot be set if the current connection is performing an execute or fetch operation.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;、CommandType と&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;、現在の接続が実行または fetch 操作を実行している場合、プロパティを設定することはできません&lt;/xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.Connection%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The OLE DB .NET Provider does not support named parameters for passing parameters to an SQL statement or a stored procedure called by an &lt;xref:System.Data.OleDb.OleDbCommand&gt; when CommandType is set to Text.</source>
+          <target state="translated">OLE DB .NET プロバイダーは、SQL ステートメントまたはによって呼び出されるストアド プロシージャにパラメーターを渡すの名前付きパラメーターをサポートしていません、 &lt;xref:System.Data.OleDb.OleDbCommand&gt;CommandType をテキストに設定するとします&lt;/xref:System.Data.OleDb.OleDbCommand&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In this case, the question mark (?) placeholder must be used.</source>
+          <target state="translated">この場合、疑問符 (?) プレース ホルダーを使用する必要があります。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For example:       <ph id="ph1">`SELECT * FROM Customers WHERE CustomerID = ?`</ph>       Therefore, the order in which &lt;xref:System.Data.OleDb.OleDbParameter&gt; objects are added to the &lt;xref:System.Data.OleDb.OleDbParameterCollection&gt; must directly correspond to the position of the question mark placeholder for the parameter.</source>
+          <target state="translated">例:<ph id="ph1">`SELECT * FROM Customers WHERE CustomerID = ?`</ph>そのため、順序&lt;xref:System.Data.OleDb.OleDbParameter&gt;オブジェクトに追加されます、&lt;xref:System.Data.OleDb.OleDbParameterCollection&gt;パラメーターの疑問符 (?) プレース ホルダーの位置に直接対応する必要があります&lt;/xref:System.Data.OleDb.OleDbParameterCollection&gt;&lt;/xref:System.Data.OleDb.OleDbParameter&gt;。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Configuring Parameters and Parameter Data Types<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>構成パラメーターとパラメーターのデータ型<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>One of the CommandType values.</source>
+          <target state="translated">CommandType 値のいずれか。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The default is Text.</source>
+          <target state="translated">既定値はテキストです。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The value was not a valid CommandType.</source>
+          <target state="translated">値は、有効な CommandType ではありませんでした。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used by this instance of the <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得または設定、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のこのインスタンスによって使用される、 <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You cannot set the Connection, &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt; and &lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt; properties if the current connection is performing an execute or fetch operation.</source>
+          <target state="translated">接続を設定することはできません&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;と&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;プロパティの場合は、現在の接続で実行またはフェッチ操作が実行されます&lt;/xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If you set Connection while a transaction is in progress and the &lt;xref:System.Data.OleDb.OleDbCommand.Transaction%2A&gt; property is not null, an &lt;xref:System.InvalidOperationException&gt; is generated.</source>
+          <target state="translated">トランザクションが進行中は、接続を設定する場合、&lt;xref:System.Data.OleDb.OleDbCommand.Transaction%2A&gt;プロパティが null でない、&lt;xref:System.InvalidOperationException&gt;が生成されます&lt;/xref:System.InvalidOperationException&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.Transaction%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Data.OleDb.OleDbCommand.Transaction%2A&gt; property is not null and the transaction has already been committed or rolled back, &lt;xref:System.Data.OleDb.OleDbCommand.Transaction%2A&gt; is set to null.</source>
+          <target state="translated">場合、&lt;xref:System.Data.OleDb.OleDbCommand.Transaction%2A&gt;プロパティが null でないと、トランザクションは既にコミットまたはロールバック&lt;xref:System.Data.OleDb.OleDbCommand.Transaction%2A&gt;設定を null にします&lt;/xref:System.Data.OleDb.OleDbCommand.Transaction%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.Transaction%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The connection to a data source.</source>
+          <target state="translated">データ ソースに接続します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The Connection property was changed while a transaction was in progress.</source>
+          <target state="translated">トランザクションの処理中に、接続プロパティが変更されました。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of an <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新しいインスタンスを作成、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The CreateParameter method is a strongly typed version of &lt;xref:System.Data.IDbCommand.CreateParameter%2A&gt;.</source>
+          <target state="translated">CreateParameter メソッドは、厳密に型指定されたバージョン&lt;xref:System.Data.IDbCommand.CreateParameter%2A&gt;。&lt;/xref:System.Data.IDbCommand.CreateParameter%2A&gt;の</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the command object should be visible in a customized Windows Forms Designer control.</source>
+          <target state="translated">取得または、コマンド オブジェクトをカスタマイズした Windows フォーム デザイナー コントロールに表示するかどうかを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A value that indicates whether the command object should be visible in a control.</source>
+          <target state="translated">コマンド オブジェクトをコントロールに表示するかどうかを示す値。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Executes an SQL statement against the &lt;xref:System.Data.OleDb.OleDbCommand.Connection*&gt; and returns the number of rows affected.</source>
+          <target state="translated">に対して SQL ステートメントを実行、&lt;xref:System.Data.OleDb.OleDbCommand.Connection*&gt;影響を受ける行の数を返します&lt;/xref:System.Data.OleDb.OleDbCommand.Connection*&gt;。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can use the ExecuteNonQuery to perform catalog operations, for example, to query the structure of a database or to create database objects such as tables, or to change the data in a database without using a &lt;xref:System.Data.DataSet&gt; by executing UPDATE, INSERT, or DELETE statements.</source>
+          <target state="translated">たとえばカタログ操作を実行する、データベースの構造をクエリまたはテーブルなどのデータベース オブジェクトを作成またはを使用せず、データベース内のデータを変更する、ExecuteNonQuery を使用することができます、 &lt;xref:System.Data.DataSet&gt;UPDATE、INSERT、または DELETE ステートメントを実行しています&lt;/xref:System.Data.DataSet&gt;。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Although the ExecuteNonQuery returns no rows, any output parameters or return values mapped to parameters are populated with data.</source>
+          <target state="translated">ExecuteNonQuery に行が返されなかったが、出力パラメーターまたは戻り値のパラメーターにマップ データが挿入されます。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For UPDATE, INSERT, and DELETE statements, the return value is the number of rows affected by the command.</source>
+          <target state="translated">UPDATE、INSERT、および DELETE ステートメントでは、戻り値は、コマンドによって影響を受ける行の数です。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For all other types of statements, the return value is -1.</source>
+          <target state="translated">その他のすべての種類のステートメントは、戻り値は-1 です。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If a rollback occurs, the return value is also -1.</source>
+          <target state="translated">ロールバックが発生した場合、戻り値も-1 にです。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The number of rows affected.</source>
+          <target state="translated">影響を受ける行の数。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The connection does not exist.</source>
+          <target state="translated">接続が存在しません。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-or-       The connection is not open.</source>
+          <target state="translated">または、接続が開かれていません。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-or-       Cannot execute a command within a transaction context that differs from the context in which the connection was originally enlisted.</source>
+          <target state="translated">- または - 接続が参加した元のコンテキストからとは異なるトランザクション コンテキスト内でコマンドを実行できません。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Sends the &lt;xref:System.Data.OleDb.OleDbCommand.CommandText<bpt id="p1">*</bpt>&gt; to the &lt;xref:System.Data.OleDb.OleDbCommand.Connection<ept id="p1">*</ept>&gt; and builds an <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">送信、 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; を&lt;&gt; <ept id="p1">*</ept>&gt; をビルドし、 <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt; property is set to <ph id="ph1">`StoredProcedure`</ph>, the &lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt; property should be set to the name of the stored procedure.</source>
+          <target state="translated">ときに、&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;プロパティに設定されている<ph id="ph1">`StoredProcedure`</ph>、&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;プロパティは、ストアド プロシージャの名前に設定する必要があります&lt;/xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The command executes this stored procedure when you call ExecuteReader.</source>
+          <target state="translated">コマンドは、ExecuteReader を呼び出すときに、このストアド プロシージャを実行します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Before you close the &lt;xref:System.Data.OleDb.OleDbConnection&gt;, first close the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; object.</source>
+          <target state="translated">終了する前に、 &lt;xref:System.Data.OleDb.OleDbConnection&gt;、最初に閉じて、&lt;xref:System.Data.OleDb.OleDbDataReader&gt;オブジェクト&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;&lt;/xref:System.Data.OleDb.OleDbConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You must also close the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; object if you plan to reuse an &lt;xref:System.Data.OleDb.OleDbCommand&gt; object.</source>
+          <target state="translated">またを閉じる必要があります、&lt;xref:System.Data.OleDb.OleDbDataReader&gt;オブジェクトの再利用する予定のかどうか、&lt;xref:System.Data.OleDb.OleDbCommand&gt;オブジェクト&lt;/xref:System.Data.OleDb.OleDbCommand&gt;&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Cannot execute a command within a transaction context that differs from the context in which the connection was originally enlisted.</source>
+          <target state="translated">接続が参加した元のコンテキストからとは異なるトランザクション コンテキスト内でコマンドを実行することはできません。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Sends the &lt;xref:System.Data.OleDb.OleDbCommand.CommandText<bpt id="p1">*</bpt>&gt; to the &lt;xref:System.Data.OleDb.OleDbCommand.Connection<ept id="p1">*</ept>&gt;, and builds an <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> using one of the <bpt id="p3">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">送信、 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; を&lt;&gt; <ept id="p1">*</ept>&gt;、およびビルド、 <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>のいずれかを使用して、 <bpt id="p3">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>When you specify &lt;xref:System.Data.CommandBehavior&gt; with the &lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt; method of the &lt;xref:System.Data.OleDb.OleDbCommand&gt; object, the .NET Framework Data Provider for OLE DB performs binding using the OLE DB <bpt id="p1">**</bpt>IRow<ept id="p1">**</ept> interface if it is available.</source>
+          <target state="translated">指定すると&lt;xref:System.Data.CommandBehavior&gt;で、&lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;のメソッド、&lt;xref:System.Data.OleDb.OleDbCommand&gt;オブジェクト、.NET Framework Data Provider for OLE DB、OLE DB を使用してバインドを実行する<bpt id="p1">**</bpt>IRow<ept id="p1">**</ept>インターフェイスの使用可能になる場合&lt;/xref:System.Data.OleDb.OleDbCommand&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;&lt;/xref:System.Data.CommandBehavior&gt;。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Otherwise, it uses the <bpt id="p1">**</bpt>IRowset<ept id="p1">**</ept> interface.</source>
+          <target state="translated">それ以外の場合、使用して、 <bpt id="p1">**</bpt>IRowset<ept id="p1">**</ept>インターフェイスです。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If your SQL statement is expected to return only a single row, specifying &lt;xref:System.Data.CommandBehavior&gt; can also improve application performance.</source>
+          <target state="translated">SQL ステートメントが&amp;1; つの行のみを返すと予想される場合を指定する&lt;xref:System.Data.CommandBehavior&gt;もアプリケーションのパフォーマンスを向上させることができます&lt;/xref:System.Data.CommandBehavior&gt;。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt; property is set to <ph id="ph1">`StoredProcedure`</ph>, the &lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt; property should be set to the name of the stored procedure.</source>
+          <target state="translated">ときに、&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;プロパティに設定されている<ph id="ph1">`StoredProcedure`</ph>、&lt;xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;プロパティは、ストアド プロシージャの名前に設定する必要があります&lt;/xref:System.Data.OleDb.OleDbCommand.CommandText%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The command executes this stored procedure when you call &lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;.</source>
+          <target state="translated">コマンドは、 &lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;。&lt;/xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;を呼び出すときにこのストアド プロシージャを実行します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.OleDb.OleDbDataReader&gt; supports a special mode that enables large binary values to be read efficiently.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbDataReader&gt;を効率的に読み込まれる大きなバイナリ値を有効にする、特殊なモードをサポートしています&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>For more information, see the <ph id="ph1">`SequentialAccess`</ph> setting for &lt;xref:System.Data.CommandBehavior&gt;.</source>
+          <target state="translated">詳細については、次を参照してください、 <ph id="ph1">`SequentialAccess`</ph> &lt;xref:System.Data.CommandBehavior&gt;。&lt;/xref:System.Data.CommandBehavior&gt;の設定。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Before you close the &lt;xref:System.Data.OleDb.OleDbConnection&gt;, first close the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; object.</source>
+          <target state="translated">終了する前に、 &lt;xref:System.Data.OleDb.OleDbConnection&gt;、最初に閉じて、&lt;xref:System.Data.OleDb.OleDbDataReader&gt;オブジェクト&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;&lt;/xref:System.Data.OleDb.OleDbConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You must also close the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; object if you plan to reuse an &lt;xref:System.Data.OleDb.OleDbCommand&gt; object.</source>
+          <target state="translated">またを閉じる必要があります、&lt;xref:System.Data.OleDb.OleDbDataReader&gt;オブジェクトの再利用する予定のかどうか、&lt;xref:System.Data.OleDb.OleDbCommand&gt;オブジェクト&lt;/xref:System.Data.OleDb.OleDbCommand&gt;&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; is created with &lt;xref:System.Data.CommandBehavior&gt; set to <ph id="ph1">`CloseConnection`</ph>, closing the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; closes the connection automatically.</source>
+          <target state="translated">場合、&lt;xref:System.Data.OleDb.OleDbDataReader&gt;で作成された&lt;xref:System.Data.CommandBehavior&gt;'éý'<ph id="ph1">`CloseConnection`</ph>を閉じて、&lt;xref:System.Data.OleDb.OleDbDataReader&gt;接続を自動的に閉じます&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;&lt;/xref:System.Data.CommandBehavior&gt;&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Cannot execute a command within a transaction context that differs from the context in which the connection was originally enlisted.</source>
+          <target state="translated">接続が参加した元のコンテキストからとは異なるトランザクション コンテキスト内でコマンドを実行することはできません。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Executes the query, and returns the first column of the first row in the result set returned by the query.</source>
+          <target state="translated">クエリを実行し、クエリによって返される結果セットの最初の行の最初の列を返します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Additional columns or rows are ignored.</source>
+          <target state="translated">追加の列または行は無視されます。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Use the ExecuteScalar method to retrieve a single value, for example, an aggregate value, from a data source.</source>
+          <target state="translated">データ ソースから値を取得する&amp;1; つ、たとえば、ExecuteScalar メソッドの集計値を使用します。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>This requires less code than using the &lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt; method, and then performing the operations that are required to generate the single value using the data returned by an &lt;xref:System.Data.OleDb.OleDbDataReader&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;メソッド、および&amp;1; つの値の生成に必要な操作を実行することは、 &lt;xref:System.Data.OleDb.OleDbDataReader&gt;。&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;によって返されるデータを使用して&lt;/xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;を使用するよりも少ないコードが必要です。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>A typical ExecuteScalar query can be formatted as in the following C# example:      <ph id="ph1">```   CommandText = "SELECT COUNT(*) FROM region";   Int32 count = (int32) ExecuteScalar();   ```</ph></source>
+          <target state="translated">一般的な ExecuteScalar クエリは、次の c# の例のようにフォーマットできます。<ph id="ph1">```   CommandText = "SELECT COUNT(*) FROM region";   Int32 count = (int32) ExecuteScalar();   ```</ph></target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The first column of the first row in the result set, or a null reference if the result set is empty.</source>
+          <target state="translated">結果の最初の行の最初の列は、次の設定、または null 参照場合、結果セットは空にします。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Cannot execute a command within a transaction context that differs from the context in which the connection was originally enlisted.</source>
+          <target state="translated">接続が参加した元のコンテキストからとは異なるトランザクション コンテキスト内でコマンドを実行することはできません。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameterCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gets the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbParameterCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The OLE DB .NET Provider does not support named parameters for passing parameters to an SQL statement or a stored procedure called by an &lt;xref:System.Data.OleDb.OleDbCommand&gt; when &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt; is set to <ph id="ph1">`Text`</ph>.</source>
+          <target state="translated">OLE DB .NET プロバイダーは、SQL ステートメントまたはによって呼び出されるストアド プロシージャにパラメーターを渡すの名前付きパラメーターをサポートしていません、&lt;xref:System.Data.OleDb.OleDbCommand&gt;とき&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;に設定されている<ph id="ph1">`Text`</ph>&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;&lt;/xref:System.Data.OleDb.OleDbCommand&gt;。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>In this case, the question mark (?) placeholder must be used.</source>
+          <target state="translated">この場合、疑問符 (?) プレース ホルダーを使用する必要があります。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>For example:       <ph id="ph1">`SELECT * FROM Customers WHERE CustomerID = ?`</ph>       Therefore, the order in which &lt;xref:System.Data.OleDb.OleDbParameter&gt; objects are added to the &lt;xref:System.Data.OleDb.OleDbParameterCollection&gt; must directly correspond to the position of the question mark placeholder for the parameter in the command text.</source>
+          <target state="translated">例:<ph id="ph1">`SELECT * FROM Customers WHERE CustomerID = ?`</ph>そのため、順序&lt;xref:System.Data.OleDb.OleDbParameter&gt;オブジェクトに追加されます、&lt;xref:System.Data.OleDb.OleDbParameterCollection&gt;コマンド テキスト内のパラメーターの疑問符 (?) プレース ホルダーの位置に直接対応する必要があります&lt;/xref:System.Data.OleDb.OleDbParameterCollection&gt;&lt;/xref:System.Data.OleDb.OleDbParameter&gt;。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the parameters in the collection do not match the requirements of the query to be executed, an error may result.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; コレクション内のパラメーターが実行されるクエリの要件が一致しない場合、エラーが発生します。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Configuring Parameters and Parameter Data Types<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>構成パラメーターとパラメーターのデータ型<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The parameters of the SQL statement or stored procedure.</source>
+          <target state="translated">SQL ステートメントまたはストアド プロシージャのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The default is an empty collection.</source>
+          <target state="translated">既定では、空のコレクションです。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Creates a prepared (or compiled) version of the command on the data source.</source>
+          <target state="translated">データ ソースにコマンドの準備 (またはコンパイル済み) のバージョンを作成します。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt; property is set to <ph id="ph1">`TableDirect`</ph>, Prepare does nothing.</source>
+          <target state="translated">場合、&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;プロパティに設定されている<ph id="ph1">`TableDirect`</ph>準備が何も行われません&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt; is set to <ph id="ph1">`StoredProcedure`</ph>, the call to Prepare should succeed, although it may cause a no-op.</source>
+          <target state="translated">場合&lt;xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;に設定されている<ph id="ph1">`StoredProcedure`</ph>場合がありますが、準備する呼び出しは成功する必要があります&lt;/xref:System.Data.OleDb.OleDbCommand.CommandType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Before you call Prepare, specify the data type of each parameter in the statement to be prepared.</source>
+          <target state="translated">準備を呼び出す前に、準備されたステートメントの各パラメーターのデータ型を指定します。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For each parameter that has a variable length data type, you must set the <bpt id="p1">**</bpt>Size<ept id="p1">**</ept> property to the maximum size needed.</source>
+          <target state="translated">可変長データ型を持つパラメーターごとに設定する必要があります、<bpt id="p1">**</bpt>サイズ<ept id="p1">**</ept>プロパティを必要な最大サイズ。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Prepare returns an error if these conditions are not met.</source>
+          <target state="translated">準備するこれらの条件が満たされない場合はエラーを返します。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If you call an <ph id="ph1">`Execute`</ph> method after you call Prepare, any parameter value that is larger than the value specified by the <bpt id="p1">**</bpt>Size<ept id="p1">**</ept> property is automatically truncated to the original specified size of the parameter, and no truncation errors are returned.</source>
+          <target state="translated">呼び出す場合は、 <ph id="ph1">`Execute`</ph> Prepare を任意のパラメーター値を呼び出した後のメソッドがで指定された値より大きい、<bpt id="p1">**</bpt>サイズ<ept id="p1">**</ept>プロパティは、パラメーターの指定した元のサイズを自動的に切り捨てられます、切り捨てエラーは返されません。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Output parameters (whether prepared or not) must have a user-specified data type.</source>
+          <target state="translated">出力では、(準備またはない) かどうかをパラメーター ユーザー指定のデータ型である必要があります。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>If you specify a variable length data type, you must also specify the maximum <bpt id="p1">**</bpt>Size<ept id="p1">**</ept>.</source>
+          <target state="translated">可変長データ型を指定する場合は、最大値も指定する必要があります<bpt id="p1">**</bpt>サイズ<ept id="p1">**</ept>です。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.OleDb.OleDbCommand.Connection<bpt id="p1">*</bpt>&gt; is not set.       -or-       The &lt;xref:System.Data.OleDb.OleDbCommand.Connection<ept id="p1">*</ept>&gt; is not open.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; が設定されていません。      - または -、 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; が開かれていません。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Resets the &lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout*&gt; property to the default value.</source>
+          <target state="translated">リセット、&lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout*&gt;プロパティを既定値にします&lt;/xref:System.Data.OleDb.OleDbCommand.CommandTimeout*&gt;。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The default value of the &lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt; is 30 seconds.</source>
+          <target state="translated">既定値、&lt;xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;は 30 秒です&lt;/xref:System.Data.OleDb.OleDbCommand.CommandTimeout%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.Data.IDbCommand.ExecuteReader%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">このメンバーの説明は、次を参照してください。 <ph id="ph1">&amp;lt;</ph>xref:System.Data.IDbCommand.ExecuteReader%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbCommand&gt; instance is cast to an &lt;xref:System.Data.IDbCommand&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.OleDb.OleDbCommand&gt;にインスタンスをキャスト、&lt;xref:System.Data.IDbCommand&gt;インターフェイス&lt;/xref:System.Data.IDbCommand&gt;&lt;/xref:System.Data.OleDb.OleDbCommand&gt;。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Executes the &lt;xref:System.Data.IDbCommand.CommandText<bpt id="p1">*</bpt>&gt; against the &lt;xref:System.Data.IDbCommand.Connection<ept id="p1">*</ept>&gt;, and builds an <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> using one of the <bpt id="p3">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">実行、 &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; に対して、 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;、およびビルド、 <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>のいずれかを使用して、 <bpt id="p3">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbCommand&gt; instance is cast to an &lt;xref:System.Data.IDbCommand&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.OleDb.OleDbCommand&gt;にインスタンスをキャスト、&lt;xref:System.Data.IDbCommand&gt;インターフェイス&lt;/xref:System.Data.IDbCommand&gt;&lt;/xref:System.Data.OleDb.OleDbCommand&gt;。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt;。&lt;/xref:System.Data.IDbCommand.ExecuteReader%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> built using one of the <bpt id="p2">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のいずれかを使用して構築された、 <bpt id="p2">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">このメンバーの説明は、次を参照してください。 <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbCommand&gt; instance is cast to an &lt;xref:System.ICloneable&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.OleDb.OleDbCommand&gt;にインスタンスをキャスト、&lt;xref:System.ICloneable&gt;インターフェイス&lt;/xref:System.ICloneable&gt;&lt;/xref:System.Data.OleDb.OleDbCommand&gt;。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.Object&gt; that is a copy of this instance.</source>
+          <target state="translated">新しい&lt;xref:System.Object&gt;のこのインスタンスのコピーである&lt;/xref:System.Object&gt;。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> within which the <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> executes.</source>
+          <target state="translated">取得または設定、 <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を<bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>を実行します。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>You cannot set the Transaction property if it is already set to a specific value, and the command is in the process of executing.</source>
+          <target state="translated">場合は、既に特定の値に設定し、コマンドが実行中はトランザクションのプロパティを設定することはできません。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>If you set the transaction property to an &lt;xref:System.Data.OleDb.OleDbTransaction&gt; object that is not connected to the same &lt;xref:System.Data.OleDb.OleDbConnection&gt; as the &lt;xref:System.Data.OleDb.OleDbCommand&gt; object, an exception is thrown the next time that you try to execute a statement.</source>
+          <target state="translated">トランザクションのプロパティを設定する場合、&lt;xref:System.Data.OleDb.OleDbTransaction&gt;に同じ接続されていないオブジェクト&lt;xref:System.Data.OleDb.OleDbConnection&gt;として、&lt;xref:System.Data.OleDb.OleDbCommand&gt;オブジェクト、例外がスローされて、次回ステートメントを実行しようとする&lt;/xref:System.Data.OleDb.OleDbCommand&gt;&lt;/xref:System.Data.OleDb.OleDbConnection&gt;&lt;/xref:System.Data.OleDb.OleDbTransaction&gt;。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Gets or sets how command results are applied to the <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when used by the <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method of the <bpt id="p3">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得または設定にコマンドの結果を適用する方法、 <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>で使用された場合、 <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>のメソッド、 <bpt id="p3">&lt;xref href="System.Data.OleDb.OleDbDataAdapter"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The default UpdatedRowSource value is Both unless the command is automatically generated (as with the &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;), in which case the default is None.</source>
+          <target state="translated">UpdatedRowSource šù ' è 両方のコマンドが自動的に生成される場合を除き (と同様、 &lt;xref:System.Data.OleDb.OleDbCommandBuilder&gt;) の場合、既定値は None です&lt;/xref:System.Data.OleDb.OleDbCommandBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>For more information about how to use the UpdatedRowSource property, see <bpt id="p1">[</bpt>DataAdapter Parameters<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">UpdatedRowSource プロパティを使用する方法の詳細については、次を参照してください。 <bpt id="p1">[</bpt>DataAdapter パラメーター<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The value entered was not one of the <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">入力された値は、のいずれかでがない、 <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
