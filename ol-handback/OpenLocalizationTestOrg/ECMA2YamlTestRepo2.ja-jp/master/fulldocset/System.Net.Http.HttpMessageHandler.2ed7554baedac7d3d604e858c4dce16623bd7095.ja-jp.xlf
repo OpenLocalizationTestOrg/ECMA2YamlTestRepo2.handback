@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f951e3ae0c468f4d53805f5050ae37f5a7bc3ef0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Net.Http.HttpMessageHandler.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aabef0d80b9f2c6db2061af62ec840f4042601d6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8760461b7c2e1a112621813f32b68d52c2efa5e1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A base type for HTTP message handlers.</source>
+          <target state="translated">HTTP メッセージ ハンドラーの基本データ型。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>There are various HTTP message handles that can be used.</source>
+          <target state="translated">使用できるさまざまな HTTP メッセージ ハンドルがあります。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>These include the following.</source>
+          <target state="translated">次が含まれます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.Http.DelegatingHandler&gt; - A class used to plug a handler into a handler chain.</source>
+          <target state="translated">&lt;xref:System.Net.Http.DelegatingHandler&gt;-、クラス ハンドラー チェーンにハンドラーを接続するために使用します。&lt;/xref:System.Net.Http.DelegatingHandler&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>HttpMessageHandler - A simple to class to derive from that supports the most common requirements for most applications.</source>
+          <target state="translated">HttpMessageHandler - をから派生するクラスに、単純なは、ほとんどのアプリケーションの最も一般的な要件をサポートします。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.Http.HttpClientHandler&gt; - A class that operates at the bottom of the handler chain that actually handles the HTTP transport operations.</source>
+          <target state="translated">&lt;xref:System.Net.Http.HttpClientHandler&gt;に実際に操作を処理する、HTTP トランスポート ハンドラー チェーンの下部にある動作は、クラスです。&lt;/xref:System.Net.Http.HttpClientHandler&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.Http.WebRequestHandler&gt; - A specialty class that operates at the bottom of the handler chain class that handles HTTP transport operations with options that are specific to the &lt;xref:System.Net.HttpWebRequest?displayProperty=fullName&gt; object.</source>
+          <target state="translated">&lt;xref:System.Net.Http.WebRequestHandler&gt;に固有のオプションで HTTP トランスポートの操作を処理するハンドラー チェーン クラスの下部に動作するは、専門分野クラス、&lt;xref:System.Net.HttpWebRequest?displayProperty=fullName&gt;オブジェクト&lt;/xref:System.Net.HttpWebRequest?displayProperty=fullName&gt;。&lt;/xref:System.Net.Http.WebRequestHandler&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If developers derive classes from HttpMessageHandler and override the &lt;xref:System.Net.Http.HttpMessageHandler.SendAsync%2A&gt; method, they must make sure that &lt;xref:System.Net.Http.HttpMessageHandler.SendAsync%2A&gt; can get called concurrently by different threads.</source>
+          <target state="translated">開発者は、HttpMessageHandler とオーバーライドからクラスを派生させる場合、&lt;xref:System.Net.Http.HttpMessageHandler.SendAsync%2A&gt;メソッド、する必要があることを確認&lt;xref:System.Net.Http.HttpMessageHandler.SendAsync%2A&gt;別のスレッドで同時に呼び出すことができますを取得します&lt;/xref:System.Net.Http.HttpMessageHandler.SendAsync%2A&gt;&lt;/xref:System.Net.Http.HttpMessageHandler.SendAsync%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This is necessary since methods on &lt;xref:System.Net.Http.HttpClient&gt; can be called concurrently and need a guarantee of thread safety.</source>
+          <target state="translated">これは、必要なメソッドを以降&lt;xref:System.Net.Http.HttpClient&gt;同時に呼び出すことができる、スレッド セーフの保証を必要とします&lt;/xref:System.Net.Http.HttpClient&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>So if a handler is assigned to an &lt;xref:System.Net.Http.HttpClient&gt; instance, the &lt;xref:System.Net.Http.HttpMessageHandler.SendAsync%2A&gt; method of the handler may get called concurrently by the &lt;xref:System.Net.Http.HttpClient&gt; instance and needs to be thread safe.</source>
+          <target state="translated">ハンドラーに割り当てられている場合は、 &lt;xref:System.Net.Http.HttpClient&gt;、インスタンス、&lt;xref:System.Net.Http.HttpMessageHandler.SendAsync%2A&gt;ハンドラーのメソッドが同時に、呼び出される、&lt;xref:System.Net.Http.HttpClient&gt;インスタンスとするスレッド セーフである必要があります&lt;/xref:System.Net.Http.HttpClient&gt;&lt;/xref:System.Net.Http.HttpMessageHandler.SendAsync%2A&gt;&lt;/xref:System.Net.Http.HttpClient&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Net.Http.HttpMessageHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Net.Http.HttpMessageHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources and disposes of the managed resources used by the <bpt id="p1">&lt;xref href="System.Net.Http.HttpMessageHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">リリースで使用されるアンマネージ リソースおよびマネージ リソースを破棄、 <bpt id="p1">&lt;xref href="System.Net.Http.HttpMessageHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Net.Http.HttpMessageHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally disposes of the managed resources.</source>
+          <target state="translated">によって使用されるアンマネージ リソースを解放、 <bpt id="p1">&lt;xref href="System.Net.Http.HttpMessageHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オプションでマネージ リソースを破棄します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">このメソッドは、パブリック<ph id="ph1">`Dispose()`</ph>メソッドおよび&lt;xref:System.Object.Finalize%2A&gt;メソッド&lt;/xref:System.Object.Finalize%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>プロテクト呼び出します<ph id="ph2">`Dispose(Boolean)`</ph>メソッドを<ph id="ph3">`disposing`</ph>パラメーターに設定<ph id="ph4">`true`</ph>です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.When the <ph id="ph4">`disposing`</ph> parameter is <ph id="ph5">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Net.Http.HttpMessageHandler&gt; references.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;呼び出す<ph id="ph1">`Dispose`</ph>で<ph id="ph2">`disposing`</ph>'éý'<ph id="ph3">`false`</ph>です。ときに、<ph id="ph4">`disposing`</ph>パラメーターは<ph id="ph5">`true`</ph>、このメソッドは、すべてのマネージ オブジェクトによって保持されているすべてのリソースを解放しますこの&lt;xref:System.Net.Http.HttpMessageHandler&gt;参照。&lt;/xref:System.Net.Http.HttpMessageHandler&gt; 。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">このメソッドを呼び出して、<ph id="ph1">`Dispose()`</ph>参照される各オブジェクトのメソッドです。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to releases only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>マネージ コードとアンマネージ リソースを解放するには<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>アンマネージ リソースだけを解放します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Send an HTTP request as an asynchronous operation.</source>
+          <target state="translated">非同期操作として HTTP 要求を送信します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This operation will not block.</source>
+          <target state="translated">この操作はブロックされません。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.Threading.Tasks.Task%601&gt; object will complete once the entire response including content is read.</source>
+          <target state="translated">返された&lt;xref:System.Threading.Tasks.Task%601&gt;オブジェクトは、コンテンツを含む応答全体が読み取られた後に完了します&lt;/xref:System.Threading.Tasks.Task%601&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The SendAsync method is used primarily by the system.</source>
+          <target state="translated">SendAsync メソッドは、主に、システムによって使用されます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This method is called by the system one of the  &lt;xref:System.Net.Http.HttpClient.SendAsync%2A?displayProperty=fullName&gt; methods is called.</source>
+          <target state="translated">このメソッドは、1 つのシステム、&lt;xref:System.Net.Http.HttpClient.SendAsync%2A?displayProperty=fullName&gt;メソッドが呼び出されます&lt;/xref:System.Net.Http.HttpClient.SendAsync%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Most apps will never call this method.</source>
+          <target state="translated">ほとんどのアプリでは、このメソッドは呼び出さないでください。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The HTTP request message to send.</source>
+          <target state="translated">送信する HTTP 要求メッセージ。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The cancellation token to cancel operation.</source>
+          <target state="translated">操作を取り消すキャンセル トークン。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The task object representing the asynchronous operation.</source>
+          <target state="translated">非同期操作を表すタスク オブジェクト。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">request</ph><ept id="p1">&lt;/code&gt;</ept> was <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">request</ph><ept id="p1">&lt;/code&gt;</ept> was <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

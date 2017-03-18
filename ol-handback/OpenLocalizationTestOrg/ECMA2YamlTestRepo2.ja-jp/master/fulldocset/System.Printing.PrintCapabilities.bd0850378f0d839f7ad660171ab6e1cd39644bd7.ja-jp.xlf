@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f86f330e668fcecbbcf624fddd5ad7159d0ecf7f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Printing.PrintCapabilities.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ed5f08347bc442dec16e43a0084bec6a03de6dbb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1a8b4171e095449e23248d2d6deda019f9e1c56e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the capabilities of a printer.</source>
+          <target state="translated">プリンターの機能を定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A PrintCapabilities object is an easy-to-work-with representation of a certain type of XML document called a <bpt id="p1">*</bpt>PrintCapabilities document<ept id="p1">*</ept>.</source>
+          <target state="translated">PrintCapabilities オブジェクトは、特定の種類と呼ばれる XML ドキュメントの簡単に-作業-を表現する<bpt id="p1">*</bpt>で、PrintCapabilities ドキュメント<ept id="p1">*</ept>です。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The latter is a snapshot of all of a printer's capabilities and their current settings.</source>
+          <target state="translated">後者は、すべてのプリンターの機能とその現在の設定のスナップショットです。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, if the printer supports color printing, then the document would have a <ph id="ph1">`&lt;PageOutputColor … &gt;`</ph> element that sets out how color output will be handled.</source>
+          <target state="translated">たとえば、プリンターがカラー印刷をサポートする場合、ドキュメント必要があります、<ph id="ph1">`&lt;PageOutputColor … &gt;`</ph>カラー出力を処理する方法を設定します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The element is, in turn, represented by the &lt;xref:System.Printing.PrintCapabilities.OutputColorCapability%2A&gt; property of the PrintCapabilities object.</source>
+          <target state="translated">要素として表されます、さらに、&lt;xref:System.Printing.PrintCapabilities.OutputColorCapability%2A&gt;で、PrintCapabilities オブジェクトのプロパティ&lt;/xref:System.Printing.PrintCapabilities.OutputColorCapability%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If the printer does not support color, then there is no <ph id="ph1">`&lt;PageOutputColor … &gt;`</ph> element in the document and the value of the &lt;xref:System.Printing.PrintCapabilities.OutputColorCapability%2A&gt; property is <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">プリンターがカラーをサポートしていない場合があるない<ph id="ph1">`&lt;PageOutputColor … &gt;`</ph>要素の値と、ドキュメントで、&lt;xref:System.Printing.PrintCapabilities.OutputColorCapability%2A&gt;プロパティは<ph id="ph2">`null`</ph>&lt;/xref:System.Printing.PrintCapabilities.OutputColorCapability%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The PrintCapabilities document must conform to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>.</source>
+          <target state="translated">PrintCapabilities ドキュメントに準拠する必要があります、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>です。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The PrintCapabilities class enables your application to obtain a printer's capabilities without having to engage in any direct reading of XML &lt;xref:System.IO.Stream&gt; objects.</source>
+          <target state="translated">PrintCapabilities クラスにより、アプリケーションでの XML を直接お読みに関与することがなくプリンターの機能を取得する&lt;xref:System.IO.Stream&gt;オブジェクト&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>All of the most popular features of file and photo printers, for both home and business, are encapsulated by the PrintCapabilities class.</source>
+          <target state="translated">PrintCapabilities クラスでは、すべてのファイルや写真プリンター、ホームおよびビジネスの両方の最も一般的な機能がカプセル化されます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>But the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept> defines many more, less common, features and it can be extended to handle features of specialty printing devices.</source>
+          <target state="translated">ですが、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>定義さらに多く、あまり一般的でない機能とそれを専門的な印刷デバイスの機能の処理に拡張できます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>So, although the &lt;xref:System.Printing.PrintTicket&gt; and PrintCapabilities classes cannot be inherited, you can extend the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept> to recognize print device features that are not accounted for in the &lt;xref:System.Printing.PrintTicket&gt; or PrintCapabilities classes.</source>
+          <target state="translated">そのため、ですが、&lt;xref:System.Printing.PrintTicket&gt;とで、PrintCapabilities クラスは継承できません、拡張することができます、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>では考慮されません印刷デバイスの機能を認識するように、&lt;xref:System.Printing.PrintTicket&gt;またはで、PrintCapabilities クラス&lt;/xref:System.Printing.PrintTicket&gt;&lt;/xref:System.Printing.PrintTicket&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> When the PrintCapabilities object is created with the constructor that takes a PrintCapabilities document (as a &lt;xref:System.IO.Stream&gt;) parameter, that entire document is stored in a non-public field in the object, including the XML elements within it that express less common features that are not represented by any of the public properties of the PrintCapabilities class.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注<ept id="p1">**</ept>ときで、PrintCapabilities オブジェクトがで、PrintCapabilities のドキュメントを受け取るコンス トラクターで作成された (として、 &lt;xref:System.IO.Stream&gt;) パラメーター、そのドキュメント全体が非パブリックのフィールドを含む XML 要素で、PrintCapabilities クラスのパブリック プロパティのいずれかでは表されない小さい共通の機能を表す、オブジェクトに格納されている&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In fact, if the driver that produced the PrintCapabilities document is using a private extension of the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>, that privately defined markup is also stored as part of the non-public PrintCapabilities document.</source>
+          <target state="translated">実際で、PrintCapabilities のドキュメントを生成したドライバーでのプライベート拡張機能が使用されている場合、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>を個別に定義されているマークアップは、パブリックでないので、PrintCapabilities ドキュメントの一部としても格納します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Classes within the &lt;xref:System.Printing&gt; namespace are not supported for use within a Windows service or ASP.NET application or service.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; クラス内で、 &lt;xref:System.Printing&gt;Windows サービスや ASP.NET アプリケーションまたはサービス内で使用する名前空間はサポートされていません&lt;/xref:System.Printing&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Attempting to use these classes from within one of these application types may produce unexpected problems, such as diminished service performance and run-time exceptions.</source>
+          <target state="translated">パフォーマンスと実行時の例外をサービス低下のいずれかのようなアプリケーションからこれらのクラスを使用しようと、予期しない問題が生じる可能性があります。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you want to print from a Windows Forms application, see the &lt;xref:System.Drawing.Printing&gt; namespace.</source>
+          <target state="translated">Windows フォーム アプリケーションから印刷する場合を参照してください、&lt;xref:System.Drawing.Printing&gt;名前空間&lt;/xref:System.Drawing.Printing&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Printing.PrintCapabilities"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using an XML stream (that contains a PrintCapabilities document) that specifies printer capabilities and complies with the XML <bpt id="p2">[</bpt>Print Schema<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Printing.PrintCapabilities"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の XML にプリンターの機能を指定し、準拠している (で、PrintCapabilities のドキュメントを含む) を XML ストリームを使用してクラス<bpt id="p2">[</bpt>印刷スキーマ<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The entire PrintCapabilities document is stored in a non-public field in the object, including the XML elements within it that express less common features that are not represented by any of the public properties of the &lt;xref:System.Printing.PrintCapabilities&gt; class.</source>
+          <target state="translated">PrintCapabilities ドキュメント全体が非パブリック フィールドを含む、XML 要素を&lt;xref:System.Printing.PrintCapabilities&gt;クラス&lt;/xref:System.Printing.PrintCapabilities&gt;のパブリック プロパティのいずれかでは表されない小さい共通の機能を表す、オブジェクトに格納されています。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In fact, if the driver that produced the PrintCapabilities document is using a private extension of the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>, that privately defined markup is also stored as part of the non-public PrintCapabilities document.</source>
+          <target state="translated">実際で、PrintCapabilities のドキュメントを生成したドライバーでのプライベート拡張機能が使用されている場合、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>を個別に定義されているマークアップは、パブリックでないので、PrintCapabilities ドキュメントの一部としても格納します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The private parts of the document, if any, are not validated by the constructor, but all <bpt id="p1">**</bpt>Print Schema<ept id="p1">**</ept>-defined parts are validated, including the parts that are not represented by any of the public properties of the &lt;xref:System.Printing.PrintCapabilities&gt; class.</source>
+          <target state="translated">プライベートな部分をドキュメントの存在する場合は検証されません、コンス トラクターによって<bpt id="p1">**</bpt>印刷スキーマ<ept id="p1">**</ept>の定義済みパーツが検証されたら、その&lt;xref:System.Printing.PrintCapabilities&gt;クラス&lt;/xref:System.Printing.PrintCapabilities&gt;のパブリック プロパティのいずれかでは表されない部分</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Accordingly, the &lt;xref:System.FormatException&gt; could be thrown even if all of the XML markup that corresponds to the public properties is valid.</source>
+          <target state="translated">したがって、&lt;xref:System.FormatException&gt;場合でも、すべてのパブリック プロパティに対応する XML マークアップが有効では、スローされる可能性があります&lt;/xref:System.FormatException&gt;。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An XML &lt;xref:System.IO.Stream&gt; that describes printer capabilities and conforms to the Print Schema.</source>
+          <target state="translated">XML&lt;xref:System.IO.Stream&gt;をプリンターの機能について説明し、印刷スキーマに準拠しています&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xmlStream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xmlStream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;xmlStream&lt;/code&gt;</ph> is not valid XML.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;xmlStream&lt;/code&gt;</ph>有効な XML ではありません。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that identify the collation capabilities of a printer.</source>
+          <target state="translated">プリンターの照合順序の機能を識別する値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A standard printer typically collates output by printing every page of the first copy, then every page of the second copy, and so on.</source>
+          <target state="translated">標準的なプリンター通常、部単位での最初のコピーでは、すべてのページし、2 番目のコピーとなどのすべてのページを印刷します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When a standard printer does not collate, it prints every copy of the first page, then every copy of the second page, and so on.</source>
+          <target state="translated">標準的なプリンターが collate いないときに、最初のページのすべてのコピーし、2 ページ目となどのすべてのコピーを印刷します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Some printers are specially equipped with collating bins.</source>
+          <target state="translated">プリンターによっては、特別に装備されているビンを照合します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The printing sequence for these specially equipped printers may differ from those of standard printers; however the outcome is the same: each copy of a multi-paged print job contains all its pages in the proper sequence without manual sorting.</source>
+          <target state="translated">標準のプリンターのこれらの特別に装備されたプリンターの印刷順序が異なる場合があります。ただし、結果は同じです。 複数ページの印刷ジョブの各コピーには、手動の並べ替えの適切な順序ですべてのページが含まれています。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the printer does not support collation, the collection is empty.</source>
+          <target state="translated">プリンターが照合順序をサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`DocumentCollate`</ph> keyword, not the <ph id="ph2">`JobCollateAllDocuments`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`DocumentCollate`</ph>キーワード、されません、<ph id="ph2">`JobCollateAllDocuments`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.Collation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.Collation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that identify whether and how a printer can substitute device-based fonts for computer-based fonts.</source>
+          <target state="translated">プリンターがコンピューターのフォントをデバイス ベースのフォントを置き換えることができる方法とかどうかを識別する値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If the printer does not support device font substitution, the collection is empty.</source>
+          <target state="translated">プリンターがデバイス フォントの置き換えをサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If it does support font substitution, the driver should include both the &lt;xref:System.Printing.DeviceFontSubstitution&gt; and &lt;xref:System.Printing.DeviceFontSubstitution&gt; values in the collection.</source>
+          <target state="translated">ドライバーが両方を含める必要がありますフォントの置換がサポートしている場合、&lt;xref:System.Printing.DeviceFontSubstitution&gt;と&lt;xref:System.Printing.DeviceFontSubstitution&gt;コレクション内の値&lt;/xref:System.Printing.DeviceFontSubstitution&gt;&lt;/xref:System.Printing.DeviceFontSubstitution&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageDeviceFontSubstitution`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PageDeviceFontSubstitution`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.DeviceFontSubstitution"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.DeviceFontSubstitution"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that identify whether and how a printer can perform two-sided printing.</source>
+          <target state="translated">プリンターが両面印刷を実行できる方法とかどうかを識別する値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the printer does not support duplexing, the collection is empty.</source>
+          <target state="translated">プリンターが両面印刷をサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`JobDuplexAllDocumentsContiguously`</ph> keyword, not the <ph id="ph2">`DocumentDuplex`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`JobDuplexAllDocumentsContiguously`</ph>キーワード、されません、<ph id="ph2">`DocumentDuplex`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.Duplexing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.Duplexing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that indicate what input bin (paper tray) is used.</source>
+          <target state="translated">どのような入力のビン (用紙トレイ) の使用を示す値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This property represents the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s feature <ph id="ph1">`JobInputBin`</ph>, if that feature is supported by the device; otherwise, it represents <ph id="ph2">`DocumentInputBin`</ph>, if that feature is supported; otherwise, it represents <ph id="ph3">`PageInputBin`</ph>.</source>
+          <target state="translated">このプロパティを表します、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>機能 's<ph id="ph1">`JobInputBin`</ph>場合は、機能は、デバイスでサポートされてです。 それ以外の場合、これを表しますこと<ph id="ph2">`DocumentInputBin`</ph>場合は、こと機能がサポートされていません。 それ以外の場合、これを表します<ph id="ph3">`PageInputBin`</ph>です。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If the printer does not support any of these features, the collection is empty.</source>
+          <target state="translated">プリンターをサポートしていないこれらの機能のコレクションが空です。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.InputBin"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.InputBin"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the maximum number of copies that the device can print in a single print job.</source>
+          <target state="translated">デバイスが&amp;1; つの印刷ジョブで印刷できるコピーの最大数を示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`JobCopiesAllDocuments`</ph> keyword, not the <ph id="ph2">`DocumentCopiesAllPages`</ph> keyword, or the <ph id="ph3">`PageCopies`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`JobCopiesAllDocuments`</ph>キーワード、されません、<ph id="ph2">`DocumentCopiesAllPages`</ph>キーワード、または<ph id="ph3">`PageCopies`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If the printer can print unlimited copies, the property value is 9999.</source>
+          <target state="translated">プリンターには、無制限のコピーを印刷できる、プロパティの値が 9999 です。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A nullable &lt;xref:System.Int32&gt; value that specifies the maximum number of copies that a printer can print.</source>
+          <target state="translated">Null 許容の&lt;xref:System.Int32&gt;値のコピーがプリンターに印刷できることの最大数を指定します。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the device driver does not report a maximum.</source>
+          <target state="translated">返します<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>デバイス ドライバーが最大数を報告していない場合。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the height of the imageable area on a page, where height means the vertical dimension relative to the page's orientation.</source>
+          <target state="translated">高さが垂直方向、ページの向きを基準としたことを意味、ページのイメージ可能領域の高さを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Most printers must leave an unprinted area along the edges of a page to prevent toner from getting on the parts of the printer that move the sheets.</source>
+          <target state="translated">ほとんどのプリンターには、用紙をプリンターの部分を取得していますからトナーを防ぐために、ページの端に余白を残す必要があります。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">**</bpt>ImageableSizeHeight<ept id="p1">**</ept> property of the <bpt id="p2">[</bpt>Print Schema<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageImageableSize`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、 <bpt id="p1">**</bpt>ImageableSizeHeight<ept id="p1">**</ept>のプロパティ、<bpt id="p2">[</bpt>印刷スキーマ<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PageImageableSize`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A nullable &lt;xref:System.Double&gt; value indicating the height, in pixels, which are 1/96 inch increments, of the area on a page that the printer is capable of printing.</source>
+          <target state="translated">Null 許容型&lt;xref:System.Double&gt;高さ (ピクセル単位のプリンターが印刷できるページ上の領域の 1/96 インチ単位) を示す値&lt;/xref:System.Double&gt;。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the width of the imageable area on a page, where width means the horizontal dimension relative to the page's orientation.</source>
+          <target state="translated">幅が、ページの向きから水平方向を意味、ページのイメージ可能領域の幅を示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Most printers must leave an unprinted area along the edges of a page to prevent toner from getting on the parts of the printer that move the sheets.</source>
+          <target state="translated">ほとんどのプリンターには、用紙をプリンターの部分を取得していますからトナーを防ぐために、ページの端に余白を残す必要があります。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <ph id="ph1">`ImageableSizeWidth`</ph> property of the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph2">`PageImageableSize`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<ph id="ph1">`ImageableSizeWidth`</ph>のプロパティ、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph2">`PageImageableSize`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A nullable &lt;xref:System.Double&gt; value indicating the width, in pixels, which are 1/96 inch increments, of the area on a page that the printer is capable of printing.</source>
+          <target state="translated">Null 許容型&lt;xref:System.Double&gt;(ピクセル単位)、プリンターが印刷できるページ上の領域の 1/96 インチ単位の幅を示す値&lt;/xref:System.Double&gt;。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that specify the ways in which a printer can print content with color and shades of gray.</source>
+          <target state="translated">灰色の網掛け、プリンターがカラーでコンテンツを印刷できる方法を指定する値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the printer does not support output color options, the collection is empty.</source>
+          <target state="translated">プリンターが出力色のオプションをサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageOutputColor`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PageOutputColor`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.OutputColor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.OutputColor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that indicate the types of output quality the printer supports.</source>
+          <target state="translated">取得、プリンターの出力品質の種類を示す値のコレクションをサポートします。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Printing.OutputQuality&gt; enumeration has values for &lt;xref:System.Printing.OutputQuality&gt;, &lt;xref:System.Printing.OutputQuality&gt;, and &lt;xref:System.Printing.OutputQuality&gt; quality, among others.</source>
+          <target state="translated">たとえば、&lt;xref:System.Printing.OutputQuality&gt;列挙体の値には&lt;xref:System.Printing.OutputQuality&gt;、 &lt;xref:System.Printing.OutputQuality&gt;、および&lt;xref:System.Printing.OutputQuality&gt;の他の品質&lt;/xref:System.Printing.OutputQuality&gt;&lt;/xref:System.Printing.OutputQuality&gt;&lt;/xref:System.Printing.OutputQuality&gt;&lt;/xref:System.Printing.OutputQuality&gt;。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If the printer does not support output quality selection, the collection is empty.</source>
+          <target state="translated">プリンターが出力品質の選択をサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageOutputQuality`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PageOutputQuality`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.OutputQuality"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.OutputQuality"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that indicate whether the printer can print up to the edge of the media.</source>
+          <target state="translated">メディアの端まで印刷できるかどうかを示す値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Most laser and inkjet printers do not support borderless printing.</source>
+          <target state="translated">ほとんどのレーザー プリンターとインク ジェット プリンターはふちなし印刷をサポートしません。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>They must allow an unprinted margin to prevent toner from getting on the parts of the printer that move the paper.</source>
+          <target state="translated">余白を取得中に用紙をプリンターの部分からトナーを防ぐためにできる必要があります。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Many photographic printers, however, do support borderless printing.</source>
+          <target state="translated">ただし、多くの写真プリンターは、ふちなし印刷をサポートしています。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If the printer does not support borderless printing, the collection is empty.</source>
+          <target state="translated">プリンターがふちなし印刷をサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageBorderless`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PageBorderless`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.PageBorderless"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.PageBorderless"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets an object that represents the area of a page that the printer can use.</source>
+          <target state="translated">プリンターが使用できるページの領域を表すオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Most laser and inkjet printers must allow an unprinted margin around the edges of a page to prevent toner from getting on the parts of the printer that move the sheets.</source>
+          <target state="translated">ほとんどのレーザー プリンターとインク ジェット プリンターは、用紙をプリンターの部分を取得していますからトナーを防ぐために、ページの端に余白を許可する必要があります。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Many photographic printers, however, can use the entire page to print an image.</source>
+          <target state="translated">ただし、多くの写真プリンターは、イメージを印刷するのにページ全体を使用できます。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.PageImageableArea"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the distance, in pixels (units of 1/96 inch), of the upper-left corner of the imageable area.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.PageImageableArea"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可能領域の左上隅の (1/96 インチ単位) をピクセル単位の距離を指定するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The vertical distance is measured from the top edge of the paper and the horizontal distance is measured from the left edge.</source>
+          <target state="translated">垂直方向の距離は、用紙の上端からで測定され、左端から水平方向の距離が測定されます。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The return value also specifies the width and height of the imageable area.</source>
+          <target state="translated">戻り値は、画像領域の高さと幅にも指定します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If the printer driver does not report an imageable area, then this property is null.</source>
+          <target state="translated">プリンター ドライバーがイメージ可能領域を報告しない場合は、このプロパティが null です。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Printing.PageMediaSize"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that identify the paper and media sizes that a printer supports.</source>
+          <target state="translated">コレクションを取得<bpt id="p1">&lt;xref href="System.Printing.PageMediaSize"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>プリンターでサポートされる用紙やメディアのサイズを識別するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Most of the properties of &lt;xref:System.Printing.PrintCapabilities&gt; that have "Capability" at the end of the name, such as &lt;xref:System.Printing.PrintCapabilities.CollationCapability%2A&gt;, are collections of values of an enumerated type.</source>
+          <target state="translated">ほとんどのプロパティの&lt;xref:System.Printing.PrintCapabilities&gt;など、名前の末尾の「機能」がある&lt;xref:System.Printing.PrintCapabilities.CollationCapability%2A&gt;は列挙型の値のコレクションです&lt;/xref:System.Printing.PrintCapabilities.CollationCapability%2A&gt;&lt;/xref:System.Printing.PrintCapabilities&gt;。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>But PageMediaSizeCapability and &lt;xref:System.Printing.PrintCapabilities.PageResolutionCapability%2A&gt; are collections of objects.</source>
+          <target state="translated">PageMediaSizeCapability と&lt;xref:System.Printing.PrintCapabilities.PageResolutionCapability%2A&gt;はオブジェクトのコレクションです&lt;/xref:System.Printing.PrintCapabilities.PageResolutionCapability%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For the latter two properties, you cannot test for the presence of a particular value by using the <bpt id="p1">**</bpt>Contains<ept id="p1">**</ept> method of &lt;xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;.</source>
+          <target state="translated">使用して後者の&amp;2; つのプロパティの特定の値の存在をテストできません、 <bpt id="p1">**</bpt>Contains<ept id="p1">**</ept> &lt;xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;&lt;/xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;メソッド。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This is because, with reference types, the method returns <ph id="ph1">`true`</ph> only when the memory address of the object passed to it is the same as the address of an object in the collection; that is, they are the same object.</source>
+          <target state="translated">これは、参照型でメソッドを返すため<ph id="ph1">`true`</ph>同じコレクション内のオブジェクトのアドレスでは、オブジェクトのメモリ アドレスに渡した場合にのみです。 つまり、同じオブジェクトがします。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Since this will not usually be the case, the method will nearly always return <ph id="ph1">`false`</ph> even if there is an object in the collection with exactly the same values in all its properties as the object passed to the <bpt id="p1">**</bpt>Contains<ept id="p1">**</ept> method of  &lt;xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;.</source>
+          <target state="translated">ない場合、通常は大文字と小文字、ため、メソッドを返しますはほとんど常に<ph id="ph1">`false`</ph>、オブジェクトがコレクション内のすべてのプロパティで正確に同じ値を持つように、オブジェクトに渡される場合でも、 <bpt id="p1">**</bpt>Contains<ept id="p1">**</ept> &lt;xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;&lt;/xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;メソッド。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To determine the contents of the PageMediaSizeCapability, you must enumerate through each of its members, comparing them with the desired value.</source>
+          <target state="translated">PageMediaSizeCapability の内容を確認するのには、その各メンバーの目的の値と比較を列挙する必要がありますです。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If the printer does not support media size selection, the collection is empty.</source>
+          <target state="translated">プリンターがメディア サイズの選択をサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageMediaSize`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PageMediaSize`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.PageMediaSize"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.PageMediaSize"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that identify what types of paper and other media a printer supports.</source>
+          <target state="translated">用紙とプリンターでサポートされるその他のメディアの種類を識別する値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the printer does not support media type selection, the collection is empty.</source>
+          <target state="translated">プリンターがメディアの種類の選択をサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageMediaType`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PageMediaType`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.PageMediaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the print media, such as card stock, label, plain, or photographic.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.PageMediaType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>カード用紙など、印刷メディアを指定する値のラベル付け、プレーン テキスト、または写真。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that indicate whether a printer is capable of printing multiple-page documents from front-to-back, back-to-front, or both ways.</source>
+          <target state="translated">プリンターの前、後ろ、背面から前、または両方の方法から複数ページのドキュメントを印刷できるかどうかを示す値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If the printer does not support page order selection, the collection is empty.</source>
+          <target state="translated">プリンターがページの順序の選択をサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`JobPageOrder`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`JobPageOrder`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.PageOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.PageOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that identify what types of page orientation a printer supports.</source>
+          <target state="translated">プリンターをサポートしているページの向きの種類を識別する値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>If the printer does not support page orientation selection, the collection is empty.</source>
+          <target state="translated">プリンターがページの向きの選択をサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageOrientation`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PageOrientation`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.PageOrientation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.PageOrientation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Printing.PageResolution"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that identify what levels of page resolution the printer supports.</source>
+          <target state="translated">コレクションを取得<bpt id="p1">&lt;xref href="System.Printing.PageResolution"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>プリンターをサポートしているページ解像度のレベルを識別するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Most of the properties of &lt;xref:System.Printing.PrintCapabilities&gt; that have "Capability" at the end of the name, such as &lt;xref:System.Printing.PrintCapabilities.CollationCapability%2A&gt;, are collections of values of an enumerated type.</source>
+          <target state="translated">ほとんどのプロパティの&lt;xref:System.Printing.PrintCapabilities&gt;など、名前の末尾の「機能」がある&lt;xref:System.Printing.PrintCapabilities.CollationCapability%2A&gt;は列挙型の値のコレクションです&lt;/xref:System.Printing.PrintCapabilities.CollationCapability%2A&gt;&lt;/xref:System.Printing.PrintCapabilities&gt;。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>But &lt;xref:System.Printing.PrintCapabilities.PageMediaSizeCapability%2A&gt; and PageResolutionCapability are collections of objects.</source>
+          <target state="translated">&lt;xref:System.Printing.PrintCapabilities.PageMediaSizeCapability%2A&gt;PageResolutionCapability は、オブジェクトのコレクション&lt;/xref:System.Printing.PrintCapabilities.PageMediaSizeCapability%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>For the latter two properties, you cannot test for the presence of a particular value by using the <bpt id="p1">**</bpt>Contains<ept id="p1">**</ept> method of &lt;xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;.</source>
+          <target state="translated">使用して後者の&amp;2; つのプロパティの特定の値の存在をテストできません、 <bpt id="p1">**</bpt>Contains<ept id="p1">**</ept> &lt;xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;&lt;/xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;メソッド。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This is because, with reference types, the method returns <ph id="ph1">`true`</ph> only when the memory address of the object passed to it is the same as the address of an object in the collection; that is, they are the same object.</source>
+          <target state="translated">これは、参照型でメソッドを返すため<ph id="ph1">`true`</ph>同じコレクション内のオブジェクトのアドレスでは、オブジェクトのメモリ アドレスに渡した場合にのみです。 つまり、同じオブジェクトがします。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Since this will not usually be the case, the method will nearly always return <ph id="ph1">`false`</ph> even if there is an object in the collection with exactly the same values in all its properties as the object passed to the <bpt id="p1">**</bpt>Contains<ept id="p1">**</ept> method of &lt;xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;.</source>
+          <target state="translated">ない場合、通常は大文字と小文字、ため、メソッドを返しますはほとんど常に<ph id="ph1">`false`</ph>、オブジェクトがコレクション内のすべてのプロパティで正確に同じ値を持つように、オブジェクトに渡される場合でも、 <bpt id="p1">**</bpt>Contains<ept id="p1">**</ept> &lt;xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;&lt;/xref:System.Collections.ObjectModel.ReadOnlyCollection%601&gt;メソッド。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To determine the contents of the PageResolutionCapability, you must enumerate through each of its members, comparing them with the desired value.</source>
+          <target state="translated">PageResolutionCapability の内容を確認するのには、その各メンバーの目的の値と比較を列挙する必要がありますです。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>See the example.</source>
+          <target state="translated">この例を参照してください。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Printing.PageResolution&gt; class has properties in which you can specify the dots-per-inch for the X and Y dimensions and a property where you can give a qualitative expression to the resolution.</source>
+          <target state="translated">&lt;xref:System.Printing.PageResolution&gt;クラスには、X と Y のディメンションのインチあたりのドット-を指定するプロパティとプロパティの解像度に定性的式を与えることができます&lt;/xref:System.Printing.PageResolution&gt;。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>If the printer does not support page resolution choices, the collection is empty.</source>
+          <target state="translated">プリンターがページの解決の選択肢をサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageResolution`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PageResolution`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.PageResolution"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.PageResolution"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Each value represents a page resolution as a qualitative value, a dots-per-inch value, or both.</source>
+          <target state="translated">各値は、定性的値、1 インチあたりのドット数の値、またはその両方としてページ解像度を表します。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets the maximum and minimum percentages by which a printer can enlarge or reduce the print image on a page.</source>
+          <target state="translated">プリンターを拡大または縮小、ページ上の印刷イメージを最大と最小のパーセンテージを取得します。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This PageScalingFactorRange property generally represents the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageScaling`</ph> keyword.</source>
+          <target state="translated">一般にこの PageScalingFactorRange プロパティを表す、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PageScaling`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>But there are some complexities as follows.</source>
+          <target state="translated">次のようにいくつかの複雑な必要です。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-   If the PrintCapabilities document does not have a <ph id="ph1">`PageScaling`</ph> element, or it has one, but neither its <bpt id="p1">**</bpt>CustomSquare<ept id="p1">**</ept> nor <bpt id="p2">**</bpt>Custom<ept id="p2">**</ept> options are defined; then the PageScalingFactorRange property is null.</source>
+          <target state="translated">-で、PrintCapabilities ドキュメントがない場合、<ph id="ph1">`PageScaling`</ph>要素、またはそれが、1 つがどちらもその<bpt id="p1">**</bpt>CustomSquare<ept id="p1">**</ept>も<bpt id="p2">**</bpt>カスタム<ept id="p2">**</ept>オプションが定義されます。 その PageScalingFactorRange プロパティは null です。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>-   In all other cases, the property's behavior is as follows.</source>
+          <target state="translated">その他のすべてのケースで、プロパティの動作のとおりです。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Printing.PageScalingFactorRange.MinimumScale%2A&gt; property of the PageScalingFactorRange property's &lt;xref:System.Printing.PageScalingFactorRange&gt; object is the smallest of the following values.</source>
+          <target state="translated">&lt;xref:System.Printing.PageScalingFactorRange.MinimumScale%2A&gt;PageScalingFactorRange プロパティのプロパティ&lt;xref:System.Printing.PageScalingFactorRange&gt;オブジェクトは、次の値の最小値&lt;/xref:System.Printing.PageScalingFactorRange&gt;&lt;/xref:System.Printing.PageScalingFactorRange.MinimumScale%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-   The <bpt id="p1">**</bpt>MinValue<ept id="p1">**</ept> property of the <ph id="ph1">`PageScalingScaleWidth`</ph> datatype that provides the value of the <bpt id="p2">**</bpt>Custom<ept id="p2">**</ept> option’s <bpt id="p3">**</bpt>ScaleWidth<ept id="p3">**</ept> <ph id="ph2">`ScoredProperty`</ph>.</source>
+          <target state="translated">- <bpt id="p1">**</bpt>MinValue<ept id="p1">**</ept>のプロパティ、<ph id="ph1">`PageScalingScaleWidth`</ph>データ型の値を提供する、<bpt id="p2">**</bpt>カスタム<ept id="p2">**</ept>オプションの<bpt id="p3">**</bpt>ScaleWidth<ept id="p3">**</ept> <ph id="ph2">`ScoredProperty`</ph>です。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>-   The <bpt id="p1">**</bpt>MinValue<ept id="p1">**</ept> property of the <ph id="ph1">`PageScalingScaleHeight`</ph> datatype that provides the value of the <bpt id="p2">**</bpt>Custom<ept id="p2">**</ept> option’s <bpt id="p3">**</bpt>ScaleHeight<ept id="p3">**</ept> <ph id="ph2">`ScoredProperty`</ph>.</source>
+          <target state="translated">- <bpt id="p1">**</bpt>MinValue<ept id="p1">**</ept>のプロパティ、<ph id="ph1">`PageScalingScaleHeight`</ph>データ型の値を提供する、<bpt id="p2">**</bpt>カスタム<ept id="p2">**</ept>オプションの<bpt id="p3">**</bpt>ScaleHeight<ept id="p3">**</ept> <ph id="ph2">`ScoredProperty`</ph>です。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-   The <bpt id="p1">**</bpt>MinValue<ept id="p1">**</ept> property of the <ph id="ph1">`PageScalingScale`</ph> datatype that provides the value of the <bpt id="p2">**</bpt>CustomSquare<ept id="p2">**</ept> option’s <bpt id="p3">**</bpt>Scale<ept id="p3">**</ept> <ph id="ph2">`ScoredProperty`</ph>.</source>
+          <target state="translated">- <bpt id="p1">**</bpt>MinValue<ept id="p1">**</ept>のプロパティ、<ph id="ph1">`PageScalingScale`</ph>データ型の値を提供する、 <bpt id="p2">**</bpt>CustomSquare<ept id="p2">**</ept>オプションの<bpt id="p3">**</bpt>スケール<ept id="p3">**</ept><ph id="ph2">`ScoredProperty`</ph>です。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Printing.PageScalingFactorRange.MaximumScale%2A&gt; property of the PageScalingFactorRange property's &lt;xref:System.Printing.PageScalingFactorRange&gt; object is the largest of the following values.</source>
+          <target state="translated">&lt;xref:System.Printing.PageScalingFactorRange.MaximumScale%2A&gt;PageScalingFactorRange プロパティのプロパティ&lt;xref:System.Printing.PageScalingFactorRange&gt;オブジェクトでは、次の値の最大&lt;/xref:System.Printing.PageScalingFactorRange&gt;&lt;/xref:System.Printing.PageScalingFactorRange.MaximumScale%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-   The <bpt id="p1">**</bpt>MaxValue<ept id="p1">**</ept> property of the <ph id="ph1">`PageScalingScaleWidth`</ph> datatype that provides the value of the <bpt id="p2">**</bpt>Custom<ept id="p2">**</ept> option’s <bpt id="p3">**</bpt>ScaleWidth<ept id="p3">**</ept> <ph id="ph2">`ScoredProperty`</ph>.</source>
+          <target state="translated">- <bpt id="p1">**</bpt>MaxValue<ept id="p1">**</ept>のプロパティ、<ph id="ph1">`PageScalingScaleWidth`</ph>データ型の値を提供する、<bpt id="p2">**</bpt>カスタム<ept id="p2">**</ept>オプションの<bpt id="p3">**</bpt>ScaleWidth<ept id="p3">**</ept> <ph id="ph2">`ScoredProperty`</ph>です。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-   The <bpt id="p1">**</bpt>MaxValue<ept id="p1">**</ept> property of the <ph id="ph1">`PageScalingScaleHeight`</ph> datatype that provides the value of the <bpt id="p2">**</bpt>Custom<ept id="p2">**</ept> option’s <bpt id="p3">**</bpt>ScaleHeight<ept id="p3">**</ept> <ph id="ph2">`ScoredProperty`</ph>.</source>
+          <target state="translated">- <bpt id="p1">**</bpt>MaxValue<ept id="p1">**</ept>のプロパティ、<ph id="ph1">`PageScalingScaleHeight`</ph>データ型の値を提供する、<bpt id="p2">**</bpt>カスタム<ept id="p2">**</ept>オプションの<bpt id="p3">**</bpt>ScaleHeight<ept id="p3">**</ept> <ph id="ph2">`ScoredProperty`</ph>です。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-   The <bpt id="p1">**</bpt>MaxValue<ept id="p1">**</ept> property of the <ph id="ph1">`PageScalingScale`</ph> datatype that provides the value of the <bpt id="p2">**</bpt>CustomSquare<ept id="p2">**</ept> option’s <bpt id="p3">**</bpt>Scale<ept id="p3">**</ept> <ph id="ph2">`ScoredProperty`</ph>.</source>
+          <target state="translated">- <bpt id="p1">**</bpt>MaxValue<ept id="p1">**</ept>のプロパティ、<ph id="ph1">`PageScalingScale`</ph>データ型の値を提供する、 <bpt id="p2">**</bpt>CustomSquare<ept id="p2">**</ept>オプションの<bpt id="p3">**</bpt>スケール<ept id="p3">**</ept><ph id="ph2">`ScoredProperty`</ph>です。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Printing.PageScalingFactorRange"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with &lt;xref:System.Printing.PageScalingFactorRange.MaximumScale<bpt id="p2">*</bpt>&gt; and &lt;xref:System.Printing.PageScalingFactorRange.MinimumScale<ept id="p2">*</ept>&gt; properties holding &lt;xref:System.Int32&gt; values that represent percentages.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Printing.PageScalingFactorRange"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト&lt;&gt; <bpt id="p2">*</bpt>&gt; と&lt;&gt; <ept id="p2">*</ept>&gt; を保持するプロパティ&lt;xref:System.Int32&gt;パーセンテージを表す値&lt;/xref:System.Int32&gt;。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets a collection of integers, each identifying the number of pages that a user can choose to print on a single side of a sheet of paper.</source>
+          <target state="translated">各枚の用紙の片面に印刷する、ユーザーが選択できるページ数を示す整数のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Most printers support only a limited number of specific options, such as 1, 2, 4, 6, 9, and 16 pages per side.</source>
+          <target state="translated">ほとんどのプリンターでは、特定のオプションは、1、2、4、6、9、および 16 ページなどの限られた数のみをサポートします。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If the printer does not support multiple pages per sheet, the collection is empty.</source>
+          <target state="translated">プリンターが複数のページ&amp;1; 枚の用紙をサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <ph id="ph1">`PagesPerSheet ScoredProperty`</ph> of the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph2">`JobNUpAllDocumentsContiguously`</ph> keyword, not the <ph id="ph3">`DocumentNUp`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<ph id="ph1">`PagesPerSheet ScoredProperty`</ph>の<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph2">`JobNUpAllDocumentsContiguously`</ph>キーワード、されません、<ph id="ph3">`DocumentNUp`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of &lt;xref:System.Int32&gt; values representing the options that a printer supports for printing more than one page per side.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の&lt;xref:System.Int32&gt;側あたり&amp;1; つ以上のページを印刷するプリンターがサポートするオプションを表す値&lt;/xref:System.Int32&gt;。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that identify what patterns a printer supports for presenting multiple pages on a single side of a sheet of paper.</source>
+          <target state="translated">枚の用紙の片面に複数のページを表示するため、プリンターがサポートされているパターンを識別する値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>For example, some printers can present pages in left-to-right rows with the rows stacked top-to-bottom.</source>
+          <target state="translated">たとえば、一部のプリンターがありますページ左から右への行、行積み上げ上部から下へとします。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Another pattern, which some printers support, is right-to-left rows with the rows stacked bottom-to-top.</source>
+          <target state="translated">一部のプリンターをサポートして、もう&amp;1; つのパターンは、行積み上げ下から上で右から左へ行です。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If the printer does not support multiple pages per sheet, the collection is empty.</source>
+          <target state="translated">プリンターが複数のページ&amp;1; 枚の用紙をサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <ph id="ph1">`PresentationDirection`</ph> subfeature of the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph2">`JobNUpAllDocumentsContiguously`</ph> keyword, not the <ph id="ph3">`DocumentNUp`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<ph id="ph1">`PresentationDirection`</ph>の subfeature、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph2">`JobNUpAllDocumentsContiguously`</ph>キーワード、されません、<ph id="ph3">`DocumentNUp`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.PagesPerSheetDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.PagesPerSheetDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that identify the quality options the printer supports for printing photographs.</source>
+          <target state="translated">写真を印刷、プリンターがサポートされている品質のオプションを識別する値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>If the printer does not support options for photographic quality, the collection is empty.</source>
+          <target state="translated">プリンターが写真品質のオプションをサポートしない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PagePhotoPrintingIntent`</ph>.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PagePhotoPrintingIntent`</ph>します。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.PhotoPrintingIntent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.PhotoPrintingIntent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that identify the types of automatic stapling that a printer supports.</source>
+          <target state="translated">プリンターがサポートする自動ホチキス止めの種類を識別する値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>If the printer does not support stapling, the collection is empty.</source>
+          <target state="translated">プリンターがホチキス止めをサポートしていない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`JobStapleAllDocuments`</ph> keyword, not the <ph id="ph2">`DocumentStaple`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`JobStapleAllDocuments`</ph>キーワード、されません、<ph id="ph2">`DocumentStaple`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.Stapling"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.Stapling"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Gets a collection of values that identify the methods that a printer supports for handling TrueType fonts.</source>
+          <target state="translated">TrueType フォントを処理するため、プリンターをサポートするメソッドを識別する値のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>If the printer does not support any method of special handling for TrueType fonts, the collection is empty.</source>
+          <target state="translated">プリンターが TrueType フォントの特別な処理のすべてのメソッドをサポートしない場合、コレクションが空です。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>This property corresponds to the <bpt id="p1">[</bpt>Print Schema<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>'s <ph id="ph1">`PageTrueTypeFontMode`</ph> keyword.</source>
+          <target state="translated">このプロパティに対応、<bpt id="p1">[</bpt>印刷スキーマ<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=186397)</ept>の<ph id="ph1">`PageTrueTypeFontMode`</ph>キーワード。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Printing.TrueTypeFontMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph>の<bpt id="p1">&lt;xref href="System.Printing.TrueTypeFontMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

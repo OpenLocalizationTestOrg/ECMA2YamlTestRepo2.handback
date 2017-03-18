@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">edbc819852a42e86317105bd6b7f0045ad221773</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.SymmetricAlgorithm.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d67ec73ed477515309f66fe085864996497d9589</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">886cf58a7dae08b56bb78e52d0f15560b061cad7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the abstract base class from which all implementations of symmetric algorithms must inherit.</source>
+          <target state="translated">Representa a classe base abstrata da qual todas as implementações de algoritmos simétricos devem ser herdadas.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The classes that derive from the SymmetricAlgorithm class use a chaining mode called cipher block chaining (CBC), which requires a key (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;) and an initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;) to perform cryptographic transformations on data.</source>
+          <target state="translated">As classes que derivam da classe SymmetricAlgorithm usam um modo encadeamento de chamada de blocos de codificação CBC (encadeamento), que requer uma chave (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;) e um vetor de inicialização (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;) para executar transformações de criptografia nos dados.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt; &lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To decrypt data that was encrypted using one of the SymmetricAlgorithm classes, you must set the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt; property and the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt; property to the same values that were used for encryption.</source>
+          <target state="translated">Para descriptografar dados criptografados usando uma das classes SymmetricAlgorithm, você deve definir o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;propriedade e o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;propriedade com os mesmos valores que foram usados para criptografia.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt; &lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a symmetric algorithm to be useful, the secret key must be known only to the sender and the receiver.</source>
+          <target state="translated">Para um algoritmo simétrico ser útil, a chave secreta deve ser conhecida apenas para o remetente e o receptor.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.RijndaelManaged&gt;, &lt;xref:System.Security.Cryptography.DESCryptoServiceProvider&gt;, &lt;xref:System.Security.Cryptography.RC2CryptoServiceProvider&gt;, and &lt;xref:System.Security.Cryptography.TripleDESCryptoServiceProvider&gt; are implementations of symmetric algorithms.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.RijndaelManaged&gt;, &lt;xref:System.Security.Cryptography.DESCryptoServiceProvider&gt;, &lt;xref:System.Security.Cryptography.RC2CryptoServiceProvider&gt;, e &lt;xref:System.Security.Cryptography.TripleDESCryptoServiceProvider&gt;são implementações de algoritmos simétricos.&lt;/xref:System.Security.Cryptography.TripleDESCryptoServiceProvider&gt; &lt;/xref:System.Security.Cryptography.RC2CryptoServiceProvider&gt; &lt;/xref:System.Security.Cryptography.DESCryptoServiceProvider&gt;&lt;/xref:System.Security.Cryptography.RijndaelManaged&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that when using derived classes, it is not enough, from a security perspective, to simply force a garbage collection after you have finished using the object.</source>
+          <target state="translated">Observe que quando usando classes derivadas, ele não for suficiente, de uma perspectiva de segurança, simplesmente forçar uma coleta de lixo depois de terminar de usar o objeto.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly call the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Clear%2A&gt; method on the object to zero out any sensitive data within the object before it is released.</source>
+          <target state="translated">Você deve chamar explicitamente o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Clear%2A&gt;método no objeto para zerar quaisquer dados confidenciais dentro do objeto antes que ele seja liberado.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.Clear%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that garbage collection does not zero out the contents of collected objects but simply marks the memory as available for reallocation.</source>
+          <target state="translated">Observe que a coleta de lixo não zero o conteúdo de objetos coletados, mas simplesmente marca a memória como disponível para redistribuição.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus the data contained within a garbage collected object may still be present in the memory heap in unallocated memory.</source>
+          <target state="translated">Assim, os dados contidos em um objeto de lixo coletado podem ainda estar presentes no heap de memória na memória não alocada.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of cryptographic objects, this data could contain sensitive information such as key data or a block of plain text.</source>
+          <target state="translated">No caso de objetos de criptografia, esses dados podem conter informações confidenciais, como dados de chave ou um bloco de texto sem formatação.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All cryptographic classes in the .NET Framework that hold sensitive data implement a <ph id="ph1">`Clear`</ph> method.</source>
+          <target state="translated">Criptografia de todas as classes do .NET Framework que contêm dados confidenciais implementar um <ph id="ph1">`Clear`</ph> método.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When called, the <ph id="ph1">`Clear`</ph> method overwrites all sensitive data within the object with zeros and then releases the object so that it can be safely garbage collected.</source>
+          <target state="translated">Quando chamado, o <ph id="ph1">`Clear`</ph> método substitui todos os dados confidenciais dentro do objeto com zeros e, em seguida, libera o objeto para que ele pode ser ignorado com segurança coletado como lixo.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the object has been zeroed and released, you should then call the <ph id="ph1">`Dispose`</ph> method with the <ph id="ph2">`disposing`</ph> parameter set to <ph id="ph3">`True`</ph> to dispose of all managed and unmanaged resources associated with the object.</source>
+          <target state="translated">Quando o objeto foi zerado e foi lançado, em seguida, você deve chamar o <ph id="ph1">`Dispose`</ph> método com o <ph id="ph2">`disposing`</ph> parâmetro definido como <ph id="ph3">`True`</ph> para descartar todos os recursos gerenciados em associados ao objeto.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot create an instance of an abstract class.</source>
+          <target state="translated">Não é possível criar uma instância de uma classe abstrata.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Application code creates a new instance of a derived class.</source>
+          <target state="translated">Código do aplicativo cria uma nova instância de uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The implementation of the class derived from the symmetric algorithm is not valid.</source>
+          <target state="translated">A implementação da classe derivada do algoritmo simétrico não é válida.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets or sets the block size, in bits, of the cryptographic operation.</source>
+          <target state="translated">Obtém ou define o tamanho do bloco, em bits, a operação de criptografia.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The block size is the basic unit of data that can be encrypted or decrypted in one operation.</source>
+          <target state="translated">O tamanho do bloco é a unidade básica de dados que podem ser criptografados ou descriptografados em uma única operação.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Messages longer than the block size are handled as successive blocks; messages shorter than the block size must be padded with extra bits to reach the size of a block.</source>
+          <target state="translated">Maiores que o tamanho do bloco de mensagens são tratadas como blocos sucessivos; menores que o tamanho do bloco de mensagens devem ser preenchidas com bits extras para alcançar o tamanho de um bloco.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Valid block sizes are determined by the symmetric algorithm used.</source>
+          <target state="translated">Tamanhos de bloco válido são determinados pelo algoritmo simétrico usado.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The block size, in bits.</source>
+          <target state="translated">O tamanho do bloco, em bits.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The block size is invalid.</source>
+          <target state="translated">O tamanho do bloco é inválido.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Represents the block size, in bits, of the cryptographic operation.</source>
+          <target state="translated">Representa o tamanho do bloco, em bits, a operação de criptografia.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The block size is the basic unit of data that can be encrypted or decrypted in one operation.</source>
+          <target state="translated">O tamanho do bloco é a unidade básica de dados que podem ser criptografados ou descriptografados em uma única operação.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Messages longer than the block size are handled as successive blocks; messages shorter than the block size must be padded with extra bits to reach the size of a block.</source>
+          <target state="translated">Maiores que o tamanho do bloco de mensagens são tratadas como blocos sucessivos; menores que o tamanho do bloco de mensagens devem ser preenchidas com bits extras para alcançar o tamanho de um bloco.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Valid block sizes are determined by the symmetric algorithm used.</source>
+          <target state="translated">Tamanhos de bloco válido são determinados pelo algoritmo simétrico usado.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field is accessed through the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.BlockSize%2A&gt; property.</source>
+          <target state="translated">Este campo é acessado por meio de &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.BlockSize%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.BlockSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Libera todos os recursos usados pelo <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that when using derived classes, it is not enough, from a security perspective, to simply force a garbage collection after you have finished using the object.</source>
+          <target state="translated">Observe que quando usando classes derivadas, ele não for suficiente, de uma perspectiva de segurança, simplesmente forçar uma coleta de lixo depois de terminar de usar o objeto.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly call the Clear method on the object to zero out any sensitive data within the object before it is released.</source>
+          <target state="translated">Você deve chamar explicitamente o método Clear no objeto para zerar quaisquer dados confidenciais dentro do objeto antes que ele seja liberado.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that garbage collection does not zero out the contents of collected objects but simply marks the memory as available for reallocation.</source>
+          <target state="translated">Observe que a coleta de lixo não zero o conteúdo de objetos coletados, mas simplesmente marca a memória como disponível para redistribuição.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus the data contained within a garbage collected object may still be present in the memory heap in unallocated memory.</source>
+          <target state="translated">Assim, os dados contidos em um objeto de lixo coletado podem ainda estar presentes no heap de memória na memória não alocada.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of cryptographic objects, this data could contain sensitive information such as key data or a block of plain text.</source>
+          <target state="translated">No caso de objetos de criptografia, esses dados podem conter informações confidenciais, como dados de chave ou um bloco de texto sem formatação.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All cryptographic classes in the .NET Framework that hold sensitive data implement a <ph id="ph1">`Clear`</ph> method.</source>
+          <target state="translated">Criptografia de todas as classes do .NET Framework que contêm dados confidenciais implementar um <ph id="ph1">`Clear`</ph> método.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When called, the <ph id="ph1">`Clear`</ph> method overwrites all sensitive data within the object with zeros and then releases the object so that it can be safely garbage collected.</source>
+          <target state="translated">Quando chamado, o <ph id="ph1">`Clear`</ph> método substitui todos os dados confidenciais dentro do objeto com zeros e, em seguida, libera o objeto para que ele pode ser ignorado com segurança coletado como lixo.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the object has been zeroed and released, you should then call the <ph id="ph1">`Dispose`</ph> method with the <ph id="ph2">`disposing`</ph> parameter set to <ph id="ph3">`True`</ph> to dispose of all managed and unmanaged resources associated with the object.</source>
+          <target state="translated">Quando o objeto foi zerado e foi lançado, em seguida, você deve chamar o <ph id="ph1">`Dispose`</ph> método com o <ph id="ph2">`disposing`</ph> parâmetro definido como <ph id="ph3">`True`</ph> para descartar todos os recursos gerenciados em associados ao objeto.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Creates a default cryptographic object used to perform the symmetric algorithm.</source>
+          <target state="translated">Cria um objeto de criptografia padrão usado para executar o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A default cryptographic object used to perform the symmetric algorithm.</source>
+          <target state="translated">Um objeto criptográfico do padrão usado para executar o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Creates the specified cryptographic object used to perform the symmetric algorithm.</source>
+          <target state="translated">Cria o objeto especificado de criptografia usado para executar o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The name of the specific implementation of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class to use.</source>
+          <target state="translated">O nome da implementação específica de <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe a ser usada.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A cryptographic object used to perform the symmetric algorithm.</source>
+          <target state="translated">Um objeto de criptografia usado para executar o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates a symmetric decryptor object with the current &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key<bpt id="p1">*</bpt>&gt; property and initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV<ept id="p1">*</ept>&gt;).</source>
+          <target state="translated">Cria um objeto descriptografador simétrica com atual &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; vetor de inicialização e de propriedade (&lt;&gt;<ept id="p1">*</ept>&gt;).</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method decrypts an encrypted message created using the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor%2A&gt; overload with the same signature.</source>
+          <target state="translated">Esse método descriptografa uma mensagem criptografada criada usando o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor%2A&gt;sobrecarga com a mesma assinatura.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A symmetric decryptor object.</source>
+          <target state="translated">Um objeto descriptografador simétrica.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, creates a symmetric decryptor object with the specified &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key<bpt id="p1">*</bpt>&gt; property and initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV<ept id="p1">*</ept>&gt;).</source>
+          <target state="translated">Quando substituído em uma classe derivada, cria um objeto de descriptografador simétrica com especificado &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; vetor de inicialização e de propriedade (&lt;&gt;<ept id="p1">*</ept>&gt;).</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method decrypts an encrypted message created using the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor%2A&gt; overload with the same parameters.</source>
+          <target state="translated">Esse método descriptografa uma mensagem criptografada criada usando o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor%2A&gt;sobrecarga com os mesmos parâmetros.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The secret key to use for the symmetric algorithm.</source>
+          <target state="translated">A chave secreta para usar para o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The initialization vector to use for the symmetric algorithm.</source>
+          <target state="translated">O vetor de inicialização a ser usado para o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A symmetric decryptor object.</source>
+          <target state="translated">Um objeto descriptografador simétrica.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Creates a symmetric encryptor object with the current &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key<bpt id="p1">*</bpt>&gt; property and initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV<ept id="p1">*</ept>&gt;).</source>
+          <target state="translated">Cria um objeto Criptografador simétrica com atual &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; vetor de inicialização e de propriedade (&lt;&gt;<ept id="p1">*</ept>&gt;).</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the current &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt; property is <ph id="ph1">`null`</ph>, the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateKey%2A&gt; method is called to create a new random &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;.</source>
+          <target state="translated">Se o atual &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;é de propriedade <ph id="ph1">`null`</ph>, o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateKey%2A&gt;método é chamado para criar um novo aleatório &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt; &lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateKey%2A&gt; &lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the current &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt; property is <ph id="ph1">`null`</ph>, the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateIV%2A&gt; method is called to create a new random &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;.</source>
+          <target state="translated">Se o atual &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;é de propriedade <ph id="ph1">`null`</ph>, o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateIV%2A&gt;método é chamado para criar um novo aleatório &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt; &lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateIV%2A&gt; &lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor%2A&gt; overload with the same signature to decrypt the result of this method.</source>
+          <target state="translated">Use o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor%2A&gt;sobrecarga com a mesma assinatura para descriptografar o resultado deste método.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A symmetric encryptor object.</source>
+          <target state="translated">Um objeto simétrica Criptografador.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, creates a symmetric encryptor object with the specified &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key<bpt id="p1">*</bpt>&gt; property and initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV<ept id="p1">*</ept>&gt;).</source>
+          <target state="translated">Quando substituído em uma classe derivada, cria um objeto de Criptografador simétrica com especificado &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; vetor de inicialização e de propriedade (&lt;&gt;<ept id="p1">*</ept>&gt;).</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor%2A&gt; overload with the same parameters to decrypt the result of this method.</source>
+          <target state="translated">Use o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor%2A&gt;sobrecarga com os mesmos parâmetros para descriptografar o resultado deste método.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The secret key to use for the symmetric algorithm.</source>
+          <target state="translated">A chave secreta para usar para o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The initialization vector to use for the symmetric algorithm.</source>
+          <target state="translated">O vetor de inicialização a ser usado para o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A symmetric encryptor object.</source>
+          <target state="translated">Um objeto simétrica Criptografador.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the current instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Libera todos os recursos usados pela instância atual do <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call <ph id="ph1">`Dispose`</ph> when you are finished using the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;.</source>
+          <target state="translated">Chamar <ph id="ph1">`Dispose`</ph> quando terminar de usar o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Dispose`</ph> method leaves the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt; in an unusable state.</source>
+          <target state="translated">O <ph id="ph1">`Dispose`</ph> método deixa o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;em um estado inutilizável.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling <ph id="ph1">`Dispose`</ph>, you must release all references to the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt; was occupying.</source>
+          <target state="translated">Depois de chamar <ph id="ph1">`Dispose`</ph>, você deve liberar todas as referências para o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;para o coletor de lixo possa recuperar a memória que o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;estava ocupando.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm&gt; &lt;/xref:System.Security.Cryptography.SymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>limpeza de recursos não gerenciados<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> e <bpt id="p2">[</bpt>implementar um método Dispose<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call <ph id="ph2">`Dispose`</ph> before you release your last reference to the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Sempre chamada <ph id="ph2">`Dispose`</ph> antes de liberar sua última referência a &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">Caso contrário, os recursos que está usando não serão liberados até que o coletor de lixo chame o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;do objeto <ph id="ph1">`Finalize`</ph> método.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Libera os recursos não gerenciados usados pelo <bpt id="p1">&lt;xref href="System.Security.Cryptography.SymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> e, opcionalmente, libera os recursos gerenciados.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the <ph id="ph2">`Finalize`</ph> method.</source>
+          <target state="translated">Este método é chamado pelo público <ph id="ph1">`Dispose()`</ph> método e o <ph id="ph2">`Finalize`</ph> método.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>invoca o protegido <ph id="ph2">`Dispose(Boolean)`</ph> método com o <ph id="ph3">`disposing`</ph> parâmetro definido como <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Finalize`</ph> invokes <ph id="ph2">`Dispose`</ph> with <ph id="ph3">`disposing`</ph> set to <ph id="ph4">`false`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Finalize`</ph>invoca <ph id="ph2">`Dispose`</ph> com <ph id="ph3">`disposing`</ph> definido como <ph id="ph4">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt; references.</source>
+          <target state="translated">Quando o <ph id="ph1">`disposing`</ph> parâmetro é <ph id="ph2">`true`</ph>, esse método libera todos os recursos mantidos por qualquer objeto gerenciado que este &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;referências.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Este método chama o <ph id="ph1">`Dispose()`</ph> método de cada objeto referenciado.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para liberar recursos gerenciados e não gerenciados; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para liberar apenas recursos não gerenciados.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets or sets the feedback size, in bits, of the cryptographic operation.</source>
+          <target state="translated">Obtém ou define o tamanho do comentário, em bits, a operação de criptografia.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The feedback size determines the amount of data that is fed back to successive encryption or decryption operations.</source>
+          <target state="translated">O tamanho do comentário determina a quantidade de dados que são alimentados para operações de descriptografia ou criptografia sucessiva.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The feedback size cannot be greater than the block size.</source>
+          <target state="translated">O tamanho do comentário não pode ser maior que o tamanho do bloco.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The feedback size in bits.</source>
+          <target state="translated">O tamanho de comentários em bits.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The feedback size is larger than the block size.</source>
+          <target state="translated">O tamanho do comentário é maior que o tamanho do bloco.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Represents the feedback size, in bits, of the cryptographic operation.</source>
+          <target state="translated">Representa o tamanho do comentário, em bits, a operação de criptografia.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The feedback size determines the amount of data that is fed back to successive encryption or decryption operations.</source>
+          <target state="translated">O tamanho do comentário determina a quantidade de dados que são alimentados para operações de descriptografia ou criptografia sucessiva.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The feedback size cannot be greater than the block size.</source>
+          <target state="translated">O tamanho do comentário não pode ser maior que o tamanho do bloco.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field is accessed through the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize%2A&gt; property.</source>
+          <target state="translated">Este campo é acessado por meio de &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, generates a random initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV*&gt;) to use for the algorithm.</source>
+          <target state="translated">Quando substituído em uma classe derivada, gera um vetor de inicialização aleatória (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV*&gt;) a ser usado para o algoritmo.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.IV*&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, there is no reason to use this method, because <ph id="ph1">`CreateEncryptor()`</ph> or <ph id="ph2">`CreateEncryptor(null, null)`</ph> automatically generates both an initialization vector and a key.</source>
+          <target state="translated">Em geral, não há nenhum motivo para usar esse método, porque <ph id="ph1">`CreateEncryptor()`</ph> ou <ph id="ph2">`CreateEncryptor(null, null)`</ph> gera automaticamente um vetor de inicialização e uma chave.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you may want to use the GenerateIV method to reuse a symmetric algorithm instance with a different initialization vector.</source>
+          <target state="translated">No entanto, você talvez queira usar o método GenerateIV para reutilizar uma instância de algoritmo simétrico com um vetor de inicialização diferente.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, generates a random key (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key*&gt;) to use for the algorithm.</source>
+          <target state="translated">Quando substituído em uma classe derivada, gera uma chave aleatória (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key*&gt;) a ser usado para o algoritmo.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.Key*&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, there is no reason to use this method, because <ph id="ph1">`CreateEncryptor()`</ph> or <ph id="ph2">`CreateEncryptor(null, null)`</ph> automatically generates both an initialization vector and a key.</source>
+          <target state="translated">Em geral, não há nenhum motivo para usar esse método, porque <ph id="ph1">`CreateEncryptor()`</ph> ou <ph id="ph2">`CreateEncryptor(null, null)`</ph> gera automaticamente um vetor de inicialização e uma chave.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you may want to use the GenerateKey method to reuse a symmetric algorithm instance with a different key.</source>
+          <target state="translated">No entanto, você talvez queira usar o método GenerateKey para reutilizar uma instância de algoritmo simétrico com uma chave diferente.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets or sets the initialization vector (IV) for the symmetric algorithm.</source>
+          <target state="translated">Obtém ou define o vetor de inicialização (IV) para o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IV property is automatically set to a new random value whenever you create a new instance of one of the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt; classes or when you manually call the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateIV%2A&gt; method.</source>
+          <target state="translated">A propriedade de IV é automaticamente definida como um novo valor aleatório sempre que você cria uma nova instância de uma da &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;classes ou quando você chama manualmente o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateIV%2A&gt;método.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateIV%2A&gt; &lt;/xref:System.Security.Cryptography.SymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The size of the IV property must be the same as the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.BlockSize%2A&gt; property divided by 8.</source>
+          <target state="translated">O tamanho da propriedade IV deve ser o mesmo que o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.BlockSize%2A&gt;propriedade dividido por 8.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.BlockSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The classes that derive from the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt; class use a chaining mode called cipher block chaining (CBC), which requires a key and an initialization vector to perform cryptographic transformations on data.</source>
+          <target state="translated">As classes que derivam de &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;classe usar um modo encadeamento de chamada de blocos de codificação CBC (encadeamento), que requer uma chave e um vetor de inicialização para executar transformações de criptografia nos dados.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To decrypt data that was encrypted using one of the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt; classes, you must set the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt; property and IV property to the same values that were used for encryption.</source>
+          <target state="translated">Para descriptografar dados criptografados usando uma da &lt;xref:System.Security.Cryptography.SymmetricAlgorithm&gt;classes, você deve definir o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;IV propriedades e com os mesmos valores que foram usados para criptografia.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt; &lt;/xref:System.Security.Cryptography.SymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a given secret key <bpt id="p1">*</bpt>k<ept id="p1">*</ept>, a simple block cipher that does not use an initialization vector will encrypt the same input block of plain text into the same output block of cipher text.</source>
+          <target state="translated">Para uma determinada chave secreta <bpt id="p1">*</bpt>k<ept id="p1">*</ept>, uma codificação de bloco simples que não usa um vetor de inicialização criptografará o mesmo bloco de entrada de texto sem formatação no mesmo bloco de saída de texto cifrado.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you have duplicate blocks within your plain text stream, you will have duplicate blocks within your cipher text stream.</source>
+          <target state="translated">Se você tiver blocos dentro de seu fluxo de texto sem formatação, você terá de blocos dentro de seu fluxo de texto cifrado.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If unauthorized users know anything about the structure of a block of your plain text, they can use that information to decipher the known cipher text block and possibly recover your key.</source>
+          <target state="translated">Se usuários não autorizados sabe nada sobre a estrutura de um bloco do texto sem formatação, eles podem usar essas informações decifrar o bloco de texto de codificação conhecidos e possivelmente recuperar sua chave.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To combat this problem, information from the previous block is mixed into the process of encrypting the next block.</source>
+          <target state="translated">Para combater esse problema, as informações do bloco anterior é misturadas no processo de criptografar o próximo bloco.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, the output of two identical plain text blocks is different.</source>
+          <target state="translated">Portanto, a saída de dois blocos de texto sem formatação idênticas é diferente.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because this technique uses the previous block to encrypt the next block, an initialization vector is needed to encrypt the first block of data.</source>
+          <target state="translated">Como essa técnica usa o bloco anterior para criptografar o próximo bloco, um vetor de inicialização é necessária para criptografar o primeiro bloco de dados.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The initialization vector.</source>
+          <target state="translated">O vetor de inicialização.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the initialization vector to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Foi feita uma tentativa para definir o vetor de inicialização para <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the initialization vector to an invalid size.</source>
+          <target state="translated">Foi feita uma tentativa para definir o vetor de inicialização para um tamanho inválido.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Represents the initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV*&gt;) for the symmetric algorithm.</source>
+          <target state="translated">Representa o vetor de inicialização (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV*&gt;) para o algoritmo simétrico.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.IV*&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field is accessed through the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt; property.</source>
+          <target state="translated">Este campo é acessado por meio de &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Gets or sets the secret key for the symmetric algorithm.</source>
+          <target state="translated">Obtém ou define a chave secreta para o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The secret key is used both for encryption and for decryption.</source>
+          <target state="translated">A chave secreta é usada para criptografia e descriptografia.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a symmetric algorithm to be successful, the secret key must be known only to the sender and the receiver.</source>
+          <target state="translated">Para um algoritmo simétrico seja bem-sucedida, a chave secreta deve ser conhecida apenas para o remetente e o receptor.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The valid key sizes are specified by the particular symmetric algorithm implementation and are listed in the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt; property.</source>
+          <target state="translated">Os tamanhos de chave válidos são especificados pela implementação do algoritmo simétrico específico e são listados no &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is <ph id="ph1">`null`</ph> when it is used, the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateKey%2A&gt; method is called to create a new random value.</source>
+          <target state="translated">Se essa propriedade for <ph id="ph1">`null`</ph> quando ele é usado, o &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateKey%2A&gt;método é chamado para criar um novo valor aleatório.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.GenerateKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The secret key to use for the symmetric algorithm.</source>
+          <target state="translated">A chave secreta para usar para o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the key to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Foi feita uma tentativa para definir a chave <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The key size is invalid.</source>
+          <target state="translated">O tamanho da chave é inválido.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets or sets the size, in bits, of the secret key used by the symmetric algorithm.</source>
+          <target state="translated">Obtém ou define o tamanho, em bits, a chave secreta usado pelo algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The valid key sizes are specified by the particular symmetric algorithm implementation and are listed in the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt; property.</source>
+          <target state="translated">Os tamanhos de chave válidos são especificados pela implementação do algoritmo simétrico específico e são listados no &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The size, in bits, of the secret key used by the symmetric algorithm.</source>
+          <target state="translated">O tamanho, em bits, a chave secreta usado pelo algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The key size is not valid.</source>
+          <target state="translated">O tamanho da chave não é válido.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Represents the size, in bits, of the secret key used by the symmetric algorithm.</source>
+          <target state="translated">Representa o tamanho, em bits, a chave secreta usado pelo algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The valid key sizes are specified by the particular symmetric algorithm implementation and are listed in the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt; property.</source>
+          <target state="translated">Os tamanhos de chave válidos são especificados pela implementação do algoritmo simétrico específico e são listados no &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field is accessed through the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.KeySize%2A&gt; property.</source>
+          <target state="translated">Este campo é acessado por meio de &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.KeySize%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.KeySize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Represents the secret key for the symmetric algorithm.</source>
+          <target state="translated">Representa a chave secreta para o algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The secret key is used both for encryption and for decryption.</source>
+          <target state="translated">A chave secreta é usada para criptografia e descriptografia.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a symmetric algorithm to be successful, the secret key must be known only to the sender and the receiver.</source>
+          <target state="translated">Para um algoritmo simétrico seja bem-sucedida, a chave secreta deve ser conhecida apenas para o remetente e o receptor.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The valid key sizes are specified by the particular symmetric algorithm implementation and are listed in the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt; property.</source>
+          <target state="translated">Os tamanhos de chave válidos são especificados pela implementação do algoritmo simétrico específico e são listados no &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field is accessed through the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt; property.</source>
+          <target state="translated">Este campo é acessado por meio de &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets the block sizes, in bits, that are supported by the symmetric algorithm.</source>
+          <target state="translated">Obtém os tamanhos de bloco, em bits, que são suportados pelo algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The symmetric algorithm supports only block sizes that match an entry in this array.</source>
+          <target state="translated">O algoritmo simétrico suporta apenas os tamanhos de bloco que correspondam a uma entrada nesta matriz.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>An array that contains the block sizes supported by the algorithm.</source>
+          <target state="translated">Uma matriz que contém os tamanhos de bloco com suporte pelo algoritmo.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Specifies the block sizes, in bits, that are supported by the symmetric algorithm.</source>
+          <target state="translated">Especifica os tamanhos de bloco, em bits, que são suportados pelo algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The symmetric algorithm supports only block sizes that match an entry in this array.</source>
+          <target state="translated">O algoritmo simétrico suporta apenas os tamanhos de bloco que correspondam a uma entrada nesta matriz.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field is accessed through the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes%2A&gt; property.</source>
+          <target state="translated">Este campo é acessado por meio de &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets the key sizes, in bits, that are supported by the symmetric algorithm.</source>
+          <target state="translated">Obtém os tamanhos de chave em bits, que são suportados pelo algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The symmetric algorithm supports only key sizes that match an entry in this array.</source>
+          <target state="translated">O algoritmo simétrico dá suporte a tamanhos de chave somente corresponderem a uma entrada nesta matriz.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>An array that contains the key sizes supported by the algorithm.</source>
+          <target state="translated">Uma matriz que contém os tamanhos de chave suportados pelo algoritmo.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Specifies the key sizes, in bits, that are supported by the symmetric algorithm.</source>
+          <target state="translated">Especifica os tamanhos de chave em bits, que são suportados pelo algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The symmetric algorithm supports only key sizes that match an entry in this array.</source>
+          <target state="translated">O algoritmo simétrico dá suporte a tamanhos de chave somente corresponderem a uma entrada nesta matriz.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field is accessed through the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt; property.</source>
+          <target state="translated">Este campo é acessado por meio de &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Gets or sets the mode for operation of the symmetric algorithm.</source>
+          <target state="translated">Obtém ou define o modo de operação do algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See &lt;xref:System.Security.Cryptography.CipherMode&gt; enumeration for a description of specific modes.</source>
+          <target state="translated">Consulte &lt;xref:System.Security.Cryptography.CipherMode&gt;enumeração para uma descrição dos modos específicos.&lt;/xref:System.Security.Cryptography.CipherMode&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The mode for operation of the symmetric algorithm.</source>
+          <target state="translated">O modo de operação do algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Security.Cryptography.CipherMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O padrão é <bpt id="p1">&lt;xref href="System.Security.Cryptography.CipherMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The cipher mode is not one of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CipherMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">O modo de codificação não é um do <bpt id="p1">&lt;xref href="System.Security.Cryptography.CipherMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Represents the cipher mode used in the symmetric algorithm.</source>
+          <target state="translated">Representa o modo de codificação usado no algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See &lt;xref:System.Security.Cryptography.CipherMode&gt; enumeration for a description of specific modes.</source>
+          <target state="translated">Consulte &lt;xref:System.Security.Cryptography.CipherMode&gt;enumeração para uma descrição dos modos específicos.&lt;/xref:System.Security.Cryptography.CipherMode&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field is accessed through the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Mode%2A&gt; property.</source>
+          <target state="translated">Este campo é acessado por meio de &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Mode%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.Mode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Gets or sets the padding mode used in the symmetric algorithm.</source>
+          <target state="translated">Obtém ou define o modo de preenchimento usado no algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most plain text messages do not consist of a number of bytes that completely fill blocks.</source>
+          <target state="translated">A maioria das mensagens de texto sem formatação não consistem em um número de bytes que preencher completamente blocos.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Often, there are not enough bytes to fill the last block.</source>
+          <target state="translated">Geralmente, não há bytes suficientes para preencher o último bloco.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this happens, a padding string is added to the text.</source>
+          <target state="translated">Quando isso acontece, uma cadeia de caracteres de preenchimento é adicionada ao texto.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the block length is 64 bits and the last block contains only 40 bits, 24 bits of padding are added.</source>
+          <target state="translated">Por exemplo, se o tamanho do bloco é de 64 bits e o último bloco contém apenas 40 bits, 24 bits de preenchimento serão adicionados.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Security.Cryptography.PaddingMode&gt; enumeration for a description of specific modes.</source>
+          <target state="translated">Consulte o &lt;xref:System.Security.Cryptography.PaddingMode&gt;enumeração para uma descrição dos modos específicos.&lt;/xref:System.Security.Cryptography.PaddingMode&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The padding mode used in the symmetric algorithm.</source>
+          <target state="translated">O modo de preenchimento usado no algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Security.Cryptography.PaddingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O padrão é <bpt id="p1">&lt;xref href="System.Security.Cryptography.PaddingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The padding mode is not one of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.PaddingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">O modo de preenchimento não é um do <bpt id="p1">&lt;xref href="System.Security.Cryptography.PaddingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Represents the padding mode used in the symmetric algorithm.</source>
+          <target state="translated">Representa o modo de preenchimento usado no algoritmo simétrico.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most plain text messages do not consist of a number of bytes that completely fill blocks.</source>
+          <target state="translated">A maioria das mensagens de texto sem formatação não consistem em um número de bytes que preencher completamente blocos.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Often, there are not enough bytes to fill the last block.</source>
+          <target state="translated">Geralmente, não há bytes suficientes para preencher o último bloco.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this happens, a padding string is added to the text.</source>
+          <target state="translated">Quando isso acontece, uma cadeia de caracteres de preenchimento é adicionada ao texto.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the block length is 64 bits and the last block contains only 40 bits, 24 bits of padding are added.</source>
+          <target state="translated">Por exemplo, se o tamanho do bloco é de 64 bits e o último bloco contém apenas 40 bits, 24 bits de preenchimento serão adicionados.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Security.Cryptography.PaddingMode&gt; enumeration for a description of specific modes.</source>
+          <target state="translated">Consulte o &lt;xref:System.Security.Cryptography.PaddingMode&gt;enumeração para uma descrição dos modos específicos.&lt;/xref:System.Security.Cryptography.PaddingMode&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field is accessed through the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Padding%2A&gt; property.</source>
+          <target state="translated">Este campo é acessado por meio de &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Padding%2A&gt;propriedade.&lt;/xref:System.Security.Cryptography.SymmetricAlgorithm.Padding%2A&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified key size is valid for the current algorithm.</source>
+          <target state="translated">Determina se o tamanho da chave especificado é válido para o algoritmo atual.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The length, in bits, to check for a valid key size.</source>
+          <target state="translated">O comprimento, em bits, para verificar se há um tamanho de chave válido.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified key size is valid for the current algorithm; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o tamanho da chave especificado é válido para o algoritmo atual; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

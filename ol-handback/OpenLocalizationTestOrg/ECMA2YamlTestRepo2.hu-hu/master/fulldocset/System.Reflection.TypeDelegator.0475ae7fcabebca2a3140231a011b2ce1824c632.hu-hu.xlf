@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7e30c7bffed07c13e208d6728f4d0aa024cc921</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Reflection.TypeDelegator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1a6b6cc84793aaa09a1ad0ffd974894bed1e5aed</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92f77c6300604b67af47b47e5fa168aa971028c4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Wraps a <ph id="ph1">&amp;lt;</ph>xref:System.Type?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object and delegates methods to that <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Fussa egy <ph id="ph1">&amp;lt;</ph>xref:System.Type?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> objektum és -delegáltaknak módszereket, amelyek <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derive from this type and override only those members you have to provide customization in, plus any members that are required by your program and not already implemented by TypeDelegator.</source>
+          <target state="translated">Ez a típus származik, és a felülíró csak az érintett tagok, meg kell adnia a testreszabás, valamint azokat a tagokat, a program szükséges és TypeDelegator még nincs megvalósítva.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TypeDelegator derives from &lt;xref:System.Type?displayProperty=fullName&gt; and implements most of the properties and methods of &lt;xref:System.Type&gt;.</source>
+          <target state="translated">A &lt;xref:System.Type?displayProperty=fullName&gt;legtöbb tulajdonságok és metódusok &lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt; , és&lt;/xref:System.Type?displayProperty=fullName&gt; származik TypeDelegator</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For each member it implements, TypeDelegator automatically delegates to the corresponding member of an internal &lt;xref:System.Type&gt; object, which is supplied as an argument to the constructor.</source>
+          <target state="translated">Végrehajtja az tagjaihoz tartozó TypeDelegator automatikusan delegálja a megfelelő tagjára belső &lt;xref:System.Type&gt;objektum, amely a konstruktor argumentumként van megadva.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This internal &lt;xref:System.Type&gt; object is exposed to deriving classes by the <ph id="ph1">`protected`</ph>&lt;xref:System.Reflection.TypeDelegator.typeImpl&gt; field.</source>
+          <target state="translated">A belső &lt;xref:System.Type&gt;objektum fel van fedve osztályok által célja, hogy a <ph id="ph1">`protected`</ph> &lt;xref:System.Reflection.TypeDelegator.typeImpl&gt;mező.&lt;/xref:System.Reflection.TypeDelegator.typeImpl&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Some members of TypeDelegator have implementations even though the members themselves are simply inherited from &lt;xref:System.Type&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Néhány TypeDelegator tagjai rendelkeznek a megvalósításokhoz, annak ellenére, hogy a tagok egyszerűen öröklődtek &lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In these cases, the implementation is provided by an overridden <ph id="ph1">`protected`</ph> method that has a name that ends in "Impl".</source>
+          <target state="translated">Ezekben az esetekben a megvalósítás biztosított által egy felülbírált <ph id="ph1">`protected`</ph> módszer, amelynek a neve, amely a "Impl" karakterlánccal végződik-e.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the implementation for all overloads of the &lt;xref:System.Reflection.TypeDelegator.GetMethod%2A&gt; method is supplied by the overridden &lt;xref:System.Reflection.TypeDelegator.GetMethodImpl%2A&gt; method.</source>
+          <target state="translated">Például az összes túlterhelések végrehajtására a &lt;xref:System.Reflection.TypeDelegator.GetMethod%2A&gt;megadott metódus által a felülbírált &lt;xref:System.Reflection.TypeDelegator.GetMethodImpl%2A&gt;metódus.&lt;/xref:System.Reflection.TypeDelegator.GetMethodImpl%2A&gt; &lt;/xref:System.Reflection.TypeDelegator.GetMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implementation for inherited properties such as &lt;xref:System.Type.IsPublic%2A&gt; and &lt;xref:System.Type.IsNestedAssembly%2A&gt; is provided by the overridden &lt;xref:System.Reflection.TypeDelegator.GetAttributeFlagsImpl%2A&gt; method.</source>
+          <target state="translated">Végrehajtására örökölt tulajdonságok például &lt;xref:System.Type.IsPublic%2A&gt;és &lt;xref:System.Type.IsNestedAssembly%2A&gt;biztosítja a felülbírált által &lt;xref:System.Reflection.TypeDelegator.GetAttributeFlagsImpl%2A&gt;metódus.&lt;/xref:System.Reflection.TypeDelegator.GetAttributeFlagsImpl%2A&gt; &lt;/xref:System.Type.IsNestedAssembly%2A&gt; &lt;/xref:System.Type.IsPublic%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Deriving classes can provide a public constructor that takes a &lt;xref:System.Type&gt; object as its parameter and simply passes that object to the &lt;xref:System.Reflection.TypeDelegator.%23ctor%28System.Type%29&gt; constructor, or can set the internal &lt;xref:System.Type&gt; object in some other way.</source>
+          <target state="translated">Osztályok való származtatás nyilvános konstruktort biztosít egy &lt;xref:System.Type&gt;a paraméter és egyszerűen a objektum fázisok objektum a &lt;xref:System.Reflection.TypeDelegator.%23ctor%28System.Type%29&gt;konstruktor, vagy beállíthatja, hogy a belső &lt;xref:System.Type&gt;más módon objektum.&lt;/xref:System.Type&gt; &lt;/xref:System.Reflection.TypeDelegator.%23ctor%28System.Type%29&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a deriving class uses a member that is not implemented by TypeDelegator, it must override that member and provide an implementation.</source>
+          <target state="translated">Ha deriving osztály, amely nem valósítja meg TypeDelegator tag használ, azt bírálja felül az adott tagot, és megvalósítást.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The simplest implementation is to call the corresponding member on the internal &lt;xref:System.Type&gt; object exposed by the &lt;xref:System.Reflection.TypeDelegator.typeImpl&gt; field, but you can provide any implementation your application requires.</source>
+          <target state="translated">A legegyszerűbb megvalósítás, hogy a megfelelő tag hívható meg a belső &lt;xref:System.Type&gt;objektum által elérhetővé tett a &lt;xref:System.Reflection.TypeDelegator.typeImpl&gt;mező, de biztosíthat az alkalmazás által igényelt megvalósítási.&lt;/xref:System.Reflection.TypeDelegator.typeImpl&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not necessary to override these members if they are not used by your application or by library functions your application calls (for example, by the &lt;xref:System.CodeDom.CodeTypeReference.%23ctor%28System.Type%29?displayProperty=fullName&gt; constructor).</source>
+          <target state="translated">Nincs szükség, ha az alkalmazás nem használja, vagy Library működik az alkalmazás hívások ezekről a tagokról felülbírálására (például úgy, hogy a &lt;xref:System.CodeDom.CodeTypeReference.%23ctor%28System.Type%29?displayProperty=fullName&gt;konstruktorban).&lt;/xref:System.CodeDom.CodeTypeReference.%23ctor%28System.Type%29?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following virtual methods (<ph id="ph1">`Overridable`</ph> methods in Visual Basic) of &lt;xref:System.Type&gt; are not implemented by TypeDelegator: &lt;xref:System.Type.MakeGenericType%2A&gt;, &lt;xref:System.Type.GetGenericTypeDefinition%2A&gt;, &lt;xref:System.Type.GetGenericArguments%2A&gt;, &lt;xref:System.Type.GetGenericParameterConstraints%2A&gt;, &lt;xref:System.Type.MakeArrayType%2A&gt;, &lt;xref:System.Type.MakeByRefType%2A&gt;, &lt;xref:System.Type.MakePointerType%2A&gt;, &lt;xref:System.Type.GetEnumNames%2A&gt;, &lt;xref:System.Type.GetEnumValues%2A&gt;, &lt;xref:System.Type.GetEnumUnderlyingType%2A&gt;, &lt;xref:System.Type.GetTypeCodeImpl%2A&gt;, &lt;xref:System.Type.IsEnumDefined%2A&gt;, &lt;xref:System.Type.IsEquivalentTo%2A&gt;.</source>
+          <target state="translated">A következő virtuális módszerek (<ph id="ph1">`Overridable`</ph> módszerek a Visual Basic nyelvben) a &lt;xref:System.Type&gt;vannak TypeDelegator nincs megvalósítva: &lt;xref:System.Type.MakeGenericType%2A&gt;, &lt;xref:System.Type.GetGenericTypeDefinition%2A&gt; &lt;xref:System.Type.GetGenericArguments%2A&gt;, &lt;xref:System.Type.GetGenericParameterConstraints%2A&gt; &lt;xref:System.Type.MakeArrayType%2A&gt;, &lt;xref:System.Type.MakeByRefType%2A&gt; &lt;xref:System.Type.MakePointerType%2A&gt;, &lt;xref:System.Type.GetEnumNames%2A&gt; &lt;xref:System.Type.GetEnumValues%2A&gt;, &lt;xref:System.Type.GetEnumUnderlyingType%2A&gt; &lt;xref:System.Type.GetTypeCodeImpl%2A&gt;, &lt;xref:System.Type.IsEnumDefined%2A&gt; &lt;xref:System.Type.IsEquivalentTo%2A&gt;.&lt;/xref:System.Type.IsEquivalentTo%2A&gt; &lt;/xref:System.Type.IsEnumDefined%2A&gt; &lt;/xref:System.Type.GetTypeCodeImpl%2A&gt; &lt;/xref:System.Type.GetEnumUnderlyingType%2A&gt; &lt;/xref:System.Type.GetEnumValues%2A&gt; &lt;/xref:System.Type.GetEnumNames%2A&gt; &lt;/xref:System.Type.MakePointerType%2A&gt; &lt;/xref:System.Type.MakeByRefType%2A&gt; &lt;/xref:System.Type.MakeArrayType%2A&gt; &lt;/xref:System.Type.GetGenericParameterConstraints%2A&gt; &lt;/xref:System.Type.GetGenericArguments%2A&gt; &lt;/xref:System.Type.GetGenericTypeDefinition%2A&gt; &lt;/xref:System.Type.MakeGenericType%2A&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following virtual properties (<ph id="ph1">`Overridable`</ph> properties in Visual Basic) of &lt;xref:System.Type&gt; are not implemented by TypeDelegator: &lt;xref:System.Type.IsGenericType%2A&gt;, &lt;xref:System.Type.IsGenericTypeDefinition%2A&gt;, &lt;xref:System.Type.IsGenericParameter%2A&gt;, &lt;xref:System.Type.ContainsGenericParameters%2A&gt;, &lt;xref:System.Type.DeclaringMethod%2A&gt;, &lt;xref:System.Type.GenericParameterAttributes%2A&gt;, &lt;xref:System.Type.GenericParameterPosition%2A&gt;, &lt;xref:System.Type.IsSecurityCritical%2A&gt;, &lt;xref:System.Type.IsSecuritySafeCritical%2A&gt;, &lt;xref:System.Type.IsSecurityTransparent%2A&gt;.</source>
+          <target state="translated">A következő virtuális tulajdonságai (<ph id="ph1">`Overridable`</ph> tulajdonságok a Visual Basic nyelvben) a &lt;xref:System.Type&gt;vannak TypeDelegator nincs megvalósítva: &lt;xref:System.Type.IsGenericType%2A&gt;, &lt;xref:System.Type.IsGenericTypeDefinition%2A&gt; &lt;xref:System.Type.IsGenericParameter%2A&gt;, &lt;xref:System.Type.ContainsGenericParameters%2A&gt; &lt;xref:System.Type.DeclaringMethod%2A&gt;, &lt;xref:System.Type.GenericParameterAttributes%2A&gt; &lt;xref:System.Type.GenericParameterPosition%2A&gt;, &lt;xref:System.Type.IsSecurityCritical%2A&gt; &lt;xref:System.Type.IsSecuritySafeCritical%2A&gt;, &lt;xref:System.Type.IsSecurityTransparent%2A&gt;.&lt;/xref:System.Type.IsSecurityTransparent%2A&gt; &lt;/xref:System.Type.IsSecuritySafeCritical%2A&gt; &lt;/xref:System.Type.IsSecurityCritical%2A&gt; &lt;/xref:System.Type.GenericParameterPosition%2A&gt; &lt;/xref:System.Type.GenericParameterAttributes%2A&gt; &lt;/xref:System.Type.DeclaringMethod%2A&gt; &lt;/xref:System.Type.ContainsGenericParameters%2A&gt; &lt;/xref:System.Type.IsGenericParameter%2A&gt; &lt;/xref:System.Type.IsGenericTypeDefinition%2A&gt; &lt;/xref:System.Type.IsGenericType%2A&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default properties.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály alapértelmezett tulajdonságokkal.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class specifying the encapsulating instance.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adja meg a beágyazott példány osztály.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is called from a class to generate a delegate based upon the <ph id="ph1">`Type`</ph> object for the class defining the method.</source>
+          <target state="translated">Ez a konstruktor neve alapján delegált létrehozásához osztályból a <ph id="ph1">`Type`</ph> meg az osztályt definiáló metódus objektum.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The instance of the class &lt;xref:System.Type&gt; that encapsulates the call to the method of an object.</source>
+          <target state="translated">Az osztály példánya &lt;xref:System.Type&gt;, amely magában foglalja az objektum metódus hívása.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;delegatingType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;delegatingType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the assembly of the implemented type.</source>
+          <target state="translated">A szerelvény a megvalósított típus beolvasása.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assemblies are the deployment units in the common language runtime.</source>
+          <target state="translated">Szerelvények a központi telepítési egység a közös nyelvi futtatókörnyezet.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assemblies establish the namespace for resolving requests and determine which resources are exposed externally and which are accessible from within the assembly.</source>
+          <target state="translated">Szerelvények kérések megoldásához névtér létrehozásához, és határozza meg, mely erőforrásokat külsőleg ki vannak téve, és amelyeket a szerelvény belülről érhetők el.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The common language runtime can determine and locate the assembly for any running object.</source>
+          <target state="translated">A közös nyelvi futtatókörnyezet határozza meg, és keresse meg az összes futó objektum szerelvény.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.Reflection.Assembly?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object representing the assembly of the implemented type.</source>
+          <target state="translated">Egy <ph id="ph1">&amp;lt;</ph>xref:System.Reflection.Assembly?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> megvalósított típus a szerelvény képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the assembly's fully qualified name.</source>
+          <target state="translated">Lekérdezi a szerelvény teljesen minősített neve.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the assembly's fully qualified name.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó teljesen minősített szerelvénynév.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the base type for the current type.</source>
+          <target state="translated">Az alaptípus tartalomtípusa lekérdezi az aktuális típus.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base type is the type from which this type directly inherits.</source>
+          <target state="translated">Az alaptípus tartalomtípusa nem, amelyből közvetlenül örökli az ilyen típusú.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Since the &lt;xref:System.Object&gt; class type is the ultimate base class of all the other types, it is the only type that does not have a base type.</source>
+          <target state="translated">Mivel a &lt;xref:System.Object&gt;osztálytípus, az ultimate alaposztály minden más típusú, de az egyetlen típus, amely nem lehet alaptípusa.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, <ph id="ph1">`null`</ph> is returned as the base type of the <ph id="ph2">`Object`</ph> type.</source>
+          <target state="translated">Ebben az esetben <ph id="ph1">`null`</ph> adja vissza a rendszer a alaptípusa a <ph id="ph2">`Object`</ph> típusa.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The base type for a type.</source>
+          <target state="translated">Az alaptípus típusok esetében.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the fully qualified name of the implemented type.</source>
+          <target state="translated">Lekérdezi a megvalósított típus teljesen minősített neve.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A string containing the fully qualified name of the current <ph id="ph1">`TypeDelegator`</ph>.</source>
+          <target state="translated">Az aktuális teljesen minősített nevét tartalmazó karakterlánc <ph id="ph1">`TypeDelegator`</ph>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the type's fully qualified name.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó teljesen minősített típusnév.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the attributes assigned to the <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az attribútumok rendelt lekérdezi a <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to determine if the <ph id="ph1">`TypeDelegator`</ph> is abstract, public, and so on.</source>
+          <target state="translated">Ez a módszer segítségével határozza meg, hogy a <ph id="ph1">`TypeDelegator`</ph> absztrakt, nyilvános, és így tovább.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_TypeAttributes" name="TypeAttributes" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the implementation attribute flags.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_TypeAttributes" name="TypeAttributes" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a attribútum jelzők képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the constructor that implemented the <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A konstruktornak, amelyeket a lekérdezi a <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`callConvention`</ph> parameter indicates the calling convention for the entry point.</source>
+          <target state="translated">A <ph id="ph1">`callConvention`</ph> paraméter jelzi a belépési pont a hívási konvenció.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no calling convention is specified, a default &lt;xref:System.Reflection.CallingConventions&gt; value of <ph id="ph1">`Standard`</ph> is used.</source>
+          <target state="translated">Ha nincs hívási konvenció meg van adva, az alapértelmezett &lt;xref:System.Reflection.CallingConventions&gt;értékének <ph id="ph1">`Standard`</ph> szolgál.&lt;/xref:System.Reflection.CallingConventions&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects using reflection.</source>
+          <target state="translated">Olyan objektum, amely lehetővé teszi, hogy a kötés argumentum adhatók meg kell adnia, meghívási tagok, és lekérése <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumokat a következőt reflexió használatával.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">Ha <ph id="ph1">`binder`</ph> van <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, az alapértelmezett kötő szolgál.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The calling conventions.</source>
+          <target state="translated">A hívó egyezmények.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a list of the parameter number, order, and types.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó a számú paraméter, a sorrendje, illetve a típusok listája.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Types cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; use an appropriate <bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method or an empty array to search for a method without parameters.</source>
+          <target state="translated">Típusok nem lehetnek <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; használja a megfelelő <bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> metódus vagy kereséséhez paraméterek nélkül metódus üres tömb.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> having the same length as the <ph id="ph1">`types`</ph> array, whose elements represent the attributes associated with the parameters of the method to get.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> amelynek hossza megegyezik a <ph id="ph1">`types`</ph> tömb, amelynek elemei meghatároznia a metódus használatával kérje le a paraméterekkel tartozó attribútumok.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the method that matches the specified criteria, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if a match cannot be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a metódus, amely a megadott feltételeknek megfelelő objektum vagy <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha nem található egyezés.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.ConstructorInfo&gt; objects representing constructors defined for the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tömbjét adja vissza &lt;xref:System.Reflection.ConstructorInfo&gt;konstruktorok az aktuális által becsomagolt meghatározott objektumokból <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.ConstructorInfo&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Class initializers are available only through <ph id="ph1">`GetMember`</ph>, <ph id="ph2">`GetMembers`</ph>, <ph id="ph3">`FindMembers`</ph>, and <ph id="ph4">`GetConstructors`</ph>.</source>
+          <target state="translated">Az osztály az inicializálók csak keresztül érhetők el <ph id="ph1">`GetMember`</ph>, <ph id="ph2">`GetMembers`</ph>, <ph id="ph3">`FindMembers`</ph>, és <ph id="ph4">`GetConstructors`</ph>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the specified constructors defined for this class.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_ConstructorInfo" name="ConstructorInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó a megadott osztály definiálva konstruktor.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If no constructors are defined, an empty array is returned.</source>
+          <target state="translated">Ha nem konstruktor meghatározása, üres tömböt ad vissza.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Depending on the value of a specified parameter, only public constructors or both public and non-public constructors will be returned.</source>
+          <target state="translated">Attól függően, hogy a megadott paraméter értékét csak a nyilvános konstruktor vagy a nyilvános és a nem nyilvános konstruktorok eredmény.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Returns all the custom attributes defined for this type, specifying whether to search the type's inheritance chain.</source>
+          <target state="translated">Az egyéni attribútumok definiálva ehhez a típushoz, adja meg, hogy a típus öröklési lánc adja vissza.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Specifies whether to search this type's inheritance chain to find the attributes.</source>
+          <target state="translated">Megadja, hogy ez a típus öröklési lánc az attribútumok kereséséhez keressen-e.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An array of objects containing all the custom attributes defined for this type.</source>
+          <target state="translated">Ehhez a típushoz megadott egyéni attribútumok tartalmazó objektumokból álló tömb.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A custom attribute type cannot be loaded.</source>
+          <target state="translated">Egy egyéni attribútum típusa nem tölthető be.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns an array of custom attributes identified by type.</source>
+          <target state="translated">Az egyéni attribútumok típus azonosíthatók tömbjét adja vissza.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An array of custom attributes identified by type.</source>
+          <target state="translated">Egyéni attribútumok azonosíthatók típus tömbje.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specifies whether to search this type's inheritance chain to find the attributes.</source>
+          <target state="translated">Megadja, hogy ez a típus öröklési lánc az attribútumok kereséséhez keressen-e.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An array of objects containing the custom attributes defined in this type that match the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">attributeType</ph><ept id="p1">&lt;/code&gt;</ept> parameter, specifying whether to search the type's inheritance chain, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no custom attributes are defined on this type.</source>
+          <target state="translated">Az egyéni attribútumok ehhez a típushoz definiálva megfelelő tartalmazó objektumokból álló tömb a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">attributeType</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter megadása, hogy a típus öröklési lánc, vagy <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> adott típus nem egyedi attribútum megadása esetén.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A custom attribute type cannot be loaded.</source>
+          <target state="translated">Egy egyéni attribútum típusa nem tölthető be.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Returns the &lt;xref:System.Type&gt; of the object encompassed or referred to by the current array, pointer or ByRef.</source>
+          <target state="translated">Vissza a &lt;xref:System.Type&gt;objektum lefedett vagy az aktuális tömb, mutató vagy hivatkozással (ByRef) által hivatkozott.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object encompassed or referred to by the current array, pointer or <bpt id="p1">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the current &lt;xref:System.Type&gt; is not an array, a pointer or a <bpt id="p3">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;objektum lefedett vagy a jelenlegi tömb által hivatkozott mutató vagy <bpt id="p1">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, vagy <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha az aktuális &lt;xref:System.Type&gt;nincs tömb, egy mutatót, vagy egy <bpt id="p3">&lt;xref uid="langword_csharp_ByRef" name="ByRef" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns the specified event.</source>
+          <target state="translated">A megadott esemény adja vissza.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;.<ph id="ph2">`IgnoreCase`</ph>, the case of the <ph id="ph3">`name`</ph> parameter is ignored.</source>
+          <target state="translated">Ha <ph id="ph1">`bindingAttr`</ph> van &lt;xref:System.Reflection.BindingFlags&gt;.<ph id="ph2">`IgnoreCase`</ph>, a nagybetűk, a <ph id="ph3">`name`</ph> paraméter a rendszer figyelmen kívül hagyja.&lt;/xref:System.Reflection.BindingFlags&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The name of the event to get.</source>
+          <target state="translated">A beolvasandó esemény neve.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Reflection.EventInfo&gt; object representing the event declared or inherited by this type with the specified name.</source>
+          <target state="translated">Egy &lt;xref:System.Reflection.EventInfo&gt;jelző esemény deklarálva, vagy a megadott nevű ilyen örökölt objektumot.&lt;/xref:System.Reflection.EventInfo&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no such event is found.</source>
+          <target state="translated">Ez a metódus visszaadja <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , ha nincs ilyen esemény megtalálható.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.EventInfo&gt; objects representing all the public events declared or inherited by the current <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tömbjét adja vissza &lt;xref:System.Reflection.EventInfo&gt;a nyilvános események képviselő deklarálva, vagy az aktuális örökölt objektumok <bpt id="p1">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.EventInfo&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Returns an array of type <bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the events declared or inherited by the current type.</source>
+          <target state="translated">Adja vissza a típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az eseményeket tartalmazó deklarálva, vagy az aktuális típus örökölt.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If there are no events, an empty array is returned.</source>
+          <target state="translated">Nincsenek események, ha üres tömböt ad vissza.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Returns the events specified in <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p1">&lt;/code&gt;</ept> that are declared or inherited by the current <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Visszaadja a megadott események <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p1">&lt;/code&gt;</ept> , amely deklarálva, vagy a jelenlegi örökölt <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the events specified in <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_EventInfo" name="EventInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott eseményeket tartalmazó <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If there are no events, an empty array is returned.</source>
+          <target state="translated">Nincsenek események, ha üres tömböt ad vissza.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.Reflection.FieldInfo&gt; object representing the field with the specified name.</source>
+          <target state="translated">Értéket ad vissza egy &lt;xref:System.Reflection.FieldInfo&gt;a megadott nevű mezőt jelképező.&lt;/xref:System.Reflection.FieldInfo&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use a <ph id="ph1">`bindingAttr`</ph> of &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic to return all public and nonpublic fields.</source>
+          <target state="translated">Használja a <ph id="ph1">`bindingAttr`</ph> a &lt;xref:System.Reflection.BindingFlags&gt;. Vissza az összes nyilvános és bizalmasként mezők nonPublic.&lt;/xref:System.Reflection.BindingFlags&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use <ph id="ph1">`BindingFlags.IgnoreCase`</ph> to ignore the case of the fields, as the search is case-sensitive by default.</source>
+          <target state="translated">Használjon <ph id="ph1">`BindingFlags.IgnoreCase`</ph> figyelmen kívül hagyja a kis-és a mezőket, mert a Keresés a kis-és nagybetűket alapértelmezés szerint.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The name of the field to find.</source>
+          <target state="translated">A mező található neve.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the field declared or inherited by this <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> with the specified name.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> mezőknek deklarálva, vagy ez örökölt objektum <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a megadott névvel.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no such field is found.</source>
+          <target state="translated">Beolvasása <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha ilyen mező nem található.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.FieldInfo&gt; objects representing the data fields defined for the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tömbjét adja vissza &lt;xref:System.Reflection.FieldInfo&gt;objektumot képviselő adatmezők meghatározott beburkolva az aktuális <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.FieldInfo&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetFields method does not return fields in a particular order, such as alphabetical or declaration order.</source>
+          <target state="translated">A GetFields metódus nem térhet vissza mezők meghatározott sorrendben, például szedett vagy deklaráció sorrendet.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your code must not depend on the order in which fields are returned, because that order can vary.</source>
+          <target state="translated">A kód nem függhet a sorrendet, amelyben mezőket ad vissza, mivel nem minden sorrendben.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use a <ph id="ph1">`bindingAttr`</ph> of &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic to return all public and nonpublic fields.</source>
+          <target state="translated">Használja a <ph id="ph1">`bindingAttr`</ph> a &lt;xref:System.Reflection.BindingFlags&gt;. Vissza az összes nyilvános és bizalmasként mezők nonPublic.&lt;/xref:System.Reflection.BindingFlags&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the fields declared or inherited by the current <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_FieldInfo" name="FieldInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> mezőket tartalmazó deklarálva, vagy az aktuális örökölt <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An empty array is returned if there are no matched fields.</source>
+          <target state="translated">Üres tömböt ad vissza, ha nincsenek egyező mezők.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Returns the specified interface implemented by the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Visszaadja a megadott kapcsolat beburkolva az aktuális típus által megvalósított <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The fully qualified name of the interface implemented by the current class.</source>
+          <target state="translated">Az aktuális osztály által megvalósított illesztőfelület teljesen minősített neve.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the case is to be ignored; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az eset az, hogy figyelmen kívül lesz hagyva; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the interface implemented (directly or indirectly) by the current class with the fully qualified name matching the specified name.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a (közvetlenül vagy közvetetten) az aktuális osztály által megvalósított a megadott névnek megfelelő teljesen minősített nevű felület képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If no interface that matches name is found, null is returned.</source>
+          <target state="translated">Ha nincs kapcsolat nevével egyező található, null adja vissza.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Returns an interface mapping for the specified interface type.</source>
+          <target state="translated">A megadott illesztőfelület-típus egy felület leképezést adja vissza.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The interface map denotes how an interface is mapped into the actual methods on a class that implements that interface.</source>
+          <target state="translated">A felület leképezés azt jelzi, hogyan hozzá van rendelve egy felület egy osztály, amely megvalósítja az, hogy a illesztő tényleges módszerek.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the interface to retrieve a mapping of.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;a felület egy táblázatot a beolvasandó.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Reflection.InterfaceMapping&gt; object representing the interface mapping for <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">interfaceType</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Egy &lt;xref:System.Reflection.InterfaceMapping&gt;a felület leképezést képviselő objektum <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">interfaceType</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Reflection.InterfaceMapping&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Returns all the interfaces implemented on the current class and its base classes.</source>
+          <target state="translated">Az aktuális osztály és alaposztálya végrehajtott összes illesztő adja vissza.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the interfaces implemented on the current class and its base classes.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó végrehajtani az aktuális osztály és alaposztályainak összes felületet.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If none are defined, an empty array is returned.</source>
+          <target state="translated">Ha nincs definiálva vannak, akkor üres tömböt adott vissza.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Returns members (properties, methods, constructors, fields, events, and nested types) specified by the given <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">type</ph><ept id="p2">&lt;/code&gt;</ept>, and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">bindingAttr</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Tagot (tulajdonságait, módszerek, konstruktorok, mezők, eseményeket és beágyazott típus) által megadott ad vissza a megadott <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">type</ph> <ept id="p2">&lt;/code&gt;</ept>, és <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph3">bindingAttr</ph> <ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic, all the members will be considered.</source>
+          <target state="translated">If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;. NonPublic, a tagok akkor veszi figyelembe.&lt;/xref:System.Reflection.BindingFlags&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no matches, an empty array is returned.</source>
+          <target state="translated">Ha nincs találat, akkor üres tömböt adott vissza.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The name of the member to get.</source>
+          <target state="translated">A beolvasandó tag nevét.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The type of members to get.</source>
+          <target state="translated">A tagokat típusa.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the members of the current class and its base class meeting the specified criteria.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az aktuális osztály és annak alaposztályát, a megadott feltételeknek megfelelő összes tagját tartalmazó.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Returns members specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Megadott tagot ad vissza <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;.NonPublic, all the members will be considered.</source>
+          <target state="translated">If <ph id="ph1">`bindingAttr`</ph> is &lt;xref:System.Reflection.BindingFlags&gt;. NonPublic, a tagok akkor veszi figyelembe.&lt;/xref:System.Reflection.BindingFlags&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no matches, an empty array is returned.</source>
+          <target state="translated">Ha nincs találat, akkor üres tömböt adott vissza.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing all the members of the current class and its base classes that meet the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p2">&lt;/code&gt;</ept> filter.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó összes tagjai az aktuális osztály és alaposztálya, amelyek megfelelnek a <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p2">&lt;/code&gt;</ept> szűrő.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Searches for the specified method whose parameters match the specified argument types and modifiers, using the specified binding constraints and the specified calling convention.</source>
+          <target state="translated">A megadott metódust, amelynek a paraméterek megegyeznek a megadott argumentumtípusok és módosítók, a megadott kötési megszorításoknak és a megadott hívási konvenció használatával keres.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`callConvention`</ph> parameter indicates the calling convention for the entry point.</source>
+          <target state="translated">A <ph id="ph1">`callConvention`</ph> paraméter jelzi a belépési pont a hívási konvenció.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no &lt;xref:System.Reflection.CallingConventions&gt; is specified, a default <ph id="ph1">`CallingConventions`</ph> value of <ph id="ph2">`Standard`</ph> is used.</source>
+          <target state="translated">Ha nincs &lt;xref:System.Reflection.CallingConventions&gt;meg van adva, az alapértelmezett <ph id="ph1">`CallingConventions`</ph> értékének <ph id="ph2">`Standard`</ph> szolgál.&lt;/xref:System.Reflection.CallingConventions&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The method name.</source>
+          <target state="translated">A metódus nevét.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects using reflection.</source>
+          <target state="translated">Olyan objektum, amely lehetővé teszi, hogy a kötés argumentum adhatók meg kell adnia, meghívási tagok, és lekérése <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumokat a következőt reflexió használatával.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">Ha <ph id="ph1">`binder`</ph> van <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, az alapértelmezett kötő szolgál.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The calling conventions.</source>
+          <target state="translated">A hívó egyezmények.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a list of the parameter number, order, and types.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó a számú paraméter, a sorrendje, illetve a típusok listája.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Types cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>; use an appropriate <bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> method or an empty array to search for a method without parameters.</source>
+          <target state="translated">Típusok nem lehetnek <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>; használja a megfelelő <bpt id="p2">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> metódus vagy kereséséhez paraméterek nélkül metódus üres tömb.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> having the same length as the <ph id="ph1">`types`</ph> array, whose elements represent the attributes associated with the parameters of the method to get.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifier" name="ParameterModifier" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> amelynek hossza megegyezik a <ph id="ph1">`types`</ph> tömb, amelynek elemei meghatároznia a metódus használatával kérje le a paraméterekkel tartozó attribútumok.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_MethodInfoInfo" name="MethodInfoInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the implementation method that matches the specified criteria, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if a match cannot be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_MethodInfoInfo" name="MethodInfoInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a végrehajtási metódus, amely a megadott feltételeknek megfelelő objektum vagy <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Ha nem található egyezés.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.MethodInfo&gt; objects representing specified methods of the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tömbjét adja vissza &lt;xref:System.Reflection.MethodInfo&gt;képviselő megadott módszerek az aktuális által becsomagolt típusú objektumok <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.MethodInfo&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref uid="langword_csharp_MethodInfo" name="MethodInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects representing the methods defined on this <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A tömb <bpt id="p1">&lt;xref uid="langword_csharp_MethodInfo" name="MethodInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az itt megadott módszerek objektumokból <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Returns a nested type specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> and in <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">bindingAttr</ph><ept id="p2">&lt;/code&gt;</ept> that are declared or inherited by the type represented by the current <bpt id="p3">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy beágyazott által megadott típust ad vissza <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept> és a <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">bindingAttr</ph> <ept id="p2">&lt;/code&gt;</ept> , amely deklarálva, vagy az aktuális által képviselt típus által örökölt <bpt id="p3">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The nested type's name.</source>
+          <target state="translated">A beágyazott típus neve.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the nested type.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a beágyazott típus képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Returns the nested types specified in <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bindingAttr</ph><ept id="p1">&lt;/code&gt;</ept> that are declared or inherited by the type wrapped by the current <bpt id="p2">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Visszaadja a megadott beágyazott típusok <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">bindingAttr</ph> <ept id="p1">&lt;/code&gt;</ept> , amely deklarálva, vagy az aktuális által becsomagolt típus által örökölt <bpt id="p2">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the nested types.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_Type" name="Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó beágyazott típusok.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Returns an array of &lt;xref:System.Reflection.PropertyInfo&gt; objects representing properties of the type wrapped by the current <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tömbjét adja vissza &lt;xref:System.Reflection.PropertyInfo&gt;beburkolva az aktuális típusú tulajdonságok objektumokból <bpt id="p1">&lt;xref href="System.Reflection.TypeDelegator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref uid="langword_csharp_PropertyInfo" name="PropertyInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects representing properties defined on this <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A tömb <bpt id="p1">&lt;xref uid="langword_csharp_PropertyInfo" name="PropertyInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> itt definiált tulajdonságok objektumokból <bpt id="p2">&lt;xref uid="langword_csharp_TypeDelegator" name="TypeDelegator" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, searches for the specified property whose parameters match the specified argument types and modifiers, using the specified binding constraints.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, megkeresi a megadott tulajdonságot, amelynek a paraméterek megegyeznek a megadott argumentumtípusok és módosítók, a megadott kötési megszorításoknak használatával.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The property to get.</source>
+          <target state="translated">A tulajdonság használatával beolvassa.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A bitmask that affects the way in which the search is conducted.</source>
+          <target state="translated">Bitmaszk, amely érinti a, amelyben a keresés végzik.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The value is a combination of zero or more bit flags from <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az érték nulla vagy több bit jelzők a kombinációja <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects via reflection.</source>
+          <target state="translated">Olyan objektum, amely lehetővé teszi, hogy a kötés argumentum adhatók meg kell adnia, meghívási tagok, és lekérése <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumok reflexió útján.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">Ha <ph id="ph1">`binder`</ph> van <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, az alapértelmezett kötő szolgál.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The return type of the property.</source>
+          <target state="translated">A tulajdonság visszatérési típusával.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>A list of parameter types.</source>
+          <target state="translated">A paraméter típusainak listáját.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The list represents the number, order, and types of the parameters.</source>
+          <target state="translated">A lista a számát, a sorrendje, illetve a paramétertípusainak jelöli.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Types cannot be null; use an appropriate <bpt id="p1">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method or an empty array to search for a method without parameters.</source>
+          <target state="translated">Típusok nem lehet null. használja a megfelelő <bpt id="p1">&lt;xref uid="langword_csharp_GetMethod" name="GetMethod" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> metódus vagy kereséséhez paraméterek nélkül metódus üres tömb.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>An array of the same length as types with elements that represent the attributes associated with the parameters of the method to get.</source>
+          <target state="translated">A hossza megegyezik az elemek, amelyek megfelelnek a paraméterek a metódus használatával kérje le a hozzá kapcsolódó attribútumok típusok egy tömbjét.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Reflection.PropertyInfo&gt; object for the property that matches the specified criteria, or null if a match cannot be found.</source>
+          <target state="translated">A &lt;xref:System.Reflection.PropertyInfo&gt;a tulajdonsághoz, amely a megadott feltételeknek megfelelő objektum, vagy null, ha nem található egyezés.&lt;/xref:System.Reflection.PropertyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Gets the GUID (globally unique identifier) of the implemented type.</source>
+          <target state="translated">Lekérdezi a globálisan egyedi azonosítót (GUID) a megvalósított típus.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GUID (globally unique identifier) is a 128-bit unique identification string used to identify a class or an interface.</source>
+          <target state="translated">A globálisan egyedi azonosítót (GUID): egy osztály vagy illesztőfelület azonosítására használt egyedi azonosító 128 bites karakterlánc.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is primarily useful for interoperability between the Microsoft .NET Framework and COM.</source>
+          <target state="translated">Elsősorban hasznos lehet a Microsoft .NET-keretrendszer és a COM-környezetbe.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A GUID.</source>
+          <target state="translated">EGY GUID AZONOSÍTÓT.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current &lt;xref:System.Type&gt; encompasses or refers to another type; that is, whether the current &lt;xref:System.Type&gt; is an array, a pointer or a ByRef.</source>
+          <target state="translated">Lekérdezi, hogy egy érték, amely jelzi, hogy az aktuális &lt;xref:System.Type&gt;foglal magában, vagy egy másik típussal; hivatkozik, hogy az aktuális &lt;xref:System.Type&gt;tömb, mutató vagy egy hivatkozással (ByRef).&lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is an array, a pointer or a ByRef; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a &lt;xref:System.Type&gt;tömb, mutató vagy egy hivatkozással (ByRef); egyéb esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Invokes the specified member.</source>
+          <target state="translated">A megadott tag hív meg.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The method that is to be invoked must be accessible and provide the most specific match with the specified argument list, under the constraints of the specified binder and invocation attributes.</source>
+          <target state="translated">A meghívni kívánt metódus elérhető legyen, és adja meg a leginkább megegyező a megadott argumentum listájával, a megadott kötő és meghívása attribútumok korlátai alapján.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A method will be invoked if both the following conditions are true:      -   The number of parameters in the method declaration equals the number of arguments in the specified argument list (unless default arguments are defined on the member).</source>
+          <target state="translated">A módszer akkor kell meghívni, mindkét alábbi feltétel teljesülése esetén: - a metódus deklarációjában paraméterek egyenlő a megadott argumentum listában argumentumok száma (kivéve, ha az alapértelmezett argumentum van megadva a tagra).</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The type of each arguments can be converted by the binder to the type of the parameter.</source>
+          <target state="translated">-A paraméter típusának kötő által minden argumentumok típusa alakíthatók ki.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The binder will find all the matching methods.</source>
+          <target state="translated">A binder megtalálja a megfelelő módszert.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These methods are found based upon the type of binding requested (<ph id="ph1">`BindingFlags.MethodInvoke`</ph>, <ph id="ph2">`BindingFlags.GetProperties`</ph>, and so on).</source>
+          <target state="translated">Ezek a módszerek található a kért kötése típusának alapján (<ph id="ph1">`BindingFlags.MethodInvoke`</ph>, <ph id="ph2">`BindingFlags.GetProperties`</ph>, és így tovább).</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of methods is filtered by the name, number of arguments, and a set of search modifiers defined in the binder.</source>
+          <target state="translated">A rendszer módszerek készletét a nevét, az argumentumok száma és a binder definiált keresési módosítók készlete alapján szűri.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the method is selected, it will be invoked.</source>
+          <target state="translated">Miután a módszer van kiválasztva, akkor kell meghívni.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Accessibility is checked at that point.</source>
+          <target state="translated">Kisegítő lehetőségek ezen a ponton be van jelölve.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The search may control which set of methods are searched based upon the accessibility attribute associated with the method.</source>
+          <target state="translated">A keresési metódusok körét történik a Keresés a metódus társított kisegítő attribútum alapján szabályozhatja.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Reflection.Binder.BindToMethod%2A?displayProperty=fullName&gt; method is responsible for selecting the method to be invoked.</source>
+          <target state="translated">A &lt;xref:System.Reflection.Binder.BindToMethod%2A?displayProperty=fullName&gt;metódus felelős meghívandó módszer választása.&lt;/xref:System.Reflection.Binder.BindToMethod%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default binder selects the most specific match.</source>
+          <target state="translated">Az alapértelmezett kötő kiválasztja a leginkább megegyező.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Access restrictions are ignored for fully trusted code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Korlátozza a hozzáférést a rendszer figyelmen kívül hagyja a teljesen megbízható kód.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, private constructors, methods, fields, and properties can be accessed and invoked using reflection whenever the code is fully trusted.</source>
+          <target state="translated">Ez azt jelenti, hogy személyes konstruktorok, a metódusok, a mezők és a tulajdonságok és elérhető meghívni a következőt reflexió használatával, amikor a kód teljesen megbízható.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently, <ph id="ph1">`InvokeMember`</ph> performs the Microsoft .NET Framework reflection semantics for every type of object.</source>
+          <target state="translated">Jelenleg <ph id="ph1">`InvokeMember`</ph> hajtja végre a Microsoft .NET-keretrendszer reflexiós szemantika minden típusú objektum.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the member specified by name is an array and the <ph id="ph1">`BindingFlags.GetField`</ph> flag is set on <ph id="ph2">`invokeAttr`</ph>, the <ph id="ph3">`args`</ph> array specifies the elements whose values are to be returned.</source>
+          <target state="translated">Ha a megadott tag egy tömb és a <ph id="ph1">`BindingFlags.GetField`</ph> jelző be van állítva <ph id="ph2">`invokeAttr`</ph>, a <ph id="ph3">`args`</ph> tömb határozza meg az elemek, amelyek értékét elő kell állítani.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following call through <ph id="ph1">`Type`</ph> object <ph id="ph2">`t`</ph> returns the value of the first element of the string array MyArray, which is a member of the calling object:       <ph id="ph3">`String ret = (String) t.InvokeMember ("MyArray", BindingFlags.GetField, null, this, new Variant[]{0});`</ph>       You can use <ph id="ph4">`InvokeMember`</ph> to set one or more elements of a member array.</source>
+          <target state="translated">Például a következő hívnia <ph id="ph1">`Type`</ph> objektum <ph id="ph2">`t`</ph> a karakterlánc-tömbben tömb, amely tagja a hívó objektum első elemének értékét adja vissza: <ph id="ph3">`String ret = (String) t.InvokeMember ("MyArray", BindingFlags.GetField, null, this, new Variant[]{0});`</ph> használható <ph id="ph4">`InvokeMember`</ph> legalább egy tagot tömb elemei beállítása.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All elements are set to the same value.</source>
+          <target state="translated">Összes eleme ugyanarra az értékre vannak állítva.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`args`</ph> array must be formatted as follows:      <ph id="ph2">```   {index1,       index2,, value}   ```</ph>       For example, to set the first member of MyArray from the previous example, the syntax is as follows:      <ph id="ph3">```   t.InvokeMember ("MyArray", BindingFlags.SetField, null, this, new       Variant[]{0,"Updated"});   ```</ph></source>
+          <target state="translated">A <ph id="ph1">`args`</ph> tömb az alábbiak szerint kell formázni: <ph id="ph2">```   {index1,       index2,, value}   ```</ph> például, hogy a tömb első tagja az előző példából, a szintaxisa a következő:<ph id="ph3">```   t.InvokeMember ("MyArray", BindingFlags.SetField, null, this, new       Variant[]{0,"Updated"});   ```</ph></target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The name of the member to invoke.</source>
+          <target state="translated">A meghívni kívánt tag nevét.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>This may be a constructor, method, property, or field.</source>
+          <target state="translated">Erre akkor lehet egy konstruktor, metódus, tulajdonság vagy mező.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>If an empty string ("") is passed, the default member is invoked.</source>
+          <target state="translated">Ha üres karakterláncot ("") átadása, az alapértelmezett tag hívják.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The invocation attribute.</source>
+          <target state="translated">A meghívási attribútum.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>This must be one of the following <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> : <bpt id="p2">&lt;xref uid="langword_csharp_InvokeMethod" name="InvokeMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_CreateInstance" name="CreateInstance" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, <bpt id="p5">&lt;xref uid="langword_csharp_GetField" name="GetField" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>, <bpt id="p6">&lt;xref uid="langword_csharp_SetField" name="SetField" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept>, <bpt id="p7">&lt;xref uid="langword_csharp_GetProperty" name="GetProperty" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept>, or <bpt id="p8">&lt;xref uid="langword_csharp_SetProperty" name="SetProperty" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">This must be one of the following <bpt id="p1">&lt;xref href="System.Reflection.BindingFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> : <bpt id="p2">&lt;xref uid="langword_csharp_InvokeMethod" name="InvokeMethod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_CreateInstance" name="CreateInstance" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, <bpt id="p5">&lt;xref uid="langword_csharp_GetField" name="GetField" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>, <bpt id="p6">&lt;xref uid="langword_csharp_SetField" name="SetField" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept>, <bpt id="p7">&lt;xref uid="langword_csharp_GetProperty" name="GetProperty" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept>, or <bpt id="p8">&lt;xref uid="langword_csharp_SetProperty" name="SetProperty" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>A suitable invocation attribute must be specified.</source>
+          <target state="translated">A megfelelő meghívása attribútumot meg kell adni.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>If a static member is to be invoked, the <bpt id="p1">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> flag must be set.</source>
+          <target state="translated">Ha egy statikus tag nem hívható meg, hogy a <bpt id="p1">&lt;xref uid="langword_csharp_Static" name="Static" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> jelzőt kell beállítani.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects via reflection.</source>
+          <target state="translated">Olyan objektum, amely lehetővé teszi, hogy a kötés argumentum adhatók meg kell adnia, meghívási tagok, és lekérése <bpt id="p1">&lt;xref uid="langword_csharp_MemberInfo" name="MemberInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumok reflexió útján.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`binder`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the default binder is used.</source>
+          <target state="translated">Ha <ph id="ph1">`binder`</ph> van <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, az alapértelmezett kötő szolgál.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">See <bpt id="p1">&lt;xref href="System.Reflection.Binder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The object on which to invoke the specified member.</source>
+          <target state="translated">Az objektum, amelyen meghívni a megadott tag.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the number, order, and type of the parameters of the member to be invoked.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza a száma, sorrendben és paraméterek tag típusának meg kell hívni.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`args`</ph> contains an uninitialized <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, it is treated as empty, which, with the default binder, can be widened to 0, 0.0 or a string.</source>
+          <target state="translated">Ha <ph id="ph1">`args`</ph> tartalmaz egy nem inicializált <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, akkor a rendszer üres, amely az alapértelmezett kötő is lehet játékosokat 0, 0,0 vagy egy karakterláncot.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer" name="ParameterModifer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the same length as <ph id="ph1">`args`</ph>, with elements that represent the attributes associated with the arguments of the member to be invoked.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer" name="ParameterModifer" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a hossza megegyezik <ph id="ph1">`args`</ph>, az elemek, amelyek megfelelnek a tag meg kell hívni az argumentumokkal tartozó attribútumok.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>A parameter has attributes associated with it in the member's signature.</source>
+          <target state="translated">A paraméter a tag aláírásban társított attribútumokkal rendelkezik.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>For ByRef, use <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer.ByRef" name="ParameterModifer.ByRef" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and for none, use <bpt id="p2">&lt;xref uid="langword_csharp_ParameterModifer.None" name="ParameterModifer.None" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A hivatkozási (ByRef), használjon <bpt id="p1">&lt;xref uid="langword_csharp_ParameterModifer.ByRef" name="ParameterModifer.ByRef" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, és sem, használjon <bpt id="p2">&lt;xref uid="langword_csharp_ParameterModifer.None" name="ParameterModifer.None" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The default binder does exact matching on these.</source>
+          <target state="translated">Az alapértelmezett kötő pontos ezekkel megfelelő.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Attributes such as <bpt id="p1">&lt;xref uid="langword_csharp_In" name="In" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref uid="langword_csharp_InOut" name="InOut" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> are not used in binding, and can be viewed using <bpt id="p3">&lt;xref uid="langword_csharp_ParameterInfo" name="ParameterInfo" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Attribútumok például <bpt id="p1">&lt;xref uid="langword_csharp_In" name="In" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és <bpt id="p2">&lt;xref uid="langword_csharp_InOut" name="InOut" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kötése nem szerepel, és megtekintheti a <bpt id="p3">&lt;xref uid="langword_csharp_ParameterInfo" name="ParameterInfo" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to govern the coercion of types.</source>
+          <target state="translated">Példányának <bpt id="p1">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> annak a szabályozására, a kényszerítési típusú használt.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>This is necessary, for example, to convert a string that represents 1000 to a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value, since 1000 is represented differently by different cultures.</source>
+          <target state="translated">Szükség, például 1000-jelölő karakterlánccá konvertálni a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érték, mivel 1000 eltérő kulturális környezetek másképp képviseli.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`culture`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for the current thread's <bpt id="p3">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> is used.</source>
+          <target state="translated">Ha <ph id="ph1">`culture`</ph> van <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, a <bpt id="p2">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> az aktuális szál <bpt id="p3">&lt;xref uid="langword_csharp_CultureInfo" name="CultureInfo" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> szolgál.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing parameter names that match up, starting at element zero, with the <ph id="ph1">`args`</ph> array.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó paraméterek nevei, amelyek megfelelnek, kezdve elemben nulla, a <ph id="ph1">`args`</ph> tömb.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>There must be no holes in the array.</source>
+          <target state="translated">A tömb nem lyuk kell lennie.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`args`</ph>.</source>
+          <target state="translated">If <ph id="ph1">`args`</ph>.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is greater than <ph id="ph1">`namedParameters`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>nagyobb, mint <ph id="ph1">`namedParameters`</ph>.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the remaining parameters are filled in order.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Length" name="Length" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, a fennmaradó paraméterek kitölti a sorrendben.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the return value of the invoked member.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> képviselő az eredményül kapott értéket a meghívott tag.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is an array.</source>
+          <target state="translated">Visszaadja egy érték, amely azt jelzi, hogy a &lt;xref:System.Type&gt;tömb.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is an array; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a &lt;xref:System.Type&gt;tömb; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the specified type can be assigned to this type.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy kell-e a megadott típus rendelve ehhez a típushoz adja vissza.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The type to check.</source>
+          <target state="translated">Ellenőrizze a típus.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified type can be assigned to this type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a megadott típus rendelhető ehhez a típushoz; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is passed by reference.</source>
+          <target state="translated">Visszaadja egy érték, amely azt jelzi, hogy a &lt;xref:System.Type&gt;hivatkozással lett átadva.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is passed by reference; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a &lt;xref:System.Type&gt;; hivatkozás szerinti átadása ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is a COM object.</source>
+          <target state="translated">Visszaadja egy érték, amely azt jelzi, hogy a &lt;xref:System.Type&gt;egy COM-objektum.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is a COM object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a &lt;xref:System.Type&gt;egy COM objektum; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this object represents a constructed generic type.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy az objektum által jelképezett létrehozott általános típus beolvasása.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this object represents a constructed generic type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az objektum által jelképezett létrehozott általános típusú; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Indicates whether a custom attribute identified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">attributeType</ph><ept id="p1">&lt;/code&gt;</ept> is defined.</source>
+          <target state="translated">Azt jelzi, hogy egy egyéni attribútum által azonosított <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">attributeType</ph> <ept id="p1">&lt;/code&gt;</ept> van definiálva.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Specifies whether to search this type's inheritance chain to find the attributes.</source>
+          <target state="translated">Megadja, hogy ez a típus öröklési lánc az attribútumok kereséséhez keressen-e.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>An array of custom attributes identified by type.</source>
+          <target state="translated">Egyéni attribútumok azonosíthatók típus tömbje.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a custom attribute identified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">attributeType</ph><ept id="p2">&lt;/code&gt;</ept> is defined; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha egy egyéni attribútum által azonosított <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">attributeType</ph> <ept id="p2">&lt;/code&gt;</ept> meghatározott; egyéb, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;attributeType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The custom attribute type cannot be loaded.</source>
+          <target state="translated">Az egyéni attribútum típusa nem tölthető be.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is a pointer.</source>
+          <target state="translated">Visszaadja egy érték, amely azt jelzi, hogy a &lt;xref:System.Type&gt;mutató.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is a pointer; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a &lt;xref:System.Type&gt;mutató; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the &lt;xref:System.Type&gt; is one of the primitive types.</source>
+          <target state="translated">Visszaadja egy érték, amely azt jelzi, hogy a &lt;xref:System.Type&gt;a primitív típusok egyike.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Type&gt; is one of the primitive types; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a &lt;xref:System.Type&gt;a primitív típusok egyike; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the type is a value type; that is, not a class or an interface.</source>
+          <target state="translated">Jelzi, hogy a típus egy értéktípus; értéket ad vissza Ez azt jelenti, hogy nem egy osztály vagy illesztőfelület.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the type is a value type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a típusa nem értéktípus; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Gets a value that identifies this entity in metadata.</source>
+          <target state="translated">Egy érték, amely azonosítja az ehhez az entitáshoz metaadatok lekérése.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The tokens obtained using this property can be passed to the unmanaged reflection API.</source>
+          <target state="translated">A jogkivonatok segítségével ezt a tulajdonságot a nem felügyelt reflexiós API adható át.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Unmanaged Reflection API<ept id="p1">](http://msdn.microsoft.com/en-us/0c5bb9de-0cf6-438d-ba47-134e6c775fb8)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>nem felügyelt reflexiós API<ept id="p1">](http://msdn.microsoft.com/en-us/0c5bb9de-0cf6-438d-ba47-134e6c775fb8)</ept>.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>A value which, in combination with the module, uniquely identifies this entity in metadata.</source>
+          <target state="translated">Egy érték, a modul együtt egyedileg azonosítja a metaadatok ehhez az entitáshoz.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Gets the module that contains the implemented type.</source>
+          <target state="translated">Lekérdezi a megvalósított típusnak tartalmazó modult.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A module is a loadable unit that can contain type declarations and implementations.</source>
+          <target state="translated">A modul az egy betölthető egység, amely tartalmazhat típusdeklarációkban és hitelesítés megvalósításához.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Modules contain enough information to enable the common language runtime to locate all implementation bits when the module is loaded.</source>
+          <target state="translated">Modulok tartalmaz elég információt minden megvalósítási bit megkeresése, ha a modul be van töltve a közös nyelvi futtatókörnyezet engedélyezéséhez.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Reflection.Module&gt; object representing the module of the implemented type.</source>
+          <target state="translated">A &lt;xref:System.Reflection.Module&gt;a megvalósított típusnak modult képviselő objektum.&lt;/xref:System.Reflection.Module&gt;</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Gets the name of the implemented type, with the path removed.</source>
+          <target state="translated">Lekérdezi a megvalósított típus neve eltávolítani az elérési úttal.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A string containing the name of the current <ph id="ph1">`TypeDelegator`</ph>.</source>
+          <target state="translated">Az aktuális nevét tartalmazó karakterlánc <ph id="ph1">`TypeDelegator`</ph>.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the simple name, not the fully qualified name, is returned.</source>
+          <target state="translated">Csak az egyszerű nevet, a teljesen minősített név nem ad vissza.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To get the name and the path, use &lt;xref:System.Reflection.TypeDelegator.FullName%2A&gt;.</source>
+          <target state="translated">A neve és elérési útját, amelyet &lt;xref:System.Reflection.TypeDelegator.FullName%2A&gt;.&lt;/xref:System.Reflection.TypeDelegator.FullName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the type's non-qualified name.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó a típusú, nem minősített név.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Gets the namespace of the implemented type.</source>
+          <target state="translated">Lekérdezi a megvalósított típusnak névtere.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property gets a string containing the namespace of the current <ph id="ph1">`TypeDelegator`</ph>.</source>
+          <target state="translated">Ez a tulajdonság lekérdezi az aktuális a névteret tartalmazó karakterláncot <ph id="ph1">`TypeDelegator`</ph>.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the <ph id="ph1">`TypeDelegator`</ph> is &lt;xref:System.Reflection.TypeFilter&gt;, the returned namespace is &lt;xref:System.Reflection&gt;.</source>
+          <target state="translated">Például ha a <ph id="ph1">`TypeDelegator`</ph> , akkor &lt;xref:System.Reflection.TypeFilter&gt;a visszaadott névtere &lt;xref:System.Reflection&gt;.&lt;/xref:System.Reflection&gt; &lt;/xref:System.Reflection.TypeFilter&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the type's namespace.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó a típusú névtér.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Gets a handle to the internal metadata representation of an implemented type.</source>
+          <target state="translated">Lekérdezi a belső metaadatok ábrázolását megvalósított típusa leírót.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A type handle is a unique integer value associated with each type.</source>
+          <target state="translated">Egy típus leíró egyedi egész szám érték minden egyes társítva.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The handle is unique during the runtime.</source>
+          <target state="translated">A leíró egyedi a futtatás során.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_RuntimeTypeHandle" name="RuntimeTypeHandle" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_RuntimeTypeHandle" name="RuntimeTypeHandle" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>A value indicating type information.</source>
+          <target state="translated">Egy érték jelző típussal kapcsolatos információk.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Gets the underlying &lt;xref:System.Type&gt; that represents the implemented type.</source>
+          <target state="translated">Lekérdezi az alapul szolgáló &lt;xref:System.Type&gt;, amely a megvalósított típust jelöli.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>The underlying type.</source>
+          <target state="translated">Az alapul szolgáló típusa.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

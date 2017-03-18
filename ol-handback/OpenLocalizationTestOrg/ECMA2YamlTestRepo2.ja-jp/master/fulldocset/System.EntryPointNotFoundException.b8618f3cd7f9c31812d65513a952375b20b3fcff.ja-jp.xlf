@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0534d815a44e5eef8224016b2183acc6d8f0ff24</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.EntryPointNotFoundException.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c91621cb8ae297eea27a4a98635cacbf59eb1f43</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4fc7bed916b1d36594f8ce77813370676a4c46f8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The exception that is thrown when an attempt to load a class fails due to the absence of an entry method.</source>
+          <target state="translated">エントリ メソッドがないのため、クラスを読み込もうとしましたが失敗した場合にスローされる例外。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An EntryPointNotFoundException exception is thrown when the common language runtime is unable to load an assembly because it cannot identify the assembly's entry point.</source>
+          <target state="translated">共通言語ランタイムがアセンブリのエントリ ポイントを識別できないために、アセンブリを読み込むことがない場合に、EntryPointNotFoundException 例外がスローされます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This exception can be thrown under the following conditions:      -   The common language runtime is unable to locate an application entry point (typically a <ph id="ph1">`Main`</ph> method) in an executable assembly.</source>
+          <target state="translated">この例外は、次の条件下でスローされることができます:-、共通言語ランタイムはアプリケーションのエントリ ポイントを特定することは (通常、<ph id="ph1">`Main`</ph>メソッド) で実行可能アセンブリ。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The application entry point must be a global or <ph id="ph1">`static`</ph> method that has either no parameters or a string array as its only parameter.</source>
+          <target state="translated">アプリケーションのエントリ ポイントは、グローバルである必要がありますまたは<ph id="ph1">`static`</ph>パラメーターがないか、唯一のパラメーターとして文字列の配列を持つメソッドです。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The entry point can return <ph id="ph1">`void`</ph>, or it can return an &lt;xref:System.Int32&gt; or &lt;xref:System.UInt32&gt; exit code.</source>
+          <target state="translated">エントリ ポイントが返すことができる<ph id="ph1">`void`</ph>、またはその戻り値のことができます、&lt;xref:System.Int32&gt;または&lt;xref:System.UInt32&gt;終了コード&lt;/xref:System.UInt32&gt;&lt;/xref:System.Int32&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An application assembly cannot define more than one entry point.</source>
+          <target state="translated">アプリケーション アセンブリでは、1 つ以上のエントリ ポイントを定義できません。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   The call to a function in a Windows DLL cannot be resolved because the function cannot be found.</source>
+          <target state="translated">-Windows DLL 内の関数の呼び出しは、関数が見つからないために解決できません。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the following example, an EntryPointNotFoundException exception is thrown because User32.dll does not include a function named <ph id="ph1">`GetMyNumber`</ph>.</source>
+          <target state="translated">User32.dll にという名前の関数が含まれていないため、次の例に、EntryPointNotFoundException 例外がスロー<ph id="ph1">`GetMyNumber`</ph>です。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#1<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_1.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#1<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_1.vb)</ept><ept id="p3">]</ept>      -   The call to a function in a Windows DLL cannot be resolved because the name used in the method call does not match a name found in the assembly.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#1<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_1.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#1<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_1.vb)</ept> <ept id="p3">]</ept> -メソッド呼び出しで使用される名前が、アセンブリ内にある名前と一致しないために、Windows DLL 内の関数の呼び出しが解決することはできません。      </target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Frequently, this occurs because the &lt;xref:System.Runtime.InteropServices.DllImportAttribute.ExactSpelling?displayProperty=fullName&gt; field is either implicitly or explicitly set to <ph id="ph1">`true`</ph>, the called method includes one or more string parameters and has both an ANSI and a Unicode version, and the name used in the method call does not correspond to the name of this ANSI or Unicode version.</source>
+          <target state="translated">多くの場合、これが発生したため、&lt;xref:System.Runtime.InteropServices.DllImportAttribute.ExactSpelling?displayProperty=fullName&gt;フィールドが暗黙的または明示的に設定<ph id="ph1">`true`</ph>メソッドの呼び出しで使用される名前がこの ANSI または Unicode のバージョンの名前に対応しない、および、呼び出されたメソッドが&amp;1; つまたは複数の文字列パラメーターが含まれています、ANSI と Unicode バージョンの両方があります&lt;/xref:System.Runtime.InteropServices.DllImportAttribute.ExactSpelling?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following example provides an illustration by attempting to call the Windows <ph id="ph1">`MessageBox`</ph> function in User32.dll.</source>
+          <target state="translated">次の例では、具体的なは、Windows を呼び出すしようとして<ph id="ph1">`MessageBox`</ph>User32.dll 内の関数。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Because the first method definition specifies &lt;xref:System.Runtime.InteropServices.CharSet?displayProperty=fullName&gt; for string marshaling, the common language looks for the wide-character version of the function, <ph id="ph1">`MessageBoxW`</ph>, instead of the name used in the method call, <ph id="ph2">`MessageBox`</ph>.</source>
+          <target state="translated">最初のメソッドの定義が指定されているので&lt;xref:System.Runtime.InteropServices.CharSet?displayProperty=fullName&gt;共通言語が、関数のワイド文字バージョンを検索文字列のマーシャ リングで<ph id="ph1">`MessageBoxW`</ph>、メソッドの呼び出しで使用される名前ではなく<ph id="ph2">`MessageBox`</ph>&lt;/xref:System.Runtime.InteropServices.CharSet?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The second method definition corrects this problem by calling the <ph id="ph1">`MessageBoxW`</ph> instead of the <ph id="ph2">`MessageBox`</ph> function.</source>
+          <target state="translated">2 番目のメソッドの定義は、呼び出すことによってこの問題を修正、<ph id="ph1">`MessageBoxW`</ph>の代わりに、<ph id="ph2">`MessageBox`</ph>関数。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#2<ept id="p2">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_2.vb)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#2<ept id="p4">](~/add/codesnippet/csharp/t-system.entrypointnotfo_2.cs)</ept><ept id="p3">]</ept>      -   You are trying to call a function in a dynamic link library by its simple name rather than its decorated name.</source>
+          <target state="translated"><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#2<ept id="p2">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_2.vb)</ept><ept id="p1">]</ept><bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#2<ept id="p4">](~/add/codesnippet/csharp/t-system.entrypointnotfo_2.cs)</ept> <ept id="p3">]</ept> -その装飾名ではなく、単純な名前で、ダイナミック リンク ライブラリで関数を呼び出すしようとしています。      </target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Typically, the C++ compiler generates a decorated name for DLL functions.</source>
+          <target state="translated">通常、C++ コンパイラは、DLL 関数の装飾名を生成します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, the following C++ code defines a function named <ph id="ph1">`Double`</ph> in a library named TestDll.dll.</source>
+          <target state="translated">たとえば、次の C++ コードがという名前の関数を定義<ph id="ph1">`Double`</ph>TestDll.dll をという名前のライブラリにします。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cpp</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#6<ept id="p2">](~/add/codesnippet/cpp/testdll/testdll.cpp#6)</ept><ept id="p1">]</ept>           When the code in the following example tries to call the function, an EntryPointNotFoundException exception is thrown because the <ph id="ph1">`Double`</ph> function cannot be found.</source>
+          <target state="translated"><bpt id="p1">[!code-cpp</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#6<ept id="p2">](~/add/codesnippet/cpp/testdll/testdll.cpp#6)</ept> <ept id="p1">]</ept>ため、コードを次の例では、関数を呼び出す際に、EntryPointNotFoundException 例外がスローされます、<ph id="ph1">`Double`</ph>関数が見つかりません。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#7<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_4.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#7<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_4.vb)</ept><ept id="p3">]</ept>           However, if the function is called by using its decorated name (in this case, <ph id="ph1">`?Double@@YAHH@Z`</ph>), the function call succeeds, as the following example shows.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#7<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_4.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#7<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_4.vb)</ept> <ept id="p3">]</ept>ただし、装飾名を使用して、関数が呼び出されます (ここでは、 <ph id="ph1">`?Double@@YAHH@Z`</ph>)、次の例のように、関数呼び出しは成功します。      </target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#8<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_5.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#8<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_5.vb)</ept><ept id="p3">]</ept>           You can find the decorated names of functions exported by a DLL by using a utility such as Dumpbin.exe.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#8<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_5.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#8<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_5.vb)</ept> <ept id="p3">]</ept> Dumpbin.exe などのユーティリティを使用して DLL によってエクスポートされた関数の装飾名を見つけることができます。      </target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-   You are attempting to call a method in a managed assembly as if it were an unmanaged dynamic link library.</source>
+          <target state="translated">アンマネージ ダイナミック リンク ライブラリの場合と同様に、マネージ アセンブリのメソッドを呼び出す-しようとしています。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To see this in action, compile the following example to an assembly named StringUtilities.dll.</source>
+          <target state="translated">この動作を確認するには、StringUtilities.dll をという名前のアセンブリには、次の例をコンパイルします。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#3<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_6.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#3<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_6.vb)</ept><ept id="p3">]</ept>           Then compile and execute the following example, which attempts to call the <ph id="ph1">`StringUtilities.SayGoodMorning`</ph> method in the StringUtilities.dll dynamic link library as if it were unmanaged code.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#3<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_6.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#3<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_6.vb)</ept> <ept id="p3">]</ept>コンパイルしを呼び出そうとする次の例を実行、 <ph id="ph1">`StringUtilities.SayGoodMorning`</ph> StringUtilities.dll ダイナミック リンク ライブラリ内のメソッドがアンマネージ コードの場合と同様です。      </target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The result is an EntryPointNotFoundException exception.</source>
+          <target state="translated">EntryPointNotFoundException 例外になります。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#4<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_7.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#4<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_7.vb)</ept><ept id="p3">]</ept>           To eliminate the exception, add a reference to the managed assembly and access the <ph id="ph1">`StringUtilities.SayGoodMorning`</ph> method just as you would access any other method in managed code, as the following example does.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#4<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_7.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#4<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_7.vb)</ept> <ept id="p3">]</ept>例外をなくすためには、マネージ アセンブリとアクセスへの参照を追加、<ph id="ph1">`StringUtilities.SayGoodMorning`</ph>メソッドと同じように次の例では、マネージ コードで他のメソッドが表示されます。 ようです。      </target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#5<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_8.cs)</ept><ept id="p1">]</ept>      <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#5<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_8.vb)</ept><ept id="p3">]</ept>      -   You are trying to call a method in a COM DLL as if it were a Windows DLL.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.EntryPointNotFoundException.Class#5<ept id="p2">](~/add/codesnippet/csharp/t-system.entrypointnotfo_8.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.EntryPointNotFoundException.Class#5<ept id="p4">](~/add/codesnippet/visualbasic/t-system.entrypointnotfo_8.vb)</ept> <ept id="p3">]</ept> -Windows DLL の場合と同様に、COM DLL のメソッドを呼び出すしようとしています。      </target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To access a COM DLL, select the <bpt id="p1">**</bpt>Add Reference<ept id="p1">**</ept> option in Visual Studio to add a reference to the project, and then select the type library from the <bpt id="p2">**</bpt>COM<ept id="p2">**</ept> tab.</source>
+          <target state="translated">COM DLL にアクセスするには、選択、<bpt id="p1">**</bpt>参照の追加<ept id="p1">**</ept>Visual Studio プロジェクトへの参照を追加し、タイプ ライブラリを選択するオプション、 <bpt id="p2">**</bpt>COM<ept id="p2">**</ept>タブです。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For a list of initial property values for an instance of EntryPointNotFoundException, see the &lt;xref:System.EntryPointNotFoundException.%23ctor%2A&gt; constructors.</source>
+          <target state="translated">EntryPointNotFoundException のインスタンスの初期プロパティ値の一覧は、次を参照してください、&lt;xref:System.EntryPointNotFoundException.%23ctor%2A&gt;コンス トラクター。&lt;/xref:System.EntryPointNotFoundException.%23ctor%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This constructor initializes the &lt;xref:System.Exception.Message%2A&gt; property of the new instance to a system-supplied message that describes the error, such as "Entry point was not found."</source>
+          <target state="translated">このコンス トラクターは、 &lt;xref:System.Exception.Message%2A&gt;「のエントリ ポイントが見つかりませんでした」など、エラーを説明するシステム提供のメッセージの新しいインスタンスのプロパティ&lt;/xref:System.Exception.Message%2A&gt;を初期化します</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This message takes into account the current system culture.</source>
+          <target state="translated">このメッセージでは、現在のシステム カルチャが考慮されます。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values for an instance of &lt;xref:System.EntryPointNotFoundException&gt;.</source>
+          <target state="translated">次の表は、 &lt;xref:System.EntryPointNotFoundException&gt;。&lt;/xref:System.EntryPointNotFoundException&gt;のインスタンスの初期プロパティ値を示しています。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.Exception.InnerException%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic).|   |&lt;xref:System.TypeLoadException.Message%2A&gt;|The localized error message string.|</source>
+          <target state="translated">|プロパティ |値 |  |--------------|-----------|  |&lt;xref:System.Exception.InnerException%2A&gt;|Null 参照 (<ph id="ph1">`Nothing`</ph> Visual Basic で). |  |&lt;xref:System.TypeLoadException.Message%2A&gt;|ローカライズされたエラー メッセージ文字列 |&lt;/xref:System.TypeLoadException.Message%2A&gt; &lt;/xref:System.Exception.InnerException%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a specified error message.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したエラー メッセージを使用します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The content of <ph id="ph1">`message`</ph> is intended to be understood by humans.</source>
+          <target state="translated">コンテンツ<ph id="ph1">`message`</ph>ユーザーが理解するためのものです。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The caller of this constructor is required to ensure that this string has been localized for the current system culture.</source>
+          <target state="translated">このコンス トラクターの呼び出し元は、この文字列が現在のシステムのカルチャに合わせてローカライズ済みであることを確認するために必要です。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values for an instance of &lt;xref:System.EntryPointNotFoundException&gt;.</source>
+          <target state="translated">次の表は、 &lt;xref:System.EntryPointNotFoundException&gt;。&lt;/xref:System.EntryPointNotFoundException&gt;のインスタンスの初期プロパティ値を示しています。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.Exception.InnerException%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic).|   |&lt;xref:System.TypeLoadException.Message%2A&gt;|The error message string.|</source>
+          <target state="translated">|プロパティ |値 |  |--------------|-----------|  |&lt;xref:System.Exception.InnerException%2A&gt;|Null 参照 (<ph id="ph1">`Nothing`</ph> Visual Basic で). |  |&lt;xref:System.TypeLoadException.Message%2A&gt;|エラー メッセージ文字列 |&lt;/xref:System.TypeLoadException.Message%2A&gt; &lt;/xref:System.Exception.InnerException%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The error message that explains the reason for the exception.</source>
+          <target state="translated">例外の原因を説明するエラー メッセージ。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with serialized data.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>シリアル化されたデータを持つクラス。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This constructor is called during deserialization to reconstitute the exception object transmitted over a stream.</source>
+          <target state="translated">このコンス トラクターは、ストリームで送信された例外オブジェクトを再構成する逆シリアル化中に呼び出されます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The object that holds the serialized object data.</source>
+          <target state="translated">シリアル化されたオブジェクト データを保持するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The contextual information about the source or destination.</source>
+          <target state="translated">ソースまたは転送先に関する文脈情報。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a specified error message and a reference to the inner exception that is the cause of this exception.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.EntryPointNotFoundException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したエラー メッセージおよびこの例外の原因となった内部例外への参照を持つクラス。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An exception that is thrown as a direct result of a previous exception should include a reference to the previous exception in the &lt;xref:System.Exception.InnerException%2A&gt; property.</source>
+          <target state="translated">前の例外への参照を含める必要があります前の例外の直接の結果としてスローされる例外、&lt;xref:System.Exception.InnerException%2A&gt;プロパティ&lt;/xref:System.Exception.InnerException%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Exception.InnerException%2A&gt; property returns the same value that is passed into the constructor, or a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic) if the &lt;xref:System.Exception.InnerException%2A&gt; property does not supply the inner exception value to the constructor.</source>
+          <target state="translated">&lt;xref:System.Exception.InnerException%2A&gt;コンス トラクター、または null 参照に渡されたものと同じ値を返します (<ph id="ph1">`Nothing`</ph> Visual Basic で) 場合、&lt;xref:System.Exception.InnerException%2A&gt;プロパティがコンス トラクターには、内部例外値を指定していません&lt;/xref:System.Exception.InnerException%2A&gt;&lt;/xref:System.Exception.InnerException%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values for an instance of &lt;xref:System.EntryPointNotFoundException&gt;.</source>
+          <target state="translated">次の表は、 &lt;xref:System.EntryPointNotFoundException&gt;。&lt;/xref:System.EntryPointNotFoundException&gt;のインスタンスの初期プロパティ値を示しています。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.Exception.InnerException%2A&gt;|The inner exception reference.|   |&lt;xref:System.TypeLoadException.Message%2A&gt;|The error message string.|</source>
+          <target state="translated">|プロパティ |値 |  |--------------|-----------|  |&lt;xref:System.Exception.InnerException%2A&gt;|内部例外の参照 |。  |&lt;xref:System.TypeLoadException.Message%2A&gt;|エラー メッセージ文字列 |&lt;/xref:System.TypeLoadException.Message%2A&gt; &lt;/xref:System.Exception.InnerException%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The error message that explains the reason for the exception.</source>
+          <target state="translated">例外の原因を説明するエラー メッセージ。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The exception that is the cause of the current exception.</source>
+          <target state="translated">現在の例外の原因となった例外。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`inner`</ph> parameter is not a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic), the current exception is raised in a <bpt id="p2">&lt;xref uid="langword_csharp_catch" name="catch" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> block that handles the inner exception.</source>
+          <target state="translated">場合、<ph id="ph1">`inner`</ph>パラメーターが null 参照ではありません (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual Basic で) で現在の例外が発生、 <bpt id="p2">&lt;xref uid="langword_csharp_catch" name="catch" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>ブロックは、内部例外を処理します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

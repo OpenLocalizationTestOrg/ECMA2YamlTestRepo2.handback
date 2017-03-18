@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f0eb6e3c9132190d6d8b3cc0986e6e480ce53bc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.CryptoStream.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">633fc6db84e0abd7869ff2b4527371f117392b5c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93e082f81d45591baf3b4e8f8aa5e108ae21cd12</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a stream that links data streams to cryptographic transformations.</source>
+          <target state="translated">データ ストリームを暗号変換にリンクするストリームを定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The common language runtime uses a stream-oriented design for cryptography.</source>
+          <target state="translated">共通言語ランタイムは、暗号ストリーム指向デザインを使用します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The core of this design is CryptoStream.</source>
+          <target state="translated">この設計のコアは CryptoStream です。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Any cryptographic objects that implement CryptoStream can be chained together with any objects that implement &lt;xref:System.IO.Stream&gt;, so the streamed output from one object can be fed into the input of another object.</source>
+          <target state="translated">実装する任意のオブジェクトと、暗号化を実装するオブジェクト CryptoStream をチェーンできる&lt;xref:System.IO.Stream&gt;ので、別のオブジェクトの入力に&amp;1; つのオブジェクトからストリーミングされる出力を取り込むことができます&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The intermediate result (the output from the first object) does not need to be stored separately.</source>
+          <target state="translated">中間結果 (最初のオブジェクトからの出力) は、別個に格納する必要はありません。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  This type implements the &lt;xref:System.IDisposable&gt; interface.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; この型は、&lt;xref:System.IDisposable&gt;インターフェイス&lt;/xref:System.IDisposable&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When you have finished using the type, you should dispose of it either directly or indirectly by calling its &lt;xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt; method, which in turn calls its &lt;xref:System.IDisposable&gt; implementation.</source>
+          <target state="translated">型を使用してが完了したら、必要がありますを破棄することの直接または間接的に呼び出すことによってその&lt;xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt;メソッドを呼び出してその&lt;xref:System.IDisposable&gt;実装&lt;/xref:System.IDisposable&gt;&lt;/xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To dispose of the type directly, call its &lt;xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt; method in a <ph id="ph1">`try`</ph><ph id="ph2">/</ph><ph id="ph3">`catch`</ph> block.</source>
+          <target state="translated">型の直接 dispose を呼び出す、&lt;xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt;メソッドで、 <ph id="ph1">`try`</ph> <ph id="ph2">/</ph> <ph id="ph3">`catch`</ph>ブロック&lt;/xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To dispose of it indirectly, use a language construct such as <ph id="ph1">`using`</ph> (in C#) or <ph id="ph2">`Using`</ph> (in Visual Basic).</source>
+          <target state="translated">直接ことのない破棄する場合など、言語コンストラクトを使用して<ph id="ph1">`using`</ph>(C# の場合) または<ph id="ph2">`Using`</ph>(Visual Basic で)。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For more information, see the “Using an Object that Implements IDisposable” section in the &lt;xref:System.IDisposable&gt; interface topic.</source>
+          <target state="translated">詳細についてを参照してください"を使用して、オブジェクトを実装する IDisposable"、&lt;xref:System.IDisposable&gt;インターフェイスに関するトピック&lt;/xref:System.IDisposable&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You should always explicitly close your CryptoStream object after you are done using it by calling the &lt;xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt; method.</source>
+          <target state="translated">完了したら、cryptostream を常に明示的に閉じる必要がありますを使用して呼び出すことによって、&lt;xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt;メソッド&lt;/xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Doing so flushes the underlying stream and causes all remaining blocks of data to be processed by the CryptoStream object.</source>
+          <target state="translated">こう基になるストリームをフラッシュし、CryptoStream オブジェクトによって処理されるデータの残りのすべてのブロックが発生します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, if an exception occurs before you call the &lt;xref:System.IO.Stream.Close%2A&gt; method, the CryptoStream object might not be closed.</source>
+          <target state="translated">ただしを呼び出す前に、例外が発生した場合、&lt;xref:System.IO.Stream.Close%2A&gt;メソッド、オブジェクトが終了していない可能性があります CryptoStream&lt;/xref:System.IO.Stream.Close%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To ensure that the &lt;xref:System.IO.Stream.Close%2A&gt; method always gets called, place your call to the &lt;xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt; method within the <ph id="ph1">`finally`</ph> block of a <ph id="ph2">`try`</ph><ph id="ph3">/</ph><ph id="ph4">`catch`</ph> statement.</source>
+          <target state="translated">いることを確認する、&lt;xref:System.IO.Stream.Close%2A&gt;常にメソッドが呼び出されるへの呼び出しを配置、&lt;xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt;メソッド内で、<ph id="ph1">`finally`</ph>のブロック、 <ph id="ph2">`try`</ph> <ph id="ph3">/</ph> <ph id="ph4">`catch`</ph>ステートメント&lt;/xref:System.Security.Cryptography.CryptoStream.Clear%2A&gt;&lt;/xref:System.IO.Stream.Close%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a target data stream, the transformation to use, and the mode of the stream.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラス ターゲット データ ストリーム、使用するには、変換およびストリームのモードを使用します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Any object that derives from &lt;xref:System.IO.Stream&gt; can be passed into the <ph id="ph1">`stream`</ph> parameter.</source>
+          <target state="translated">派生した任意のオブジェクト&lt;xref:System.IO.Stream&gt;に渡すことができます、<ph id="ph1">`stream`</ph>パラメーター&lt;/xref:System.IO.Stream&gt; 。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Any object that implements &lt;xref:System.Security.Cryptography.ICryptoTransform&gt; (such as &lt;xref:System.Security.Cryptography.HashAlgorithm&gt;) can be passed into the <ph id="ph1">`transform`</ph> parameter.</source>
+          <target state="translated">実装する任意のオブジェクト&lt;xref:System.Security.Cryptography.ICryptoTransform&gt;(など&lt;xref:System.Security.Cryptography.HashAlgorithm&gt;) に渡すことができます、<ph id="ph1">`transform`</ph>パラメーター&lt;/xref:System.Security.Cryptography.HashAlgorithm&gt; &lt;/xref:System.Security.Cryptography.ICryptoTransform&gt; 。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The stream on which to perform the cryptographic transformation.</source>
+          <target state="translated">ストリームを暗号変換を実行します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The cryptographic transformation that is to be performed on the stream.</source>
+          <target state="translated">ストリームで実行する暗号変換。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStreamMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStreamMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>正しくありません。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is readable.</source>
+          <target state="translated">示す値を取得するかどうか、現在<bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>を読み取ることができます。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current stream is readable; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>現在のストリームが読み取り可能な場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether you can seek within the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">現在のシークできるかどうかを示す値を取得<bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Seeking is not enabled in a &lt;xref:System.Security.Cryptography.CryptoStream&gt;, so this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">シークが有効でない、&lt;xref:System.Security.Cryptography.CryptoStream&gt;ので、このメソッドは常に返します<ph id="ph1">`false`</ph>&lt;/xref:System.Security.Cryptography.CryptoStream&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is writable.</source>
+          <target state="translated">示す値を取得するかどうか、現在<bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>が書き込み可能です。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current stream is writable; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>現在のストリームが書き込み可能な場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">によって使用されるすべてのリソースを解放、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This method wraps a call to the type's &lt;xref:System.IDisposable.Dispose%2A?displayProperty=fullName&gt; implementation.</source>
+          <target state="translated">このメソッドは、型への呼び出しをラップ&lt;xref:System.IDisposable.Dispose%2A?displayProperty=fullName&gt;実装&lt;/xref:System.IDisposable.Dispose%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Calling <ph id="ph1">`Dispose`</ph> allows the resources used by the &lt;xref:System.Security.Cryptography.CryptoStream&gt; to be reallocated for other purposes.</source>
+          <target state="translated">呼び出す<ph id="ph1">`Dispose`</ph>により、リソースで使用される、&lt;xref:System.Security.Cryptography.CryptoStream&gt;を他の目的を再割り当てする&lt;/xref:System.Security.Cryptography.CryptoStream&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more information about <ph id="ph1">`Dispose`</ph>, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept></source>
+          <target state="translated">詳細については<ph id="ph1">`Dispose`</ph>を参照してください<bpt id="p1">[</bpt>アンマネージ リソースのクリーンアップ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept></target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">によって使用されるアンマネージ リソースを解放、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>し、必要に応じてマネージ リソースを解放します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the <ph id="ph2">`Finalize`</ph> method.</source>
+          <target state="translated">このメソッドは、パブリック<ph id="ph1">`Dispose()`</ph>メソッドおよび<ph id="ph2">`Finalize`</ph>メソッドです。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the disposing parameter set to <ph id="ph3">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>プロテクト呼び出します<ph id="ph2">`Dispose(Boolean)`</ph>disposing パラメーター設定したメソッド<ph id="ph3">`true`</ph>です。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Finalize`</ph> invokes <ph id="ph2">`Dispose`</ph> with disposing set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Finalize`</ph>呼び出す<ph id="ph2">`Dispose`</ph>するメソッドと<ph id="ph3">`false`</ph>です。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Security.Cryptography.CryptoStream&gt; references.</source>
+          <target state="translated">ときに、<ph id="ph1">`disposing`</ph>パラメーターは<ph id="ph2">`true`</ph>、このメソッドは、すべてのマネージ オブジェクトによって保持されているすべてのリソースを解放しますこの&lt;xref:System.Security.Cryptography.CryptoStream&gt;参照。&lt;/xref:System.Security.Cryptography.CryptoStream&gt; 。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">このメソッドを呼び出して、<ph id="ph1">`Dispose()`</ph>参照される各オブジェクトのメソッドです。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>マネージ コードとアンマネージ リソースを解放するには<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>アンマネージ リソースだけを解放します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Clears all buffers for the current stream and causes any buffered data to be written to the underlying device.</source>
+          <target state="translated">現在のストリームのすべてのバッファーをクリアし、基になるデバイスに書き込まれるバッファー内のデータします。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Flushing the stream will not flush its underlying encoder unless you explicitly call Flush or &lt;xref:System.IO.Stream.Close%2A&gt;.</source>
+          <target state="translated">フラッシュまたは&lt;xref:System.IO.Stream.Close%2A&gt;。&lt;/xref:System.IO.Stream.Close%2A&gt;を明示的に呼び出す場合を除き、ストリームのフラッシュは、基になるエンコーダー フラッシュされません。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Setting &lt;xref:System.IO.StreamWriter.AutoFlush%2A&gt; to <ph id="ph1">`true`</ph> means that data will be flushed from the buffer to the stream, but the encoder state will not be flushed.</source>
+          <target state="translated">設定&lt;xref:System.IO.StreamWriter.AutoFlush%2A&gt;に<ph id="ph1">`true`</ph>に、ストリーム バッファーからデータがフラッシュされますが、エンコーダーの状態はフラッシュされないことを意味します&lt;/xref:System.IO.StreamWriter.AutoFlush%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This allows the encoder to keep its state (partial characters) so that it can encode the next block of characters correctly.</source>
+          <target state="translated">これにより、次の文字のブロックを正常にエンコードできるように (一部の文字) の状態を保持するエンコーダー。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This scenario affects UTF8 and UTF7 where certain characters can only be encoded after the encoder receives the adjacent character or characters.</source>
+          <target state="translated">このシナリオでは、UTF8、UTF7、特定の文字をエンコードするため、エンコーダーは、隣接する文字または文字列を受信した後に影響します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You should call either the &lt;xref:System.IO.Stream.Close%2A&gt; method or the &lt;xref:System.Security.Cryptography.CryptoStream.FlushFinalBlock%2A&gt; method to complete flushing the buffer.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; いずれかを呼び出す必要があります、&lt;xref:System.IO.Stream.Close%2A&gt;メソッドまたは&lt;xref:System.Security.Cryptography.CryptoStream.FlushFinalBlock%2A&gt;メソッドが、バッファーのフラッシュを完了する&lt;/xref:System.Security.Cryptography.CryptoStream.FlushFinalBlock%2A&gt;&lt;/xref:System.IO.Stream.Close%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Clears all buffers for the current stream asynchronously, causes any buffered data to be written to the underlying device, and monitors cancellation requests.</source>
+          <target state="translated">現在のストリームのすべてのバッファーを非同期にクリア、基になるデバイスに書き込まれるバッファー内のデータおよびキャンセル要求を監視します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You must preface your call to FlushAsync with the <ph id="ph1">`await`</ph> (C#) or <ph id="ph2">`Await`</ph> (Visual Basic) operator to suspend execution of the method until the task is complete.</source>
+          <target state="translated">FlushAsync への呼び出しを付ける必要があります、 <ph id="ph1">`await`</ph> (c#) または<ph id="ph2">`Await`</ph>(Visual Basic) 演算子をタスクが完了するまでメソッドの実行を中断します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Asynchronous Programming with Async and Await<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>Async および Await を使用した非同期プログラミング<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the operation is canceled before it completes, the returned task contains the &lt;xref:System.Threading.Tasks.TaskStatus&gt; value for the &lt;xref:System.Threading.Tasks.Task.Status%2A&gt; property.</source>
+          <target state="translated">返されるタスクに含まれる完了前に、操作が取り消された場合、&lt;xref:System.Threading.Tasks.TaskStatus&gt;値を&lt;xref:System.Threading.Tasks.Task.Status%2A&gt;プロパティ&lt;/xref:System.Threading.Tasks.Task.Status%2A&gt;&lt;/xref:System.Threading.Tasks.TaskStatus&gt;。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The token to monitor for cancellation requests.</source>
+          <target state="translated">キャンセル要求を監視するトークンです。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The default value is &lt;xref:System.Threading.CancellationToken.None*&gt;.</source>
+          <target state="translated">既定値は&lt;xref:System.Threading.CancellationToken.None*&gt;。&lt;/xref:System.Threading.CancellationToken.None*&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A task that represents the asynchronous flush operation.</source>
+          <target state="translated">非同期のフラッシュ操作を表すタスク。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The stream has been disposed.</source>
+          <target state="translated">ストリームは破棄されました。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Updates the underlying data source or repository with the current state of the buffer, then clears the buffer.</source>
+          <target state="translated">バッファーの現在の状態と基になるデータ ソースまたはリポジトリを更新し、バッファーをクリアします。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Calling the &lt;xref:System.IO.Stream.Close%2A&gt; method will call FlushFinalBlock.</source>
+          <target state="translated">呼び出す、&lt;xref:System.IO.Stream.Close%2A&gt;メソッドは FlushFinalBlock を呼び出します&lt;/xref:System.IO.Stream.Close%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you do not call &lt;xref:System.IO.Stream.Close%2A&gt;, call FlushFinalBlock to complete flushing the buffer.</source>
+          <target state="translated">呼び出さない場合&lt;xref:System.IO.Stream.Close%2A&gt;、FlushFinalBlock、バッファーのフラッシュの完了を呼び出します&lt;/xref:System.IO.Stream.Close%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Call FlushFinalBlock only when all stream activity is complete.</source>
+          <target state="translated">ストリームのすべてのアクティビティが完了時にのみ、FlushFinalBlock を呼び出します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The key is corrupt which can cause invalid padding to the stream.</source>
+          <target state="translated">ストリームに無効な埋め込みが生じ、キーが壊れています。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The current stream is not writable.</source>
+          <target state="translated">現在のストリームが書き込み可能ではありません。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-or-       The final block has already been transformed.</source>
+          <target state="translated">- または - 最後のブロックが既に変換されています。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the final buffer block has been written to the underlying stream.</source>
+          <target state="translated">最後のバッファー ブロックが基になるストリームに書き込まれるかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This property is set <ph id="ph1">`true`</ph> when the &lt;xref:System.Security.Cryptography.CryptoStream.FlushFinalBlock%2A&gt; method is called.</source>
+          <target state="translated">このプロパティは設定<ph id="ph1">`true`</ph>ときに、&lt;xref:System.Security.Cryptography.CryptoStream.FlushFinalBlock%2A&gt;メソッドが呼び出されます&lt;/xref:System.Security.Cryptography.CryptoStream.FlushFinalBlock%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the final block has been flushed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>最後のブロックがフラッシュされた場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets the length in bytes of the stream.</source>
+          <target state="translated">ストリームのバイトの長さを取得します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This property exists only to support inheritance from &lt;xref:System.IO.Stream&gt;, and cannot be used.</source>
+          <target state="translated">継承をサポートするためだけにこのプロパティが存在する&lt;xref:System.IO.Stream&gt;、使用することはできません&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This property is not supported.</source>
+          <target state="translated">このプロパティがサポートされていません。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This property is not supported.</source>
+          <target state="translated">このプロパティがサポートされていません。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets or sets the position within the current stream.</source>
+          <target state="translated">取得または現在のストリーム内の位置を設定します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This property exists only to support inheritance from &lt;xref:System.IO.Stream&gt;, and cannot be used.</source>
+          <target state="translated">継承をサポートするためだけにこのプロパティが存在する&lt;xref:System.IO.Stream&gt;、使用することはできません&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This property is not supported.</source>
+          <target state="translated">このプロパティがサポートされていません。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This property is not supported.</source>
+          <target state="translated">このプロパティがサポートされていません。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read.</source>
+          <target state="translated">現在のストリームからバイト シーケンスを読み取り、読み取られたバイト数だけストリーム内の位置を進めます。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An array of bytes.</source>
+          <target state="translated">バイトの配列。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A maximum of <ph id="ph1">`count`</ph> bytes are read from the current stream and stored in <ph id="ph2">`buffer`</ph>.</source>
+          <target state="translated">最大<ph id="ph1">`count`</ph>バイトが現在のストリームから読み取るしに格納されている<ph id="ph2">`buffer`</ph>です。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The byte offset in <ph id="ph1">`buffer`</ph> at which to begin storing the data read from the current stream.</source>
+          <target state="translated">内のバイト オフセット<ph id="ph1">`buffer`</ph>開始位置を示す現在のストリームから読み取ったデータの格納します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to be read from the current stream.</source>
+          <target state="translated">現在のストリームから読み取られるバイトの最大数。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The total number of bytes read into the buffer.</source>
+          <target state="translated">バッファーに読み取られた合計バイト数。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This can be less than the number of bytes requested if that many bytes are not currently available, or zero if the end of the stream has been reached.</source>
+          <target state="translated">バイト数が、現在ご利用いただけませんこと、または場合は&amp;0;、ストリームの末尾に達している要求した場合のバイト数より小さくできます。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStreamMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with current <bpt id="p2">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object does not match the underlying stream.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStreamMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>に現在関連付けられている<bpt id="p2">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクトが、基になるストリームと一致しません。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For example, this exception is thrown when using <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStreamMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with an underlying stream that is write only.</source>
+          <target state="translated">使用する場合にこの例外をスローするなど、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStreamMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>書き込み専用である、基になるストリームにします。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than zero.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが&amp;0; 未満です。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">count</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than zero.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">count</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが&amp;0; 未満です。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Thesum of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">count</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">offset</ph><ept id="p2">&lt;/code&gt;</ept> parameters is longer than the length of the buffer.</source>
+          <target state="translated">合計を返します、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">count</ph> <ept id="p1">&lt;/code&gt;</ept>と<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">offset</ph> <ept id="p2">&lt;/code&gt;</ept>パラメーターが、バッファーの長さを超えています。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Reads a sequence of bytes from the current stream asynchronously, advances the position within the stream by the number of bytes read, and monitors cancellation requests.</source>
+          <target state="translated">現在のストリームからバイト シーケンスを非同期に読み取り、読み取ったバイト数だけストリーム内の位置を進めます、キャンセル要求を監視します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>You must preface your call to ReadAsync with the <ph id="ph1">`await`</ph> (C#) or <ph id="ph2">`Await`</ph> (Visual Basic) operator to suspend execution of the method until the task is complete.</source>
+          <target state="translated">ReadAsync とへの呼び出しを付ける必要があります、 <ph id="ph1">`await`</ph> (c#) または<ph id="ph2">`Await`</ph>(Visual Basic) 演算子をタスクが完了するまでメソッドの実行を中断します。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Asynchronous Programming with Async and Await<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>Async および Await を使用した非同期プログラミング<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If the operation is canceled before it completes, the returned task contains the &lt;xref:System.Threading.Tasks.TaskStatus&gt; value for the &lt;xref:System.Threading.Tasks.Task.Status%2A&gt; property.</source>
+          <target state="translated">返されるタスクに含まれる完了前に、操作が取り消された場合、&lt;xref:System.Threading.Tasks.TaskStatus&gt;値を&lt;xref:System.Threading.Tasks.Task.Status%2A&gt;プロパティ&lt;/xref:System.Threading.Tasks.Task.Status%2A&gt;&lt;/xref:System.Threading.Tasks.TaskStatus&gt;。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The buffer to write the data into.</source>
+          <target state="translated">データを書き込むバッファー。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The byte offset in <ph id="ph1">`buffer`</ph> at which to begin writing data from the stream.</source>
+          <target state="translated">内のバイト オフセット<ph id="ph1">`buffer`</ph>ストリームからデータを書き込む開始位置を示すです。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to read.</source>
+          <target state="translated">読み取るバイトの最大数。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The token to monitor for cancellation requests.</source>
+          <target state="translated">キャンセル要求を監視するトークンです。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The default value is &lt;xref:System.Threading.CancellationToken.None*&gt;.</source>
+          <target state="translated">既定値は&lt;xref:System.Threading.CancellationToken.None*&gt;。&lt;/xref:System.Threading.CancellationToken.None*&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A task that represents the asynchronous read operation.</source>
+          <target state="translated">読み取り操作を表す、非同期タスク。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The value of the task object's <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">TResult</ph><ept id="p1">&lt;/code&gt;</ept> parameter contains the total number of bytes read into the buffer.</source>
+          <target state="translated">タスク オブジェクトの値<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">TResult</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターには、バッファーに読み取られたバイトの合計数が含まれています。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The result can be less than the number of bytes requested if the number of bytes currently available is less than the requested number, or it can be 0 (zero) if the end of the stream has been reached.</source>
+          <target state="translated">結果は、現在使用できるバイト数が要求した数より小さいか、ストリームの末尾に達している場合 0 (ゼロ) であることを要求したバイト数より小さくなります。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> is negative.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>または<ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph>が負の値。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The sum of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">count</ph><ept id="p2">&lt;/code&gt;</ept> is larger than the buffer length.</source>
+          <target state="translated">合計<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept>と<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">count</ph> <ept id="p2">&lt;/code&gt;</ept>バッファー長を超えています。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The stream does not support reading.</source>
+          <target state="translated">ストリームは読み取りをサポートしていません。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The stream has been disposed.</source>
+          <target state="translated">ストリームは破棄されました。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The stream is currently in use by a previous read operation.</source>
+          <target state="translated">ストリームは、前の読み取り操作で使用するには現在します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Sets the position within the current stream.</source>
+          <target state="translated">現在のストリーム内の位置を設定します。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This method exists only to support inheritance from &lt;xref:System.IO.Stream&gt;, and cannot be used.</source>
+          <target state="translated">継承をサポートするためだけにこのメソッドが存在して&lt;xref:System.IO.Stream&gt;、使用することはできません&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A byte offset relative to the <ph id="ph1">`origin`</ph> parameter.</source>
+          <target state="translated">相対バイト オフセット、<ph id="ph1">`origin`</ph>パラメーター。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.SeekOrigin&gt; object indicating the reference point used to obtain the new position.</source>
+          <target state="translated">A&lt;xref:System.IO.SeekOrigin&gt;新しい位置を取得するために使用する参照ポイントを示すオブジェクト&lt;/xref:System.IO.SeekOrigin&gt;。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This method is not supported.</source>
+          <target state="translated">このメソッドがサポートされていません。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This method is not supported.</source>
+          <target state="translated">このメソッドがサポートされていません。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Sets the length of the current stream.</source>
+          <target state="translated">現在のストリームの長さを設定します。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>This property exists only to support inheritance from &lt;xref:System.IO.Stream&gt;, and cannot be used.</source>
+          <target state="translated">継承をサポートするためだけにこのプロパティが存在する&lt;xref:System.IO.Stream&gt;、使用することはできません&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The desired length of the current stream in bytes.</source>
+          <target state="translated">(バイト単位) の現在のストリームの希望の長さ。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This property exists only to support inheritance from &lt;xref:System.IO.Stream&gt;, and cannot be used.</source>
+          <target state="translated">継承をサポートするためだけにこのプロパティが存在する&lt;xref:System.IO.Stream&gt;、使用することはできません&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Writes a sequence of bytes to the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and advances the current position within the stream by the number of bytes written.</source>
+          <target state="translated">現在のバイトのシーケンスを書き込み<bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>書き込まれたバイト数だけストリーム内の現在位置を進めます。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>An array of bytes.</source>
+          <target state="translated">バイトの配列。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This method copies <ph id="ph1">`count`</ph> bytes from <ph id="ph2">`buffer`</ph> to the current stream.</source>
+          <target state="translated">このメソッドは、コピー<ph id="ph1">`count`</ph>からバイト<ph id="ph2">`buffer`</ph>現在のストリームにします。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The byte offset in <ph id="ph1">`buffer`</ph> at which to begin copying bytes to the current stream.</source>
+          <target state="translated">内のバイト オフセット<ph id="ph1">`buffer`</ph>現在のストリームにバイトのコピーを開始する位置。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The number of bytes to be written to the current stream.</source>
+          <target state="translated">現在のストリームに書き込むバイト数。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStreamMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with current <bpt id="p2">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object does not match the underlying stream.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStreamMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>に現在関連付けられている<bpt id="p2">&lt;xref href="System.Security.Cryptography.CryptoStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクトが、基になるストリームと一致しません。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For example, this exception is thrown when using <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStreamMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with an underlying stream that is read only.</source>
+          <target state="translated">使用する場合にこの例外をスローするなど、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptoStreamMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>は読み取り専用を基になるストリームを持つ。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than zero.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが&amp;0; 未満です。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">count</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than zero.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">count</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが&amp;0; 未満です。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The sum of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">count</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">offset</ph><ept id="p2">&lt;/code&gt;</ept> parameters is longer than the length of the buffer.</source>
+          <target state="translated">合計、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">count</ph> <ept id="p1">&lt;/code&gt;</ept>と<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">offset</ph> <ept id="p2">&lt;/code&gt;</ept>パラメーターが、バッファーの長さを超えています。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Writes a sequence of bytes to the current stream asynchronously, advances the current position within the stream by the number of bytes written, and monitors cancellation requests.</source>
+          <target state="translated">現在のストリームにバイト シーケンスを非同期で書き込みます、書き込んだバイト数だけストリーム内の現在位置を進めます、キャンセル要求を監視します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>You must preface your call to WriteAsync with the <ph id="ph1">`await`</ph> (C#) or <ph id="ph2">`Await`</ph> (Visual Basic) operator to suspend execution of the method until the task is complete.</source>
+          <target state="translated">WriteAsync とへの呼び出しを付ける必要があります、 <ph id="ph1">`await`</ph> (c#) または<ph id="ph2">`Await`</ph>(Visual Basic) 演算子をタスクが完了するまでメソッドの実行を中断します。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Asynchronous Programming with Async and Await<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>Async および Await を使用した非同期プログラミング<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>If the operation is canceled before it completes, the returned task contains the &lt;xref:System.Threading.Tasks.TaskStatus&gt; value for the &lt;xref:System.Threading.Tasks.Task.Status%2A&gt; property.</source>
+          <target state="translated">返されるタスクに含まれる完了前に、操作が取り消された場合、&lt;xref:System.Threading.Tasks.TaskStatus&gt;値を&lt;xref:System.Threading.Tasks.Task.Status%2A&gt;プロパティ&lt;/xref:System.Threading.Tasks.Task.Status%2A&gt;&lt;/xref:System.Threading.Tasks.TaskStatus&gt;。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The buffer to write data from.</source>
+          <target state="translated">データを書き込むバッファー。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The zero-based byte offset in <ph id="ph1">`buffer`</ph> from which to begin writing bytes to the stream.</source>
+          <target state="translated">内の&amp;0; から始まるバイト オフセット<ph id="ph1">`buffer`</ph>ストリームにバイトを書き込む開始位置を示すです。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to write.</source>
+          <target state="translated">書き込むバイトの最大数。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The token to monitor for cancellation requests.</source>
+          <target state="translated">キャンセル要求を監視するトークンです。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The default value is &lt;xref:System.Threading.CancellationToken.None*&gt;.</source>
+          <target state="translated">既定値は&lt;xref:System.Threading.CancellationToken.None*&gt;。&lt;/xref:System.Threading.CancellationToken.None*&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A task that represents the asynchronous write operation.</source>
+          <target state="translated">非同期の書き込み操作を表すタスク。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> is negative.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>または<ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph>が負の値。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The sum of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">count</ph><ept id="p2">&lt;/code&gt;</ept> is larger than the buffer length.</source>
+          <target state="translated">合計<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept>と<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">count</ph> <ept id="p2">&lt;/code&gt;</ept>バッファー長を超えています。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The stream does not support writing.</source>
+          <target state="translated">ストリームは書き込みをサポートしていません。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The stream has been disposed.</source>
+          <target state="translated">ストリームは破棄されました。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The stream is currently in use by a previous write operation.</source>
+          <target state="translated">ストリームは、前の書き込み操作で使用するには現在します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
