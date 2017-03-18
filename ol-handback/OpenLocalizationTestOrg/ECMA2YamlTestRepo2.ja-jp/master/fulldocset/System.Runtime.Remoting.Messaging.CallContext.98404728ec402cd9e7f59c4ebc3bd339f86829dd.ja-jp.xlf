@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2df498ff4e91f6120cb3441d670fd811ec850f5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Messaging.CallContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b336aabc63b055320b00681982c14042201c2f05</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f7c74a21df57427f259a5277647130df52db8f04</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a set of properties that are carried with the execution code path.</source>
+          <target state="translated">実行コード パスで実行されるプロパティのセットを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">このクラスは継承できません。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>CallContext is a specialized collection object similar to a Thread Local Storage for method calls and provides data slots that are unique to each logical thread of execution.</source>
+          <target state="translated">CallContext はメソッド呼び出しに対してスレッド ローカル ストレージのような特別なコレクション オブジェクトであり、実行の各論理スレッドに固有のデータ スロットを提供します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The slots are not shared across call contexts on other logical threads.</source>
+          <target state="translated">スロットは、他の論理スレッドで呼び出しのコンテキストでは共有されません。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Objects can be added to the CallContext as it travels down and back up the execution code path, and examined by various objects along the path.</source>
+          <target state="translated">オブジェクトは、内を移動し、実行コード パスをバックアップし、パスに沿ったさまざまなオブジェクトによって検査、CallContext に追加できます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When a remote method call is made to an object in another &lt;xref:System.AppDomain&gt;, the CallContext class generates a &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt; instance that travels along with the remote call.</source>
+          <target state="translated">別のオブジェクトにリモート メソッド呼び出しが行われたときに&lt;xref:System.AppDomain&gt;、CallContext クラスが生成されます、&lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;リモートの呼び出しと共に移動するインスタンス&lt;/xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;&lt;/xref:System.AppDomain&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Only objects that expose the &lt;xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt; interface and are stored in the CallContext are propagated outside the &lt;xref:System.AppDomain&gt; in a &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;.</source>
+          <target state="translated">オブジェクトのみが公開する、&lt;xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt;インターフェイスし、CallContext で保存される、&lt;xref:System.AppDomain&gt;&lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;&lt;/xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;&lt;/xref:System.AppDomain&gt;の外部伝達&lt;/xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Objects that do not support this interface are not transmitted in &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt; instances with remote method calls.</source>
+          <target state="translated">このインターフェイスをサポートしないオブジェクトが転送されない&lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;リモート メソッド呼び出しを含んだインスタンス&lt;/xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  All methods in CallContext are static and operate on the call context in the current &lt;xref:System.Threading.Thread&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; CallContext のすべてのメソッドは静的および&lt;xref:System.Threading.Thread&gt;.&lt;/xref:System.Threading.Thread&gt;の現在の呼び出しのコンテキストで動作</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This class makes a link demand.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このクラスは、リンク確認要求します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`SecurityException`</ph> is thrown if the immediate caller does not have infrastructure permission.</source>
+          <target state="translated">A<ph id="ph1">`SecurityException`</ph>が、直前の呼び出し元がインフラストラクチャのアクセス許可を持たない場合にスローされます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Link Demands<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> for more information.</source>
+          <target state="translated">参照してください<bpt id="p1">[</bpt>リンク確認要求<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>詳細についてはします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Empties a data slot with the specified name.</source>
+          <target state="translated">指定した名前のデータ スロットを空にします。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The name of the data slot to empty.</source>
+          <target state="translated">空のデータ スロットの名前。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直前の呼び出し元には、インフラストラクチャのアクセス許可がありません。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Retrieves an object with the specified name from the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.CallContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定した名前のオブジェクトを取得、 <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.CallContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The name of the item in the call context.</source>
+          <target state="translated">呼び出しのコンテキスト内の項目の名前です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The object in the call context associated with the specified name.</source>
+          <target state="translated">指定した名前に関連付けられている呼び出しのコンテキスト内のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直前の呼び出し元には、インフラストラクチャのアクセス許可がありません。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns the headers that are sent along with the method call.</source>
+          <target state="translated">メソッドの呼び出しと共に送信されるヘッダーを返します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The headers that are sent along with the method call.</source>
+          <target state="translated">メソッドの呼び出しと共に送信されるヘッダー。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直前の呼び出し元には、インフラストラクチャのアクセス許可がありません。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets or sets the host context associated with the current thread.</source>
+          <target state="translated">取得または現在のスレッドに関連付けられたホスト コンテキストを設定します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The host context associated with the current thread.</source>
+          <target state="translated">現在のスレッドに関連付けられたホスト コンテキスト。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直前の呼び出し元には、インフラストラクチャのアクセス許可がありません。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Retrieves an object with the specified name from the logical call context.</source>
+          <target state="translated">論理呼び出しコンテキストから指定した名前を持つオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The name of the item in the logical call context.</source>
+          <target state="translated">論理呼び出しコンテキスト内の項目の名前。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The object in the logical call context associated with the specified name.</source>
+          <target state="translated">指定した名前に関連付けられている論理呼び出しコンテキスト内のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直前の呼び出し元には、インフラストラクチャのアクセス許可がありません。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Stores a given object in the logical call context and associates it with the specified name.</source>
+          <target state="translated">論理呼び出しコンテキストに指定されたオブジェクトを格納し、指定した名前に関連付けます。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The name with which to associate the new item in the logical call context.</source>
+          <target state="translated">論理呼び出しコンテキストに新しい項目を関連付けられる名前です。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The object to store in the logical call context, this object must be serializable.</source>
+          <target state="translated">論理呼び出しコンテキスト、このオブジェクトに格納するオブジェクトをシリアル化する必要があります。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直前の呼び出し元には、インフラストラクチャのアクセス許可がありません。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Stores a given object and associates it with the specified name.</source>
+          <target state="translated">指定したオブジェクトを格納し、指定した名前に関連付けます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The name with which to associate the new item in the call context.</source>
+          <target state="translated">呼び出しのコンテキスト内の新しい項目を関連付けられる名前です。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The object to store in the call context.</source>
+          <target state="translated">呼び出しのコンテキストに格納するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直前の呼び出し元には、インフラストラクチャのアクセス許可がありません。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Sets the headers that are sent along with the method call.</source>
+          <target state="translated">メソッドの呼び出しと共に送信されるヘッダーを設定します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.Header"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array of the headers that are to be sent along with the method call.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.Header"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>メソッドの呼び出しと共に送信するのには、ヘッダーの配列。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直前の呼び出し元には、インフラストラクチャのアクセス許可がありません。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
