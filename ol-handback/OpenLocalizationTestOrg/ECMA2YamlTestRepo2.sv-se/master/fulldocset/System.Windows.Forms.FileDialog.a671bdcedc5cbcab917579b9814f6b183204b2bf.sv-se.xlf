@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8cc5d63a1a6c89fbf3bbc1d6774bf755a0427d8f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.FileDialog.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92c6641caf56f2cb887149e150a509ba2c77da9c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e5bf068fd8909e49f274f8e61186f896419329a0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Displays a dialog box from which the user can select a file.</source>
+          <target state="translated">Visar en dialogruta där användaren kan välja en fil.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>FileDialog is an abstract class that contains common behavior for the &lt;xref:System.Windows.Forms.OpenFileDialog&gt; and &lt;xref:System.Windows.Forms.SaveFileDialog&gt; classes.</source>
+          <target state="translated">FileDialog är en abstrakt klass som innehåller gemensamt beteende för den &lt;xref:System.Windows.Forms.OpenFileDialog&gt;och &lt;xref:System.Windows.Forms.SaveFileDialog&gt;klasser.&lt;/xref:System.Windows.Forms.SaveFileDialog&gt; &lt;/xref:System.Windows.Forms.OpenFileDialog&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not intended to be used directly but contains common behavior for those two classes.</source>
+          <target state="translated">Det är inte avsedd att användas direkt, men innehåller gemensamt beteende för de två klasserna.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot create an instance of FileDialog.</source>
+          <target state="translated">Du kan inte skapa en instans av FileDialog.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although the class is declared public, you cannot inherit from it, as it contains internal abstract methods.</source>
+          <target state="translated">Även om klassen har deklarerats som public, kan inte du ärva från den, eftersom den innehåller interna abstrakta metoder.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a dialog box to select or save a file, use &lt;xref:System.Windows.Forms.OpenFileDialog&gt; or &lt;xref:System.Windows.Forms.SaveFileDialog&gt;.</source>
+          <target state="translated">Använd &lt;xref:System.Windows.Forms.OpenFileDialog&gt;eller &lt;xref:System.Windows.Forms.SaveFileDialog&gt;.&lt;/xref:System.Windows.Forms.SaveFileDialog&gt; &lt;/xref:System.Windows.Forms.OpenFileDialog&gt; för att skapa en dialogruta där du kan markera eller spara en fil</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>FileDialog is a modal dialog box; therefore, when shown, it blocks the rest of the application until the user has chosen a file.</source>
+          <target state="translated">FileDialog är en spärrad dialogruta; Därför när visas, blockeras resten av programmet förrän användaren har valt en fil.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a dialog box is displayed modally, no input (keyboard or mouse click) can occur except to objects on the dialog box.</source>
+          <target state="translated">När en dialogruta visas spärrade kan inga indata (tangentbordet eller musen klicka) inträffa utom objekt i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The program must hide or close the dialog box (usually in response to some user action) before input to the calling program can occur.</source>
+          <target state="translated">Programmet måste döljer och Stäng dialogrutan (vanligtvis som svar på en användaråtgärd) innan indata till det anropande programmet kan uppstå.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  When you use classes derived from FileDialog, such as &lt;xref:System.Windows.Forms.OpenFileDialog&gt; and &lt;xref:System.Windows.Forms.SaveFileDialog&gt;, avoid using string literals containing absolute paths.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; När du använder klasser som härleds från FileDialog, som &lt;xref:System.Windows.Forms.OpenFileDialog&gt;och &lt;xref:System.Windows.Forms.SaveFileDialog&gt;, Undvik att använda stränglitteraler som innehåller absoluta sökvägar.&lt;/xref:System.Windows.Forms.SaveFileDialog&gt; &lt;/xref:System.Windows.Forms.OpenFileDialog&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, dynamically obtain the path using one or more of the techniques described in the following table.</source>
+          <target state="translated">I stället dynamiskt hämta sökväg med hjälp av en eller flera av de metoder som beskrivs i följande tabell.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to enable users to select a folder instead of a file, use the &lt;xref:System.Windows.Forms.FolderBrowserDialog&gt;.</source>
+          <target state="translated">Om du vill att användarna ska kunna välja en mapp i stället för en fil, använda &lt;xref:System.Windows.Forms.FolderBrowserDialog&gt;.&lt;/xref:System.Windows.Forms.FolderBrowserDialog&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending upon the type of application, how data associated with the application is stored, and the reason for accessing the file system, there are many possible ways in which you can create a directory path.</source>
+          <target state="translated">Beroende på vilken typ av program, hur data som är associerade med programmet lagras och orsaken till att få åtkomst till filsystemet, finns det många möjliga sätt som du kan skapa en katalogsökväg.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the techniques for creating paths dynamically.</source>
+          <target state="translated">I följande tabell visas teknikerna för att dynamiskt skapa sökvägar.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Path or program category|Class and members to use|   |------------------------------|------------------------------|   |Standard Windows paths, such as Program Files, MyDocuments, the Desktop and so on|The &lt;xref:System.Environment?displayProperty=fullName&gt; class is the most complete source for these, either through its static methods, such as &lt;xref:System.Environment.SystemDirectory%2A&gt;, or through the &lt;xref:System.Environment.GetFolderPath%2A&gt; method, using one of the &lt;xref:System.Environment.SpecialFolder&gt; enumerated values.|   |Paths related to the current application|The &lt;xref:System.Windows.Forms.Application&gt; class has static members to obtain certain paths, such as &lt;xref:System.Windows.Forms.Application.StartupPath%2A&gt;, &lt;xref:System.Windows.Forms.Application.ExecutablePath%2A&gt;, &lt;xref:System.Windows.Forms.Application.LocalUserAppDataPath%2A&gt;, and &lt;xref:System.Windows.Forms.Application.CommonAppDataPath%2A&gt;.</source>
+          <target state="translated">| Sökväg eller programmet kategori | Klassen och medlemmar att använda |   |------------------------------|------------------------------|   | Standard Windows-sökvägar, till exempel programfiler, Mina dokument, skrivbordet och så vidare | Klassen &lt;xref:System.Environment?displayProperty=fullName&gt;är den mest omfattande källan för dessa, antingen via dess statiska metoder, till exempel &lt;xref:System.Environment.SystemDirectory%2A&gt;, eller via metoden &lt;xref:System.Environment.GetFolderPath%2A&gt;med någon av &lt;xref:System.Environment.SpecialFolder&gt;uppräknade värden. |   | Sökvägar som är relaterade till det aktuella programmet | Den &lt;xref:System.Windows.Forms.Application&gt;klass har statiska medlemmar för att hämta vissa sökvägar som &lt;xref:System.Windows.Forms.Application.StartupPath%2A&gt;, &lt;xref:System.Windows.Forms.Application.ExecutablePath%2A&gt;, &lt;xref:System.Windows.Forms.Application.LocalUserAppDataPath%2A&gt;, och &lt;xref:System.Windows.Forms.Application.CommonAppDataPath%2A&gt;.&lt;/xref:System.Windows.Forms.Application.CommonAppDataPath%2A&gt; &lt;/xref:System.Windows.Forms.Application.LocalUserAppDataPath%2A&gt; &lt;/xref:System.Windows.Forms.Application.ExecutablePath%2A&gt; &lt;/xref:System.Windows.Forms.Application.StartupPath%2A&gt; &lt;/xref:System.Windows.Forms.Application&gt; &lt;/xref:System.Environment.SpecialFolder&gt; &lt;/xref:System.Environment.GetFolderPath%2A&gt; &lt;/xref:System.Environment.SystemDirectory%2A&gt; &lt;/xref:System.Environment?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.Path.GetTempPath%2A&gt; method of the &lt;xref:System.IO.Path?displayProperty=fullName&gt; returns the path of the temporary folder.</source>
+          <target state="translated">Den &lt;xref:System.IO.Path.GetTempPath%2A&gt;metod för den &lt;xref:System.IO.Path?displayProperty=fullName&gt;returnerar sökvägen till den tillfälliga mappen.&lt;/xref:System.IO.Path?displayProperty=fullName&gt; &lt;/xref:System.IO.Path.GetTempPath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.Directory.GetCurrentDirectory%2A&gt; method of the &lt;xref:System.IO.Directory?displayProperty=fullName&gt; class returns the application's current executing directory.</source>
+          <target state="translated">Den &lt;xref:System.IO.Directory.GetCurrentDirectory%2A&gt;metod för den &lt;xref:System.IO.Directory?displayProperty=fullName&gt;klassen returnerar aktuella verkställande programkatalogen.&lt;/xref:System.IO.Directory?displayProperty=fullName&gt; &lt;/xref:System.IO.Directory.GetCurrentDirectory%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.DriveInfo.RootDirectory%2A&gt; property of the &lt;xref:System.IO.DriveInfo&gt; class represents the specified drive's root directory.|   |Paths stored as application settings|Access the corresponding applications settings property of the wrapper class derived from &lt;xref:System.Configuration.ApplicationSettingsBase&gt;.</source>
+          <target state="translated">Egenskapen &lt;xref:System.IO.DriveInfo.RootDirectory%2A&gt; &lt;xref:System.IO.DriveInfo&gt;-klassen representerar den angivna enheten rotkatalog. |   | Sökvägar som lagras som programinställningar | Åtkomst till motsvarande program inställningsegenskapen av wrapper-klass som härleds från &lt;xref:System.Configuration.ApplicationSettingsBase&gt;.&lt;/xref:System.Configuration.ApplicationSettingsBase&gt; &lt;/xref:System.IO.DriveInfo&gt; &lt;/xref:System.IO.DriveInfo.RootDirectory%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Application Settings for Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.|   |Registry storage|Some applications store directory information in the registry.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>programmet inställningar för Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>. |   | Registret storage | Vissa program lagra kataloginformation i registret.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Forms.Application&gt; class has the &lt;xref:System.Windows.Forms.Application.CommonAppDataPath%2A&gt; and &lt;xref:System.Windows.Forms.Application.LocalUserAppDataPath%2A&gt; properties that resolve to a &lt;xref:Microsoft.Win32.RegistryKey&gt; value.|   |ClickOnce applications|For ClickOnce applications, use &lt;xref:System.Windows.Forms.Application&gt; class members such as &lt;xref:System.Windows.Forms.Application.UserAppDataPath%2A&gt;, which will return a pointer to the ClickOnce data directory.</source>
+          <target state="translated">Klassen &lt;xref:System.Windows.Forms.Application&gt;har &lt;xref:System.Windows.Forms.Application.CommonAppDataPath%2A&gt;och &lt;xref:System.Windows.Forms.Application.LocalUserAppDataPath%2A&gt;Egenskaper att matcha värdet &lt;xref:Microsoft.Win32.RegistryKey&gt;. |   | ClickOnce-program | För ClickOnce-program kan använda &lt;xref:System.Windows.Forms.Application&gt;klassen medlemmar som &lt;xref:System.Windows.Forms.Application.UserAppDataPath%2A&gt;, som returnerar en pekare till ClickOnce-datakatalog.&lt;/xref:System.Windows.Forms.Application.UserAppDataPath%2A&gt; &lt;/xref:System.Windows.Forms.Application&gt; &lt;/xref:Microsoft.Win32.RegistryKey&gt; &lt;/xref:System.Windows.Forms.Application.LocalUserAppDataPath%2A&gt; &lt;/xref:System.Windows.Forms.Application.CommonAppDataPath%2A&gt; &lt;/xref:System.Windows.Forms.Application&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Accessing Local and Remote Data in ClickOnce Applications<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.|   |International applications|For international applications, retrieve the relative path portion from a string resource in your application by using the &lt;xref:System.Resources.ResourceReader?displayProperty=fullName&gt; class.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>åtkomst till lokala och fjärranslutna Data i ClickOnce-program<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>. |   | Internationella program | För internationella program att hämta den relativa sökvägsdelen från en strängresurs i ditt program med hjälp av &lt;xref:System.Resources.ResourceReader?displayProperty=fullName&gt;klassen.&lt;/xref:System.Resources.ResourceReader?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about globalization and localization, see the topic <bpt id="p1">[</bpt>Globalization and Localization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.|       Notice that a full path may be built up using one or more of the described techniques.</source>
+          <target state="translated">Mer information om globalisering och lokalisering finns i avsnittet <bpt id="p1">[</bpt>globalisering och lokalisering<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>. |       Observera att en fullständig sökväg kan byggas upp med hjälp av en eller flera av teknikerna som beskrivs.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Environment.GetFolderPath%2A&gt; method might be used to obtain the path to the MyDocuments folder, then an application setting may be used to add a relative subdirectory portion.</source>
+          <target state="translated">Till exempel den &lt;xref:System.Environment.GetFolderPath%2A&gt;metoden kan användas för att hämta sökvägen till mappen Mina dokument och sedan programinställning kan användas för att lägga till en del av relativa underkatalog.&lt;/xref:System.Environment.GetFolderPath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.Path?displayProperty=fullName&gt; class contains static members to assist in manipulating absolute and relative path strings, whereas the &lt;xref:System.IO.File?displayProperty=fullName&gt; and &lt;xref:System.IO.Directory?displayProperty=fullName&gt; classes have static members that actually manipulate files and directories, respectively.</source>
+          <target state="translated">Den &lt;xref:System.IO.Path?displayProperty=fullName&gt;klassen innehåller statiska medlemmarna till att manipulera absoluta och relativa sökvägsträngar, medan den &lt;xref:System.IO.File?displayProperty=fullName&gt;och &lt;xref:System.IO.Directory?displayProperty=fullName&gt;klasser har statiska medlemmar som faktiskt manipulera filer och kataloger.&lt;/xref:System.IO.Directory?displayProperty=fullName&gt; &lt;/xref:System.IO.File?displayProperty=fullName&gt; &lt;/xref:System.IO.Path?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  If the user of your application changes the folder in the FileDialog, then the current working directory for your application is set to the location specified in the FileDialog.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Om användare av ditt program ändrar mappen i FileDialog och den aktuella arbetskatalogen för tillämpningsprogrammet anges till den plats som anges i FileDialog.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To prevent this, set the &lt;xref:System.Windows.Forms.FileDialog.RestoreDirectory%2A&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Om du vill förhindra detta genom att ange den &lt;xref:System.Windows.Forms.FileDialog.RestoreDirectory%2A&gt;egenskapen <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.Forms.FileDialog.RestoreDirectory%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the dialog box automatically adds an extension to a file name if the user omits the extension.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om dialogrutan lägger automatiskt till ett tillägg till ett filnamn om användaren utelämnar tillägget.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extension added to a file name depends on the currently selected file filter and the value of the &lt;xref:System.Windows.Forms.FileDialog.CheckFileExists%2A&gt; property.</source>
+          <target state="translated">Tillägget till ett filnamn beror på det markerade filen filtret och värdet för den &lt;xref:System.Windows.Forms.FileDialog.CheckFileExists%2A&gt;egenskapen.&lt;/xref:System.Windows.Forms.FileDialog.CheckFileExists%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Forms.FileDialog.CheckFileExists%2A&gt; property is <ph id="ph1">`true`</ph>, the dialog box adds the first extension from the current file filter that matches an existing file.</source>
+          <target state="translated">Om den &lt;xref:System.Windows.Forms.FileDialog.CheckFileExists%2A&gt;egenskapen är <ph id="ph1">`true`</ph>, dialogrutan lägger till tillägget första från filfilter som matchar en befintlig fil.&lt;/xref:System.Windows.Forms.FileDialog.CheckFileExists%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no files match the current file filter, the dialog box adds the extension specified in the &lt;xref:System.Windows.Forms.FileDialog.DefaultExt%2A&gt; property.</source>
+          <target state="translated">Om inga filer som matchar filfiltret dialogrutan lägger till tillägget som anges i den &lt;xref:System.Windows.Forms.FileDialog.DefaultExt%2A&gt;egenskapen.&lt;/xref:System.Windows.Forms.FileDialog.DefaultExt%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Forms.FileDialog.CheckFileExists%2A&gt; property is <ph id="ph1">`false`</ph>, the dialog box adds the first valid file name extension from the current file filter.</source>
+          <target state="translated">Om den &lt;xref:System.Windows.Forms.FileDialog.CheckFileExists%2A&gt;egenskapen är <ph id="ph1">`false`</ph>, dialogrutan lägger till det första giltiga filnamnstillägget från filfiltret.&lt;/xref:System.Windows.Forms.FileDialog.CheckFileExists%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the current file filter contains no valid file name extensions, the dialog box adds the extension specified in the &lt;xref:System.Windows.Forms.FileDialog.DefaultExt%2A&gt; property.</source>
+          <target state="translated">Om filfiltret innehåller ingen giltig filnamnstillägg, dialogrutan lägger till tillägget som anges i den &lt;xref:System.Windows.Forms.FileDialog.DefaultExt%2A&gt;egenskapen.&lt;/xref:System.Windows.Forms.FileDialog.DefaultExt%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dialog box adds an extension to a file name if the user omits the extension; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om dialogrutan lägger till ett tillägg till ett filnamn om användaren utelämnar tillägget; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether this <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance should automatically upgrade appearance and behavior when running on <ph id="ph1">[!INCLUDE[wiprlhext](~/add/includes/wiprlhext-md.md)]</ph>.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om detta <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans bör automatiskt uppgradera utseendet och beteendet när det körs på <ph id="ph1">[!INCLUDE[wiprlhext](~/add/includes/wiprlhext-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is <ph id="ph1">`false`</ph>, the &lt;xref:System.Windows.Forms.FileDialog&gt; class will have a <ph id="ph2">[!INCLUDE[winxp](~/add/includes/winxp-md.md)]</ph>-style appearance and behavior on <ph id="ph3">[!INCLUDE[wiprlhext](~/add/includes/wiprlhext-md.md)]</ph>.</source>
+          <target state="translated">Om den här egenskapen är <ph id="ph1">`false`</ph>, &lt;xref:System.Windows.Forms.FileDialog&gt;klassen har en <ph id="ph2">[!INCLUDE[winxp](~/add/includes/winxp-md.md)]</ph>-style utseende och beteende på <ph id="ph3">[!INCLUDE[wiprlhext](~/add/includes/wiprlhext-md.md)]</ph>.&lt;/xref:System.Windows.Forms.FileDialog&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On <ph id="ph1">[!INCLUDE[winxp](~/add/includes/winxp-md.md)]</ph>, this property does not have any effect.</source>
+          <target state="translated">På <ph id="ph1">[!INCLUDE[winxp](~/add/includes/winxp-md.md)]</ph>, den här egenskapen inte har någon effekt.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this <bpt id="p2">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance should automatically upgrade appearance and behavior when running on <ph id="ph1">[!INCLUDE[wiprlhext](~/add/includes/wiprlhext-md.md)]</ph>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den här <bpt id="p2">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> instans bör automatiskt uppgradera utseendet och beteendet när du kör <ph id="ph1">[!INCLUDE[wiprlhext](~/add/includes/wiprlhext-md.md)]</ph>, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the dialog box displays a warning if the user specifies a file name that does not exist.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om dialogrutan visar en varning om användaren anger ett namn som inte finns.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is <ph id="ph1">`true`</ph> for an inheriting &lt;xref:System.Windows.Forms.OpenFileDialog&gt; and <ph id="ph2">`false`</ph> for an inheriting &lt;xref:System.Windows.Forms.SaveFileDialog&gt;.</source>
+          <target state="translated">Standardvärdet är <ph id="ph1">`true`</ph> för en arv &lt;xref:System.Windows.Forms.OpenFileDialog&gt;och <ph id="ph2">`false`</ph> för arv &lt;xref:System.Windows.Forms.SaveFileDialog&gt;.&lt;/xref:System.Windows.Forms.SaveFileDialog&gt; &lt;/xref:System.Windows.Forms.OpenFileDialog&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dialog box displays a warning if the user specifies a file name that does not exist; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om dialogrutan visar en varning om användaren anger ett namn som inte finns; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the dialog box displays a warning if the user specifies a path that does not exist.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om dialogrutan visar en varning om användaren anger en sökväg som inte finns.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dialog box displays a warning when the user specifies a path that does not exist; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om dialogrutan visas en varning när användaren anger en sökväg som inte finns; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the custom places collection for this <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Hämtar samlingen anpassade platser för den här <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On <ph id="ph1">[!INCLUDE[winxp](~/add/includes/winxp-md.md)]</ph>, this property does not have any effect.</source>
+          <target state="translated">På <ph id="ph1">[!INCLUDE[winxp](~/add/includes/winxp-md.md)]</ph>, den här egenskapen inte har någon effekt.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The custom places collection for this <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Anpassat placerar samlingen för den här <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets or sets the default file name extension.</source>
+          <target state="translated">Hämtar eller anger standardfiltillägget.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the user of your application specifies a file name without an extension, the &lt;xref:System.Windows.Forms.FileDialog&gt; appends an extension to the file name.</source>
+          <target state="translated">När användaren för programmet anger ett filnamn utan ett tillägg i &lt;xref:System.Windows.Forms.FileDialog&gt;lägger till tillägget i filnamnet.&lt;/xref:System.Windows.Forms.FileDialog&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extension that is used is determined by the &lt;xref:System.Windows.Forms.FileDialog.Filter%2A&gt; and DefaultExt properties.</source>
+          <target state="translated">Det tillägg som används beror på &lt;xref:System.Windows.Forms.FileDialog.Filter%2A&gt;och DefaultExt egenskaper.&lt;/xref:System.Windows.Forms.FileDialog.Filter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a filter is selected in the &lt;xref:System.Windows.Forms.FileDialog&gt; and the filter specifies an extension, then that extension is used.</source>
+          <target state="translated">Om ett filter har valts i den &lt;xref:System.Windows.Forms.FileDialog&gt;och filtret anger ett tillägg och sedan används för det här tillägget.&lt;/xref:System.Windows.Forms.FileDialog&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the filter selected uses a wildcard in place of the extension, then the extension specified in the DefaultExt property is used.</source>
+          <target state="translated">Om filtret har valt använder jokertecken i stället för filnamnstillägget, används det tillägg som anges i egenskapen DefaultExt.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The default file name extension.</source>
+          <target state="translated">Standardfiltillägget.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The returned string does not include the period.</source>
+          <target state="translated">Den returnerade strängen innehåller inte perioden.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("").</source>
+          <target state="translated">Standardvärdet är en tom sträng ("").</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the dialog box returns the location of the file referenced by the shortcut or whether it returns the location of the shortcut (.lnk).</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om dialogrutan returnerar platsen för den fil som refereras av genvägen eller om den returnerar plats för genvägen (lnk).</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dialog box returns the location of the file referenced by the shortcut; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om dialogrutan returnerar platsen för den fil som refereras av genvägen. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Owns the <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog.FileOk"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Äger den <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog.FileOk"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string containing the file name selected in the file dialog box.</source>
+          <target state="translated">Hämtar eller anger en sträng som innehåller filnamnet som valts i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The file name includes both the file path and the extension.</source>
+          <target state="translated">Filnamnet innehåller både sökvägen och tillägget.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no files are selected, this method returns an empty string ("").</source>
+          <target state="translated">Om inga filer har markerats kan den här metoden returnerar en tom sträng ("").</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When used from the &lt;xref:System.Windows.Forms.SaveFileDialog&gt; class, this property represents the file being saved; when used from the &lt;xref:System.Windows.Forms.OpenFileDialog&gt; class, it represents the file being opened.</source>
+          <target state="translated">När används från den &lt;xref:System.Windows.Forms.SaveFileDialog&gt;klassen denna egenskap representerar filen sparas, när används från den &lt;xref:System.Windows.Forms.OpenFileDialog&gt;klass som representerar filen som öppnas.&lt;/xref:System.Windows.Forms.OpenFileDialog&gt; &lt;/xref:System.Windows.Forms.SaveFileDialog&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property can only be the name of one selected file.</source>
+          <target state="translated">Den här egenskapen kan bara vara namnet på en markerad fil.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to return an array containing the names of all selected files in a multiple-selection dialog box, use &lt;xref:System.Windows.Forms.FileDialog.FileNames%2A&gt;.</source>
+          <target state="translated">Om du vill returnera en matris som innehåller namnen på alla markerade filer i en dialogruta med flera val Använd &lt;xref:System.Windows.Forms.FileDialog.FileNames%2A&gt;.&lt;/xref:System.Windows.Forms.FileDialog.FileNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The file name selected in the file dialog box.</source>
+          <target state="translated">Filnamnet som valts i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("").</source>
+          <target state="translated">Standardvärdet är en tom sträng ("").</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets the file names of all selected files in the dialog box.</source>
+          <target state="translated">Hämtar filnamnen för alla markerade filer i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each file name includes both the file path and the extension.</source>
+          <target state="translated">Filnamnet innehåller både sökvägen och tillägget.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no files are selected, this method returns an empty array.</source>
+          <target state="translated">Om inga filer har valts i den här metoden returnerar en tom matris.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.String&gt;, containing the file names of all selected files in the dialog box.</source>
+          <target state="translated">En matris av typen &lt;xref:System.String&gt;, som innehåller filnamnen för alla markerade filer i dialogrutan.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Occurs when the user clicks on the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Save<ept id="p2">**</ept> button on a file dialog box.</source>
+          <target state="translated">Inträffar när användaren klickar på den <bpt id="p1">**</bpt>öppna<ept id="p1">**</ept> eller <bpt id="p2">**</bpt>spara<ept id="p2">**</ept> i en dialogruta för filen.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about handling events, see <bpt id="p1">[</bpt>Handling and Raising Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Information om hur du hanterar händelser finns <bpt id="p1">[</bpt>hantering och höja händelser<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets or sets the current file name filter string, which determines the choices that appear in the "Save as file type" or "Files of type" box in the dialog box.</source>
+          <target state="translated">Hämtar eller anger aktuellt filen namnet Filtersträngen som avgör vilka alternativ som visas i "Spara som" eller "Filer av typen" rutan i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For each filtering option, the filter string contains a description of the filter, followed by the vertical bar (&amp;#124;) and the filter pattern.</source>
+          <target state="translated">För varje filtreringsalternativ Filtersträngen innehåller en beskrivning av filtret, följt av lodrätt streck (|) och filtermönstret.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The strings for different filtering options are separated by the vertical bar.</source>
+          <target state="translated">Strängarna för olika filteralternativ separeras av vertikalstreck.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following is an example of a filter string:       <ph id="ph1">`Text files (*.txt)|*.txt|All files (*.*)|*.*`</ph>       You can add several filter patterns to a filter by separating the file types with semicolons, for example:       <ph id="ph2">`Image Files(*.BMP;*.JPG;*.GIF)|*.BMP;*.JPG;*.GIF|All files (*.*)|*.*`</ph>       Use the &lt;xref:System.Windows.Forms.FileDialog.FilterIndex%2A&gt; property to set which filtering option is shown first to the user.</source>
+          <target state="translated">Följande är ett exempel på en Filtersträng: <ph id="ph1">`Text files (*.txt)|*.txt|All files (*.*)|*.*`</ph> du kan lägga till flera filtrera mönster till ett filter genom att avgränsa filtyperna med semikolon, till exempel: <ph id="ph2">`Image Files(*.BMP;*.JPG;*.GIF)|*.BMP;*.JPG;*.GIF|All files (*.*)|*.*`</ph> används den &lt;xref:System.Windows.Forms.FileDialog.FilterIndex%2A&gt;egenskapen för att ange vilka filtreringsalternativ visas första för användaren.&lt;/xref:System.Windows.Forms.FileDialog.FilterIndex%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The file filtering options available in the dialog box.</source>
+          <target state="translated">Filen filtreringsalternativ som finns tillgängliga i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Filter&lt;/code&gt;</ph> format is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Filter&lt;/code&gt;</ph>formatet är ogiltigt.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Gets or sets the index of the filter currently selected in the file dialog box.</source>
+          <target state="translated">Hämtar eller anger index för filtret är markerad i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the FilterIndex property to set which filtering option is shown first to the user.</source>
+          <target state="translated">Använd egenskapen FilterIndex att ange vilka filtreringsalternativ visas först till användaren.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use the value of FilterIndex after showing the file dialog to perform special file operations depending upon the filter chosen.</source>
+          <target state="translated">Du kan också använda värdet för FilterIndex efter visar dialogrutan fil att utföra särskilda åtgärder beroende på de filter som är valt.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The index value of the first filter entry is 1.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Indexvärdet för första filterpost är 1.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A value containing the index of the filter currently selected in the file dialog box.</source>
+          <target state="translated">Ett värde som innehåller indexet för filtret är markerad i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value is 1.</source>
+          <target state="translated">Standardvärdet är 1.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Defines the common dialog box hook procedure that is overridden to add specific functionality to the file dialog box.</source>
+          <target state="translated">Definierar gemensamma dialogrutan rutan hook proceduren som åsidosätts om du vill lägga till specifika funktioner i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A hook procedure allows the user to connect or insert other routines into a routine or application for the purpose of debugging or enhancing functionality.</source>
+          <target state="translated">Hook-procedur används att ansluta eller infoga andra rutiner i en rutin eller ett program för felsökning eller utöka funktioner.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the hook procedure centers the dialog box on the screen in response to a WM_INITDIALOG message.</source>
+          <target state="translated">Som standard Datacenter hook-procedur dialogrutan på skärmen som svar på ett WM_INITDIALOG-meddelande.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The handle to the dialog box window.</source>
+          <target state="translated">Referensen till rutan dialogruta.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The message received by the dialog box.</source>
+          <target state="translated">Det meddelande som tagits emot av dialogrutan.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Additional information about the message.</source>
+          <target state="translated">Ytterligare information om meddelandet.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Additional information about the message.</source>
+          <target state="translated">Ytterligare information om meddelandet.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Returns zero if the default dialog box procedure processes the message; returns a nonzero value if the default dialog box procedure ignores the message.</source>
+          <target state="translated">Returnerar noll om standard dialogrutan rutan proceduren bearbetar meddelandet. Returnerar ett värde som inte är noll om standard dialogrutan rutan proceduren ignorerar meddelandet.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets or sets the initial directory displayed by the file dialog box.</source>
+          <target state="translated">Hämtar eller anger den inledande katalogen visas i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The InitialDirectory property is typically set using one of the following sources:      -   A path that was previously used in the program, perhaps retained from the last directory or file operation.</source>
+          <target state="translated">Egenskapen InitialDirectory anges vanligtvis på något av följande källor:-en sökväg som tidigare användes i programmet kanske sparade från den senaste åtgärden katalog eller fil.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A path read from a persistent source, such as an application setting, a &lt;xref:Microsoft.Win32.Registry&gt; or a string resource in the application.</source>
+          <target state="translated">-En sökväg läsa från en beständig källa, till exempel en tillämpningsinställning en &lt;xref:Microsoft.Win32.Registry&gt;eller en strängresurs i programmet.&lt;/xref:Microsoft.Win32.Registry&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Standard Windows system and user paths, such as Program Files, MyDocuments, MyMusic, and so on (which you can obtain using the &lt;xref:System.Environment.GetFolderPath%2A&gt; method)      -   A path related to the current application, such as its startup directory (which you can obtain using properties on the &lt;xref:System.Windows.Forms.Application&gt; object).</source>
+          <target state="translated">-Standard Windows system- och sökvägar, till exempel programfiler, Mina dokument, MyMusic och så vidare (som du kan hämta med hjälp av den &lt;xref:System.Environment.GetFolderPath%2A&gt;metoden)-en sökväg som är relaterade till det aktuella programmet, till exempel dess startkatalogen (som du kan hämta med hjälp av egenskaper på den &lt;xref:System.Windows.Forms.Application&gt;objekt).&lt;/xref:System.Windows.Forms.Application&gt; &lt;/xref:System.Environment.GetFolderPath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about creating dynamic paths, see the &lt;xref:System.Windows.Forms.FileDialog&gt; class overview.</source>
+          <target state="translated">Mer information om hur du skapar dynamiska sökvägar finns på &lt;xref:System.Windows.Forms.FileDialog&gt;Översikt över klassen.&lt;/xref:System.Windows.Forms.FileDialog&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On <ph id="ph1">[!INCLUDE[wiprlhext](~/add/includes/wiprlhext-md.md)]</ph>, if InitialDirectory is set to a full file name instead of just a directory path, the initial directory will default either to the application path, or to the directory from which the user last selected a file.</source>
+          <target state="translated">På <ph id="ph1">[!INCLUDE[wiprlhext](~/add/includes/wiprlhext-md.md)]</ph>, om InitialDirectory är ett fullständigt namn i stället för bara en katalogsökväg startkatalog blir som standard till sökvägen till programmet eller till den katalog där användaren senast valt en fil.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The initial directory displayed by the file dialog box.</source>
+          <target state="translated">Den inledande katalogen visas dialogrutan.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Standardvärdet är en tom sträng ("").</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets the Win32 instance handle for the application.</source>
+          <target state="translated">Hämtar instans Win32-referensen för programmet.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>A Win32 instance handle for the application.</source>
+          <target state="translated">Ett Win32 instans handtag för programmet.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog.FileOk"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog.FileOk"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.ComponentModel.CancelEventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.ComponentModel.CancelEventArgs&gt;som innehåller informationen om händelsen.&lt;/xref:System.ComponentModel.CancelEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets values to initialize the <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hämtar värden för att initiera den <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Options property corresponds to the flags used to initialize a file dialog box using Win32.</source>
+          <target state="translated">Egenskapen alternativ motsvarar de flaggor som används för att initiera en dialogruta med hjälp av Win32.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the properties of the &lt;xref:System.Windows.Forms.FileDialog&gt; class to get and set the options.</source>
+          <target state="translated">Använda egenskaperna för den &lt;xref:System.Windows.Forms.FileDialog&gt;klassen för att hämta och ange önskade alternativ.&lt;/xref:System.Windows.Forms.FileDialog&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of internal values that initializes the <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En binär kombination av interna värdena som initierar den <bpt id="p1">&lt;xref href="System.Windows.Forms.FileDialog"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Resets all properties to their default values.</source>
+          <target state="translated">Återställer alla egenskaper till sina standardvärden.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the dialog box restores the directory to the previously selected directory before closing.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om dialogrutan återställer katalogen till den tidigare valda mappen före stängning.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dialog box restores the current directory to the previously selected directory if the user changed the directory while searching for files; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om dialogrutan återställer den aktuella katalogen till den tidigare valda katalogen om användaren ändra katalogen samtidigt som du söker efter filer. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Specifies a common dialog box.</source>
+          <target state="translated">Anger en gemensam dialogruta.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides an implementation of &lt;xref:System.Windows.Forms.CommonDialog.RunDialog%2A&gt;, and is invoked when the user of a file dialog invokes &lt;xref:System.Windows.Forms.CommonDialog.ShowDialog%2A&gt;.</source>
+          <target state="translated">Den här metoden är en implementering av &lt;xref:System.Windows.Forms.CommonDialog.RunDialog%2A&gt;, och anropas när användaren av en fildialogruta anropar &lt;xref:System.Windows.Forms.CommonDialog.ShowDialog%2A&gt;.&lt;/xref:System.Windows.Forms.CommonDialog.ShowDialog%2A&gt; &lt;/xref:System.Windows.Forms.CommonDialog.RunDialog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the derived classes &lt;xref:System.Windows.Forms.OpenFileDialog&gt; and &lt;xref:System.Windows.Forms.SaveFileDialog&gt; an invalid file name &lt;xref:System.Exception&gt; can be raised.</source>
+          <target state="translated">De härledda klasserna &lt;xref:System.Windows.Forms.OpenFileDialog&gt;och &lt;xref:System.Windows.Forms.SaveFileDialog&gt;ett ogiltigt filnamn &lt;xref:System.Exception&gt;kan aktiveras.&lt;/xref:System.Exception&gt; &lt;/xref:System.Windows.Forms.SaveFileDialog&gt; &lt;/xref:System.Windows.Forms.OpenFileDialog&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A value that represents the window handle of the owner window for the common dialog box.</source>
+          <target state="translated">Ett värde som representerar fönsterreferensen i fönstret för dialogrutan vanliga ägare.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the file could be opened; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om filen kunde öppnas. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> button is displayed in the file dialog box.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om den <bpt id="p1">**</bpt>hjälp<ept id="p1">**</ept> knappen ska visas i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.Forms.Control.HelpRequested&gt; event is raised when the user clicks the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> button.</source>
+          <target state="translated">En &lt;xref:System.Windows.Forms.Control.HelpRequested&gt;händelsen inträffar när användaren klickar på den <bpt id="p1">**</bpt>hjälp<ept id="p1">**</ept> knappen.&lt;/xref:System.Windows.Forms.Control.HelpRequested&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dialog box includes a help button; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om dialogrutan innehåller en hjälpknapp. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Gets or sets whether the dialog box supports displaying and saving files that have multiple file name extensions.</source>
+          <target state="translated">Hämtar eller anger om dialogrutan stöder visning och sparar filer som har flera filnamnstillägg.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sometimes users must open and save files that use multiple file name extensions.</source>
+          <target state="translated">Ibland användare måste öppna och spara filer som använder flera filnamnstillägg.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the application manifest files used by the <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> deployment technology end in the complex file name extension ".exe.manifest".</source>
+          <target state="translated">Till exempel programmet manifestfiler används av den <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> distributionsslut teknik i komplexa filnamnstillägget ". exe.manifest".</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property to <ph id="ph1">`true`</ph> enables you to set the &lt;xref:System.Windows.Forms.FileDialog.Filter%2A&gt; property to a multi-dotted extension.</source>
+          <target state="translated">Den här egenskapen <ph id="ph1">`true`</ph> kan du ange den &lt;xref:System.Windows.Forms.FileDialog.Filter%2A&gt;egenskapen till ett tillägg för flera punkter.&lt;/xref:System.Windows.Forms.FileDialog.Filter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If SupportMultiDottedExtensions is <ph id="ph1">`false`</ph>, and you assign a multi-dotted extension to &lt;xref:System.Windows.Forms.FileDialog.Filter%2A&gt;, derived controls such as &lt;xref:System.Windows.Forms.SaveFileDialog&gt; will only use the last extension in the string.</source>
+          <target state="translated">Om SupportMultiDottedExtensions <ph id="ph1">`false`</ph>, och du tilldela ett filtilläg med flera punkter tillägg till &lt;xref:System.Windows.Forms.FileDialog.Filter%2A&gt;, härledda kontroller som &lt;xref:System.Windows.Forms.SaveFileDialog&gt;ska bara använda det senaste tillägget i strängen.&lt;/xref:System.Windows.Forms.SaveFileDialog&gt; &lt;/xref:System.Windows.Forms.FileDialog.Filter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, ".manifest" will be used instead of ".exe.manifest".</source>
+          <target state="translated">Till exempel "manifest" används i stället för ". exe.manifest".</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dialog box supports multiple file name extensions; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om dialogrutan stöder flera filnamnstillägg. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Gets or sets the file dialog box title.</source>
+          <target state="translated">Hämtar eller anger filnamn för rutan i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string is placed in the title bar of the dialog box.</source>
+          <target state="translated">Strängen är placerad i namnlisten i dialogrutan.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the title is an empty string, the system uses a default title, which is either "Save As" or "Open".</source>
+          <target state="translated">Om rubriken är en tom sträng, används en Standardrubrik som är "Spara som" eller "Öppen".</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The file dialog box title.</source>
+          <target state="translated">Rubrik för filen dialogrutan rutan.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("").</source>
+          <target state="translated">Standardvärdet är en tom sträng ("").</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Provides a string version of this object.</source>
+          <target state="translated">Innehåller en strängversion av det här objektet.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>A string version of this object.</source>
+          <target state="translated">En strängversion av det här objektet.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the dialog box accepts only valid Win32 file names.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om dialogrutan accepterar endast giltigt Win32 filnamn.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the edit control contains anything but spaces when the user clicks <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>, the dialog box returns the file name, whether it is valid or not.</source>
+          <target state="translated">Om redigeringskontrollen innehåller något men lagringsutrymmen när användaren klickar på <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>, dialogrutan returnerar filnamnet, om den är giltig eller inte.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No default extension is added to the text.</source>
+          <target state="translated">Inget standardtillägg läggs till texten.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the dialog box accepts only valid Win32 file names; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om dialogrutan accepterar endast giltigt Win32 filnamn. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18662fc7d4230fec1646d4f41a321def8a23513b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.ConstrainedExecution.CriticalFinalizerObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5a5736c7dcdd99a345b20fb0791d808fd69d96cb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e9b04922d7371f340cf7d6c6a6bd3b788587af5a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Ensures that all finalization code in derived classes is marked as critical.</source>
+          <target state="translated">Garante que todo o código de finalização em classes derivadas está marcado como crítico.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes deriving from the CriticalFinalizerObject class are implicitly treated as a constrained execution region (CER).</source>
+          <target state="translated">Classes derivadas da classe de CriticalFinalizerObject implicitamente são tratadas como uma região de execução restrita (. CER).</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This requires code in the finalizer to only call code with a strong reliability contract.</source>
+          <target state="translated">Isto requer um código no Finalizador para só é possível chamar código com um contrato de fiabilidade forte.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about CERs, see the &lt;xref:System.Runtime.ConstrainedExecution&gt; namespace.</source>
+          <target state="translated">Para mais informações sobre CERs, consulte o &lt;xref:System.Runtime.ConstrainedExecution&gt;espaço de nomes.&lt;/xref:System.Runtime.ConstrainedExecution&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In classes derived from the CriticalFinalizerObject class, the common language runtime (CLR) guarantees that all critical finalization code will be given the opportunity to execute, provided the finalizer follows the rules for a CER, even in situations where the CLR forcibly unloads an application domain or aborts a thread.</source>
+          <target state="translated">Em classes derivadas da classe de CriticalFinalizerObject, as garantias de runtime (CLR) de idioma comum que todo o código de finalização críticos terá a oportunidade para executar, forneceu a Finalizador segue as regras para um CER, mesmo em situações em que o CLR a forçar a efetua a descarga de um domínio de aplicação ou interrompe um thread.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a finalizer violates the rules for a CER, it might not successfully execute.</source>
+          <target state="translated">Se um finalizador viola as regras para um CER, este poderá não com êxito executar.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, the CLR establishes a weak ordering among normal and critical finalizers: for objects reclaimed by garbage collection at the same time, all the noncritical finalizers are called before any of the critical finalizers.</source>
+          <target state="translated">Além disso, o CLR estabelece uma ordenação fraca entre os finalizadores normais e críticos: para objetos recuperados através da recolha de lixo ao mesmo tempo, os reinicio finalizadores são denominados antes de qualquer um dos finalizadores críticos.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a class such as &lt;xref:System.IO.FileStream&gt;, which holds data in the &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; class that is derived from CriticalFinalizerObject, can run a standard finalizer to flush out existing buffered data.</source>
+          <target state="translated">Por exemplo, uma classe, como &lt;xref:System.IO.FileStream&gt;, que contém dados o &lt;xref:System.Runtime.InteropServices.SafeHandle&gt;classe que deriva de CriticalFinalizerObject, pode executar um Finalizador padrão para esvaziar saída dados colocados em memória intermédia existentes.&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt; &lt;/xref:System.IO.FileStream&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most cases, you do not need to write classes that derive from the CriticalFinalizerObject class.</source>
+          <target state="translated">Na maioria dos casos, não terá de escrever as classes que derivam da classe de CriticalFinalizerObject.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework class library provides two classes, &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; and &lt;xref:System.Runtime.InteropServices.CriticalHandle&gt;, that provide critical finalization functionality for handle resources.</source>
+          <target state="translated">A biblioteca de classe do .NET Framework fornece duas classes, &lt;xref:System.Runtime.InteropServices.SafeHandle&gt;e &lt;xref:System.Runtime.InteropServices.CriticalHandle&gt;, que fornecer a funcionalidade de finalização crítico de identificador de recursos.&lt;/xref:System.Runtime.InteropServices.CriticalHandle&gt; &lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Furthermore, the .NET Framework provides a set of prewritten classes derived from the &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; class, and this set is located in the &lt;xref:Microsoft.Win32.SafeHandles&gt; namespace.</source>
+          <target state="translated">Além disso, o .NET Framework fornece um conjunto de prewritten classes derivadas do &lt;xref:System.Runtime.InteropServices.SafeHandle&gt;classe e esta conjunto está localizado no &lt;xref:Microsoft.Win32.SafeHandles&gt;espaço de nomes.&lt;/xref:Microsoft.Win32.SafeHandles&gt; &lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These classes are designed to provide common functionality for supporting file and operating system handles.</source>
+          <target state="translated">Estas classes são concebidas para fornecer a funcionalidade comum de suporte de identificadores de ficheiros e o sistema operativo.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.ConstrainedExecution.CriticalFinalizerObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Runtime.ConstrainedExecution.CriticalFinalizerObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Releases all the resources used by the <bpt id="p1">&lt;xref href="System.Runtime.ConstrainedExecution.CriticalFinalizerObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Versões de todos os recursos utilizados pelo <bpt id="p1">&lt;xref href="System.Runtime.ConstrainedExecution.CriticalFinalizerObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The finalizer for any types deriving from &lt;xref:System.Runtime.ConstrainedExecution.CriticalFinalizerObject&gt; is given the opportunity to execute and will not be aborted, assuming the finalizer correctly follows the rules for a constrained execution region (CER).</source>
+          <target state="translated">O Finalizador para quaisquer tipos derivados de &lt;xref:System.Runtime.ConstrainedExecution.CriticalFinalizerObject&gt;é dada a oportunidade de execução e será não ser abortada, partindo do princípio de Finalizador corretamente segue as regras para uma região de execução restrita (. CER).&lt;/xref:System.Runtime.ConstrainedExecution.CriticalFinalizerObject&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

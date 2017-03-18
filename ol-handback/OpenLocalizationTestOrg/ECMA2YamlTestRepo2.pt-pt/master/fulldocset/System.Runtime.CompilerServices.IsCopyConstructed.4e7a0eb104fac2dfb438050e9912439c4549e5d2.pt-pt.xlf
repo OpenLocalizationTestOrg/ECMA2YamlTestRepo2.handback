@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">78fe025ed1306ab9b993d7f9b14e599f4ca0826e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.CompilerServices.IsCopyConstructed.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">835df474c68fab3670202d1eac439cfb637a1f62</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d25b428b122340d8e50c7194241e06d4af2e1543</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Indicates that any copying of values of this type must use the copy constructor provided by the type.</source>
+          <target state="translated">Indica que qualquer cópia dos valores deste tipo tem de utilizar o construtor de cópia fornecido pelo tipo.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Esta classe não pode ser herdada.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any type modified by the IsCopyConstructed class must implement a method named <ph id="ph1">`MarshalCopy`</ph> that calls the native copy constructor.</source>
+          <target state="translated">Qualquer tipo modificado pela classe IsCopyConstructed tem de implementar um método denominado <ph id="ph1">`MarshalCopy`</ph> que chama o construtor de cópia nativo.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any native C++ type that is emitted into metadata with copy constructors needs to have those methods called by the marshaler when copying values across the marshaling boundary.</source>
+          <target state="translated">Qualquer tipo de C++ nativo, que é emitido para metadados com construtores de cópia tem de ter os métodos de chamada pelo empacotador de referências ao copiar os valores entre o limite de empacotamento de referências.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Microsoft C++ compiler modifies all native C++ types in method parameters and return types that have this modifier to trigger this behavior in the marshaling code.</source>
+          <target state="translated">O compilador do Microsoft C++ modifica todos os tipos nativos do C++ nos parâmetros de método e devolvem tipos que têm este modificador para acionar este comportamento no código de empacotamento de referências.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Compilers emit custom modifiers within metadata to change the way that the just-in-time (JIT) compiler handles values when the default behavior is not appropriate.</source>
+          <target state="translated">Em compiladores emitir Modificadores personalizados dentro de metadados para alterar a forma como o compilador do just-in-time (JIT) processa valores, quando o comportamento predefinido não é adequado.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the JIT compiler encounters a custom modifier, it handles the value in the way that the modifier specifies.</source>
+          <target state="translated">Quando o compilador JIT encontra um modificador personalizado, processa o valor da forma que o modificador especifica.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Compilers can apply custom modifiers to methods, parameters, and return values.</source>
+          <target state="translated">Em compiladores podem aplicar Modificadores personalizadas para os métodos, parâmetros e valores devolvidos.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The JIT compiler must respond to required modifiers but can ignore optional modifiers.</source>
+          <target state="translated">O compilador JIT deve responder para Modificadores necessárias, mas pode ignorar Modificadores opcionais.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can emit custom modifiers into metadata using one of the following techniques:      -   Using methods in the &lt;xref:System.Reflection.Emit.TypeBuilder&gt; class such as &lt;xref:System.Reflection.Emit.TypeBuilder.DefineMethod%2A&gt;, &lt;xref:System.Reflection.Emit.TypeBuilder.DefineField%2A&gt;, &lt;xref:System.Reflection.Emit.TypeBuilder.DefineConstructor%2A&gt;, and &lt;xref:System.Reflection.Emit.TypeBuilder.DefineProperty%2A&gt;.</source>
+          <target state="translated">Pode emitir Modificadores personalizadas para os metadados utilizando um das seguintes técnicas:-a utilizar métodos no &lt;xref:System.Reflection.Emit.TypeBuilder&gt;classe como &lt;xref:System.Reflection.Emit.TypeBuilder.DefineMethod%2A&gt;, &lt;xref:System.Reflection.Emit.TypeBuilder.DefineField%2A&gt;, &lt;xref:System.Reflection.Emit.TypeBuilder.DefineConstructor%2A&gt;e &lt;xref:System.Reflection.Emit.TypeBuilder.DefineProperty%2A&gt;.&lt;/xref:System.Reflection.Emit.TypeBuilder.DefineProperty%2A&gt; &lt;/xref:System.Reflection.Emit.TypeBuilder.DefineConstructor%2A&gt; &lt;/xref:System.Reflection.Emit.TypeBuilder.DefineField%2A&gt; &lt;/xref:System.Reflection.Emit.TypeBuilder.DefineMethod%2A&gt; &lt;/xref:System.Reflection.Emit.TypeBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Generating a Microsoft intermediate language (MSIL) instruction file that contains calls to <ph id="ph1">`modopt`</ph> and <ph id="ph2">`modreq`</ph>, and assembling the file with the <bpt id="p1">[</bpt>Ilasm.exe (IL Assembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">-Gerar um ficheiro de instrução de idioma intermédias (MSIL) Microsoft contém chamadas para <ph id="ph1">`modopt`</ph> e <ph id="ph2">`modreq`</ph>e montagem do ficheiro com o <bpt id="p1">[</bpt>Ilasm.exe (IL Assembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Using the unmanaged reflection API.</source>
+          <target state="translated">-Utilizando a API de reflexão não gerido.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a4211e680eb2ed0a94e8f6223ea0787105b6aa41</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Channels.IClientChannelSinkStack.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b0238d1449ea18d134858ad81c9b65260c686d9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cba03d7cc6ea6fb568d286dc373922a9e39df0ed</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides functionality for a stack of client channel sinks that must be invoked during an asynchronous message response decoding.</source>
+          <target state="translated">Biedt functionaliteit voor een client-stack kanaal put die moeten worden aangeroepen tijdens een asynchrone bericht antwoord decoderen.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IClientChannelSinkStack is used during processing of responses to asynchronous calls.</source>
+          <target state="translated">De IClientChannelSinkStack wordt gebruikt tijdens het verwerken van netwerkaanvragen asynchrone aanroepen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During a synchronous call, the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A?displayProperty=fullName&gt; method is called when a message is outbound to the server.</source>
+          <target state="translated">Tijdens een aanroep van synchrone de &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A?displayProperty=fullName&gt;methode wordt aangeroepen wanneer een bericht uitgaand naar de server.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each sink in the sink chain calls the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt; method on the next sink until the call reaches the transport sink at the end of the chain.</source>
+          <target state="translated">Elke sink bij het aanroepen van de keten sink de &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt;methode op de volgende sink totdat de aanroep van de transportsink aan het einde van de keten is bereikt.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>From there the message is transported to the server.</source>
+          <target state="translated">Het bericht wordt getransporteerd van daaruit naar de server.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the formatter sink is called through the &lt;xref:System.Runtime.Remoting.Messaging.IMessageSink.AsyncProcessMessage%2A&gt; method, it dispatches the call asynchronously by calling &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt; on the next channel sink.</source>
+          <target state="translated">Wanneer de formatter-sink is aangeroepen via de &lt;xref:System.Runtime.Remoting.Messaging.IMessageSink.AsyncProcessMessage%2A&gt;methode, verzendt de aanroep van asynchroon door aan te roepen &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;voor het volgende kanaalfilter.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt; &lt;/xref:System.Runtime.Remoting.Messaging.IMessageSink.AsyncProcessMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A stack of reply sinks is needed to process the response.</source>
+          <target state="translated">Een antwoord put-stack is nodig voor het verwerken van het antwoord.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any sink that wants to process the response needs to push itself to the client channel sink stack inside of &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;.</source>
+          <target state="translated">Alle sink die wil verwerken van het antwoord moet zichzelf push naar de client kanaalfilterstack binnen &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Pops the information associated with all the sinks from the sink stack up to and including the specified sink.</source>
+          <target state="translated">De informatie die is gekoppeld aan alle sinks uit de filterstack tot en met de opgegeven sink verschijnt.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The sink to remove and return from the sink stack.</source>
+          <target state="translated">De sink te verwijderen en het retourneren van de filterstack.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Information generated on the request side and associated with the specified sink.</source>
+          <target state="translated">Gegevens die aan de kant van de aanvraag wordt gegenereerd en die zijn gekoppeld aan de opgegeven sink.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">De onmiddellijke aanroeper is niet gemachtigd voor infrastructuur.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Pushes the specified sink and information associated with it onto the sink stack.</source>
+          <target state="translated">De opgegeven sink en gegevens die zijn gekoppeld naar de filterstack duwt.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The information generated on the request side and specified in the <ph id="ph1">`state`</ph> parameter is returned in the <ph id="ph2">`state`</ph> parameter of the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessResponse%2A&gt; method on the corresponding sink.</source>
+          <target state="translated">De informatie aan de kant van de aanvraag gegenereerd en is opgegeven in de <ph id="ph1">`state`</ph> parameter wordt geretourneerd als de <ph id="ph2">`state`</ph> parameter van de &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessResponse%2A&gt;methode op de bijbehorende sink.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessResponse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The sink to push onto the sink stack.</source>
+          <target state="translated">De sink voor de push naar de filterstack.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Information generated on the request side that is needed on the response side.</source>
+          <target state="translated">Gegevens die aan de aanvraag dat nodig is op de reactie aan clientzijde worden gegenereerd.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">De onmiddellijke aanroeper is niet gemachtigd voor infrastructuur.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">269aca55ecece5e8d5b699ee29715a9eb0f9054f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.Build.Framework.IBuildEngine4.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c7415364408c85090bbd635b5472ff30859d309</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0f58587a9f7257643487ecdd3239c8c97523d94e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>This interface extends IBuildEngine to provide a mechanism allowing tasks to share data between task invocations.</source>
+          <target state="translated">Dette grensesnittet utvider IBuildEngine for å mekanisme tillater oppgaver til å dele data mellom oppgaven Start.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Retrieves a previously registered task object stored with the specified key.</source>
+          <target state="translated">Henter en tidligere registrert Oppgaveobjekt som er lagret med den angitte nøkkelen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The key used to retrieve the object.</source>
+          <target state="translated">Nøkkelen som brukes til å hente objektet.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The lifetime of the object.</source>
+          <target state="translated">Levetiden for objektet.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Returns a registered object, or null if there is no object registered under that key or if the object has been discarded through early collection.</source>
+          <target state="translated">Returnerer et registrert, eller null hvis det er ingen objekter som er registrert under nøkkelen, eller hvis objektet er slettet i tidlig samling.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Registers an object with the system that will be disposed of at some specified time in the future.</source>
+          <target state="translated">Registrerer et objekt i systemet blir fjernet i en angitt gang i fremtiden.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method may be called by tasks which need to maintain state across task invocations, such as data caching tasks.</source>
+          <target state="translated">Denne metoden kan kalles etter oppgaver som må ha tilstanden på tvers av oppgaven anrop, for eksempel hurtigbufring oppgaver for data.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is strongly recommended that <ph id="ph1">`allowEarlyCollection`</ph> be set to <ph id="ph2">`true`</ph> if the object will retain any significant amount of data.</source>
+          <target state="translated">Det anbefales som <ph id="ph1">`allowEarlyCollection`</ph> settes til <ph id="ph2">`true`</ph> Hvis objektet beholder en stor mengde data.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The thread on which the object is disposed may be arbitrarily, but it will not be disposed while the task is executing, even if <ph id="ph1">`allowEarlyCollection`</ph> is set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Tråden som objektet er fjernet kanskje tilfeldige, men det blir ikke fjernet mens oppgaven kjører, selv om <ph id="ph1">`allowEarlyCollection`</ph> er satt til <ph id="ph2">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object implements IDisposable, IDisposable.Dispose will be invoked on the object before discarding it.</source>
+          <target state="translated">Hvis objektet som implementerer IDisposable, aktiveres IDisposable.Dispose for objektet før forkaste den.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The key used to retrieve the object.</source>
+          <target state="translated">Nøkkelen som brukes til å hente objektet.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The object to be held for later disposal.</source>
+          <target state="translated">Objektet som skal holdes senere fjerning.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The lifetime of the object.</source>
+          <target state="translated">Levetiden for objektet.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Flag that determines whether the object can be disposed earlier than the requested time.</source>
+          <target state="translated">Flagg som angir om objektet ikke kan fjerne eldre enn ønsket tid.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Unregisters a previously registered task object.</source>
+          <target state="translated">Avregistrerer et tidligere registrerte oppgaveobjekt.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The key used to retrieve the object.</source>
+          <target state="translated">Nøkkelen som brukes til å hente objektet.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The lifetime of the object.</source>
+          <target state="translated">Levetiden for objektet.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Returns a previously registered object, or null if there is no object registered under that key or if the object has been discarded through early collection.</source>
+          <target state="translated">Returnerer et tidligere registrert, eller null hvis det er ingen objekter som er registrert under nøkkelen, eller hvis objektet er slettet i tidlig samling.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

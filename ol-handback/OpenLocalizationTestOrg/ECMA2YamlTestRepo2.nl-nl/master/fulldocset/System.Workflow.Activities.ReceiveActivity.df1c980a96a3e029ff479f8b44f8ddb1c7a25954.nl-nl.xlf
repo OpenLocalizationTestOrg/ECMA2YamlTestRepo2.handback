@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">008981a453595aa0745294fd80c29b16e2d74e69</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Activities.ReceiveActivity.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31afc85838a5b17e920705fed171e6a174ab62aa</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0f4e45cf6b7eeea2c17f4f9e12417bdc11c178c4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Service activity that implements an operation defined by a <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> service contract.</source>
+          <target state="translated">Service-activiteit die u een bewerking die is gedefinieerd implementeert door een <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> servicecontract.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       The ReceiveActivity activity is used when a workflow implements an operation defined in a <ph id="ph4">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> service contract.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>De activiteit ReceiveActivity wordt gebruikt wanneer een werkstroom wordt geïmplementeerd voor een bewerking die is gedefinieerd een <ph id="ph4">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> servicecontract.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ReceiveActivity can implement an operation from an already defined service contract or can define the service contract and operation within the workflow itself.</source>
+          <target state="translated">De ReceiveActivity een bewerking vanuit een reeds gedefinieerde servicecontract kunt implementeren of de servicecontract en bewerking binnen de werkstroom zelf kunt definiëren.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The latter is known as a workflow-first contract.</source>
+          <target state="translated">De laatste staat bekend als een werkstroom eerste contract.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ReceiveActivity activity supports a set of predefined message exchange patterns.</source>
+          <target state="translated">De activiteit ReceiveActivity ondersteunt een aantal vooraf gedefinieerde bericht exchange patronen.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These patterns include:      -   One-way receive           The client that sends the message does not expect the service to send a response.</source>
+          <target state="translated">Deze patronen bevatten: - eenzijdige ontvangen van de client die het bericht verwacht niet dat de service voor het verzenden van een antwoord verzendt.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The contract operation should have a void return type.</source>
+          <target state="translated">De contractbewerking moet een leeg retourtype hebben.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Receive request - Send response           After a message is received and processed by the ReceiveActivity activity, a response is sent back to the client.</source>
+          <target state="translated">-Aanvraag ontvangen - antwoord verzenden nadat een bericht wordt ontvangen en door de activiteit ReceiveActivity, een reactie verwerkt terug naar de client wordt verzonden.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the contract operation has a void return type, an acknowledgement is sent back to the send activity.</source>
+          <target state="translated">Wanneer de contractbewerking een leeg retourtype heeft, wordt een bevestiging verzonden naar de send-activiteit.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Receive request - Send fault           After a message is received and processed by the ReceiveActivity activity, a response or a fault is sent back to the client.</source>
+          <target state="translated">-Aanvraag ontvangen - fout met betrekking tot verzenden nadat een bericht wordt ontvangen en door de activiteit ReceiveActivity, een antwoord of een storing verwerkt terug naar de client wordt verzonden.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To ensure that persistence performs properly and does not persist transient messages, make sure that child activities of the ReceiveActivity do not persist by themselves.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Om ervoor te zorgen dat de persistentie correct wordt uitgevoerd en tijdelijke berichten niet bewaard is gebleven, zorg ervoor dat onderliggende activiteiten van de ReceiveActivity verloren gaan door zelf.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can occur if the child activities go idle when a persistence provider was created with <ph id="ph1">`UnloadOnIdle`</ph> set to <ph id="ph2">`true`</ph>, for instance.</source>
+          <target state="translated">Dit kan gebeuren als de onderliggende activiteiten niet-actieve gaat u als een persistentieprovider is gemaakt met <ph id="ph1">`UnloadOnIdle`</ph> ingesteld op <ph id="ph2">`true`</ph>, bijvoorbeeld.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This activity is part of <ph id="ph2">[!INCLUDE[net_v35_short](~/add/includes/net-v35-short-md.md)]</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Deze activiteit deel uitmaakt van <ph id="ph2">[!INCLUDE[net_v35_short](~/add/includes/net-v35-short-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the equivalent activity in <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, see &lt;xref:System.ServiceModel.Activities.Receive&gt;.</source>
+          <target state="translated">Voor de equivalente activiteit in <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, Zie &lt;xref:System.ServiceModel.Activities.Receive&gt;.&lt;/xref:System.ServiceModel.Activities.Receive&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; constructor is typically invoked in the code-beside file created by the workflow designer.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;constructor doorgaans wordt aangeroepen in de code naast-bestand gemaakt door de workflow designer.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, initializing its &lt;xref:System.Workflow.ComponentModel.Activity.Name*&gt; property.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse, tijdens de initialisatie van de &lt;xref:System.Workflow.ComponentModel.Activity.Name*&gt;eigenschap.&lt;/xref:System.Workflow.ComponentModel.Activity.Name*&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; constructor is typically invoked in the code-beside file created by the workflow designer.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;constructor doorgaans wordt aangeroepen in de code naast-bestand gemaakt door de workflow designer.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The name to assign to the activity instance.</source>
+          <target state="translated">De naam toewijzen aan het Activiteitexemplaar.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets or sets whether the operation causes a new workflow service instance to be created.</source>
+          <target state="translated">Opgehaald of ingesteld of de bewerking wordt een nieuwe werkstroom service-exemplaar worden gemaakt.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity that has CanCreateInstance set to <ph id="ph1">`true`</ph> represents a service operation that, when invoked by a service client without being part of a conversation, causes a new instance of the service workflow to be created.</source>
+          <target state="translated">Een &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit die ingesteld is op CanCreateInstance <ph id="ph1">`true`</ph> vertegenwoordigt een servicebewerking die wordt aangeroepen door een client-service geen deel uit van een gesprek, zorgt ervoor dat een nieuw exemplaar van de servicewerkstroom moet worden gemaakt.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Service workflows that do not have a &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity with CanCreateInstance set to <ph id="ph1">`true`</ph> cannot be instantiated by a client using a service operation invocation.</source>
+          <target state="translated">Werkstromen die u geen hebt service een &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit met CanCreateInstance ingesteld op <ph id="ph1">`true`</ph> kan niet worden gemaakt door een client met behulp van een aanroep van de bewerking service.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such workflows can be created using the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt; method of the associated &lt;xref:System.Workflow.Runtime.WorkflowRuntime&gt; object.</source>
+          <target state="translated">Deze werkstromen kunnen worden gemaakt met de &lt;xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt;methode van de bijbehorende &lt;xref:System.Workflow.Runtime.WorkflowRuntime&gt;object.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for this property is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">De standaardwaarde voor deze eigenschap is <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a new workflow instance is created; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als u een nieuw workflowexemplaar is gemaakt. anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the context information for this activity.</source>
+          <target state="translated">Hiermee haalt u de contextinformatie voor deze activiteit.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Context information is used for communication between the client and the service it is communicating with and includes such things as identification for correlation.</source>
+          <target state="translated">Contextinformatie wordt gebruikt voor communicatie tussen de client en de service deze communiceert en bewerkingen, zoals de identificatie voor correlatie bevat.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IDictionary%602<ph id="ph2">&amp;gt;</ph> object that contains context information for this activity.</source>
+          <target state="translated">Een <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IDictionary%602<ph id="ph2">&amp;gt;</ph> object met contextinformatie voor deze activiteit.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Represents a token that can be used to specify the context that should be used to correlate the exchange between a <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> activity and the client that the activity is communicating with.</source>
+          <target state="translated">Hiermee geeft u een token dat kan worden gebruikt om op te geven van de context die moet worden gebruikt voor het correleren van de uitwisseling tussen een <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> activiteit en de client die met de activiteit communiceert.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each ContextToken is defined within the scope of an owner activity.</source>
+          <target state="translated">Elke ContextToken is gedefinieerd binnen het bereik van een activiteit van de eigenaar.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users can model two distinct context tokens with the same name but different owner scopes.</source>
+          <target state="translated">Gebruikers kunnen twee afzonderlijke context tokens met dezelfde naam maar een andere eigenaar scopes model.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the contexts associated with these context tokens are different at runtime.</source>
+          <target state="translated">De waarde die is gekoppeld aan deze tokens context contexten verschillen tijdens runtime.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, each workflow has an implicit root context token, scoped at the root activity level.</source>
+          <target state="translated">Elke werkstroom heeft standaard een impliciete hoofdmap contexttoken, binnen het bereik op het hoofdniveau van de activiteit.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name of the root context token is '(RootContext)' and the &lt;xref:System.Workflow.Activities.ContextToken.OwnerActivityName%2A&gt; is <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">De naam van het contexttoken hoofdmap is (RootContext) en de &lt;xref:System.Workflow.Activities.ContextToken.OwnerActivityName%2A&gt;is <ph id="ph1">`null`</ph>.&lt;/xref:System.Workflow.Activities.ContextToken.OwnerActivityName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity does not have a ContextToken associated with it, the root context token is used.</source>
+          <target state="translated">Als een &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit heeft geen een ContextToken die is gekoppeld, wordt het contexttoken root gebruikt.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.Activities.ContextToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be used for correlation.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Workflow.Activities.ContextToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunnen worden gebruikt voor correlatie.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The exception that is returned when a receive activity completes execution.</source>
+          <target state="translated">De uitzondering die wordt geretourneerd wanneer een receive-activiteit is voltooid kan worden uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the FaultMessage property is set to an instance of type &lt;xref:System.ServiceModel.FaultException&gt;, the fault is returned to the client upon completion.</source>
+          <target state="translated">Als de eigenschap FaultMessage is ingesteld op een exemplaar van het type &lt;xref:System.ServiceModel.FaultException&gt;, de fout wordt geretourneerd naar de client na voltooiing.&lt;/xref:System.ServiceModel.FaultException&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an exception is thrown during the activity execution and the FaultMessage property is set, then the specified fault is returned to the client.</source>
+          <target state="translated">Als er een uitzondering gegenereerd tijdens het uitvoeren van de activiteit en de eigenschap FaultMessage is ingesteld, wordt het opgegeven foutdomein geretourneerd naar de client.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an exception is thrown during the activity execution and the FaultMessage property is set, and the associated operation has a &lt;xref:System.ServiceModel.FaultContractAttribute&gt; attribute that specifies a fault type that matches that of the FaultMessage property, then the channel is not faulted and the client can still communicate to the server.</source>
+          <target state="translated">Als er een uitzondering gegenereerd tijdens het uitvoeren van de activiteit en de eigenschap FaultMessage is ingesteld en de bijbehorende bewerking heeft een &lt;xref:System.ServiceModel.FaultContractAttribute&gt;kenmerk waarmee een storing typt die overeenkomt met die van de eigenschap FaultMessage vervolgens het kanaal niet is mislukt en de client nog steeds kan communiceren met de server.&lt;/xref:System.ServiceModel.FaultContractAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the FaultMessage property is not set, the thrown exception is returned as a fault to the client.</source>
+          <target state="translated">Als de eigenschap FaultMessage niet is ingesteld, wordt de thrown uitzondering als een fout geretourneerd naar de client.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.ServiceModel.FaultException&gt; object that contains the fault message text and details.</source>
+          <target state="translated">Een &lt;xref:System.ServiceModel.FaultException&gt;object met de berichttekst voor fouttolerantie en details.&lt;/xref:System.ServiceModel.FaultException&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that targets the &lt;xref:System.Workflow.Activities.ReceiveActivity.FaultMessage*&gt; property.</source>
+          <target state="translated">Hiermee geeft u de <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die is gericht de &lt;xref:System.Workflow.Activities.ReceiveActivity.FaultMessage*&gt;eigenschap.&lt;/xref:System.Workflow.Activities.ReceiveActivity.FaultMessage*&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property can be used to set up a binding between the receive activity's &lt;xref:System.Workflow.Activities.ReceiveActivity.FaultMessage%2A&gt; property and a public workflow property/field of type &lt;xref:System.ServiceModel.FaultException&gt; or another activity's public property/field of the same type.</source>
+          <target state="translated">Deze afhankelijkheidseigenschap kan worden gebruikt voor het instellen van een binding tussen de receive-activiteit &lt;xref:System.Workflow.Activities.ReceiveActivity.FaultMessage%2A&gt;eigenschap en een openbare werkstroom eigenschap/het veld van het type &lt;xref:System.ServiceModel.FaultException&gt;of een andere activiteit openbare eigenschap/het veld van hetzelfde type.&lt;/xref:System.ServiceModel.FaultException&gt; &lt;/xref:System.Workflow.Activities.ReceiveActivity.FaultMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property can also be used to set the value associated with the &lt;xref:System.Workflow.Activities.ReceiveActivity.FaultMessage%2A&gt; property of a &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity.</source>
+          <target state="translated">Deze afhankelijkheidseigenschap kan ook worden gebruikt om een waarde die is gekoppeld aan de &lt;xref:System.Workflow.Activities.ReceiveActivity.FaultMessage%2A&gt;eigenschap van een &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt; &lt;/xref:System.Workflow.Activities.ReceiveActivity.FaultMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property can also be used to get the binding or value associated with the &lt;xref:System.Workflow.Activities.ReceiveActivity.FaultMessage%2A&gt; property of the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity.</source>
+          <target state="translated">Deze afhankelijkheidseigenschap kan ook worden gebruikt om op te halen van de binding of de waarde die is gekoppeld aan de &lt;xref:System.Workflow.Activities.ReceiveActivity.FaultMessage%2A&gt;eigenschap van de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt; &lt;/xref:System.Workflow.Activities.ReceiveActivity.FaultMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Static method that returns context information given an activity instance and context token.</source>
+          <target state="translated">Statische methode die door Activiteitexemplaar en contexttoken contextgegevens retourneert.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Context information is used for communication between the client and the service it is communicating with and includes such things as identification for correlation.</source>
+          <target state="translated">Contextinformatie wordt gebruikt voor communicatie tussen de client en de service deze communiceert en bewerkingen, zoals de identificatie voor correlatie bevat.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Activity instance that context information is requested for.</source>
+          <target state="translated">Het Activiteitexemplaar waardoor contextinformatie voor is aangevraagd.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The context token used by the activity.</source>
+          <target state="translated">Het contexttoken die wordt gebruikt door de activiteit.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A dictionary based collection that contains &lt;xref:System.Xml.XmlQualifiedName&gt; keys and their associated &lt;xref:System.String&gt; values.</source>
+          <target state="translated">Verzameling met op basis van een woordenboek &lt;xref:System.Xml.XmlQualifiedName&gt;sleutels en de bijbehorende &lt;xref:System.String&gt;waarden.&lt;/xref:System.String&gt; &lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Static method that returns context information given an activity instance and context token.</source>
+          <target state="translated">Statische methode die door Activiteitexemplaar en contexttoken contextgegevens retourneert.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Context information is used for communication between the client and the service it is communicating with and includes such things as identification for correlation.</source>
+          <target state="translated">Contextinformatie wordt gebruikt voor communicatie tussen de client en de service deze communiceert en bewerkingen, zoals de identificatie voor correlatie bevat.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Activity instance that context information is requested for.</source>
+          <target state="translated">Het Activiteitexemplaar waardoor contextinformatie voor is aangevraagd.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Name of the context token used by the activity.</source>
+          <target state="translated">Naam van het contexttoken die wordt gebruikt door de activiteit.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The name of the owning activity name.</source>
+          <target state="translated">De naam van de naam van de eigenaar activiteit.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A dictionary-based collection that contains &lt;xref:System.Xml.XmlQualifiedName&gt; keys and their associated &lt;xref:System.String&gt; values.</source>
+          <target state="translated">Een verzameling met woordenlijst &lt;xref:System.Xml.XmlQualifiedName&gt;sleutels en de bijbehorende &lt;xref:System.String&gt;waarden.&lt;/xref:System.String&gt; &lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Static method that returns context information for the root context associated with a given activity instance.</source>
+          <target state="translated">Statische methode waarmee contextinformatie voor de context van het hoofdknooppunt die zijn gekoppeld aan een bepaalde activiteit-exemplaar geretourneerd.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Context information is used for communication between a host application and the workflow service.</source>
+          <target state="translated">Contextinformatie wordt gebruikt voor communicatie tussen een host-toepassing en de workflowservice.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Context information is used for communication between the client and the service it is communicating with and includes such things as identification for correlation.</source>
+          <target state="translated">Contextinformatie wordt gebruikt voor communicatie tussen de client en de service deze communiceert en bewerkingen, zoals de identificatie voor correlatie bevat.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The child activity instance.</source>
+          <target state="translated">Het exemplaar van de onderliggende activiteit.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A dictionary-based collection that contains &lt;xref:System.Xml.XmlQualifiedName&gt; keys and their associated &lt;xref:System.String&gt; values that represent context information for a root context.</source>
+          <target state="translated">Een verzameling met woordenlijst &lt;xref:System.Xml.XmlQualifiedName&gt;sleutels en de bijbehorende &lt;xref:System.String&gt;waarden voor contextinformatie voor een basiscontext.&lt;/xref:System.String&gt; &lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Barring custom instance creation logic, the message that triggers creation of a new instance is received in the root context.</source>
+          <target state="translated">Het bericht dat het maken van een nieuw exemplaar activeert wordt blokkeren logica voor het maken van aangepaste exemplaar ontvangen in de context van het hoofdknooppunt.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Workflow.Activities.WorkflowServiceAttributes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attributes for the service implemented by the <bpt id="p2">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> activity.</source>
+          <target state="translated">Retourneert de <bpt id="p1">&lt;xref href="System.Workflow.Activities.WorkflowServiceAttributes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kenmerken voor de service geïmplementeerd door de <bpt id="p2">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> activiteit.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>These attributes include items like the &lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.AddressFilterMode<bpt id="p1">*</bpt>&gt;, the &lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.ConfigurationName<ept id="p1">*</ept>&gt;, the &lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults*&gt;, and whether to include exception details in any faults that are returned from the <bpt id="p2">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> activity.</source>
+          <target state="translated">Deze kenmerken behoren items zoals de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, wordt de &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;, wordt de &lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults*&gt;, en of uitzonderingsdetails opgenomen in eventuele fouten die zijn geretourneerd door de <bpt id="p2">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> activiteit.&lt;/xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults*&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt; property is an attached dependency property defined by the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt;eigenschap is een gekoppelde afhankelijkheidseigenschap gedefinieerd door de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt; &lt;/xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property is attached to the root workflow that contains the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity using the &lt;xref:System.Workflow.Activities.ReceiveActivity.SetWorkflowServiceAttributes%2A&gt; method call at design time.</source>
+          <target state="translated">Deze afhankelijkheidseigenschap is gekoppeld aan de werkstroom hoofdmap waarin de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit met behulp van de &lt;xref:System.Workflow.Activities.ReceiveActivity.SetWorkflowServiceAttributes%2A&gt;methodeaanroep tijdens ontwerptijd.&lt;/xref:System.Workflow.Activities.ReceiveActivity.SetWorkflowServiceAttributes%2A&gt; &lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt; property is used for defining service-level behavior attributes that are applied to the workflow service when it starts.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt;eigenschap wordt gebruikt voor het definiëren van serviceniveau-gedrag kenmerken die worden toegepast op de workflowservice wanneer deze wordt gestart.&lt;/xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These cannot be modified at runtime.</source>
+          <target state="translated">Deze kunnen niet worden gewijzigd tijdens runtime.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the current workflow starts another workflow using an &lt;xref:System.Workflow.Activities.InvokeWorkflowActivity&gt; activity, the invoked workflow does not inherit the invoking workflow's service attributes.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als de huidige werkstroom begint met een andere werkstroom met een &lt;xref:System.Workflow.Activities.InvokeWorkflowActivity&gt;activiteit, de aangeroepen werkstroom neemt geen informatie over de kenmerken van de service de werkstroom aanroepen.&lt;/xref:System.Workflow.Activities.InvokeWorkflowActivity&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If service attributes are set for a custom activity and that activity is included in a workflow, those service attributes are used.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als service-kenmerken worden ingesteld voor een aangepaste activiteit en de activiteit die is opgenomen in een werkstroom, de kenmerken van deze service worden gebruikt.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Service attributes are only used for custom activities if the custom activity itself is run as a workflow.</source>
+          <target state="translated">Service-kenmerken worden alleen gebruikt voor aangepaste activiteiten als de aangepaste activiteit zelf wordt uitgevoerd als een werkstroom.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The object to retrieve the service attributes from.</source>
+          <target state="translated">Het object voor het ophalen van de kenmerken van de service uit.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Object&gt; that represents a <bpt id="p1">&lt;xref href="System.Workflow.Activities.WorkflowServiceAttributes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains service attribute data.</source>
+          <target state="translated">Een &lt;xref:System.Object&gt;die staat voor een <bpt id="p1">&lt;xref href="System.Workflow.Activities.WorkflowServiceAttributes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met de service-kenmerkgegevens.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Occurs when a message is received for an operation and validation is required.</source>
+          <target state="translated">Deze gebeurtenis treedt op wanneer een bericht wordt ontvangen voor een bewerking en validatie vereist is.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is an optional event handler that is fired when the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity is about to receive a message.</source>
+          <target state="translated">Dit is een optionele gebeurtenis-handler die wordt gestart wanneer de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit is een bericht ontvangen.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The associated handler can be used to perform ClaimSet-based security checks to authorize client invocation of the service operation implemented by the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity.</source>
+          <target state="translated">De bijbehorende handler kan worden gebruikt om uit te voeren op basis van ClaimSet beveiligingscontroles om het client-aanroep van de bewerking van de service geïmplementeerd door de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting &lt;xref:System.Workflow.Activities.OperationValidationEventArgs.IsValid%2A?displayProperty=fullName&gt; to <ph id="ph1">`false`</ph> in the event handler rejects the service operation invocation and the client receives a &lt;xref:System.ServiceModel.FaultException&gt;.</source>
+          <target state="translated">Instelling &lt;xref:System.Workflow.Activities.OperationValidationEventArgs.IsValid%2A?displayProperty=fullName&gt;naar <ph id="ph1">`false`</ph> in de gebeurtenisstroom handler wordt het oproepen van de service opnieuw wordt geweigerd en de client ontvangt een &lt;xref:System.ServiceModel.FaultException&gt;.&lt;/xref:System.ServiceModel.FaultException&gt; &lt;/xref:System.Workflow.Activities.OperationValidationEventArgs.IsValid%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Workflow.Activities.OperationValidationEventArgs.IsValid%2A?displayProperty=fullName&gt; is set to <ph id="ph1">`true`</ph>, then the service operation invocation succeeds and the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity receives and processes the message.</source>
+          <target state="translated">Als &lt;xref:System.Workflow.Activities.OperationValidationEventArgs.IsValid%2A?displayProperty=fullName&gt;is ingesteld op <ph id="ph1">`true`</ph>, en vervolgens in het oproepen van de bewerking is geslaagd en de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit ontvangt en verwerkt het bericht.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt; &lt;/xref:System.Workflow.Activities.OperationValidationEventArgs.IsValid%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that targets the <bpt id="p2">&lt;xref href="System.Workflow.Activities.ReceiveActivity.OperationValidation"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Hiermee geeft u de <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die is gericht de <bpt id="p2">&lt;xref href="System.Workflow.Activities.ReceiveActivity.OperationValidation"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency event property can be used to bind the receive activity's &lt;xref:System.Workflow.Activities.ReceiveActivity.OperationValidation&gt; event to a public event handler on the workflow class.</source>
+          <target state="translated">Deze gebeurtenis afhankelijkheidseigenschap kan worden gebruikt voor binding van de receive-activiteit &lt;xref:System.Workflow.Activities.ReceiveActivity.OperationValidation&gt;gebeurtenis naar een openbare-gebeurtenis-handler op de klasse van de werkstroom.&lt;/xref:System.Workflow.Activities.ReceiveActivity.OperationValidation&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets the collection of bindable parameters as found in the service's formal parameter list.</source>
+          <target state="translated">Hiermee haalt u de verzameling van bindbare parameters zoals gevonden in de lijst formele parameter van de service.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ParameterBindings can be used to specify a binding between the service operation parameters and public field/properties of the workflow that contain the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity.</source>
+          <target state="translated">ParameterBindings kan worden gebruikt om op te geven van een binding tussen de parameters van de service opnieuw en openbare veld/eigenschappen van de werkstroom met de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a client invokes the operation, the corresponding parameter values are written to bound workflow properties during the receive activity's execution.</source>
+          <target state="translated">Wanneer een client de bewerking aanroept, worden de bijbehorende parameterwaarden geschreven werkstroomeigenschappen gekoppeld tijdens de uitvoering van de receive-activiteit.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ParameterBindings can also be used by the receive activity's child activities to read the parameter values passed in by client invocation.</source>
+          <target state="translated">ParameterBindings kan ook worden gebruikt door de receive-activiteit onderliggende activiteiten te lezen van de parameterwaarden doorgegeven door het aanroepen van de client.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Child activities can use the ParameterBindings collection to set the return value of the parent &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity.</source>
+          <target state="translated">Onderliggende activiteiten de verzameling ParameterBindings kunnen gebruiken om in te stellen van de geretourneerde waarde van de bovenliggende &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All parameters of the service contract should be included in the <ph id="ph1">`ParameterBindings`</ph> property.</source>
+          <target state="translated">Alle parameters van het servicecontract moeten worden opgenomen in de <ph id="ph1">`ParameterBindings`</ph> eigenschap.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unbound parameters cause compiler warnings upon compilation and an exception can occur when the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; returns this message back to the client.</source>
+          <target state="translated">Niet-afhankelijke parameters compilerwaarschuwingen bij compilatie veroorzaken en een uitzondering kan optreden wanneer de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;Dit bericht terug naar de client geretourneerd.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowParameterBindingCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of parameters to bind to.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowParameterBindingCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> van parameters voor de binding.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Defines the contract and service operation that the <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> activity implements.</source>
+          <target state="translated">Het contract en de service opnieuw wordt gedefinieerd die de <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> activiteit wordt geïmplementeerd.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceOperationInfo property can be set to an instance of type &lt;xref:System.Workflow.Activities.TypedOperationInfo&gt; or &lt;xref:System.Workflow.Activities.OperationInfo&gt;.</source>
+          <target state="translated">De eigenschap ServiceOperationInfo kan worden ingesteld op een exemplaar van het type &lt;xref:System.Workflow.Activities.TypedOperationInfo&gt;of &lt;xref:System.Workflow.Activities.OperationInfo&gt;.&lt;/xref:System.Workflow.Activities.OperationInfo&gt; &lt;/xref:System.Workflow.Activities.TypedOperationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Workflow.Activities.TypedOperationInfo&gt; can be used to configure a receive activity using an existing <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> service contract.</source>
+          <target state="translated">&lt;xref:System.Workflow.Activities.TypedOperationInfo&gt;kan worden gebruikt voor het configureren van een receive-activiteit met behulp van een bestaande <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> servicecontract.&lt;/xref:System.Workflow.Activities.TypedOperationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance of &lt;xref:System.Workflow.Activities.OperationInfo&gt; can be used to configure a receive activity for the workflow-first contract scenario.</source>
+          <target state="translated">Een exemplaar van &lt;xref:System.Workflow.Activities.OperationInfo&gt;kan worden gebruikt voor het configureren van een receive-activiteit voor het scenario werkstroom eerste contract.&lt;/xref:System.Workflow.Activities.OperationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Workflow.Activities.OperationInfoBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the contract name, the contract type, the operation name, (which could be distinct from method name), whether the operation is a one-way operation, and method information including parameters about the operation.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Workflow.Activities.OperationInfoBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met de naam van het contract, het contracttype, de bewerking naam (die mogelijk verschillen van de methodenaam), of de bewerking is een eenrichtingsbewerking en inclusief parameters over de werking van methode-informatie.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Sets the attributes for the service implemented by the <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> activity.</source>
+          <target state="translated">Hiermee stelt u de kenmerken voor de service geïmplementeerd door de <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> activiteit.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>These attributes include items like the &lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.AddressFilterMode<bpt id="p1">*</bpt>&gt;, the &lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.ConfigurationName<ept id="p1">*</ept>&gt;, and whether to include exception details in any faults that are returned from the <bpt id="p2">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> activity.</source>
+          <target state="translated">Deze kenmerken behoren items zoals de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt;, wordt de &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;, en of uitzonderingsdetails opgenomen in eventuele fouten die zijn geretourneerd door de <bpt id="p2">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> activiteit.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt; property is an attached dependency property defined by the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt;eigenschap is een gekoppelde afhankelijkheidseigenschap gedefinieerd door de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt; &lt;/xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property is attached to the root workflow that contains the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity using the SetWorkflowServiceAttributes method call at design time.</source>
+          <target state="translated">Deze afhankelijkheidseigenschap is gekoppeld aan de werkstroom hoofdmap waarin de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit met de methode SetWorkflowServiceAttributes aanroepen tijdens de ontwerpfase.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt; property is used for defining service-level behavior attributes that are applied to the workflow service when it starts.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt;eigenschap wordt gebruikt voor het definiëren van serviceniveau-gedrag kenmerken die worden toegepast op de workflowservice wanneer deze wordt gestart.&lt;/xref:System.Workflow.Activities.ReceiveActivity.WorkflowServiceAttributesProperty&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These cannot be modified at runtime.</source>
+          <target state="translated">Deze kunnen niet worden gewijzigd tijdens runtime.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the current workflow starts another workflow using a &lt;xref:System.Workflow.Activities.InvokeWorkflowActivity&gt; activity, the invoked workflow does not inherit the invoking workflow's service attributes.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als de huidige werkstroom begint met een andere werkstroom met een &lt;xref:System.Workflow.Activities.InvokeWorkflowActivity&gt;activiteit, de aangeroepen werkstroom neemt geen informatie over de kenmerken van de service de werkstroom aanroepen.&lt;/xref:System.Workflow.Activities.InvokeWorkflowActivity&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If service attributes are set for a custom activity and that activity is included in a workflow, those service attributes is not used.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als service-kenmerken worden ingesteld voor een aangepaste activiteit en de activiteit die is opgenomen in een werkstroom, de kenmerken van deze service wordt niet gebruikt.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Service attributes are only used in custom activities if the custom activity itself is run as a workflow.</source>
+          <target state="translated">Service-kenmerken worden alleen in aangepaste activiteiten gebruikt als de aangepaste activiteit zelf wordt uitgevoerd als een werkstroom.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The object to apply the service attributes to.</source>
+          <target state="translated">Het object wilt toepassen van de kenmerken van de service.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Activities.WorkflowServiceAttributes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the service attribute data to apply.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.Activities.WorkflowServiceAttributes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met de gegevens van het kenmerk service toe te passen.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets the name of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on which the activity is waiting for data to arrive.</source>
+          <target state="translated">Hiermee wordt de naam van de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> op die de activiteit is wachten op gegevens moet worden uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The name of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on which the activity is waiting for data to arrive.</source>
+          <target state="translated">De naam van de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> op die de activiteit is wachten op gegevens moet worden uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Creates the subscription of the <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> activity to an event.</source>
+          <target state="translated">Maakt het abonnement van de <bpt id="p1">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> activiteit op een gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the execution environment of the <bpt id="p2">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> activity.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de uitvoeringsomgeving van het <bpt id="p2">&lt;xref href="System.Workflow.Activities.ReceiveActivity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> activiteit.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.EventHandler&gt; that handles the event.</source>
+          <target state="translated">De &lt;xref:System.EventHandler&gt;die de gebeurtenis verwerkt.&lt;/xref:System.EventHandler&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>This event handler is owned by the parent activity.</source>
+          <target state="translated">Deze gebeurtenis-handler is eigendom van de bovenliggende activiteit.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Cancels the subscription of a <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to an event.</source>
+          <target state="translated">Hiermee annuleert u het abonnement van een <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> op een gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the execution environment of the <bpt id="p2">&lt;xref href="System.Workflow.Activities.WebServiceInputActivity"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> activity.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.ActivityExecutionContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de uitvoeringsomgeving van het <bpt id="p2">&lt;xref href="System.Workflow.Activities.WebServiceInputActivity"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> activiteit.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.EventHandler&gt; that handles the event.</source>
+          <target state="translated">De &lt;xref:System.EventHandler&gt;die de gebeurtenis verwerkt.&lt;/xref:System.EventHandler&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This event handler is owned by the parent activity.</source>
+          <target state="translated">Deze gebeurtenis-handler is eigendom van de bovenliggende activiteit.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that targets the &lt;xref:System.Workflow.Activities.ReceiveActivity.ServiceOperationInfo*&gt; property.</source>
+          <target state="translated">Hiermee geeft u de <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.DependencyProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die is gericht de &lt;xref:System.Workflow.Activities.ReceiveActivity.ServiceOperationInfo*&gt;eigenschap.&lt;/xref:System.Workflow.Activities.ReceiveActivity.ServiceOperationInfo*&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The WorkflowServiceAttributesProperty property is an attached dependency property defined by the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity.</source>
+          <target state="translated">De eigenschap WorkflowServiceAttributesProperty is een gekoppelde afhankelijkheidseigenschap gedefinieerd door de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit.&lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This dependency property is attached to the root workflow that contains the &lt;xref:System.Workflow.Activities.ReceiveActivity&gt; activity using the &lt;xref:System.Workflow.Activities.ReceiveActivity.SetWorkflowServiceAttributes%2A&gt; method call at design time.</source>
+          <target state="translated">Deze afhankelijkheidseigenschap is gekoppeld aan de werkstroom hoofdmap waarin de &lt;xref:System.Workflow.Activities.ReceiveActivity&gt;activiteit met behulp van de &lt;xref:System.Workflow.Activities.ReceiveActivity.SetWorkflowServiceAttributes%2A&gt;methodeaanroep tijdens ontwerptijd.&lt;/xref:System.Workflow.Activities.ReceiveActivity.SetWorkflowServiceAttributes%2A&gt; &lt;/xref:System.Workflow.Activities.ReceiveActivity&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The WorkflowServiceAttributesProperty property is used for defining service-level behavior attributes that are applied to the workflow service when it starts.</source>
+          <target state="translated">De eigenschap WorkflowServiceAttributesProperty wordt gebruikt voor het definiëren van serviceniveau-gedrag kenmerken die worden toegepast op de workflowservice wanneer deze wordt gestart.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These cannot be modified at runtime.</source>
+          <target state="translated">Deze kunnen niet worden gewijzigd tijdens runtime.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

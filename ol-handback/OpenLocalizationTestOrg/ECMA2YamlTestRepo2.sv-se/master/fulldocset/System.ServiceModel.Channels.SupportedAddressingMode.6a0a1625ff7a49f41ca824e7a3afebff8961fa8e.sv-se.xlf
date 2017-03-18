@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df6d505e1372f1767433510be81d62825314e6c3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Channels.SupportedAddressingMode.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a00d15df5b3c72058df74ef9798625eb7fd65a7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ca028ca3457b568b12684c308bcaf8b239d25bd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies whether a service supports sending responses to anonymous addresses only, to non-anonymous addresses only, or to both.</source>
+          <target state="translated">Anger om en tjänst stöder skicka svar till anonyma adresser endast icke-anonyma adresser, eller båda.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This enumeration is used to specify the capability of a server, which, in turn, imposes a requirement on its clients.</source>
+          <target state="translated">Den här uppräkningen används för att ange kapaciteten för en server, som i sin tur inför ett krav på klienter.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> has a variety of addressing controls for specifying where messages should be sent.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph>har olika adresser kontroller för att ange om meddelanden ska skickas.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, there is the logical &lt;xref:System.ServiceModel.Channels.MessageHeaders.To%2A&gt; address for the message destination, the physical ("Via") address, used by the transport, at which a service listens, and the &lt;xref:System.ServiceModel.Channels.MessageHeaders.ReplyTo%2A&gt; address of the endpoint that provides the address of the client endpoint.</source>
+          <target state="translated">Det är exempelvis den logiska &lt;xref:System.ServiceModel.Channels.MessageHeaders.To%2A&gt;adress för meddelande-mål, fysiskt ("Via") adress som används av transport, som lyssnar på en tjänst, och &lt;xref:System.ServiceModel.Channels.MessageHeaders.ReplyTo%2A&gt;-adressen för den slutpunkt som ger klienten slutpunktens adress.&lt;/xref:System.ServiceModel.Channels.MessageHeaders.ReplyTo%2A&gt; &lt;/xref:System.ServiceModel.Channels.MessageHeaders.To%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the most basic case, when two parties exchange messages between themselves only, it is not necessary to specify these addresses separately.</source>
+          <target state="translated">I det enklaste fallet när två parter skickar meddelanden mellan dem, är det inte nödvändigt att ange dessa adresser separat.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>But because exchanges can involve other message destinations, you must be able to specify when addresses must be explicitly provided.</source>
+          <target state="translated">Men eftersom utbyten kan omfatta andra meddelande-mål, du måste kunna ange när adresser måste anges explicit.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Even between just two parties this ability is sometimes required, as with dual HTTP where the server must create its own HTTP request.</source>
+          <target state="translated">Även mellan två parter krävs denna möjlighet ibland, som med dubbla HTTP där servern måste skapa en egen HTTP-begäran.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following kinds of relationships are defined by the SupportedAddressingMode enumeration to capture these messaging patterns:      -   Anonymous addresses are the most basic form of addressing.</source>
+          <target state="translated">Följande typer av relationer som definieras av uppräkningen SupportedAddressingMode att samla in dessa meddelandemönster:-anonyma adresser är den enklaste formen av adressering.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Anonymous addressing is used when there is a default path for a response.</source>
+          <target state="translated">Anonym adressering används när det finns en standardsökväg för svar.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TCP is a bi-directional communication transport and the response to a TCP message can be sent back to the other side of the socket that sent the original message.</source>
+          <target state="translated">TCP är en dubbelriktad kommunikation transport och svar på ett TCP-meddelande kan skickas tillbaka till den andra sidan av socket som skickat det ursprungliga meddelandet.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, the request-reply model of HTTP sends responses through the HTTP reply channel.</source>
+          <target state="translated">På liknande sätt, skickar request-reply-modellen för HTTP-svar via HTTP-svar-kanalen.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Neither of these responses requires specifying where the response messages are going.</source>
+          <target state="translated">Ingen av dessa svar måste där svarsmeddelanden kommer.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a server requires anonymous responses from the client, it uses the Anonymous value of the enumeration.</source>
+          <target state="translated">När en server kräver anonym svar från klienten, använder anonym värdet för uppräkningen.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> system-provided &lt;xref:System.ServiceModel.NetTcpBinding&gt;, &lt;xref:System.ServiceModel.BasicHttpBinding&gt; and &lt;xref:System.ServiceModel.WSHttpBinding&gt; bindings always use Anonymous addresses.</source>
+          <target state="translated">Den <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> systembaserade &lt;xref:System.ServiceModel.NetTcpBinding&gt;, &lt;xref:System.ServiceModel.BasicHttpBinding&gt;och &lt;xref:System.ServiceModel.WSHttpBinding&gt;Bindningar alltid använda anonyma adresser.&lt;/xref:System.ServiceModel.WSHttpBinding&gt; &lt;/xref:System.ServiceModel.BasicHttpBinding&gt; &lt;/xref:System.ServiceModel.NetTcpBinding&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   NonAnonymous addresses are used when sending the response requires creating a new channel for communication.</source>
+          <target state="translated">-Icke-anonyma adresser används när du skickar svar måste du skapa en ny kanal för kommunikation.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> system-provided &lt;xref:System.ServiceModel.WSDualHttpBinding&gt; binding uses a NonAnonymous address.</source>
+          <target state="translated">Den <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> systembaserade &lt;xref:System.ServiceModel.WSDualHttpBinding&gt;bindningen använder en icke-anonym adress.&lt;/xref:System.ServiceModel.WSDualHttpBinding&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With dual HTTP, the client creates an HTTP request to send a message and then the server must create its own HTTP request to send a response.</source>
+          <target state="translated">Klienten skapar en HTTP-begäran för att skicka ett meddelande med dubbla HTTP och servern måste skapa egna HTTP-begäran för att skicka ett svar.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the server is initiating the send, it must have a specific endpoint to establish the connection.</source>
+          <target state="translated">Eftersom servern initierar skicka, måste den ha en viss slutpunkt för att upprätta anslutningen.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must provide the server the address of an endpoint for its response.</source>
+          <target state="translated">Du måste ange servern adressen till en slutpunkt för sitt svar.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, if a service must respond to a one-way message that it received, it also requires a NonAnonymous address because there is no back channel available for communication.</source>
+          <target state="translated">På liknande sätt, om en tjänst måste svara på ett enkelriktat meddelande som togs emot det kräver också en icke-anonyma adressen eftersom det finns ingen tillbaka kanal för kommunikation.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the server sends a message back, a completely separate operation from that used to send the first message is required.</source>
+          <target state="translated">Om servern skickar tillbaka ett meddelande, krävs en separat åtgärd från som används för att skicka det första meddelandet.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Mixed is a third form of addressing which combines Anonymous and NonAnonymous addresses depending on the message that is being sent.</source>
+          <target state="translated">-Blandat utgör ett tredje adressering som kombinerar anonym och icke-anonyma adresser beroende på det meddelande som skickas.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A typical example of mixed-mode addressing is the use of a dedicated machine for processing fault or acknowledgment messages.</source>
+          <target state="translated">Ett typexempel på blandat läge adressering är att använda en särskild dator för fel eller bekräftelse meddelandebehandling.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the standard exchange sequence for replies is HTTP or TCP, the responses use Anonymous addressing but the faults use non-anonymous addressing.</source>
+          <target state="translated">Om standard exchange-sekvensen för svar är HTTP eller TCP, svaren använder anonym adressering men fel använder icke-anonym adressering.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> does not provide Mixed addressing functionality in one of its standard bindings, it is possible to write a channel that allows the service to send responses directly on the back-channel (when the response address is Anonymous) or on a separate channel (when the response address is NonAnonymous).</source>
+          <target state="translated">Medan <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> ger inte Mixed adressering funktioner i en av dess standard bindningar, är det möjligt att skriva en kanal som kan skicka svar direkt på Bakåt-kanalen (när svaret adressen är anonym) eller på en separat kanal (när svaret adressen är icke-anonyma)-tjänsten.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In such a case, the binding element of the channel is used to setSupportedAddressingMode to Mixed.</source>
+          <target state="translated">I sådana fall är bindningselement av kanal används för att setSupportedAddressingMode till Mixed.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The server only supports anonymous addresses and clients must provide an anonymous response address.</source>
+          <target state="translated">Servern stöder enbart anonyma adresser och klienterna måste ange en svarsadress för anonym.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The server supports both anonymous and non-anonymous addresses and clients may choose to use either or both.</source>
+          <target state="translated">Servern stöder både anonyma och icke-anonyma adresser och klienter kan välja att använda ett av eller båda.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The server only supports non-anonymous addresses and clients must provide a non-anonymous response address.</source>
+          <target state="translated">Servern stöder endast icke-anonyma adresser och klienter måste ange en icke-anonym svarsadress.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

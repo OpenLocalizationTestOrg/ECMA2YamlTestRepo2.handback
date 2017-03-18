@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c599d55e0d37941341312e94cf67c74f16281ec4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.ProfileOptimization.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97f5d92501a49cfd73b2d22e5565933c27c2c67f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1fea4448cf8b1f6ff33ea4eb4610c3f92904bebd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Improves the startup performance of application domains in applications that require the just-in-time (JIT) compiler by performing background compilation of methods that are likely to be executed, based on profiles created during previous compilations.</source>
+          <target state="translated">Melhora o desempenho de arranque de domínios de aplicação nas aplicações que requerem o compilador do just-in-time (JIT), efetuando a compilação de fundo dos métodos que se prevê a ser executado, com base nos perfis criados durante compilações anteriores.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  Profile optimization requires a multicore computer.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; Otimização de perfil requer um computador especializado.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The methods are ignored on other computers.</source>
+          <target state="translated">Os métodos são ignorados noutros computadores.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each time you initiate profile optimization in an application domain, the profile that was created during the previous use is read.</source>
+          <target state="translated">Sempre que iniciar a otimização de perfil num domínio de aplicação, o perfil que foi criado durante a utilização anterior é de leitura.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The information in the profile is used to guide background compilation by identifying the methods that are most likely to be executed during startup.</source>
+          <target state="translated">As informações do perfil são utilizadas o ajudará a compilação de em segundo plano, identificando os métodos que são mais prováveis ser executada durante o arranque.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On multicore computers, this increases the chances that a method is already compiled by the time it is needed so that the main application thread does not have to call the JIT compiler.</source>
+          <target state="translated">Em computadores especializados, aumenta a possibilidade de um método já está compilado pelo tempo necessário para que o thread de aplicação principal não tem de chamar o compilador JIT.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The profile file is overwritten on each use, so it always contains the most recent information about which methods are used during startup.</source>
+          <target state="translated">O ficheiro de perfil é substituído em cada utilização, pelo que sempre contém as informações mais recentes sobre os quais os métodos são utilizados durante o arranque.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Optimization profiles are not restricted to application domain startup.</source>
+          <target state="translated">Perfis de otimização não estão limitadas para arranque de domínio de aplicação.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>They can be used for any activity that will require heavy use of the JIT compiler.</source>
+          <target state="translated">Podem ser utilizadas para qualquer atividade que irá exigir a utilização intensa de compilador JIT.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can maintain multiple profiles for an application domain so that each such activity has its own profile.</source>
+          <target state="translated">Pode manter vários perfis para um domínio de aplicação para que cada atividade essa tenha o seu próprio perfil.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use optimization profiles in an application domain, you must call the &lt;xref:System.Runtime.ProfileOptimization.SetProfileRoot%2A&gt; method and specify the folder where profiles are stored.</source>
+          <target state="translated">Para utilizar perfis de otimização num domínio de aplicação, tem de chamar o &lt;xref:System.Runtime.ProfileOptimization.SetProfileRoot%2A&gt;método e especifique a pasta onde estão armazenados os perfis.&lt;/xref:System.Runtime.ProfileOptimization.SetProfileRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The folder must already exist.</source>
+          <target state="translated">A pasta já deve existir.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To begin using a profile, call the &lt;xref:System.Runtime.ProfileOptimization.StartProfile%2A&gt; method and specify the file name of the profile.</source>
+          <target state="translated">Para começar a utilizar um perfil, chame o &lt;xref:System.Runtime.ProfileOptimization.StartProfile%2A&gt;método e especifique o nome de ficheiro do perfil.&lt;/xref:System.Runtime.ProfileOptimization.StartProfile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the file was not recorded previously, it is created on first use.</source>
+          <target state="translated">Se o ficheiro não foi registado anteriormente, será criado na primeira utilização.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no performance benefit the first time a profile is created.</source>
+          <target state="translated">Não há nenhum benefício o primeiro de tempo de desempenho é criado um perfil.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Profile optimization does not change the order in which methods are executed.</source>
+          <target state="translated">Otimização de perfil não alterar a ordem na qual são executados métodos.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Methods are not executed on the background thread; if a method is compiled but never called, it is simply not used.</source>
+          <target state="translated">Métodos não estão a ser executados no thread de segundo plano; Se um método é compilado, mas nunca chamado, basta não é utilizado.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a profile file is corrupt or cannot be written to the specified folder (for example, because the folder does not exist), program execution continues without optimization profiling.</source>
+          <target state="translated">Se um ficheiro de perfil está danificado ou não é possível escrever na pasta especificada (por exemplo, porque a pasta não existe), a execução do programa continua sem a criação de perfis de otimização.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Enables optimization profiling for the current application domain, and sets the folder where the optimization profile files are stored.</source>
+          <target state="translated">Permite a otimização de criação de perfis para o domínio de aplicação atual e define a pasta onde estão armazenados os ficheiros de perfil de otimização.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On a single-core computer, the method is ignored.</source>
+          <target state="translated">Num computador single-core, o método é ignorado.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must call this method before you call the &lt;xref:System.Runtime.ProfileOptimization.StartProfile%2A&gt; method for the first time in the current application domain.</source>
+          <target state="translated">Tem de chamar este método antes de chamar o &lt;xref:System.Runtime.ProfileOptimization.StartProfile%2A&gt;método pela primeira vez no domínio de aplicação atual.&lt;/xref:System.Runtime.ProfileOptimization.StartProfile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call SetProfileRoot more than once in the same application domain, all calls after the first are ignored.</source>
+          <target state="translated">Se chamar SetProfileRoot mais do que uma vez no mesmo domínio de aplicação, serão ignoradas todas as chamadas após o primeiro.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The specified folder must already exist.</source>
+          <target state="translated">A pasta especificada já deve existir.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it does not exist, calling this method does not create it, and no profiling occurs.</source>
+          <target state="translated">Se não existir, chamar este método não criá-la e não a criação de perfis ocorre.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On computers that do not have multiple cores, this method is ignored.</source>
+          <target state="translated">Em computadores que não têm vários núcleos, este método é ignorado.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The full path to the folder where profile files are stored for the current application domain.</source>
+          <target state="translated">O caminho completo para a pasta onde estão armazenados os ficheiros de perfil para o domínio de aplicação atual.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Starts just-in-time (JIT) compilation of the methods that were previously recorded in the specified profile file, on a background thread.</source>
+          <target state="translated">Inicia a compilação de (JIT) just-in-time dos métodos de que foram anteriormente registados no ficheiro de perfil especificado, num thread em segundo plano.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Starts the process of recording current method use, which later overwrites the specified profile file.</source>
+          <target state="translated">Inicia o processo de gravação utilizado método atual, o que mais tarde substitui o ficheiro de perfil especificado.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified profile exists in the folder specified by the &lt;xref:System.Runtime.ProfileOptimization.SetProfileRoot%2A&gt; method, the information it contains is used to determine the order in which methods are compiled on the background thread.</source>
+          <target state="translated">Se o perfil especificado existe na pasta especificada pelo &lt;xref:System.Runtime.ProfileOptimization.SetProfileRoot%2A&gt;método, as informações contém é utilizado para determinar a ordem na qual os métodos são compilados no thread de segundo plano.&lt;/xref:System.Runtime.ProfileOptimization.SetProfileRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The StartProfile method creates the profile if it does not already exist, and initiates the recording of method use.</source>
+          <target state="translated">O método StartProfile cria o perfil, se ainda não existir e inicia a gravação de utilização de método.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only methods that are actually called are recorded, regardless of whether they were compiled on the background thread or on the main application thread.</source>
+          <target state="translated">Apenas os métodos que, na verdade, são denominados são registados, independentemente se foram compiladas no thread de segundo plano ou o thread principal da aplicação.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A method is compiled on the main application thread if the application needs to call it before the background thread has compiled it.</source>
+          <target state="translated">Um método é compilado no thread de aplicação principal, se a aplicação tem de chamá-lo antes do thread de segundo plano que compilado-lo.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The code that performs the recording tracks the rate at which methods are compiled, including methods that are compiled on both the background thread and on the main thread.</source>
+          <target state="translated">O código que efetua a gravação controla a taxa a que sejam compilados métodos, incluindo métodos compilados no thread de segundo plano e em que o thread principal.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the rate falls below a predetermined level, recording stops.</source>
+          <target state="translated">Quando a taxa está abaixo de um nível predeterminado, gravação é interrompida.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Recording also stops if the rate of JIT compilation exceeds a predetermined upper limit.</source>
+          <target state="translated">Gravação interrompe também se a taxa de compilação JIT exceder um limite superior predeterminado.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Runtime.ProfileOptimization.SetProfileRoot%2A&gt; method has not been called for the current application domain, or if the computer does not have multiple cores, the StartProfile method has no effect.</source>
+          <target state="translated">Se o &lt;xref:System.Runtime.ProfileOptimization.SetProfileRoot%2A&gt;método não foi chamado para o domínio de aplicação atual ou, se o computador não tiver vários núcleos, o método StartProfile não tem qualquer efeito.&lt;/xref:System.Runtime.ProfileOptimization.SetProfileRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The file name of the profile to use.</source>
+          <target state="translated">O nome de ficheiro de perfil para utilizar.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
