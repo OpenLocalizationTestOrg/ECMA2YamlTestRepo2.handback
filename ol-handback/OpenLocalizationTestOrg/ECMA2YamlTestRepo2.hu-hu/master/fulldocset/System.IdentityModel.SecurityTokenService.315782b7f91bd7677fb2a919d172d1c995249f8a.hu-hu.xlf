@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">456404cc887844e1e8f71ec73aad24765cc3c94f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.SecurityTokenService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee8df1194e1beffc1c5752b26cbda42433e00c53</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8b3ed043909c4e884226058fcb219031c2a5321</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The abstract base class that defines the properties and methods of a security token service (STS).</source>
+          <target state="translated">Az absztrakt alaposztálya, amely meghatározza a tulajdonságai és metódusai biztonságijogkivonat-szolgáltatás (STS).</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create an STS you must derive from the SecurityTokenService class.</source>
+          <target state="translated">Biztonságijogkivonat-szolgáltatás létrehozásához a SecurityTokenService osztályból kell származnia.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In your custom class you must, at a minimum, override the &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; and &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt; methods.</source>
+          <target state="translated">Az egyéni osztály Ha kell, legalább a felülírja a &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;és &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt;módszerek.&lt;/xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With these overrides, the STS created using the default implementation of all the other methods defined in the class is capable of issuing security tokens in response to security token requests (RST).</source>
+          <target state="translated">Ezeket a felülbírálásokat az STS-osztály minden más módszerekkel alapértelmezett végrehajtásának használatával létrehozott nem képes a kiállító biztonsági jogkivonatokat válaszul biztonsági jogkivonat-kérelmeket (RST).</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, the Issue binding defined in the WS-Trust specification is implemented.</source>
+          <target state="translated">Ez azt jelenti, hogy a WS-Trust definiált probléma kötés van megvalósítva.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This binding is implemented in the &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method.</source>
+          <target state="translated">A kötés meg van valósítva a &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>None of the other WS-Trust bindings (Renew, Cancel, and Validate) are implemented in the default case and an appropriate fault is returned to the caller if an RST that corresponds to one of these bindings is encountered.</source>
+          <target state="translated">A más WS-Trust kötések (megújítási, megszakítás és ellenőrzése) egyike valósíthatók meg alapértelmezés szerint, és ha az egyik ilyen kötést megfelelő RST észleli visszaérkezik a hívóhoz egy megfelelő hiba van.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can, of course, override the appropriate methods (&lt;xref:System.IdentityModel.SecurityTokenService.Renew%2A&gt;, &lt;xref:System.IdentityModel.SecurityTokenService.Cancel%2A&gt;, and &lt;xref:System.IdentityModel.SecurityTokenService.Validate%2A&gt;) to implement these bindings in your STS.</source>
+          <target state="translated">Természetesen, felülbírálhatja a megfelelő módszereket (&lt;xref:System.IdentityModel.SecurityTokenService.Renew%2A&gt;, &lt;xref:System.IdentityModel.SecurityTokenService.Cancel%2A&gt;, és &lt;xref:System.IdentityModel.SecurityTokenService.Validate%2A&gt;) az ilyen kötést valósít meg a biztonságijogkivonat&lt;/xref:System.IdentityModel.SecurityTokenService.Validate%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.Cancel%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.Renew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Implementing a production-ready STS entails careful planning and considerable resources to mitigate the potential security risks inherent in exposing such a service.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Egy éles használatra kész végrehajtási STS terjed ki gondos tervezéssel és a potenciális biztonsági kockázatok ilyen szolgáltatás kitettségének mérséklése jelentős erőforrásokat.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most developers using Windows Identity Foundation (WIF) will be developing applications that outsource identity management to an STS, rather than developing an STS itself.</source>
+          <target state="translated">Legtöbb fejlesztő Windows Identity Foundation (WIF) használatával lesz kell fejleszt alkalmazásokat, amelyek az STS szolgáltatással történő Identitáskezelés erőforrás kihelyezése helyett fejlesztése az STS szolgáltatással magát.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>WIF provides a Visual Studio extension, the Identity and Access Tool for Visual Studio 2012, to help developers test solutions in the development environment.</source>
+          <target state="translated">WIF biztosít a Visual Studio bővítmény az identitás- és hozzáférés eszköz a Visual Studio 2012 segítségével a fejlesztők tesztelheti a megoldások fejlesztői környezetben.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This tool includes an STS, <ph id="ph1">`LocalSTS`</ph>, that you can configure to serve specific claims to the application that you are developing.</source>
+          <target state="translated">Ez az eszköz magában foglalja az STS szolgáltatással <ph id="ph1">`LocalSTS`</ph>, az alkalmazás kifejlesztett egyedi jogcímeket kiszolgálására konfigurálható.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the Identity and Access tool, see <bpt id="p1">[</bpt>Identity and Access Tool for Visual Studio 2012<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Az identitás- és hozzáférés eszközzel kapcsolatos további információkért lásd: <bpt id="p1">[</bpt>identitás- és hozzáférés eszköz a Visual Studio 2012<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In some scenarios, <ph id="ph1">`LocalSTS`</ph> may not provide the functionality necessary to adequately test your application; for example, in a scenario that involves developing a custom token handler for use by an application.</source>
+          <target state="translated">Bizonyos esetekben <ph id="ph1">`LocalSTS`</ph> is biztosít az alkalmazás megfelelően teszteléséhez szükséges funkciókat; például olyan forgatókönyvekben, amelyek magában foglalja a fejlesztés egy egyéni biztonságijogkivonat-kezelő számára az alkalmazások.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In these cases, you can derive from SecurityTokenService to create one or more simple STSs that can be deployed in your development environment and that can be used to test such features in your application.</source>
+          <target state="translated">Ebben az esetben egy vagy több egyszerű STSs, amelyek a fejlesztési környezet is telepíthető, és ezek a funkciók ellenőrzéséhez az alkalmazás, amely használható létrehozni SecurityTokenService is származik.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The rest of this section focuses on the methods exposed by the SecurityTokenService class that enable you to implement a simple STS and extend the token issuance pipeline.</source>
+          <target state="translated">Ez a szakasz a többi a SecurityTokenService osztály által elérhetővé tett a módszereket, amelyek lehetővé teszik egy egyszerű STS megvalósításához és kiterjesztéséhez a token kiállítási folyamatának összpontosít.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following list provides a brief overview of the methods of primary importance to the developer for use in a test or development environment.</source>
+          <target state="translated">Az alábbi lista a fejlesztők kiemelkedően módszerek rövid áttekintést nyújt a teszt- vagy környezetben való használathoz.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; method.</source>
+          <target state="translated">-A &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns a &lt;xref:System.IdentityModel.Scope&gt; object that contains information about the RP.</source>
+          <target state="translated">Ez a módszer adja vissza egy &lt;xref:System.IdentityModel.Scope&gt;objektum, amely a függő Entitás adatait tartalmazza.&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This object is used in the rest of the token issuance pipeline and includes information about the signing and encrypting credentials to use in the response, as well as the <ph id="ph1">`AppliesTo`</ph> and <ph id="ph2">`ReplyTo`</ph> (if required) addresses.</source>
+          <target state="translated">Ez az objektum a token kiállítási folyamatának többi használatban van, és az aláírási és a hitelesítő adatok titkosítása a válaszban használandó kapcsolatos adatokat tartalmaz, valamint a <ph id="ph1">`AppliesTo`</ph> és <ph id="ph2">`ReplyTo`</ph> (ha szükséges) címek.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must override this method.</source>
+          <target state="translated">Ez a metódus felül kell bírálnia.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt; method.</source>
+          <target state="translated">-A &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns an &lt;xref:System.Security.Claims.ClaimsIdentity&gt; object that contains the claims to return to the RP.</source>
+          <target state="translated">Ez a módszer adja vissza egy &lt;xref:System.Security.Claims.ClaimsIdentity&gt;objektum, amely tartalmazza a jogcímeket a függő Entitás való visszatéréshez.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must override this method.</source>
+          <target state="translated">Ez a metódus felül kell bírálnia.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method.</source>
+          <target state="translated">-A &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method implements the token request pipeline, which processes an incoming security token request (RST) and returns a response (RSTR) to the caller that contains a token that can be used to authenticate with an RP.</source>
+          <target state="translated">Ez a metódus valósítja meg a token kérelemfeldolgozási sorban, amely feldolgozza a bejövő biztonsági jogkivonat kérelmet (RST) és (RSTR) választ ad a hívónak, amely egy jogkivonatot tartalmaz, amely segítségével a hitelesítést egy függő Entitás.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Many of the other methods defined in the SecurityTokenService class are called from this method, including the &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; and &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt; methods.</source>
+          <target state="translated">A többi módszer SecurityTokenService osztály számos nevezzük, ezzel a módszerrel a többek között a &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;és &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt;módszerek.&lt;/xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not have to override this method, but an understanding of the token request pipeline it implements may be helpful.</source>
+          <target state="translated">Nem kell bírálja felül ezt a módszert, de hasznos lehet a token kérelemfeldolgozási sorban, végrehajtja az ismeretét.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An STS is configured through the &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration&gt; class.</source>
+          <target state="translated">Az STS szolgáltatással &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration&gt;osztály&lt;/xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration&gt; konfigurálva</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Called from derived classes to initialize the <bpt id="p1">&lt;xref href="System.IdentityModel.SecurityTokenService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified configuration settings.</source>
+          <target state="translated">Származtatott osztályok inicializálása hívása a <bpt id="p1">&lt;xref href="System.IdentityModel.SecurityTokenService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott konfigurációs beállításokkal.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to initialize scope provider and token issuer certificate.</source>
+          <target state="translated">Ez a konstruktor segítségével hatókör szolgáltató és a token kibocsátói tanúsítvány inicializálása.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Configuration.SecurityTokenServiceConfiguration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the settings for the STS.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Configuration.SecurityTokenServiceConfiguration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza az STS beállításait.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;securityTokenServiceConfiguration&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;securityTokenServiceConfiguration&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, begins an asynchronous WS-Trust Cancel request.</source>
+          <target state="translated">Amikor felül van bírálva a származtatott osztály, elkezdi az aszinkron szakítsa meg a WS-Trust kérelmet.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the identity of the token requestor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token azonosságát jelöli.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a biztonsági jogkivonatra vonatkozó kérést.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This includes the request message as well as other client related information such as authorization context.</source>
+          <target state="translated">Ez magában foglalja a kérelem üzenet, valamint az egyéb ügyfél kapcsolatos információkat, például az engedélyezési környezetet.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives notification of the completion of the asynchronous cancel operation.</source>
+          <target state="translated">A &lt;xref:System.AsyncCallback&gt;delegált esetén, amely a aszinkron visszavonási művelet befejeződéséről értesítést kap.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An object that contains state information associated with the asynchronous cancel operation.</source>
+          <target state="translated">Egy objektum, amely tartalmazza az állapot információk is társítva vannak az aszinkron művelet megszakításához.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous cancel operation.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;, amely hivatkozik a aszinkron visszavonási művelet.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, begins an asynchronous call to the &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity*&gt; method.</source>
+          <target state="translated">Amikor felül van bírálva a származtatott osztály, elkezdi a egy aszinkron hívás a &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity*&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws a &lt;xref:System.NotImplementedException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.NotImplementedException&gt;.&lt;/xref:System.NotImplementedException&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the identity of the token requestor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token azonosságát jelöli.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a biztonsági jogkivonatra vonatkozó kérést.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This includes the request message as well as other client related information such as authorization context.</source>
+          <target state="translated">Ez magában foglalja a kérelem üzenet, valamint az egyéb ügyfél kapcsolatos információkat, például az engedélyezési környezetet.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains information about the relying party associated with the request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza a kéréshez társított függő entitással kapcsolatos információkat.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives notification of the completion of the asynchronous operation.</source>
+          <target state="translated">A &lt;xref:System.AsyncCallback&gt;delegált esetén, amely az aszinkron művelet befejeződéséről értesítést kap.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An object that contains state information associated with the asynchronous operation.</source>
+          <target state="translated">Az aszinkron művelethez társított állapotadatait tartalmazó objektum.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous operation.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;az aszinkron művelet hivatkozik, amely.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, begins an asynchronous call for the &lt;xref:System.IdentityModel.SecurityTokenService.GetScope*&gt; method.</source>
+          <target state="translated">Amikor felül van bírálva a származtatott osztály, elkezdi a egy aszinkron hívás a &lt;xref:System.IdentityModel.SecurityTokenService.GetScope*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.GetScope*&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws a &lt;xref:System.NotImplementedException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.NotImplementedException&gt;.&lt;/xref:System.NotImplementedException&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the identity of the token requestor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token azonosságát jelöli.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a biztonsági jogkivonatra vonatkozó kérést.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This includes the request message as well as other client related information such as authorization context.</source>
+          <target state="translated">Ez magában foglalja a kérelem üzenet, valamint az egyéb ügyfél kapcsolatos információkat, például az engedélyezési környezetet.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives notification of the completion of the asynchronous operation.</source>
+          <target state="translated">A &lt;xref:System.AsyncCallback&gt;delegált esetén, amely az aszinkron művelet befejeződéséről értesítést kap.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An object that contains state information associated with the asynchronous operation.</source>
+          <target state="translated">Az aszinkron művelethez társított állapotadatait tartalmazó objektum.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous cancel operation.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;, amely hivatkozik a aszinkron visszavonási művelet.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, begins an asynchronous WS-Trust Issue request.</source>
+          <target state="translated">Amikor felül van bírálva a származtatott osztály, elkezdi a WS-Trust probléma hibaválasz.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the identity of the token requestor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token azonosságát jelöli.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a biztonsági jogkivonatra vonatkozó kérést.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This includes the request message as well as other client related information such as authorization context.</source>
+          <target state="translated">Ez magában foglalja a kérelem üzenet, valamint az egyéb ügyfél kapcsolatos információkat, például az engedélyezési környezetet.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives notification of the completion of the asynchronous issue operation.</source>
+          <target state="translated">A &lt;xref:System.AsyncCallback&gt;delegált esetén, amely a hiba aszinkron művelet befejeződéséről értesítést kap.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An object that contains state information associated with the asynchronous issue operation.</source>
+          <target state="translated">Egy objektum, amely tartalmazza a hiba aszinkron művelethez társított állapotadatokat.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous issue operation.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;, amely hivatkozik a probléma aszinkron művelet.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, begins an asynchronous WS-Trust Renew request.</source>
+          <target state="translated">Amikor felül van bírálva a származtatott osztály, elkezdi az aszinkron újítsa meg a WS-Trust kérelmet.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the identity of the token requestor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token azonosságát jelöli.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a biztonsági jogkivonatra vonatkozó kérést.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This includes the request message as well as other client related information such as authorization context.</source>
+          <target state="translated">Ez magában foglalja a kérelem üzenet, valamint az egyéb ügyfél kapcsolatos információkat, például az engedélyezési környezetet.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives notification of the completion of the asynchronous renew operation.</source>
+          <target state="translated">A &lt;xref:System.AsyncCallback&gt;delegált esetén, amely az aszinkron befejeződéséről értesítést kap újítsa meg a műveletet.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An object that contains state information associated with the asynchronous renew operation.</source>
+          <target state="translated">Az aszinkron társított állapotadatait tartalmazó objektum újítsa meg a műveletet.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous renew operation.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;, hogy a hivatkozások az aszinkron művelet megújítani.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, begins an asynchronous WS-Trust Validate request.</source>
+          <target state="translated">Amikor felül van bírálva a származtatott osztály, elkezdi az aszinkron érvényesítése WS-Trust kérelmet.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the identity of the token requestor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token azonosságát jelöli.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a biztonsági jogkivonatra vonatkozó kérést.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This includes the request message as well as other client related information such as authorization context.</source>
+          <target state="translated">Ez magában foglalja a kérelem üzenet, valamint az egyéb ügyfél kapcsolatos információkat, például az engedélyezési környezetet.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives notification of the completion of the asynchronous validate operation.</source>
+          <target state="translated">A &lt;xref:System.AsyncCallback&gt;delegált esetén, amely az aszinkron befejeződéséről értesítést kap a művelet érvényesítése.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>An object that contains state information associated with the asynchronous validate operation.</source>
+          <target state="translated">Egy objektum, amely tartalmazza az állapot információk is társítva vannak az aszinkron művelet érvényesítése.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous validate operation.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;hivatkozásokat az aszinkron művelet érvényesítése.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, processes a WS-Trust Cancel request.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, WS-Trust megszakítja a kérést dolgoz fel.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the identity of the token requestor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token azonosságát jelöli.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a biztonsági jogkivonatra vonatkozó kérést.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This includes the request message as well as other client related information such as authorization context.</source>
+          <target state="translated">Ez magában foglalja a kérelem üzenet, valamint az egyéb ügyfél kapcsolatos információkat, például az engedélyezési környezetet.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the RSTR to return to the caller.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a hívó visszatérni Kulcsalgoritmus jelöli.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Creates an instance of a &lt;xref:System.IdentityModel.SecurityTokenService.SecurityTokenDescriptor*&gt;.</source>
+          <target state="translated">Létrehoz egy új &lt;xref:System.IdentityModel.SecurityTokenService.SecurityTokenDescriptor*&gt;.&lt;/xref:System.IdentityModel.SecurityTokenService.SecurityTokenDescriptor*&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Invoked during token issuance after &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;.</source>
+          <target state="translated">Közben jogkivonat kibocsátási &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;.&lt;/xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; után elindul</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The incoming token request.</source>
+          <target state="translated">A bejövő jogkivonatkérelem.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.Scope<bpt id="p1">*</bpt>&gt; object returned from &lt;xref:System.IdentityModel.SecurityTokenService.GetScope<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">A &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; által visszaadott objektum &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.SecurityTokenDescriptor*&gt;.</source>
+          <target state="translated">A &lt;xref:System.IdentityModel.SecurityTokenService.SecurityTokenDescriptor*&gt;.&lt;/xref:System.IdentityModel.SecurityTokenService.SecurityTokenDescriptor*&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;scope&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;scope&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, completes the asynchronous WS-Trust Cancel request.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor befejeződik az aszinkron szakítsa meg a WS-Trust kérelmet.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that is returned by a call to the &lt;xref:System.IdentityModel.SecurityTokenService.BeginCancel*&gt; method.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;hívásakor adja vissza, amely a &lt;xref:System.IdentityModel.SecurityTokenService.BeginCancel*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.BeginCancel*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the RSTR to return to the caller.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a hívó visszatérni Kulcsalgoritmus jelöli.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, completes the asynchronous call to the &lt;xref:System.IdentityModel.SecurityTokenService.BeginGetOutputClaimsIdentity*&gt; method.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor befejeződik az aszinkron hívás a &lt;xref:System.IdentityModel.SecurityTokenService.BeginGetOutputClaimsIdentity*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.BeginGetOutputClaimsIdentity*&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws a &lt;xref:System.NotImplementedException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.NotImplementedException&gt;.&lt;/xref:System.NotImplementedException&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that is returned by a call to the &lt;xref:System.IdentityModel.SecurityTokenService.BeginGetOutputClaimsIdentity*&gt; method.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;hívásakor adja vissza, amely a &lt;xref:System.IdentityModel.SecurityTokenService.BeginGetOutputClaimsIdentity*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.BeginGetOutputClaimsIdentity*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the collection of claims that will be placed in the issued security token.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , kerül a biztonsági jogkivonatában lévő jogcímeket gyűjteményét tartalmazza.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, completes the asynchronous call to the &lt;xref:System.IdentityModel.SecurityTokenService.BeginGetScope*&gt; method.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor befejeződik az aszinkron hívás a &lt;xref:System.IdentityModel.SecurityTokenService.BeginGetScope*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.BeginGetScope*&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws a &lt;xref:System.NotImplementedException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.NotImplementedException&gt;.&lt;/xref:System.NotImplementedException&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that is returned by a call to the &lt;xref:System.IdentityModel.SecurityTokenService.BeginGetScope*&gt; method.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;hívásakor adja vissza, amely a &lt;xref:System.IdentityModel.SecurityTokenService.BeginGetScope*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.BeginGetScope*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that encapsulates the relying party (RP) information associated with the request (RST) specified in the call to the &lt;xref:System.IdentityModel.SecurityTokenService.BeginGetScope*&gt; method.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely magában foglalja a függő entitásonkénti (RP) információk is társítva vannak a hívásban megadott kérés (RST) a &lt;xref:System.IdentityModel.SecurityTokenService.BeginGetScope*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.BeginGetScope*&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, completes the asynchronous WS-Trust Issue request.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor befejeződik az aszinkron WS-Trust probléma kérelem.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that is returned by a call to the &lt;xref:System.IdentityModel.SecurityTokenService.BeginIssue*&gt; method.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;hívásakor adja vissza, amely a &lt;xref:System.IdentityModel.SecurityTokenService.BeginIssue*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.BeginIssue*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the RSTR to return to the caller.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a hívó visszatérni Kulcsalgoritmus jelöli.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, completes the asynchronous WS-Trust Renew request.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor befejeződik az aszinkron újítsa meg a WS-Trust kérelmet.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that is returned by a call to the &lt;xref:System.IdentityModel.SecurityTokenService.BeginRenew*&gt; method.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;hívásakor adja vissza, amely a &lt;xref:System.IdentityModel.SecurityTokenService.BeginRenew*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.BeginRenew*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the RSTR to return to the caller.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a hívó visszatérni Kulcsalgoritmus jelöli.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, completes the asynchronous WS-Trust Validate request.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, amikor befejeződik a aszinkron érvényesítése WS-Trust kérelmet.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that is returned by a call to the &lt;xref:System.IdentityModel.SecurityTokenService.BeginValidate*&gt; method.</source>
+          <target state="translated">A &lt;xref:System.IAsyncResult&gt;hívásakor adja vissza, amely a &lt;xref:System.IdentityModel.SecurityTokenService.BeginValidate*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.BeginValidate*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the RSTR to return to the caller.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a hívó visszatérni Kulcsalgoritmus jelöli.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets the name of the security token service (STS).</source>
+          <target state="translated">Lekérdezi a biztonságijogkivonat-szolgáltatás (STS) nevét.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called from the default token issuance pipeline implemented in the &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method.</source>
+          <target state="translated">Ez a módszer az alapértelmezett hitelesítési karakterlánc-kiállítási feldolgozási sor megvalósított elnevezése a &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation returns the &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.TokenIssuerName%2A&gt; property from configuration accessed through the &lt;xref:System.IdentityModel.SecurityTokenService.SecurityTokenServiceConfiguration%2A&gt; property.</source>
+          <target state="translated">Az alapértelmezett implementációja adja vissza a &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.TokenIssuerName%2A&gt;konfigurációs keresztül érhetők el a tulajdonságot a &lt;xref:System.IdentityModel.SecurityTokenService.SecurityTokenServiceConfiguration%2A&gt;tulajdonság.&lt;/xref:System.IdentityModel.SecurityTokenService.SecurityTokenServiceConfiguration%2A&gt; &lt;/xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.TokenIssuerName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The issuer name.</source>
+          <target state="translated">A kibocsátó neve.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, this method returns a collection of output subjects to be included in the issued token.</source>
+          <target state="translated">Felül van bírálva a származtatott osztály, ha ezt a módszert a kibocsátott jogkivonat szereplő kimeneti témák gyűjteményének beolvasása.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetOutputClaimsIdentity method is called from the token issuance pipeline, which is implemented by the &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method.</source>
+          <target state="translated">A GetOutputClaimsIdentity metódus lehívásra kerül a hitelesítési karakterláncok kiállításához láncból, amelyet a &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It returns an &lt;xref:System.Security.Claims.ClaimsIdentity&gt; that contains the claims to include in the issued security token based on the requestor of the token (the <ph id="ph1">`principal`</ph> parameter), the incoming RST (the <ph id="ph2">`request`</ph> parameter), and the relying party for which the token is intended (the <ph id="ph3">`scope`</ph> parameter).</source>
+          <target state="translated">Adja vissza egy &lt;xref:System.Security.Claims.ClaimsIdentity&gt;ahhoz, hogy a kiadott biztonsági jogkivonat alapján a jogkivonat a kérelmező szerepeljen a jogcímeket tartalmazó (a <ph id="ph1">`principal`</ph> paraméter), a bejövő RST (a <ph id="ph2">`request`</ph> paraméter), és a függő fél részére a lexikális elem célja (a <ph id="ph3">`scope`</ph> paraméter).&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The logic in this method is primarily concerned with answering the following questions:      -   <bpt id="p1">**</bpt>Which claim types should be included in the response based on the RP for which it is intended?<ept id="p1">**</ept></source>
+          <target state="translated">Ez a módszer lévő logika elsősorban aggasztanak a következő kérdések megválaszolásával:- <bpt id="p1">**</bpt>amely jogcímtípusok szerepelnie kell az erőforrás-Szolgáltatónál, amelynek célja a választ?<ept id="p1">**</ept></target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically this is decided on a per-RP basis from lists of claim types required for each RP or on a per-request basis by examining the &lt;xref:System.IdentityModel.Protocols.WSTrust.RequestSecurityToken.Claims%2A&gt; property of the request.</source>
+          <target state="translated">Általában ez, amelyekről a lapon lévő minden egyes RP szükséges jogcímtípusok-RP alapján, vagy egy kérelem alapon vizsgálata folyamatban van a &lt;xref:System.IdentityModel.Protocols.WSTrust.RequestSecurityToken.Claims%2A&gt;tulajdonság a kérelem.&lt;/xref:System.IdentityModel.Protocols.WSTrust.RequestSecurityToken.Claims%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the logic and details for determining the claims to include in the response is completely up to your implementation.</source>
+          <target state="translated">Azonban a logikai és a részletek a jogcímeket, a válasz foglalandó meghatározásához esetén a teljes mértékben a megvalósítás.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <bpt id="p1">**</bpt>Which claim values should be assigned to the claims in the response?<ept id="p1">**</ept></source>
+          <target state="translated">- <bpt id="p1">**</bpt>Amely jogcímértékek hozzá kell rendelni a válaszban szereplő jogcímek?<ept id="p1">**</ept></target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an Identity Provider (IP-STS) this typically means using one or more claims in the requestor’s &lt;xref:System.Security.Claims.ClaimsPrincipal&gt; (provided by the <ph id="ph1">`principal`</ph> parameter) to access a store (or other entity) to return values for the required claim types.</source>
+          <target state="translated">Az egyik identitásszolgáltatónak (IP-STS) Ez általában azt jelenti, hogy segítségével egy vagy több jogcímeket a kérelmező &lt;xref:System.Security.Claims.ClaimsPrincipal&gt;(által biztosított a <ph id="ph1">`principal`</ph> paraméter) áruházbeli (vagy más entitás) vissza a szükséges jogcímtípusok értékeinek eléréséhez.&lt;/xref:System.Security.Claims.ClaimsPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a Federation Provider (R-STS) this typically means performing some kind of processing on the requestor’s incoming claims to fulfill the request; perhaps performing filtering or transformation on some claims presented by the requestor, while passing others through unmodified.</source>
+          <target state="translated">Az összevonás-szolgáltatóként (R-STS) Ez általában azt jelenti feldolgozási valamilyen végrehajtja a bejövő jogcímeket a kérelmező kérés; Szűrés vagy átalakítási lehet, hogy néhány jogcímeket a kérelmező adja meg, miközben keresztül változatlan bemutatott végrehajtására.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of course, as in the case of deciding which claims to include in the response, the details and logic of how to determine the values of these claims is up to your implementation.</source>
+          <target state="translated">Természetesen gazdabuszadaptereken dönt, hogy milyen jogcímeket kell szerepeltetni a válasz, a részletek és a jogcímek, az értékek meghatározásáról logika esetén a megvalósítás.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the identity of the token requestor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token azonosságát jelöli.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a biztonsági jogkivonatra vonatkozó kérést.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This includes the request message as well as other client related information such as authorization context.</source>
+          <target state="translated">Ez magában foglalja a kérelem üzenet, valamint az egyéb ügyfél kapcsolatos információkat, például az engedélyezési környezetet.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains information about the relying party associated with the request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza a kéréshez társított függő entitással kapcsolatos információkat.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This is the <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that was returned by the &lt;xref:System.IdentityModel.SecurityTokenService.GetScope*&gt; method.</source>
+          <target state="translated">Ez a <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> által visszaadott objektum a &lt;xref:System.IdentityModel.SecurityTokenService.GetScope*&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.GetScope*&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the collection of claims that will be placed in the issued security token.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsIdentity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , kerül a biztonsági jogkivonatában lévő jogcímeket gyűjteményét tartalmazza.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets the proof token to be included in the response (RSTR).</source>
+          <target state="translated">Lekérdezi a válasz (RSTR) szereplő igazoló jogkivonatot.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called from the default token issuance pipeline implemented in the &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method.</source>
+          <target state="translated">Ez a módszer az alapértelmezett hitelesítési karakterlánc-kiállítási feldolgozási sor megvalósított elnevezése a &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation returns a proof descriptor or throws an appropriate exception.</source>
+          <target state="translated">Az alapértelmezett implementációja igazoló leíróját adja vissza, vagy megfelelő kivételt jelez.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the incoming token request (RST).</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a bejövő jogkivonatkérelem (RST).</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that encapsulates information about the relying party.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példánya, amely magában foglalja a függő entitással kapcsolatos információkat.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.ProofDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the newly created proof descriptor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.ProofDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely az újonnan létrehozott igazoló leíró jelöli.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The proof descriptor can be an asymmetric proof descriptor, a symmetric proof descriptor, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the bearer token case.</source>
+          <target state="translated">Az ellenőrző leíró lehet aszimmetrikus igazoló leíró, egy szimmetrikus igazoló leíró vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a tulajdonosi jogkivonat esetében.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;scope&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;scope&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Gets the requestor's proof encrypting credentials.</source>
+          <target state="translated">Lekérdezi a hitelesítő adatok titkosítása a kérelmező igazolására.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called from the &lt;xref:System.IdentityModel.SecurityTokenService.GetProofToken%2A&gt; method.</source>
+          <target state="translated">Ez a módszer meghívott a &lt;xref:System.IdentityModel.SecurityTokenService.GetProofToken%2A&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.GetProofToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation does the following.</source>
+          <target state="translated">A következőket hajtja végre az alapértelmezett implementációja.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Returns <ph id="ph1">`null`</ph> if there is no encryption token specified in the request (the &lt;xref:System.IdentityModel.Protocols.WSTrust.RequestSecurityToken.ProofEncryption%2A?displayProperty=fullName&gt; property is <ph id="ph2">`null`</ph>).</source>
+          <target state="translated">Beolvasása <ph id="ph1">`null`</ph> van-e nélkül a kérelemben megadott titkosítási jogkivonattal (a &lt;xref:System.IdentityModel.Protocols.WSTrust.RequestSecurityToken.ProofEncryption%2A?displayProperty=fullName&gt;tulajdonság <ph id="ph2">`null`</ph>).&lt;/xref:System.IdentityModel.Protocols.WSTrust.RequestSecurityToken.ProofEncryption%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, if it can get the token as an &lt;xref:System.IdentityModel.Tokens.X509SecurityToken&gt;, it returns credentials based on that token.</source>
+          <target state="translated">Egyébként pedig, ha az előbbi beszerezheti a jogkivonatot, mint egy &lt;xref:System.IdentityModel.Tokens.X509SecurityToken&gt;, hitelesítő adatokat, hogy a jogkivonat alapján adja vissza.&lt;/xref:System.IdentityModel.Tokens.X509SecurityToken&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it cannot resolve the token as an &lt;xref:System.IdentityModel.Tokens.X509SecurityToken&gt;, a &lt;xref:System.IdentityModel.RequestFailedException&gt; is thrown.</source>
+          <target state="translated">Ha nem képes feloldani a jogkivonatot, mint egy &lt;xref:System.IdentityModel.Tokens.X509SecurityToken&gt;, egy &lt;xref:System.IdentityModel.RequestFailedException&gt;vált ki.&lt;/xref:System.IdentityModel.RequestFailedException&gt; &lt;/xref:System.IdentityModel.Tokens.X509SecurityToken&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the incoming token request (RST).</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a bejövő jogkivonatkérelem (RST).</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.EncryptingCredentials"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the requestor’s encrypting credentials.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.EncryptingCredentials"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a kérelmező képviselő objektum által titkosított hitelesítő adatokat.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Creates the response (RSTR) that contains the issued token by using the specified request (RST) and security token descriptor.</source>
+          <target state="translated">A válasz (RSTR), amely a kibocsátott jogkivonat tartalmazza a megadott kérelem (RST) és a biztonsági jogkivonat-leíró használatával hoz létre.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetResponse method is called as the last step from the token issuance pipeline, which is implemented by the &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method.</source>
+          <target state="translated">A GetResponse metódus lehívásra kerül utolsó lépése a hitelesítési karakterláncok kiállításához láncból, amelyet a &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It creates and returns the response (RSTR) by using the original incoming request (RST) and the token descriptor that was built up during previous steps in the token issuance pipeline.</source>
+          <target state="translated">Hoz létre, és visszaadja a választ (RSTR) használatával, az eredeti bejövő kérelem (RST) és a token leíró, amelyek a hitelesítési karakterlánc-kiállítási feldolgozási előző lépések során lett létrehozva.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation creates the RSTR by passing the RST specified in the request parameter to the &lt;xref:System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse.%23ctor%28System.IdentityModel.Protocols.WSTrust.WSTrustMessage%29?displayProperty=fullName&gt; constructor, invoking the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.ApplyTo%2A?displayProperty=fullName&gt; method on the token descriptor passed into GetResponse to apply its properties to the newly created RSTR, setting the &lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.AppliesTo%2A&gt; property on the RSTR by using the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A&gt; property on the token descriptor, and finally setting the &lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.ReplyTo%2A&gt; property on the RSTR according to the following table:      |<ph id="ph1">`RST.ReplyTo`</ph> property|&lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A?displayProperty=fullName&gt; property.|<ph id="ph2">`RSTR.ReplyTo`</ph> property|   |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|   |Set|Not Set|Not Set|   |Set|Set|&lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A?displayProperty=fullName&gt;|   |Not Set|Set|Not Set|   |Not Set|Not Set|Not Set|</source>
+          <target state="translated">Az alapértelmezett implementációja Kulcsalgoritmus úgy, hogy a &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.ApplyTo%2A?displayProperty=fullName&gt;metódus lévő a jogkivonat leíró lett átadva a Tulajdonságok alkalmazása az újonnan létrehozott RSTR, Kulcsalgoritmus &lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.AppliesTo%2A&gt;tulajdonság beállítása a token leíró &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A&gt;tulajdonsággal, és végül a &lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.ReplyTo%2A&gt;tulajdonság beállítása az alábbi táblázat szerint Kulcsalgoritmus GetResponse hívása a &lt;xref:System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse.%23ctor%28System.IdentityModel.Protocols.WSTrust.WSTrustMessage%29?displayProperty=fullName&gt;konstruktornak, kérelmet paraméterben megadott RST hoz létre. :      | <ph id="ph1">`RST.ReplyTo`</ph> tulajdonság |} &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A?displayProperty=fullName&gt;tulajdonság. |} <ph id="ph2">`RSTR.ReplyTo`</ph> tulajdonság |}   |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|   | Állítsa be |} Nincs beállítva |} Nincs beállítva |}   | Állítsa be |} Állítsa be |} &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A?displayProperty=fullName&gt;|   | Nincs beállítva |} Állítsa be |} Nincs beállítva |}   | Nincs beállítva |} Nincs beállítva |} Not Set|&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A?displayProperty=fullName&gt;&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A?displayProperty=fullName&gt;&lt;/xref:System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse.%23ctor%28System.IdentityModel.Protocols.WSTrust.WSTrustMessage%29?displayProperty=fullName&gt;&lt;/xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.ReplyTo%2A&gt;&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.AppliesToAddress%2A&gt;&lt;/xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.AppliesTo%2A&gt;&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.ApplyTo%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The RST that contains the token request.</source>
+          <target state="translated">A RST, amely a token kérelmet tartalmaz.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The token descriptor that contains the information to use for the issued token.</source>
+          <target state="translated">A token leíró, amely a kibocsátott jogkivonat használandó információkat tartalmaz.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The response (RSTR) or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a response cannot be created from the specified request and token descriptor.</source>
+          <target state="translated">A válasz (RSTR) vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha a válasz nem hozható létre a megadott kérelem és a token leíró.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The default implementation returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">tokenDescriptor</ph><ept id="p2">&lt;/code&gt;</ept> parameter is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett implementációja adja vissza <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha a <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">tokenDescriptor</ph> <ept id="p2">&lt;/code&gt;</ept> paraméter <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains information about the relying party (RP) associated with the specified request (RST).</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely a megadott kérelem (RST) társított függő entitásonkénti (RP) kapcsolatos információt tartalmazza.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You must override this method in your implementation of the <bpt id="p1">&lt;xref href="System.IdentityModel.SecurityTokenService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Felül kell bírálnia a végrehajtása során ez a módszer a <bpt id="p1">&lt;xref href="System.IdentityModel.SecurityTokenService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetScope method is called from the token issuance pipeline after the &lt;xref:System.IdentityModel.SecurityTokenService.ValidateRequest%2A&gt; method and should return a &lt;xref:System.IdentityModel.Scope&gt; object configured for the incoming request.</source>
+          <target state="translated">A GetScope metódus lehívásra kerül a hitelesítési karakterláncok kiállításához láncból után a &lt;xref:System.IdentityModel.SecurityTokenService.ValidateRequest%2A&gt;metódus visszaadja-e, és egy &lt;xref:System.IdentityModel.Scope&gt;konfigurálni a bejövő kérelem objektum.&lt;/xref:System.IdentityModel.Scope&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.ValidateRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(The token issuance pipeline is implemented in the &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method.) The &lt;xref:System.IdentityModel.Scope&gt; object encapsulates information about the RP associated with the security token request (RST).</source>
+          <target state="translated">(A token kiállítási folyamatának meg van valósítva a &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;metódust.)&lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; A &lt;xref:System.IdentityModel.Scope&gt;objektum magában foglalja a biztonsági jogkivonat kérelem (RST) társított RP kapcsolatos információkat.&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes information about the encrypting and signing credentials to be used with the RP and whether or not to encrypt any issued tokens and/or symmetric keys in the response.</source>
+          <target state="translated">Ez magában foglalja a függő Entitás és-e a kiállított jogkivonatokat és/vagy a válaszban szereplő szimmetrikus kulcsok titkosítására használt titkosítási és aláírási hitelesítő adatokkal kapcsolatos információkat.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some typical tasks performed in the GetScope method are:      -   Determine whether the RP for which the token is intended is a recognized RP.</source>
+          <target state="translated">Néhány általános feladat GetScope metódus végre: – Ellenőrizze, hogy az erőforrás-Szolgáltatónál, amelynek célja, a jogkivonat felismert RP.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>How this is accomplished depends on your implementation.</source>
+          <target state="translated">Hogyan mindez attól függ, hogy a megvalósítás.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the intended RP is not a valid RP for this STS, then the method should throw an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ha az adott függő Entitás nem egy érvényes függő Entitás ezt STS, majd a módszer kell előidéznie &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Determine the signing credentials to be used in the response (RSTR) and set the &lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt; property accordingly.</source>
+          <target state="translated">-Meghatározni a az aláíró hitelesítő adatokat a válaszban (RSTR) használja, és állítsa be a &lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;tulajdonság ennek megfelelően.&lt;/xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Determine whether the response and/or any included symmetrical keys should be encrypted and the credentials to be used for encryption.</source>
+          <target state="translated">-Határozza meg, hogy a válasz és/vagy bármely részét szimmetrikus kulcsok titkosítottak és a titkosításhoz használandó hitelesítő adatokat.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;, &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;, and &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt; properties accordingly.</source>
+          <target state="translated">Állítsa be a &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;, &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;, és &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;Tulajdonságok ennek megfelelően.&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt; &lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt; &lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph>     &gt;  By default, the &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt; and &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt; properties are set <ph id="ph2">`true`</ph> to prevent the STS from issuing tokens that are not secure.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Alapértelmezés szerint a &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;és &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;a Tulajdonságok <ph id="ph2">`true`</ph> megakadályozhatja, hogy az STS a kiállító jogkivonatokat, amelyek nem biztonságosak.&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt; &lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is recommended that these properties never be set to <ph id="ph1">`false`</ph> in a production environment.</source>
+          <target state="translated">Javasoljuk, hogy ezek a Tulajdonságok soha nem állítható be <ph id="ph1">`false`</ph> éles környezetben.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Determine the address to which the response should be returned.</source>
+          <target state="translated">-Határozza meg a címet, amelyre a választ adott vissza.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set either the &lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt; or &lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt; property accordingly.</source>
+          <target state="translated">Állítsa be, vagy a &lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;vagy &lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;tulajdonság ennek megfelelően.&lt;/xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt; &lt;/xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the client making the request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy az ügyfél a kérést.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the incoming request (RST).</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a bejövő kérelem (RST).</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that encapsulates the RP information associated with the request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely magában foglalja a függő Entitás információk is társítva vannak a kérelmet.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Gets the appropriate security token handler for issuing a security token of the specified type.</source>
+          <target state="translated">Lekéri a megfelelő biztonságijogkivonat-kezelő egy adott típusú biztonsági jogkivonatot kibocsátó.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the default implementation if <ph id="ph1">`requestedTokenType`</ph> is <ph id="ph2">`null`</ph> or an empty string, the default token type from configuration is used.</source>
+          <target state="translated">Az alapértelmezett megvalósításában Ha <ph id="ph1">`requestedTokenType`</ph> van <ph id="ph2">`null`</ph> vagy üres karakterlánc, az alapértelmezett használt konfigurációból lexikális elem típusa.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is specified by the &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DefaultTokenType%2A&gt; property of the STS configuration object accessed through the &lt;xref:System.IdentityModel.SecurityTokenService.SecurityTokenServiceConfiguration%2A&gt; property.</source>
+          <target state="translated">Ez megadja a &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DefaultTokenType%2A&gt;tulajdonság az STS konfigurációs objektum keresztül érhetők el a &lt;xref:System.IdentityModel.SecurityTokenService.SecurityTokenServiceConfiguration%2A&gt;tulajdonság.&lt;/xref:System.IdentityModel.SecurityTokenService.SecurityTokenServiceConfiguration%2A&gt; &lt;/xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DefaultTokenType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called from the default token issuance pipeline implemented in the &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method.</source>
+          <target state="translated">Ez a módszer az alapértelmezett hitelesítési karakterlánc-kiállítási feldolgozási sor megvalósított elnevezése a &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>A string that contains the requested token type URI.</source>
+          <target state="translated">A kért URI lexikális elemtípusnak tartalmazó karakterlánc.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityTokenHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the token handler to be used for creating the issued security token.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityTokenHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token kezelő kiadott biztonsági jogkivonat létrehozásához használt jelöli.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the requested token type is not supported (there is no handler configured for the specified token type).</source>
+          <target state="translated">Beolvasása <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha a kért a jogkivonat típusa nem támogatott (nincs beállítva a megadott lexikális elemtípusnak kezelő).</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Gets the lifetime for the issued token.</source>
+          <target state="translated">Lekérdezi a kibocsátott jogkivonat élettartamát.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is normally called with the lifetime that arrived in the RST.</source>
+          <target state="translated">Ez a módszer a RST érkező élettartama általában hívása.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the default implementation, the token lifetime is calculated according to the following table.</source>
+          <target state="translated">Az alapértelmezett megvalósításában a jogkivonatok élettartama kiszámítása az alábbi táblázat szerint.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Created (in)|Expires (in)|Created (in)|Expires (out)|   |--------------------|--------------------|--------------------|---------------------|   |<ph id="ph1">`null`</ph><ph id="ph2">|</ph><ph id="ph3">`null`</ph>|&lt;xref:System.DateTime.UtcNow%2A?displayProperty=fullName&gt;|&lt;xref:System.DateTime.UtcNow%2A?displayProperty=fullName&gt; + &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DefaultTokenLifetime%2A?displayProperty=fullName&gt;|   |C|<ph id="ph4">`null`</ph>|C|C + &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DefaultTokenLifetime%2A?displayProperty=fullName&gt;|   |<ph id="ph5">`null`</ph>|E|&lt;xref:System.DateTime.UtcNow%2A?displayProperty=fullName&gt;|E|   |C|E|C|E|       This method is called from the default token issuance pipeline implemented in the &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method.</source>
+          <target state="translated">| (A) létrehozott |} (A) lejár |} (A) létrehozott |} (Ki) lejár |}   |--------------------|--------------------|--------------------|---------------------|   | <ph id="ph1">`null`</ph><ph id="ph2">|</ph><ph id="ph3">`null`</ph>|&lt;xref:System.DateTime.UtcNow%2A?displayProperty=fullName&gt;| &lt;xref:System.DateTime.UtcNow%2A?displayProperty=fullName&gt; + &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DefaultTokenLifetime%2A?displayProperty=fullName&gt;|   | C |} <ph id="ph4">`null`</ph>| C |} C + &lt;xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DefaultTokenLifetime%2A?displayProperty=fullName&gt;|   | <ph id="ph5">`null`</ph>| E |} &lt;xref:System.DateTime.UtcNow%2A?displayProperty=fullName&gt;| E |}   | C |} E |} C |} E |}       Ez a módszer az alapértelmezett hitelesítési karakterlánc-kiállítási feldolgozási sor megvalósított elnevezése a &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; &lt;/xref:System.DateTime.UtcNow%2A?displayProperty=fullName&gt; &lt;/xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DefaultTokenLifetime%2A?displayProperty=fullName&gt; &lt;/xref:System.IdentityModel.Configuration.SecurityTokenServiceConfiguration.DefaultTokenLifetime%2A?displayProperty=fullName&gt; &lt;/xref:System.DateTime.UtcNow%2A?displayProperty=fullName&gt; &lt;/xref:System.DateTime.UtcNow%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.Lifetime"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the requested lifetime.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.Lifetime"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a kért élettartamát jelöli.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.Lifetime"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the granted lifetime.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.Lifetime"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a megadott élettartamát jelöli.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Issues a security token.</source>
+          <target state="translated">Kibocsát egy biztonsági jogkivonatot.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method implements the Issue binding defined in the WS-Trust specification.</source>
+          <target state="translated">Ez a metódus valósítja meg a probléma kötés a WS-Trust definiált.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of the Issue method processes the incoming request (RST) through a token issuance (claims issuance) pipeline and returns either a response (RSTR) that contains a security token with the appropriate claims to authenticate the requestor with the RP or an appropriate exception.</source>
+          <target state="translated">Az alapértelmezett probléma metódus megvalósítása dolgozza fel a bejövő kérelem (RST) jogkivonat kibocsátási (jogcím-kiállítási)-feldolgozási folyamaton keresztül, és a megfelelő jogcímeket a kérelmező az erőforrás-szolgáltatónál hitelesítésére a biztonsági jogkivonatot tartalmazó választ (RSTR) vagy egy megfelelő kivételt adja vissza.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The token issuance pipeline in the default implementation consists of calls to the following methods (of the &lt;xref:System.IdentityModel.SecurityTokenService&gt; class).</source>
+          <target state="translated">A token kiállítási folyamatának alapértelmezett végrehajtása a következő metódusok áll (az a &lt;xref:System.IdentityModel.SecurityTokenService&gt;osztály).&lt;/xref:System.IdentityModel.SecurityTokenService&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.ValidateRequest%2A&gt; method to validate the request (RST).</source>
+          <target state="translated">A &lt;xref:System.IdentityModel.SecurityTokenService.ValidateRequest%2A&gt;érvényesíteni a kérést (RST) metódus.&lt;/xref:System.IdentityModel.SecurityTokenService.ValidateRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; method to get a &lt;xref:System.IdentityModel.Scope&gt; object that contains information about the relying party (RP) associated with the request.</source>
+          <target state="translated">A &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;metódus használatával kérje le a &lt;xref:System.IdentityModel.Scope&gt;objektum, amely tartalmazza a kéréshez társított függő entitásonkénti (RP) kapcsolatos információk.&lt;/xref:System.IdentityModel.Scope&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must override this method.</source>
+          <target state="translated">Ez a metódus felül kell bírálnia.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; returns <ph id="ph1">`null`</ph>, a &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">Ha &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;adja vissza <ph id="ph1">`null`</ph>, egy &lt;xref:System.InvalidOperationException&gt;vált ki.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.CreateSecurityTokenDescriptor%2A&gt; method to return a security token descriptor based on the RST and the &lt;xref:System.IdentityModel.Scope&gt; object returned in the previous step.</source>
+          <target state="translated">A &lt;xref:System.IdentityModel.SecurityTokenService.CreateSecurityTokenDescriptor%2A&gt;a RST alapuló módszer egy biztonsági jogkivonat leíró vissza és a &lt;xref:System.IdentityModel.Scope&gt;objektumot adott vissza az előző lépésben.&lt;/xref:System.IdentityModel.Scope&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.CreateSecurityTokenDescriptor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The security token descriptor (&lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor&gt;) contains information about the request in a form that can be used by a token handler.</source>
+          <target state="translated">A biztonsági jogkivonat leíró (&lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor&gt;) a kérelem oly módon, hogy a jogkivonat-kezelő használatával kapcsolatos információt tartalmazza.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.SecurityTokenDescriptor%2A?displayProperty=fullName&gt; property is set to the descriptor returned by the call.</source>
+          <target state="translated">A &lt;xref:System.IdentityModel.SecurityTokenService.SecurityTokenDescriptor%2A?displayProperty=fullName&gt;a leíró a hívás által visszaadott tulajdonság értéke.&lt;/xref:System.IdentityModel.SecurityTokenService.SecurityTokenDescriptor%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`null`</ph> is returned or if the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.SigningCredentials%2A&gt; property of the descriptor is <ph id="ph2">`null`</ph>, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">Ha <ph id="ph1">`null`</ph> ad vissza, vagy ha a &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.SigningCredentials%2A&gt;tulajdonság a leíró <ph id="ph2">`null`</ph>, egy &lt;xref:System.InvalidOperationException&gt;vált ki.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.SigningCredentials%2A&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception is also thrown if the &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A?displayProperty=fullName&gt; property is <ph id="ph1">`true`</ph> but the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.EncryptingCredentials%2A&gt; property on the returned descriptor is <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">A kivétel is vált ki, ha a &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A?displayProperty=fullName&gt;tulajdonság <ph id="ph1">`true`</ph> , de a &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.EncryptingCredentials%2A&gt;a visszaadott leíró tulajdonsága <ph id="ph2">`null`</ph>.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.EncryptingCredentials%2A&gt; &lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.GetSecurityTokenHandler%2A&gt; method to get the appropriate token handler based on the kind of token requested.</source>
+          <target state="translated">A &lt;xref:System.IdentityModel.SecurityTokenService.GetSecurityTokenHandler%2A&gt;metódus használatával kérje le a megfelelő biztonságijogkivonat-kezelő kért jogkivonat típusa alapján.&lt;/xref:System.IdentityModel.SecurityTokenService.GetSecurityTokenHandler%2A&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`null`</ph> is returned, a &lt;xref:System.NotImplementedException&gt; is thrown.</source>
+          <target state="translated">Ha <ph id="ph1">`null`</ph> lett visszaadva, akkor egy &lt;xref:System.NotImplementedException&gt;vált ki.&lt;/xref:System.NotImplementedException&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.GetIssuerName%2A&gt; method to get the issuer name for the token.</source>
+          <target state="translated">A &lt;xref:System.IdentityModel.SecurityTokenService.GetIssuerName%2A&gt;metódus használatával kérje le a jogkivonatot kibocsátó neve.&lt;/xref:System.IdentityModel.SecurityTokenService.GetIssuerName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Throws an &lt;xref:System.InvalidOperationException&gt; if the name is <ph id="ph1">`null`</ph> or empty; otherwise sets the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.TokenIssuerName%2A&gt; property on the descriptor.</source>
+          <target state="translated">Jelez egy &lt;xref:System.InvalidOperationException&gt;a megadása esetén <ph id="ph1">`null`</ph> vagy üres; ellenkező esetben beállítja a &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.TokenIssuerName%2A&gt;a leíró tulajdonságának.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.TokenIssuerName%2A&gt; &lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>6.</source>
+          <target state="translated">6.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.GetTokenLifetime%2A&gt; method to get the lifetime for the token and sets the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Lifetime%2A&gt; property on the descriptor.</source>
+          <target state="translated">A &lt;xref:System.IdentityModel.SecurityTokenService.GetTokenLifetime%2A&gt;metódus használatával kérje le a jogkivonatot, és beállítása a élettartama a &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Lifetime%2A&gt;a leíró tulajdonságának.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Lifetime%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.GetTokenLifetime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>7.</source>
+          <target state="translated">7.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.GetProofToken%2A&gt; method to get the proof token to include in the issued token and sets the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Proof%2A&gt; property on the descriptor.</source>
+          <target state="translated">A &lt;xref:System.IdentityModel.SecurityTokenService.GetProofToken%2A&gt;metódus használatával kérje le az ellenőrző jogkivonat tartalmazza a kibocsátott jogkivonat és a &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Proof%2A&gt;a leíró tulajdonságának.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Proof%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.GetProofToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>8.</source>
+          <target state="translated">8.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt; method to get the claims to include in the issued token and sets the &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Subject%2A&gt; property on the descriptor.</source>
+          <target state="translated">A &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt;metódus használatával kérje le a jogcímeket a kibocsátott jogkivonat és tartalmazza a &lt;xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Subject%2A&gt;a leíró tulajdonságának.&lt;/xref:System.IdentityModel.Tokens.SecurityTokenDescriptor.Subject%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt;</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must override this method.</source>
+          <target state="translated">Ez a metódus felül kell bírálnia.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>9.</source>
+          <target state="translated">9.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.SecurityTokenService.GetResponse%2A&gt; method to create a response (RSTR) that contains the issued token.</source>
+          <target state="translated">A &lt;xref:System.IdentityModel.SecurityTokenService.GetResponse%2A&gt;metódus, amely tartalmazza a kibocsátott jogkivonat válasz (RSTR) létrehozása.&lt;/xref:System.IdentityModel.SecurityTokenService.GetResponse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override the Issue method to implement a custom token issuance pipeline; however this is typically not necessary in the development and test environments for which most custom implementations of the &lt;xref:System.IdentityModel.SecurityTokenService&gt; class are intended.</source>
+          <target state="translated">Ha szeretné felülbírálni az a probléma módja egy egyéni hitelesítési karakterlánc-kiállítási folyamat; azonban ez az általában nem szükséges, mely legfeljebb egyéni implementációja fejlesztési és tesztelési környezetben a &lt;xref:System.IdentityModel.SecurityTokenService&gt;osztály szolgálnak.&lt;/xref:System.IdentityModel.SecurityTokenService&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In many of these cases you override the &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt; and &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; methods and optionally override the &lt;xref:System.IdentityModel.SecurityTokenService.ValidateRequest%2A&gt; method  to provide a serviceable STS for your environment.</source>
+          <target state="translated">Sok esetben bírálja felül a &lt;xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt;és &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;módszerek, és opcionálisan felülírja a &lt;xref:System.IdentityModel.SecurityTokenService.ValidateRequest%2A&gt;módszer használható STS biztosít a környezetben.&lt;/xref:System.IdentityModel.SecurityTokenService.ValidateRequest%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.GetOutputClaimsIdentity%2A&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If further customization is necessary you can often provide it by overriding the methods that implement each stage of the default token issuance pipeline listed above.</source>
+          <target state="translated">Ha további testreszabási szükséges gyakran megadhatja azt a módszereket, minden szakasza a fent felsorolt token kiállítási folyamatának alapértelmezett megvalósító felülbírálható.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the identity of the token requestor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token azonosságát jelöli.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a biztonsági jogkivonatra vonatkozó kérést.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>This includes the request message as well as other client related information such as authorization context.</source>
+          <target state="translated">Ez magában foglalja a kérelem üzenet, valamint az egyéb ügyfél kapcsolatos információkat, például az engedélyezési környezetet.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the issued security token.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a biztonsági jogkivonatot tartalmaz.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Gets or sets the principal associated with the current instance.</source>
+          <target state="translated">Lekérdezi vagy beállítja az aktuális példány hozzárendelt rendszerbiztonsági tag.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the current principal.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy az aktuális rendszerbiztonsági tag.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, processes a WS-Trust Renew request.</source>
+          <target state="translated">Ha felül van bírálva a származtatott osztály, WS-Trust megújítása kérést dolgoz fel.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the identity of the token requestor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token azonosságát jelöli.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a biztonsági jogkivonatra vonatkozó kérést.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>This includes the request message as well as other client related information such as authorization context.</source>
+          <target state="translated">Ez magában foglalja a kérelem üzenet, valamint az egyéb ügyfél kapcsolatos információkat, például az engedélyezési környezetet.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the RSTR to return to the caller.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a hívó visszatérni Kulcsalgoritmus jelöli.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Gets or sets the security token request (RST) associated with the current instance.</source>
+          <target state="translated">Lekérdezi vagy beállítja a biztonsági jogkivonat (RST) vonatkozó kérelem a jelenlegi példány.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza a kérelmet.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Gets or sets the scope associated with the current instance.</source>
+          <target state="translated">Lekérdezi vagy beállítja a jelenlegi példányhoz társított hatókörét.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the configuration for the token issuance request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelöli, hogy a jogkivonat kibocsátási kérelmet konfigurációját.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityTokenDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the current instance.</source>
+          <target state="translated">Lekérdezi vagy beállítja a <bpt id="p1">&lt;xref href="System.IdentityModel.Tokens.SecurityTokenDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a jelenlegi példányhoz társított.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The security token descriptor that is associated with the current instance.</source>
+          <target state="translated">A biztonsági jogkivonat leíró társított az aktuális példány.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>An attempt to set the property to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> occurs.</source>
+          <target state="translated">A tulajdonság beállítása <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> következik be.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Gets the owner configuration instance.</source>
+          <target state="translated">Lekérdezi a tulajdonos konfigurációs példánnyal.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Configuration.SecurityTokenServiceConfiguration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the configuration for the current instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Configuration.SecurityTokenServiceConfiguration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely az aktuális példány konfigurációját tartalmazza.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, processes a WS-Trust Validate request.</source>
+          <target state="translated">Ha a származtatott osztály felülbírálva, WS-Trust érvényesítése kérést dolgoz fel.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method throws an &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja jelez &lt;xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;.&lt;/xref:System.IdentityModel.Protocols.WSTrust.InvalidRequestException&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the identity of the token requestor.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a token azonosságát jelöli.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the security token request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a biztonsági jogkivonatra vonatkozó kérést.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>This includes the request message as well as other client related information such as authorization context.</source>
+          <target state="translated">Ez magában foglalja a kérelem üzenet, valamint az egyéb ügyfél kapcsolatos információkat, például az engedélyezési környezetet.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the RSTR to return to the caller.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityTokenResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely a hívó visszatérni Kulcsalgoritmus jelöli.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Validates the security token request (RST) encapsulated by this instance.</source>
+          <target state="translated">A biztonsági jogkivonat kérelem (RST) Ez a példány encapsulated ellenőrzi.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ValidateRequest method is called from the token issuance pipeline (the &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method) to validate the incoming RST.</source>
+          <target state="translated">A ValidateRequest metódus lehívásra kerül a hitelesítési karakterláncok kiállításához láncból (a &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;metódus) a bejövő RST érvényesítéséhez.&lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RST is validated against the requirements (policy) of the STS and an appropriate exception is thrown if it is not valid.</source>
+          <target state="translated">A RST van összevetni a STS követelményeinek (házirend), és megfelelő kivételt vált ki, ha nem érvényes.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of the &lt;xref:System.IdentityModel.SecurityTokenService&gt; class supports only the RST-RSTR pattern and only the Issue binding of the WS-Trust specification (the &lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.RequestType%2A&gt; property of the request must be set to &lt;xref:System.IdentityModel.Protocols.WSTrust.RequestTypes.Issue?displayProperty=fullName&gt;).</source>
+          <target state="translated">Az alapértelmezett implementációja a &lt;xref:System.IdentityModel.SecurityTokenService&gt;osztály csak a RST-RSTR mintát, és csak a WS-Trust megadását probléma kötése támogatja (a &lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.RequestType%2A&gt;értékre kell állítani a kérelem tulajdonság &lt;xref:System.IdentityModel.Protocols.WSTrust.RequestTypes.Issue?displayProperty=fullName&gt;).&lt;/xref:System.IdentityModel.Protocols.WSTrust.RequestTypes.Issue?displayProperty=fullName&gt; &lt;/xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.RequestType%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method enforces these requirements (and others noted in the exceptions section).</source>
+          <target state="translated">Ez a módszer az alapértelmezett implementációja érvényesíti ezeket a követelményeket (és mások a kivételek szakaszban leírtaknak).</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override this method if you must enforce different validation requirements for your custom STS.</source>
+          <target state="translated">Ez a módszer felülírhatja, ha ki kell kényszerítenie a egyéni STS különböző érvényesítési követelményének.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the request.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestSecurityToken"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy a kérelmet.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>-or-       The <ph id="ph1">&lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.RequestType*&gt;</ph> property of the request is not set to <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestTypes.Issue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">– vagy – a <ph id="ph1">&lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.RequestType*&gt;</ph> a kérelem nem tulajdonsága <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.RequestTypes.Issue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>-or-       The <ph id="ph1">&lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.KeyType*&gt;</ph> property of the request is not <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or one of the constants defined in the <bpt id="p2">&lt;xref href="System.IdentityModel.Protocols.WSTrust.KeyTypes"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">– vagy – a <ph id="ph1">&lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.KeyType*&gt;</ph> a kérelem tulajdonság értéke nem <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vagy egy meghatározott állandók a <bpt id="p2">&lt;xref href="System.IdentityModel.Protocols.WSTrust.KeyTypes"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>-or-       The <ph id="ph1">&lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.KeyType*&gt;</ph> of the request is <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.KeyTypes.Bearer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the <bpt id="p2">&lt;xref uid="langword_csharp_KeySize" name="KeySize" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element is present, but its value is not equal to zero.</source>
+          <target state="translated">– vagy – a <ph id="ph1">&lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.KeyType*&gt;</ph> , a kérelmek pedig <bpt id="p1">&lt;xref href="System.IdentityModel.Protocols.WSTrust.KeyTypes.Bearer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és a <bpt id="p2">&lt;xref uid="langword_csharp_KeySize" name="KeySize" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elem, de az érték nem nulla.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>The STS does not support the request token type (based on the value of the &lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.TokenType*&gt; property of the request).</source>
+          <target state="translated">Az STS nem támogatja a kérelem jogkivonat típusa (értéke alapján a &lt;xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.TokenType*&gt;a kérelem tulajdonság).&lt;/xref:System.IdentityModel.Protocols.WSTrust.WSTrustMessage.TokenType*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aaed340ebe06e77c8d4995aaadde1e388e8945e6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Pkcs.SignerInfo.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">86c1c7ce2045af3a6fc26881b036542d8f68fd99</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">76ec271c456ac1f4560a3f6b702859243930478e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The SignerInfo class represents a signer associated with a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents a CMS/PKCS #7 message.</source>
+          <target state="translated">A SignerInfo osztály jelöli egy aláíró társított egy <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> CMS vagy PKCS #7 üzenet képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The signatures represented by the SignerInfo class can be either over message content or a signature.</source>
+          <target state="translated">A SignerInfo osztályhoz aláírások vagy az üzenet tartalma vagy az aláírás lehet.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The latter kind of signature is referred to as a <bpt id="p1">*</bpt>countersignature<ept id="p1">*</ept>.</source>
+          <target state="translated">Az utóbbi típusú aláírás nevezzük egy <bpt id="p1">*</bpt>ellenjegyzés<ept id="p1">*</ept>.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation of CMS/PKCS #7 supports only one level of countersignature.</source>
+          <target state="translated">Ez a megvalósítás CMS vagy PKCS # 7 ellenjegyzés van, csak egy szintet támogatja.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a signature can be signed, which forms a countersignature, but that countersignature cannot be signed again.</source>
+          <target state="translated">Ez azt jelenti, hogy aláírás írható alá, amely az űrlapos egy ellenjegyzés van, de a ellenjegyzés nem írható alá újra.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class does not have a public constructor; therefore, it cannot be publicly instantiated.</source>
+          <target state="translated">Ez az osztály nem rendelkezik nyilvános konstruktorral; ezért az nem szabad nyilvánosan létrehozni.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is a read-only class accessible from the &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.SignerInfos%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Elérhető egy csak olvasható osztály a &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.SignerInfos%2A?displayProperty=fullName&gt;tulajdonság.&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms.SignerInfos%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Certificate property retrieves the signing certificate associated with the signer information.</source>
+          <target state="translated">A tanúsítvány tulajdonságának lekéri az aláíró információk társított aláíró tanúsítvány.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the signing certificate is not included at signing time by using the &lt;xref:System.Security.Cryptography.Pkcs.CmsSigner.IncludeOption%2A?displayProperty=fullName&gt; property, then the certificate will not be returned.</source>
+          <target state="translated">Ha az aláíró tanúsítvány nincs megadva idő használatával bejelentkezni a &lt;xref:System.Security.Cryptography.Pkcs.CmsSigner.IncludeOption%2A?displayProperty=fullName&gt;tulajdonság, majd a tanúsítvány nem állítható vissza.&lt;/xref:System.Security.Cryptography.Pkcs.CmsSigner.IncludeOption%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the signing certificate.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az aláíró tanúsítvány képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The CheckHash method verifies the data integrity of the CMS/PKCS #7 message signer information.</source>
+          <target state="translated">A CheckHash metódus a CMS vagy PKCS #7 aláíró információt adatok sértetlenségét ellenőrzi.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>CheckHash is a specialized method used in specific security infrastructure applications in which the subject uses the <bpt id="p1">**</bpt>HashOnly<ept id="p1">**</ept> member of the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifierType"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration when setting up a <bpt id="p3">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">CheckHash egy speciális, amelyben a tulajdonos által használt konkrét biztonsági infrastruktúra alkalmazásokban használt módszer a <bpt id="p1">**</bpt>HashOnly<ept id="p1">**</ept> tagja a <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifierType"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> számbavételi beállításakor egy <bpt id="p3">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>CheckHash does not authenticate the signer information because this method does not involve verifying a digital signature.</source>
+          <target state="translated">CheckHash nem hitelesíti az aláíró adatokat, mert ez a módszer nem jár a digitális aláírás ellenőrzése.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For general-purpose checking of the integrity and authenticity of CMS/PKCS #7 message signer information and countersignatures, use the <ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph> or <ph id="ph3">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Security.Cryptography.X509Certificates.X509Certificate2Collection%2CSystem.Boolean%29<ph id="ph4">&amp;gt;</ph> methods.</source>
+          <target state="translated">Az általános célú sértetlenségét és ellenőrzését CMS vagy PKCS #7 aláíró üzenetadatok és aláírásokhoz ellenjegyzéseket hitelességének, használja a <ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph> vagy <ph id="ph3">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Security.Cryptography.X509Certificates.X509Certificate2Collection%2CSystem.Boolean%29<ph id="ph4">&amp;gt;</ph> módszerek.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method does not provide authentication of the CMS/PKCS #7 message signer information.</source>
+          <target state="translated">Ez a módszer nem biztosít hitelesítést a CMS vagy PKCS #7 üzenetet aláíró adatokat.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Egy titkosítási művelet nem fejezhető be.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The CheckSignature method verifies the digital signature of the message and, optionally, validates the certificate.</source>
+          <target state="translated">A CheckSignature metódus ellenőrzi az üzenet digitális aláírását, és szükség esetén érvényesíti a tanúsítványt.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method throws an exception if the verification of the digital signature fails or any validation requirements are not met.</source>
+          <target state="translated">Ez a metódus kivételt jelez, ha a digitális aláírás ellenőrzése sikertelen, vagy bármely érvényesítési feltételeknek nem felel meg.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If more complex validation is required, the caller can specify that only the signature is verified and then use an &lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt; object to perform custom validation.</source>
+          <target state="translated">Összetettebb érvényesítésre szükség, ha a hívó megadhatja, hogy csak az aláírást annak ellenőrzése, majd egy &lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;objektum egyéni-ellenőrzéshez.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A bool value that specifies whether only the digital signature is verified.</source>
+          <target state="translated">Logikai érték, amely meghatározza, hogy csak a digitális aláírás ellenőrzése.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`verifySignatureOnly`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, only the signature is verified.</source>
+          <target state="translated">Ha <ph id="ph1">`verifySignatureOnly`</ph> van <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, csak az aláírás ellenőrzése.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`verifySignatureOnly`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the digital signature is verified, the certificate chain is validated, and the purposes of the certificates are validated.</source>
+          <target state="translated">Ha <ph id="ph1">`verifySignatureOnly`</ph> van <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, a digitális aláírás ellenőrzése, a tanúsítványlánc érvényesítése és a tanúsítványok alkalmazásában érvényesíti.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The purposes of the certificate are considered valid if the certificate has no key usage or if the key usage supports digital signature or nonrepudiation.</source>
+          <target state="translated">A tanúsítvány alkalmazásában nem kulcshasználat a tanúsítvány-e, vagy ha a kulcshasználati támogatja a digitális aláírás vagy a letagadhatatlanság minősülnek érvényes.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Null hivatkozás lett átadva a metódusnak nem fogadja el az érvényes argumentumként.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Egy titkosítási művelet nem fejezhető be.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A method call was invalid for the object's current state.</source>
+          <target state="translated">A metódus hívása érvénytelen az objektum aktuális állapota.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The CheckSignature method verifies the digital signature of the message by using the specified collection of certificates and, optionally, validates the certificate.</source>
+          <target state="translated">A CheckSignature metódus az üzenet digitális aláírásának ellenőrzi a megadott gyűjtemény tanúsítványok használatával, és szükség esetén érvényesíti a tanúsítványt.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method throws an exception if the verification of the digital signature fails or any validation requirements are not met.</source>
+          <target state="translated">Ez a metódus kivételt jelez, ha a digitális aláírás ellenőrzése sikertelen, vagy bármely érvényesítési feltételeknek nem felel meg.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If more complex validation is required, the caller can specify that only the signature is verified and then use an &lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt; object to perform custom validation.</source>
+          <target state="translated">Összetettebb érvényesítésre szükség, ha a hívó megadhatja, hogy csak az aláírást annak ellenőrzése, majd egy &lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;objektum egyéni-ellenőrzéshez.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2Collection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to validate the chain.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2Collection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely a lánc érvényesítéséhez használható.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If no additional certificates are to be used to validate the chain, use <ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph> instead of CheckSignature.</source>
+          <target state="translated">Ha nincsenek további tanúsítványokat a rendszer a tanúsítványlánc érvényesítése, használja használja <ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph> CheckSignature helyett.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A bool value that specifies whether only the digital signature is verified.</source>
+          <target state="translated">Logikai érték, amely meghatározza, hogy csak a digitális aláírás ellenőrzése.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`verifySignatureOnly`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, only the signature is verified.</source>
+          <target state="translated">Ha <ph id="ph1">`verifySignatureOnly`</ph> van <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, csak az aláírás ellenőrzése.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`verifySignatureOnly`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the digital signature is verified, the certificate chain is validated, and the purposes of the certificates are validated.</source>
+          <target state="translated">Ha <ph id="ph1">`verifySignatureOnly`</ph> van <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, a digitális aláírás ellenőrzése, a tanúsítványlánc érvényesítése és a tanúsítványok alkalmazásában érvényesíti.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The purposes of the certificate are considered valid if the certificate has no key usage or if the key usage supports digital signature or nonrepudiation.</source>
+          <target state="translated">A tanúsítvány alkalmazásában nem kulcshasználat a tanúsítvány-e, vagy ha a kulcshasználati támogatja a digitális aláírás vagy a letagadhatatlanság minősülnek érvényes.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Null hivatkozás lett átadva a metódusnak nem fogadja el az érvényes argumentumként.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Egy titkosítási művelet nem fejezhető be.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A method call was invalid for the object's current state.</source>
+          <target state="translated">A metódus hívása érvénytelen az objektum aktuális állapota.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The ComputeCounterSignature method prompts the user to select a signing certificate, creates a countersignature, and adds the signature to the CMS/PKCS #7 message.</source>
+          <target state="translated">A ComputeCounterSignature módszer felszólítja a felhasználót válasszon ki egy aláíró tanúsítványt, létrehoz egy ellenjegyzés van, és hozzáadja az aláírás a CMS vagy PKCS #7 üzenet.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Countersignatures are restricted to one level.</source>
+          <target state="translated">Egy szint aláírásokhoz ellenjegyzéseket korlátozódnak.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation of CMS/PKCS #7 supports only one level of countersignature.</source>
+          <target state="translated">Ez a megvalósítás CMS vagy PKCS # 7 ellenjegyzés van, csak egy szintet támogatja.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a signature can be signed, which forms a countersignature, but that countersignature cannot be signed again.</source>
+          <target state="translated">Ez azt jelenti, hogy aláírás írható alá, amely az űrlapos egy ellenjegyzés van, de a ellenjegyzés nem írható alá újra.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method displays a user interface in which you choose signers for this message.</source>
+          <target state="translated">Ez a módszer az üzenet egyetlen aláírója válassza felhasználói felületet jeleníti meg.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This requires that the current process is running in <bpt id="p1">*</bpt>user interactive mode<ept id="p1">*</ept>, meaning that the &lt;xref:System.Environment.UserInteractive%2A?displayProperty=fullName&gt; property is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Ehhez szükséges, hogy az aktuális folyamat fut <bpt id="p1">*</bpt>felhasználói interaktív módban<ept id="p1">*</ept>, ami azt jelenti, hogy a &lt;xref:System.Environment.UserInteractive%2A?displayProperty=fullName&gt;tulajdonsága <ph id="ph1">`true`</ph>.&lt;/xref:System.Environment.UserInteractive%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A process is normally in user interactive mode unless it is a service process or running inside a Web application.</source>
+          <target state="translated">A folyamat csak egy szolgáltatási folyamat vagy egy webes alkalmazás belül, amelyen felhasználói interaktív módban van általában.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Signers whose certificates meet the following conditions will be displayed in the list:      -   The certificate has an associated private key.</source>
+          <target state="translated">Egyetlen aláírója, amelyek tanúsítványa a következő feltételeknek jelenik meg a listában:-a tanúsítvány rendelkezik egy hozzá tartozó titkos kulcsot.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The certificate is within its validity period.</source>
+          <target state="translated">-Tanúsítvány az érvényességi idején belül van.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The certificate has no key usage or a key usage that supports digital signatures or nonrepudiation.</source>
+          <target state="translated">-A tanúsítvány nem kulcs használata vagy a kulcs használata, amely támogatja a digitális aláírások vagy letagadhatatlanság rendelkezik.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Signer certificates are chosen from the My store.</source>
+          <target state="translated">Aláíró tanúsítványok névazonosító lehetőséget választja a saját tárolóban.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>.NET Framework Security    The following permissions are required to display the user interface:      -   &lt;xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;       The following permissions are required to access the signature key:      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;</source>
+          <target state="translated">.NET-keretrendszer biztonsága a következő engedélyekre van szükség a felhasználói felület megjelenítése:- &lt;xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;a következő engedélyekre van szükség az aláírási kulcs elérésére:- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;&lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Null hivatkozás lett átadva a metódusnak nem fogadja el az érvényes argumentumként.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Egy titkosítási művelet nem fejezhető be.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The ComputeCounterSignature method creates a countersignature by using the specified signer and adds the signature to the CMS/PKCS #7 message.</source>
+          <target state="translated">A ComputeCounterSignature metódus egy ellenjegyzés van a megadott aláíró használatával hozza létre, és hozzáadja az aláírás a CMS vagy PKCS #7 üzenet.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Countersignatures are restricted to one level.</source>
+          <target state="translated">Egy szint aláírásokhoz ellenjegyzéseket korlátozódnak.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation of CMS/PKCS #7 supports only one level of countersignature.</source>
+          <target state="translated">Ez a megvalósítás CMS vagy PKCS # 7 ellenjegyzés van, csak egy szintet támogatja.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a signature can be signed, which forms a countersignature, but that countersignature cannot be signed again.</source>
+          <target state="translated">Ez azt jelenti, hogy aláírás írható alá, amely az űrlapos egy ellenjegyzés van, de a ellenjegyzés nem írható alá újra.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>.NET Framework Security    The following permissions are required to access the signature key:      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;</source>
+          <target state="translated">.NET-keretrendszer biztonsága a következő engedélyekre van szükség az aláírási kulcs elérésére:- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;&lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the counter signer.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a számláló aláíró képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Null hivatkozás lett átadva a metódusnak nem fogadja el az érvényes argumentumként.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Egy titkosítási művelet nem fejezhető be.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The CounterSignerInfos property retrieves the set of counter signers associated with the signer information.</source>
+          <target state="translated">A CounterSignerInfos tulajdonság lekéri az aláíró információk társított számláló egyetlen aláírója készletét.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This implementation of CMS/PKCS #7 supports only one level of countersignature.</source>
+          <target state="translated">Ez a megvalósítás CMS vagy PKCS # 7 ellenjegyzés van, csak egy szintet támogatja.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, a signature can be signed, which forms a countersignature, but that countersignature cannot be signed again.</source>
+          <target state="translated">Ez azt jelenti, hogy aláírás írható alá, amely az űrlapos egy ellenjegyzés van, de a ellenjegyzés nem írható alá újra.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection that represents the counter signers for the signer information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az aláíró információt egyetlen számláló aláírója képviselő gyűjteményt.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If there are no counter signers, the property is an empty collection.</source>
+          <target state="translated">Ha nincs számláló egyetlen aláírója, a tulajdonság üres gyűjtemény.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The DigestAlgorithm property retrieves the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the hash algorithm used in the computation of the signatures.</source>
+          <target state="translated">Az DigestAlgorithm tulajdonság lekéri a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> veszik az aláírás használt kivonatoló algoritmus képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the hash algorithm used with the signature.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> aláírással használt kivonatoló algoritmus képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The RemoveCounterSignature method removes the countersignature at the specified index of the &lt;xref:System.Security.Cryptography.Pkcs.SignerInfo.CounterSignerInfos*&gt; collection.</source>
+          <target state="translated">A RemoveCounterSignature metódus eltávolítja a megadott indexű ellenjegyzés a &lt;xref:System.Security.Cryptography.Pkcs.SignerInfo.CounterSignerInfos*&gt;gyűjtemény.&lt;/xref:System.Security.Cryptography.Pkcs.SignerInfo.CounterSignerInfos*&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The zero-based index of the countersignature to remove.</source>
+          <target state="translated">Eltávolítja a ellenjegyzés nulla alapú indexét.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Egy titkosítási művelet nem fejezhető be.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The RemoveCounterSignature method removes the countersignature for the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A RemoveCounterSignature metódus eltávolítja a megadott ellenjegyzés <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the countersignature being removed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az eltávolítani kívánt ellenjegyzés képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Null hivatkozás lett átadva a metódusnak nem fogadja el az érvényes argumentumként.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The value of an argument was outside the allowable range of values as defined by the called method.</source>
+          <target state="translated">Az argumentum értéke az engedélyezett értéktartományon kívül volt, a hívott metódus által definiált konfigurációjának kialakításához.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Egy titkosítási művelet nem fejezhető be.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The SignedAttributes property retrieves the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection of signed attributes that is associated with the signer information.</source>
+          <target state="translated">Az SignedAttributes tulajdonság lekéri a <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> aláírt attribútumok az aláíró információ gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Signed attributes are signed along with the rest of the message content.</source>
+          <target state="translated">Aláírt attribútumok aláírt az üzenet tartalma a többi mellett.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a signed attribute that might be included in the &lt;xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt; collection retrieved by the SignedAttributes property is the &lt;xref:System.Security.Cryptography.Pkcs.Pkcs9SigningTime&gt; signing time attribute.</source>
+          <target state="translated">Egy aláírt attribútum, amely része lehet például a &lt;xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt;SignedAttributes tulajdonság által lekért gyűjtemény a &lt;xref:System.Security.Cryptography.Pkcs.Pkcs9SigningTime&gt;idő attribútum aláíró.&lt;/xref:System.Security.Cryptography.Pkcs.Pkcs9SigningTime&gt; &lt;/xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Signed attributes are signed along with the rest of the &lt;xref:System.Security.Cryptography.Pkcs.SignedCms&gt; message content.</source>
+          <target state="translated">Aláírt attribútumok aláírással együtt a többi a &lt;xref:System.Security.Cryptography.Pkcs.SignedCms&gt;üzenet tartalma.&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that a party that successfully verifies the signature can have confidence that the contents of these attributes are authentic and have not been altered.</source>
+          <target state="translated">Ez azt jelenti, hogy egy entitás, amely sikeresen ellenőrzi az aláírást lehet abban, hogy, hogy ezek az attribútumok tartalmát hiteles, és nem módosították.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Security.Cryptography.Pkcs.Pkcs9ContentType&gt; object and a &lt;xref:System.Security.Cryptography.Pkcs.Pkcs9MessageDigest&gt; object will be automatically generated and placed in the SignedAttributes property whenever the &lt;xref:System.Security.Cryptography.Pkcs.CmsSigner.SignedAttributes%2A?displayProperty=fullName&gt; property for the corresponding signer is not empty.</source>
+          <target state="translated">A &lt;xref:System.Security.Cryptography.Pkcs.Pkcs9ContentType&gt;objektum és a &lt;xref:System.Security.Cryptography.Pkcs.Pkcs9MessageDigest&gt;objektum automatikusan előállítja, és a SignedAttributes tulajdonság helyezett amikor csak a &lt;xref:System.Security.Cryptography.Pkcs.CmsSigner.SignedAttributes%2A?displayProperty=fullName&gt;a megfelelő aláíró tulajdonsága nem üres.&lt;/xref:System.Security.Cryptography.Pkcs.CmsSigner.SignedAttributes%2A?displayProperty=fullName&gt; &lt;/xref:System.Security.Cryptography.Pkcs.Pkcs9MessageDigest&gt; &lt;/xref:System.Security.Cryptography.Pkcs.Pkcs9ContentType&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection that represents the signed attributes.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gyűjteményt, amely aláírt attribútumait tartalmazza.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If there are no signed attributes, the property is an empty collection.</source>
+          <target state="translated">Ha nem aláírt attribútum, a tulajdonság üres gyűjtemény.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The SignerIdentifier property retrieves the certificate identifier of the signer associated with the signer information.</source>
+          <target state="translated">A SignerIdentifier tulajdonság lekéri az aláíró információk társított aláíró tanúsítvány azonosítóját.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that uniquely identifies the certificate associated with the signer information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely egyedileg azonosítja az aláíró információk társított tanúsítvány.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The UnsignedAttributes property retrieves the <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection of unsigned attributes that is associated with the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> content.</source>
+          <target state="translated">Az UnsignedAttributes tulajdonság lekéri a <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gyűjtemény aláíratlan attribútumok, amelyhez társítva van a <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> tartalmat.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Unsigned attributes can be modified without invalidating the signature.</source>
+          <target state="translated">Aláíratlan attribútumok módosíthatják az aláírás érvénytelenítése nélkül.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unsigned attributes are not signed along with the rest of the &lt;xref:System.Security.Cryptography.Pkcs.SignedCms&gt; message content.</source>
+          <target state="translated">Aláíratlan attribútumok nincs bejelentkezve a többi mellett a &lt;xref:System.Security.Cryptography.Pkcs.SignedCms&gt;üzenet tartalma.&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Even though a party successfully verifies the signature, the unsigned attributes may have been altered and should not be considered to have authenticity or integrity.</source>
+          <target state="translated">Annak ellenére, hogy egy entitás sikeresen ellenőrzi az aláírást, az aláíratlan attribútumok módosították, és nem tekinthető eredetiséget vagy sértetlenségét.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of an unsigned attribute that might be included in the &lt;xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt; collection retrieved by the UnsignedAttributes property is a countersignature.</source>
+          <target state="translated">Az előjel nélküli attribútum, amely része lehet például a &lt;xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt;UnsignedAttributes tulajdonság által lekért gyűjtemény egy ellenjegyzés.&lt;/xref:System.Security.Cryptography.CryptographicAttributeObjectCollection&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection that represents the unsigned attributes.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CryptographicAttributeObjectCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gyűjteményt, amely aláíratlan attribútumait tartalmazza.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If there are no unsigned attributes, the property is an empty collection.</source>
+          <target state="translated">Ha nem aláíratlan attribútum, a tulajdonság egy üres gyűjteményt.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The Version property retrieves the signer information version.</source>
+          <target state="translated">A Version tulajdonság a aláíró verziót kéri le.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The version determines whether the message is a PKCS #7 message or a Cryptographic Message Syntax (CMS) message.</source>
+          <target state="translated">A verzió határozza meg, hogy az üzenet egy PKCS #7 vagy kriptográfiai szintaxisú (CMS) üzenet.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CMS is a newer superset of PKCS #7.</source>
+          <target state="translated">A CMS újabb felülbírálja a PKCS #7.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>An int value that specifies the signer information version.</source>
+          <target state="translated">Az int érték, amely meghatározza az aláíró verziót.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
