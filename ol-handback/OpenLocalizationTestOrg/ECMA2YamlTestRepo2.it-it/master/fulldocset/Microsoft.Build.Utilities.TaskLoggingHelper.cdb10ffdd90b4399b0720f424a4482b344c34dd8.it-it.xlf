@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee3af708a59edd8acd0419138f82b8700efb18b6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.Build.Utilities.TaskLoggingHelper.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c4b3028ea26fda54e9aa67e79a6ede4b3e2e1572</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b31fa2c7e4a92563fef081ded02d1785bb45f598</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides helper logging methods used by tasks.</source>
+          <target state="translated">Fornisce i metodi di registrazione utilizzati dalle attività di supporto.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="Microsoft.Build.Utilities.TaskLoggingHelper"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and associates it with the specified task instance.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="Microsoft.Build.Utilities.TaskLoggingHelper"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe e la associa all'istanza dell'attività specificata.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The task containing an instance of this task.</source>
+          <target state="translated">L'attività che contiene un'istanza di questa attività.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Public constructor which can be used by task factories to assist them in logging messages.</source>
+          <target state="translated">Costruttore pubblico che può essere utilizzato dalla factory delle attività per facilitare la registrazione messaggi.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The build engine.</source>
+          <target state="translated">Il motore di compilazione.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The task name.</source>
+          <target state="translated">Il nome dell'attività.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Gets the build engine that is associated with the task.</source>
+          <target state="translated">Ottiene il motore di compilazione che viene associato all'attività.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.IBuildEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the instance of the build engine that is associated with the task.</source>
+          <target state="translated">Un <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.IBuildEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'istanza del motore di compilazione che viene associato all'attività.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Extracts the message code prefix from the given full message string.</source>
+          <target state="translated">Estrae il prefisso del codice messaggio dalla stringa di messaggio completo specificata.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Message code prefixes must match the following .NET regular expressions in order to be recognized: <ph id="ph1">`^\s*[A-Za-z]+\d+:\s*`</ph>.</source>
+          <target state="translated">Messaggio di prefissi di codice devono corrispondere alle seguenti espressioni regolari di .NET per essere riconosciuti: <ph id="ph1">`^\s*[A-Za-z]+\d+:\s*`</ph>.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The full message to parse that includes code prefix.</source>
+          <target state="translated">Il messaggio completo da analizzare che include il prefisso del codice.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The message with the code prefix removed.</source>
+          <target state="translated">Il messaggio con il prefisso del codice è stato rimosso.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The message code prefix that is extracted from the full message string, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no message code.</source>
+          <target state="translated">Il prefisso del codice messaggio estratto dalla stringa del messaggio completo, o <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se è presente alcun codice del messaggio.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Loads the specified resource string and optionally formats it using the given arguments.</source>
+          <target state="translated">Carica la stringa di risorsa specificata e facoltativamente la formatta usando gli argomenti specificati.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The culture of the current thread is used for formatting.</source>
+          <target state="translated">Le impostazioni cultura del thread corrente viene utilizzata per la formattazione.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method requires the owner task to have registered its resources with either the &lt;xref:Microsoft.Build.Utilities.Task&gt; base class constructor, or the &lt;xref:Microsoft.Build.Utilities.Task.TaskResources%2A&gt; property.</source>
+          <target state="translated">Questo metodo richiede che l'hanno registrato le proprie risorse con l'attività proprietaria di &lt;xref:Microsoft.Build.Utilities.Task&gt;costruttore della classe base, o &lt;xref:Microsoft.Build.Utilities.Task.TaskResources%2A&gt;proprietà.&lt;/xref:Microsoft.Build.Utilities.Task.TaskResources%2A&gt; &lt;/xref:Microsoft.Build.Utilities.Task&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name of the string resource to load.</source>
+          <target state="translated">Il nome della risorsa stringa da caricare.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Optional arguments for formatting the loaded string.</source>
+          <target state="translated">Argomenti facoltativi per la formattazione della stringa caricata.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The formatted string.</source>
+          <target state="translated">Stringa formattata.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The string resource indicated by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceName</ph><ept id="p1">&lt;/code&gt;</ept> does not exist.</source>
+          <target state="translated">La risorsa stringa indicata da <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">resourceName</ph> <ept id="p1">&lt;/code&gt;</ept> non esiste.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:Microsoft.Build.Utilities.Task.TaskResources*&gt; property of the owner task is not set.</source>
+          <target state="translated">Il &lt;xref:Microsoft.Build.Utilities.Task.TaskResources*&gt;dell'attività proprietaria non è impostata.&lt;/xref:Microsoft.Build.Utilities.Task.TaskResources*&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;resourceName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;resourceName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Formats the given string using the given arguments.</source>
+          <target state="translated">Formatta la stringa specificata usando gli argomenti specificati.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The culture of the current thread is used for formatting.</source>
+          <target state="translated">Le impostazioni cultura del thread corrente viene utilizzata per la formattazione.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The string to format.</source>
+          <target state="translated">La stringa da formattare.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Arguments for formatting.</source>
+          <target state="translated">Argomenti per la formattazione.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The formatted string.</source>
+          <target state="translated">Stringa formattata.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;unformatted&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;unformatted&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the message from resource in task library.</source>
+          <target state="translated">Ottiene il messaggio dalla risorsa nella libreria di attività.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The resource name.</source>
+          <target state="translated">Il nome della risorsa.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Returns the message from resource in task library.</source>
+          <target state="translated">Restituisce il messaggio dalla risorsa nella libreria di attività.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the task has logged any errors through this logging helper object.</source>
+          <target state="translated">Ottiene un valore che indica se l'attività ha registrato errori mediante questo oggetto helper di registrazione.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the task has logged any errors through this logging helper object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se l'attività ha registrato errori mediante questo oggetto helper di registrazione. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets or sets the prefix used to compose Help keywords from resource names.</source>
+          <target state="translated">Ottiene o imposta il prefisso utilizzato per comporre parole chiave della Guida da nomi di risorse.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a task does not have Help keywords associated with its messages, it can ignore this property or set it to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Se un'attività non dispone di parole chiave della Guida associate ai relativi messaggi, è possibile ignorare questa proprietà o impostarla su <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is set to an empty &lt;xref:System.String&gt;, resource names will be used verbatim as Help keywords.</source>
+          <target state="translated">Se questa proprietà è impostata su un oggetto vuoto &lt;xref:System.String&gt;, verranno utilizzati i nomi delle risorse alla lettera come parole chiave della Guida.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The prefix used to compose Help keywords from resource names.</source>
+          <target state="translated">Il prefisso utilizzato per comporre parole chiave della Guida da nomi di risorse.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>InitializeLifetimeService is called when the remote object is activated.</source>
+          <target state="translated">InitializeLifetimeService viene chiamato quando viene attivato l'oggetto remoto.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This method will determine how long the lifetime for the object will be.</source>
+          <target state="translated">Questo metodo determina quanto tempo la durata per l'oggetto è.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Thread safe.</source>
+          <target state="translated">Thread-safe.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>However, InitializeLifetimeService and MarkAsInactive should only be called in that order, together or not at all, and no more than once.</source>
+          <target state="translated">Tuttavia, InitializeLifetimeService e MarkAsInactive deve essere chiamato solo in tale ordine, insieme o non è affatto e non più di una volta.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The lease object to control this object's lifetime.</source>
+          <target state="translated">Oggetto lease per controllare la durata dell'oggetto.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Logs the command line for an underlying tool, executable file, or shell command of a task.</source>
+          <target state="translated">Registra la riga di comando per un strumento sottostante, un file eseguibile o un comando di shell di un'attività.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not thread-safe.</source>
+          <target state="translated">Questo metodo non è thread-safe.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The command line string.</source>
+          <target state="translated">La stringa della riga di comando.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Logs the command line for an underlying tool, executable file, or shell command of a task using the specified importance level.</source>
+          <target state="translated">Registra la riga di comando per un strumento sottostante, un file eseguibile o un comando di shell di un'attività con il livello di importanza specificato.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not thread-safe.</source>
+          <target state="translated">Questo metodo non è thread-safe.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>One of the values of <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.MessageImportance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the importance level of the command line.</source>
+          <target state="translated">Uno dei valori di <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.MessageImportance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che indica il livello di importanza della riga di comando.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The command line string.</source>
+          <target state="translated">La stringa della riga di comando.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Logs a critical message using the specified string and other message details.</source>
+          <target state="translated">Registra un messaggio critico, usando la stringa specificata e altri dettagli del messaggio.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Thread safe.</source>
+          <target state="translated">Thread-safe.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Description of the warning type (can be null).</source>
+          <target state="translated">Descrizione del tipo di avviso (può essere null).</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Message code (can be null).</source>
+          <target state="translated">Codice di messaggio (può essere null).</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The help keyword for the host IDE (can be null).</source>
+          <target state="translated">La parola chiave della Guida per l'host IDE (può essere null).</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The path to the file causing the message (can be null).</source>
+          <target state="translated">Il percorso del file causa il messaggio (può essere null).</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The line in the file causing the message (set to zero if not available).</source>
+          <target state="translated">La riga nel file la causa del messaggio (impostato su zero se non è disponibile).</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The column in the file causing the message (set to zero if not available).</source>
+          <target state="translated">La colonna nel file la causa del messaggio (impostato su zero se non è disponibile).</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The last line of a range of lines in the file causing the message (set to zero if not available).</source>
+          <target state="translated">L'ultima riga di un intervallo di righe del file causa il messaggio (impostato su zero se non è disponibile).</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The last column of a range of columns in the file causing the message (set to zero if not available).</source>
+          <target state="translated">L'ultima colonna di un intervallo di colonne nel file la causa del messaggio (impostato su zero se non è disponibile).</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The message string.</source>
+          <target state="translated">La stringa di messaggio.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Optional arguments for formatting the message string.</source>
+          <target state="translated">Argomenti facoltativi per la formattazione della stringa di messaggio.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Thrown when <ph id="ph1">`message`</ph> is null.</source>
+          <target state="translated">Generata quando <ph id="ph1">`message`</ph> è null.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Logs an error with the specified message.</source>
+          <target state="translated">Registra un errore con il messaggio specificato.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not thread-safe.</source>
+          <target state="translated">Questo metodo non è thread-safe.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The message.</source>
+          <target state="translated">Il messaggio.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Optional arguments for formatting the message string.</source>
+          <target state="translated">Argomenti facoltativi per la formattazione della stringa di messaggio.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Logs an error using the specified message and other error details.</source>
+          <target state="translated">Registra un errore usando il messaggio specificato e altri dettagli sull'errore.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`subCategory`</ph>, <ph id="ph2">`errorCode`</ph>, <ph id="ph3">`helpKeyword`</ph>, and <ph id="ph4">`file`</ph> can be <ph id="ph5">`null`</ph>.</source>
+          <target state="translated">I parametri <ph id="ph1">`subCategory`</ph>, <ph id="ph2">`errorCode`</ph>, <ph id="ph3">`helpKeyword`</ph>, e <ph id="ph4">`file`</ph> può essere <ph id="ph5">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, and <ph id="ph4">`endColumnNumber`</ph> should be set to 0 if they are not available.</source>
+          <target state="translated">I parametri <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, e <ph id="ph4">`endColumnNumber`</ph> deve essere impostata su 0 se non sono disponibili.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The description of the error type.</source>
+          <target state="translated">La descrizione del tipo di errore.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The error code.</source>
+          <target state="translated">Il codice di errore.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The Help keyword to associate with the error.</source>
+          <target state="translated">La parola chiave della Guida da associare all'errore.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The path to the file containing the error.</source>
+          <target state="translated">Il percorso del file contenente l'errore.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The line in the file where the error occurs.</source>
+          <target state="translated">La riga nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The column in the file where the error occurs.</source>
+          <target state="translated">La colonna nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The end line in the file where the error occurs.</source>
+          <target state="translated">Riga finale nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The end column in the file where the error occurs.</source>
+          <target state="translated">Colonna finale nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The message.</source>
+          <target state="translated">Il messaggio.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Optional arguments for formatting the message string.</source>
+          <target state="translated">Argomenti facoltativi per la formattazione della stringa di messaggio.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Logs an error using the message from the given exception.</source>
+          <target state="translated">Registra un errore utilizzando il messaggio dell'eccezione specificata.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No call stack will be shown.</source>
+          <target state="translated">Non verrà visualizzato alcun stack di chiamate.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The exception to log.</source>
+          <target state="translated">Eccezione da registrare.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;e&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;e&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Logs an error using the message, and optionally the stack trace, from the given exception.</source>
+          <target state="translated">Registra un errore utilizzando il messaggio e, facoltativamente, la traccia dello stack, dell'eccezione specificata.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not thread-safe.</source>
+          <target state="translated">Questo metodo non è thread-safe.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The exception to log</source>
+          <target state="translated">Eccezione da registrare.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the stack trace in the log; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Per includere la traccia dello stack nel log. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;e&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;e&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Logs an error using the message, and optionally the stack-trace from the given exception and any inner exceptions.</source>
+          <target state="translated">Registra un errore utilizzando il messaggio e, facoltativamente, la traccia dello stack dell'eccezione specificata e eventuali eccezioni interne.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The exception to log.</source>
+          <target state="translated">Eccezione da registrare.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the stack trace in the log; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Per includere la traccia dello stack nel log. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to log exception types and any inner exceptions; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Per registrare i tipi di eccezione ed eventuali eccezioni interne. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The name of the file related to the exception, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the project file should be logged.</source>
+          <target state="translated">Il nome del file relativo all'eccezione, o <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se è necessario registrare il file di progetto.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;e&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;e&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Logs an error using the specified resource string.</source>
+          <target state="translated">Registra un errore usando la stringa di risorsa.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not thread-safe.</source>
+          <target state="translated">Questo metodo non è thread-safe.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The name of the string resource to load.</source>
+          <target state="translated">Il nome della risorsa stringa da caricare.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the loaded string.</source>
+          <target state="translated">Argomenti per la formattazione della stringa caricata.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Logs an error using the specified resource string and other error details.</source>
+          <target state="translated">Registra un errore usando la stringa di risorsa e altri dettagli sull'errore.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`subCategoryResourceName`</ph>, <ph id="ph2">`errorCode`</ph>, <ph id="ph3">`helpKeyword`</ph>, and <ph id="ph4">`file`</ph> can be <ph id="ph5">`null`</ph>.</source>
+          <target state="translated">I parametri <ph id="ph1">`subCategoryResourceName`</ph>, <ph id="ph2">`errorCode`</ph>, <ph id="ph3">`helpKeyword`</ph>, e <ph id="ph4">`file`</ph> può essere <ph id="ph5">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, and <ph id="ph4">`endColumnNumber`</ph> should be set to 0 if they are not available.</source>
+          <target state="translated">I parametri <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, e <ph id="ph4">`endColumnNumber`</ph> deve essere impostata su 0 se non sono disponibili.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The name of the string resource that describes the error type.</source>
+          <target state="translated">Il nome della risorsa stringa che descrive il tipo di errore.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The error code.</source>
+          <target state="translated">Il codice di errore.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The Help keyword to associate with the error.</source>
+          <target state="translated">La parola chiave della Guida da associare all'errore.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The path to the file containing the error.</source>
+          <target state="translated">Il percorso del file contenente l'errore.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The line in the file where the error occurs.</source>
+          <target state="translated">La riga nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The column in the file where the error occurs.</source>
+          <target state="translated">La colonna nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The end line in the file where the error occurs.</source>
+          <target state="translated">Riga finale nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The end column in the file where the error occurs.</source>
+          <target state="translated">Colonna finale nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The name of the string resource to load.</source>
+          <target state="translated">Il nome della risorsa stringa da caricare.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the loaded string.</source>
+          <target state="translated">Argomenti per la formattazione della stringa caricata.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Logs an error with an error code using the specified resource string.</source>
+          <target state="translated">Registra un errore con un codice di errore utilizzando la stringa di risorsa specificata.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message begins with an error code, the code is extracted and logged with the message.</source>
+          <target state="translated">Se il messaggio inizia con un codice di errore, il codice viene estratto e registrato con un messaggio.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a Help keyword prefix has been provided, it is also logged with the message.</source>
+          <target state="translated">Se è stato specificato un prefisso della parola chiave della Guida, viene anche registrato con il messaggio.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Help keyword is composed by appending the string resource name to the Help keyword prefix.</source>
+          <target state="translated">La parola chiave della Guida è costituito da aggiungendo il nome della risorsa stringa per il prefisso della parola chiave della Guida.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A task can provide a Help keyword prefix with either the &lt;xref:Microsoft.Build.Utilities.Task&gt; base class constructor, or the &lt;xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt; property.</source>
+          <target state="translated">Un'attività può fornire un prefisso della parola chiave della Guida in linea con il &lt;xref:Microsoft.Build.Utilities.Task&gt;costruttore della classe base, o &lt;xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt;proprietà.&lt;/xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt; &lt;/xref:Microsoft.Build.Utilities.Task&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The name of the string resource to load.</source>
+          <target state="translated">Il nome della risorsa stringa da caricare.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the loaded string.</source>
+          <target state="translated">Argomenti per la formattazione della stringa caricata.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Logs an error using the specified resource string and other error details.</source>
+          <target state="translated">Registra un errore usando la stringa di risorsa e altri dettagli sull'errore.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message begins with an error code, the code is extracted and logged with the message.</source>
+          <target state="translated">Se il messaggio inizia con un codice di errore, il codice viene estratto e registrato con un messaggio.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a Help keyword prefix has been provided, it is also logged with the message.</source>
+          <target state="translated">Se è stato specificato un prefisso della parola chiave della Guida, viene anche registrato con il messaggio.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Help keyword is composed by appending the string resource name to the Help keyword prefix.</source>
+          <target state="translated">La parola chiave della Guida è costituito da aggiungendo il nome della risorsa stringa per il prefisso della parola chiave della Guida.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A task can provide a Help keyword prefix with either the &lt;xref:Microsoft.Build.Utilities.Task&gt; base class constructor, or the &lt;xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt; property.</source>
+          <target state="translated">Un'attività può fornire un prefisso della parola chiave della Guida in linea con il &lt;xref:Microsoft.Build.Utilities.Task&gt;costruttore della classe base, o &lt;xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt;proprietà.&lt;/xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt; &lt;/xref:Microsoft.Build.Utilities.Task&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`subCategoryResourceName`</ph>, and <ph id="ph2">`file`</ph> can be <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">I parametri <ph id="ph1">`subCategoryResourceName`</ph>, e <ph id="ph2">`file`</ph> può essere <ph id="ph3">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, and <ph id="ph4">`endColumnNumber`</ph> should be set to 0 if they are not available.</source>
+          <target state="translated">I parametri <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, e <ph id="ph4">`endColumnNumber`</ph> deve essere impostata su 0 se non sono disponibili.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The name of the string resource that describes the error type.</source>
+          <target state="translated">Il nome della risorsa stringa che descrive il tipo di errore.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The path to the file containing the error.</source>
+          <target state="translated">Il percorso del file contenente l'errore.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The line in the file where the error occurs.</source>
+          <target state="translated">La riga nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The column in the file where the error occurs.</source>
+          <target state="translated">La colonna nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The end line in the file where the error occurs.</source>
+          <target state="translated">Riga finale nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The end column in the file where the error occurs.</source>
+          <target state="translated">Colonna finale nel file in cui si verifica l'errore.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The name of the string resource to load.</source>
+          <target state="translated">Il nome della risorsa stringa da caricare.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the loaded string.</source>
+          <target state="translated">Argomenti per la formattazione della stringa caricata.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Helps log the custom <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.ExternalProjectFinishedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> build event.</source>
+          <target state="translated">Consente di registrare personalizzata <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.ExternalProjectFinishedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> evento di compilazione.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The text message.</source>
+          <target state="translated">Testo del messaggio.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The help keyword.</source>
+          <target state="translated">La parola chiave della Guida.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The name of the project.</source>
+          <target state="translated">Il nome del progetto.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that project was built successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per indicare che il progetto è stato compilato correttamente. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Helps log the custom <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.ExternalProjectStartedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> build event.</source>
+          <target state="translated">Consente di registrare personalizzata <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.ExternalProjectStartedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> evento di compilazione.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The text message.</source>
+          <target state="translated">Testo del messaggio.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The help keyword.</source>
+          <target state="translated">La parola chiave della Guida.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The name of the project.</source>
+          <target state="translated">Il nome del progetto.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The targets to build.</source>
+          <target state="translated">Le destinazioni da compilare.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>An empty string indicates default targets.</source>
+          <target state="translated">Una stringa vuota indica le destinazioni predefinite.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Logs a message with the specified string.</source>
+          <target state="translated">Registra un messaggio con la stringa specificata.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:Microsoft.Build.Framework.MessageImportance&gt; value of a message is <ph id="ph1">`Normal`</ph> by default.</source>
+          <target state="translated">Il &lt;xref:Microsoft.Build.Framework.MessageImportance&gt;valore di un messaggio è <ph id="ph1">`Normal`</ph> per impostazione predefinita.&lt;/xref:Microsoft.Build.Framework.MessageImportance&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The message.</source>
+          <target state="translated">Il messaggio.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the message.</source>
+          <target state="translated">Argomenti per la formattazione del messaggio.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Logs a message with the specified string and importance.</source>
+          <target state="translated">Registra un messaggio con la stringa specificata e l'importanza.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Take care to order the parameters correctly or the other overload will be called inadvertently.</source>
+          <target state="translated">Prestare attenzione per ordinare correttamente i parametri o l'altro overload verrà chiamato inavvertitamente.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the importance of the message.</source>
+          <target state="translated">Uno dei valori di enumerazione che specifica l'importanza del messaggio.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The message.</source>
+          <target state="translated">Il messaggio.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the message.</source>
+          <target state="translated">Argomenti per la formattazione del messaggio.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Logs a message using the specified string and other message details.</source>
+          <target state="translated">Registra un messaggio usando la stringa specificata e altri dettagli del messaggio.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Thread safe.</source>
+          <target state="translated">Thread-safe.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Description of the warning type (can be null).</source>
+          <target state="translated">Descrizione del tipo di avviso (può essere null).</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Message code (can be null)</source>
+          <target state="translated">Codice del messaggio (può essere null)</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The help keyword for the host IDE (can be null).</source>
+          <target state="translated">La parola chiave della Guida per l'host IDE (può essere null).</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The path to the file causing the message (can be null).</source>
+          <target state="translated">Il percorso del file causa il messaggio (può essere null).</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The line in the file causing the message (set to zero if not available).</source>
+          <target state="translated">La riga nel file la causa del messaggio (impostato su zero se non è disponibile).</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The column in the file causing the message (set to zero if not available).</source>
+          <target state="translated">La colonna nel file la causa del messaggio (impostato su zero se non è disponibile).</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The last line of a range of lines in the file causing the message (set to zero if not available).</source>
+          <target state="translated">L'ultima riga di un intervallo di righe del file causa il messaggio (impostato su zero se non è disponibile).</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The last column of a range of columns in the file causing the message (set to zero if not available).</source>
+          <target state="translated">L'ultima colonna di un intervallo di colonne nel file la causa del messaggio (impostato su zero se non è disponibile).</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Importance of the message.</source>
+          <target state="translated">Importanza del messaggio.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The message string.</source>
+          <target state="translated">La stringa di messaggio.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Optional arguments for formatting the message string.</source>
+          <target state="translated">Argomenti facoltativi per la formattazione della stringa di messaggio.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Thrown when <ph id="ph1">`message`</ph> is null.</source>
+          <target state="translated">Generata quando <ph id="ph1">`message`</ph> è null.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Logs a message with the specified resource string.</source>
+          <target state="translated">Registra un messaggio con la stringa di risorsa specificata.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:Microsoft.Build.Framework.MessageImportance&gt; value of a message is <ph id="ph1">`Normal`</ph> by default.</source>
+          <target state="translated">Il &lt;xref:Microsoft.Build.Framework.MessageImportance&gt;valore di un messaggio è <ph id="ph1">`Normal`</ph> per impostazione predefinita.&lt;/xref:Microsoft.Build.Framework.MessageImportance&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The name of the string resource to load.</source>
+          <target state="translated">Il nome della risorsa stringa da caricare.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the loaded string.</source>
+          <target state="translated">Argomenti per la formattazione della stringa caricata.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Logs a message with the specified resource string and importance.</source>
+          <target state="translated">Registra un messaggio con la stringa di risorsa specificata e l'importanza.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Take care to order the parameters correctly or the other overload will be called inadvertently.</source>
+          <target state="translated">Prestare attenzione per ordinare correttamente i parametri o l'altro overload verrà chiamato inavvertitamente.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the importance of the message.</source>
+          <target state="translated">Uno dei valori di enumerazione che specifica l'importanza del messaggio.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The name of the string resource to load.</source>
+          <target state="translated">Il nome della risorsa stringa da caricare.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the loaded string.</source>
+          <target state="translated">Argomenti per la formattazione della stringa caricata.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Logs an error message or warning from the given line of text.</source>
+          <target state="translated">Registra un messaggio di errore o un avviso da riga di testo specificata.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Errors messages and warnings are only logged for lines that fit the canonical format.</source>
+          <target state="translated">Avvisi e messaggi di errori vengono registrati solo per le righe che soddisfano il formato canonico.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All other lines are treated as messages.</source>
+          <target state="translated">Tutte le altre righe vengono considerati come messaggi.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The line of text to log from.</source>
+          <target state="translated">La riga di testo per l'accesso da.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>One of the values of <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.MessageImportance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the importance level of the command line.</source>
+          <target state="translated">Uno dei valori di <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.MessageImportance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che indica il livello di importanza della riga di comando.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if an error was logged; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se è stato registrato un errore; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;lineOfText&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;lineOfText&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Logs errors, warnings, and messages for each line of text in the given file.</source>
+          <target state="translated">Registra errori, avvisi e messaggi per ogni riga di testo nel file specificato.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Errors and warnings are logged for lines that fit a particular canonical format.</source>
+          <target state="translated">Vengono registrati errori e avvisi per le righe che soddisfano un particolare formato canonico.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All other lines are logged as messages.</source>
+          <target state="translated">Tutte le altre righe vengono registrati come messaggi.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The name of the file to log messages from.</source>
+          <target state="translated">Il nome del file per registrare i messaggi.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate at least one error was logged; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per indicare almeno è stato registrato un errore; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Logs errors, warnings, and messages for each line of text in the given file.</source>
+          <target state="translated">Registra errori, avvisi e messaggi per ogni riga di testo nel file specificato.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Also logs the importance of messages.</source>
+          <target state="translated">Registra inoltre l'importanza dei messaggi.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Errors and warnings are logged for lines that fit a particular canonical format.</source>
+          <target state="translated">Vengono registrati errori e avvisi per le righe che soddisfano un particolare formato canonico.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All other lines are logged as messages.</source>
+          <target state="translated">Tutte le altre righe vengono registrati come messaggi.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The name of the file to log messages from.</source>
+          <target state="translated">Il nome del file per registrare i messaggi.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the importance of logged messages.</source>
+          <target state="translated">Uno dei valori di enumerazione che specifica l'importanza di registrati messaggi.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate at least one error was logged; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per indicare almeno è stato registrato un errore; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Thrown when <ph id="ph1">`filename`</ph> is null.</source>
+          <target state="translated">Generata quando <ph id="ph1">`filename`</ph> è null.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Logs an error message or warning from the given stream.</source>
+          <target state="translated">Registra un messaggio di errore o un avviso dal flusso specificato.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not thread-safe.</source>
+          <target state="translated">Questo metodo non è thread-safe.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.TextReader&gt; that reads the stream to log from.</source>
+          <target state="translated">Oggetto &lt;xref:System.IO.TextReader&gt;che legge il flusso per l'accesso da.&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>One of the values of <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.MessageImportance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the importance level of the command line.</source>
+          <target state="translated">Uno dei valori di <bpt id="p1">&lt;xref href="Microsoft.Build.Framework.MessageImportance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che indica il livello di importanza della riga di comando.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if an error was logged; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se è stato registrato un errore; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Logs a warning with the specified message.</source>
+          <target state="translated">Registra un avviso con il messaggio specificato.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not thread-safe.</source>
+          <target state="translated">Questo metodo non è thread-safe.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The message.</source>
+          <target state="translated">Il messaggio.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Optional arguments for formatting the message string.</source>
+          <target state="translated">Argomenti facoltativi per la formattazione della stringa di messaggio.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Logs a warning using the specified message and other warning details.</source>
+          <target state="translated">Registra un avviso utilizzando il messaggio specificato e altri dettagli sull'avviso.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`subCategory`</ph>, <ph id="ph2">`warningCode`</ph>, <ph id="ph3">`helpKeyword`</ph>, and <ph id="ph4">`file`</ph> can be <ph id="ph5">`null`</ph>.</source>
+          <target state="translated">I parametri <ph id="ph1">`subCategory`</ph>, <ph id="ph2">`warningCode`</ph>, <ph id="ph3">`helpKeyword`</ph>, e <ph id="ph4">`file`</ph> può essere <ph id="ph5">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, and <ph id="ph4">`endColumnNumber`</ph> should be set to 0 if they are not available.</source>
+          <target state="translated">I parametri <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, e <ph id="ph4">`endColumnNumber`</ph> deve essere impostata su 0 se non sono disponibili.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The description of the warning type.</source>
+          <target state="translated">La descrizione del tipo di avviso.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The warning code.</source>
+          <target state="translated">Codice di avviso.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The Help keyword to associate with the warning.</source>
+          <target state="translated">La parola chiave della Guida da associare all'avviso.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The path to the file containing the warning.</source>
+          <target state="translated">Il percorso del file contenente il messaggio di avviso.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The line in the file where the warning occurs.</source>
+          <target state="translated">La riga nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The column in the file where the warning occurs.</source>
+          <target state="translated">La colonna nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The end line in the file where the warning occurs.</source>
+          <target state="translated">Riga finale nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The end column in the file where the warning occurs.</source>
+          <target state="translated">Colonna finale nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The message.</source>
+          <target state="translated">Il messaggio.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Optional arguments for formatting the message string.</source>
+          <target state="translated">Argomenti facoltativi per la formattazione della stringa di messaggio.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Logs a warning using the message from the specified exception.</source>
+          <target state="translated">Registra un avviso utilizzando il messaggio dell'eccezione specificato.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not thread-safe.</source>
+          <target state="translated">Questo metodo non è thread-safe.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The exception to log.</source>
+          <target state="translated">Eccezione da registrare.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;e&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;e&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Logs a warning using the message, and optionally the stack trace, from the given exception.</source>
+          <target state="translated">Registra un avviso utilizzando il messaggio e, facoltativamente, la traccia dello stack, dell'eccezione specificata.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not thread-safe.</source>
+          <target state="translated">Questo metodo non è thread-safe.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The exception to log</source>
+          <target state="translated">Eccezione da registrare.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the stack trace in the log; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Per includere la traccia dello stack nel log. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;e&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;e&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Logs a warning using the specified resource string.</source>
+          <target state="translated">Registra un avviso usando la stringa di risorsa.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not thread-safe.</source>
+          <target state="translated">Questo metodo non è thread-safe.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>The name of the string resource to load.</source>
+          <target state="translated">Il nome della risorsa stringa da caricare.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the loaded string.</source>
+          <target state="translated">Argomenti per la formattazione della stringa caricata.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Logs a warning using the specified resource string and other warning details.</source>
+          <target state="translated">Registra un avviso usando la stringa di risorsa e altri dettagli sull'avviso.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`subCategoryResourceName`</ph>, <ph id="ph2">`warningCode`</ph>, <ph id="ph3">`helpKeyword`</ph>, and <ph id="ph4">`file`</ph> can be <ph id="ph5">`null`</ph>.</source>
+          <target state="translated">I parametri <ph id="ph1">`subCategoryResourceName`</ph>, <ph id="ph2">`warningCode`</ph>, <ph id="ph3">`helpKeyword`</ph>, e <ph id="ph4">`file`</ph> può essere <ph id="ph5">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, and <ph id="ph4">`endColumnNumber`</ph> should be set to 0 if they are not available.</source>
+          <target state="translated">I parametri <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, e <ph id="ph4">`endColumnNumber`</ph> deve essere impostata su 0 se non sono disponibili.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The name of the string resource that describes the warning type.</source>
+          <target state="translated">Il nome della risorsa stringa che descrive il tipo di avviso.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>The warning code.</source>
+          <target state="translated">Codice di avviso.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The Help keyword to associate with the warning.</source>
+          <target state="translated">La parola chiave della Guida da associare all'avviso.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The path to the file containing the warning.</source>
+          <target state="translated">Il percorso del file contenente il messaggio di avviso.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The line in the file where the warning occurs.</source>
+          <target state="translated">La riga nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>The column in the file where the warning occurs.</source>
+          <target state="translated">La colonna nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>The end line in the file where the warning occurs.</source>
+          <target state="translated">Riga finale nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The end column in the file where the warning occurs.</source>
+          <target state="translated">Colonna finale nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The name of the string resource to load.</source>
+          <target state="translated">Il nome della risorsa stringa da caricare.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the loaded string.</source>
+          <target state="translated">Argomenti per la formattazione della stringa caricata.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Logs a warning with a warning code using the specified resource string.</source>
+          <target state="translated">Registra un avviso con un codice di avviso usando la stringa di risorsa.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message begins with a warning code, the code is extracted and logged with the message.</source>
+          <target state="translated">Se il messaggio inizia con un codice di avviso, il codice viene estratto e registrato con un messaggio.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a Help keyword prefix has been provided, it is also logged with the message.</source>
+          <target state="translated">Se è stato specificato un prefisso della parola chiave della Guida, viene anche registrato con il messaggio.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Help keyword is composed by appending the string resource name to the Help keyword prefix.</source>
+          <target state="translated">La parola chiave della Guida è costituito da aggiungendo il nome della risorsa stringa per il prefisso della parola chiave della Guida.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A task can provide a Help keyword prefix with either the &lt;xref:Microsoft.Build.Utilities.Task&gt; base class constructor, or the &lt;xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt; property.</source>
+          <target state="translated">Un'attività può fornire un prefisso della parola chiave della Guida in linea con il &lt;xref:Microsoft.Build.Utilities.Task&gt;costruttore della classe base, o &lt;xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt;proprietà.&lt;/xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt; &lt;/xref:Microsoft.Build.Utilities.Task&gt;</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>The name of the string resource to load.</source>
+          <target state="translated">Il nome della risorsa stringa da caricare.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the loaded string.</source>
+          <target state="translated">Argomenti per la formattazione della stringa caricata.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Logs a warning with a warning code using the specified resource string and other warning details.</source>
+          <target state="translated">Registra un avviso con un codice di avviso usando la stringa di risorsa e altri dettagli sull'avviso.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message begins with a warning code, the code is extracted and logged with the message.</source>
+          <target state="translated">Se il messaggio inizia con un codice di avviso, il codice viene estratto e registrato con un messaggio.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a Help keyword prefix has been provided, it is also logged with the message.</source>
+          <target state="translated">Se è stato specificato un prefisso della parola chiave della Guida, viene anche registrato con il messaggio.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Help keyword is composed by appending the string resource name to the Help keyword prefix.</source>
+          <target state="translated">La parola chiave della Guida è costituito da aggiungendo il nome della risorsa stringa per il prefisso della parola chiave della Guida.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A task can provide a Help keyword prefix with either the &lt;xref:Microsoft.Build.Utilities.Task&gt; base class constructor, or the &lt;xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt; property.</source>
+          <target state="translated">Un'attività può fornire un prefisso della parola chiave della Guida in linea con il &lt;xref:Microsoft.Build.Utilities.Task&gt;costruttore della classe base, o &lt;xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt;proprietà.&lt;/xref:Microsoft.Build.Utilities.Task.HelpKeywordPrefix%2A&gt; &lt;/xref:Microsoft.Build.Utilities.Task&gt;</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`subCategoryResourceName`</ph>, and <ph id="ph2">`file`</ph> can be <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">I parametri <ph id="ph1">`subCategoryResourceName`</ph>, e <ph id="ph2">`file`</ph> può essere <ph id="ph3">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parameters <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, and <ph id="ph4">`endColumnNumber`</ph> should be set to 0 if they are not available.</source>
+          <target state="translated">I parametri <ph id="ph1">`lineNumber`</ph>, <ph id="ph2">`columnNumber`</ph>, <ph id="ph3">`endLineNumber`</ph>, e <ph id="ph4">`endColumnNumber`</ph> deve essere impostata su 0 se non sono disponibili.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>The name of the string resource that describes the warning type.</source>
+          <target state="translated">Il nome della risorsa stringa che descrive il tipo di avviso.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>The path to the file containing the warning.</source>
+          <target state="translated">Il percorso del file contenente il messaggio di avviso.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>The line in the file where the warning occurs.</source>
+          <target state="translated">La riga nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>The column in the file where the warning occurs.</source>
+          <target state="translated">La colonna nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>The end line in the file where the warning occurs.</source>
+          <target state="translated">Riga finale nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>The end column in the file where the warning occurs.</source>
+          <target state="translated">Colonna finale nel file in cui è visualizzato l'avviso.</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>The name of the string resource to load.</source>
+          <target state="translated">Il nome della risorsa stringa da caricare.</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>The arguments for formatting the loaded string.</source>
+          <target state="translated">Argomenti per la formattazione della stringa caricata.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;messageResourceName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>Notifies this <bpt id="p1">&lt;xref uid="langword_csharp_TaskLoggingHelper" name="TaskLoggingHelper" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that it is no longer needed.</source>
+          <target state="translated">Questa notifica <bpt id="p1">&lt;xref uid="langword_csharp_TaskLoggingHelper" name="TaskLoggingHelper" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che non è più necessario.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is thread safe, however, you must call both InitializeLifetimeService and MarkAsInactive, in that order, or you must call neither method, and you must call neither method than once.</source>
+          <target state="translated">Questo metodo è thread-safe, tuttavia, è necessario chiamare InitializeLifetimeService sia MarkAsInactive, in tale ordine, o è necessario chiamare nessuno dei due metodi e non è necessario chiamare nessuno dei due metodi di una volta.</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Gets the name of the parent task.</source>
+          <target state="translated">Ottiene il nome dell'attività padre.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>The name of the parent task.</source>
+          <target state="translated">Il nome dell'attività padre.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Gets or sets the culture-specific resources used by the logging methods.</source>
+          <target state="translated">Ottiene o imposta le risorse specifiche delle impostazioni cultura usate dai metodi di registrazione.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If derived classes have localized strings, then they should register their resources with this property.</source>
+          <target state="translated">Se le classi derivate hanno stringhe localizzate devono registrare le proprie risorse con questa proprietà.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Resources.ResourceManager&gt; that represents the culture-specific resources used by the logging methods.</source>
+          <target state="translated">Oggetto &lt;xref:System.Resources.ResourceManager&gt;che rappresenta le risorse specifiche delle impostazioni cultura usate dai metodi di registrazione.&lt;/xref:System.Resources.ResourceManager&gt;</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>This value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Questo valore può essere <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

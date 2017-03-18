@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8726a92759c697345e37daf2a6c047e116443cbd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceProcess.ServiceController.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e1f55d6ddab357c6d46a00e1cbe4f84aaf19673</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e908aa01071028bf42f34ded53086d90a1e6aed0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a Windows service and allows you to connect to a running or stopped service, manipulate it, or get information about it.</source>
+          <target state="translated">Windows-szolgáltatás jelöli, és lehetővé teszi egy futó vagy leállított szolgáltatás csatlakozni, kezelheti, vagy azt adatainak beolvasása.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the ServiceController class to connect to and control the behavior of existing services.</source>
+          <target state="translated">A ServiceController osztály használatával csatlakozhat, és a meglévő szolgáltatások viselkedését vezérli.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of the ServiceController class, you set its properties so it interacts with a specific Windows service.</source>
+          <target state="translated">A ServiceController osztály példányának létrehozásakor tulajdonságát be így hatással van az adott Windows-szolgáltatás.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then use the class to start, stop, and otherwise manipulate the service.</source>
+          <target state="translated">Az osztály majd segítségével indítása, leállítása és a szolgáltatás más módon kezelhetők.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will most likely use the ServiceController component in an administrative capacity.</source>
+          <target state="translated">Valószínűleg szüksége lesz a ServiceController összetevő egy felügyeleti kapacitás.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you could create a Windows or Web application that sends custom commands to a service through the ServiceController instance.</source>
+          <target state="translated">Például létrehozhat egy egyéni parancsokat küld a szolgáltatásnak a ServiceController példány keresztül Windows vagy a webes alkalmazás.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This would be useful, because the Service Control Manager (SCM) Microsoft Management Console snap-in does not support custom commands.</source>
+          <target state="translated">Akkor hasznos, mert a szolgáltatásvezérlő kezelőjéhez (SCM) a Microsoft Management Console beépülő modul nem támogatja az egyéni parancsokat.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you create an instance of ServiceController, you must set two properties on it to identify the service with which it interacts: the computer name and the name of the service you want to control.</source>
+          <target state="translated">ServiceController példányának létrehozása után meg kell adni két tulajdonságok rajta a szolgáltatás, amellyel kommunikál azonosításához: a számítógép nevét és a vezérlő kívánt szolgáltatás nevét.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  By default, &lt;xref:System.ServiceProcess.ServiceController.MachineName%2A&gt; is set to the local computer, so you do not need to change it unless you want to set the instance to point to another computer.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alapértelmezés szerint &lt;xref:System.ServiceProcess.ServiceController.MachineName%2A&gt;a helyi számítógépre van beállítva, így nem kell megváltoztatnia, ha be szeretné állítani a példány egy másik számítógépre mutassanak.&lt;/xref:System.ServiceProcess.ServiceController.MachineName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generally, the service author writes code that customizes the action associated with a specific command.</source>
+          <target state="translated">Általában a szolgáltatás Szerző ír kóddal, amely egy adott parancshoz tartozó művelet.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a service can contain code to respond to an &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt; command.</source>
+          <target state="translated">Például egy szolgáltatást tartalmazhat válaszolni a kód egy &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt;parancs.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the custom processing for the &lt;xref:System.ServiceProcess.ServiceController.Pause%2A&gt; task runs before the system pauses the service.</source>
+          <target state="translated">Ebben az esetben, az egyéni feldolgozása a &lt;xref:System.ServiceProcess.ServiceController.Pause%2A&gt;feladat futtatása előtt a rendszer felfüggeszti a szolgáltatást.&lt;/xref:System.ServiceProcess.ServiceController.Pause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of commands a service can process depends on its properties; for example, you can set the &lt;xref:System.ServiceProcess.ServiceController.CanStop%2A&gt; property for a service to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">A szolgáltatás képes a parancsok készlete tulajdonságát; függ. például beállíthatja a &lt;xref:System.ServiceProcess.ServiceController.CanStop%2A&gt;tulajdonság egy szolgáltatás <ph id="ph1">`false`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.CanStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This setting renders the <ph id="ph1">`Stop`</ph> command unavailable on that particular service; it prevents you from stopping the service from the SCM by disabling the necessary button.</source>
+          <target state="translated">Ez a beállítás Renderelés a <ph id="ph1">`Stop`</ph> parancsot a adott szolgáltatás nem érhető el; megakadályozza, hogy Ön a szükséges gomb letiltásával az SCM a szolgáltatás leállítása.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you try to stop the service from your code, the system raises an error and displays the error message "Failed to stop <ph id="ph1">`servicename`</ph>."</source>
+          <target state="translated">Ha megpróbálja leállítani a szolgáltatást a felhasználói kódból, a rendszer egy hibát, és hibaüzenetet jeleníti meg "nem sikerült leállítani a <ph id="ph1">`servicename`</ph>."</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is not associated with a specific service.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály, amely nincs társítva egy adott szolgáltatáshoz.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is associated with an existing service on the local computer.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály, amely egy meglévő szolgáltatáshoz a helyi számítógépen van társítva.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service to the system.</source>
+          <target state="translated">A neve, amely azonosítja a szolgáltatást, hogy a rendszer.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This can also be the display name for the service.</source>
+          <target state="translated">Ez a szolgáltatás megjelenített neve is lehet.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>érvénytelen.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that is associated with an existing service on the specified computer.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály, amely egy meglévő szolgáltatáshoz a megadott számítógépen van társítva.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the <ph id="ph1">`machineName`</ph> parameter, you can use "." to represent the local computer.</source>
+          <target state="translated">Az a <ph id="ph1">`machineName`</ph> paraméter, használhatja "." a helyi számítógép képviseli.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service to the system.</source>
+          <target state="translated">A neve, amely azonosítja a szolgáltatást, hogy a rendszer.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This can also be the display name for the service.</source>
+          <target state="translated">Ez a szolgáltatás megjelenített neve is lehet.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The computer on which the service resides.</source>
+          <target state="translated">A számítógép, amelyen a szolgáltatás található.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>érvénytelen.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;machineName&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated">– vagy – <ph id="ph1">&lt;code&gt;machineName&lt;/code&gt;</ph> érvénytelen.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service can be paused and resumed.</source>
+          <target state="translated">Lekérdezi egy érték, amely jelzi, hogy a szolgáltatás szüneteltetve-e, és hogy folytatódik.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be paused; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a szolgáltatás szüneteltethető; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service should be notified when the system is shutting down.</source>
+          <target state="translated">Lekérdezi egy érték, amely jelzi, hogy a szolgáltatás értesíteni kell, amikor a rendszer leáll.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service should be notified when the system is shutting down; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a szolgáltatás értesíteni kell, amikor a rendszer leáll; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the service can be stopped after it has started.</source>
+          <target state="translated">Egy érték, amely jelzi, hogy a szolgáltatás leállítása, elindítása után lekérdezi.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be stopped and the &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt; method called; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a szolgáltatás és a &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt;metódust hívni; ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Disconnects this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance from the service and frees all the resources that the instance allocated.</source>
+          <target state="translated">Bontja a kapcsolatot a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány a szolgáltatásból, és felszabadítja a példány lefoglalt erőforrások.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Close releases all the handles associated with the &lt;xref:System.ServiceProcess.ServiceController&gt; instance.</source>
+          <target state="translated">Zárja be a társított összes leíró kiadja a &lt;xref:System.ServiceProcess.ServiceController&gt;példány.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Continues a service after it has been paused.</source>
+          <target state="translated">A szolgáltatás továbbra is fennáll, miután megkezdte a szünetelést.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call Continue for a service, its status is first changed to <ph id="ph1">`ContinuePending`</ph> and then, when the Continue method returns, it is changed to <ph id="ph2">`Running`</ph>.</source>
+          <target state="translated">Folytatás szolgáltatás hívásakor az első állapotra <ph id="ph1">`ContinuePending`</ph> , és ezt követően a Folytatás metódus ad vissza, ha azt módosul a <ph id="ph2">`Running`</ph>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call Continue for the service until the service controller status is <ph id="ph1">`Paused`</ph>.</source>
+          <target state="translated">Folytatás nem hívható a szolgáltatáshoz, amíg a tartományvezérlő állapota nem <ph id="ph1">`Paused`</ph>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the set of services that depends on the service associated with this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Lekérdezi, hogy a társított szolgáltatás függ szolgáltatáskészlet <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DependentServices array represents the services that the system stops if your application calls &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for this service.</source>
+          <target state="translated">A DependentServices tömb jelöli a szolgáltatásokat, amelyeket a rendszer leáll, ha az alkalmazás &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;ennél a szolgáltatásnál.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances, each of which is associated with a service that depends on this service.</source>
+          <target state="translated">A tömb <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példányokat, amelyek társítva egy szolgáltatás, amely a szolgáltatás függ.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets a friendly name for the service.</source>
+          <target state="translated">Lekérdezi vagy beállítja a szolgáltatás rövid nevét.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the DisplayName to an empty string (""), but setting the property to <ph id="ph1">`null`</ph> throws an exception.</source>
+          <target state="translated">Beállíthatja a DisplayName üres karakterláncot kell megadni (""), de a tulajdonság <ph id="ph1">`null`</ph> kivételt jelez.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The friendly name of the service, which can be used to identify the service.</source>
+          <target state="translated">A szolgáltatás, a szolgáltatás azonosítására szolgáló rövid neve.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The DisplayName is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A DisplayName van <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">A nem felügyelt által használt erőforrások kiadja a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> és opcionálisan kiadja a felügyelt erőforrások.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph>method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Ezt a módszert nevezik nyilvános <ph id="ph1">`Dispose()`</ph>metódus és a &lt;xref:System.Object.Finalize%2A&gt;metódus.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>meghívja a védett <ph id="ph2">`Dispose(Boolean)`</ph> metódust a <ph id="ph3">`disposing`</ph> paraméter <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;Elindítja a <ph id="ph1">`Dispose`</ph> rendelkező <ph id="ph2">`disposing`</ph> beállítása <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ServiceProcess.ServiceController&gt; references.</source>
+          <target state="translated">Ha a <ph id="ph1">`disposing`</ph> paraméter értéke igaz, ez a módszer minden felügyelt objektum által tárolt összes erőforrás kiadja a &lt;xref:System.ServiceProcess.ServiceController&gt;hivatkozik.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Ez a metódus meghívja a <ph id="ph1">`Dispose()`</ph> minden hivatkozott metódusa.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>a kibocsátási felügyelt és a nem felügyelt erőforrások; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> csak a nem felügyelt erőforrások kijelölése.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Executes a custom command on the service.</source>
+          <target state="translated">Egy egyéni parancs végrehajtása a szolgáltatás a.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call ExecuteCommand, the status of the service does not change.</source>
+          <target state="translated">Az ExecuteCommand hívásakor a szolgáltatás állapota nem változik.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service was started, the status remains <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">A szolgáltatás indítása, ha az állapot továbbra is <ph id="ph1">`Running`</ph>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service was stopped, the status remains <ph id="ph1">`Stopped`</ph>, and so on.</source>
+          <target state="translated">Ha a szolgáltatás le lett állítva, az állapot továbbra is <ph id="ph1">`Stopped`</ph>, és így tovább.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To process the custom command, the service must override the &lt;xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt; method and provide a handler for the command identified by the <ph id="ph1">`command`</ph> parameter.</source>
+          <target state="translated">Az egyéni parancs feldolgozásához, a szolgáltatás felül kell bírálnia a &lt;xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt;metódust, és adja meg a kezelő által azonosított parancs a <ph id="ph1">`command`</ph> paraméter.&lt;/xref:System.ServiceProcess.ServiceBase.OnCustomCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An application-defined command flag that indicates which custom command to execute.</source>
+          <target state="translated">Egy alkalmazás által meghatározott parancs jelzőt, amely jelzi, mely egyéni parancs végrehajtásához.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The value must be between 128 and 256, inclusive.</source>
+          <target state="translated">Az érték 128 és 256-ot, a két szélsőértéket beleértve között kell lennie.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Retrieves the device driver services on the local computer.</source>
+          <target state="translated">Lekéri az eszközillesztő-szolgáltatások a helyi számítógépen.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetDevices returns only the device driver services from the local computer.</source>
+          <target state="translated">GetDevices illesztőprogram szolgáltatások visszaszolgáltatja az eszközt csak a helyi számítógépről.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve the non-device driver services or services that are not drivers, call the &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; method.</source>
+          <target state="translated">Nem eszközillesztő szolgáltatásokat vagy szolgáltatásokat, amelyek nem illesztőprogramok lekéréséhez, hívja meg a &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;metódus.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">A két módszer együtt, a szolgáltatások hozzáférést biztosítanak a számítógépen.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a device driver service on the local computer.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az egyes elemei társítva a egy eszköz illesztőprogram szolgáltatás a helyi számítógépen.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Retrieves the device driver services on the specified computer.</source>
+          <target state="translated">Lekéri az eszközillesztő-szolgáltatások a megadott számítógépen.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; returns only the device driver services from the specified computer.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;ad vissza az eszköz csak illesztőprogram szolgáltatások a megadott számítógépen.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve the non-device driver services or services that are not drivers, call the &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; method.</source>
+          <target state="translated">Nem eszközillesztő szolgáltatásokat vagy szolgáltatásokat, amelyek nem illesztőprogramok lekéréséhez, hívja meg a &lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;metódus.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">A két módszer együtt, a szolgáltatások hozzáférést biztosítanak a számítógépen.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The computer from which to retrieve the device driver services.</source>
+          <target state="translated">Olvassa be az eszközillesztő-szolgáltatások állapotból a számítógépet.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a device driver service on the specified computer.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az egyes elemei társítva egy illesztőprogram szolgáltatással a megadott számítógépen.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">machineName</ph><ept id="p1">&lt;/code&gt;</ept> parameter has invalid syntax.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">machineName</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter szintaxisa érvénytelen.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Retrieves all the services on the local computer, except for the device driver services.</source>
+          <target state="translated">Lekéri a helyi számítógépen, kivéve az eszközillesztő-szolgáltatások a szolgáltatásokat.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetServices returns only the non-device driver services and the services that are not drivers from the local computer.</source>
+          <target state="translated">GetServices csak a nem eszközillesztő szolgáltatások és a szolgáltatások, amelyek nem a helyi számítógépről illesztőprogramok adja vissza.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve device driver services, call the &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; method.</source>
+          <target state="translated">Eszközillesztő-szolgáltatások lekéréséhez hívja meg a &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;metódus.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">A két módszer együtt, a szolgáltatások hozzáférést biztosítanak a számítógépen.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a service on the local computer.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az egyes elemei társítva a szolgáltatás a helyi számítógépen.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Retrieves all the services on the specified computer, except for the device driver services.</source>
+          <target state="translated">Lekérdezi a megadott számítógépen, kivéve az eszközillesztő-szolgáltatások a szolgáltatásokat.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt; returns only the non-device driver services and the services that are not drivers from the specified computer.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;csak a nem eszközillesztő szolgáltatások és a szolgáltatások, amelyek nincsenek a megadott számítógép illesztőprogramok adja vissza.&lt;/xref:System.ServiceProcess.ServiceController.GetServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve device driver services, call the &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt; method.</source>
+          <target state="translated">Eszközillesztő-szolgáltatások lekéréséhez hívja meg a &lt;xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;metódus.&lt;/xref:System.ServiceProcess.ServiceController.GetDevices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Together, the two methods provide access to all the services on a computer.</source>
+          <target state="translated">A két módszer együtt, a szolgáltatások hozzáférést biztosítanak a számítógépen.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The computer from which to retrieve the services.</source>
+          <target state="translated">A számítógép, amelyből a szolgáltatások beolvasása.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which each element is associated with a service on the specified computer.</source>
+          <target state="translated">Típusú tömb <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az egyes elemei társítva a szolgáltatás a megadott számítógépen.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">machineName</ph><ept id="p1">&lt;/code&gt;</ept> parameter has invalid syntax.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">machineName</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter szintaxisa érvénytelen.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the computer on which this service resides.</source>
+          <target state="translated">Lekérdezi vagy beállítja annak a számítógépnek, amelyre a szolgáltatást tároló nevét.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The computer name is the name of the server that is running this service, without the preceding backslash characters (<ph id="ph1">\\</ph><ph id="ph2">\\</ph>).</source>
+          <target state="translated">A számítógép neve, a fenti fordított perjel karakter nélkül a szolgáltatást futtató kiszolgáló neve: (<ph id="ph1">\\</ph><ph id="ph2">\\</ph>).</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The name of the computer that is running the service associated with this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">A társított szolgáltatást futtató számítógép neve <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The default is the local computer (".").</source>
+          <target state="translated">Az alapértelmezett érték a helyi számítógépen (".").</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The MachineName syntax is invalid.</source>
+          <target state="translated">A számítógépnév szintaxisa érvénytelen.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Suspends a service's operation.</source>
+          <target state="translated">A szolgáltatási művelet felfüggeszti.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Continue%2A&gt; for the service until the service controller status is <ph id="ph1">`Paused`</ph>.</source>
+          <target state="translated">Nem hívható meg &lt;xref:System.ServiceProcess.ServiceController.Continue%2A&gt;a szolgáltatáshoz, amíg a tartományvezérlő állapota <ph id="ph1">`Paused`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Continue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Refreshes property values by resetting the properties to their current values.</source>
+          <target state="translated">Frissíti a tulajdonság értékét az aktuális értékekre tulajdonságainak alaphelyzetbe állításával.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Refresh method causes the &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;, &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;, and &lt;xref:System.ServiceProcess.ServiceController.Status%2A&gt; properties to be reset to their current values when they are next referenced.</source>
+          <target state="translated">A frissítési mód hatására a &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;, &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;, és &lt;xref:System.ServiceProcess.ServiceController.Status%2A&gt;Tulajdonságok állítanak vissza az aktuális értékekre, ha a következő hivatkozott.&lt;/xref:System.ServiceProcess.ServiceController.Status%2A&gt; &lt;/xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt; &lt;/xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets the handle for the service.</source>
+          <target state="translated">A szolgáltatás lekéri a leíró.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; that contains the handle for the service.</source>
+          <target state="translated">A &lt;xref:System.Runtime.InteropServices.SafeHandle&gt;, amely tartalmazza a szolgáltatás leíró.&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name that identifies the service that this instance references.</source>
+          <target state="translated">Lekérdezi vagy beállítja a nevét, amely azonosítja a szolgáltatást, ez a példány hivatkozó.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceName identifies the service to the Service Control Manager.</source>
+          <target state="translated">A szolgáltatásnév azonosítja a szolgáltatást, hogy a szolgáltatásvezérlő kezelőjéhez.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changing this property causes the &lt;xref:System.ServiceProcess.ServiceController&gt; instance to bind to another service, it does not change what the Service Control Manager's Microsoft Management Console snap-in displays.</source>
+          <target state="translated">E tulajdonság módosítása hatására a &lt;xref:System.ServiceProcess.ServiceController&gt;példány lehet kötést létrehozni egy másik szolgáltatás, nem változtatja meg beépülő modulban jeleníti meg a Microsoft Management Console milyen a szolgáltatáskezelő.&lt;/xref:System.ServiceProcess.ServiceController&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are implementing a custom service, the value of this property must be identical to the name recorded for the service in the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; property of the corresponding &lt;xref:System.ServiceProcess.ServiceInstaller&gt; class.</source>
+          <target state="translated">Egy egyéni szolgáltatás valósít meg, ha a tulajdonság értékének meg kell egyeznie a rögzíti a szolgáltatás &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;a megfelelő &lt;xref:System.ServiceProcess.ServiceInstaller&gt;osztály&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; tulajdonságának&lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; nevét</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In code, the ServiceName is usually set in the <ph id="ph1">`main()`</ph> function of the executable.</source>
+          <target state="translated">A kódban, általában beállítása a szolgáltatásnév a <ph id="ph1">`main()`</ph> függvény a végrehajtható fájl.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you reset the ServiceName property, the method that sets the property sets this instance's &lt;xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt; to an empty string ("").</source>
+          <target state="translated">A szolgáltatásnév tulajdonság alaphelyzetbe állításakor a módszert, amelyet a tulajdonság beállítása beállítása ehhez a példányhoz &lt;xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt;üres karakterlánc ("").&lt;/xref:System.ServiceProcess.ServiceController.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The name that identifies the service that this <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references.</source>
+          <target state="translated">A neve, amely azonosítja a szolgáltatást, amelyhez a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány hivatkozik.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Az alapértelmezett érték egy üres karakterlánc ("").</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The ServiceName is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A szolgáltatásnév <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The syntax of the ServiceName property is invalid.</source>
+          <target state="translated">A szolgáltatásnév tulajdonság szintaxisa érvénytelen.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The set of services that this service depends on.</source>
+          <target state="translated">Szolgáltatáskészlet, amely a szolgáltatás függ.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any service in the ServicesDependedOn array is not running, you will not be able to start this service.</source>
+          <target state="translated">Ha a ServicesDependedOn tömb bármely szolgáltatás nem fut, csak akkor tudja elindítani a szolgáltatást.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances, each of which is associated with a service that must be running for this service to run.</source>
+          <target state="translated">A tömb <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példányokat, amelyek mindegyike tartozik egy szolgáltatás, amely a szolgáltatás futtatásához futnia kell.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets the type of service that this object references.</source>
+          <target state="translated">Lekérdezi a szolgáltatás típusa, ez az objektum hivatkozik.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The service type indicates how the service is used by the system.</source>
+          <target state="translated">A szolgáltatás típusának azt jelzi, hogy a szolgáltatás a rendszer által felhasznált.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the ServiceType property represents a set of flags combined using the bitwise OR operator.</source>
+          <target state="translated">A ServiceType tulajdonság jelöli a bitenkénti vagy operátor használatával egyesített jelzőket.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, used to indicate the network service type.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érték azt jelzi, a hálózati szolgáltatás típusa.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Starts the service, passing no arguments.</source>
+          <target state="translated">Elindítja a szolgáltatást, argumentum nélkül átadásakor.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for the service until the service controller status is <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">Nem hívható meg &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;a szolgáltatáshoz, amíg a tartományvezérlő állapota <ph id="ph1">`Running`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Starts a service, passing the specified arguments.</source>
+          <target state="translated">Elindítja a szolgáltatást, átadja a megadott argumentumok.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot call &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt; for the service until the service controller status is <ph id="ph1">`Running`</ph>.</source>
+          <target state="translated">Nem hívható meg &lt;xref:System.ServiceProcess.ServiceController.Stop%2A&gt;a szolgáltatáshoz, amíg a tartományvezérlő állapota <ph id="ph1">`Running`</ph>.&lt;/xref:System.ServiceProcess.ServiceController.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>An array of arguments to pass to the service when it starts.</source>
+          <target state="translated">A tömb argumentumokat a szolgáltatás indításakor.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The service cannot be started.</source>
+          <target state="translated">A szolgáltatás nem indítható el.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-or-       A member of the array is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">– vagy – A tag a tömb <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates how the service represented by the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object starts.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy a szolgáltatás által képviselt lekérdezi a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum elindul.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A value that indicates how the service starts.</source>
+          <target state="translated">Egy érték, amely azt jelzi, hogy a szolgáltatás indítási módjának.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Gets the status of the service that is referenced by this instance.</source>
+          <target state="translated">Ez a példány által hivatkozott a szolgáltatás állapotának beolvasása.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The status indicates the current state of the service.</source>
+          <target state="translated">Az állapot azt jelzi, hogy a szolgáltatás aktuális állapotát.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of possible values includes several that indicate whether a state-changing command is pending.</source>
+          <target state="translated">A lehetséges értékek is tartalmaz, amely jelzi, hogy egy állapot módosítása parancs függőben lévő több.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates whether the service is running, stopped, or paused, or whether a start, stop, pause, or continue command is pending.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érték, amely jelzi, hogy a szolgáltatás fut, leállítva vagy szünetel, vagy hogy a kezdés leállítása, szüneteltetése vagy továbbra is a parancs függőben.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Stops this service and any services that are dependent on this service.</source>
+          <target state="translated">Leállítja ezt a szolgáltatást, és ez a szolgáltatás függő szolgáltatásokat.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any services depend on this service for their operation, they will be stopped before this service is stopped.</source>
+          <target state="translated">Ha olyan szolgáltatásokat a művelet a szolgáltatás függ, azok le kell állítani a szolgáltatás leállítása előtt.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt; property contains the set of services that depend on this one.</source>
+          <target state="translated">A &lt;xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;tulajdonság azokat a szolgáltatások, amelyek erre függenek.&lt;/xref:System.ServiceProcess.ServiceController.DependentServices%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you stop a service that this service depends on, call the Stop method on this service within the Stop method of the parent service.</source>
+          <target state="translated">Ha leállítja egy szolgáltatás, amely a szolgáltatás függ, a Stop metódus hívható meg ezen a szolgáltatáson belül a Stop metódus a szülő szolgáltatás.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt; property contains the services that this service depends on.</source>
+          <target state="translated">A &lt;xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;tulajdonsága tartalmazza a szolgáltatásokat, amelyeket a szolgáltatás függ.&lt;/xref:System.ServiceProcess.ServiceController.ServicesDependedOn%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing a system API.</source>
+          <target state="translated">Hiba történt a rendszer API-n való hozzáféréskor.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The service was not found.</source>
+          <target state="translated">A szolgáltatás nem található.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Infinitely waits for the service to reach the specified status.</source>
+          <target state="translated">A szolgáltatás számára megadott állapota végtelenül vár.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use WaitForStatus to suspend an application's processing until the service has reached the required status.</source>
+          <target state="translated">WaitForStatus segítségével egy alkalmazás folyamatot, amíg a szolgáltatás elérte a szükséges állapot felfüggesztés.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; method waits approximately 250 milliseconds between each status check.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;metódus várjon körülbelül 250 ezredmásodperc közötti minden állapotának ellenőrzése.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; cannot detect the case of the observed service changing to the <ph id="ph1">`desiredStatus`</ph> and then immediately to another status in that interval.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;a kis-és a megfigyelt módosítása a szolgáltatás nem tudja észlelni a <ph id="ph1">`desiredStatus`</ph> , majd azonnal egy másik állapota az adott időszakban.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The status to wait for.</source>
+          <target state="translated">Várjon, amíg az állapot.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">desiredStatus</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not any of the values defined in the <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">desiredStatus</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nincs a megadott értékek valamelyikét a <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> enumerálása.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Waits for the service to reach the specified status or for the specified time-out to expire.</source>
+          <target state="translated">A szolgáltatás számára megadott állapota vagy lejár a megadott időtúllépési várakozik.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; to suspend an application's processing until the service has reached the required status.</source>
+          <target state="translated">Használjon &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;alkalmazás felfüggesztése feldolgozási mindaddig, amíg a szolgáltatás elérte a szükséges állapot.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; method waits approximately 250 milliseconds between each status check.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A &lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;metódus várjon körülbelül 250 ezredmásodperc közötti minden állapotának ellenőrzése.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt; cannot detect the case of the observed service changing to the <ph id="ph1">`desiredStatus`</ph> and then immediately to another status in that interval.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;a kis-és a megfigyelt módosítása a szolgáltatás nem tudja észlelni a <ph id="ph1">`desiredStatus`</ph> , majd azonnal egy másik állapota az adott időszakban.&lt;/xref:System.ServiceProcess.ServiceController.WaitForStatus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The status to wait for.</source>
+          <target state="translated">Várjon, amíg az állapot.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; object specifying the amount of time to wait for the service to reach the specified status.</source>
+          <target state="translated">A &lt;xref:System.TimeSpan&gt;mennyi ideig várjon a szolgáltatás számára megadott állapota megadó objektum.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">desiredStatus</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not any of the values defined in the <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">desiredStatus</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nincs a megadott értékek valamelyikét a <bpt id="p2">&lt;xref href="System.ServiceProcess.ServiceControllerStatus"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> enumerálása.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The value specified for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter expires.</source>
+          <target state="translated">A megadott a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter lejár.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

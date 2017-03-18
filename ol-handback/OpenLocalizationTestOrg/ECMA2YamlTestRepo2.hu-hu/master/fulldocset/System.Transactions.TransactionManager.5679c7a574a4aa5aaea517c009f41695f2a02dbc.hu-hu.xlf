@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a8b7a8effd49f748548eb5733219f293891b12a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.TransactionManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5206dcf24bd4de6ae1bfd0ea064d1e33ad5da709</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d92b0c9d819d5bfe87f151c6d1e1c89e777b335a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contains methods used for transaction management.</source>
+          <target state="translated">Tranzakció-kezelésre szolgáló metódust tartalmaz.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Ez az osztály nem örökölhető.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class contains static properties and methods used to obtain information about the default transaction options.</source>
+          <target state="translated">Ez az osztály tartalmazza a statikus tulajdonságok és az alapértelmezett információt szerezni a tranzakciós lehetőségek használt módszer.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also contains several static methods used for recovery of a durable resource when the durable resource fails.</source>
+          <target state="translated">Helyreállítási tartós erőforrás használatos, ha a tartós erőforrás nem tud több statikus metódusok is tartalmaz.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No special action is required of a durable resource if the Microsoft Distributed Transaction Coordinator (MSDTC) fails.</source>
+          <target state="translated">Különleges intézkedés nem szükséges egy tartós erőforrást, ha a Microsoft elosztott tranzakciók koordinátora (MSDTC) sikertelen.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Gets the default timeout interval for new transactions.</source>
+          <target state="translated">Lekérdezi az alapértelmezett időkorlát új tranzakciók.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The timeout interval of a transaction is the time within which the transaction must be completed.</source>
+          <target state="translated">A tranzakció időkorlátja az az idő, amelyen belül a tranzakció el kell végezni.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the transaction manager has not heard from all transaction participants within the timeout interval, it aborts the transaction.</source>
+          <target state="translated">A tranzakciókezelő nem rendelkezik őt összes tranzakció résztvevőitől az időkorlát, ha a tranzakció megszakítása.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value can be set in the <ph id="ph1">`DefaultSettingsSection`</ph> of the config file.</source>
+          <target state="translated">Ez az érték állítható be a <ph id="ph1">`DefaultSettingsSection`</ph> a konfigurációs fájl.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; value that specifies the timeout interval for new transactions.</source>
+          <target state="translated">A &lt;xref:System.TimeSpan&gt;érték, amely meghatározza az időkorlát új tranzakciók.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Indicates that a distributed transaction has started.</source>
+          <target state="translated">Azt jelzi, hogy az elosztott tranzakció elindult.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Caution<ept id="p1">**</ept> Signing up for this event degrades the performance of all distributed transactions.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Figyelmeztetés<ept id="p1">**</ept> iratkozik fel, az ezt az eseményt csökkenti az összes elosztott tranzakciók teljesítményét.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Local transactions are not monitored as performance is affected even more.</source>
+          <target state="translated">A helyi tranzakciók nem figyeli, a teljesítmény továbbiakat is érinti.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Megjegyzés:<ept id="p1">**</ept> ezt a módszert használja &lt;xref:System.Security.Permissions.SecurityAction&gt;akadályoznia, hogy a nem megbízható kód hívása; azonban csak a közvetlen hívónak kell rendelkeznie a <ph id="ph1">`FullTrust`</ph> engedélycsoport.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets or sets a custom transaction factory.</source>
+          <target state="translated">Lekérdezi vagy beállítja az egyéni tranzakció gyár.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Megjegyzés:<ept id="p1">**</ept> ezt a módszert használja &lt;xref:System.Security.Permissions.SecurityAction&gt;akadályoznia, hogy a nem megbízható kód hívása; azonban csak a közvetlen hívónak kell rendelkeznie a <ph id="ph1">`FullTrust`</ph> engedélycsoport.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.HostCurrentTransactionCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a custom transaction factory.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.HostCurrentTransactionCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmaz egy egyéni tranzakció gyári.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the default maximum timeout interval for new transactions.</source>
+          <target state="translated">Lekérdezi az alapértelmezett maximális időkorlátja új tranzakciók.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an explanation of the timeout interval, see the documentation for the &lt;xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt; property.</source>
+          <target state="translated">Az időkorlát magyarázatot dokumentációjában a &lt;xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt;tulajdonság.&lt;/xref:System.Transactions.TransactionManager.DefaultTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value can be set in the <ph id="ph1">`MachineSettingsSection`</ph> of the config file.</source>
+          <target state="translated">Ez az érték állítható be a <ph id="ph1">`MachineSettingsSection`</ph> a konfigurációs fájl.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; value that specifies the maximum timeout interval that is allowed when creating new transactions.</source>
+          <target state="translated">A &lt;xref:System.TimeSpan&gt;érték, amely meghatározza, hogy új tranzakciók létrehozásakor maximális időkorlátja.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Notifies the transaction manager that a resource manager recovering from failure has finished reenlisting in all unresolved transactions.</source>
+          <target state="translated">Egy erőforrás-kezelő történő helyreállítás sikertelen befejeződésének összes feloldatlan tranzakcióknál reenlisting tranzakció felettesét is értesíti.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All durable resource managers should do recovery when they first start up by calling the &lt;xref:System.Transactions.TransactionManager.Reenlist%2A&gt; method for each outstanding transaction.</source>
+          <target state="translated">Minden állandó erőforrás-kezelők kell helyreállításával próbálkozik, amikor először kezdi meghívásával a &lt;xref:System.Transactions.TransactionManager.Reenlist%2A&gt;metódus minden függőben lévő tranzakció.&lt;/xref:System.Transactions.TransactionManager.Reenlist%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only when all of the reenlistments are done should the resource manager call RecoveryComplete.</source>
+          <target state="translated">Csak akkor, ha az összes a reenlistments végzett az erőforrás-kezelő kell hívnia RecoveryComplete.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">A helyreállítási további információkért lásd: <bpt id="p1">[</bpt>végrehajtása helyreállítási<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Megjegyzés:<ept id="p1">**</ept> ezt a módszert használja &lt;xref:System.Security.Permissions.SecurityAction&gt;akadályoznia, hogy a nem megbízható kód hívása; azonban csak a közvetlen hívónak kell rendelkeznie a <ph id="ph1">`FullTrust`</ph> engedélycsoport.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that uniquely identifies the resource to be recovered from.</source>
+          <target state="translated">A &lt;xref:System.Guid&gt;, amely egyedileg azonosítja az erőforrás a helyre kell állítani.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Reenlists a durable participant in a transaction.</source>
+          <target state="translated">Reenlists egyik állandó résztvevőtől szerepel egy tranzakcióban.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A resource manager facilitates resolution of durable enlistments in a transaction by reenlisting the transaction participant after resource failure.</source>
+          <target state="translated">Egy erőforrás-kezelő aktív felek részvételét a tranzakcióban feloldása könnyíti meg által a tranzakció résztvevő reenlisting erőforrás-meghibásodás után.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`resourceManagerIdentifier`</ph> parameter is used to consistently label the participant of a transaction in the event of a resource failure.</source>
+          <target state="translated">A <ph id="ph1">`resourceManagerIdentifier`</ph> paraméterrel következetesen címke a résztvevő egy tranzakciót egy erőforrás meghibásodása esetén.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When calling the Reenlist method, the resource manager must provide the same <ph id="ph1">`resourceManagerIdentifier`</ph> as it used when it originally called the &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; method during enlistment, or a &lt;xref:System.Transactions.TransactionException&gt; is thrown.</source>
+          <target state="translated">Reenlist metódus hívásakor az erőforrás-kezelő biztosítania kell a azonos <ph id="ph1">`resourceManagerIdentifier`</ph> , mert meghívásakor használt azt eredetileg a &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;metódus során bejegyzési, vagy egy &lt;xref:System.Transactions.TransactionException&gt;vált ki.&lt;/xref:System.Transactions.TransactionException&gt; &lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a participant is reenlisted using this method, the phase 2 methods of &lt;xref:System.Transactions.IEnlistmentNotification&gt; that correspond to the transaction's outcome (that is, &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; , &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; or &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; ) are called as appropriate.</source>
+          <target state="translated">Ha egy résztvevőt reenlisted van ezzel a módszerrel, a 2. fázis módszerek &lt;xref:System.Transactions.IEnlistmentNotification&gt;, amelyek megfelelnek a tranzakció eredményét (Ez azt jelenti, hogy &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;, &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;vagy &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;) megfelelő nevezzük.&lt;/xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the participants are successfully reenlisted, you should then call &lt;xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt; to complete the recovery.</source>
+          <target state="translated">Miután a résztvevők sikeresen reenlisted vannak, majd hívja a &lt;xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt;helyreállításának befejezéséhez.&lt;/xref:System.Transactions.TransactionManager.RecoveryComplete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should only call this method when a resource manager restarts from failure.</source>
+          <target state="translated">Ez a metódus csak egy erőforrás-kezelő újraindításakor történt hiba után célszerű hívni.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, you should only reenlist unresolved transactions logged by a resource manager during the initial Prepare phase of a two-phase commit.</source>
+          <target state="translated">Emellett egy kétfázisú végrehajtási kezdeti előkészítési fázisban egy erőforrás-kezelő által naplózott feloldatlan tranzakciók csak újralistázást.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any attempt to call this method at invalid times can produce erroneous results.</source>
+          <target state="translated">Ez a metódus hívása érvénytelen időpontokban tett bármilyen kísérlet hibás eredményt is.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the transaction manager fails, and your resource manager performs recovery only a short time after you called the &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; method on an enlistment in phase 1 of the Two-Phase Commit protocol, your resource manager might either receive the &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; or &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; callback.</source>
+          <target state="translated">Ha a tranzakciókezelő nem sikerül, és az erőforrás-kezelő helyreállítást hajt végre csak rövid idő után hívott a &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;ennél az 1. fázis a kétfázisú véglegesítése protokoll metódust, az erőforrás-kezelő vagy fordulhat elő a &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;vagy &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;visszahívás.&lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; &lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">A helyreállítási további információkért lásd: <bpt id="p1">[</bpt>végrehajtása helyreállítási<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Megjegyzés:<ept id="p1">**</ept> ezt a módszert használja &lt;xref:System.Security.Permissions.SecurityAction&gt;akadályoznia, hogy a nem megbízható kód hívása; azonban csak a közvetlen hívónak kell rendelkeznie a <ph id="ph1">`FullTrust`</ph> engedélycsoport.&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; that uniquely identifies the resource manager.</source>
+          <target state="translated">A &lt;xref:System.Guid&gt;, amely egyedileg azonosítja az erőforrás-kezelő.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Contains additional information of recovery information.</source>
+          <target state="translated">A helyreállítási információk további információkat tartalmaz.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A resource object that implements <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive notifications.</source>
+          <target state="translated">Egy objektum, amely megvalósítja az <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értesítéseket.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the enlistment.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely leírja, hogy a bejelentkezés.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph>érvénytelen.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-or-       Transaction Manager information in <ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph> does not match the configured transaction manager.</source>
+          <target state="translated">– vagy – a tranzakciókezelő információk <ph id="ph1">&lt;code&gt;recoveryInformation&lt;/code&gt;</ph> nem egyezik meg a beállított tranzakciókezelővel.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;RecoveryInformation&lt;/code&gt;</ph> is not recognized by <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">– vagy – <ph id="ph1">&lt;code&gt;RecoveryInformation&lt;/code&gt;</ph> nem ismeri fel <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Transactions.TransactionManager.RecoveryComplete*&gt; has already been called for the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Transactions.TransactionManager.RecoveryComplete*&gt;hívása már megtörtént a megadott <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">resourceManagerIdentifier</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Transactions.TransactionManager.RecoveryComplete*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The reenlistment is rejected.</source>
+          <target state="translated">A tranzakcióállapot elutasítva.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">resourceManagerIdentifier</ph><ept id="p1">&lt;/code&gt;</ept> does not match the content of the specified recovery information in <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">recoveryInformation</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">resourceManagerIdentifier</ph> <ept id="p1">&lt;/code&gt;</ept> nem egyezik a megadott helyreállítási adatok tartalmának <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">recoveryInformation</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
