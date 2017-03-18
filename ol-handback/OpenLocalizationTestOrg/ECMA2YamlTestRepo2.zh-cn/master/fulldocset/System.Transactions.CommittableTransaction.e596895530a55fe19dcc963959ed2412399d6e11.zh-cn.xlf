@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ccad41ad00ba86be0f4041b848c7b9b43afa6fe1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.CommittableTransaction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">054586e338584f4c459150aa6b8d59431d48945b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5dfad97f107ec792589460840ed49fc52c7bd8c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Describes a committable transaction.</source>
+          <target state="translated">描述可提交的事务。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The CommittableTransaction class provides an explicit way for applications to use a transaction, as opposed to using the &lt;xref:System.Transactions.TransactionScope&gt; class implicitly.</source>
+          <target state="translated">CommittableTransaction 类提供了一种显式方法为应用程序使用事务，而不是使用&lt;xref:System.Transactions.TransactionScope&gt;类隐式。&lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Unlike the &lt;xref:System.Transactions.TransactionScope&gt; class, the application writer needs to specifically call the &lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt; and &lt;xref:System.Transactions.Transaction.Rollback%2A&gt; methods in order to commit or abort the transaction.</source>
+          <target state="translated">与不同&lt;xref:System.Transactions.TransactionScope&gt;类，应用程序编写器需要明确调用&lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt;和&lt;xref:System.Transactions.Transaction.Rollback%2A&gt;方法以提交或中止事务。&lt;/xref:System.Transactions.Transaction.Rollback%2A&gt; &lt;/xref:System.Transactions.CommittableTransaction.Commit%2A&gt; &lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>However, only the creator of a transaction can commit the transaction.</source>
+          <target state="translated">但是，只有一个事务的创建者可以提交事务。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Therefore, copies of a committable transaction, obtained through the &lt;xref:System.Transactions.Transaction.Clone%2A&gt; method are not committable.</source>
+          <target state="translated">副本可提交的事务，因此，通过获取&lt;xref:System.Transactions.Transaction.Clone%2A&gt;方法不是可提交。&lt;/xref:System.Transactions.Transaction.Clone%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is recommended that you create implicit transactions using the &lt;xref:System.Transactions.TransactionScope&gt; class, so that the ambient transaction context is automatically managed for you.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 建议你创建使用隐式事务&lt;xref:System.Transactions.TransactionScope&gt;类，以便为你自动管理的环境事务上下文。&lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You should also use the &lt;xref:System.Transactions.TransactionScope&gt; and &lt;xref:System.Transactions.DependentTransaction&gt; class for applications that require the use of the same transaction across multiple function calls or multiple thread calls.</source>
+          <target state="translated">你还应使用&lt;xref:System.Transactions.TransactionScope&gt;和&lt;xref:System.Transactions.DependentTransaction&gt;跨多个函数调用或多个线程调用需要在同一事务的使用的应用程序的类。&lt;/xref:System.Transactions.DependentTransaction&gt; &lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information on this model, see the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">在此模型上的详细信息，请参阅<bpt id="p1">[</bpt>实现隐式事务使用事务范围<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept>主题。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Creating a CommittableTransaction does not automatically set the ambient transaction, which is the transaction your code executes in.</source>
+          <target state="translated">创建 CommittableTransaction 不会自动设置环境事务，这是你的代码中执行的事务。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can get or set the ambient transaction by calling the static &lt;xref:System.Transactions.Transaction.Current%2A&gt; property of the global &lt;xref:System.Transactions.Transaction&gt; object.</source>
+          <target state="translated">你可以获取或设置通过调用静态的环境事务&lt;xref:System.Transactions.Transaction.Current%2A&gt;的全局属性&lt;xref:System.Transactions.Transaction&gt;对象。&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Transactions.Transaction.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information on ambient transactions, see the " Managing Transaction Flow using TransactionScopeOption" section of the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">有关环境事务的详细信息，请参阅的"使用 TransactionScopeOption 管理事务流"部分<bpt id="p1">[</bpt>实现隐式事务使用事务范围<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept>主题。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the ambient transaction is not set, any operation on a resource manager is not part of that transaction.</source>
+          <target state="translated">如果未设置环境事务，在资源管理器上的任何操作不是该事务的一部分。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You need to explicitly set and reset the ambient transaction, to ensure that resource managers operate under the right transaction context.</source>
+          <target state="translated">你需要显式设置或重置环境事务，以确保在正确的事务上下文下运行资源管理器。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Until a CommittableTransaction has been committed, all the resources involved with the transaction are still locked.</source>
+          <target state="translated">除非 CommittableTransaction 已提交，否则仍然被锁定事务所涉及的所有资源。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A CommittableTransaction object cannot be reused.</source>
+          <target state="translated">CommittableTransaction 对象不能重复使用。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Once it has been committed or rolled back, it cannot be used again in a transaction or set as the current ambient transaction context.</source>
+          <target state="translated">一旦具有已提交或回滚，不能在事务中再次使用或设置为当前的环境事务上下文。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An attempt to create a transaction under Windows 98, Windows 98 Second Edition or Windows Millennium Edition.</source>
+          <target state="translated">尝试创建一个在 Windows 98、 Windows 98 Second Edition 或 Windows Millennium Edition 的事务。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p2">&lt;/code&gt;</ept> value.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用指定的类<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p2">&lt;/code&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The maximum amount of time the transaction can exist, before it is aborted.</source>
+          <target state="translated">最大事务可以存在之前被中止, 的时间量。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An attempt to create a transaction under Windows 98, Windows 98 Second Edition or Windows Millennium Edition.</source>
+          <target state="translated">尝试创建一个在 Windows 98、 Windows 98 Second Edition 或 Windows Millennium Edition 的事务。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified transaction options.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Transactions.CommittableTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类指定的事务选项。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that describes the transaction options to use for the new transaction.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>结构，描述要用于新事务的事务选项。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An attempt to create a transaction under Windows 98, Windows 98 Second Edition or Windows Millennium Edition.</source>
+          <target state="translated">尝试创建一个在 Windows 98、 Windows 98 Second Edition 或 Windows Millennium Edition 的事务。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;options&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;options&lt;/code&gt;</ph>是无效的。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Begins an attempt to commit the transaction asynchronously.</source>
+          <target state="translated">开始异步提交事务的尝试。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This method returns immediately, before the transaction has been completed.</source>
+          <target state="translated">完成事务之前，此方法将立即返回。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The transaction then commits on a different thread, and the <ph id="ph1">`asyncCallback`</ph> delegate is invoked when it has completed.</source>
+          <target state="translated">然后，在另一个线程，提交此事务和<ph id="ph1">`asyncCallback`</ph>完成后调用委托。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>After this method is called, you do not receive the outcome of the transaction until you call &lt;xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt;.</source>
+          <target state="translated">调用此方法后，你不会收到事务结果之前调用&lt;xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt;.&lt;/xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The commit process may complete synchronously inside this method call.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 提交进程可能会同步完成此方法调用中。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that is invoked when the transaction completes.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;事务完成时调用的委托。&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This parameter can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, in which case the application is not notified of the transaction's completion.</source>
+          <target state="translated">此参数可以为<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，在这种情况下应用程序不会通知的事务的完成。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Instead, the application must use the &lt;xref:System.IAsyncResult&gt; interface to check for completion and wait accordingly, or call &lt;xref:System.Transactions.CommittableTransaction.EndCommit*&gt; to wait for completion.</source>
+          <target state="translated">相反，应用程序必须使用&lt;xref:System.IAsyncResult&gt;接口来完成检查，并相应地，等待或调用&lt;xref:System.Transactions.CommittableTransaction.EndCommit*&gt;要等待的时间完成。&lt;/xref:System.Transactions.CommittableTransaction.EndCommit*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An object, which might contain arbitrary state information, associated with the asynchronous commitment.</source>
+          <target state="translated">一个对象，它可能包含与异步提交关联的任意状态信息。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This object is passed to the callback, and is not interpreted by <bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此对象传递给回调，且在不被解释<bpt id="p1">&lt;xref href="System.Transactions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A null reference is permitted.</source>
+          <target state="translated">允许的 null 引用。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; interface that can be used by the caller to check the status of the asynchronous operation, or to wait for the operation to complete.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;检查异步操作的状态，或者要等待的时间才能完成该操作可由调用方的接口。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Attempts to commit the transaction.</source>
+          <target state="translated">尝试提交事务。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When this method is called, all objects that have registered to participate in the transaction are polled and can independently indicate their vote to either commit or roll back the transaction.</source>
+          <target state="translated">当调用此方法时，参与该事务已注册的所有对象进行轮询，并能够独立地指示它们对提交或回滚事务的投票。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If any participant votes to roll back the transaction, it is rolled back and this method throws a &lt;xref:System.Transactions.TransactionException&gt; exception.</source>
+          <target state="translated">如果任何参与者投票回滚事务，将回滚，此方法将引发&lt;xref:System.Transactions.TransactionException&gt;异常。&lt;/xref:System.Transactions.TransactionException&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This is a normal occurrence for a transaction and your code should catch and process such exceptions.</source>
+          <target state="translated">为事务正常出现这种情况，你的代码应捕获和处理此类异常。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Commit and &lt;xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt; block until the first phase of transaction processing is complete.</source>
+          <target state="translated">提交和&lt;xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt;阻止，直到事务处理的第一阶段已完成。&lt;/xref:System.Transactions.CommittableTransaction.EndCommit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first phase ends after all resource managers and enlistments in the transaction have voted on the transaction outcome and the &lt;xref:System.Transactions.TransactionManager&gt; has durably decided to commit or abort the transaction.</source>
+          <target state="translated">第一阶段结束后所有的资源管理器并在事务中的登记具有投票事务结果和&lt;xref:System.Transactions.TransactionManager&gt;持久决定提交或中止事务。&lt;/xref:System.Transactions.TransactionManager&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The second phase of processing is always asynchronous.</source>
+          <target state="translated">处理的第二阶段始终是异步的。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Therefore, there is no guarantee that data just committed from within a given transaction will be immediately available afterwards when not using another transaction to view this data.</source>
+          <target state="translated">因此，没有能保证数据在给定的事务中提交从将立即可用之后时使用另一个事务来查看此数据。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Because this method blocks until the first phase of transaction processing is complete, you should be extremely careful when using this method in a Windows Form (WinForm) application, or a deadlock can occur.</source>
+          <target state="translated">因为此方法阻止事务处理的第一阶段完成之前，应格外小心使用此方法在 Windows 窗体 (WinForm) 应用程序或死锁时可能会发生。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you call this method inside one WinForm Control event (for example, clicking a button), and use the synchronous &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; method to direct the control to perform some UI tasks (for example, changing colors) in the middle of processing the transaction, a deadlock will happen.</source>
+          <target state="translated">如果调用中一个 WinForm 控件事件 （例如，单击的按钮），此方法，并且使用同步&lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;方法来指示要执行中间处理将发生死锁的事务，一些 UI 任务 （例如，不断变化的颜色） 的控件。&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This is because the &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; method is synchronous and blocks the worker thread until the UI thread finishes its job.</source>
+          <target state="translated">这是因为&lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;方法是同步方法，并阻止工作线程，直到用户界面线程完成其作业。&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>However, in our scenario, the UI thread is also waiting for the worker thread to commit the transaction.</source>
+          <target state="translated">但是，在我们的方案，UI 线程正在还等待工作线程以提交事务。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The result is that none is able to proceed and the scope waits indefinitely for the Commit to finish.</source>
+          <target state="translated">结果是，所有线程都无法继续并且作用域将无限期等待完成的提交。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You should use &lt;xref:System.Windows.Forms.Control.BeginInvoke%2A&gt; rather than &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; wherever possible, because it is asynchronous and thus less prone to deadlock.</source>
+          <target state="translated">应使用&lt;xref:System.Windows.Forms.Control.BeginInvoke%2A&gt;而非&lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;只要有可能，因为它是异步的因此不太容易发生死锁。&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt; &lt;/xref:System.Windows.Forms.Control.BeginInvoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Commit is called on a transaction and the transaction becomes <bpt id="p1">&lt;xref href="System.Transactions.TransactionStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">在事务上调用了提交和该事务才成为<bpt id="p1">&lt;xref href="System.Transactions.TransactionStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Commit is called and the transaction rolls back for the first time.</source>
+          <target state="translated">提交称为，事务能够回滚第一次。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Ends an attempt to commit the transaction asynchronously.</source>
+          <target state="translated">结束异步提交事务的尝试。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You should call this method in the callback delegate specified as a parameter to the &lt;xref:System.Transactions.CommittableTransaction.BeginCommit%2A&gt; method, when you have finished any cleanup work associated with the asynchronous commitment.</source>
+          <target state="translated">在作为参数传递给指定的回调委托，应调用此方法&lt;xref:System.Transactions.CommittableTransaction.BeginCommit%2A&gt;方法，在完成后与异步提交关联的任何清理工作。&lt;/xref:System.Transactions.CommittableTransaction.BeginCommit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can also call this method early without waiting for the delegate.</source>
+          <target state="translated">你可以提前调用此方法，而无需等待委托。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If, by the time you call this method, the transaction has not completed, this method waits for its completion.</source>
+          <target state="translated">如果调用此方法时，事务未完成，此方法将等待它完成。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  The &lt;xref:System.IAsyncResult.CompletedSynchronously%2A&gt; property returned by <ph id="ph2">`asyncResult`</ph> is always <ph id="ph3">`false`</ph>, even if the operation completed synchronously.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!CAUTION]</ph>&amp;1;&gt;&lt;xref:System.IAsyncResult.CompletedSynchronously%2A&gt;属性返回<ph id="ph2">`asyncResult`</ph>始终<ph id="ph3">`false`</ph>，即使该操作同步完成。&lt;/xref:System.IAsyncResult.CompletedSynchronously%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt; and EndCommit block until the first phase of transaction processing is complete.</source>
+          <target state="translated">&lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt;和 EndCommit 阻止，直到事务处理的第一阶段已完成。&lt;/xref:System.Transactions.CommittableTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The first phase ends after all resource managers and enlistments in the transaction have voted on the transaction outcome and the &lt;xref:System.Transactions.TransactionManager&gt; has durably decided to commit or abort the transaction.</source>
+          <target state="translated">第一阶段结束后所有的资源管理器并在事务中的登记具有投票事务结果和&lt;xref:System.Transactions.TransactionManager&gt;持久决定提交或中止事务。&lt;/xref:System.Transactions.TransactionManager&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The second phase of processing is always asynchronous.</source>
+          <target state="translated">处理的第二阶段始终是异步的。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Therefore, there is no guarantee that data just committed from within a given transaction will be immediately available afterwards when not using another transaction to view this data.</source>
+          <target state="translated">因此，没有能保证数据在给定的事务中提交从将立即可用之后时使用另一个事务来查看此数据。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; object associated with the asynchronous commitment.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;对象与异步提交关联。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt; is called and the transaction rolls back for the first time.</source>
+          <target state="translated">&lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;调用和事务回滚第一次。&lt;/xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets the object provided as the last parameter of the &lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt; method call.</source>
+          <target state="translated">获取作为最后一个参数提供的对象&lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;方法调用。&lt;/xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The object provided as the last parameter of the &lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt; method call.</source>
+          <target state="translated">作为最后一个参数提供的对象&lt;xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;方法调用。&lt;/xref:System.Transactions.CommittableTransaction.BeginCommit*&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets a &lt;xref:System.Threading.WaitHandle&gt; that is used to wait for an asynchronous operation to complete.</source>
+          <target state="translated">获取&lt;xref:System.Threading.WaitHandle&gt;用于等待异步操作以完成。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Threading.WaitHandle&gt; that is used to wait for an asynchronous operation to complete.</source>
+          <target state="translated">A&lt;xref:System.Threading.WaitHandle&gt;用于等待异步操作以完成。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets an indication of whether the asynchronous commit operation completed synchronously.</source>
+          <target state="translated">获取一个指示是否已同步完成异步提交操作。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the asynchronous commit operation completed synchronously; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果同步进行; 完成异步提交操作否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This property always returns <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> even if the operation completed synchronously.</source>
+          <target state="translated">此属性始终返回<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>即使操作同步完成。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets an indication whether the asynchronous commit operation has completed.</source>
+          <target state="translated">获取异步提交操作已完成的指示。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the operation is complete; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果该操作已完成;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

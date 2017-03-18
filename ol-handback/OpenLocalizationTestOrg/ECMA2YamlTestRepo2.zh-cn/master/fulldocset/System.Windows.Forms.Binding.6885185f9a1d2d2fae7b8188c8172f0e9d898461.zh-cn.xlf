@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf5b1574071e9970cc5b4f325e15661c73a8215d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.Binding.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">30de0403da32993af9e3641731a91568c7af5d17</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af9f81e34a91a68e49869fad14e382fe5b1ebd84</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the simple binding between the property value of an object and the property value of a control.</source>
+          <target state="translated">表示对象的属性值和控件的属性值之间的简单绑定。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the Binding class to create and maintain a simple binding between the property of a control and either the property of an object, or the property of the current object in a list of objects.</source>
+          <target state="translated">Binding 类用于创建和维护控件的属性和对象的属性或对象的列表中的当前对象的属性之间的简单绑定。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>As an example of the first case, you can bind the &lt;xref:System.Windows.Forms.Control.Text%2A&gt; property of a &lt;xref:System.Windows.Forms.TextBox&gt; control to the <ph id="ph1">`FirstName`</ph> property of a <ph id="ph2">`Customer`</ph> object.</source>
+          <target state="translated">作为第一种情况的示例，你可以将绑定&lt;xref:System.Windows.Forms.Control.Text%2A&gt;属性&lt;xref:System.Windows.Forms.TextBox&gt;控制转移到<ph id="ph1">`FirstName`</ph>属性<ph id="ph2">`Customer`</ph>对象。&lt;/xref:System.Windows.Forms.TextBox&gt; &lt;/xref:System.Windows.Forms.Control.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As an example of the second case, you can bind the &lt;xref:System.Windows.Forms.Control.Text%2A&gt; property of a &lt;xref:System.Windows.Forms.TextBox&gt; control to the <ph id="ph1">`FirstName`</ph> property of a &lt;xref:System.Data.DataTable&gt; that contains customers.</source>
+          <target state="translated">作为第二个用例的示例，你可以将绑定&lt;xref:System.Windows.Forms.Control.Text%2A&gt;属性&lt;xref:System.Windows.Forms.TextBox&gt;控制转移到<ph id="ph1">`FirstName`</ph>属性&lt;xref:System.Data.DataTable&gt;，其中包含客户。&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Windows.Forms.TextBox&gt; &lt;/xref:System.Windows.Forms.Control.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Binding class also enables you to format values for display through the &lt;xref:System.Windows.Forms.Binding.Format&gt; event and to retrieve formatted values through the &lt;xref:System.Windows.Forms.Binding.Parse&gt; event.</source>
+          <target state="translated">Binding 类还使你可以通过显示的值设置格式&lt;xref:System.Windows.Forms.Binding.Format&gt;事件和检索通过格式化的值&lt;xref:System.Windows.Forms.Binding.Parse&gt;事件。&lt;/xref:System.Windows.Forms.Binding.Parse&gt; &lt;/xref:System.Windows.Forms.Binding.Format&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When constructing a Binding instance with &lt;xref:System.Windows.Forms.Binding.%23ctor%2A&gt; constructor, you must specify three items:      -   The name of the control property to bind to.</source>
+          <target state="translated">构造使用的绑定实例时&lt;xref:System.Windows.Forms.Binding.%23ctor%2A&gt;构造函数，你必须指定三个项:-要绑定到的控件属性的名称。&lt;/xref:System.Windows.Forms.Binding.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   The data source.</source>
+          <target state="translated">-数据源。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   The navigation path that resolves to a list or property in the data source.</source>
+          <target state="translated">的解析为列表或数据源中的属性导航路径。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The navigation path is also used to create the object's &lt;xref:System.Windows.Forms.Binding.BindingMemberInfo%2A&gt; property.</source>
+          <target state="translated">导航路径还用于创建对象的&lt;xref:System.Windows.Forms.Binding.BindingMemberInfo%2A&gt;属性。&lt;/xref:System.Windows.Forms.Binding.BindingMemberInfo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>First, you must specify name of the control property you want to bind the data to.</source>
+          <target state="translated">首先，你必须指定你想要绑定到数据的控件属性的名称。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, to display data in a &lt;xref:System.Windows.Forms.TextBox&gt; control, specify the &lt;xref:System.Windows.Forms.TextBoxBase.Text%2A&gt; property.</source>
+          <target state="translated">例如，若要显示中的数据&lt;xref:System.Windows.Forms.TextBox&gt;控制，指定&lt;xref:System.Windows.Forms.TextBoxBase.Text%2A&gt;属性。&lt;/xref:System.Windows.Forms.TextBoxBase.Text%2A&gt; &lt;/xref:System.Windows.Forms.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Second, you can specify an instance of any one of the classes in the following table as the data source.</source>
+          <target state="translated">其次，你可以作为数据源下, 表中指定任何一种类的实例。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Third, you must specify the navigation path, which can be an empty string (""), a single property name, or a period-delimited hierarchy of names.</source>
+          <target state="translated">第三，你必须指定导航路径中，可以是空字符串 ("")，单个属性名称或句点分隔层次结构的名称。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you set the navigation path to an empty string, the &lt;xref:System.Object.ToString%2A&gt; method will be called on the underlying data source object.</source>
+          <target state="translated">如果你设置的导航路径为空字符串，&lt;xref:System.Object.ToString%2A&gt;将在基础数据源对象上调用方法。&lt;/xref:System.Object.ToString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If the data source is a &lt;xref:System.Data.DataTable&gt;, which can contain multiple &lt;xref:System.Data.DataColumn&gt; objects, the navigation path must be used to resolve to a specific column.</source>
+          <target state="translated">如果数据源是&lt;xref:System.Data.DataTable&gt;，其中可以包含多个&lt;xref:System.Data.DataColumn&gt;对象的导航路径必须用于将解析为特定列。&lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When the data source is a &lt;xref:System.Data.DataSet&gt;, &lt;xref:System.Data.DataViewManager&gt;, or &lt;xref:System.Data.DataTable&gt;, you are actually binding to a &lt;xref:System.Data.DataView&gt;.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 数据源时&lt;xref:System.Data.DataSet&gt;， &lt;xref:System.Data.DataViewManager&gt;，或&lt;xref:System.Data.DataTable&gt;将实际绑定到一种&lt;xref:System.Data.DataView&gt;。&lt;/xref:System.Data.DataView&gt; 、&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataViewManager&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Consequently, the bound rows are actually &lt;xref:System.Data.DataRowView&gt; objects.</source>
+          <target state="translated">因此，绑定的行是实际&lt;xref:System.Data.DataRowView&gt;对象。&lt;/xref:System.Data.DataRowView&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A period-delimited navigation path is required when the data source is set to an object that contains multiple &lt;xref:System.Data.DataTable&gt; objects (such as a &lt;xref:System.Data.DataSet&gt; or &lt;xref:System.Data.DataViewManager&gt;).</source>
+          <target state="translated">数据源设置为包含多个对象时需要句点分隔的导航路径&lt;xref:System.Data.DataTable&gt;对象 (如&lt;xref:System.Data.DataSet&gt;或&lt;xref:System.Data.DataViewManager&gt;)。&lt;/xref:System.Data.DataViewManager&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can also use a period-delimited navigation path when you bind to an object whose properties return references to other objects (such as a class with properties that return other class objects).</source>
+          <target state="translated">绑定到其属性将返回对其他对象 （如具有返回其他类对象的属性的类） 的引用的对象时，还可以使用句点分隔的导航路径。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, the following navigation paths all describe valid data fields:      -   "Size.Height"      -   "Suppliers.CompanyName"      -   "Regions.regionsToCustomers.CustomerFirstName"      -   "Regions.regionsToCustomers.customersToOrders.ordersToDetails.Quantity"       Each member of the path can return either a property that resolves to a single value (such as an integer), or a list of values (such as an array of strings).</source>
+          <target state="translated">例如，以下所有的导航路径描述有效的数据字段:-"Size.Height"-"Suppliers.CompanyName"-"Regions.regionsToCustomers.CustomerFirstName"-"Regions.regionsToCustomers.customersToOrders.ordersToDetails.Quantity"路径的每个成员可以返回一个属性，可解析为单个值 （如整数），或者值 （如字符串的数组） 的列表。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Although each member in the path can be a list or property, the final member must resolve to a property.</source>
+          <target state="translated">尽管列表或属性，则可能是在路径中的每个成员，最终成员必须解析为一个属性。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Each member builds on the previous member: "Size.Height" resolves to the &lt;xref:System.Drawing.Size.Height%2A&gt; property for the current &lt;xref:System.Drawing.Size&gt;; "Regions.regionsToCustomers.CustomerFirstName" resolves to the first name for the current customer, where the customer is one of the customers for the current region.</source>
+          <target state="translated">每个成员上的上一个成员生成:"Size.Height"解析为当前&lt;xref:System.Drawing.Size&gt;;&lt;xref:System.Drawing.Size.Height%2A&gt;属性"Regions.regionsToCustomers.CustomerFirstName"解析为第一个名称对于当前的客户，其中客户是一个客户的当前区域。 &lt;/xref:System.Drawing.Size.Height%2A&gt;&lt;/xref:System.Drawing.Size&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Data.DataRelation&gt; returns a list of values by linking one &lt;xref:System.Data.DataTable&gt; to a second &lt;xref:System.Data.DataTable&gt; in a &lt;xref:System.Data.DataSet&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.DataRelation&gt;返回通过将链接一个&lt;xref:System.Data.DataTable&gt;到第二个&lt;xref:System.Data.DataTable&gt;&lt;xref:System.Data.DataSet&gt;.&lt;/xref:System.Data.DataSet&gt;中&lt;/xref:System.Data.DataTable&gt;&lt;/xref:System.Data.DataTable&gt;的值的列表&lt;/xref:System.Data.DataRelation&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Data.DataSet&gt; contains &lt;xref:System.Data.DataRelation&gt; objects, you can specify the data member as a &lt;xref:System.Data.DataTable.TableName%2A&gt; followed by a &lt;xref:System.Data.DataRelation.RelationName%2A&gt;, and then a &lt;xref:System.Data.DataColumn.ColumnName%2A&gt;.</source>
+          <target state="translated">如果&lt;xref:System.Data.DataSet&gt;包含&lt;xref:System.Data.DataRelation&gt;对象，你可以指定将数据成员&lt;xref:System.Data.DataTable.TableName%2A&gt;跟&lt;xref:System.Data.DataRelation.RelationName%2A&gt;，然后&lt;xref:System.Data.DataColumn.ColumnName%2A&gt;。&lt;/xref:System.Data.DataColumn.ColumnName%2A&gt; &lt;/xref:System.Data.DataRelation.RelationName%2A&gt; &lt;/xref:System.Data.DataTable.TableName%2A&gt; &lt;/xref:System.Data.DataRelation&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, if the &lt;xref:System.Data.DataTable&gt; named "Suppliers" contains a &lt;xref:System.Data.DataRelation&gt; named "suppliers2products", the data member could be "Suppliers.suppliers2products.ProductName".</source>
+          <target state="translated">例如，如果&lt;xref:System.Data.DataTable&gt;名为"供应商"包含&lt;xref:System.Data.DataRelation&gt;名为"suppliers2products"，数据成员可能是"Suppliers.suppliers2products.ProductName"。&lt;/xref:System.Data.DataRelation&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The data source can consist of a set of related classes.</source>
+          <target state="translated">数据源可由一组相关的类组成。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, imagine a set of classes that catalogs solar systems.</source>
+          <target state="translated">例如，假设太阳系进行编录的一组类。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The class named <ph id="ph1">`System`</ph> contains a property named <ph id="ph2">`Stars`</ph> that returns a collection of <ph id="ph3">`Star`</ph> objects.</source>
+          <target state="translated">名为的类<ph id="ph1">`System`</ph>包含名为的属性<ph id="ph2">`Stars`</ph>返回的集合<ph id="ph3">`Star`</ph>对象。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Each <ph id="ph1">`Star`</ph> object has <ph id="ph2">`Name`</ph> and <ph id="ph3">`Mass`</ph> properties, as well as a <ph id="ph4">`Planets`</ph> property that returns a collection of <ph id="ph5">`Planet`</ph> objects.</source>
+          <target state="translated">每个<ph id="ph1">`Star`</ph>对象具有<ph id="ph2">`Name`</ph>和<ph id="ph3">`Mass`</ph>属性，以及一个<ph id="ph4">`Planets`</ph>返回的集合的属性<ph id="ph5">`Planet`</ph>对象。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In this system, each planet also has <ph id="ph1">`Mass`</ph> and <ph id="ph2">`Name`</ph> properties.</source>
+          <target state="translated">在此系统中，每个行星还具有<ph id="ph1">`Mass`</ph>和<ph id="ph2">`Name`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Each <ph id="ph1">`Planet`</ph> object further has a <ph id="ph2">`Moons`</ph> property that returns a collection of <ph id="ph3">`Moon`</ph> objects, each of which also has <ph id="ph4">`Name`</ph> and <ph id="ph5">`Mass`</ph> properties.</source>
+          <target state="translated">每个<ph id="ph1">`Planet`</ph>进一步对象具有<ph id="ph2">`Moons`</ph>返回的集合的属性<ph id="ph3">`Moon`</ph>对象，其中每个还有<ph id="ph4">`Name`</ph>和<ph id="ph5">`Mass`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you specify a <ph id="ph1">`System`</ph> object as the data source, you can specify any of the following as the data member:      -   "Stars.Name"      -   "Stars.Mass"      -   "Stars.Planets.Name"      -   "Stars.Planets.Mass"      -   "Stars.Planets.Moons.Name"      -   "Stars.Planets.Moons.Mass"       Controls that can be simple-bound feature a collection of Binding objects in a &lt;xref:System.Windows.Forms.ControlBindingsCollection&gt;, which you can access through the control's &lt;xref:System.Windows.Forms.Control.DataBindings%2A&gt; property.</source>
+          <target state="translated">如果指定<ph id="ph1">`System`</ph>对象作为数据源，则可以将任意以下指定为数据成员:-"Stars.Name"-"Stars.Mass"-"Stars.Planets.Name"-"Stars.Planets.Mass"-"Stars.Planets.Moons.Name"-"Stars.Planets.Moons.Mass"可以是简单绑定的控件功能的绑定中的对象的集合&lt;xref:System.Windows.Forms.ControlBindingsCollection&gt;，这可以通过控件的访问&lt;xref:System.Windows.Forms.Control.DataBindings%2A&gt;属性。&lt;/xref:System.Windows.Forms.Control.DataBindings%2A&gt; &lt;/xref:System.Windows.Forms.ControlBindingsCollection&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You add a Binding to the collection by calling the &lt;xref:System.Windows.Forms.ControlBindingsCollection.Add%2A&gt; method, thereby binding a property of the control to a property of an object (or to a property of the current object in a list).</source>
+          <target state="translated">通过调用的绑定添加到集合&lt;xref:System.Windows.Forms.ControlBindingsCollection.Add%2A&gt;方法，从而对对象的属性 （或列表中的当前对象的属性） 绑定控件的属性。&lt;/xref:System.Windows.Forms.ControlBindingsCollection.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can simple-bind to any object that derives from the &lt;xref:System.Windows.Forms.Control?displayProperty=fullName&gt; class, for example, the following Windows controls:      -   &lt;xref:System.Windows.Forms.Button&gt;      -   &lt;xref:System.Windows.Forms.CheckBox&gt;      -   &lt;xref:System.Windows.Forms.CheckedListBox&gt;      -   &lt;xref:System.Windows.Forms.ComboBox&gt;      -   &lt;xref:System.Windows.Forms.DateTimePicker&gt;      -   &lt;xref:System.Windows.Forms.DomainUpDown&gt;      -   &lt;xref:System.Windows.Forms.GroupBox&gt;      -   &lt;xref:System.Windows.Forms.HScrollBar&gt;      -   &lt;xref:System.Windows.Forms.Label&gt;      -   &lt;xref:System.Windows.Forms.LinkLabel&gt;      -   &lt;xref:System.Windows.Forms.ListBox&gt;      -   &lt;xref:System.Windows.Forms.ListView&gt;      -   &lt;xref:System.Windows.Forms.MonthCalendar&gt;      -   &lt;xref:System.Windows.Forms.NumericUpDown&gt;      -   &lt;xref:System.Windows.Forms.PictureBox&gt;      -   &lt;xref:System.Windows.Forms.ProgressBar&gt;      -   &lt;xref:System.Windows.Forms.RadioButton&gt;      -   &lt;xref:System.Windows.Forms.RichTextBox&gt;      -   &lt;xref:System.Windows.Forms.ScrollBar&gt;      -   &lt;xref:System.Windows.Forms.StatusBar&gt;      -   &lt;xref:System.Windows.Forms.TextBox&gt;      -   &lt;xref:System.Windows.Forms.TreeView&gt;      -   &lt;xref:System.Windows.Forms.VScrollBar&gt;      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  Only the &lt;xref:System.Windows.Forms.ListControl.SelectedValue%2A&gt; property of the &lt;xref:System.Windows.Forms.ComboBox&gt;, &lt;xref:System.Windows.Forms.CheckedListBox&gt;, and &lt;xref:System.Windows.Forms.ListBox&gt; control is simple bound.</source>
+          <target state="translated">You can simple-bind to any object that derives from the &lt;xref:System.Windows.Forms.Control?displayProperty=fullName&gt; class, for example, the following Windows controls:      -   &lt;xref:System.Windows.Forms.Button&gt;      -   &lt;xref:System.Windows.Forms.CheckBox&gt;      -   &lt;xref:System.Windows.Forms.CheckedListBox&gt;      -   &lt;xref:System.Windows.Forms.ComboBox&gt;      -   &lt;xref:System.Windows.Forms.DateTimePicker&gt;      -   &lt;xref:System.Windows.Forms.DomainUpDown&gt;      -   &lt;xref:System.Windows.Forms.GroupBox&gt;      -   &lt;xref:System.Windows.Forms.HScrollBar&gt;      -   &lt;xref:System.Windows.Forms.Label&gt;      -   &lt;xref:System.Windows.Forms.LinkLabel&gt;      -   &lt;xref:System.Windows.Forms.ListBox&gt;      -   &lt;xref:System.Windows.Forms.ListView&gt;      -   &lt;xref:System.Windows.Forms.MonthCalendar&gt;      -   &lt;xref:System.Windows.Forms.NumericUpDown&gt;      -   &lt;xref:System.Windows.Forms.PictureBox&gt;      -   &lt;xref:System.Windows.Forms.ProgressBar&gt;      -   &lt;xref:System.Windows.Forms.RadioButton&gt;      -   &lt;xref:System.Windows.Forms.RichTextBox&gt;      -   &lt;xref:System.Windows.Forms.ScrollBar&gt;      -   &lt;xref:System.Windows.Forms.StatusBar&gt;      -   &lt;xref:System.Windows.Forms.TextBox&gt;      -   &lt;xref:System.Windows.Forms.TreeView&gt;      -   &lt;xref:System.Windows.Forms.VScrollBar&gt;      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  Only the &lt;xref:System.Windows.Forms.ListControl.SelectedValue%2A&gt; property of the &lt;xref:System.Windows.Forms.ComboBox&gt;, &lt;xref:System.Windows.Forms.CheckedListBox&gt;, and &lt;xref:System.Windows.Forms.ListBox&gt; control is simple bound.&lt;/xref:System.Windows.Forms.ListBox&gt;&lt;/xref:System.Windows.Forms.CheckedListBox&gt;&lt;/xref:System.Windows.Forms.ComboBox&gt;&lt;/xref:System.Windows.Forms.ListControl.SelectedValue%2A&gt;&lt;/xref:System.Windows.Forms.VScrollBar&gt;&lt;/xref:System.Windows.Forms.TreeView&gt;&lt;/xref:System.Windows.Forms.TextBox&gt;&lt;/xref:System.Windows.Forms.StatusBar&gt;&lt;/xref:System.Windows.Forms.ScrollBar&gt;&lt;/xref:System.Windows.Forms.RichTextBox&gt;&lt;/xref:System.Windows.Forms.RadioButton&gt;&lt;/xref:System.Windows.Forms.ProgressBar&gt;&lt;/xref:System.Windows.Forms.PictureBox&gt;&lt;/xref:System.Windows.Forms.NumericUpDown&gt;&lt;/xref:System.Windows.Forms.MonthCalendar&gt;&lt;/xref:System.Windows.Forms.ListView&gt;&lt;/xref:System.Windows.Forms.ListBox&gt;&lt;/xref:System.Windows.Forms.LinkLabel&gt;&lt;/xref:System.Windows.Forms.Label&gt;&lt;/xref:System.Windows.Forms.HScrollBar&gt;&lt;/xref:System.Windows.Forms.GroupBox&gt;&lt;/xref:System.Windows.Forms.DomainUpDown&gt;&lt;/xref:System.Windows.Forms.DateTimePicker&gt;&lt;/xref:System.Windows.Forms.ComboBox&gt;&lt;/xref:System.Windows.Forms.CheckedListBox&gt;&lt;/xref:System.Windows.Forms.CheckBox&gt;&lt;/xref:System.Windows.Forms.Button&gt;&lt;/xref:System.Windows.Forms.Control?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.BindingManagerBase&gt; class is an abstract class that manages all the Binding objects for a particular data source and data member.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.BindingManagerBase&gt;类是一个抽象类，用于管理特定数据源和数据成员的所有绑定对象。&lt;/xref:System.Windows.Forms.BindingManagerBase&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Classes that derive from &lt;xref:System.Windows.Forms.BindingManagerBase&gt; are the &lt;xref:System.Windows.Forms.CurrencyManager&gt; and the &lt;xref:System.Windows.Forms.PropertyManager&gt; classes.</source>
+          <target state="translated">派生自的类&lt;xref:System.Windows.Forms.BindingManagerBase&gt;是&lt;xref:System.Windows.Forms.CurrencyManager&gt;和&lt;xref:System.Windows.Forms.PropertyManager&gt;类。&lt;/xref:System.Windows.Forms.PropertyManager&gt; &lt;/xref:System.Windows.Forms.CurrencyManager&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>How a Binding is managed depends on whether the Binding is a list binding or a property binding.</source>
+          <target state="translated">如何管理绑定的方法取决于绑定是否列表绑定或属性的绑定。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, if it is a list binding, you can use the &lt;xref:System.Windows.Forms.BindingManagerBase&gt; to specify a &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; in the list; the &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;, therefore, determines which item (out of all items in the list) is actually bound to a control.</source>
+          <target state="translated">例如，如果它是一个列表绑定，你可以使用&lt;xref:System.Windows.Forms.BindingManagerBase&gt;指定&lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;在列表中; &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;，因此，确定哪一项 （不在列表中的所有项） 实际绑定到控件。&lt;/xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To return the appropriate &lt;xref:System.Windows.Forms.BindingManagerBase&gt;, use the &lt;xref:System.Windows.Forms.BindingContext&gt;.</source>
+          <target state="translated">返回适当的&lt;xref:System.Windows.Forms.BindingManagerBase&gt;请使用&lt;xref:System.Windows.Forms.BindingContext&gt;。&lt;/xref:System.Windows.Forms.BindingContext&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To add a new row to a set of controls bound to the same &lt;xref:System.Windows.Forms.Binding.DataSource%2A&gt;, use the &lt;xref:System.Windows.Forms.BindingManagerBase.AddNew%2A&gt; method of the &lt;xref:System.Windows.Forms.BindingManagerBase&gt; class.</source>
+          <target state="translated">若要将新行添加到一组控件绑定到相同的&lt;xref:System.Windows.Forms.Binding.DataSource%2A&gt;请使用&lt;xref:System.Windows.Forms.BindingManagerBase.AddNew%2A&gt;方法的&lt;xref:System.Windows.Forms.BindingManagerBase&gt;类。&lt;/xref:System.Windows.Forms.BindingManagerBase&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.AddNew%2A&gt; &lt;/xref:System.Windows.Forms.Binding.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.BindingContext.Item%2A&gt; property of the &lt;xref:System.Windows.Forms.BindingContext&gt; class to return the appropriate &lt;xref:System.Windows.Forms.CurrencyManager&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.BindingContext.Item%2A&gt;&lt;xref:System.Windows.Forms.BindingContext&gt;类返回的相应&lt;xref:System.Windows.Forms.CurrencyManager&gt;。&lt;/xref:System.Windows.Forms.CurrencyManager&gt;&lt;/xref:System.Windows.Forms.BindingContext&gt;属性&lt;/xref:System.Windows.Forms.BindingContext.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To escape the addition of the new row, use the &lt;xref:System.Windows.Forms.CurrencyManager.CancelCurrentEdit%2A&gt; method.</source>
+          <target state="translated">若要避免添加新行，使用&lt;xref:System.Windows.Forms.CurrencyManager.CancelCurrentEdit%2A&gt;方法。&lt;/xref:System.Windows.Forms.CurrencyManager.CancelCurrentEdit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that simple-binds the indicated control property to the specified data member of the data source.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到的指定的数据成员的数据源的简单绑定指示的控件属性的类。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can specify an instance of any of the following classes for the data source:      -   &lt;xref:System.Data.DataSet&gt;      -   &lt;xref:System.Data.DataTable&gt;      -   &lt;xref:System.Data.DataView&gt;      -   &lt;xref:System.Data.DataViewManager&gt;      -   &lt;xref:System.Windows.Forms.BindingSource&gt;      -   Any class that implements the &lt;xref:System.Collections.IList&gt; interface      -   Any class       See the &lt;xref:System.Windows.Forms.Binding&gt; class for more information about creating the <ph id="ph1">`dataMember`</ph> string.</source>
+          <target state="translated">你可以指定任何用于数据源的以下类的实例:- &lt;xref:System.Data.DataSet&gt;- &lt;xref:System.Data.DataTable&gt;- &lt;xref:System.Data.DataView&gt;- &lt;xref:System.Data.DataViewManager&gt;-&lt;xref:System.Windows.Forms.BindingSource&gt;的任何类来实现&lt;xref:System.Collections.IList&gt;接口的任何类，请参阅&lt;xref:System.Windows.Forms.Binding&gt;有关创建的详细信息的类<ph id="ph1">`dataMember`</ph>字符串。&lt;/xref:System.Windows.Forms.Binding&gt; &lt;/xref:System.Collections.IList&gt; &lt;/xref:System.Windows.Forms.BindingSource&gt; &lt;/xref:System.Data.DataViewManager&gt; &lt;/xref:System.Data.DataView&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When you create a binding to a control's property, the new &lt;xref:System.Windows.Forms.Binding&gt; inspects the events exposed by the bound control and attaches to two particular events:      -   &lt;xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt;      -   An event named <bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept><ph id="ph1">`Changed`</ph> (for example, &lt;xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt;)       If you attempt to bind to a property that does not exist, an &lt;xref:System.ArgumentException&gt; will be thrown when the &lt;xref:System.Windows.Forms.Binding&gt; is added to the control's &lt;xref:System.Windows.Forms.Control.DataBindings%2A?displayProperty=fullName&gt; collection.</source>
+          <target state="translated">当创建绑定到控件的属性，新&lt;xref:System.Windows.Forms.Binding&gt;检查公开的绑定的控件事件并将附加到两个特定事件:- &lt;xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt;-一个名为的事件<bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept> <ph id="ph1">`Changed`</ph> (例如， &lt;xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt;) 如果您尝试绑定到的属性。 不存在，&lt;xref:System.ArgumentException&gt;时将引发&lt;xref:System.Windows.Forms.Binding&gt;添加到控件的&lt;xref:System.Windows.Forms.Control.DataBindings%2A?displayProperty=fullName&gt;集合。&lt;/xref:System.Windows.Forms.Control.DataBindings%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Binding&gt; &lt;/xref:System.ArgumentException&gt; &lt;/xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The name of the control property to bind.</source>
+          <target state="translated">要绑定的控件属性的名称。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the data source.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示数据源。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The property or list to bind to.</source>
+          <target state="translated">属性或要绑定到列表中。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;propertyName&lt;/code&gt;</ph> is neither a valid property of a control nor an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;propertyName&lt;/code&gt;</ph>既不有效的属性的控件，也不为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The property given by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">propertyName</ph><ept id="p1">&lt;/code&gt;</ept> does not exist on the control.</source>
+          <target state="translated">给定的属性<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">propertyName</ph> <ept id="p1">&lt;/code&gt;</ept>控件上不存在。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that binds the indicated control property to the specified data member of the data source, and optionally enables formatting to be applied.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，该类将指示的控件属性绑定到指定的数据成员的数据源，并根据需要启用格式设置要应用。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The name of the control property to bind.</source>
+          <target state="translated">要绑定的控件属性的名称。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the data source.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示数据源。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The property or list to bind to.</source>
+          <target state="translated">属性或要绑定到列表中。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to format the displayed data; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要格式化显示的数据;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The property given by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">propertyName</ph><ept id="p1">&lt;/code&gt;</ept> does not exist on the control.</source>
+          <target state="translated">给定的属性<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">propertyName</ph> <ept id="p1">&lt;/code&gt;</ept>控件上不存在。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-or-       The property given is a read-only property.</source>
+          <target state="translated">-或者-给定的属性是只读的属性。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Formatting is disabled and <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">propertyName</ph><ept id="p1">&lt;/code&gt;</ept> is neither a valid property of a control nor an empty string ("").</source>
+          <target state="translated">禁用格式设置和<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">propertyName</ph> <ept id="p1">&lt;/code&gt;</ept>既不有效的属性的控件，也不为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that binds the specified control property to the specified data member of the specified data source.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>将指定的控件属性绑定到指定的数据源的指定的数据成员的类。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Optionally enables formatting and propagates values to the data source based on the specified update setting.</source>
+          <target state="translated">（可选） 启用格式设置，并将值传播到数据源基于指定的更新设置。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can specify an instance of any of the following classes for the data source:      -   &lt;xref:System.Data.DataSet&gt;      -   &lt;xref:System.Data.DataTable&gt;      -   &lt;xref:System.Data.DataView&gt;      -   &lt;xref:System.Data.DataViewManager&gt;      -   &lt;xref:System.Windows.Forms.BindingSource&gt;      -   Any class that implements the &lt;xref:System.Collections.IList&gt; interface      -   Any class       See the &lt;xref:System.Windows.Forms.Binding&gt; class for more information about creating the <ph id="ph1">`dataMember`</ph> string.</source>
+          <target state="translated">你可以指定任何用于数据源的以下类的实例:- &lt;xref:System.Data.DataSet&gt;- &lt;xref:System.Data.DataTable&gt;- &lt;xref:System.Data.DataView&gt;- &lt;xref:System.Data.DataViewManager&gt;-&lt;xref:System.Windows.Forms.BindingSource&gt;的任何类来实现&lt;xref:System.Collections.IList&gt;接口的任何类，请参阅&lt;xref:System.Windows.Forms.Binding&gt;有关创建的详细信息的类<ph id="ph1">`dataMember`</ph>字符串。&lt;/xref:System.Windows.Forms.Binding&gt; &lt;/xref:System.Collections.IList&gt; &lt;/xref:System.Windows.Forms.BindingSource&gt; &lt;/xref:System.Data.DataViewManager&gt; &lt;/xref:System.Data.DataView&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>When you create a binding to a control's property, the new &lt;xref:System.Windows.Forms.Binding&gt; inspects the events exposed by the bound control and attaches to two particular events:      -   &lt;xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt;.</source>
+          <target state="translated">当创建绑定到控件的属性，新&lt;xref:System.Windows.Forms.Binding&gt;检查公开的绑定的控件事件并将附加到两个特定事件:- &lt;xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-   An event named <bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept><ph id="ph1">`Changed`</ph> (for example, &lt;xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt;)</source>
+          <target state="translated">-名为 an 事件<bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept> <ph id="ph1">`Changed`</ph> (例如， &lt;xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt;）&lt;/xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The name of the control property to bind.</source>
+          <target state="translated">要绑定的控件属性的名称。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the data source.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示数据源。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The property or list to bind to.</source>
+          <target state="translated">属性或要绑定到列表中。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to format the displayed data; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要格式化显示的数据;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataSourceUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Windows.Forms.DataSourceUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The property given by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">propertyName</ph><ept id="p1">&lt;/code&gt;</ept> does not exist on the control.</source>
+          <target state="translated">给定的属性<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">propertyName</ph> <ept id="p1">&lt;/code&gt;</ept>控件上不存在。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-or-       The data source or data member or control property specified are associated with another binding in the collection.</source>
+          <target state="translated">-或者-数据源或数据成员或控件的属性指定了与集合中的另一个绑定。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that binds the indicated control property to the specified data member of the specified data source.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>将指示的控件属性绑定到指定的数据源的指定的数据成员的类。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Optionally enables formatting, propagates values to the data source based on the specified update setting, and sets the property to the specified value when a <bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is returned from the data source.</source>
+          <target state="translated">（可选） 启用格式设置、 将值传播到数据源基于指定的更新设置，并将属性设置为指定值时<bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>从数据源返回。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can specify an instance of any of the following classes for the data source:      -   &lt;xref:System.Data.DataSet&gt;      -   &lt;xref:System.Data.DataTable&gt;      -   &lt;xref:System.Data.DataView&gt;      -   &lt;xref:System.Data.DataViewManager&gt;      -   &lt;xref:System.Windows.Forms.BindingSource&gt;      -   Any class that implements the &lt;xref:System.Collections.IList&gt; interface      -   Any class       See the &lt;xref:System.Windows.Forms.Binding&gt; class for more information about creating the <ph id="ph1">`dataMember`</ph> string.</source>
+          <target state="translated">你可以指定任何用于数据源的以下类的实例:- &lt;xref:System.Data.DataSet&gt;- &lt;xref:System.Data.DataTable&gt;- &lt;xref:System.Data.DataView&gt;- &lt;xref:System.Data.DataViewManager&gt;-&lt;xref:System.Windows.Forms.BindingSource&gt;的任何类来实现&lt;xref:System.Collections.IList&gt;接口的任何类，请参阅&lt;xref:System.Windows.Forms.Binding&gt;有关创建的详细信息的类<ph id="ph1">`dataMember`</ph>字符串。&lt;/xref:System.Windows.Forms.Binding&gt; &lt;/xref:System.Collections.IList&gt; &lt;/xref:System.Windows.Forms.BindingSource&gt; &lt;/xref:System.Data.DataViewManager&gt; &lt;/xref:System.Data.DataView&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When you create a binding to a control's property, the new &lt;xref:System.Windows.Forms.Binding&gt; inspects the events exposed by the bound control and attaches to two particular events:      -   &lt;xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt;      -   An event named <bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept><ph id="ph1">`Changed`</ph> (for example, &lt;xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt;)</source>
+          <target state="translated">当创建绑定到控件的属性，新&lt;xref:System.Windows.Forms.Binding&gt;检查公开的绑定的控件事件并将附加到两个特定事件:- &lt;xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt;-一个名为的事件<bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept> <ph id="ph1">`Changed`</ph> (例如， &lt;xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt;）&lt;/xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The name of the control property to bind.</source>
+          <target state="translated">要绑定的控件属性的名称。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the data source.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示数据源。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The property or list to bind to.</source>
+          <target state="translated">属性或要绑定到列表中。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to format the displayed data; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要格式化显示的数据;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataSourceUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Windows.Forms.DataSourceUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be applied to the bound control property if the data source value is <bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;要应用于绑定的控件属性，如果数据源值是<bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The property given by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">propertyName</ph><ept id="p1">&lt;/code&gt;</ept> does not exist on the control.</source>
+          <target state="translated">给定的属性<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">propertyName</ph> <ept id="p1">&lt;/code&gt;</ept>控件上不存在。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-or-       The data source or data member or control property specified are associated with another binding in the collection.</source>
+          <target state="translated">-或者-数据源或数据成员或控件的属性指定了与集合中的另一个绑定。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that binds the specified control property to the specified data member of the specified data source.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>将指定的控件属性绑定到指定的数据源的指定的数据成员的类。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Optionally enables formatting with the specified format string; propagates values to the data source based on the specified update setting; and sets the property to the specified value when a <bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is returned from the data source.</source>
+          <target state="translated">（可选） 允许使用指定的格式字符串中; 格式设置将值传播到数据源基于指定的更新设置;将属性设置为指定值时<bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>从数据源返回。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>You can specify an instance of any of the following classes for the data source:      -   &lt;xref:System.Data.DataSet&gt;      -   &lt;xref:System.Data.DataTable&gt;      -   &lt;xref:System.Data.DataView&gt;      -   &lt;xref:System.Data.DataViewManager&gt;      -   &lt;xref:System.Windows.Forms.BindingSource&gt;      -   Any class that implements the &lt;xref:System.Collections.IList&gt; interface      -   Any class       See the &lt;xref:System.Windows.Forms.Binding&gt; class for more information about creating the <ph id="ph1">`dataMember`</ph> string.</source>
+          <target state="translated">你可以指定任何用于数据源的以下类的实例:- &lt;xref:System.Data.DataSet&gt;- &lt;xref:System.Data.DataTable&gt;- &lt;xref:System.Data.DataView&gt;- &lt;xref:System.Data.DataViewManager&gt;-&lt;xref:System.Windows.Forms.BindingSource&gt;的任何类来实现&lt;xref:System.Collections.IList&gt;接口的任何类，请参阅&lt;xref:System.Windows.Forms.Binding&gt;有关创建的详细信息的类<ph id="ph1">`dataMember`</ph>字符串。&lt;/xref:System.Windows.Forms.Binding&gt; &lt;/xref:System.Collections.IList&gt; &lt;/xref:System.Windows.Forms.BindingSource&gt; &lt;/xref:System.Data.DataViewManager&gt; &lt;/xref:System.Data.DataView&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When you create a binding to a control's property, the new &lt;xref:System.Windows.Forms.Binding&gt; inspects the events exposed by the bound control and attaches to two particular events:      -   &lt;xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt;      -   An event named <bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept><ph id="ph1">`Changed`</ph> (for example, &lt;xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt;)</source>
+          <target state="translated">当创建绑定到控件的属性，新&lt;xref:System.Windows.Forms.Binding&gt;检查公开的绑定的控件事件并将附加到两个特定事件:- &lt;xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt;-一个名为的事件<bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept> <ph id="ph1">`Changed`</ph> (例如， &lt;xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt;）&lt;/xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The name of the control property to bind.</source>
+          <target state="translated">要绑定的控件属性的名称。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the data source.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示数据源。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The property or list to bind to.</source>
+          <target state="translated">属性或要绑定到列表中。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to format the displayed data; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要格式化显示的数据;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataSourceUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Windows.Forms.DataSourceUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be applied to the bound control property if the data source value is <bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;要应用于绑定的控件属性，如果数据源值是<bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>One or more format specifier characters that indicate how a value is to be displayed.</source>
+          <target state="translated">一个或多个格式说明符，指示如何显示值。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The property given by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">propertyName</ph><ept id="p1">&lt;/code&gt;</ept> does not exist on the control.</source>
+          <target state="translated">给定的属性<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">propertyName</ph> <ept id="p1">&lt;/code&gt;</ept>控件上不存在。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-or-       The data source or data member or control property specified are associated with another binding in the collection.</source>
+          <target state="translated">-或者-数据源或数据成员或控件的属性指定了与集合中的另一个绑定。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified control property to the specified data member of the specified data source.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类到指定的数据源指定的数据成员指定的控件属性。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Optionally enables formatting with the specified format string; propagates values to the data source based on the specified update setting; enables formatting with the specified format string; sets the property to the specified value when a <bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is returned from the data source; and sets the specified format provider.</source>
+          <target state="translated">（可选） 允许使用指定的格式字符串中; 格式设置将值传播到数据源基于指定的更新设置;允许使用指定的格式字符串中; 格式设置将属性设置为指定值时<bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>从数据源; 返回和设置指定的格式提供程序。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You can specify an instance of any of the following classes for the data source:      -   &lt;xref:System.Data.DataSet&gt;      -   &lt;xref:System.Data.DataTable&gt;      -   &lt;xref:System.Data.DataView&gt;      -   &lt;xref:System.Data.DataViewManager&gt;      -   &lt;xref:System.Windows.Forms.BindingSource&gt;      -   Any class that implements the &lt;xref:System.Collections.IList&gt; interface      -   Any class       See the &lt;xref:System.Windows.Forms.Binding&gt; class for more information about creating the <ph id="ph1">`dataMember`</ph> string.</source>
+          <target state="translated">你可以指定任何用于数据源的以下类的实例:- &lt;xref:System.Data.DataSet&gt;- &lt;xref:System.Data.DataTable&gt;- &lt;xref:System.Data.DataView&gt;- &lt;xref:System.Data.DataViewManager&gt;-&lt;xref:System.Windows.Forms.BindingSource&gt;的任何类来实现&lt;xref:System.Collections.IList&gt;接口的任何类，请参阅&lt;xref:System.Windows.Forms.Binding&gt;有关创建的详细信息的类<ph id="ph1">`dataMember`</ph>字符串。&lt;/xref:System.Windows.Forms.Binding&gt; &lt;/xref:System.Collections.IList&gt; &lt;/xref:System.Windows.Forms.BindingSource&gt; &lt;/xref:System.Data.DataViewManager&gt; &lt;/xref:System.Data.DataView&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When you create a binding to a control's property, the new &lt;xref:System.Windows.Forms.Binding&gt; inspects the events exposed by the bound control and attaches to two particular events:      -   &lt;xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt;      -   An event named <bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept><ph id="ph1">`Changed`</ph> (for example, &lt;xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt;)</source>
+          <target state="translated">当创建绑定到控件的属性，新&lt;xref:System.Windows.Forms.Binding&gt;检查公开的绑定的控件事件并将附加到两个特定事件:- &lt;xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt;-一个名为的事件<bpt id="p1">*</bpt>PropertyName<ept id="p1">*</ept> <ph id="ph1">`Changed`</ph> (例如， &lt;xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt;）&lt;/xref:System.Windows.Forms.Control.BackColorChanged?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.Validating?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The name of the control property to bind.</source>
+          <target state="translated">要绑定的控件属性的名称。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the data source.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示数据源。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The property or list to bind to.</source>
+          <target state="translated">属性或要绑定到列表中。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to format the displayed data; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要格式化显示的数据;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataSourceUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Windows.Forms.DataSourceUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be applied to the bound control property if the data source value is <bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;要应用于绑定的控件属性，如果数据源值是<bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>One or more format specifier characters that indicate how a value is to be displayed.</source>
+          <target state="translated">一个或多个格式说明符，指示如何显示值。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>An implementation of &lt;xref:System.IFormatProvider&gt; to override default formatting behavior.</source>
+          <target state="translated">实现&lt;xref:System.IFormatProvider&gt;重写默认格式设置行为。&lt;/xref:System.IFormatProvider&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The property given by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">propertyName</ph><ept id="p1">&lt;/code&gt;</ept> does not exist on the control.</source>
+          <target state="translated">给定的属性<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">propertyName</ph> <ept id="p1">&lt;/code&gt;</ept>控件上不存在。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>-or-       The data source or data member or control property specified are associated with another binding in the collection.</source>
+          <target state="translated">-或者-数据源或数据成员或控件的属性指定了与集合中的另一个绑定。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets the control the <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated with.</source>
+          <target state="translated">获取控件<bpt id="p1">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与相关联。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.IBindableComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> the <bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is associated with.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.IBindableComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>与相关联。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Forms.Binding.FormattingEnabled*&gt; property is set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and a binding operation is complete, such as when data is pushed from the control to the data source or vice versa</source>
+          <target state="translated">发生时&lt;xref:System.Windows.Forms.Binding.FormattingEnabled*&gt;属性设置为<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和绑定的操作已完成，如数据从控件到数据源，反之亦然的推送时&lt;/xref:System.Windows.Forms.Binding.FormattingEnabled*&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This event is raised under any of the following conditions when &lt;xref:System.Windows.Forms.Binding.FormattingEnabled%2A&gt; is <ph id="ph1">`true`</ph>:      -   Data from the data source is pushed onto the control property.</source>
+          <target state="translated">在以下任一下将引发此事件时的条件&lt;xref:System.Windows.Forms.Binding.FormattingEnabled%2A&gt;是<ph id="ph1">`true`</ph>:-从数据源的数据将被推送到控件属性。&lt;/xref:System.Windows.Forms.Binding.FormattingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-   Data from the control property is pushed onto the data source.</source>
+          <target state="translated">的从控件属性数据推送到数据源。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This event is raised at the completion of these operations, independent of the completion status.</source>
+          <target state="translated">在完成这些操作，独立的完成状态的情况下，将引发此事件。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For example, if a binding operation binds a null value to a &lt;xref:System.Windows.Forms.DateTimePicker.Value%2A&gt; property, an exception is thrown, but the BindingComplete event still occurs.</source>
+          <target state="translated">例如，如果绑定操作将绑定到一个 null 值&lt;xref:System.Windows.Forms.DateTimePicker.Value%2A&gt;属性，将引发异常，但仍发生 BindingComplete 事件。&lt;/xref:System.Windows.Forms.DateTimePicker.Value%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The handler of this event can take the appropriate action, based on the success, error, or exceptions in the binding process, by examining the &lt;xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt; property of the &lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt; parameter.</source>
+          <target state="translated">此事件的处理程序可以采取相应的措施，基于成功、 错误或异常在绑定过程中，通过检查&lt;xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt;属性&lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt;参数。&lt;/xref:System.Windows.Forms.BindingCompleteEventArgs&gt; &lt;/xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Handling and Raising Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关处理事件的详细信息，请参阅<bpt id="p1">[</bpt>处理和引发事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gets the <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.BindingManagerBase&gt; to iterate through a data-bound list by incrementing or decrementing the &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; property.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.BindingManagerBase&gt;通过递增或递减循环访问数据绑定列表&lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;属性。&lt;/xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.BindingManagerBase&gt; class is abstract.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.BindingManagerBase&gt;类为抽象类。&lt;/xref:System.Windows.Forms.BindingManagerBase&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.CurrencyManager&gt; class, which manages data-bound lists, inherits from the &lt;xref:System.Windows.Forms.BindingManagerBase&gt; class.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.CurrencyManager&gt;类，用于管理数据绑定列出，继承&lt;xref:System.Windows.Forms.BindingManagerBase&gt;类。&lt;/xref:System.Windows.Forms.BindingManagerBase&gt; &lt;/xref:System.Windows.Forms.CurrencyManager&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that manages this <bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.BindingManagerBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，管理此<bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Gets an object that contains information about this binding based on the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">dataMember</ph><ept id="p1">&lt;/code&gt;</ept> parameter in the <ph id="ph2">&amp;lt;</ph>xref:System.Windows.Forms.Binding.%23ctor%2A<ph id="ph3">&amp;gt;</ph> constructor.</source>
+          <target state="translated">获取一个对象，包含有关基于此绑定的信息<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">dataMember</ph> <ept id="p1">&lt;/code&gt;</ept>中的参数<ph id="ph2">&amp;lt;</ph>xref:System.Windows.Forms.Binding.%23ctor%2A<ph id="ph3">&amp;gt;</ph>构造函数。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.BindingMemberInfo&gt; is created from the <ph id="ph1">`dataMember`</ph> string passed to the &lt;xref:System.Windows.Forms.Binding.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.BindingMemberInfo&gt;从创建<ph id="ph1">`dataMember`</ph>字符串传递给&lt;xref:System.Windows.Forms.Binding.%23ctor%2A&gt;构造函数。&lt;/xref:System.Windows.Forms.Binding.%23ctor%2A&gt; &lt;/xref:System.Windows.Forms.BindingMemberInfo&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingMemberInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains information about this <bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingMemberInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含此类信息的<bpt id="p2">&lt;xref href="System.Windows.Forms.Binding"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Gets the control that the binding belongs to.</source>
+          <target state="translated">获取绑定所属的控件。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the binding belongs to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>绑定属于。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Gets or sets when changes to the data source are propagated to the bound control property.</source>
+          <target state="translated">获取或设置数据源的更改传播到绑定的控件属性。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ControlUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Windows.Forms.ControlUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.ControlUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref href="System.Windows.Forms.ControlUpdateMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets the data source for this binding.</source>
+          <target state="translated">获取此绑定的数据源。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Possible data sources include:      -   A &lt;xref:System.Data.DataSet&gt;      -   A &lt;xref:System.Data.DataTable&gt;      -   A &lt;xref:System.Data.DataView&gt;      -   A &lt;xref:System.Data.DataViewManager&gt;      -   Any object that implements the &lt;xref:System.Collections.IList&gt; interface      -   Any object</source>
+          <target state="translated">可能的数据源包括:- &lt;xref:System.Data.DataSet&gt;- &lt;xref:System.Data.DataTable&gt;- &lt;xref:System.Data.DataView&gt;-A &lt;xref:System.Data.DataViewManager&gt;-实现&lt;xref:System.Collections.IList&gt;接口的任何对象&lt;/xref:System.Collections.IList&gt;的任何对象&lt;/xref:System.Data.DataViewManager&gt;&lt;/xref:System.Data.DataView&gt;&lt;/xref:System.Data.DataTable&gt;&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the data source.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示数据源。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value to be stored in the data source if the control value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or empty.</source>
+          <target state="translated">获取或设置的值存储在数据源中，如果控件值为<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或为空。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Windows.Forms.Binding.NullValue%2A&gt; property to specify the value displayed in a bound control when the data source contains &lt;xref:System.DBNull&gt;.</source>
+          <target state="translated">你可以使用&lt;xref:System.Windows.Forms.Binding.NullValue%2A&gt;属性来指定当数据源包含&lt;xref:System.DBNull&gt;.&lt;/xref:System.DBNull&gt;绑定控件中显示的值&lt;/xref:System.Windows.Forms.Binding.NullValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be stored in the data source when the control property is empty or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;存储在数据源中，当控件属性为空或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for value types and <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for non-value types.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>为值类型和<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>为非值类型。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates when changes to the bound control property are propagated to the data source.</source>
+          <target state="translated">获取或设置一个值，该值指示当将绑定的控件属性的更改传播到数据源。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Note that even if this property is set to &lt;xref:System.Windows.Forms.DataSourceUpdateMode&gt;, the binding will update at least one time, when it is first established.</source>
+          <target state="translated">请注意，即使此属性设置为&lt;xref:System.Windows.Forms.DataSourceUpdateMode&gt;，绑定将更新至少一次，第一次时建立。&lt;/xref:System.Windows.Forms.DataSourceUpdateMode&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>A value that indicates when changes are propagated.</source>
+          <target state="translated">一个值，该值指示当传播更改。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.DataSourceUpdateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref href="System.Windows.Forms.DataSourceUpdateMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Occurs when the property of a control is bound to a data value.</source>
+          <target state="translated">控件的属性绑定到数据值时发生。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The Format event is raised when data is pushed from the data source into the control.</source>
+          <target state="translated">当数据从数据源推入控件时，将引发格式事件。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>You can handle the Format event to convert unformatted data from the data source into formatted data for display.</source>
+          <target state="translated">你可以处理格式事件，以将未格式化的数据从数据源转换为要显示的格式化数据。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>When data is pulled from the control into the data source, the &lt;xref:System.Windows.Forms.Binding.Parse&gt; event is raised to unformat the displayed value, then the Format event occurs to reformat the data for display.</source>
+          <target state="translated">数据请求，则它从控件到数据源，&lt;xref:System.Windows.Forms.Binding.Parse&gt;引发事件来取消格式化显示的值，然后在 Format 事件发生重新格式化显示的数据。&lt;/xref:System.Windows.Forms.Binding.Parse&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>This ensures that the bound control displays correctly formatted data regardless of whether the user enters formatted or unformatted data in the control.</source>
+          <target state="translated">这可确保该绑定的控件显示的格式正确的数据，而不考虑用户是否在控件中输入格式化或非格式化的数据。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The Format and &lt;xref:System.Windows.Forms.Binding.Parse&gt; events allow you to create custom formats for displaying data.</source>
+          <target state="translated">格式和&lt;xref:System.Windows.Forms.Binding.Parse&gt;事件允许你创建自定义格式来显示数据。&lt;/xref:System.Windows.Forms.Binding.Parse&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For example, if the data in a table is of type &lt;xref:System.Decimal&gt;, you can display the data in the local currency format by setting the &lt;xref:System.Windows.Forms.ConvertEventArgs.Value%2A&gt; property of the &lt;xref:System.Windows.Forms.ConvertEventArgs&gt; to the formatted value in the Format event.</source>
+          <target state="translated">例如，如果表中的数据的类型&lt;xref:System.Decimal&gt;，你可以在本地货币的格式显示数据，通过设置&lt;xref:System.Windows.Forms.ConvertEventArgs.Value%2A&gt;属性&lt;xref:System.Windows.Forms.ConvertEventArgs&gt;格式事件中设置格式的值。&lt;/xref:System.Windows.Forms.ConvertEventArgs&gt; &lt;/xref:System.Windows.Forms.ConvertEventArgs.Value%2A&gt; &lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>You must consequently unformat the displayed value in the &lt;xref:System.Windows.Forms.Binding.Parse&gt; event.</source>
+          <target state="translated">因此必须取消它们中的显示的值&lt;xref:System.Windows.Forms.Binding.Parse&gt;事件。&lt;/xref:System.Windows.Forms.Binding.Parse&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The Format event occurs whenever the &lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt; value of the &lt;xref:System.Windows.Forms.BindingManagerBase&gt; changes, which includes:      -   The first time the property is bound.</source>
+          <target state="translated">每当发生格式事件&lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;值&lt;xref:System.Windows.Forms.BindingManagerBase&gt;更改，其中包括:-第一次绑定的属性。&lt;/xref:System.Windows.Forms.BindingManagerBase&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>-   Any time the &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; changes.</source>
+          <target state="translated">-任何时间&lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;更改。&lt;/xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>-   Whenever the data-bound list is sorted or filtered, which is accomplished when a &lt;xref:System.Data.DataView&gt; supplies the list.</source>
+          <target state="translated">-每当数据绑定列表是排序或筛选，即完成时&lt;xref:System.Data.DataView&gt;向该列表提供。&lt;/xref:System.Data.DataView&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The Format event also occurs after the &lt;xref:System.Windows.Forms.Binding.Parse&gt; event.</source>
+          <target state="translated">Format 事件也会发生后&lt;xref:System.Windows.Forms.Binding.Parse&gt;事件。&lt;/xref:System.Windows.Forms.Binding.Parse&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>For example, when a control loses focus, its contents are parsed.</source>
+          <target state="translated">例如，当控件失去焦点时，将分析其内容。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Immediately afterward, as new data is pushed into the control, the Format event occurs allowing the new contents to be formatted.</source>
+          <target state="translated">此后，立即为新数据推送到控件时，格式发生该事件时允许要设置格式的新内容。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Handling and Raising Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关处理事件的详细信息，请参阅<bpt id="p1">[</bpt>处理和引发事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.IFormatProvider&gt; that provides custom formatting behavior.</source>
+          <target state="translated">获取或设置&lt;xref:System.IFormatProvider&gt;可提供自定义格式设置行为。&lt;/xref:System.IFormatProvider&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Setting this property will override the default formatting behavior, which uses the &lt;xref:System.Windows.Forms.Application.CurrentCulture%2A?displayProperty=fullName&gt; property setting.</source>
+          <target state="translated">设置此属性将重写默认格式设置行为，它使用&lt;xref:System.Windows.Forms.Application.CurrentCulture%2A?displayProperty=fullName&gt;属性设置。&lt;/xref:System.Windows.Forms.Application.CurrentCulture%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IFormatProvider&gt; implementation that provides custom formatting behavior.</source>
+          <target state="translated">&lt;xref:System.IFormatProvider&gt;提供自定义格式设置行为的实现。&lt;/xref:System.IFormatProvider&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Gets or sets the format specifier characters that indicate how a value is to be displayed.</source>
+          <target state="translated">获取或设置的格式说明符，指示如何显示值。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The format string used should follow standard .NET Framework format specifications.</source>
+          <target state="translated">使用的格式字符串应遵循标准的.NET Framework 格式规范。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Formatting Types in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>.NET Framework 中的格式设置类型<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The string of format specifier characters that indicate how a value is to be displayed.</source>
+          <target state="translated">指示如何显示值的格式说明符字符的字符串。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether type conversion and formatting is applied to the control property data.</source>
+          <target state="translated">获取或设置一个值，该值指示是否对控件属性数据应用类型转换和格式设置。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Setting this property to <ph id="ph1">`true`</ph> also enables error-handling behavior and causes the &lt;xref:System.Windows.Forms.Binding.BindingComplete&gt; event to be raised.</source>
+          <target state="translated">此属性设置为<ph id="ph1">`true`</ph>启用错误处理行为，而且会导致&lt;xref:System.Windows.Forms.Binding.BindingComplete&gt;引发事件。&lt;/xref:System.Windows.Forms.Binding.BindingComplete&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The handler of this event can take the appropriate action, based on the success, error, or exceptions in the binding process, by examining the &lt;xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt; property of the &lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt; parameter.</source>
+          <target state="translated">此事件的处理程序可以采取相应的措施，基于成功、 错误或异常在绑定过程中，通过检查&lt;xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt;属性&lt;xref:System.Windows.Forms.BindingCompleteEventArgs&gt;参数。&lt;/xref:System.Windows.Forms.BindingCompleteEventArgs&gt; &lt;/xref:System.Windows.Forms.BindingCompleteEventArgs.BindingCompleteState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if type conversion and formatting of control property data is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果启用类型转换和格式设置的控件属性数据;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the binding is active.</source>
+          <target state="translated">获取一个值，该值指示绑定是否处于活动状态。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>A binding is active when it meets these conditions:      -   All its properties are set.</source>
+          <target state="translated">满足这些条件时，绑定处于活动状态:-所有属性均都设置。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>-   The user did not call &lt;xref:System.Windows.Forms.BindingManagerBase.ResumeBinding%2A&gt; or &lt;xref:System.Windows.Forms.BindingManagerBase.SuspendBinding%2A&gt; on the &lt;xref:System.Windows.Forms.BindingManagerBase&gt; that the &lt;xref:System.Windows.Forms.Binding&gt; belongs to.</source>
+          <target state="translated">-用户未调用&lt;xref:System.Windows.Forms.BindingManagerBase.ResumeBinding%2A&gt;或&lt;xref:System.Windows.Forms.BindingManagerBase.SuspendBinding%2A&gt;上&lt;xref:System.Windows.Forms.BindingManagerBase&gt;，&lt;xref:System.Windows.Forms.Binding&gt;属于。&lt;/xref:System.Windows.Forms.Binding&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.SuspendBinding%2A&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.ResumeBinding%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>-   The control to which the &lt;xref:System.Windows.Forms.Binding&gt; belongs has been created.</source>
+          <target state="translated">-向其控件&lt;xref:System.Windows.Forms.Binding&gt;所属已创建。&lt;/xref:System.Windows.Forms.Binding&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the binding is active; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果绑定处于活动状态;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.Object&gt; to be set as the control property when the data source contains a <bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">获取或设置&lt;xref:System.Object&gt;时数据源包含要设置控件属性为<bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The data source must contain &lt;xref:System.DBNull&gt; for the NullValue property to be correctly applied.</source>
+          <target state="translated">数据源必须包含&lt;xref:System.DBNull&gt;NullValue 属性才能正确应用。&lt;/xref:System.DBNull&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>If the data source type is a type such as a string or integer the value of the NullValue property will be ignored.</source>
+          <target state="translated">如果数据源类型是类型如字符串或整数 NullValue 属性的值将被忽略。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Also, the NullValue property is ignored if it is set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，将忽略 NullValue 属性，如果设置为<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>A null value will be added to the data source when the control property is set to the object of NullValue.</source>
+          <target state="translated">当控件属性设置为 NullValue 的对象时，才能将 null 值添加到数据源。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>If NullValue is set to a string value, comparisons are case-insensitive.</source>
+          <target state="translated">如果 NullValue 设置为一个字符串值，则比较不区分大小写。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be set as the control property when the data source contains a <bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;时数据源包含要设置控件属性为<bpt id="p1">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding.BindingComplete"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引发<bpt id="p1">&lt;xref href="System.Windows.Forms.Binding.BindingComplete"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引发事件时，将调用事件处理程序，通过委托。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Handling and Raising Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>处理和引发事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The OnBindingComplete method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnBindingComplete 方法还允许派生的类对事件进行处理而不必附加委托。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">这是处理派生类中的事件的首选的技术。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingCompleteEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.BindingCompleteEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含事件数据。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding.Format"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引发<bpt id="p1">&lt;xref href="System.Windows.Forms.Binding.Format"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引发事件时，将调用事件处理程序，通过委托。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Handling and Raising Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>处理和引发事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The OnFormat method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">格式化方法还允许派生的类对事件进行处理而不必附加委托。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">这是处理派生类中的事件的首选的技术。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ConvertEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ConvertEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含事件数据。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Binding.Parse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引发<bpt id="p1">&lt;xref href="System.Windows.Forms.Binding.Parse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引发事件时，将调用事件处理程序，通过委托。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Handling and Raising Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>处理和引发事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The OnParse method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnParse 方法还允许派生的类对事件进行处理而不必附加委托。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">这是处理派生类中的事件的首选的技术。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.ConvertEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Forms.ConvertEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含事件数据。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Occurs when the value of a data-bound control changes.</source>
+          <target state="translated">数据绑定控件的值更改时发生。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.Binding.Format&gt; and Parse events allow you to create custom formats for displaying data.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.Binding.Format&gt;和分析事件，可以创建自定义格式显示数据。&lt;/xref:System.Windows.Forms.Binding.Format&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>For example, if the data in a table is of type &lt;xref:System.Decimal&gt;, you can display the data in the local currency format by setting the &lt;xref:System.Windows.Forms.ConvertEventArgs.Value%2A&gt; property of the &lt;xref:System.Windows.Forms.ConvertEventArgs&gt; to the formatted value in the &lt;xref:System.Windows.Forms.Binding.Format&gt; event.</source>
+          <target state="translated">例如，如果表中的数据的类型&lt;xref:System.Decimal&gt;，你可以在本地货币的格式显示数据，通过设置&lt;xref:System.Windows.Forms.ConvertEventArgs.Value%2A&gt;属性&lt;xref:System.Windows.Forms.ConvertEventArgs&gt;到中的格式化值&lt;xref:System.Windows.Forms.Binding.Format&gt;事件。&lt;/xref:System.Windows.Forms.Binding.Format&gt; &lt;/xref:System.Windows.Forms.ConvertEventArgs&gt; &lt;/xref:System.Windows.Forms.ConvertEventArgs.Value%2A&gt; &lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>You must consequently unformat the displayed value in the Parse event.</source>
+          <target state="translated">因此，你必须取消它们分析事件中显示的值。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The Parse event occurs under the following conditions:      -   After the &lt;xref:System.Windows.Forms.Control.Validated&gt; event of the &lt;xref:System.Windows.Forms.Control&gt; occurs.</source>
+          <target state="translated">分析事件发生在以下情况下:-之后&lt;xref:System.Windows.Forms.Control.Validated&gt;事件&lt;xref:System.Windows.Forms.Control&gt;发生。&lt;/xref:System.Windows.Forms.Control&gt; &lt;/xref:System.Windows.Forms.Control.Validated&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>-   When the &lt;xref:System.Windows.Forms.BindingManagerBase.EndCurrentEdit%2A&gt; method of the &lt;xref:System.Windows.Forms.BindingManagerBase&gt; is called.</source>
+          <target state="translated">-如果&lt;xref:System.Windows.Forms.BindingManagerBase.EndCurrentEdit%2A&gt;方法&lt;xref:System.Windows.Forms.BindingManagerBase&gt;称为。&lt;/xref:System.Windows.Forms.BindingManagerBase&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.EndCurrentEdit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>-   When the &lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt; of the &lt;xref:System.Windows.Forms.BindingManagerBase&gt; changes (in other words, when the &lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; changes).</source>
+          <target state="translated">-如果&lt;xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;的&lt;xref:System.Windows.Forms.BindingManagerBase&gt;更改 (换而言之，当&lt;xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt;更改)。&lt;/xref:System.Windows.Forms.BindingManagerBase.Position%2A&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase&gt; &lt;/xref:System.Windows.Forms.BindingManagerBase.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Handling and Raising Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关处理事件的详细信息，请参阅<bpt id="p1">[</bpt>处理和引发事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the control's data-bound property.</source>
+          <target state="translated">获取或设置控件的数据绑定属性的名称。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Use the PropertyName to specify the control property that you want to bind to a list in a data source.</source>
+          <target state="translated">使用属性名称来指定你想要绑定到数据源中的列表的控件属性。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Most commonly, you bind a display property such as the &lt;xref:System.Windows.Forms.Control.Text%2A&gt; property of a &lt;xref:System.Windows.Forms.TextBox&gt; control.</source>
+          <target state="translated">通常情况下，等绑定的显示属性&lt;xref:System.Windows.Forms.Control.Text%2A&gt;属性&lt;xref:System.Windows.Forms.TextBox&gt;控件。&lt;/xref:System.Windows.Forms.TextBox&gt; &lt;/xref:System.Windows.Forms.Control.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>However, because you can bind any property of a control, you can programmatically create controls at run time using data from a database.</source>
+          <target state="translated">但是，由于可以将绑定控件的任何属性，你可以以编程方式创建控件在运行时使用数据库中的数据。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The name of a control property to bind to.</source>
+          <target state="translated">若要将绑定到的控件属性的名称。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Sets the control property to the value read from the data source.</source>
+          <target state="translated">将控件属性设置为从数据源中读取的值。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Reads the current value from the control property and writes it to the data source.</source>
+          <target state="translated">读取控件属性的当前值并将其写入数据源。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

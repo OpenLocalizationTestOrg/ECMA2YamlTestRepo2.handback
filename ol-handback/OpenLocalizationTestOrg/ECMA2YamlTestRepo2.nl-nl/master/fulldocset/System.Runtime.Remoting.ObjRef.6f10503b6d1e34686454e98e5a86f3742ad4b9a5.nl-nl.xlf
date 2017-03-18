@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">be07c2748c1e6dee1478cf6d6a2f6f79f9a0bf85</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.ObjRef.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1a0287f31607d18c6d2a191fa251142be911298</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2fd7837bf173495f2f4fc9b494922a0a3be0755</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Stores all relevant information required to generate a proxy in order to communicate with a remote object.</source>
+          <target state="translated">Slaat alle relevante informatie die zijn vereist voor het genereren van een proxy om te communiceren met een extern object.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A ObjRef is a serializable representation of an object that extends &lt;xref:System.MarshalByRefObject&gt; (MBR).</source>
+          <target state="translated">Een ObjRef wordt een serialiseerbare representatie van een object dat wordt uitgebreid &lt;xref:System.MarshalByRefObject&gt;(MBR).&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A ObjRef is used to transfer an object reference across a &lt;xref:System.AppDomain&gt; boundary.</source>
+          <target state="translated">Een ObjRef wordt gebruikt om een objectverwijzing via een &lt;xref:System.AppDomain&gt;grens.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creating a ObjRef for an object is known as marshaling.</source>
+          <target state="translated">Maken van een ObjRef voor een object wordt marshaling genoemd.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can create a ObjRef (marshal a &lt;xref:System.MarshalByRefObject&gt;) either explicitly, by registering the MBR object with the remoting infrastructure (see &lt;xref:System.Runtime.Remoting.RemotingConfiguration&gt; and &lt;xref:System.Runtime.Remoting.RemotingServices.Marshal%2A?displayProperty=fullName&gt;), or implicitly, by passing an MBR object as a parameter when calling a remote object.</source>
+          <target state="translated">U kunt een ObjRef maken (marshal een &lt;xref:System.MarshalByRefObject&gt;) hetzij expliciet, via het registreren van de MBR object met de externe infrastructuur (Zie &lt;xref:System.Runtime.Remoting.RemotingConfiguration&gt;en &lt;xref:System.Runtime.Remoting.RemotingServices.Marshal%2A?displayProperty=fullName&gt;), of impliciet door een MBR-object doorgegeven als parameter bij het aanroepen van een extern object.&lt;/xref:System.Runtime.Remoting.RemotingServices.Marshal%2A?displayProperty=fullName&gt; &lt;/xref:System.Runtime.Remoting.RemotingConfiguration&gt; &lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Remoting uses ObjRef objects to store and transmit all the relevant information about the &lt;xref:System.MarshalByRefObject&gt; being remoted.</source>
+          <target state="translated">Externe toegang gebruikt ObjRef objecten op te slaan en het verzenden van de relevante informatie over de &lt;xref:System.MarshalByRefObject&gt;externe.&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ObjRef contains information that describes the &lt;xref:System.Type&gt; and class of the object being marshaled, its exact location, and communication-related information on how to reach the remoting subdivision where the object is located.</source>
+          <target state="translated">De ObjRef bevat informatie over de &lt;xref:System.Type&gt;en klasse van het object wordt gemarshald, de exacte locatie en communicatie-gerelateerde informatie over het bereiken van de onderverdeling remoting waar het object zich bevindt.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After a class implementing &lt;xref:System.MarshalByRefObject&gt; is marshaled, the ObjRef that represents it is transferred through a channel into another application domain, possibly in another process or computer.</source>
+          <target state="translated">Na de implementatie van een klasse &lt;xref:System.MarshalByRefObject&gt;is gemarshald, de ObjRef waarmee deze is verzonden via een kanaal naar een ander toepassingsdomein mogelijk in een ander proces of computer.&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the ObjRef is deserialized (see <bpt id="p1">[</bpt>XML and SOAP Serialization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>) in the target application domain, it is parsed to create a transparent proxy for the remote MBR object.</source>
+          <target state="translated">Wanneer de ObjRef wordt gedeserialiseerd (Zie <bpt id="p1">[</bpt>XML en SOAP-serialisatie<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>) in het doeldomein toepassing wordt geparseerd om te maken van een transparentproxy voor het externe MBR-object.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This operation is known as unmarshaling.</source>
+          <target state="translated">Deze bewerking wordt unmarshaling genoemd.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A transparent proxy is an object that provides the illusion that the actual object resides in the client's space.</source>
+          <target state="translated">Een transparentproxy is een object dat de illusie biedt dat het object zich in de ruimte van de client bevindt.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It achieves this by forwarding calls made on it to the real object using the remoting infrastructure.</source>
+          <target state="translated">Het bereikt dit door het doorsturen van oproepen op deze naar het juiste object met behulp van de externe infrastructuur.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transparent proxy is itself housed by an instance of a managed run-time class of type &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;.</source>
+          <target state="translated">De transparentproxy is ondergebracht door een exemplaar van een beheerde runtime-klasse van het type &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;.&lt;/xref:System.Runtime.Remoting.Proxies.RealProxy&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt; implements a part of the functionality needed to forward the operations from the transparent proxy.</source>
+          <target state="translated">De &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;implementeert een onderdeel van de functionaliteit die nodig zijn voor het doorsturen van de bewerkingen van de transparentproxy.&lt;/xref:System.Runtime.Remoting.Proxies.RealProxy&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A proxy object can be used without regard to any remoting subdivisions within a &lt;xref:System.AppDomain&gt;.</source>
+          <target state="translated">Een proxyobject kan worden gebruikt zonder rekening te houden remoting onderverdelingen binnen een &lt;xref:System.AppDomain&gt;.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applications need not distinguish between proxy references and object references.</source>
+          <target state="translated">Toepassingen moeten geen onderscheid tussen proxyverwijzingen en objectverwijzingen.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, service providers dealing with issues such as activation, lifetime management, and transactions need to make such distinctions.</source>
+          <target state="translated">Serviceproviders omgaan met problemen zoals activering, moeten beheer van de levensduur en transacties echter een dergelijke onderscheid te maken.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class makes a link demand and an inheritance demand at the class level.</source>
+          <target state="translated">Deze klasse maakt een verbinding is vereist en een aanvraag overname op het klasseniveau van de.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Security.SecurityException&gt; is thrown when either the immediate caller or the derived class does not have infrastructure permission.</source>
+          <target state="translated">Een &lt;xref:System.Security.SecurityException&gt;wordt gegenereerd wanneer de onmiddellijke aanroeper of de afgeleide klasse is niet gemachtigd infrastructuur.&lt;/xref:System.Security.SecurityException&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details about security demands, see <bpt id="p1">[</bpt>Link Demands<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Inheritance Demands<ept id="p2">](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over beveiliging eisen <bpt id="p1">[</bpt>koppeling eisen<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> en <bpt id="p2">[</bpt>overname eisen<ept id="p2">](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9)</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default values.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met standaardwaarden.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class to reference a specified <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> of a specified &lt;xref:System.Type&gt;.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse om te verwijzen naar een opgegeven <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> van een opgegeven &lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The object that the new <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance will reference.</source>
+          <target state="translated">Het object dat de nieuwe <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar verwijst.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object that the new <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance will reference.</source>
+          <target state="translated">De &lt;xref:System.Type&gt;van het object dat de nieuwe <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar verwijst.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from serialized data.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse vanuit een geserialiseerde gegevens.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is called during deserialization to reconstitute the exception object transmitted over a stream.</source>
+          <target state="translated">Deze constructor is aangeroepen tijdens de deserialisatie op het object exception verzonden via een stroom opnieuw samenstellen.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Runtime.Serialization.ISerializable&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.Runtime.Serialization.ISerializable&gt;.&lt;/xref:System.Runtime.Serialization.ISerializable&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The object that holds the serialized object data.</source>
+          <target state="translated">Het object dat de gegevens geserialiseerd object bevat.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The contextual information about the source or destination of the exception.</source>
+          <target state="translated">De contextuele informatie over de bron- of doelserver van de uitzondering.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IChannelInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Opgehaald of ingesteld de <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IChannelInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor de <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current property holds information contributed by active channels in the process, when the &lt;xref:System.Runtime.Remoting.ObjRef&gt; is created (see &lt;xref:System.Runtime.Remoting.RemotingServices.Marshal%2A&gt; for details on marshaling).</source>
+          <target state="translated">De huidige eigenschap bevat informatie die is bijgedragen door actieve kanalen in het proces, wanneer de &lt;xref:System.Runtime.Remoting.ObjRef&gt;wordt gemaakt (Zie &lt;xref:System.Runtime.Remoting.RemotingServices.Marshal%2A&gt;voor meer informatie over het marshallen).&lt;/xref:System.Runtime.Remoting.RemotingServices.Marshal%2A&gt; &lt;/xref:System.Runtime.Remoting.ObjRef&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This information can be used by the channels in other processes or application domains to decide whether or not to create a transport sink to communicate with the object represented by the current instance.</source>
+          <target state="translated">Deze informatie kan worden gebruikt door de kanalen in andere processen of toepassingsdomeinen om te bepalen of een transportsink om te communiceren met het object dat wordt vertegenwoordigd door de huidige instantie te maken of niet.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IChannelInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface for the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IChannelInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interface voor de <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IEnvoyInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Opgehaald of ingesteld de <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IEnvoyInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor de <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current property contains a serialized chain of message sinks that gets regenerated when a proxy is created to represent the object.</source>
+          <target state="translated">De huidige eigenschap bevat een geserialiseerde keten van bericht put die opnieuw wordt gegenereerd wanneer een proxy voor het object wordt gemaakt.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is used for &lt;xref:System.Runtime.Remoting.Contexts.Context&gt; bound object types only, and represents the groups of objects that provide such run-time services as transactions.</source>
+          <target state="translated">Dit wordt gebruikt voor &lt;xref:System.Runtime.Remoting.Contexts.Context&gt;afhankelijk object alleen typen en de groepen met objecten die deze services runtime-als transacties leveren vertegenwoordigt.&lt;/xref:System.Runtime.Remoting.Contexts.Context&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IEnvoyInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface for the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IEnvoyInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interface voor de <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Populates a specified <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the data needed to serialize the current <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Een opgegeven gevuld <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> met de gegevens die nodig zijn voor het serialiseren van de huidige <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> exemplaar.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current method fills the provided &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; with all the data needed to recreate the &lt;xref:System.Runtime.Remoting.ObjRef&gt;.</source>
+          <target state="translated">De huidige methode vult u de opgegeven &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;met alle gegevens die nodig zijn om de &lt;xref:System.Runtime.Remoting.ObjRef&gt;.&lt;/xref:System.Runtime.Remoting.ObjRef&gt; opnieuw te maken&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current method is an implementation of &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.</source>
+          <target state="translated">De huidige methode is een implementatie van &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.&lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to populate with data.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te vullen met gegevens.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The contextual information about the source or destination of the serialization.</source>
+          <target state="translated">De contextuele informatie over de bron of bestemming van de serialisatie.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">info</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">info</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have serialization formatter permission.</source>
+          <target state="translated">De onmiddellijke aanroeper is niet gemachtigd serialisatie-indeling.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Returns a reference to the remote object that the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describes.</source>
+          <target state="translated">Retourneert een verwijzing naar het externe object dat de <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> worden beschreven.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current method is called during the fix-up stage of deserialization.</source>
+          <target state="translated">De huidige methode is aangeroepen tijdens de fase-reparatietabel van deserialisatie.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The context where the current object resides.</source>
+          <target state="translated">De context waarin het huidige object zich bevindt.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A reference to the remote object that the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describes.</source>
+          <target state="translated">Een verwijzing naar het externe object dat de <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> worden beschreven.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have serialization formatter permission.</source>
+          <target state="translated">De onmiddellijke aanroeper is niet gemachtigd serialisatie-indeling.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Returns a Boolean value that indicates whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references an object located in the current <bpt id="p2">&lt;xref href="System.AppDomain"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert een Booleaanse waarde die aangeeft of de huidige <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar verwijst naar een object dat zich in de huidige <bpt id="p2">&lt;xref href="System.AppDomain"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A Boolean value that indicates whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references an object located in the current <bpt id="p2">&lt;xref href="System.AppDomain"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een Boolean die aangeeft of de huidige <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar verwijst naar een object dat zich in de huidige <bpt id="p2">&lt;xref href="System.AppDomain"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Returns a Boolean value that indicates whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references an object located in the current process.</source>
+          <target state="translated">Retourneert een Booleaanse waarde die aangeeft of de huidige <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar verwijst naar een object dat zich bevindt in het huidige proces.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A Boolean value that indicates whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance references an object located in the current process.</source>
+          <target state="translated">Een Boolean die aangeeft of de huidige <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar verwijst naar een object dat zich bevindt in het huidige proces.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IRemotingTypeInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the object that the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> describes.</source>
+          <target state="translated">Opgehaald of ingesteld de <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IRemotingTypeInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor het object dat de <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden beschreven.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TypeInfo contains detailed information about the type of remote object represented by the current &lt;xref:System.Runtime.Remoting.ObjRef&gt;.</source>
+          <target state="translated">TypeInfo bevat gedetailleerde informatie over het type extern object dat wordt vertegenwoordigd door de huidige &lt;xref:System.Runtime.Remoting.ObjRef&gt;.&lt;/xref:System.Runtime.Remoting.ObjRef&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current property contains a list of interfaces that the type implements, as well as the type hierarchy.</source>
+          <target state="translated">De huidige eigenschap bevat een lijst van de interfaces die het type, evenals de typehiërarchie implementeert.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This information might be used to refine the proxy incrementally to adjust to the client's view of the remote object's type.</source>
+          <target state="translated">Deze informatie kan worden gebruikt voor het verfijnen van de proxy incrementeel om aan te passen aan de weergave van de client van het type van het externe object.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IRemotingTypeInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the object that the <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> describes.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Runtime.Remoting.IRemotingTypeInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor het object dat de <bpt id="p2">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> worden beschreven.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets or sets the URI of the specific object instance.</source>
+          <target state="translated">Opgehaald of ingesteld van de URI van het exemplaar van het specifieke object.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A URI uniquely identifies the specific object instance.</source>
+          <target state="translated">Een URI is een unieke identificatie van het exemplaar van het specifieke object.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The URI of the specific object instance.</source>
+          <target state="translated">De URI van het exemplaar van het specifieke object.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

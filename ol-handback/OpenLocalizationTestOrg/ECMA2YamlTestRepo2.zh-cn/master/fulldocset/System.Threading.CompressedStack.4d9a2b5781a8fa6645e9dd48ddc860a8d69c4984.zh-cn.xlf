@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f01fb3b9fecff4c00cf5461905d1f78e693840d8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Threading.CompressedStack.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9814e2e9c8d17ab5c12204cadf93ec3d07420249</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e67de13fed7a3139c8a9fc0bee5348c8f25d0c4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides methods for setting and capturing the compressed stack on the current thread.</source>
+          <target state="translated">提供用于设置和捕获当前线程上的压缩的堆栈的方法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The compressed stack is a compact representation of all the code access security information on the call stack, such as &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; and &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; actions.</source>
+          <target state="translated">压缩的堆栈是调用堆栈上的所有代码访问安全信息的简洁表示形式，如&lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;和&lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;操作。&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt; &lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, if a &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; action is two stack frames up from the current frame and there are no other code access security annotations between there and the current frame, the compressed stack records only that information, without having to serialize the entire call stack.</source>
+          <target state="translated">例如，如果&lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;操作是两个堆栈帧的距离当前帧，并且有没有其他代码访问权限之间有安全批注和当前帧时，压缩的堆栈记录仅的信息，而无需序列化的整个调用堆栈。&lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The CompressedStackclass is used internally by the &lt;xref:System.Security.SecurityContext&gt; class.</source>
+          <target state="translated">CompressedStackclass 由内部&lt;xref:System.Security.SecurityContext&gt;类。&lt;/xref:System.Security.SecurityContext&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Security.SecurityContext.Capture%2A?displayProperty=fullName&gt; method captures the compressed stack for the current call stack, along with impersonation and culture information.</source>
+          <target state="translated">例如，&lt;xref:System.Security.SecurityContext.Capture%2A?displayProperty=fullName&gt;方法捕获的压缩的堆栈中的当前调用堆栈，以及模拟和区域性信息。&lt;/xref:System.Security.SecurityContext.Capture%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.SecurityContext&gt; class is used in turn by the &lt;xref:System.Threading.ExecutionContext&gt; class to flow context across threads, for example when scheduling thread pool tasks.</source>
+          <target state="translated">&lt;xref:System.Security.SecurityContext&gt;类又由&lt;xref:System.Threading.ExecutionContext&gt;到线程，例如在计划线程池任务间流动上下文的类。&lt;/xref:System.Threading.ExecutionContext&gt; &lt;/xref:System.Security.SecurityContext&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This class is not used in ordinary application programming.</source>
+          <target state="translated">此类不用于普通的应用程序编程。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Captures the compressed stack from the current thread.</source>
+          <target state="translated">捕获从当前线程的压缩的堆栈。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Captures all the code access security information on the call stack, such as &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; and &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; actions, in a compressed format.</source>
+          <target state="translated">如捕获调用堆栈上的所有代码访问安全信息&lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;和&lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;操作，以压缩格式。&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt; &lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, if a &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; action is two stack frames up from the current frame and there are no other code access security annotations between there and the current frame, the compressed stack records only that information, without having to serialize the entire call stack.</source>
+          <target state="translated">例如，如果&lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;操作是两个堆栈帧的距离当前帧，并且有没有其他代码访问权限之间有安全批注和当前帧时，压缩的堆栈记录仅的信息，而无需序列化的整个调用堆栈。&lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The captured compressed stack can be applied to another thread.</source>
+          <target state="translated">捕获的压缩的堆栈可以应用于另一个线程。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.CompressedStack"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.CompressedStack"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Creates a copy of the current compressed stack.</source>
+          <target state="translated">创建当前压缩堆栈的副本。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This method is useful for creating a copy of the current compressed stack to apply to another thread.</source>
+          <target state="translated">此方法可用于创建一份要应用于另一个线程的当前压缩堆栈。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.CompressedStack"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the current compressed stack.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.CompressedStack"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示当前的压缩的堆栈对象。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets the compressed stack for the current thread.</source>
+          <target state="translated">获取当前线程的压缩的堆栈。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If security is enabled, the current compressed stack is returned.</source>
+          <target state="translated">如果启用了安全性，则返回当前压缩的堆栈。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If security is disabled, GetCompressedStack returns an empty &lt;xref:System.Threading.CompressedStack&gt; object.</source>
+          <target state="translated">如果禁用了安全性，GetCompressedStack 返回一个空&lt;xref:System.Threading.CompressedStack&gt;对象。&lt;/xref:System.Threading.CompressedStack&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method uses &lt;xref:System.Security.Permissions.SecurityAction?displayProperty=fullName&gt; to prevent it from being called from untrusted code; only the immediate caller is required to have &lt;xref:System.Security.Permissions.SecurityPermissionAttribute.UnmanagedCode%2A?displayProperty=fullName&gt; permission.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 此方法使用&lt;xref:System.Security.Permissions.SecurityAction?displayProperty=fullName&gt;，防止它调用不受信任代码; 只能直接调用方需要具有&lt;xref:System.Security.Permissions.SecurityPermissionAttribute.UnmanagedCode%2A?displayProperty=fullName&gt;权限。&lt;/xref:System.Security.Permissions.SecurityPermissionAttribute.UnmanagedCode%2A?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.SecurityAction?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For important limitations on using the <ph id="ph1">`LinkDemand`</ph> member, see <bpt id="p1">[</bpt>Demand vs. LinkDemand<ept id="p1">](http://msdn.microsoft.com/en-us/1ab877f2-70f4-4e0d-8116-943999dfe8f5)</ept>.</source>
+          <target state="translated">有关在将使用的重要限制<ph id="ph1">`LinkDemand`</ph>成员，请参阅<bpt id="p1">[</bpt>Demand vs。LinkDemand<ept id="p1">](http://msdn.microsoft.com/en-us/1ab877f2-70f4-4e0d-8116-943999dfe8f5)</ept>。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member also makes a link demand for the ECMA public key, which is not a valid cryptographic key but a pseudo key.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 此成员还可以针对 ECMA 公共密钥，这不是有效的加密密钥，而一个伪密钥的链接要求。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Within the .NET Framework the link demand for the ECMA pseudo key is automatically converted to a link demand for the Microsoft public key.</source>
+          <target state="translated">在.NET Framework 中 ECMA 伪密钥此链接要求会自动转换为 Microsoft 公共密钥的链接要求。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The security exception is based on the Microsoft public key, not the ECMA pseudo key.</source>
+          <target state="translated">安全异常取决于 Microsoft 公钥，不 ECMA 伪键。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.CompressedStack"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current thread.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.CompressedStack"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>当前线程。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A caller in the call chain does not have permission to access unmanaged code.</source>
+          <target state="translated">中的调用链的调用方没有访问非托管的代码的权限。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-or-       The request for <bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNameIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> failed.</source>
+          <target state="translated">-请求<bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNameIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>失败。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with the logical context information needed to recreate an instance of this execution context.</source>
+          <target state="translated">集<bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>重新创建此执行上下文的实例所需的逻辑上下文信息的对象。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>GetObjectData sets a &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; with the logical call context information.</source>
+          <target state="translated">GetObjectData 集&lt;xref:System.Runtime.Serialization.SerializationInfo&gt;用逻辑调用上下文信息。&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>During deserialization, the execution context object is reconstituted from the &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; transmitted over the stream.</source>
+          <target state="translated">在反序列化过程的执行上下文对象重建从&lt;xref:System.Runtime.Serialization.SerializationInfo&gt;通过流传输。&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Runtime.Serialization.SerializationInfo&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Runtime.Serialization.SerializationInfo&gt;。&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to be populated with serialization information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要使用的序列化信息填充的对象。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.Serialization.StreamingContext&gt; structure representing the destination context of the serialization.</source>
+          <target state="translated">&lt;xref:System.Runtime.Serialization.StreamingContext&gt;结构，它表示序列化的目标上下文。&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Runs a method in the specified compressed stack on the current thread.</source>
+          <target state="translated">当前线程上运行指定的压缩堆栈中的某个方法。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The compressed stack is returned to its previous state when the method completes.</source>
+          <target state="translated">方法完成时，压缩的堆栈被返回到以前的状态。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.CompressedStack"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to set.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Threading.CompressedStack"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to set.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Threading.ContextCallback&gt; that represents the method to be run in the specified security context.</source>
+          <target state="translated">A &lt;xref:System.Threading.ContextCallback&gt;，它表示要在指定的安全上下文中运行的方法。&lt;/xref:System.Threading.ContextCallback&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The object to be passed to the callback method.</source>
+          <target state="translated">要将传递给回调方法的对象。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;compressedStack&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;compressedStack&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae3b0664620ea171b0d6688e23b362f6d294b9cc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.DynamicData.DynamicField.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a0677dda5d46df55411b924decb82afdd24ed880</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">877fca7aa50880baf879e7591987b485e2bfe4d9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a data field that is displayed in a data-bound control that uses ASP.NET Dynamic Data features.</source>
+          <target state="translated">Rappresenta un campo di dati che viene visualizzato in un controllo con associazione a dati che utilizza le funzionalità ASP.NET Dynamic Data.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Declarative Syntax<ept id="p2">](#declarative_syntax)</ept>      <bpt id="p3">&lt;a name="introduction"&gt;</bpt><ept id="p3">&lt;/a&gt;</ept>    ## Introduction    The DynamicField class is used by data-bound controls, such as the &lt;xref:System.Web.UI.WebControls.GridView&gt; and &lt;xref:System.Web.UI.WebControls.DetailsView&gt; controls, to display a field value that uses ASP.NET Dynamic Data features in custom pages.</source>
+          <target state="translated">In questo argomento:- <bpt id="p1">[</bpt>Introduzione<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>sintassi dichiarativa<ept id="p2">](#declarative_syntax)</ept> <bpt id="p3">&lt;a name="introduction"&gt;</bpt> <ept id="p3">&lt;/a&gt;</ept> # # DynamicField l'introduzione è utilizzata dai controlli con associazione a dati, ad esempio il &lt;xref:System.Web.UI.WebControls.GridView&gt;e &lt;xref:System.Web.UI.WebControls.DetailsView&gt;controlli, per visualizzare un valore di campo che utilizza le funzionalità di ASP.NET Dynamic Data nelle pagine personalizzate.&lt;/xref:System.Web.UI.WebControls.DetailsView&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt;      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DynamicField class provides functionality that resembles that of the &lt;xref:System.Web.UI.WebControls.BoundField&gt; class.</source>
+          <target state="translated">La classe DynamicField fornisce funzionalità che è simile a quello della &lt;xref:System.Web.UI.WebControls.BoundField&gt;classe.&lt;/xref:System.Web.UI.WebControls.BoundField&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, because a DynamicField object is used in Dynamic Data applications, you can take advantage of the following Dynamic Data features:      -   Automatically rendering the proper control for a field by using field templates, based on the data type.</source>
+          <target state="translated">Tuttavia, poiché nelle applicazioni di dati dinamica viene utilizzato un oggetto di DynamicField, è possibile sfruttare le seguenti funzionalità di Dynamic Data:: automaticamente il rendering del controllo appropriato per un campo utilizzando i modelli di campo, in base al tipo di dati.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The field templates can be globally modified for the entire application.</source>
+          <target state="translated">I modelli di campo possono essere modificati a livello globale per l'intera applicazione.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Providing built-in data validation based on the database schema.</source>
+          <target state="translated">-Che fornisce la convalida di dati predefinito in base allo schema di database.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also add validation types by customizing the data model.</source>
+          <target state="translated">È anche possibile aggiungere tipi di convalida personalizzando il modello di dati.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Customizing data rendering for individual fields by using attributes in the data model or by using the &lt;xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt; property.</source>
+          <target state="translated">-Personalizzazione del rendering dei dati per i singoli campi utilizzando attributi nel modello di dati o tramite il &lt;xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt;proprietà.&lt;/xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DynamicField object renders each field by using a <ph id="ph1">`DynamicControl`</ph> control.</source>
+          <target state="translated">L'oggetto DynamicField esegue il rendering di ogni campo tramite un <ph id="ph1">`DynamicControl`</ph> controllo.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify the data field to display in a DynamicField object, set the &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt; property to the field name.</source>
+          <target state="translated">Per specificare il campo dei dati da visualizzare in un oggetto DynamicField, impostare il &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt;proprietà sul nome del campo.&lt;/xref:System.Web.DynamicData.DynamicField.DataField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can apply a custom formatting string to the field value by setting the &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt; property.</source>
+          <target state="translated">È possibile applicare una stringa di formattazione personalizzata per il valore del campo impostando la &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;proprietà.&lt;/xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default the formatting string is applied to field values only when the data-bound control is in read-only mode.</source>
+          <target state="translated">Per impostazione predefinita la stringa di formattazione viene applicata ai valori di campo solo quando il controllo con associazione a dati è in modalità di sola lettura.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To apply the formatting string to values displayed while the data-bound control is in edit mode, set the &lt;xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Per applicare la stringa di formattazione per i valori visualizzati quando il controllo con associazione a dati è in modalità di modifica, impostare il &lt;xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt;proprietà <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a field value is <ph id="ph1">`null`</ph>, you can display a custom caption by setting the &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt; property.</source>
+          <target state="translated">Se è un valore del campo <ph id="ph1">`null`</ph>, è possibile visualizzare una didascalia personalizzata impostando il &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;proprietà.&lt;/xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DynamicField object can also automatically convert empty string ("") field values to null values by setting the &lt;xref:System.Web.DynamicData.DynamicField.ConvertEmptyStringToNull%2A&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">L'oggetto DynamicField automaticamente anche possibile convertire una stringa vuota ("") campo valori null impostando la &lt;xref:System.Web.DynamicData.DynamicField.ConvertEmptyStringToNull%2A&gt;proprietà <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.DynamicData.DynamicField.ConvertEmptyStringToNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:DynamicField        AccessibleHeaderText="string"            ApplyFormatInEditMode="true|false"         ControlStyle-BackColor="color name|#dddddd"        ControlStyle-BorderColor="color name|#dddddd"        ControlStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         ControlStyle-BorderWidth="size"         ControlStyle-CssClass="string"        ControlStyle-Font-Bold="true|false"        ControlStyle-Font-Italic="true|false"        ControlStyle-Font-Names="string"        ControlStyle-Font-Overline="true|false"         ControlStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        ControlStyle-Font-Strikeout="true|false"          ControlStyle-Font-Underline="true|false"          ControlStyle-ForeColor="color name|#dddddd"          ControlStyle-Height="size"        ControlStyle-Width="size"        ConvertEmptyStringToNull="true|false"         DataField="string"        DataFormatString="string"          FooterStyle-BackColor="color name|#dddddd"        FooterStyle-BorderColor="color name|#dddddd"        FooterStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         FooterStyle-BorderWidth="size"         FooterStyle-CssClass="string"        FooterStyle-Font-Bold="true|false"        FooterStyle-Font-Italic="true|false"        FooterStyle-Font-Names="string"        FooterStyle-Font-Overline="true|false"         FooterStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        FooterStyle-Font-Strikeout="true|false"          FooterStyle-Font-Underline="true|false"          FooterStyle-ForeColor="color name|#dddddd"          FooterStyle-Height="size"        FooterStyle-Width="size"        FooterStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        FooterStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        FooterStyle-Wrap="true|false"          HeaderImageUrl="uri"       HeaderStyle-BackColor="color name|#dddddd"        HeaderStyle-BorderColor="color name|#dddddd"        HeaderStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         HeaderStyle-BorderWidth="size"         HeaderStyle-CssClass="string"        HeaderStyle-Font-Bold="true|false"        HeaderStyle-Font-Italic="true|false"        HeaderStyle-Font-Names="string"        HeaderStyle-Font-Overline="true|false"         HeaderStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        HeaderStyle-Font-Strikeout="true|false"          HeaderStyle-Font-Underline="true|false"          HeaderStyle-ForeColor="color name|#dddddd"          HeaderStyle-Height="size"        HeaderStyle-Width="size"        HeaderStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        HeaderStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        HeaderStyle-Wrap="true|false"          HeaderText="string"       InsertVisible="true|false"           ItemStyle-BackColor="color name|#dddddd"        ItemStyle-BorderColor="color name|#dddddd"        ItemStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         ItemStyle-BorderWidth="size"         ItemStyle-CssClass="string"        ItemStyle-Font-Bold="true|false"        ItemStyle-Font-Italic="true|false"        ItemStyle-Font-Names="string"        ItemStyle-Font-Overline="true|false"         ItemStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        ItemStyle-Font-Strikeout="true|false"          ItemStyle-Font-Underline="true|false"          ItemStyle-ForeColor="color name|#dddddd"          ItemStyle-Height="size"        ItemStyle-Width="size"        ItemStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        ItemStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        ItemStyle-Wrap="true|false"          NullDisplayText="string"        ReadOnly="true|false"         ShowHeader="true|false"         SortExpression="string"        UIHint="string"        ValidationGroup="string"        Visible="true|false"        /&gt;   &lt;asp:DynamicField /&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Sintassi dichiarativa<ph id="ph1">```   &lt;asp:DynamicField        AccessibleHeaderText="string"            ApplyFormatInEditMode="true|false"         ControlStyle-BackColor="color name|#dddddd"        ControlStyle-BorderColor="color name|#dddddd"        ControlStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         ControlStyle-BorderWidth="size"         ControlStyle-CssClass="string"        ControlStyle-Font-Bold="true|false"        ControlStyle-Font-Italic="true|false"        ControlStyle-Font-Names="string"        ControlStyle-Font-Overline="true|false"         ControlStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        ControlStyle-Font-Strikeout="true|false"          ControlStyle-Font-Underline="true|false"          ControlStyle-ForeColor="color name|#dddddd"          ControlStyle-Height="size"        ControlStyle-Width="size"        ConvertEmptyStringToNull="true|false"         DataField="string"        DataFormatString="string"          FooterStyle-BackColor="color name|#dddddd"        FooterStyle-BorderColor="color name|#dddddd"        FooterStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         FooterStyle-BorderWidth="size"         FooterStyle-CssClass="string"        FooterStyle-Font-Bold="true|false"        FooterStyle-Font-Italic="true|false"        FooterStyle-Font-Names="string"        FooterStyle-Font-Overline="true|false"         FooterStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        FooterStyle-Font-Strikeout="true|false"          FooterStyle-Font-Underline="true|false"          FooterStyle-ForeColor="color name|#dddddd"          FooterStyle-Height="size"        FooterStyle-Width="size"        FooterStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        FooterStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        FooterStyle-Wrap="true|false"          HeaderImageUrl="uri"       HeaderStyle-BackColor="color name|#dddddd"        HeaderStyle-BorderColor="color name|#dddddd"        HeaderStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         HeaderStyle-BorderWidth="size"         HeaderStyle-CssClass="string"        HeaderStyle-Font-Bold="true|false"        HeaderStyle-Font-Italic="true|false"        HeaderStyle-Font-Names="string"        HeaderStyle-Font-Overline="true|false"         HeaderStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        HeaderStyle-Font-Strikeout="true|false"          HeaderStyle-Font-Underline="true|false"          HeaderStyle-ForeColor="color name|#dddddd"          HeaderStyle-Height="size"        HeaderStyle-Width="size"        HeaderStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        HeaderStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        HeaderStyle-Wrap="true|false"          HeaderText="string"       InsertVisible="true|false"           ItemStyle-BackColor="color name|#dddddd"        ItemStyle-BorderColor="color name|#dddddd"        ItemStyle-BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|          Ridge|Inset|Outset"         ItemStyle-BorderWidth="size"         ItemStyle-CssClass="string"        ItemStyle-Font-Bold="true|false"        ItemStyle-Font-Italic="true|false"        ItemStyle-Font-Names="string"        ItemStyle-Font-Overline="true|false"         ItemStyle-Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|          Large|X-Large|XX-Large"        ItemStyle-Font-Strikeout="true|false"          ItemStyle-Font-Underline="true|false"          ItemStyle-ForeColor="color name|#dddddd"          ItemStyle-Height="size"        ItemStyle-Width="size"        ItemStyle-HorizontalAlign="Center|Justify|Left|NotSet|Right"        ItemStyle-VerticalAlign="Bottom|Middle|NotSet|Top"        ItemStyle-Wrap="true|false"          NullDisplayText="string"        ReadOnly="true|false"         ShowHeader="true|false"         SortExpression="string"        UIHint="string"        ValidationGroup="string"        Visible="true|false"        /&gt;   &lt;asp:DynamicField /&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to initialize a new instance of the &lt;xref:System.Web.DynamicData.DynamicField&gt; class.</source>
+          <target state="translated">Utilizzare questo costruttore per inizializzare una nuova istanza della &lt;xref:System.Web.DynamicData.DynamicField&gt;classe.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is commonly used when adding fields to a dynamically created data-bound control.</source>
+          <target state="translated">Questo costruttore viene comunemente utilizzato quando si aggiungono campi a un controllo con associazione a dati creato dinamicamente.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To dynamically add a &lt;xref:System.Web.DynamicData.DynamicField&gt; object to a data-bound control, create a new &lt;xref:System.Web.DynamicData.DynamicField&gt; object, set its properties, and then add it to the data-bound control's field collection.</source>
+          <target state="translated">Per aggiungere dinamicamente un &lt;xref:System.Web.DynamicData.DynamicField&gt;dell'oggetto a un controllo con associazione a dati, creare un nuovo &lt;xref:System.Web.DynamicData.DynamicField&gt;dell'oggetto, impostarne le proprietà e quindi aggiungerlo alla raccolta di campi del controllo con associazione a dati.&lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you are using the &lt;xref:System.Web.UI.WebControls.GridView&gt; control, add the &lt;xref:System.Web.DynamicData.DynamicField&gt; object to the &lt;xref:System.Web.UI.WebControls.GridView.Columns%2A&gt; collection.</source>
+          <target state="translated">Ad esempio, se si utilizza il &lt;xref:System.Web.UI.WebControls.GridView&gt;di controllo, aggiungere il &lt;xref:System.Web.DynamicData.DynamicField&gt;dell'oggetto per il &lt;xref:System.Web.UI.WebControls.GridView.Columns%2A&gt;insieme.&lt;/xref:System.Web.UI.WebControls.GridView.Columns%2A&gt; &lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Although you can dynamically add fields to a data-bound control, it is strongly recommended that fields be statically declared and then shown or hidden, as appropriate.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Anche se in modo dinamico, è possibile aggiungere campi a un controllo con associazione a dati, è consigliabile che i campi in modo statico dichiarati e quindi nascondere o visualizzare, a seconda dei casi.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Statically declaring all of your fields reduces the size of the view state for the parent data-bound control.</source>
+          <target state="translated">Dichiarazione di tutti i campi in modo statico riduce le dimensioni dello stato di visualizzazione per il controllo con associazione a dati padre.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the formatted string that is specified by the &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString*&gt; property is applied to field value when the data field is in edit mode.</source>
+          <target state="translated">Ottiene o imposta un valore che indica se la stringa formattata che viene specificato da di &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString*&gt;proprietà viene applicata al valore del campo quando il campo dei dati è in modalità di modifica.&lt;/xref:System.Web.DynamicData.DynamicField.DataFormatString*&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data-bound controls (such as &lt;xref:System.Web.UI.WebControls.DetailsView&gt;, and &lt;xref:System.Web.UI.WebControls.GridView&gt;) have different display modes that allow the user to read, edit, or insert records.</source>
+          <target state="translated">Controlli con associazione a dati (ad esempio &lt;xref:System.Web.UI.WebControls.DetailsView&gt;, e &lt;xref:System.Web.UI.WebControls.GridView&gt;) sono diverse modalità di visualizzazione che consentono all'utente di leggere, modificare o inserire record.&lt;/xref:System.Web.UI.WebControls.GridView&gt; &lt;/xref:System.Web.UI.WebControls.DetailsView&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the formatting string specified by the &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt; property is applied to field values only when the data-bound control is in read-only mode.</source>
+          <target state="translated">Per impostazione predefinita, la stringa di formattazione specificata dal &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;proprietà viene applicata ai valori di campo solo quando il controllo con associazione a dati è in modalità di sola lettura.&lt;/xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To apply the formatting string to values displayed while the data-bound control is in edit mode, set the ApplyFormatInEditMode property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Per applicare la stringa di formattazione per i valori visualizzati quando il controllo con associazione a dati è in modalità di modifica, impostare la proprietà ApplyFormatInEditMode su <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A &lt;xref:System.Web.DynamicData.DynamicField&gt; object does not automatically remove the formatting when the field is updated in the data source.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A &lt;xref:System.Web.DynamicData.DynamicField&gt;oggetto non rimuove automaticamente la formattazione quando il campo viene aggiornato nell'origine dati.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not want the formatting as part of the value stored, you will need to remove the formatting programmatically.</source>
+          <target state="translated">Se si desidera la formattazione, come parte del valore archiviato, è necessario rimuovere la formattazione a livello di codice.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> applies formatting in edit mode; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Applica formattazione in modalità di modifica; in caso contrario, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.DynamicData.MetaColumn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that this <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is associated with.</source>
+          <target state="translated">Ottiene il <bpt id="p1">&lt;xref href="System.Web.DynamicData.MetaColumn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto dall'oggetto <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> associato all'oggetto.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The meta column.</source>
+          <target state="translated">La colonna di metadati.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Provides a mechanism to modify a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that was created by the &lt;xref:System.Web.DynamicData.DynamicField.InitializeCell*&gt; method.</source>
+          <target state="translated">Fornisce un meccanismo per modificare un <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicControl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto è stato creato tramite il &lt;xref:System.Web.DynamicData.DynamicField.InitializeCell*&gt;metodo.&lt;/xref:System.Web.DynamicData.DynamicField.InitializeCell*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The control to modify.</source>
+          <target state="translated">Controllo da modificare.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether empty string values ("") are automatically converted to null values when the data field is updated in the data source.</source>
+          <target state="translated">Ottiene o imposta un valore che indica se i valori di stringa vuota ("") vengono convertiti automaticamente in valori null quando viene aggiornato il campo dei dati nell'origine dati.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sometimes the user might enter an empty string for a field value when updating or inserting records.</source>
+          <target state="translated">In alcuni casi l'utente potrebbe immettere una stringa vuota per un valore del campo durante l'aggiornamento o inserimento di record.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the ConvertEmptyStringToNull property to specify whether an empty string value is automatically converted to null when the data field is updated in the data source.</source>
+          <target state="translated">Utilizzare la proprietà ConvertEmptyStringToNull per specificare se un valore stringa vuota viene convertito automaticamente su null quando viene aggiornato il campo dei dati nell'origine dati.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a &lt;xref:System.Web.DynamicData.DynamicField&gt; object displays null values as empty strings.</source>
+          <target state="translated">Per impostazione predefinita, un &lt;xref:System.Web.DynamicData.DynamicField&gt;oggetto visualizza i valori null come stringhe vuote.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To display a different value, set the &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt; property.</source>
+          <target state="translated">Per visualizzare un valore diverso, impostare il &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;proprietà.&lt;/xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Web.UI.WebControls.Parameter&gt; object of the data source control that the parent control of &lt;xref:System.Web.DynamicData.DynamicField&gt; object is bound to also has a property named &lt;xref:System.Web.UI.WebControls.Parameter.ConvertEmptyStringToNull%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Il &lt;xref:System.Web.UI.WebControls.Parameter&gt;oggetto dell'origine dati controllare che il controllo padre &lt;xref:System.Web.DynamicData.DynamicField&gt;dell'oggetto è associato a include anche una proprietà denominata &lt;xref:System.Web.UI.WebControls.Parameter.ConvertEmptyStringToNull%2A?displayProperty=fullName&gt;.&lt;/xref:System.Web.UI.WebControls.Parameter.ConvertEmptyStringToNull%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.UI.WebControls.Parameter&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property performs the same function.</source>
+          <target state="translated">Questa proprietà esegue la stessa funzione.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Make sure that both properties are set appropriately.</source>
+          <target state="translated">Assicurarsi che entrambe le proprietà vengono impostate in modo appropriato.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to automatically convert empty string values to null values; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Per convertire automaticamente i valori di stringa vuota in valori null. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Copies the properties of the current <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the specified <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.DataControlField"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Copia le proprietà dell'oggetto corrente <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto specificata <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.DataControlField"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CopyProperties method is a helper method.</source>
+          <target state="translated">Il metodo CopyProperties è un metodo di supporto.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used by the &lt;xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt; method to copy the properties of the current &lt;xref:System.Web.DynamicData.DynamicField&gt; object to the &lt;xref:System.Web.DynamicData.DynamicField&gt; object that is passed in the <ph id="ph1">`newField`</ph> parameter.</source>
+          <target state="translated">Viene utilizzato dal &lt;xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt;metodo per copiare le proprietà dell'oggetto corrente &lt;xref:System.Web.DynamicData.DynamicField&gt;dell'oggetto per il &lt;xref:System.Web.DynamicData.DynamicField&gt;oggetto passato il <ph id="ph1">`newField`</ph> parametro.&lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataControlField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to copy the properties of the current <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.DataControlField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per copiare le proprietà dell'oggetto corrente <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> per.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Provides a mechanism for classes that derive from <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to override how a <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicControl"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is created.</source>
+          <target state="translated">Fornisce un meccanismo per le classi che derivano da <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per eseguire l'override come un <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicControl"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> viene creato l'oggetto.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A new dynamic control.</source>
+          <target state="translated">Un nuovo controllo dinamico.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Creates and returns a new instance of the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Crea e restituisce una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateField method is a helper method.</source>
+          <target state="translated">Il metodo CreateField è un metodo di supporto.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used by the &lt;xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt; method to create an empty &lt;xref:System.Web.DynamicData.DynamicField&gt; object.</source>
+          <target state="translated">Viene utilizzato per il &lt;xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt;metodo per creare un oggetto vuoto &lt;xref:System.Web.DynamicData.DynamicField&gt;oggetto.&lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.UI.WebControls.DataControlField.CloneField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A new instance of the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the data field to bind the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to.</source>
+          <target state="translated">Ottiene o imposta il nome del campo dati da associare il <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the DataField property to specify the data field to bind to the &lt;xref:System.Web.DynamicData.DynamicField&gt; object.</source>
+          <target state="translated">Utilizzare la proprietà DataField per specificare il campo dei dati da associare il &lt;xref:System.Web.DynamicData.DynamicField&gt;oggetto.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data field can be the column name or, for foreign key columns, the relationship name.</source>
+          <target state="translated">Il campo dei dati può essere la colonna nome o per le colonne chiave esterna, il nome della relazione.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the specified data field is displayed by the &lt;xref:System.Web.DynamicData.DynamicField&gt; object using the field template that is associated with the field data type.</source>
+          <target state="translated">Per impostazione predefinita, viene visualizzato il campo dei dati specificato per il &lt;xref:System.Web.DynamicData.DynamicField&gt;utilizzando il modello di campo che è associato il tipo di dati del campo.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can change the field template that is rendered for the data field by setting the &lt;xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt; property.</source>
+          <target state="translated">È possibile modificare il modello di campo che viene eseguito il rendering per il campo dei dati impostando la &lt;xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt;proprietà.&lt;/xref:System.Web.DynamicData.DynamicField.UIHint%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also format the displayed text by setting the &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt; property.</source>
+          <target state="translated">È anche possibile formattare il testo visualizzato impostando il &lt;xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;proprietà.&lt;/xref:System.Web.DynamicData.DynamicField.DataFormatString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a field value is <ph id="ph1">`null`</ph>, an empty string ("") is displayed for the value by default.</source>
+          <target state="translated">Se è un valore del campo <ph id="ph1">`null`</ph>, una stringa vuota ("") viene visualizzato per il valore per impostazione predefinita.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify an alternate caption, set the &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt; property.</source>
+          <target state="translated">Per specificare una didascalia alternativa, impostare il &lt;xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;proprietà.&lt;/xref:System.Web.DynamicData.DynamicField.NullDisplayText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> If you want to change the display and behavior of a data field globally, you must apply attributes to your data model instead of setting this in a particular instance of the &lt;xref:System.Web.DynamicData.DynamicField&gt; object.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nota<ept id="p1">**</ept> se si desidera modificare la visualizzazione e il comportamento di un campo dati a livello globale, è necessario applicare attributi per il modello di dati anziché impostare questa proprietà in una particolare istanza di &lt;xref:System.Web.DynamicData.DynamicField&gt;oggetto.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET Dynamic Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>ASP.NET Dynamic Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt; method is called to raise a state change event when the DataField property is set.</source>
+          <target state="translated">Il &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;metodo viene chiamato per generare un evento di modifica dello stato quando è impostata la proprietà DataField.&lt;/xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the DataField property is stored in view state.</source>
+          <target state="translated">Il valore della proprietà DataField archiviato nella vista stato.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The name of the data field that the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is bound to.</source>
+          <target state="translated">Il nome dei dati di campo che il <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> è associato l'oggetto.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string that specifies the display format for the value of the data field.</source>
+          <target state="translated">Ottiene o imposta la stringa che specifica il formato di visualizzazione per il valore del campo dati.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the DataFormatString property to specify a custom display format for the values displayed in the &lt;xref:System.Web.DynamicData.DynamicField&gt; object.</source>
+          <target state="translated">Utilizzare la proprietà DataFormatString per specificare un formato di visualizzazione personalizzato per i valori visualizzati di &lt;xref:System.Web.DynamicData.DynamicField&gt;oggetto.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the DataFormatString property is not set, the field value is displayed without any special formatting.</source>
+          <target state="translated">Se la proprietà DataFormatString non è impostata, il valore del campo viene visualizzato senza alcuna formattazione speciale.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the formatting string is applied to the field value only when the data-bound control that contains the &lt;xref:System.Web.DynamicData.DynamicField&gt; object is in read-only mode.</source>
+          <target state="translated">Per impostazione predefinita, la stringa di formattazione viene applicata al valore di campo solo quando il controllo con associazione a dati che contiene il &lt;xref:System.Web.DynamicData.DynamicField&gt;oggetto è in modalità di sola lettura.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To apply the formatting string to the field value while in edit mode, set the &lt;xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Per applicare la stringa di formattazione per il valore del campo in modalità di modifica, impostare il &lt;xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt;proprietà <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.DynamicData.DynamicField.ApplyFormatInEditMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The display format that you specify using the DataFormatString property is specific to this instance of the &lt;xref:System.Web.DynamicData.DynamicField&gt; class.</source>
+          <target state="translated">Il formato di visualizzazione specificato mediante la proprietà DataFormatString è specifico per questa istanza della &lt;xref:System.Web.DynamicData.DynamicField&gt;classe.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also change the display format for a data field across the entire application by applying the &lt;xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute&gt; to your data model and setting the &lt;xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute.DataFormatString%2A?displayProperty=fullName&gt; named parameter in the constructor.</source>
+          <target state="translated">È anche possibile modificare il formato di visualizzazione per un campo dati in tutta l'applicazione applicando il &lt;xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute&gt;per il modello di data e l'impostazione di &lt;xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute.DataFormatString%2A?displayProperty=fullName&gt;denominato parametro nel costruttore.&lt;/xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute.DataFormatString%2A?displayProperty=fullName&gt; &lt;/xref:System.ComponentModel.DataAnnotations.DisplayFormatAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET Dynamic Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>ASP.NET Dynamic Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A formatting string that specifies the display format for the value of the data field.</source>
+          <target state="translated">Stringa di formattazione che specifica il formato di visualizzazione per il valore del campo dati.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The default is an empty string (""), which indicates that no special formatting is applied to the value.</source>
+          <target state="translated">Il valore predefinito è una stringa vuota (""), che indica che il valore è applicata alcuna formattazione speciale.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Extracts the value of the data field from the current table cell and adds the value to the specified dictionary.</source>
+          <target state="translated">Estrae il valore del campo dati da una cella della tabella corrente e aggiunge il valore al dizionario specificato.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The dictionary that will hold the cell values.</source>
+          <target state="translated">Dizionario che conterrà i valori di cella.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The cell that contains the text or controls of the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">La cella che contiene i controlli di testo di <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the row state.</source>
+          <target state="translated">Uno dei valori di enumerazione che specifica lo stato di riga.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the values of read-only fields in <ph id="ph1">`dictionary`</ph>; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Per includere i valori dei campi di sola lettura in <ph id="ph1">`dictionary`</ph>; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Retrieves the specified attribute value.</source>
+          <target state="translated">Recupera il valore dell'attributo specificato.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The key of the attribute to get.</source>
+          <target state="translated">Chiave dell'attributo da ottenere.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The value of the attribute.</source>
+          <target state="translated">Il valore dell'attributo.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text that is displayed in the header of the data-bound control that contains the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ottiene o imposta il testo che viene visualizzato nell'intestazione del controllo associato a dati che contiene il <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the HeaderText property to identify a field in a data-bound control with a friendly name.</source>
+          <target state="translated">Utilizzare la proprietà HeaderText per identificare un campo in un controllo con associazione a dati con un nome descrittivo.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most common application of the HeaderText property is to provide meaningful column names to data fields in a &lt;xref:System.Web.UI.WebControls.GridView&gt; or &lt;xref:System.Web.UI.WebControls.DetailsView&gt; control.</source>
+          <target state="translated">L'applicazione più comune della proprietà HeaderText consiste nel fornire nomi di colonna significativi ai campi di dati in un &lt;xref:System.Web.UI.WebControls.GridView&gt;o &lt;xref:System.Web.UI.WebControls.DetailsView&gt;controllo.&lt;/xref:System.Web.UI.WebControls.DetailsView&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the HeaderText property uses the display name set for the data field by using the &lt;xref:System.ComponentModel.DisplayNameAttribute&gt; attribute.</source>
+          <target state="translated">Per impostazione predefinita, la proprietà HeaderText Usa il nome visualizzato impostato per il campo dei dati tramite il &lt;xref:System.ComponentModel.DisplayNameAttribute&gt;attributo.&lt;/xref:System.ComponentModel.DisplayNameAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the display name is not set, the HeaderText property uses the value of the &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt; property.</source>
+          <target state="translated">Se il nome visualizzato non è impostato, la proprietà HeaderText utilizza il valore della &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt;proprietà.&lt;/xref:System.Web.DynamicData.DynamicField.DataField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The text that is displayed in the header of the data-bound control that contains the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Il testo che viene visualizzato nell'intestazione del controllo associato a dati che contiene il <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is inside a data-bound control that is not bound to a data source control that implements the <bpt id="p2">&lt;xref href="System.Web.DynamicData.IDynamicDataSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto si trova all'interno di un controllo con associazione a dati che non è associato a un controllo origine dati che implementa il <bpt id="p2">&lt;xref href="System.Web.DynamicData.IDynamicDataSource"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> interfaccia.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether data field values are HTML-encoded before they are displayed in a <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ottiene o imposta un valore che indica se i valori dei campi dati sono codificati in HTML prima che vengano visualizzati un <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the HtmlEncode property to specify whether field values are HTML-encoded to their respective string representations before they are displayed.</source>
+          <target state="translated">Utilizzare la proprietà HtmlEncode per specificare se i valori di campo sono codificati in HTML per le rispettive rappresentazioni di stringa prima che vengano visualizzati.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  HTML-encoding field values helps to prevent cross-site scripting attacks and malicious content from being displayed.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Codifica HTML campo valori consente di impedire la visualizzazione di attacchi di script e di contenuto dannoso.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property should be enabled whenever possible.</source>
+          <target state="translated">Questa proprietà deve essere abilitata quando possibile.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Script Exploits Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>Panoramica attacchi tramite Script<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if field values are HTML-encoded before they are displayed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se i valori dei campi sono codificati in HTML prima che vengano visualizzati; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Adds text or controls to the specified cell.</source>
+          <target state="translated">Aggiunge il testo o i controlli per la cella specificata.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The object that contains the text or controls of the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">L'oggetto che contiene i controlli di testo di <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the function of the <ph id="ph1">`cell`</ph> object.</source>
+          <target state="translated">Uno dei valori di enumerazione che specifica la funzione del <ph id="ph1">`cell`</ph> oggetto.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the row state.</source>
+          <target state="translated">Uno dei valori di enumerazione che specifica lo stato di riga.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The index of the row that the <ph id="ph1">`cell`</ph> object is contained in.</source>
+          <target state="translated">L'indice della riga che di <ph id="ph1">`cell`</ph> oggetto è contenuto in.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets or sets the caption that is displayed for a data field when the field value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ottiene o imposta la didascalia visualizzata per un campo dati quando il valore del campo <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sometimes a field value is stored as null in the data source.</source>
+          <target state="translated">Talvolta un valore di campo viene archiviato come null nell'origine dati.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify a custom caption to display for data fields that have a null value by setting the NullDisplayText property.</source>
+          <target state="translated">È possibile specificare una didascalia da visualizzare per i campi di dati che hanno un valore null impostando la proprietà NullDisplayText personalizzata.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is not set, null field values are displayed as empty strings ("").</source>
+          <target state="translated">Se questa proprietà non è impostata, i valori di campo null vengono visualizzati come stringhe vuote ("").</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The caption that is displayed for a data field when the field value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">La didascalia visualizzata per un campo dati quando il valore del campo <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The default is an empty string (""), which indicates that this property is not set.</source>
+          <target state="translated">Il valore predefinito è una stringa vuota (""), a indicare che questa proprietà non è impostata.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Gets the read-only state of the dynamic field.</source>
+          <target state="translated">Ottiene lo stato di sola lettura del campo dinamico.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the ReadOnly property is <ph id="ph1">`true`</ph>, the &lt;xref:System.Web.DynamicData.DynamicField&gt; control loads a read-only template.</source>
+          <target state="translated">Se la proprietà di sola lettura è <ph id="ph1">`true`</ph>, &lt;xref:System.Web.DynamicData.DynamicField&gt;controllo carica un modello di sola lettura.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property requires that view state be enabled.</source>
+          <target state="translated">Questa proprietà richiede che sia attivato lo stato di visualizzazione.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The read-only state of the dynamic field.</source>
+          <target state="translated">Lo stato di sola lettura del campo dinamico.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Sets an attribute that is associated with the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Imposta un attributo che è associato il <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The name of the attribute to be set.</source>
+          <target state="translated">Il nome dell'attributo da impostare.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The attribute value.</source>
+          <target state="translated">Il valore dell'attributo.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets or sets the sort expression that is used when the data field is used to sort the data source by.</source>
+          <target state="translated">Ottiene o imposta l'espressione di ordinamento viene utilizzato quando il campo dei dati viene utilizzato per ordinare l'origine dati.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SortExpression property tries to use the value of the &lt;xref:System.Web.DynamicData.MetaColumn.SortExpression%2A?displayProperty=fullName&gt; property of the column object that is associated with the &lt;xref:System.Web.DynamicData.DynamicField&gt; object by setting the &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt; property.</source>
+          <target state="translated">La proprietà SortExpression tenta di utilizzare il valore della &lt;xref:System.Web.DynamicData.MetaColumn.SortExpression%2A?displayProperty=fullName&gt;proprietà dell'oggetto colonna di cui è associato il &lt;xref:System.Web.DynamicData.DynamicField&gt;oggetto impostando il &lt;xref:System.Web.DynamicData.DynamicField.DataField%2A&gt;proprietà.&lt;/xref:System.Web.DynamicData.DynamicField.DataField%2A&gt; &lt;/xref:System.Web.DynamicData.DynamicField&gt; &lt;/xref:System.Web.DynamicData.MetaColumn.SortExpression%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt; method is called to raise a state change event when the SortExpression property is set.</source>
+          <target state="translated">Il &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;metodo viene chiamato per generare un evento di modifica dello stato quando è impostata la proprietà SortExpression.&lt;/xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the SortExpression property is stored in view state.</source>
+          <target state="translated">Il valore della proprietà SortExpression memorizzato nella visualizzazione stato.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The sort expression that is used when the data field is used to sort the data source by.</source>
+          <target state="translated">L'espressione di ordinamento che viene utilizzato quando il campo dei dati viene utilizzato per ordinare l'origine dati.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is inside a data-bound control that is not bound to a data source control that implements the <bpt id="p2">&lt;xref href="System.Web.DynamicData.IDynamicDataSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto si trova all'interno di un controllo con associazione a dati che non è associato a un controllo origine dati che implementa il <bpt id="p2">&lt;xref href="System.Web.DynamicData.IDynamicDataSource"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> interfaccia.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Gets or sets the field template to use for displaying the data field.</source>
+          <target state="translated">Ottiene o imposta il modello di campo da utilizzare per visualizzare il campo dei dati.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the UIHint property to specify the field template to use to display the UI for a data field.</source>
+          <target state="translated">Utilizzare la proprietà di UIHint per specificare il modello di campo da utilizzare per visualizzare l'interfaccia utente per un campo dati.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Field templates by default are user controls and their names contain a suffix to identify field templates that are used for edit operations and insert operations.</source>
+          <target state="translated">Modelli di campo per impostazione predefinita sono controlli utente e i relativi nomi contengono un suffisso per identificare i modelli di campo che vengono utilizzati per le operazioni di modifica e le operazioni di inserimento.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The suffixes are _edit and _insert, respectively.</source>
+          <target state="translated">I suffissi sono rispettivamente Edit e INSERT.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set a value to the UIHint property, you set the name without the suffixes.</source>
+          <target state="translated">Quando si imposta un valore alla proprietà UIHint, impostare il nome senza il suffisso.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Dynamic Data will identify the current mode of the data field and will render the correct field template.</source>
+          <target state="translated">Dynamic Data identificherà la modalità corrente del campo dati e verrà eseguito il rendering del modello di campo corretto.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the UIHint property is not set, Dynamic Data by default will render the field template based on the field type.</source>
+          <target state="translated">Se la proprietà di UIHint non è impostata, Dynamic Data per impostazione predefinita verrà visualizzato il modello di campo in base al tipo di campo.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET Dynamic Data Scaffolding<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>ASP.NET Dynamic Data Scaffolding<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The field template that you specify using the UIHint property is specific to this instance of the &lt;xref:System.Web.DynamicData.DynamicField&gt; class.</source>
+          <target state="translated">Il modello di campo specificato mediante la proprietà UIHint è specifico per questa istanza della &lt;xref:System.Web.DynamicData.DynamicField&gt;classe.&lt;/xref:System.Web.DynamicData.DynamicField&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also change the field template used by a data field across the entire application by applying the &lt;xref:System.ComponentModel.DataAnnotations.UIHintAttribute&gt; to your data model.</source>
+          <target state="translated">È anche possibile modificare il modello di campo utilizzato da un campo dati in tutta l'applicazione applicando la &lt;xref:System.ComponentModel.DataAnnotations.UIHintAttribute&gt;al modello di dati.&lt;/xref:System.ComponentModel.DataAnnotations.UIHintAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the UIHint property overrides the metadata applied to the data model.</source>
+          <target state="translated">Impostazione della proprietà UIHint sostituisce i metadati applicati al modello di dati.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about metadata attributes, see <bpt id="p1">[</bpt>ASP.NET Dynamic Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sugli attributi dei metadati, vedere <bpt id="p1">[</bpt>ASP.NET Dynamic Data<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt; method is called to raise a state change event when the UIHint property is set.</source>
+          <target state="translated">Il &lt;xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;metodo viene chiamato per generare un evento di modifica dello stato quando è impostata la proprietà UIHint.&lt;/xref:System.Web.UI.WebControls.DataControlField.OnFieldChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the UIHint property is stored in view state.</source>
+          <target state="translated">Il valore di UIHint proprietà è archiviato nella vista stato.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The name of the field template to use for displaying the data field.</source>
+          <target state="translated">Il nome del modello di campo da utilizzare per visualizzare il campo dei dati.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that specifies whether the control validates client input.</source>
+          <target state="translated">Ottiene o imposta un valore che specifica se il controllo convalida l'input per il client.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control validates client input; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il controllo convalida input client; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Web.DynamicData.DynamicControl.ValidationGroup*&gt; object that this <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated with.</source>
+          <target state="translated">Ottiene il &lt;xref:System.Web.DynamicData.DynamicControl.ValidationGroup*&gt;oggetto dall'oggetto <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicField"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associato all'oggetto.&lt;/xref:System.Web.DynamicData.DynamicControl.ValidationGroup*&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The name of the validation group to which this validation control belongs.</source>
+          <target state="translated">Il nome del gruppo di convalida a cui appartiene questo controllo di convalida.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The default is an empty string (""), which indicates that this property is not set.</source>
+          <target state="translated">Il valore predefinito è una stringa vuota (""), a indicare che questa proprietà non è impostata.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
