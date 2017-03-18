@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">846e5427bae7cdf3c94cbaca8454ea6c14faf892</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Animation.Clock.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ca7fbcea7d80745785732afed01d10c9d36cfa84</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a4f8ba5891674fa905720e5f64079e409cab6b6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Maintains run-time timing state for a <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Timeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">実行時のタイミング状態を保持する、 <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Timeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Windows.Media.Animation.Timeline&gt;, by itself, doesn't actually do anything other than describe a segment of time.</source>
+          <target state="translated">A &lt;xref:System.Windows.Media.Animation.Timeline&gt;、単独で実際に何もしない以外の時間のセグメントについて説明します&lt;/xref:System.Windows.Media.Animation.Timeline&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It's the timeline's Clock object that does the real work: it maintains timing-related run-time state for the timeline.</source>
+          <target state="translated">タイムラインのクロックを実際の作業を行う: タイムラインの実行時のタイミングに関連する状態を保持します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In most cases, a clock is created automatically for your timeline.</source>
+          <target state="translated">ほとんどの場合、タイムラインの時計が自動的に作成します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When you animate by using a &lt;xref:System.Windows.Media.Animation.Storyboard&gt; or the &lt;xref:System.Windows.Media.Animation.Animatable.BeginAnimation%2A&gt; method, clocks are automatically created for your timelines and animations and applied to their targeted properties.</source>
+          <target state="translated">使用してアニメーション化するときに、&lt;xref:System.Windows.Media.Animation.Storyboard&gt;または&lt;xref:System.Windows.Media.Animation.Animatable.BeginAnimation%2A&gt;メソッド、クロックが自動的にタイムラインとアニメーションを作成し、その対象となるプロパティに適用します&lt;/xref:System.Windows.Media.Animation.Animatable.BeginAnimation%2A&gt;&lt;/xref:System.Windows.Media.Animation.Storyboard&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For examples, see <bpt id="p1">[</bpt>How to: Animate a Property by Using a Storyboard<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>How to: Animate a Property Without Using a Storyboard<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">例については、次を参照してください。<bpt id="p1">[</bpt>する方法: ストーリー ボードを使用してプロパティをアニメーション化<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>と<bpt id="p2">[</bpt>する方法: プロパティなしを使用して、ストーリー ボードのアニメーション化<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can also create a Clock explicitly by using the &lt;xref:System.Windows.Media.Animation.Timeline.CreateClock%2A&gt; method.</source>
+          <target state="translated">作成することも、クロックに明示的を使用して、&lt;xref:System.Windows.Media.Animation.Timeline.CreateClock%2A&gt;メソッド&lt;/xref:System.Windows.Media.Animation.Timeline.CreateClock%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In performance-intensive scenarios, such as animating large numbers of similar objects, managing your own Clock use can provide performance benefits.</source>
+          <target state="translated">多数の類似オブジェクトをアニメーション化するなど、パフォーマンス重視のシナリオで、独自のクロックの使用を管理する、パフォーマンスが向上します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Clocks are arranged in trees that match the structure of the &lt;xref:System.Windows.Media.Animation.Timeline&gt; objects tree from which they are created.</source>
+          <target state="translated">クロックがツリーの構造に合ったで配置された、&lt;xref:System.Windows.Media.Animation.Timeline&gt;オブジェクト ツリーから作成されます&lt;/xref:System.Windows.Media.Animation.Timeline&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The root clock of such a timing tree can be interactively manipulated (paused, resumed, stopped, and so on) by retrieving its &lt;xref:System.Windows.Media.Animation.Clock.Controller%2A&gt;.</source>
+          <target state="translated">このようなタイミング ツリーのルート クロック対話的に操作できます (一時停止、再開、停止、およびなど) によってその&lt;xref:System.Windows.Media.Animation.Clock.Controller%2A&gt;.&lt;/xref:System.Windows.Media.Animation.Clock.Controller%2A&gt;を取得します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Non-root clocks cannot be directly controlled.</source>
+          <target state="translated">ルート以外のクロックを直接制御できません。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Once created, a clock cannot be modified (but it can be manipulated).</source>
+          <target state="translated">いったん作成されると、時計を変更できません (ただし、操作することができます)。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Using a Timeline as a Timer    A timeline's clock will only progress when there's an event handler associated with it or (in the case of an &lt;xref:System.Windows.Media.Animation.AnimationClock&gt; object) it is associated with a property.</source>
+          <target state="translated">イベント ハンドラーがある場合にのみタイマー A タイムラインの時計は進行状況に応じて、タイムラインを使用して、関連付けられているか (の場合、&lt;xref:System.Windows.Media.Animation.AnimationClock&gt;オブジェクト) プロパティに関連付けられている&lt;/xref:System.Windows.Media.Animation.AnimationClock&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For this reason (and others), it's not recommended that you use a &lt;xref:System.Windows.Media.Animation.Timeline&gt; as a timer.</source>
+          <target state="translated">この理由 (など)、これはお勧めしませんを使用すること、&lt;xref:System.Windows.Media.Animation.Timeline&gt;をタイマーとして&lt;/xref:System.Windows.Media.Animation.Timeline&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, using the specified &lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt; as a template.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスを指定して&lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt;をテンプレートとして&lt;/xref:System.Windows.Media.Animation.Clock.Timeline*&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The new <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object has no children.</source>
+          <target state="translated">新しい<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトに子がありません。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.Animation.Clock.Timeline<bpt id="p1">*</bpt>&gt; from which this clock should be constructed. Clocks are not created for any child &lt;xref:System.Windows.Media.Animation.Clock.Timeline<ept id="p1">*</ept>&gt; objects, if they exist.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; からこの時計を構築する必要があります。すべての子の時計は作成されません&lt;&gt; <ept id="p1">*</ept>&gt; オブジェクト、存在する場合。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Occurs when this clock has completely finished playing.</source>
+          <target state="translated">このクロックの再生が完全に完了と発生します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If this clock is the root clock of a clock tree, it has completed playing after it reaches the end of its active duration (which includes repeats) and all its children have reached the end of their active durations.</source>
+          <target state="translated">このクロックがクロックのツリーのルート クロックである場合は、そのアクティブ期間 (繰り返しを含む) の末尾に達するし、そのすべての子はそれぞれのアクティブ期間の終わりに達しました後に、再生は完了します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If this clock is a child clock, it is considered to have completely finished playing when the root clock of the clock tree to which it belongs reaches the end of its active duration and all its child clocks have finished playing.</source>
+          <target state="translated">このクロックが子クロックである場合は、再生、ツリーのルート クロック、時計を所属先に達すると、アクティブな期間とそのすべての子のクロックの終了したら、再生が完了したと見なされます。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Stopping a clock does not trigger its completed event, but advancing it to its fill period does.</source>
+          <target state="translated">クロックを停止すると、その完了イベントがトリガーされませんが、塗りつぶし期間に進みます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be used to start, pause, resume, seek, skip, stop, or remove this <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>開始、一時停止、再開、シーク、スキップ、停止、または削除に使用できる<bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Only root clocks can be interactively controlled.</source>
+          <target state="translated">ルート クロックのみを対話的に制御できます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockController"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this is a root clock; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockController"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>場合はこれがルート クロックです。 それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the rate at which the clock's time is currently progressing, compared to real-world time.</source>
+          <target state="translated">現実世界の時間と比較される時計の時刻が現在進行している、レートを取得します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The rate at which this clock's time is current progressing, compared to real-world time.</source>
+          <target state="translated">クロックの時間が速度現在進行中では、現実世界の時間を比較します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If the clock is stopped, this property returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">このプロパティを返しますのかどうか、クロックが停止すると、 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Occurs when the clock's speed is updated.</source>
+          <target state="translated">クロックの速度が更新されたときに発生します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Pausing, resuming, reversing, accelerating, decelerating, seeking, stopping, or changing a clock's interactive speed using a &lt;xref:System.Windows.Media.Animation.ClockController&gt; triggers this event.</source>
+          <target state="translated">一時停止、再開を反転すること、加速する場合に、減速、シーク、停止、またはクロックの変更の対話型を使用して高速化、&lt;xref:System.Windows.Media.Animation.ClockController&gt;このイベントを発生させます&lt;/xref:System.Windows.Media.Animation.ClockController&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Although this event occurs when the &lt;xref:System.Windows.Media.Animation.Clock.CurrentGlobalSpeed%2A&gt; property becomes invalid, that doesn't necessarily mean the property changed.</source>
+          <target state="translated">このイベントが発生しますが、ときに、&lt;xref:System.Windows.Media.Animation.Clock.CurrentGlobalSpeed%2A&gt;プロパティが変更されたプロパティ、必ずしもを無効になります&lt;/xref:System.Windows.Media.Animation.Clock.CurrentGlobalSpeed%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the current global time, as established by the <ph id="ph1">[!INCLUDE[TLA2#tla_wpf](~/add/includes/ajax-current-ext-md.md)]</ph> timing system.</source>
+          <target state="translated">指定されている現在のグローバル時間を取得、<ph id="ph1">[!INCLUDE[TLA2#tla_wpf](~/add/includes/ajax-current-ext-md.md)]</ph>タイミング システムです。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The current global time for the <ph id="ph1">[!INCLUDE[TLA2#tla_wpf](~/add/includes/ajax-current-ext-md.md)]</ph> timing system.</source>
+          <target state="translated">現在のグローバル時間、<ph id="ph1">[!INCLUDE[TLA2#tla_wpf](~/add/includes/ajax-current-ext-md.md)]</ph>タイミング システムです。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Get the current iteration of this clock.</source>
+          <target state="translated">このクロックの現在のイテレーションを取得します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A clock's first iteration has a value of 1.</source>
+          <target state="translated">クロックの最初のイテレーションでは、1 の値を持ちます。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If this clock's timeline has an &lt;xref:System.Windows.Media.Animation.Timeline.AutoReverse%2A&gt; setting of <ph id="ph1">`true`</ph>, a full iteration consists of a forward-reverse pair, not just one of these segments.</source>
+          <target state="translated">この時計のタイムラインがある場合、&lt;xref:System.Windows.Media.Animation.Timeline.AutoReverse%2A&gt;設定<ph id="ph1">`true`</ph>、順方向リバースのペアで構成全体の反復処理、セグメントを次のいずれかだけでなく&lt;/xref:System.Windows.Media.Animation.Timeline.AutoReverse%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Regardless of its current iteration, seeking a clock returns its current iteration to 1.</source>
+          <target state="translated">現在のイテレーションに関係なくクロックをシークの現在のイテレーション 1 を返します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Restarting a clock also returns its current iteration to 1.</source>
+          <target state="translated">1 に現在の反復を返しますもクロックを再起動します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This clock's current iteration within its current active period, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this clock is stopped.</source>
+          <target state="translated">その現在のアクティブな期間内でのクロックの現在のイテレーションまたは<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>このクロックが停止している場合。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets the current progress of this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> within its current iteration.</source>
+          <target state="translated">この現在の進行状況を取得<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>その現在のイテレーション内で。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value of this property indicates the &lt;xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt; normalized by the &lt;xref:System.Windows.Media.Animation.Timeline.Duration%2A&gt; of this clock's &lt;xref:System.Windows.Media.Animation.Clock.Timeline%2A&gt;.</source>
+          <target state="translated">このプロパティの値が、&lt;xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt;によって&lt;xref:System.Windows.Media.Animation.Timeline.Duration%2A&gt;この時計の&lt;xref:System.Windows.Media.Animation.Clock.Timeline%2A&gt;。&lt;/xref:System.Windows.Media.Animation.Clock.Timeline%2A&gt;の&lt;/xref:System.Windows.Media.Animation.Timeline.Duration%2A&gt;正規化された&lt;/xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt;ことを示します</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A clock that is &lt;xref:System.Windows.Media.Animation.ClockState&gt; has a CurrentProgress of 1.0.</source>
+          <target state="translated">あるクロック&lt;xref:System.Windows.Media.Animation.ClockState&gt;が 1.0 の CurrentProgress&lt;/xref:System.Windows.Media.Animation.ClockState&gt; 。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Using a Timeline as a Timer    A timeline's clock will only progress when there's an event hander associated with it or (in the case of an &lt;xref:System.Windows.Media.Animation.AnimationClock&gt; object) it is associated with a property.</source>
+          <target state="translated">イベント ハンドラーがある場合にのみタイマー A タイムラインの時計は進行状況に応じて、タイムラインを使用して、関連付けられているか (の場合、&lt;xref:System.Windows.Media.Animation.AnimationClock&gt;オブジェクト) プロパティに関連付けられている&lt;/xref:System.Windows.Media.Animation.AnimationClock&gt;。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For this reason (and others), it's not recommended that you use a &lt;xref:System.Windows.Media.Animation.Timeline&gt; as a timer.</source>
+          <target state="translated">この理由 (など)、これはお勧めしませんを使用すること、&lt;xref:System.Windows.Media.Animation.Timeline&gt;をタイマーとして&lt;/xref:System.Windows.Media.Animation.Timeline&gt;。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this clock is <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or 0.0 if this clock is active and its &lt;xref:System.Windows.Media.Animation.Clock.Timeline<bpt id="p3">*</bpt>&gt; has a &lt;xref:System.Windows.Media.Animation.Timeline.Duration<ept id="p3">*</ept>&gt; of &lt;xref:System.Windows.Duration.Forever*&gt;; otherwise, a value between 0.0 and 1.0 that indicates the current progress of this Clock within its current iteration.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>このクロックが場合<bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>、またはこのクロックがアクティブな場合、0.0 とその&lt;&gt; <bpt id="p3">*</bpt>&gt; が、 &lt;&gt; &lt;/&gt; <ept id="p3">*</ept>&gt; の&lt;xref:System.Windows.Duration.Forever*&gt;以外の場合、0.0 ~ 1.0 の現在のイテレーションにおけるこのクロックの現在の進行状況を示す値&lt;/xref:System.Windows.Duration.Forever*&gt;。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A value of 0.0 indicates no progress, and a value of 1.0 indicates that the clock is at the end of its current iteration.</source>
+          <target state="translated">値が 0.0 のない進行状況を示し、値が 1.0 の時計が、現在のイテレーションの終了値であります。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the clock is currently <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">クロックが現在あるかどうかを示す値を取得<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、 <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>、または<bpt id="p3">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Note the clock's CurrentState property doesn't tell you whether it's paused.</source>
+          <target state="translated">時計の CurrentState プロパティかは示されませんが一時停止するかどうかに注意してください。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To determine whether a clock is paused, use the &lt;xref:System.Windows.Media.Animation.Clock.IsPaused%2A&gt; property.</source>
+          <target state="translated">クロックが一時停止しているかどうかを判断するのには、使用、&lt;xref:System.Windows.Media.Animation.Clock.IsPaused%2A&gt;プロパティ&lt;/xref:System.Windows.Media.Animation.Clock.IsPaused%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.Animation.Clock.CurrentStateInvalidated&gt; occurs whenever the value of this property changes.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Animation.Clock.CurrentStateInvalidated&gt;このプロパティの値が変更されるたびに発生します&lt;/xref:System.Windows.Media.Animation.Clock.CurrentStateInvalidated&gt;。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The current state of the clock: <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">クロックの現在の状態: <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、 <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>、または<bpt id="p3">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Occurs when the clock's &lt;xref:System.Windows.Media.Animation.Clock.CurrentState*&gt; property is updated.</source>
+          <target state="translated">発生したときに、クロックの&lt;xref:System.Windows.Media.Animation.Clock.CurrentState*&gt;プロパティを更新します&lt;/xref:System.Windows.Media.Animation.Clock.CurrentState*&gt;。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Media.Animation.Timeline.CurrentStateInvalidated&gt; event when you want to be notified if when the clock starts, stops, or fills.</source>
+          <target state="translated">使用して、&lt;xref:System.Windows.Media.Animation.Timeline.CurrentStateInvalidated&gt;場合は、クロックの開始時に通知されるようにするときにイベントが停止すると、または入力します&lt;/xref:System.Windows.Media.Animation.Timeline.CurrentStateInvalidated&gt;。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; parameter of the &lt;xref:System.EventHandler&gt; event handler is the &lt;xref:System.Windows.Media.Animation.Clock&gt; whose state was invalidated.</source>
+          <target state="translated">&lt;xref:System.Object&gt;のパラメーター、&lt;xref:System.EventHandler&gt;イベント ハンドラーは、&lt;xref:System.Windows.Media.Animation.Clock&gt;状態が無効になりました&lt;/xref:System.Windows.Media.Animation.Clock&gt;&lt;/xref:System.EventHandler&gt;&lt;/xref:System.Object&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Pausing a &lt;xref:System.Windows.Media.Animation.Clock&gt; does not change its &lt;xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Animation.Clock&gt;その&lt;xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt;。&lt;/xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt;は変わらないので&lt;/xref:System.Windows.Media.Animation.Clock&gt;、一時停止</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To be notified when a clock becomes paused, use the &lt;xref:System.Windows.Media.Animation.Timeline.CurrentGlobalSpeedInvalidated&gt; event.</source>
+          <target state="translated">クロックが一時停止しているときに通知するを使用して、&lt;xref:System.Windows.Media.Animation.Timeline.CurrentGlobalSpeedInvalidated&gt;イベント&lt;/xref:System.Windows.Media.Animation.Timeline.CurrentGlobalSpeedInvalidated&gt;。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Although this event occurs when the &lt;xref:System.Windows.Media.Animation.ClockState&gt; becomes invalid, that doesn't necessarily mean the &lt;xref:System.Windows.Media.Animation.ClockState&gt; changed: a &lt;xref:System.Windows.Media.Animation.Clock&gt; that switches from &lt;xref:System.Windows.Media.Animation.ClockState&gt; to &lt;xref:System.Windows.Media.Animation.ClockState&gt; and then back to &lt;xref:System.Windows.Media.Animation.ClockState&gt; in the same tick will cause this event to fire, but its &lt;xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt; property won't actually change.</source>
+          <target state="translated">このイベントが発生しますが、ときに、&lt;xref:System.Windows.Media.Animation.ClockState&gt;いって、必ずしもを無効になります、&lt;xref:System.Windows.Media.Animation.ClockState&gt;変更:&lt;xref:System.Windows.Media.Animation.Clock&gt;からに切り替えること&lt;xref:System.Windows.Media.Animation.ClockState&gt;に&lt;xref:System.Windows.Media.Animation.ClockState&gt;に戻ると&lt;xref:System.Windows.Media.Animation.ClockState&gt;同じティックの場合は、このイベントを起動がその&lt;xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt;プロパティが実際に変更されません&lt;/xref:System.Windows.Media.Animation.Clock.CurrentState%2A&gt;&lt;/xref:System.Windows.Media.Animation.ClockState&gt;&lt;/xref:System.Windows.Media.Animation.ClockState&gt;&lt;/xref:System.Windows.Media.Animation.ClockState&gt;&lt;/xref:System.Windows.Media.Animation.Clock&gt;&lt;/xref:System.Windows.Media.Animation.ClockState&gt;&lt;/xref:System.Windows.Media.Animation.ClockState&gt;。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets this clock's current time within its current iteration.</source>
+          <target state="translated">取得このクロックの現在の現在のイテレーションにおける現在の時刻。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Using a Timeline as a Timer    A timeline's clock will only progress when there's an event hander associated with it or (in the case of an &lt;xref:System.Windows.Media.Animation.AnimationClock&gt; object) it is associated with a property.</source>
+          <target state="translated">イベント ハンドラーがある場合にのみタイマー A タイムラインの時計は進行状況に応じて、タイムラインを使用して、関連付けられているか (の場合、&lt;xref:System.Windows.Media.Animation.AnimationClock&gt;オブジェクト) プロパティに関連付けられている&lt;/xref:System.Windows.Media.Animation.AnimationClock&gt;。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For this reason (and others), it's not recommended that you use a &lt;xref:System.Windows.Media.Animation.Timeline&gt; as a timer.</source>
+          <target state="translated">この理由 (など)、これはお勧めしませんを使用すること、&lt;xref:System.Windows.Media.Animation.Timeline&gt;をタイマーとして&lt;/xref:System.Windows.Media.Animation.Timeline&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this clock is <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, the current time of this clock.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>このクロックが場合<bpt id="p2">&lt;xref href="System.Windows.Media.Animation.ClockState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>以外の場合、このクロックの現在の時刻。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Occurs when this clock's &lt;xref:System.Windows.Media.Animation.Clock.CurrentTime*&gt; becomes invalid.</source>
+          <target state="translated">発生したときにこの時計の&lt;xref:System.Windows.Media.Animation.Clock.CurrentTime*&gt;は無効になります&lt;/xref:System.Windows.Media.Animation.Clock.CurrentTime*&gt;。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, will be invoked whenever a clock repeats, skips, or seeks.</source>
+          <target state="translated">クロックが繰り返されます、スキップ、またはシークされるたびに、派生クラスとして実装された場合は呼び出されます。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Returns whether the <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has its own external time source, which may require synchronization with the timing system.</source>
+          <target state="translated">返すかどうか、 <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>が自身の外部のタイム ソース タイミング システムとの同期が必要です。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Media being played using &lt;xref:System.Windows.Media.MediaTimeline&gt; within a &lt;xref:System.Windows.Media.Animation.Storyboard&gt; is an example of creating a &lt;xref:System.Windows.Media.Animation.Clock&gt; that would have an external time source (a video clip for example) which may require synchronization with other timelines within the &lt;xref:System.Windows.Media.Animation.Storyboard&gt;.</source>
+          <target state="translated">メディア&lt;xref:System.Windows.Media.MediaTimeline&gt;&lt;xref:System.Windows.Media.Animation.Storyboard&gt;&lt;xref:System.Windows.Media.Animation.Clock&gt;&lt;xref:System.Windows.Media.Animation.Storyboard&gt;.&lt;/xref:System.Windows.Media.Animation.Storyboard&gt;内で他のタイムラインとの同期が必要な場合があります外部時刻ソース (たとえばビデオ クリップ) 必要がありますを&lt;/xref:System.Windows.Media.Animation.Clock&gt;作成する例&lt;/xref:System.Windows.Media.Animation.Storyboard&gt;&lt;/xref:System.Windows.Media.MediaTimeline&gt;を使用して再生します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Windows.Media.Animation.ParallelTimeline.SlipBehavior%2A&gt; for more information.</source>
+          <target state="translated">参照してください&lt;xref:System.Windows.Media.Animation.ParallelTimeline.SlipBehavior%2A&gt;詳細についてはします&lt;/xref:System.Windows.Media.Animation.ParallelTimeline.SlipBehavior%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">**</bpt>true<ept id="p1">**</ept> if the <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has its own external source for time, which may require synchronization with the timing system; otherwise, <bpt id="p3">**</bpt>false<ept id="p3">**</ept>.</source>
+          <target state="translated">返します<bpt id="p1">**</bpt>true<ept id="p1">**</ept>場合、 <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>自身の外部ソースを時間、タイミング システムとの同期が必要ですがそれ以外の場合、 <bpt id="p3">**</bpt>false<ept id="p3">**</ept>です。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets this clock's current time within its current iteration.</source>
+          <target state="translated">取得このクロックの現在の現在のイテレーションにおける現在の時刻。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This method is used in the implementation of the &lt;xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt; method and should not be called directly from your code.</source>
+          <target state="translated">実装では、このメソッドを使用してください、&lt;xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt;メソッドと、コードから直接呼び出すことはできません。&lt;/xref:System.Windows.Media.Animation.Clock.CurrentTime%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The current time of this clock if it is active or filling; otherwise, &lt;xref:System.TimeSpan&gt;.</source>
+          <target state="translated">アクティブまたは保留されている場合は、このクロックの現在の時刻それ以外の場合、 &lt;xref:System.TimeSpan&gt;.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is part of a controllable clock tree.</source>
+          <target state="translated">示す値を取得するかどうかこの<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>制御可能なクロックのツリーの一部です。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this clock belongs to a clock tree with a controllable root clock or if this clock is itself a controllable root; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>このクロックが、制御可能なルート クロックでクロックのツリーに属している場合、またはこのクロック自体が制御可能なルートです。それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or any of its parents, is paused.</source>
+          <target state="translated">示す値を取得するかどうかこの<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、または一時停止は、親のいずれか。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this <bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or any of its parents is paused; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>この場合<bpt id="p2">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>または一時停止中です。 それ以外の場合、その親のいずれかが<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets the natural duration of this clock's &lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt;.</source>
+          <target state="translated">この時計の&lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt;。&lt;/xref:System.Windows.Media.Animation.Clock.Timeline*&gt;の自然な期間を取得します。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For more information about natural duration, see the &lt;xref:System.Windows.Media.Animation.Timeline.GetNaturalDuration%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">自然な期間の詳細については、次を参照してください、&lt;xref:System.Windows.Media.Animation.Timeline.GetNaturalDuration%2A?displayProperty=fullName&gt;メソッド。&lt;/xref:System.Windows.Media.Animation.Timeline.GetNaturalDuration%2A?displayProperty=fullName&gt; 。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The natural duration of this clock, as determined by its &lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt;.</source>
+          <target state="translated">その&lt;xref:System.Windows.Media.Animation.Clock.Timeline*&gt;。&lt;/xref:System.Windows.Media.Animation.Clock.Timeline*&gt;によって決定されるこのクロックの自然な期間</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the clock that is the parent of this clock.</source>
+          <target state="translated">このクロックの親である、クロックを取得します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The parent of this clock or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this clock is a root.</source>
+          <target state="translated">このクロックの親または<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>このクロックがルートである場合。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Media.Animation.ClockController.Remove*&gt; method is called on this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or one of its parent clocks.</source>
+          <target state="translated">発生したときに、&lt;xref:System.Windows.Media.Animation.ClockController.Remove*&gt;このメソッドが呼び出された<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>またはその親のクロックの&amp;1; つ&lt;/xref:System.Windows.Media.Animation.ClockController.Remove*&gt;。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, will be invoked whenever a clock begins, skips, pauses, resumes, or when the clock's &lt;xref:System.Windows.Media.Animation.ClockController.SpeedRatio*&gt; is modified.</source>
+          <target state="translated">派生クラスで実装される、時計されるたびに呼び出されるときに開始、スキップ、一時停止、再開されると、場合や、クロックの&lt;xref:System.Windows.Media.Animation.ClockController.SpeedRatio*&gt;を変更します&lt;/xref:System.Windows.Media.Animation.ClockController.SpeedRatio*&gt;。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, will be invoked whenever a clock is stopped using the &lt;xref:System.Windows.Media.Animation.ClockController.Stop*&gt; method.</source>
+          <target state="translated">派生クラスで実装が呼び出され、クロックの使用を停止するたびに、&lt;xref:System.Windows.Media.Animation.ClockController.Stop*&gt;メソッド&lt;/xref:System.Windows.Media.Animation.ClockController.Stop*&gt;。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets the Timeline from which this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> was created.</source>
+          <target state="translated">このタイムラインを取得<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>作成されました。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Modifying a clock's &lt;xref:System.Windows.Media.MediaTimeline&gt; does not update the clock; a new clock must be created from the modified &lt;xref:System.Windows.Media.Animation.Timeline&gt;.</source>
+          <target state="translated">クロックの変更&lt;xref:System.Windows.Media.MediaTimeline&gt;; 時計を更新できません変更&lt;xref:System.Windows.Media.Animation.Timeline&gt;.&lt;/xref:System.Windows.Media.Animation.Timeline&gt;から新しいクロックを作成する必要があります&lt;/xref:System.Windows.Media.MediaTimeline&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The Timeline from which this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> was created.</source>
+          <target state="translated">このタイムライン<bpt id="p1">&lt;xref href="System.Windows.Media.Animation.Clock"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>作成されました。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

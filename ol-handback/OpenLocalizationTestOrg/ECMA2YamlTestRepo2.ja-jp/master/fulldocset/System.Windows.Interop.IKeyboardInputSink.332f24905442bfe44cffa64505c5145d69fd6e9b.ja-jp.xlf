@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15b9a1f3b6cdd0f4e2e52d9bd81e8f3e838c3e2e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Interop.IKeyboardInputSink.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">429fd829d97daed5f44189cced2b66317de4b660</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">55a01909041b186e03a5af5fe749c2c00d6fd755</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a keyboard sink for components that manages tabbing, accelerators, and mnemonics across interop boundaries and between HWNDs.</source>
+          <target state="translated">相互運用の境界を越えてと Hwnd の間では、tab キーを管理するコンポーネント、アクセラレータ、および ニーモニックのキーボード シンクを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This interface implements keyboard message management in <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph><ph id="ph2">-</ph><ph id="ph3">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> interoperation scenarios.</source>
+          <target state="translated">このインターフェイスの実装でのキーボード メッセージ管理<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> <ph id="ph2">-</ph> <ph id="ph3">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph>相互運用シナリオです。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A keyboard sink handles input from particular subsets of the overall keyboard input model for <ph id="ph1">[!INCLUDE[TLA#tla_win32](~/add/includes/tlasharptla-win32-md.md)]</ph> and <ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>, and enables some keyboard input to be processed and directed to HWNDs other than the one with current keyboard focus.</source>
+          <target state="translated">キーボード シンクの全般的なキーボードの入力モデルの特定のサブセットから入力を処理する<ph id="ph1">[!INCLUDE[TLA#tla_win32](~/add/includes/tlasharptla-win32-md.md)]</ph>と<ph id="ph2">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph>、でき、一部はキーボード入力を処理して、現在のキーボード フォーカスを持つ&amp;1; つ以外 Hwnd に送られます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If your component contains other components, and maintains a tab order, your component must also implement &lt;xref:System.Windows.Interop.IKeyboardInputSite&gt; and keep track of which component has focus.</source>
+          <target state="translated">コンポーネントを実装する必要がありますもコンポーネントでは、他のコンポーネントが含まれていて、タブの順序を維持、&lt;xref:System.Windows.Interop.IKeyboardInputSite&gt;のどのコンポーネントがフォーカスを追跡することです&lt;/xref:System.Windows.Interop.IKeyboardInputSite&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For a discussion of the input architecture specifically implemented for <ph id="ph1">[!INCLUDE[TLA#tla_winforms](~/add/includes/ajax-current-ext-md.md)]</ph> interop, see <bpt id="p1">[</bpt>Windows Forms and WPF Interoperability Input Architecture<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">については、入力のアーキテクチャを具体的には実装されている<ph id="ph1">[!INCLUDE[TLA#tla_winforms](~/add/includes/ajax-current-ext-md.md)]</ph>相互運用性を参照してください<bpt id="p1">[</bpt>Windows フォームと WPF の相互運用性入力アーキテクチャ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Interop.HwndSource&gt; and &lt;xref:System.Windows.Interop.HwndHost&gt; each implement the IKeyboardInputSink interface, through explicit interface definitions.</source>
+          <target state="translated">&lt;xref:System.Windows.Interop.HwndSource&gt;および&lt;xref:System.Windows.Interop.HwndHost&gt;明示的なインターフェイスの定義を介して、IKeyboardInputSink インターフェイスを実装して各&lt;/xref:System.Windows.Interop.HwndHost&gt;。&lt;/xref:System.Windows.Interop.HwndSource&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The explicit definitions supply default behaviors, and can also be accessed if necessary through an IKeyboardInputSink interface cast of &lt;xref:System.Windows.Interop.HwndSource&gt; or &lt;xref:System.Windows.Interop.HwndHost&gt;.</source>
+          <target state="translated">明示的な定義は、既定の動作を指定し、必要に応じて IKeyboardInputSink インターフェイスを使用のキャスト&lt;xref:System.Windows.Interop.HwndSource&gt;または&lt;xref:System.Windows.Interop.HwndHost&gt;.&lt;/xref:System.Windows.Interop.HwndHost&gt;&lt;/xref:System.Windows.Interop.HwndSource&gt;の場合にもアクセスできます</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the sink or one of its contained components has focus.</source>
+          <target state="translated">シンクまたはそのに含まれるコンポーネントのいずれかにフォーカスがあるかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This method is necessary for forwarding &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt; calls to child components with focus from within the &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt; implementation.</source>
+          <target state="translated">このメソッドは、転送するために必要な&lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;内からフォーカスを持つ子コンポーネントへの呼び出し、&lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;実装&lt;/xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;&lt;/xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Call HasFocusWithin recursively until you reach the level of specific focus and forward &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt; there.</source>
+          <target state="translated">特定のフォーカス イベントと転送のレベルに到達するまで、HasFocusWithin 再帰的を呼び出して&lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;があります&lt;/xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the sink or one of its contained components has focus; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>シンクまたはそのに含まれるコンポーネントのいずれかのフォーカスがある場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Gets or sets a reference to the component's container's <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">コンポーネントのコンテナーへの参照を取得または<bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>インターフェイスです。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This property should initially be set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">このプロパティに最初に設定する必要があります<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Any container that adds the sink to its components list will set KeyboardInputSite before any other methods are called, and it can be set multiple times after that.</source>
+          <target state="translated">その他のメソッドが呼び出され、その後複数回を設定できる前に、シンクのコンポーネントの一覧を追加するすべてのコンテナーは KeyboardInputSite を設定します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You should set the property to <ph id="ph1">`null`</ph> again before disposal.</source>
+          <target state="translated">プロパティを設定する必要があります<ph id="ph1">`null`</ph>処分する前にもう一度です。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A reference to the container's <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">コンテナーへの参照を<bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>インターフェイスです。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Called when one of the mnemonics (access keys) for this sink is invoked.</source>
+          <target state="translated">このシンクのニーモニック (アクセス キー) のいずれかが呼び出されると呼び出されます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA#tla_win](~/add/includes/ajax-current-ext-md.md)]</ph> message must be WM_CHAR, WM_SYSCHAR, WM_DEADCHAR or WM_SYSDEADCHAR.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA#tla_win](~/add/includes/ajax-current-ext-md.md)]</ph> WM_CHAR、wm_syschar です、WM_DEADCHAR または WM_SYSDEADCHAR メッセージがある必要があります。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the component has contained components, the message must be passed in your implementation by calling each contained component's OnMnemonic method.</source>
+          <target state="translated">コンポーネントには、コンポーネントが含まれているが場合、メッセージは含まれている各コンポーネントの OnMnemonic メソッドを呼び出すことで、実装で渡される必要があります。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An interface that returns <ph id="ph1">`true`</ph> from &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt; will not call OnMnemonic.</source>
+          <target state="translated">返すインターフェイス<ph id="ph1">`true`</ph>から&lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;OnMnemonic を呼び出しません&lt;/xref:System.Windows.Interop.IKeyboardInputSink.TranslateAccelerator%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Implementations can choose to perform all specific key combination handling in &lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateChar%2A&gt;.and bypass OnMnemonic.</source>
+          <target state="translated">実装がすべて特定のキーの組み合わせでの処理を実行するを選択できます&lt;xref:System.Windows.Interop.IKeyboardInputSink.TranslateChar%2A&gt;OnMnemonic をバイパスする参照できます&lt;/xref:System.Windows.Interop.IKeyboardInputSink.TranslateChar%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The message for the mnemonic and associated data.</source>
+          <target state="translated">ニーモニックと関連付けられているデータに関するメッセージ。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Do not modify this message structure.</source>
+          <target state="translated">このメッセージの構造は変更しないでください。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It is passed by reference for performance reasons only.</source>
+          <target state="translated">パフォーマンス上の理由からのみ参照によって渡されます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Modifier keys.</source>
+          <target state="translated">修飾子キーです。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the message was handled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>メッセージが処理された場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Registers the <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSink"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface of a contained component.</source>
+          <target state="translated">登録、 <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSink"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>含まれているコンポーネントのインターフェイスです。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Components with child components should maintain internal collections of sites and use this method to add a new sink and return the new site.</source>
+          <target state="translated">子コンポーネントとコンポーネントは、サイトの内部コレクションを保持し、このメソッドを使用して新しいシンクを追加および新しいサイトを返す必要があります。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You only need to maintain the site collection, because the sink can be obtained from the site.</source>
+          <target state="translated">だけで済みますサイト コレクションを維持するため、シンクは、サイトから取得することができます。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSink"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> sink of the contained component.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSink"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>含まれているコンポーネントのシンク。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> site of the contained component.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Interop.IKeyboardInputSite"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>含まれているコンポーネントのサイトです。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Sets focus on either the first tab stop or the last tab stop of the sink.</source>
+          <target state="translated">最初のタブ位置またはシンクの最後のタブ位置のいずれかにフォーカスを設定します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Input.FocusNavigationDirection&gt; and &lt;xref:System.Windows.Input.FocusNavigationDirection&gt; are the only relevant values that should be passed to this method in the &lt;xref:System.Windows.Input.TraversalRequest&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Input.FocusNavigationDirection&gt;&lt;xref:System.Windows.Input.FocusNavigationDirection&gt; &lt;xref:System.Windows.Input.TraversalRequest&gt;。&lt;/xref:System.Windows.Input.TraversalRequest&gt;でこのメソッドに渡す必要がある、のみに関連する値&lt;/xref:System.Windows.Input.FocusNavigationDirection&gt;は、&lt;/xref:System.Windows.Input.FocusNavigationDirection&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specifies whether focus should be set to the first or the last tab stop.</source>
+          <target state="translated">フォーカスを最初のページまたは最後のタブ ストップを設定するかどうかを指定します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the focus has been set as requested; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if there are no tab stops.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>フォーカスが要求どおりに設定されている場合<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>タブ ストップが存在しない場合、します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Processes keyboard input at the keydown message level.</source>
+          <target state="translated">Keydown メッセージ レベルでのキーボード入力を処理します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The message must either be WM_KEYDOWN or WM_SYSKEYDOWN.</source>
+          <target state="translated">WM_KEYDOWN または WM_SYSKEYDOWN メッセージでなければなりません。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If the component is unable to handle the input translations and has child components that might have translations, it typically calls TranslateAccelerator method on the child component that holds the current focus before returning a result.</source>
+          <target state="translated">コンポーネントは、入力の変換を処理することがないし、翻訳を含めることがありますの子コンポーネントは、通常、結果を返す前に、現在のフォーカスを保持している子コンポーネントに TranslateAccelerator メソッドを呼び出します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the message cannot be handled immediately, you can re-dispatch it from within the TranslateAccelerator implementation if necessary, and then return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">必要に応じて、TranslateAccelerator 実装内で再ディスパッチからすることができますから戻るし、メッセージは、すぐに処理できない場合、<ph id="ph1">`false`</ph>です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A primary scenario for translating accelerator keys is handling the VK_TAB keydown message and determining whether to set focus within the component, to call &lt;xref:System.Windows.Interop.IKeyboardInputSink.TabInto%2A&gt; to a child component, or to call &lt;xref:System.Windows.Interop.IKeyboardInputSite.OnNoMoreTabStops%2A&gt; on the parent site because the tab sequence has reached the beginning or end bounds.</source>
+          <target state="translated">アクセラレータ キーを変換するための主なシナリオが VK_TAB keydown メッセージを処理しを呼び出して、コンポーネント内でフォーカスを設定するかどうかを決定する&lt;xref:System.Windows.Interop.IKeyboardInputSink.TabInto%2A&gt;子コンポーネントにまたは呼び出しを行う&lt;xref:System.Windows.Interop.IKeyboardInputSite.OnNoMoreTabStops%2A&gt;親サイト タブ シーケンス境界の先頭または末尾に達したためです&lt;/xref:System.Windows.Interop.IKeyboardInputSite.OnNoMoreTabStops%2A&gt;&lt;/xref:System.Windows.Interop.IKeyboardInputSink.TabInto%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Certain components may choose to not handle the tab key in this fashion.</source>
+          <target state="translated">特定のコンポーネントは、この方法で tab キーを処理できないことができます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The message and associated data.</source>
+          <target state="translated">メッセージと関連付けられているデータ。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Do not modify this structure.</source>
+          <target state="translated">この構造体を変更しないでください。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>It is passed by reference for performance reasons only.</source>
+          <target state="translated">パフォーマンス上の理由からのみ参照によって渡されます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Modifier keys.</source>
+          <target state="translated">修飾子キーです。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the message was handled by the method implementation; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>メソッドの実装によって、メッセージが処理された場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Processes WM_CHAR, WM_SYSCHAR, WM_DEADCHAR, and WM_SYSDEADCHAR input messages before &lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt; is called.</source>
+          <target state="translated">前に、WM_CHAR、wm_syschar です、WM_DEADCHAR、および WM_SYSDEADCHAR 入力メッセージを処理&lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt;と呼びます&lt;/xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt;。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If you implement this method to return <ph id="ph1">`true`</ph>, the input architecture will not call &lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic%2A&gt; for that key message.</source>
+          <target state="translated">返すには、このメソッドを実装する場合<ph id="ph1">`true`</ph>、入力のアーキテクチャを呼び出しません&lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic%2A&gt;キー メッセージに対応します&lt;/xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The message and associated data.</source>
+          <target state="translated">メッセージと関連付けられているデータ。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Do not modify this structure.</source>
+          <target state="translated">この構造体を変更しないでください。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It is passed by reference for performance reasons only.</source>
+          <target state="translated">パフォーマンス上の理由からのみ参照によって渡されます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Modifier keys.</source>
+          <target state="translated">修飾子キーです。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the message was processed and &lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt; should not be called; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>メッセージが処理された場合と&lt;xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt;と呼ばれる、それ以外を使用することはできません<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.Windows.Interop.IKeyboardInputSink.OnMnemonic*&gt; 。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
