@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">189542aedb51f4d3adb04936be56db8504c793f5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">323155dda4f7e407e26f8366ea9a6988b93df005</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d43d22ac2c9688487600bcb56ce48e6f6f6030b5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a way to expose a custom <bpt id="p1">&lt;xref href="System.Runtime.Caching.FileChangeMonitor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to a cache implementation.</source>
+          <target state="translated">사용자 지정을 노출 하는 방법을 정의 <bpt id="p1">&lt;xref href="System.Runtime.Caching.FileChangeMonitor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 캐시 구현에는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In ASP.NET, the IFileChangeNotificationSystem interface provides access to internal file-change notification management.</source>
+          <target state="translated">ASP.NET, IFileChangeNotificationSystem 인터페이스 내부 파일 변경 알림 관리에 대 한 액세스를 제공합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IFileChangeNotificationSystem interface is used internally by the &lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt; class.</source>
+          <target state="translated">IFileChangeNotificationSystem 인터페이스 &lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt;클래스&lt;/xref:System.Runtime.Caching.HostFileChangeMonitor&gt; 에서 내부적으로 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a cache implementation runs in an ASP.NET application domain, ASP.NET implements an IFileChangeNotificationSystem interface through the &lt;xref:System.Runtime.Caching.ObjectCache.Host%2A&gt; property.</source>
+          <target state="translated">캐시를 구현 하는 ASP.NET 응용 프로그램 도메인에서 실행 되 면 ASP.NET를 통해 IFileChangeNotificationSystem 인터페이스를 구현 하는 &lt;xref:System.Runtime.Caching.ObjectCache.Host%2A&gt;속성.&lt;/xref:System.Runtime.Caching.ObjectCache.Host%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt; class detects this property and uses the ASP.NET file-change notification system to evict cache entries based on file-change notification.</source>
+          <target state="translated">&lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt;이 속성을 검색 하 고 파일 변경 알림에 따라 캐시 항목을 제거 하는 ASP.NET 파일 변경 알림 시스템을 사용 하는 클래스입니다.&lt;/xref:System.Runtime.Caching.HostFileChangeMonitor&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In non-ASP.NET applications, there is no host environment that implements a custom IFileChangeNotificationSystem interface.</source>
+          <target state="translated">ASP.NET 이외의 응용 프로그램에서 사용자 지정 IFileChangeNotificationSystem 인터페이스를 구현 하는 호스트 환경이 있습니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a result, the &lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt; class uses the &lt;xref:System.IO.FileSystemWatcher&gt; class of the CLR.</source>
+          <target state="translated">결과적으로,는 &lt;xref:System.Runtime.Caching.HostFileChangeMonitor&gt;클래스에서 사용 하 여 &lt;xref:System.IO.FileSystemWatcher&gt;CLR의 클래스.&lt;/xref:System.IO.FileSystemWatcher&gt; &lt;/xref:System.Runtime.Caching.HostFileChangeMonitor&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Registers a file path to monitor with the host environment.</source>
+          <target state="translated">호스트 환경으로 모니터링 하는 파일 경로 등록 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used by custom cache objects and custom change monitors that implement the host environment's &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt; interface in order to register file paths for monitoring with the host environment.</source>
+          <target state="translated">이 메서드는 사용자 지정 캐시 개체에 의해 사용 및 사용자 지정 호스트 환경을 구현 하는 모니터 변경 &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt;인터페이스를 호스트 환경으로 모니터링할 파일 경로를 등록 합니다.&lt;/xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The StartMonitoring method is called by implementers of the &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt; interface in order to register a file or directory for change monitoring.</source>
+          <target state="translated">StartMonitoring 메서드 구현에서 호출 됩니다는 &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt;파일 또는 디렉터리 변경 모니터링을 위해 등록 하기 위해 인터페이스.&lt;/xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The fully qualified physical path of a directory or file to monitor for changes.</source>
+          <target state="translated">변경 내용을 모니터링할 파일의 정규화 된 실제 경로입니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A reference to a method that implements the <bpt id="p1">&lt;xref href="System.Runtime.Caching.OnChangedCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate.</source>
+          <target state="translated">구현 하는 방법에 대 한 참조는 <bpt id="p1">&lt;xref href="System.Runtime.Caching.OnChangedCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 위임 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When the monitored file or directory changes, the host environment's implementation of the <bpt id="p1">&lt;xref href="System.Runtime.Caching.Hosting.IFileChangeNotificationSystem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface raises an event by calling the <bpt id="p2">&lt;xref href="System.Runtime.Caching.OnChangedCallback"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">모니터링 되는 파일 또는 디렉터리 변경 되는 경우 호스트 환경의 구현의 <bpt id="p1">&lt;xref href="System.Runtime.Caching.Hosting.IFileChangeNotificationSystem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인터페이스를 호출 하 여 이벤트를 발생 시킵니다.는 <bpt id="p2">&lt;xref href="System.Runtime.Caching.OnChangedCallback"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The state that is supplied by the host environment.</source>
+          <target state="translated">호스트 환경에서 제공 되는 상태입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Cache implementations and custom change monitors should treat the state value as opaque.</source>
+          <target state="translated">캐시 구현 및 사용자 지정 변경 모니터 상태 값 불투명으로 처리 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>However, the state must be stored so that it can be sent to the host environment when the cache implementation calls the &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StopMonitoring*&gt; method.</source>
+          <target state="translated">그러나 캐시를 구현할 경우 호출 하는 경우 호스트 환경에 전송 될 수 있도록 상태를 저장 해야 합니다는 &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StopMonitoring*&gt;메서드.&lt;/xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StopMonitoring*&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the last date and time that a write operation occurred on <ph id="ph1">`filePath`</ph>.</source>
+          <target state="translated">이 메서드가 반환 될 때 마지막 날짜와 시간에 발생 한 쓰기 작업이 포함 <ph id="ph1">`filePath`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">이 매개 변수는 초기화 되지 않은 상태로 전달 됩니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This parameter is returned from the host environment.</source>
+          <target state="translated">호스트 환경에서이 매개 변수 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the total size of the monitored <ph id="ph1">`filePath`</ph>.</source>
+          <target state="translated">이 메서드가 반환 될 때 포함 되는 총 크기 <ph id="ph1">`filePath`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">이 매개 변수는 초기화 되지 않은 상태로 전달 됩니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This parameter is returned from the host environment.</source>
+          <target state="translated">호스트 환경에서이 매개 변수 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Ends change monitoring.</source>
+          <target state="translated">변경 모니터링을 끝냅니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The StopMonitoring method must be called by custom caches and custom change monitors that are being disposed by the host environment in order to stop monitoring file paths and directories.</source>
+          <target state="translated">사용자 지정 캐시 및 파일 경로 및 디렉터리를 모니터링을 중지 하기 위해 호스트 환경에서 삭제 되 고 사용자 지정 변경 모니터에서 StopMonitoring 메서드를 호출 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The path of the file or folder to stop monitoring.</source>
+          <target state="translated">파일 또는 모니터링을 중지 하는 폴더의 경로입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This should match a file path value that was passed in an earlier call to the &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt; method.</source>
+          <target state="translated">에 대 한 이전 호출에서 전달 된 파일 경로 값과 일치 해야이 &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt;메서드.&lt;/xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The state information that was originally supplied by the host environment during an earlier call to the &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt; method.</source>
+          <target state="translated">에 대 한 이전 호출 하는 동안 원래 호스트 환경에서 제공 된 상태 정보는 &lt;xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt;메서드.&lt;/xref:System.Runtime.Caching.Hosting.IFileChangeNotificationSystem.StartMonitoring*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

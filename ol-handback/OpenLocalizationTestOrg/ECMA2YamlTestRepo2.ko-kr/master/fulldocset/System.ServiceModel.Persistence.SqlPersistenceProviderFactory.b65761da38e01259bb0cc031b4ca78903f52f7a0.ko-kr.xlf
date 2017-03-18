@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef4b58af79a5110f98c898e79c16e4defbcc3a68</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Persistence.SqlPersistenceProviderFactory.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">00056207cb9d7b3b28bbc487c3b7b406e6dfce4b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84ef24d83bde8733af0524ca09864e517dbab449</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A system-provided <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation used to create a <bpt id="p2">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance that uses a SQL database to store persisted service state data.</source>
+          <target state="translated">시스템 제공 <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProviderFactory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 를 만드는 데 사용 되는 구현 된 <bpt id="p2">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 지속된 서비스 상태 데이터를 저장할 SQL 데이터베이스를 사용 하는 인스턴스.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlPersistenceProviderFactory class represents a factory class for a fully-functional, durable service persistence provider.</source>
+          <target state="translated">SqlPersistenceProviderFactory 클래스를 제대로 작동 하는 영 속 서비스 지 속성 공급자에 대 한 팩터리 클래스를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this system-provided provider to persist and retrieve state information about a durable <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> service.</source>
+          <target state="translated">이 시스템에서 제공한 공급자를 사용 하 여 유지 하 고 영 속에 대 한 상태 정보를 검색할 <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> 서비스입니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to persistence, the provider created by the SqlPersistenceProviderFactory class implements locking of service state data records by inheriting from the abstract &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider&gt; class.</source>
+          <target state="translated">지 속성, 추상 &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider&gt;클래스&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider&gt; 에서 상속 하 여 서비스 상태 데이터 레코드 잠금을 SqlPersistenceProviderFactory 클래스 구현을 통해 만든 공급자 뿐만 아니라</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Methods that interact with persisted data (such as &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Create%2A&gt; or &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Update%2A&gt;) have an optional parameter (<ph id="ph1">`lockInstance`</ph>) that defines whether locks on the data in question are released or maintained.</source>
+          <target state="translated">지속 된 데이터와 상호 작용 하는 메서드 (예: &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Create%2A&gt;또는 &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Update%2A&gt;) 선택적 매개 변수 (<ph id="ph1">`lockInstance`</ph>) 문제의 데이터에 대 한 잠금을 해제할지 아니면 유지 여부를 정의 하는.&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Update%2A&gt; &lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Create%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  &lt;xref:System.ServiceModel.Persistence.PersistenceException&gt; exceptions thrown by SqlPersistenceProviderFactory do not have their exception details hidden by default.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; &lt;xref:System.ServiceModel.Persistence.PersistenceException&gt;SqlPersistenceProviderFactory에서 throw 된 예외는 기본적으로 숨겨져 예외 세부 정보를 갖지 않는.&lt;/xref:System.ServiceModel.Persistence.PersistenceException&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To protect against security vulnerabilities, these details can be hidden by setting &lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults%2A&gt; to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">보안 문제를 방지 하기 위해 이러한 세부 정보 숨길 수를 설정 하 여 &lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults%2A&gt;를 <ph id="ph1">`false`</ph>.&lt;/xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The SQL Persistence Provider stores and retrieves data from a SQL Server database.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; SQL 지 속성 공급자는 저장 하 고 SQL Server 데이터베이스에서 데이터를 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host must create a secure SQL Server environment to protect against attackers gaining read/write access to the instance state either in the database or on the wire between the application and the database.</source>
+          <target state="translated">호스트 응용 프로그램과 데이터베이스 간 통신이 나 데이터베이스에 인스턴스 상태에 대 한 읽기/쓰기 액세스 권한을 얻으려는 공격자 로부터 보호 하기 위해 보안 SQL Server 환경을 만들어야 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified parameter collection.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스를 지정 된 매개 변수 컬렉션을 사용 하 여 구성 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor can be used to arbitrarily specify <ph id="ph1">`lockTimeout`</ph>, <ph id="ph2">`connectionString`</ph>, and <ph id="ph3">`serializeAsText`</ph> without specifying the other parameters as required by the other constructors (for example, to specify the <ph id="ph4">`connectionString`</ph> and <ph id="ph5">`lockTimeout`</ph> parameters without specifying the <ph id="ph6">`serializeAsText`</ph> parameter.)</source>
+          <target state="translated">이 생성자를 사용 하 여를 임의로 지정할 수 있습니다 <ph id="ph1">`lockTimeout`</ph>, <ph id="ph2">`connectionString`</ph>, 및 <ph id="ph3">`serializeAsText`</ph> 다른 생성자에 필요한 다른 매개 변수를 지정 하지 않고 (예: 지정할 수는 <ph id="ph4">`connectionString`</ph> 및 <ph id="ph5">`lockTimeout`</ph> 매개 변수를 지정 하지 않고는 <ph id="ph6">`serializeAsText`</ph> 매개 변수.)</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The collection of parameters used by the new persistence provider factory.</source>
+          <target state="translated">새 지 속성 제공자 팩터리에서 사용 된 매개 변수 컬렉션입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Valid parameters include <bpt id="p1">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_connectionStringName" name="connectionStringName" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and <bpt id="p3">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">올바른 매개 변수로 <bpt id="p1">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_connectionStringName" name="connectionStringName" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, 및 <bpt id="p3">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified connection string.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스를 지정된 된 연결 문자열을 사용 하 여 구성 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The connection parameters for the new persistence provider instance.</source>
+          <target state="translated">새 지 속성 공급자 인스턴스의 연결 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified connection string and <bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> parameters.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스, 지정된 된 연결 문자열을 사용 하 여 구성 및 <bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for <ph id="ph1">`serializeAsText`</ph> is <ph id="ph2">`false`</ph>, which indicates that persistence information is serialized as binary data.</source>
+          <target state="translated">에 대 한 기본값 <ph id="ph1">`serializeAsText`</ph> 은 <ph id="ph2">`false`</ph>를 이진 데이터로 serialize 되는 지 속성 정보를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The connection parameters for the new persistence provider instance.</source>
+          <target state="translated">새 지 속성 공급자 인스턴스의 연결 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specifies whether data is serialized as text rather than binary.</source>
+          <target state="translated">이진이 아닌 텍스트로 데이터를 serialize 하는지 여부를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified connection string, <bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and <bpt id="p3">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> parameters.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스, 지정 된 연결 문자열을 사용 하 여 구성 <bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, 및 <bpt id="p3">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for <ph id="ph1">`serializeAsText`</ph> is <ph id="ph2">`false`</ph>, which indicates that persistence information is serialized as binary data.</source>
+          <target state="translated">에 대 한 기본값 <ph id="ph1">`serializeAsText`</ph> 은 <ph id="ph2">`false`</ph>를 이진 데이터로 serialize 되는 지 속성 정보를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for <ph id="ph1">`lockTimeout`</ph> is <ph id="ph2">`TimeSpan.Zero`</ph>, which indicates that locking is not used.</source>
+          <target state="translated">에 대 한 기본값 <ph id="ph1">`lockTimeout`</ph> 은 <ph id="ph2">`TimeSpan.Zero`</ph>, 해당 잠금 나타냅니다는 사용 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`TimeSpan.MaxValue`</ph> is used, then locks are maintained indefinitely.</source>
+          <target state="translated">경우 <ph id="ph1">`TimeSpan.MaxValue`</ph> 사용 하는 잠금 무기한으로 유지 됩니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The connection parameters for the new persistence provider factory instance.</source>
+          <target state="translated">새 지 속성 공급자 팩터리 인스턴스의 연결 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies whether data is serialized as text rather than binary.</source>
+          <target state="translated">이진이 아닌 텍스트로 데이터를 serialize 하는지 여부를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The time-out for lock ownership.</source>
+          <target state="translated">잠금 소유권의 시간 제한입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Locked instances are automatically unlocked after this time period.</source>
+          <target state="translated">이 시간이 지나면 잠긴된 인스턴스가 자동으로 잠금 해제 됩니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A time-out of <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan.Zero" name="TimeSpan.Zero" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies that no locking is used.</source>
+          <target state="translated">시간 제한 <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan.Zero" name="TimeSpan.Zero" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 잠금 사용 되도록 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the connection parameters for persistence provider instances created with this factory.</source>
+          <target state="translated">이 팩터리로 만든 지 속성 공급자 인스턴스의 연결 매개 변수를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The connection parameters for persistence provider instances created with this factory.</source>
+          <target state="translated">이 팩터리로 만든 지 속성 공급자 인스턴스의 연결 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that uses a SQL database as its persistence store.</source>
+          <target state="translated">새 초기화 <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 를 지 속성 저장소로 SQL 데이터베이스를 사용 하는 인스턴스.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The initialized persistence provider uses the current parameters of the creating factory (&lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.ConnectionString%2A&gt;, &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.LockTimeout%2A&gt;, and &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.SerializeAsText%2A&gt;), even if the factory's parameters are changed after the persistence provider is created.</source>
+          <target state="translated">초기화 된 지 속성 공급자가 만드는 팩터리의 현재 매개 변수를 사용 (&lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.ConnectionString%2A&gt;, &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.LockTimeout%2A&gt;, 및 &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.SerializeAsText%2A&gt;) 지 속성 공급자가 생성 한 후에 팩터리의 매개 변수를 변경 하는 경우에.&lt;/xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.SerializeAsText%2A&gt; &lt;/xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.LockTimeout%2A&gt; &lt;/xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The unique identifier of the persistence provider being created.</source>
+          <target state="translated">생성 되 고 지 속성 공급자의 고유 식별자입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A newly-created <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새로 만든 <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets the default time-out value used when persistence providers created with this factory are closed.</source>
+          <target state="translated">이 팩터리로 만든 지 속성 제공자를 닫을 때 사용 되는 기본 시간 제한 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for close time-out is 15 seconds.</source>
+          <target state="translated">닫기 시간 제한의 기본값은 15 초입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The default time-out value.</source>
+          <target state="translated">기본 제한 시간 값입니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the default time-out value used when persistence provider is opened.</source>
+          <target state="translated">지 속성 제공자를 열 때 사용 되는 기본 시간 제한 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for open time-out is 15 seconds.</source>
+          <target state="translated">열기 시간 제한의 기본값은 15 초입니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default time-out value.</source>
+          <target state="translated">기본 제한 시간 값입니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The time-out for lock ownership used by persistence provider instances created by this instance.</source>
+          <target state="translated">이 인스턴스로 만든 지 속성 제공자 인스턴스에서 사용 되는 잠금 소유권의 시간 제한입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Locked instances are automatically unlocked after this time period.</source>
+          <target state="translated">이 시간이 지나면 잠긴된 인스턴스가 자동으로 잠금 해제 됩니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A time-out of <ph id="ph1">`TimeSpan.Zero`</ph> specifies that no locking is used.</source>
+          <target state="translated">시간 제한 <ph id="ph1">`TimeSpan.Zero`</ph> 잠금 사용 되도록 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The time-out value for lock ownership.</source>
+          <target state="translated">잠금 소유권의 시간 제한 값입니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Represents the Abort phase.</source>
+          <target state="translated">Abort 단계를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`OnAbort`</ph> fires when the service host shuts down abruptly and active commands currently being processed are closed.</source>
+          <target state="translated"><ph id="ph1">`OnAbort`</ph>서비스 호스트 갑자기 종료 될 때 발생 하 고 현재 처리 중인 활성 명령의 닫힙니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Represents the beginning of the Close phase.</source>
+          <target state="translated">Close 단계의 시작을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Close phase occurs when the service is closed.</source>
+          <target state="translated">Close 단계는 서비스가 닫힐 때 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">기간을 지 속성 공급자는이 시도 중단입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">작업이 완료 될 때 호출 될 메서드.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">이 특정 비동기 작업을 다른 작업과 구별 하는 사용자 제공 개체입니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The state of the OnBeginClose asynchronous method call.</source>
+          <target state="translated">OnBeginClose 비동기 메서드 호출의 상태입니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Represents the beginning of the Open phase.</source>
+          <target state="translated">Open 단계의 시작을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Open phase occurs when the service is opened.</source>
+          <target state="translated">Open 단계는 서비스가 열릴 때 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">기간을 지 속성 공급자는이 시도 중단입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">작업이 완료 될 때 호출 될 메서드.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">이 특정 비동기 작업을 다른 작업과 구별 하는 사용자 제공 개체입니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The state of the OnBeginOpen asynchronous method call.</source>
+          <target state="translated">OnBeginOpen 비동기 메서드 호출의 상태입니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Represents the Close phase.</source>
+          <target state="translated">Close 단계를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Close phase occurs when the service is closed.</source>
+          <target state="translated">Close 단계는 서비스가 닫힐 때 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">기간을 지 속성 공급자는이 시도 중단입니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Represents the end of the Close phase.</source>
+          <target state="translated">Close 단계의 끝을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Close phase occurs when the service is closed.</source>
+          <target state="translated">Close 단계는 서비스가 닫힐 때 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A reference to the result of the operation.</source>
+          <target state="translated">작업의 결과에 대 한 참조입니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Represents the end of the Open phase.</source>
+          <target state="translated">Open 단계의 끝을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Open phase occurs when the service is opened.</source>
+          <target state="translated">Open 단계는 서비스가 열릴 때 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A reference to the result of the operation.</source>
+          <target state="translated">작업의 결과에 대 한 참조입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Represents the Open phase.</source>
+          <target state="translated">Open 단계를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Open phase occurs when the service is opened.</source>
+          <target state="translated">Open 단계는 서비스가 열릴 때 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">기간을 지 속성 공급자는이 시도 중단입니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies whether data is serialized as text rather than binary in persistence providers created with this factory.</source>
+          <target state="translated">이 팩터리로 만든 지 속성 공급자에서 이진이 아닌 텍스트로 데이터를 serialize 하는지 여부를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for <ph id="ph1">`serializeAsText`</ph> is <ph id="ph2">`false`</ph>, which indicates that persistence information is serialized as binary data.</source>
+          <target state="translated">에 대 한 기본값 <ph id="ph1">`serializeAsText`</ph> 은 <ph id="ph2">`false`</ph>를 이진 데이터로 serialize 되는 지 속성 정보를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service information is serialized as text; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>텍스트; 서비스 정보를 serialize 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

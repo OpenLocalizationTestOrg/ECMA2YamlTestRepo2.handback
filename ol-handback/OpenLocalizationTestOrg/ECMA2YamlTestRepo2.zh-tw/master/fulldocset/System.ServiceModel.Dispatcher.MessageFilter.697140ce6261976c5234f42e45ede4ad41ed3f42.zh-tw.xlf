@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5d8d326055a8825ee365d77782e2f81826a87fd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.MessageFilter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6293e7ede9601e2477264201415b09459ea585cc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ab71642a8fc9f6a4303cad3339a0c9a4df425ad1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_abstract" name="abstract" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> base class for different classes of filters used to query messages.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_abstract" name="abstract" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>用來查詢訊息的篩選條件的不同類別的基底類別。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>MessageFilter is an <ph id="ph1">`abstract`</ph> class that developers implement in order to specify the criteria to use for inspecting messages.</source>
+          <target state="translated">MessageFilter 是<ph id="ph1">`abstract`</ph>類別可實作開發人員若要指定要用於檢查訊息的準則。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Typically, filters are used by an endpoint application to determine what to do with a message based on an examination of some part of the message.</source>
+          <target state="translated">一般而言，會使用篩選端點應用程式，以判斷如何處理訊息，根據檢查訊息的部分。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A queuing process, for example, can use an XPath 1.0 query to check the priority element of a known header to determine whether to move a message to the front of the queue.</source>
+          <target state="translated">例如，佇列處理序可以使用 XPath 1.0 查詢檢查已知標頭來判斷是否要將訊息移到佇列前頭的優先順序項目。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Filters are stored in a filter table that implements &lt;xref:System.ServiceModel.Dispatcher.IMessageFilterTable%601&gt;.</source>
+          <target state="translated">篩選會儲存在篩選資料表實作&lt;xref:System.ServiceModel.Dispatcher.IMessageFilterTable%601&gt;.&lt;/xref:System.ServiceModel.Dispatcher.IMessageFilterTable%601&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Each filter in the table is associated with specified filter data that can be used to indicate what actions to take if a message matches the filter.</source>
+          <target state="translated">資料表中的每個篩選條件是指定的篩選資料可以用來表示訊息符合篩選條件時要採取什麼動作相關聯。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Dispatcher.MessageFilter.Match%2A&gt; methods are used to determine if a message satisfies a filter.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Dispatcher.MessageFilter.Match%2A&gt;方法可用來判斷訊息是否符合篩選條件。&lt;/xref:System.ServiceModel.Dispatcher.MessageFilter.Match%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The criteria used by a filter cannot be changed once the filter is constructed because the filter tables have no way to detect a change.</source>
+          <target state="translated">一旦因為篩選資料表不具有任何方法可以偵測到變更篩選條件在建構時，不能變更篩選器所使用的準則。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The only way to modify the criteria of a filter is to construct a new one and delete the existing filter.</source>
+          <target state="translated">若要修改篩選條件的唯一方式是建構一個新，並刪除現有的篩選條件。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following classes implement the <ph id="ph1">`abstract`</ph>MessageFilter class:      -   &lt;xref:System.ServiceModel.Dispatcher.XPathMessageFilter&gt; uses an XPath 1.0 expression to specify the criteria for a match.</source>
+          <target state="translated">下列類別會實作<ph id="ph1">`abstract`</ph>MessageFilter 類別:-&lt;xref:System.ServiceModel.Dispatcher.XPathMessageFilter&gt;使用 XPath 1.0 運算式來指定比對的準則。&lt;/xref:System.ServiceModel.Dispatcher.XPathMessageFilter&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.ServiceModel.Dispatcher.MatchAllMessageFilter&gt; matches all messages.</source>
+          <target state="translated">-&lt;xref:System.ServiceModel.Dispatcher.MatchAllMessageFilter&gt;比對所有訊息。&lt;/xref:System.ServiceModel.Dispatcher.MatchAllMessageFilter&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.ServiceModel.Dispatcher.MatchNoneMessageFilter&gt; matches none of the messages.</source>
+          <target state="translated">-&lt;xref:System.ServiceModel.Dispatcher.MatchNoneMessageFilter&gt;符合任何訊息。&lt;/xref:System.ServiceModel.Dispatcher.MatchNoneMessageFilter&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.ServiceModel.Dispatcher.ActionMessageFilter&gt; tests whether the action of a message is one of a specified set of actions.</source>
+          <target state="translated">-&lt;xref:System.ServiceModel.Dispatcher.ActionMessageFilter&gt;測試訊息的動作為其中一個指定的一組動作。&lt;/xref:System.ServiceModel.Dispatcher.ActionMessageFilter&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.ServiceModel.Dispatcher.EndpointAddressMessageFilter&gt; tests whether a message satisfies a specified endpoint address.</source>
+          <target state="translated">-&lt;xref:System.ServiceModel.Dispatcher.EndpointAddressMessageFilter&gt;測試訊息是否符合指定之端點位址。&lt;/xref:System.ServiceModel.Dispatcher.EndpointAddressMessageFilter&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.ServiceModel.Channels.ChannelListenerBase%601&gt; is an <ph id="ph1">`abstract`</ph> base class that you can use for writing non-queuing listeners.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.ChannelListenerBase%601&gt;是<ph id="ph1">`abstract`</ph>基底類別，您可以用來撰寫非佇列接聽程式。&lt;/xref:System.ServiceModel.Channels.ChannelListenerBase%601&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When called in a derived class, initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.MessageFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">在衍生類別中呼叫時，初始化新執行個體<bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.MessageFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The constructor is protected so that only filters that derive from &lt;xref:System.ServiceModel.Dispatcher.MessageFilter&gt; can be instantiated.</source>
+          <target state="translated">建構函式受到保護，只有篩選衍生自&lt;xref:System.ServiceModel.Dispatcher.MessageFilter&gt;可以具現化。&lt;/xref:System.ServiceModel.Dispatcher.MessageFilter&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, tests whether a message satisfies the filter criteria.</source>
+          <target state="translated">當在衍生類別中覆寫時，測試訊息是否符合篩選準則。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The body cannot be examined.</source>
+          <target state="translated">本文無法進行檢查。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This method cannot inspect the contents of the message body.</source>
+          <target state="translated">這個方法無法檢查訊息本文的內容。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.Message&gt; object to test.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.Message&gt;要測試的物件&lt;/xref:System.ServiceModel.Channels.Message&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.ServiceModel.Channels.Message&gt; object satisfies the filter criteria; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.ServiceModel.Channels.Message&gt;物件符合篩選準則，否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.ServiceModel.Channels.Message&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, tests whether a buffered message satisfies the criteria of a filter.</source>
+          <target state="translated">當在衍生類別中覆寫時，測試緩衝的訊息是否符合篩選條件。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The message must be fully buffered if the body is to be inspected by the filter.</source>
+          <target state="translated">如果本文要由篩選條件檢查，就必須完全緩衝的訊息。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The body of the &lt;xref:System.ServiceModel.Channels.MessageBuffer&gt; is fully buffered and therefore can be inspected by a filter.</source>
+          <target state="translated">主體&lt;xref:System.ServiceModel.Channels.MessageBuffer&gt;完整緩衝處理，因此可以由篩選檢查。&lt;/xref:System.ServiceModel.Channels.MessageBuffer&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The body of a &lt;xref:System.ServiceModel.Channels.Message&gt; that has not been fully buffered may be consumed by the filter inspection.</source>
+          <target state="translated">主體&lt;xref:System.ServiceModel.Channels.Message&gt;尚未完整緩衝的可能由篩選檢查取用。&lt;/xref:System.ServiceModel.Channels.Message&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The header element of a &lt;xref:System.ServiceModel.Channels.Message&gt; is automatically buffered and therefore can be inspected without being consumed.</source>
+          <target state="translated">標頭項目&lt;xref:System.ServiceModel.Channels.Message&gt;會自動獲得緩衝，因此可以進行檢查，而不被取用。&lt;/xref:System.ServiceModel.Channels.Message&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.MessageBuffer&gt; object to test.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.MessageBuffer&gt;要測試的物件&lt;/xref:System.ServiceModel.Channels.MessageBuffer&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.ServiceModel.Channels.MessageBuffer&gt; object satisfies the filter criteria; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.ServiceModel.Channels.MessageBuffer&gt;物件符合篩選準則，否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.ServiceModel.Channels.MessageBuffer&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

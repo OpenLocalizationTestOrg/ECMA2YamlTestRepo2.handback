@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">59d0e692a4f187a91206d925ed26bd10132538f6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.InteropServices.HandleRef.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4427df096bd8308baccf9b6e46d0cd2d7e9471ec</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ffde11eda59cc7e4497da620dd922a195c60d014</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Wraps a managed object holding a handle to a resource that is passed to unmanaged code using platform invoke.</source>
+          <target state="translated">플랫폼을 사용 하 여 관리 되지 않는 코드에 전달 되는 리소스에 대 한 핸들을 보유 하는 관리 되는 개체 호출을 래핑합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  Starting with the .NET Framework 2.0, the functionality of the HandleRef class has been replaced by the &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; class and its derived classes, as well as by the &lt;xref:System.Runtime.InteropServices.CriticalHandle&gt; class.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt;로 대체 되었습니다.NET Framework 2.0 HandleRef 클래스의 기능으로 시작 합니다.는 &lt;xref:System.Runtime.InteropServices.SafeHandle&gt;클래스와 해당 파생된 클래스에서도 &lt;xref:System.Runtime.InteropServices.CriticalHandle&gt;클래스&lt;/xref:System.Runtime.InteropServices.CriticalHandle&gt; 것으로&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you use platform invoke to call a managed object, and the object is not referenced elsewhere after the platform invoke call, it is possible for the garbage collector to finalize the managed object.</source>
+          <target state="translated">플랫폼을 사용 하 여 관리 되는 개체를 호출 하려면 호출할 및 플랫폼 호출 후 개체가 다른 곳에서 참조 되지 않은, 가비지 수집기에서 관리 되는 개체를 종료할 수입니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This action releases the resource and invalidates the handle, causing the platform invoke call to fail.</source>
+          <target state="translated">이 작업은 리소스를 해제 하 고 핸들을 무효화 플랫폼 호출이 실패 하도록 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Wrapping a handle with HandleRef guarantees that the managed object is not garbage collected until the platform invoke call completes.</source>
+          <target state="translated">관리 되는 개체가 가비지 수집의 플랫폼 호출 될 때까지 완료 되지 임을 보장 HandleRef 된 핸들을 배치 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of platform invoke services, see <bpt id="p1">[</bpt>Consuming Unmanaged DLL Functions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">호출 서비스 플랫폼에 대 한 자세한 내용은 <bpt id="p1">[</bpt>관리 되지 않는 DLL 함수를 사용해<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HandleRef value type, like &lt;xref:System.Runtime.InteropServices.GCHandle&gt;, is a special type recognized by the interop marshaler.</source>
+          <target state="translated">HandleRef에는 값 형식, 같은 &lt;xref:System.Runtime.InteropServices.GCHandle&gt;는 interop 마샬러만에서 인식 하는 특수 한 형식입니다.&lt;/xref:System.Runtime.InteropServices.GCHandle&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A normal, nonpinned &lt;xref:System.Runtime.InteropServices.GCHandle&gt; also prevents untimely garbage collection, yet HandleRef provides better performance.</source>
+          <target state="translated">일반, 일어나지 않도록된 &lt;xref:System.Runtime.InteropServices.GCHandle&gt;HandleRef 더 나은 성능을 제공 하면서 또한 가비지 컬렉션을 방지 합니다.&lt;/xref:System.Runtime.InteropServices.GCHandle&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although using HandleRef to keep an object alive for the duration of a platform invoke call is preferred, you can also use the &lt;xref:System.GC.KeepAlive%2A?displayProperty=fullName&gt; method for the same purpose.</source>
+          <target state="translated">HandleRef를 사용 하 여 플랫폼의 기간에 대 한 개체를 활성 상태로 유지할지를 호출 하지만 호출 하는 것이 좋습니다, 사용할 수도 있습니다는 &lt;xref:System.GC.KeepAlive%2A?displayProperty=fullName&gt;메서드 같은 목적을 위해.&lt;/xref:System.GC.KeepAlive%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HandleRef constructor takes two parameters: an &lt;xref:System.Object&gt; representing the wrapper, and an &lt;xref:System.IntPtr&gt; representing the unmanaged handle.</source>
+          <target state="translated">HandleRef 생성자는 두 개의 매개 변수:는 &lt;xref:System.Object&gt;래퍼를 나타내는 및 &lt;xref:System.IntPtr&gt;관리 되지 않는 핸들을 나타내는.&lt;/xref:System.IntPtr&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The interop marshaler passes only the handle to unmanaged code, and guarantees that the wrapper (passed as the first parameter to the constructor of the <ph id="ph1">`HandleRef`</ph>) remains alive for the duration of the call.</source>
+          <target state="translated">Interop 마샬러 비관리 코드에만 핸들을 전달 하 고 래퍼 보장 (생성자의 첫 번째 매개 변수로 전달 되는 <ph id="ph1">`HandleRef`</ph>) 호출 기간 동안 활성 상태를 유지 합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the object to wrap and a handle to the resource used by unmanaged code.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 된 래핑할 개체 및 비관리 코드에 의해 사용 되는 리소스에 대 한 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A managed object that should not be finalized until the platform invoke call returns.</source>
+          <target state="translated">플랫폼 호출 될 때까지 종료 되지 해야 하는 관리 되는 개체를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; that indicates a handle to a resource.</source>
+          <target state="translated">&lt;xref:System.IntPtr&gt;리소스에 대 한 핸들을 나타내는입니다.&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets the handle to a resource.</source>
+          <target state="translated">리소스에 대 한 핸들을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The handle to a resource.</source>
+          <target state="translated">리소스에 대 한 핸들입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Returns the internal integer representation of a <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">내부 정수 표현을 반환는 <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to retrieve an internal integer representation from.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 내부 정수 표현에서 검색할 개체입니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; object that represents a <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">&lt;xref:System.IntPtr&gt;을 나타내는 개체를 <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets the object holding the handle to a resource.</source>
+          <target state="translated">리소스에 핸들을 보유 하는 개체를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The object holding the handle to a resource.</source>
+          <target state="translated">핸들 리소스를 보유 하는 개체입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
