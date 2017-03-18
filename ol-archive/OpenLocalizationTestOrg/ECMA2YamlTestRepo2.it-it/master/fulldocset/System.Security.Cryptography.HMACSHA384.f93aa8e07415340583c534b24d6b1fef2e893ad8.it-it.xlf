@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d0d8487a571db648844f4276ce56e7e228bb76e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.HMACSHA384.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ca0d53839afaf537b424db304c070254774d5055</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">20c651c3d5b34ea83d8fc2dd75fc75c10fad2366</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Computes a Hash-based Message Authentication Code (HMAC) using the <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA384"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> hash function.</source>
+          <target state="translated">Calcola un Hash-based Message Authentication Code (HMAC) utilizzando il <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA384"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> funzione hash.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMACSHA384 is a type of keyed hash algorithm that is constructed from the SHA-384 hash function and used as a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">HMACSHA384 è un tipo di algoritmo hash con chiave costruito dalla funzione hash SHA-384 e utilizzato come un codice HMAC (Hash-based messaggio Authentication Code).</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HMAC process mixes a secret key with the message data and hashes the result.</source>
+          <target state="translated">Nel processo HMAC combina una chiave privata con i dati del messaggio e al risultato.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The hash value is mixed with the secret key again, and then hashed a second time.</source>
+          <target state="translated">Il valore hash viene combinato nuovamente con la chiave privata e quindi eseguito l'hashing di una seconda volta.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The output hash is 384 bits long.</source>
+          <target state="translated">L'output hash è costituito da 384 bit.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An HMAC can be used to determine whether a message sent over a nonsecure channel has been tampered with, provided that the sender and receiver share a secret key.</source>
+          <target state="translated">Un codice HMAC consente di determinare se un messaggio inviato tramite un canale non sicuro è stato alterato, a condizione che il mittente e ricevitore condividono una chiave segreta.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sender computes the hash value for the original data and sends both the original data and the hash value as a single message.</source>
+          <target state="translated">Il mittente calcola il valore hash per i dati originali e invia i dati originali e il valore hash in un singolo messaggio.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The receiver recalculates the hash value on the received message and checks that the computed HMAC matches the transmitted HMAC.</source>
+          <target state="translated">Il destinatario ricalcola il valore hash del messaggio ricevuto e verifica che il codice HMAC calcolato corrisponda a quello trasmesso.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the original and computed hash values match, the message is authenticated.</source>
+          <target state="translated">Se i valori hash originale e calcolato corrispondono, il messaggio viene autenticato.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If they do not match, either the data or the hash value has been changed.</source>
+          <target state="translated">Se non corrispondono, i dati o il valore hash è stato modificato.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMACs provide security against tampering because knowledge of the secret key is required to change the message and reproduce the correct hash value.</source>
+          <target state="translated">I codici HMAC offrono protezione contro eventuali manomissioni perché è necessario conoscere la chiave privata per modificare il messaggio e riprodurre il valore hash corretto.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HMACSHA384 accepts all key sizes and produces a hash sequence that is 384 bits long.</source>
+          <target state="translated">HMACSHA384 accetta tutte le dimensioni di chiave e produce una sequenza di hash di 384 bit lungo.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA384"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using a randomly generated key.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA384"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe utilizzando una chiave generata in modo casuale.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor uses a 64-byte, randomly generated key.</source>
+          <target state="translated">Questo costruttore utilizza una chiave generata in modo casuale a 64 byte.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA384"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified key data.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA384"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe utilizzando i dati della chiave specificati.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The secret key for <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA384"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> encryption.</source>
+          <target state="translated">La chiave privata per <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA384"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> crittografia.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The key can be any length.</source>
+          <target state="translated">La chiave può essere qualsiasi lunghezza.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, the recommended size is 128 bytes.</source>
+          <target state="translated">Tuttavia, la dimensione consigliata è di 128 byte.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the key is more than 128 bytes long, it is hashed (using SHA-384) to derive a 128-byte key.</source>
+          <target state="translated">Se la chiave è lungo più di 128 byte, che viene effettuato l'hash (tramite SHA-384) per derivare una chiave a 128 byte.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If it is less than 128 bytes long, it is padded to 128 bytes.</source>
+          <target state="translated">Se è minore di 128 byte, viene applicato un riempimento a 128 byte.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Provides a workaround for the <ph id="ph1">[!INCLUDE[dnprdnext](~/add/includes/dnprdnext-md.md)]</ph> implementation of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA384"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> algorithm, which is inconsistent with the <ph id="ph2">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph> implementation of the algorithm.</source>
+          <target state="translated">Fornisce una soluzione alternativa per il <ph id="ph1">[!INCLUDE[dnprdnext](~/add/includes/dnprdnext-md.md)]</ph> implementazione del <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA384"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> algoritmo, che non è coerente con il <ph id="ph2">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph> implementazione dell'algoritmo.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The purpose of the ProduceLegacyHmacValues Boolean property is to enable <ph id="ph1">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph> applications to interact with <ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph> applications.</source>
+          <target state="translated">Lo scopo della proprietà ProduceLegacyHmacValues Boolean consiste nell'abilitare <ph id="ph1">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph> applicazioni interagiscano con <ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph> applicazioni.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set this property to <ph id="ph1">`true`</ph>, the &lt;xref:System.Security.Cryptography.HMACSHA384&gt; object produces values that match the values produced by the <ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>.</source>
+          <target state="translated">Quando si imposta questa proprietà su <ph id="ph1">`true`</ph>, &lt;xref:System.Security.Cryptography.HMACSHA384&gt;oggetto produce valori che corrispondono ai valori prodotti dal <ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>.&lt;/xref:System.Security.Cryptography.HMACSHA384&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should set this property only once after you create your HMAC object.</source>
+          <target state="translated">È necessario impostare questa proprietà solo una volta dopo aver creato l'oggetto HMAC.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will need to reset your key afterwards, as shown in the following example.</source>
+          <target state="translated">È necessario reimpostare la chiave in un secondo momento, come illustrato nell'esempio seguente.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to enable <ph id="ph1">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph> applications to interact with <ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph> applications; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Per abilitare <ph id="ph1">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph> applicazioni interagiscano con <ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph> applicazioni; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
