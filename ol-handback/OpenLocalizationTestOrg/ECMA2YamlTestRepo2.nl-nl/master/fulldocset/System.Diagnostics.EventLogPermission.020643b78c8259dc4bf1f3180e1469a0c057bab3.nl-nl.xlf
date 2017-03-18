@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3673f7293c732deb2f585571b2bad08390948d8d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.EventLogPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3983d00854ed409123b9d7eb0ef3ed8d49561164</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d672f7627e8a29e157a82611468ceb53b522196</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Controls code access permissions for event logging.</source>
+          <target state="translated">Hiermee bepaalt u code toegangsmachtigingen voor logboekregistratie.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not grant EventLogPermission to partially trusted code.</source>
+          <target state="translated">Ken EventLogPermission geen gedeeltelijk vertrouwde code.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ability to read and write the event log enables code to perform actions such as issuing event log messages in the name of another application.</source>
+          <target state="translated">De mogelijkheid om te lezen en schrijven van het gebeurtenislogboek kunt code voor het uitvoeren van acties zoals het uitgeven van gebeurtenislogboekberichten naam van een andere toepassing.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the event source that is specified by the &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt; property for the event log does not exist, a new event source is created.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als de gebeurtenis bron die is opgegeven door de &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;eigenschap voor het gebeurtenislogboek niet bestaat, wordt een nieuwe gebeurtenisbron gemaakt.&lt;/xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create an event source in Windows Vista and later versions of Windows, or Windows Server 2003, you must have administrative privileges.</source>
+          <target state="translated">Voor het maken van een gebeurtenisbron in Windows Vista en latere versies van Windows of Windows Server 2003, moet u beheerdersrechten hebben.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  The reason for this requirement is that all event logs, including security, must be searched to determine whether the event source is unique.</source>
+          <target state="translated">&gt;&gt; De reden voor deze vereiste is dat alle gebeurtenislogboeken, met inbegrip van beveiliging, moet worden gezocht om te bepalen of de gebeurtenisbron uniek is.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Starting with Windows Vista, users do not have permission to access the security log; therefore, a &lt;xref:System.Security.SecurityException&gt; is thrown.</source>
+          <target state="translated">Vanaf Windows Vista, hebben gebruikers geen toestemming voor toegang tot het beveiligingslogboek; daarom een &lt;xref:System.Security.SecurityException&gt;gegenereerd.&lt;/xref:System.Security.SecurityException&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  Starting with Windows Vista, User Account Control (UAC) determines the privileges of a user.</source>
+          <target state="translated">&gt;&gt; Vanaf Windows Vista Gebruikersaccountbeheer (UAC) bepaalt de bevoegdheden van een gebruiker.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are a member of the Built-in Administrators group, you are assigned two run-time access tokens: a standard user access token and an administrator access token.</source>
+          <target state="translated">Als u lid zijn van de ingebouwde groep Administrators, kunt u twee runtime-toegangstokens zijn toegewezen: een standaardgebruikerstoegang en een token voor beheerderstoegang.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, you are in the standard user role.</source>
+          <target state="translated">U bent standaard in de standaard gebruikersrol.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To execute the code that accesses the security log, you must first elevate your privileges from standard user to administrator.</source>
+          <target state="translated">Voor het uitvoeren van de code die toegang heeft tot het beveiligingslogboek moet u eerst uw bevoegdheden van een standaardgebruiker uitbreiden naar de beheerder.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can do this when you start an application by right-clicking the application icon and indicating that you want to run as an administrator.</source>
+          <target state="translated">U kunt dit doen wanneer u een toepassing begint met de rechtermuisknop op het pictogram van de toepassing die aangeeft dat u wilt uitvoeren als beheerder.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified permission entries.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven machtigingsvermeldingen.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An array of  objects that represent permission entries.</source>
+          <target state="translated">Een matrix met objecten die staan voor machtigingsvermeldingen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventLogPermission.PermissionEntries*&gt; property is set to this value.</source>
+          <target state="translated">De &lt;xref:System.Diagnostics.EventLogPermission.PermissionEntries*&gt;eigenschap is ingesteld op deze waarde.&lt;/xref:System.Diagnostics.EventLogPermission.PermissionEntries*&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;permissionAccessEntries&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;permissionAccessEntries&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified permission state.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de machtigingsstatus van de opgegeven.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the permission state (full access or no access to resources).</source>
+          <target state="translated">Een van de opsommingswaarden waarmee de machtigingsstatus (volledige toegang of geen toegang tot bronnen).</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">state</ph> <ept id="p1">&lt;/code&gt;</ept> parameter is geen geldige waarde van <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified access levels and the name of the computer to use.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven toegangsniveaus en de naam van de computer te gebruiken.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies an access level.</source>
+          <target state="translated">Een van de opsommingswaarden die een toegangsniveau aangeeft.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The name of the computer on which to read or write events.</source>
+          <target state="translated">De naam van de computer waarop u wilt lezen of schrijven van gebeurtenissen.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the collection of permission entries for this permissions request.</source>
+          <target state="translated">Hiermee haalt de verzameling van machtigingen voor deze aanvraag machtigingen.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A collection that contains the permission entries for this permissions request.</source>
+          <target state="translated">Een verzameling waartoe de machtigingsvermeldingen voor deze aanvraag machtigingen.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

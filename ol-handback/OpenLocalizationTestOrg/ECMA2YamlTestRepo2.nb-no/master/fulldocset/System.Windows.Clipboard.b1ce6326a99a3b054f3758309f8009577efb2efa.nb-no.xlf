@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8de420758489b2a020aef93c47a079826b53586f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Clipboard.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">414a6c630332434ea5aaf3ca2461cf3aac281b47</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6caf5de5dde9c15476a4718d4f31aaecb8894de4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides static methods that facilitate transferring data to and from the system Clipboard.</source>
+          <target state="translated">Gir statiske metoder som gjør det lettere å overføre data til og fra systemet utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All applications for <ph id="ph1">[!INCLUDE[TLA#tla_mswin](~/add/includes/tlasharptla-mswin-md.md)]</ph> share the system Clipboard, so the contents are subject to change when you switch to another application.</source>
+          <target state="translated">Alle programmer for <ph id="ph1">[!INCLUDE[TLA#tla_mswin](~/add/includes/tlasharptla-mswin-md.md)]</ph> dele systemet utklippstavlen, slik at innholdet kan endres når du bytter til et annet program.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of predefined formats available to use with the Clipboard class, see the &lt;xref:System.Windows.DataFormats&gt; class.</source>
+          <target state="translated">Hvis du vil se en liste over forhåndsdefinerte formater som er tilgjengelige for bruk med klassen utklippstavlen se &lt;xref:System.Windows.DataFormats&gt;klasse.&lt;/xref:System.Windows.DataFormats&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Security Alert:<ept id="p1">**</ept> For security purposes, the following points should be kept in mind.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Sikkerhetsadvarsel:<ept id="p1">**</ept> av sikkerhetshensyn bør følgende punkt holdes huske.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Paste operations need to be user initiated (Ctrl-V, Paste Menu).</source>
+          <target state="translated">-Lim inn må være Brukerstartet (Ctrl-V, Lim inn-menyen).</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Copy can only be on user selected content.</source>
+          <target state="translated">-Kopi kan bare være på brukeren valgte innhold.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   On copy or cut, partial trust code puts plaintext and <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> on to the clipboard.</source>
+          <target state="translated">-På kopi eller Klipp ut, setter delvis klarering kode ren tekst og <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Plaintext includes text, Unicode text, OEM (Object Exchange Model) text, and CSV (Comma-separated values).</source>
+          <target state="translated">Ren tekst inneholder tekst, Unicode-tekst, OEM (objektmodell for Exchange)-tekst og CSV (kommadelte verdier).</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   On paste, <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> will paste in <ph id="ph2">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> if the source of that content is from a equally trusted or more trusted site.</source>
+          <target state="translated">-Ved innliming, <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> vil lime inn i <ph id="ph2">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> hvis kilden for dette innholdet er fra et likt klarerte eller flere klarerte område.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically:          -   A partial trust application can paste <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> from a full trust application.</source>
+          <target state="translated">Spesielt: – en delvis klarering-programmet kan lime inn <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> fra en fullstendig klarering-program.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A partial trust application can paste <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> from a partial trust application.</source>
+          <target state="translated">– En delvis klarering-programmet kan lime inn <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> fra en delvis klarering-program.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A full trust application can paste XAML only from another fully trusted application.</source>
+          <target state="translated">– En fullstendig klarering-programmet kan lime inn XAML bare fra et annet fullstendig klarerte program.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A non-<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> full trust application can examine the ApplicationTrust format on the clipboard and sanitize the XAML if appropriate.</source>
+          <target state="translated">– En ikke -<ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> fullstendig klarering programmet kan se ApplicationTrust formatet til utklippstavlen og korrigere XAML Hvis det er riktig.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Clears any data from the system Clipboard.</source>
+          <target state="translated">Sletter alle data fra systemet utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method is equivalent to calling <bpt id="p1">**</bpt>OleSetClipboard<ept id="p1">**</ept>(<bpt id="p2">**</bpt>null<ept id="p2">**</ept>).</source>
+          <target state="translated">Kaller denne metoden, tilsvarer kaller <bpt id="p1">**</bpt>OleSetClipboard<ept id="p1">**</ept>(<bpt id="p2">**</bpt>null<ept id="p2">**</ept>).</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format.</source>
+          <target state="translated">Spørringer utklippstavlen for tilstedeværelsen av dataene i den <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dataformat.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`true`</ph> only if the specified data format exists natively on the Clipboard; this method does not check for the presence of auto-convertible data formats.</source>
+          <target state="translated">Denne metoden returnerer <ph id="ph1">`true`</ph> bare hvis det angitte dataformatet opprinnelig finnes på utklippstavlen; denne metoden ikke kontrollere om automatisk convertible datoformater finnes.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Clipboard contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data format; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis utklippstavlen inneholder data i den <bpt id="p2">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> dataformat; ellers <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in a specified data format.</source>
+          <target state="translated">Spørringer utklippstavlen for tilstedeværelsen av data i et angitt dataformat.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A query for the data format &lt;xref:System.Windows.DataFormats.Bitmap&gt; or &lt;xref:System.Windows.DataFormats.FileDrop&gt; will return <ph id="ph1">`true`</ph> if the data can be automatically converted to the specified data format.</source>
+          <target state="translated">En spørring for datatypen &lt;xref:System.Windows.DataFormats.Bitmap&gt;eller &lt;xref:System.Windows.DataFormats.FileDrop&gt;tilbakestiller <ph id="ph1">`true`</ph> Hvis dataene automatisk kan konverteres til det angitte dataformatet.&lt;/xref:System.Windows.DataFormats.FileDrop&gt; &lt;/xref:System.Windows.DataFormats.Bitmap&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For other data formats, this method returns <ph id="ph1">`true`</ph> only if the specified format is available natively on the Clipboard.</source>
+          <target state="translated">For andre datoformater metoden returnerer <ph id="ph1">`true`</ph> bare hvis det angitte formatet opprinnelig på utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The format of the data to look for.</source>
+          <target state="translated">Formatet for dataene for å se etter.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> for forhåndsdefinerte formater.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data in the specified format is available on the Clipboard; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis dataene i det angitte formatet på utklippstavlen. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>See Remarks.</source>
+          <target state="translated">Se kommentarer.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format.</source>
+          <target state="translated">Spørringer utklippstavlen for tilstedeværelsen av dataene i den <bpt id="p1">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dataformat.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`true`</ph> only if the specified data format exists natively or is available as an auto-convertible data format on the Clipboard; this method does not check for the presence of auto-convertible data formats.</source>
+          <target state="translated">Denne metoden returnerer <ph id="ph1">`true`</ph> bare hvis det angitte dataformatet finnes opprinnelig eller er tilgjengelig som en automatisk convertible dataformat til utklippstavlen; kontrollerer ikke denne metoden for tilstedeværelsen av automatisk convertible datoformater.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Clipboard contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data format; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis utklippstavlen inneholder data i den <bpt id="p2">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> dataformat; ellers <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format.</source>
+          <target state="translated">Spørringer utklippstavlen for tilstedeværelsen av dataene i den <bpt id="p1">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dataformat.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`true`</ph> only if the specified data format exists natively or is available as an auto-convertible data format on the Clipboard; this method does not check for the presence of auto-convertible data formats.</source>
+          <target state="translated">Denne metoden returnerer <ph id="ph1">`true`</ph> bare hvis det angitte dataformatet finnes opprinnelig eller er tilgjengelig som en automatisk convertible dataformat til utklippstavlen; kontrollerer ikke denne metoden for tilstedeværelsen av automatisk convertible datoformater.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A bitmap represents a computer graphic as an array of bits in memory, and these bits represent the attributes of the individual pixels in an image.</source>
+          <target state="translated">Punktgrafikk representerer datamaskingrafikk som en matrise av bits i minnet, og disse bitene representerer attributtene for piksler i et bilde.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Clipboard contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data format; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis utklippstavlen inneholder data i den <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> dataformat; ellers <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">Spørringer utklippstavlen for tilstedeværelsen av dataene i den <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> format.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`true`</ph> only if the specified data format exists natively on the Clipboard; this method does not check for the presence of auto-convertible data formats.</source>
+          <target state="translated">Denne metoden returnerer <ph id="ph1">`true`</ph> bare hvis det angitte dataformatet opprinnelig finnes på utklippstavlen; denne metoden ikke kontrollere om automatisk convertible datoformater finnes.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.DataFormats.UnicodeText&gt; data format denotes 16-bit character encoded Unicode, also referred to as UTF-16, and USC-2.</source>
+          <target state="translated">Den &lt;xref:System.Windows.DataFormats.UnicodeText&gt;Dataformat angir 16-biters tegn kodet Unicode, også kalt UTF-16 og USC 2.&lt;/xref:System.Windows.DataFormats.UnicodeText&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Clipboard contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data format; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis utklippstavlen inneholder data i den <bpt id="p2">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> dataformat; ellers <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Queries the Clipboard for the presence of data in a text data format.</source>
+          <target state="translated">Spørringer utklippstavlen for tilstedeværelsen av data i tekstformat data.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`true`</ph> only if the specified data format exists natively in the data object; this method does not check for the presence of auto-convertible data formats.</source>
+          <target state="translated">Denne metoden returnerer <ph id="ph1">`true`</ph> bare hvis det angitte dataformatet opprinnelig finnes i dataobjektet; kontrollerer ikke denne metoden for tilstedeværelsen av automatisk convertible datoformater.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A member of the <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that specifies the text data format to query for.</source>
+          <target state="translated">Et medlem av den <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opplisting som angir formatet tekst data for spørring etter.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Clipboard contains data in the specified text data format; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis utklippstavlen inneholder data i det angitte teksten data-formatet. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> does not specify a valid member of <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>angir ikke et gyldig medlem av <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Permanently adds the data that is on the <bpt id="p1">&lt;xref href="System.Windows.Clipboard"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> so that it is available after the data's original application closes.</source>
+          <target state="translated">Permanent legger til data som finnes på den <bpt id="p1">&lt;xref href="System.Windows.Clipboard"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> slik at den er tilgjengelig etter de dataene opprinnelige programmet avsluttes.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Returns a stream of Clipboard data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format.</source>
+          <target state="translated">Returnerer en datastrøm utklippstavlen i den <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dataformat.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns a stream only if the specified format exists natively in the data object; this method does not return auto-convertible data.</source>
+          <target state="translated">Denne metoden returnerer en dataflyt bare hvis den angitte format opprinnelig finnes i dataobjekt. Denne metoden returnerer ikke automatisk convertible data.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A stream that contains the data in the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the Clipboard does not contain data in this format.</source>
+          <target state="translated">En dataflyt som inneholder dataene i den <bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> format, eller <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Hvis utklippstavlen ikke inneholder data i dette formatet.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Retrieves data in a specified format from the Clipboard.</source>
+          <target state="translated">Henter data i et angitt format fra utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A string that specifies the format of the data to retrieve.</source>
+          <target state="translated">En tekststreng som angir formatet for dataene som skal hentes.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For a set of predefined data formats, see the <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">For et sett med forhåndsdefinerte datoformater, kan du se den <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An object that contains the data in the specified format, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data is unavailable in the specified format.</source>
+          <target state="translated">Et objekt som inneholder dataene i det angitte formatet eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis dataene ikke er tilgjengelig i det angitte formatet.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Returns a data object that represents the entire contents of the Clipboard.</source>
+          <target state="translated">Returnerer et dataobjekt som representerer hele innholdet på utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Access to data on the system Clipboard is enabled through a <bpt id="p1">*</bpt>data object<ept id="p1">*</ept>, that is, an object that implements the &lt;xref:System.Windows.IDataObject&gt; interface.</source>
+          <target state="translated">Tilgang til data på systemet utklippstavlen er aktivert via en <bpt id="p1">*</bpt>dataobjektet<ept id="p1">*</ept>, som er et objekt som implementerer den &lt;xref:System.Windows.IDataObject&gt;grensesnittet.&lt;/xref:System.Windows.IDataObject&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A list of predefined formats is defined by the &lt;xref:System.Windows.DataFormats&gt; class.</source>
+          <target state="translated">En liste over forhåndsdefinerte formater er definert av &lt;xref:System.Windows.DataFormats&gt;klasse.&lt;/xref:System.Windows.DataFormats&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the methods specified by &lt;xref:System.Windows.IDataObject&gt; and fields in &lt;xref:System.Windows.DataFormats&gt; to examine and extract the data from the data object.</source>
+          <target state="translated">Bruk metodene som er angitt av &lt;xref:System.Windows.IDataObject&gt;og i &lt;xref:System.Windows.DataFormats&gt;til å undersøke og trekke ut data fra dataobjektet.&lt;/xref:System.Windows.DataFormats&gt; &lt;/xref:System.Windows.IDataObject&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To examine the formats of data on the system Clipboard, call &lt;xref:System.Windows.IDataObject.GetFormats%2A&gt; on the data object returned by this method.</source>
+          <target state="translated">Hvis du vil undersøke formatene for data på systemet utklippstavlen, kan du kalle &lt;xref:System.Windows.IDataObject.GetFormats%2A&gt;på dataobjektet returneres av denne metoden.&lt;/xref:System.Windows.IDataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To retrieve data from the system Clipboard, call &lt;xref:System.Windows.IDataObject.GetData%2A&gt; and specify the desired data format.</source>
+          <target state="translated">For å hente data fra systemet utklippstavlen, kan du kalle &lt;xref:System.Windows.IDataObject.GetData%2A&gt;og angi det ønskede dataformatet.&lt;/xref:System.Windows.IDataObject.GetData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The system Clipboard is shared by all applications, so data on the Clipboard is subject to change by other applications.</source>
+          <target state="translated">Systemet utklippstavlen er felles for alle applikasjoner, så dataene til utklippstavlen er kan endres av andre programmer.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A data object that enables access to the entire contents of the system Clipboard, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no data on the Clipboard.</source>
+          <target state="translated">Et dataobjekt som gir tilgang til hele innholdet i systemet utklippstavlen, eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis det er ingen data til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Returns a string collection that contains a list of dropped files available on the Clipboard.</source>
+          <target state="translated">Returnerer en streng samling som inneholder en liste over slettet filer som er tilgjengelige på utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A collection of strings, where each string specifies the name of a file in the list of dropped files on the Clipboard, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data is unavailable in this format.</source>
+          <target state="translated">En samling av strenger, der hver streng navnet på en fil i listen over slettet filer på utklippstavlen, eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis dataene ikke er tilgjengelig i dette formatet.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from the Clipboard that contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">Returnerer en <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet som inneholder data i den <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> format.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns a &lt;xref:System.Windows.Media.Imaging.BitmapSource&gt; object, either when data is available natively or when data can be auto-converted to the &lt;xref:System.Windows.DataFormats.Bitmap&gt; data format.</source>
+          <target state="translated">Denne metoden returnerer en &lt;xref:System.Windows.Media.Imaging.BitmapSource&gt;objektet, når data er tilgjengelig opprinnelig eller når dataene kan være automatisk konverteres til den &lt;xref:System.Windows.DataFormats.Bitmap&gt;dataformat.&lt;/xref:System.Windows.DataFormats.Bitmap&gt; &lt;/xref:System.Windows.Media.Imaging.BitmapSource&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A bitmap represents a computer graphic as an array of bits in memory, and these bits represent the attributes of the individual pixels in an image.</source>
+          <target state="translated">Punktgrafikk representerer datamaskingrafikk som en matrise av bits i minnet, og disse bitene representerer attributtene for piksler i et bilde.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains data in the <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> format, or <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the data is unavailable in this format.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder data i den <bpt id="p2">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> format, eller <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> Hvis dataene ikke er tilgjengelig i dette formatet.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Returns a string containing the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data on the Clipboard.</source>
+          <target state="translated">Returnerer en streng som inneholder den <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> data til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.DataFormats.UnicodeText&gt; data format denotes 16-bit character encoded Unicode, also referred to as UTF-16, and UCS-2.</source>
+          <target state="translated">Den &lt;xref:System.Windows.DataFormats.UnicodeText&gt;Dataformat angir 16-biters tegn kodet Unicode, også kalt UTF-16 og UCS-2.&lt;/xref:System.Windows.DataFormats.UnicodeText&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A string containing the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data , or an empty string if no <bpt id="p2">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data is available on the Clipboard.</source>
+          <target state="translated">En streng som inneholder den <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> data, eller en tom streng hvis <bpt id="p2">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> data er tilgjengelig på utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Returns a string containing text data on the Clipboard.</source>
+          <target state="translated">Returnerer en streng som inneholder tekstdata til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A member of <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the text data format to retrieve.</source>
+          <target state="translated">Et medlem av <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som angir dataene tekstformat til å hente.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A string containing text data in the specified data format, or an empty string if no corresponding text data is available.</source>
+          <target state="translated">En streng som inneholder data fra tekst i det angitte dataformatet, eller en tom streng hvis ingen tilsvarende tekstdata er tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Compares a specified data object to the contents of the Clipboard.</source>
+          <target state="translated">Sammenligner en angitt dataobjektet innholdet på utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to determine if a data object that was previously placed on the Clipboard is still present and unmodified.</source>
+          <target state="translated">Bruk denne metoden til å finne ut om et dataobjekt som allerede er satt til utklippstavlen er fortsatt finnes, og uendret.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A data object to compare to the contents of the system Clipboard.</source>
+          <target state="translated">Data-objekt til å sammenligne innholdet av utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified data object matches what is on the system Clipboard; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis det angitte objektet overens med det systemet utklippstavlen. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing the Clipboard.</source>
+          <target state="translated">Det oppstod en feil under tilgang til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The exception details will include an <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the specific error; see <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Informasjon om unntak inkluderer en <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som identifiserer den spesifikke feilen; se <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Stores audio data (<bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format) on the Clipboard.</source>
+          <target state="translated">Lagrer lyd data (<bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dataformat) til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The audio data is specified as a byte array.</source>
+          <target state="translated">Lyd data er angitt som en bytematrise.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion disabled.</source>
+          <target state="translated">Denne metoden legger til data med automatisk-konvertering deaktivert.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A byte array that contains audio data to store on the Clipboard.</source>
+          <target state="translated">En bytematrise som inneholder lyd data som kan lagres på utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;audioBytes&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;audioBytes&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Stores audio data (<bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data format) on the Clipboard.</source>
+          <target state="translated">Lagrer lyd data (<bpt id="p1">&lt;xref href="System.Windows.DataFormats.WaveAudio"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dataformat) til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The audio data is specified as a stream.</source>
+          <target state="translated">Lyd data er angitt som en dataflyt.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion disabled.</source>
+          <target state="translated">Denne metoden legger til data med automatisk-konvertering deaktivert.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>A stream that contains audio data to store on the Clipboard.</source>
+          <target state="translated">En dataflyt som inneholder lyd data som kan lagres på utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;audioStream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;audioStream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Stores the specified data on the Clipboard in the specified format.</source>
+          <target state="translated">Lagrer de angitte dataene til utklippstavlen i det angitte formatet.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion enabled if the corresponding data format is &lt;xref:System.Windows.DataFormats.FileDrop&gt; or &lt;xref:System.Windows.DataFormats.Bitmap&gt;.</source>
+          <target state="translated">Denne metoden legger til data med automatisk-konvertering aktivert hvis det tilsvarende dataformatet &lt;xref:System.Windows.DataFormats.FileDrop&gt;eller &lt;xref:System.Windows.DataFormats.Bitmap&gt;.&lt;/xref:System.Windows.DataFormats.Bitmap&gt; &lt;/xref:System.Windows.DataFormats.FileDrop&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, auto-conversion is disabled.</source>
+          <target state="translated">Hvis ikke, deaktiveres automatisk konvertering.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A string that specifies the format to use to store the data.</source>
+          <target state="translated">En tekststreng som angir formatet som brukes til å lagre dataene.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for a set of predefined data formats.</source>
+          <target state="translated">Se den <bpt id="p1">&lt;xref href="System.Windows.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse for et sett med forhåndsdefinerte datoformater.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An object representing the data to store on the Clipboard.</source>
+          <target state="translated">Et objekt som representerer dataene du vil lagre til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Places a specified non-persistent data object on the system Clipboard.</source>
+          <target state="translated">Plasserer det angitte ikke-faste-dataobjektet på systemet utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, data placed on the system Clipboard with &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt; is automatically cleared from the Clipboard when the application exits.</source>
+          <target state="translated">Som standard data som er plassert i systemet utklippstavlen med &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt;fjernes fra utklippstavlen automatisk når programmet avsluttes.&lt;/xref:System.Windows.Clipboard.SetDataObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The default behavior of clearing the Clipboard on application exit might differ from other implementations, which might leave data on the Clipboard on application exit rather than clearing it by default.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Standard virkemåte for å fjerne utklippstavlen på programmet avsluttes avvike fra andre implementeringer, som kan la dataene til utklippstavlen på programmet avsluttes i stedet for å fjerne den som standard.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt; overload and specify the <ph id="ph1">`copy`</ph> parameter as <ph id="ph2">`true`</ph> if you do not want data cleared from the Clipboard on application exit.</source>
+          <target state="translated">Bruk av &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt;overbelaste og angi den <ph id="ph1">`copy`</ph> -parameteren som <ph id="ph2">`true`</ph> Hvis du ikke vil data slettes fra utklippstavlen på programmet avsluttes.&lt;/xref:System.Windows.Clipboard.SetDataObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  &lt;xref:System.Windows.DataObject&gt; provides a basic implementation of the &lt;xref:System.Windows.IDataObject&gt; interface.</source>
+          <target state="translated">&gt;&gt; &lt;xref:System.Windows.DataObject&gt;gir en grunnleggende implementering av den &lt;xref:System.Windows.IDataObject&gt;grensesnittet.&lt;/xref:System.Windows.IDataObject&gt; &lt;/xref:System.Windows.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A data object (an object that implements <bpt id="p1">&lt;xref href="System.Windows.IDataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) to place on the system Clipboard.</source>
+          <target state="translated">Et dataobjekt (et objekt som implementerer <bpt id="p1">&lt;xref href="System.Windows.IDataObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>) skal plasseres på systemet utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An error occurred when accessing the Clipboard.</source>
+          <target state="translated">Det oppstod en feil under tilgang til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The exception details will include an <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the specific error; see <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Informasjon om unntak inkluderer en <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som identifiserer den spesifikke feilen; se <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Places a specified data object on the system Clipboard and accepts a Boolean parameter that indicates whether the data object should be left on the Clipboard when the application exits.</source>
+          <target state="translated">Plasserer det angitte-dataobjektet på systemet utklippstavlen og godtar boolsk parameter som angir om dataobjektet må stå på utklippstavlen når programmet avsluttes.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.DataObject&gt; provides a basic implementation of the &lt;xref:System.Windows.IDataObject&gt; interface.</source>
+          <target state="translated">&lt;xref:System.Windows.DataObject&gt;gir en grunnleggende implementering av den &lt;xref:System.Windows.IDataObject&gt;grensesnittet.&lt;/xref:System.Windows.IDataObject&gt;&lt;/xref:System.Windows.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Clipboard.IsCurrent%2A&gt; determines the data object previously placed on the clipboard by the last &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt; call.</source>
+          <target state="translated">&lt;xref:System.Windows.Clipboard.IsCurrent%2A&gt;bestemmer data-objekt som allerede er satt til utklippstavlen av siste &lt;xref:System.Windows.Clipboard.SetDataObject%2A&gt;kall.&lt;/xref:System.Windows.Clipboard.SetDataObject%2A&gt;&lt;/xref:System.Windows.Clipboard.IsCurrent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>A data object (an object that implements <bpt id="p1">&lt;xref href="System.Windows.IDataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) to place on the system Clipboard.</source>
+          <target state="translated">Et dataobjekt (et objekt som implementerer <bpt id="p1">&lt;xref href="System.Windows.IDataObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>) skal plasseres på systemet utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to leave the data on the system Clipboard when the application exits; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to clear the data from the system Clipboard when the application exits.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>La dataene på systemet utklippstavlen når programmet avslutter; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> fjerne dataene fra systemet utklippstavlen når programmet avsluttes.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;data&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>An error occured when accessing the Clipboard.</source>
+          <target state="translated">Det oppstod en feil under tilgang til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The exception details will include an <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the specific error; see <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Informasjon om unntak inkluderer en <bpt id="p1">&lt;xref uid="langword_csharp_HResult" name="HResult" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som identifiserer den spesifikke feilen; se <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.InteropServices.ErrorWrapper.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Stores <bpt id="p1">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data on the Clipboard.</source>
+          <target state="translated">Butikker <bpt id="p1">&lt;xref href="System.Windows.DataFormats.FileDrop"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> data til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The dropped file list is specified as a string collection.</source>
+          <target state="translated">Slettet fillisten er angitt som en streng-samling.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion enabled.</source>
+          <target state="translated">Denne metoden legger til data med automatisk-konvertering aktivert.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A string collection that contains the dropped file list to store in the data object.</source>
+          <target state="translated">En samling med streng som inneholder slettet fillisten for lagring i dataobjektet.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileDropList&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileDropList&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileDropList&lt;/code&gt;</ph> contains zero strings, or the full path to file specified in the list cannot be resolved.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileDropList&lt;/code&gt;</ph>inneholder null strenger, eller den fullstendige banen til filen som er angitt i listen kan ikke løses.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Stores <bpt id="p1">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data on the Clipboard.</source>
+          <target state="translated">Butikker <bpt id="p1">&lt;xref href="System.Windows.DataFormats.Bitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> data til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The image data is specified as a <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Bildedataene er angitt som en <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A bitmap represents a computer graphic as an array of bits in memory, and these bits represent the attributes of the individual pixels in an image.</source>
+          <target state="translated">Punktgrafikk representerer datamaskingrafikk som en matrise av bits i minnet, og disse bitene representerer attributtene for piksler i et bilde.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion enabled.</source>
+          <target state="translated">Denne metoden legger til data med automatisk-konvertering aktivert.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the image data to store on the Clipboard.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder image-data som kan lagres på utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Stores <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data on the Clipboard.</source>
+          <target state="translated">Butikker <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> data til utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This data format denotes 16-bit character encoded Unicode, also referred to as UTF-16, and UCS-2.</source>
+          <target state="translated">Denne dataformat angir 16-biters tegn kodet Unicode, også kalt UTF-16 og UCS-2.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion disabled.</source>
+          <target state="translated">Denne metoden legger til data med automatisk-konvertering deaktivert.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>A string that contains the <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data to store on the Clipboard.</source>
+          <target state="translated">En streng som inneholder den <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> data som kan lagres på utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;text&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;text&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Stores text data on the Clipboard in a specified text data format.</source>
+          <target state="translated">Lagrer tekstdata på utklippstavlen i en angitt tekstformat data.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data to store is specified as a string.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Windows.DataFormats.UnicodeText"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> data til å lagre er angitt som en streng.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method adds data with auto-conversion disabled.</source>
+          <target state="translated">Denne metoden legger til data med automatisk-konvertering deaktivert.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A string that contains the text data to store on the Clipboard.</source>
+          <target state="translated">En streng som inneholder tekstdata som kan lagres på utklippstavlen.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>A member of <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the specific text data format to store.</source>
+          <target state="translated">Et medlem av <bpt id="p1">&lt;xref href="System.Windows.TextDataFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som angir bestemt tekst dataformat til å lagre.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;text&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;text&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">edefd2a2e5d76048d1e07021f0622752d20019e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Channels.StreamUpgradeProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b163bb91bcf34e913407dbbd8f25fe1f3e5f0c8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2445860506c3a5f46d1942357aba997cd28eee0b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements a custom upgrade provider, inherited from this <bpt id="p1">&lt;xref uid="langword_csharp_abstract" name="abstract" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> base class.</source>
+          <target state="translated">Implementeert een aangepaste upgrade provider overgenomen van dit <bpt id="p1">&lt;xref uid="langword_csharp_abstract" name="abstract" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> basisklasse.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a stream upgrade is to build a compression stream directly on top of the transport stream.</source>
+          <target state="translated">Een voorbeeld van een upgrade van de stroom is voor het bouwen van een compressiestroom rechtstreeks boven op de transportstroom.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To add a security upgrade, you additionally implement a class that derives from &lt;xref:System.ServiceModel.Channels.StreamSecurityUpgradeProvider&gt;.</source>
+          <target state="translated">Als u wilt een beveiligingsupgrade toevoegen, implementeert u bovendien een klasse die is afgeleid van &lt;xref:System.ServiceModel.Channels.StreamSecurityUpgradeProvider&gt;.&lt;/xref:System.ServiceModel.Channels.StreamSecurityUpgradeProvider&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement multiple upgrades, each wrapping the preceding one.</source>
+          <target state="translated">U kunt implementeren meerdere upgrades elk wrapping van het vorige item.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The upgrade process has the following steps:      1.</source>
+          <target state="translated">Het upgradeproces is de volgende stappen uit: 1.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement a class that derives from StreamUpgradeProvider.</source>
+          <target state="translated">Een klasse die is afgeleid van StreamUpgradeProvider implementeren.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Register it.</source>
+          <target state="translated">Registreren.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do this by creating a binding element for it, and registering the provider in a custom binding.</source>
+          <target state="translated">U doen dit door een bindingselement voor het maken en de provider wordt geregistreerd in een aangepaste binding.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived class that you implement creates an instance of &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;, which at run time initiates a request to the other end of its connection to upgrade the channel transport layer.</source>
+          <target state="translated">De afgeleide klasse die u implementeert, maakt een exemplaar van &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;, die tijdens de uitvoering initieert een aanvraag naar het andere einde van de verbinding de kanaal-transportlaag bijwerken.&lt;/xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived class that you implement creates an instance of &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;, which at run time receives the upgrade request from the preceding step and, if possible, accepts the upgrade and returns the upgraded stream to the other side of its connection.</source>
+          <target state="translated">De afgeleide klasse die u implementeert, maakt een exemplaar van &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;, die tijdens de uitvoering ontvangt van de update-aanvraag van de vorige stap, indien mogelijk, accepteert u de upgrade en retourneert de bijgewerkte stroom en de andere kant van de verbinding.&lt;/xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are additional upgrade requests, they are processed sequentially, as described in the preceding two steps.</source>
+          <target state="translated">Als er extra upgrade aanvragen, worden ze opeenvolgend verwerkt, zoals beschreven in de vorige twee stappen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Time-out properties are set to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Time-eigenschappen zijn ingesteld op <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The provided time-outs control the default Open and Close time-outs for a transport using this upgrade provider.</source>
+          <target state="translated">De opgegeven time-outs bepalen de standaard openen en sluiten van time-outs voor een transport met behulp van deze upgrade provider.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The default communication time-outs.</source>
+          <target state="translated">De standaard communicatie time-outs.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Maakt een exemplaar van <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates the associated UpgradeAcceptor for this upgrade provider that can accept upgrade requests from the matching UpgradeInitiator.</source>
+          <target state="translated">Deze methode maakt u de bijbehorende UpgradeAcceptor voor deze upgrade provider die upgrade aanvragen van de overeenkomende UpgradeInitiator kan accepteren.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Returns an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert een exemplaar van <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeAcceptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Creates an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Maakt een exemplaar van <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates the associated &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt; for this upgrade provider that creates upgrade requests for the matching &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt; at the endpoint provided.</source>
+          <target state="translated">Deze methode maakt u de bijbehorende &lt;xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;voor deze upgrade provider die wordt gemaakt van de upgrade aanvragen voor het overeenkomende &lt;xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt;op het eindpunt.&lt;/xref:System.ServiceModel.Channels.StreamUpgradeAcceptor&gt; &lt;/xref:System.ServiceModel.Channels.StreamUpgradeInitiator&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Endpoint address for the channel.</source>
+          <target state="translated">Het eindpuntadres voor het kanaal.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The address of the Via URI (an intermediate URI through which communication may be routed).</source>
+          <target state="translated">Het adres van de URI Via (een tussenliggende URI waarmee communicatie kan worden gerouteerd).</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns an instance of <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert een exemplaar van <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.StreamUpgradeInitiator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the DefaultCloseTimeout.</source>
+          <target state="translated">Hiermee haalt u de DefaultCloseTimeout.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.TimeSpan&gt; for the DefaultCloseTimeout.</source>
+          <target state="translated">Retourneert een &lt;xref:System.TimeSpan&gt;voor de DefaultCloseTimeout.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the DefaultOpenTimeout.</source>
+          <target state="translated">Hiermee wordt de DefaultOpenTimeout opgehaald.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.TimeSpan&gt; for the DefaultOpenTimeout.</source>
+          <target state="translated">Retourneert een &lt;xref:System.TimeSpan&gt;voor de DefaultOpenTimeout.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

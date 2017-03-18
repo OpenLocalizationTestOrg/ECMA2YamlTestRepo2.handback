@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6443315bac377d45dbff0721d50838e005bded5f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Permissions.IsolatedStorageContainment.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9cddc3c455762e7aa2d24a1268260446656d3c7e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a9b895ab75457aef81bf2ebc31e493212d28778</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the permitted use of isolated storage.</source>
+          <target state="translated">Hiermee geeft u de toegestaan gebruik van geïsoleerde opslag.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Isolated storage uses evidence to determine a unique storage area for use by an application or component.</source>
+          <target state="translated">Geïsoleerde opslag gebruikt bewijs om te bepalen van een unieke opslaggebied voor gebruik door een toepassing of onderdeel.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The identity of an assembly uniquely determines the root of a virtual file system for use by that assembly.</source>
+          <target state="translated">De identiteit van een assembly bepaalt een unieke de hoofdmap van een virtuele bestandssysteem voor gebruik door die assembly.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, rather than many applications and components sharing a common resource such as the file system or registry, each has its own file area inherently assigned to it.</source>
+          <target state="translated">Dus in plaats van veel toepassingen en onderdelen delen een gemeenschappelijke resource, zoals het bestandssysteem of register, heeft elk een eigen bestand gebied inherent aan zijn toegewezen.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Four basic isolation scopes are used when assigning isolated storage:      -   <ph id="ph1">`User`</ph> - Code is always scoped according to the current user.</source>
+          <target state="translated">Vier eenvoudige isolatie scopes worden gebruikt bij het toewijzen van geïsoleerde opslag:- <ph id="ph1">`User`</ph> -Code heeft altijd een bereik volgens de huidige gebruiker.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The same assembly will receive different stores when being run by different users.</source>
+          <target state="translated">Dezelfde assembly ontvangt verschillende winkels wanneer wordt uitgevoerd door verschillende gebruikers.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <ph id="ph1">`Machine`</ph> - Code is always scoped according to the machine.</source>
+          <target state="translated">- <ph id="ph1">`Machine`</ph> -Code heeft altijd een bereik volgens de machine.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The same assembly will receive the same stores when being run by different users on the same machine.</source>
+          <target state="translated">Dezelfde assembly ontvangt de dezelfde worden opgeslagen wanneer wordt uitgevoerd door verschillende gebruikers op dezelfde machine.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <ph id="ph1">`Assembly`</ph> - Code is identified cryptographically by strong name (for example, Microsoft.Office.* or Microsoft.Office.Word), by publisher (based on public key), by URL (for example, http://www.fourthcoffee.com/process/grind.htm), by site, or by zone.</source>
+          <target state="translated">- <ph id="ph1">`Assembly`</ph> -Code wordt aangeduid cryptografisch met sterke naam (bijvoorbeeld Microsoft.Office.* of Microsoft.Office.Word), door de uitgever (op basis van de openbare sleutel), via de URL (bijvoorbeeld http://www.fourthcoffee.com/process/grind.htm) door de site, of door de zone.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <ph id="ph1">`Domain`</ph> - Code is identified based on evidence associated with the application domain.</source>
+          <target state="translated">- <ph id="ph1">`Domain`</ph> -Code wordt geïdentificeerd, gebaseerd op gegevens die zijn gekoppeld aan het toepassingsdomein.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Web application identity is derived from the site's URL, or by the Web page's URL, site, or zone.</source>
+          <target state="translated">Web-toepassings-id is afgeleid van de URL van de site, of door de webpagina-URL, site of zone.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Local code identity is based on the application directory path.</source>
+          <target state="translated">Identiteit van de lokale code is gebaseerd op het pad van de toepassing.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For definitions of URL, site, and zone, see &lt;xref:System.Security.Permissions.UrlIdentityPermission&gt;, &lt;xref:System.Security.Permissions.SiteIdentityPermission&gt;, and &lt;xref:System.Security.Permissions.ZoneIdentityPermission&gt;.</source>
+          <target state="translated">Zie voor definities van de URL, de site en de zone, &lt;xref:System.Security.Permissions.UrlIdentityPermission&gt;, &lt;xref:System.Security.Permissions.SiteIdentityPermission&gt;, en &lt;xref:System.Security.Permissions.ZoneIdentityPermission&gt;.&lt;/xref:System.Security.Permissions.ZoneIdentityPermission&gt; &lt;/xref:System.Security.Permissions.SiteIdentityPermission&gt; &lt;/xref:System.Security.Permissions.UrlIdentityPermission&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These identities are grouped together, in which case the identities are applied one after another until the desired isolated storage is created.</source>
+          <target state="translated">Deze identiteiten gegroepeerd, in welk geval de identiteiten worden toegepast na elkaar tot de gewenste geïsoleerde opslag is gemaakt.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The valid groupings are User+Assembly and User+Assembly+Domain.</source>
+          <target state="translated">De geldige groeperingen zijn gebruikersassembly + en het gebruikersdomein + Assembly +.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This grouping of identities is useful in many different applications.</source>
+          <target state="translated">Deze groepering van identiteit is handig in veel verschillende toepassingen.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If data is stored by domain, user, and assembly, the data is private in that only code in that assembly can access the data.</source>
+          <target state="translated">Als gegevens worden opgeslagen op domein, de gebruiker en de assembly, is de gegevens zijn persoonlijke in die alleen code in die assembly toegang de gegevens tot.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data store is also isolated by the application in which it runs, so that the assembly does not represent a potential leak by exposing data to other applications.</source>
+          <target state="translated">Het gegevensarchief is ook geïsoleerd door de toepassing waarin deze wordt uitgevoerd, zodat de assembly geen een potentiële-geheugenlek vertegenwoordigt bij het blootstellen van gegevens naar andere toepassingen.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Isolation by assembly and user could be used for user data that applies across multiple applications; for example, license information, or a user's personal information (name, authentication credentials, and so on) that is independent of an application.</source>
+          <target state="translated">Isolatie door assembly en de gebruiker kan worden gebruikt voor de gebruikersgegevens die van toepassing voor meerdere toepassingen is; bijvoorbeeld, licentie, of een gebruiker persoonlijke gegevens (naam, referenties voor verificatie, enzovoort) die onafhankelijk is van een toepassing.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IsolatedStorageContainment exposes flags that determine whether an application is allowed to use isolated storage and, if so, which identity combinations are allowed to use it.</source>
+          <target state="translated">Beschrijft de IsolatedStorageContainment vlaggen die bepalen of een toepassing is toegestaan tot het gebruik van geïsoleerde opslag en, indien het geval is, welke combinaties identiteit zijn toegestaan om deze te gebruiken.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also determines whether an application is allowed to store information in a location that can roam with a user (Windows Roaming User Profiles or Folder Redirection must be configured).</source>
+          <target state="translated">Bepaalt ook of een toepassing is toegestaan voor het opslaan van gegevens op een locatie die kan roamen aan een gebruiker (of Mapomleiding Windows zwervende profielen moet zijn geconfigureerd).</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Unlimited administration ability for the user store.</source>
+          <target state="translated">Onbeperkte beheer de mogelijkheid voor het gebruikersarchief van de.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Allows browsing and deletion of the entire user store, but not read access other than the user's own domain/assembly identity.</source>
+          <target state="translated">Hiermee kunnen bladeren en verwijdering van de gehele gebruikersarchief, maar geen leesrechten zijn ingesteld dan de identiteit van de domein-/ assembly van gebruiker.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Storage is isolated first by computer and then by application.</source>
+          <target state="translated">Opslag wordt geïsoleerd eerst op de computer en vervolgens op de toepassing.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This provides a data store for the application that is accessible in any domain context.</source>
+          <target state="translated">Dit biedt een gegevensarchief voor de toepassing die toegankelijk is in de domeincontext van een.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The per-application data compartment requires additional trust because it potentially provides a "tunnel" between applications that could compromise the data isolation of applications in particular Web sites.</source>
+          <target state="translated">De toepassingsgegevens per compartiment vereist aanvullende vertrouwen omdat het mogelijk een 'tunnel' tussen toepassingen die de gegevensisolatie van toepassingen in bepaalde websites in gevaar kunnen brengen.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Storage is isolated first by user and then by application evidence.</source>
+          <target state="translated">Opslag is eerst door de gebruiker en vervolgens op toepassingsbewijs geïsoleerd.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Storage will roam if Windows user data roaming is enabled.</source>
+          <target state="translated">Opslag wordt kunnen roamen als gegevensroaming voor Windows-gebruiker is ingeschakeld.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This provides a data store for the application that is accessible in any domain context.</source>
+          <target state="translated">Dit biedt een gegevensarchief voor de toepassing die toegankelijk is in de domeincontext van een.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The per-application data compartment requires additional trust because it potentially provides a "tunnel" between applications that could compromise the data isolation of applications in particular Web sites.</source>
+          <target state="translated">De toepassingsgegevens per compartiment vereist aanvullende vertrouwen omdat het mogelijk een 'tunnel' tussen toepassingen die de gegevensisolatie van toepassingen in bepaalde websites in gevaar kunnen brengen.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Storage is isolated first by user and then by application.</source>
+          <target state="translated">Opslag wordt geïsoleerd eerst door de gebruiker en vervolgens op de toepassing.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Storage is also isolated by computer.</source>
+          <target state="translated">Opslag is ook geïsoleerd per computer.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This provides a data store for the application that is accessible in any domain context.</source>
+          <target state="translated">Dit biedt een gegevensarchief voor de toepassing die toegankelijk is in de domeincontext van een.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The per-application data compartment requires additional trust because it potentially provides a "tunnel" between applications that could compromise the data isolation of applications in particular Web sites.</source>
+          <target state="translated">De toepassingsgegevens per compartiment vereist aanvullende vertrouwen omdat het mogelijk een 'tunnel' tussen toepassingen die de gegevensisolatie van toepassingen in bepaalde websites in gevaar kunnen brengen.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Storage is isolated first by computer and then by code assembly.</source>
+          <target state="translated">Opslag wordt geïsoleerd eerst op de computer en vervolgens op code-assembly.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This provides a data store for the assembly that is accessible in any domain context.</source>
+          <target state="translated">Dit biedt een gegevensarchief voor de assembly die is toegankelijk in de domeincontext van een.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The per-assembly data compartment requires additional trust because it potentially provides a "tunnel" between applications that could compromise the data isolation of applications in particular Web sites.</source>
+          <target state="translated">De gegevens per assembly compartment vereist aanvullende vertrouwen omdat het mogelijk een 'tunnel' tussen toepassingen die de gegevensisolatie van toepassingen in bepaalde websites in gevaar kunnen brengen.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Storage is isolated first by user and then by assembly evidence.</source>
+          <target state="translated">Opslag wordt geïsoleerd eerst door de gebruiker en vervolgens op de assembly-bewijs.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Storage will roam if Windows user data roaming is enabled.</source>
+          <target state="translated">Opslag wordt kunnen roamen als gegevensroaming voor Windows-gebruiker is ingeschakeld.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This provides a data store for the assembly that is accessible in any domain context.</source>
+          <target state="translated">Dit biedt een gegevensarchief voor de assembly die is toegankelijk in de domeincontext van een.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The per-assembly data compartment requires additional trust because it potentially provides a "tunnel" between applications that could compromise the data isolation of applications in particular Web sites.</source>
+          <target state="translated">De gegevens per assembly compartment vereist aanvullende vertrouwen omdat het mogelijk een 'tunnel' tussen toepassingen die de gegevensisolatie van toepassingen in bepaalde websites in gevaar kunnen brengen.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Storage is isolated first by user and then by code assembly.</source>
+          <target state="translated">Opslag wordt geïsoleerd eerst door de gebruiker en vervolgens op de code-assembly.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Storage is also isolated by computer.</source>
+          <target state="translated">Opslag is ook geïsoleerd per computer.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This provides a data store for the assembly that is accessible in any domain context.</source>
+          <target state="translated">Dit biedt een gegevensarchief voor de assembly die is toegankelijk in de domeincontext van een.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The per-assembly data compartment requires additional trust because it potentially provides a "tunnel" between applications that could compromise the data isolation of applications in particular Web sites.</source>
+          <target state="translated">De gegevens per assembly compartment vereist aanvullende vertrouwen omdat het mogelijk een 'tunnel' tussen toepassingen die de gegevensisolatie van toepassingen in bepaalde websites in gevaar kunnen brengen.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Storage is isolated first by computer and then by domain and assembly.</source>
+          <target state="translated">Opslag wordt geïsoleerd eerst op de computer en vervolgens op het domein en de assembly.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Data can only be accessed within the context of the same application and only when run on the same computer.</source>
+          <target state="translated">Gegevens kunnen alleen worden benaderd binnen de context van dezelfde toepassing en alleen als op dezelfde computer uitvoert.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This is helpful when a third-party assembly wants to keep a private data store.</source>
+          <target state="translated">Dit is handig wanneer een assembly van derden wil een persoonlijke gegevensopslag te houden.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Storage is isolated first by user and then by domain and assembly.</source>
+          <target state="translated">Opslag wordt geïsoleerd eerst door de gebruiker en vervolgens op het domein en de assembly.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Storage will roam if Windows user data roaming is enabled.</source>
+          <target state="translated">Opslag wordt kunnen roamen als gegevensroaming voor Windows-gebruiker is ingeschakeld.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Data can only be accessed within the context of the same application and only when run by the same user.</source>
+          <target state="translated">Gegevens kunnen alleen worden benaderd binnen de context van dezelfde toepassing en alleen wanneer uitvoert door dezelfde gebruiker.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This is helpful when a third-party assembly wants to keep a private data store.</source>
+          <target state="translated">Dit is handig wanneer een assembly van derden wil een persoonlijke gegevensopslag te houden.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Storage is isolated first by user and then by domain and assembly.</source>
+          <target state="translated">Opslag wordt geïsoleerd eerst door de gebruiker en vervolgens op het domein en de assembly.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Storage is also isolated by computer.</source>
+          <target state="translated">Opslag is ook geïsoleerd per computer.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Data can only be accessed within the context of the same application and only when run by the same user.</source>
+          <target state="translated">Gegevens kunnen alleen worden benaderd binnen de context van dezelfde toepassing en alleen wanneer uitvoert door dezelfde gebruiker.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This is helpful when a third-party assembly wants to keep a private data store.</source>
+          <target state="translated">Dit is handig wanneer een assembly van derden wil een persoonlijke gegevensopslag te houden.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Use of isolated storage is not allowed.</source>
+          <target state="translated">Het gebruik van geïsoleerde opslag is niet toegestaan.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Use of isolated storage is allowed without restriction.</source>
+          <target state="translated">Het gebruik van geïsoleerde opslag is toegestaan zonder beperking.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Code has full access to any part of the user store, regardless of the identity of the domain or assembly.</source>
+          <target state="translated">Code heeft volledige toegang tot een deel van het gebruikersarchief, ongeacht de identiteit van het domein of de assembly.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This use of isolated storage includes the ability to enumerate the contents of the isolated storage data store.</source>
+          <target state="translated">Dit gebruik van geïsoleerde opslag biedt de mogelijkheid om de inhoud van het gegevensarchief van geïsoleerde opslag inventariseren.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

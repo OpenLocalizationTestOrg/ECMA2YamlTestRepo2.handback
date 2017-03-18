@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6bd41bd23923cd1e83baf604d9e93eb5b4acdcca</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Policy.EvidenceBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8b019a314527b977e513065c0b1f4b0e00bbd36b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d09e94a7c2ecc80f77d6076a0bdb9853a2e5680</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class from which all objects to be used as evidence must derive.</source>
+          <target state="translated">Biedt een basisklasse van welke alle objecten die worden gebruikt als bewijs moet worden afgeleid.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before the <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, almost any object could be used as an evidence object if the hosting code wanted to apply it as evidence.</source>
+          <target state="translated">Voordat de <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, vrijwel elk object kan worden gebruikt als een object bewijs als de hosting code wilden toe te passen als bewijs.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, some .NET Framework code recognized &lt;xref:System.Uri?displayProperty=fullName&gt; objects as evidence.</source>
+          <target state="translated">Bijvoorbeeld, .NET Framework code herkend &lt;xref:System.Uri?displayProperty=fullName&gt;objecten als bewijs.&lt;/xref:System.Uri?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The common language runtime (CLR) considered evidence objects as &lt;xref:System.Object?displayProperty=fullName&gt; references, and did not apply any type safety to them.</source>
+          <target state="translated">De common language runtime (CLR) beschouwd als bewijs objecten als &lt;xref:System.Object?displayProperty=fullName&gt;verwijst naar en de veiligheid van elk type is niet van toepassing op deze.&lt;/xref:System.Object?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This presented a problem because there were implicit restrictions on which types could be used as evidence objects.</source>
+          <target state="translated">Dit weergegeven probleem omdat er impliciete beperkingen op welke typen kunnen worden gebruikt als bewijs objecten.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, any object used as evidence had to be serializable and could not be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">In het bijzonder object dat wordt gebruikt als bewijs dat opnieuw moest worden geserialiseerd en kan niet worden <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If these requirements were not met, the CLR threw an exception whenever an operation that required one of these assumptions was performed.</source>
+          <target state="translated">Als niet aan deze vereisten zijn voldaan, uitzondering de CLR een gegenereerd telkens wanneer een bewerking die een van deze veronderstellingen vereist is uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EvidenceBase class, which all evidence objects must derive from, was introduced in the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> to enable constraints on the types of objects that can be used as evidence and to provide the ability to add new features and requirements to all evidence objects.</source>
+          <target state="translated">De klasse EvidenceBase, die alle bewijs objecten moeten zijn afgeleid van, werd geïntroduceerd in de <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> inschakelen van beperkingen voor de typen objecten die kunnen worden gebruikt als bewijs en bieden de mogelijkheid om toe te voegen nieuwe functies en vereisten op alle bewijs objecten.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EvidenceBase class ensures, upon instantiation, that the evidence object is serializable.</source>
+          <target state="translated">De klasse EvidenceBase zorgt ervoor, bij instantiëring, dat het object bewijs kan worden geserialiseerd.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, it enables new evidence requirements to be created by adding new default implementations to the base class.</source>
+          <target state="translated">Bovendien kunnen de nieuwe bewijs vereisten moet worden gemaakt met het toevoegen van nieuwe standaard implementaties aan de basisklasse.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All the types used by the CLR as evidence objects have been updated in the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> to derive from EvidenceBase.</source>
+          <target state="translated">De typen die zijn gebruikt door de CLR als bewijs objecten zijn bijgewerkt de <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> worden afgeleid van EvidenceBase.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Policy.EvidenceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Policy.EvidenceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All objects to be used as evidence must be serializable.</source>
+          <target state="translated">Alle objecten die worden gebruikt als bewijs moet serializable zijn.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must mark any derived types as serializable, because the serializable attribute does not propagate to derived classes.</source>
+          <target state="translated">Omdat het kenmerk serialiseerbaar niet aan afgeleide klassen doorgeven komt, moet u eventuele afgeleide typen als serialiseerbaar, markeren.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An object to be used as evidence is not serializable.</source>
+          <target state="translated">Een object dat moet worden gebruikt als bewijs kan niet worden geserialiseerd.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Creates a new object that is a complete copy of the current instance.</source>
+          <target state="translated">Maakt een nieuw object dat een volledige kopie van het huidige exemplaar.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The duplicate copy is a complete copy that includes all the evidence objects in the collection.</source>
+          <target state="translated">Het duplicaat is een volledige kopie met alle bewijs objecten in de verzameling.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A duplicate copy of this evidence object.</source>
+          <target state="translated">Een kopie van dit object bewijs.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
