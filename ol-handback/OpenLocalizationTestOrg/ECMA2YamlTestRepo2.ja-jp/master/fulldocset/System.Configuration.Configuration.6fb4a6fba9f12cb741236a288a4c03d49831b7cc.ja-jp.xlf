@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d91fac38c17d0b4577e01780bd024d4621d94cf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.Configuration.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e5ed4f281e8841acba99f8f6502f3b8f40f80c0f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a364aef0167fc4747b6eb07948fc410927e383b6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a configuration file that is applicable to a particular computer, application, or resource.</source>
+          <target state="translated">特定のコンピューター、アプリケーション、またはリソースに適用される構成ファイルを表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">このクラスは継承できません。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Configuration settings are stored in a hierarchy of configuration files.</source>
+          <target state="translated">構成設定は、構成ファイルの階層に格納されます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Configuration class instance represents the merged view of the configuration settings from all of the configuration files that apply to a specific physical entity, such as a computer, or to a logical entity, such as an application or a Web site.</source>
+          <target state="translated">構成クラスのインスタンスは、すべてのコンピューターなどの特定の物理エンティティまたは、アプリケーションまたは Web サイトなどの論理エンティティに適用される構成ファイルから構成設定のマージされたビューを表します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The logical entity can exist on the local computer or on a remote server.</source>
+          <target state="translated">論理エンティティは、ローカル コンピューターまたはリモート サーバー上に存在します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For information about configuration files, see <bpt id="p1">[</bpt>Configuring Apps<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>ASP.NET Configuration Files<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">構成ファイルについては、次を参照してください。<bpt id="p1">[</bpt>構成アプリ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>と<bpt id="p2">[</bpt>ASP.NET 構成ファイル<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When no configuration file exists for a specified entity, the Configuration object represents the default configuration settings as defined by the Machine.config file.</source>
+          <target state="translated">特定のエンティティに対する構成ファイルが存在しない場合、構成オブジェクトは、Machine.config ファイルで定義されている既定の構成設定を表します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can get a Configuration object by using the following classes:      -   The &lt;xref:System.Configuration.ConfigurationManager&gt; class, if your entity is a client application.</source>
+          <target state="translated">次のクラスを使用して、構成オブジェクトを取得できます: -&lt;xref:System.Configuration.ConfigurationManager&gt;クラス、エンティティがクライアント アプリケーションの場合&lt;/xref:System.Configuration.ConfigurationManager&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Web.Configuration.WebConfigurationManager&gt; class, if your entity is a Web application.</source>
+          <target state="translated">-&lt;xref:System.Web.Configuration.WebConfigurationManager&gt;クラス、エンティティが Web アプリケーションの場合&lt;/xref:System.Web.Configuration.WebConfigurationManager&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The names of the methods that return a Configuration object begin with "Open".</source>
+          <target state="translated">構成オブジェクトを返すメソッドの名前は、「開く」で始まります。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can also generate a configuration file that represents the configuration settings in a Configuration object.</source>
+          <target state="translated">構成オブジェクトの構成設定を表す構成ファイルを生成することもできます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To do this, use one of the following methods:      -   Call the &lt;xref:System.Configuration.Configuration.Save%2A&gt; method to create a new configuration file.</source>
+          <target state="translated">これを行うには、次のいずれかの操作を使用して:-呼び出し、&lt;xref:System.Configuration.Configuration.Save%2A&gt;メソッドを新しい構成ファイルを作成します&lt;/xref:System.Configuration.Configuration.Save%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   Call the &lt;xref:System.Configuration.Configuration.SaveAs%2A&gt; method to generate a new configuration file at another location.</source>
+          <target state="translated">呼び出し、&lt;xref:System.Configuration.Configuration.SaveAs%2A&gt;別の場所で新しい構成ファイルを生成する方法&lt;/xref:System.Configuration.Configuration.SaveAs%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The names of the methods that create configuration files begin with "Save".</source>
+          <target state="translated">構成ファイルを作成するメソッドの名前は、[保存] で始まります。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To enable access to configuration settings on a remote computer, use the Aspnet_regiis command-line tool.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; をリモート コンピューター上の構成設定へのアクセスを有効にするには、Aspnet_regiis コマンド ライン ツールを使用します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information about this tool, see <bpt id="p1">[</bpt>ASP.NET IIS Registration Tool (Aspnet_regiis.exe)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">このツールの詳細については、次を参照してください。 <bpt id="p1">[</bpt>ASP.NET IIS 登録ツール (Aspnet_regiis.exe)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For information about creating and accessing custom configuration settings other than the intrinsic sections included in the .NET Framework, refer to &lt;xref:System.Configuration.ConfigurationSection&gt;.</source>
+          <target state="translated">作成して、組み込みのセクションでは、.NET Framework に含まれる以外のカスタム構成設定へのアクセスについては、 &lt;xref:System.Configuration.ConfigurationSection&gt;。&lt;/xref:System.Configuration.ConfigurationSection&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Configuration.AppSettingsSection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object configuration section that applies to this <bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Configuration.AppSettingsSection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>これに適用されるオブジェクトの構成セクション<bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Use the AppSettings property to access and change the <ph id="ph1">`appSettings`</ph> configuration section defined by default in the open configuration file.</source>
+          <target state="translated">AppSettings のプロパティを使用してアクセスし、変更、<ph id="ph1">`appSettings`</ph>既定では、開いている構成ファイルで定義された構成セクション。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Configuration.AppSettingsSection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object representing the <bpt id="p2">&lt;xref uid="langword_csharp_appSettings" name="appSettings" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> configuration section that applies to this <bpt id="p3">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Configuration.AppSettingsSection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトを表す、 <bpt id="p2">&lt;xref uid="langword_csharp_appSettings" name="appSettings" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>これを適用する構成セクション<bpt id="p3">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Specifies a function delegate that is used to transform assembly strings in configuration files.</source>
+          <target state="translated">構成ファイル内のアセンブリの文字列の変換に使用する関数デリゲートを指定します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This property enables a consumer of the .NET Framework configuration system to set a function delegate that is used to transform assembly strings found in configuration files.</source>
+          <target state="translated">このプロパティは、構成ファイル内で見つかったアセンブリの文字列を変換するために使用する関数デリゲートを設定するには、.NET Framework 構成システムのコンシューマーを使用します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[vs_dev10_long](~/add/includes/vs-dev10-long-md.md)]</ph> uses this property when a project is targeted for an earlier version of the .NET Framework.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vs_dev10_long](~/add/includes/vs-dev10-long-md.md)]</ph>.NET Framework の以前のバージョンのプロジェクトが対象となる場合は、このプロパティを使用します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The function makes sure that assembly strings are formatted correctly for the targeted version of the .NET Framework when configuration files are updated.</source>
+          <target state="translated">この関数ではアセンブリの文字列がフォーマットされている正しく対象 .NET Framework のバージョンの構成ファイルが更新されたときにことを確認します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A delegate that transforms type strings.</source>
+          <target state="translated">変換が文字列を入力するデリゲート。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Configuration.ConnectionStringsSection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> configuration-section object that applies to this <bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Configuration.ConnectionStringsSection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>これに適用する構成セクション オブジェクト<bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Use the ConnectionStrings property to access and change the <ph id="ph1">`connectionStrings`</ph> configuration section defined in the open configuration file.</source>
+          <target state="translated">ConnectionStrings プロパティを使用してアクセスし、変更、<ph id="ph1">`connectionStrings`</ph>開いている構成ファイルで定義された構成セクション。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.ConnectionStringsSection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> configuration-section object representing the <bpt id="p2">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> configuration section that applies to this <bpt id="p3">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.ConnectionStringsSection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>構成セクションを表すオブジェクト、 <bpt id="p2">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>これを適用する構成セクション<bpt id="p3">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Configuration.ContextInformation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the <bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Configuration.ContextInformation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトに対して、 <bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Configuration.ContextInformation&gt; object provides the context necessary for a &lt;xref:System.Configuration.Configuration&gt; object to respond based upon where it is being evaluated.</source>
+          <target state="translated">A&lt;xref:System.Configuration.ContextInformation&gt;オブジェクトに必要なコンテキストを提供する、&lt;xref:System.Configuration.Configuration&gt;が評価されているに応答するオブジェクトが基づく&lt;/xref:System.Configuration.Configuration&gt;&lt;/xref:System.Configuration.ContextInformation&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Configuration.ContextInformation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the <bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Configuration.ContextInformation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトに対して、 <bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the physical path to the configuration file represented by this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">これによって表される、構成ファイルへの物理パスを取得<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If the value for this FilePath property represents a merged view and no actual file exists for the application, the path to the parent configuration file is returned.</source>
+          <target state="translated">この FilePath プロパティの値がマージされたビューを表す、アプリケーションの実際のファイルが存在しない場合は、親の構成ファイルへのパスが返されます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The physical path to the configuration file represented by this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">これによって表される、構成ファイルへの物理パス<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Returns the specified <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">指定したを返します<bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Configuration settings are contained within sections that group similar settings together for convenience.</source>
+          <target state="translated">構成設定は、便宜上と同様の設定をグループ化したセクション内に格納されます。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The GetSection method retrieves a configuration section by its name.</source>
+          <target state="translated">GetSection メソッドは、その名前で構成セクションを取得します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The path to the section to be returned.</source>
+          <target state="translated">返されるには、セクションへのパス。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">指定した<bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets the specified <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">指定された取得<bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Use the GetSectionGroup method to obtain a specific &lt;xref:System.Configuration.ConfigurationSectionGroup&gt; from a &lt;xref:System.Configuration.Configuration&gt; object.</source>
+          <target state="translated">GetSectionGroup メソッドを使用して、固有の仕様を取得する&lt;xref:System.Configuration.ConfigurationSectionGroup&gt;から、&lt;xref:System.Configuration.Configuration&gt;オブジェクト&lt;/xref:System.Configuration.Configuration&gt;&lt;/xref:System.Configuration.ConfigurationSectionGroup&gt;。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The path name of the <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to return.</source>
+          <target state="translated">パス名、 <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を返します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specified.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether a file exists for the resource represented by this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">これによって表されるリソースのファイルが存在するかどうかを示す値を取得<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The HasFile property also returns <ph id="ph1">`true`</ph> when the resource represented by this &lt;xref:System.Configuration.Configuration&gt; object inherits settings from a Web.config file.</source>
+          <target state="translated">また HasFile プロパティを返します<ph id="ph1">`true`</ph>リソースがこれによって表される&lt;xref:System.Configuration.Configuration&gt;オブジェクトは、Web.config ファイルから設定を継承します&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The HasFile property returns <ph id="ph1">`false`</ph> when this &lt;xref:System.Configuration.Configuration&gt; object represents a location-specific configuration.</source>
+          <target state="translated">HasFile プロパティから返される<ph id="ph1">`false`</ph>ときにこの&lt;xref:System.Configuration.Configuration&gt;オブジェクトの場所に固有の構成を表します&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is a configuration file; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>構成ファイルがある場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Gets the locations defined within this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">内で定義されている場所を取得<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The Locations property applies only when the &lt;xref:System.Configuration.Configuration.HasFile%2A&gt; property returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">場所プロパティの適用される場合にのみ、&lt;xref:System.Configuration.Configuration.HasFile%2A&gt;プロパティから返される<ph id="ph1">`true`</ph>&lt;/xref:System.Configuration.Configuration.HasFile%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If this configuration inherits all of its settings, or no locations are defined, an empty collection is returned.</source>
+          <target state="translated">この構成はすべて、その設定を継承または場所が定義されていない、空のコレクションが返されます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationLocationCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the locations defined within this <bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationLocationCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>内で定義されている場所を含む<bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the configuration file has an XML namespace.</source>
+          <target state="translated">取得または構成ファイルが XML 名前空間を持つかどうかを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Configuration files are formatted as XML files, but an XML namespace is not required.</source>
+          <target state="translated">構成ファイルは、XML ファイルとして書式設定は、XML 名前空間が必要ではありません。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If this value is <ph id="ph1">`true`</ph> after the &lt;xref:System.Configuration.Configuration&gt; object is opened, then the file contains a namespace reference.</source>
+          <target state="translated">この値が場合<ph id="ph1">`true`</ph>後、&lt;xref:System.Configuration.Configuration&gt;オブジェクトをオープンし、ファイルには、名前空間の参照が含まれています&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If it is set to <ph id="ph1">`true`</ph> before the &lt;xref:System.Configuration.Configuration&gt; object is saved, then a namespace reference will be added to the file.</source>
+          <target state="translated">設定されている場合<ph id="ph1">`true`</ph>する前に、&lt;xref:System.Configuration.Configuration&gt;オブジェクトを保存し、名前空間参照がファイルに追加されます&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the configuration file has an XML namespace; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合は、構成ファイルがある XML 名前空間です。それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets the root <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">ルートを取得します<bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>この<bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The root section group for this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">このルート セクション グループ<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Writes the configuration settings contained within this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the current XML configuration file.</source>
+          <target state="translated">これに含まれる構成設定を書き込みます<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトが現在の XML 構成ファイルにします。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The Save method persists any configuration settings that have been modified since this &lt;xref:System.Configuration.Configuration&gt; object was created.</source>
+          <target state="translated">Save メソッドには、これ以降に変更された構成の設定が引き続き発生する&lt;xref:System.Configuration.Configuration&gt;オブジェクトが作成されました&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If a configuration file does not exist at the physical location represented by the &lt;xref:System.Configuration.Configuration.FilePath%2A&gt; property, a new configuration file will be created to contain any settings that are different from the inherited configuration.</source>
+          <target state="translated">かどうか、構成ファイルがによって表される物理的な場所に存在しません、&lt;xref:System.Configuration.Configuration.FilePath%2A&gt;新しい構成ファイルが作成、継承された構成とは異なる設定を格納するプロパティ&lt;/xref:System.Configuration.Configuration.FilePath%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If the configuration file has changed since this &lt;xref:System.Configuration.Configuration&gt; object was created, a run-time error occurs.</source>
+          <target state="translated">この構成ファイルが変更された場合&lt;xref:System.Configuration.Configuration&gt;オブジェクトが作成された、実行時エラーが発生します&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When 'Creator Owner' is listed in the ACL (Access Control List) of the directory containing the configuration file, the current user of Save becomes the new owner of the file and inherits the permissions granted to 'Creator Owner'.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; ' Creator Owner' は、ディレクトリの ACL (アクセス制御リスト) に表示されている場合、構成ファイルの現在のユーザーを含む保存ファイルの新しい所有者になり、' Creator Owner' に許可する権限を継承します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This results in an elevation of privileges for the current user and a removal of privileges for the previous owner.</source>
+          <target state="translated">これは、結果、現在のユーザーの特権の昇格と以前の所有者の特権を削除します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Writes the configuration settings contained within this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the current XML configuration file.</source>
+          <target state="translated">これに含まれる構成設定を書き込みます<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトが現在の XML 構成ファイルにします。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The Save method persists configuration settings in the &lt;xref:System.Configuration.Configuration&gt; object based on the <ph id="ph1">`saveMode`</ph> parameter.</source>
+          <target state="translated">Save メソッドの構成設定が引き続き発生する、&lt;xref:System.Configuration.Configuration&gt;オブジェクトに基づいて、<ph id="ph1">`saveMode`</ph>パラメーター&lt;/xref:System.Configuration.Configuration&gt; 。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If a configuration file does not exist at the physical location represented by the &lt;xref:System.Configuration.Configuration.FilePath%2A&gt; property, a new configuration file will be created to contain any settings that are different from the inherited configuration.</source>
+          <target state="translated">かどうか、構成ファイルがによって表される物理的な場所に存在しません、&lt;xref:System.Configuration.Configuration.FilePath%2A&gt;新しい構成ファイルが作成、継承された構成とは異なる設定を格納するプロパティ&lt;/xref:System.Configuration.Configuration.FilePath%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If the configuration file has changed since this &lt;xref:System.Configuration.Configuration&gt; object was created, a run-time error occurs.</source>
+          <target state="translated">この構成ファイルが変更された場合&lt;xref:System.Configuration.Configuration&gt;オブジェクトが作成された、実行時エラーが発生します&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When 'Creator Owner' is listed in the ACL (Access Control List) of the directory containing the configuration file, the current user of Save becomes the new owner of the file and inherits the permissions granted to 'Creator Owner'.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; ' Creator Owner' は、ディレクトリの ACL (アクセス制御リスト) に表示されている場合、構成ファイルの現在のユーザーを含む保存ファイルの新しい所有者になり、' Creator Owner' に許可する権限を継承します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This results in an elevation of privileges for the current user and a removal of privileges for the previous owner.</source>
+          <target state="translated">これは、結果、現在のユーザーの特権の昇格と以前の所有者の特権を削除します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSaveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that determines which property values to save.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSaveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を保存するプロパティの値を決定する値。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Writes the configuration settings contained within this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the current XML configuration file.</source>
+          <target state="translated">これに含まれる構成設定を書き込みます<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトが現在の XML 構成ファイルにします。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The Save method persists configuration settings in the &lt;xref:System.Configuration.Configuration&gt; object based on the <ph id="ph1">`saveMode`</ph> and <ph id="ph2">`forceSaveAll`</ph> parameters.</source>
+          <target state="translated">Save メソッドの構成設定が引き続き発生する、&lt;xref:System.Configuration.Configuration&gt;オブジェクトに基づいて、<ph id="ph1">`saveMode`</ph>と<ph id="ph2">`forceSaveAll`</ph>パラメーター&lt;/xref:System.Configuration.Configuration&gt; 。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If a configuration file does not exist at the physical location represented by the &lt;xref:System.Configuration.Configuration.FilePath%2A&gt; property, a  new configuration file will be created to contain any settings that are different from the inherited configuration..</source>
+          <target state="translated">&lt;xref:System.Configuration.Configuration.FilePath%2A&gt;新しい構成ファイルが作成されるとは、継承された構成.. を異なる設定を格納するプロパティ&lt;/xref:System.Configuration.Configuration.FilePath%2A&gt;によって表される物理的な場所、構成ファイルが存在しない場合</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If the configuration file has changed since this &lt;xref:System.Configuration.Configuration&gt; object was created, a run-time error occurs.</source>
+          <target state="translated">この構成ファイルが変更された場合&lt;xref:System.Configuration.Configuration&gt;オブジェクトが作成された、実行時エラーが発生します&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When 'Creator Owner' is listed in the ACL (Access Control List) of the directory containing the configuration file, the current user of Save becomes the new owner of the file and inherits the permissions granted to 'Creator Owner'.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; ' Creator Owner' は、ディレクトリの ACL (アクセス制御リスト) に表示されている場合、構成ファイルの現在のユーザーを含む保存ファイルの新しい所有者になり、' Creator Owner' に許可する権限を継承します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This results in an elevation of privileges for the current user and a removal of privileges for the previous owner.</source>
+          <target state="translated">これは、結果、現在のユーザーの特権の昇格と以前の所有者の特権を削除します。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSaveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that determines which property values to save.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSaveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を保存するプロパティの値を決定する値。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to save even if the configuration was not modified; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>構成が変更されていても、保存するにはそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Writes the configuration settings contained within this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the specified XML configuration file.</source>
+          <target state="translated">これに含まれる構成設定を書き込みます<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトが指定された XML 構成ファイルにします。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The SaveAs method persists any configuration settings that have been modified since this &lt;xref:System.Configuration.Configuration&gt; object was created to a new file.</source>
+          <target state="translated">SaveAs メソッドには、これ以降に変更された構成の設定が引き続き発生する&lt;xref:System.Configuration.Configuration&gt;オブジェクトが新しいファイルに作成されました&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If a configuration file does not exist at the physical location represented by the       &lt;xref:System.Configuration.Configuration.FilePath%2A&gt; property, a new configuration file will be created to contain any settings that are different from the inherited configuration..</source>
+          <target state="translated">&lt;xref:System.Configuration.Configuration.FilePath%2A&gt;新しい構成ファイルが作成されるとは、継承された構成.. を異なる設定を格納するプロパティ&lt;/xref:System.Configuration.Configuration.FilePath%2A&gt;によって表される物理的な場所、構成ファイルが存在しない場合</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If the configuration file has changed since this &lt;xref:System.Configuration.Configuration&gt; object was created, a run-time error occurs.</source>
+          <target state="translated">この構成ファイルが変更された場合&lt;xref:System.Configuration.Configuration&gt;オブジェクトが作成された、実行時エラーが発生します&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The path and file name to save the configuration file to.</source>
+          <target state="translated">構成ファイルの保存先のパスとファイル名。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Writes the configuration settings contained within this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the specified XML configuration file.</source>
+          <target state="translated">これに含まれる構成設定を書き込みます<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトが指定された XML 構成ファイルにします。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The SaveAs method persists configuration settings in the &lt;xref:System.Configuration.Configuration&gt; object to a new file based on the <ph id="ph1">`saveMode`</ph> parameter.</source>
+          <target state="translated">SaveAs メソッドの構成設定が引き続き発生する、&lt;xref:System.Configuration.Configuration&gt;を新しいファイルにオブジェクトに基づいて、<ph id="ph1">`saveMode`</ph>パラメーター&lt;/xref:System.Configuration.Configuration&gt; 。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If a configuration file does not exist at the physical location represented by the &lt;xref:System.Configuration.Configuration.FilePath%2A&gt; property, a new configuration file will be created to contain any settings that are different from the inherited configuration..</source>
+          <target state="translated">&lt;xref:System.Configuration.Configuration.FilePath%2A&gt;新しい構成ファイルが作成されるとは、継承された構成.. を異なる設定を格納するプロパティ&lt;/xref:System.Configuration.Configuration.FilePath%2A&gt;によって表される物理的な場所、構成ファイルが存在しない場合</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If the configuration file has changed since this &lt;xref:System.Configuration.Configuration&gt; object was created, a run-time error occurs.</source>
+          <target state="translated">この構成ファイルが変更された場合&lt;xref:System.Configuration.Configuration&gt;オブジェクトが作成された、実行時エラーが発生します&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The path and file name to save the configuration file to.</source>
+          <target state="translated">構成ファイルの保存先のパスとファイル名。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSaveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that determines which property values to save.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSaveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を保存するプロパティの値を決定する値。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Writes the configuration settings contained within this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the specified XML configuration file.</source>
+          <target state="translated">これに含まれる構成設定を書き込みます<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトが指定された XML 構成ファイルにします。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The SaveAs method persists configuration settings in the &lt;xref:System.Configuration.Configuration&gt; object to a new file based on the <ph id="ph1">`saveMode`</ph> and <ph id="ph2">`forceSaveAll`</ph> parameters.</source>
+          <target state="translated">SaveAs メソッドの構成設定が引き続き発生する、&lt;xref:System.Configuration.Configuration&gt;を新しいファイルにオブジェクトに基づいて、<ph id="ph1">`saveMode`</ph>と<ph id="ph2">`forceSaveAll`</ph>パラメーター&lt;/xref:System.Configuration.Configuration&gt; 。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If a configuration file does not exist at the physical location represented by the &lt;xref:System.Configuration.Configuration.FilePath%2A&gt; property, a new configuration file will be created to contain any settings that are different from the inherited configuration.</source>
+          <target state="translated">かどうか、構成ファイルがによって表される物理的な場所に存在しません、&lt;xref:System.Configuration.Configuration.FilePath%2A&gt;新しい構成ファイルが作成、継承された構成とは異なる設定を格納するプロパティ&lt;/xref:System.Configuration.Configuration.FilePath%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If the configuration file has changed since this &lt;xref:System.Configuration.Configuration&gt; object was created, a run-time error occurs.</source>
+          <target state="translated">この構成ファイルが変更された場合&lt;xref:System.Configuration.Configuration&gt;オブジェクトが作成された、実行時エラーが発生します&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The path and file name to save the configuration file to.</source>
+          <target state="translated">構成ファイルの保存先のパスとファイル名。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSaveMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that determines which property values to save.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSaveMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を保存するプロパティの値を決定する値。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to save even if the configuration was not modified; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>構成が変更されていても、保存するにはそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;filename&lt;/code&gt;</ph> is null or an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;filename&lt;/code&gt;</ph>null または空の文字列 ("") です。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the section groups defined by this configuration.</source>
+          <target state="translated">この構成で定義されているセクション グループのコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Configuration sections can be combined into groups for convenience and added functionality.</source>
+          <target state="translated">構成セクションでは、利便性のためのグループに結合できるし、機能を追加します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Access the SectionGroups property to retrieve the &lt;xref:System.Configuration.ConfigurationSectionGroupCollection&gt; object representing the collection of section groups for this &lt;xref:System.Configuration.Configuration&gt; object.</source>
+          <target state="translated">取得する SectionGroups プロパティへのアクセス、&lt;xref:System.Configuration.ConfigurationSectionGroupCollection&gt;のこのセクション グループのコレクションを表すオブジェクトを&lt;xref:System.Configuration.Configuration&gt;オブジェクト&lt;/xref:System.Configuration.Configuration&gt;&lt;/xref:System.Configuration.ConfigurationSectionGroupCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If this &lt;xref:System.Configuration.Configuration&gt; object represents an inherited view, the merged list of section groups will be returned.</source>
+          <target state="translated">この場合&lt;xref:System.Configuration.Configuration&gt;オブジェクトは、継承されたビューを表しているセクション グループのマージされた一覧が返されます&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroupCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection representing the collection of section groups for this <bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroupCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のこのセクション グループのコレクションを表すコレクション<bpt id="p2">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the sections defined by this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">これで定義されたセクションのコレクションを取得<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Access the Sections property to retrieve a &lt;xref:System.Configuration.ConfigurationSectionCollection&gt; object representing the collection of sections for this &lt;xref:System.Configuration.Configuration&gt; object.</source>
+          <target state="translated">プロパティにアクセスしてセクションを取得する、&lt;xref:System.Configuration.ConfigurationSectionCollection&gt;のこのセクションのコレクションを表すオブジェクトを&lt;xref:System.Configuration.Configuration&gt;オブジェクト&lt;/xref:System.Configuration.Configuration&gt;&lt;/xref:System.Configuration.ConfigurationSectionCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If this &lt;xref:System.Configuration.Configuration&gt; object represents a merged configuration, the merged list of sections will be returned.</source>
+          <target state="translated">この場合&lt;xref:System.Configuration.Configuration&gt;オブジェクトは、マージされた構成を表しているセクションのマージされた一覧が返されます&lt;/xref:System.Configuration.Configuration&gt;。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A collection of the sections defined by this <bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">これで定義されたセクションのコレクション<bpt id="p1">&lt;xref href="System.Configuration.Configuration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Specifies the targeted version of the .NET Framework when a version earlier than the current one is targeted.</source>
+          <target state="translated">バージョン以前より現在のものが対象となる場合は、.NET Framework の対象とするバージョンを指定します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>When the configuration system serializes a hierarchy of configuration objects to XML, it checks the value of this property.</source>
+          <target state="translated">構成システムには、xml 構成オブジェクトの階層がシリアル化、ときに、このプロパティの値を確認します。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If the property is not <ph id="ph1">`null`</ph>, the configuration system performs version checks for each configuration section group and configuration section.</source>
+          <target state="translated">プロパティがない場合<ph id="ph1">`null`</ph>、構成システムは、各構成セクション グループと構成セクションのバージョン チェックを実行します。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The configuration system also performs version checks for individual configuration properties that are marked as having changed across versions.</source>
+          <target state="translated">構成システムでは、バージョン間で変更とマークされている個々 の構成プロパティのバージョン チェックも実行します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>(For more information, see &lt;xref:System.Configuration.ConfigurationPropertyOptions&gt;.) The configuration system also performs version checks for configuration elements in configuration sections.</source>
+          <target state="translated">(詳細については、次を参照してください&lt;xref:System.Configuration.ConfigurationPropertyOptions&gt;。)&lt;/xref:System.Configuration.ConfigurationPropertyOptions&gt; 。構成システムでは、構成セクション内の構成要素のバージョン チェックも実行します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If the value of this property is <ph id="ph1">`null`</ph>, the configuration system does not perform any version checks during serialization.</source>
+          <target state="translated">このプロパティの値が場合<ph id="ph1">`null`</ph>、構成システムは、シリアル化中に、バージョン チェックを行いません。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The name of the targeted version of the .NET Framework.</source>
+          <target state="translated">.NET Framework の対象とするバージョンの名前。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which indicates that the current version is targeted.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、現在のバージョンが対象としていることを示します。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Specifies a function delegate that is used to transform type strings in configuration files.</source>
+          <target state="translated">構成ファイル内の型の文字列の変換に使用する関数デリゲートを指定します。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This property enables a consumer of the .NET Framework configuration system to set a function delegate that is used to transform type strings found in configuration files.</source>
+          <target state="translated">このプロパティは、構成ファイルで見つかった型文字列の変換に使用する関数デリゲートを設定するには、.NET Framework 構成システムのコンシューマーを使用します。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[vs_dev10_long](~/add/includes/vs-dev10-long-md.md)]</ph> uses this property when a project is targeted for an earlier version of the .NET Framework.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vs_dev10_long](~/add/includes/vs-dev10-long-md.md)]</ph>.NET Framework の以前のバージョンのプロジェクトが対象となる場合は、このプロパティを使用します。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The function makes sure that type strings are formatted correctly for the targeted version of the .NET Framework when configuration files are updated.</source>
+          <target state="translated">この関数では型の文字列がフォーマットされている正しく対象 .NET Framework のバージョンの構成ファイルが更新されたときにことを確認します。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A delegate that transforms type strings.</source>
+          <target state="translated">変換が文字列を入力するデリゲート。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
