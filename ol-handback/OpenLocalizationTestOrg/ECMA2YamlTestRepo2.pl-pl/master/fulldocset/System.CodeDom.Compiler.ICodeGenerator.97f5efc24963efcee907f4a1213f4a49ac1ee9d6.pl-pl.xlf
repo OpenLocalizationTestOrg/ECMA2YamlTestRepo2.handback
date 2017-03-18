@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c4fc65b7facbac2800ad9e9c5023e5e5a31b62db</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.CodeDom.Compiler.ICodeGenerator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33eef564d3eb21a539e442aeda27417f1b02a9a1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c653153e7f9cd9813a927f2017f2a34342701c2f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines an interface for generating code.</source>
+          <target state="translated">Definiuje interfejs dla generowania kodu.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph> &gt;  In the .NET Framework versions 1.0 and 1.1, code providers consist of implementations of &lt;xref:System.CodeDom.Compiler.CodeDomProvider&gt;, ICodeGenerator, &lt;xref:System.CodeDom.Compiler.ICodeParser&gt;, and &lt;xref:System.CodeDom.Compiler.ICodeCompiler&gt;.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph>&gt; W wersji systemu .NET Framework 1.0 i 1.1 dostawców kodu składają się z implementacji &lt;xref:System.CodeDom.Compiler.CodeDomProvider&gt;, Element ICodeGenerator, &lt;xref:System.CodeDom.Compiler.ICodeParser&gt;i &lt;xref:System.CodeDom.Compiler.ICodeCompiler&gt;.&lt;/xref:System.CodeDom.Compiler.ICodeCompiler&gt; &lt;/xref:System.CodeDom.Compiler.ICodeParser&gt; &lt;/xref:System.CodeDom.Compiler.CodeDomProvider&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>, the &lt;xref:System.CodeDom.Compiler.CodeDomProvider.CreateGenerator%2A&gt;, &lt;xref:System.CodeDom.Compiler.CodeDomProvider.CreateParser%2A&gt;, and &lt;xref:System.CodeDom.Compiler.CodeDomProvider.CreateCompiler%2A&gt; methods are obsolete, and the methods of ICodeGenerator and &lt;xref:System.CodeDom.Compiler.ICodeCompiler&gt; are directly available in the &lt;xref:System.CodeDom.Compiler.CodeDomProvider&gt; class.</source>
+          <target state="translated">W <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>, &lt;xref:System.CodeDom.Compiler.CodeDomProvider.CreateGenerator%2A&gt;, &lt;xref:System.CodeDom.Compiler.CodeDomProvider.CreateParser%2A&gt;, i &lt;xref:System.CodeDom.Compiler.CodeDomProvider.CreateCompiler%2A&gt;metody są nieaktualne oraz metody Element ICodeGenerator i &lt;xref:System.CodeDom.Compiler.ICodeCompiler&gt;są bezpośrednio dostępne w &lt;xref:System.CodeDom.Compiler.CodeDomProvider&gt;klasie.&lt;/xref:System.CodeDom.Compiler.CodeDomProvider&gt; &lt;/xref:System.CodeDom.Compiler.ICodeCompiler&gt; &lt;/xref:System.CodeDom.Compiler.CodeDomProvider.CreateCompiler%2A&gt; &lt;/xref:System.CodeDom.Compiler.CodeDomProvider.CreateParser%2A&gt; &lt;/xref:System.CodeDom.Compiler.CodeDomProvider.CreateGenerator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should override those methods in your code provider implementation and not call the base methods.</source>
+          <target state="translated">Należy zastąpić tych metod w implementacji dostawcy kodu i nie mogą wywoływać metod bazowych.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Developers of compilers can implement this interface to allow people to dynamically generate code in a particular language.</source>
+          <target state="translated">Deweloperzy kompilatory można zaimplementować ten interfejs, aby umożliwić użytkownikom do dynamicznego generowania kodu w określonym języku.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be used for a variety of purposes, such as creating code-generating wizards, creating dynamic assemblies with content that can be debugged, and for templated documents with embedded code, such as ASP.NET.</source>
+          <target state="translated">To może służyć do różnych celów, takich jak tworzenie kreatorów generowania kodu, tworzenie zestawów dynamicznych z zawartością, która może być debugowany i dla szablonu dokumentów z osadzonym kodem, takich jak ASP.NET.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An ICodeGenerator implementation is typically obtained through a call to the &lt;xref:System.CodeDom.Compiler.CodeDomProvider.CreateGenerator%2A&gt; method of &lt;xref:System.CodeDom.Compiler.CodeDomProvider&gt;.</source>
+          <target state="translated">Implementacja Element ICodeGenerator zwykle są uzyskiwane przez wywołanie do &lt;xref:System.CodeDom.Compiler.CodeDomProvider.CreateGenerator%2A&gt;metody &lt;xref:System.CodeDom.Compiler.CodeDomProvider&gt;.&lt;/xref:System.CodeDom.Compiler.CodeDomProvider&gt; &lt;/xref:System.CodeDom.Compiler.CodeDomProvider.CreateGenerator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Creates an escaped identifier for the specified value.</source>
+          <target state="translated">Tworzy identyfikator o zmienionym znaczeniu dla określonej wartości.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CreateEscapedIdentifier tests whether the identifier conflicts with reserved or language keywords, and if so, returns an equivalent name with language-specific escape code formatting.</source>
+          <target state="translated">CreateEscapedIdentifier sprawdza, czy identyfikator powoduje konflikt z zastrzeżonego lub słowa kluczowe języka, a jeśli tak, zwraca takiej nazwie formatowania kodu ucieczki specyficzny dla języka.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is referred to an escaped identifier.</source>
+          <target state="translated">Jest to określane identyfikatora o zmienionym znaczeniu.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The escaped identifier will contain the same <ph id="ph1">`value`</ph> but will have escape code formatting added to differentiate the identifier from the keyword.</source>
+          <target state="translated">Identyfikator o zmienionym znaczeniu będzie zawierać takie same <ph id="ph1">`value`</ph> , ale będą miały dodane rozróżnianie identyfikatora z kluczowego formatowania kodu ucieczki.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two implementation examples are preceding the <ph id="ph1">`value`</ph> with "@" or bracketing the <ph id="ph2">`value`</ph> with "[" and "]".</source>
+          <target state="translated">Dwa przykłady wdrożenia są poprzedzających <ph id="ph1">`value`</ph> z "@" lub zestawianie <ph id="ph2">`value`</ph> z "[" i "]".</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The string to create an escaped identifier for.</source>
+          <target state="translated">Ciąg do utworzenia dla identyfikatora o zmienionym znaczeniu.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The escaped identifier for the value.</source>
+          <target state="translated">Identyfikator o zmienionym znaczeniu dla wartości.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Creates a valid identifier for the specified value.</source>
+          <target state="translated">Tworzy prawidłowy identyfikator dla określonej wartości.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CreateValidIdentifier tests whether the identifier conflicts with reserved or language keywords, and returns a valid identifier name that does not conflict.</source>
+          <target state="translated">Testy CreateValidIdentifier czy identyfikator jest w konflikcie z zastrzeżonego lub słowa kluczowe języka i zwraca prawidłowy identyfikator nazw, które nie powoduje konfliktu.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned identifier will contain the same <ph id="ph1">`value`</ph> but, if it conflicts with reserved or language keywords, will have escape code formatting added to differentiate the identifier from the keyword.</source>
+          <target state="translated">Zwrócony identyfikator będzie zawierać takie same <ph id="ph1">`value`</ph> , ale, powoduje konflikt z zastrzeżone lub słowa kluczowe języka, będą dodane do odróżnienia identyfikator z kluczowego formatowania kodu ucieczki.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, if the value needs modification, value is returned preceded by an underscore "_".</source>
+          <target state="translated">Zazwyczaj przypadku wartość wymaga modyfikacji, jest zwracana wartość poprzedzającą podkreślenie "_".</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The string to generate a valid identifier for.</source>
+          <target state="translated">Ciąg do generowania prawidłowym identyfikatorem.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A valid identifier for the specified value.</source>
+          <target state="translated">Nieprawidłowy identyfikator dla określonej wartości.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Generates code for the specified Code Document Object Model (CodeDOM) compilation unit and outputs it to the specified text writer using the specified options.</source>
+          <target state="translated">Generuje kod dla określona jednostka kompilacji kodu Document Object Model (CodeDOM) i umieszcza go w określonym składniku zapisywania tekstu przy użyciu podanych opcji.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeCompileUnit"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to generate code for.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeCompileUnit"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do generowania kodu.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextWriter&gt; to output code to.</source>
+          <target state="translated">&lt;xref:System.IO.TextWriter&gt;Do kodu danych wyjściowych, aby.&lt;/xref:System.IO.TextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeGeneratorOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the options to use for generating code.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeGeneratorOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujące opcje do użycia podczas generowania kodu.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Generates code for the specified Code Document Object Model (CodeDOM) expression and outputs it to the specified text writer.</source>
+          <target state="translated">Generuje kod dla określonego wyrażenia kodu Document Object Model (CodeDOM) i umieszcza go w określonym składniku zapisywania tekstu.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the expression to generate code for.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujące, aby wygenerować kod dla wyrażenia.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextWriter&gt; to output code to.</source>
+          <target state="translated">&lt;xref:System.IO.TextWriter&gt;Do kodu danych wyjściowych, aby.&lt;/xref:System.IO.TextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeGeneratorOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the options to use for generating code.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeGeneratorOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujące opcje do użycia podczas generowania kodu.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Generates code for the specified Code Document Object Model (CodeDOM) namespace and outputs it to the specified text writer using the specified options.</source>
+          <target state="translated">Generuje kod dla określonego obszaru nazw kodu Document Object Model (CodeDOM) i umieszcza go w określonym składniku zapisywania tekstu przy użyciu podanych opcji.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeNamespace"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the namespace to generate code for.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeNamespace"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujące, aby wygenerować kod dla przestrzeni nazw.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextWriter&gt; to output code to.</source>
+          <target state="translated">&lt;xref:System.IO.TextWriter&gt;Do kodu danych wyjściowych, aby.&lt;/xref:System.IO.TextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeGeneratorOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the options to use for generating code.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeGeneratorOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujące opcje do użycia podczas generowania kodu.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Generates code for the specified Code Document Object Model (CodeDOM) statement and outputs it to the specified text writer using the specified options.</source>
+          <target state="translated">Generuje kod dla określonej instrukcji kodu Document Object Model (CodeDOM) i umieszcza go w określonym składniku zapisywania tekstu przy użyciu podanych opcji.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the CodeDOM elements to translate.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawierający elementy CodeDOM do tłumaczenia.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextWriter&gt; to output code to.</source>
+          <target state="translated">&lt;xref:System.IO.TextWriter&gt;Do kodu danych wyjściowych, aby.&lt;/xref:System.IO.TextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeGeneratorOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the options to use for generating code.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeGeneratorOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujące opcje do użycia podczas generowania kodu.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Generates code for the specified Code Document Object Model (CodeDOM) type declaration and outputs it to the specified text writer using the specified options.</source>
+          <target state="translated">Generuje kod dla określonego deklaracji typu kodu Document Object Model (CodeDOM) i umieszcza go w określonym składniku zapisywania tekstu przy użyciu podanych opcji.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeTypeDeclaration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the type to generate code for.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeTypeDeclaration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujące, aby wygenerować kod dla typu.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextWriter&gt; to output code to.</source>
+          <target state="translated">&lt;xref:System.IO.TextWriter&gt;Do kodu danych wyjściowych, aby.&lt;/xref:System.IO.TextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeGeneratorOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the options to use for generating code.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeGeneratorOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujące opcje do użycia podczas generowania kodu.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets the type indicated by the specified <bpt id="p1">&lt;xref href="System.CodeDom.CodeTypeReference"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera typ wskazuje określony <bpt id="p1">&lt;xref href="System.CodeDom.CodeTypeReference"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeTypeReference"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the type to return.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeTypeReference"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujące typ do zwrócenia.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A text representation of the specified type for the language this code generator is designed to generate code in.</source>
+          <target state="translated">Tekst reprezentację określonego typu dla tego generatora kodu jest przeznaczona do generowania kodu języka.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, in Visual Basic, passing in type System.Int32 will return "Integer".</source>
+          <target state="translated">Na przykład w języku Visual Basic, przekazywanie typu System.Int32 zwróci "Int".</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the specified value is a valid identifier for the current language.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy określona wartość jest nieprawidłowym identyfikatorem dla bieżącego języka.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method tests whether an identifier is valid.</source>
+          <target state="translated">Ta metoda sprawdza, czy identyfikator jest nieprawidłowy.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When implementing IsValidIdentifier in a derived class, design the method to test the value passed to it, and return <ph id="ph1">`true`</ph> only if the value fits the rules of the language and does not conflict with a keyword.</source>
+          <target state="translated">Podczas implementowania IsValidIdentifier w klasie pochodnej, projektowania metody do testowania przekazanej do niego wartości i zwraca <ph id="ph1">`true`</ph> tylko wtedy, gdy wartość pasuje do reguły języka i nie powoduje konflikt ze słowem kluczowym.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The value to test for being a valid identifier.</source>
+          <target state="translated">Wartość do testowania jest prawidłowym identyfikatorem.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> parameter is a valid identifier; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept> parametr jest prawidłowy identyfikator; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the generator provides support for the language features represented by the specified <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.GeneratorSupport"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy generator zapewnia obsługę funkcji języka reprezentowany przez określony <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.GeneratorSupport"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be called with a number of &lt;xref:System.CodeDom.Compiler.GeneratorSupport&gt; flags at once to test for a set of capabilities by joining a set of appropriate capability flags together with a binary "Or" operator (&amp;#124;).</source>
+          <target state="translated">Ta metoda może być wywołana z liczbą &lt;xref:System.CodeDom.Compiler.GeneratorSupport&gt;flagi jednocześnie w celu zbadania zestaw funkcji, dołączając zestaw flag odpowiednia możliwość wraz z pliku binarnego operatora "Lub" (|).&lt;/xref:System.CodeDom.Compiler.GeneratorSupport&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The capabilities to test the generator for.</source>
+          <target state="translated">Możliwości, aby przetestować generator.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified capabilities are supported; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli określonych możliwości są obsługiwane; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Throws an exception if the specified value is not a valid identifier.</source>
+          <target state="translated">Zgłasza wyjątek, jeśli określona wartość nie jest prawidłowym identyfikatorem.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rather than returning a value, this method throws an exception if the specified identifier is not valid according to the method implementation.</source>
+          <target state="translated">Zamiast zwracać wartość, ta metoda zgłasza wyjątek, jeśli określony identyfikator nie jest prawidłowa zgodnie z implementacji metody.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the exception is an &lt;xref:System.ArgumentException&gt;.</source>
+          <target state="translated">Zazwyczaj wyjątek jest &lt;xref:System.ArgumentException&gt;.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method enables a code generator that implements this method to produce an informative error message based upon the value of an invalid identifier.</source>
+          <target state="translated">Ta metoda umożliwia generator kodu, który implementuje tę metodę, aby utworzyć komunikat informacyjny o błędzie na podstawie wartości nieprawidłowy identyfikator.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The identifier to validate.</source>
+          <target state="translated">Identyfikator do sprawdzania poprawności.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The identifier is not valid.</source>
+          <target state="translated">Identyfikator jest nieprawidłowy.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

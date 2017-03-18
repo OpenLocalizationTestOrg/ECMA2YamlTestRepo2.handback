@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b32176d6089fbbc162329a5d737b8d1019d7145</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.PeerNode.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b60bef9e4e857e7e2b9c602f9a4f17de5cc73731</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc877a1d3b71f4be4bd47f8fb52425748b7fef15</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the instance of of a peer node used by an application participating in a specific peer mesh.</source>
+          <target state="translated">定義對等節點參與特定對等網狀結構中的應用程式所使用的執行個體。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A peer node can host multiple peer channels within the mesh as long as they share a common URI and host name in the &lt;xref:System.ServiceModel.EndpointAddress&gt; supplied to the binding for each channel.</source>
+          <target state="translated">對等節點可以裝載多個對等通道網狀結構內，只要它們共用中的常用 URI 和主機名稱&lt;xref:System.ServiceModel.EndpointAddress&gt;提供給每個通道的繫結。&lt;/xref:System.ServiceModel.EndpointAddress&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If two or more peer channels defined for a peer node are created with separate bindings, then the &lt;xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;, &lt;xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt;, and &lt;xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt; properties must be identical on all bindings.</source>
+          <target state="translated">如果對等節點所定義的兩個或多個對等通道會建立個別的繫結，則&lt;xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;， &lt;xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt;，和&lt;xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt;屬性必須是相同的所有繫結。&lt;/xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If a subsequent channel binding is created after the first one for the same peer node instance, then the &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; property on this and subsequent bindings must be less than or equal to the value of &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; property as set on the first channel binding.</source>
+          <target state="translated">如果後續的通道繫結會建立第一個相同對等節點執行個體，然後在&lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;上這個屬性和後續的繫結必須是小於或等於值&lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;屬性做為第一個通道繫結。&lt;/xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the peer node is online and able to send messages to neighboring nodes in the peer mesh.</source>
+          <target state="translated">取得值，指出是否對等節點已上線，而且能夠將訊息傳送給對等網狀結構的鄰近節點。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>"Online" indicates that a peer node has available neighbor nodes.</source>
+          <target state="translated">「 線上 」 表示對等節點都有可用的鄰近節點。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>"Offline" indicates that a peer node has no available neighbors.</source>
+          <target state="translated">「 離線 」 表示對等節點沒有可用的鄰近項目。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the peer node is online; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果對等節點在線上。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Gets and sets a custom filter for messages received over the peer channel.</source>
+          <target state="translated">取得及設定自訂對等通道收到的訊息篩選器。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The message filter must be a derived type and should be recast to that type to use any custom features defined on it.</source>
+          <target state="translated">訊息篩選條件必須是衍生型別，而且應該重新轉型至該型別使用任何定義的自訂功能。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.ServiceModel.PeerMessagePropagationFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a custom message filter.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ServiceModel.PeerMessagePropagationFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>其中包含自訂訊息篩選條件。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">沒有通道是開啟用於接聽。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Signals when the peer node goes offline from the peer mesh.</source>
+          <target state="translated">訊號時，對等節點會離線，從對等網狀結構。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An offline peer node has no neighbor nodes within the peer mesh to which it can connect.</source>
+          <target state="translated">離線對等節點可連接的對等網狀結構中有沒有鄰近節點。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Signals when a peer node comes online within the peer mesh.</source>
+          <target state="translated">對等網狀結構中的對等節點上線時發出訊號。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>An online peer node has at least one neighbor node within the peer mesh to which it is connected.</source>
+          <target state="translated">線上對等節點所連接的對等網狀結構中有至少一個鄰近節點。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the network port on which the peer node is listening.</source>
+          <target state="translated">取得對等節點正在接聽的網路連接埠。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Int32&gt; that specifies the network port on which the peer node is listening.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;指定對等節點正在接聽的網路連接埠。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">沒有通道是開啟用於接聽。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Refreshes the connection with the peer mesh.</source>
+          <target state="translated">重新整理與對等網狀結構的連線。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">沒有通道是開啟用於接聽。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The refresh operation timed out.</source>
+          <target state="translated">重新整理作業已逾時。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A network error occurred during the refresh attempt.</source>
+          <target state="translated">嘗試重新整理期間，發生網路錯誤。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The connection aborted during the refresh attempt.</source>
+          <target state="translated">在嘗試重新整理期間中止連線。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The connection faulted during the refresh attempt.</source>
+          <target state="translated">連線發生錯誤時嘗試重新整理。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Provides a string representation of a peer node.</source>
+          <target state="translated">提供對等節點的字串表示。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; value that contains the mesh ID of the peer node if the mesh ID is set; otherwise, it returns the type.</source>
+          <target state="translated">&lt;xref:System.String&gt;值，其中包含對等節點的網狀結構 ID，如果設定了網狀結構 ID。否則，它會傳回型別。&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
