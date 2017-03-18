@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [fulldocset\System.Windows.Forms.Layout.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Forms.Layout.yml) | InSyncHandedBackSuccess | [Details](#1a663c709db7689fb0d1dce69df84348f118f57485261)
 
 ## Item Details
-##### <a name='1a663c709db7689fb0d1dce69df84348f118f57485261'></a> Source: [fulldocset\System.Windows.Forms.Layout.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Forms.Layout.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Windows.Forms.Layout.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ko-kr/blob/94c92fc3458fa64b818a0392b97c2931f530c0b1/fulldocset/System.Windows.Forms.Layout.yml)
-* Handoff File: [System.Windows.Forms.Layout.36f6abb61e9bfa10a257cae5670c89b3098dc3f3.ko-kr.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/0990bdca284a6a21850ef9d520e2772fd4f65d11/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ko-kr/master/fulldocset/System.Windows.Forms.Layout.36f6abb61e9bfa10a257cae5670c89b3098dc3f3.ko-kr.xlf)
-* Handoff Datetime: 2017-03-16 03:56:34
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Windows.Forms.Layout.36f6abb61e9bfa10a257cae5670c89b3098dc3f3.ko-kr.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/a08962b0a8c5cbae7238faae560f6e2f2e823261/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ko-kr/master/fulldocset/System.Windows.Forms.Layout.36f6abb61e9bfa10a257cae5670c89b3098dc3f3.ko-kr.xlf)
-* Handback Datetime: 2017-03-18 05:19:48
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-ja-jp-ko-kr-pt-br-sv-se-zh-cn-zh-tw
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
