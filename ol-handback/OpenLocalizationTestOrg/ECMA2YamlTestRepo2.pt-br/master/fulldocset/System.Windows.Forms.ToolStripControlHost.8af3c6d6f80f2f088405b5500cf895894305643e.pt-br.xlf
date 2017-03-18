@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f704b3a1a639fdc43554c55c9cf25cd554a5f26c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.ToolStripControlHost.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31478c9a00015b229216d7fb38642211bd4cb9a4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2cca9a95035acdf5c95f2c5d55ea8146e16300a9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Hosts custom controls or Windows Forms controls.</source>
+          <target state="translated">Hospeda controles personalizados ou controles de formulários do Windows.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ToolStripControlHost is the abstract base class for &lt;xref:System.Windows.Forms.ToolStripComboBox&gt;, &lt;xref:System.Windows.Forms.ToolStripTextBox&gt;, and &lt;xref:System.Windows.Forms.ToolStripProgressBar&gt;.</source>
+          <target state="translated">ToolStripControlHost é a classe base abstrata para &lt;xref:System.Windows.Forms.ToolStripComboBox&gt;, &lt;xref:System.Windows.Forms.ToolStripTextBox&gt;e &lt;xref:System.Windows.Forms.ToolStripProgressBar&gt;.&lt;/xref:System.Windows.Forms.ToolStripProgressBar&gt; &lt;/xref:System.Windows.Forms.ToolStripTextBox&gt; &lt;/xref:System.Windows.Forms.ToolStripComboBox&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ToolStripControlHost can host other controls, including custom controls, in two ways:      -   Construct a ToolStripControlHost with a class that derives from &lt;xref:System.Windows.Forms.Control&gt;.</source>
+          <target state="translated">ToolStripControlHost pode hospedar outros controles, incluindo controles personalizados, de duas maneiras:-criar um ToolStripControlHost com uma classe que deriva de &lt;xref:System.Windows.Forms.Control&gt;.&lt;/xref:System.Windows.Forms.Control&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To fully access the hosted control and properties, you must cast the &lt;xref:System.Windows.Forms.ToolStripControlHost.Control%2A&gt; property back to the actual class it represents.</source>
+          <target state="translated">Para acessar totalmente o controle hospedado e propriedades, você deve converter o &lt;xref:System.Windows.Forms.ToolStripControlHost.Control%2A&gt;classe de propriedade para o valor real ele representa.&lt;/xref:System.Windows.Forms.ToolStripControlHost.Control%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Extend ToolStripControlHost, and in the inherited class's default constructor, call the base class constructor passing a class that derives from &lt;xref:System.Windows.Forms.Control&gt;.</source>
+          <target state="translated">-Estender ToolStripControlHost e no construtor de padrão da classe herdada, chame o construtor de classe base, passando uma classe que deriva de &lt;xref:System.Windows.Forms.Control&gt;.&lt;/xref:System.Windows.Forms.Control&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This option lets you wrap common control methods and properties for easy access in a &lt;xref:System.Windows.Forms.ToolStrip&gt;.</source>
+          <target state="translated">Essa opção permite que você encapsule métodos comuns de controle e propriedades para facilitar o acesso em &lt;xref:System.Windows.Forms.ToolStrip&gt;.&lt;/xref:System.Windows.Forms.ToolStrip&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the ToolStripControlHost class to host your customized controls or any other Windows Forms control.</source>
+          <target state="translated">Use a classe ToolStripControlHost para hospedar controles personalizados ou qualquer outro controle de formulários do Windows.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To customize a &lt;xref:System.Windows.Forms.ToolStripItem&gt;, derive from ToolStripControlHost and create a custom implementation.</source>
+          <target state="translated">Para personalizar um &lt;xref:System.Windows.Forms.ToolStripItem&gt;, derivam ToolStripControlHost e crie uma implementação personalizada.&lt;/xref:System.Windows.Forms.ToolStripItem&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override methods such as &lt;xref:System.Windows.Forms.ToolStripControlHost.OnSubscribeControlEvents%2A&gt; to handle events raised by the hosted controls, and you can put custom functionality into properties to enhance the hosted control.</source>
+          <target state="translated">Você pode substituir os métodos como &lt;xref:System.Windows.Forms.ToolStripControlHost.OnSubscribeControlEvents%2A&gt;manipular eventos gerados pelos controles hospedados, e você pode colocar a funcionalidade personalizada em propriedades para aprimorar o controle hospedado.&lt;/xref:System.Windows.Forms.ToolStripControlHost.OnSubscribeControlEvents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that hosts the specified control.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe que hospeda o controle especificado.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> hosted by this <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hospedado por este <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The control referred to by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">c</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O controle à qual o <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">c</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro é <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that hosts the specified control and that has the specified name.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe que hospeda o controle especificado e que tem o nome especificado.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> hosted by this <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hospedado por este <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The name of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O nome do <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets or sets the background color for the control.</source>
+          <target state="translated">Obtém ou define a cor de plano de fundo do controle.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Color"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the background color of the control.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Drawing.Color"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que representa a cor de plano de fundo do controle.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The default is the value of the &lt;xref:System.Windows.Forms.Control.DefaultBackColor*&gt; property.</source>
+          <target state="translated">O padrão é o valor de &lt;xref:System.Windows.Forms.Control.DefaultBackColor*&gt;propriedade.&lt;/xref:System.Windows.Forms.Control.DefaultBackColor*&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets or sets the background image displayed in the control.</source>
+          <target state="translated">Obtém ou define a imagem de plano de fundo exibida no controle.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Drawing.Image"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the image to display in the background of the control.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Drawing.Image"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que representa a imagem a ser exibida no plano de fundo do controle.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets or sets the background image layout as defined in the <bpt id="p1">&lt;xref uid="langword_csharp_ImageLayout" name="ImageLayout" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">Obtém ou define o layout de imagem de plano de fundo, conforme definido no <bpt id="p1">&lt;xref uid="langword_csharp_ImageLayout" name="ImageLayout" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> enumeração.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>One of the values of <bpt id="p1">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>:      -   <bpt id="p2">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><ph id="ph1">      -   </ph><bpt id="p3">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><ph id="ph2">      -   </ph><bpt id="p4">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><ph id="ph3">      -   </ph><bpt id="p5">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> (default)      -   <bpt id="p6">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept></source>
+          <target state="translated">One of the values of <bpt id="p1">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>:      -   <bpt id="p2">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept><ph id="ph1">      -   </ph><bpt id="p3">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept><ph id="ph2">      -   </ph><bpt id="p4">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept><ph id="ph3">      -   </ph><bpt id="p5">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> (default)      -<bpt id="p6">&lt;xref href="System.Windows.Forms.ImageLayout"&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the control can be selected.</source>
+          <target state="translated">Obtém um valor que indica se o controle pode ser selecionado.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control can be selected; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controle pode ser selecionado; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the hosted control causes and raises validation events on other controls when the hosted control receives focus.</source>
+          <target state="translated">Obtém ou define um valor que indica se o controle hospedado causa e gera eventos de validação em outros controles, quando o controle hospedado recebe o foco.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the hosted control causes and raises validation events on other controls when the hosted control receives focus; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controle hospedado causa e gera eventos de validação em outros controles, quando o controle hospedado recebe foco; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O padrão é <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that this <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is hosting.</source>
+          <target state="translated">Obtém o <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que este <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> hospeda.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that this <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is hosting.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que este <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> hospeda.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets or sets the alignment of the control on the form.</source>
+          <target state="translated">Obtém ou define o alinhamento do controle no formulário.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the ControlAlign property to determine or define how hosted controls are to be laid out on the form.</source>
+          <target state="translated">Use a propriedade ControlAlign para determinar ou definir como hospedados controles são dispostos no formulário.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Drawing.ContentAlignment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Uma da <bpt id="p1">&lt;xref href="System.Drawing.ContentAlignment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Drawing.ContentAlignment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O padrão é <bpt id="p1">&lt;xref href="System.Drawing.ContentAlignment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The ControlAlign property is set to a value that is not one of the <bpt id="p1">&lt;xref href="System.Drawing.ContentAlignment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">A propriedade ControlAlign está definida como um valor que não é um do <bpt id="p1">&lt;xref href="System.Drawing.ContentAlignment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Creates a new accessibility object for the control.</source>
+          <target state="translated">Cria um novo objeto de acessibilidade para o controle.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Windows.Forms.AccessibleObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the control.</source>
+          <target state="translated">Um novo <bpt id="p1">&lt;xref href="System.Windows.Forms.AccessibleObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o controle.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets the default size of the control.</source>
+          <target state="translated">Obtém o tamanho padrão do controle.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultSize property represents the &lt;xref:System.Drawing.Size&gt; of the control when it is initially created.</source>
+          <target state="translated">DefaultSize propriedade representa o &lt;xref:System.Drawing.Size&gt;do controle quando ele é criado inicialmente.&lt;/xref:System.Drawing.Size&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Windows.Forms.ToolStripItem.AutoSize%2A&gt; is <ph id="ph1">`true`</ph>, the control is sized automatically in accordance with the &lt;xref:System.Windows.Forms.ToolStrip&gt; orientation.</source>
+          <target state="translated">Se &lt;xref:System.Windows.Forms.ToolStripItem.AutoSize%2A&gt;é <ph id="ph1">`true`</ph>, o controle é dimensionado automaticamente de acordo com o &lt;xref:System.Windows.Forms.ToolStrip&gt;orientação.&lt;/xref:System.Windows.Forms.ToolStrip&gt; &lt;/xref:System.Windows.Forms.ToolStripItem.AutoSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can manually adjust the size of the control by setting its &lt;xref:System.Windows.Forms.ToolStripItem.AutoSize%2A&gt; property value to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Você pode ajustar manualmente o tamanho do controle definindo seu &lt;xref:System.Windows.Forms.ToolStripItem.AutoSize%2A&gt;valor da propriedade <ph id="ph1">`false`</ph>.&lt;/xref:System.Windows.Forms.ToolStripItem.AutoSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In order to maintain better performance, you should not set the &lt;xref:System.Drawing.Size&gt; of a control in its constructor.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Para manter o melhor desempenho, você não deve definir o &lt;xref:System.Drawing.Size&gt;de um controle em seu construtor.&lt;/xref:System.Drawing.Size&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The preferred method is to override the DefaultSize property.</source>
+          <target state="translated">O método preferencial é substituir a propriedade DefaultSize.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The default <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the control.</source>
+          <target state="translated">O padrão <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do controle.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The display style of the object.</source>
+          <target state="translated">O estilo de exibição do objeto.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This event is not relevant to this class.</source>
+          <target state="translated">Esse evento não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is not relevant to this class.</source>
+          <target state="translated">Esse evento não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Libera os recursos não gerenciados usados pelo <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> e, opcionalmente, libera os recursos gerenciados.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Este método é chamado pelo público <ph id="ph1">`Dispose`</ph> método e o &lt;xref:System.Object.Finalize%2A&gt;método.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose`</ph>invoca o protegido <ph id="ph2">`Dispose(Boolean)`</ph> método com o <ph id="ph3">`disposing`</ph> parâmetro definido como <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;invoca <ph id="ph1">`Dispose`</ph> com <ph id="ph2">`disposing`</ph> definido como <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Windows.Forms.ToolStripControlHost&gt; references.</source>
+          <target state="translated">Quando o <ph id="ph1">`disposing`</ph> parâmetro é <ph id="ph2">`true`</ph>, esse método libera todos os recursos mantidos por qualquer objeto gerenciado que este &lt;xref:System.Windows.Forms.ToolStripControlHost&gt;referências.&lt;/xref:System.Windows.Forms.ToolStripControlHost&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose`</ph> method of each referenced object.</source>
+          <target state="translated">Este método chama o <ph id="ph1">`Dispose`</ph> método de cada objeto referenciado.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para liberar recursos gerenciados e não gerenciados; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para liberar apenas recursos não gerenciados.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if double clicking is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se estiver habilitado clicando duas vezes; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the parent control of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is enabled.</source>
+          <target state="translated">Obtém ou define um valor que indica se o pai de controle do <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> está habilitado.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the parent control of the <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is enabled; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controle pai do <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> estiver habilitada; caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O padrão é <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Occurs when the hosted control is entered.</source>
+          <target state="translated">Ocorre quando o controle hospedado é inserido.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about event-handler delegates, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre delegados de manipulador de eventos, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gives the focus to a control.</source>
+          <target state="translated">Retorna o foco para um controle.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the control has input focus.</source>
+          <target state="translated">Obtém um valor que indica se o controle tem foco de entrada.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control has input focus; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controle tem foco; de entrada Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets the font to be used on the hosted control.</source>
+          <target state="translated">Obtém ou define a fonte a ser usada no controle hospedado.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the hosted control.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o controle hospedado.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets or sets the foreground color of the hosted control.</source>
+          <target state="translated">Obtém ou define a cor de primeiro plano do controle hospedado.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Color"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the foreground color of the hosted control.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Drawing.Color"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que representa a cor de primeiro plano do controle hospedado.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Retrieves the size of a rectangular area into which a control can be fitted.</source>
+          <target state="translated">Recupera o tamanho de uma área retangular na qual um controle pode ser ajustado.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The custom-sized area for a control.</source>
+          <target state="translated">A área tamanho personalizado para um controle.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An ordered pair of type <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the width and height of a rectangle.</source>
+          <target state="translated">Um par ordenado de tipo <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que representa a largura e altura de um retângulo.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Occurs when the hosted control receives focus.</source>
+          <target state="translated">Ocorre quando o controle hospedado recebe o foco.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a manipulação de eventos, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The image associated with the object.</source>
+          <target state="translated">A imagem associada ao objeto.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The image of the hosted control.</source>
+          <target state="translated">A imagem do controle hospedado.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The image alignment for the object.</source>
+          <target state="translated">O alinhamento da imagem para o objeto.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if an image on a ToolStripItem is automatically resized to fit in a container; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se uma imagem em um ToolStripItem é automaticamente redimensionada para caber em um contêiner; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The color to treat as transparent in the object.</source>
+          <target state="translated">A cor tratada como transparente no objeto.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The transparent color of the image.</source>
+          <target state="translated">A cor transparente da imagem.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Occurs when a key is pressed and held down while the hosted control has focus.</source>
+          <target state="translated">Ocorre quando uma tecla é pressionada e mantida pressionado enquanto o controle hospedado tem foco.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a manipulação de eventos, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Occurs when a key is pressed while the hosted control has focus.</source>
+          <target state="translated">Ocorre quando uma tecla é pressionada enquanto o controle hospedado tem foco.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a manipulação de eventos, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Occurs when a key is released while the hosted control has focus.</source>
+          <target state="translated">Ocorre quando uma tecla é liberada enquanto o controle hospedado tem foco.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a manipulação de eventos, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Occurs when the input focus leaves the hosted control.</source>
+          <target state="translated">Ocorre quando o foco de entrada sai do controle hospedado.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a manipulação de eventos, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Occurs when the hosted control loses focus.</source>
+          <target state="translated">Ocorre quando o controle hospedado perde o foco.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a manipulação de eventos, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Forms.ToolStripItem.Bounds*&gt; property changes.</source>
+          <target state="translated">Ocorre quando o &lt;xref:System.Windows.Forms.ToolStripItem.Bounds*&gt;alterações de propriedade.&lt;/xref:System.Windows.Forms.ToolStripItem.Bounds*&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnBoundsChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnBoundsChanged também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.Enter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.Enter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnEnter method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método AoEntrar também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;que contém os dados de evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.GotFocus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.GotFocus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnGotFocus method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método AoReceberFoco também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;que contém os dados de evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Synchronizes the resizing of the control host with the resizing of the hosted control.</source>
+          <target state="translated">Sincroniza o redimensionamento do host do controle com o redimensionamento do controle hospedado.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnHostedControlResize method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnHostedControlResize também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;que contém os dados de evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.KeyDown"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.KeyDown"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnKeyDown method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnKeyDown também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.KeyEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Windows.Forms.KeyEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém os dados de evento.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.KeyPress"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.KeyPress"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnKeyPress method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnKeyPress também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.KeyPressEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Windows.Forms.KeyPressEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém os dados de evento.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.KeyUp"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.KeyUp"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnKeyUp method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnKeyUp também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.KeyEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Windows.Forms.KeyEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém os dados de evento.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Layout"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Layout"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.LayoutEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Windows.Forms.LayoutEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém os dados de evento.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.Leave"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.Leave"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnLeave method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnLeave também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;que contém os dados de evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.LostFocus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.LostFocus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnLostFocus method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método AoPerderFoco também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;que contém os dados de evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Paint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.Paint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.PaintEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Windows.Forms.PaintEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém os dados de evento.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.ParentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.Control.ParentChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The original parent of the item.</source>
+          <target state="translated">O pai original do item.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The new parent of the item.</source>
+          <target state="translated">O novo pai do item.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Subscribes events from the hosted control.</source>
+          <target state="translated">Assina os eventos do controle hospedado.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the OnSubscribeControlEvents method to add or prevent the synchronizing of control events.</source>
+          <target state="translated">Substitua o método OnSubscribeControlEvents para adicionar ou impedir a sincronização de eventos de controle.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you override and hook up events here, unhook them by using the &lt;xref:System.Windows.Forms.ToolStripControlHost.OnUnsubscribeControlEvents%2A&gt; method.</source>
+          <target state="translated">Se você substituir e conectar eventos aqui, solte-los usando o &lt;xref:System.Windows.Forms.ToolStripControlHost.OnUnsubscribeControlEvents%2A&gt;método.&lt;/xref:System.Windows.Forms.ToolStripControlHost.OnUnsubscribeControlEvents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnSubscribeControlEvents method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnSubscribeControlEvents também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The control from which to subscribe events.</source>
+          <target state="translated">O controle de qual assinar eventos.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Unsubscribes events from the hosted control.</source>
+          <target state="translated">Cancela a inscrição eventos de controle hospedado.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the OnUnsubscribeControlEvents method to unsubscribe events subscribed in &lt;xref:System.Windows.Forms.ToolStripControlHost.OnSubscribeControlEvents%2A&gt;.</source>
+          <target state="translated">Substitua o método OnUnsubscribeControlEvents para cancelar a assinatura de eventos assinados em &lt;xref:System.Windows.Forms.ToolStripControlHost.OnSubscribeControlEvents%2A&gt;.&lt;/xref:System.Windows.Forms.ToolStripControlHost.OnSubscribeControlEvents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnUnsubscribeControlEvents method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnUnsubscribeControlEvents também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The control from which to unsubscribe events.</source>
+          <target state="translated">O controle dos quais cancelar a assinatura de eventos.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.Validated"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.Validated"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnValidated method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnValidated também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.EventArgs&gt;que contém os dados de evento.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.Validating"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripControlHost.Validating"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o manipulador de eventos por meio de um representante.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnValidating method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnValidating também permite que classes derivadas manipular o evento sem anexar um representante.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Isso é a técnica preferida para manipular o evento em uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.ComponentModel.CancelEventArgs&gt; that contains the event data.</source>
+          <target state="translated">Um &lt;xref:System.ComponentModel.CancelEventArgs&gt;que contém os dados de evento.&lt;/xref:System.ComponentModel.CancelEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Processes a command key.</source>
+          <target state="translated">Processa uma chave de comando.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, passed by reference, that represents the window message to process.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Windows.Forms.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, passada por referência, que representa a mensagem de janela para processar.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that represents the key to process.</source>
+          <target state="translated">Uma da <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores que representa a chave para processar.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>em todos os casos.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Processes a dialog key.</source>
+          <target state="translated">Processa uma chave de caixa de diálogo.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that represents the key to process.</source>
+          <target state="translated">Uma da <bpt id="p1">&lt;xref href="System.Windows.Forms.Keys"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores que representa a chave para processar.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key was processed by the item; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a chave foi processada pelo item; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Processes a mnemonic character.</source>
+          <target state="translated">Processa um caractere mnemônico.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The character to process.</source>
+          <target state="translated">O caractere a ser processado.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the character was processed as a mnemonic by the control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o caractere tiver sido processado como um mnemônico pelo controle; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>This method is not relevant to this class.</source>
+          <target state="translated">Esse método não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not relevant to this class.</source>
+          <target state="translated">Esse método não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>This method is not relevant to this class.</source>
+          <target state="translated">Esse método não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not relevant to this class.</source>
+          <target state="translated">Esse método não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether control's elements are aligned to support locales using right-to-left fonts.</source>
+          <target state="translated">Obtém ou define um valor que indica se os elementos do controle são alinhados para dar suporte a localidades usando fontes da direita para esquerda.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.RightToLeft"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Uma da <bpt id="p1">&lt;xref href="System.Windows.Forms.RightToLeft"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Windows.Forms.RightToLeft"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O padrão é <bpt id="p1">&lt;xref href="System.Windows.Forms.RightToLeft"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the image is mirrored; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a imagem for espelhada; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the item is selected.</source>
+          <target state="translated">Obtém um valor que indica se o item é selecionado.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is selected; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o <bpt id="p2">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> selecionado; caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified visible state.</source>
+          <target state="translated">Conjuntos de <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para o estado de visibilidade especificado.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to make the ToolStripItem visible; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Para tornar o ToolStripItem visível; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Gets or sets the site of the hosted control.</source>
+          <target state="translated">Obtém ou define o local do controle hospedado.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the control.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.ISite"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associado ao controle.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Gets or sets the size of the <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Obtém ou define o tamanho do <bpt id="p1">&lt;xref href="System.Windows.Forms.ToolStripItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>An ordered pair of type <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the width and height of a rectangle.</source>
+          <target state="translated">Um par ordenado de tipo <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que representa a largura e altura de um retângulo.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text to be displayed on the hosted control.</source>
+          <target state="translated">Obtém ou define o texto a ser exibido no controle hospedado.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; representing the text.</source>
+          <target state="translated">Um &lt;xref:System.String&gt;que representa o texto.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The text alignment property for the object.</source>
+          <target state="translated">A propriedade de alinhamento de texto para o objeto.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The text direction of the tool strip.</source>
+          <target state="translated">A direção do texto da faixa de ferramenta.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is not relevant to this class.</source>
+          <target state="translated">Essa propriedade não é relevante para essa classe.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The relation of a text image with the object.</source>
+          <target state="translated">A relação de uma imagem de texto com o objeto.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Occurs after the hosted control has been successfully validated.</source>
+          <target state="translated">Ocorre depois que o controle hospedado foi validado com êxito.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a manipulação de eventos, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Occurs while the hosted control is validating.</source>
+          <target state="translated">Ocorre enquanto o controle hospedado está sendo validada.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a manipulação de eventos, consulte <bpt id="p1">[</bpt>eventos<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

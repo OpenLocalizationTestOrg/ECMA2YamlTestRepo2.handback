@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ef4c829367417cddecfcc8dfde5bc7d40471397</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Permissions.RegistryPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4ba54fa1b353ed56ec13786d3d832bbd1dfa7ba</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">02c1d5e3b5a572b048bc84ec7880910222c2f9cd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Controls the ability to access registry variables.</source>
+          <target state="translated">Kontrollerer muligheten til å få tilgang til variabler i registret.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Denne klassen kan ikke arves.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RegistryPermission describes protected operations on registry variables.</source>
+          <target state="translated">RegistryPermission beskriver beskyttede operasjoner i registret variabler.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Registry variables should not be stored in memory locations where code without RegistryPermission can access them.</source>
+          <target state="translated">Skal ikke lagret registret variabler minne steder der kode uten RegistryPermission har tilgang til dem.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the registry object is passed to an untrusted caller it can be misused.</source>
+          <target state="translated">Hvis registret-objektet er sendt til et uklarert oppringer kan være misbruk.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The allowed registry access types are defined by &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;.</source>
+          <target state="translated">Tilgangstyper tillatte registret er definert av &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;.&lt;/xref:System.Security.Permissions.RegistryPermissionAccess&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If more than one type of access is desired, they can be combined using the bitwise OR operation as shown in the code sample that follows.</source>
+          <target state="translated">Hvis mer enn én type tilgang ønskes, kan de sammen med bitvis OR-operasjon som vist i kodeeksempel som følger.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Registry permission is defined in terms of canonical absolute paths; checks should always be made with canonical pathnames.</source>
+          <target state="translated">Registernøkkelen tillatelsen er definert i form kanoniske absolutte baner. sjekker må alltid gjøres med kanoniske banenavn.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Key access implies access to all values it contains and all variables under it.</source>
+          <target state="translated">Nøkkelen tilgang antyder tilgang til alle verdiene i den og alle variabler under den.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In versions of the .NET Framework before the <ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, you could use the &lt;xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName&gt; method to prevent inadvertent access to system resources by trusted code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; I versjoner av .NET Framework før den <ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, du kan bruke den &lt;xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName&gt;metode for å hindre utilsiktet tilgang til systemressurser av klarert kode.&lt;/xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; is now obsolete, and access to resources is now determined solely by the granted permission set for an assembly.</source>
+          <target state="translated">&lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;nå er foreldet, og tilgang til ressurser bestemmes nå utelukkende av gitt tillatelse angis for en samling.&lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To limit access to files, you must run partially trusted code in a sandbox and assign it permissions only to resources that the code is allowed to access.</source>
+          <target state="translated">For å begrense tilgang til filer, må du kjøre delvis klarert kode i en sandkassen, og tilordne tillatelser bare for ressurser som koden har tilgang til.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about running an application in a sandbox, see <bpt id="p1">[</bpt>How to: Run Partially Trusted Code in a Sandbox<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner informasjon om hvordan du kjører en applikasjon i en sandkassen <bpt id="p1">[</bpt>slik: kjøre delvis klarert kode i en sandkassen<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with either fully restricted or unrestricted permission as specified.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse helt begrenset eller ubegrenset tilgang som er angitt.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates either fully restricted (<ph id="ph1">`None`</ph>) or <ph id="ph2">`Unrestricted`</ph> access to registry variables.</source>
+          <target state="translated">Oppretter en fullstendig begrenset (<ph id="ph1">`None`</ph>) eller <ph id="ph2">`Unrestricted`</ph> tilgang til variabler i registret.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">state</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke en gyldig verdi for <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified access to the specified registry variables.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med den angitte tilgangen til de angitte registret variablene.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor allows only one of the &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt; values to be specified.</source>
+          <target state="translated">Denne konstruktøren tillater bare én av de &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;verdiene som skal angis.&lt;/xref:System.Security.Permissions.RegistryPermissionAccess&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This access applies to all listed registry variables.</source>
+          <target state="translated">Denne tilgangen gjelder for alle oppført registret variabler.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Security.Permissions.RegistryPermission.AddPathList%2A&gt; to define more complicated permissions.</source>
+          <target state="translated">Bruk &lt;xref:System.Security.Permissions.RegistryPermission.AddPathList%2A&gt;å definere mer kompliserte tillatelser.&lt;/xref:System.Security.Permissions.RegistryPermission.AddPathList%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A list of registry variables (semicolon-separated) to which access is granted.</source>
+          <target state="translated">En liste over registret variabler (semikolon kommadelte) som brukeren tilgang.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">access</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">access</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke en gyldig verdi for <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">pathList</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid string.</source>
+          <target state="translated">- eller - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">pathList</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke en gyldig streng.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified access to the specified registry variables and the specified access rights to registry control information.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med den angitte tilgangen til de angitte registret variablene og angitte tilgangsrettigheter til informasjonen i registeret kontrollen.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor allows only one of the &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt; values to be specified.</source>
+          <target state="translated">Denne konstruktøren tillater bare én av de &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;verdiene som skal angis.&lt;/xref:System.Security.Permissions.RegistryPermissionAccess&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This access applies to all listed registry variables.</source>
+          <target state="translated">Denne tilgangen gjelder for alle oppført registret variabler.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Security.Permissions.RegistryPermission.AddPathList%2A&gt; to define more complicated permissions.</source>
+          <target state="translated">Bruk &lt;xref:System.Security.Permissions.RegistryPermission.AddPathList%2A&gt;å definere mer kompliserte tillatelser.&lt;/xref:System.Security.Permissions.RegistryPermission.AddPathList%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`control`</ph> parameter specifies whether the access control list (ACL) for the registry keys specified by <ph id="ph2">`pathList`</ph> can be changed, viewed, or cannot be accessed.</source>
+          <target state="translated">Den <ph id="ph1">`control`</ph> parameteren angir om tilgangskontroll listen (ACL) for registernøkler som er angitt av <ph id="ph2">`pathList`</ph> kan endres, vises, eller er ikke tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  An access control list (ACL) describes individuals or groups who have, or do not have, rights to specific actions on the specified registry keys.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; En tilgangskontrolliste (ACL) som beskriver personer eller grupper som har, eller har ikke tilgangsrettigheter, med bestemte handlinger på de angitte registernøklene.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ability to change or view an ACL is an important permission and should be granted with caution.</source>
+          <target state="translated">Muligheten til å endre eller vise en tilgangskontrolliste (ACL) er en viktig tillatelse, og bør gis forsiktig.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.AccessControlActions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">En bitvis kombinasjon av det <bpt id="p1">&lt;xref href="System.Security.AccessControl.AccessControlActions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A list of registry variables (semicolon-separated) to which access is granted.</source>
+          <target state="translated">En liste over registret variabler (semikolon kommadelte) som brukeren tilgang.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">access</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">access</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke en gyldig verdi for <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">pathList</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid string.</source>
+          <target state="translated">- eller - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">pathList</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke en gyldig streng.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Adds access for the specified registry variables to the existing state of the permission.</source>
+          <target state="translated">Legger til tilgang for de angitte registret variablene i den eksisterende tilstanden til tillatelsen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to modify access to registry variables by adding to the state of the current permission object.</source>
+          <target state="translated">Bruk denne metoden til å endre tilgang til variabler i registeret ved å legge til statusen for det gjeldende tillatelse-objektet.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A list of registry variables (semicolon-separated).</source>
+          <target state="translated">En liste over registret variabler (semikolon kommadelte).</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">access</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">access</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke en gyldig verdi for <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">pathList</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid string.</source>
+          <target state="translated">- eller - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">pathList</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke en gyldig streng.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Adds access for the specified registry variables to the existing state of the permission, specifying registry permission access and access control actions.</source>
+          <target state="translated">Legger til tilgang for de angitte registret variablene i den eksisterende tilstanden til tillatelsen, angi registret tilgangstillatelse og access control handlinger.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to modify access to registry variables by adding the set of their paths to the state of the current permission object.</source>
+          <target state="translated">Bruk denne metoden til å endre tilgang til variabler i registeret ved å legge til settet med banene statusen for det gjeldende tillatelse-objektet.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload allows you to specify the access control action as will as the registry permission access.</source>
+          <target state="translated">Denne overlasten lar deg angi tilgang kontrollen hva som skal som tilgangstillatelse registret.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`control`</ph> parameter specifies whether the access control list (ACL) for the registry keys specified by <ph id="ph2">`pathList`</ph> can be changed, viewed, or cannot be accessed.</source>
+          <target state="translated">Den <ph id="ph1">`control`</ph> parameteren angir om tilgangskontroll listen (ACL) for registernøkler som er angitt av <ph id="ph2">`pathList`</ph> kan endres, vises, eller er ikke tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  An access control list (ACL) describes individuals or groups who have, or do not have, rights to specific actions on the specified registry keys.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; En tilgangskontrolliste (ACL) som beskriver personer eller grupper som har, eller har ikke tilgangsrettigheter, med bestemte handlinger på de angitte registernøklene.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ability to change or view an ACL is an important permission and should be granted with caution.</source>
+          <target state="translated">Muligheten til å endre eller vise en tilgangskontrolliste (ACL) er en viktig tillatelse, og bør gis forsiktig.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.AccessControlActions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Security.AccessControl.AccessControlActions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A list of registry variables (separated by semicolons).</source>
+          <target state="translated">En liste over registret variabler (atskilt med semikolon).</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">access</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">access</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke en gyldig verdi for <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">pathList</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid string.</source>
+          <target state="translated">- eller - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">pathList</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke en gyldig streng.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Creates and returns an identical copy of the current permission.</source>
+          <target state="translated">Oppretter og returnerer en identisk kopi av gjeldende tillatelse.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A copy of a permission represents the same access to resources as the original permission.</source>
+          <target state="translated">En kopi av en tillatelse representerer samme tilgang til ressurser som den opprinnelige tillatelsen.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A copy of the current permission.</source>
+          <target state="translated">En kopi av gjeldende tillatelse.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Reconstructs a permission with a specified state from an XML encoding.</source>
+          <target state="translated">Rekonstruerer en tillatelse med en angitt tilstand fra en XML-koding.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The XML encoding to use to reconstruct the permission.</source>
+          <target state="translated">XML-koding til å bruke Bygg opp tillatelsen.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid permission element.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">esd</ph> <ept id="p1">&lt;/code&gt;</ept> -parameteren er ikke et gyldig tillatelse-element.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter's version number is not valid.</source>
+          <target state="translated">- eller - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">esd</ph> <ept id="p1">&lt;/code&gt;</ept> versjonsnummeret for parameteren er ikke gyldig.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets paths for all registry variables with the specified <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Henter baner for alle registret variabler med det angitte <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to get the state of the current permission.</source>
+          <target state="translated">Bruk denne metoden til å hente tilstanden for gjeldende tillatelse.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must call this method separately for each type of access.</source>
+          <target state="translated">Du må kalle denne metoden separat for hver type tilgang.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`access`</ph> parameter is limited to the values of &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;, which represent single types of registry variable access.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Den <ph id="ph2">`access`</ph> parameteren er begrenset til verdiene i &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;, som representerer én tilgangstyper registret variable.&lt;/xref:System.Security.Permissions.RegistryPermissionAccess&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Those values are &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;, &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;, and &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;.</source>
+          <target state="translated">Verdiene er &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;, &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;, og &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;.&lt;/xref:System.Security.Permissions.RegistryPermissionAccess&gt; &lt;/xref:System.Security.Permissions.RegistryPermissionAccess&gt; &lt;/xref:System.Security.Permissions.RegistryPermissionAccess&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The values acceptable to <ph id="ph1">`access`</ph> do not include &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt; and &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;, which do not represent single types of registry variable access.</source>
+          <target state="translated">Verdiene som er godkjent til <ph id="ph1">`access`</ph> , inkluderer ikke &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;og &lt;xref:System.Security.Permissions.RegistryPermissionAccess&gt;, som representerer ikke enkelt tilgangstyper registret variable.&lt;/xref:System.Security.Permissions.RegistryPermissionAccess&gt; &lt;/xref:System.Security.Permissions.RegistryPermissionAccess&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that represents a single type of registry variable access.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier som representerer en enkel type registret variabelen tilgang.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A list of the registry variables (semicolon-separated) with the specified <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En liste over variabler registret (semikolon kommadelte) med angitt <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph> is not a valid value of <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph>er ikke en gyldig verdi for <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which represents more than one type of registry variable access, or <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, which does not represent any type of registry variable access.</source>
+          <target state="translated">- eller - <ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph> er <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, som representerer flere tilgangstypen registret variabelen, eller <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, som representerer alle typer registret variabelen tilgang.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Creates and returns a permission that is the intersection of the current permission and the specified permission.</source>
+          <target state="translated">Oppretter og returnerer en tillatelse som er i skjæringspunktet mellom den gjeldende tillatelsene og angitt.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The intersection of two permissions is a permission that describes the set of operations they both describe in common.</source>
+          <target state="translated">Skjæringspunktet mellom to tillatelsene er en tillatelse som beskriver operasjoner begge beskriver felles.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only a demand that passes both original permissions will pass the intersection.</source>
+          <target state="translated">En forespørsel som sender begge opprinnelige tillatelser vil sende skjæringspunktet.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A permission to intersect with the current permission.</source>
+          <target state="translated">Tillatelse til å intersect med gjeldende tillatelse.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">Det må være av samme type som gjeldende tillatelse.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the intersection of the current permission and the specified permission.</source>
+          <target state="translated">En ny tillatelse som representerer skjæringspunktet for den gjeldende tillatelsene og angitt.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This new permission is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the intersection is empty.</source>
+          <target state="translated">Denne nye tillatelsen er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis skjæringspunktet er tom.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept> -parameteren er ikke <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> og er ikke av samme type som gjeldende tillatelse.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Determines whether the current permission is a subset of the specified permission.</source>
+          <target state="translated">Avgjør om gjeldende tillatelsen er et delsett av den angitte tillatelsen.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current permission is a subset of the specified permission if the current permission specifies a set of operations that is wholly contained by the specified permission.</source>
+          <target state="translated">Gjeldende tillatelsen er et delsett av den angitte tillatelsen hvis gjeldende tillatelsen angir et sett med operasjoner som helt finnes i den angitte tillatelsen.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a permission that represents access to C:\example.txt is a subset of a permission that represents access to C:<ph id="ph1">\\</ph>.</source>
+          <target state="translated">For eksempel en tillatelse som representerer tilgang til C:\example.txt er et delsett for en tillatelse som representerer tilgang til C:<ph id="ph1">\\</ph>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method returns <ph id="ph1">`true`</ph>, the current permission represents no more access to the protected resource than does the specified permission.</source>
+          <target state="translated">Hvis denne metoden returnerer <ph id="ph1">`true`</ph>, gjeldende tillatelsen representerer ingen flere tilgang til beskyttet ressurs enn den angitte tillatelsen.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A permission that is to be tested for the subset relationship.</source>
+          <target state="translated">Tillatelse som skal testes for delsett-relasjonen.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This permission must be of the same type as the current permission.</source>
+          <target state="translated">Denne tillatelsen må være av samme type som gjeldende tillatelse.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current permission is a subset of the specified permission; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis den gjeldende tillatelsen er et delsett av den angitte tillatelsen. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept> -parameteren er ikke <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> og er ikke av samme type som gjeldende tillatelse.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the current permission is unrestricted.</source>
+          <target state="translated">Returnerer en verdi som angir om den gjeldende tillatelsen er ubegrenset.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An unrestricted permission represents access to any and all resources protected by the permission.</source>
+          <target state="translated">En ubegrenset tilgang representerer tilgang til alle ressurser som er beskyttet av tillatelsen.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current permission is unrestricted; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis den gjeldende tillatelsen er ubegrenset; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Sets new access for the specified registry variable names to the existing state of the permission.</source>
+          <target state="translated">Angir nye tilgang for den angitte registret variabelnavn til eksisterende systemtilstand tillatelsen.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The previous state of the current permission is overwritten.</source>
+          <target state="translated">Tilstanden for den gjeldende tillatelsen overskrives.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A list of registry variables (semicolon-separated).</source>
+          <target state="translated">En liste over registret variabler (semikolon kommadelte).</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">access</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">access</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke en gyldig verdi for <bpt id="p2">&lt;xref href="System.Security.Permissions.RegistryPermissionAccess"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">pathList</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid string.</source>
+          <target state="translated">- eller - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">pathList</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er ikke en gyldig streng.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Creates an XML encoding of the permission and its current state.</source>
+          <target state="translated">Oppretter en XML-koding av tillatelsen og den gjeldende tilstanden.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An XML encoding of the permission, including any state information.</source>
+          <target state="translated">XML-koding for tillatelse, inkludert tilstandsinformasjon.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Creates a permission that is the union of the current permission and the specified permission.</source>
+          <target state="translated">Oppretter en tillatelse som Unionen av de gjeldende tillatelsene og angitt.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result of a call to Union is a permission that represents all the operations represented by both the current permission and the specified permission.</source>
+          <target state="translated">Resultatet av et kall til Union er en tillatelse som representerer alle operasjoner som er representert av både den gjeldende tillatelsene og angitt.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any demand that passes either permission passes their union.</source>
+          <target state="translated">En forespørsel som sender enten tillatelse sender sine union.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A permission to combine with the current permission.</source>
+          <target state="translated">Tillatelse til å kombineres med gjeldende tillatelse.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">Det må være av samme type som gjeldende tillatelse.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the union of the current permission and the specified permission.</source>
+          <target state="translated">En ny tillatelse som representerer Unionen av de gjeldende tillatelsene og angitt.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">other</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">other</ph> <ept id="p1">&lt;/code&gt;</ept> -parameteren er ikke <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> og er ikke av samme type som gjeldende tillatelse.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

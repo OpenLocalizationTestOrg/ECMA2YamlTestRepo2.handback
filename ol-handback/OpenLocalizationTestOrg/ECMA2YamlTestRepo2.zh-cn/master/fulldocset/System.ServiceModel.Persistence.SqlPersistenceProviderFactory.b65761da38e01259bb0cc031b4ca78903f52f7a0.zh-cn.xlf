@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef4b58af79a5110f98c898e79c16e4defbcc3a68</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Persistence.SqlPersistenceProviderFactory.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">503a2aa1c7ec7efedae685107ff4ba2c553397f3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84ef24d83bde8733af0524ca09864e517dbab449</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A system-provided <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation used to create a <bpt id="p2">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance that uses a SQL database to store persisted service state data.</source>
+          <target state="translated">系统提供<bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>用于创建实现<bpt id="p2">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>使用 SQL 数据库来存储持久性的服务状态数据的实例。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The SqlPersistenceProviderFactory class represents a factory class for a fully-functional, durable service persistence provider.</source>
+          <target state="translated">SqlPersistenceProviderFactory 类表示功能完整的持久性服务永久性提供程序工厂类。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can use this system-provided provider to persist and retrieve state information about a durable <ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> service.</source>
+          <target state="translated">此系统提供的提供程序可用于保留和检索有关持久性状态信息<ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>服务。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In addition to persistence, the provider created by the SqlPersistenceProviderFactory class implements locking of service state data records by inheriting from the abstract &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider&gt; class.</source>
+          <target state="translated">除了持久性，创建服务状态数据记录的锁定通过从抽象&lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider&gt;类&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider&gt;继承 SqlPersistenceProviderFactory 类实现的提供程序</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Methods that interact with persisted data (such as &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Create%2A&gt; or &lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Update%2A&gt;) have an optional parameter (<ph id="ph1">`lockInstance`</ph>) that defines whether locks on the data in question are released or maintained.</source>
+          <target state="translated">与之交互的方法保存数据 (如&lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Create%2A&gt;或&lt;xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Update%2A&gt;) 具有一个可选参数 (<ph id="ph1">`lockInstance`</ph>)，它定义是否发布或维护相关数据的锁。&lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Update%2A&gt; &lt;/xref:System.ServiceModel.Persistence.LockingPersistenceProvider.Create%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  &lt;xref:System.ServiceModel.Persistence.PersistenceException&gt; exceptions thrown by SqlPersistenceProviderFactory do not have their exception details hidden by default.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt;&lt;xref:System.ServiceModel.Persistence.PersistenceException&gt;由 SqlPersistenceProviderFactory 引发的异常不具有默认情况下隐藏其异常详细信息。&lt;/xref:System.ServiceModel.Persistence.PersistenceException&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To protect against security vulnerabilities, these details can be hidden by setting &lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults%2A&gt; to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">若要防止安全漏洞，这些详细信息可以通过设置隐藏&lt;xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults%2A&gt;到<ph id="ph1">`false`</ph>。&lt;/xref:System.Workflow.Activities.WorkflowServiceAttributes.IncludeExceptionDetailInFaults%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The SQL Persistence Provider stores and retrieves data from a SQL Server database.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; SQL 持久性提供程序存储和从 SQL Server 数据库中检索数据。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The host must create a secure SQL Server environment to protect against attackers gaining read/write access to the instance state either in the database or on the wire between the application and the database.</source>
+          <target state="translated">主机必须创建一个安全的 SQL Server 环境以防止攻击者获取对实例状态在数据库中或在应用程序和数据库之间的网络上的读/写访问。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified parameter collection.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，使用指定的参数集合进行配置。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This constructor can be used to arbitrarily specify <ph id="ph1">`lockTimeout`</ph>, <ph id="ph2">`connectionString`</ph>, and <ph id="ph3">`serializeAsText`</ph> without specifying the other parameters as required by the other constructors (for example, to specify the <ph id="ph4">`connectionString`</ph> and <ph id="ph5">`lockTimeout`</ph> parameters without specifying the <ph id="ph6">`serializeAsText`</ph> parameter.)</source>
+          <target state="translated">可以使用此构造函数可以任意指定<ph id="ph1">`lockTimeout`</ph>， <ph id="ph2">`connectionString`</ph>，和<ph id="ph3">`serializeAsText`</ph>而无需指定其他构造函数所需的其他参数 (例如，若要指定<ph id="ph4">`connectionString`</ph>和<ph id="ph5">`lockTimeout`</ph>参数而无需指定<ph id="ph6">`serializeAsText`</ph>参数。)</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The collection of parameters used by the new persistence provider factory.</source>
+          <target state="translated">使用新的永久性提供程序工厂的参数的集合。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Valid parameters include <bpt id="p1">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_connectionStringName" name="connectionStringName" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and <bpt id="p3">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">有效的参数包括<bpt id="p1">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>， <bpt id="p2">&lt;xref uid="langword_csharp_connectionStringName" name="connectionStringName" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，和<bpt id="p3">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified connection string.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，使用指定的连接字符串配置。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The connection parameters for the new persistence provider instance.</source>
+          <target state="translated">新的永久性提供程序实例连接参数。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified connection string and <bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> parameters.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，使用指定的连接字符串配置和<bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>参数。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The default value for <ph id="ph1">`serializeAsText`</ph> is <ph id="ph2">`false`</ph>, which indicates that persistence information is serialized as binary data.</source>
+          <target state="translated">默认值为<ph id="ph1">`serializeAsText`</ph>是<ph id="ph2">`false`</ph>，指示该持久性信息序列化为二进制数据。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The connection parameters for the new persistence provider instance.</source>
+          <target state="translated">新的永久性提供程序实例连接参数。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specifies whether data is serialized as text rather than binary.</source>
+          <target state="translated">指定是否将数据序列化为文本而不是二进制文件。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, configured with the specified connection string, <bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and <bpt id="p3">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> parameters.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.SqlPersistenceProviderFactory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，使用指定的连接字符串中，配置<bpt id="p2">&lt;xref uid="langword_csharp_serializeAsText" name="serializeAsText" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，和<bpt id="p3">&lt;xref uid="langword_csharp_lockTimeout" name="lockTimeout" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>参数。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The default value for <ph id="ph1">`serializeAsText`</ph> is <ph id="ph2">`false`</ph>, which indicates that persistence information is serialized as binary data.</source>
+          <target state="translated">默认值为<ph id="ph1">`serializeAsText`</ph>是<ph id="ph2">`false`</ph>，指示该持久性信息序列化为二进制数据。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The default value for <ph id="ph1">`lockTimeout`</ph> is <ph id="ph2">`TimeSpan.Zero`</ph>, which indicates that locking is not used.</source>
+          <target state="translated">默认值为<ph id="ph1">`lockTimeout`</ph>是<ph id="ph2">`TimeSpan.Zero`</ph>，不使用表示该锁定。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`TimeSpan.MaxValue`</ph> is used, then locks are maintained indefinitely.</source>
+          <target state="translated">如果<ph id="ph1">`TimeSpan.MaxValue`</ph>使用，则无限期地保持锁定。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The connection parameters for the new persistence provider factory instance.</source>
+          <target state="translated">新的永久性提供程序工厂实例连接参数。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies whether data is serialized as text rather than binary.</source>
+          <target state="translated">指定是否将数据序列化为文本而不是二进制文件。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The time-out for lock ownership.</source>
+          <target state="translated">锁定所有权的超时。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Locked instances are automatically unlocked after this time period.</source>
+          <target state="translated">锁定的实例将在此时间段后自动解锁。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A time-out of <bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan.Zero" name="TimeSpan.Zero" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies that no locking is used.</source>
+          <target state="translated">超时值为<bpt id="p1">&lt;xref uid="langword_csharp_TimeSpan.Zero" name="TimeSpan.Zero" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定使用不会经过锁定。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the connection parameters for persistence provider instances created with this factory.</source>
+          <target state="translated">获取使用此工厂创建的持久性提供程序实例的连接参数。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The connection parameters for persistence provider instances created with this factory.</source>
+          <target state="translated">使用此工厂创建的持久性提供程序实例连接参数。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that uses a SQL database as its persistence store.</source>
+          <target state="translated">初始化新<bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.LockingPersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>作为其持久性存储区中使用 SQL 数据库的实例。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The initialized persistence provider uses the current parameters of the creating factory (&lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.ConnectionString%2A&gt;, &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.LockTimeout%2A&gt;, and &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.SerializeAsText%2A&gt;), even if the factory's parameters are changed after the persistence provider is created.</source>
+          <target state="translated">初始化的永久性提供程序使用创建工厂的当前参数 (&lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.ConnectionString%2A&gt;， &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.LockTimeout%2A&gt;，和&lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.SerializeAsText%2A&gt;)，即使在创建永久性提供程序后更改工厂的参数。&lt;/xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.SerializeAsText%2A&gt; &lt;/xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.LockTimeout%2A&gt; &lt;/xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The unique identifier of the persistence provider being created.</source>
+          <target state="translated">正在创建的永久性提供程序的唯一标识符。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A newly-created <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新创建<bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets the default time-out value used when persistence providers created with this factory are closed.</source>
+          <target state="translated">获取使用此工厂创建的永久性提供程序关闭时所用的默认超时值。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default value for close time-out is 15 seconds.</source>
+          <target state="translated">关闭超时的默认值为 15 秒。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The default time-out value.</source>
+          <target state="translated">默认超时值。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the default time-out value used when persistence provider is opened.</source>
+          <target state="translated">获取永久性提供程序打开时使用的默认超时值。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default value for open time-out is 15 seconds.</source>
+          <target state="translated">打开超时的默认值为 15 秒。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default time-out value.</source>
+          <target state="translated">默认超时值。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The time-out for lock ownership used by persistence provider instances created by this instance.</source>
+          <target state="translated">使用此实例创建的持久性提供程序实例的锁定所有权的超时。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Locked instances are automatically unlocked after this time period.</source>
+          <target state="translated">锁定的实例将在此时间段后自动解锁。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A time-out of <ph id="ph1">`TimeSpan.Zero`</ph> specifies that no locking is used.</source>
+          <target state="translated">超时值为<ph id="ph1">`TimeSpan.Zero`</ph>指定使用不会经过锁定。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The time-out value for lock ownership.</source>
+          <target state="translated">锁定所有权的超时值。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Represents the Abort phase.</source>
+          <target state="translated">表示中止阶段。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`OnAbort`</ph> fires when the service host shuts down abruptly and active commands currently being processed are closed.</source>
+          <target state="translated"><ph id="ph1">`OnAbort`</ph>当前正在处理的活动命令并激发突然关闭服务主机时，将关闭。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Represents the beginning of the Close phase.</source>
+          <target state="translated">表示关闭阶段开始。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The Close phase occurs when the service is closed.</source>
+          <target state="translated">关闭服务时将关闭进入阶段。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">时间段，永久性提供程序后将中止此尝试。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">要完成该操作时调用的方法。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">用户提供的对象，用于区分此特定异步操作与其他操作。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The state of the OnBeginClose asynchronous method call.</source>
+          <target state="translated">OnBeginClose 异步方法调用的状态。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Represents the beginning of the Open phase.</source>
+          <target state="translated">表示打开阶段开始。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The Open phase occurs when the service is opened.</source>
+          <target state="translated">打开服务时将打开进入阶段。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">时间段，永久性提供程序后将中止此尝试。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">要完成该操作时调用的方法。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">用户提供的对象，用于区分此特定异步操作与其他操作。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The state of the OnBeginOpen asynchronous method call.</source>
+          <target state="translated">OnBeginOpen 异步方法调用的状态。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Represents the Close phase.</source>
+          <target state="translated">表示关闭阶段。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The Close phase occurs when the service is closed.</source>
+          <target state="translated">关闭服务时将关闭进入阶段。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">时间段，永久性提供程序后将中止此尝试。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Represents the end of the Close phase.</source>
+          <target state="translated">表示关闭阶段结束。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The Close phase occurs when the service is closed.</source>
+          <target state="translated">关闭服务时将关闭进入阶段。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A reference to the result of the operation.</source>
+          <target state="translated">对操作的结果的引用。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Represents the end of the Open phase.</source>
+          <target state="translated">表示打开阶段结束。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The Open phase occurs when the service is opened.</source>
+          <target state="translated">打开服务时将打开进入阶段。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A reference to the result of the operation.</source>
+          <target state="translated">对操作的结果的引用。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Represents the Open phase.</source>
+          <target state="translated">表示打开阶段。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The Open phase occurs when the service is opened.</source>
+          <target state="translated">打开服务时将打开进入阶段。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">时间段，永久性提供程序后将中止此尝试。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Specifies whether data is serialized as text rather than binary in persistence providers created with this factory.</source>
+          <target state="translated">指定是否将数据序列化为文本而不使用此工厂创建的永久性提供程序中的二进制文件。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The default value for <ph id="ph1">`serializeAsText`</ph> is <ph id="ph2">`false`</ph>, which indicates that persistence information is serialized as binary data.</source>
+          <target state="translated">默认值为<ph id="ph1">`serializeAsText`</ph>是<ph id="ph2">`false`</ph>，指示该持久性信息序列化为二进制数据。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service information is serialized as text; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果服务信息序列化为文本;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
