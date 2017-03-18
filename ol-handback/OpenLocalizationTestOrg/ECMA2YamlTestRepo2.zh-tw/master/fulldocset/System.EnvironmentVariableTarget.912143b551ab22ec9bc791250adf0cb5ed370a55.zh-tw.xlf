@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">968499d9edbe3b2ea9c708b5a352f880bed00a60</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.EnvironmentVariableTarget.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a27d14b7b21bfcc4be9002cf249f3cf792ce1c69</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3193a938597ccd59b90c3b3e7c900da8204624db</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the location where an environment variable is stored or retrieved in a set or get operation.</source>
+          <target state="translated">Set 或 get 作業中指定儲存或擷取環境變數所在的位置。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The EnvironmentVariableTarget enumeration is used by certain overloads of the &lt;xref:System.Environment.SetEnvironmentVariable%2A&gt;, &lt;xref:System.Environment.GetEnvironmentVariable%2A&gt;, and &lt;xref:System.Environment.GetEnvironmentVariables%2A&gt; methods to specify the location, or target, where the name and value of an environment variable is stored or retrieved.</source>
+          <target state="translated">EnvironmentVariableTarget 列舉型別使用的特定多載&lt;xref:System.Environment.SetEnvironmentVariable%2A&gt;， &lt;xref:System.Environment.GetEnvironmentVariable%2A&gt;，和&lt;xref:System.Environment.GetEnvironmentVariables%2A&gt;方法，以指定的位置或目標位置的名稱和環境變數的值存放或擷取。&lt;/xref:System.Environment.GetEnvironmentVariables%2A&gt; &lt;/xref:System.Environment.GetEnvironmentVariable%2A&gt; &lt;/xref:System.Environment.SetEnvironmentVariable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The target can be one of three locations: the environment block associated with the current process, the Windows operating system registry key reserved for environment variables associated with the current user, or the registry key reserved for environment variables associated with all users on the local machine.</source>
+          <target state="translated">目標可以是三個位置︰ 目前的處理序、 Windows 作業系統登錄機碼保留給目前的使用者相關聯的環境變數或登錄機碼保留給在本機電腦上的所有使用者相關都聯的環境變數與相關都聯的環境區塊。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The environment variable is stored or retrieved from the <bpt id="p1">&lt;xref uid="langword_csharp_HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment" name="HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> key in the Windows operating system registry.</source>
+          <target state="translated">環境變數儲存或擷取自<bpt id="p1">&lt;xref uid="langword_csharp_HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment" name="HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Windows 作業系統登錄機碼。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When a user creates the environment variable in a set operation, the operating system stores the environment variable in the system registry, but not in the current process.</source>
+          <target state="translated">使用者建立的環境變數設定作業中，作業系統會儲存在系統登錄中，但不是在目前的處理序的環境變數。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If any user on the local machine starts a new process, the operating system copies the environment variable from the registry to that process.</source>
+          <target state="translated">如果本機電腦上的任何使用者啟動新的處理序時，作業系統會將環境變數從登錄複製程序中。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When the process terminates, the operating system destroys the environment variable in that process.</source>
+          <target state="translated">當處理序終止時，作業系統就會終結該程序中的環境變數。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>However, the environment variable in the registry persists until a user removes it programmatically or by means of an operating system tool.</source>
+          <target state="translated">不過，登錄中的環境變數會持續發生，直到使用者以程式設計方式或透過作業系統工具將它移除。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The environment variable is stored or retrieved from the environment block associated with the current process.</source>
+          <target state="translated">儲存環境變數，或從目前的處理序相關聯的環境區塊擷取。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The user creates the environment variable in a set operation.</source>
+          <target state="translated">使用者會在設定作業中建立環境變數。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When the process terminates, the operating system destroys the environment variable in that process.</source>
+          <target state="translated">當處理序終止時，作業系統就會終結該程序中的環境變數。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The environment variable is stored or retrieved from the <bpt id="p1">&lt;xref uid="langword_csharp_HKEY_CURRENT_USER\Environment" name="HKEY_CURRENT_USER\Environment" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> key in the Windows operating system registry.</source>
+          <target state="translated">環境變數儲存或擷取自<bpt id="p1">&lt;xref uid="langword_csharp_HKEY_CURRENT_USER\Environment" name="HKEY_CURRENT_USER\Environment" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Windows 作業系統登錄機碼。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When the user creates the environment variable in a set operation, the operating system stores the environment variable in the system registry, but not in the current process.</source>
+          <target state="translated">使用者建立的環境變數設定作業中，作業系統會儲存在系統登錄中，但不是在目前的處理序的環境變數。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If the user starts a new process, the operating system copies the environment variable from the registry to that process.</source>
+          <target state="translated">如果使用者開始新的處理序時，作業系統會將環境變數從登錄複製程序中。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When the process terminates, the operating system destroys the environment variable in that process.</source>
+          <target state="translated">當處理序終止時，作業系統就會終結該程序中的環境變數。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, the environment variable in the registry persists until the user removes it programmatically or by means of an operating system tool.</source>
+          <target state="translated">不過，登錄中的環境變數會保存直到使用者在以程式設計方式或透過作業系統工具移除為止。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

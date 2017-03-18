@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9fdb83d175479136df33f1017a6ceab13106b6ed</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.MessageQueueEnumerator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d182676a1fde3342b67cf5b75472ec63c5b3c0d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4672ec0455c354d8f3060781255926efffa18c3c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a forward-only cursor to enumerate through messages in a message queue.</source>
+          <target state="translated">メッセージ キュー内のメッセージを列挙するため、順方向専用カーソルを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use MessageQueueEnumerator for dynamic interaction with queues on the network.</source>
+          <target state="translated">ネットワーク上のキューの動的な対話を MessageQueueEnumerator を使用します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Methods available through the &lt;xref:System.Messaging.MessageQueue&gt; class can return either a MessageQueueEnumerator containing a dynamic list of queues, or an array that contains a snapshot of the queue collection at the time the specified method was called.</source>
+          <target state="translated">メソッドを介して使用できる、&lt;xref:System.Messaging.MessageQueue&gt;クラスは、キュー、または指定されたメソッドが呼び出された時点でキューのコレクションのスナップショットを格納する配列の動的な一覧を格納しているか、MessageQueueEnumerator を返すことができます&lt;/xref:System.Messaging.MessageQueue&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>There is no defined ordering of queues in a network.</source>
+          <target state="translated">ネットワークでのキューの定義済みの順序はありません。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>They are not ordered, for example, by computer, label, public or private status, or other user-accessible criteria.</source>
+          <target state="translated">たとえば、コンピューター、ラベル、public または private の状態を順序付けられた、またはその他のユーザーがアクセスできる条件はありません。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A MessageQueueEnumerator is a cursor, initialized to the head of a dynamic list.</source>
+          <target state="translated">MessageQueueEnumerator は、カーソル、動的なリストの先頭に初期化します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can move the cursor to the first queue of the enumeration by calling &lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt;.</source>
+          <target state="translated">列挙体の最初のキューに&lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt;。&lt;/xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt;を呼び出すことによって、カーソルを移動することができます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>After the enumerator has been initialized, you can use &lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt; to step forward through the remaining queues.</source>
+          <target state="translated">列挙子が初期化された後に行うこともできます&lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt;残りのキューにします&lt;/xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It is not possible to step backward with a MessageQueueEnumerator.</source>
+          <target state="translated">ステップ後退、MessageQueueEnumerator にすることはできません。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A cursor only allows forward movement through the queue enumeration.</source>
+          <target state="translated">カーソルは、キューの列挙を前方移動を許可するだけです。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>However, you can call &lt;xref:System.Messaging.MessageQueueEnumerator.Reset%2A&gt; to reset the enumeration and put the cursor at the beginning of the list again.</source>
+          <target state="translated">ただし、呼び出す&lt;xref:System.Messaging.MessageQueueEnumerator.Reset%2A&gt;列挙体をリセットし、リストの先頭にカーソルを置きます&lt;/xref:System.Messaging.MessageQueueEnumerator.Reset%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Because the enumerator is dynamic, a queue that is appended beyond the cursor's current position can be accessed by the enumerator.</source>
+          <target state="translated">列挙子は動的であるために、カーソルの現在位置より後に追加するキューは、列挙子によってアクセスできます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A queue that is inserted before the cursor's current position cannot be accessed without first calling Reset.</source>
+          <target state="translated">カーソルの現在位置の前に挿入されているキューは、最初の reset を呼び出すアクセスできません。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Frees the resources associated with the enumerator.</source>
+          <target state="translated">列挙子に関連付けられているリソースを解放します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The operating system retains an open handle, &lt;xref:System.Messaging.MessageQueueEnumerator.LocatorHandle%2A&gt;, to the queue enumerator during the lifetime of the cursor.</source>
+          <target state="translated">オペレーティング システムは、開いているハンドルが保持されます&lt;xref:System.Messaging.MessageQueueEnumerator.LocatorHandle%2A&gt;、カーソルの有効期間中に、キューの列挙子にします&lt;/xref:System.Messaging.MessageQueueEnumerator.LocatorHandle%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When you finish working with the enumerator, call Close to release the resources associated with the handle.</source>
+          <target state="translated">列挙子、呼び出しの閉じる操作が完了したら、ハンドルに関連付けられているリソースを解放します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets the current <bpt id="p1">&lt;xref href="System.Messaging.MessageQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the enumeration.</source>
+          <target state="translated">現在の取得<bpt id="p1">&lt;xref href="System.Messaging.MessageQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>列挙体の。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When the enumerator is created, it does not point to anything, so Current is not valid and will throw an exception if it is accessed.</source>
+          <target state="translated">列挙子が作成されると、それを指していない、何もため、現在は無効であり、アクセスする場合、例外がスローされます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You must call &lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt; to position the cursor at the first queue in the enumeration.</source>
+          <target state="translated">呼び出す必要があります&lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt;列挙体の最初のキューに、カーソルの位置&lt;/xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Multiple calls to Current with no intervening calls to &lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt; will return the same &lt;xref:System.Messaging.MessageQueue&gt; object.</source>
+          <target state="translated">現在ない中間の呼び出しを複数の呼び出し&lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt;は同じを返します&lt;xref:System.Messaging.MessageQueue&gt;オブジェクト&lt;/xref:System.Messaging.MessageQueue&gt;&lt;/xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The queue at which the cursor is currently positioned.</source>
+          <target state="translated">キューは、カーソルの現在の位置します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You called Current before the first call to &lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext<bpt id="p1">*</bpt>&gt;. The cursor is located before the first queue in the enumeration.       -or-       You called Current after a call to &lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext<ept id="p1">*</ept>&gt; had returned false (indicating the cursor is located after the last queue in the enumeration).</source>
+          <target state="translated">最初の呼び出しの前に現在を呼び出す&lt;&gt; <bpt id="p1">*</bpt>&gt; です。カーソルは、列挙体の最初の待ち行列の前に位置します。      - または - への呼び出し後に現在が呼び出される&lt;&gt; <ept id="p1">*</ept>&gt; (列挙体の最後のキューの後にカーソルがあることを示す) 場合は false を返しました。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">によって使用されるすべてのリソースを解放、 <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Calling Dispose allows the resources used by the &lt;xref:System.Messaging.MessageQueueEnumerator&gt; to be reallocated for other purposes.</source>
+          <target state="translated">Dispose を呼び出すことによりで使用されるリソース、&lt;xref:System.Messaging.MessageQueueEnumerator&gt;を他の目的に再割り当てされます&lt;/xref:System.Messaging.MessageQueueEnumerator&gt;。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information about Dispose, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Dispose の詳細については、次を参照してください。<bpt id="p1">[</bpt>アンマネージ リソースのクリーンアップ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">によって使用されるアンマネージ リソースを解放、 <bpt id="p1">&lt;xref href="System.Messaging.MessageQueueEnumerator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>し、必要に応じてマネージ リソースを解放します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This method is called by the public &lt;xref:System.Messaging.MessageQueueEnumerator.Dispose%2A&gt; method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">このメソッドは、パブリック&lt;xref:System.Messaging.MessageQueueEnumerator.Dispose%2A&gt;メソッドおよび&lt;xref:System.Object.Finalize%2A&gt;メソッド&lt;/xref:System.Object.Finalize%2A&gt;&lt;/xref:System.Messaging.MessageQueueEnumerator.Dispose%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose`</ph>プロテクト呼び出します<ph id="ph2">`Dispose(Boolean)`</ph>メソッドを<ph id="ph3">`disposing`</ph>パラメーターに設定<ph id="ph4">`true`</ph>です。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;呼び出す<ph id="ph1">`Dispose`</ph>で<ph id="ph2">`disposing`</ph>'éý'<ph id="ph3">`false`</ph>です。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Messaging.MessageQueueEnumerator&gt; references.</source>
+          <target state="translated">ときに、<ph id="ph1">`disposing`</ph>パラメーターは<ph id="ph2">`true`</ph>、このメソッドは、すべてのマネージ オブジェクトによって保持されているすべてのリソースを解放しますこの&lt;xref:System.Messaging.MessageQueueEnumerator&gt;参照。&lt;/xref:System.Messaging.MessageQueueEnumerator&gt; 。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose`</ph> method of each referenced object.</source>
+          <target state="translated">このメソッドを呼び出して、<ph id="ph1">`Dispose`</ph>参照される各オブジェクトのメソッドです。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>マネージ コードとアンマネージ リソースを解放するには<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>アンマネージ リソースだけを解放します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the native Message Queuing handle used to locate queues in a network.</source>
+          <target state="translated">ネットワークでキューの検索に使用されるネイティブのメッセージ キュー ハンドルを取得します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you no longer need this &lt;xref:System.Messaging.MessageQueueEnumerator&gt; instance, call &lt;xref:System.Messaging.MessageQueueEnumerator.Close%2A&gt; to free this handle to the resource.</source>
+          <target state="translated">ときに不要になったこの&lt;xref:System.Messaging.MessageQueueEnumerator&gt;インスタンス、呼び出す&lt;xref:System.Messaging.MessageQueueEnumerator.Close%2A&gt;リソースには、このハンドルを解放します&lt;/xref:System.Messaging.MessageQueueEnumerator.Close%2A&gt;&lt;/xref:System.Messaging.MessageQueueEnumerator&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The native handle to the current queue.</source>
+          <target state="translated">現在のキューへのネイティブ ハンドルです。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The handle does not exist.</source>
+          <target state="translated">ハンドルが存在しません。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The calling code does not have browse permissions.</source>
+          <target state="translated">呼び出し元のコードには、参照のアクセス許可がありません。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Advances the enumerator to the next queue of the enumeration, if one is currently available.</source>
+          <target state="translated">いずれかが現在使用可能な場合は、列挙体の次のキューに、列挙子を進めます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>MoveNext returns <ph id="ph1">`false`</ph> immediately if there are no queues associated with the enumeration.</source>
+          <target state="translated">MoveNext を返します<ph id="ph1">`false`</ph>列挙体に関連付けられたキューが存在しない場合にすぐにします。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>MoveNext will return <ph id="ph1">`true`</ph> until it has reached the end of the collection.</source>
+          <target state="translated">MoveNext は返します<ph id="ph1">`true`</ph>コレクションの末尾に達するまでします。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It will then return <ph id="ph1">`false`</ph> for each successive call.</source>
+          <target state="translated">その<ph id="ph1">`false`</ph>連続する呼び出しごとにします。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>However once MoveNext has returned <ph id="ph1">`false`</ph>, accessing the &lt;xref:System.Messaging.MessageQueueEnumerator.Current%2A&gt; property will throw an exception.</source>
+          <target state="translated">ただし MoveNext が返される<ph id="ph1">`false`</ph>へのアクセス、&lt;xref:System.Messaging.MessageQueueEnumerator.Current%2A&gt;プロパティは例外をスローします&lt;/xref:System.Messaging.MessageQueueEnumerator.Current%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Upon creation, an enumerator is conceptually positioned before the first &lt;xref:System.Messaging.MessageQueue&gt; of the enumeration, and the first call to MoveNext brings the first queue of the enumeration into view.</source>
+          <target state="translated">作成した場合、列挙子は、概念的には前に位置付けられます最初&lt;xref:System.Messaging.MessageQueue&gt;MoveNext を呼び出して、列挙、および&amp;1; つ目のビューには、列挙体の最初のキューが表示されます&lt;/xref:System.Messaging.MessageQueue&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the enumerator was successfully advanced to the next queue; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the enumerator has reached the end of the enumeration.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>列挙子が次のキューに正常に進んだ場合<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>列挙子が列挙体の終わりに達した場合。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The calling code does not have browse permissions.</source>
+          <target state="translated">呼び出し元のコードには、参照のアクセス許可がありません。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Resets the cursor, so it points to the beginning of the enumeration.</source>
+          <target state="translated">列挙体の先頭を指すように、カーソル位置をリセットします。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An enumerator moves in a forward-only direction.</source>
+          <target state="translated">列挙子は、順方向専用の方向に移動します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Use this method to return to the beginning of the enumeration of queues.</source>
+          <target state="translated">キューの列挙体の先頭に戻るには、このメソッドを使用します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Reset positions the cursor at the first queue in the list.</source>
+          <target state="translated">リセットは、最初のキュー、リスト内にカーソルを位置付けます。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You do not need to call &lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt; after calling Reset to move the cursor forward to the first queue in the enumeration.</source>
+          <target state="translated">呼び出す必要はありません&lt;xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt;にカーソルを移動する Reset の呼び出し後に、列挙体の最初のキューに転送します&lt;/xref:System.Messaging.MessageQueueEnumerator.MoveNext%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets the current <bpt id="p1">&lt;xref href="System.Messaging.MessageQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the enumeration.</source>
+          <target state="translated">現在の取得<bpt id="p1">&lt;xref href="System.Messaging.MessageQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>列挙体の。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The queue at which the cursor is currently positioned.</source>
+          <target state="translated">キューは、カーソルの現在の位置します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

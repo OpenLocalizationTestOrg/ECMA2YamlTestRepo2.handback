@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e674a08da3b960e30128d1630787f553764af671</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.OracleClient.OracleBFile.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f854c29974ff3ec91382c4e15cce34b9925da898</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a6357e2b92e69ae6219d65418d496dd74cc4a2c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a managed OracleBFile object designed to work with the Oracle <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data type.</source>
+          <target state="translated">Oracle に作られたマネージ OracleBFile オブジェクトを表す<bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>データ型。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">このクラスは継承できません。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Oracle <ph id="ph1">`BFILE`</ph> data type is an Oracle <ph id="ph2">`LOB`</ph> data type that contains a reference to binary data with a maximum size of 4 gigabytes.</source>
+          <target state="translated">Oracle<ph id="ph1">`BFILE`</ph>データ型は、Oracle<ph id="ph2">`LOB`</ph>を 4 ギガバイト単位の最大サイズのバイナリ データへの参照を含むデータ型。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An Oracle <ph id="ph1">`BFILE`</ph> differs from other Oracle <ph id="ph2">`LOB`</ph> data types in that its data is stored in a physical file in the operating system instead of on the server.</source>
+          <target state="translated">Oracle<ph id="ph1">`BFILE`</ph>他の Oracle とは異なります<ph id="ph2">`LOB`</ph>データ型の代わりに、オペレーティング システムで、サーバー上の物理ファイルにそのデータを格納します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Note that the <ph id="ph1">`BFILE`</ph> data type provides read-only access to data.</source>
+          <target state="translated">なお、<ph id="ph1">`BFILE`</ph>データ型は、データへの読み取り専用のアクセスを提供します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Therefore, write-oriented methods inherited from the &lt;xref:System.IO.Stream&gt; class are not supported.</source>
+          <target state="translated">そのため、書き込み指向のメソッドが継承、&lt;xref:System.IO.Stream&gt;クラスはサポートされていません&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Other characteristics of a <ph id="ph1">`BFILE`</ph> data type that distinguish it from a <ph id="ph2">`LOB`</ph> data type are that it:      -   Contains unstructured data.</source>
+          <target state="translated">他の特性、<ph id="ph1">`BFILE`</ph>から区別するためのデータ型、<ph id="ph2">`LOB`</ph>データ型はその it:-非構造化データが含まれています。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   Supports server-side chunking.</source>
+          <target state="translated">-サーバー側チャンキングをサポートしています。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>-   Uses reference copy semantics.</source>
+          <target state="translated">に参照コピーのセマンティクス使用します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, if you perform a copy operation on a <ph id="ph1">`BFILE`</ph>, only the <ph id="ph2">`BFILE`</ph> locator (which is a reference to the file) is copied.</source>
+          <target state="translated">コピー操作を実行する場合など、 <ph id="ph1">`BFILE`</ph>、のみ、<ph id="ph2">`BFILE`</ph>ロケーター (ファイルへの参照は、) をコピーします。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The data in the file is not copied.</source>
+          <target state="translated">ファイル内のデータはコピーされません。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`BFILE`</ph> data type should be used for referencing <ph id="ph2">`LOB`</ph>s that are large in size, and therefore, not practical to store in the database.</source>
+          <target state="translated"><ph id="ph1">`BFILE`</ph>データ型を参照するために使用する必要があります<ph id="ph2">`LOB`</ph>s、大きいサイズであるため、データベースに格納するには実用的ではないです。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There is client, server, and communication overhead for using a <ph id="ph1">`BFILE`</ph> data type compared to the <ph id="ph2">`LOB`</ph> data type.</source>
+          <target state="translated">使用するためのクライアント、サーバー、および通信のオーバーヘッドが、<ph id="ph1">`BFILE`</ph>データ型と比較して、<ph id="ph2">`LOB`</ph>データ型。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It is more efficient to access a <ph id="ph1">`BFILE`</ph> if you only need to obtain a small amount of data.</source>
+          <target state="translated">アクセスする方が効率的である、<ph id="ph1">`BFILE`</ph>のみ少量のデータを取得する必要がある場合。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It is more efficient to access database-resident <ph id="ph1">`LOB`</ph>s if you need to obtain the entire object.</source>
+          <target state="translated">Access データベースに常駐する方が効率的である<ph id="ph1">`LOB`</ph>s 全体のオブジェクトを取得する必要がある場合。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Each non-NULL OracleBFile object is associated with two entities that define the location of the underlying physical file:      -   An Oracle DIRECTORY object, which is a database alias for a directory in the file system, and      -   The file name of the underlying physical file, which is located in the directory associated with the DIRECTORY object.</source>
+          <target state="translated">各 NULL 以外の OracleBFile オブジェクトは、基になる物理ファイルの場所を定義する&amp;2; つのエンティティと関連付けられている:-ディレクトリに対するデータベースのエイリアスをファイル システムおよびディレクトリ オブジェクトに関連付けられているディレクトリにある基になる物理ファイルのファイル名では、Oracle DIRECTORY オブジェクト。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>After a <ph id="ph1">`BFILE`</ph> is created, you can retrieve its locator in the form of an OracleBFile object using the &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt; or &lt;xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt; methods.</source>
+          <target state="translated">後に、<ph id="ph1">`BFILE`</ph>が作成されると、OracleBFile オブジェクトを使用して、形式でそのロケーターを取得することができます、&lt;xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt;または&lt;xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt;メソッド&lt;/xref:System.Data.OracleClient.OracleCommand.ExecuteScalar%2A&gt;&lt;/xref:System.Data.OracleClient.OracleCommand.ExecuteReader%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To obtain an OracleBFile object, call the &lt;xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt; method.</source>
+          <target state="translated">OracleBFile オブジェクトを取得するには、呼び出し、&lt;xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt;メソッド&lt;/xref:System.Data.OracleClient.OracleDataReader.GetOracleBFile%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The physical file that an OracleBFile object is associated with does not need to exist until you attempt to access it.</source>
+          <target state="translated">OracleBFile オブジェクトに関連付けられている物理ファイルは、アクセスしようとするまでは存在する必要はありません。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An application can bind an OracleBFile to a nonexistent file, create the physical file in the expected location, and then call &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;.</source>
+          <target state="translated">アプリケーションで、OracleBFile を存在しないファイルにバインドする、必要な場所に物理ファイルを作成および&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;。&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;を呼び出す</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Any attempt to access a closed OracleBFile using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods reopens an OracleBFile stream automatically.</source>
+          <target state="translated">閉じた OracleBFile を使用して、アクセスしようとすると、&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;または&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;メソッド OracleBFile ストリームを自動的に再度開きます&lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following C# example demonstrates how you can create a <ph id="ph1">`BFILE`</ph> in an Oracle table, and then retrieve it in the form of an OracleBFile object.</source>
+          <target state="translated">次の c# の例では、作成する方法を示しています、 <ph id="ph1">`BFILE`</ph> Oracle のテーブル、および OracleBFile オブジェクトの形式で取得します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The example demonstrates the use of the &lt;xref:System.Data.OracleClient.OracleDataReader&gt; object and the OracleBFile&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; and &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; methods.</source>
+          <target state="translated">使用、例を示します、&lt;xref:System.Data.OracleClient.OracleDataReader&gt;オブジェクトと、OracleBFile&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;と&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;メソッド&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;&lt;/xref:System.Data.OracleClient.OracleDataReader&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>DataWorks OracleClient.BFile#1<ept id="p2">](~/add/codesnippet/csharp/t-system.data.oracleclie_3_1.cs)</ept><ept id="p1">]</ept>       For more information about creating and using an Oracle <ph id="ph1">`BFILE`</ph>, see the appropriate topic in your Oracle documentation.</source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>DataWorks OracleClient.BFile#1<ept id="p2">](~/add/codesnippet/csharp/t-system.data.oracleclie_3_1.cs)</ept> <ept id="p1">]</ept>を作成して、Oracle の使用の詳細については<ph id="ph1">`BFILE`</ph>、適切な Oracle のマニュアルを参照してください。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`BeginWrite`</ph>, <ph id="ph3">`EndWrite`</ph>, and <ph id="ph4">`WriteByte`</ph> methods, which are inherited from the <ph id="ph5">`System.IO.Stream`</ph> class, are not supported because the <ph id="ph6">`BFILE`</ph> data type is read-only.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;、 <ph id="ph2">`BeginWrite`</ph>、 <ph id="ph3">`EndWrite`</ph>、および<ph id="ph4">`WriteByte`</ph>から継承するメソッドを<ph id="ph5">`System.IO.Stream`</ph>クラス、ためにサポートされていません、<ph id="ph6">`BFILE`</ph>データ型は読み取り専用です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream can be read.</source>
+          <target state="translated">示す値を取得するかどうか、 <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ストリームを読み取ることができます。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed or disposed; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>終了または破棄。 それ以外の場合は、 <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether forward-seek and backward-seek operations can be performed.</source>
+          <target state="translated">前方シークおよび旧バージョンとシーク操作かどうかを示す値を取得を実行できます。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed or disposed; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>終了または破棄。 それ以外の場合は、 <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the object supports writing.</source>
+          <target state="translated">オブジェクトが書き込みをサポートするかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Always returns <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> because the Oracle <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data type is read-only.</source>
+          <target state="translated">常に返します<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ため、Oracle <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>データ型は読み取り専用です。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Creates a copy of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the same physical file as the original.</source>
+          <target state="translated">このコピーを作成<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>元と同じ物理ファイルに関連付けられているオブジェクト。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The properties of the new &lt;xref:System.Data.OracleClient.OracleBFile&gt; object initially have the same values as those of the original object.</source>
+          <target state="translated">新しいプロパティ&lt;xref:System.Data.OracleClient.OracleBFile&gt;オブジェクトが最初に元のオブジェクトと同じ値を持ちます&lt;/xref:System.Data.OracleClient.OracleBFile&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>However, after the Clone is complete, each &lt;xref:System.Data.OracleClient.OracleBFile&gt; object is independent from the other.</source>
+          <target state="translated">ただし、複製完了後、各&lt;xref:System.Data.OracleClient.OracleBFile&gt;オブジェクトは、他から独立しています&lt;/xref:System.Data.OracleClient.OracleBFile&gt;。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For example, changing the value of the &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt; property on the original &lt;xref:System.Data.OracleClient.OracleBFile&gt; does not change the value of &lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt; on the copy.</source>
+          <target state="translated">値を変更するなど、&lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;元のプロパティ&lt;xref:System.Data.OracleClient.OracleBFile&gt;の値は変わりません&lt;xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;コピーにします&lt;/xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;&lt;/xref:System.Data.OracleClient.OracleBFile&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.Position%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the same physical file as the original <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新しい<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>元と同じ物理ファイルに関連付けられたオブジェクト<bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used by this instance of the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のこのインスタンスによって使用される、 <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The connection to a data source.</source>
+          <target state="translated">データ ソースに接続します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The default is a null value.</source>
+          <target state="translated">既定値は、null 値です。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Copies the entire contents of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning of a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">これの内容全体をコピー <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の保存先の先頭に<bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">ソースの基になるデータ型&lt;xref:System.Data.OracleClient.OracleBFile&gt;と変換先&lt;xref:System.Data.OracleClient.OracleLob&gt;互換性がなければなりません&lt;/xref:System.Data.OracleClient.OracleLob&gt;&lt;/xref:System.Data.OracleClient.OracleBFile&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">たとえば、先にバイナリ データをコピーすることはできません&lt;xref:System.Data.OracleClient.OracleLob&gt;文字データ型を持つ&lt;/xref:System.Data.OracleClient.OracleLob&gt;。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the CopyTo operation to execute correctly.</source>
+          <target state="translated">変換先に書き込みアクセス権が必要&lt;xref:System.Data.OracleClient.OracleLob&gt;CopyTo 操作が正常に実行する&lt;/xref:System.Data.OracleClient.OracleLob&gt;。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></source>
+          <target state="translated">変換先<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">コピーされたバイト数。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">転送先<bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> null オブジェクト参照です。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">マップ先は、null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">または、この接続<bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>が関連付けられているが閉じられます。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトが終了または破棄します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Copies the entire contents of this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> at the specified offset.</source>
+          <target state="translated">これの内容全体をコピー <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>先<bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>指定したオフセット。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">ソースの基になるデータ型&lt;xref:System.Data.OracleClient.OracleBFile&gt;と変換先&lt;xref:System.Data.OracleClient.OracleLob&gt;互換性がなければなりません&lt;/xref:System.Data.OracleClient.OracleLob&gt;&lt;/xref:System.Data.OracleClient.OracleBFile&gt;。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">たとえば、先にバイナリ データをコピーすることはできません&lt;xref:System.Data.OracleClient.OracleLob&gt;文字データ型を持つ&lt;/xref:System.Data.OracleClient.OracleLob&gt;。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; operation to execute correctly.</source>
+          <target state="translated">変換先に書き込みアクセス権が必要&lt;xref:System.Data.OracleClient.OracleLob&gt;の&lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt;操作が正常に実行します&lt;/xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt;&lt;/xref:System.Data.OracleClient.OracleLob&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">転送先<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The offset to which to copy.</source>
+          <target state="translated">コピー先にオフセットします。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">コピーされたバイト数。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">転送先<bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> null オブジェクト参照です。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">マップ先は、null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">または、この接続<bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>が関連付けられているが閉じられます。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトが終了または破棄します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Copies from this <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a destination <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> with the specified amount of data, the source offset, and the destination offset.</source>
+          <target state="translated">これをコピーします。 <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>変換先に<bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>と、指定されたデータ量、ソースのオフセットとコピー先のオフセット。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The underlying data types of the source &lt;xref:System.Data.OracleClient.OracleBFile&gt; and the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; must be compatible.</source>
+          <target state="translated">ソースの基になるデータ型&lt;xref:System.Data.OracleClient.OracleBFile&gt;と変換先&lt;xref:System.Data.OracleClient.OracleLob&gt;互換性がなければなりません&lt;/xref:System.Data.OracleClient.OracleLob&gt;&lt;/xref:System.Data.OracleClient.OracleBFile&gt;。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For example, you cannot copy binary data to a destination &lt;xref:System.Data.OracleClient.OracleLob&gt; that has a character data type.</source>
+          <target state="translated">たとえば、先にバイナリ データをコピーすることはできません&lt;xref:System.Data.OracleClient.OracleLob&gt;文字データ型を持つ&lt;/xref:System.Data.OracleClient.OracleLob&gt;。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You must have write access to the destination &lt;xref:System.Data.OracleClient.OracleLob&gt; for the &lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt; operation to execute correctly.</source>
+          <target state="translated">変換先に書き込みアクセス権が必要&lt;xref:System.Data.OracleClient.OracleLob&gt;の&lt;xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt;操作が正常に実行します&lt;/xref:System.Data.OracleClient.OracleBFile.CopyTo%2A&gt;&lt;/xref:System.Data.OracleClient.OracleLob&gt;。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The offset from which to copy.</source>
+          <target state="translated">コピー先からのオフセット。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">転送先<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleLob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The offset to which to copy.</source>
+          <target state="translated">コピー先にオフセットします。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The quantity of data, in bytes, to copy.</source>
+          <target state="translated">(バイト単位) をコピーする、データの量。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The number of bytes copied.</source>
+          <target state="translated">コピーされたバイト数。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The value of the amount parameter is less than zero or greater than 4 gigabytes.</source>
+          <target state="translated">容量パラメーターの値は、ゼロ未満か 4 ギガバイトより大きいです。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The destination <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a null object reference.</source>
+          <target state="translated">転送先<bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> null オブジェクト参照です。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The destination is a null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">マップ先は、null <bpt id="p1">&lt;xref uid="langword_csharp_OracleLob" name="OracleLob" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-or-       The connection with which this <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">または、この接続<bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>が関連付けられているが閉じられます。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトが終了または破棄します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets the name of the DIRECTORY object, with which an <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">これで、ディレクトリ オブジェクトの名前を取得、 <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトが関連付けられます。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Each non-NULL &lt;xref:System.Data.OracleClient.OracleBFile&gt; object is associated with two entities that define the location of underlying physical file:      -   An Oracle DIRECTORY object, which is a database alias for a directory in the file system, and      -   The file name of the underlying physical file, which is located in the directory associated with the DIRECTORY object.</source>
+          <target state="translated">NULL 以外&lt;xref:System.Data.OracleClient.OracleBFile&gt;オブジェクトが基になる物理ファイルの場所を定義する&amp;2; つのエンティティと関連付けられている:-ディレクトリに対するデータベースのエイリアスをファイル システムおよびディレクトリ オブジェクトに関連付けられているディレクトリにある基になる物理ファイルのファイル名では、Oracle DIRECTORY オブジェクト&lt;/xref:System.Data.OracleClient.OracleBFile&gt;。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The DirectoryName property returns the name of the DIRECTORY object from the Oracle database.</source>
+          <target state="translated">ディレクトリ名のプロパティは、Oracle データベースからディレクトリ オブジェクトの名前を返します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information about creating and using an Oracle <ph id="ph1">`BFILE`</ph>, see the appropriate topic in your Oracle documentation.</source>
+          <target state="translated">作成して、Oracle の使用の詳細については<ph id="ph1">`BFILE`</ph>、適切な Oracle のマニュアルを参照してください。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The name of the DIRECTORY object.</source>
+          <target state="translated">ディレクトリ オブジェクトの名前。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Attempted to call <bpt id="p1">&lt;xref uid="langword_csharp_DirectoryName" name="DirectoryName" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on a closed or disposed <bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">呼び出そうとしました<bpt id="p1">&lt;xref uid="langword_csharp_DirectoryName" name="DirectoryName" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、閉じられたのか、破棄される<bpt id="p2">&lt;xref uid="langword_csharp_OracleBFile" name="OracleBFile" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether a physical file containing <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data exists in the operating system.</source>
+          <target state="translated">物理ファイルを含んでいるかどうかを示す値を取得<bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>データ、オペレーティング システム内に存在します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a physical file containing <bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data exists; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物理ファイルを含む場合<bpt id="p2">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>データが存在します。 それ以外の場合<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトが終了または破棄します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The connection with which a <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">使用する接続、 <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>が関連付けられているが閉じられます。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets the name of the <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> without the path.</source>
+          <target state="translated">名前を取得、 <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>パスを含まない。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For &lt;xref:System.Data.OracleClient.OracleBFile.Null&gt;, an empty string is returned.</source>
+          <target state="translated">&lt;xref:System.Data.OracleClient.OracleBFile.Null&gt;、空の文字列が返されます&lt;/xref:System.Data.OracleClient.OracleBFile.Null&gt;。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The name of the BFILE.</source>
+          <target state="translated">BFILE の名前。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is closed or disposed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトが終了または破棄します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">現在サポートされていません。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">示す値を取得するかどうか、 <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>は、 <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>ストリーム。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is a <bpt id="p3">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> stream; otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if the <bpt id="p2">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is a <bpt id="p3">&lt;xref href="System.Data.OracleClient.OracleBFile.Null"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> stream; otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets a value that returns the length in bytes of the physical file with which the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated.</source>
+          <target state="translated">使用する物理ファイルのバイト単位の長さを返す値を取得、 <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトが関連付けられます。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>A long value representing the length of the physical file in bytes.</source>
+          <target state="translated">物理ファイルのバイトの長さを表す long 値。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">メソッドは、ストリームの終了または破棄された後に呼び出されました。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Represents a null <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is not bound to a physical file.</source>
+          <target state="translated">Null 値を表す<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物理ファイルにバインドされていないオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Null can be useful when you want to perform a comparison operation on an &lt;xref:System.Data.OracleClient.OracleBFile&gt; to determine nullability.</source>
+          <target state="translated">比較操作を実行する場合、null が役に立ちます、&lt;xref:System.Data.OracleClient.OracleBFile&gt;を null 値許容属性を決定します&lt;/xref:System.Data.OracleClient.OracleBFile&gt;。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Any attempt to perform a read operation on a Null object succeeds, but does not return any data.</source>
+          <target state="translated">Null オブジェクトの読み取り操作を実行しようとするは成功しますが、任意のデータは返されません。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Any attempt to perform a write operation on a Null object generates an exception.</source>
+          <target state="translated">Null オブジェクトでの書き込み操作を実行しようとすると、例外を生成します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Selecting a <ph id="ph1">`BFILE`</ph> column that contains a null value returns Null.</source>
+          <target state="translated">選択すると、 <ph id="ph1">`BFILE`</ph> null 値を含む列は Null を返します。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Gets the current read position in the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">内の位置を読み取り、現在の取得、 <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ストリーム。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Seeking to any location beyond the length of the stream is not supported.</source>
+          <target state="translated">ストリームの長さを超えた位置にシークすることはサポートされていません。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Position`</ph> property does not keep track of the number of bytes from the stream that have been consumed, skipped, or both.</source>
+          <target state="translated"><ph id="ph1">`Position`</ph>プロパティがないの追跡が消費されている、スキップ、ストリーム、またはその両方からのバイト数。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The current position within the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">内の現在位置、 <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ストリーム。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Attempted to set a position with a negative value or greater than the length of the stream.</source>
+          <target state="translated">負の値またはストリームの長さより大きい値の位置を設定しようとしました。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">メソッドは、ストリームの終了または破棄された後に呼び出されました。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Reads a sequence of bytes from the current <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream and advances the position within the stream by the number of bytes read.</source>
+          <target state="translated">現在のバイトのシーケンスを読み取り<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>バイト数だけストリーム内の位置が読み取るストリーム。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The Read method read a maximum of <ph id="ph1">`count`</ph> bytes from the current stream and store them in <ph id="ph2">`buffer`</ph> beginning at <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">Read メソッドの最大を読み取る<ph id="ph1">`count`</ph>現在からのバイト ストリームし、で格納<ph id="ph2">`buffer`</ph>で始まる<ph id="ph3">`offset`</ph>です。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The current position within the stream is advanced by the number of bytes read; however, if an exception occurs, the current position within the stream remains unchanged.</source>
+          <target state="translated">読み取りバイト数だけストリーム内の現在位置が高度なただし、例外が発生する場合、ストリーム内の現在の位置は変更されません。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Read returns the number of bytes read.</source>
+          <target state="translated">読み取りでは、読み取られたバイト数を返します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The return value is zero only if the position is currently at the end of the stream.</source>
+          <target state="translated">ストリームの末尾には、位置は現在場合にのみ、戻り値は&amp;0; です。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Read will block until at least one byte of data can be read, in the event that no data is available.</source>
+          <target state="translated">読み取りは、データがないことには、少なくとも&amp;1; バイトのデータを読み取ることができるまでブロックされます。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Read returns 0 only when the end of the file has been reached.</source>
+          <target state="translated">ファイルの末尾に達している場合にのみ、0 を返しますを読み取る。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Read is free to return fewer bytes than requested even if the end of the stream has not been reached.</source>
+          <target state="translated">読み取りは、ストリームの末尾に達していない場合でも、要求されたより少ないバイト数を返すようにします。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Any attempt to access a closed &lt;xref:System.Data.OracleClient.OracleBFile&gt; using the Read or &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods reopens an &lt;xref:System.Data.OracleClient.OracleBFile&gt; stream automatically.</source>
+          <target state="translated">アクセス、閉じられた試行&lt;xref:System.Data.OracleClient.OracleBFile&gt;読み取りを使用してまたは&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;メソッド再度、&lt;xref:System.Data.OracleClient.OracleBFile&gt;自動的にストリーミングします&lt;/xref:System.Data.OracleClient.OracleBFile&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;&lt;/xref:System.Data.OracleClient.OracleBFile&gt;。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the Read and &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">次の c# の例では、Oracle テーブルには、このスキーマ:<ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>の例では、読み取りの使用方法を示しますと&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;メソッドにアクセスする、&lt;xref:System.Data.OracleClient.OracleBFile&gt;オブジェクト&lt;/xref:System.Data.OracleClient.OracleBFile&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An array of bytes.</source>
+          <target state="translated">バイトの配列。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>When this method returns, the buffer contains the specified byte array with the values between <ph id="ph1">`offset`</ph> and (<ph id="ph2">`offset`</ph><ph id="ph3"> + </ph><ph id="ph4">`count`</ph>) replaced by the bytes read from the current source.</source>
+          <target state="translated">指定したバイト配列の値を持つが、バッファーに含まれているこのメソッドが戻るとき<ph id="ph1">`offset`</ph>と (<ph id="ph2">`offset`</ph><ph id="ph3"> + </ph><ph id="ph4">`count`</ph>)、現在のソースから読み取られたバイトに置き換えします。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The zero-based byte offset in <ph id="ph1">`buffer`</ph> at which to begin storing the data read from the current stream.</source>
+          <target state="translated">内の&amp;0; から始まるバイト オフセット<ph id="ph1">`buffer`</ph>開始位置を示す現在のストリームから読み取ったデータの格納します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to be read from the current stream.</source>
+          <target state="translated">現在のストリームから読み取られるバイトの最大数。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The total number of bytes read into the buffer.</source>
+          <target state="translated">バッファーに読み取られた合計バイト数。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This may be less than the number of bytes requested if that many bytes are not currently available, or zero if the end of the file has been reached.</source>
+          <target state="translated">バイト数は要求より小さくバイト数が、現在ご利用いただけませんまたはゼロの場合、ファイルの末尾に達していることがあります。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The sum of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">count</ph><ept id="p2">&lt;/code&gt;</ept> is larger than the buffer length.</source>
+          <target state="translated">合計<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept>と<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">count</ph> <ept id="p2">&lt;/code&gt;</ept>バッファー長を超えています。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>null 参照 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual Basic で)。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> is negative.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>または<ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph>が負の値。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The connection with which a <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated is closed.</source>
+          <target state="translated">使用する接続、 <bpt id="p1">&lt;xref uid="langword_csharp_BFILE" name="BFILE" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>が関連付けられているが閉じられます。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An I/O error occurred.</source>
+          <target state="translated">I/O エラーが発生しました。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">メソッドは、ストリームの終了または破棄された後に呼び出されました。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Sets the position on the current <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stream.</source>
+          <target state="translated">現在の位置を設定<bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ストリーム。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is negative, the new position is required to precede the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">場合<ph id="ph1">`offset`</ph>は負の場合、新しい位置が必要で指定した位置の前に<ph id="ph2">`origin`</ph>で指定したバイト数だけ<ph id="ph3">`offset`</ph>です。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is zero, the new position is required to be the position specified by <ph id="ph2">`origin`</ph>.</source>
+          <target state="translated">場合<ph id="ph1">`offset`</ph>0 の場合は、新しい位置に指定した位置である必要は<ph id="ph2">`origin`</ph>します。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is positive, the new position is required to follow the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">場合<ph id="ph1">`offset`</ph>が正の値であり、新しい位置は指定した位置に従う必要<ph id="ph2">`origin`</ph>で指定したバイト数だけ<ph id="ph3">`offset`</ph>です。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Seeking to any location beyond the length of the stream is not supported.</source>
+          <target state="translated">ストリームの長さを超えた位置にシークすることはサポートされていません。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Any attempt to access a closed &lt;xref:System.Data.OracleClient.OracleBFile&gt; using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; or Seek methods reopens an &lt;xref:System.Data.OracleClient.OracleBFile&gt; stream automatically.</source>
+          <target state="translated">アクセス、閉じられた試行&lt;xref:System.Data.OracleClient.OracleBFile&gt;を使用して、&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;メソッド再度をシークまたは、&lt;xref:System.Data.OracleClient.OracleBFile&gt;自動的にストリーム配信します&lt;/xref:System.Data.OracleClient.OracleBFile&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;&lt;/xref:System.Data.OracleClient.OracleBFile&gt;。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; and Seek methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">次の c# の例では、Oracle テーブルには、このスキーマ:<ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>の例を使用して、&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;シーク メソッドにアクセスして、&lt;xref:System.Data.OracleClient.OracleBFile&gt;オブジェクト&lt;/xref:System.Data.OracleClient.OracleBFile&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A byte offset relative to origin.</source>
+          <target state="translated">原点からのバイト オフセット。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is negative, the new position will precede the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">場合<ph id="ph1">`offset`</ph>は負の場合、新しい位置は前に指定で指定した位置<ph id="ph2">`origin`</ph>で指定したバイト数だけ<ph id="ph3">`offset`</ph>です。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is zero, the new position will be the position specified by <ph id="ph2">`origin`</ph>.</source>
+          <target state="translated">場合<ph id="ph1">`offset`</ph>0 の場合は、新しい位置で指定した位置になります<ph id="ph2">`origin`</ph>です。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`offset`</ph> is positive, the new position will follow the position specified by <ph id="ph2">`origin`</ph> by the number of bytes specified by <ph id="ph3">`offset`</ph>.</source>
+          <target state="translated">場合<ph id="ph1">`offset`</ph>が正の値であり、新しい位置がで指定した位置に従う<ph id="ph2">`origin`</ph>で指定したバイト数だけ<ph id="ph3">`offset`</ph>です。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref uid="langword_csharp_System.IO.SeekOrigin" name="System.IO.SeekOrigin" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the reference point used to obtain the new position.</source>
+          <target state="translated">型の値<bpt id="p1">&lt;xref uid="langword_csharp_System.IO.SeekOrigin" name="System.IO.SeekOrigin" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>新しい位置を取得するために使用する参照ポイントを示すです。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The new position within the current stream.</source>
+          <target state="translated">現在のストリーム内の新しい位置。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Attempted to set a position with a negative value or greater than the length of the stream.</source>
+          <target state="translated">負の値またはストリームの長さより大きい値の位置を設定しようとしました。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Methods were called after the stream was closed or disposed.</source>
+          <target state="translated">メソッドは、ストリームの終了または破棄された後に呼び出されました。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Binds the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to a different file in the operating system.</source>
+          <target state="translated">バインド、 <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オペレーティング システムで別のファイル オブジェクト。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The SetFileName operation must be within a transaction to succeed.</source>
+          <target state="translated">SetFileName 操作は、成功するトランザクション内でなければなりません。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Simply calling SetFileName on a <ph id="ph1">`BFILE`</ph> associates the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object with a different file, but does not update the Oracle table.</source>
+          <target state="translated">単に SetFileName を呼び出すことで、<ph id="ph1">`BFILE`</ph>関連付けます、&lt;xref:System.Data.OracleClient.OracleBFile&gt;別のファイルを持つオブジェクトは Oracle のテーブルは更新されません&lt;/xref:System.Data.OracleClient.OracleBFile&gt;。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>To update the Oracle table after calling SetFileName, you must call the <ph id="ph1">`Update`</ph> method of the &lt;xref:System.Data.OracleClient.OracleDataAdapter&gt; and then commit the transaction.</source>
+          <target state="translated">更新するには、Oracle テーブル SetFileName の呼び出し後に呼び出す必要があります、<ph id="ph1">`Update`</ph>のメソッド、&lt;xref:System.Data.OracleClient.OracleDataAdapter&gt;し、トランザクションをコミットします&lt;/xref:System.Data.OracleClient.OracleDataAdapter&gt;。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Once you retrieve the &lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt; property, they are cached in the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object and are unaffected by any cloned &lt;xref:System.Data.OracleClient.OracleBFile&gt; objects' calls to SetFileName, or by any changes to the <ph id="ph1">`BFILE`</ph> in the database.</source>
+          <target state="translated">取得した後、&lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;または&lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;にキャッシュされる、プロパティ、&lt;xref:System.Data.OracleClient.OracleBFile&gt;オブジェクトし、いずれかの複製による影響を受けません&lt;xref:System.Data.OracleClient.OracleBFile&gt;SetFileName、またはを変更して、オブジェクトの呼び出し、<ph id="ph1">`BFILE`</ph>データベース内&lt;/xref:System.Data.OracleClient.OracleBFile&gt;&lt;/xref:System.Data.OracleClient.OracleBFile&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>In other words, they might not represent the actual values of the <ph id="ph1">`BFILE`</ph> object in the server.</source>
+          <target state="translated">つまり、他の実際の値を表すことがない、<ph id="ph1">`BFILE`</ph>サーバー内のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Furthermore, retrieving either property (&lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt; or &lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;) causes both property values to be retrieved from the server and cached in the &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">さらに、いずれかのプロパティの取得 (&lt;xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;または&lt;xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;) により、サーバーから取得され、キャッシュの両方のプロパティ値、&lt;xref:System.Data.OracleClient.OracleBFile&gt;オブジェクト&lt;/xref:System.Data.OracleClient.OracleBFile&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.FileName%2A&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.DirectoryName%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The following C# example assumes this schema in an Oracle table:      <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph>       The example demonstrates using the SetFileName, &lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt; and &lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt; methods to access an &lt;xref:System.Data.OracleClient.OracleBFile&gt; object.</source>
+          <target state="translated">次の c# の例では、Oracle テーブルには、このスキーマ: <ph id="ph1">```   (col1 number, col2 BFILE)   ```</ph> 、例では、使用して、SetFileName&lt;xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;と&lt;xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;メソッドにアクセスする、&lt;xref:System.Data.OracleClient.OracleBFile&gt;オブジェクト&lt;/xref:System.Data.OracleClient.OracleBFile&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.Seek%2A&gt;&lt;/xref:System.Data.OracleClient.OracleBFile.Read%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The alias of the directory object that contains a physical file.</source>
+          <target state="translated">物理ファイルを格納しているディレクトリ オブジェクトの別名です。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The name of the file in the operating system.</source>
+          <target state="translated">オペレーティング システムでファイルの名前。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The operation must be within a transaction.</source>
+          <target state="translated">操作は、トランザクション内でなければなりません。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">現在サポートされていません。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">現在サポートされていません。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The exception that is thrown when an invoked method is not supported, or when there is an attempt to read, seek, or write to a stream that does not support the invoked functionality.</source>
+          <target state="translated">呼び出されたメソッドがサポートされていない場合、またはを読み取ることがある場合にスローされる例外は、シーク、または呼び出された機能をサポートしていないストリームに書き込みます。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Array&gt; of type &lt;xref:System.Byte&gt; that contains the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data.</source>
+          <target state="translated">取得、&lt;xref:System.Array&gt;型の&lt;xref:System.Byte&gt;を格納している、 <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>データ&lt;/xref:System.Byte&gt;&lt;/xref:System.Array&gt;。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The Value property reads the entire <ph id="ph1">`BFILE`</ph> at one time.</source>
+          <target state="translated">値プロパティには、全体が読み込まれる<ph id="ph1">`BFILE`</ph>一度に&amp;1; つです。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A benefit of using <ph id="ph2">`BFILE`</ph>s is the ability to retrieve large amounts of data in chunks at the client.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; を使用する利点<ph id="ph2">`BFILE`</ph>大量のクライアント側のチャンク単位でデータを取得することができます。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>However, when you use Value, you obtain all the data for the BFILE column as one contiguous chunk, which can significantly increase application overhead.</source>
+          <target state="translated">ただし、値を使用する場合は、アプリケーションのオーバーヘッドを大幅に向上する可能性が&amp;1; つの連続したチャンクとして BFILE 列のすべてのデータを取得します。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Array&gt; of type &lt;xref:System.Byte&gt; that contains the <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data.</source>
+          <target state="translated">&lt;xref:System.Array&gt;型の&lt;xref:System.Byte&gt;を格納している、 <bpt id="p1">&lt;xref href="System.Data.OracleClient.OracleBFile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>データ&lt;/xref:System.Byte&gt;&lt;/xref:System.Array&gt;。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">現在サポートされていません。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">現在サポートされていません。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">現在サポートされていません。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Not currently supported.</source>
+          <target state="translated">現在サポートされていません。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The exception that is thrown when an invoked method is not supported, or when there is an attempt to read, seek, or write to a stream that does not support the invoked functionality.</source>
+          <target state="translated">呼び出されたメソッドがサポートされていない場合、またはを読み取ることがある場合にスローされる例外は、シーク、または呼び出された機能をサポートしていないストリームに書き込みます。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

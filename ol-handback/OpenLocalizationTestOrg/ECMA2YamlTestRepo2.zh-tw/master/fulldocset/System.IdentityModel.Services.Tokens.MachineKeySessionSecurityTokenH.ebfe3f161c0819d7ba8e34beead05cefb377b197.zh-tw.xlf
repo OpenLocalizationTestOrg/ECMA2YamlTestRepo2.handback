@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a64c16d4669c656e23b4e623e8655f7b71ef07c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f91861f91bd4704eef2bfb2e62926669175777bc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2f7711d0f39b410b54ecfe1039fca63901605b05</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Processes session tokens by using signing and encryption keys specified in the ASP.NET <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;machineKey&amp;gt;" name="&amp;lt;machineKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element in a configuration file.</source>
+          <target state="translated">使用 ASP.NET 中指定的簽章和加密金鑰，以處理工作階段權杖<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;machineKey&amp;gt;" name="&amp;lt;machineKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>組態檔中的項目。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>By default, the &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; class uses the &lt;xref:System.IdentityModel.ProtectedDataCookieTransform&gt; class, which uses the Data Protection API (DPAPI), to protect the session token.</source>
+          <target state="translated">根據預設，&lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;類別會使用&lt;xref:System.IdentityModel.ProtectedDataCookieTransform&gt;類別，使用資料保護 API (DPAPI)，來保護工作階段權杖。&lt;/xref:System.IdentityModel.ProtectedDataCookieTransform&gt; &lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The DPAPI provides protection by using the user or machine credentials and stores the key data in the user profile.</source>
+          <target state="translated">DPAPI 使用使用者或電腦認證來提供保護，並將索引鍵的資料儲存在使用者設定檔。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This means that a session token signed and encrypted on one computer cannot be validated or decrypted on a different computer.</source>
+          <target state="translated">這表示工作階段權杖簽署和加密一部電腦上無法驗證或解密另一部電腦上。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>By contrast, the MachineKeySessionSecurityTokenHandler class uses the &lt;xref:System.IdentityModel.Services.MachineKeyTransform&gt; class, which protects the session cookie data by using the cryptographic material specified in the <ph id="ph1">`&lt;machineKey&gt;`</ph> element in the configuration file.</source>
+          <target state="translated">相反地，Sessionsecuritytokenhandler 類別會使用&lt;xref:System.IdentityModel.Services.MachineKeyTransform&gt;類別，透過使用中指定的加密編譯內容，保護工作階段 cookie 資料<ph id="ph1">`&lt;machineKey&gt;`</ph>組態檔中的項目。&lt;/xref:System.IdentityModel.Services.MachineKeyTransform&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This means that the same keys (and session tokens) can be used across multiple computers.</source>
+          <target state="translated">這表示相同的金鑰 （和工作階段權杖） 可以使用多部電腦上。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This is particularly important when an application is deployed in a web farm.</source>
+          <target state="translated">Web 伺服陣列中部署應用程式時，這是非常重要。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information about how to use Windows Identity Foundation to protect applications that are deployed in a web farm, see <bpt id="p1">[</bpt>WIF and Web Farms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需如何使用 Windows Identity Foundation 來保護 web 伺服陣列中部署的應用程式的詳細資訊，請參閱<bpt id="p1">[</bpt>WIF 和 Web 伺服陣列<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Configure the application to use the MachineKeySessionSecurityTokenHandler by adding it to the token handler collection.</source>
+          <target state="translated">設定應用程式使用 Sessionsecuritytokenhandler 將它加入至權杖處理常式集合。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You must first remove the &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; (or any handler derived from the &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; class) from the token handler collection if such a handler is present.</source>
+          <target state="translated">您必須先移除&lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;(或任何處理常式衍生自&lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;類別) 從權杖處理常式集合中是否有這類處理常式。&lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; &lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is because MachineKeySessionSecurityTokenHandler derives from &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; and a token handler collection cannot contain multiple handlers of any given type.</source>
+          <target state="translated">這是因為 Sessionsecuritytokenhandler 衍生自&lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;權杖處理常式集合不能包含任何給定的類型的多個處理常式。&lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that has the specified default token lifetime.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別具有指定的預設權杖存留期。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The default lifetime for a token.</source>
+          <target state="translated">預設的存留期語彙基元。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;tokenLifetime&lt;/code&gt;</ph> is shorter than or equal to <ph id="ph2">&amp;lt;</ph>xref:System.TimeSpan?displayProperty=fullName<ph id="ph3">&amp;gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;tokenLifetime&lt;/code&gt;</ph>小於或等於<ph id="ph2">&amp;lt;</ph>xref:System.TimeSpan?displayProperty=fullName<ph id="ph3">&amp;gt;</ph></target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

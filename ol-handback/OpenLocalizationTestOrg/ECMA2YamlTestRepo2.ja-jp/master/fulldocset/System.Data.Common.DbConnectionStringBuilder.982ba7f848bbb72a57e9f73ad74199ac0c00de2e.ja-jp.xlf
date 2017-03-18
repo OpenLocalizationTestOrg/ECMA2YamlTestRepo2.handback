@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b826e4786c9918ef914c35588d82aabc53097aa8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Common.DbConnectionStringBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ad79db20b6a715b2d74af2d583d89cf26dbce41</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">440623378c2dbe29ae9c3ee0d9e8f718710a804b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for strongly typed connection string builders.</source>
+          <target state="translated">厳密に型指定された接続文字列ビルダーの基本クラスを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The DbConnectionStringBuilder class provides the base class from which the strongly typed connection string builders (&lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;, &lt;xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt;, and so on) derive.</source>
+          <target state="translated">DbConnectionStringBuilder クラスには、厳密に型指定された接続文字列ビルダーが元となる基本クラスが用意されています (&lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;、&lt;xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt;に) 派生されます&lt;/xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt;&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The connection string builders let developers programmatically create syntactically correct connection strings, and parse and rebuild existing connection strings.</source>
+          <target state="translated">接続文字列ビルダーは、開発者がプログラムで正しい構文の接続文字列を作成し、解析および既存の接続文字列を再構築を使用できます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The DbConnectionStringBuilder has been defined in a database-agnostic manner.</source>
+          <target state="translated">データベースにとらわれない方法で、DbConnectionStringBuilder が定義されています。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Because of the addition of the &lt;xref:System.Data.Common&gt; namespace, developers require a base class against which they can program in order to build connection strings that can work against an arbitrary database.</source>
+          <target state="translated">追加により、&lt;xref:System.Data.Common&gt;名前空間、開発者に必要な任意のデータベースに対して使用できるように接続文字列を構築するためにプログラムできる対象となる基本クラス&lt;/xref:System.Data.Common&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Therefore, the DbConnectionStringBuilder class lets users assign arbitrary key/value pairs and pass the resulting connection string to a strongly typed provider.</source>
+          <target state="translated">そのため、DbConnectionStringBuilder クラスにより、ユーザーが任意のキー/値ペアを割り当てるし、厳密に型指定されたプロバイダーに接続文字列を渡します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>All the data providers that are included as part of the .NET Framework provide a strongly typed class that inherits from DbConnectionStringBuilder: &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;, &lt;xref:System.Data.OracleClient.OracleConnectionStringBuilder&gt;, &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt;, and &lt;xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt;.</source>
+          <target state="translated">.NET Framework の一部として含まれているすべてのデータ プロバイダーは、DbConnectionStringBuilder から継承するクラスを厳密に型指定を提供します&lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;、 &lt;xref:System.Data.OracleClient.OracleConnectionStringBuilder&gt;、 &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt;、 &lt;xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt;。&lt;/xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt; &lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt; &lt;/xref:System.Data.OracleClient.OracleConnectionStringBuilder&gt; &lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; 。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The developer can build, assign, and edit connection strings for any arbitrary provider.</source>
+          <target state="translated">開発者は、ビルド、割り当て、および任意のプロバイダーの接続文字列を編集できます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For providers that support specific key/value pairs, the connection string builder provides strongly typed properties corresponding to the known pairs.</source>
+          <target state="translated">特定のキー/値ペアをサポートするプロバイダーの場合は、接続文字列ビルダーは、既知のペアに対応する厳密に型指定のプロパティを提供します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In order to support providers that require the ability to support unknown values, developers can also supply arbitrary key/value pairs.</source>
+          <target state="translated">不明な値をサポートする機能を必要とするプロバイダーをサポートするために、開発者は、任意のキー/値ペアにも提供できます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The DbConnectionStringBuilder class implements the &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">DbConnectionStringBuilder クラスを実装して、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This means that the class works with Visual Studio designers at design time.</source>
+          <target state="translated">これは、デザイン時に、クラスが Visual Studio のデザイナーで動作することを意味します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When developers use the designer to build strongly typed DataSets and strongly typed connections within Visual Studio, the strongly typed connection string builder class will display the properties associated with its type and will also have converters that can map common values for known keys.</source>
+          <target state="translated">開発者は、デザイナーを使用して、厳密に型指定されたデータセットと Visual Studio 内での厳密に型指定された接続を構築と厳密に型指定された接続文字列ビルダー クラスの型に関連付けられているプロパティが表示されますコンバーター既知のキーに共通の値をマップできる必要があります。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Developers needing to create connection strings as part of applications can use the DbConnectionStringBuilder class or one of its strongly typed derivatives to build and modify connection strings.</source>
+          <target state="translated">アプリケーションの一部として接続文字列を作成する必要がある開発者は、接続文字列を構築および変更、DbConnectionStringBuilder クラスまたはその厳密に型指定の派生クラスのいずれかを使用できます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The DbConnectionStringBuilder class also makes it easy to manage connection strings stored in an application configuration file.</source>
+          <target state="translated">DbConnectionStringBuilder クラスでは、アプリケーション構成ファイルに格納された接続文字列を管理しやすいです。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Developers can create connection strings using either a strongly typed connection string builder class, or they can use the DbConnectionStringBuilder class.</source>
+          <target state="translated">開発者がいずれか、厳密に型指定された接続文字列ビルダー クラスを使用して接続文字列を作成したり、DbConnectionStringBuilder クラスを使用することができます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The DbConnectionStringBuilder performs no checks for valid key/value pairs.</source>
+          <target state="translated">DbConnectionStringBuilder には、有効なキー/値ペアのチェックが行わありません。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Therefore, it is possible using this class to create invalid connection strings.</source>
+          <target state="translated">したがって、このクラスを使用して無効な接続文字列を作成することができます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; supports only key/value pairs that are supported by SQL Server; trying to add invalid pairs will throw an exception.</source>
+          <target state="translated">&lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;サポートのみキー/値のペアは、SQL Server でサポートされている以外の場合は無効なペアを追加しようとするいると、例外がスローされます&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Both the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Add%2A&gt; method and &lt;xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt; property handle tries to insert malicious entries.</source>
+          <target state="translated">両方の&lt;xref:System.Data.Common.DbConnectionStringBuilder.Add%2A&gt;メソッドおよび&lt;xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt;プロパティ ハンドルは悪意のあるエントリを挿入しようとしています&lt;/xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder.Add%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example, the following code correctly escapes the nested key/value pair:       [Visual Basic]      <ph id="ph1">```   Dim builder As New System.Data.Common.DbConnectionStringBuilder   builder("Data Source") = "(local)"   builder("integrated sSecurity") = True   builder("Initial Catalog") = "AdventureWorks;NewValue=Bad"   ```</ph>       [C#]      <ph id="ph2">```   System.Data.Common.DbConnectionStringBuilder builder =        new System.Data.Common.DbConnectionStringBuilder();   builder["Data Source"] = "(local)";   builder["integrated Security"] = true;   builder["Initial Catalog"] = "AdventureWorks;NewValue=Bad";   ```</ph>       The result is the following connection string that handles the invalid value in a safe manner:      <ph id="ph3">```   data source=(local);integrated security=True;   initial catalog="AdventureWorks;NewValue=Bad"   ```</ph></source>
+          <target state="translated">たとえば、次のコードで正しく入れ子になったキー/値ペアがエスケープ: [Visual Basic] <ph id="ph1">```   Dim builder As New System.Data.Common.DbConnectionStringBuilder   builder("Data Source") = "(local)"   builder("integrated sSecurity") = True   builder("Initial Catalog") = "AdventureWorks;NewValue=Bad"   ```</ph> [c#]<ph id="ph2">```   System.Data.Common.DbConnectionStringBuilder builder =        new System.Data.Common.DbConnectionStringBuilder();   builder["Data Source"] = "(local)";   builder["integrated Security"] = true;   builder["Initial Catalog"] = "AdventureWorks;NewValue=Bad";   ```</ph>を安全な方法で、無効な値を処理する次の接続文字列になります。<ph id="ph3">```   data source=(local);integrated security=True;   initial catalog="AdventureWorks;NewValue=Bad"   ```</ph></target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, optionally using ODBC rules for quoting values.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラス、必要に応じて値を引用符で囲むの ODBC の規則を使用します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`useOdbcRules`</ph> is <ph id="ph2">`true`</ph>, this &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; uses ODBC rules for quoting values (surrounding values with curly braces ({})).</source>
+          <target state="translated">場合<ph id="ph1">`useOdbcRules`</ph>は<ph id="ph2">`true`</ph>、この&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;(中かっこ ({}) を持つ値を囲む) の値を引用符で囲むの ODBC の規則を使用します&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`useOdbcRules`</ph> is <ph id="ph2">`false`</ph>, this &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; uses quotation mark character ("") to delimit values.</source>
+          <target state="translated">場合<ph id="ph1">`useOdbcRules`</ph>は<ph id="ph2">`false`</ph>、この&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;引用符文字を使用して ("") 値を区切るためにします&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use {} to delimit fields; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to use quotation marks.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>フィールドを区切るために {} を使用するには<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>引用符を使用します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Adds an entry with the specified key and value into the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定したキーと値を持つエントリを追加、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt; property can also be used to add new elements by setting the value of a key that does not exist in the dictionary.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt;プロパティを使用してディクショナリに存在しないキーの値を設定して新しい要素を追加することもできます&lt;/xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example: <ph id="ph1">`myCollection["myNonexistentKey"] = myValue`</ph>.</source>
+          <target state="translated">たとえば、<ph id="ph1">`myCollection["myNonexistentKey"] = myValue`</ph> と指定します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Calling the Add method by passing a null (<ph id="ph1">`Nothing`</ph> in Visual Basic) key throws an &lt;xref:System.ArgumentNullException&gt;.</source>
+          <target state="translated">Null を渡すことによって、Add メソッドを呼び出す (<ph id="ph1">`Nothing`</ph> Visual Basic で) キー &lt;xref:System.ArgumentNullException&gt;.&lt;/xref:System.ArgumentNullException&gt;のスロー</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>However, calling the Add method by passing a null value removes the key/value pair.</source>
+          <target state="translated">ただし、null 値を渡すことによって、Add メソッドを呼び出すには、キー/値ペアを削除します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The key to add to the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">追加するキー、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The value for the specified key.</source>
+          <target state="translated">指定されたキーの値です。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>null 参照 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual Basic で)。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is read-only.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>は読み取り専用です。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has a fixed size.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のサイズが固定されています。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Provides an efficient and safe way to append a key and value to an existing &lt;xref:System.Text.StringBuilder&gt; object.</source>
+          <target state="translated">既存のキーと値を追加する、効率的かつ安全な方法を提供&lt;xref:System.Text.StringBuilder&gt;オブジェクト&lt;/xref:System.Text.StringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This method allows developers using a &lt;xref:System.Text.StringBuilder&gt; to create a collection of key/value pairs to be able to take advantage of the features included in the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; class when you add key/value pairs, without having to incur the overhead of creating and maintaining a &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance.</source>
+          <target state="translated">このメソッドにより、使用する開発者、&lt;xref:System.Text.StringBuilder&gt;に含まれる機能を活用できるキー/値ペアのコレクションを作成する、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;クラスの作成と管理のオーバーヘッドが発生することがなくキー/値ペアを追加するときに、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;インスタンス&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;&lt;/xref:System.Text.StringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`AppendKeyValuePair`</ph> method formats the key and value correctly and adds the new string to the supplied &lt;xref:System.Text.StringBuilder&gt;.</source>
+          <target state="translated"><ph id="ph1">`AppendKeyValuePair`</ph>メソッドがキーと値を正しく書式設定し、指定された&lt;xref:System.Text.StringBuilder&gt;&lt;/xref:System.Text.StringBuilder&gt;新しい文字列を追加します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Text.StringBuilder&gt; to which to add the key/value pair.</source>
+          <target state="translated">&lt;xref:System.Text.StringBuilder&gt;キー/値ペアを追加する&lt;/xref:System.Text.StringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The key to be added.</source>
+          <target state="translated">追加するキー。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value for the supplied key.</source>
+          <target state="translated">指定されたキーの値です。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Provides an efficient and safe way to append a key and value to an existing &lt;xref:System.Text.StringBuilder&gt; object.</source>
+          <target state="translated">既存のキーと値を追加する、効率的かつ安全な方法を提供&lt;xref:System.Text.StringBuilder&gt;オブジェクト&lt;/xref:System.Text.StringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This method allows developers using a &lt;xref:System.Text.StringBuilder&gt; to create a collection of key/value pairs to be able to take advantage of the features included in the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; class when adding key/value pairs, without having to incur the overhead of creating and maintaining a &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance.</source>
+          <target state="translated">このメソッドにより、使用する開発者、&lt;xref:System.Text.StringBuilder&gt;に含まれる機能を活用できるキー/値ペアのコレクションを作成する、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;クラスの作成と管理のオーバーヘッドが発生することがなくキー/値ペアを追加するときに、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;インスタンス&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;&lt;/xref:System.Text.StringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`AppendKeyValuePair`</ph> method formats the key and value correctly and adds the new string to the supplied &lt;xref:System.Text.StringBuilder&gt;.</source>
+          <target state="translated"><ph id="ph1">`AppendKeyValuePair`</ph>メソッドがキーと値を正しく書式設定し、指定された&lt;xref:System.Text.StringBuilder&gt;&lt;/xref:System.Text.StringBuilder&gt;新しい文字列を追加します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Although most data sources let you delimit fields by using quotation marks, ODBC does not--for ODBC connection strings, you must use curly braces ({}).</source>
+          <target state="translated">ほとんどのデータ ソースは、引用符を使用してフィールドを区切るためできますが、ODBC されていません--ODBC 接続文字列の場合は、中かっこ ({}) を使用する必要があります。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In order to have the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; use ODBC rules for delimiting fields, set the <ph id="ph1">`useOdbcRules`</ph> parameter to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">ために、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;フィールドの区切り記号として ODBC の規則を使用して、設定、<ph id="ph1">`useOdbcRules`</ph>パラメーターを<ph id="ph2">`true`</ph>&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Text.StringBuilder&gt; to which to add the key/value pair.</source>
+          <target state="translated">&lt;xref:System.Text.StringBuilder&gt;キー/値ペアを追加する&lt;/xref:System.Text.StringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The key to be added.</source>
+          <target state="translated">追加するキー。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The value for the supplied key.</source>
+          <target state="translated">指定されたキーの値です。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use {} to delimit fields, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to use quotation marks.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>フィールドの区切りに {} を使用する<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>引用符を使用します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt; property is visible in Visual Studio designers.</source>
+          <target state="translated">取得またはを示す値を設定するかどうか、&lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;プロパティは、Visual Studio デザイナーで表示します&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Developers creating designers that take advantage of the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; class must be able to make the connection string visible or invisible within the designer's property grid.</source>
+          <target state="translated">利用するデザイナーを作成する開発者、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;クラスは、表示するか、デザイナーのプロパティ グリッド内で非表示に、接続文字列を作成できる必要があります&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The BrowsableConnectionString property lets developers indicate that the property should be invisible by setting the property to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">BrowsableConnectionString プロパティにより、開発者を指定すること、プロパティはされません表示プロパティを設定して<ph id="ph1">`false`</ph>です。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the connection string is visible within designers; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接続文字列がデザイナーに表示される場合<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>それ以外の場合。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Clears the contents of the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">内容をクリア、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インスタンス。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The Clear method removes all key/value pairs from the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; and resets all corresponding properties.</source>
+          <target state="translated">Clear メソッドからのすべてのキー/値ペアの削除、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;し、すべての対応するプロパティをリセットします&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This includes setting the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt; property to 0 and the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt; property to an empty string.</source>
+          <target state="translated">これには、設定が含まれます、&lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;プロパティを 0 にし、&lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt;プロパティを空の文字列にします&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is read-only.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>は読み取り専用です。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Clears the collection of <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects on the associated <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">コレクションをクリア<bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトに関連付けられた<bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This method is used by designers to clear all associated property descriptors on the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.</source>
+          <target state="translated">このメソッドが&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;。&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;上のすべての関連付けられたプロパティ記述子をクリアするデザイナーで使用されます。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets the connection string associated with the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得または設定に関連付けられている接続文字列、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This property returns a semicolon-delimited list of key/value pairs stored within the collection maintained by the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.</source>
+          <target state="translated">このプロパティは、 &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;。&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;によって保持されているコレクション内に格納されたキー/値ペアのセミコロン区切りのリストを返します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Each pair contains the key and value, separated by an equal sign.</source>
+          <target state="translated">各ペアには、キーと等号 (=) で区切られた値が含まれています。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The following example illustrates a typical connection string.</source>
+          <target state="translated">次の例は、一般的な接続文字列を示しています。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   "Persist Security Info=False;Integrated Security=SSPI;Initial Catalog=AdventureWorks;Data Source=(local)"   ```</ph>       Data providers may expect specific keys and values for each connection string property.</source>
+          <target state="translated"><ph id="ph1">```   "Persist Security Info=False;Integrated Security=SSPI;Initial Catalog=AdventureWorks;Data Source=(local)"   ```</ph>データ プロバイダーは、特定のキーと接続文字列の各プロパティの値を想定します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>, These values are documented individually.</source>
+          <target state="translated">、これらの値は個別に記載されています。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; class does not validate the key/value pairs associated with its connection string, although classes that inherit from it can.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;これを継承するクラスがクラスがその接続文字列に関連付けられているキー/値ペアを検証しません分からない&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The ConnectionString property of the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; class acts generally as a mechanism for creating and parsing semicolon-delimited lists of key/value pairs separated with equal signs.</source>
+          <target state="translated">ConnectionString プロパティ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;クラスは、一般に作成するためのメカニズムとして機能し、等号で区切られたキーと値のペアのセミコロンで区切られた一覧を解析します&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>It provides no validation or other support specific to connection strings.</source>
+          <target state="translated">検証なしまたは接続文字列に関するその他のサポートを提供します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If you add items to the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; collection, the ConnectionString property will reflect the changes.</source>
+          <target state="translated">項目を追加する場合、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;コレクション、ConnectionString プロパティに反映されます&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If you assign a value to the ConnectionString property, the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; will try to parse the value, using the semicolon and equal-sign delimiters.</source>
+          <target state="translated">ConnectionString プロパティに値を代入する場合、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;セミコロンと等号 (=) の区切り記号を使用して、値の解析を試みます&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The current connection string, created from the key/value pairs that are contained within the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">現在の接続文字列内に含まれるキー/値ペアから作成された、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">既定値は、空の文字列です。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An invalid connection string argument has been supplied.</source>
+          <target state="translated">無効な接続文字列引数が指定されています。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Determines whether the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains a specific key.</source>
+          <target state="translated">指定するかどうか、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>特定のキーが含まれています。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The key to locate in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">内で検索するキー、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains an entry with the specified key; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 、指定したエントリが含まれていますそれ以外のキー <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>null 参照 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual Basic で)。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the current number of keys that are contained within the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt; property.</source>
+          <target state="translated">内に含まれるキーの現在の数を取得、&lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;プロパティ&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The number of keys that are contained within the connection string maintained by the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">管理されている接続文字列内に含まれるキーの数、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インスタンス。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Compares the connection information in this <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with the connection information in the supplied object.</source>
+          <target state="translated">この接続情報と比較<bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトに指定されたオブジェクトで、接続情報です。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Comparisons on key names are case insensitive; value comparisons are case sensitive.</source>
+          <target state="translated">キー名の比較では、大文字小文字を区別します。値の比較では大文字小文字を区別します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The EquivalentTo method returns <ph id="ph1">`true`</ph> if the key/value pairs are equal, regardless of their order.</source>
+          <target state="translated">指定されたを返します<ph id="ph1">`true`</ph>キー/値ペアが等しい場合は、順序に関係なく。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The connection behavior of the two connection strings are equivalent, because order is never significant within connection strings.</source>
+          <target state="translated">順序が接続文字列内で重要ではないために、2 つの接続文字列の接続の動作はそれと同等です。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>However, different order may affect connection pooling behavior of connections based on these connection strings.</source>
+          <target state="translated">ただし、別の順序には、接続プールのこれらの接続文字列に基づいて、接続の動作があります。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be compared with this <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>これと比較する<bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the connection information in both of the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects causes an equivalent connection string; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合の両方の接続情報、 <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトと同等の接続文字列をそれ以外の<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Fills a supplied <bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with information about all the properties of this <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定された入力<bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>これのすべてのプロパティに関する情報を含む<bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be filled with information about this <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>これに関する情報を格納する<bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has a fixed size.</source>
+          <target state="translated">示す値を取得するかどうか、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のサイズが固定されています。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A fixed-size collection does not allow adding or removing elements after the collection is created, but it does allow modifying existing elements.</source>
+          <target state="translated">固定サイズのコレクションには、追加またはコレクションが作成された後で既存の要素を変更することは、要素を削除できません。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>A fixed-size collection is just a collection with a wrapper that prevents adding and removing elements; therefore, if changes are made to the underlying collection, including adding or removing elements, the fixed-size collection reflects those changes.</source>
+          <target state="translated">固定サイズ コレクションが追加および削除する要素を防止するラッパーを持つコレクションのみそのため、要素を追加または削除を含む、基になるコレクションが変更された場合、固定サイズ コレクションにはそれらの変更が反映されます。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has a fixed size; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>が固定サイズです。 それ以外の場合<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is read-only.</source>
+          <target state="translated">示す値を取得するかどうか、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>は読み取り専用です。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A read-only collection does not allow adding, removing, or modifying elements after the collection is created.</source>
+          <target state="translated">読み取り専用コレクションには、追加、削除、または要素のコレクションを作成したら変更できません。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A read-only collection is just a collection with a wrapper that prevents modifying the collection; therefore, if changes are made to the underlying collection, the read-only collection reflects those changes.</source>
+          <target state="translated">読み取り専用コレクションがコレクションの変更を防止するラッパーを持つコレクションのみそのため、基になるコレクションの変更が加えられた、読み取り専用コレクションはそれらの変更を反映します。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is read-only; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>読み取り専用です。 それ以外の場合は、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value associated with the specified key.</source>
+          <target state="translated">取得または指定されたキーに関連付けられている値を設定します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>When you set this property, if the specified key already exists in the dictionary, the value is replaced; otherwise, a new element is created.</source>
+          <target state="translated">指定したキーがディクショナリ内に既に存在する場合に、このプロパティを設定すると、値が置換されます。それ以外の場合、新しい要素が作成されます。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The key of the item to get or set.</source>
+          <target state="translated">取得または設定する項目のキー。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The value associated with the specified key.</source>
+          <target state="translated">指定したキーに関連付けられている値。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>If the specified key is not found, trying to get it returns a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic), and trying to set it creates a new element using the specified key.</source>
+          <target state="translated">指定したキーが見つからない場合は、null 参照を返しますそれを取得しようとしています (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual Basic で)、し、指定したキーを使用して、新しい要素を作成するように設定しようとしています。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Passing a null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic) key throws an &lt;xref:System.ArgumentNullException&gt;.</source>
+          <target state="translated">Null を渡す (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual Basic で) キー &lt;xref:System.ArgumentNullException&gt;.&lt;/xref:System.ArgumentNullException&gt;のスロー</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Assigning a null value removes the key/value pair.</source>
+          <target state="translated">Null 値を割り当てるには、キー/値ペアを削除します。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>null 参照 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual Basic で)。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The property is set, and the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is read-only.</source>
+          <target state="translated">プロパティを設定すると、および<bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>は読み取り専用です。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>-or-       The property is set, <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyword</ph><ept id="p1">&lt;/code&gt;</ept> does not exist in the collection, and the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has a fixed size.</source>
+          <target state="translated">- または - プロパティが設定されて、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyword</ph> <ept id="p1">&lt;/code&gt;</ept> 、コレクションに存在しません、 <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>固定サイズです。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得、&lt;xref:System.Collections.ICollection&gt;内のキーを格納している、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Collections.ICollection&gt; 。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The order of the values in the &lt;xref:System.Collections.ICollection&gt; is unspecified, but it is the same order as the associated values in the &lt;xref:System.Collections.ICollection&gt; returned by the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Values%2A&gt; property.</source>
+          <target state="translated">内の値の順序、&lt;xref:System.Collections.ICollection&gt;は指定しませんが、関連付けられている値と同じ順序、&lt;xref:System.Collections.ICollection&gt;によって返される、&lt;xref:System.Data.Common.DbConnectionStringBuilder.Values%2A&gt;プロパティ&lt;/xref:System.Data.Common.DbConnectionStringBuilder.Values%2A&gt;&lt;/xref:System.Collections.ICollection&gt;&lt;/xref:System.Collections.ICollection&gt;。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.Collections.ICollection&gt; is not a static copy; instead, the &lt;xref:System.Collections.ICollection&gt; refers back to the keys in the original &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.</source>
+          <target state="translated">返された&lt;xref:System.Collections.ICollection&gt;静的コピーではありません代わりに、 &lt;xref:System.Collections.ICollection&gt; &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;。&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;は元のキーを逆参照&lt;/xref:System.Collections.ICollection&gt;&lt;/xref:System.Collections.ICollection&gt;。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Therefore, changes to the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; are reflected in the &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">そのため、変更が&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;&lt;xref:System.Collections.ICollection&gt;。&lt;/xref:System.Collections.ICollection&gt;に反映されます&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;内のキーを格納している、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Collections.ICollection&gt; 。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Removes the entry with the specified key from the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">指定したキーを持つエントリを削除、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インスタンス。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Because the Remove method returns a value that indicates its success, it is not required to look for the key before trying to remove the key/value pair from the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance.</source>
+          <target state="translated">キー/値ペアを削除しようとしています前に、キーを検索する必要はありません、Remove メソッドが成功を示す値を返すため、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;インスタンス。&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt; 。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The key of the key/value pair to be removed from the connection string in this <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">この接続文字列から削除するキー/値ペアのキー <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key existed within the connection string and was removed; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the key did not exist.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>キーは、接続文字列内に存在し、削除された場合<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>キーが存在しなかった場合。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual basic)</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is read-only, or the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has a fixed size.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>は読み取り専用、または<bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>のサイズが固定されています。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Indicates whether the specified key exists in this <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">これで、指定したキーが存在するかどうかを示す<bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>インスタンス。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This method behaves identically to the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; method.</source>
+          <target state="translated">このメソッドの動作と同じように、&lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;メソッド&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The key to locate in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">内で検索するキー、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains an entry with the specified key; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 、指定したエントリが含まれていますそれ以外のキー <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Copies the elements of the &lt;xref:System.Collections.ICollection&gt; to an &lt;xref:System.Array&gt;, starting at a particular &lt;xref:System.Array&gt; index.</source>
+          <target state="translated">要素をコピー、&lt;xref:System.Collections.ICollection&gt;を&lt;xref:System.Array&gt;特定の開始、&lt;xref:System.Array&gt;インデックス&lt;/xref:System.Array&gt;&lt;/xref:System.Array&gt;&lt;/xref:System.Collections.ICollection&gt;。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.ICollection&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.Collections.ICollection&gt;インターフェイス&lt;/xref:System.Collections.ICollection&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Collections.ICollection.CopyTo%2A&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.Collections.ICollection.CopyTo%2A&gt;。&lt;/xref:System.Collections.ICollection.CopyTo%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The one-dimensional &lt;xref:System.Array&gt; that is the destination of the elements copied from &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">&lt;xref:System.Array&gt; &lt;xref:System.Collections.ICollection&gt;。&lt;/xref:System.Collections.ICollection&gt;からコピーした要素のコピー先である&lt;/xref:System.Array&gt;1 次元</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Array&gt; must have zero-based indexing.</source>
+          <target state="translated">&lt;xref:System.Array&gt;0 から始まるインデックス番号が必要です&lt;/xref:System.Array&gt;。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The zero-based index in <ph id="ph1">`array`</ph> at which copying begins.</source>
+          <target state="translated">内の&amp;0; から始まるインデックス<ph id="ph1">`array`</ph>コピーの開始位置。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether access to the &lt;xref:System.Collections.ICollection&gt; is synchronized (thread safe).</source>
+          <target state="translated">アクセスをするかどうかを示す値を取得、&lt;xref:System.Collections.ICollection&gt;が同期されている (スレッド セーフである).&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.ICollection&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.Collections.ICollection&gt;インターフェイス&lt;/xref:System.Collections.ICollection&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Collections.ICollection.IsSynchronized%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.Collections.ICollection.IsSynchronized%2A&gt;。&lt;/xref:System.Collections.ICollection.IsSynchronized%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if access to the &lt;xref:System.Collections.ICollection&gt; is synchronized (thread safe); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合へのアクセス、&lt;xref:System.Collections.ICollection&gt;が同期 (スレッド セーフな) ですそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Collections.ICollection&gt; 。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets an object that can be used to synchronize access to the &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;。&lt;/xref:System.Collections.ICollection&gt;へのアクセスを同期するために使用できるオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.ICollection&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.Collections.ICollection&gt;インターフェイス&lt;/xref:System.Collections.ICollection&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Collections.ICollection.SyncRoot%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.Collections.ICollection.SyncRoot%2A&gt;。&lt;/xref:System.Collections.ICollection.SyncRoot%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>An object that can be used to synchronize access to the &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;。&lt;/xref:System.Collections.ICollection&gt;へのアクセスを同期するために使用できるオブジェクト</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Adds an element with the provided key and value to the &lt;xref:System.Collections.IDictionary&gt; object.</source>
+          <target state="translated">指定したキーと値を持つ要素を追加、&lt;xref:System.Collections.IDictionary&gt;オブジェクト&lt;/xref:System.Collections.IDictionary&gt;。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IDictionary&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.Collections.IDictionary&gt;インターフェイス&lt;/xref:System.Collections.IDictionary&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Collections.IDictionary.Add%2A&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.Collections.IDictionary.Add%2A&gt;。&lt;/xref:System.Collections.IDictionary.Add%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to use as the key of the element to add.</source>
+          <target state="translated">&lt;xref:System.Object&gt;追加する要素のキーとして使用するには&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to use as the value of the element to add.</source>
+          <target state="translated">&lt;xref:System.Object&gt;追加する要素の値として使用するには&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Collections.IDictionary&gt; object contains an element with the specified key.</source>
+          <target state="translated">指定するかどうか、&lt;xref:System.Collections.IDictionary&gt;オブジェクトには、指定したキーを持つ要素が含まれています&lt;/xref:System.Collections.IDictionary&gt;。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IDictionary&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.Collections.IDictionary&gt;インターフェイス&lt;/xref:System.Collections.IDictionary&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Collections.IDictionary.Contains%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.Collections.IDictionary.Contains%2A&gt;。&lt;/xref:System.Collections.IDictionary.Contains%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The key to locate in the &lt;xref:System.Collections.IDictionary&gt; object.</source>
+          <target state="translated">内で検索するキー、&lt;xref:System.Collections.IDictionary&gt;オブジェクト&lt;/xref:System.Collections.IDictionary&gt;。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Collections.IDictionary&gt; contains an element with the key; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、&lt;xref:System.Collections.IDictionary&gt;されたキーを持つ要素が含まれるそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>&lt;/xref:System.Collections.IDictionary&gt; 。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IDictionaryEnumerator&gt; object for the &lt;xref:System.Collections.IDictionary&gt; object.</source>
+          <target state="translated">返します、&lt;xref:System.Collections.IDictionaryEnumerator&gt;オブジェクトに対して、&lt;xref:System.Collections.IDictionary&gt;オブジェクト&lt;/xref:System.Collections.IDictionary&gt;&lt;/xref:System.Collections.IDictionaryEnumerator&gt;。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IDictionary&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.Collections.IDictionary&gt;インターフェイス&lt;/xref:System.Collections.IDictionary&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Collections.IDictionary.GetEnumerator%2A&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.Collections.IDictionary.GetEnumerator%2A&gt;。&lt;/xref:System.Collections.IDictionary.GetEnumerator%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionaryEnumerator&gt; object for the &lt;xref:System.Collections.IDictionary&gt; object.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionaryEnumerator&gt;オブジェクトに対して、&lt;xref:System.Collections.IDictionary&gt;オブジェクト&lt;/xref:System.Collections.IDictionary&gt;&lt;/xref:System.Collections.IDictionaryEnumerator&gt;。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Gets or sets the element with the specified key.</source>
+          <target state="translated">取得または指定したキーを持つ要素を設定します。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IDictionary&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.Collections.IDictionary&gt;インターフェイス&lt;/xref:System.Collections.IDictionary&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Collections.IDictionary.Item%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.Collections.IDictionary.Item%2A&gt;。&lt;/xref:System.Collections.IDictionary.Item%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The key of the element to get or set.</source>
+          <target state="translated">取得または設定する要素のキー。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The element with the specified key.</source>
+          <target state="translated">指定したキーを持つ要素。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Removes the element with the specified key from the &lt;xref:System.Collections.IDictionary&gt; object.</source>
+          <target state="translated">指定したキーを持つ要素を削除、&lt;xref:System.Collections.IDictionary&gt;オブジェクト&lt;/xref:System.Collections.IDictionary&gt;。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IDictionary&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.Collections.IDictionary&gt;インターフェイス&lt;/xref:System.Collections.IDictionary&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Collections.IDictionary.Remove%2A&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.Collections.IDictionary.Remove%2A&gt;。&lt;/xref:System.Collections.IDictionary.Remove%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The key of the element to remove.</source>
+          <target state="translated">削除する要素のキー。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that iterates through a collection.</source>
+          <target state="translated">コレクションを反復処理する列挙子を返します。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IEnumerable&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.Collections.IEnumerable&gt;インターフェイス&lt;/xref:System.Collections.IEnumerable&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.Collections.IEnumerable.GetEnumerator%2A&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.Collections.IEnumerable.GetEnumerator%2A&gt;。&lt;/xref:System.Collections.IEnumerable.GetEnumerator%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object that can be used to iterate through the collection.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerator&gt;コレクションを反復処理するために使用できるオブジェクト&lt;/xref:System.Collections.IEnumerator&gt;。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Returns a collection of custom attributes for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスのカスタム属性のコレクションを返します。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetAttributes%2A&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetAttributes%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetAttributes%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.AttributeCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the attributes for this object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.AttributeCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このオブジェクトの属性を含むです。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Returns the class name of this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスのクラス名を返します。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetClassName%2A&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetClassName%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetClassName%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The class name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the class does not have a name.</source>
+          <target state="translated">オブジェクトのクラス名または<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合は、クラスには、名前がありません。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Returns the name of this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスの名前を返します。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object does not have a name.</source>
+          <target state="translated">オブジェクトの名前または<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトに名前がない場合。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Returns a type converter for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスの型コンバーターを返します。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetConverter%2A&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetConverter%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetConverter%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the converter for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is no <bpt id="p3">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> for this object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、このオブジェクトのコンバーターであるまたは<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>がある場合ありません<bpt id="p3">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>このオブジェクトにします。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Returns the default event for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスの既定のイベントを返します。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent%2A&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default event for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if this object does not have events.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このオブジェクトの既定のイベントを表すまたは<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>このオブジェクトにイベントがあるない場合。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Returns the default property for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスの既定のプロパティを返します。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty%2A&gt;.</source>
+          <target state="translated">このメンバーの説明、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default property for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if this object does not have properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このオブジェクトの既定のプロパティを表すまたは<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>このオブジェクトにプロパティがない場合。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Returns an editor of the specified type for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスの指定した型のエディターを返します。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEditor%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEditor%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetEditor%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the editor for this object.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;このオブジェクトのエディターを表す&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; of the specified type that is the editor for this object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the editor cannot be found.</source>
+          <target state="translated">&lt;xref:System.Object&gt;は、このオブジェクトのエディターを指定した型のまたは<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>エディターが見つからない場合&lt;/xref:System.Object&gt;。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Returns the events for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスのイベントを返します。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the events for this component instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このコンポーネント インスタンスのイベントを表すです。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Returns the events for this instance of a component using the specified attribute array as a filter.</source>
+          <target state="translated">フィルターとして指定された属性配列を使用して、コンポーネントのこのインスタンスのイベントを返します。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">型の配列&lt;xref:System.Attribute&gt;フィルターとして使用される&lt;/xref:System.Attribute&gt;。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the filtered events for this component instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このコンポーネント インスタンスのフィルター選択されたイベントを表すです。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Returns the properties for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスのプロパティを返します。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the properties for this component instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このコンポーネント インスタンスのプロパティを表すです。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Returns the properties for this instance of a component using the attribute array as a filter.</source>
+          <target state="translated">属性の配列をフィルターとして使用して、コンポーネントのこのインスタンスのプロパティを返します。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">型の配列&lt;xref:System.Attribute&gt;フィルターとして使用される&lt;/xref:System.Attribute&gt;。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the filtered properties for this component instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このコンポーネント インスタンスのフィルター選択されたプロパティを表すです。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Returns an object that contains the property described by the specified property descriptor.</source>
+          <target state="translated">指定したプロパティ記述子によって記述されたプロパティを格納しているオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;にインスタンスをキャスト、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイス&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner%2A&gt;。&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the property whose owner is to be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>所有者を検索するプロパティを表すです。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the owner of the specified property.</source>
+          <target state="translated">&lt;xref:System.Object&gt;を表す、指定したプロパティの所有者&lt;/xref:System.Object&gt;。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Returns the connection string associated with this <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">これに関連付けられている接続文字列を返す<bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The current &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt; property.</source>
+          <target state="translated">現在&lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;プロパティ&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Retrieves a value corresponding to the supplied key from this <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">これから提供されたキーに対応する値を取得<bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The TryGetValue method lets developers safely retrieve a value from a &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; without needing to first call the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; method.</source>
+          <target state="translated">TryGetValue メソッドにより、開発者は安全に値を取得、&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;を最初に呼び出すことがなく、&lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;メソッド&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Because TryGetValue does not raise an exception when you call it, passing in a nonexistent key, you do not have to look for a key before retrieving its value.</source>
+          <target state="translated">TryGetValue は例外を発生させない呼び出しでは、存在しないキーを渡して、その値を取得する前にキーを検索することはできません。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Calling TryGetValue with a nonexistent key will place the null value (<ph id="ph1">`Nothing`</ph> in Visual Basic) in the <ph id="ph2">`value`</ph> parameter.</source>
+          <target state="translated">存在しないキーを持つ TryGetValue を呼び出すことで、null 値を配置する (<ph id="ph1">`Nothing`</ph> Visual Basic で) で、<ph id="ph2">`value`</ph>パラメーター。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The key of the item to retrieve.</source>
+          <target state="translated">取得する項目のキー。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The value corresponding to the <ph id="ph1">`key`</ph>.</source>
+          <target state="translated">対応する値、<ph id="ph1">`key`</ph>です。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">keyword</ph><ept id="p2">&lt;/code&gt;</ept> was found within the connection string, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">keyword</ph> <ept id="p2">&lt;/code&gt;</ept>接続文字列内で見つかった<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>それ以外の場合。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> contains a null value (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>null 値が含まれています (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual Basic で)。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Collections.ICollection&gt; that contains the values in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得、&lt;xref:System.Collections.ICollection&gt;で値を含む、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Collections.ICollection&gt; 。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The order of the values in the &lt;xref:System.Collections.ICollection&gt; is unspecified, but it is the same order as the associated keys in the &lt;xref:System.Collections.ICollection&gt; returned by the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Keys%2A&gt; method.</source>
+          <target state="translated">内の値の順序、&lt;xref:System.Collections.ICollection&gt;は指定しませんが、関連付けられているキーと同じ順序、&lt;xref:System.Collections.ICollection&gt;によって返される、&lt;xref:System.Data.Common.DbConnectionStringBuilder.Keys%2A&gt;メソッド&lt;/xref:System.Data.Common.DbConnectionStringBuilder.Keys%2A&gt;&lt;/xref:System.Collections.ICollection&gt;&lt;/xref:System.Collections.ICollection&gt;。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.Collections.ICollection&gt; is not a static copy; instead, the &lt;xref:System.Collections.ICollection&gt; refers back to the values in the original &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.</source>
+          <target state="translated">返された&lt;xref:System.Collections.ICollection&gt;静的コピーではありません代わりに、 &lt;xref:System.Collections.ICollection&gt; &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;。&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;は元の値を逆参照&lt;/xref:System.Collections.ICollection&gt;&lt;/xref:System.Collections.ICollection&gt;。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Therefore, changes to the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; are reflected in the &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">そのため、変更が&lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;&lt;xref:System.Collections.ICollection&gt;。&lt;/xref:System.Collections.ICollection&gt;に反映されます&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the values in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;で値を含む、 <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Collections.ICollection&gt; 。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
