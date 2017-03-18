@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ab176bacfbec3a90d98869aa2106ed6a9fa25dcc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Data.IDataEnvironment.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3626e88ab57c108344c8265f9a7347ee21108fef</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f52cedb5b90d994a4ecdd83bf3fa6e5af63c94e2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines an interface to data services that enables control designers to integrate data store or database-related functionality into their design environment.</source>
+          <target state="translated">コントロール デザイナーがデータ ストアまたはデータベース関連の機能をデザイン環境に統合できるようにするデータ サービスへのインターフェイスを定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An object that implements the IDataEnvironment interface can access the data connections available to an application at design time.</source>
+          <target state="translated">IDataEnvironment インターフェイスを実装するオブジェクトは、デザイン時にアプリケーションが使用できるデータ接続にアクセスできます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The IDataEnvironment interface provides methods to list available data connections, create new data connections, retrieve schema information from a connection, and save data-connection configuration information to the application's configuration file.</source>
+          <target state="translated">IDataEnvironment インターフェイスは、使用可能なデータ接続を一覧表示、新しいデータ接続を作成、接続からスキーマ情報を取得、およびアプリケーションの構成ファイルにデータ接続の構成情報を保存するメソッドを提供します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The IDataEnvironment interface enables you to interact with data connections in the design environment, but it is not intended as a data-management API.</source>
+          <target state="translated">IDataEnvironment インターフェイスでは、デザイン環境でのデータ接続と対話することができますが、データ管理 API とものではありません。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Creates a new data connection or edits an existing connection using the design tool's new connection user interface.</source>
+          <target state="translated">新しいデータ接続を作成または、デザイン ツールの新しい接続のユーザー インターフェイスを使用して既存の接続を編集します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Use the BuildConnection method to activate the design environment's user interface for creating or editing data connections.</source>
+          <target state="translated">作成またはデータ接続を編集するためのデザイン環境のユーザー インターフェイスをアクティブ化するのにには、BuildConnection メソッドを使用します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`initialConnection`</ph> parameter is <ph id="ph2">`null`</ph>, it indicates the user wants to create a new connection.</source>
+          <target state="translated">場合、<ph id="ph1">`initialConnection`</ph>パラメーターは<ph id="ph2">`null`</ph>ユーザーが新しい接続を作成することを示します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`initialConnection`</ph> parameter is a &lt;xref:System.ComponentModel.Design.Data.DesignerDataConnection&gt; object, it indicates the user wants to edit an existing connection.</source>
+          <target state="translated">場合、<ph id="ph1">`initialConnection`</ph>パラメーターは、&lt;xref:System.ComponentModel.Design.Data.DesignerDataConnection&gt;オブジェクト、ユーザーが既存の接続を編集することを示します&lt;/xref:System.ComponentModel.Design.Data.DesignerDataConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Your design environment is responsible for creating the data connection, adding the connection either to a global list of connections or to the Web application's configuration file, and adding the new connection to the &lt;xref:System.ComponentModel.Design.Data.IDataEnvironment.Connections%2A&gt; property.</source>
+          <target state="translated">デザイン環境は、接続のグローバル リストまたは Web アプリケーションの構成ファイルへの接続を追加して、データ接続を作成して、新しい接続を追加することを担当、&lt;xref:System.ComponentModel.Design.Data.IDataEnvironment.Connections%2A&gt;プロパティ&lt;/xref:System.ComponentModel.Design.Data.IDataEnvironment.Connections%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The new connection should include the information that the application needs to create a data connection at run time.</source>
+          <target state="translated">新しい接続は、アプリケーションが実行時にデータ接続を作成する必要がある情報を含める必要があります。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you need to use the data connection in the design environment, use the &lt;xref:System.ComponentModel.Design.Data.IDataEnvironment.GetDesignTimeConnection%2A&gt; method to return a &lt;xref:System.Data.Common.DbConnection&gt; object that will connect to the data store from the design environment.</source>
+          <target state="translated">デザイン環境でデータ接続を使用する必要がある場合、&lt;xref:System.ComponentModel.Design.Data.IDataEnvironment.GetDesignTimeConnection%2A&gt;を返すメソッドを&lt;xref:System.Data.Common.DbConnection&gt;デザイン環境からのデータ ストアに接続するオブジェクト&lt;/xref:System.Data.Common.DbConnection&gt;&lt;/xref:System.ComponentModel.Design.Data.IDataEnvironment.GetDesignTimeConnection%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the user chooses to cancel the new connection creation process, the BuildConnection method should return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">かどうか、ユーザーは新しい接続の作成プロセスをキャンセルするが、BuildConnection メソッドが返す必要があります<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The parent window for the connection dialog.</source>
+          <target state="translated">接続ダイアログ ボックスの親ウィンドウ。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The connection, if any, to edit.</source>
+          <target state="translated">接続の場合、いずれかを編集します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To create a new connection, <ph id="ph1">`initialConnection`</ph> should be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新しい接続を作成する<ph id="ph1">`initialConnection`</ph>する必要があります<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A new or edited <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.DesignerDataConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the user canceled.</source>
+          <target state="translated">新規または編集された a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.DesignerDataConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト、または<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>場合は、ユーザーによって取り消されました。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Launches a dialog to build a SQL query string.</source>
+          <target state="translated">SQL クエリ文字列を作成するためのダイアログを起動します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The BuildQuery method launches the design environment's UI for editing or creating SQL query strings.</source>
+          <target state="translated">BuildQuery メソッドでは、編集または SQL クエリ文字列を作成するためのデザイン環境の UI を起動します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`initialQueryText`</ph> parameter is &lt;xref:System.String&gt;, it indicates the user wants to create a new query.</source>
+          <target state="translated">場合、<ph id="ph1">`initialQueryText`</ph>パラメーターは&lt;xref:System.String&gt;、ユーザーが新しいクエリを作成することを示します&lt;/xref:System.String&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`initialQueryText`</ph> parameter contains a string, it indicates the user wants to edit the existing query.</source>
+          <target state="translated">場合、<ph id="ph1">`initialQueryText`</ph>パラメーターが文字列を含む、ユーザーが、既存のクエリを編集することを示します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`mode`</ph> parameter indicates the type of query the user wants to build; either select, update, insert, or delete.</source>
+          <target state="translated"><ph id="ph1">`mode`</ph>パラメーターは、ユーザーが作成するクエリの種類を示す; を選択するか、更新、挿入、または削除します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Your user interface can use the <ph id="ph1">`mode`</ph> parameter to configure itself for the type of query desired, limit the user to using SQL statements valid only for the type of query desired, and/or validate the query against the desired type.</source>
+          <target state="translated">ユーザー インターフェイスを使用できる、<ph id="ph1">`mode`</ph>自体の目的のクエリの種類の構成、必要に応じて、クエリの種類に対してのみ有効な SQL ステートメントを使用するユーザーを制限または目的の型に対するクエリを検証するパラメーターです。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The parent window for the dialog.</source>
+          <target state="translated">ダイアログ ボックスの親ウィンドウ。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The data connection to use for the query.</source>
+          <target state="translated">クエリに使用するデータ接続です。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.QueryBuilderMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.QueryBuilderMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The initial value of the query or &lt;xref:System.String&gt; to create a new query.</source>
+          <target state="translated">クエリの初期値または&lt;xref:System.String&gt;を新しいクエリを作成します&lt;/xref:System.String&gt;。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A string containing the SQL query, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user canceled.</source>
+          <target state="translated">SQL クエリを含む文字列または<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合は、ユーザーによって取り消されました。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Writes a connection string to the application's configuration file.</source>
+          <target state="translated">アプリケーションの構成ファイルに接続文字列を書き込みます。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The ConfigureConnection method writes a connection to the application's configuration file.</source>
+          <target state="translated">ConfigureConnection メソッドは、接続をアプリケーションの構成ファイルに書き込みます。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The connection string and provider name are written to the <bpt id="p1">[</bpt>connectionStrings Element (ASP.NET Settings Schema)<ept id="p1">](http://msdn.microsoft.com/en-us/b6ffbb2e-a4d1-410e-8f7e-9755e92c65de)</ept> configuration element named according to the <ph id="ph1">`name`</ph> parameter.</source>
+          <target state="translated">接続文字列とプロバイダーの名前に書き込まれる、 <bpt id="p1">[</bpt>connectionStrings 要素 (ASP.NET 設定スキーマ)<ept id="p1">](http://msdn.microsoft.com/en-us/b6ffbb2e-a4d1-410e-8f7e-9755e92c65de)</ept>に従ってという名前の構成要素、<ph id="ph1">`name`</ph>のパラメーターです。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ComponentModel.Design.Data.DesignerDataConnection.Name%2A&gt; property of the <ph id="ph1">`connection`</ph> parameter is ignored.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Data.DesignerDataConnection.Name%2A&gt;のプロパティ、<ph id="ph1">`connection`</ph>パラメーターは無視されます&lt;/xref:System.ComponentModel.Design.Data.DesignerDataConnection.Name%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Implementations of the ConfigureConnection method should throw the following exceptions.</source>
+          <target state="translated">ConfigureConnection メソッドの実装では、次の例外をスローする必要があります。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>|Exception|Reason|   |---------------|------------|   |&lt;xref:System.ArgumentException&gt;|A duplicate name exists in the application's configuration file.|   |&lt;xref:System.IO.FileNotFoundException&gt;, &lt;xref:System.UnauthorizedAccessException&gt;, or other appropriate file IO exception.|The application's configuration file cannot be updated.</source>
+          <target state="translated">|例外 |理由 |  |---------------|------------|  |&lt;xref:System.ArgumentException&gt;|アプリケーションの構成ファイルに重複する名前が存在します |。  |&lt;xref:System.IO.FileNotFoundException&gt;、 &lt;xref:System.UnauthorizedAccessException&gt;、またはその他の適切なファイル IO 例外です |。アプリケーションの構成ファイルを更新することはできません&lt;/xref:System.UnauthorizedAccessException&gt;&lt;/xref:System.IO.FileNotFoundException&gt;&lt;/xref:System.ArgumentException&gt;。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Your ConfigureConnection method implementation should throw an appropriate exception.|   |&lt;xref:System.ComponentModel.Design.CheckoutException&gt;|The application's configuration file cannot be checked out from the source control system.|       Consider using the configuration-management APIs in the &lt;xref:System.Configuration&gt; namespace to read and write the application's configuration file.</source>
+          <target state="translated">ConfigureConnection メソッドの実装は、適切な例外をスローする必要があります |。  |&lt;xref:System.ComponentModel.Design.CheckoutException&gt;|アプリケーションの構成ファイルをソース管理システムからチェック アウトできません |。      構成管理の Api の使用を検討、&lt;xref:System.Configuration&gt;名前空間を読み取るし、アプリケーションの構成ファイルを書き込む&lt;/xref:System.Configuration&gt;&lt;/xref:System.ComponentModel.Design.CheckoutException&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Configuration.ConnectionStringsSection&gt; class will read and write the <bpt id="p1">[</bpt>connectionStrings Element (ASP.NET Settings Schema)<ept id="p1">](http://msdn.microsoft.com/en-us/b6ffbb2e-a4d1-410e-8f7e-9755e92c65de)</ept> configuration element.</source>
+          <target state="translated">&lt;xref:System.Configuration.ConnectionStringsSection&gt;クラスが読み取りし、書き込み、 <bpt id="p1">[</bpt>connectionStrings 要素 (ASP.NET 設定スキーマ)<ept id="p1">](http://msdn.microsoft.com/en-us/b6ffbb2e-a4d1-410e-8f7e-9755e92c65de)</ept>構成要素&lt;/xref:System.Configuration.ConnectionStringsSection&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The parent window for the dialog, if any.</source>
+          <target state="translated">存在する場合、ダイアログ ボックスの親ウィンドウ。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.DesignerDataConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object containing the connection data to save.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.DesignerDataConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を保存する接続のデータを格納します。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The name of the new connection configuration entry.</source>
+          <target state="translated">新しい接続の構成エントリの名前。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.DesignerDataConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object containing the saved connection data with the &lt;xref:System.ComponentModel.Design.Data.DesignerDataConnection.Name<bpt id="p2">*</bpt>&gt; property set to <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p3">&lt;/code&gt;</ept>, and the &lt;xref:System.ComponentModel.Design.Data.DesignerDataConnection.IsConfigured<ept id="p2">*</ept>&gt; property set to <bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.DesignerDataConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトに保存されている接続のデータを含む、 &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; プロパティに設定<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p3">&lt;/code&gt;</ept>、および&lt;&gt; <ept id="p2">*</ept>&gt; プロパティに設定<bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets a collection of data connections defined in the current design session.</source>
+          <target state="translated">現在のデザインのセッションで定義されているデータ接続のコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The Connections property returns the set of connections available at design time.</source>
+          <target state="translated">接続プロパティは、デザイン時に使用できる接続のセットを返します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Your implementation of the Connections property can return either the list of connections defined in the current Web application, or a list of connections defined at a global level, such as a list of data connections maintained by the design environment.</source>
+          <target state="translated">接続プロパティの実装では、現在の Web アプリケーション、または、デザイン環境で管理されているデータ接続の一覧などのグローバル レベルで定義されている接続の一覧で定義されている接続のいずれか、一覧を返すことができます。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Each connection in the collection should have a unique connection string.</source>
+          <target state="translated">コレクション内の各接続には、一意の接続文字列が必要です。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If your collection includes both connections from the application's configuration file and global connections, your implementation must handle the case where connections from the global list and the configuration file have the same connection string.</source>
+          <target state="translated">コレクションには、アプリケーションの構成ファイルからの接続とグローバル接続の両方が含まれている場合、実装はグローバル リストと、構成ファイルからの接続と同じ接続文字列があるケースを処理する必要があります。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In this case, it is recommended that you eliminate duplicates and use the configuration-file connection only.</source>
+          <target state="translated">ここでは、重複を除去して、構成ファイルの接続のみを使用することが勧めします。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.DesignerDataConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects representing the data connections available in the current design session.</source>
+          <target state="translated">コレクション<bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.DesignerDataConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>デザインの現在のセッションで使用できるデータ接続を表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Returns a code expression that contains the source code required to retrieve a connection string from the application's configuration file.</source>
+          <target state="translated">アプリケーションの構成ファイルから接続文字列を取得するために必要なソース コードを含むコード式を返します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The connection to retrieve from the application's configuration file.</source>
+          <target state="translated">アプリケーションの構成ファイルから取得する接続です。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object containing the source code required to retrieve a connection string from the application's configuration file.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>アプリケーションの構成ファイルから接続文字列を取得するために必要なソース コードを含むオブジェクト。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the schema for the specified data connection.</source>
+          <target state="translated">指定したデータ接続のスキーマを取得します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The GetConnectionSchema method returns the database schema for the specified data connection.</source>
+          <target state="translated">GetConnectionSchema メソッドは、指定したデータ接続のデータベース スキーマを返します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If the schema is unavailable, or if the provider for the connection is unavailable, the GetConnectionSchema should return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">スキーマが使用できないかどうか、または接続のプロバイダーを使用できない場合、GetConnectionSchema を返します<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The data connection for which to return schema information.</source>
+          <target state="translated">スキーマ情報を返す対象のデータ接続です。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.IDesignerDataSchema"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object containing the schema information for the specified data connection, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no schema information is available.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.Data.IDesignerDataSchema"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したデータ接続のスキーマ情報を格納しているオブジェクトまたは<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>スキーマ情報が使用できない場合。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets a database connection that can be used at design time.</source>
+          <target state="translated">デザイン時に使用できるデータベースの接続を取得します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The GetDesignTimeConnection method returns a valid, open connection to the data store that can be used by the control designer.</source>
+          <target state="translated">GetDesignTimeConnection メソッドは、コントロールのデザイナーで使用できるデータ ストアに有効な開いている接続を返します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Control designers should use the GetDesignTimeConnection to obtain a data connection and should not attempt to open a connection using the &lt;xref:System.ComponentModel.Design.Data.DesignerDataConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">コントロール デザイナーが、GetDesignTimeConnection を使用してデータ接続を取得する必要があり、開くには、接続を使用しないように、&lt;xref:System.ComponentModel.Design.Data.DesignerDataConnection.ConnectionString%2A&gt;プロパティ&lt;/xref:System.ComponentModel.Design.Data.DesignerDataConnection.ConnectionString%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The desired data connection.</source>
+          <target state="translated">目的のデータ接続です。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.Common.DbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used at design time.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.Common.DbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>デザイン時に使用できるオブジェクト。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
