@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d719e5a8fdaf3cc2b4dc44f8699587117ce05ce</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.SiteMapPath.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f19fc1656948144f6cf0d9d2282f0a390596bda1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8050adbacf9654c000214946df13a822b7f028c7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Displays a set of text or image hyperlinks that enable users to more easily navigate a Web site, while taking a minimal amount of page space.</source>
+          <target state="translated">顯示一組文字或影像的超連結可讓使用者更輕鬆地巡覽網站，而且需要最少的分頁空間。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Nodes<ept id="p2">](#nodes)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Node Appearance<ept id="p3">](#node_appearance)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Events<ept id="p4">](#events)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Customizing the SiteMapPath Control<ept id="p5">](#customizing_the_sitemappath_control)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>Accessibility<ept id="p6">](#accessibility)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>Declarative Syntax<ept id="p7">](#declarative_syntax)</ept>      <bpt id="p8">&lt;a name="introduction"&gt;</bpt><ept id="p8">&lt;/a&gt;</ept>    ## Introduction    The SiteMapPath control is a site navigation control that reflects data provided by the &lt;xref:System.Web.SiteMap&gt; object.</source>
+          <target state="translated">本主題內容:-<bpt id="p1">[</bpt>簡介<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>節點<ept id="p2">](#nodes)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>節點外觀<ept id="p3">](#node_appearance)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>事件<ept id="p4">](#events)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>自訂 SiteMapPath 控制項<ept id="p5">](#customizing_the_sitemappath_control)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>協助工具<ept id="p6">](#accessibility)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>宣告式語法<ept id="p7">](#declarative_syntax)</ept><bpt id="p8">&lt;a name="introduction"&gt;</bpt> <ept id="p8">&lt;/a&gt;</ept> # # 簡介 SiteMapPath 控制項是站台瀏覽控制項，以反映所提供的資料&lt;xref:System.Web.SiteMap&gt;物件。&lt;/xref:System.Web.SiteMap&gt;      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It provides a space-saving way to easily navigate a site and serves as a point of reference for where the currently displayed page is within a site.</source>
+          <target state="translated">它提供節省空間的方式，輕鬆地瀏覽的網站，並做為參考目前顯示的網頁所在站台內的點。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This type of control is commonly called a breadcrumb, or eyebrow, because it displays a hierarchical path of hyperlinked page names that provides an escape up the hierarchy of pages from the current location.</source>
+          <target state="translated">這種類型的控制項通常稱為階層連結或置頂，因為它會顯示提供的逸出的頁面階層中往上從目前位置的階層式路徑超連結的頁面名稱。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;.&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The SiteMapPath is useful for sites that have deep hierarchical page structures, but where a &lt;xref:System.Web.UI.WebControls.TreeView&gt; or &lt;xref:System.Web.UI.WebControls.Menu&gt; might require too much space on a page.</source>
+          <target state="translated">SiteMapPath 適用於站台具有深度階層式頁面結構，但&lt;xref:System.Web.UI.WebControls.TreeView&gt;或&lt;xref:System.Web.UI.WebControls.Menu&gt;可能需要在頁面上的空間過多。&lt;/xref:System.Web.UI.WebControls.Menu&gt; &lt;/xref:System.Web.UI.WebControls.TreeView&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The SiteMapPath control works directly with your Web site's site map data.</source>
+          <target state="translated">SiteMapPath 控制項直接搭配您的網站的站台對應資料。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you use it on a page that is not represented in your site map, it will not be displayed.</source>
+          <target state="translated">如果您在使用它在頁面上，不會呈現您的站台對應，它將不會顯示。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information about site maps, see <bpt id="p1">[</bpt>ASP.NET Site Navigation<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需站台對應的詳細資訊，請參閱<bpt id="p1">[</bpt>ASP.NET 網站巡覽<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="nodes"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Nodes    The SiteMapPath is made up of nodes.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="nodes"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # SiteMapPath 所組成的節點的節點。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Each element in the path is called a node and is represented by a &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; object.</source>
+          <target state="translated">在路徑中的每個項目稱為一個節點，而由&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;物件。&lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The node that anchors the path and represents the base of the hierarchical tree is called the root node.</source>
+          <target state="translated">錨定路徑，並代表階層樹狀結構的基底的節點稱為根節點。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The node that represents the currently displayed page is the current node.</source>
+          <target state="translated">代表目前顯示的頁面節點是目前的節點。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Any other node between the current node and root node is a parent node.</source>
+          <target state="translated">目前節點和根節點之間的任何其他節點會是父節點。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following table describes the three different node types.</source>
+          <target state="translated">下表描述三種不同的節點類型。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>|Node type|Description|   |---------------|-----------------|   |root|A node that anchors a hierarchical set of nodes.|   |parent|A node that has one or more child nodes, but is not the current node.|   |current|A node that represents the currently displayed page.|      <bpt id="p1">&lt;a name="node_appearance"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Node Appearance    Each node displayed by a SiteMapPath is a &lt;xref:System.Web.UI.WebControls.HyperLink&gt; or &lt;xref:System.Web.UI.WebControls.Literal&gt; control that you can apply a template or style to.</source>
+          <target state="translated">|節點類型 |描述 |  |---------------|-----------------|  | 根 |錨定的一組階層式節點。 |  | 父 |節點的一個或多個子節點，但不是目前的節點。 |  | 目前 |表示在目前顯示的頁面節點。 |     <bpt id="p1">&lt;a name="node_appearance"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept> # # SiteMapPath 所顯示的節點外觀每個節點是&lt;xref:System.Web.UI.WebControls.HyperLink&gt;或&lt;xref:System.Web.UI.WebControls.Literal&gt;您可以套用範本或樣式至控制項。&lt;/xref:System.Web.UI.WebControls.Literal&gt; &lt;/xref:System.Web.UI.WebControls.HyperLink&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The templates and styles are applied to nodes according to two rules of precedence:      -   If a template is defined for a node, it overrides any style defined for the node.</source>
+          <target state="translated">範本和樣式會套用至節點，根據兩個規則的優先順序:-如果節點定義範本，它會覆寫為節點所定義的所有樣式。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-   Templates and styles that are specific to types of nodes override general templates and styles defined for all nodes.</source>
+          <target state="translated">-範本和樣式的節點類型專屬的覆寫一般範本和樣式定義的所有節點。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; and &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt; properties are applied to all nodes, regardless of their node type.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;和&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt;屬性會套用到所有節點，不論其節點型別。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If both these properties are defined, the &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt; takes precedence.</source>
+          <target state="translated">如果這些屬性定義，&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt;優先。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt; and &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; properties are applied to nodes that represent the currently displayed page.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;和&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;屬性會套用到代表目前顯示的頁面節點。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt; is defined in addition to the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;, it is ignored.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt;定義除了&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;，則會忽略它。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; is defined in addition to the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;, it is merged with the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; to create a merged style.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;定義除了&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;，與合併&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;建立合併的樣式。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This merged style uses all the elements of the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;, plus any additional elements of the &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; that do not conflict with the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;.</source>
+          <target state="translated">這個合併的樣式會使用的所有項目&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;，再加上任何其他元素&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;，不會衝突&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt; and &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; properties are applied to the node that represents the root of the site navigation hierarchy.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;和&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;屬性會套用到代表站台瀏覽階層的根節點。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt; is defined in addition to the &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;, it is ignored.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt;定義除了&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;，則會忽略它。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; is defined in addition to the &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;, it is merged with the &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; to create a merged style.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;定義除了&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;，與合併&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;建立合併的樣式。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This merged style uses all the elements of the &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;, plus any additional elements of the &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; that did not conflict with the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;.</source>
+          <target state="translated">這個合併的樣式會使用的所有項目&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;，再加上&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;沒有不衝突的&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;&lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;的任何其他元素&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Finally, if the currently displayed page is the root page of the site, the &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt; and &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; are used instead of the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt; or &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;.</source>
+          <target state="translated">最後，如果在目前顯示的頁面是的&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;，&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;而不是&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;或&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;可用&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;站台的根頁面</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The SiteMapPath control uses the site map provider identified by the &lt;xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider%2A&gt; property as its data source for site navigation information.</source>
+          <target state="translated">SiteMapPath 控制項使用所識別的站台對應提供者&lt;xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider%2A&gt;當成資料來源的站台瀏覽資訊的屬性。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If no provider is specified, it uses the default provider for the site, identified in the &lt;xref:System.Web.SiteMap.Provider%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">如果未不指定任何提供者，它會使用預設提供者站台中識別&lt;xref:System.Web.SiteMap.Provider%2A?displayProperty=fullName&gt;屬性。&lt;/xref:System.Web.SiteMap.Provider%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Typically, this is an instance of the default site map provider for ASP.NET, the &lt;xref:System.Web.XmlSiteMapProvider&gt;.</source>
+          <target state="translated">一般而言，這是 asp.net、 &lt;xref:System.Web.XmlSiteMapProvider&gt;.&lt;/xref:System.Web.XmlSiteMapProvider&gt;預設站台對應提供者執行個體</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If the SiteMapPath control is used within a site but no site map provider is configured, the control throws an &lt;xref:System.Web.HttpException&gt; exception.</source>
+          <target state="translated">如果 SiteMapPath 控制項在站台內使用，但沒有站台對應提供者的設定，會擲回控制項&lt;xref:System.Web.HttpException&gt;例外狀況。&lt;/xref:System.Web.HttpException&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="events"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Events    The SiteMapPath control also provides events that you can program against.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="events"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 事件 SiteMapPath 控制項也會提供您可以程式設計的事件。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This allows you to run a custom routine whenever an event occurs.</source>
+          <target state="translated">這可讓您在事件發生時執行自訂的常式。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The following table lists the events supported by the SiteMapPath control.</source>
+          <target state="translated">下表列出支援 SiteMapPath 控制項的事件。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>|Event|Description|   |-----------|-----------------|   |&lt;xref:System.Web.UI.WebControls.SiteMapPath.ItemCreated&gt;|Occurs when the SiteMapPath control first creates a &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; and associates it with a &lt;xref:System.Web.SiteMapNode&gt;.|   |&lt;xref:System.Web.UI.WebControls.SiteMapPath.ItemDataBound&gt;|Occurs when a &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; is bound to site map data contained by the &lt;xref:System.Web.SiteMapNode&gt;.|      <bpt id="p1">&lt;a name="customizing_the_sitemappath_control"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Customizing the SiteMapPath Control    Classes that derive from SiteMapPath override the &lt;xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt; method to customize the &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; controls contained by the navigation control.</source>
+          <target state="translated">|事件 |描述 |  |-----------|-----------------|  |&lt;xref:System.Web.UI.WebControls.SiteMapPath.ItemCreated&gt;|SiteMapPath 控制項初次建立&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;，並將它與&lt;xref:System.Web.SiteMapNode&gt;關聯時，就會發生。 |  |&lt;xref:System.Web.UI.WebControls.SiteMapPath.ItemDataBound&gt;|發生於&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;繫結至網站導覽資料包含&lt;xref:System.Web.SiteMapNode&gt;。 |     <bpt id="p1">&lt;a name="customizing_the_sitemappath_control"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept> # # 自訂 SiteMapPath 控制項類別衍生自 SiteMapPath 覆寫&lt;xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt;方法，以自訂&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;導覽控制項所包含的控制項。&lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt; &lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.ItemDataBound&gt; &lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.ItemCreated&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For complete control over the way &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; objects are created and added to the SiteMapPath, derived classes override the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CreateControlHierarchy%2A&gt; method.</source>
+          <target state="translated">完整控制的方式如&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;物件會建立並新增到 SiteMapPath，衍生的類別覆寫&lt;xref:System.Web.UI.WebControls.SiteMapPath.CreateControlHierarchy%2A&gt;方法。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CreateControlHierarchy%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="accessibility"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Accessibility    For information about how to configure this control so that it generates markup that conforms to accessibility standards, see <bpt id="p2">[</bpt>Accessibility in Visual Studio and ASP.NET<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p3">[</bpt>ASP.NET Controls and Accessibility<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="accessibility"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 有關如何設定這個控制項，使其產生標記，並符合協助工具標準，協助工具的資訊，請參閱<bpt id="p2">[</bpt>Visual Studio 和 ASP.NET 中的協助工具<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>和<bpt id="p3">[</bpt>ASP.NET 控制項和協助工具<ept id="p3">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:SiteMapPath       AccessKey="string"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CssClass="string"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       Font-Bold="True|False"       Font-Italic="True|False"       Font-Names="string"       Font-Overline="True|False"       Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|           Large|X-Large|XX-Large"       Font-Strikeout="True|False"       Font-Underline="True|False"       ForeColor="color name|#dddddd"       Height="size"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnItemCreated="ItemCreated event handler"       OnItemDataBound="ItemDataBound event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       ParentLevelsDisplayed="integer"       PathDirection="RootToCurrent|CurrentToRoot"       PathSeparator="string"       RenderCurrentNodeAsLink="True|False"       runat="server"       ShowToolTips="True|False"       SiteMapProvider="string"       SkinID="string"       SkipLinkText="string"       Style="string"       TabIndex="integer"       ToolTip="string"       Visible="True|False"       Width="size"   &gt;           &lt;CurrentNodeStyle /&gt;           &lt;CurrentNodeTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/CurrentNodeTemplate&gt;           &lt;NodeStyle /&gt;           &lt;NodeTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/NodeTemplate&gt;           &lt;PathSeparatorStyle /&gt;           &lt;PathSeparatorTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/PathSeparatorTemplate&gt;           &lt;RootNodeStyle /&gt;           &lt;RootNodeTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/RootNodeTemplate&gt;   &lt;/asp:SiteMapPath&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 宣告式語法<ph id="ph1">```   &lt;asp:SiteMapPath       AccessKey="string"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CssClass="string"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       Font-Bold="True|False"       Font-Italic="True|False"       Font-Names="string"       Font-Overline="True|False"       Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|           Large|X-Large|XX-Large"       Font-Strikeout="True|False"       Font-Underline="True|False"       ForeColor="color name|#dddddd"       Height="size"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnItemCreated="ItemCreated event handler"       OnItemDataBound="ItemDataBound event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       ParentLevelsDisplayed="integer"       PathDirection="RootToCurrent|CurrentToRoot"       PathSeparator="string"       RenderCurrentNodeAsLink="True|False"       runat="server"       ShowToolTips="True|False"       SiteMapProvider="string"       SkinID="string"       SkipLinkText="string"       Style="string"       TabIndex="integer"       ToolTip="string"       Visible="True|False"       Width="size"   &gt;           &lt;CurrentNodeStyle /&gt;           &lt;CurrentNodeTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/CurrentNodeTemplate&gt;           &lt;NodeStyle /&gt;           &lt;NodeTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/NodeTemplate&gt;           &lt;PathSeparatorStyle /&gt;           &lt;PathSeparatorTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/PathSeparatorTemplate&gt;           &lt;RootNodeStyle /&gt;           &lt;RootNodeTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/RootNodeTemplate&gt;   &lt;/asp:SiteMapPath&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Use this constructor to create and initialize a new instance of the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; class.</source>
+          <target state="translated">建立和初始化&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;類別&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;的新執行個體使用這個建構函式</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To dynamically add a &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control to a page, create a new &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; object, set its properties, and then add it to the &lt;xref:System.Web.UI.Control.Controls%2A?displayProperty=fullName&gt; collection of a container control such as &lt;xref:System.Web.UI.WebControls.PlaceHolder&gt;.</source>
+          <target state="translated">若要以動態方式將&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制項加入頁面，請建立新&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;物件、 設定其屬性，並再將它加入&lt;xref:System.Web.UI.Control.Controls%2A?displayProperty=fullName&gt;集合的容器控制項，例如&lt;xref:System.Web.UI.WebControls.PlaceHolder&gt;.&lt;/xref:System.Web.UI.WebControls.PlaceHolder&gt; &lt;/xref:System.Web.UI.Control.Controls%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Clears the current child controls collection, and rebuilds it by calling the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CreateControlHierarchy*&gt; method.</source>
+          <target state="translated">清除目前的子控制項集合，並藉由呼叫重建&lt;xref:System.Web.UI.WebControls.SiteMapPath.CreateControlHierarchy*&gt;方法。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CreateControlHierarchy*&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET infrastructure to notify any controls that use composition-based implementation, including controls that derive from &lt;xref:System.Web.UI.WebControls.CompositeDataBoundControl&gt; and &lt;xref:System.Web.UI.WebControls.CompositeControl&gt; to create any child controls they contain in preparation for postback or rendering.</source>
+          <target state="translated">會呼叫這個方法由 ASP.NET 基礎結構，以通知使用組合為基礎的實作，包括衍生自控制項的任何控制項&lt;xref:System.Web.UI.WebControls.CompositeDataBoundControl&gt;和&lt;xref:System.Web.UI.WebControls.CompositeControl&gt;來建立任何子系所包含的控制項，以準備回傳或呈現。&lt;/xref:System.Web.UI.WebControls.CompositeControl&gt; &lt;/xref:System.Web.UI.WebControls.CompositeDataBoundControl&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Examines the site map structure provided by the &lt;xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider*&gt; and builds a child controls collection based on the styles and templates defined for the functional nodes.</source>
+          <target state="translated">會檢查所提供的站台對應結構&lt;xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider*&gt;並根據樣式的控制項集合和功能的節點所定義的範本建立子系。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider*&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The CreateControlHierarchy method creates &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; controls, associates them with the corresponding &lt;xref:System.Web.SiteMapNode&gt; objects from the current site map provider, and adds the nodes to the &lt;xref:System.Web.UI.Control.Controls%2A&gt; collection.</source>
+          <target state="translated">CreateControlHierarchy 方法會建立&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;控制，將其與對應相關聯&lt;xref:System.Web.SiteMapNode&gt;物件從目前的站台對應提供者，並新增至節點&lt;xref:System.Web.UI.Control.Controls%2A&gt;集合。&lt;/xref:System.Web.UI.Control.Controls%2A&gt; &lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The method begins by finding the &lt;xref:System.Web.SiteMap.CurrentNode%2A?displayProperty=fullName&gt;, and then walks up the hierarchical tree of &lt;xref:System.Web.SiteMapNode&gt; objects, creating a &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; for each one until the &lt;xref:System.Web.SiteMap.RootNode%2A&gt; is reached.</source>
+          <target state="translated">方法會先尋找&lt;xref:System.Web.SiteMap.CurrentNode%2A?displayProperty=fullName&gt;，再一一查核的階層式樹狀結構向上&lt;xref:System.Web.SiteMapNode&gt;物件，建立&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;直到每個&lt;xref:System.Web.SiteMap.RootNode%2A&gt;為止。&lt;/xref:System.Web.SiteMap.RootNode%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; &lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMap.CurrentNode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>After each &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; is created, but before it is bound to its corresponding &lt;xref:System.Web.SiteMapNode&gt;, the &lt;xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt; method is called.</source>
+          <target state="translated">個之後&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;建立時之前它已繫結至其相對應,，但&lt;xref:System.Web.SiteMapNode&gt;、&lt;xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt;方法呼叫。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt; &lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt; method applies any templates or styles defined for a particular node type and creates and initializes any child controls that the &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; contains.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt;方法適用於任何範本或樣式為特定節點型別定義和建立並初始化任何子控制項的&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;含有。&lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Finally, the &lt;xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt; method adds the child controls of the &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; to the &lt;xref:System.Web.UI.Control.Controls%2A&gt; collection.</source>
+          <target state="translated">最後，&lt;xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt;方法會將子控制項的&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;至&lt;xref:System.Web.UI.Control.Controls%2A&gt;集合。&lt;/xref:System.Web.UI.Control.Controls%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>After each &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; is initialized, the &lt;xref:System.Web.UI.WebControls.SiteMapPath.OnItemCreated%2A&gt; method is called.</source>
+          <target state="translated">在每個之後&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;初始化時，&lt;xref:System.Web.UI.WebControls.SiteMapPath.OnItemCreated%2A&gt;方法呼叫。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.OnItemCreated%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Then the &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; is bound to its corresponding &lt;xref:System.Web.SiteMapNode&gt;, and &lt;xref:System.Web.UI.WebControls.BaseDataBoundControl.OnDataBound%2A&gt; is called.</source>
+          <target state="translated">然後在&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;繫結至其相對應&lt;xref:System.Web.SiteMapNode&gt;，和&lt;xref:System.Web.UI.WebControls.BaseDataBoundControl.OnDataBound%2A&gt;稱為。&lt;/xref:System.Web.UI.WebControls.BaseDataBoundControl.OnDataBound%2A&gt; &lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The CreateControlHierarchy method is called from the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CreateChildControls%2A&gt; method.</source>
+          <target state="translated">CreateControlHierarchy 方法從呼叫&lt;xref:System.Web.UI.WebControls.SiteMapPath.CreateChildControls%2A&gt;方法。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CreateChildControls%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Classes that extend the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control override the CreateControlHierarchy method to alter how the &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; controls are created or added to the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control.</source>
+          <target state="translated">擴充的類別&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制項覆寫 CreateControlHierarchy 方法，以改變如何&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;建立或加入至控制項&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制項。&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The manipulation of individual node items is performed in the &lt;xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt; method, and most classes that extend &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; override that method only.</source>
+          <target state="translated">會在中執行的個別節點的項目操作&lt;xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt;方法，以及大部分的類別擴充&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;覆寫這個方法只。&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.InitializeItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>No &lt;xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider*&gt; is available to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">否&lt;xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider*&gt;可<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider*&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets the style used for the display text for the current node.</source>
+          <target state="translated">取得目前節點的顯示文字所使用的樣式。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Use the CurrentNodeStyle property to control the appearance of the display text for the navigation path node that represents the currently displayed page.</source>
+          <target state="translated">您可以使用 CurrentNodeStyle 屬性來控制，代表目前顯示的網頁瀏覽路徑節點的顯示文字的外觀。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>By default, the display text is that specified in the &lt;xref:System.Web.SiteMapNode.Title%2A&gt; property of the &lt;xref:System.Web.SiteMapNode&gt; that represents the page.</source>
+          <target state="translated">根據預設，顯示的文字是指定&lt;xref:System.Web.SiteMapNode.Title%2A&gt;屬性&lt;xref:System.Web.SiteMapNode&gt;代表頁。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Title%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Common style settings include custom background color, foreground color, font properties, and node spacing.</source>
+          <target state="translated">一般樣式設定包含自訂背景色彩、 前景色彩、 字型屬性和節點間距。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; nodes, style properties are merged into a single style, in the following order:      1.</source>
+          <target state="translated">如&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;樣式屬性的節點會合併成單一的樣式，順序如下︰ 1。&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;      2.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;2。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>CurrentNodeStyle or, if the currently displayed page is the root node, &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;.</source>
+          <target state="translated">CurrentNodeStyle 或，如果目前所顯示的頁面是根節點， &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;.&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you set the node font style to a strikeout or overline style, the default underline style of the node is not displayed unless it is explicitly set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 除非明確設定為，如果您刪除線或頂線的樣式設定節點的字型樣式，不顯示節點的預設底線樣式<ph id="ph2">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt; property is defined, the CurrentNodeStyle property is ignored.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;屬性定義，CurrentNodeStyle 屬性會被忽略。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the style settings for the display text for the current node of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含目前節點的顯示文字的樣式設定<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets or sets a control template to use for the node of a site navigation path that represents the currently displayed page.</source>
+          <target state="translated">取得或設定控制項範本用於網站的導覽路徑，代表目前顯示的頁面節點。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Set the CurrentNodeTemplate to an &lt;xref:System.Web.UI.ITemplate&gt; object to use an &lt;xref:System.Web.UI.WebControls.Image&gt; control or some other control, such as a &lt;xref:System.Web.UI.WebControls.Label&gt;, as the current node's user interface element instead of a string.</source>
+          <target state="translated">設為 CurrentNodeTemplate&lt;xref:System.Web.UI.ITemplate&gt;物件以使用&lt;xref:System.Web.UI.WebControls.Image&gt;控制項或其他控制項，例如&lt;xref:System.Web.UI.WebControls.Label&gt;，做為目前節點的使用者介面項目，而非字串。&lt;/xref:System.Web.UI.WebControls.Label&gt; &lt;/xref:System.Web.UI.WebControls.Image&gt; &lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If the CurrentNodeTemplate property is set, the template overrides both the current navigation node text displayed and any &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; applied to it.</source>
+          <target state="translated">如果 CurrentNodeTemplate 屬性設定，範本會覆寫目前的瀏覽節點文字顯示和任何&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;套用至它。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If the currently displayed page corresponds to the root node, however, the &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt; or &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; is used.</source>
+          <target state="translated">如果目前顯示的頁面對應於根節點，不過，&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;或&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;用。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can declaratively set the CurrentNodeTemplate property to any Web server control, and the ASP.NET infrastructure performs the necessary steps to wrap the Web server control as an &lt;xref:System.Web.UI.ITemplate&gt; object.</source>
+          <target state="translated">您可以以宣告方式 CurrentNodeTemplate 屬性至任何 Web 伺服器控制項，及 ASP.NET 基礎結構會執行必要的步驟，將 Web 伺服器控制項，做為&lt;xref:System.Web.UI.ITemplate&gt;物件。&lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>However, Web server controls do not implement the &lt;xref:System.Web.UI.ITemplate&gt; interface; therefore, when you work with the &lt;xref:System.Web.UI.ITemplate&gt; properties programmatically, you must write an &lt;xref:System.Web.UI.ITemplate&gt; wrapper for any template code.</source>
+          <target state="translated">不過，Web 伺服器控制項不會實作&lt;xref:System.Web.UI.ITemplate&gt;介面; 因此，當您使用&lt;xref:System.Web.UI.ITemplate&gt;屬性以程式設計的方式，您必須撰寫&lt;xref:System.Web.UI.ITemplate&gt;範本中的任何程式碼包裝函式。&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Then, the CurrentNodeTemplate property is set to an instance of the &lt;xref:System.Web.UI.ITemplate&gt; wrapper.</source>
+          <target state="translated">然後，CurrentNodeTemplate 屬性設定為執行個體&lt;xref:System.Web.UI.ITemplate&gt;包裝函式。&lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that implements the &lt;xref:System.Web.UI.ITemplate.InstantiateIn*&gt; method, to render custom content for the navigation path node that represents the currently displayed page.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>實作物件&lt;xref:System.Web.UI.ITemplate.InstantiateIn*&gt;方法，以呈現表示目前所顯示的頁面導覽路徑節點的自訂內容。&lt;/xref:System.Web.UI.ITemplate.InstantiateIn*&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Binds a data source to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control and its child controls.</source>
+          <target state="translated">將繫結至資料來源<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項及其子控制項。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control is designed to retrieve its data directly from a site map provider by using the &lt;xref:System.Web.UI.WebControls.SiteMapPath.Provider%2A&gt; property.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制項用來擷取其資料直接從站台地圖提供者，使用&lt;xref:System.Web.UI.WebControls.SiteMapPath.Provider%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.Provider%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Do not use the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control to bind to ASP.NET data source controls, and do not call the DataBind method explicitly.</source>
+          <target state="translated">請勿使用&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制繫結至 ASP.NET 資料來源控制項，並沒有明確呼叫進行資料繫結方法。&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Populates a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which is a Web server control that represents a <bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, with a set of child controls based on the node's function and the specified templates and styles for the node.</source>
+          <target state="translated">於其中填入<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這是 Web 伺服器控制項代表<bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，與一組根據節點的函式和指定的範本和樣式節點的子控制項。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The InitializeItem method determines the functional type of node that the item represents by checking the &lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt;, and applies any templates or styles that are defined for that kind of node.</source>
+          <target state="translated">InitializeItem 方法判斷項目代表藉由檢查節點的功能類型&lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt;，並套用任何範本或定義為該類型節點的樣式。&lt;/xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; has a &lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt; item type, a &lt;xref:System.Web.UI.WebControls.HyperLink&gt; child control is created, and the &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt; and &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; may be applied.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;具有&lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt;項目類型，&lt;xref:System.Web.UI.WebControls.HyperLink&gt;建立子控制項，而&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;和&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;可能會套用。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.HyperLink&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt; is set, its &lt;xref:System.Web.UI.ITemplate&gt; is applied to the node.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;設定，其&lt;xref:System.Web.UI.ITemplate&gt;套用至節點。&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>In instead the &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; is set, it is merged with any defined &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; and applied.</source>
+          <target state="translated">中改用&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;已經設定，與任何定義合併&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;並套用。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Finally, if no templates or styles are defined, a basic &lt;xref:System.Web.UI.WebControls.HyperLink&gt; control is created and initialized with values from the node.</source>
+          <target state="translated">最後，如果沒有定義任何範本或樣式，基本&lt;xref:System.Web.UI.WebControls.HyperLink&gt;控制建立和初始化使用中節點的值。&lt;/xref:System.Web.UI.WebControls.HyperLink&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; has a &lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt; item type, either a &lt;xref:System.Web.UI.WebControls.Literal&gt; or &lt;xref:System.Web.UI.WebControls.HyperLink&gt; child control is created, depending on the return value of &lt;xref:System.Web.UI.WebControls.SiteMapPath.RenderCurrentNodeAsLink%2A&gt;.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;有&lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt;項目類型，&lt;xref:System.Web.UI.WebControls.Literal&gt;或&lt;xref:System.Web.UI.WebControls.HyperLink&gt;建立子控制項時，根據&lt;xref:System.Web.UI.WebControls.SiteMapPath.RenderCurrentNodeAsLink%2A&gt;.&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RenderCurrentNodeAsLink%2A&gt;傳回值&lt;/xref:System.Web.UI.WebControls.HyperLink&gt;&lt;/xref:System.Web.UI.WebControls.Literal&gt;&lt;/xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt;&lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Then either the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt; or &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; may be applied.</source>
+          <target state="translated">然後任一&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;或&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;可能會套用。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt; is set, its &lt;xref:System.Web.UI.ITemplate&gt; is applied to the node.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;設定，其&lt;xref:System.Web.UI.ITemplate&gt;套用至節點。&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If instead the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; is set, it is merged with any defined &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; and applied.</source>
+          <target state="translated">如果改用&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;已經設定，與任何定義合併&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;並套用。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; has a &lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt; item type, a &lt;xref:System.Web.UI.WebControls.HyperLink&gt; child control is created and the &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt; and &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; may be applied.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;具有&lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt;項目類型，&lt;xref:System.Web.UI.WebControls.HyperLink&gt;建立子控制項和&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt;和&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;可能會套用。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.HyperLink&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt; is set, its &lt;xref:System.Web.UI.ITemplate&gt; is applied to the node.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt;設定，其&lt;xref:System.Web.UI.ITemplate&gt;套用至節點。&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If instead the &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; is set, it is applied.</source>
+          <target state="translated">如果改用&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;已經設定，它會套用。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Finally, if the &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; has a &lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt; item type, a &lt;xref:System.Web.UI.WebControls.Literal&gt; child control is created and the &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorTemplate%2A&gt; and &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt; are applied according to the same general rules defined for a &lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt; node type.</source>
+          <target state="translated">最後，如果&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;具有&lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt;項目類型，&lt;xref:System.Web.UI.WebControls.Literal&gt;建立子控制項和&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorTemplate%2A&gt;和&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt;會根據針對定義相同的一般規則套用&lt;xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt;節點型別。&lt;/xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Literal&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItemType&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Override the InitializeItem method to manipulate individual &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; objects.</source>
+          <target state="translated">覆寫 InitializeItem 方法來操作個別&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;物件。&lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If the design of the class requires more extensive control over how the &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; objects are created and added to the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control, override the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CreateControlHierarchy%2A&gt; method.</source>
+          <target state="translated">如果類別的設計需要更多控制方式&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;物件會建立並新增到&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制，請覆寫&lt;xref:System.Web.UI.WebControls.SiteMapPath.CreateControlHierarchy%2A&gt;方法。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CreateControlHierarchy%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to initialize.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>初始化。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Occurs when a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is created by the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is associated with its corresponding <bpt id="p3">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">發生時<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>由<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>和其對應的相關聯<bpt id="p3">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This event is raised by the &lt;xref:System.Web.UI.WebControls.SiteMapPath.OnItemCreated*&gt; method.</source>
+          <target state="translated">會引發這個事件&lt;xref:System.Web.UI.WebControls.SiteMapPath.OnItemCreated*&gt;方法。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.OnItemCreated*&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Occurs after a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been bound to its underlying <bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> data by the <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">之後，就會發生<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>已經繫結至其基礎<bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>資料<bpt id="p3">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This event is raised by the &lt;xref:System.Web.UI.WebControls.SiteMapPath.OnItemDataBound*&gt; method.</source>
+          <target state="translated">會引發這個事件&lt;xref:System.Web.UI.WebControls.SiteMapPath.OnItemDataBound*&gt;方法。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.OnItemDataBound*&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需處理事件的詳細資訊，請參閱<bpt id="p1">[</bpt>事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Restores view-state information from a previous request that was saved with the &lt;xref:System.Web.UI.WebControls.SiteMapPath.SaveViewState*&gt; method.</source>
+          <target state="translated">從具有已儲存的先前要求還原檢視狀態資訊&lt;xref:System.Web.UI.WebControls.SiteMapPath.SaveViewState*&gt;方法。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.SaveViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This method is used primarily by the .NET Framework infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">這個方法主要供.NET Framework 基礎結構，並不是直接從您的程式碼使用。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>However, control developers can override this method to specify how a custom server control restores its view state.</source>
+          <target state="translated">不過，控制項開發人員可以覆寫這個方法，以指定自訂的伺服器控制項如何還原其檢視狀態。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET State Management Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>ASP.NET 狀態管理概觀<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.Login.LoadViewState%2A&gt; method restores the view-state information saved during a previous request.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Login.LoadViewState%2A&gt;方法還原前一個要求的過程中儲存的檢視狀態資訊。&lt;/xref:System.Web.UI.WebControls.Login.LoadViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the control state to be restored.</source>
+          <target state="translated">&lt;xref:System.Object&gt;，代表要還原的控制項狀態。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets the style used for the display text for all nodes in the site navigation path.</source>
+          <target state="translated">取得用於網站的導覽路徑中的所有節點的顯示文字的樣式。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Use the NodeStyle property to control the appearance of the display text for all navigation path nodes rendered by the control.</source>
+          <target state="translated">您可以使用有屬性來控制控制項所呈現的所有導覽路徑節點的顯示文字的外觀。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>By default, the display text is that specified in the &lt;xref:System.Web.SiteMapNode.Title%2A&gt; property of the &lt;xref:System.Web.SiteMapNode&gt; that represents the page.</source>
+          <target state="translated">根據預設，顯示的文字是指定&lt;xref:System.Web.SiteMapNode.Title%2A&gt;屬性&lt;xref:System.Web.SiteMapNode&gt;代表頁。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Title%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Common style settings include custom background color, foreground color, font properties, and node spacing.</source>
+          <target state="translated">一般樣式設定包含自訂背景色彩、 前景色彩、 字型屬性和節點間距。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; nodes, style properties are merged into a single style, in the following order:      1.</source>
+          <target state="translated">如&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;樣式屬性的節點會合併成單一的樣式，順序如下︰ 1。&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>NodeStyle      2.</source>
+          <target state="translated">有 2。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; or &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;, depending on the node type.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;或&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;，取決於節點類型。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you set the node font style to a strikeout or overline style, the default underline style of the node is not displayed unless it is explicitly set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 除非明確設定為，如果您刪除線或頂線的樣式設定節點的字型樣式，不顯示節點的預設底線樣式<ph id="ph2">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If the NodeStyle is defined, it is initially applied to each node.</source>
+          <target state="translated">如果有定義，它一開始會套用至每個節點。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If an additional style is defined for a particular type of node, such as the root node or current node, this style supersedes the general style specified in the NodeStyle property.</source>
+          <target state="translated">如果其他的樣式定義的特定類型的節點，例如根節點或目前的節點，此樣式會取代有屬性中指定的一般樣式。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>If a template is defined for a particular type of node, it supersedes all defined styles for that node.</source>
+          <target state="translated">如果範本會定義特定類型的節點，它會取代該節點的所有已定義的樣式。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the style settings for the display text in the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含中的顯示文字的樣式設定<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets or sets a control template to use for all functional nodes of a site navigation path.</source>
+          <target state="translated">取得或設定要用於網站的導覽路徑的所有功能節點的控制項範本。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Set the NodeTemplate to an &lt;xref:System.Web.UI.ITemplate&gt; object to use an &lt;xref:System.Web.UI.WebControls.Image&gt; or some other control, such as a &lt;xref:System.Web.UI.WebControls.Label&gt;, as a user interface element for all navigation path nodes.</source>
+          <target state="translated">設 NodeTemplate&lt;xref:System.Web.UI.ITemplate&gt;物件以使用&lt;xref:System.Web.UI.WebControls.Image&gt;或其他一些控制項，例如&lt;xref:System.Web.UI.WebControls.Label&gt;，為所有導覽路徑節點的使用者介面項目。&lt;/xref:System.Web.UI.WebControls.Label&gt; &lt;/xref:System.Web.UI.WebControls.Image&gt; &lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>If the NodeTemplate property is set, the template overrides both the navigation node text displayed and any &lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt; applied to it.</source>
+          <target state="translated">如果 NodeTemplate 屬性設定，範本會覆寫顯示在瀏覽節點文字和任何&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;套用至它。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>For the current and root nodes, if a &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt; or &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt; is set, these templates override the NodeTemplate.</source>
+          <target state="translated">在目前和根節點，如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;或&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;已經設定，這些範本會覆寫 NodeTemplate。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>You can declaratively set the NodeTemplate property to any Web server control, and the ASP.NET infrastructure performs the necessary steps to wrap the Web server control as an &lt;xref:System.Web.UI.ITemplate&gt; object.</source>
+          <target state="translated">您可以以宣告方式 NodeTemplate 屬性至任何 Web 伺服器控制項，及 ASP.NET 基礎結構會執行必要的步驟，將 Web 伺服器控制項，做為&lt;xref:System.Web.UI.ITemplate&gt;物件。&lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>However, Web server controls do not implement the &lt;xref:System.Web.UI.ITemplate&gt; interface; therefore, when you work with the &lt;xref:System.Web.UI.ITemplate&gt; properties programmatically, you must write an &lt;xref:System.Web.UI.ITemplate&gt; wrapper for any template code.</source>
+          <target state="translated">不過，Web 伺服器控制項不會實作&lt;xref:System.Web.UI.ITemplate&gt;介面; 因此，當您使用&lt;xref:System.Web.UI.ITemplate&gt;屬性以程式設計的方式，您必須撰寫&lt;xref:System.Web.UI.ITemplate&gt;範本中的任何程式碼包裝函式。&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Then, the &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt; property is set to an instance of the &lt;xref:System.Web.UI.ITemplate&gt; wrapper.</source>
+          <target state="translated">然後，&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;屬性設定為執行個體&lt;xref:System.Web.UI.ITemplate&gt;包裝函式。&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that implements the &lt;xref:System.Web.UI.ITemplate.InstantiateIn*&gt; method, to render custom content for each node of a navigation path.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件會實作的&lt;xref:System.Web.UI.ITemplate.InstantiateIn*&gt;方法，以呈現自訂內容的每個節點的導覽路徑。&lt;/xref:System.Web.UI.ITemplate.InstantiateIn*&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnDataBinding*&gt; method of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CompositeControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and raises the <bpt id="p2">&lt;xref href="System.Web.UI.Control.DataBinding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">覆寫&lt;xref:System.Web.UI.Control.OnDataBinding*&gt;方法<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CompositeControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別並引發<bpt id="p2">&lt;xref href="System.Web.UI.Control.DataBinding"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>事件。&lt;/xref:System.Web.UI.Control.OnDataBinding*&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath.ItemCreated"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath.ItemCreated"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapPath.ItemCreated&gt; event is raised after the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control creates a &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;, which is a Web server control that represents a &lt;xref:System.Web.SiteMapNode&gt;, and associates it to a &lt;xref:System.Web.SiteMapNode&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath.ItemCreated&gt;之後引發事件&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制項建立&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;，這是 Web 伺服器控制項代表&lt;xref:System.Web.SiteMapNode&gt;，並將它關聯至&lt;xref:System.Web.SiteMapNode&gt;。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.ItemCreated&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The OnItemCreated method is called before the created node item is bound to its data.</source>
+          <target state="translated">OnItemCreated 方法呼叫之前建立的節點項目繫結至其資料。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>This allows you to provide an event-handling method that performs a custom routine whenever a &lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt; is created.</source>
+          <target state="translated">這可讓您提供事件處理方法執行自訂的常式，每當&lt;xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;建立。&lt;/xref:System.Web.UI.WebControls.SiteMapNodeItem&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 引發事件<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The OnItemCreated method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnItemCreated 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItemEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItemEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含事件資料。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath.ItemDataBound"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath.ItemDataBound"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapPath.ItemDataBound&gt; event is raised when the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control binds to the data provided by its &lt;xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath.ItemDataBound&gt;就會引發事件時的&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制項繫結至其&lt;xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider%2A&gt;.&lt;/xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider%2A&gt;所提供的資料&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;&lt;/xref:System.Web.UI.WebControls.SiteMapPath.ItemDataBound&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>This allows you to provide an event-handling method that performs a custom routine, such as updating a database or the displayed content, whenever this event occurs.</source>
+          <target state="translated">這可讓您提供執行自訂的常式，例如更新資料庫或顯示的內容時就會發生此事件的事件處理方法。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 引發事件<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The OnItemDataBound method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnItemDataBound 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItemEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapNodeItemEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含事件資料。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Gets or sets the number of levels of parent nodes the control displays, relative to the currently displayed node.</source>
+          <target state="translated">取得或設定控制項顯示，相對於目前所顯示的節點的父節點的層級數目。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The ParentLevelsDisplayed property governs how many levels of parent nodes are displayed by the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control above the current context node.</source>
+          <target state="translated">ParentLevelsDisplayed 屬性可控制多少層的父節點會顯示&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;高於目前的內容節點的控制項。&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>By default, all parent and ancestor nodes above the current context node are displayed.</source>
+          <target state="translated">根據預設，會顯示目前內容節點上方的所有父系及祖系節點。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">這個屬性的值會儲存檢視狀態中。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">無法設定這個屬性的主題或樣式表主題。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 佈景主題和面板<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>An integer that specifies the number of levels of parent nodes displayed, relative to the current context node.</source>
+          <target state="translated">指定的顯示，相對於目前的內容節點的父節點的層級數目的整數。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The default value is -1, which indicates no restriction on the number of parent levels that the control displays.</source>
+          <target state="translated">預設值是-1，表示控制項顯示的父層級的數目沒有限制。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The value for ParentLevelsDisplayed is less than -1.</source>
+          <target state="translated">ParentLevelsDisplayed 值為小於-1。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Gets or sets the order that the navigation path nodes are rendered in.</source>
+          <target state="translated">取得或設定導覽路徑節點呈現的順序。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Set PathDirection to &lt;xref:System.Web.UI.WebControls.PathDirection&gt; if you want to display the navigation path from left to right; the navigation path appears as a progression from left to right of site map nodes.</source>
+          <target state="translated">設定為 PathDirection&lt;xref:System.Web.UI.WebControls.PathDirection&gt;如果您想要顯示的導覽路徑從左到右; 瀏覽路徑會顯示進度從左到右的站台對應的節點。&lt;/xref:System.Web.UI.WebControls.PathDirection&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>In other words, the root node is at the leftmost position, each subsequent node is in the next position to the right, and the current node is in the rightmost position.</source>
+          <target state="translated">換句話說，根節點位於最左邊的位置、 每個後續節點處於到右方時下, 一個位置，以及目前節點處於最右邊的位置。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Set PathDirection to &lt;xref:System.Web.UI.WebControls.PathDirection&gt; if you want to display the navigation path from right to left.</source>
+          <target state="translated">設定為 PathDirection&lt;xref:System.Web.UI.WebControls.PathDirection&gt;如果您想要顯示的導覽路徑，由右至左。&lt;/xref:System.Web.UI.WebControls.PathDirection&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>In other words, the node order is reversed so that the root node displays at the rightmost position and the current node displays at the leftmost position.</source>
+          <target state="translated">換句話說，節點順序會顛倒，因此根節點會顯示在右邊的位置和目前的節點會顯示在左邊的位置。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>While not as common, this ordering can be used for localizing Web Forms pages and the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control for languages that read from right to left.</source>
+          <target state="translated">不是公用，而這種排序可用於當地語系化 Web Form 頁面和&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制項由右至左讀取的語言。&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">這個屬性的值會儲存檢視狀態中。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.PathDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the hierarchical order that navigation nodes are rendered in.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.PathDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，指出瀏覽節點會呈現在階層式順序。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.PathDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which indicates that the nodes are rendered in hierarchical order from the top-most node to the current node, from left to right.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.PathDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，表示節點會呈現給目前節點中，從最上層節點的階層順序，從左到右。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The value for PathDirection is not one of the base <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.PathDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumerations.</source>
+          <target state="translated">PathDirection 的值不是其中一個基底<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.PathDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>列舉型別。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string that delimits <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes in the rendered navigation path.</source>
+          <target state="translated">取得或設定用來分隔字串<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在轉譯的導覽路徑中的節點。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt; is defined, it is applied to the PathSeparator property.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt;是定義，它會套用到 PathSeparator 屬性。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>However, if a &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorTemplate%2A&gt; property is defined, both the PathSeparator and &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt; properties are ignored.</source>
+          <target state="translated">不過，如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorTemplate%2A&gt;屬性定義，這兩個 PathSeparator 和&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt;屬性會被忽略。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">這個屬性的值會儲存檢視狀態中。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The value of this property, when set, can be saved automatically to a resource file by using a designer tool.</source>
+          <target state="translated">這個屬性的值設定時，可以自動儲存到資源檔使用設計工具。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.ComponentModel.LocalizableAttribute&gt; and <bpt id="p1">[</bpt>Globalization and Localization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.ComponentModel.LocalizableAttribute&gt;和<bpt id="p1">[</bpt>全球化和當地語系化<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.ComponentModel.LocalizableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>A string that represents the delimiter for the nodes in a navigation path.</source>
+          <target state="translated">表示導覽路徑中節點的分隔符號的字串。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The default is " <ph id="ph1">&amp;gt;</ph> ", which is a character pointing from left to right, and corresponds to the default <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.PathDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which is set to <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.PathDirection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是" <ph id="ph1">&amp;gt;</ph> "，這是指從左到右，字元，而且對應至預設<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.PathDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，會設定為<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.PathDirection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Gets the style used for the &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator*&gt; string.</source>
+          <target state="translated">取得用於樣式&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator*&gt;字串。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator*&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Use the PathSeparatorStyle property to control the appearance of the path separator that appears between navigation path nodes.</source>
+          <target state="translated">使用 PathSeparatorStyle 屬性來控制出現在瀏覽路徑節點之間的路徑分隔符號的外觀。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Common style settings include font properties and a foreground color for the font used by the &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt; property.</source>
+          <target state="translated">一般樣式設定包含字型屬性的前景色彩和所使用的字型&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorTemplate%2A&gt; property is defined, both the &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt; and PathSeparatorStyle properties are ignored.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorTemplate%2A&gt;屬性定義，這兩個&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt;PathSeparatorStyle 屬性也會被忽略。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the style settings of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control's &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator*&gt; text.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含的樣式設定<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制項的&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator*&gt;文字。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator*&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Gets or sets a control template to use for the path delimiter of a site navigation path.</source>
+          <target state="translated">取得或設定要用於網站的導覽路徑的路徑分隔符號控制項範本。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Set the PathSeparatorTemplate to an &lt;xref:System.Web.UI.ITemplate&gt; object to use an &lt;xref:System.Web.UI.WebControls.Image&gt; or some other control, such as a &lt;xref:System.Web.UI.WebControls.Label&gt;, as the path delimiter between navigation nodes instead of the &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt; string.</source>
+          <target state="translated">設定為 PathSeparatorTemplate&lt;xref:System.Web.UI.ITemplate&gt;物件以使用&lt;xref:System.Web.UI.WebControls.Image&gt;或其他一些控制項，例如&lt;xref:System.Web.UI.WebControls.Label&gt;，做為路徑分隔符號之間瀏覽節點，而不是&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt;字串。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt; &lt;/xref:System.Web.UI.WebControls.Label&gt; &lt;/xref:System.Web.UI.WebControls.Image&gt; &lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>If the PathSeparatorTemplate property is set, the template overrides both the &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt; text displayed and any &lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt; applied to it.</source>
+          <target state="translated">如果 PathSeparatorTemplate 屬性設定，範本會覆寫這兩個&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt;顯示的文字和任何&lt;xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt;套用至它。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparatorStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.PathSeparator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>You can declaratively set the PathSeparatorTemplate property to any Web server control, and the ASP.NET infrastructure performs the necessary steps to wrap the Web server control as an &lt;xref:System.Web.UI.ITemplate&gt;.</source>
+          <target state="translated">您可以以宣告方式 PathSeparatorTemplate 屬性至任何 Web 伺服器控制項，及 ASP.NET 基礎結構會執行必要的步驟，以包裝為&lt;xref:System.Web.UI.ITemplate&gt;.&lt;/xref:System.Web.UI.ITemplate&gt; Web 伺服器控制項</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>However, Web server controls do not implement the &lt;xref:System.Web.UI.ITemplate&gt; interface; therefore, when you work with the &lt;xref:System.Web.UI.ITemplate&gt; properties programmatically, you must write an &lt;xref:System.Web.UI.ITemplate&gt; wrapper for any template code.</source>
+          <target state="translated">不過，Web 伺服器控制項不會實作&lt;xref:System.Web.UI.ITemplate&gt;介面; 因此，當您使用&lt;xref:System.Web.UI.ITemplate&gt;屬性以程式設計的方式，您必須撰寫&lt;xref:System.Web.UI.ITemplate&gt;範本中的任何程式碼包裝函式。&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Then, the PathSeparatorTemplate property is set to an instance of the &lt;xref:System.Web.UI.ITemplate&gt; wrapper.</source>
+          <target state="translated">然後，PathSeparatorTemplate 屬性設定為執行個體&lt;xref:System.Web.UI.ITemplate&gt;包裝函式。&lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that implements the &lt;xref:System.Web.UI.ITemplate.InstantiateIn*&gt; method, to render custom content for the path delimiter of a navigation path.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>實作&lt;xref:System.Web.UI.ITemplate.InstantiateIn*&gt;方法，以呈現的導覽路徑。 路徑分隔符號的自訂內容&lt;/xref:System.Web.UI.ITemplate.InstantiateIn*&gt;的物件</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Gets or sets a <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is associated with the Web server control.</source>
+          <target state="translated">取得或設定<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>與 Web 伺服器控制項相關聯。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The Provider property specifies an instance of a site map provider to use with the control.</source>
+          <target state="translated">提供者屬性指定站台地圖提供者來搭配控制項使用的執行的個體。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>This provider may be different from the provider identified by the &lt;xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider%2A&gt; property, if set.</source>
+          <target state="translated">此提供者可能會從識別提供者不同&lt;xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider%2A&gt;屬性，如果設定。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.SiteMapProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that is associated with the control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>與控制項相關聯的執行個體。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>If no provider is explicitly set, the default site map provider is used.</source>
+          <target state="translated">如果沒有提供者已明確設定，則會使用預設站台地圖提供者。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Writes the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CompositeControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> content to the specified <bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object, for display on the client.</source>
+          <target state="translated">寫入<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.CompositeControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>內容寫入指定<bpt id="p2">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>物件，以顯示在用戶端上。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that receives the rendered output.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>接收轉譯的輸出。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Renders the nodes in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">中的節點會呈現<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control overrides the RenderContents method to perform its accessibility rendering, if the &lt;xref:System.Web.UI.WebControls.SiteMapPath.SkipLinkText%2A&gt; property is not set to &lt;xref:System.String.Empty?displayProperty=fullName&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;Control 覆寫 RenderContents 方法，以執行其存取範圍轉譯時，如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.SkipLinkText%2A&gt;屬性未設定至&lt;xref:System.String.Empty?displayProperty=fullName&gt;。&lt;/xref:System.String.Empty?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.SkipLinkText%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the output stream used to write content to a Web page.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，代表用來寫入網頁內容的輸出資料流。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Indicates whether the site navigation node that represents the currently displayed page is rendered as a hyperlink.</source>
+          <target state="translated">指出是否要將站台瀏覽節點，代表目前顯示的頁面呈現為超連結。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The node that represents the currently displayed page is the &lt;xref:System.Web.SiteMap.CurrentNode%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">表示目前所顯示的頁面節點是&lt;xref:System.Web.SiteMap.CurrentNode%2A?displayProperty=fullName&gt;.&lt;/xref:System.Web.SiteMap.CurrentNode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Its &lt;xref:System.Web.SiteMapNode.Title%2A&gt; property specifies the text to display for the current node, and its &lt;xref:System.Web.SiteMapNode.Url%2A&gt; property is used to create a hyperlink.</source>
+          <target state="translated">其&lt;xref:System.Web.SiteMapNode.Title%2A&gt;屬性會指定目前的節點，顯示的文字和其&lt;xref:System.Web.SiteMapNode.Url%2A&gt;屬性用來建立超連結。&lt;/xref:System.Web.SiteMapNode.Url%2A&gt; &lt;/xref:System.Web.SiteMapNode.Title%2A&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>By default, no hyperlink is rendered for the current page to prevent erroneous form posts.</source>
+          <target state="translated">根據預設，目前的頁面，即可避免錯誤表單張貼呈現沒有超連結。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">這個屬性的值會儲存檢視狀態中。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the node that represents the current page is rendered as a hyperlink; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果代表目前頁面的節點會呈現為超連結。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Gets the style for the root node display text.</source>
+          <target state="translated">取得根節點的顯示文字的樣式。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Use the RootNodeStyle property to control the appearance of the display text for the root node of the navigation path.</source>
+          <target state="translated">您可以使用文字左邊屬性來控制導覽路徑的根節點的顯示文字的外觀。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>By default, the display text is that specified in the &lt;xref:System.Web.SiteMapNode.Title%2A&gt; property of the &lt;xref:System.Web.SiteMapNode&gt; that represents the page.</source>
+          <target state="translated">根據預設，顯示的文字是指定&lt;xref:System.Web.SiteMapNode.Title%2A&gt;屬性&lt;xref:System.Web.SiteMapNode&gt;代表頁。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapNode.Title%2A&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Common style settings include custom background color, foreground color, font properties, and node spacing.</source>
+          <target state="translated">一般樣式設定包含自訂背景色彩、 前景色彩、 字型屬性和節點間距。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; nodes, style properties are merged into a single style, in the following order:      1.</source>
+          <target state="translated">如&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;樣式屬性的節點會合併成單一的樣式，順序如下︰ 1。&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;      2.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;2。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.NodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; or RootNodeStyle, depending on the node type.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;或文字的左邊，取決於節點類型。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you set the node font style to a strikeout or overline style, the default underline style of the node is not displayed unless it is explicitly set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 除非明確設定為，如果您刪除線或頂線的樣式設定節點的字型樣式，不顯示節點的預設底線樣式<ph id="ph2">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt; property is defined, the RootNodeStyle property is ignored.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;屬性定義，則會忽略文字左邊屬性。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the style settings for the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control root node display text.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Style"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含樣式設定<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>控制根節點顯示文字。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Gets or sets a control template to use for the root node of a site navigation path.</source>
+          <target state="translated">取得或設定控制項範本，以用於網站的導覽路徑的根節點。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Set the RootNodeTemplate to an &lt;xref:System.Web.UI.ITemplate&gt; object to use an &lt;xref:System.Web.UI.WebControls.Image&gt; control or some other control, such as a &lt;xref:System.Web.UI.WebControls.Label&gt; as the root node's user interface element instead of a string.</source>
+          <target state="translated">設為 RootNodeTemplate&lt;xref:System.Web.UI.ITemplate&gt;物件以使用&lt;xref:System.Web.UI.WebControls.Image&gt;控制項或其他控制項，例如&lt;xref:System.Web.UI.WebControls.Label&gt;當做根節點的使用者介面項目，而非字串。&lt;/xref:System.Web.UI.WebControls.Label&gt; &lt;/xref:System.Web.UI.WebControls.Image&gt; &lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>If the RootNodeTemplate property is set, the template overrides both the root navigation node text displayed and any &lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt; applied to it.</source>
+          <target state="translated">如果 RootNodeTemplate 屬性設定，範本會覆寫所顯示的根瀏覽節點文字和任何&lt;xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;套用至它。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.RootNodeStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The template also overrides the &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt; and &lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; properties if the root page is the currently displayed page.</source>
+          <target state="translated">範本也會覆寫&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;和&lt;xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt;屬性如果根頁面是在目前顯示的頁面。&lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeStyle%2A&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath.CurrentNodeTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>You can declaratively set the RootNodeTemplate property to any Web server control, and the ASP.NET infrastructure performs the necessary steps to wrap the Web server control as an &lt;xref:System.Web.UI.ITemplate&gt;.</source>
+          <target state="translated">您可以以宣告方式 RootNodeTemplate 屬性至任何 Web 伺服器控制項，及 ASP.NET 基礎結構會執行必要的步驟，以包裝為&lt;xref:System.Web.UI.ITemplate&gt;.&lt;/xref:System.Web.UI.ITemplate&gt; Web 伺服器控制項</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>However, Web server controls do not implement the &lt;xref:System.Web.UI.ITemplate&gt; interface; therefore, when you work with the &lt;xref:System.Web.UI.ITemplate&gt; properties programmatically, you must write an &lt;xref:System.Web.UI.ITemplate&gt; wrapper for any template code.</source>
+          <target state="translated">不過，Web 伺服器控制項不會實作&lt;xref:System.Web.UI.ITemplate&gt;介面; 因此，當您使用&lt;xref:System.Web.UI.ITemplate&gt;屬性以程式設計的方式，您必須撰寫&lt;xref:System.Web.UI.ITemplate&gt;範本中的任何程式碼包裝函式。&lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.ITemplate&gt; &lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Then, the RootNodeTemplate property is set to an instance of the &lt;xref:System.Web.UI.ITemplate&gt; wrapper.</source>
+          <target state="translated">然後，RootNodeTemplate 屬性設定為執行個體&lt;xref:System.Web.UI.ITemplate&gt;包裝函式。&lt;/xref:System.Web.UI.ITemplate&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that implements the &lt;xref:System.Web.UI.ITemplate.InstantiateIn*&gt; method, to render custom content for the root node of a navigation path.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件會實作的&lt;xref:System.Web.UI.ITemplate.InstantiateIn*&gt;方法，以呈現自訂內容的根節點的導覽路徑。&lt;/xref:System.Web.UI.ITemplate.InstantiateIn*&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Saves changes to view state for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">儲存檢視狀態變更<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>View state is the accumulation of the values of a server control's properties.</source>
+          <target state="translated">檢視狀態是伺服器控制項的屬性值的累積。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>These values are automatically placed in the server control's &lt;xref:System.Web.UI.Control.ViewState%2A&gt; property, which is an instance of the &lt;xref:System.Web.UI.StateBag&gt; class.</source>
+          <target state="translated">這些值會自動放入伺服器控制項的&lt;xref:System.Web.UI.Control.ViewState%2A&gt;屬性，這是執行個體的&lt;xref:System.Web.UI.StateBag&gt;類別。&lt;/xref:System.Web.UI.StateBag&gt; &lt;/xref:System.Web.UI.Control.ViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The value of this property is then persisted to a string object after the save state stage of the server control life cycle.</source>
+          <target state="translated">儲存狀態的伺服器控制項的生命週期的階段之後，這個屬性的值然後會保存到字串物件。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>When view state is saved, this string object is returned to the client as a variable that is stored in an <ph id="ph1">`Hidden`</ph> HTML element.</source>
+          <target state="translated">這個字串物件儲存檢視狀態時，會為儲存在變數傳回給用戶端<ph id="ph1">`Hidden`</ph>HTML 項目。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>When you author custom server controls, you can improve efficiency by overriding this method and modifying your server control's &lt;xref:System.Web.UI.Control.ViewState%2A&gt; property.</source>
+          <target state="translated">當您撰寫自訂的伺服器控制項時，您可以透過覆寫這個方法，並修改您的伺服器控制項來改善效率&lt;xref:System.Web.UI.Control.ViewState%2A&gt;屬性。&lt;/xref:System.Web.UI.Control.ViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Returns the server control's current view state.</source>
+          <target state="translated">傳回伺服器控制項目前檢視狀態。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>If there is no view state associated with the control, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果沒有與控制項關聯的檢視狀態，則這個方法會傳回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control writes an additional hyperlink attribute for hyperlinked navigation nodes.</source>
+          <target state="translated">取得或設定值，指出是否<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制寫入其他的超連結屬性的超連結瀏覽節點。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Depending on client support, when a mouse hovers over a hyperlink that has the additional attribute set, a ToolTip is displayed.</source>
+          <target state="translated">取決於用戶端支援，當滑鼠停留在有其他的屬性集的超連結會顯示工具提示。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>The most common scenario is when a <ph id="ph1">`Title`</ph> HTML attribute exists for an HTML <ph id="ph2">`A Href`</ph> hyperlink.</source>
+          <target state="translated">最常見的案例是當<ph id="ph1">`Title`</ph>HTML 屬性的 HTML 存在<ph id="ph2">`A Href`</ph>超連結。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>For example, Microsoft Internet Explorer 4.0 and later and Netscape 6.0 and later implement the <ph id="ph1">`Title`</ph> attribute as a hovering ToolTip, while Opera 3.0 and later implements the <ph id="ph2">`Title`</ph> attribute as both a ToolTip and a caption in Opera's toolbar area.</source>
+          <target state="translated">比方說，Microsoft Internet Explorer 4.0 和更新版本及 Netscape 6.0 和更新版本的實作<ph id="ph1">`Title`</ph>屬性做為暫留工具提示中，同時 Opera 3.0 和更新版本的實作<ph id="ph2">`Title`</ph>屬性做為工具提示和 Opera 的工具列區域中的標題。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Not all clients display ToolTips for additional hyperlink attributes.</source>
+          <target state="translated">並非所有的用戶端會顯示工具提示其他超連結屬性。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">這個屬性的值會儲存檢視狀態中。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">無法設定這個屬性的主題或樣式表主題。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 佈景主題和面板<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if alternate text should be written for hyperlinked navigation nodes; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果應該寫入替代文字的超連結瀏覽節點。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to render the site navigation control.</source>
+          <target state="translated">取得或設定名稱<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>用來呈現的站台瀏覽控制項。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control uses a &lt;xref:System.Web.SiteMapProvider&gt; as a source for the site map data it renders.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制使用&lt;xref:System.Web.SiteMapProvider&gt;做為呈現網站導覽資料來源。&lt;/xref:System.Web.SiteMapProvider&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>If the SiteMapProvider property is not set, the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control uses the provider identified by the &lt;xref:System.Web.SiteMap.Provider%2A?displayProperty=fullName&gt; property, which is the default &lt;xref:System.Web.SiteMapProvider&gt; defined for the site in the configuration hierarchy, typically the &lt;xref:System.Web.XmlSiteMapProvider&gt;.</source>
+          <target state="translated">如果 SiteMapProvider 屬性未設定，&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制使用的&lt;xref:System.Web.SiteMap.Provider%2A?displayProperty=fullName&gt;屬性，這是預設&lt;xref:System.Web.SiteMapProvider&gt;定義的組態階層架構，通常&lt;xref:System.Web.XmlSiteMapProvider&gt;.&lt;/xref:System.Web.XmlSiteMapProvider&gt;中的站台&lt;/xref:System.Web.SiteMapProvider&gt;&lt;/xref:System.Web.SiteMap.Provider%2A?displayProperty=fullName&gt;所識別的提供者&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Setting the SiteMapProvider property directs the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control to render the site map data that the provider defines.</source>
+          <target state="translated">設定 SiteMapProvider 屬性會指示&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制項呈現網站導覽資料提供者定義。&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control works directly with a &lt;xref:System.Web.SiteMapProvider&gt; and its &lt;xref:System.Web.SiteMapNode&gt; objects to display site map information.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;直接搭配運作的控制項&lt;xref:System.Web.SiteMapProvider&gt;及其&lt;xref:System.Web.SiteMapNode&gt;要顯示站台對應資訊的物件。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapProvider&gt; &lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Other controls, such as &lt;xref:System.Web.UI.WebControls.Menu&gt; and &lt;xref:System.Web.UI.WebControls.TreeView&gt;, require a data abstraction, provided by the &lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt; class, to display the same site navigation information.</source>
+          <target state="translated">其他控制項，例如&lt;xref:System.Web.UI.WebControls.Menu&gt;和&lt;xref:System.Web.UI.WebControls.TreeView&gt;，需要所提供的資料抽象概念&lt;xref:System.Web.UI.WebControls.SiteMapDataSource&gt;類別，以顯示相同的站台瀏覽資訊。&lt;/xref:System.Web.UI.WebControls.SiteMapDataSource&gt; &lt;/xref:System.Web.UI.WebControls.TreeView&gt; &lt;/xref:System.Web.UI.WebControls.Menu&gt;</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">這個屬性的值會儲存檢視狀態中。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">無法設定這個屬性的主題或樣式表主題。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Web.UI.ThemeableAttribute&gt;和<bpt id="p1">[</bpt>ASP.NET 佈景主題和面板<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>The name of a <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines the navigation structure for the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to display.</source>
+          <target state="translated">名稱<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>定義的瀏覽結構<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>顯示。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>All available providers are contained in the <ph id="ph1">&amp;lt;</ph>xref:System.Web.SiteMap.Providers%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> collection, and can be enumerated and retrieved by name using the &lt;xref:System.Web.SiteMapProviderCollection.Item*&gt; property.</source>
+          <target state="translated">中所包含的所有可用的提供者<ph id="ph1">&amp;lt;</ph>xref:System.Web.SiteMap.Providers%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>集合，和可列舉，並使用名稱來擷取&lt;xref:System.Web.SiteMapProviderCollection.Item*&gt;屬性。&lt;/xref:System.Web.SiteMapProviderCollection.Item*&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that is used to render alternate text for screen readers to skip the control's content.</source>
+          <target state="translated">取得或設定值，用來呈現替代文字，讓螢幕助讀員略過控制項的內容。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>SkipLinkText is a property that you can set to make a Web page more or less accessible to users of screen readers.</source>
+          <target state="translated">SkipLinkText 是您可以設定讓網頁更多或更少的螢幕助讀程式的使用者都能存取的屬性。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Web sites that contain content that repeats on multiple pages, such as controls that display site map data, can provide a mechanism that allows users of screen readers to skip the repeated content so that it is not read aloud.</source>
+          <target state="translated">包含多個頁面，例如顯示網站導覽資料的控制項的重複內容的網站可以提供一套機制，可讓螢幕助讀員略過重複的內容，以便不大聲閱讀的使用者。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; control provides the SkipLinkText property as a way for the entire control to be skipped by screen readers.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;控制項提供 SkipLinkText 屬性做為螢幕助讀程式所要略過整個控制項的方式。&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>If the SkipLinkText property is set, an invisible image with alternate text is rendered, giving the user the option to jump to the end of the content.</source>
+          <target state="translated">如果 SkipLinkText 屬性設定，會轉譯不可見的影像的替代文字，讓使用者選擇跳到內容的結尾。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Screen readers read the alternate text aloud but the image does not disturb the visual flow of the page.</source>
+          <target state="translated">螢幕助讀程式會大聲閱讀的替代文字，但映像不會干擾視覺網頁流程中的。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The property is set to "Skip Navigation Links" by default, which makes screen readers skip the control.</source>
+          <target state="translated">屬性設定為 「 略過巡覽連結 」 上，依預設，讓螢幕助讀員略過控制項。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>If you want to disable this behavior, set the property to &lt;xref:System.String.Empty?displayProperty=fullName&gt;.</source>
+          <target state="translated">如果您想要停用此行為，將屬性設定為&lt;xref:System.String.Empty?displayProperty=fullName&gt;.&lt;/xref:System.String.Empty?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">這個屬性的值會儲存檢視狀態中。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>The value of this property, when set, can be saved automatically to a resource file by using a designer tool.</source>
+          <target state="translated">這個屬性的值設定時，可以自動儲存到資源檔使用設計工具。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.ComponentModel.LocalizableAttribute&gt; and <bpt id="p1">[</bpt>Globalization and Localization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.ComponentModel.LocalizableAttribute&gt;和<bpt id="p1">[</bpt>全球化和當地語系化<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.ComponentModel.LocalizableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>A string that the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control renders as alternate text with an invisible image, as a hint to screen readers.</source>
+          <target state="translated">字串<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項呈現為替代文字不可見的影像，做為螢幕助讀程式的提示。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The default value is "Skip Navigation Links".</source>
+          <target state="translated">預設值是 「 略過巡覽連結 」。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Tracks changes to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's view state.</source>
+          <target state="translated">追蹤變更<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.SiteMapPath"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項的檢視狀態。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

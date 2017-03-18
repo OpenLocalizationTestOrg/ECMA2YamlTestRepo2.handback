@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c4efe615752d1a39875c2ed028d1725e0da5152f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.IDbCommand.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3880d7e6162de8fcecb9655bddf833ce4bff4e68</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f6d95fc4a322c4fc782df15286820356375c65e6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an SQL statement that is executed while connected to a data source, and is implemented by .NET Framework data providers that access relational databases.</source>
+          <target state="translated">Representerar en SQL-instruktion som körs medan du är ansluten till en datakälla och implementeras av .NET Framework dataproviders som kommer åt relationsdatabaser.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IDbCommand interface enables an inheriting class to implement a Command class, which represents an SQL statement that is executed at a data source.</source>
+          <target state="translated">Gränssnittet IDbCommand kan en ärvande klass att implementera en kommando-klass som representerar en SQL-instruktion som körs på en datakälla.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about Command classes, see <bpt id="p1">[</bpt>Executing a Command<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information om kommandot klasser finns <bpt id="p1">[</bpt>ett kommando körs<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application does not create an instance of the IDbCommand interface directly, but creates an instance of a class that inherits IDbCommand.</source>
+          <target state="translated">Ett program skapa inte en instans av gränssnittet IDbCommand direkt, men de skapar en instans av en klass som ärver IDbCommand.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes that inherit IDbCommand must implement all inherited members, and typically define additional members to add provider-specific functionality.</source>
+          <target state="translated">Klasser som ärver IDbCommand måste implementera ärvda medlemmar och vanligtvis definiera ytterligare medlemmar för att lägga till provider-specifik funktion.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the IDbCommand interface defines the &lt;xref:System.Data.IDbCommand.ExecuteNonQuery%2A&gt; method.</source>
+          <target state="translated">Till exempel gränssnittet IDbCommand definierar den &lt;xref:System.Data.IDbCommand.ExecuteNonQuery%2A&gt;metoden.&lt;/xref:System.Data.IDbCommand.ExecuteNonQuery%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In turn, the &lt;xref:System.Data.SqlClient.SqlCommand&gt; class inherits this method, and also defines the &lt;xref:System.Data.SqlClient.SqlCommand.ExecuteXmlReader%2A&gt; method.</source>
+          <target state="translated">I sin tur den &lt;xref:System.Data.SqlClient.SqlCommand&gt;klassen ärver den här metoden och definierar också den &lt;xref:System.Data.SqlClient.SqlCommand.ExecuteXmlReader%2A&gt;metoden.&lt;/xref:System.Data.SqlClient.SqlCommand.ExecuteXmlReader%2A&gt; &lt;/xref:System.Data.SqlClient.SqlCommand&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Attempts to cancels the execution of an <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Försöker avbryter körningen av ett <bpt id="p1">&lt;xref href="System.Data.IDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is nothing to cancel, nothing happens.</source>
+          <target state="translated">Om det finns inget att avbryta, händer ingenting.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if there is a command in process, and the attempt to cancel fails, no exception is generated.</source>
+          <target state="translated">Om det finns ett kommando i processen och försök att avbryta misslyckas, genereras inget undantag.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text command to run against the data source.</source>
+          <target state="translated">Hämtar eller anger texten kommandot ska köras mot datakällan.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Data.IDbCommand.CommandType%2A&gt; property is set to <ph id="ph1">`StoredProcedure`</ph>, set the CommandText property to the name of the stored procedure.</source>
+          <target state="translated">När den &lt;xref:System.Data.IDbCommand.CommandType%2A&gt;egenskap är inställd på <ph id="ph1">`StoredProcedure`</ph>, ställa in egenskapen CommandText på namnet på den lagrade proceduren.&lt;/xref:System.Data.IDbCommand.CommandType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user may be required to use escape character syntax if the stored procedure name contains any special characters.</source>
+          <target state="translated">Användaren kan krävas du använder syntaxen för escape-tecken om namnet på lagrade proceduren innehåller specialtecken.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The command will call this stored procedure when you call one of the Execute methods.</source>
+          <target state="translated">Kommandot anropar den här lagrade proceduren när du anropar en Execute-metoder.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The text command to execute.</source>
+          <target state="translated">Kommandot text ska köras.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("").</source>
+          <target state="translated">Standardvärdet är en tom sträng ("").</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wait time before terminating the attempt to execute a command and generating an error.</source>
+          <target state="translated">Hämtar eller anger väntetiden innan försöket att köra ett kommando och ett fel genereras.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The time (in seconds) to wait for the command to execute.</source>
+          <target state="translated">Tid (i sekunder) att vänta tills kommandot att köras.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The default value is 30 seconds.</source>
+          <target state="translated">Standardvärdet är 30 sekunder.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The property value assigned is less than 0.</source>
+          <target state="translated">Egenskapsvärdet som tilldelats är mindre än 0.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Indicates or specifies how the &lt;xref:System.Data.IDbCommand.CommandText*&gt; property is interpreted.</source>
+          <target state="translated">Anger eller anger hur &lt;xref:System.Data.IDbCommand.CommandText*&gt;egenskapen tolkas.&lt;/xref:System.Data.IDbCommand.CommandText*&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the CommandType property to <ph id="ph1">`StoredProcedure`</ph>, you should set the &lt;xref:System.Data.IDbCommand.CommandText%2A&gt; property to the name of the stored procedure.</source>
+          <target state="translated">När du anger egenskapen CommandType till <ph id="ph1">`StoredProcedure`</ph>, bör du ange den &lt;xref:System.Data.IDbCommand.CommandText%2A&gt;egenskapen till namnet på den lagrade proceduren.&lt;/xref:System.Data.IDbCommand.CommandText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The command executes this stored procedure when you call one of the Execute methods.</source>
+          <target state="translated">Kommandot Kör den lagrade proceduren när du anropar en Execute-metoder.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.CommandType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Data.CommandType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Text" name="Text" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_Text" name="Text" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.IDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used by this instance of the <bpt id="p2">&lt;xref href="System.Data.IDbCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hämtar eller anger den <bpt id="p1">&lt;xref href="System.Data.IDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> används av den här instansen av den <bpt id="p2">&lt;xref href="System.Data.IDbCommand"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The connection to the data source.</source>
+          <target state="translated">Anslutningen till datakällan.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of an <bpt id="p1">&lt;xref href="System.Data.IDbDataParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Skapar en ny instans av en <bpt id="p1">&lt;xref href="System.Data.IDbDataParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When inheriting from &lt;xref:System.Data.IDbCommand&gt;, a .NET Framework data provider implements a strongly-typed version of CreateParameter.</source>
+          <target state="translated">Vid arv från &lt;xref:System.Data.IDbCommand&gt;, ett .NET Framework-dataprovidern implementerar en strikt typad version av CreateParameter.&lt;/xref:System.Data.IDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_IDbDataParameter" name="IDbDataParameter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref uid="langword_csharp_IDbDataParameter" name="IDbDataParameter" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Executes an SQL statement against the <bpt id="p1">&lt;xref uid="langword_csharp_Connection" name="Connection" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of a .NET Framework data provider, and returns the number of rows affected.</source>
+          <target state="translated">Kör en SQL-instruktion mot den <bpt id="p1">&lt;xref uid="langword_csharp_Connection" name="Connection" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt för en .NET Framework-dataprovidern och returnerar antalet rader som påverkas.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the ExecuteNonQuery to perform catalog operations (for example, querying the structure of a database or creating database objects such as tables), or to change the data in a database without using a &lt;xref:System.Data.DataSet&gt; by executing UPDATE, INSERT, or DELETE statements.</source>
+          <target state="translated">Du kan använda ExecuteNonQuery operationer katalog (till exempel frågar strukturen i en databas eller skapa databasobjekt, till exempel tabeller) eller ändra data i en databas utan att använda en &lt;xref:System.Data.DataSet&gt;genom att köra UPDATE-, INSERT- eller DELETE-instruktioner.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although the ExecuteNonQuery does not return any rows, any output parameters or return values mapped to parameters are populated with data.</source>
+          <target state="translated">Även om ExecuteNonQuery inte returnerar några rader är eventuella utdataparametrar eller returvärden mappas till parametrarna fyllda med data.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For UPDATE, INSERT, and DELETE statements, the return value is the number of rows affected by the command.</source>
+          <target state="translated">Det returnera värdet är antalet rader som påverkas av kommandot för UPDATE-, INSERT och DELETE-instruktioner.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For all other types of statements, the return value is -1.</source>
+          <target state="translated">För alla andra typer av rapporter är det returnera värdet-1.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The number of rows affected.</source>
+          <target state="translated">Antal rader som påverkas.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The connection does not exist.</source>
+          <target state="translated">Anslutningen finns inte.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-or-       The connection is not open.</source>
+          <target state="translated">- eller - anslutningen är inte öppen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Executes the &lt;xref:System.Data.IDbCommand.CommandText<bpt id="p1">*</bpt>&gt; against the &lt;xref:System.Data.IDbCommand.Connection<ept id="p1">*</ept>&gt; and builds an <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Kör den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; mot den &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; och skapar en <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Executes the &lt;xref:System.Data.IDbCommand.CommandText<bpt id="p1">*</bpt>&gt; against the &lt;xref:System.Data.IDbCommand.Connection<ept id="p1">*</ept>&gt;, and builds an <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> using one of the <bpt id="p3">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Kör den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; mot den &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;, och skapar en <bpt id="p2">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> med någon av de <bpt id="p3">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> värden.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The caller must call the &lt;xref:System.Data.IDbConnection.Open%2A&gt; method of the &lt;xref:System.Data.IDbCommand.Connection%2A&gt; property.</source>
+          <target state="translated">Anroparen måste anropa den &lt;xref:System.Data.IDbConnection.Open%2A&gt;metod för den &lt;xref:System.Data.IDbCommand.Connection%2A&gt;egenskapen.&lt;/xref:System.Data.IDbCommand.Connection%2A&gt; &lt;/xref:System.Data.IDbConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Data.IDbCommand.CommandType%2A&gt; property is set to <ph id="ph1">`StoredProcedure`</ph>, the &lt;xref:System.Data.IDbCommand.CommandText%2A&gt; property should be set to the name of the stored procedure.</source>
+          <target state="translated">När den &lt;xref:System.Data.IDbCommand.CommandType%2A&gt;egenskapen <ph id="ph1">`StoredProcedure`</ph>, &lt;xref:System.Data.IDbCommand.CommandText%2A&gt;egenskapen ska anges till namnet på den lagrade proceduren.&lt;/xref:System.Data.IDbCommand.CommandText%2A&gt; &lt;/xref:System.Data.IDbCommand.CommandType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The command executes this stored procedure when you call &lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt;.</source>
+          <target state="translated">Kommandot körs den här lagrade proceduren när du anropar &lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt;.&lt;/xref:System.Data.IDbCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Use &lt;xref:System.Data.CommandBehavior&gt; to retrieve large values and binary data.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Använd &lt;xref:System.Data.CommandBehavior&gt;att hämta stora värden och binärdata.&lt;/xref:System.Data.CommandBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, an &lt;xref:System.OutOfMemoryException&gt; might occur and the connection will be closed.</source>
+          <target state="translated">Annars en &lt;xref:System.OutOfMemoryException&gt;kan uppstå och anslutningen kommer att stängas.&lt;/xref:System.OutOfMemoryException&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While the &lt;xref:System.Data.IDataReader&gt; is in use, the associated &lt;xref:System.Data.IDbConnection&gt; is busy serving the &lt;xref:System.Data.IDataReader&gt;.</source>
+          <target state="translated">När de &lt;xref:System.Data.IDataReader&gt;används och den associerade &lt;xref:System.Data.IDbConnection&gt;är upptagen betjänar &lt;xref:System.Data.IDataReader&gt;.&lt;/xref:System.Data.IDataReader&gt; &lt;/xref:System.Data.IDbConnection&gt; &lt;/xref:System.Data.IDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While in this state, no other operations can be performed on the &lt;xref:System.Data.IDbConnection&gt; other than closing it.</source>
+          <target state="translated">I det här tillståndet kan kan inga andra åtgärder utföras på &lt;xref:System.Data.IDbConnection&gt;än stänger det.&lt;/xref:System.Data.IDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the case until the &lt;xref:System.Data.IDataReader.Close%2A&gt; method of the DataReader is called.</source>
+          <target state="translated">I så fall förrän den &lt;xref:System.Data.IDataReader.Close%2A&gt;DataReader-objektet-metoden anropas.&lt;/xref:System.Data.IDataReader.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the DataReader is created with &lt;xref:System.Data.CommandBehavior&gt; set to <ph id="ph1">`CloseConnection`</ph>, closing the DataReader closes the connection automatically.</source>
+          <target state="translated">Om DataReader-objektet har skapats med &lt;xref:System.Data.CommandBehavior&gt;inställd på <ph id="ph1">`CloseConnection`</ph>, stänger DataReader-objektet stängs anslutningen automatiskt.&lt;/xref:System.Data.CommandBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Data.CommandBehavior"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Executes the query, and returns the first column of the first row in the resultset returned by the query.</source>
+          <target state="translated">Kör frågan och returnerar den första kolumnen i den första raden i resultatuppsättningen som returnerats av frågan.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Extra columns or rows are ignored.</source>
+          <target state="translated">Extra kolumner eller rader ignoreras.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the ExecuteScalar method to retrieve a single value (for example, an aggregate value) from a database.</source>
+          <target state="translated">Använd metoden ExecuteScalar för att hämta ett värde (till exempel ett samlat värde) från en-databas.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This requires less code than using the &lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt; method, and then performing the operations necessary to generate the single value using the data returned by an &lt;xref:System.Data.IDataReader&gt;.</source>
+          <target state="translated">Detta kräver mindre kod än att använda &lt;xref:System.Data.IDbCommand.ExecuteReader%2A&gt;metoden, och sedan utför åtgärderna som behövs för att generera det enskilda värdet med de data som returneras av &lt;xref:System.Data.IDataReader&gt;.&lt;/xref:System.Data.IDataReader&gt; &lt;/xref:System.Data.IDbCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A typical ExecuteScalar query can be formatted as in the following C# example:      <ph id="ph1">```   CommandText = "select count(*) as NumberOfRegions from region";   Int32 count = (int) ExecuteScalar();   ```</ph>       If the first column of the first row in the result set is not found, a null reference (<ph id="ph2">`Nothing`</ph> in Visual Basic) is returned.</source>
+          <target state="translated">En typisk ExecuteScalar fråga kan formateras som i följande C#-exempel: <ph id="ph1">```   CommandText = "select count(*) as NumberOfRegions from region";   Int32 count = (int) ExecuteScalar();   ```</ph> om den första kolumnen i den första raden i resultatuppsättningen inte hittas, en null-referens (<ph id="ph2">`Nothing`</ph> i Visual Basic) returneras.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value in the database is <ph id="ph1">`null`</ph>, the query returns <ph id="ph2">`DBNull.Value`</ph>.</source>
+          <target state="translated">Om värdet i databasen är <ph id="ph1">`null`</ph>, returnerar frågan <ph id="ph2">`DBNull.Value`</ph>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The first column of the first row in the resultset.</source>
+          <target state="translated">Den första kolumnen i den första raden i resultatuppsättningen.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.IDataParameterCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gets the <bpt id="p1">&lt;xref href="System.Data.IDataParameterCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The parameters of the SQL statement or stored procedure.</source>
+          <target state="translated">Parametrarna för SQL-instruktion eller lagrad procedur.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Creates a prepared (or compiled) version of the command on the data source.</source>
+          <target state="translated">Skapar en förberedd (eller kompilerade) version av kommandot på datakällan.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.IDbCommand.CommandType%2A&gt; property is set to <ph id="ph1">`TableDirect`</ph>, Prepare does nothing.</source>
+          <target state="translated">Om den &lt;xref:System.Data.IDbCommand.CommandType%2A&gt;egenskap är inställd på <ph id="ph1">`TableDirect`</ph>, Förbered händer ingenting.&lt;/xref:System.Data.IDbCommand.CommandType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Data.IDbCommand.CommandType%2A&gt; is set to <ph id="ph1">`StoredProcedure`</ph>, the call to Prepare should succeed, although it may result in a no-op.</source>
+          <target state="translated">Om &lt;xref:System.Data.IDbCommand.CommandType%2A&gt;är inställd på <ph id="ph1">`StoredProcedure`</ph>, anropet för att förbereda ska lyckas, men det kan resultera i en Nej op.&lt;/xref:System.Data.IDbCommand.CommandType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The server automatically caches plans for reuse as necessary; therefore, there is no need to call this method directly in your client application.</source>
+          <target state="translated">Servern cachelagrar automatiskt planer för återanvändning är nödvändiga. Det finns därför inget behov av att anropa den här metoden direkt i ditt klientprogram.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.OleDb.OleDbCommand.Connection<bpt id="p1">*</bpt>&gt; is not set.       -or-       The &lt;xref:System.Data.OleDb.OleDbCommand.Connection<ept id="p1">*</ept>&gt; is not &lt;xref:System.Data.OleDb.OleDbConnection.Open*&gt;.</source>
+          <target state="translated">Den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; har inte angetts.       -or-       The &lt;&gt;<ept id="p1">*</ept>&gt; is not &lt;xref:System.Data.OleDb.OleDbConnection.Open*&gt;.&lt;/xref:System.Data.OleDb.OleDbConnection.Open*&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets or sets the transaction within which the <bpt id="p1">&lt;xref uid="langword_csharp_Command" name="Command" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of a .NET Framework data provider executes.</source>
+          <target state="translated">Hämtar eller anger transaktionen inom vilken den <bpt id="p1">&lt;xref uid="langword_csharp_Command" name="Command" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt av en .NET Framework-dataprovidern körs.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>the <bpt id="p1">&lt;xref uid="langword_csharp_Command" name="Command" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of a .NET Framework data provider executes.</source>
+          <target state="translated">den <bpt id="p1">&lt;xref uid="langword_csharp_Command" name="Command" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt av en .NET Framework-dataprovidern körs.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Gets or sets how command results are applied to the <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when used by the &lt;xref:System.Data.IDataAdapter.Update*&gt; method of a <bpt id="p2">&lt;xref href="System.Data.Common.DbDataAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hämtar eller anger hur kommandoresultat används till den <bpt id="p1">&lt;xref href="System.Data.DataRow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> när det används av den &lt;xref:System.Data.IDataAdapter.Update*&gt;metoden för en <bpt id="p2">&lt;xref href="System.Data.Common.DbDataAdapter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.IDataAdapter.Update*&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Both" name="Both" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> unless the command is automatically generated.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_Both" name="Both" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om kommandot genereras automatiskt.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Then the default is <bpt id="p1">&lt;xref uid="langword_csharp_None" name="None" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Då är standardvärdet <bpt id="p1">&lt;xref uid="langword_csharp_None" name="None" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The value entered was not one of the <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Det angivna värdet var inte något av de <bpt id="p1">&lt;xref href="System.Data.UpdateRowSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> värden.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

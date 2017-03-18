@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c69f9830d5f99e318bd8872c04a5caca4ae0a233</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Util.HttpEncoder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">72ebc7084ced72b5ba4140baeb83fcace33c3e24</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2dcb3172153f24a7e4d5f55a60320fed5f75e883</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides encoding and decoding logic.</source>
+          <target state="translated">提供編碼和解碼邏輯。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The class contains encoding and decoding logic that is used by methods in classes such as &lt;xref:System.Web.HttpUtility&gt;, &lt;xref:System.Web.HttpServerUtility&gt;, and &lt;xref:System.Net.HttpResponseHeader&gt;.</source>
+          <target state="translated">這個類別包含的編碼和解碼，例如由類別中方法的邏輯&lt;xref:System.Web.HttpUtility&gt;， &lt;xref:System.Web.HttpServerUtility&gt;，和&lt;xref:System.Net.HttpResponseHeader&gt;。&lt;/xref:System.Net.HttpResponseHeader&gt; &lt;/xref:System.Web.HttpServerUtility&gt; &lt;/xref:System.Web.HttpUtility&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can inherit from the HttpEncoder class and override its behavior to customize the default encoding and decoding behavior of ASP.NET.</source>
+          <target state="translated">您可以繼承自 HttpEncoder 類別並覆寫其自訂預設的編碼和解碼的 ASP.NET 行為的行為。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You then set the &lt;xref:System.Web.Configuration.HttpRuntimeSection.EncoderType%2A&gt; property of the &lt;xref:System.Web.Configuration.HttpRuntimeSection&gt; class to configure your custom class.</source>
+          <target state="translated">然後您設定&lt;xref:System.Web.Configuration.HttpRuntimeSection.EncoderType%2A&gt;&lt;xref:System.Web.Configuration.HttpRuntimeSection&gt;用來設定您的自訂類別。 類別&lt;/xref:System.Web.Configuration.HttpRuntimeSection&gt;的屬性&lt;/xref:System.Web.Configuration.HttpRuntimeSection.EncoderType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A custom class for encoding and decoding that derives from HttpEncoder can override the built-in ASP.NET encoding and decoding behavior or change only selected aspects of it.</source>
+          <target state="translated">衍生自 HttpEncoder 用於編碼和解碼的自訂類別可以覆寫內建 ASP.NET 編碼和解碼行為，或變更只會選取它的層面。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can configure the custom encoding type for in ASP.NET to replace or supplement the following encoding behavior:      -   HTML encoding      -   HTML attribute encoding      -   URL encoding      -   URL path encoding      -   HTTP header name and header value encoding       By default, ASP.NET applications are configured to use the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; type for all output encoding.</source>
+          <target state="translated">您可以將下列編碼行為來補充或取代 ASP.NET 中設定的自訂編碼類型︰ HTML 編碼的 HTML 屬性編碼的 URL 編碼的 URL 路徑編碼--HTTP 標頭名稱和標頭值編碼方式依預設，ASP.NET 應用程式設定為使用&lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;輸入所有輸出編碼方式。&lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following example from an application-level Web.config file shows how the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; type is set for an ASP.NET application:       <ph id="ph1">`&lt;httpRuntime requestValidationMode="4.5" encoderType="System.Web.Security.AntiXss.AntiXssEncoder, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/&gt;`</ph>       The configuration setting in the example sets the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; class to perform all output encoding in the application.</source>
+          <target state="translated">下列範例從應用程式層級的 Web.config 檔案顯示如何&lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;類型針對 ASP.NET 應用程式設定︰<ph id="ph1">`&lt;httpRuntime requestValidationMode="4.5" encoderType="System.Web.Security.AntiXss.AntiXssEncoder, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/&gt;`</ph>範例設定中的組態設定&lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;類別以執行所有輸出應用程式中的編碼。&lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; &lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; class overview.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;類別概觀。&lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets or set the <bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> type that will be used in an application.</source>
+          <target state="translated">取得或設定<bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>將應用程式中使用的類型。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If a derived &lt;xref:System.Web.Util.HttpEncoder&gt; type is specified in the configuration file, the Current property returns a reference to the custom type.</source>
+          <target state="translated">如果衍生&lt;xref:System.Web.Util.HttpEncoder&gt;類型指定在組態檔中，目前的屬性會傳回自訂類型的參考。&lt;/xref:System.Web.Util.HttpEncoder&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>However, if no custom encoder is used, the property returns a reference to the default ASP.NET &lt;xref:System.Web.Util.HttpEncoder&gt; instance.</source>
+          <target state="translated">不過，如果沒有自訂編碼器，屬性會傳回預設 ASP.NET 的參考&lt;xref:System.Web.Util.HttpEncoder&gt;執行個體。&lt;/xref:System.Web.Util.HttpEncoder&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Current property is not thread-safe.</source>
+          <target state="translated">目前的屬性不是安全執行緒。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Set this property only in the application's <ph id="ph1">`Application_Start`</ph> method, because <ph id="ph2">`Application_Start`</ph> runs on a single thread.</source>
+          <target state="translated">只在應用程式中設定這個屬性<ph id="ph1">`Application_Start`</ph>方法，因為<ph id="ph2">`Application_Start`</ph>單一執行緒上執行。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A reference to the encoder/decoder type that will be used.</source>
+          <target state="translated">將會使用編碼器/解碼器類型的參考。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The encoder instance that is being assigned to this property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">要指派給這個屬性的編碼程式執行個體是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the default encoder for ASP.NET.</source>
+          <target state="translated">取得 ASP.NET 的預設編碼器的參考。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A common encoding issue is that the default ASP.NET &lt;xref:System.Web.Util.HttpEncoder.UrlEncode%2A&gt; behavior converts spaces into the "+" character.</source>
+          <target state="translated">常見的編碼問題在於預設 ASP.NET&lt;xref:System.Web.Util.HttpEncoder.UrlEncode%2A&gt;行為會將空格轉換成"+"字元。&lt;/xref:System.Web.Util.HttpEncoder.UrlEncode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Historically, the "+" character has been an Internet convention for encoding space characters in a URL into a more human-readable manner.</source>
+          <target state="translated">在過去，"+"字元已網際網路慣例在 URL 中的空格字元編碼成更人類看得懂的方式。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However, according to standards, the space character is supposed to be encoded as "%20" and instead of as the "+" character.</source>
+          <target state="translated">不過，根據標準，空格字元應該為"%20"，而不是要編碼為"+"字元。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>ASP.NET lets you implement a more standards compliant encoding algorithm.</source>
+          <target state="translated">ASP.NET 可讓您更多的標準相容編碼演算法的實作。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A reference to the default encoder.</source>
+          <target state="translated">預設編碼器的參考。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Encodes a header name and value into a string that can be used as an HTTP header.</source>
+          <target state="translated">編碼字串，可用來當做 HTTP 標頭的標頭名稱和值。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The HeaderNameValueEncode method takes input strings from the <ph id="ph1">`headerName`</ph> and <ph id="ph2">`headerValue`</ph> parameters and encodes them.</source>
+          <target state="translated">從字串方法會接受輸入 HeaderNameValueEncode<ph id="ph1">`headerName`</ph>和<ph id="ph2">`headerValue`</ph>參數，並將它們編碼。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The encoded values are returned as out parameters.</source>
+          <target state="translated">編碼的值會傳回做為 out 參數。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The HeaderNameValueEncode method uses the following logic to encode header names and values:      -   All characters whose Unicode value is less than ASCII character 32, except ASCII character 9, are URL-encoded into a format of <ph id="ph1">`%NN`</ph> where the <ph id="ph2">`N`</ph> characters represent hexadecimal values.</source>
+          <target state="translated">HeaderNameValueEncode 方法會使用下列邏輯來編碼標頭名稱和值:-其 Unicode 值小於 ASCII 字元 32、 ASCII 字元 9、 除外的所有字元都是 URL 編碼成的格式為<ph id="ph1">`%NN`</ph>其中<ph id="ph2">`N`</ph>字元表示的十六進位值。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-   ASCII character 9 (the horizontal tab character) is not URL-encoded.</source>
+          <target state="translated">ASCII 字元 9 （水平 tab 字元） 不是 URL 編碼。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-   ASCII character 127 is encoded as <ph id="ph1">`%7F`</ph>.</source>
+          <target state="translated">127 的 ASCII 字元編碼成<ph id="ph1">`%7F`</ph>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-   All other characters are not encoded.</source>
+          <target state="translated">為未編碼所有其他字元。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph>     &gt;  Although this method can be used for Unicode values, it is typically used for values in the ASCII range.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 的 Unicode 值，可以使用這個方法，但是它通常用於 ASCII 範圍中的值。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The default implementation of the HeaderNameValueEncode method returns the value of <ph id="ph1">`headerValue`</ph> in <ph id="ph2">`encodedHeaderValue`</ph> if <ph id="ph3">`headerValue`</ph> is <ph id="ph4">`null`</ph> or is an empty string.</source>
+          <target state="translated">HeaderNameValueEncode 方法的預設實作會傳回的值<ph id="ph1">`headerValue`</ph>中<ph id="ph2">`encodedHeaderValue`</ph>如果<ph id="ph3">`headerValue`</ph>是<ph id="ph4">`null`</ph>或為空字串。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Similarly, the default implementation returns the value of <ph id="ph1">`headerName`</ph> in <ph id="ph2">`encodedHeaderName`</ph> if <ph id="ph3">`headerName`</ph> is <ph id="ph4">`null`</ph> or is an empty string.</source>
+          <target state="translated">同樣地，預設實作會傳回的值<ph id="ph1">`headerName`</ph>中<ph id="ph2">`encodedHeaderName`</ph>如果<ph id="ph3">`headerName`</ph>是<ph id="ph4">`null`</ph>或為空字串。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The HTTP header name to encode.</source>
+          <target state="translated">要編碼的 HTTP 標頭名稱。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The HTTP header value to encode.</source>
+          <target state="translated">要編碼的 HTTP 標頭值。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the encoded name to use for an HTTP header.</source>
+          <target state="translated">這個方法傳回時，包含要用於 HTTP 標頭的編碼的名稱。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the encoded value to use for an HTTP header.</source>
+          <target state="translated">這個方法傳回時，包含要使用的 HTTP 標頭的編碼的值。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Encodes an incoming value into a string that can be inserted into an HTML attribute that is delimited by using single or double quotation marks.</source>
+          <target state="translated">將傳入值編碼成可插入的 HTML 屬性，以使用單引號或雙引號分隔的字串。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">要編碼的字串。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The text writer to write the encoded value to.</source>
+          <target state="translated">文字寫入器寫入編碼的值。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Decodes a value from an HTML-encoded string.</source>
+          <target state="translated">將解碼的 HTML 編碼字串中的值。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following table lists the character sequences that the ASP.NET decoding logic can decode.</source>
+          <target state="translated">下表列出 ASP.NET 解碼邏輯可以解碼的字元序列。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>|Character sequence|Rule|   |------------------------|----------|   |<ph id="ph1">`&amp;#NNN;`</ph> (decimal codes for ASCII characters).|Decoded as the specified ASCII character.</source>
+          <target state="translated">|字元順序 |規則 |  |------------------------|----------|  |<ph id="ph1">`&amp;#NNN;`</ph> （針對 ASCII 字元十進位碼）。 |解碼為指定的 ASCII 字元。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The character sequence starts at the first digit after the # character and finishes at the semicolon.|   |<ph id="ph1">`&amp;#xZZ;`</ph> (hexadecimal codes for ASCII characters).|Decoded as the specified ASCII character.</source>
+          <target state="translated">字元順序開始 # 字元之後的第一個數字，而分號時。 |  |<ph id="ph1">`&amp;#xZZ;`</ph> （針對 ASCII 字元的十六進位碼）。 |解碼為指定的 ASCII 字元。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The encoded form specifies the character by using hexadecimal characters instead of a decimal value.</source>
+          <target state="translated">編碼的格式指定的字元，而不是十進位值中使用十六進位字元。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The character sequence starts at the first digit after the # character and finishes at the semicolon.|   |Named HTML entities.|Decoded as the equivalent ASCII character.|</source>
+          <target state="translated">字元順序開始 # 字元之後的第一個數字，而分號時。 |  |名為 HTML 實體。 |解碼為對等的 ASCII 字元。 |</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The string to decode.</source>
+          <target state="translated">要解碼的字串。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The text writer to write the decoded value to.</source>
+          <target state="translated">文字寫入器寫入已解碼的值。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Encodes a string into an HTML-encoded string.</source>
+          <target state="translated">將字串編碼成 HTML 編碼字串。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">要編碼的字串。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The text writer to write the encoded value to.</source>
+          <target state="translated">文字寫入器寫入編碼的值。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Encodes a string.</source>
+          <target state="translated">編碼字串。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>URL encoding makes sure that all browsers correctly transmit text in URL strings.</source>
+          <target state="translated">URL 編碼方式可確保所有瀏覽器會正確傳輸 URL 字串中的文字。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Characters such as a question mark (?), ampersand (&amp;), slash (/), and spaces might be truncated or corrupted by some browsers.</source>
+          <target state="translated">字元，例如問號 （？）、 連字號 （&amp;）、 斜線 （/），而且空格可能會被截斷或某些瀏覽器損毀。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Therefore, these characters must be encoded.</source>
+          <target state="translated">因此，這些字元必須編碼。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">要編碼的字串。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An encoded string.</source>
+          <target state="translated">編碼的字串。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Encodes an array of characters that are not allowed in a URL into a hexadecimal character-entity equivalent.</source>
+          <target state="translated">將編碼為十六進位的字元實體對等不允許在 URL 中的字元陣列。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The UrlEncode method is called by several URL encoding methods in the &lt;xref:System.Web.HttpUtility&gt; class.</source>
+          <target state="translated">進行 urlencode 處理方法會呼叫數個 URL 編碼方式&lt;xref:System.Web.HttpUtility&gt;類別。&lt;/xref:System.Web.HttpUtility&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The UrlEncode method URL-encodes any character that is not in the set of ASCII characters that is considered to be URL-safe.</source>
+          <target state="translated">進行 urlencode 處理方法進行 URL 編碼任何字元，且不在集合的 ASCII 字元會被視為是安全的 URL。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Spaces are encoded as the ASCII "<ph id="ph1">`+"`</ph> character.</source>
+          <target state="translated">空格會被編碼為 ASCII"<ph id="ph1">`+"`</ph>字元。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>URL-safe ASCII characters include the ASCI characters (A to Z and a to z), numerals (0 to 9), and some punctuation marks.</source>
+          <target state="translated">URL 安全 ASCII 字元包括 ASCII 字元 (A 到 Z 和 a 到 z)、 數字 (0 到 9)，以及某些標點符號。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The following table lists the punctuation marks that are considered URL-safe ASCII characters.</source>
+          <target state="translated">下表列出會被視為 URL 安全 ASCII 字元的標點符號。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>|Character|Description|   |---------------|-----------------|   |-|Hyphen|   |_|Underscore|   |.|Period (dot)|   |!|Exclamation mark|   |*|Asterisk (star)|   |(|Opening parenthesis|   |)|Closing parenthesis|</source>
+          <target state="translated">|字元 |描述 |  |---------------|-----------------|  |-|連字號 |  |_|底線 |  |.|句點 （點） |  |!|驚嘆號 |  |*|星號 （星號） |  |(|左括號 |  |)|右括弧 |</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An array of bytes to encode.</source>
+          <target state="translated">要編碼的位元組陣列。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The position in the <ph id="ph1">`bytes`</ph> array at which to begin encoding.</source>
+          <target state="translated">中的位置<ph id="ph1">`bytes`</ph>陣列中要開始編碼方式。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The number of items in the <ph id="ph1">`bytes`</ph> array to encode.</source>
+          <target state="translated">中的項目數<ph id="ph1">`bytes`</ph>陣列進行編碼。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An array of encoded characters.</source>
+          <target state="translated">編碼的字元陣列。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> is less than zero or greater than the length of the <ph id="ph2">&lt;code&gt;bytes&lt;/code&gt;</ph> array.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>小於零或大於的長度<ph id="ph2">&lt;code&gt;bytes&lt;/code&gt;</ph>陣列。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than zero or <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> plus <ph id="ph3">&lt;code&gt;offset&lt;/code&gt;</ph> is greater than the length of the <ph id="ph4">&lt;code&gt;bytes&lt;/code&gt;</ph> array.</source>
+          <target state="translated">-<ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph>小於零或<ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph>加上<ph id="ph3">&lt;code&gt;offset&lt;/code&gt;</ph>大於的長度<ph id="ph4">&lt;code&gt;bytes&lt;/code&gt;</ph>陣列。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;bytes&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;bytes&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Encodes a subsection of a URL.</source>
+          <target state="translated">將編碼的子區段的 URL。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The UrlPathEncode method is called by the &lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt; method.</source>
+          <target state="translated">UrlPathEncode 方法由呼叫&lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt;方法。&lt;/xref:System.Web.HttpUtility.UrlPathEncode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt; method performs the following steps:      -   Applies the encoding logic of the UrlPathEncode method to only the path part of the URL (which excludes the query string).</source>
+          <target state="translated">&lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt;方法會執行下列步驟:-適用於僅的 URL (不包括查詢字串） 的路徑部分編碼 UrlPathEncode 方法的邏輯。&lt;/xref:System.Web.HttpUtility.UrlPathEncode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The method assumes that the URL is encoded as a UTF-8 string.</source>
+          <target state="translated">方法會假設 URL 會編碼為 utf-8 字串。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-   Encodes non-spaces so that only a subset of the first 128 ASCII characters is used in the resulting encoded string.</source>
+          <target state="translated">進行編碼非空格，以便產生編碼的字串中使用前 128 個 ASCII 字元的子集。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Any characters at Unicode value 128 and greater, or 32 and less, are URL-encoded.</source>
+          <target state="translated">在 128 和更大，或 32 和更少的 Unicode 值的任何字元是 URL 編碼。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-   Encodes spaces as %20.</source>
+          <target state="translated">-將編碼為&amp;20;%的空間。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">要編碼的字串。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A URL-encoded string.</source>
+          <target state="translated">URL 編碼的字串。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

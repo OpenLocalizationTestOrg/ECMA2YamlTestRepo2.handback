@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a255b6a615851da48c37174d7f6d83f3e7599af8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IO.Packaging.PackagePart.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8cbcc72113daf8f739002e7e4746a25f71a1e2ac</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0735a195d0371e704023239337b3bc9849d8b87a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for parts stored in a <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">에 저장 된 파트에 대 한 기본 클래스를 제공는 <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is abstract.</source>
+          <target state="translated">이 클래스는 추상 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A PackagePart consists of three basic elements:      |Access|Description|   |------------|-----------------|   |&lt;xref:System.IO.Packaging.PackagePart.Uri%2A&gt;|The <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> of the part.|   |&lt;xref:System.IO.Packaging.PackagePart.ContentType%2A&gt;|The <ph id="ph2">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> type of the content stream.|   |&lt;xref:System.IO.Packaging.PackagePart.GetStream%2A&gt;|The content data stream of the part.|</source>
+          <target state="translated">PackagePart는 세 가지 기본 요소로 구성 됩니다. | 액세스 | 설명 |   |------------|-----------------|   | &lt;xref:System.IO.Packaging.PackagePart.Uri%2A&gt;| <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 부분의. |   | &lt;xref:System.IO.Packaging.PackagePart.ContentType%2A&gt;| <ph id="ph2">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 콘텐츠 스트림의 유형입니다. |   | &lt;xref:System.IO.Packaging.PackagePart.GetStream%2A&gt;| 파트의 콘텐츠 데이터 스트림을 |&lt;/xref:System.IO.Packaging.PackagePart.GetStream%2A&gt; &lt;/xref:System.IO.Packaging.PackagePart.ContentType%2A&gt; &lt;/xref:System.IO.Packaging.PackagePart.Uri%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a specified parent &lt;xref:System.IO.Packaging.PackagePart.Package*&gt; and part <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정 된 부모 클래스 &lt;xref:System.IO.Packaging.PackagePart.Package*&gt;및 파트 <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>.&lt;/xref:System.IO.Packaging.PackagePart.Package*&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`partUri`</ph> must be valid &lt;xref:System.IO.Packaging.PackagePart&gt; <ph id="ph2">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> formed in accordance with the <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>Uniform Resource Identifier (URI) Generic Syntax<ept id="p2">*</ept> specification and the <bpt id="p3">[</bpt>Open Packaging Conventions<ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=71255)</ept> specification.</source>
+          <target state="translated"><ph id="ph1">`partUri`</ph>유효 해야 &lt;xref:System.IO.Packaging.PackagePart&gt; <ph id="ph2">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 에 따라 구성의 <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>식별자 URI (Uniform Resource) 일반 구문을<ept id="p2">*</ept> 사양 및 <bpt id="p3">[</bpt>Open Packaging Conventions<ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=71255)</ept> 사양.&lt;/xref:System.IO.Packaging.PackagePart&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor when the &lt;xref:System.IO.Packaging.PackagePart.ContentType%2A&gt; of the part is not immediately known and will be set later when &lt;xref:System.IO.Packaging.Package.CreatePart%2A&gt; is called.</source>
+          <target state="translated">이 생성자를 사용 하 여 때는 &lt;xref:System.IO.Packaging.PackagePart.ContentType%2A&gt;부분의 즉시 인식 되지 않으며 설정할 나중 때 &lt;xref:System.IO.Packaging.Package.CreatePart%2A&gt;호출 됩니다.&lt;/xref:System.IO.Packaging.Package.CreatePart%2A&gt; &lt;/xref:System.IO.Packaging.PackagePart.ContentType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the &lt;xref:System.IO.Packaging.PackagePart.CompressionOption%2A&gt; property of the part is initialized to &lt;xref:System.IO.Packaging.CompressionOption&gt;.</source>
+          <target state="translated">기본적으로 &lt;xref:System.IO.Packaging.PackagePart.CompressionOption%2A&gt; &lt;xref:System.IO.Packaging.CompressionOption&gt;.&lt;/xref:System.IO.Packaging.CompressionOption&gt; 파트의 속성은 초기화&lt;/xref:System.IO.Packaging.PackagePart.CompressionOption%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The parent <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the part.</source>
+          <target state="translated">부모 <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 부분의 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> of the part, relative to the parent <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> root.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 에서 부모에 상대적인 부분의 <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 루트입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;package&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;partUri&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;package&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;partUri&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a specified parent &lt;xref:System.IO.Packaging.PackagePart.Package*&gt;, part <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>, and <ph id="ph2">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> content type.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정 된 부모 클래스 &lt;xref:System.IO.Packaging.PackagePart.Package*&gt;, 파트 <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>, 및 <ph id="ph2">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 콘텐츠 형식입니다.&lt;/xref:System.IO.Packaging.PackagePart.Package*&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`partUri`</ph> must be valid &lt;xref:System.IO.Packaging.PackagePart&gt; <ph id="ph2">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> formed in accordance with the <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>Uniform Resource Identifier (URI) Generic Syntax<ept id="p2">*</ept> specification and the <bpt id="p3">[</bpt>Open Packaging Conventions<ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=71255)</ept> specification.</source>
+          <target state="translated"><ph id="ph1">`partUri`</ph>유효 해야 &lt;xref:System.IO.Packaging.PackagePart&gt; <ph id="ph2">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 에 따라 구성의 <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>식별자 URI (Uniform Resource) 일반 구문을<ept id="p2">*</ept> 사양 및 <bpt id="p3">[</bpt>Open Packaging Conventions<ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=71255)</ept> 사양.&lt;/xref:System.IO.Packaging.PackagePart&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the &lt;xref:System.IO.Packaging.PackagePart.CompressionOption%2A&gt; property of the part is initialized to &lt;xref:System.IO.Packaging.CompressionOption&gt;.</source>
+          <target state="translated">기본적으로 &lt;xref:System.IO.Packaging.PackagePart.CompressionOption%2A&gt; &lt;xref:System.IO.Packaging.CompressionOption&gt;.&lt;/xref:System.IO.Packaging.CompressionOption&gt; 파트의 속성은 초기화&lt;/xref:System.IO.Packaging.PackagePart.CompressionOption%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`contentType`</ph> must be a <ph id="ph2">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> type formed in accordance with the <bpt id="p1">[</bpt>RFC 2616<ept id="p1">](http://www.w3.org/Protocols/rfc2616/rfc2616.html)</ept> <bpt id="p2">*</bpt>Hypertext Transfer Protocol - HTTP<ept id="p2">*</ept>, Section 3.7.</source>
+          <target state="translated"><ph id="ph1">`contentType`</ph>이어야 합니다는 <ph id="ph2">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 형식에 따라 구성의 <bpt id="p1">[</bpt>RFC 2616<ept id="p1">](http://www.w3.org/Protocols/rfc2616/rfc2616.html)</ept> <bpt id="p2">*</bpt>Hypertext Transfer Protocol-HTTP<ept id="p2">*</ept>, 섹션 3.7 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows an example of the content <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> types used in <ph id="ph2">[!INCLUDE[TLA#tla_xps](~/add/includes/tlasharptla-xps-md.md)]</ph> documents.</source>
+          <target state="translated">다음 표에서 콘텐츠 예를 들어 <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 에 사용 되는 형식 <ph id="ph2">[!INCLUDE[TLA#tla_xps](~/add/includes/tlasharptla-xps-md.md)]</ph> 문서.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Description|Content Type|   |-----------------|------------------|   |Font|application/vnd.ms-opentype|   |ICC profile|application/vnd.ms-color.iccprofile|   |JPEG image|image/jpeg|   |Obfuscated font|application/vnd.ms-package.obfuscated-opentype|   |PNG image|image/png|   |PrintTicket|application/vnd.ms-printing.printticket+xml|   |TIFF image|image/tiff|   |Windows Media Photo image|image/vnd.ms-photo|</source>
+          <target state="translated">| 설명 | 콘텐츠 형식 |   |-----------------|------------------|   | 글꼴 | 응용 프로그램/vnd.ms opentype |   | ICC profile|application/vnd.ms-color.iccprofile|   | JPEG 이미지 | jpeg 이미지 / |   | 난독 처리 된 font|application/vnd.ms-package.obfuscated-opentype|   | PNG 이미지 | png 이미지 / |   | PrintTicket|application/vnd.ms-printing.printticket+xml|   | TIFF 이미지 | 이미지/tiff |   | Windows 미디어 사진 이미지 | 이미지/vnd.ms-사진 |</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The parent <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the part.</source>
+          <target state="translated">부모 <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 부분의 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> of the part, relative to the parent <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> root.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 에서 부모에 상대적인 부분의 <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 루트입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> content type of the part data stream.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 콘텐츠 형식 파트 데이터 스트림의입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;package&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;partUri&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;package&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;partUri&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;partUri&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2"> [!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;partUri&lt;/code&gt;</ph>is not a valid <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2"> [!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a specified parent &lt;xref:System.IO.Packaging.PackagePart.Package*&gt;, part <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>, <ph id="ph2">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> content type, and <bpt id="p2">&lt;xref href="System.IO.Packaging.CompressionOption"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정 된 부모 클래스 &lt;xref:System.IO.Packaging.PackagePart.Package*&gt;, 파트 <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>, <ph id="ph2">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 콘텐츠 형식 및 <bpt id="p2">&lt;xref href="System.IO.Packaging.CompressionOption"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.IO.Packaging.PackagePart.Package*&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`partUri`</ph> must be valid &lt;xref:System.IO.Packaging.PackagePart&gt; <ph id="ph2">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> formed in accordance with the <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>Uniform Resource Identifier (URI) Generic Syntax<ept id="p2">*</ept> specification and the <bpt id="p3">[</bpt>Open Packaging Conventions<ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=71255)</ept> specification.</source>
+          <target state="translated"><ph id="ph1">`partUri`</ph>유효 해야 &lt;xref:System.IO.Packaging.PackagePart&gt; <ph id="ph2">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 에 따라 구성의 <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>식별자 URI (Uniform Resource) 일반 구문을<ept id="p2">*</ept> 사양 및 <bpt id="p3">[</bpt>Open Packaging Conventions<ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=71255)</ept> 사양.&lt;/xref:System.IO.Packaging.PackagePart&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`contentType`</ph> must be a <ph id="ph2">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> type formed in accordance with the <bpt id="p1">[</bpt>RFC 2616<ept id="p1">](http://www.w3.org/Protocols/rfc2616/rfc2616.html)</ept> <bpt id="p2">*</bpt>Hypertext Transfer Protocol - HTTP<ept id="p2">*</ept>, Section 3.7.</source>
+          <target state="translated"><ph id="ph1">`contentType`</ph>이어야 합니다는 <ph id="ph2">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 형식에 따라 구성의 <bpt id="p1">[</bpt>RFC 2616<ept id="p1">](http://www.w3.org/Protocols/rfc2616/rfc2616.html)</ept> <bpt id="p2">*</bpt>Hypertext Transfer Protocol-HTTP<ept id="p2">*</ept>, 섹션 3.7 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows an example of the content <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> types used in <ph id="ph2">[!INCLUDE[TLA#tla_xps](~/add/includes/tlasharptla-xps-md.md)]</ph> documents.</source>
+          <target state="translated">다음 표에서 콘텐츠 예를 들어 <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 에 사용 되는 형식 <ph id="ph2">[!INCLUDE[TLA#tla_xps](~/add/includes/tlasharptla-xps-md.md)]</ph> 문서.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Description|Content Type|   |-----------------|------------------|   |Font|application/vnd.ms-opentype|   |ICC profile|application/vnd.ms-color.iccprofile|   |JPEG image|image/jpeg|   |Obfuscated font|application/vnd.ms-package.obfuscated-opentype|   |PNG image|image/png|   |PrintTicket|application/vnd.ms-printing.printticket+xml|   |TIFF image|image/tiff|   |Windows Media Photo image|image/vnd.ms-photo|</source>
+          <target state="translated">| 설명 | 콘텐츠 형식 |   |-----------------|------------------|   | 글꼴 | 응용 프로그램/vnd.ms opentype |   | ICC profile|application/vnd.ms-color.iccprofile|   | JPEG 이미지 | jpeg 이미지 / |   | 난독 처리 된 font|application/vnd.ms-package.obfuscated-opentype|   | PNG 이미지 | png 이미지 / |   | PrintTicket|application/vnd.ms-printing.printticket+xml|   | TIFF 이미지 | 이미지/tiff |   | Windows 미디어 사진 이미지 | 이미지/vnd.ms-사진 |</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The parent <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the part.</source>
+          <target state="translated">부모 <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 부분의 합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> of the part, relative to the parent <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> root.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 에서 부모에 상대적인 부분의 <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 루트입니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> content type of the part's data stream.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 내용 파트 데이터 스트림의 유형입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The compression option of the part data stream.</source>
+          <target state="translated">파트 데이터 스트림의 압축 옵션입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;package&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;partUri&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;package&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;partUri&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;partUri&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2"> [!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;partUri&lt;/code&gt;</ph>is not a valid <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2"> [!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">compressionOption</ph><ept id="p1">&lt;/code&gt;</ept> value is not valid.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">compressionOption</ph> <ept id="p1">&lt;/code&gt;</ept> 값이 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the compression option of the part content stream.</source>
+          <target state="translated">부분 콘텐츠 스트림의 압축 옵션을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CompressionOption is a read-only property that can be accessed only when the parent &lt;xref:System.IO.Packaging.Package&gt; is open.</source>
+          <target state="translated">CompressionOption 액세스할 수 있는 읽기 전용 속성은 경우에만 부모 &lt;xref:System.IO.Packaging.Package&gt;열려.&lt;/xref:System.IO.Packaging.Package&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CompressionOption property is automatically set by the &lt;xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">CompressionOption 속성이 자동 설정 됩니다는 &lt;xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt;생성자.&lt;/xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After it is set by the constructor, the CompressionOption cannot be changed.</source>
+          <target state="translated">생성자에 의해 설정 된 후에 CompressionOption 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The compression option of the part content stream.</source>
+          <target state="translated">부분 콘텐츠 스트림의 압축 옵션입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets the <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> type of the content stream.</source>
+          <target state="translated">가져옵니다는 <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 콘텐츠 스트림의 유형입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ContentType is a read-only property that can be accessed only when the parent &lt;xref:System.IO.Packaging.Package&gt; is open.</source>
+          <target state="translated">ContentType 속성은 읽기 전용 속성 액세스할 수 있는 경우에만 부모 &lt;xref:System.IO.Packaging.Package&gt;열려.&lt;/xref:System.IO.Packaging.Package&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ContentType property is automatically set by the &lt;xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">ContentType 속성은 자동 설정 됩니다는 &lt;xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt;생성자.&lt;/xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After it is set by the constructor, the ContentType cannot be changed.</source>
+          <target state="translated">생성자에 의해 설정 된 후에 ContentType는 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ContentType property is a <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> type formed in accordance with the <bpt id="p1">[</bpt>RFC 2616<ept id="p1">](http://www.w3.org/Protocols/rfc2616/rfc2616.html)</ept> <bpt id="p2">*</bpt>Hypertext Transfer Protocol - HTTP<ept id="p2">*</ept>, Section 3.7.</source>
+          <target state="translated">ContentType 속성은 한 <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 형식에 따라 구성의 <bpt id="p1">[</bpt>RFC 2616<ept id="p1">](http://www.w3.org/Protocols/rfc2616/rfc2616.html)</ept> <bpt id="p2">*</bpt>Hypertext Transfer Protocol-HTTP<ept id="p2">*</ept>, 섹션 3.7 합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows an example of the content <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> types used in <ph id="ph2">[!INCLUDE[TLA#tla_xps](~/add/includes/tlasharptla-xps-md.md)]</ph> documents.</source>
+          <target state="translated">다음 표에서 콘텐츠 예를 들어 <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 에 사용 되는 형식 <ph id="ph2">[!INCLUDE[TLA#tla_xps](~/add/includes/tlasharptla-xps-md.md)]</ph> 문서.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Description|Content Type|   |-----------------|------------------|   |Font|application/vnd.ms-opentype|   |ICC profile|application/vnd.ms-color.iccprofile|   |JPEG image|image/jpeg|   |Obfuscated font|application/vnd.ms-package.obfuscated-opentype|   |PNG image|image/png|   |PrintTicket|application/vnd.ms-printing.printticket+xml|   |TIFF image|image/tiff|   |Windows Media Photo image|image/vnd.ms-photo|</source>
+          <target state="translated">| 설명 | 콘텐츠 형식 |   |-----------------|------------------|   | 글꼴 | 응용 프로그램/vnd.ms opentype |   | ICC profile|application/vnd.ms-color.iccprofile|   | JPEG 이미지 | jpeg 이미지 / |   | 난독 처리 된 font|application/vnd.ms-package.obfuscated-opentype|   | PNG 이미지 | png 이미지 / |   | PrintTicket|application/vnd.ms-printing.printticket+xml|   | TIFF 이미지 | 이미지/tiff |   | Windows 미디어 사진 이미지 | 이미지/vnd.ms-사진 |</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> type of the content data stream for the part.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 파트에 대 한 콘텐츠 데이터 스트림의 유형입니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close<bpt id="p2">*</bpt>&gt; has been called).       -or-       The string returned by the derived class &lt;xref:System.IO.Packaging.PackagePart.GetContentTypeCore<ept id="p2">*</ept>&gt; method is empty.</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; 호출한).       -또는-는 파생된 클래스에 의해 반환 되는 문자열 &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; 메서드는 비어 있습니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Creates a part-level relationship between this <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a specified target <bpt id="p2">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or external resource.</source>
+          <target state="translated">이 간에 파트 수준 관계 <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정 된 대상 <bpt id="p2">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 또는 외부 리소스입니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A part-level relationship defines an association between this part and a target part or resource.</source>
+          <target state="translated">파트 수준 관계가이 일부 대상 파트 또는 리소스 간의 연결을 정의 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A part-level relationship can be one of two forms.</source>
+          <target state="translated">파트 수준 관계는 다음 두 형식 중 하나일 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Between a source &lt;xref:System.IO.Packaging.PackagePart&gt; to a target &lt;xref:System.IO.Packaging.PackagePart&gt; inside the &lt;xref:System.IO.Packaging.Package&gt;.</source>
+          <target state="translated">-사이는 소스를 &lt;xref:System.IO.Packaging.PackagePart&gt;를 대상 &lt;xref:System.IO.Packaging.PackagePart&gt; &lt;xref:System.IO.Packaging.Package&gt;.&lt;/xref:System.IO.Packaging.Package&gt; 내&lt;/xref:System.IO.Packaging.PackagePart&gt; 에&lt;/xref:System.IO.Packaging.PackagePart&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Between a source &lt;xref:System.IO.Packaging.PackagePart&gt; to a target resource outside the package.</source>
+          <target state="translated">-간의 &lt;xref:System.IO.Packaging.PackagePart&gt;패키지 외부의 대상 리소스에.&lt;/xref:System.IO.Packaging.PackagePart&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a part-relationship the source part is considered the "owner" of the relationship.</source>
+          <target state="translated">파트 관계 소스 파트 관계의 "소유자"로 간주 됩니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the source part is deleted, all the relationships owned by the part are also deleted.</source>
+          <target state="translated">소스 파트를 삭제 하면 부분이 소유 하는 모든 관계도 삭제 됩니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The process of creating or deleting the relationship does not physically alter the target part or resource in any way.</source>
+          <target state="translated">대상 파트나 리소스 어떤 방식으로든에서 만들거나 관계 삭제 프로세스 물리적으로 변경 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateRelationship method does not physically change either the source part, or the target part or resource in any way.</source>
+          <target state="translated">소스 파트 또는 대상 파트 또는 어떤 방식으로든에서 리소스 CreateRelationship 메서드는 실제로 변경 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The target of a relationship cannot be another relationship.</source>
+          <target state="translated">관계의 대상 다른 관계를 지정할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`targetMode`</ph> is specified as &lt;xref:System.IO.Packaging.TargetMode&gt;, <ph id="ph2">`targetUri`</ph> must be a relative URI that is formed in accordance with the <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>Uniform Resource Identifier (URI) Generic Syntax<ept id="p2">*</ept> specification.</source>
+          <target state="translated">경우 <ph id="ph1">`targetMode`</ph> 로 지정 된 &lt;xref:System.IO.Packaging.TargetMode&gt;, <ph id="ph2">`targetUri`</ph> 에 따라 구성 되는 상대 URI 이어야 합니다는 <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>식별자 URI (Uniform Resource) 일반 구문을<ept id="p2">*</ept> 사양.&lt;/xref:System.IO.Packaging.TargetMode&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The internal relative URI can be either an absolute path that starts with a forward slash ("/") character such as "/page1.xaml" or "/images/picture4.jpg", or a relative path such as "../imagespicture1.jpg" that resolves against the package root ("/") as the base URI.</source>
+          <target state="translated">내부 상대 URI 수는 절대 경로일 수로 시작 하는 슬래시 ("/") 문자와 같은 "/ page1.xaml" 또는 "/ images/picture4.jpg", 또는 상대 경로와 같은 "... / imagespicture1.jpg "패키지 루트에 대해 ("/ ")로 기본 URI를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`targetMode`</ph> is specified as &lt;xref:System.IO.Packaging.TargetMode&gt;, <ph id="ph2">`targetUri`</ph> can be either an absolute or relative URI formed in accordance with the <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>Uniform Resource Identifier (URI) Generic Syntax<ept id="p2">*</ept> specification.</source>
+          <target state="translated">경우 <ph id="ph1">`targetMode`</ph> 로 지정 된 &lt;xref:System.IO.Packaging.TargetMode&gt;, <ph id="ph2">`targetUri`</ph> 에 따라 만든 상대 URI 또는 절대 중 하나가 될 수 있습니다는 <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>식별자 URI (Uniform Resource) 일반 구문을<ept id="p2">*</ept> 사양.&lt;/xref:System.IO.Packaging.TargetMode&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>"http://www.microsoft.com/page2.xml" is an example of an absolute URI that references an external target resource "page2.xml".</source>
+          <target state="translated">"http://www.microsoft.com/page2.xml"는 대상 외부 리소스 "page2.xml"를 참조 하는 절대 URI의 예시입니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>"images/picture1.jpg" is an example of a relative URI that also references an external target resource "1.jpg" but which resolves against the URI of the package itself.</source>
+          <target state="translated">"images/picture1.jpg"는는 외부 대상 리소스 "1.jpg"는 해결 되지만 패키지 자체의 URI에 대해를 참조 하는 상대 URI의 예시입니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`relationshipType`</ph> must be a <ph id="ph2">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> that is formed according to the <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>Uniform Resource Identifier (URI) Generic Syntax<ept id="p2">*</ept> specification.</source>
+          <target state="translated"><ph id="ph1">`relationshipType`</ph>있어야는 <ph id="ph2">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 에 따라 형식이 <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>식별자 URI (Uniform Resource) 일반 구문을<ept id="p2">*</ept> 사양입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Different package types can define different part-level relationship types.</source>
+          <target state="translated">다른 패키지 형식은 다른 파트 수준 관계 유형을 정의할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the part-level <ph id="ph1">`relationshipType`</ph> URIs defined for documents that conform to the <bpt id="p1">*</bpt>Open XML Paper Specification (XPS)<ept id="p1">*</ept>.</source>
+          <target state="translated">다음 표에 나와 파트 수준 <ph id="ph1">`relationshipType`</ph> 준수 하는 문서에 대해 정의 된 Uri는 <bpt id="p1">*</bpt>Open XPS XML Paper Specification ()<ept id="p1">*</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|XPS Document Part-Level Relationship|Relationship Type URI|   |-------------------------------------------|---------------------------|   |Digital Signature Definitions|<bpt id="p1">[</bpt>http://schemas.microsoft.com/xps/2005/06/signature-definitions<ept id="p1">](http://schemas.microsoft.com/xps/2005/06/signature-definitions)</ept>|   |DiscardControl|http://schemas.microsoft.com/xps/2005/06/discard-control|   |DocumentStructure|http://schemas.microsoft.com/xps/2005/06/documentstructure|   |PrintTicket|http://schemas.microsoft.com/xps/2005/06/printticket|   |Required Resource|http://schemas.microsoft.com/xps/2005/06/required-resource|   |Restricted Font|http://schemas.microsoft.com/xps/2005/06/restricted-font|   |StartPart|http://schemas.microsoft.com/xps/2005/06/fixedrepresentation|   |StoryFragments|http://schemas.microsoft.com/xps/2005/06/storyfragments|       For more information about package relationships see section 1.3 of the <bpt id="p2">*</bpt>Open Packaging Conventions (OPC)<ept id="p2">*</ept> specification available for download at <bpt id="p3">[</bpt>http://go.microsoft.com/fwlink/?LinkID=71255<ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=71255)</ept>.</source>
+          <target state="translated">| XPS 문서 파트 수준 관계 | 관계 유형 URI |   |-------------------------------------------|---------------------------|   | 디지털 서명 정의 | <bpt id="p1">[</bpt>http://schemas.microsoft.com/xps/2005/06/signature-definitions<ept id="p1">](http://schemas.microsoft.com/xps/2005/06/signature-definitions)</ept>|   | DiscardControl | http://schemas.microsoft.com/xps/2005/06/discard-control |   | DocumentStructure | http://schemas.microsoft.com/xps/2005/06/documentstructure |   | PrintTicket | http://schemas.microsoft.com/xps/2005/06/printticket |   | 필요한 리소스 | http://schemas.microsoft.com/xps/2005/06/required-resource |   | 글꼴 제한 | http://schemas.microsoft.com/xps/2005/06/restricted-font |   | StartPart | http://schemas.microsoft.com/xps/2005/06/fixedrepresentation |   | StoryFragments | http://schemas.microsoft.com/xps/2005/06/storyfragments |       패키지 관계에 대 한 자세한 내용은 1.3의 섹션을 참조 하십시오.는 <bpt id="p2">*</bpt>열려 패키징 규칙 (OPC)<ept id="p2">*</ept> 사양에서 다운로드할 수 <bpt id="p3">[</bpt>http://go.microsoft.com/fwlink/?LinkID=71255<ept id="p3">](http://go.microsoft.com/fwlink/?LinkID=71255)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about XPS documents see the <bpt id="p1">*</bpt>Open XML Paper Specification (XPS)<ept id="p1">*</ept> available for download at <bpt id="p2">[</bpt>http://go.microsoft.com/fwlink/?LinkID=67000<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=67000)</ept>.</source>
+          <target state="translated">XPS에 대 한 자세한 내용은 문서에 대 한는 <bpt id="p1">*</bpt>Open XPS XML Paper Specification ()<ept id="p1">*</ept> 에서 다운로드할 수 <bpt id="p2">[</bpt>http://go.microsoft.com/fwlink/?LinkID=67000<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=67000)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> of the target part.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 대상 파트의 합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values.</source>
+          <target state="translated">열거형 값 중 하나입니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For example, <bpt id="p1">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the target part is inside the <bpt id="p2">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; or <bpt id="p3">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the target is a resource outside the <bpt id="p4">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">예를 들어 <bpt id="p1">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 대상 파트 안에 있으면는 <bpt id="p2">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; 또는 <bpt id="p3">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 대상이 있는 경우 외부의 리소스는 <bpt id="p4">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The role of the relationship.</source>
+          <target state="translated">관계의 역할입니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The part-level relationship between this <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the target <bpt id="p2">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or external resource.</source>
+          <target state="translated">이 파트 수준 관계 <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 대상 <bpt id="p2">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 또는 외부 리소스입니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;targetUri&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;relationshipType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;targetUri&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;relationshipType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetMode</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid <bpt id="p2">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration value.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">targetMode</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수가 유효 하지 않거나 <bpt id="p2">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 열거형 값입니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The part identified by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetUri</ph><ept id="p1">&lt;/code&gt;</ept> is a relationship (the target of a relationship cannot be another relationship).</source>
+          <target state="translated">로 식별 되는 파트는 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">targetUri</ph> <ept id="p1">&lt;/code&gt;</ept> 관계 (관계의 대상 다른 관계 수 없음)입니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetMode</ph><ept id="p1">&lt;/code&gt;</ept> is specified as <bpt id="p2">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> but <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">targetUri</ph><ept id="p3">&lt;/code&gt;</ept> is an absolute external <ph id="ph3">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>.</source>
+          <target state="translated">-or-       <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetMode</ph><ept id="p1">&lt;/code&gt;</ept> is specified as <bpt id="p2">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> but <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">targetUri</ph><ept id="p3">&lt;/code&gt;</ept> is an absolute external <ph id="ph3">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The package is read-only (a new relationship cannot be added).</source>
+          <target state="translated">패키지는 읽기 전용 (새 관계를 추가할 수 없습니다.).</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Creates a part-level relationship between this <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a specified target <bpt id="p2">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or external resource.</source>
+          <target state="translated">이 간에 파트 수준 관계 <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정 된 대상 <bpt id="p2">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 또는 외부 리소스입니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A part-level relationship defines an association between this part and a target part or resource.</source>
+          <target state="translated">파트 수준 관계가이 일부 대상 파트 또는 리소스 간의 연결을 정의 합니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A part-level relationship can be one of two forms.</source>
+          <target state="translated">파트 수준 관계는 다음 두 형식 중 하나일 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Between a source &lt;xref:System.IO.Packaging.PackagePart&gt; to a target &lt;xref:System.IO.Packaging.PackagePart&gt; inside the &lt;xref:System.IO.Packaging.Package&gt;.</source>
+          <target state="translated">-사이는 소스를 &lt;xref:System.IO.Packaging.PackagePart&gt;를 대상 &lt;xref:System.IO.Packaging.PackagePart&gt; &lt;xref:System.IO.Packaging.Package&gt;.&lt;/xref:System.IO.Packaging.Package&gt; 내&lt;/xref:System.IO.Packaging.PackagePart&gt; 에&lt;/xref:System.IO.Packaging.PackagePart&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Between a source &lt;xref:System.IO.Packaging.PackagePart&gt; to a target resource outside the package.</source>
+          <target state="translated">-간의 &lt;xref:System.IO.Packaging.PackagePart&gt;패키지 외부의 대상 리소스에.&lt;/xref:System.IO.Packaging.PackagePart&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a part-relationship the source part is considered the "owner" of the relationship.</source>
+          <target state="translated">파트 관계 소스 파트 관계의 "소유자"로 간주 됩니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the source part is deleted, all the relationships owned by the part are also deleted.</source>
+          <target state="translated">소스 파트를 삭제 하면 부분이 소유 하는 모든 관계도 삭제 됩니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The process of creating or deleting the relationship does not physically alter the target part or resource in any way.</source>
+          <target state="translated">대상 파트나 리소스 어떤 방식으로든에서 만들거나 관계 삭제 프로세스 물리적으로 변경 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`id`</ph> must be a valid XML identifier.</source>
+          <target state="translated"><ph id="ph1">`id`</ph>유효한 XML 식별자 여야 합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`id`</ph> type is xsd:ID and must follow the naming conventions prescribed in the <bpt id="p1">*</bpt>XML Schema Part 2: Datatypes<ept id="p1">*</ept> specification (see <bpt id="p2">[</bpt>http://www.w3.org/TR/xmlschema-2/#ID<ept id="p2">](http://www.w3.org/TR/xmlschema-2/)</ept>).</source>
+          <target state="translated"><ph id="ph1">`id`</ph> 형식은 xsd: id 이며에 설명 된 명명 규칙을 따라야는 <bpt id="p1">*</bpt>XML 스키마 2 부: Datatypes<ept id="p1">*</ept> 사양 (참조 <bpt id="p2">[</bpt>http://www.w3.org/TR/xmlschema-2/#ID<ept id="p2">](http://www.w3.org/TR/xmlschema-2/)</ept>).</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateRelationship method does not physically change either the source part, or the target part or resource in any way.</source>
+          <target state="translated">소스 파트 또는 대상 파트 또는 어떤 방식으로든에서 리소스 CreateRelationship 메서드는 실제로 변경 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The target of a relationship cannot be another relationship.</source>
+          <target state="translated">관계의 대상 다른 관계를 지정할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`targetMode`</ph> is specified as &lt;xref:System.IO.Packaging.TargetMode&gt;, <ph id="ph2">`targetUri`</ph> must be a relative URI that is formed in accordance with the <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>Uniform Resource Identifier (URI) Generic Syntax<ept id="p2">*</ept> specification.</source>
+          <target state="translated">경우 <ph id="ph1">`targetMode`</ph> 로 지정 된 &lt;xref:System.IO.Packaging.TargetMode&gt;, <ph id="ph2">`targetUri`</ph> 에 따라 구성 되는 상대 URI 이어야 합니다는 <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>식별자 URI (Uniform Resource) 일반 구문을<ept id="p2">*</ept> 사양.&lt;/xref:System.IO.Packaging.TargetMode&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The internal relative URI can be either an absolute path that starts with a forward slash ("/") character such as "/page1.xaml" or "/images/picture4.jpg", or a relative path such as "../imagespicture1.jpg" that resolves against the package root ("/") as the base URI.</source>
+          <target state="translated">내부 상대 URI 수는 절대 경로일 수로 시작 하는 슬래시 ("/") 문자와 같은 "/ page1.xaml" 또는 "/ images/picture4.jpg", 또는 상대 경로와 같은 "... / imagespicture1.jpg "패키지 루트에 대해 ("/ ")로 기본 URI를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`targetMode`</ph> is specified as &lt;xref:System.IO.Packaging.TargetMode&gt;, <ph id="ph2">`targetUri`</ph> can be either an absolute or relative URI formed in accordance with the <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>Uniform Resource Identifier (URI) Generic Syntax<ept id="p2">*</ept> specification.</source>
+          <target state="translated">경우 <ph id="ph1">`targetMode`</ph> 로 지정 된 &lt;xref:System.IO.Packaging.TargetMode&gt;, <ph id="ph2">`targetUri`</ph> 에 따라 만든 상대 URI 또는 절대 중 하나가 될 수 있습니다는 <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>식별자 URI (Uniform Resource) 일반 구문을<ept id="p2">*</ept> 사양.&lt;/xref:System.IO.Packaging.TargetMode&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>"http://www.microsoft.com/page2.xml" is an example of an absolute URI that references an external target resource "page2.xml".</source>
+          <target state="translated">"http://www.microsoft.com/page2.xml"는 대상 외부 리소스 "page2.xml"를 참조 하는 절대 URI의 예시입니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>"images/picture1.jpg" is an example of a relative URI that also references an external target resource "1.jpg" but which resolves against the URI of the package itself.</source>
+          <target state="translated">"images/picture1.jpg"는는 외부 대상 리소스 "1.jpg"는 해결 되지만 패키지 자체의 URI에 대해를 참조 하는 상대 URI의 예시입니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`relationshipType`</ph> must be a <ph id="ph2">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> that is formed according to the <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>Uniform Resource Identifier (URI) Generic Syntax<ept id="p2">*</ept> specification.</source>
+          <target state="translated"><ph id="ph1">`relationshipType`</ph>있어야는 <ph id="ph2">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 에 따라 형식이 <bpt id="p1">[</bpt>RFC 3986<ept id="p1">](http://tools.ietf.org/html/rfc3986)</ept> <bpt id="p2">*</bpt>식별자 URI (Uniform Resource) 일반 구문을<ept id="p2">*</ept> 사양입니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Different package types can define different part-level relationship types.</source>
+          <target state="translated">다른 패키지 형식은 다른 파트 수준 관계 유형을 정의할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the part-level <ph id="ph1">`relationshipType`</ph> URIs defined for documents that conform to the <bpt id="p1">*</bpt>Open XML Paper Specification (XPS)<ept id="p1">*</ept>.</source>
+          <target state="translated">다음 표에 나와 파트 수준 <ph id="ph1">`relationshipType`</ph> 준수 하는 문서에 대해 정의 된 Uri는 <bpt id="p1">*</bpt>Open XPS XML Paper Specification ()<ept id="p1">*</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|XPS Document Part-Level Relationship|Relationship Type URI|   |-------------------------------------------|---------------------------|   |Digital Signature Definitions|http://schemas.microsoft.com/xps/2005/06/signature-definitions|   |DiscardControl|http://schemas.microsoft.com/xps/2005/06/discard-control|   |DocumentStructure|http://schemas.microsoft.com/xps/2005/06/documentstructure|   |PrintTicket|http://schemas.microsoft.com/xps/2005/06/printticket|   |Required Resource|http://schemas.microsoft.com/xps/2005/06/required-resource|   |Restricted Font|http://schemas.microsoft.com/xps/2005/06/restricted-font|   |StartPart|http://schemas.microsoft.com/xps/2005/06/fixedrepresentation|   |StoryFragments|http://schemas.microsoft.com/xps/2005/06/storyfragments|       For more information about package relationships see section 1.3 of the <bpt id="p1">*</bpt>Open Packaging Conventions (OPC)<ept id="p1">*</ept> specification available for download at <bpt id="p2">[</bpt>http://go.microsoft.com/fwlink/?LinkID=71255<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=71255)</ept>.</source>
+          <target state="translated">| XPS 문서 파트 수준 관계 | 관계 유형 URI |   |-------------------------------------------|---------------------------|   | 디지털 서명 정의 | http://schemas.microsoft.com/xps/2005/06/signature-definitions |   | DiscardControl | http://schemas.microsoft.com/xps/2005/06/discard-control |   | DocumentStructure | http://schemas.microsoft.com/xps/2005/06/documentstructure |   | PrintTicket | http://schemas.microsoft.com/xps/2005/06/printticket |   | 필요한 리소스 | http://schemas.microsoft.com/xps/2005/06/required-resource |   | 글꼴 제한 | http://schemas.microsoft.com/xps/2005/06/restricted-font |   | StartPart | http://schemas.microsoft.com/xps/2005/06/fixedrepresentation |   | StoryFragments | http://schemas.microsoft.com/xps/2005/06/storyfragments |       패키지 관계에 대 한 자세한 내용은 1.3의 섹션을 참조 하십시오.는 <bpt id="p1">*</bpt>열려 패키징 규칙 (OPC)<ept id="p1">*</ept> 사양에서 다운로드할 수 <bpt id="p2">[</bpt>http://go.microsoft.com/fwlink/?LinkID=71255<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=71255)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about XPS documents see the <bpt id="p1">*</bpt>Open XML Paper Specification (XPS)<ept id="p1">*</ept> available for download at <bpt id="p2">[</bpt>http://go.microsoft.com/fwlink/?LinkID=67000<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=67000)</ept>.</source>
+          <target state="translated">XPS에 대 한 자세한 내용은 문서에 대 한는 <bpt id="p1">*</bpt>Open XPS XML Paper Specification ()<ept id="p1">*</ept> 에서 다운로드할 수 <bpt id="p2">[</bpt>http://go.microsoft.com/fwlink/?LinkID=67000<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=67000)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> of the target part.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 대상 파트의 합니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values.</source>
+          <target state="translated">열거형 값 중 하나입니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>For example, <bpt id="p1">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the target part is inside the <bpt id="p2">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; or <bpt id="p3">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the target is a resource outside the <bpt id="p4">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">예를 들어 <bpt id="p1">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 대상 파트 안에 있으면는 <bpt id="p2">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; 또는 <bpt id="p3">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 대상이 있는 경우 외부의 리소스는 <bpt id="p4">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The role of the relationship.</source>
+          <target state="translated">관계의 역할입니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>A unique ID for the relationship.</source>
+          <target state="translated">관계에 대 한 고유 ID입니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The part-level relationship between this <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the target <bpt id="p2">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or external resource.</source>
+          <target state="translated">이 파트 수준 관계 <bpt id="p1">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 대상 <bpt id="p2">&lt;xref href="System.IO.Packaging.PackagePart"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 또는 외부 리소스입니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;targetUri&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;relationshipType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;targetUri&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;relationshipType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetMode</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid <bpt id="p2">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration value.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">targetMode</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수가 유효 하지 않거나 <bpt id="p2">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 열거형 값입니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The part identified by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetUri</ph><ept id="p1">&lt;/code&gt;</ept> is a relationship (the target of a relationship cannot be another relationship).</source>
+          <target state="translated">로 식별 되는 파트는 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">targetUri</ph> <ept id="p1">&lt;/code&gt;</ept> 관계 (관계의 대상 다른 관계 수 없음)입니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetMode</ph><ept id="p1">&lt;/code&gt;</ept> is specified as <bpt id="p2">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> but <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">targetUri</ph><ept id="p3">&lt;/code&gt;</ept> is an absolute external <ph id="ph3">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>.</source>
+          <target state="translated">-or-       <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetMode</ph><ept id="p1">&lt;/code&gt;</ept> is specified as <bpt id="p2">&lt;xref href="System.IO.Packaging.TargetMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> but <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">targetUri</ph><ept id="p3">&lt;/code&gt;</ept> is an absolute external <ph id="ph3">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The package is read-only (a new relationship cannot be added).</source>
+          <target state="translated">패키지는 읽기 전용 (새 관계를 추가할 수 없습니다.).</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph> is not a valid XML identifier.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph>유효한 XML 식별자가 아닙니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-or-       A part with the specified <ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph> already exists.</source>
+          <target state="translated">-또는-지정 된 일부 <ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph> 이미 있습니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Deletes a specified part-level <bpt id="p1">&lt;xref href="System.IO.Packaging.PackageRelationship"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">지정 된 파트 수준 삭제 <bpt id="p1">&lt;xref href="System.IO.Packaging.PackageRelationship"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`id`</ph> must be a valid XML identifier.</source>
+          <target state="translated"><ph id="ph1">`id`</ph>유효한 XML 식별자 여야 합니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`id`</ph> type is xsd:ID and must follow the naming conventions prescribed in the <bpt id="p1">*</bpt>XML Schema Part 2: Datatypes<ept id="p1">*</ept> specification (see <bpt id="p2">[</bpt>http://www.w3.org/TR/xmlschema-2/#ID<ept id="p2">](http://www.w3.org/TR/xmlschema-2/)</ept>).</source>
+          <target state="translated"><ph id="ph1">`id`</ph> 형식은 xsd: id 이며에 설명 된 명명 규칙을 따라야는 <bpt id="p1">*</bpt>XML 스키마 2 부: Datatypes<ept id="p1">*</ept> 사양 (참조 <bpt id="p2">[</bpt>http://www.w3.org/TR/xmlschema-2/#ID<ept id="p2">](http://www.w3.org/TR/xmlschema-2/)</ept>).</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified <ph id="ph1">`id`</ph> does not match the &lt;xref:System.IO.Packaging.PackageRelationship.Id%2A&gt; for any of the relationships that are owned by this part, no relationship is deleted and no exception is thrown.</source>
+          <target state="translated">하는 경우 지정 된 <ph id="ph1">`id`</ph> 일치 하지 않습니다는 &lt;xref:System.IO.Packaging.PackageRelationship.Id%2A&gt;이 부분이 소유 하는 관계의 모든에 대해 어떠한 관계도 삭제 되 고 예외가 throw 되지 않습니다.&lt;/xref:System.IO.Packaging.PackageRelationship.Id%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other than deleting the specified relationship, the DeleteRelationship method does not physically change either this part or the target part.</source>
+          <target state="translated">지정된 된 관계를 삭제, 이외의 DeleteRelationship 메서드가 실제로 변경 하지 않습니다이 부분 또는 대상 부분입니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Packaging.PackageRelationship.Id*&gt; of the relationship to delete.</source>
+          <target state="translated">&lt;xref:System.IO.Packaging.PackageRelationship.Id*&gt;삭제에 대 한 관계의.&lt;/xref:System.IO.Packaging.PackageRelationship.Id*&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The package is read-only (relationships cannot be deleted).</source>
+          <target state="translated">패키지는 읽기 전용 (관계를 삭제할 수 없음).</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph> is not a valid XML identifier.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph>유효한 XML 식별자가 아닙니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> type of the part content.</source>
+          <target state="translated">파생된 클래스에서 재정의 되는 경우는 <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 파트 콘텐츠의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetContentTypeCore is a virtual method of the &lt;xref:System.IO.Packaging.PackagePart&gt; abstract base class.</source>
+          <target state="translated">GetContentTypeCore는 &lt;xref:System.IO.Packaging.PackagePart&gt;추상 기본 클래스&lt;/xref:System.IO.Packaging.PackagePart&gt; 의 가상 메서드</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement this method only in derived types where the value for the content type cannot be provided at the time of construction, or if calculating the content type value is a nontrivial or costly operation.</source>
+          <target state="translated">파생된 형식, 작성 시간에 콘텐츠 형식에 대 한 값 없습니다 제공 하는 경우에이 메서드를 구현 하거나 콘텐츠 형식 값은 nontrivial 또는 비용이 많이 드는 작업 합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value must be a valid <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> content type.</source>
+          <target state="translated">반환 값은 올바른 이어야 합니다 <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 콘텐츠 형식입니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derived classes can call GetContentTypeCore to initialize the &lt;xref:System.IO.Packaging.PackagePart.ContentType%2A&gt; property of the derived class to a default value.</source>
+          <target state="translated">파생된 클래스에서 GetContentTypeCore 초기화를 호출할 수 있습니다는 &lt;xref:System.IO.Packaging.PackagePart.ContentType%2A&gt;기본값에 파생된 클래스의 속성입니다.&lt;/xref:System.IO.Packaging.PackagePart.ContentType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the &lt;xref:System.IO.Packaging.PackagePart.ContentType%2A&gt; property has been set it cannot be changed.</source>
+          <target state="translated">후의 &lt;xref:System.IO.Packaging.PackagePart.ContentType%2A&gt;속성이 설정 되어이 변경할 수 없습니다.&lt;/xref:System.IO.Packaging.PackagePart.ContentType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> type of the part content.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_mime](~/add/includes/tla2sharptla-mime-md.md)]</ph> 파트 콘텐츠의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The derived class does not provide an override implementation required for the GetContentTypeCore method.</source>
+          <target state="translated">파생된 클래스에서 GetContentTypeCore 메서드에 대 한 필요한 재정의 구현을 제공 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Returns the relationship that has a specified &lt;xref:System.IO.Packaging.PackageRelationship.Id*&gt;.</source>
+          <target state="translated">에 지정 된 &lt;xref:System.IO.Packaging.PackageRelationship.Id*&gt;.&lt;/xref:System.IO.Packaging.PackageRelationship.Id*&gt; 를 가진 관계를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`id`</ph> must be a valid XML identifier.</source>
+          <target state="translated"><ph id="ph1">`id`</ph>유효한 XML 식별자 여야 합니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`id`</ph> type is xsd:ID and must follow the naming conventions prescribed in the <bpt id="p1">*</bpt>XML Schema Part 2: Datatypes<ept id="p1">*</ept> specification (see <bpt id="p2">[</bpt>http://www.w3.org/TR/xmlschema-2/#ID<ept id="p2">](http://www.w3.org/TR/xmlschema-2/)</ept>).</source>
+          <target state="translated"><ph id="ph1">`id`</ph> 형식은 xsd: id 이며에 설명 된 명명 규칙을 따라야는 <bpt id="p1">*</bpt>XML 스키마 2 부: Datatypes<ept id="p1">*</ept> 사양 (참조 <bpt id="p2">[</bpt>http://www.w3.org/TR/xmlschema-2/#ID<ept id="p2">](http://www.w3.org/TR/xmlschema-2/)</ept>).</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.IO.Packaging.PackagePart.RelationshipExists%2A&gt; method to determine if a relationship with a specified &lt;xref:System.IO.Packaging.PackageRelationship.Id%2A&gt; is owned by this part.</source>
+          <target state="translated">&lt;xref:System.IO.Packaging.PackagePart.RelationshipExists%2A&gt; &lt;xref:System.IO.Packaging.PackageRelationship.Id%2A&gt;이 파트가 소유 하 고&lt;/xref:System.IO.Packaging.PackageRelationship.Id%2A&gt; 는 지정 된 관계를 확인 하는 메서드&lt;/xref:System.IO.Packaging.PackagePart.RelationshipExists%2A&gt; 를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Packaging.PackageRelationship.Id*&gt; of the relationship to return.</source>
+          <target state="translated">&lt;xref:System.IO.Packaging.PackageRelationship.Id*&gt;반환 하는 관계의.&lt;/xref:System.IO.Packaging.PackageRelationship.Id*&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The relationship that matches the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">id</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">지정 된 일치 하는 관계 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">id</ph> <ept id="p1">&lt;/code&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph> is not a valid XML identifier.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph>유효한 XML 식별자가 아닙니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;relationshipType&lt;/code&gt;</ph> is an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;relationshipType&lt;/code&gt;</ph>빈 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>-or-       A relationship with the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">id</ph><ept id="p1">&lt;/code&gt;</ept> does not exist in the package.</source>
+          <target state="translated">-또는-지정 된 관계 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">id</ph> <ept id="p1">&lt;/code&gt;</ept> 패키지에 없습니다.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The package is write-only (relationship information cannot be read).</source>
+          <target state="translated">패키지는 쓰기 전용 (관계 정보를 읽을 수 없습니다.).</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Returns a collection of all the relationships that are owned by this part.</source>
+          <target state="translated">이 부분이 소유 하는 모든 관계의 컬렉션을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned collection is never <ph id="ph1">`null`</ph>; however, the collection might contain zero elements if the part does not define any relationships.</source>
+          <target state="translated">반환 된 컬렉션은 <ph id="ph1">`null`</ph>있지만 부품 관계를 정의 하지 않는 경우 컬렉션 요소가 포함 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>A collection of all the relationships that are owned by the part.</source>
+          <target state="translated">부분에서 소유 하는 모든 관계의 컬렉션입니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The package is write-only (relationship information cannot be read).</source>
+          <target state="translated">패키지는 쓰기 전용 (관계 정보를 읽을 수 없습니다.).</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Returns a collection of the relationships that match a specified &lt;xref:System.IO.Packaging.PackageRelationship.RelationshipType*&gt;.</source>
+          <target state="translated">에 지정 된 &lt;xref:System.IO.Packaging.PackageRelationship.RelationshipType*&gt;.&lt;/xref:System.IO.Packaging.PackageRelationship.RelationshipType*&gt; 일치 하는 관계의 컬렉션을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned collection is never <ph id="ph1">`null`</ph>; however, the collection might contain zero elements if no relationships match the specified <ph id="ph2">`relationshipType`</ph> that is defined for the part.</source>
+          <target state="translated">반환 된 컬렉션은 <ph id="ph1">`null`</ph>소비량이 적어지지만 관계가 없으면 지정 된 일치 하는 경우 컬렉션 요소가 포함 될 수 있습니다 <ph id="ph2">`relationshipType`</ph> 파트에 대해 정의 된 합니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any leading or trailing spaces in the <ph id="ph1">`relationshipType`</ph> string are automatically trimmed.</source>
+          <target state="translated">선행 또는 후행 공백은 <ph id="ph1">`relationshipType`</ph> 문자열 자동으로 제거 됩니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Packaging.PackageRelationship.RelationshipType*&gt; of the relationships to locate and return in the collection.</source>
+          <target state="translated">&lt;xref:System.IO.Packaging.PackageRelationship.RelationshipType*&gt;찾고 컬렉션에서 반환 하는 관계의.&lt;/xref:System.IO.Packaging.PackageRelationship.RelationshipType*&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>A collection of the relationships that match the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">relationshipType</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">지정 된 일치 하는 관계의 컬렉션 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">relationshipType</ph> <ept id="p1">&lt;/code&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;relationshipType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;relationshipType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;relationshipType&lt;/code&gt;</ph> is an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;relationshipType&lt;/code&gt;</ph>빈 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The package is write-only (relationship information cannot be read).</source>
+          <target state="translated">패키지는 쓰기 전용 (관계 정보를 읽을 수 없습니다.).</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Returns the part content data stream.</source>
+          <target state="translated">부분 콘텐츠 데이터 스트림을 반환합니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method opens the content stream with &lt;xref:System.IO.FileMode&gt; of &lt;xref:System.IO.FileMode&gt; and &lt;xref:System.IO.FileAccess&gt; permissions that are the same as the parent &lt;xref:System.IO.Packaging.Package&gt;.</source>
+          <target state="translated">이 메서드는 콘텐츠 스트림을 &lt;xref:System.IO.FileMode&gt;및 &lt;xref:System.IO.FileMode&gt; &lt;xref:System.IO.FileAccess&gt; &lt;xref:System.IO.Packaging.Package&gt;.&lt;/xref:System.IO.Packaging.Package&gt; 부모와 동일한 사용 권한&lt;/xref:System.IO.FileAccess&gt; &lt;/xref:System.IO.FileMode&gt; &lt;/xref:System.IO.FileMode&gt; 으로 엽니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The overload &lt;xref:System.IO.Packaging.PackagePart.GetStream%2A&gt; method allows you to set a specific &lt;xref:System.IO.FileMode&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.Packaging.PackagePart.GetStream%2A&gt;메서드를 사용 하면 특정 &lt;xref:System.IO.FileMode&gt;.&lt;/xref:System.IO.FileMode&gt; 를 설정할 수 있습니다&lt;/xref:System.IO.Packaging.PackagePart.GetStream%2A&gt; 오버 로드</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The content data stream for the part.</source>
+          <target state="translated">파트에 대 한 콘텐츠 데이터 스트림입니다.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The stream object returned by the &lt;xref:System.IO.Packaging.PackagePart.GetStreamCore*&gt; method of the derived subclass is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">스트림 개체에서 반환 되는 &lt;xref:System.IO.Packaging.PackagePart.GetStreamCore*&gt;파생된 하위 클래스의 메서드는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.IO.Packaging.PackagePart.GetStreamCore*&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Returns the content stream opened in a specified I/O <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">지정된 된 I/O에서 열린 콘텐츠 스트림을 반환 <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.FileAccess&gt; permissions of the returned content stream are the same as the permissions of the parent &lt;xref:System.IO.Packaging.Package&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.FileAccess&gt;반환 된 콘텐츠 스트림의 사용 권한을 부모 &lt;xref:System.IO.Packaging.Package&gt;.&lt;/xref:System.IO.Packaging.Package&gt; 의 사용 권한을와 동일&lt;/xref:System.IO.FileAccess&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The I/O mode in which to open the content stream.</source>
+          <target state="translated">콘텐츠 스트림을 열고 I/O 모드입니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The content stream of the part.</source>
+          <target state="translated">파트의 콘텐츠 스트림입니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">mode</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid <bpt id="p2">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration value.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">mode</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수가 유효 하지 않거나 <bpt id="p2">&lt;xref href="System.IO.FileMode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 열거형 값입니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">mode</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not compatible with the package and part stream.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">mode</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수는 패키지 및 파트 스트림와 호환 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>-or-       The stream object returned by the &lt;xref:System.IO.Packaging.PackagePart.GetStreamCore*&gt; method of the derived subclass is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-또는-반환 되는 스트림 개체는 &lt;xref:System.IO.Packaging.PackagePart.GetStreamCore*&gt;파생된 하위 클래스의 메서드는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.IO.Packaging.PackagePart.GetStreamCore*&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Returns the part content stream opened with a specified <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">지정 된 열린 부분 콘텐츠 스트림을 반환 <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 및 <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The I/O mode in which to open the content stream.</source>
+          <target state="translated">콘텐츠 스트림을 열고 I/O 모드입니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The access permissions to use in opening the content stream.</source>
+          <target state="translated">콘텐츠 스트림을 여는 중에 사용할 액세스 권한입니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The content stream for the part.</source>
+          <target state="translated">파트에 대 한 콘텐츠 스트림입니다.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">mode</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid <bpt id="p2">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration value.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">mode</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수가 유효 하지 않거나 <bpt id="p2">&lt;xref href="System.IO.FileMode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 열거형 값입니다.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">access</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration value.</source>
+          <target state="translated">-또는- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">access</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수가 유효 하지 않거나 <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 열거형 값입니다.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;access&lt;/code&gt;</ph> is not compatible with the package and part stream.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;mode&lt;/code&gt;</ph>또는 <ph id="ph2">&lt;code&gt;access&lt;/code&gt;</ph> 패키지 및 파트 스트림와 호환 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>-or-       The <ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph> parameter is specified as <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> but the <ph id="ph2">&lt;code&gt;mode&lt;/code&gt;</ph> parameter requires write access.</source>
+          <target state="translated">-또는- <ph id="ph1">&lt;code&gt;access&lt;/code&gt;</ph> 으로 매개 변수를 지정 하는 <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 되지만 <ph id="ph2">&lt;code&gt;mode&lt;/code&gt;</ph> 매개 변수에 대 한 쓰기 지정 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values of <bpt id="p2">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, and <bpt id="p5">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> require <bpt id="p6">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept> or <bpt id="p7">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept> access.)       -or-       The stream object returned by the <ph id="ph1">&lt;xref:System.IO.Packaging.PackagePart.GetStreamCore*&gt;</ph> method of the derived subclass is <bpt id="p8">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">(<bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values of <bpt id="p2">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, and <bpt id="p5">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> require <bpt id="p6">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept> or <bpt id="p7">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept> access.)       -또는-반환 되는 스트림 개체는 <ph id="ph1">&lt;xref:System.IO.Packaging.PackagePart.GetStreamCore*&gt;</ph> 파생된 하위 클래스의 메서드는 <bpt id="p8">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p8">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the part content stream opened with a specified <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 지정 된 열린 파트 콘텐츠 스트림을 반환 <bpt id="p1">&lt;xref href="System.IO.FileMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 및 <bpt id="p2">&lt;xref href="System.IO.FileAccess"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applications should not call GetStreamCore directly, but instead should call &lt;xref:System.IO.Packaging.PackagePart.GetStream%2A&gt;.</source>
+          <target state="translated">응용 프로그램을 직접 GetStreamCore 호출 해서는 안 되지만 &lt;xref:System.IO.Packaging.PackagePart.GetStream%2A&gt;.&lt;/xref:System.IO.Packaging.PackagePart.GetStream%2A&gt; 대신 호출 해야</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The I/O mode in which to open the content stream.</source>
+          <target state="translated">콘텐츠 스트림을 열고 I/O 모드입니다.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The access permissions to use in opening the content stream.</source>
+          <target state="translated">콘텐츠 스트림을 여는 중에 사용할 액세스 권한입니다.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The content data stream of the part.</source>
+          <target state="translated">파트의 콘텐츠 데이터 스트림입니다.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Gets the parent <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the part.</source>
+          <target state="translated">부모를 가져옵니다 <bpt id="p1">&lt;xref href="System.IO.Packaging.Package"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 부분의 합니다.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Package is a read-only property that can be accessed only when the parent &lt;xref:System.IO.Packaging.Package&gt; is open.</source>
+          <target state="translated">패키지에 액세스할 수 있는 읽기 전용 속성은 경우에만 부모 &lt;xref:System.IO.Packaging.Package&gt;열려.&lt;/xref:System.IO.Packaging.Package&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Package property is automatically set by the &lt;xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">패키지 속성은 자동 설정 됩니다는 &lt;xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt;생성자.&lt;/xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After it is set by the constructor, the parent Package for the part cannot be changed.</source>
+          <target state="translated">생성자에 의해 설정 된 후에 파트에 대 한 부모 패키지를 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The parent package of the part.</source>
+          <target state="translated">파트의 부모 패키지입니다.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>-or-       The Package is not open (&lt;xref:System.IO.Packaging.Package.Dispose<bpt id="p1">*</bpt>&gt; or &lt;xref:System.IO.Packaging.Package.Close<ept id="p1">*</ept>&gt; has been called).</source>
+          <target state="translated">-또는-패키지 열려 있지 않으면 (&lt;&gt;<bpt id="p1">*</bpt>&gt; 또는 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; 호출한).</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether this part owns a relationship with a specified &lt;xref:System.IO.Packaging.PackageRelationship.Id*&gt;.</source>
+          <target state="translated">이 부분에 지정 된 &lt;xref:System.IO.Packaging.PackageRelationship.Id*&gt;.&lt;/xref:System.IO.Packaging.PackageRelationship.Id*&gt; 관계 소유 하는지 여부를 나타내는 값을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`id`</ph> must be a valid XML identifier.</source>
+          <target state="translated"><ph id="ph1">`id`</ph>유효한 XML 식별자 여야 합니다.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`id`</ph> type is xsd:ID and must follow the naming conventions prescribed in the <bpt id="p1">*</bpt>XML Schema Part 2: Datatypes<ept id="p1">*</ept> specification (see <bpt id="p2">[</bpt>http://www.w3.org/TR/xmlschema-2/#ID<ept id="p2">](http://www.w3.org/TR/xmlschema-2/)</ept>).</source>
+          <target state="translated"><ph id="ph1">`id`</ph> 형식은 xsd: id 이며에 설명 된 명명 규칙을 따라야는 <bpt id="p1">*</bpt>XML 스키마 2 부: Datatypes<ept id="p1">*</ept> 사양 (참조 <bpt id="p2">[</bpt>http://www.w3.org/TR/xmlschema-2/#ID<ept id="p2">](http://www.w3.org/TR/xmlschema-2/)</ept>).</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Packaging.PackageRelationship.Id*&gt; of the relationship to check for.</source>
+          <target state="translated">&lt;xref:System.IO.Packaging.PackageRelationship.Id*&gt;&gt;for 확인에 대 한 관계의&lt;/xref:System.IO.Packaging.PackageRelationship.Id*&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this part owns a relationship with the specified <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">id</ph><ept id="p2">&lt;/code&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>이 부분에 지정 된 관계를 소유 하는 경우 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">id</ph> <ept id="p2">&lt;/code&gt;</ept>, 그렇지 않으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph> is not a valid XML identifier.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;id&lt;/code&gt;</ph>유효한 XML 식별자가 아닙니다.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The package is write-only (relationship information cannot be read).</source>
+          <target state="translated">패키지는 쓰기 전용 (관계 정보를 읽을 수 없습니다.).</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Gets the <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> of the part.</source>
+          <target state="translated">가져옵니다는 <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 부분의 합니다.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Uri is a read-only property that can be accessed only when the parent &lt;xref:System.IO.Packaging.Package&gt; is open.</source>
+          <target state="translated">Uri 속성은 읽기 전용 속성 액세스할 수 있는 경우에만 부모 &lt;xref:System.IO.Packaging.Package&gt;열려.&lt;/xref:System.IO.Packaging.Package&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Uri property is automatically set by the &lt;xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">Uri 속성은 자동 설정 됩니다는 &lt;xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt;생성자.&lt;/xref:System.IO.Packaging.PackagePart.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After it is set by the constructor, the Uri of the part cannot be changed.</source>
+          <target state="translated">생성자에 의해 설정 된 후에 파트의 Uri는 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> of the part relative to the package root.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_uri](~/add/includes/tla2sharptla-uri-md.md)]</ph> 패키지 루트에 상대적인 부분의 합니다.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The part has been deleted.</source>
+          <target state="translated">부분 삭제 되었습니다.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.IO.Packaging.PackagePart.Package<bpt id="p1">*</bpt>&gt; is not open (&lt;xref:System.IO.Packaging.Package.Dispose<ept id="p1">*</ept>&gt; or &lt;xref:System.IO.Packaging.Package.Close*&gt; has been called).</source>
+          <target state="translated">-또는- &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; 열려 있지 않으면 (&lt;&gt;<ept id="p1">*</ept>&gt; 또는 &lt;xref:System.IO.Packaging.Package.Close*&gt;호출한).&lt;/xref:System.IO.Packaging.Package.Close*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

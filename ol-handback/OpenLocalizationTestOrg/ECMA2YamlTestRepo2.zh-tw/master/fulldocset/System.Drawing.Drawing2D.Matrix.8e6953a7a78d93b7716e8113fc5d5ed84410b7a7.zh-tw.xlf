@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c62fd0c70e5ceae34f8f61ab57320ad4e8d88058</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Drawing.Drawing2D.Matrix.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2c4f3de4d717b5ac5c6ba6370cdf3dbc4696aa24</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f3819c316cb7eb56f85d0e7b263705aa6e490cb1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Encapsulates a 3-by-3 affine matrix that represents a geometric transform.</source>
+          <target state="translated">封裝代表幾何轉換的 3-3 仿射矩陣。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">這個類別無法被繼承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In <ph id="ph1">[!INCLUDE[ndptecgdiplus](~/add/includes/ndptecgdiplus-md.md)]</ph> you can store an affine transformation in a Matrix object.</source>
+          <target state="translated">在<ph id="ph1">[!INCLUDE[ndptecgdiplus](~/add/includes/ndptecgdiplus-md.md)]</ph>您可以儲存仿射轉換矩陣物件中。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Because the third column of a matrix that represents an affine transformation is always (0, 0, 1), you specify only the six numbers in the first two columns when you construct a Matrix object.</source>
+          <target state="translated">因為代表仿射轉換矩陣的第三個資料行一律是 （0，0，1），建構矩陣物件時，在前兩個資料行中指定的六個數字。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The statement <ph id="ph1">`Matrix myMatrix = new Matrix(0, 1, -1, 0, 3, 4)`</ph> constructs the matrix shown in the following figure.</source>
+          <target state="translated">陳述式<ph id="ph1">`Matrix myMatrix = new Matrix(0, 1, -1, 0, 3, 4)`</ph>建構，如下圖所示的矩陣。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Transformations<ept id="p1">]</ept><bpt id="p2">(~/add/media/aboutgdip05-art10.gif "</bpt>Transformations<ept id="p2">")</ept>      ## Composite Transformations    A composite transformation is a sequence of transformations, one followed by the other.</source>
+          <target state="translated"><bpt id="p1">![</bpt>轉換<ept id="p1">]</ept><bpt id="p2">(~/add/media/aboutgdip05-art10.gif "</bpt>轉換<ept id="p2">")</ept># # 複合轉換的複合轉換是一串轉換，後面接著另一個。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Consider the matrices and transformations in the following list:      |||   |-|-|   |Matrix A|Rotate 90 degrees|   |Matrix B|Scale by a factor of 2 in the x direction|   |Matrix C|Translate 3 units in the y direction|       If we start with the point (2, 1) — represented by the matrix [2 1 1] — and multiply by A, then B, then C, the point (2, 1) will undergo the three transformations in the order listed.</source>
+          <target state="translated">請考慮下列清單中的轉換與矩陣: | | |  |-|-|  |矩陣 A |旋轉 90 度 |  |矩陣 B |在 x 方向的 2 倍縮放 |  |矩陣 C |轉換在 y 方向的 3 個單位 |      如果我們開始點 （2，1） — 矩陣 [2 1 1] 表示的 — 乘以 A，然後 B，則 C 中，點 （2，1） 將會進行三種轉換中列出的順序。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>[2 1 1]ABC = [-2 5 1]       Rather than store the three parts of the composite transformation in three separate matrices, you can multiply A, B, and C together to get a single 3×3 matrix that stores the entire composite transformation.</source>
+          <target state="translated">[2 1 1]ABC = [-2 5 1] 而非複合轉換的三個部分儲存在三個個別的矩陣中，您可以將 A、 B 和 C 取得儲存整個複合轉換的單一 3 × 3 矩陣。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Suppose ABC = D. Then a point multiplied by D gives the same result as a point multiplied by A, then B, then C.       [2 1 1]D = [-2 5 1]       The following illustration shows the matrices A, B, C, and D.       <bpt id="p1">![</bpt>Transformations<ept id="p1">]</ept><bpt id="p2">(~/add/media/aboutgdip05-art12.gif "</bpt>Transformations<ept id="p2">")</ept>       The fact that the matrix of a composite transformation can be formed by multiplying the individual transformation matrices means that any sequence of affine transformations can be stored in a single Matrix object.</source>
+          <target state="translated">假設 ABC = d。然後乘以 D 點會給予發生相同的結果為點乘以 A，然後 B，然後 c。      [2 1 1]D = [-2 5 1] 下圖顯示矩陣 A、 B、 C 和 d。      <bpt id="p1">![</bpt>轉換<ept id="p1">]</ept><bpt id="p2">(~/add/media/aboutgdip05-art12.gif "</bpt>轉換<ept id="p2">")</ept>可以在個別的轉換矩陣乘以格式正確的複合的轉換矩陣的事實表示仿射轉換的任何序列，可以儲存在單一矩陣物件。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  The order of a composite transformation is important.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 的複合轉換順序很重要。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In general, rotate, then scale, then translate is not the same as scale, then rotate, then translate.</source>
+          <target state="translated">一般情況下，旋轉，再調整，然後轉換並不相同為小數位數，然後旋轉、，然後轉換。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Similarly, the order of matrix multiplication is important.</source>
+          <target state="translated">同樣地，矩陣乘法的順序很重要。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In general, ABC is not the same as BAC.</source>
+          <target state="translated">一般情況下，ABC 不是不相同。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The Matrix class provides several methods for building a composite transformation: &lt;xref:System.Drawing.Drawing2D.Matrix.Multiply%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.Rotate%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.RotateAt%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.Scale%2A&gt;, &lt;xref:System.Drawing.Drawing2D.Matrix.Shear%2A&gt;, and &lt;xref:System.Drawing.Drawing2D.Matrix.Translate%2A&gt;.</source>
+          <target state="translated">矩陣類別提供數種方法來建立複合的轉換︰ &lt;xref:System.Drawing.Drawing2D.Matrix.Multiply%2A&gt;， &lt;xref:System.Drawing.Drawing2D.Matrix.Rotate%2A&gt;， &lt;xref:System.Drawing.Drawing2D.Matrix.RotateAt%2A&gt;， &lt;xref:System.Drawing.Drawing2D.Matrix.Scale%2A&gt;， &lt;xref:System.Drawing.Drawing2D.Matrix.Shear%2A&gt;，和&lt;xref:System.Drawing.Drawing2D.Matrix.Translate%2A&gt;。&lt;/xref:System.Drawing.Drawing2D.Matrix.Translate%2A&gt; &lt;/xref:System.Drawing.Drawing2D.Matrix.Shear%2A&gt; &lt;/xref:System.Drawing.Drawing2D.Matrix.Scale%2A&gt; &lt;/xref:System.Drawing.Drawing2D.Matrix.RotateAt%2A&gt; &lt;/xref:System.Drawing.Drawing2D.Matrix.Rotate%2A&gt; &lt;/xref:System.Drawing.Drawing2D.Matrix.Multiply%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following example creates the matrix of a composite transformation that first rotates 30 degrees, then scales by a factor of 2 in the y direction, and then translates 5 units in the x direction:       <bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>System.Drawing.CoordinateSystems#11<ept id="p2">](~/add/codesnippet/visualbasic/t-system.drawing.drawing_10_1.vb)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>System.Drawing.CoordinateSystems#11<ept id="p4">](~/add/codesnippet/csharp/t-system.drawing.drawing_10_1.cs)</ept><ept id="p3">]</ept></source>
+          <target state="translated">下列範例會建立先旋轉 30 度，則 y 方向的 2 倍縮放並再將轉譯 x 方向的 5 個單位的複合轉換的矩陣︰ <bpt id="p1">[!code-vb</bpt> <bpt id="p2">[</bpt>System.Drawing.CoordinateSystems#11<ept id="p2">](~/add/codesnippet/visualbasic/t-system.drawing.drawing_10_1.vb)</ept><ept id="p1">]</ept><bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>System.Drawing.CoordinateSystems#11  <ept id="p4">](~/add/codesnippet/csharp/t-system.drawing.drawing_10_1.cs)</ept><ept id="p3">]</ept></target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class as the identity matrix.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別作為身分識別矩陣。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class to the geometric transform defined by the specified rectangle and array of points.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，以指定的矩形和點陣列所定義的幾何轉換。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This method initializes the new Matrix such that it represents the geometric transform that maps the rectangle specified by the <ph id="ph1">`rect`</ph> parameter to the parallelogram defined by the three points in the <ph id="ph2">`plgpts`</ph> parameter.</source>
+          <target state="translated">例如，其表示的幾何轉換對應所指定的矩形，這個方法會初始化新矩陣<ph id="ph1">`rect`</ph>參數中的三個點所定義的平行四邊形<ph id="ph2">`plgpts`</ph>參數。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The upper-left corner of the rectangle is mapped to the first point in the <ph id="ph1">`plgpts`</ph> array, the upper-right corner is mapped to the second point, and the lower-left corner is mapped to the third point.</source>
+          <target state="translated">矩形左上角對應中的第一個點<ph id="ph1">`plgpts`</ph>，右上角會對應到第二個點，以及陣列的左下角會對應到第三個點。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The lower-right point of the parallelogram is implied by the first three.</source>
+          <target state="translated">前三個部分都會隱含的平行四邊形的右下角端點。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Rectangle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that represents the rectangle to be transformed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Rectangle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>結構，表示要轉換的矩形。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An array of three <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed.</source>
+          <target state="translated">三個陣列<bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結構表示矩形的左上角、 右上角和左下角是要轉換平行四邊形的點。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The lower-right corner of the parallelogram is implied by the first three corners.</source>
+          <target state="translated">前三個角被隱含的平行四邊形的右下角。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class to the geometric transform defined by the specified rectangle and array of points.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，以指定的矩形和點陣列所定義的幾何轉換。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This method initializes the new &lt;xref:System.Drawing.Drawing2D.Matrix&gt; such that it represents the geometric transform that maps the rectangle specified by the <ph id="ph1">`rect`</ph> parameter to the parallelogram defined by the three points in the <ph id="ph2">`plgpts`</ph> parameter.</source>
+          <target state="translated">這個方法會初始化新&lt;xref:System.Drawing.Drawing2D.Matrix&gt;，它代表對應所指定的矩形的幾何轉換<ph id="ph1">`rect`</ph>參數中的三個點所定義的平行四邊形<ph id="ph2">`plgpts`</ph>參數。&lt;/xref:System.Drawing.Drawing2D.Matrix&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The upper-left corner of the rectangle is mapped to the first point in the <ph id="ph1">`plgpts`</ph> array, the upper-right corner is mapped to the second point, and the lower-left corner is mapped to the third point.</source>
+          <target state="translated">矩形左上角對應中的第一個點<ph id="ph1">`plgpts`</ph>，右上角會對應到第二個點，以及陣列的左下角會對應到第三個點。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The lower-right point of the parallelogram is implied by the first three.</source>
+          <target state="translated">前三個部分都會隱含的平行四邊形的右下角端點。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.RectangleF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that represents the rectangle to be transformed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.RectangleF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>結構，表示要轉換的矩形。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An array of three <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points of a parallelogram to which the upper-left, upper-right, and lower-left corners of the rectangle is to be transformed.</source>
+          <target state="translated">三個陣列<bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結構表示矩形的左上角、 右上角和左下角是要轉換平行四邊形的點。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The lower-right corner of the parallelogram is implied by the first three corners.</source>
+          <target state="translated">前三個角被隱含的平行四邊形的右下角。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified elements.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>具有指定的項目類別。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The value in the first row and first column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">中的第一個資料列和新的第一個資料行的值<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The value in the first row and second column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新的第一個資料列和第二個資料行中的值<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The value in the second row and first column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">中的第二個資料列和新的第一個資料行的值<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The value in the second row and second column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新的第二個資料列和第二個資料行中的值<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The value in the third row and first column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">第三列第一欄中的新值<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The value in the third row and second column of the new <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新的第三個資料列和第二個資料行中的值<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Creates an exact copy of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">建立的完全相同的複本<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>這個方法建立。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">所使用的資源全部釋出<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Calling <ph id="ph1">`Dispose`</ph> allows the resources used by this &lt;xref:System.Drawing.Drawing2D.Matrix&gt; object to be reallocated for other purposes.</source>
+          <target state="translated">呼叫<ph id="ph1">`Dispose`</ph>允許所使用的資源&lt;xref:System.Drawing.Drawing2D.Matrix&gt;物件重新配置原本用於其他用途。&lt;/xref:System.Drawing.Drawing2D.Matrix&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets an array of floating-point values that represents the elements of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得浮點值的陣列，代表這個項目<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The elements m11, m12, m21, m22, dx, and dy of the &lt;xref:System.Drawing.Drawing2D.Matrix&gt; are represented by the values in the array in that order.</source>
+          <target state="translated">項目 m11、 m12、 m21、 m22、 dx 和 dy 的&lt;xref:System.Drawing.Drawing2D.Matrix&gt;依照此陣列中的值都由。&lt;/xref:System.Drawing.Drawing2D.Matrix&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An array of floating-point values that represents the elements of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">浮點值的陣列，表示這個項目<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Tests whether the specified object is a <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and is identical to this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">測試指定的物件是否為<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和等同於此<bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The object to test.</source>
+          <target state="translated">要測試的物件。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This method returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p2">&lt;/code&gt;</ept> is the specified <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> identical to this <bpt id="p4">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>; otherwise, <bpt id="p5">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個方法會傳回<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p2">&lt;/code&gt;</ept>就是指定<bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>相同至此<bpt id="p4">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>，否則<bpt id="p5">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p5">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</source>
+          <target state="translated">允許物件嘗試釋放資源，並透過記憶體回收開始前執行其他清除作業。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Returns a hash code.</source>
+          <target state="translated">傳回雜湊碼。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The hash code for this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個雜湊程式碼<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Inverts this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if it is invertible.</source>
+          <target state="translated">反轉這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，則為可反轉。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is the identity matrix.</source>
+          <target state="translated">取得值，指出是否此<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>為識別矩陣。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This property is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is identity; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個屬性是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果這個<bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>是身分識別，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is invertible.</source>
+          <target state="translated">取得值，指出是否此<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是否可反轉。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This property is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is invertible; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個屬性是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果這個<bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>可反轉; 否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Multiplies this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by the matrix specified in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">matrix</ph><ept id="p2">&lt;/code&gt;</ept> parameter, by prepending the specified <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">乘以這<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>中指定的矩陣<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">matrix</ph> <ept id="p2">&lt;/code&gt;</ept>參數，附加在前面指定<bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by which this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is to be multiplied.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的<bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>要乘以。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Multiplies this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by the matrix specified in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">matrix</ph><ept id="p2">&lt;/code&gt;</ept> parameter, and in the order specified in the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">order</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">乘以這<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>中指定的矩陣<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">matrix</ph> <ept id="p2">&lt;/code&gt;</ept>參數，並依照指定順序<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">order</ph> <ept id="p3">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If the specified order is &lt;xref:System.Drawing.Drawing2D.MatrixOrder&gt;, this &lt;xref:System.Drawing.Drawing2D.Matrix&gt; is multiplied by the specified matrix in a prepended order.</source>
+          <target state="translated">如果指定的順序是&lt;xref:System.Drawing.Drawing2D.MatrixOrder&gt;，這個&lt;xref:System.Drawing.Drawing2D.Matrix&gt;乘以預留的順序指定的矩陣。&lt;/xref:System.Drawing.Drawing2D.Matrix&gt; &lt;/xref:System.Drawing.Drawing2D.MatrixOrder&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the specified order is &lt;xref:System.Drawing.Drawing2D.MatrixOrder&gt;, this &lt;xref:System.Drawing.Drawing2D.Matrix&gt; is multiplied by the specified matrix in an appended order.</source>
+          <target state="translated">如果指定的順序是&lt;xref:System.Drawing.Drawing2D.MatrixOrder&gt;，這個&lt;xref:System.Drawing.Drawing2D.Matrix&gt;乘以指定的矩陣，以附加的順序。&lt;/xref:System.Drawing.Drawing2D.Matrix&gt; &lt;/xref:System.Drawing.Drawing2D.MatrixOrder&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by which this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is to be multiplied.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的<bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>要乘以。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the order of the multiplication.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代表乘法順序。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets the x translation value (the dx value, or the element in the third row and first column) of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得 x 轉換值 （dx 值或第三個資料列和第一個資料行中的項目） 這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The x translation value of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">X 轉換值，這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets the y translation value (the dy value, or the element in the third row and second column) of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得的 y 轉換值 （dy 值或第三個資料列和第二個資料行中的項目） 這<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The y translation value of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Y 轉換值，這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Resets this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to have the elements of the identity matrix.</source>
+          <target state="translated">重設這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>將身分識別矩陣的項目。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The elements on the main diagonal of the identity matrix are 1.</source>
+          <target state="translated">主要身分識別矩陣的對角線上的項目都是 1。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>All other elements of the identity matrix are 0.</source>
+          <target state="translated">身分識別矩陣的所有其他項目為 0。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Prepend to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> a clockwise rotation, around the origin and by the specified angle.</source>
+          <target state="translated">在前面加上這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>原點和所指定角度的順時針旋轉。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The angle of the rotation, in degrees.</source>
+          <target state="translated">旋轉角度，以度為單位。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Applies a clockwise rotation of an amount specified in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">angle</ph><ept id="p1">&lt;/code&gt;</ept> parameter, around the origin (zero x and y coordinates) for this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">在指定的數量順時針旋轉套用<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">angle</ph> <ept id="p1">&lt;/code&gt;</ept>參數的原點 （0 x 和 y 座標） 這個<bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The angle (extent) of the rotation, in degrees.</source>
+          <target state="translated">以度為單位的旋轉角度 （範圍）。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the order (append or prepend) in which the rotation is applied to this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定順序 （附加或僅前面加上） 中的旋轉套用至這個<bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Applies a clockwise rotation to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> around the point specified in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">point</ph><ept id="p2">&lt;/code&gt;</ept> parameter, and by prepending the rotation.</source>
+          <target state="translated">順時針旋轉套用至這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>中指定點周圍<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">point</ph> <ept id="p2">&lt;/code&gt;</ept>參數，並將旋轉附加在前面。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The angle (extent) of the rotation, in degrees.</source>
+          <target state="translated">以度為單位的旋轉角度 （範圍）。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the center of the rotation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，代表旋轉的中心。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Applies a clockwise rotation about the specified point to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified order.</source>
+          <target state="translated">指定點的順時針旋轉套用至這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定的順序。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The angle of the rotation, in degrees.</source>
+          <target state="translated">旋轉角度，以度為單位。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the center of the rotation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，代表旋轉的中心。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the order (append or prepend) in which the rotation is applied.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定順序 （附加或僅前面加上） 中套用的旋轉。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Applies the specified scale vector to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by prepending the scale vector.</source>
+          <target state="translated">指定的縮放向量套用至這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>縮放向量附加在前面。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The value by which to scale this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the x-axis direction.</source>
+          <target state="translated">值，用來縮放這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> x 軸的方向。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The value by which to scale this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the y-axis direction.</source>
+          <target state="translated">值，用來縮放這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> y 軸方向。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Applies the specified scale vector (<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">scaleX</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">scaleY</ph><ept id="p2">&lt;/code&gt;</ept>) to this <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> using the specified order.</source>
+          <target state="translated">指定的縮放向量套用 (<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">scaleX</ph> <ept id="p1">&lt;/code&gt;</ept>和<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">scaleY</ph> <ept id="p2">&lt;/code&gt;</ept>) 至此<bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>使用指定的順序。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The value by which to scale this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the x-axis direction.</source>
+          <target state="translated">值，用來縮放這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> x 軸的方向。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The value by which to scale this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the y-axis direction.</source>
+          <target state="translated">值，用來縮放這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> y 軸方向。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the order (append or prepend) in which the scale vector is applied to this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定順序 （附加或僅前面加上） 中的縮放向量套用至這個<bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Applies the specified shear vector to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> by prepending the shear transformation.</source>
+          <target state="translated">指定的傾斜向量套用至這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的傾斜轉換附加在前面。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The transformation applied in this method is a pure shear only if one of the parameters is 0.</source>
+          <target state="translated">轉換會在這個方法是純粹的傾斜只有其中一個參數是 0。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Applied to a rectangle at the origin, when the <ph id="ph1">`shearY`</ph> factor is 0, the transformation moves the bottom edge horizontally by <ph id="ph2">`shearX`</ph> times the height of the rectangle.</source>
+          <target state="translated">套用至矩形原點，當<ph id="ph1">`shearY`</ph>因素是 0，則轉換藉由水平移動的下邊緣<ph id="ph2">`shearX`</ph>倍的矩形的高度。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`shearX`</ph> factor is 0, it moves the right edge vertically by <ph id="ph2">`shearY`</ph> times the width of the rectangle.</source>
+          <target state="translated">當<ph id="ph1">`shearX`</ph>因素是 0，就會將移右邊緣垂直地<ph id="ph2">`shearY`</ph>倍的矩形的寬度。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Caution is in order when both parameters are nonzero, because the results are hard to predict.</source>
+          <target state="translated">充分的警告是在順序中，當兩個參數都為非零，因為預測的結果。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, if both factors are 1, the transformation is singular (hence noninvertible), squeezing the entire plane to a single line.</source>
+          <target state="translated">例如，如果這兩個因素都是 1，則轉換為單數 (因此逆轉)，並將整個平面成一行。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The horizontal shear factor.</source>
+          <target state="translated">水平傾斜因數。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The vertical shear factor.</source>
+          <target state="translated">垂直傾斜因數。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Applies the specified shear vector to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified order.</source>
+          <target state="translated">指定的傾斜向量套用至這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定的順序。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The transformation applied in this method is a pure shear only if one of the parameters is 0.</source>
+          <target state="translated">轉換會在這個方法是純粹的傾斜只有其中一個參數是 0。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Applied to a rectangle at the origin, when the <ph id="ph1">`shearY`</ph> factor is 0, the transformation moves the bottom edge horizontally by <ph id="ph2">`shearX`</ph> times the height of the rectangle.</source>
+          <target state="translated">套用至矩形原點，當<ph id="ph1">`shearY`</ph>因素是 0，則轉換藉由水平移動的下邊緣<ph id="ph2">`shearX`</ph>倍的矩形的高度。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`shearX`</ph> factor is 0, it moves the right edge vertically by <ph id="ph2">`shearY`</ph> times the width of the rectangle.</source>
+          <target state="translated">當<ph id="ph1">`shearX`</ph>因素是 0，就會將移右邊緣垂直地<ph id="ph2">`shearY`</ph>倍的矩形的寬度。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Caution is in order when both parameters are nonzero, because the results are hard to predict.</source>
+          <target state="translated">充分的警告是在順序中，當兩個參數都為非零，因為預測的結果。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For example, if both factors are 1, the transformation is singular (hence noninvertible), squeezing the entire plane to a single line.</source>
+          <target state="translated">例如，如果這兩個因素都是 1，則轉換為單數 (因此逆轉)，並將整個平面成一行。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The horizontal shear factor.</source>
+          <target state="translated">水平傾斜因數。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The vertical shear factor.</source>
+          <target state="translated">垂直傾斜因數。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the order (append or prepend) in which the shear is applied.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定順序 （附加或僅前面加上） 中會套用傾斜。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Applies the geometric transform represented by this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a specified array of points.</source>
+          <target state="translated">所表示的幾何轉換套用<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>至指定的點陣列。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points to transform.</source>
+          <target state="translated">陣列<bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結構，表示要變換的點。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Applies the geometric transform represented by this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a specified array of points.</source>
+          <target state="translated">所表示的幾何轉換套用<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>至指定的點陣列。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points to transform.</source>
+          <target state="translated">陣列<bpt id="p1">&lt;xref href="System.Drawing.PointF"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結構，表示要變換的點。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Applies only the scale and rotate components of this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified array of points.</source>
+          <target state="translated">適用於僅縮放和旋轉元件這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>至指定的點陣列。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points to transform.</source>
+          <target state="translated">陣列<bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結構，表示要變換的點。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Multiplies each vector in an array by the matrix.</source>
+          <target state="translated">將矩陣陣列中的每個向量乘以。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The translation elements of this matrix (third row) are ignored.</source>
+          <target state="translated">這個矩陣的轉換元素 （第三個資料列） 會被忽略。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points to transform.</source>
+          <target state="translated">陣列<bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結構，表示要變換的點。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Applies the specified translation vector (<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offsetX</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">offsetY</ph><ept id="p2">&lt;/code&gt;</ept>) to this <bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> by prepending the translation vector.</source>
+          <target state="translated">指定的轉譯向量套用 (<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offsetX</ph> <ept id="p1">&lt;/code&gt;</ept>和<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">offsetY</ph> <ept id="p2">&lt;/code&gt;</ept>) 至此<bpt id="p3">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>的轉譯向量附加在前面。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The x value by which to translate this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">X 值來轉換這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The y value by which to translate this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">用來轉換這個的 y 值<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Applies the specified translation vector to this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified order.</source>
+          <target state="translated">指定的轉譯向量套用至這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定的順序。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The x value by which to translate this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">X 值來轉換這個<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The y value by which to translate this <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">用來轉換這個的 y 值<bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the order (append or prepend) in which the translation is applied to this <bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Drawing2D.MatrixOrder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定順序 （附加或僅前面加上） 中轉譯套用至此<bpt id="p2">&lt;xref href="System.Drawing.Drawing2D.Matrix"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Multiplies each vector in an array by the matrix.</source>
+          <target state="translated">將矩陣陣列中的每個向量乘以。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The translation elements of this matrix (third row) are ignored.</source>
+          <target state="translated">這個矩陣的轉換元素 （第三個資料列） 會被忽略。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that represents the points to transform.</source>
+          <target state="translated">陣列<bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結構，表示要變換的點。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

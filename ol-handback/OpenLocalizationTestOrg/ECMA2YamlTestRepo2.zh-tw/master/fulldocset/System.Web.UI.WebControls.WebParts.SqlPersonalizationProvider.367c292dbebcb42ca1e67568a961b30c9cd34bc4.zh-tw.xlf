@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">07d83c2a769a68a7b31525234e4ce61abe25dbf5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c98c7f4bddb0394cfaff3fddf36ab148af2fc90a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df9295883cdcd040eb2521e12ab3cea8422bbfbf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements a personalization provider that uses Microsoft SQL Server.</source>
+          <target state="translated">實作會使用 Microsoft SQL Server 的個人化提供者。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class defines the required functionality for a personalization provider using Microsoft SQL Server.</source>
+          <target state="translated">這個類別會定義使用 Microsoft SQL Server 的個人化提供者所需的功能。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A personalization provider both loads and stores personalization data on behalf of a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; instance.</source>
+          <target state="translated">個人化提供者同時載入和儲存個人化資料代表&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;執行個體。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This class implements the logic for reading from and writing to computers running SQL Server, and also implements all the abstract methods defined in &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;.</source>
+          <target state="translated">這個類別實作的邏輯讀取和寫入到執行 SQL Server 的電腦，而且也會實作&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;中定義的所有抽象方法</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information on personalization providers, see &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;.</source>
+          <target state="translated">如需個人化提供者的詳細資訊，請參閱&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The data design for using Web Parts personalization with SQL Server relies on the existence of two common SQL database tables, and their supporting stored procedures, that are shared for most SQL-based feature implementations.</source>
+          <target state="translated">搭配 SQL Server 中使用 Web 組件個人化的資料設計依賴兩個常見 SQL 資料庫資料表的存在和其支援預存程序，大多數 SQL 為基礎的特徵案例所共用。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These tables and views are installed and uninstalled using the following scripts:      -   installpagepersonalization.sql – Installs the personalization tables, views, and related stored procedures.</source>
+          <target state="translated">這些資料表和檢視已安裝和解除安裝使用下列指令碼:-installpagepersonalization.sql – 安裝個人化資料表、 檢視和相關的預存程序。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   uninstallpagepersonalization.sql – Uninstalls the personalization tables, views, and related stored procedures.</source>
+          <target state="translated">-uninstallpagepersonalization.sql-解除安裝個人化資料表、 檢視和相關的預存程序。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It is important to be aware that personalization will fail if your Web application does not run at the default trust level of &lt;xref:System.Web.AspNetHostingPermissionLevel&gt; or higher (you can set custom trust levels in a Web.config file using the <ph id="ph1">`&lt;trust level="" /&gt;`</ph> element).</source>
+          <target state="translated">請務必注意，如果您的 Web 應用程式不會在執行預設信任層級無法個人化&lt;xref:System.Web.AspNetHostingPermissionLevel&gt;或更高版本 (您可以設定自訂的信任層級，在 Web.config 檔案使用<ph id="ph1">`&lt;trust level="" /&gt;`</ph>項目)。&lt;/xref:System.Web.AspNetHostingPermissionLevel&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationAdministration&gt; and SqlPersonalizationProvider classes both check for a trust level of &lt;xref:System.Web.AspNetHostingPermissionLevel&gt; when they are initialized.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationAdministration&gt;SqlPersonalizationProvider 類別會檢查信任層級和&lt;xref:System.Web.AspNetHostingPermissionLevel&gt;初始化的時間。&lt;/xref:System.Web.AspNetHostingPermissionLevel&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationAdministration&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you configure your application to run at a trust level of &lt;xref:System.Web.AspNetHostingPermissionLevel&gt;, and you use the default SqlPersonalizationProvider provider to manage the personalization data for your application, the first time that the application tries to access personalization data, it will fail because an ASP.NET worker process running in &lt;xref:System.Web.AspNetHostingPermissionLevel&gt; trust does not have the permissions necessary to call into the various classes in the &lt;xref:System.Data.SqlClient&gt; namespace.</source>
+          <target state="translated">如果您設定您的應用程式執行的信任層級&lt;xref:System.Web.AspNetHostingPermissionLevel&gt;，和您的應用程式第一次嘗試存取個人化資料的應用程式管理的個人化資料的情況下，您在使用預設 SqlPersonalizationProvider 提供者，它會失敗，因為 ASP.NET 背景工作處理序中執行&lt;xref:System.Web.AspNetHostingPermissionLevel&gt;信任並沒有呼叫各種類別中的必要權限&lt;xref:System.Data.SqlClient&gt;命名空間。&lt;/xref:System.Data.SqlClient&gt; &lt;/xref:System.Web.AspNetHostingPermissionLevel&gt; &lt;/xref:System.Web.AspNetHostingPermissionLevel&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The SqlPersonalizationProvider constructor is called by ASP.NET to create an instance of the &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt; class as specified in the configuration for the application.</source>
+          <target state="translated">SqlPersonalizationProvider 建構函式由 ASP.NET 呼叫來建立的執行個體&lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;類別做為應用程式的組態中指定。&lt;/xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This constructor is not intended to be used from your code.</source>
+          <target state="translated">這個建構函式不是從您的程式碼使用。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the application to store and retrieve personalization information for.</source>
+          <target state="translated">取得或設定要儲存和擷取個人化資訊的應用程式的名稱。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The ApplicationName property is used by the &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt; class to group user information.</source>
+          <target state="translated">ApplicationName 屬性供&lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;群組使用者資訊的類別。&lt;/xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>By qualifying user information with an application name, you can store information for multiple applications in a single database without running into conflicts between duplicate user names.</source>
+          <target state="translated">來限定應用程式名稱的使用者資訊，您可以在單一資料庫中儲存多個應用程式的資訊而不重複的使用者名稱之間發生衝突。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Also, multiple ASP.NET applications can use the same user database by specifying the same value in the ApplicationName property.</source>
+          <target state="translated">此外，多個 ASP.NET 應用程式可以使用相同的使用者資料庫中 ApplicationName 屬性指定相同的值。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The ApplicationName property can be set programmatically, or it can be set declaratively in the configuration file for the Web application using the <ph id="ph1">`applicationName`</ph> attribute in the <ph id="ph2">`&lt;providers&gt;`</ph> section.</source>
+          <target state="translated">ApplicationName 屬性可以透過程式設計的方式，設定或它可以是以宣告方式設定 Web 應用程式使用的組態檔中<ph id="ph1">`applicationName`</ph>屬性<ph id="ph2">`&lt;providers&gt;`</ph>&gt; 一節。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If a value is not specified for the <ph id="ph1">`applicationName`</ph> attribute in the configuration file for the Web application, then the &lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt; property value for the first request made to the application is used.</source>
+          <target state="translated">如果未指定值<ph id="ph1">`applicationName`</ph>Web 應用程式組態檔中的屬性則&lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;使用應用程式所做的第一個要求的屬性值。&lt;/xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because a single default personalization provider instance is used for all the requests served by an &lt;xref:System.Web.HttpApplication&gt; object, you can have multiple requests executing concurrently and attempting to set the ApplicationName property value.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 所服務的所有要求所都使用的單一預設個人化提供者執行個體是因為&lt;xref:System.Web.HttpApplication&gt;物件，您可以有多個要求同時執行，而且嘗試設定 ApplicationName 屬性值。&lt;/xref:System.Web.HttpApplication&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The ApplicationName property is not thread-safe for multiple writes, and changing the ApplicationName property value can result in unexpected behavior for multiple users of an application.</source>
+          <target state="translated">ApplicationName 屬性不是安全執行緒的多個寫入，並變更 ApplicationName 屬性值，可能會導致非預期的行為，應用程式的多個使用者。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It is recommended that you avoid code to allow users to set the ApplicationName property unless required.</source>
+          <target state="translated">建議您避免讓使用者能夠設定 ApplicationName 屬性，除非所需的程式碼。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An example of an application where setting the ApplicationName property might be required is an administrative application that manages personalization data for multiple applications.</source>
+          <target state="translated">ApplicationName 屬性設定，可能需要的應用程式的範例是管理多個應用程式的個人化資料的系統管理應用程式。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Such an application should be a single-user application and not a Web application.</source>
+          <target state="translated">這類應用程式應該在單一使用者應用程式並不是 Web 應用程式。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The name of the application to store and retrieve personalization information for.</source>
+          <target state="translated">要儲存和擷取個人化資訊的應用程式名稱。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The default is the &lt;xref:System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath<bpt id="p1">*</bpt>&gt; property value for the current &lt;xref:System.Web.HttpContext.Request<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">預設值是&lt;&gt; <bpt id="p1">*</bpt>&gt; 目前屬性值&lt;&gt; <ept id="p1">*</ept>&gt;。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The property was set to a string with a length greater than 256 characters.</source>
+          <target state="translated">屬性已設定為字串的長度超過 256 個字元。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns a collection containing zero or more <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>-derived objects, based on the specified scope and parameters.</source>
+          <target state="translated">傳回集合，其中包含零或多個<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>-衍生根據指定的範圍和參數的物件。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The set of returned items is constrained by the <ph id="ph1">`pageSize`</ph> and <ph id="ph2">`pageIndex`</ph> parameters, where <ph id="ph3">`pageSize`</ph> controls the number of records to return and <ph id="ph4">`pageIndex`</ph> controls which records to return.</source>
+          <target state="translated">傳回的項目組由限制<ph id="ph1">`pageSize`</ph>和<ph id="ph2">`pageIndex`</ph>參數，其中<ph id="ph3">`pageSize`</ph>會控制要傳回的記錄數目和<ph id="ph4">`pageIndex`</ph>控制哪一筆記錄傳回。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, a <ph id="ph1">`pageIndex`</ph> of 0 and a <ph id="ph2">`pageSize`</ph> of 25 would return the first 25 occurrences, while a <ph id="ph3">`pageIndex`</ph> of 1 and a <ph id="ph4">`pageSize`</ph> of 25 would return occurrences 26-50.</source>
+          <target state="translated">比方說，<ph id="ph1">`pageIndex`</ph>為 0 和<ph id="ph2">`pageSize`</ph>25 個會傳回前 25 個相符項目，雖然<ph id="ph3">`pageIndex`</ph>的 1 和<ph id="ph4">`pageSize`</ph>25 個會傳回出現 26-50。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you want to fetch all available records, set <ph id="ph1">`pageIndex`</ph> to 0, and <ph id="ph2">`pageSize`</ph> to &lt;xref:System.Int32.MaxValue&gt;.</source>
+          <target state="translated">如果您想要擷取所有可用的記錄，設定<ph id="ph1">`pageIndex`</ph>為 0，和<ph id="ph2">`pageSize`</ph>至&lt;xref:System.Int32.MaxValue&gt;。&lt;/xref:System.Int32.MaxValue&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo&gt;-derived objects are returned in alphabetical order sorted by &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo.Path%2A&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.Username%2A&gt;, both in ascending order.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo&gt;-衍生的物件會傳回依字母順序排列的順序排序&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo.Path%2A&gt;和&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.Username%2A&gt;，兩者以遞增順序。&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.Username%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo.Path%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateInfo&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This method passes query wildcard characters to the underlying data store.</source>
+          <target state="translated">這個方法會將查詢萬用字元的字元傳遞至基礎資料存放區。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Support for wildcard characters is currently dependent on how each provider handles characters such as an asterisk (*), a percent symbol (%), or an underscore (_).</source>
+          <target state="translated">目前取決於每個提供者處理等星號 （*）、 百分比符號 （%） 或底線 (_) 字元的方式支援萬用字元。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Normally, for SQL-compliant data stores, you can perform a wildcard search on a partial path with the wildcard character appearing at the beginning, the end, or the middle of the search string text in the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property.</source>
+          <target state="translated">一般來說，對於 SQL 標準的資料存放區，您可以執行萬用字元搜尋部分的路徑上以出現在開頭、 結尾或中間的搜尋字串文字中的萬用字元&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For example, to find all paths that start with "~/approot", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property would be set to "~/approot%".</source>
+          <target state="translated">例如，若要尋找開頭為"~/approot"，所有路徑&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;屬性會設定為"~/approot%"。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Likewise, a wildcard search on a partial user name could have the wildcard character appear at any point in the text string of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property.</source>
+          <target state="translated">同樣地，萬用字元搜尋部分的使用者名稱可能會出現在任何時間點的文字字串中的萬用字元&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, to find all user names that start with "John", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; parameter would look like "John%".</source>
+          <target state="translated">例如，若要尋找所有啟動的使用者名稱與"John"，&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;參數會看起來像"John %"。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The following query constraints apply:      -   If only <ph id="ph1">`scope`</ph> is provided, and <ph id="ph2">`query`</ph> is <ph id="ph3">`null`</ph> or all the properties on <ph id="ph4">`query`</ph> return either <ph id="ph5">`null`</ph> or default values, then all records matching the indicated <ph id="ph6">`scope`</ph> parameter are returned.</source>
+          <target state="translated">下列查詢條件約束套用:-如果只有<ph id="ph1">`scope`</ph>提供，和<ph id="ph2">`query`</ph>是<ph id="ph3">`null`</ph>或上的所有屬性<ph id="ph4">`query`</ph>傳回<ph id="ph5">`null`</ph>或預設值，則比對所指定的所有記錄<ph id="ph6">`scope`</ph>傳回參數。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property is not <ph id="ph1">`null`</ph>, the returned records are also filtered based on paths that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property value.</source>
+          <target state="translated">-如果&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;屬性不是<ph id="ph1">`null`</ph>，傳回的記錄也會篩選根據的路徑符合&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;屬性值。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property is not <ph id="ph1">`null`</ph>, the returned records are also filtered based on user names that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property value.</source>
+          <target state="translated">-如果&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;屬性不是<ph id="ph1">`null`</ph>，傳回的記錄也會篩選根據的使用者名稱符合&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;屬性值。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property is not equal to &lt;xref:System.DateTime.MaxValue&gt;, then the returned records are also filtered to return only those records associated with inactive users.</source>
+          <target state="translated">-如果&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;屬性不等於&lt;xref:System.DateTime.MaxValue&gt;，則傳回的記錄也會篩選傳回非作用中使用者相關聯的記錄。&lt;/xref:System.DateTime.MaxValue&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The comparison includes records where the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property is less than or equal to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property.</source>
+          <target state="translated">比較包含記錄其中&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;屬性小於或等於&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Note that this method does not validate combinations of query parameters.</source>
+          <target state="translated">請注意，這個方法不會驗證查詢參數的組合。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For example, code can request a set of personalization state records associated with a specific user name in the shared scope.</source>
+          <target state="translated">例如，程式碼可以要求一組共用的範圍中的特定使用者名稱與相關聯的個人化狀態記錄。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Because user names are not associated with shared information, the returned collection would be empty.</source>
+          <target state="translated">因為使用者名稱不是共用的資訊與相關聯，則傳回的集合會是空白。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Parameter combinations that have the potential to return a non-empty collection include:      -   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;.</source>
+          <target state="translated">有可能會傳回空集合的參數組合包括:- &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;結合的範圍&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with the values for any or all of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;, and &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; properties.</source>
+          <target state="translated">-&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;範圍中的任何或所有的值組合&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;，和&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the personalization information to be queried.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指出要查詢的個人化資訊。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This value cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個值不能<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a query.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含查詢。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個值可以是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The location where the query starts.</source>
+          <target state="translated">查詢開始的位置。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The number of records to return.</source>
+          <target state="translated">要傳回的記錄數目。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The total number of records available.</source>
+          <target state="translated">可用的記錄總數。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing zero or more <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>-derived objects.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含零或多個<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateInfo"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>-衍生物件。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1"> scope</ph><ept id="p1">&lt;/code&gt;</ept> specified is not a valid value from the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1"> scope</ph> <ept id="p1">&lt;/code&gt;</ept>指定不是有效的值從<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>列舉型別。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Returns a count of the number of rows in the underlying data store that exist for the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">scope</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">傳回指定存在於基礎資料存放區中的資料列數目的計數<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">scope</ph> <ept id="p1">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This method passes query wildcard characters to the underlying data store.</source>
+          <target state="translated">這個方法會將查詢萬用字元的字元傳遞至基礎資料存放區。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Support for wildcard characters is currently dependent on how each provider handles characters such as an asterisk (*), a percent symbol (%), or an underscore (_).</source>
+          <target state="translated">目前取決於每個提供者處理等星號 （*）、 百分比符號 （%） 或底線 (_) 字元的方式支援萬用字元。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Normally, for SQL-compliant data stores, you can perform a wildcard search on a partial path with the wildcard character appearing at the beginning, the end, or the middle of the search string text in the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property.</source>
+          <target state="translated">一般來說，對於 SQL 標準的資料存放區，您可以執行萬用字元搜尋部分的路徑上以出現在開頭、 結尾或中間的搜尋字串文字中的萬用字元&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, to find all paths that start with "~/approot", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property would be set to "~/approot%".</source>
+          <target state="translated">例如，若要尋找開頭為"~/approot"，所有路徑&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;屬性會設定為"~/approot%"。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Likewise, a wildcard search on a partial user name could have the wildcard character appear at any point in the text string of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property.</source>
+          <target state="translated">同樣地，萬用字元搜尋部分的使用者名稱可能會出現在任何時間點的文字字串中的萬用字元&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For example, to find all user names that start with "John", the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; parameter would look like "John%".</source>
+          <target state="translated">例如，若要尋找所有啟動的使用者名稱與"John"，&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;參數會看起來像"John %"。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The following query constraints apply:      -   If only <ph id="ph1">`scope`</ph> is provided, and <ph id="ph2">`query`</ph> is <ph id="ph3">`null`</ph> or all the properties on <ph id="ph4">`query`</ph> return either <ph id="ph5">`null`</ph> or default values, then all records matching the indicated <ph id="ph6">`scope`</ph> parameter are returned.</source>
+          <target state="translated">下列查詢條件約束套用:-如果只有<ph id="ph1">`scope`</ph>提供，和<ph id="ph2">`query`</ph>是<ph id="ph3">`null`</ph>或上的所有屬性<ph id="ph4">`query`</ph>傳回<ph id="ph5">`null`</ph>或預設值，則比對所指定的所有記錄<ph id="ph6">`scope`</ph>傳回參數。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property is not <ph id="ph1">`null`</ph>, the returned records are also filtered based on paths that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; property value.</source>
+          <target state="translated">-如果&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;屬性不是<ph id="ph1">`null`</ph>，傳回的記錄也會篩選根據的路徑符合&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;屬性值。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; is not <ph id="ph1">`null`</ph>, the returned records are also filtered based on user names that match the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; property value.</source>
+          <target state="translated">-如果&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;不<ph id="ph1">`null`</ph>，傳回的記錄也會篩選根據的使用者名稱符合&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;屬性值。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property is not equal to &lt;xref:System.DateTime.MaxValue&gt;, then the returned records are also filtered to return only those records associated with inactive users.</source>
+          <target state="translated">-如果&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;屬性不等於&lt;xref:System.DateTime.MaxValue&gt;，則傳回的記錄也會篩選傳回非作用中使用者相關聯的記錄。&lt;/xref:System.DateTime.MaxValue&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The comparison includes records where the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property is less than or equal to the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property.</source>
+          <target state="translated">比較包含記錄其中&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;屬性小於或等於&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Note that this method does not validate combinations of query parameters.</source>
+          <target state="translated">請注意，這個方法不會驗證查詢參數的組合。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For example, code can request a count of state records associated with inactive users in the shared scope.</source>
+          <target state="translated">例如，程式碼可以要求在共用範圍的非作用中使用者相關聯的狀態記錄的計數。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Because there is no concept of inactive customizations, the returned count would be zero.</source>
+          <target state="translated">沒有非作用中的自訂的概念，因為傳回的計數會是零。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Parameter combinations that have the potential to return a non-empty collection include:      -   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;.</source>
+          <target state="translated">有可能會傳回空集合的參數組合包括:- &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;結合的範圍&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope in combination with the values for any or all of the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;, &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;, and &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; properties.</source>
+          <target state="translated">-&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;範圍中的任何或所有的值組合&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt;， &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt;，和&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UsernameToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.PathToMatch%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the personalization information to be queried.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指出要查詢的個人化資訊。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This value cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個值不能<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing a query.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationStateQuery"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含查詢。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個值可以是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The number of rows in the underlying data store that exist for the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">scope</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">在基礎資料存放區中存在指定的資料列數目<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">scope</ph> <ept id="p1">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1"> scope</ph><ept id="p1">&lt;/code&gt;</ept> specified is not a valid value from the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1"> scope</ph> <ept id="p1">&lt;/code&gt;</ept>指定不是有效的值從<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>列舉型別。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Implements the initialization procedures required for a Microsoft SQL Server personalization provider.</source>
+          <target state="translated">實作所需的 Microsoft SQL Server 的個人化提供者的初始化程序。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This method is not intended to be used directly from your code.</source>
+          <target state="translated">這個方法不是直接從您的程式碼使用。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This method provides the initialization procedures for using personalization with a SQL database and is not intended to be used directly from your code.</source>
+          <target state="translated">這個方法與 SQL 資料庫使用個人化提供的初始化程序，並不是直接從您的程式碼使用。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The application name as it appears in the configuration file.</source>
+          <target state="translated">應用程式名稱，因為它會出現在組態檔。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The configuration settings for the application.</source>
+          <target state="translated">應用程式的組態設定。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;configSettings&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;configSettings&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Loads personalization data from the underlying data store, based on the specified parameters.</source>
+          <target state="translated">從基礎資料存放區，根據指定的參數載入個人化資料。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This method uses the <ph id="ph1">`webPartManager`</ph>, <ph id="ph2">`path`</ph>, and <ph id="ph3">`username`</ph> parameters as retrieval keys.</source>
+          <target state="translated">這個方法會使用<ph id="ph1">`webPartManager`</ph>， <ph id="ph2">`path`</ph>，和<ph id="ph3">`username`</ph>參數做為擷取索引鍵。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The returned data contains:      -   The &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; data returned in the <ph id="ph1">`sharedDataBlob`</ph> parameter.</source>
+          <target state="translated">傳回的資料包含:-&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;中傳回資料<ph id="ph1">`sharedDataBlob`</ph>參數。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-   Depending on the key values, &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; data is returned in the <ph id="ph1">`userDataBlob`</ph> parameter.</source>
+          <target state="translated">-根據索引鍵值，&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;中傳回資料<ph id="ph1">`userDataBlob`</ph>參數。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A non-<ph id="ph1">`null`</ph> value for the <ph id="ph2">`userName`</ph> parameter indicates that &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; data is also retrieved.</source>
+          <target state="translated">非<ph id="ph1">`null`</ph>值<ph id="ph2">`userName`</ph>參數會指示&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;也擷取資料。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt; object automatically updates the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; column in the <ph id="ph1">`aspnet_Users`</ph> table each time user-specific personalization data is loaded from the database in the context of a page request.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;物件會自動更新&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;中的資料行<ph id="ph1">`aspnet_Users`</ph>從頁面要求的內容中的資料庫載入每個時間特定使用者個人化資料的資料表。&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This behavior allows other ASP.NET features to use the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property when managing stale data records as well as determining recent user activity on a site.</source>
+          <target state="translated">此行為可讓其他的 ASP.NET 功能，可使用&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;屬性管理資料失效時記錄，以及決定站台上最近的使用者活動。&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>管理個人化資料。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The path for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be used as the retrieval key.</source>
+          <target state="translated">路徑中的個人化資訊<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>來當做擷取索引鍵的範圍內。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The user name for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be used as the retrieval key.</source>
+          <target state="translated">中的個人化資訊的使用者名稱<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>來當做擷取索引鍵的範圍內。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The returned data for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope.</source>
+          <target state="translated">傳回的資料，如<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>範圍。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The returned data for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope.</source>
+          <target state="translated">傳回的資料，如<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>範圍。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Deletes personalization data from the underlying data store.</source>
+          <target state="translated">從基礎資料存放區刪除個人化資料。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; uses this method to delete personalization data from the database when a Web site user chooses to reset Web Parts data on a page.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;若要從資料庫刪除個人化資料，當網站使用者選擇重設 Web 組件頁面上的資料，會使用這個方法。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`username`</ph> is non-<ph id="ph2">`null`</ph>, data with the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope data is deleted; otherwise, data with the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope is deleted.</source>
+          <target state="translated">如果<ph id="ph1">`username`</ph>是非<ph id="ph2">`null`</ph>，具有資料&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;領域資料已遭刪除; 否則資料與&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;領域刪除。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt; object automatically updates the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; column in the <ph id="ph1">`aspnet_Users`</ph> table each time user-specific personalization data is deleted from the database in the context of a page request.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;物件會自動更新&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;中的資料行<ph id="ph1">`aspnet_Users`</ph>從頁面要求的內容中的資料庫刪除每個時間特定使用者個人化資料的資料表。&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This behavior allows other ASP.NET features to use the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; value when managing stale data records as well as determining recent user activity on a site.</source>
+          <target state="translated">此行為可讓其他的 ASP.NET 功能，可使用&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;管理的過時資料記錄，以及決定站台上最近的使用者活動時的值。&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>管理個人化資料。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The path for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be used as the retrieval key.</source>
+          <target state="translated">路徑中的個人化資訊<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>來當做擷取索引鍵的範圍內。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The user name for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be used as the retrieval key.</source>
+          <target state="translated">中的個人化資訊的使用者名稱<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>來當做擷取索引鍵的範圍內。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Deletes personalization state information from the underlying data store, based on the specified parameters.</source>
+          <target state="translated">從基礎資料存放區，根據指定的參數，會刪除個人化狀態資訊。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>No wildcard characters are supported by this method.</source>
+          <target state="translated">這個方法不支援任何萬用字元。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Only the following combinations of parameters are allowed:      -   The <ph id="ph1">`scope`</ph> parameter is set, and all other parameters are set to <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">允許下列組合的參數:-<ph id="ph1">`scope`</ph>參數設定，而所有其他參數會設定為<ph id="ph2">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This combination deletes all Web Parts personalization data associated with the personalization scope indicated by <ph id="ph1">`scope`</ph>.</source>
+          <target state="translated">這個組合會刪除與所指定的個人化範圍相關聯的所有 Web 組件個人化資料<ph id="ph1">`scope`</ph>。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`scope`</ph> parameter is set, and the <ph id="ph2">`paths`</ph> parameter contains at least one value.</source>
+          <target state="translated">-<ph id="ph1">`scope`</ph>參數設定，而<ph id="ph2">`paths`</ph>參數包含至少一個值。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This combination deletes all Web Parts personalization data for the specified path or paths that are in the personalization scope indicated by <ph id="ph1">`scope`</ph>.</source>
+          <target state="translated">這個組合會刪除指定的路徑或路徑中所指定的個人化範圍的所有 Web 組件個人化資料<ph id="ph1">`scope`</ph>。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`scope`</ph> parameter is set to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;, the <ph id="ph2">`paths`</ph> parameter is set and contains only one path, and the <ph id="ph3">`usernames`</ph> parameter contains at least one value.</source>
+          <target state="translated">-<ph id="ph1">`scope`</ph>參數設定為&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;、<ph id="ph2">`paths`</ph>參數設定，而且包含只有一個路徑，而<ph id="ph3">`usernames`</ph>參數包含至少一個值。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This combination deletes all user personalization Web Parts data for the given path that is associated with the user or users contained in <ph id="ph1">`usernames`</ph>.</source>
+          <target state="translated">這個組合會刪除所有的使用者個人化指定的路徑中包含的使用者與相關聯的 Web 組件資料<ph id="ph1">`usernames`</ph>。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`scope`</ph> parameter is set to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;, the <ph id="ph2">`paths`</ph> parameter is <ph id="ph3">`null`</ph>, and the <ph id="ph4">`usernames`</ph> parameter contains at least one value.</source>
+          <target state="translated">-<ph id="ph1">`scope`</ph>參數設定為&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;、<ph id="ph2">`paths`</ph>參數是<ph id="ph3">`null`</ph>，而<ph id="ph4">`usernames`</ph>參數包含至少一個值。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>This combination deletes all per-user personalization Web Parts data, across all paths, associated with the user or users contained in <ph id="ph1">`usernames`</ph>.</source>
+          <target state="translated">這個組合會刪除所有的每位使用者個人化 Web 組件的資料，在與中所包含的使用者相關聯的所有路徑之間<ph id="ph1">`usernames`</ph>。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Any other combination of parameter values is invalid and will throw an &lt;xref:System.ArgumentException&gt; exception.</source>
+          <target state="translated">參數值的任何其他組合無效，而且將會擲回&lt;xref:System.ArgumentException&gt;例外狀況。&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>For example, the following two combinations are not allowed:      -   The <ph id="ph1">`usernames`</ph> parameter cannot be provided when the <ph id="ph2">`scope`</ph> parameter is set to &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.</source>
+          <target state="translated">不允許下列兩個組合，例如:-<ph id="ph1">`usernames`</ph>參數不能提供何時<ph id="ph2">`scope`</ph>參數設定為&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`paths`</ph> parameter cannot contain more than one entry when the <ph id="ph2">`usernames`</ph> parameter is not <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">-<ph id="ph1">`paths`</ph>參數不能包含多個項目時<ph id="ph2">`usernames`</ph>參數不是<ph id="ph3">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`paths`</ph> and <ph id="ph2">`usernames`</ph> parameters contained within the respective arrays must meet the following validation rules.</source>
+          <target state="translated"><ph id="ph1">`paths`</ph>和<ph id="ph2">`usernames`</ph>包含在個別的陣列參數必須符合下列的驗證規則。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>If any validation rules fail for any member of the parameter arrays, an &lt;xref:System.ArgumentException&gt; exception is thrown.</source>
+          <target state="translated">如果失敗的任何驗證規則的參數陣列中，任何成員&lt;xref:System.ArgumentException&gt;擲回例外狀況。&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The validation rules include:      -   <ph id="ph1">`null`</ph> values are not allowed.</source>
+          <target state="translated">驗證規則包括:-<ph id="ph1">`null`</ph>不允許的值。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>-   An empty string ("") after the string has been trimmed is not allowed.</source>
+          <target state="translated">為空字串 ("") 不允許字串已修剪。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-   No user names contained in the <ph id="ph1">`usernames`</ph> parameter can contain commas.</source>
+          <target state="translated">的中所包含任何使用者名稱<ph id="ph1">`usernames`</ph>參數可以包含逗號。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>-   The length of any path in the <ph id="ph1">`paths`</ph> parameter cannot be greater than 256 characters.</source>
+          <target state="translated">-中的任何路徑的長度<ph id="ph1">`paths`</ph>參數不能超過 256 個字元。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>-   The length of any user name in the <ph id="ph1">`usernames`</ph> parameter cannot be greater than 256 characters.</source>
+          <target state="translated">-在任何使用者名稱的長度<ph id="ph1">`usernames`</ph>參數不能超過 256 個字元。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the personalization information to be queried.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指出要查詢的個人化資訊。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This value cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個值不能<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The paths for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be deleted.</source>
+          <target state="translated">路徑中的個人化資訊<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要刪除的範圍。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The user names for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be deleted.</source>
+          <target state="translated">中的個人化資訊的使用者名稱<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要刪除的範圍。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The number of rows deleted.</source>
+          <target state="translated">刪除資料列數目。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1"> scope</ph><ept id="p1">&lt;/code&gt;</ept> specified is not a member of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1"> scope</ph> <ept id="p1">&lt;/code&gt;</ept>指定不是成員的<bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>列舉型別。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Deletes user personalization data from the underlying data store, based on the specified parameters.</source>
+          <target state="translated">刪除使用者個人化資料從基礎資料存放區，根據指定的參數。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>This method's parameters have the following restrictions:      -   The <ph id="ph1">`path`</ph> parameter cannot contain wildcard characters.</source>
+          <target state="translated">這個方法的參數具有下列限制:-<ph id="ph1">`path`</ph>參數不能包含萬用字元。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-   If the <ph id="ph1">`path`</ph> parameter is non-<ph id="ph2">`null`</ph>, then only per-user personalization records associated with <ph id="ph3">`path`</ph> will be deleted.</source>
+          <target state="translated">-如果<ph id="ph1">`path`</ph>參數為非<ph id="ph2">`null`</ph>，則每位使用者個人化記錄相關聯<ph id="ph3">`path`</ph>將被刪除。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-   Only per-user personalization records associated with users that are considered inactive since the date specified in the <ph id="ph1">`userInactiveSinceDate`</ph> parameter will be deleted.</source>
+          <target state="translated">-只有每位使用者個人化資料錄會被視為非作用中指定的日期後的使用者相關聯<ph id="ph1">`userInactiveSinceDate`</ph>參數將被刪除。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The exact comparison would be to delete records where the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property is less than or equal to the <ph id="ph1">`userInactiveSinceDate`</ph> parameter.</source>
+          <target state="translated">是精確的比較刪除記錄，其中&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;屬性小於或等於<ph id="ph1">`userInactiveSinceDate`</ph>參數。&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-   If both parameters are provided, then records that match both constraints are deleted.</source>
+          <target state="translated">-如果未提供這兩個參數，則會刪除比對兩個條件約束的記錄。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`path`</ph> parameter can be <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">-<ph id="ph1">`path`</ph>參數可以是<ph id="ph2">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`path`</ph> parameter cannot be an empty string after trimming.</source>
+          <target state="translated">-<ph id="ph1">`path`</ph>參數不可為空字串修剪後。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt; property cannot be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">-&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;屬性不可以是<ph id="ph1">`null`</ph>。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationStateQuery.UserInactiveSinceDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The path of the personalization data to be deleted.</source>
+          <target state="translated">要刪除個人化資料的路徑。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>This value can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> but cannot be an empty string ("").</source>
+          <target state="translated">這個值可以是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>但不能是空字串 ("")。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The date indicating the last activity.</source>
+          <target state="translated">指出上次活動日期。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The count of rows deleted from the underlying data store.</source>
+          <target state="translated">從基礎資料存放區刪除的資料列計數。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Saves raw personalization data to the underlying Microsoft SQL Server database.</source>
+          <target state="translated">將未經處理的個人化資料儲存至基礎的 Microsoft SQL Server 資料庫。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>If a non-<ph id="ph1">`null`</ph> user name is provided, then the <ph id="ph2">`dataBlob`</ph> parameter contains personalization data for &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope; otherwise, <ph id="ph3">`dataBlob`</ph> is assumed to contain data for &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope.</source>
+          <target state="translated">如果將非<ph id="ph1">`null`</ph>提供使用者名稱，然後在<ph id="ph2">`dataBlob`</ph>參數會包含個人化資料&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;範圍; 否則<ph id="ph3">`dataBlob`</ph>假設為包含資料&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;範圍。&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt; object automatically updates the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; column in the <ph id="ph1">`aspnet_Users`</ph> table each time user-specific personalization data is saved to the database in the context of a page request.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;物件會自動更新&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;中的資料行<ph id="ph1">`aspnet_Users`</ph>資料表每個時間特定使用者個人化資料儲存至頁面要求的內容中的資料庫。&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.SqlPersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This behavior allows other ASP.NET features to use the &lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt; property when managing stale data records as well as determining recent user activity on a site.</source>
+          <target state="translated">此行為可讓其他的 ASP.NET 功能，可使用&lt;xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;屬性管理資料失效時記錄，以及決定站台上最近的使用者活動。&lt;/xref:System.Web.UI.WebControls.WebParts.UserPersonalizationStateInfo.LastActivityDate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> managing the personalization data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>管理個人化資料。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the personalization information to be saved.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指出要儲存個人化資訊。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>This value cannot be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個值不能<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The user name for personalization information in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to be used as the key.</source>
+          <target state="translated">中的個人化資訊的使用者名稱<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>来做為索引鍵的範圍。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The byte array of data to be saved.</source>
+          <target state="translated">要儲存資料的位元組陣列。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
