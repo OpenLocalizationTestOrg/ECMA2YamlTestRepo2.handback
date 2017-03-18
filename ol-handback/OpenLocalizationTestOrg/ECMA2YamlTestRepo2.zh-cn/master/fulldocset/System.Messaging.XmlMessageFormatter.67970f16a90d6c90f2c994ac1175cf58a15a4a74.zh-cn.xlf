@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01a29ba8b6be0cb3371461a78f5e89c26bfe42e7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.XmlMessageFormatter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7a0f67b916c300e4a76b1f295ffe289961f8de0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c058aa03a560826c952d30e6184c250444ae9e2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serializes and deserializes objects to or from the body of a message, using the XML format based on the XSD schema definition.</source>
+          <target state="translated">序列化和反序列化对象到或从使用基于 XSD 架构定义的 XML 格式的消息的正文。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The XmlMessageFormatter is the default formatter that an instance of &lt;xref:System.Messaging.MessageQueue&gt; uses to serialize messages written to the queue.</source>
+          <target state="translated">XmlMessageFormatter 是默认的格式化程序的实例&lt;xref:System.Messaging.MessageQueue&gt;用于序列化消息写入队列。&lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>When you create an instance of &lt;xref:System.Messaging.MessageQueue&gt;, an instance of XmlMessageFormatter is created for you and associated with the &lt;xref:System.Messaging.MessageQueue&gt;.</source>
+          <target state="translated">当创建实例时&lt;xref:System.Messaging.MessageQueue&gt;，为你创建的 XmlMessageFormatter 实例并将其与&lt;xref:System.Messaging.MessageQueue&gt;.&lt;/xref:System.Messaging.MessageQueue&gt;关联&lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can specify a different formatter by creating it in your code and assigning it to the &lt;xref:System.Messaging.MessageQueue.Formatter%2A&gt; property of your &lt;xref:System.Messaging.MessageQueue&gt;.</source>
+          <target state="translated">你可以通过在代码中创建它并将其分配给&lt;xref:System.Messaging.MessageQueue.Formatter%2A&gt;你&lt;xref:System.Messaging.MessageQueue&gt;.&lt;/xref:System.Messaging.MessageQueue&gt;属性&lt;/xref:System.Messaging.MessageQueue.Formatter%2A&gt;指定不同的格式化程序</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A queue's default XmlMessageFormatter instance can be used to write to the queue, but it cannot be used to read from the queue until you set either the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; property on the formatter.</source>
+          <target state="translated">可以使用队列的默认 XmlMessageFormatter 实例要写入队列，但它不能用于从队列读取，直到你设置&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;或&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;上格式化程序的属性。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can either set one or both of these values on the default formatter instance, or you can create a new instance of the formatter and set the values automatically by passing them as arguments into the appropriate &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">你可以设置一个或两个这些值在默认格式化程序实例中，也可以创建格式化程序的新实例，并自动设置的值，通过将它们作为自变量传递到相应&lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;构造函数。&lt;/xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When specifying &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; rather than &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, type existence is checked at compile time rather than read time, reducing possibility for error.</source>
+          <target state="translated">指定时&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;而非&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;，编译时而不是读取的时，减少发生错误的可能性，在检查的类型存在。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; requires every entry to be fully qualified, specifying its assembly name.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;要求每个项都必须是完全限定，指定其程序集名称。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Further, when working with multiple concurrent versions, the version number must also be appended to the target type name as well.</source>
+          <target state="translated">此外，在使用多个并发的版本，必须也为目标类型名称追加的版本号。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;和&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;属性通知格式化程序要尝试在反序列化消息时要匹配的架构。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">这样，格式化程序来解释消息正文。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">在消息正文中序列化的实例必须符合其中一个类型数组中表示架构。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">当读取消息使用的&lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;方法，该方法创建相对应的标识的架构类型的对象，并读取消息正文到它。&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">这两个属性只有一个需要从队列中读取时设置，但也可以同时设置。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">类型集是从两个属性的组合的集。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The decision of which property to use is specific to your application.</source>
+          <target state="translated">要使用的属性的决策是特定于你的应用程序。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown when the message is read.</source>
+          <target state="translated">如果消息正文包含其架构不匹配任何这两个属性的数组中的类型的类型，在读取消息时，将引发异常。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The XmlMessageFormatter is a crucial component of loosely coupled XML-based messaging.</source>
+          <target state="translated">XmlMessageFormatter 是松散耦合的基于 XML 的消息传递的一个关键组件。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The XSD.exe utility uses the XML format is used to generate XML schema, such as when you use the utility to serialize a class used by your application.</source>
+          <target state="translated">XSD.exe 实用工具使用 XML 格式用于生成 XML 架构，例如在使用该实用程序来序列化应用程序使用的类。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The class must have a default constructor.</source>
+          <target state="translated">此类必须具有默认构造函数。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The format is used again in the reverse process when the utility generates a class based on the schema you distribute to describe your class data.</source>
+          <target state="translated">使用的格式再次以相反的过程时实用程序生成基于架构的类你分发用于描述类数据。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The use of the utility and the XML schema it generates enables you to avoid redistributing.dll files every time you recompile a class after the implementation of your class has changed.</source>
+          <target state="translated">使用该实用程序和它所生成的 XML 架构，可避免重新分发.dll 文件，每次你的类的实现已更改后，在重新编译的类。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>As long as the schema does not change on the client or the server, other changes on either side do not affect the other.</source>
+          <target state="translated">只要架构不会更改客户端或服务器上，在任意一侧的其他更改不影响其他。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, without target types set.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，而无需目标类型集。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This overload of the constructor is used most frequently when writing to the queue, as target types are not required when writing.</source>
+          <target state="translated">此重载构造函数最常时使用写入到队列，如在写入时，目标类型不需要。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To read a message from a queue using an instance of &lt;xref:System.Messaging.XmlMessageFormatter&gt; created using this constructor, you must set the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties so the formatter knows what types to attempt to deserialize.</source>
+          <target state="translated">若要使用的实例从队列中读取一条消息&lt;xref:System.Messaging.XmlMessageFormatter&gt;使用此构造函数创建的你必须设置&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;或&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;属性，以便格式化程序知道要尝试反序列化的类型。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When you create a new &lt;xref:System.Messaging.MessageQueue&gt;, a default &lt;xref:System.Messaging.XmlMessageFormatter&gt; instance is created, without the target types set.</source>
+          <target state="translated">当你创建一个新&lt;xref:System.Messaging.MessageQueue&gt;，默认&lt;xref:System.Messaging.XmlMessageFormatter&gt;创建实例，而无需设置目标类型。&lt;/xref:System.Messaging.XmlMessageFormatter&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>As with a formatter created using this constructor, you must set target types for that formatter instance if you want to read from the queue.</source>
+          <target state="translated">使用此构造函数创建的格式化程序，必须设置为该格式化程序实例的目标类型，如果你想要从队列中读取。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, setting target types passed in as an array of (fully qualified) string values.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，将传入的 （完全限定） 字符串值数组形式的目标类型设置。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The constructors with target type parameters are most frequently used when reading from the queue.</source>
+          <target state="translated">从队列中读取时，最经常使用与目标类型参数的构造函数。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When writing, it is not necessary to specify target types.</source>
+          <target state="translated">在编写时，不需要指定目标类型。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This overload of the &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt; constructor sets the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; property to the array values passed in through the <ph id="ph1">`targetTypeNames`</ph> parameter.</source>
+          <target state="translated">此重载&lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;构造函数集&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;属性中传递的数组值<ph id="ph1">`targetTypeNames`</ph>参数。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Setting this property enables a &lt;xref:System.Messaging.MessageQueue&gt; using this &lt;xref:System.Messaging.XmlMessageFormatter&gt; instance to read messages containing objects of given types.</source>
+          <target state="translated">设置此属性使&lt;xref:System.Messaging.MessageQueue&gt;使用此&lt;xref:System.Messaging.XmlMessageFormatter&gt;实例读取消息包含对象的给定类型。&lt;/xref:System.Messaging.XmlMessageFormatter&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">同时&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;和&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;属性通知格式化程序要尝试在反序列化消息时要匹配的架构。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">这样，格式化程序来解释消息正文。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">在消息正文中序列化的实例必须符合其中一个类型数组中表示架构。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">当读取消息使用的&lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;方法，该方法创建相对应的标识的架构类型的对象，并读取消息正文到它。&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">这两个属性只有一个需要从队列中读取时设置，但也可以同时设置。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">类型集是从两个属性的组合的集。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The decision of which one to use is specific to your application.</source>
+          <target state="translated">其中一个才能使用是特定于你的应用程序。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown at read time.</source>
+          <target state="translated">如果消息正文包含其架构不匹配任何这两个属性的数组中的类型的类型，则将在读取时引发异常。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.String&gt; that specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">类型的数组&lt;xref:System.String&gt;用于指定将从提供的消息格式化程序反序列化的可能类型集。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These values must be fully qualified, for example, "MyNamespace.MyOrders, MyOrdersAssemblyName".</source>
+          <target state="translated">这些值必须是完全限定，例如，"MyNamespace.MyOrders，MyOrdersAssemblyName"。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypeNames</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypeNames</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, setting target types passed in as an array of object types.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，将作为数组的对象类型传递中的目标类型设置。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The constructors with target type parameters are most frequently used when reading from the queue.</source>
+          <target state="translated">从队列中读取时，最经常使用与目标类型参数的构造函数。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When writing, it is not necessary to specify target types.</source>
+          <target state="translated">在编写时，不需要指定目标类型。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This overload of the &lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt; constructor sets the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; property to the array values passed in through the <ph id="ph1">`targetTypes`</ph> parameter.</source>
+          <target state="translated">此重载&lt;xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;构造函数集&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;属性中传递的数组值<ph id="ph1">`targetTypes`</ph>参数。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Setting this property enables a &lt;xref:System.Messaging.MessageQueue&gt; using this &lt;xref:System.Messaging.XmlMessageFormatter&gt; instance to read messages containing objects of the given types.</source>
+          <target state="translated">设置此属性使&lt;xref:System.Messaging.MessageQueue&gt;使用此&lt;xref:System.Messaging.XmlMessageFormatter&gt;实例读取包含给定类型的对象的消息。&lt;/xref:System.Messaging.XmlMessageFormatter&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">同时&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;和&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;属性通知格式化程序要尝试在反序列化消息时要匹配的架构。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">这样，格式化程序来解释消息正文。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">在消息正文中序列化的实例必须符合其中一个类型数组中表示架构。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">当读取消息使用的&lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;方法，该方法创建相对应的标识的架构类型的对象，并读取消息正文到它。&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">这两个属性只有一个需要从队列中读取时设置，但也可以同时设置。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">类型集是从两个属性的组合的集。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The decision of which one to use is specific to your application.</source>
+          <target state="translated">其中一个才能使用是特定于你的应用程序。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown at read time.</source>
+          <target state="translated">如果消息正文包含其架构不匹配任何这两个属性的数组中的类型的类型，则将在读取时引发异常。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When specifying &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; rather than &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, type existence is checked at compile time rather than read time, reducing possibility for error.</source>
+          <target state="translated">指定时&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;而非&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;，编译时而不是读取的时，减少发生错误的可能性，在检查的类型存在。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; requires every entry to be fully qualified, specifying its assembly name.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;要求每个项都必须是完全限定，指定其程序集名称。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Further, when working with multiple concurrent versions, the version number must also be appended to the target type name as well.</source>
+          <target state="translated">此外，在使用多个并发的版本，必须也为目标类型名称追加的版本号。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>When using &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;, you can add each object (for example, <ph id="ph1">`MyClass`</ph>) to the list in a way demonstrated by the following C# code.</source>
+          <target state="translated">使用时&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;，你可以添加每个对象 (例如， <ph id="ph1">`MyClass`</ph>) 到下面的 C# 代码所示的方式的列表。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Type&gt; that specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">类型的数组&lt;xref:System.Type&gt;用于指定将从提供的消息格式化程序反序列化的可能类型集。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypes</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">targetTypes</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Determines whether the formatter can deserialize the message.</source>
+          <target state="translated">确定格式化程序是否可以反序列化消息。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>When CanRead is called, the formatter attempts to determine if the contents of the message are something it can deserialize.</source>
+          <target state="translated">当调用 CanRead 时，格式化程序将尝试确定消息的内容是否可以反序列化的内容。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The formatter can only deserialize the message if the type in the message body has the same schema as one of the types in the array represented by the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties.</source>
+          <target state="translated">消息正文中的类型由数组中具有相同的架构类型之一时，格式化程序可以仅反序列消息&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;和&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;属性。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>CanRead returns <ph id="ph1">`false`</ph> under the following two circumstances:      -   The message was not formatted using the &lt;xref:System.Messaging.XmlMessageFormatter&gt;.</source>
+          <target state="translated">CanRead 返回<ph id="ph1">`false`</ph>下列两种情况下:-消息的格式不使用&lt;xref:System.Messaging.XmlMessageFormatter&gt;.&lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-   The schema of the message body is not among those listed in either the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; property.</source>
+          <target state="translated">的消息正文架构不在中列出的内容相比&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;或&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;属性。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what types of objects it must be able to deserialize.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;和&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;属性通知格式化程序哪些类型的对象必须能够进行反序列化。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If any type is missing from the list, yet is found within the message, CanRead returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">如果从列表中，缺少任何类型的消息中找到，CanRead 返回<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to inspect.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>检查。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the XML formatter can deserialize the message; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果 XML 格式化程序可以反序列化消息;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Neither the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames<bpt id="p1">*</bpt>&gt; nor &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes<ept id="p1">*</ept>&gt; property has been set.</source>
+          <target state="translated">既不&lt;&gt; <bpt id="p1">*</bpt>1&gt; 也不&lt;&gt; <ept id="p1">*</ept>1&gt; 设置属性。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class whose read/write properties (the sets of target types) are the same as the current <bpt id="p2">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">创建的实例<bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类其读/写属性 （目标类型的集） 是否与当前相同<bpt id="p2">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>实例。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This method creates a copy of the formatter and initializes all its properties to the values of this &lt;xref:System.Messaging.XmlMessageFormatter&gt; object.</source>
+          <target state="translated">此方法创建一份格式化程序，并初始化所有其属性设置为此值&lt;xref:System.Messaging.XmlMessageFormatter&gt;对象。&lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An object whose properties are identical to those of this <bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance, but whose metadata does not specify it to be a formatter class instance.</source>
+          <target state="translated">其属性与此相同一个对象<bpt id="p1">&lt;xref href="System.Messaging.XmlMessageFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>实例，但其元数据并不指定它为格式化程序类实例。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Reads the contents from the given message and creates an object that contains the deserialized message.</source>
+          <target state="translated">从给定的消息读取内容并创建包含反序列化的消息的对象。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">同时&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;和&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;属性通知格式化程序要尝试在反序列化消息时要匹配的架构。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>One of these properties must be set before the message can be deserialized.</source>
+          <target state="translated">可以反序列化消息之前必须设置这些属性之一。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">在消息正文中序列化的实例必须符合其中一个类型数组中表示架构。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">当读取消息使用的&lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;方法，该方法创建相对应的标识的架构类型的对象，并读取消息正文到它。&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The target types do not have to be specified in order to write to the queue.</source>
+          <target state="translated">目标类型无需指定才能写入队列。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, in XML format, to deserialize.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，采用 XML 格式，以便反序列化。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The deserialized message.</source>
+          <target state="translated">反序列化的消息。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Neither the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames<bpt id="p1">*</bpt>&gt; nor &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes<ept id="p1">*</ept>&gt; property has been set.</source>
+          <target state="translated">既不&lt;&gt; <bpt id="p1">*</bpt>1&gt; 也不&lt;&gt; <ept id="p1">*</ept>1&gt; 设置属性。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-or-       The instance serialized in the message body does not comply with any of the schemas represented by the types in the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames<bpt id="p1">*</bpt>&gt; and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes<ept id="p1">*</ept>&gt; properties.</source>
+          <target state="translated">-或-在消息正文中序列化的实例不符合的任何架构中的类型由表示&lt;&gt; <bpt id="p1">*</bpt>1&gt; 和&lt;&gt; <ept id="p1">*</ept>1&gt; 属性。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">指定的一套可能将由从提供的消息格式化程序反序列化的类型。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Both the TargetTypeNames and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">这两个 TargetTypeNames 和&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;属性通知格式化程序要尝试在反序列化消息时要匹配的架构。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">这样，格式化程序来解释消息正文。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">在消息正文中序列化的实例必须符合其中一个类型数组中表示架构。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">当读取消息使用的&lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;方法，该方法创建相对应的标识的架构类型的对象，并读取消息正文到它。&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">这两个属性只有一个需要从队列中读取时设置，但也可以同时设置。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">类型集是从两个属性的组合的集。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The decision of which property to use is specific to your application.</source>
+          <target state="translated">要使用的属性的决策是特定于你的应用程序。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown when the message is read.</source>
+          <target state="translated">如果消息正文包含其架构不匹配任何这两个属性的数组中的类型的类型，在读取消息时，将引发异常。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>TargetTypeNames requires every entry to be fully qualified, specifying its assembly name.</source>
+          <target state="translated">TargetTypeNames 要求每个项都必须是完全限定，指定其程序集名称。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Further, when working with multiple concurrent versions, the version number must also be appended to the target type name as well.</source>
+          <target state="translated">此外，在使用多个并发的版本，必须也为目标类型名称追加的版本号。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The target types are only required when reading from the queue.</source>
+          <target state="translated">的目标类型是仅在从队列中读取时需要。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The TargetTypeNames and &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; properties do not need to be set to write to the queue.</source>
+          <target state="translated">TargetTypeNames 和&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;属性不需要设置要写入队列。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.String&gt; that specifies the types of objects to deserialize from the message body when reading the message.</source>
+          <target state="translated">类型的数组&lt;xref:System.String&gt;，它指定要从消息正文反序列化时读取消息的对象的类型。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The TargetTypeNames property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">TargetTypeNames 属性是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Specifies the set of possible types that will be deserialized by the formatter from the message provided.</source>
+          <target state="translated">指定的一套可能将由从提供的消息格式化程序反序列化的类型。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Both the &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and TargetTypes properties tell the formatter what schemas to attempt to match when deserializing a message.</source>
+          <target state="translated">同时&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;并 TargetTypes 属性告知格式化程序要尝试在反序列化消息时要匹配的架构。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This allows the formatter to interpret the message body.</source>
+          <target state="translated">这样，格式化程序来解释消息正文。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The instance serialized in the message body must comply with one of the schemas represented in the type array.</source>
+          <target state="translated">在消息正文中序列化的实例必须符合其中一个类型数组中表示架构。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>When you read the message using the &lt;xref:System.Messaging.MessageQueue.Receive%2A&gt; method, the method creates an object of the type that corresponds to the schema identified and reads the message body into it.</source>
+          <target state="translated">当读取消息使用的&lt;xref:System.Messaging.MessageQueue.Receive%2A&gt;方法，该方法创建相对应的标识的架构类型的对象，并读取消息正文到它。&lt;/xref:System.Messaging.MessageQueue.Receive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Only one of the two properties needs to be set when reading from the queue, but you can set both.</source>
+          <target state="translated">这两个属性只有一个需要从队列中读取时设置，但也可以同时设置。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The set of types is the combined set from the two properties.</source>
+          <target state="translated">类型集是从两个属性的组合的集。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The decision of which property to use is specific to your application.</source>
+          <target state="translated">要使用的属性的决策是特定于你的应用程序。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>If the message body contains a type whose schema does not match any of the types in the array for either property, an exception will be thrown when the message is read.</source>
+          <target state="translated">如果消息正文包含其架构不匹配任何这两个属性的数组中的类型的类型，在读取消息时，将引发异常。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The target types are only required when reading from the queue.</source>
+          <target state="translated">的目标类型是仅在从队列中读取时需要。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; and TargetTypes properties do not need to be set to write to the queue.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;和 TargetTypes 属性不需要设置要写入队列。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>When specifying TargetTypes rather than &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;, type existence is checked at compile time rather than read time, reducing possibility for error.</source>
+          <target state="translated">当指定 TargetTypes 而非&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;，编译时而不是读取的时，减少发生错误的可能性，在检查的类型存在。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>When using TargetTypes, you can add each object (for example, <ph id="ph1">`MyClass`</ph>) to the list in a way demonstrated by the C# code <ph id="ph2">`TargetTypes = new Type[]{typeof(MyClass), typeof (MyOtherClass)};`</ph>.</source>
+          <target state="translated">在使用 TargetTypes，你可以添加每个对象 (例如， <ph id="ph1">`MyClass`</ph>) 到的列表中的 C# 代码所示的方式<ph id="ph2">`TargetTypes = new Type[]{typeof(MyClass), typeof (MyOtherClass)};`</ph>。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Type&gt; that specifies the types of objects to deserialize from the message body when reading the message.</source>
+          <target state="translated">类型的数组&lt;xref:System.Type&gt;，它指定要从消息正文反序列化时读取消息的对象的类型。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The TargetTypes property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">TargetTypes 属性是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Serializes an object into the body of the message.</source>
+          <target state="translated">对象序列化为消息的正文。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The target types need not be specified to write to the queue as they must be when reading.</source>
+          <target state="translated">目标类型不需要指定要写入队列，因为它们必须在读取时。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt; or &lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; property is used by the formatter only when deserializing a message.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;或&lt;xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt;仅在反序列化消息时，格式化程序使用的属性。&lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypes%2A&gt; &lt;/xref:System.Messaging.XmlMessageFormatter.TargetTypeNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.XmlMessageFormatter&gt; makes use of the &lt;xref:System.Xml.Serialization.XmlSerializer&gt; class, which defines what can be serialized.</source>
+          <target state="translated">&lt;xref:System.Messaging.XmlMessageFormatter&gt;利用&lt;xref:System.Xml.Serialization.XmlSerializer&gt;类，该类定义可序列化内容。&lt;/xref:System.Xml.Serialization.XmlSerializer&gt; &lt;/xref:System.Messaging.XmlMessageFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Only public fields and public properties can be serialized.</source>
+          <target state="translated">仅公共字段和公共属性，可以进行序列化。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Structures, structures with arrays, and arrays of structures are all serializable, as long as they do not use the encoded style with the SOAP protocol.</source>
+          <target state="translated">结构、 具有数组和结构的数组的结构是所有可序列化，只要它们不使用 SOAP 协议使用的编码的样式。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose &lt;xref:System.Messaging.Message.Body*&gt; property will contain the serialized object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Messaging.Message"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>其&lt;xref:System.Messaging.Message.Body*&gt;属性将包含序列化的对象。&lt;/xref:System.Messaging.Message.Body*&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to be serialized into the message body.</source>
+          <target state="translated">&lt;xref:System.Object&gt;要序列化到消息正文。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">message</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae7883ac016d898fb61f8ff024054878e9b16ff2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.DataTableReader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a47440c8743ef76c0d2aa275b702c0b2975c9659</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">78fcb4893c6e1f06b978de0a798527a82f480235</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The DataTableReader obtains the contents of one or more <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects in the form of one or more read-only, forward-only result sets.</source>
+          <target state="translated">DataTableReader는 하나 이상의의 내용을 가져오고 <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체를 하나 이상의 읽기 전용, 정방향 전용 결과 집합의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DataTableReader works much like any other data reader, such as the &lt;xref:System.Data.SqlClient.SqlDataReader&gt;, except that the DataTableReader provides for iterating over rows in a &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">DataTableReader과 같은 &lt;xref:System.Data.SqlClient.SqlDataReader&gt;한다는 점을 제외 하 고 DataTableReader에 &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; 의 행을 반복 하는 데 제공&lt;/xref:System.Data.SqlClient.SqlDataReader&gt; 의 다른 데이터 판독기를 훨씬 비슷합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In other words, it provides for iterating over rows in a cache.</source>
+          <target state="translated">즉, 캐시의 행을 반복 하는 것입니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The cached data can be modified while the DataTableReader is active, and the reader automatically maintains its position.</source>
+          <target state="translated">캐시 된 데이터는 DataTableReader 활성화 되며, 판독기의 위치를 자동으로 유지 관리 하는 동안 수정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create a DataTableReader from a &lt;xref:System.Data.DataTable&gt;, the resulting DataTableReader object contains one result set with the same data as the &lt;xref:System.Data.DataTable&gt; from which it was created, except for any rows that have been marked as deleted.</source>
+          <target state="translated">DataTableReader를 만들 때는 &lt;xref:System.Data.DataTable&gt;, 결과 DataTableReader 개체 결과와 동일한 데이터 집합 하나가 포함 된 &lt;xref:System.Data.DataTable&gt;가 만들어진, 삭제 된 것으로 표시 된 모든 행을 제외한에서.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The columns appear in the same order as in the original &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">열이 원래 &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; 에서와 동일한 순서로 표시</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The structure of the returned result is identical in schema and data to the original &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">반환된 된 결과의 구조는 &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; 원래 스키마와 데이터와 동일</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A DataTableReader that was created by calling the &lt;xref:System.Data.DataSet.GetDataReader%2A&gt; method of a &lt;xref:System.Data.DataSet&gt; object contains multiple result sets if the &lt;xref:System.Data.DataSet&gt;contains more than one table.</source>
+          <target state="translated">호출 하 여 만든 DataTableReader는 &lt;xref:System.Data.DataSet.GetDataReader%2A&gt;의 메서드는 &lt;xref:System.Data.DataSet&gt;경우 여러 개의 결과 집합이 포함 하는 개체는 &lt;xref:System.Data.DataSet&gt;둘 이상의 테이블을 포함 합니다.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataSet.GetDataReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results are in the same sequence as the &lt;xref:System.Data.DataTable&gt;objects in the &lt;xref:System.Data.DataTableCollection&gt; of the &lt;xref:System.Data.DataSet&gt; object.</source>
+          <target state="translated">결과과 동일한 시퀀스로 &lt;xref:System.Data.DataTable&gt;개체에 &lt;xref:System.Data.DataTableCollection&gt;의 &lt;xref:System.Data.DataSet&gt;개체입니다.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTableCollection&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned result set contains only the current version of each &lt;xref:System.Data.DataRow&gt;; rows that are marked for deletion are skipped.</source>
+          <target state="translated">반환된 된 결과 집합의 현재 버전의 각각 포함 &lt;xref:System.Data.DataRow&gt;; 삭제 하도록 표시 된 행은 건너뜁니다.&lt;/xref:System.Data.DataRow&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`DataTableReader`</ph> provides a stable iterator; that is, the contents of the <ph id="ph2">`DataTableReader`</ph> are not invalidated if the size of the underlying collection is modified during iteration.</source>
+          <target state="translated"><ph id="ph1">`DataTableReader`</ph> 안정적인 제공 반복기, 즉의 콘텐츠는 <ph id="ph2">`DataTableReader`</ph> 반복 하는 동안 기본 컬렉션의 크기를 수정 하는 경우 무효화 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if one or more rows in the &lt;xref:System.Data.DataTable.Rows%2A&gt; collection are deleted or removed during iteration, the current position within the <ph id="ph1">`DataTableReader`</ph> is maintained appropriately and it does not invalidate the iterator.</source>
+          <target state="translated">예를 들어 하나 이상의 대 한에 행이 &lt;xref:System.Data.DataTable.Rows%2A&gt;컬렉션을 삭제 하거나 반복 내에서 현재 위치 하는 동안 제거할는 <ph id="ph1">`DataTableReader`</ph> 은 적절 하 게 유지 관리 및 반복기를 무효화 하지 않습니다.&lt;/xref:System.Data.DataTable.Rows%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using data from the supplied <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 데이터를 사용 하 여 클래스 <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which the new <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> obtains its result set.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 있는 새 <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 결과 집합을 가져오는 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the supplied array of <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제공 된 배열을 사용 하 여 클래스 <bpt id="p2">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you must create a &lt;xref:System.Data.DataTableReader&gt; based on all or a subset of the tables within a specific &lt;xref:System.Data.Dataset&gt;, call the <ph id="ph1">`DataSet`</ph>'s &lt;xref:System.Data.DataSet.GetDataReader%2A&gt; method.</source>
+          <target state="translated">만들어야 하는 경우는 &lt;xref:System.Data.DataTableReader&gt;전체 또는 특정 내에서 테이블의 하위 집합에 따라 &lt;xref:System.Data.Dataset&gt;, 호출 된 <ph id="ph1">`DataSet`</ph>의 &lt;xref:System.Data.DataSet.GetDataReader%2A&gt;메서드.&lt;/xref:System.Data.DataSet.GetDataReader%2A&gt; &lt;/xref:System.Data.Dataset&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to create a new &lt;xref:System.Data.DataTableReader&gt; instance based on a group of <ph id="ph1">`DataTable`</ph> instances that are not otherwise related, use this constructor.</source>
+          <target state="translated">새 하려면 &lt;xref:System.Data.DataTableReader&gt;인스턴스 그룹을 기반으로 <ph id="ph1">`DataTable`</ph> 이 생성자를 사용 하는 다른 방법으로 서로 연관 되어 있습니다.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also take advantage of this constructor to rearrange the ordering of the <ph id="ph1">`DataTables`</ph> within the <ph id="ph2">`DataTableReader`</ph>, if their ordering within their source <ph id="ph3">`DataSet`</ph> does not meet your needs.</source>
+          <target state="translated">순서를 다시 정렬 하려면이 생성자의 이용할 수도 수 있습니다는 <ph id="ph1">`DataTables`</ph> 내는 <ph id="ph2">`DataTableReader`</ph>경우, 기본적으로 소스 내에서 나타나는 순서 <ph id="ph3">`DataSet`</ph> 요구를 충족 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The array of <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that supplies the results for the new <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">배열 <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 새에 대 한 결과 제공 하는 개체 <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Closes the current <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">현재 닫습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling <ph id="ph1">`Close()`</ph> on a closed <ph id="ph2">`DataTableReader`</ph> object does not raise an error.</source>
+          <target state="translated">호출 <ph id="ph1">`Close()`</ph> 닫힌에 <ph id="ph2">`DataTableReader`</ph> 개체에서 오류가 발생 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The depth of nesting for the current row of the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">현재 행에 대 한 중첩 깊이 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`DataTableReader`</ph> does not support nesting.</source>
+          <target state="translated"><ph id="ph1">`DataTableReader`</ph>중첩을 지원 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Depth`</ph> property always returns zero.</source>
+          <target state="translated"><ph id="ph1">`Depth`</ph> 속성은 항상&amp;0;을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The depth of nesting for the current row; always zero.</source>
+          <target state="translated">현재 행에 대 한 중첩 깊이 항상&amp;0;입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns the number of columns in the current row.</source>
+          <target state="translated">현재 행에서 열 수를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When not positioned in a valid result set, 0; otherwise the number of columns in the current row.</source>
+          <target state="translated">0; 올바른 결과 집합에 배치 되지 않았으면 그렇지 않은 경우 현재 행에서 열 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve the field count in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">닫힌에서 필드 수를 검색 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.Boolean&gt;.</source>
+          <target state="translated">지정 된 열의 값을 &lt;xref:System.Boolean&gt;.&lt;/xref:System.Boolean&gt; 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must either already be a Boolean or coercible to a Boolean, or an exception is generated.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 된 데이터가 이미 Boolean 또는 부울,으로 강제 변환 또는 예외가 생성 됩니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">지정 된 열에 없는 한 <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a byte.</source>
+          <target state="translated">지정 된 열의 값을 바이트로 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a byte or coercible to a byte.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 된 데이터가 이미 있어야 바이트 또는 byte로 강제 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a byte.</source>
+          <target state="translated">지정된 된 열에 바이트가 없습니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Reads a stream of bytes starting at the specified column offset into the buffer as an array starting at the specified buffer offset.</source>
+          <target state="translated">지정한 버퍼 오프셋에서 시작 하는 배열로 버퍼에 지정된 된 열 오프셋에서 시작 하는 바이트 스트림을 읽습니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`GetBytes`</ph> returns the number of available bytes in the field.</source>
+          <target state="translated"><ph id="ph1">`GetBytes`</ph>필드에 사용 가능한 바이트 수를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of the time this is the exact length of the field.</source>
+          <target state="translated">대부분의 경우 이것은 필드의 길이입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the number returned may be less than the true length of the field if <ph id="ph1">`GetBytes`</ph> has already been used to obtain bytes from the field.</source>
+          <target state="translated">그러나 반환 된 숫자 보다 작을 수도 있습니다는 필드의 길이 경우 <ph id="ph1">`GetBytes`</ph> 바이트를 얻는 필드에서 이미 사용 되었습니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This may be the case, for example, when the &lt;xref:System.Data.DataTableReader&gt; is reading a large data structure into a buffer       If you pass a buffer that is <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> in Visual Basic), <ph id="ph3">`GetBytes`</ph> returns the length of the entire field in bytes, not the remaining size based on the buffer offset parameter.</source>
+          <target state="translated">예를 들어 있는 경우 수 있습니다 때는 &lt;xref:System.Data.DataTableReader&gt;버퍼를 전달 하는 경우 큰 데이터 구조를 버퍼에 읽고 <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> Visual Basic의), <ph id="ph3">`GetBytes`</ph> 버퍼 오프셋된 매개 변수에 따라 나머지 크기가 아니라를 바이트 단위로 전체 필드의 길이 반환 합니다.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a byte array or coercible to a byte array.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 된 데이터가 이미 여야 바이트 배열 또는 바이트 배열에 강제 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The index within the field from which to start the read operation.</source>
+          <target state="translated">읽기 작업을 시작할 필드 내의 인덱스입니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The buffer into which to read the stream of bytes.</source>
+          <target state="translated">바이트 스트림의 읽을 버퍼입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The index within the buffer at which to start placing the data.</source>
+          <target state="translated">데이터 배치를 시작할 버퍼 내의 인덱스입니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The maximum length to copy into the buffer.</source>
+          <target state="translated">버퍼에 복사할 최대 길이입니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The actual number of bytes read.</source>
+          <target state="translated">실제 읽은 바이트 수입니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a byte array.</source>
+          <target state="translated">지정된 된 열에 바이트 배열이 없습니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a character.</source>
+          <target state="translated">문자로 지정 된 열의 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a character or coercible to a character.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 된 데이터가 이미 있어야 문자 또는 문자도 강제 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The value of the column.</source>
+          <target state="translated">열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The specified field does not contain a character.</source>
+          <target state="translated">지정된 된 필드에는 문자가 없습니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Returns the value of the specified column as a character array.</source>
+          <target state="translated">지정 된 열의 값을 문자 배열로 반환합니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`GetChars`</ph> returns the number of available characters in the field.</source>
+          <target state="translated"><ph id="ph1">`GetChars`</ph>필드에 사용할 수 있는 문자 수를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of the time this is the exact length of the field.</source>
+          <target state="translated">대부분의 경우 이것은 필드의 길이입니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the number returned may be less than the true length of the field if <ph id="ph1">`GetChars`</ph> has already been used to obtain characters from the field.</source>
+          <target state="translated">그러나 반환 된 숫자 보다 작을 수도 있습니다는 필드의 길이 경우 <ph id="ph1">`GetChars`</ph> 문자를 가져올 필드에서 이미 사용 되었습니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The actual number of characters read can be less than the requested length, if the end of the field is reached.</source>
+          <target state="translated">실제 읽은 문자 수는 필드의 끝에 도달할 경우 요청 된 길이 보다 작을 수 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you pass a buffer that is null (<ph id="ph1">`Nothing`</ph> in Visual Basic), <ph id="ph2">`GetChars`</ph> returns the length of the entire field in characters, not the remaining size based on the buffer offset parameter.</source>
+          <target state="translated">버퍼는 null을 전달 하는 경우 (<ph id="ph1">`Nothing`</ph> Visual basic에서), <ph id="ph2">`GetChars`</ph> 문자 버퍼 오프셋된 매개 변수에 따라 나머지 크기가 아니라 전체 필드의 길이 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data to be retrieved must already be a character array or coercible to a character array.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 데이터를 검색할 수 있어야는 문자 배열 또는 문자 배열의으로 강제 변환 합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The index within the field from which to start the read operation.</source>
+          <target state="translated">읽기 작업을 시작할 필드 내의 인덱스입니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The buffer into which to read the stream of chars.</source>
+          <target state="translated">문자 스트림의 읽을 버퍼입니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The index within the buffer at which to start placing the data.</source>
+          <target state="translated">데이터 배치를 시작할 버퍼 내의 인덱스입니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The maximum length to copy into the buffer.</source>
+          <target state="translated">버퍼에 복사할 최대 길이입니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The actual number of characters read.</source>
+          <target state="translated">실제 읽은 문자 수입니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a character array.</source>
+          <target state="translated">지정된 된 열에는 문자 배열</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a string representing the data type of the specified column.</source>
+          <target state="translated">지정 된 열의 데이터 형식을 나타내는 문자열을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetDataTypeName method always returns the type of the underlying &lt;xref:System.Data.DataColumn&gt; instead of a provider-specific type.</source>
+          <target state="translated">GetDataTypeName 메서드는 항상 기본 유형을 반환 &lt;xref:System.Data.DataColumn&gt;공급자별 형식이 아닌.&lt;/xref:System.Data.DataColumn&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A string representing the column's data type.</source>
+          <target state="translated">열의 데이터 형식을 나타내는 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">지정 된 열의 값을 가져옵니다는 &lt;xref:System.DateTime&gt;개체입니다.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a &lt;xref:System.DateTime&gt; or coercible to a <ph id="ph1">`DataTime`</ph>.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 된 데이터가 이미 해야는 &lt;xref:System.DateTime&gt;으로 강제 변환 또는 <ph id="ph1">`DataTime`</ph>.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a DateTime value.</source>
+          <target state="translated">지정된 된 열에는 DateTime 값을 없습니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.Decimal&gt;.</source>
+          <target state="translated">지정 된 열의 값을 &lt;xref:System.Decimal&gt;.&lt;/xref:System.Decimal&gt; 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a &lt;xref:System.Decimal&gt; or coercible to a <ph id="ph1">`Decimal`</ph>.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 된 데이터가 이미 해야는 &lt;xref:System.Decimal&gt;으로 강제 변환 또는 <ph id="ph1">`Decimal`</ph>.&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a <bpt id="p1">&lt;xref uid="langword_csharp_Decimal" name="Decimal" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">지정 된 열에 없는 한 <bpt id="p1">&lt;xref uid="langword_csharp_Decimal" name="Decimal" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets the value of the column as a double-precision floating point number.</source>
+          <target state="translated">배정밀도 부동 소수점 숫자로 된 열의 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a double-precision floating point number or must be coercible to a double-precision floating point number.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 되는 데이터 이미는 배정밀도 부동 소수점 숫자 이거나을 배정밀도 부동 소수점 숫자로 강제 변환할 수 있어야 합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The zero-based ordinal of the column.</source>
+          <target state="translated">열의&amp;0;부터 시작 서 수입니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref uid="langword_csharp_DataTableReader" name="DataTableReader" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a double-precision floating point number.</source>
+          <target state="translated">지정된 된 열에는 배정밀도 부동 소수점 숫자</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that can be used to iterate through the item collection.</source>
+          <target state="translated">항목 컬렉션을 반복 하는 데 사용할 수 있는 열거자를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Enumerators only allow for reading the data in the &lt;xref:System.Data.DataTableReader&gt;.</source>
+          <target state="translated">열거자 &lt;xref:System.Data.DataTableReader&gt;.&lt;/xref:System.Data.DataTableReader&gt; 데이터를 읽기 위한 허용</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Enumerators cannot be used to modify the underlying collection.</source>
+          <target state="translated">내부 컬렉션을 수정 하 여 열거자를 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At first, the enumerator is positioned before the first element in the collection.</source>
+          <target state="translated">처음에 열거자는 컬렉션의 첫 번째 요소 앞에 배치 됩니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At this position, calling &lt;xref:System.Collections.IEnumerator.Current%2A&gt; throws an exception.</source>
+          <target state="translated">이 위치에서, 호출 &lt;xref:System.Collections.IEnumerator.Current%2A&gt;예외를 throw 합니다.&lt;/xref:System.Collections.IEnumerator.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must call <ph id="ph1">`MoveNext`</ph> to advance the enumerator to the first element of the collection before reading the value of <ph id="ph2">`Current`</ph>.</source>
+          <target state="translated">따라서 호출 해야 <ph id="ph1">`MoveNext`</ph> 하 여 열거자의 값을 읽기 전에 컬렉션의 첫 번째 요소로 <ph id="ph2">`Current`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Current`</ph> returns a &lt;xref:System.Data.Common.DbDataRecord&gt;, and returns the same object until either &lt;xref:System.Collections.IEnumerator.MoveNext%2A&gt; or &lt;xref:System.Collections.IEnumerator.Reset%2A&gt; is called.</source>
+          <target state="translated"><ph id="ph1">`Current`</ph>반환 된 &lt;xref:System.Data.Common.DbDataRecord&gt;, 될 때까지 동일한 개체를 반환 하 고 &lt;xref:System.Collections.IEnumerator.MoveNext%2A&gt;또는 &lt;xref:System.Collections.IEnumerator.Reset%2A&gt;호출 됩니다.&lt;/xref:System.Collections.IEnumerator.Reset%2A&gt; &lt;/xref:System.Collections.IEnumerator.MoveNext%2A&gt; &lt;/xref:System.Data.Common.DbDataRecord&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`MoveNext`</ph> sets <ph id="ph2">`Current`</ph> to the next element.</source>
+          <target state="translated"><ph id="ph1">`MoveNext`</ph>설정 <ph id="ph2">`Current`</ph> 를 다음 요소로 합니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the end of the collection is passed, the enumerator is positioned after the last element in the collection, and calling <ph id="ph1">`MoveNext`</ph> returns false.</source>
+          <target state="translated">컬렉션의 끝이 전달 된 후 열거자는 컬렉션의 마지막 요소 뒤에 배치 하 고 호출 되 <ph id="ph1">`MoveNext`</ph> false를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the last call to <ph id="ph1">`MoveNext`</ph> returned <ph id="ph2">`false`</ph>, calling <ph id="ph3">`Current`</ph> throws an exception.</source>
+          <target state="translated">마지막으로 호출 하는 경우 <ph id="ph1">`MoveNext`</ph> 반환 <ph id="ph2">`false`</ph>호출, <ph id="ph3">`Current`</ph> 예외를 throw 합니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, because the &lt;xref:System.Data.DataTableReader&gt; provides forward-only access to its data, calling the &lt;xref:System.Collections.IEnumerator.Reset%2A&gt; method of the IEnumerator throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">또한 때문에 &lt;xref:System.Data.DataTableReader&gt;해당 데이터에 &lt;xref:System.Collections.IEnumerator.Reset%2A&gt;는 r의 throw에 &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt; &lt;/xref:System.Collections.IEnumerator.Reset%2A&gt; 호출에 대 한 정방향 전용 액세스를 제공 합니다.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.DataTableReader&gt; provides a stable enumerator.</source>
+          <target state="translated">&lt;xref:System.Data.DataTableReader&gt;안정적인 열거자를 제공 합니다.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that even if row deletions or additions occur within the underlying data, the enumerator returned by a call to GetEnumerator is still valid.</source>
+          <target state="translated">즉, 행 삭제 또는 추가 기본 데이터 내에서 발생 한 경우에 GetEnumerator 호출 하 여 반환 되는 열거자가 아직 유효 합니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object that represents the item collection.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerator&gt;항목 컬렉션을 나타내는 개체입니다.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">가져옵니다는 &lt;xref:System.Type&gt;개체의 데이터 형식입니다.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">&lt;xref:System.Type&gt;개체의 데이터 형식입니다.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 합니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a single-precision floating point number.</source>
+          <target state="translated">단 정밀도 부동 소수점 숫자의 지정된 된 열의 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a single-precision floating point number or must be coercible to a single-precision floating point number.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 된 데이터 이미는 단 정밀도 부동 소수점 숫자 이거나를 단 정밀도 부동 소수점 숫자로 강제 변환할 수 있어야 합니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The value of the column.</source>
+          <target state="translated">열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a single-precision floating point number.</source>
+          <target state="translated">지정된 된 열에는 단 정밀도 부동 소수점 숫자</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a globally-unique identifier (GUID).</source>
+          <target state="translated">전역적으로 고유 식별자 (GUID)로 지정 된 열의 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a &lt;xref:System.Guid&gt; or coercible to a <ph id="ph1">`Guid`</ph>.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 된 데이터가 이미 해야는 &lt;xref:System.Guid&gt;으로 강제 변환 또는 <ph id="ph1">`Guid`</ph>.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a GUID.</source>
+          <target state="translated">지정된 된 열에 GUID가 없습니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 16-bit signed integer.</source>
+          <target state="translated">16 비트 부호 있는 정수로 지정 된 열의 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be an &lt;xref:System.Int16&gt; or coercible to an <ph id="ph1">`Int16`</ph>.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 된 데이터가 이미 해야 프로그램 &lt;xref:System.Int16&gt;으로 강제 변환 또는 <ph id="ph1">`Int16`</ph>.&lt;/xref:System.Int16&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">0부터 시작 하는 열 서 수</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a 16-bit signed integer.</source>
+          <target state="translated">지정된 된 열에는 16 비트 부호 있는 정수가 없습니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 32-bit signed integer.</source>
+          <target state="translated">부호 있는 32 비트 정수로 지정 된 열의 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be an &lt;xref:System.Int32&gt; or coercible to an <ph id="ph1">`Int32`</ph>.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 된 데이터가 이미 해야 프로그램 &lt;xref:System.Int32&gt;으로 강제 변환 또는 <ph id="ph1">`Int32`</ph>.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">0부터 시작 하는 열 서 수</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 합니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a 32-bit signed integer value.</source>
+          <target state="translated">지정된 된 열의 32 비트 부호 있는 정수 값이 포함 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 64-bit signed integer.</source>
+          <target state="translated">64 비트 부호 있는 정수로 지정 된 열의 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be an &lt;xref:System.Int64&gt; or coercible to an <ph id="ph1">`Int64`</ph>.</source>
+          <target state="translated">변환이 수행 되지 않습니다. 따라서 검색 된 데이터가 이미 해야 프로그램 &lt;xref:System.Int64&gt;으로 강제 변환 또는 <ph id="ph1">`Int64`</ph>.&lt;/xref:System.Int64&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">0부터 시작 하는 열 서 수</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 합니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a 64-bit signed integer value.</source>
+          <target state="translated">지정된 된 열의 64 비트 부호 있는 정수 값이 포함 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.String&gt;.</source>
+          <target state="translated">지정 된 열의 값을 &lt;xref:System.String&gt;.&lt;/xref:System.String&gt; 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`GetName`</ph> and &lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt; methods provide inverse functionality.</source>
+          <target state="translated"><ph id="ph1">`GetName`</ph> 및 &lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt;메서드 역 기능을 제공 합니다.&lt;/xref:System.Data.DataTableReader.GetOrdinal%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, calling <ph id="ph1">`GetOrdinal`</ph> on the return value of calling <ph id="ph2">`GetName`</ph> should return the original parameter passed to <ph id="ph3">`GetName`</ph>; the same applies to calling the procedures in the opposite order.</source>
+          <target state="translated">보류 중인 <ph id="ph1">`GetOrdinal`</ph> 호출의 반환 값에 <ph id="ph2">`GetName`</ph> 에 전달 된 원래 매개 변수를 반환 해야 <ph id="ph3">`GetName`</ph>; 반대 순서로 프로시저를 호출 하 여 마찬가지입니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">0부터 시작 하는 열 서 수</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The name of the specified column.</source>
+          <target state="translated">지정 된 열의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Gets the column ordinal, given the name of the column.</source>
+          <target state="translated">열을 가져옵니다 서 수 이며 열의 이름을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because most of the methods provided by the &lt;xref:System.Data.DataTableReader&gt; class must be provided with an ordinal column number, you can use the <ph id="ph1">`GetOrdinal`</ph> method to retrieve the column number, given the name of the column.</source>
+          <target state="translated">대부분의 메서드를 제공 하므로 &lt;xref:System.Data.DataTableReader&gt;클래스는 서 수 열 번호를 사용 하면 제공 해야 합니다.는 <ph id="ph1">`GetOrdinal`</ph> 열 이름이 지정 된 열 번호를 검색 하는 메서드입니다.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`GetOrdinal`</ph> performs a case-sensitive lookup first.</source>
+          <target state="translated"><ph id="ph1">`GetOrdinal`</ph>대/소문자 구분 조회를 먼저 수행합니다.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it fails, a second case-insensitive search is made.</source>
+          <target state="translated">실패 한 경우에 두 번째 대/소문자 구분 검색이 수행 됩니다.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the column number is not found an <ph id="ph1">`IndexOutOfRangeException`</ph> is thrown.</source>
+          <target state="translated">열 번호를 찾을 수 없는 경우는 <ph id="ph1">`IndexOutOfRangeException`</ph> throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`GetOrdinal`</ph> is kana-width insensitive.</source>
+          <target state="translated"><ph id="ph1">`GetOrdinal`</ph>가 되지 일본어가 나 너비 구분 됩니다.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because ordinal-based lookups are more efficient than named lookups, it is inefficient to call <ph id="ph1">`GetOrdinal`</ph> within a loop.</source>
+          <target state="translated">서 수 기반 조회가 명명 된 조회 보다 효율적 이므로, 것이 없습니다 효율적 호출 <ph id="ph1">`GetOrdinal`</ph> 루프 내에서.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Save time by calling <ph id="ph1">`GetOrdinal`</ph> one time and assigning the results to an integer variable for use within the loop</source>
+          <target state="translated">호출 하 여 시간 절약 <ph id="ph1">`GetOrdinal`</ph> 루프 내에서 사용할 정수 변수에 결과 할당 하 고 한 번</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">열의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The name specified is not a valid column name.</source>
+          <target state="translated">지정 된 이름이 올바른 열 이름이 아닙니다.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Gets the type of the specified column in provider-specific format.</source>
+          <target state="translated">공급자 관련 형식에서 지정 된 열의 형식을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.DataTableReader&gt; always returns the type stored within the underlying &lt;xref:System.Data.DataColumn&gt;, the value returned by calling the GetProviderSpecificFieldType method always returns the same type as the type stored within the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">때문에 &lt;xref:System.Data.DataTableReader&gt;항상의 원본으로 사용 &lt;xref:System.Data.DataColumn&gt;동일한 입력에 &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; 내에 저장 된 형식으로 반환 항상 GetProviderSpecificFieldType 메서드를 호출 하 여 반환 되는 값&lt;/xref:System.Data.DataColumn&gt; 내에 저장 된 형식을 반환 합니다&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you work with the &lt;xref:System.Data.DataTableReader&gt; class, calling the GetProviderSpecificFieldType method returns the same type as calling the &lt;xref:System.Type.GetType%2A&gt; method.</source>
+          <target state="translated">작업을 할 때는 &lt;xref:System.Data.DataTableReader&gt;GetProviderSpecificFieldType 메서드를 호출 하는 클래스를 호출할 때와 동일한 형식을 반환 된 &lt;xref:System.Type.GetType%2A&gt;메서드.&lt;/xref:System.Type.GetType%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">&lt;xref:System.Type&gt;개체의 데이터 형식입니다.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in provider-specific format.</source>
+          <target state="translated">공급자 관련 형식에서 지정 된 열의 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.DataTableReader&gt; always returns the type stored within the underlying &lt;xref:System.Data.DataColumn&gt;, the value returned by calling the GetProviderSpecificValue method always returns data of the same type as the data stored within the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">때문에 &lt;xref:System.Data.DataTableReader&gt;항상의 기본 &lt;xref:System.Data.DataColumn&gt; &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; 내에 저장 된 데이터와 같은 유형의 데이터를 반환 하는 항상 GetProviderSpecificValue 메서드를 호출 하 여 반환 되는 값&lt;/xref:System.Data.DataColumn&gt; 내에 저장 된 형식을 반환 합니다&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you work with the &lt;xref:System.Data.DataTableReader&gt; class, calling the GetProviderSpecificValue method returns the same value and type as calling the &lt;xref:System.Data.DataTableReader.GetValue%2A&gt; method.</source>
+          <target state="translated">작업을 할 때는 &lt;xref:System.Data.DataTableReader&gt;GetProviderSpecificValue 메서드를 호출 하는 클래스, 반환 값을 호출할 때와 입력 동일한는 &lt;xref:System.Data.DataTableReader.GetValue%2A&gt;메서드.&lt;/xref:System.Data.DataTableReader.GetValue%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The zero-based number of the column whose value is retrieved.</source>
+          <target state="translated">해당 값을 검색 하는 열의&amp;0;부터 시작 하는 수입니다.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in provider-specific format.</source>
+          <target state="translated">지정 된 열의 공급자별 형식 값입니다.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다.<bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Fills the supplied array with provider-specific type information for all the columns in the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">제공 된 배열에 있는 모든 열에 대 한 공급자 관련 형식 정보로 채웁니다는 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.DataTableReader&gt; always returns the data of the type stored within the underlying &lt;xref:System.Data.DataColumn&gt;, the values returned by calling the GetProviderSpecificValues method is always of the same types as the data stored within the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">때문에 &lt;xref:System.Data.DataTableReader&gt;항상의 원본으로 사용 &lt;xref:System.Data.DataColumn&gt;메서드는 항상 &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; 내에 저장 된 데이터와 동일한 형식을 GetProviderSpecificValues를 호출 하 여 반환 되는 값&lt;/xref:System.Data.DataColumn&gt; 내에 저장 된 형식의 데이터를 반환 합니다.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you work with the &lt;xref:System.Data.DataTableReader&gt; class, calling the GetProviderSpecificValues method returns the same values and types as calling the &lt;xref:System.Data.DataTableReader.GetValues%2A&gt; method.</source>
+          <target state="translated">작업을 할 때는 &lt;xref:System.Data.DataTableReader&gt;GetProviderSpecificValues 메서드를 호출 하는 클래스를 호출할 때와 동일한 값과 형식을 반환 된 &lt;xref:System.Data.DataTableReader.GetValues%2A&gt;메서드.&lt;/xref:System.Data.DataTableReader.GetValues%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>An array of objects to be filled in with type information for the columns in the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">열에 대 한 형식 정보를 채울 수 있는 개체의 배열에서 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The number of column values copied into the array.</source>
+          <target state="translated">배열에 복사 하는 열 값의 수입니다.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata of the <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">반환 된 <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 의 열 메타 데이터를 설명 하는 <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetSchemaTable method returns metadata about each column in the following order:      |DataReader column|Description|   |-----------------------|-----------------|   |ColumnName|The name of the column as it appears in the &lt;xref:System.Data.DataTable&gt;.|   |ColumnOrdinal|The ordinal of the column|   |ColumnSize|-1 if the &lt;xref:System.Data.Common.SchemaTableColumn.ColumnSize&gt; (or &lt;xref:System.Data.DataColumn.MaxLength%2A&gt;) property of the &lt;xref:System.Data.DataColumn&gt; cannot be determined or is not relevant; otherwise, 0 or a positive integer that contains the <ph id="ph1">`MaxLength`</ph> value.|   |NumericPrecision|If the column type is a numeric type, this is the maximum precision of the column.</source>
+          <target state="translated">GetSchemaTable 메서드는 다음 순서 대로 각 열에 대 한 메타 데이터 반환: | DataReader 열 | 설명 |   |-----------------------|-----------------|   | ColumnName | &lt;xref:System.Data.DataTable&gt;에는 열의 이름이 나타납니다. |   | ColumnOrdinal | 열의 서 수 |   | ColumnSize | 경우-1은 &lt;xref:System.Data.Common.SchemaTableColumn.ColumnSize&gt;(또는 &lt;xref:System.Data.DataColumn.MaxLength%2A&gt;)는 &lt;xref:System.Data.DataColumn&gt;의 속성을 확인할 수 없는 하거나 관련 된; 그렇지 않으면 0 또는 양의 정수를 포함 하는 <ph id="ph1">`MaxLength`</ph> 값. |   | NumericPrecision | 이 열의 최대 전체 자릿수는 열 형식 숫자 형식인 경우.&lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataColumn.MaxLength%2A&gt; &lt;/xref:System.Data.Common.SchemaTableColumn.ColumnSize&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the column type is not a numeric data type, this is a null value.|   |NumericScale|If column data type has a scale component, return the number of digits to the right of the decimal point.</source>
+          <target state="translated">이 null 값을 숫자 데이터 형식 열 형식이 없는 경우. |   | NumericScale | 열 데이터 형식에는 크기 조정 구성 요소를 경우 소수점 오른쪽 자릿수를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, return a null value.|   |DataType|The underlying type of the column.|   |ProviderType|The indicator of the column's data type.</source>
+          <target state="translated">그렇지 않은 경우 null 값을 반환 합니다. |   | 데이터 형식 | 기본 형식 열의. |   | ProviderType | 표시기는 열의 데이터 형식입니다.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data type of the column varies from row to row, this value is &lt;xref:System.Object&gt;.</source>
+          <target state="translated">이 값은 &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt; 열의 데이터 형식을 행은 다양 하는 경우</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This column cannot contain a null value.|   |IsLong|<ph id="ph1">`true`</ph> if the data type of the column is &lt;xref:System.String&gt; and its &lt;xref:System.Data.DataColumn.MaxLength%2A&gt; property is -1.</source>
+          <target state="translated">이 열에 null 값을 포함할 수 없습니다. |   | IsLong | <ph id="ph1">`true`</ph> 열의 데이터 형식이 &lt;xref:System.String&gt;및 해당 &lt;xref:System.Data.DataColumn.MaxLength%2A&gt;속성이-1입니다.&lt;/xref:System.Data.DataColumn.MaxLength%2A&gt; &lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, <ph id="ph1">`false`</ph>.|   |AllowDBNull|<ph id="ph2">`true`</ph> if the AllowDbNull constraint is set to true for the column; otherwise, <ph id="ph3">`false`</ph>.|   |IsReadOnly|<ph id="ph4">`true`</ph> if the column cannot be modified; otherwise <ph id="ph5">`false`</ph>.|   |IsRowVersion|<ph id="ph6">`false`</ph>, for every column.|   |IsUnique|<ph id="ph7">`true`</ph>: No two rows in the &lt;xref:System.Data.DataTable&gt; can have the same value in this column.</source>
+          <target state="translated">그렇지 않으면 <ph id="ph1">`false`</ph>. |   | AllowDBNull | <ph id="ph2">`true`</ph> AllowDbNull 제약 조건에는 열에 대 한 true이 고, 그렇지 않으면 설정 되어 있으면 <ph id="ph3">`false`</ph>. |   | IsReadOnly | <ph id="ph4">`true`</ph> 수정 되지 않으면 열 수 없는 경우 <ph id="ph5">`false`</ph>. |   | Isrowversion은 | <ph id="ph6">`false`</ph>, 모든 열에 대해. |   | IsUnique | <ph id="ph7">`true`</ph>: 각 행에서의 &lt;xref:System.Data.DataTable&gt;이 열에 동일한 값을 가질 수 있습니다.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`IsUnique`</ph> is guaranteed to be true if the column represents a key by itself or if there is a constraint of type UNIQUE that applies only to this column.</source>
+          <target state="translated"><ph id="ph1">`IsUnique`</ph>단독으로 표시 되거나이 열에만 적용 되는 UNIQUE 유형의 제약 조건이 있는 경우 해당 열이 키를 나타내는 경우 true로 보장 됩니다.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`false`</ph>: The column can contain duplicate values in the <ph id="ph2">`DataTable`</ph>.</source>
+          <target state="translated"><ph id="ph1">`false`</ph>:이 열에 중복 된 값 수는 <ph id="ph2">`DataTable`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default of this column is <ph id="ph1">`false`</ph>.|   |IsKey|<ph id="ph2">`true`</ph>: The column is one of a set of columns that, taken together, uniquely identify the row in the &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">이 열의 기본값은 <ph id="ph1">`false`</ph>. |   | IsKey | <ph id="ph2">`true`</ph>: 열이 열 집합 중 하나를 전체적으로 볼 때, &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt; 행을 고유 하 게 식별</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of columns with <ph id="ph1">`IsKey`</ph> set to <ph id="ph2">`true`</ph> must uniquely identify a row in the <ph id="ph3">`DataTable`</ph>.</source>
+          <target state="translated">열 집합 <ph id="ph1">`IsKey`</ph> 로 설정 <ph id="ph2">`true`</ph> 의 행을 고유 하 게 식별 해야 합니다는 <ph id="ph3">`DataTable`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no requirement that this set of columns is a minimal set of columns.</source>
+          <target state="translated">이 열 집합이 열의 최소 집합 임을 않아도가 됩니다.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This set of columns may be generated from a <ph id="ph1">`DataTable`</ph> primary key, a unique constraint or a unique index.</source>
+          <target state="translated">이 열 집합에서 생성 될 수 있습니다는 <ph id="ph1">`DataTable`</ph> 기본 키나 unique 제약 조건을 고유 인덱스입니다.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`false`</ph>: The column is not required to uniquely identify the row.</source>
+          <target state="translated"><ph id="ph1">`false`</ph>:이 열은 행을 식별할 필요가 없습니다.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is <ph id="ph1">`true`</ph> if the column participates in a single or composite primary key.</source>
+          <target state="translated">이 값은 <ph id="ph1">`true`</ph> 열이 단일 또는 복합 기본 키에 참여 하는 경우.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, its value is <ph id="ph1">`false`</ph>.|   |IsAutoIncrement|<ph id="ph2">`true`</ph>: The column assigns values to new rows in fixed increments.</source>
+          <target state="translated">그렇지 않으면 해당 값은 <ph id="ph1">`false`</ph>. |   | IsAutoIncrement | <ph id="ph2">`true`</ph>: 고정 된 증가분의 새 행에 열 값을 할당 합니다.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`false`</ph>: The column does not assign values to new rows in fixed increments.</source>
+          <target state="translated"><ph id="ph1">`false`</ph>:이 열은 고정 된 증가분의 새 행에 값을 할당 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default of this column is <ph id="ph1">`false`</ph>.|   |BaseCatalogName|The name of the catalog in the data store that contains the column.</source>
+          <target state="translated">이 열의 기본값은 <ph id="ph1">`false`</ph>. |   | BaseCatalogName | 열이 포함 된 데이터 저장소에 있는 카탈로그의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Null`</ph> if the base catalog name cannot be determined.</source>
+          <target state="translated"><ph id="ph1">`Null`</ph>기본 카탈로그 이름을 확인할 수 없습니다 하는 경우.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value for this column is a <ph id="ph1">`null`</ph> value.|   |BaseSchemaName|This value is always <ph id="ph2">`Null`</ph>.|   |BaseTableName|The name of the &lt;xref:System.Data.DataTable&gt;.|   |BaseColumnName|The name of the column in the &lt;xref:System.Data.DataTable&gt;.|   |AutoIncrementSeed|The value of the &lt;xref:System.Data.DataTable&gt;'s &lt;xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt; property.|   |AutoIncrementStep|The value of the &lt;xref:System.Data.DataTable&gt;'s &lt;xref:System.Data.DataColumn.AutoIncrementStep%2A&gt; property.|   |DefaultValue|The value of the &lt;xref:System.Data.DataColumn&gt;'s &lt;xref:System.Data.DataColumn.DefaultValue%2A&gt; property.|   |Expression|The expression string, if the current column is an expression column and all columns used in the expression belong to the same <ph id="ph3">`T:System.Data.DataTable`</ph> that contains the expression column; otherwise <ph id="ph4">`null`</ph>.|   |ColumnMapping|The &lt;xref:System.Data.MappingType&gt; value associated with the &lt;xref:System.Data.DataColumn&gt;.</source>
+          <target state="translated">이 열에 대 한 기본값은 한 <ph id="ph1">`null`</ph> 값입니다. |   | BaseSchemaName | 이 값은 항상 <ph id="ph2">`Null`</ph>. |   | BaseTableName | &lt;xref:System.Data.DataTable&gt;의 이름입니다. |   | BaseColumnName | &lt;xref:System.Data.DataTable&gt;에서 열의 이름입니다. |   | AutoIncrementSeed | &lt;xref:System.Data.DataTable&gt;의 &lt;xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt;속성의 값입니다. |   | AutoIncrementStep | &lt;xref:System.Data.DataTable&gt;의 &lt;xref:System.Data.DataColumn.AutoIncrementStep%2A&gt;속성의 값입니다. |   | DefaultValue | &lt;xref:System.Data.DataColumn&gt;의 &lt;xref:System.Data.DataColumn.DefaultValue%2A&gt;속성의 값입니다. |   | 식 | 식 문자열의 현재 열이 식 열 및 식에 사용 되는 모든 열이 동일 하 게 속할 경우 <ph id="ph3">`T:System.Data.DataTable`</ph> 식 열을 포함 하 고, 그렇지 않으면 <ph id="ph4">`null`</ph>. |   | ColumnMapping | &lt;xref:System.Data.MappingType&gt; &lt;xref:System.Data.DataColumn&gt;.&lt;/xref:System.Data.DataColumn&gt; 와 연결 된 값&lt;/xref:System.Data.MappingType&gt; &lt;/xref:System.Data.DataColumn.DefaultValue%2A&gt; &lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataColumn.AutoIncrementStep%2A&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataColumn.AutoIncrementSeed%2A&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type can be one of <ph id="ph1">`Attribute`</ph>, <ph id="ph2">`Element`</ph>, <ph id="ph3">`Hidden`</ph>, or <ph id="ph4">`SimpleContent`</ph>.</source>
+          <target state="translated">형식 중 하나일 수 있습니다 <ph id="ph1">`Attribute`</ph>, <ph id="ph2">`Element`</ph>, <ph id="ph3">`Hidden`</ph>, 또는 <ph id="ph4">`SimpleContent`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is <ph id="ph1">`Element`</ph>.|   |BaseTableNamespace|The value of the &lt;xref:System.Data.DataTable&gt;'s &lt;xref:System.Data.DataTable.Namespace%2A&gt; property.|   |BaseColumnNamespace|The value of the &lt;xref:System.Data.DataColumn&gt;'s &lt;xref:System.Data.DataColumn.Namespace%2A&gt; property.|</source>
+          <target state="translated">기본값은 <ph id="ph1">`Element`</ph>. |   | BaseTableNamespace | &lt;xref:System.Data.DataTable&gt;의 &lt;xref:System.Data.DataTable.Namespace%2A&gt;속성의 값입니다. |   | BaseColumnNamespace | 값은 &lt;xref:System.Data.DataColumn&gt;의 &lt;xref:System.Data.DataColumn.Namespace%2A&gt;속성입니다. |&lt;/xref:System.Data.DataColumn.Namespace%2A&gt; &lt;/xref:System.Data.DataColumn&gt; &lt;/xref:System.Data.DataTable.Namespace%2A&gt; &lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열 메타 데이터를 설명 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 닫혀 있습니다.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a string.</source>
+          <target state="translated">지정 된 열의 값을 문자열로 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method.</source>
+          <target state="translated">호출 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;이 메서드를 호출 하기 전에 null 값이 있는 경우 볼 수 있습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">0부터 시작 하는 열 서 수</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The specified column does not contain a string.</source>
+          <target state="translated">지정된 된 열에는 문자열이 없습니다.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format.</source>
+          <target state="translated">네이티브 형식으로 지정 된 열의 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although you can call &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt; to see if there are null values before calling this method, you do not have to do this.</source>
+          <target state="translated">호출할 수 있지만 &lt;xref:System.Data.DataTableReader.IsDBNull%2A&gt;를 보려면이 메서드를 호출 하기 전에 null 값이 없는 경우이 작업을 수행할 필요가 없습니다.&lt;/xref:System.Data.DataTableReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">0부터 시작 하는 열 서 수</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>This method returns <bpt id="p1">&lt;xref uid="langword_csharp_DBNull" name="DBNull" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for null columns.</source>
+          <target state="translated">이 메서드가 반환 <bpt id="p1">&lt;xref uid="langword_csharp_DBNull" name="DBNull" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> null 열에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access columns in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">읽거나 열 닫힌에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 합니다.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Populates an array of objects with the column values of the current row.</source>
+          <target state="translated">현재 행의 열 값이 있는 개체의 배열을 채웁니다.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For most applications, this method provides an efficient means for retrieving all columns, instead of retrieving each column individually.</source>
+          <target state="translated">이 메서드는 대부분의 응용 프로그램에 대 한 각 열을 개별적으로 검색 하는 대신 모든 열을 검색 하는 효율적인 방법을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your intent is to retrieve all the column values from a row within the &lt;xref:System.Data.DataTableReader&gt;, the <ph id="ph1">`GetValues`</ph> method provides the most efficient solution.</source>
+          <target state="translated">원래의 도와 내에서 행에서 모든 열 값을 검색 하는 경우는 &lt;xref:System.Data.DataTableReader&gt;, <ph id="ph1">`GetValues`</ph> 메서드는 가장 효율적인 솔루션을 제공 합니다.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can pass an &lt;xref:System.Object&gt; array that contains fewer than the number of columns that are contained in the resulting row.</source>
+          <target state="translated">전달할 수는 &lt;xref:System.Object&gt;보다 적은 수의 결과 행에 포함 된 열에 포함 된 배열입니다.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the amount of data the <ph id="ph1">`Object`</ph> array can hold is copied to the array.</source>
+          <target state="translated">데이터의 양만 <ph id="ph1">`Object`</ph> 배열의 배열에 복사 보유할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also pass an <ph id="ph1">`Object`</ph> array whose length is more than the number of columns that are contained in the resulting row, in which case the additional array elements remains unchanged by the method call.</source>
+          <target state="translated">전달할 수도 있습니다는 <ph id="ph1">`Object`</ph> 추가 배열 요소 상태를 유지 하는 경우 메서드 호출에 의해 변경 않는 결과 행에 포함 된 열의 개수 이상의 길이가 배열입니다.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method places <ph id="ph1">`DBNull`</ph> in the output array for null columns.</source>
+          <target state="translated">이 메서드는 배치 <ph id="ph1">`DBNull`</ph> null 열에 대 한 출력 배열에 있습니다.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>An array of &lt;xref:System.Object&gt; into which to copy the column values from the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">배열을 &lt;xref:System.Object&gt;의 열 값을 복사할 대상는 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>The number of column values copied into the array.</source>
+          <target state="translated">배열에 복사 하는 열 값의 수입니다.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 합니다.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains one or more rows.</source>
+          <target state="translated">나타내는 값을 가져옵니다 여부는 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 하나 이상의 행을 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`HasRows`</ph> property returns information about the current result set.</source>
+          <target state="translated"><ph id="ph1">`HasRows`</ph> 속성 현재 결과 집합에 대 한 정보를 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.DataTableReader&gt; contains multiple result sets, you can examine the value of the <ph id="ph1">`HasRows`</ph> property immediately after you call the &lt;xref:System.Data.DataTableReader.NextResult%2A&gt; method in order to determine whether the new result set contains rows.</source>
+          <target state="translated">경우는 &lt;xref:System.Data.DataTableReader&gt;여러 결과 포함 집합의 값을 검사할 수 있습니다는 <ph id="ph1">`HasRows`</ph> 호출한 후에 즉시 속성은 &lt;xref:System.Data.DataTableReader.NextResult%2A&gt;새 결과 집합에 행이 포함 되어 있는지 확인 하기 위해 메서드.&lt;/xref:System.Data.DataTableReader.NextResult%2A&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`HasRows`</ph> property to avoid the requirement to call the &lt;xref:System.Data.DataTableReader.Read%2A&gt; method of the &lt;xref:System.Data.DataTableReader&gt; if there are no rows within the current result set.</source>
+          <target state="translated">사용 하 여는 <ph id="ph1">`HasRows`</ph> 호출을 방지 하기 위해 속성은 &lt;xref:System.Data.DataTableReader.Read%2A&gt;의 메서드는 &lt;xref:System.Data.DataTableReader&gt;현재 결과 집합 내에서 행이 없는 경우.&lt;/xref:System.Data.DataTableReader&gt; &lt;/xref:System.Data.DataTableReader.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains one or more rows; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우는 <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 하나 이상의 행을 포함 하지 않으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve information about a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">닫힌 작업에 대 한 정보를 검색 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated">나타내는 값을 가져옵니다 여부는 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 닫혀 있습니다.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.DataTableReader.Close%2A&gt; is the only method and <ph id="ph1">`IsClosed`</ph> and &lt;xref:System.Data.DataTableReader.RecordsAffected%2A&gt; are the only properties that can be accessed after the &lt;xref:System.Data.DataTableReader&gt; has been closed.</source>
+          <target state="translated">&lt;xref:System.Data.DataTableReader.Close%2A&gt;유일한 방법은 및 <ph id="ph1">`IsClosed`</ph> 및 &lt;xref:System.Data.DataTableReader.RecordsAffected%2A&gt;후 액세스할 수 있는 속성만 &lt;xref:System.Data.DataTableReader&gt;닫혔습니다.&lt;/xref:System.Data.DataTableReader&gt; &lt;/xref:System.Data.DataTableReader.RecordsAffected%2A&gt;&lt;/xref:System.Data.DataTableReader.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">반환 <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 경우는 <bpt id="p2">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 을 닫지 않습니다 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the column contains non-existent or missing values.</source>
+          <target state="translated">열에 존재 하지 않거나 누락 된 값이 들어 있는지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to see if there are null column values before calling the typed get methods (for example, &lt;xref:System.Data.DataTableReader.GetByte%2A&gt;, &lt;xref:System.Data.DataTableReader.GetChar%2A&gt;, and so on) to avoid raising an error.</source>
+          <target state="translated">형식화 된 get 메서드를 호출 하기 전에 null 열 값 있는지 확인 하려면이 메서드를 호출 (예를 들어 &lt;xref:System.Data.DataTableReader.GetByte%2A&gt;, &lt;xref:System.Data.DataTableReader.GetChar%2A&gt;등)에 오류가 발생 하지 않도록 합니다.&lt;/xref:System.Data.DataTableReader.GetChar%2A&gt; &lt;/xref:System.Data.DataTableReader.GetByte%2A&gt;</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal</source>
+          <target state="translated">0부터 시작 하는 열 서 수</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified column value is equivalent to <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>지정 된 열 값에 해당 하는 경우 <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, 그렇지 않으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 합니다.</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format given the column ordinal.</source>
+          <target state="translated">열 서 수를 지정 된 네이티브 형식으로 지정 된 열의 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload for &lt;xref:System.Data.DataTableReader.Item%2A&gt; behaves identically to the &lt;xref:System.Data.DataTableReader.GetValue%2A&gt; method.</source>
+          <target state="translated">이 오버 로드에 대 한 &lt;xref:System.Data.DataTableReader.Item%2A&gt;동일 하 게 동작의 &lt;xref:System.Data.DataTableReader.GetValue%2A&gt;메서드.&lt;/xref:System.Data.DataTableReader.GetValue%2A&gt; &lt;/xref:System.Data.DataTableReader.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">서 수는&amp;0;부터 시작 열입니다.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in its native format.</source>
+          <target state="translated">네이티브 형식으로 지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 to &lt;xref:System.Data.DataTableReader.FieldCount*&gt; - 1.</source>
+          <target state="translated">전달 된 0부터 범위 밖에 있는 &lt;xref:System.Data.DataTableReader.FieldCount*&gt;-1.&lt;/xref:System.Data.DataTableReader.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format given the column name.</source>
+          <target state="translated">열 이름이 지정 된 네이티브 형식으로 지정 된 열의 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A case-sensitive lookup is performed first.</source>
+          <target state="translated">대/소문자 구분 조회를 먼저 수행 됩니다.</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it fails, a second case-insensitive search is made.</source>
+          <target state="translated">실패 한 경우에 두 번째 대/소문자 구분 검색이 수행 됩니다.</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is kana-width insensitive.</source>
+          <target state="translated">이 메서드는 일본어가 나 너비 구분 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overloaded version of &lt;xref:System.Data.DataTableReader.Item%2A&gt; corresponds to calling the &lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt; method, and then subsequently calling the &lt;xref:System.Data.DataTableReader.GetValue%2A&gt; method.</source>
+          <target state="translated">이 오버 로드 된 버전의 &lt;xref:System.Data.DataTableReader.Item%2A&gt;호출에 해당 하는 &lt;xref:System.Data.DataTableReader.GetOrdinal%2A&gt;메서드를 호출한 다음는 &lt;xref:System.Data.DataTableReader.GetValue%2A&gt;메서드.&lt;/xref:System.Data.DataTableReader.GetValue%2A&gt; &lt;/xref:System.Data.DataTableReader.GetOrdinal%2A&gt; &lt;/xref:System.Data.DataTableReader.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">열의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in its native format.</source>
+          <target state="translated">네이티브 형식으로 지정 된 열의 값입니다.</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>The name specified is not a valid column name.</source>
+          <target state="translated">지정 된 이름이 올바른 열 이름이 아닙니다.</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>An attempt was made to retrieve data from a deleted row.</source>
+          <target state="translated">삭제 된 행에서 데이터를 검색 하려고 했습니다.</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Advances the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next result set, if any.</source>
+          <target state="translated">이동 된 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 있는 경우 다음 결과 집합입니다.</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Used to process multiple results that can be generated by creating a &lt;xref:System.Data.DataTableReader&gt; over a &lt;xref:System.Data.DataSet&gt; that contains two or more tables, or an array that contains two or more &lt;xref:System.Data.DataTable&gt; instances.</source>
+          <target state="translated">만들어 생성 될 수 있는 여러 개의 결과 처리 하는 데는 &lt;xref:System.Data.DataTableReader&gt;위에 &lt;xref:System.Data.DataSet&gt;두 개 이상의 테이블 또는 두 개 이상이 포함 된 배열을 포함 하는 &lt;xref:System.Data.DataTable&gt;인스턴스.&lt;/xref:System.Data.DataTable&gt; &lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A new &lt;xref:System.Data.DataTableReader&gt; is positioned on the first result.</source>
+          <target state="translated">새 &lt;xref:System.Data.DataTableReader&gt;첫 번째 결과에 배치 됩니다.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there was another result set; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>다른 결과 집합이; 발생 한 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>An attempt was made to navigate within a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">닫힌 내에서 탐색 하려고 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>Advances the <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next record.</source>
+          <target state="translated">이동 된 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 를 다음 레코드로 합니다.</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default position of the &lt;xref:System.Data.DataTableReader&gt; is before the first record.</source>
+          <target state="translated">기본 위치는 &lt;xref:System.Data.DataTableReader&gt;첫 번째 레코드 앞입니다.&lt;/xref:System.Data.DataTableReader&gt;</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must call <ph id="ph1">`Read`</ph> to start accessing any data.</source>
+          <target state="translated">따라서 호출 해야 <ph id="ph1">`Read`</ph> 데이터에 액세스를 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there was another row to read; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>다른 열을 읽기, 발생 한 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>An attempt was made to read or access a column in a closed <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> .</source>
+          <target state="translated">읽거나 닫힌의 열에 액세스 하려고 했습니다 <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 합니다.</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>Gets the number of rows inserted, changed, or deleted by execution of the SQL statement.</source>
+          <target state="translated">삽입, 변경 또는 SQL 문 실행 하 여 삭제 된 행의 수를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> does not support this property and always returns 0.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.DataTableReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 속성을 지원 하지 않으며 항상 0을 반환 합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
