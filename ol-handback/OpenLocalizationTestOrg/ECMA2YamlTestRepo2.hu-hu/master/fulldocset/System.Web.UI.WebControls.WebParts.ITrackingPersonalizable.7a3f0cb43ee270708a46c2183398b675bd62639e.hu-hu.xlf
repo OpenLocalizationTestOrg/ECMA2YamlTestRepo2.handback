@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f5f0fb84f5ab91f6e30b9b4e3d9713238b0506a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90aec0665f1ed092fa4d48b186df9f0a4c1694c0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45c4f07c36d0d475b09a775a981fb424d8d52774</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows Web Parts controls to track the specific phases of the personalization load and save process.</source>
+          <target state="translated">Lehetővé teszi, hogy a kijelzők vezérlők nyomon követi a személyre szabási terhelés adott fázisai és menti a folyamat.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This interface allows control developers to track different phases of the personalization life cycle, including the loading and saving of personalization data.</source>
+          <target state="translated">Ez az interfész lehetővé teszi, hogy a vezérlő fejlesztők nyomon követéséhez a személyre szabási életciklusának, beleértve a betöltése, és a megszemélyesítési adatok mentése különböző fázisait.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most cases, to use this interface you would create a custom &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; or &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; and implement this interface.</source>
+          <target state="translated">A legtöbb esetben ez az interfész használatára akkor létrehoznia egy egyéni &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;vagy &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;és valósíthatnak meg ez az interfész.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Additionally, controls that need to manage their own change ("dirty") tracking should implement this interface.</source>
+          <target state="translated">Emellett vezérlőelemek kell kezelni a saját változáskövetés ("hibás"), meg kell valósítania az illesztő.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls that manage their own change tracking should return <ph id="ph1">`true`</ph> from the &lt;xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt; property.</source>
+          <target state="translated">A saját változáskövetés kezelő vezérlők kell visszaadnia <ph id="ph1">`true`</ph> a a &lt;xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt;tulajdonság.&lt;/xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`false`</ph> is returned, then ASP.NET is responsible for determining changes by comparing the property information loaded with the property information that was saved.</source>
+          <target state="translated">Ha <ph id="ph1">`false`</ph> lett visszaadva, akkor a tulajdonság adatait összehasonlításával változásokat meghatározó betölteni a mentett adatokkal tulajdonság felelős az ASP.NET.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Represents the beginning of the load phase for personalization information.</source>
+          <target state="translated">A személyre szabási adatainak betöltése szakasz elején jelöli.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method prior to applying personalization data.</source>
+          <target state="translated">A kijelzők vezérlő set meghívja ezt a módszert a megszemélyesítési adatok alkalmazása előtt.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control that tracks its own change state should use this method to set an internal flag indicating that properties should not call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.</source>
+          <target state="translated">A vezérlő, amely nyomon követi a saját állapotváltoztatási kell ezt a módszert egy belső jelzőt, amely megadja, hogy tulajdonságok nem teheti &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt; beállítása</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because property-setting methods can be called during the application of personalization data, subsequent to the call to BeginLoad.</source>
+          <target state="translated">Ennek az az oka tulajdonsága metódusok hívása BeginLoad hívása után a megszemélyesítési adatok alkalmazása során.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most scenarios, a control should not be considered changed ("dirty") just because its personalizable properties have been set based on data loaded from the underlying data store.</source>
+          <target state="translated">A legtöbb esetben a vezérlő nem tekinthető megváltozott (hibás") csak, mert a personalizable tulajdonságait úgy állították be alapján az alapul szolgáló adattárból betöltött adatokról.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is also called when personalization data is applied after importing a Web Parts control.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Ez a módszer néven is ismert a megszemélyesítési adatok alkalmazása kijelzők vezérlő importálása után.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Represents the phase prior to extracting personalization data from a control.</source>
+          <target state="translated">A fázis előtt a személyre szabási adatok beolvasása a vezérlőt jelöli.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method prior to extracting personalization data from the control.</source>
+          <target state="translated">A kijelzők vezérlő set meghívja ezt a módszert a személyre szabási adatok a vezérlőről való kibontása előtt.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Represents the phase after personalization data has been applied to a control.</source>
+          <target state="translated">A megszemélyesítési adatok alkalmazása vezérlőhöz utáni fázis jelöli.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method after personalization data has been applied to the control.</source>
+          <target state="translated">A kijelzők vezérlő állítja ezt a módszert a személyre szabási adatok után telepítve van a vezérlő hívások.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control that tracks its change state should use this method to reset its internal state to indicate that subsequent property-setting methods should call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.</source>
+          <target state="translated">A vezérlő, amely nyomon követi az állapotváltoztatási kell ezt a módszert az annak jelzésére, hogy további tulajdonság-beállítás módszerek &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt; kell hívnia a belső állapot visszaállítására.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By the time the EndLoad method is called, the Web Parts control set has completed any application of personalization data to the control.</source>
+          <target state="translated">A kijelzők vezérlő beállítása az idő a EndLoad metódus lehívásra kerül, a vezérlő megszemélyesítési adatok bármilyen alkalmazás befejeződött.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a result, subsequent changes to the control's state should be considered valid indicators that the control has changed (is "dirty").</source>
+          <target state="translated">Ennek eredményeképpen a vezérlőhivatkozás bekövetkező változások érdemes figyelembe venni, hogy a vezérlő megváltozott érvényes mutatók (az "hibás").</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is also called when personalization data is applied after importing a Web Parts control.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Ez a módszer néven is ismert a megszemélyesítési adatok alkalmazása kijelzők vezérlő importálása után.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Represents the phase after personalization data has been extracted from a control.</source>
+          <target state="translated">A fázis után a személyre szabási adatok kinyerésének vezérlőt jelöli.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method after personalization data has been extracted from the control.</source>
+          <target state="translated">A kijelzők vezérlő állítja ezt a módszert a személyre szabási adatok után a vezérlő kivont hívások.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Indicates whether the control tracks the status of its changes.</source>
+          <target state="translated">Azt jelzi, hogy a vezérlő nyomon követi a módosítások állapota.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control returns <ph id="ph1">`true`</ph> from this property, then it is the Web Parts control's responsibility to determine when it considers itself "dirty."</source>
+          <target state="translated">Ha egy vezérlő függvény <ph id="ph1">`true`</ph> az ezt a tulajdonságot, majd feladata a kijelzők vezérlő határozza meg, amikor tartja magát "hibás."</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control determines that it has changed (is "dirty"), that control must call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt; on itself.</source>
+          <target state="translated">Ha egy vezérlő határozza meg, hogy megváltozott (az "hibás"), hívja meg, hogy vezérlő &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;a saját magát.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Web Parts control is responsible for determining when the control is considered changed ("dirty"); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a kijelző vezérlő felel annak meghatározásáért, amikor a vezérlő tekinthető megváltozott ("Szabálytalan"); Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
