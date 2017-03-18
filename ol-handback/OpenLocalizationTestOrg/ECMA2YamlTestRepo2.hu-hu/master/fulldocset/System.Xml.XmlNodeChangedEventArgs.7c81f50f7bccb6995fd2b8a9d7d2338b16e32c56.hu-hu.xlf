@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45f5bc8df0d683ddcc1cb687e310f6993211c4aa</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xml.XmlNodeChangedEventArgs.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">164bb23bcaaa6391d91a0e82b0cacedf992da401</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e129397f33d0416e48cdcae69d7f1f40ca681f7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides data for the <bpt id="p1">&lt;xref href="System.Xml.XmlDocument.NodeChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Xml.XmlDocument.NodeChanging"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.Xml.XmlDocument.NodeInserted"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref href="System.Xml.XmlDocument.NodeInserting"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, <bpt id="p5">&lt;xref href="System.Xml.XmlDocument.NodeRemoved"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> and <bpt id="p6">&lt;xref href="System.Xml.XmlDocument.NodeRemoving"&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept> events.</source>
+          <target state="translated">Provides data for the <bpt id="p1">&lt;xref href="System.Xml.XmlDocument.NodeChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Xml.XmlDocument.NodeChanging"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.Xml.XmlDocument.NodeInserted"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, <bpt id="p4">&lt;xref href="System.Xml.XmlDocument.NodeInserting"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>, <bpt id="p5">&lt;xref href="System.Xml.XmlDocument.NodeRemoved"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> and <bpt id="p6">&lt;xref href="System.Xml.XmlDocument.NodeRemoving"&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept> events.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following C# code shows how to use the event handler.</source>
+          <target state="translated">A következő C# kód bemutatja, hogyan használható az eseménykezelő.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   //Add a new event handler.   XmlDocument doc = new XmlDocument();   doc.NodeInserted += new XmlNodeChangedEventHandler(NodeInsertedHandler);   //Define the event handler.   void NodeInsertedHandler(Object src, XmlNodeChangedEventArgs args)   {    Console.WriteLine("Node " + args.Node.Name + " inserted!!");   }   ```</ph><ph id="ph2">      &gt; </ph><ph id="ph3">[!NOTE]</ph> &gt;  If an operation is comprised of multiple actions, it results in multiple events.</source>
+          <target state="translated"><ph id="ph1">```   //Add a new event handler.   XmlDocument doc = new XmlDocument();   doc.NodeInserted += new XmlNodeChangedEventHandler(NodeInsertedHandler);   //Define the event handler.   void NodeInsertedHandler(Object src, XmlNodeChangedEventArgs args)   {    Console.WriteLine("Node " + args.Node.Name + " inserted!!");   }   ```</ph><ph id="ph2">      &gt; </ph><ph id="ph3">[!NOTE]</ph>&gt; Ha egy művelettel több művelet magában foglalja, több esemény eredményez.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, an &lt;xref:System.Xml.XmlNode.AppendChild%2A&gt; call may have to remove the node being appended from its previous parent.</source>
+          <target state="translated">Például egy &lt;xref:System.Xml.XmlNode.AppendChild%2A&gt;hívásban lehet eltávolítani a csomópont alatt fűzött előző szülőjétől örökli.&lt;/xref:System.Xml.XmlNode.AppendChild%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case you will see a <ph id="ph1">`NodeRemoved`</ph> event followed by a <ph id="ph2">`NodeInserted`</ph> event.</source>
+          <target state="translated">Ekkor megjelenik egy <ph id="ph1">`NodeRemoved`</ph> esemény követ egy <ph id="ph2">`NodeInserted`</ph> esemény.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xml.XmlNodeChangedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Xml.XmlNodeChangedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that generated the event.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely az esemény jön létre.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The old parent <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the <bpt id="p2">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that generated the event.</source>
+          <target state="translated">A korábbi szülőről <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , a <bpt id="p2">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> , amely az esemény jön létre.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The new parent <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the <bpt id="p2">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that generated the event.</source>
+          <target state="translated">Az új szülőnek <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , a <bpt id="p2">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> , amely az esemény jön létre.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The old value of the <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that generated the event.</source>
+          <target state="translated">A régi értéke a <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely az esemény jön létre.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The new value of the <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that generated the event.</source>
+          <target state="translated">Új értékét az <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely az esemény jön létre.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xml.XmlNodeChangedAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Xml.XmlNodeChangedAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating what type of node change event is occurring.</source>
+          <target state="translated">Folyamatban van a csomópont állapotváltozási esemény típusát jelző érték beolvasása.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_XmlNodeChangedAction" name="XmlNodeChangedAction" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value describing the node change event.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref uid="langword_csharp_XmlNodeChangedAction" name="XmlNodeChangedAction" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a csomópont leíró érték változási eseményt.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>XmlNodeChangedAction Value</source>
+          <target state="translated">XmlNodeChangedAction érték</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Leírás</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Insert</source>
+          <target state="translated">Beszúrása</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A node has been or will be inserted.</source>
+          <target state="translated">Egy csomópont le lett, vagy szúrja be.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Remove</source>
+          <target state="translated">Eltávolítás</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A node has been or will be removed.</source>
+          <target state="translated">A csomópont vagy törlődni fog.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Change</source>
+          <target state="translated">Módosítás</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A node has been or will be changed.</source>
+          <target state="translated">A csomópont vagy változik.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_Action" name="Action" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value does not differentiate between when the event occurred (before or after).</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_Action" name="Action" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érték nem tesz különbséget a között, ha az esemény történt (előtt vagy után).</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can create separate event handlers to handle both instances.</source>
+          <target state="translated">Mindkét esetben kezelésére külön eseménykezelők hozhat létre.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets the value of the &lt;xref:System.Xml.XmlNode.ParentNode*&gt; after the operation completes.</source>
+          <target state="translated">Értékét a &lt;xref:System.Xml.XmlNode.ParentNode*&gt;a művelet befejeződése után.&lt;/xref:System.Xml.XmlNode.ParentNode*&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_ParentNode" name="ParentNode" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> after the operation completes.</source>
+          <target state="translated">Értékét a <bpt id="p1">&lt;xref uid="langword_csharp_ParentNode" name="ParentNode" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a művelet befejeződése után.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This property returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the node is being removed.</source>
+          <target state="translated">Ez a tulajdonság adja vissza <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha a csomópont eltávolítása folyamatban van.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For attribute nodes this property returns the &lt;xref:System.Xml.XmlAttribute.OwnerElement*&gt;.</source>
+          <target state="translated">Az attribútum-csomópont a tulajdonság adja vissza a &lt;xref:System.Xml.XmlAttribute.OwnerElement*&gt;.&lt;/xref:System.Xml.XmlAttribute.OwnerElement*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the new value of the node.</source>
+          <target state="translated">A csomópont az új érték beolvasása.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The new value of the node.</source>
+          <target state="translated">Az új érték a csomópont.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This property returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the node is neither an attribute nor a text node, or if the node is being removed.</source>
+          <target state="translated">Ez a tulajdonság adja vissza <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , ha a csomópont attribútumként sem a szöveges csomópont, vagy ha a csomópont eltávolítása folyamatban van.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If called in a <bpt id="p1">&lt;xref href="System.Xml.XmlDocument.NodeChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event, <bpt id="p2">&lt;xref uid="langword_csharp_NewValue" name="NewValue" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> returns the value of the node if the change is successful.</source>
+          <target state="translated">Ha neve egy <bpt id="p1">&lt;xref href="System.Xml.XmlDocument.NodeChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény, <bpt id="p2">&lt;xref uid="langword_csharp_NewValue" name="NewValue" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a csomópont értékét adja vissza, ha sikeres a módosítás.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If called in a <bpt id="p1">&lt;xref href="System.Xml.XmlDocument.NodeChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event, <bpt id="p2">&lt;xref uid="langword_csharp_NewValue" name="NewValue" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> returns the current value of the node.</source>
+          <target state="translated">Ha neve egy <bpt id="p1">&lt;xref href="System.Xml.XmlDocument.NodeChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény, <bpt id="p2">&lt;xref uid="langword_csharp_NewValue" name="NewValue" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a csomópont aktuális értékét adja vissza.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is being added, removed or changed.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely hozzáadott, eltávolított vagy megváltozott.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_XmlNode" name="XmlNode" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is being added, removed or changed; this property never returns <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_XmlNode" name="XmlNode" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely hozzáadott, eltávolított vagy megváltozott; ez a tulajdonság nem ad vissza <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the value of the &lt;xref:System.Xml.XmlNode.ParentNode*&gt; before the operation began.</source>
+          <target state="translated">Értékét a &lt;xref:System.Xml.XmlNode.ParentNode*&gt;a művelet megkezdése előtt.&lt;/xref:System.Xml.XmlNode.ParentNode*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_ParentNode" name="ParentNode" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> before the operation began.</source>
+          <target state="translated">Értékét a <bpt id="p1">&lt;xref uid="langword_csharp_ParentNode" name="ParentNode" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a művelet megkezdése előtt.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This property returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the node did not have a parent.</source>
+          <target state="translated">Ez a tulajdonság adja vissza <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha a csomópont nincs szülője.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For attribute nodes this property returns the &lt;xref:System.Xml.XmlAttribute.OwnerElement*&gt;.</source>
+          <target state="translated">Az attribútum-csomópont a tulajdonság adja vissza a &lt;xref:System.Xml.XmlAttribute.OwnerElement*&gt;.&lt;/xref:System.Xml.XmlAttribute.OwnerElement*&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the original value of the node.</source>
+          <target state="translated">A csomópont eredeti értékének beolvasása.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The original value of the node.</source>
+          <target state="translated">A csomópont eredeti értéke.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This property returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the node is neither an attribute nor a text node, or if the node is being inserted.</source>
+          <target state="translated">Ez a tulajdonság adja vissza <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha a csomópont attribútumként sem a szöveges csomópont, vagy ha a csomópont beszúrni.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If called in a <bpt id="p1">&lt;xref href="System.Xml.XmlDocument.NodeChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event, <bpt id="p2">&lt;xref uid="langword_csharp_OldValue" name="OldValue" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> returns the current value of the node that will be replaced if the change is successful.</source>
+          <target state="translated">Ha neve egy <bpt id="p1">&lt;xref href="System.Xml.XmlDocument.NodeChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény, <bpt id="p2">&lt;xref uid="langword_csharp_OldValue" name="OldValue" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a csomópontot, a program lecserél, ha sikeres a módosítás aktuális értékét adja vissza.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If called in a <bpt id="p1">&lt;xref href="System.Xml.XmlDocument.NodeChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event, <bpt id="p2">&lt;xref uid="langword_csharp_OldValue" name="OldValue" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> returns the value of node prior to the change.</source>
+          <target state="translated">Ha neve egy <bpt id="p1">&lt;xref href="System.Xml.XmlDocument.NodeChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény, <bpt id="p2">&lt;xref uid="langword_csharp_OldValue" name="OldValue" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> a módosítás előtt csomópont értékét adja vissza.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

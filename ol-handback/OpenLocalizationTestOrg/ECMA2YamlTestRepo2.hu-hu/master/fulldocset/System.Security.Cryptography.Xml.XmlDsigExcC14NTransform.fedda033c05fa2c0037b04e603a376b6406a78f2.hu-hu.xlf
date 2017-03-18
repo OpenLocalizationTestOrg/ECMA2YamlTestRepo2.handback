@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d733cfee5c6d56d3d1ac8899aeca82ab0696080</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7146d71698dab23a953bad09edf76cc5112caea0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">72e43f2dbe0fb431819c76b1d5c2687c20f2484a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the exclusive C14N XML canonicalization transform for a digital signature as defined by the World Wide Web Consortium (W3C), without comments.</source>
+          <target state="translated">A kizárólagos C14N XML-kanonizálási átalakítónak digitális aláírást jelöli a World Wide Web Consortium (W3C) által meghatározott megjegyzések nélkül.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlDsigExcC14NTransform class represents the exclusive C14N XML canonicalization transform without comments.</source>
+          <target state="translated">A XmlDsigExcC14NTransform osztály a kizárólagos C14N XML-kanonizálási átalakítónak megjegyzések nélkül jelöli.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class is similar to the &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt; class, which allows a signer to create a digest using the canonical form of an XML document.</source>
+          <target state="translated">Ez az osztály hasonlít a &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;osztály, amely lehetővé teszi egy aláíró egy kivonatoló használatával a kanonikus alakja az XML-dokumentum létrehozása.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the XmlDsigExcC14NTransform class excludes ancestor context from a canonicalized subdocument.</source>
+          <target state="translated">Azonban a XmlDsigExcC14NTransform osztály elődjében környezetben kizárja a szabványosított aldokumentum.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt; class when you need to canonicalize an XML subdocument so that it is independent from its XML context.</source>
+          <target state="translated">Használja a &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;osztály XML kanonizálására kell úgy, hogy az XML-környezetből független aldokumentum.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, applications such as Web services that use signed XML within complex communication protocols often need to canonicalize XML in this manner.</source>
+          <target state="translated">Például alkalmazások például webszolgáltatásokat használó aláírt XML belül összetett kommunikációs protokollokat gyakran kell XML kanonizálására ily módon.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such applications often envelop XML within various dynamically constructed elements, which can substantially change the document and cause XML signature verification to fail.</source>
+          <target state="translated">Az ilyen alkalmazások XML gyakran ciklusnak belül a különböző dinamikusan létrehozott elemek, így lényegesen módosítani a dokumentumot és XML-aláírás ellenőrzésének sikertelenségét okozhatja.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlDsigExcC14NTransform class solves this problem by excluding such ancestor context from the canonical subdocument.</source>
+          <target state="translated">A XmlDsigExcC14NTransform osztály által ilyen elődje környezetben kizárását a kanonikus aldokumentum megoldja ezt a problémát.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you do not create a new instance of a canonicalization transform class.</source>
+          <target state="translated">Általában nem létrehozása kanonizálási átalakító osztály új példányát.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify a canonicalization transform, pass the Uniform Resource Identifier (URI) that describes a transform to the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A&gt; property, which is accessible from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; property.</source>
+          <target state="translated">A kanonizálási átalakító megadásához adja át az egységes erőforrás-azonosító (URI), mely leírja az átalakítás a &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A&gt;tulajdonság, amely elérhető a &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt;tulajdonság.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To acquire a reference to the canonicalization transform, use the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethodObject%2A&gt; property, which is accessible from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; property.</source>
+          <target state="translated">A kanonizálási átalakító mutató hivatkozás beszerzéséhez használja a &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethodObject%2A&gt;tulajdonság, amely elérhető a &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt;tulajdonság.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethodObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You are required to create a new instance of a canonicalization transform class only when you want to manually hash an XML document or use your own canonicalization algorithm.</source>
+          <target state="translated">A kanonizálási átalakító osztály új példánya csak akkor, ha manuálisan az XML-dokumentum kivonatoló, vagy használja a saját szabványosító algoritmus létrehozásához szükséges áll.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The URI that describes the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt; class is defined by the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NWithCommentsTransformUrl&gt; field.</source>
+          <target state="translated">Az URI, amely leírja a &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt;határozzák meg az osztály a &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NWithCommentsTransformUrl&gt;mező.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NWithCommentsTransformUrl&gt; &lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The URI that describes the XmlDsigExcC14NTransform class is defined by the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NTransformUrl&gt; field.</source>
+          <target state="translated">Határozza meg az URI, amely leírja a XmlDsigExcC14NTransform osztály a &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NTransformUrl&gt;mező.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NTransformUrl&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the exclusive C14N transform, see the XMLDSIG specification, which is available from the World Wide Web Consortium (W3C) at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">A kizárólagos C14N átalakítása kapcsolatos további információkért tekintse meg a webes Consortium (W3C) www.w3.org/TR/xmldsig-core/, elérhető XMLDSIG specifikációja.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The canonicalization algorithm is defined in the W3C Canonical XML specification, which is available at www.w3.org/2001/10/xml-exc-c14n.</source>
+          <target state="translated">A kanonikus W3C XML specifikációját, amely www.w3.org/2001/10/xml-exc-c14n érhető el a szabványosító algoritmus van meghatározva.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class specifying a value that determines whether to include comments.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály, amely meghatározza, hogy megjegyzéseket értéket.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include comments; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>megjegyzéseket; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class specifying a list of namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a szabványos szabványosító algoritmus használatával kanonizálására névtérelőtagokat listájának megadását.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`inclusiveNamespacesPrefixList`</ph> parameter contains a whitespace-delimited list of namespace prefixes to canonicalize using the standard canonicalization algorithm rather than the exclusive canonicalization algorithm.</source>
+          <target state="translated">A <ph id="ph1">`inclusiveNamespacesPrefixList`</ph> paraméter a kizárólagos szabványosító algoritmus helyett a szabványos szabványosító algoritmus kanonizálására névtérelőtagokat szóköz elválasztott listáját tartalmazza.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify the default namespace, which does not have a prefix, pass the special prefix "#default".</source>
+          <target state="translated">Az alapértelmezett névtér, amely nem tartozik előtag, adja át a "#default" különleges előtag.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">A névtérelőtagokat kanonizálására a szabványos szabványosító algoritmus használatával.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class specifying whether to include comments, and specifying a list of namespace prefixes.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> adjuk meg, hogy a megjegyzéseket, és névtérelőtagokat listájának megadását.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`inclusiveNamespacesPrefixList`</ph> parameter contains a whitespace-delimited list of namespace prefixes to canonicalize using the standard canonicalization algorithm rather than the exclusive canonicalization algorithm.</source>
+          <target state="translated">A <ph id="ph1">`inclusiveNamespacesPrefixList`</ph> paraméter a kizárólagos szabványosító algoritmus helyett a szabványos szabványosító algoritmus kanonizálására névtérelőtagokat szóköz elválasztott listáját tartalmazza.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify the default namespace, which does not have a prefix, pass the special prefix "#default".</source>
+          <target state="translated">Az alapértelmezett névtér, amely nem tartozik előtag, adja át a "#default" különleges előtag.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include comments; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>megjegyzéseket; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">A névtérelőtagokat kanonizálására a szabványos szabványosító algoritmus használatával.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns the digest associated with a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A kivonatoló társított adja vissza egy <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.HashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to create a digest.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.HashAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> egy kivonatoló létrehozásához használt objektum.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The digest associated with a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A társított kivonatoló egy <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Returns an XML representation of the parameters of a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that are suitable to be included as subelements of an XMLDSIG <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">A paraméterek az XML-ábrázolása adja vissza egy <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely alkalmas fog szerepelni a egy XMLDSIG alelemeiket mutatják be az <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elemet.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A list of the XML nodes that represent the transform-specific content needed to describe the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object in an XMLDSIG <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Az XML-csomópontnak, amelyek megfelelnek az átalakítás-specifikus tartalmait, az aktuális leírására szükséges listája <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> egy XMLDSIG objektum <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elemet.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns the output of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object</source>
+          <target state="translated">Az aktuális a kimenetet visszaadja <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The output of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Az aktuális kimeneti <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Returns the output of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object as an object of the specified type.</source>
+          <target state="translated">Az aktuális a kimenetet visszaadja <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum a megadott típusú objektumot.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetOutput method returns the output of the current transform after it is run on the value previously set by a call to the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput%2A&gt; method.</source>
+          <target state="translated">A GetOutput módszer az aktuális átalakító kimenete adja vissza, a korábban beállított hívásával értéket futtatása után a &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput%2A&gt;metódus.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the returned object must be one of the type objects in the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes%2A&gt; property.</source>
+          <target state="translated">A visszaadott objektumot típusúnak kell lennie a típusú objektumot az egyik a &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes%2A&gt;tulajdonság.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The type of the output to return.</source>
+          <target state="translated">Vissza a kimeneti típusa.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This must be one of the types in the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes*&gt; property.</source>
+          <target state="translated">A típusok egyikét kell lennie a &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes*&gt;tulajdonság.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.OutputTypes*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The output of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object as an object of the specified type.</source>
+          <target state="translated">Az aktuális kimeneti <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum a megadott típusú objektumot.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a &lt;xref:System.IO.Stream&gt; object.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nem egy &lt;xref:System.IO.Stream&gt;objektum.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter does not derive from a &lt;xref:System.IO.Stream&gt; object.</source>
+          <target state="translated">– vagy – a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nem származik a &lt;xref:System.IO.Stream&gt;objektum.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string that contains namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">Lekérdezi vagy beállítja a karakterlánc, amely a szabványos szabványosító algoritmus használatával kanonizálására névtérelőtagokat tartalmazza.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The InclusiveNamespacesPrefixList property contains a whitespace-delimited list of namespace prefixes to canonicalize using the standard canonicalization algorithm rather than the exclusive canonicalization algorithm.</source>
+          <target state="translated">A InclusiveNamespacesPrefixList tulajdonság a kizárólagos szabványosító algoritmus helyett a szabványos szabványosító algoritmus kanonizálására névtérelőtagokat szóköz elválasztott listáját tartalmazza.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify the default namespace, which does not have a prefix, pass the special prefix "#default".</source>
+          <target state="translated">Az alapértelmezett névtér, amely nem tartozik előtag, adja át a "#default" különleges előtag.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A string that contains namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">Egy karakterlánc, amely a szabványos szabványosító algoritmus használatával kanonizálására névtérelőtagokat tartalmazza.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets an array of types that are valid inputs to the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt; method of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Érvénytelen a forráson típusok tömbje lekérdezi a &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt;módszer az aktuális <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The array returned by the InputTypes property must contain at least one element because every &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt; object must accept at least one type as valid input.</source>
+          <target state="translated">A InputTypes tulajdonsága által visszaadott tömb tartalmaznia kell legalább egy elemet, mert minden &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;objektum el kell fogadnia, hogy legalább egy típus érvényes bemeneti adatként.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt; object typically accepts one or more of the following types as input: &lt;xref:System.IO.Stream&gt;, &lt;xref:System.Xml.XmlDocument&gt;, or &lt;xref:System.Xml.XmlNodeList&gt;.</source>
+          <target state="translated">A &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;objektum általában fogad el egy vagy több, a következő típusú bemenetként: &lt;xref:System.IO.Stream&gt;, &lt;xref:System.Xml.XmlDocument&gt;, vagy &lt;xref:System.Xml.XmlNodeList&gt;.&lt;/xref:System.Xml.XmlNodeList&gt; &lt;/xref:System.Xml.XmlDocument&gt; &lt;/xref:System.IO.Stream&gt; &lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An array of valid input types for the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object; you can pass only objects of one of these types to the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt; method of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Érvénytelen bemeneti típusnak sem az aktuális tömbje <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum; csak egy, az ilyen típusú objektumok átadhatók a &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt;módszer az aktuális <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInput*&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Parses the specified <bpt id="p1">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object as transform-specific content of a <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element and configures the internal state of the current <bpt id="p3">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object to match the <bpt id="p4">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Elemzi a megadott <bpt id="p1">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> átalakító-specifikus tartalmait, az objektumot egy <bpt id="p2">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elem és a belső állapotot, az aktuális konfigurálja <bpt id="p3">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objektum kereséséhez a <bpt id="p4">&lt;xref uid="langword_csharp_&amp;lt;Transform&amp;gt;" name="&amp;lt;Transform&amp;gt;" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> elemet.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used to process subelements of a <ph id="ph1">`&lt;Transform&gt;`</ph> element.</source>
+          <target state="translated">Ez a módszer segítségével dolgozza fel a alelemeket egy <ph id="ph1">`&lt;Transform&gt;`</ph> elemet.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies transform-specific content for the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely meghatározza az aktuális átalakító-specifikus tartalmait <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, loads the specified input into the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Felülbírálja a származtatott osztály, ha a megadott bemeneti adatok betöltődnek az aktuális <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the input object must be one of the types in the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.InputTypes%2A&gt; property.</source>
+          <target state="translated">A bemeneti objektum típusúnak kell lennie a típusok egyike a &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.InputTypes%2A&gt;tulajdonság.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.InputTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The input to load into the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A bemeneti betöltése az aktuális <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a &lt;xref:System.IO.Stream&gt; object.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nem egy &lt;xref:System.IO.Stream&gt;objektum.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not an <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">– vagy – a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nem egy <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not an <bpt id="p2">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">– vagy – a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter nem egy <bpt id="p2">&lt;xref href="System.Xml.XmlNodeList"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets an array of types that are possible outputs from the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt; methods of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Lekérdezi a lehetséges kimeneteinek típusok tömbje a &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt;módszerek az aktuális <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The array returned by the OutputTypes property must contain at least one element because every transform must generate at least one type as output.</source>
+          <target state="translated">A OutputTypes tulajdonsága által visszaadott tömb legalább egy elemet kell tartalmaznia, mert minden átalakító létre kell hoznia legalább egy kimeneti típus lehet.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An array of valid output types for the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object; the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt; methods of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object return only objects of one of these types.</source>
+          <target state="translated">Az aktuális kimeneti típusú tömb <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum; a &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt;módszerek az aktuális <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NTransform"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> visszatérési csak objektumok egy, a következő típusú objektum.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
