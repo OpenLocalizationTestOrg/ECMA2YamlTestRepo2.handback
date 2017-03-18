@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">555c2d2860cf86f7a7ea70dd31b954f93e44fbdb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.DirectoryServices.DirectorySearcher.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58c593b4be0f7e6669772fa4edd669342b8c1fdf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b384b7515b7f445e83a5776664b81b539c5c40c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Performs queries against Active Directory Domain Services.</source>
+          <target state="translated">Active Directory ドメイン サービスに対してクエリを実行します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use a DirectorySearcher object to search and perform queries against an Active Directory Domain Services hierarchy using Lightweight Directory Access Protocol (LDAP).</source>
+          <target state="translated">DirectorySearcher オブジェクトを使用すると、検索して、ライトウェイト ディレクトリ アクセス プロトコル (LDAP) を使用して Active Directory ドメイン サービス階層に対してクエリを実行します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>LDAP is the only system-supplied Active Directory Service Interfaces (ADSI) provider that supports directory searching.</source>
+          <target state="translated">LDAP は、のみシステム提供の Active Directory サービス インターフェイス (ADSI) プロバイダー ディレクトリの検索をサポートします。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An administrator can make, alter, and delete objects that are found in the hierarchy.</source>
+          <target state="translated">管理者が行うことができます、変更、および、階層内にあるオブジェクトを削除します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Using System.DirectoryServices<ept id="p1">](http://msdn.microsoft.com/en-us/ffa2f003-3a9a-4e2a-815e-825c8ddd7949)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>を使用して System.DirectoryServices<ept id="p1">](http://msdn.microsoft.com/en-us/ffa2f003-3a9a-4e2a-815e-825c8ddd7949)</ept>です。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you create an instance of DirectorySearcher, you specify the root you want to retrieve, and an optional list of properties to retrieve.</source>
+          <target state="translated">DirectorySearcher のインスタンスを作成するときに、ルートを取得して、取得するプロパティの省略可能なリストを指定します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt; property enables you to set additional properties to do the following tasks:      -   Cache the search results on the local computer.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;プロパティでは、次のタスクを実行する他のプロパティを設定することができます:-ローカル コンピューターの検索結果をキャッシュします&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Set the &lt;xref:System.DirectoryServices.DirectorySearcher.CacheResults%2A&gt; property to <ph id="ph1">`true`</ph> to store directory information on the local computer.</source>
+          <target state="translated">設定、&lt;xref:System.DirectoryServices.DirectorySearcher.CacheResults%2A&gt;プロパティを<ph id="ph1">`true`</ph>ローカル コンピューター上のディレクトリ情報を格納します&lt;/xref:System.DirectoryServices.DirectorySearcher.CacheResults%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Updates are made to this local cache and committed to Active Directory Domain Services only when the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A?displayProperty=fullName&gt; method is called.</source>
+          <target state="translated">更新プログラムがこのローカル キャッシュに加えられたし、Active Directory ドメイン サービスにコミットされる場合にのみ、&lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A?displayProperty=fullName&gt;メソッドが呼び出されます&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-   Specify the length of time to search, using the  &lt;xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt; property.</source>
+          <target state="translated">指定を検索する時間の長さを使用して、&lt;xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt;プロパティ&lt;/xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   Retrieve attribute names only.</source>
+          <target state="translated">-属性名のみを取得します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Set the &lt;xref:System.DirectoryServices.DirectorySearcher.PropertyNamesOnly%2A&gt; property to <ph id="ph1">`true`</ph> to retrieve only the names of attributes to which values have been assigned.</source>
+          <target state="translated">設定、&lt;xref:System.DirectoryServices.DirectorySearcher.PropertyNamesOnly%2A&gt;プロパティを<ph id="ph1">`true`</ph>値が割り当てられている属性の名前のみを取得します&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertyNamesOnly%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   Perform a paged search.</source>
+          <target state="translated">-ページング検索を実行します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Set the &lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt; property to specify the maximum number of objects that are returned in a paged search.</source>
+          <target state="translated">設定、&lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;ページング検索で返されるオブジェクトの最大数を指定するプロパティ&lt;/xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you do not want to perform a paged search, set the &lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt; property to its default of zero.</source>
+          <target state="translated">ページ検索を実行しない場合は、設定、&lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;をゼロの既定のプロパティ&lt;/xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-   Specify the maximum number of entries to return, using the &lt;xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt; property.</source>
+          <target state="translated">戻るには、エントリの最大数を使用して指定、&lt;xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt;プロパティ&lt;/xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you set the &lt;xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt; property to its default of zero, the server-determined default is 1000 entries.</source>
+          <target state="translated">設定した場合、&lt;xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt;プロパティを既定値の 0、サーバーにより決定された既定値は 1000 エントリ&lt;/xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the maximum number of returned entries and time limits exceed the limitations that are set on the server, the server settings override the component settings.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 返されるエントリと時間の制限の最大数を超える場合、サーバーで設定されている制限、サーバーの設定の上書きコンポーネントです。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For a list of initial property values for an instance of the DirectorySearcher class, see the &lt;xref:System.DirectoryServices.DirectorySearcher.%23ctor&gt; constructor.</source>
+          <target state="translated">DirectorySearcher クラスのインスタンスの初期プロパティ値の一覧は、次を参照してください、&lt;xref:System.DirectoryServices.DirectorySearcher.%23ctor&gt;コンス トラクター。&lt;/xref:System.DirectoryServices.DirectorySearcher.%23ctor&gt; 。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is assumed that you have a general understanding of Active Directory Domain Services before using this class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このクラスを使用する前に Active Directory ドメイン サービスの基本的な知識があると見なされます。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.DirectoryServices?displayProperty=fullName&gt; overview.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.DirectoryServices?displayProperty=fullName&gt;の概要。&lt;/xref:System.DirectoryServices?displayProperty=fullName&gt; 。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default values.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>既定値を持つクラス。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">次の表の初期プロパティ値を示しています、&lt;xref:System.DirectoryServices.DirectorySearcher&gt;オブジェクト&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic)|   |&lt;xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;|"(objectClass=*)"|   |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|An empty &lt;xref:System.Collections.Specialized.StringCollection&gt; object|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|プロパティ |初期値 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|Null 参照 (<ph id="ph1">`Nothing`</ph> Visual Basic で) |  |&lt;xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;|"(objectClass = *)"|  |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|空の&lt;xref:System.Collections.Specialized.StringCollection&gt;オブジェクト |  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;&lt;/xref:System.Collections.Specialized.StringCollection&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified search root.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスの指定した検索のルートを使用します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">次の表の初期プロパティ値を示しています、&lt;xref:System.DirectoryServices.DirectorySearcher&gt;オブジェクト&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;|"(objectClass=*)"|   |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|An empty &lt;xref:System.Collections.Specialized.StringCollection&gt; object|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|プロパティ |初期値 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;|"(objectClass = *)"|  |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|空の&lt;xref:System.Collections.Specialized.StringCollection&gt;オブジェクト |  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;&lt;/xref:System.Collections.Specialized.StringCollection&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The node in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated">検索を開始する Active Directory ドメイン サービス階層内のノードです。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search filter.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定した検索フィルターを持つクラス。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">次の表の初期プロパティ値を示しています、&lt;xref:System.DirectoryServices.DirectorySearcher&gt;オブジェクト&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic)|   |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|An empty &lt;xref:System.Collections.Specialized.StringCollection&gt; object|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|プロパティ |初期値 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|Null 参照 (<ph id="ph1">`Nothing`</ph> Visual Basic で) |  |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|空の&lt;xref:System.Collections.Specialized.StringCollection&gt;オブジェクト |  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;&lt;/xref:System.Collections.Specialized.StringCollection&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">ライトウェイト ディレクトリ アクセス プロトコル (LDAP) 形式の検索フィルター文字列。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search root and search filter.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定された検索のルートと検索のフィルターを持つクラス。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">次の表の初期プロパティ値を示しています、&lt;xref:System.DirectoryServices.DirectorySearcher&gt;オブジェクト&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|An empty &lt;xref:System.Collections.Specialized.StringCollection&gt; object.|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|プロパティ |初期値 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|空の&lt;xref:System.Collections.Specialized.StringCollection&gt;オブジェクトです |。  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;&lt;/xref:System.Collections.Specialized.StringCollection&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The node in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated">検索を開始する Active Directory ドメイン サービス階層内のノードです。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">ライトウェイト ディレクトリ アクセス プロトコル (LDAP) 形式の検索フィルター文字列。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search filter and properties to retrieve.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定した検索フィルターおよび取得するプロパティを持つクラス。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">次の表の初期プロパティ値を示しています、&lt;xref:System.DirectoryServices.DirectorySearcher&gt;オブジェクト&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic)|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|プロパティ |初期値 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|Null 参照 (<ph id="ph1">`Nothing`</ph> Visual Basic で) |  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">ライトウェイト ディレクトリ アクセス プロトコル (LDAP) 形式の検索フィルター文字列。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The  &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The set of properties to retrieve during the search.</source>
+          <target state="translated">検索中に取得するプロパティのセット。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search root, search filter, and properties to retrieve..</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定した検索のルート、検索フィルター、および取得するプロパティを持つクラス.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">次の表の初期プロパティ値を示しています、&lt;xref:System.DirectoryServices.DirectorySearcher&gt;オブジェクト&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|プロパティ |初期値 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The node in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated">検索を開始する Active Directory ドメイン サービス階層内のノードです。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">ライトウェイト ディレクトリ アクセス プロトコル (LDAP) 形式の検索フィルター文字列。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The set of properties that are retrieved during the search.</source>
+          <target state="translated">検索中に取得されるプロパティのセット。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search filter, properties to retrieve, and search scope.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスで指定した検索をフィルター処理、プロパティを取得、およびスコープを検索します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">次の表の初期プロパティ値を示しています、&lt;xref:System.DirectoryServices.DirectorySearcher&gt;オブジェクト&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic)|</source>
+          <target state="translated">|プロパティ |初期値 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|Null 参照 (<ph id="ph1">`Nothing`</ph> Visual Basic で) |&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">ライトウェイト ディレクトリ アクセス プロトコル (LDAP) 形式の検索フィルター文字列。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The set of properties to retrieve during the search.</source>
+          <target state="translated">検索中に取得するプロパティのセット。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The scope of the search that is observed by the server.</source>
+          <target state="translated">サーバーによって監視される検索のスコープです。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property is initialized to this value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>プロパティは、この値に初期化します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search root, search filter, properties to retrieve, and search scope.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定した検索のルート、検索フィルターを取得、および検索スコープのプロパティを持つクラス。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The node in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated">検索を開始する Active Directory ドメイン サービス階層内のノードです。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">ライトウェイト ディレクトリ アクセス プロトコル (LDAP) 形式の検索フィルター文字列。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The set of properties to retrieve during the search.</source>
+          <target state="translated">検索中に取得するプロパティのセット。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;プロパティは、この値に初期化します&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The scope of the search that is observed by the server.</source>
+          <target state="translated">サーバーによって監視される検索のスコープです。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property is initialized to this value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>プロパティは、この値に初期化します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates if the search is performed asynchronously.</source>
+          <target state="translated">取得または検索が非同期的に実行されるかどうかを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An asynchronous search can show results as they are found while simultaneously searching for additional results.</source>
+          <target state="translated">非同期の検索は、同時に追加の結果の検索中に見つかった場合は、結果を表示できます。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This is useful for tasks such as populating list boxes.</source>
+          <target state="translated">これは、リスト ボックスを設定するなどのタスクに役立ちます。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">このプロパティは、の既定の設定<ph id="ph1">`false`</ph>です。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the search is asynchronous; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合は、検索は非同期です。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>それ以外の場合。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets or sets the LDAP display name of the distinguished name attribute to search in.</source>
+          <target state="translated">取得またはで検索する識別名属性の LDAP 表示名を設定します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Only one attribute can be used for this type of search.</source>
+          <target state="translated">1 つだけの属性は、この種の検索に使用できます。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The attribute that this property is set to must be a distinguished name attribute, such as member or managedBy.</source>
+          <target state="translated">このプロパティに設定されている属性のメンバーまたはにより管理などの識別名属性があります。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The attribute can be either single or multi-valued.</source>
+          <target state="translated">属性には、1 つまたは複数値のいずれかを指定できます。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For more information, see the adschema topics "<bpt id="p1">[</bpt>Member<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/adschema/adschema/a_member.asp)</ept>" and "<bpt id="p2">[</bpt>Managed-By<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/adschema/adschema/a_managedby.asp)</ept>" in the MSDN Library at <bpt id="p3">[</bpt>http://msdn.microsoft.com/library<ept id="p3">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">詳細については、トピックを参照して、adschema"<bpt id="p1">[</bpt>メンバー<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/adschema/adschema/a_member.asp)</ept>「と」<bpt id="p2">[</bpt>マネージによって<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/adschema/adschema/a_managedby.asp)</ept>"MSDN ライブラリで<bpt id="p3">[</bpt>http://msdn.microsoft.com/library<ept id="p3">](http://msdn.microsoft.com/library)</ept>です。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The search is performed against the objects that are identified by the distinguished name that is specified in the attribute of the base object.</source>
+          <target state="translated">検索は、ベース オブジェクトの属性で指定されている識別名で識別されるオブジェクトに対して実行されます。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For example, if the base object is an adschema group class and the AttributeScopeQuery is set to "member," then the search will be performed against all objects that are members of the group.</source>
+          <target state="translated">たとえば、ベース オブジェクトが adschema グループ クラスであり、AttributeScopeQuery が「メンバー」に設定されている場合、グループのメンバーであるすべてのオブジェクトに対する、検索が実行されます。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For more information, see the adschema "Group" class topic in the MSDN Library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">詳細については、MSDN ライブラリで adschema"Group"クラスのトピックを参照してください。 <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>です。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>When the AttributeScopeQuery property is used, the &lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt; property must be set to &lt;xref:System.DirectoryServices.SearchScope&gt;.</source>
+          <target state="translated">AttributeScopeQuery プロパティを使用する場合、 &lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt; &lt;xref:System.DirectoryServices.SearchScope&gt;。&lt;/xref:System.DirectoryServices.SearchScope&gt;にプロパティを設定する必要があります。&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt; property is set to any other value, setting the AttributeScopeQuery property will throw an &lt;xref:System.ArgumentException&gt;.</source>
+          <target state="translated">場合&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;その他の値に設定されて、設定、AttributeScopeQuery プロパティをスロー &lt;xref:System.ArgumentException&gt;.&lt;/xref:System.ArgumentException&gt; &lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For more information, see the "Performing an Attribute Scope Query" topic in the MSDN Library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>).</source>
+          <target state="translated">詳細については、MSDN ライブラリで「を実行する、属性の範囲クエリ」トピックを参照してください。 <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>)。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The LDAP display name of the attribute to perform the search against, or an empty string of no attribute scope query is set.</source>
+          <target state="translated">LDAP は、に対する検索を実行する属性の名前を表示またはない属性スコープ クエリの空の文字列を設定します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope*&gt; property is set to a value other than <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope*&gt;プロパティが以外の値に設定<bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope*&gt; 。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the result is cached on the client computer.</source>
+          <target state="translated">取得またはクライアント コンピューターで結果をキャッシュするかどうかを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If the search returns a large result set, the search will be more efficient if this property is set to <ph id="ph1">`false`</ph> to avoid the transfer of the result set to the client computer.</source>
+          <target state="translated">検索がこのプロパティ設定されている場合より効率的なする場合は、検索には、大きな結果セットが返されます、<ph id="ph1">`false`</ph>を結果セットをクライアント コンピューターの転送を回避します。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If you do so, however, you will not be able to enumerate the results twice, because the &lt;xref:System.DirectoryServices.SearchResultCollection&gt; object creates a new enumerator object each time it is called.</source>
+          <target state="translated">その場合、ただし、いないことができますを&amp;2; 回、結果を列挙するため、&lt;xref:System.DirectoryServices.SearchResultCollection&gt;が呼び出されるたびに新しい列挙子オブジェクトを作成するオブジェクト&lt;/xref:System.DirectoryServices.SearchResultCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the result is cached on the client computer; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>結果がクライアント コンピューターにキャッシュされている場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum amount of time that the client waits for the server to return results.</source>
+          <target state="translated">取得または結果を返すサーバーのクライアントが待機する時間の最大量を設定します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If the server does not respond within this time, the search is aborted and no results are returned.</source>
+          <target state="translated">この時間内に、サーバー、応答しない場合は、検索は中止され、結果は返されません。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The minimum resolution of this property is one second.</source>
+          <target state="translated">このプロパティの最小解像度は、1 秒間です。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Fractions of seconds are ignored.</source>
+          <target state="translated">秒の小数部は無視されます。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt; is reached before the client times out, the server returns its results and the client stops waiting.</source>
+          <target state="translated">場合、&lt;xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt;を前に、クライアントがタイムアウトになるサーバーには、その結果が返されますクライアントの待機が終了に達した。&lt;/xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The maximum server time limit is 120 seconds.</source>
+          <target state="translated">サーバーの最大制限時間は、120 秒です。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; structure that contains the maximum amount of time for the client to wait for the server to return results.</source>
+          <target state="translated">A&lt;xref:System.TimeSpan&gt;をクライアントに結果を返すサーバーの待機時間の最大量を格納する構造体&lt;/xref:System.TimeSpan&gt;。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The default value is -1 second, which means to wait indefinitely.</source>
+          <target state="translated">既定値は、-1 秒は、無期限に待機することを意味します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating how the aliases of objects that are found during a search should be resolved.</source>
+          <target state="translated">取得または検索時に検出されたオブジェクトのエイリアスを解決する方法を示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DereferenceAlias"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that specifies the behavior in which aliases are dereferenced.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DereferenceAlias"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>エイリアスが逆参照する動作を指定する値。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is <bpt id="p1">&lt;xref href="System.DirectoryServices.DereferenceAlias"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">このプロパティは、の既定の設定<bpt id="p1">&lt;xref href="System.DirectoryServices.DereferenceAlias"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets or sets an object that represents the directory synchronization control to use with the search.</source>
+          <target state="translated">取得または設定を使用し、検索するディレクトリ同期の制御を表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The directory synchronization control, commonly referred to as the DirSync control, is an LDAP control that is used to search for objects that have changed since a previous state.</source>
+          <target state="translated">ディレクトリ同期の制御、一般に呼ば DirSync コントロールは、以前の状態から変更されたオブジェクトの検索に使用される LDAP コントロールです。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For more information, see the topic "<bpt id="p1">[</bpt>Polling for Changes Using the DirSync Control<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ad/ad/polling_for_changes_using_the_dirsync_control.asp)</ept>" in the MSDN Library at <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">詳細については、トピックを参照してください。"<bpt id="p1">[</bpt>ポーリングして変更を使用して DirSync コントロール<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ad/ad/polling_for_changes_using_the_dirsync_control.asp)</ept>"MSDN ライブラリで<bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library)</ept>です。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySynchronization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the search.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySynchronization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>検索のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the directory synchronization control should not be used.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ディレクトリ同期の制御を使用しない必要がある場合。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Releases the managed resources that are used by the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and, optionally, releases unmanaged resources.</source>
+          <target state="translated">によって使用されているマネージ リソースも解放、 <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>アンマネージ リソースのオブジェクトと、必要に応じて、リリースします。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this method releases both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if it releases only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>このメソッドは、マネージ コードとアンマネージ リソースを解放する場合<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>アンマネージ リソースだけを解放する場合。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates the format of the distinguished names.</source>
+          <target state="translated">取得または識別名の形式を示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ExtendedDN"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.DirectoryServices.ExtendedDN"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the Lightweight Directory Access Protocol (LDAP) format filter string.</source>
+          <target state="translated">取得またはライトウェイト ディレクトリ アクセス プロトコル (LDAP) 形式のフィルター文字列を示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The search filter string in LDAP format, such as "(objectClass=user)".</source>
+          <target state="translated">Ldap 検索フィルター文字列フォーマットなど"(objectClass=user)"です。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The default is "(objectClass=*)", which retrieves all objects.</source>
+          <target state="translated">既定値は"(objectClass=*)"、すべてのオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Executes the search and returns a collection of the entries that are found.</source>
+          <target state="translated">検索を実行し、見つかったエントリのコレクションを返します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Due to implementation restrictions, the &lt;xref:System.DirectoryServices.SearchResultCollection&gt; class cannot release all of its unmanaged resources when it is garbage collected.</source>
+          <target state="translated">実装の制限により、&lt;xref:System.DirectoryServices.SearchResultCollection&gt;クラスをリリースできませんのすべてのアンマネージ リソースのガベージ コレクションである場合&lt;/xref:System.DirectoryServices.SearchResultCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To prevent a memory leak, you must call the &lt;xref:System.DirectoryServices.SearchResultCollection.Dispose%2A&gt; method when the &lt;xref:System.DirectoryServices.SearchResultCollection&gt; object is no longer needed.</source>
+          <target state="translated">メモリ リークを防ぐためには、呼び出す必要があります、&lt;xref:System.DirectoryServices.SearchResultCollection.Dispose%2A&gt;メソッドと、&lt;xref:System.DirectoryServices.SearchResultCollection&gt;オブジェクトが不要します&lt;/xref:System.DirectoryServices.SearchResultCollection&gt;&lt;/xref:System.DirectoryServices.SearchResultCollection.Dispose%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchResultCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the results of the search.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchResultCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>検索の結果を格納しているオブジェクト。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not a container.</source>
+          <target state="translated">指定した<bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コンテナーではありません。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Searching is not supported by the provider that is being used.</source>
+          <target state="translated">使用されているプロバイダーによっては、検索することはできません。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Executes the search and returns only the first entry that is found.</source>
+          <target state="translated">検索を実行し、見つかった最初のエントリのみを返します。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If more than one entry is found during the search, only the first entry is returned.</source>
+          <target state="translated">複数のエントリが見つかった場合、検索中に、最初のエントリのみが返されます。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>If no entries are found to match the search criteria, a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic) is returned.</source>
+          <target state="translated">エントリが見つからないかどうかは null 参照、検索条件に一致する (<ph id="ph1">`Nothing`</ph> Visual Basic で) が返されます。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the first entry that is found during the search.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>検索中に見つかった最初のエントリを含むオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the page size in a paged search.</source>
+          <target state="translated">取得またはページ検索のページ サイズを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>After the server has found the number of objects that are specified by the PageSize property, it will stop searching and return the results to the client.</source>
+          <target state="translated">サーバーは、PageSize プロパティで指定されたオブジェクトの数が見つかりましたが後は、検索が停止され、クライアントに結果を返します。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>When the client requests more data, the server will restart the search where it left off.</source>
+          <target state="translated">クライアントより多くのデータを要求するときに、サーバーはところ検索を再起動します。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The maximum number of objects the server can return in a paged search.</source>
+          <target state="translated">オブジェクトの最大数、サーバーがページング検索で返すことができます。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The default is zero, which means do not do a paged search.</source>
+          <target state="translated">既定値は&amp;0;、つまりはページング検索を実行しません。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The new value is less than zero.</source>
+          <target state="translated">新しい値が&amp;0; 未満です。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the list of properties to retrieve during the search.</source>
+          <target state="translated">検索中に取得するプロパティの一覧を示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>To retrieve specific properties, add them to this collection before you begin the search.</source>
+          <target state="translated">特定のプロパティを取得するには、コレクションに追加この検索を開始する前にします。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`searcher.PropertiesToLoad.Add("phone");`</ph> will add the phone property to the list of properties to retrieve in the search.</source>
+          <target state="translated">たとえば、<ph id="ph1">`searcher.PropertiesToLoad.Add("phone");`</ph>検索で取得するプロパティの一覧に電話プロパティが追加されます。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The property "ADsPath" is always retrieved during the search.</source>
+          <target state="translated">"ADsPath"プロパティは常に、検索中に取得します。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>On <ph id="ph1">[!INCLUDE[Win2kFamily](~/add/includes/win2kfamily-md.md)]</ph> and earlier operating systems, the account that performs the search must be a member of the Administrators group to retrieve the ntSecurityDescriptor property.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[Win2kFamily](~/add/includes/win2kfamily-md.md)]</ph>およびそれ以前のオペレーティング システムでは、検索を実行するアカウントは ntSecurityDescriptor プロパティを取得する Administrators グループのメンバーである必要があります。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>If this is not the case, the property value that is returned for ntSecurityDescriptor will be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">そうでない場合は場合、ntSecurityDescriptor に関して返されるプロパティの値になります<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>For more information, see the topic "NT-Security-Descriptor" in the MSDN Library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">詳細についてを参照してください「NT-セキュリティ-記述子」、MSDN ライブラリで<bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>です。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the set of properties to retrieve during the search.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>検索中に取得するプロパティのセットを含むオブジェクト。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The default is an empty <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which retrieves all properties.</source>
+          <target state="translated">既定値は、空<bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、すべてのプロパティを取得します。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the search retrieves only the names of attributes to which values have been assigned.</source>
+          <target state="translated">取得または値が割り当てられている属性の名前のみを検索するかどうかを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the search obtains only the names of attributes to which values have been assigned; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the search obtains the names and values for all the requested attributes.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>検索値を指定する属性の名前のみを取得する場合は、割り当てられているです。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>場合、検索は名前とすべての要求された属性の値を取得します。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating how referrals are chased.</source>
+          <target state="translated">取得または参照の追跡方法を示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>If the root search is not specified in the naming context of the server or when the search results cross a naming context (for example, when you have child domains and search in the parent domain), the server sends a referral message to the client that the client can either ignore or chase.</source>
+          <target state="translated">ルート検索は指定しない場合、サーバーの名前付けコンテキストまたは検索結果が (たとえば、子ドメインと検索を親ドメインに存在する場合) の名前付けコンテキストを越える場合に、サーバーは、クライアントを無視するかを追跡するクライアントに参照メッセージを送信します。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The value is not one of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">値は、のいずれかではありません、 <bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the node in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated">取得または検索の開始位置を Active Directory ドメイン サービス階層内のノードを示す値に設定します。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>If SearchRoot is a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic), the search root is set to the root of the domain that your server is currently using.</source>
+          <target state="translated">SearchRoot が null 参照 (<ph id="ph1">`Nothing`</ph> Visual Basic で)、検索のルートは、サーバーが現在使用しているドメインのルートに設定します。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>There are several ways to search in the global catalog:      -   Enumerate the global catalog and pick the first child.</source>
+          <target state="translated">グローバル カタログで検索するいくつかの方法があります: - グローバル カタログを列挙し、最初の子を選択します。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>-   Specify the server name.</source>
+          <target state="translated">-サーバー名を指定します。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Use the DsGetDcName function to find the global catalog.</source>
+          <target state="translated">グローバル カタログを検索するのにには、DsGetDcName 関数を使用します。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>For more information on the DsGetDcName function, see the topic "DsGetDcName" in the MSDN Library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">DsGetDcName 関数の詳細については、MSDN ライブラリで「DsGetDcName」トピックを参照してください。 <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>です。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>-   Get the RootDSE  of the global catalog and ask for "rootNamingContext".</source>
+          <target state="translated">-グローバル カタログの RootDSE を取得し、"rootNamingContext"を要求します。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-   Use the global catalog, specifying a search path as if using LDAP.</source>
+          <target state="translated">-検索パスを指定する場合に、LDAP を使用して、グローバル カタログを使用します。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For example, "GC://OU=..., DC=..., DC=...".</source>
+          <target state="translated">たとえば、"GC://OU =..., DC =..., DC =..."です。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>-   The following C# code shows how to enumerate the global catalog and pick the first child.</source>
+          <target state="translated">-次の c# コードでは、グローバル カタログを列挙し、最初の子を選択する方法を示します。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>検索の開始位置、Active Directory ドメイン サービス階層内のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The default is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated">既定値は null 参照 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual Basic で)。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the scope of the search that is observed by the server.</source>
+          <target state="translated">取得またはサーバーによって監視される検索のスコープを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The value is not one of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">値は、のいずれかではありません、 <bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating which security access information for the specified attributes should be returned by the search.</source>
+          <target state="translated">取得または検索によって返される、指定された属性のセキュリティ アクセス情報を示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.SecurityMasks"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.DirectoryServices.SecurityMasks"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the maximum amount of time the server should search for an individual page of results.</source>
+          <target state="translated">取得または結果の個々 のページで、サーバーを検索する必要がありますを時間の最大時間を示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>This is not the same as the time limit for the entire search.</source>
+          <target state="translated">これはいない全体の検索の時間制限と同じです。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The minimum resolution of this property is one second.</source>
+          <target state="translated">このプロパティの最小解像度は、1 秒間です。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Fractions of seconds are ignored.</source>
+          <target state="translated">秒の小数部は無視されます。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>When the time limit is reached, the server stops searching and returns the results that have accumulated up to that point, along with a cookie containing the information about where to resume searching.</source>
+          <target state="translated">時間の制限に達すると、サーバーは検索を停止し、検索を再開する場所に関する情報を含むクッキーと共に、その時点までに累積結果を戻します。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This property only applies to searches where &lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt; is set to a value that is not the default of -1.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このプロパティは、検索にのみ適用されます、&lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;が-1 の場合、既定ではない値に設定します&lt;/xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; that represents the amount of time the server should search for a page of results.</source>
+          <target state="translated">A&lt;xref:System.TimeSpan&gt;結果のページのサーバーを検索する必要がありますを時間数を表す&lt;/xref:System.TimeSpan&gt;。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The default value is -1 seconds, which means to search indefinitely.</source>
+          <target state="translated">既定値は-1 (秒単位) を無期限に検索することを意味します。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The ServerTimeLimit property gets or sets a value indicating the maximum amount of time the server spends searching.</source>
+          <target state="translated">ServerTimeLimit プロパティを取得またはサーバー時間の最大時間を示す値を設定では、検索を費やします。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>If the time limit is reached, only entries that are found up to that point are returned.</source>
+          <target state="translated">時間の制限に達した場合のみにある最大するエントリ ポイントが返されます。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The minimum resolution of this property is one second.</source>
+          <target state="translated">このプロパティの最小解像度は、1 秒間です。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Fractions of seconds are ignored.</source>
+          <target state="translated">秒の小数部は無視されます。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Unlike the &lt;xref:System.DirectoryServices.DirectorySearcher.ServerPageTimeLimit%2A&gt; property, the ServerTimeLimit property indicates the total amount of time that the server will spend on a search.</source>
+          <target state="translated">異なり、&lt;xref:System.DirectoryServices.DirectorySearcher.ServerPageTimeLimit%2A&gt;プロパティ、ServerTimeLimit プロパティが検索で、サーバーが費やす時間の総容量を示します&lt;/xref:System.DirectoryServices.DirectorySearcher.ServerPageTimeLimit%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>When the time limit is reached, the server stops searching and returns the results that have accumulated up to that point.</source>
+          <target state="translated">時間の制限に達すると、サーバーは検索を停止し、その時点まで蓄積されている結果を返します。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Set ServerTimeLimit to -1 second to use the server-determined default.</source>
+          <target state="translated">サーバーにより決定された既定値を使用する&amp;2; 番目の-1 を ServerTimeLimit を設定します。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you set ServerTimeLimit to a value that is larger than the server-determined default of 120 seconds, the server-determined default is used.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; ServerTimeLimit を 120 秒のサーバーにより決定された既定値よりも大きい値に設定した場合、サーバーにより決定された既定値が使用されます。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>After the server time limit is reached, you cannot continue a search from where it left off.</source>
+          <target state="translated">サーバーの時間制限に達すると、中断した場所からの検索を続行できません。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; that represents the amount of time that the server should search.</source>
+          <target state="translated">A &lt;xref:System.TimeSpan&gt;、サーバーを検索する必要がありますを時間数を表す&lt;/xref:System.TimeSpan&gt;。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The default value is -1 seconds, which means to use the server-determined default of 120 seconds.</source>
+          <target state="translated">既定値は-1 秒、120 秒のサーバーにより決定された既定値を使用することを意味します。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the maximum number of objects that the server returns in a search.</source>
+          <target state="translated">取得またはサーバーで、検索で返されるオブジェクトの最大数を示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The server stops searching after the size limit is reached and returns the results accumulated up to that point.</source>
+          <target state="translated">サーバーが停止しますがサイズ制限に達するし、結果を返す後検索は、その時点まで累積されます。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you set SizeLimit to a value that is larger than the server-determined default of 1000 entries, the server-determined default is used.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; SizeLimit を 1000 エントリのサーバーにより決定された既定値よりも大きい値に設定した場合、サーバーにより決定された既定値が使用されます。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The maximum number of objects that the server returns in a search.</source>
+          <target state="translated">サーバーで、検索で返されるオブジェクトの最大数。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The default value is zero, which means to use the server-determined default size limit of 1000 entries.</source>
+          <target state="translated">既定値は 0、1000 エントリの既定のサーバーが決定したサイズの制限を使用することを意味します。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The new value is less than zero.</source>
+          <target state="translated">新しい値が&amp;0; 未満です。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the property on which the results are sorted.</source>
+          <target state="translated">取得または結果が並べ替えられますプロパティを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.SortOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the property and direction that the search results should be sorted on.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.SortOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>プロパティと方向に検索結果を並べ替える必要がありますを指定するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The property value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (Nothing in Visual Basic).</source>
+          <target state="translated">プロパティの値が<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> (Visual Basic の場合) の場合は Nothing です。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the search should also return deleted objects that match the search filter.</source>
+          <target state="translated">取得または検索フィルターに一致するオブジェクトの削除を返す必要がありますも検索するかどうかを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if deleted objects should be included in the search; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>削除されたオブジェクトを検索に含める必要がある場合<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>それ以外の場合。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the virtual list view options for the search.</source>
+          <target state="translated">取得または検索の仮想のリスト ビューのオプションを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryVirtualListView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the virtual list view search information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryVirtualListView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>仮想のリスト ビューの検索の情報を含むオブジェクト。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The default value for this property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which means do not use the virtual list view search option.</source>
+          <target state="translated">このプロパティの既定値は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>つまりが仮想のリスト ビューの検索オプションを使用しないでください。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
