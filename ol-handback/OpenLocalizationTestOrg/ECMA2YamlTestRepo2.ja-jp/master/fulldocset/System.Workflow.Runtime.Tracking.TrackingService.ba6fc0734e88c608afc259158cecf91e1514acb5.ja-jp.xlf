@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa32982522f7ad6980a833a6cb510d1c5b7ca13a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Tracking.TrackingService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0cb4956e417a2ecd08552b8dbd5a1a5cae039abb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">24ada49c9987d63518208c856cbdf0909b3d436c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the basic interface between a tracking service and the run-time tracking infrastructure.</source>
+          <target state="translated">追跡サービスと、ランタイム追跡インフラストラクチャの間の基本的なインターフェイスを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       A tracking service is responsible for supplying tracking channels and tracking profiles to the workflow run-time engine.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>追跡サービスは、追跡チャネルを指定して、ワークフロー ランタイム エンジンに追跡プロファイルを担当します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The workflow run-time engine requests one &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; from a tracking service for each workflow instance for which it has a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.</source>
+          <target state="translated">ワークフロー ランタイム エンジンが&lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;が対象の各ワークフロー インスタンスの追跡サービスから&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;1 つ要求します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The workflow run-time engine uses this &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; to send tracking records associated with that workflow instance.</source>
+          <target state="translated">ワークフロー ランタイム エンジンがこれを使用して&lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;をそのワークフロー インスタンスに関連付けられた追跡レコードを送信します&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; contains track points that specify a set of tracking events for which the run-time tracking infrastructure should send tracking records.</source>
+          <target state="translated">A&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;追跡イベントをランタイム追跡インフラストラクチャが追跡レコードを送信する必要がありますのセットを指定する追跡ポイントが含まれています&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; may also specify data to be extracted from the workflow instance when one of these tracking events occurs.</source>
+          <target state="translated">A&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;もこれらのイベントの追跡のいずれかが発生したときに、ワークフロー インスタンスから抽出するデータを指定します&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The run-time tracking infrastructure uses a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; to filter tracking events emitted by a workflow instance.</source>
+          <target state="translated">ランタイム追跡インフラストラクチャを使用して、&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;をフィルター処理、ワークフロー インスタンスによって生成された追跡イベント&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When a tracking event is emitted that matches a track point in the &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;, the run-time tracking infrastructure extracts any data specified in the &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; from the workflow instance and encapsulates this data and information about the tracking event in a tracking record.</source>
+          <target state="translated">内の追跡ポイントに一致する追跡イベントが出力されるときに、 &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;、ランタイム追跡インフラストラクチャで指定された任意のデータを抽出する、&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;ワークフロー インスタンスから、このデータと追跡レコード内の追跡イベントに関する情報をカプセル化します&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This tracking record is then sent over the &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; associated with the workflow instance.</source>
+          <target state="translated">この追跡レコードが経由で送信されますが、&lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;ワークフロー インスタンスに関連付けられている&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A tracking record may be one of the following kinds:       &lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingRecord&gt;       &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;       &lt;xref:System.Workflow.Runtime.Tracking.WorkflowTrackingRecord&gt;       The host application can use the tracking record in any way that it chooses.</source>
+          <target state="translated">追跡レコードは、次の種類のいずれかの可能性があります:&lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingRecord&gt;&lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;&lt;xref:System.Workflow.Runtime.Tracking.WorkflowTrackingRecord&gt;ホスト アプリケーションは任意選択の方法で追跡レコードを使用することができます&lt;/xref:System.Workflow.Runtime.Tracking.WorkflowTrackingRecord&gt;。       &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;       &lt;/xref:System.Workflow.Runtime.Tracking.ActivityTrackingRecord&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, the host application may store the tracking information in a database and use it to implement a sophisticated user interface, or it may use the information to inform an administrator of a condition that requires some action.</source>
+          <target state="translated">たとえば、ホスト アプリケーションをデータベースに追跡情報を格納しを使用して、高度なユーザー インターフェイスを実装する可能性があります。 または何らかのアクションを使用する状況の管理者に通知する情報を使用して、可能性があります。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can register a tracking service with the workflow run-time engine by calling &lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A?displayProperty=fullName&gt; or by including the appropriate entry in the application configuration file.</source>
+          <target state="translated">呼び出してワークフロー ランタイム エンジンを追跡サービスに登録できます&lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A?displayProperty=fullName&gt;またはアプリケーション構成ファイルに適切なエントリを含めることで&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>All tracking services must inherit from the TrackingService abstract class.</source>
+          <target state="translated">すべての追跡サービスは、TrackingService 抽象クラスから継承する必要があります。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This class defines the basic interface between a tracking service and the run-time tracking infrastructure.</source>
+          <target state="translated">このクラスは、追跡サービスと、ランタイム追跡インフラストラクチャの基本インターフェイスを定義します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The workflow run-time engine requests a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for a specific workflow instance or workflow &lt;xref:System.Type&gt; by calling one of the overloaded &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt; methods or the &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt; method.</source>
+          <target state="translated">ワークフロー ランタイム エンジンの要求、&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;の特定のワークフロー インスタンスまたはワークフロー&lt;xref:System.Type&gt;オーバー ロードされたいずれかを呼び出して&lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;メソッドまたは&lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt;メソッド&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;&lt;/xref:System.Type&gt;&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The workflow run-time engine calls &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetTrackingChannel%2A&gt; to request a &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;.</source>
+          <target state="translated">ワークフロー ランタイム エンジンが&lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetTrackingChannel%2A&gt;&lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;を要求するために&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.GetTrackingChannel%2A&gt;呼び出す</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The workflow tracking runtime calls the &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt; and &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt; methods whenever a workflow instance is created or loaded from the persistence store.</source>
+          <target state="translated">ワークフロー追跡ランタイムが呼び出す、&lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;と&lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt;メソッド、ワークフロー インスタンスが作成または永続化ストアから読み込まれたときにします&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The overhead associated with these calls can be costly to the tracking service (many database calls, for example).</source>
+          <target state="translated">これらの呼び出しに伴うオーバーヘッドは、(多数のデータベース呼び出し、たとえば) 追跡サービスにコストが高くなることができます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can implement the &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt; interface in your tracking service to circumvent this call-based mechanism and use events to notify the workflow runtime engine of changes to a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;この呼び出しベースのメカニズムを回避して&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;。&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;への変更、ワークフロー ランタイム エンジンに通知するイベントを使用して追跡サービスでインターフェイス&lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;を実装することができます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For tracking services that implement the &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt; interface, the workflow run-time engine subscribes to the &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileUpdated&gt; and &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileRemoved&gt; events.</source>
+          <target state="translated">実装するサービスを追跡するため、&lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;インターフェイスをワークフロー ランタイム エンジンがサブスクライブしている、&lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileUpdated&gt;と&lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileRemoved&gt;イベント&lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileRemoved&gt;&lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileUpdated&gt;&lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Your tracking service can raise the appropriate event when a change to one of its tracking profiles occurs.</source>
+          <target state="translated">追跡サービスは、追跡プロファイルのいずれかに変更が発生したときに適切なイベントを発生させることができます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; class implements this interface.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;クラスは、このインターフェイスを実装します&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The workflow run-time engine calls the &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryReloadProfile%2A&gt; method to test whether a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; has been updated or removed as a result of an explicit call by a host or a service to &lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A&gt; on a workflow instance.</source>
+          <target state="translated">ワークフロー ランタイム エンジンの呼び出し、&lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryReloadProfile%2A&gt;メソッドをテストするかどうか、&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;更新または明示的な呼び出しの結果として、ホストまたはサービスによって削除された&lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A&gt;ワークフロー インスタンスにします&lt;/xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A&gt;&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.TryReloadProfile%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This process enables a host or service to dynamically change the tracking profile that is being used for a specific workflow instance.</source>
+          <target state="translated">このプロセスは、特定のワークフロー インスタンスが使用されている追跡プロファイルを動的に変更するには、ホストまたはサービスを使用します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">派生クラスで実装された場合の新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, returns the tracking profile for the specified workflow instance.</source>
+          <target state="translated">実装されると、派生クラスでオーバーライドする必要があります、指定したワークフロー インスタンスの追跡プロファイルを返します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A tracking service is responsible for managing the tracking profiles available for specific workflow types and specific workflow instances.</source>
+          <target state="translated">追跡サービスは、特定のワークフロー型と特定のワークフロー インスタンスの利用できる追跡プロファイルの管理を担当します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can implement this management in whatever manner you choose.</source>
+          <target state="translated">この管理は、どのような方法で実装できます。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, you can return the same &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for every workflow &lt;xref:System.Type&gt; and workflow instance; or you can manage a sophisticated store of tracking profiles referenced by workflow instance, workflow &lt;xref:System.Type&gt;, and &lt;xref:System.Version&gt;.</source>
+          <target state="translated">たとえば、同じを返すことができます&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;すべてのワークフローの&lt;xref:System.Type&gt;およびまたはワークフロー インスタンスは、ワークフロー インスタンスによって参照される追跡プロファイルの保存場所を管理できるワークフロー &lt;xref:System.Type&gt;、 &lt;xref:System.Version&gt;&lt;/xref:System.Version&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; 。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the workflow instance.</source>
+          <target state="translated">&lt;xref:System.Guid&gt;ワークフロー インスタンスの&lt;/xref:System.Guid&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The tracking profile for the specified workflow instance.</source>
+          <target state="translated">指定したワークフロー インスタンスの追跡プロファイル。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, returns the tracking profile, qualified by version, for the specified workflow &lt;xref:System.Type&gt;.</source>
+          <target state="translated">実装されると、派生クラスでオーバーライドする必要があります、指定したワークフロー &lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt;用のバージョンで修飾する、追跡プロファイルを返します</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A tracking service is responsible for managing the tracking profiles available for specific workflow types and specific workflow instances.</source>
+          <target state="translated">追跡サービスは、特定のワークフロー型と特定のワークフロー インスタンスの利用できる追跡プロファイルの管理を担当します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can implement this management in whatever manner you choose.</source>
+          <target state="translated">この管理は、どのような方法で実装できます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, you can return the same &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for every workflow &lt;xref:System.Type&gt; and workflow instance; or you can manage a sophisticated store of tracking profiles referenced by workflow instance, workflow &lt;xref:System.Type&gt;, and &lt;xref:System.Version&gt;.</source>
+          <target state="translated">たとえば、同じを返すことができます&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;すべてのワークフローの&lt;xref:System.Type&gt;およびまたはワークフロー インスタンスは、ワークフロー インスタンスによって参照される追跡プロファイルの保存場所を管理できるワークフロー &lt;xref:System.Type&gt;、 &lt;xref:System.Version&gt;&lt;/xref:System.Version&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; 。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the workflow.</source>
+          <target state="translated">&lt;xref:System.Type&gt;ワークフローの&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Version&gt; of the tracking profile.</source>
+          <target state="translated">&lt;xref:System.Version&gt;追跡プロファイルの&lt;/xref:System.Version&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The tracking profile for the specified workflow type.</source>
+          <target state="translated">指定したワークフローの種類の追跡プロファイル。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, returns the channel that the run-time tracking infrastructure uses to send tracking records to the tracking service.</source>
+          <target state="translated">実装されると、派生クラスでオーバーライドする必要があります、ランタイム追跡インフラストラクチャを使用して追跡レコードを追跡サービスに送信するチャネルを返します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The run-time tracking infrastructure uses one &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; for each tracking service for each workflow instance.</source>
+          <target state="translated">ランタイム追跡インフラストラクチャは、1 つを使用&lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;各ワークフロー インスタンスの追跡サービスごとの&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The workflow run-time engine calls GetTrackingChannel on each tracking service to get the &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; for that service.</source>
+          <target state="translated">ワークフロー ランタイム エンジンが取得するには、各追跡サービスに GetTrackingChannel を呼び出し、&lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;のサービスに対する&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can use the information passed in &lt;xref:System.Workflow.Runtime.Tracking.TrackingParameters&gt; to associate tracking data sent on the &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; for your tracking service with a particular root workflow instance.</source>
+          <target state="translated">渡された情報を使用して&lt;xref:System.Workflow.Runtime.Tracking.TrackingParameters&gt;で送信される追跡データを関連付ける、 &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;、特定のルート ワークフロー インスタンスに、追跡サービスの&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;&lt;/xref:System.Workflow.Runtime.Tracking.TrackingParameters&gt;。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the workflow instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingParameters"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ワークフロー インスタンスに関連付けられています。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used to send tracking records to the tracking service.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingChannel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>追跡レコードを追跡サービスに送信に使用されます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, retrieves the tracking profile for the specified workflow type if one is available.</source>
+          <target state="translated">実装されると、派生クラスでオーバーライドする必要があります、1 つが利用可能な場合は、指定したワークフローの種類の追跡プロファイルを取得します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A tracking service is responsible for managing the tracking profiles available for specific workflow types and specific workflow instances.</source>
+          <target state="translated">追跡サービスは、特定のワークフロー型と特定のワークフロー インスタンスの利用できる追跡プロファイルの管理を担当します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You can implement this management in whatever manner you choose.</source>
+          <target state="translated">この管理は、どのような方法で実装できます。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, you can return the same &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for every workflow &lt;xref:System.Type&gt; and workflow instance; or you can manage a sophisticated store of tracking profiles referenced by workflow instance, workflow &lt;xref:System.Type&gt;, and &lt;xref:System.Version&gt;.</source>
+          <target state="translated">たとえば、同じを返すことができます&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;すべてのワークフローの&lt;xref:System.Type&gt;およびまたはワークフロー インスタンスは、ワークフロー インスタンスによって参照される追跡プロファイルの保存場所を管理できるワークフロー &lt;xref:System.Type&gt;、 &lt;xref:System.Version&gt;&lt;/xref:System.Version&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; 。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the workflow for which to get the tracking profile.</source>
+          <target state="translated">&lt;xref:System.Type&gt;追跡プロファイルを取得する対象のワークフローの&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to load.</source>
+          <target state="translated">このメソッドが戻るとき、 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を読み込めません。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">このパラメーターは初期化せずに渡されます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for the specified workflow &lt;xref:System.Type&gt; is available; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>指定したワークフローの&lt;xref:System.Type&gt;、それ以外の使用可能な<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>&lt;/xref:System.Type&gt; 。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, retrieves a new tracking profile for the specified workflow instance if the tracking profile has changed since it was last loaded.</source>
+          <target state="translated">実装された場合、取得が最後に、追跡プロファイルが変更された場合は、指定したワークフロー インスタンスの新しい追跡プロファイルが読み込まれると、派生クラスでオーバーライドする必要があります。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>TryReloadProfile is called by the run-time tracking infrastructure to determine whether a new &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; should be loaded for the specified workflow instance.</source>
+          <target state="translated">TryReloadProfile が新しいかどうかを決定する、ランタイム追跡インフラストラクチャによって呼び出される&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;指定したワークフロー インスタンスのアンロードする必要があります&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If a new &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; is required, it is returned in <ph id="ph1">`profile`</ph>.</source>
+          <target state="translated">場合、新しい&lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;は必要に応じてで返される<ph id="ph1">`profile`</ph>&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If you want the run-time tracking infrastructure to stop tracking a workflow instance, your tracking service should return <ph id="ph1">`true`</ph> and set <ph id="ph2">`profile`</ph> equal to a null reference (<ph id="ph3">`Nothing`</ph> in Visual Basic).</source>
+          <target state="translated">追跡サービスを返す必要があるかどうかは、ワークフロー インスタンスの追跡を停止する、ランタイム追跡インフラストラクチャ、<ph id="ph1">`true`</ph>設定と<ph id="ph2">`profile`</ph>null 参照に等しい (<ph id="ph3">`Nothing`</ph> Visual Basic で)。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Your tracking service can use <ph id="ph1">`workflowType`</ph> or <ph id="ph2">`workflowInstanceId`</ph> in whatever manner you choose to determine whether a tracking profile should be reloaded.</source>
+          <target state="translated">追跡サービスを使用できる<ph id="ph1">`workflowType`</ph>または<ph id="ph2">`workflowInstanceId`</ph>追跡プロファイルを再読み込みするかどうかを決定する任意の方法で選択します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; only uses <ph id="ph1">`workflowInstanceId`</ph> to decide whether the tracking profile should be reloaded.</source>
+          <target state="translated">たとえば、&lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;のみを使用して<ph id="ph1">`workflowInstanceId`</ph>追跡プロファイルを再読み込みするかどうかを決定します&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>TryReloadProfile is called by the run-time tracking infrastructure according to its own tracking semantics, or in response to the host or a service calling &lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A?displayProperty=fullName&gt; on a workflow instance.</source>
+          <target state="translated">TryReloadProfile、または独自の追跡セマンティクスに従って、ホストまたはサービス呼び出しに対する応答で、ランタイム追跡インフラストラクチャによって呼び出されます&lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A?displayProperty=fullName&gt;ワークフロー インスタンスにします&lt;/xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the workflow instance.</source>
+          <target state="translated">&lt;xref:System.Type&gt;ワークフロー インスタンスの&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the workflow instance.</source>
+          <target state="translated">&lt;xref:System.Guid&gt;ワークフロー インスタンスの&lt;/xref:System.Guid&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to load.</source>
+          <target state="translated">このメソッドが戻るとき、 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を読み込めません。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">このパラメーターは初期化せずに渡されます。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a new <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> should be loaded; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、新しい<bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>読み込まれた、それ以外にする必要があります<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

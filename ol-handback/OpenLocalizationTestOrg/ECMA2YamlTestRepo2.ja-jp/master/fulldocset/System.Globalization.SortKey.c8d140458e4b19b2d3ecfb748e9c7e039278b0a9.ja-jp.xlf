@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3e13f98bf99d5d2976833986b822dd1c787706b2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Globalization.SortKey.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa54787daf5d8efbd6552dd295ff84c2ca859bd3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c79db8db7950e64de9475d0da0f0409fddaec353</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the result of mapping a string to its sort key.</source>
+          <target state="translated">マッピングとその並べ替えキーの文字列の結果を表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A culture-sensitive comparison of two strings depends on each character in the strings having several categories of sort weights, including script, alphabetic, case, and diacritic weights.</source>
+          <target state="translated">2 つの文字列のカルチャに依存した比較は、ここと発音の区別の重みをいくつかのカテゴリの並べ替えウェイト、スクリプト、アルファベットを持つ文字列内の各文字に依存します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A sort key serves as the repository of these weights for a particular string.</source>
+          <target state="translated">並べ替えキーは、特定の文字列をこれらの規則のリポジトリとして機能します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Globalization.CompareInfo.GetSortKey%2A?displayProperty=fullName&gt; method returns an instance of the SortKey class that reflects the culture-sensitive mapping of characters in a specified string.</source>
+          <target state="translated">&lt;xref:System.Globalization.CompareInfo.GetSortKey%2A?displayProperty=fullName&gt;メソッドは、指定した文字列の文字のカルチャに依存したマッピングを反映する SortKey クラスのインスタンスを返します&lt;/xref:System.Globalization.CompareInfo.GetSortKey%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The value of a SortKey object is its key data, which is returned by the &lt;xref:System.Globalization.SortKey.KeyData%2A&gt; property.</source>
+          <target state="translated">SortKey オブジェクトの値がキーのデータ、によって返される、&lt;xref:System.Globalization.SortKey.KeyData%2A&gt;プロパティ&lt;/xref:System.Globalization.SortKey.KeyData%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This key data consists of a series of bytes that encode the string, culture-specific sorting rules, and user-specified comparison options.</source>
+          <target state="translated">このキーのデータは、一連の文字列、カルチャに固有の並べ替え規則、およびユーザーが指定した比較オプションをエンコードするバイトで構成されます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A comparison using sort keys consists of a bitwise comparison of the corresponding key data in each sort key.</source>
+          <target state="translated">並べ替えキーを使用して、比較は、それぞれの並べ替えキーに対応するキーのデータのビットごとの比較で構成されます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, if you create a sort key by calling the &lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29&gt; method with a value of &lt;xref:System.Globalization.CompareOptions?displayProperty=fullName&gt;, a string comparison operation that uses the sort key is case-insensitive.</source>
+          <target state="translated">たとえば、呼び出すことにより、並べ替えキーを作成する場合、&lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29&gt;の値を持つメソッド&lt;xref:System.Globalization.CompareOptions?displayProperty=fullName&gt;、並べ替えキーを使用する文字列比較操作が区別されません&lt;/xref:System.Globalization.CompareOptions?displayProperty=fullName&gt;&lt;/xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>After you create a sort key for a string, you compare sort keys by calling the static &lt;xref:System.Globalization.SortKey.Compare%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">静的なを呼び出すことによって、並べ替えキーを比較する文字列の並べ替えキーを作成したら、&lt;xref:System.Globalization.SortKey.Compare%2A?displayProperty=fullName&gt;メソッド&lt;/xref:System.Globalization.SortKey.Compare%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This method performs a simple byte-by-byte comparison, so it is much faster than the &lt;xref:System.String.Compare%2A?displayProperty=fullName&gt; or &lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">このメソッドには、単純なバイトで比較が実行するよりもはるかに高速であるため、&lt;xref:System.String.Compare%2A?displayProperty=fullName&gt;または&lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;メソッド&lt;/xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;&lt;/xref:System.String.Compare%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Performance considerations    When performing a string comparison, the &lt;xref:System.Globalization.SortKey.Compare%2A&gt; and &lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; methods yield the same results, but they target different scenarios.</source>
+          <target state="translated">文字列の比較を実行するときのパフォーマンスに関する考慮事項、&lt;xref:System.Globalization.SortKey.Compare%2A&gt;と&lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;メソッドによって、同じ結果が生成が、ターゲットとさまざまなシナリオです&lt;/xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;&lt;/xref:System.Globalization.SortKey.Compare%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>At a high level, the &lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; method generates the sort key for each string, performs the comparison, and then discards the sort key and returns the result of the comparison.</source>
+          <target state="translated">大まかに言えば、&lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;メソッド各文字列の並べ替えキーを生成、比較の実行し並べ替えキーを破棄し、比較の結果を返します&lt;/xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, the &lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; method actually doesn't generate an entire sort key to perform the comparison.</source>
+          <target state="translated">ただし、&lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;メソッドは実際には、比較を実行する全体の並べ替えキーを生成しません&lt;/xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Instead, the method generates the key data for each text element (that is, base character, surrogate pair, or combining character sequence) in each string.</source>
+          <target state="translated">代わりに、メソッドは、それぞれの文字列 (つまり、基本文字、サロゲート ペア、または組み合わせ文字シーケンス) の各テキスト要素のキー データを生成します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The method then compares the key data for the corresponding text elements.</source>
+          <target state="translated">メソッドは、対応するテキスト要素のキー データを比較します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The operation terminates as soon as the ultimate result of the comparison is determined.</source>
+          <target state="translated">操作は、比較の最終的な結果を特定するとすぐに終了します。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Sort key information is computed, but no SortKey object is created.</source>
+          <target state="translated">並べ替えキーの情報は計算が SortKey オブジェクトは作成されません。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This strategy is economical in terms of performance if both strings are compared once, but becomes expensive if the same strings are compared many times.</source>
+          <target state="translated">この戦略は両方の文字列が&amp;1; 回、比較する場合は、パフォーマンスの観点から経済的ですが、同じ文字列が複数回を比較する場合に負荷が高くなります。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Globalization.SortKey.Compare%2A&gt; method requires generation of a SortKey object for each string before performing the comparison.</source>
+          <target state="translated">&lt;xref:System.Globalization.SortKey.Compare%2A&gt;メソッド比較を実行する前に各文字列の SortKey オブジェクトの生成が必要です&lt;/xref:System.Globalization.SortKey.Compare%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This strategy is expensive in terms of performance for the first comparison because of the time and memory invested to generate the SortKey objects.</source>
+          <target state="translated">この方法は、時間とメモリの方に割り当てて SortKey オブジェクトを生成するため、最初に比較のパフォーマンスが低下します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However, it becomes economical if the same sort keys are compared many times.</source>
+          <target state="translated">ただし、同じ並べ替えキーが複数回を比較する場合、パフォーマンスが向上します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example, suppose you write an application that searches a database table for the row in which the string-based index column matches a specified search string.</source>
+          <target state="translated">たとえば、文字列ベースのインデックス列に指定した検索文字列が一致する行をデータベース テーブルを検索するアプリケーションを記述するとします。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The table contains thousands of rows, and comparing the search string to the index in each row will take a long time.</source>
+          <target state="translated">テーブルには、数千行が含まれています。 し、時間がかかるは各の行にインデックスを検索文字列を比較します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Therefore, when the application stores a row and its index column, it also generates and stores the sort key for the index in a column dedicated to improving search performance.</source>
+          <target state="translated">そのため、アプリケーションは、そのインデックス列と行を格納するときもを生成し、検索のパフォーマンスを向上させるために専用の列にインデックスの並べ替えキーを格納します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When the application searches for a target row, it compares the sort key for the search string to the sort key for the index string, instead of comparing the search string to the index string.</source>
+          <target state="translated">アプリケーションは、対象の行を検索する場合は、文字列の並べ替えキー、インデックス、インデックス文字列に検索文字列を比較するのではなくする検索文字列の並べ替えキーを比較します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Security considerations    The &lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt; method returns a SortKey object with the value based on a specified string and &lt;xref:System.Globalization.CompareOptions&gt; value, and the culture associated with the underlying &lt;xref:System.Globalization.CompareInfo&gt; object.</source>
+          <target state="translated">セキュリティに関する考慮事項、&lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;メソッドは、指定した文字列に基づいて値を持つ SortKey オブジェクトを返しますと&lt;xref:System.Globalization.CompareOptions&gt;値、および基になるに関連付けられているカルチャ&lt;xref:System.Globalization.CompareInfo&gt;オブジェクト&lt;/xref:System.Globalization.CompareInfo&gt;&lt;/xref:System.Globalization.CompareOptions&gt;&lt;/xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If a security decision depends on a string comparison or case change, you should use the &lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt; method of the invariant culture to ensure that the behavior of the operation is consistent, regardless of the culture settings of the operating system.</source>
+          <target state="translated">使用する必要があります、セキュリティ上の決定は、文字列の比較またはケース変更に依存する場合、&lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;操作の動作が、オペレーティング システムのカルチャ設定に関係なく、一貫性のあることを確認するインバリアント カルチャのメソッド&lt;/xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Use the following steps to obtain a sort key:      1.</source>
+          <target state="translated">次の手順を使用して並べ替えキーを取得します。 1。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Retrieve the invariant culture from the &lt;xref:System.Globalization.CultureInfo.InvariantCulture?displayProperty=fullName&gt; property.</source>
+          <target state="translated">インバリアント カルチャを取得、&lt;xref:System.Globalization.CultureInfo.InvariantCulture?displayProperty=fullName&gt;プロパティ&lt;/xref:System.Globalization.CultureInfo.InvariantCulture?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Retrieve a &lt;xref:System.Globalization.CompareInfo&gt; object for the invariant culture from the &lt;xref:System.Globalization.CultureInfo.CompareInfo%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">取得、&lt;xref:System.Globalization.CompareInfo&gt;からインバリアント カルチャ オブジェクト、&lt;xref:System.Globalization.CultureInfo.CompareInfo%2A?displayProperty=fullName&gt;プロパティ&lt;/xref:System.Globalization.CultureInfo.CompareInfo%2A?displayProperty=fullName&gt;&lt;/xref:System.Globalization.CompareInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt; method.</source>
+          <target state="translated">呼び出す、&lt;xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;メソッド&lt;/xref:System.Globalization.CompareInfo.GetSortKey%28System.String%2CSystem.Globalization.CompareOptions%29?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Working with the value of a SortKey object is equivalent to calling the Windows <ph id="ph1">`LCMapString`</ph> method with the LCMAP_SORTKEY value specified.</source>
+          <target state="translated">並べ替えの値を扱うオブジェクトは、Windows <ph id="ph1">`LCMapString`</ph> LCMAP_SORTKEY に指定された値を持つメソッドです。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>However, for the SortKey object, the sort keys for English characters precede the sort keys for Korean characters.</source>
+          <target state="translated">ただし、英語の文字の並べ替えキー SortKey オブジェクトでは、韓国語の文字の並べ替えキーの前にします。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>SortKey objects can be serialized, but only so that they can cross &lt;xref:System.AppDomain&gt; objects.</source>
+          <target state="translated">SortKey オブジェクトをシリアル化されたのみすることができますに交差していないように&lt;xref:System.AppDomain&gt;オブジェクト&lt;/xref:System.AppDomain&gt;。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If an application serializes a SortKey object, the application must regenerate all the sort keys when there is a new version of the .NET Framework.</source>
+          <target state="translated">場合は、アプリケーションは、SortKey オブジェクトをシリアル化、アプリケーションする必要がありますを再生成のすべての並べ替えキー、.NET Framework の新しいバージョンがある場合。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information about sort keys, see Unicode Technical Standard #10, "Unicode Collation Algorithm" on the <bpt id="p1">[</bpt>Unicode Consortium website<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37123)</ept>.</source>
+          <target state="translated">並べ替えキーの詳細についてで Unicode 技術標準 10、「Unicode 照合アルゴリズム」を参照して、 <bpt id="p1">[</bpt>Unicode コンソーシアムの web サイト<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37123)</ept>です。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Compares two sort keys.</source>
+          <target state="translated">2 つの並べ替えキーを比較します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The Compare method compares the &lt;xref:System.Globalization.SortKey.KeyData%2A&gt; properties of the <ph id="ph1">`sortkey1`</ph> and <ph id="ph2">`sortkey2`</ph> parameters.</source>
+          <target state="translated">Compare メソッドを比較して、&lt;xref:System.Globalization.SortKey.KeyData%2A&gt;のプロパティ、<ph id="ph1">`sortkey1`</ph>と<ph id="ph2">`sortkey2`</ph>パラメーター&lt;/xref:System.Globalization.SortKey.KeyData%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The method yields the same results as the &lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">メソッドと同じ結果が得られます、&lt;xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;メソッド&lt;/xref:System.Globalization.CompareInfo.Compare%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information about the Compare method and the comparison of sort keys, see the &lt;xref:System.Globalization.SortKey&gt; class topic.</source>
+          <target state="translated">Compare メソッドと並べ替えキーの比較に関する詳細については、次を参照してください、&lt;xref:System.Globalization.SortKey&gt;クラスに関するトピック。&lt;/xref:System.Globalization.SortKey&gt; 。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The first sort key to compare.</source>
+          <target state="translated">比較する最初の並べ替えキー。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The second sort key to compare.</source>
+          <target state="translated">比較する&amp;2; 番目の並べ替えキー。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A signed integer that indicates the relationship between <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">間のリレーションシップを示す符号付き整数<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">sortkey1</ph> <ept id="p1">&lt;/code&gt;</ept>と<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">値</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Condition</source>
+          <target state="translated">条件</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Less than zero</source>
+          <target state="translated">0 より小さい値</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept> is less than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept>is less than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Zero</source>
+          <target state="translated">0</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept> is equal to <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept>is equal to <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Greater than zero</source>
+          <target state="translated">0 より大きい値</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept> is greater than <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sortkey1</ph><ept id="p1">&lt;/code&gt;</ept>大きい<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">sortkey2</ph><ept id="p2">&lt;/code&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sortkey1&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;sortkey2&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sortkey1&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;sortkey2&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified object is equal to the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">指定したオブジェクトが現在と等しいかどうかを判断<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Two &lt;xref:System.Globalization.SortKey&gt; objects are considered equal if their &lt;xref:System.Globalization.SortKey.KeyData%2A&gt; properties are equal.</source>
+          <target state="translated">2 つ&lt;xref:System.Globalization.SortKey&gt;場合、オブジェクトが等しいかどうかと見なされます、&lt;xref:System.Globalization.SortKey.KeyData%2A&gt;プロパティが等しい&lt;/xref:System.Globalization.SortKey.KeyData%2A&gt;&lt;/xref:System.Globalization.SortKey&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This method overrides &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">このメソッドは&lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;。&lt;/xref:System.Object.Equals%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The object to compare with the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在と比較するオブジェクト<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> parameter is equal to the current <bpt id="p3">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept>パラメーターが現在に等しい<bpt id="p3">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>オブジェクト。 それ以外の場合、 <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Serves as a hash function for the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is suitable for hashing algorithms and data structures such as a hash table.</source>
+          <target state="translated">現在のハッシュ関数として機能<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ハッシュ アルゴリズムやデータの構造をハッシュ テーブルなどに適したオブジェクト。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This method generates the same hash code for two objects that are equal according to the &lt;xref:System.Globalization.SortKey.Equals%2A&gt; method.</source>
+          <target state="translated">このメソッドによると等しい&amp;2; つのオブジェクトに対して同じハッシュ コードを生成する、&lt;xref:System.Globalization.SortKey.Equals%2A&gt;メソッド&lt;/xref:System.Globalization.SortKey.Equals%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This method overrides &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">このメソッドは&lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt;。&lt;/xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A hash code for the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在のハッシュ コード<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets the byte array representing the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在を表すバイト配列を取得<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For more information about the use of the data returned by the KeyData property in comparing strings, see the &lt;xref:System.Globalization.SortKey&gt; class topic.</source>
+          <target state="translated">文字列を比較するキーのデータ プロパティによって返されるデータの使用に関する詳細については、次を参照してください、&lt;xref:System.Globalization.SortKey&gt;クラスに関するトピック。&lt;/xref:System.Globalization.SortKey&gt; 。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A byte array representing the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在を表すバイト配列<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets the original string used to create the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の作成に使用する元の文字列を取得<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The original string used to create the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の作成に使用する元の文字列<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns a string that represents the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在を表す文字列を返します<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The return value is the concatenation of the string "SortKey - ", the culture identifier and compare options of the current &lt;xref:System.Globalization.SortKey&gt; object, and the value of the &lt;xref:System.Globalization.SortKey.OriginalString%2A&gt; property.</source>
+          <target state="translated">戻り値は"SortKey -"、文字列の連結、カルチャ識別子と、現在の比較オプション&lt;xref:System.Globalization.SortKey&gt;オブジェクト、およびの値、&lt;xref:System.Globalization.SortKey.OriginalString%2A&gt;プロパティ&lt;/xref:System.Globalization.SortKey.OriginalString%2A&gt;&lt;/xref:System.Globalization.SortKey&gt;。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This method overrides &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">このメソッドは&lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt;。&lt;/xref:System.Object.ToString%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A string that represents the current <bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在を表す文字列<bpt id="p1">&lt;xref href="System.Globalization.SortKey"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

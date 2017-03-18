@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d157e7517d098f2a6c58093b7a53f2a7f1230493</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xml.Serialization.Configuration.RootedPathValidator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c1c24837993656b400382e4d56aec868743ab846</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e5986ebfa8a5b073b637ca9943c9a065b3bb11ff</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Validates the rules governing the use of the <ph id="ph1">`tempFilesLocation`</ph> configuration switch.</source>
+          <target state="translated">使用を制御するルールの検証、<ph id="ph1">`tempFilesLocation`</ph>構成スイッチ。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>When adding a <ph id="ph1">`WebReference`</ph> object to a Web service in the <ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>, files are created by the Web service discovery process.</source>
+          <target state="translated">追加するときに、 <ph id="ph1">`WebReference`</ph> Web サービスにオブジェクト、<ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>ファイルは、Web サービスの検出プロセスによって作成されます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Web service clients learn where to find the Web service description (WSDL) document by adding a <ph id="ph1">`WebReference`</ph> object.</source>
+          <target state="translated">Web サービス クライアントを追加することで、Web サービス記述言語 (WSDL) ドキュメントを検索する場所の説明、<ph id="ph1">`WebReference`</ph>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Web service clients then save the discovered documents to the disk by using the <ph id="ph1">`WriteAll`</ph> method.</source>
+          <target state="translated">Web サービス クライアント、検出されたドキュメントをディスクに保存を使用して、<ph id="ph1">`WriteAll`</ph>メソッドです。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, the discovered documents may be .xsd schema files or service descriptions.</source>
+          <target state="translated">たとえば、検出されたドキュメントには、スキーマの .xsd ファイルまたはサービスの説明があります。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>At the end of the process, the client deletes the files.</source>
+          <target state="translated">プロセスの最後に、クライアントは、ファイルを削除します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can change the default location of the files in the temporary folder by using the <ph id="ph1">`tempFilesLocation`</ph> switch in the <ph id="ph2">`&lt;xmlSerializer&gt;`</ph> element, specified in the Machine.config configuration file, as in the following example.</source>
+          <target state="translated">使用して、一時フォルダー内のファイルの既定の場所を変更することができます、<ph id="ph1">`tempFilesLocation`</ph>に切り替え、 <ph id="ph2">`&lt;xmlSerializer&gt;`</ph> Machine.config 構成ファイルの次の例のようにで指定された要素。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;configuration&gt;     &lt;system.web&gt;     &lt;system.xml.serialization&gt;       &lt;xmlSerializer tempFilesLocation=".."/&gt;     &lt;/system.xml.serialization&gt;   &lt;/configuration&gt;   ```</ph>       The value of <ph id="ph2">`tempFilesLocation`</ph> must be an absolute path.</source>
+          <target state="translated"><ph id="ph1">```   &lt;configuration&gt;     &lt;system.web&gt;     &lt;system.xml.serialization&gt;       &lt;xmlSerializer tempFilesLocation=".."/&gt;     &lt;/system.xml.serialization&gt;   &lt;/configuration&gt;   ```</ph>値<ph id="ph2">`tempFilesLocation`</ph>絶対パスである必要があります。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If the path specified is not absolute, the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> generates a &lt;xref:System.Configuration.ConfigurationErrorsException&gt; exception when the configuration section is referenced.</source>
+          <target state="translated">指定されたパスが絶対、ない場合、<ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>が生成されます、&lt;xref:System.Configuration.ConfigurationErrorsException&gt;構成セクションを参照する場合は例外です&lt;/xref:System.Configuration.ConfigurationErrorsException&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The value of the property is truncated to remove leading and trailing white spaces.</source>
+          <target state="translated">先頭および末尾の空白を削除するプロパティの値が切り捨てられます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If value of the <ph id="ph1">`tempFilesLocation`</ph> property is composed of white space, the default %TMP% location is used for the compilation.</source>
+          <target state="translated">場合の値、<ph id="ph1">`tempFilesLocation`</ph>プロパティが空白文字で構成される、既定 %TMP% 場所が、コンパイルに使用されます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The same default behavior occurs when no <ph id="ph1">`tempFilesLocation`</ph> switch is specified.</source>
+          <target state="translated">ない場合、同じ既定の動作が発生した<ph id="ph1">`tempFilesLocation`</ph>スイッチを指定します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.Serialization.XmlSerializer&gt; does not check to see whether the path exists.</source>
+          <target state="translated">&lt;xref:System.Xml.Serialization.XmlSerializer&gt;パスが存在するかどうかはチェックされません&lt;/xref:System.Xml.Serialization.XmlSerializer&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If it does not, a &lt;xref:System.IO.DirectoryNotFoundException&gt; is generated.</source>
+          <target state="translated">いない場合、&lt;xref:System.IO.DirectoryNotFoundException&gt;が生成されます&lt;/xref:System.IO.DirectoryNotFoundException&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This is identical to the default behavior of the <ph id="ph1">`XmlSerializer`</ph> if the %TMP% path does not exist.</source>
+          <target state="translated">これは既定の動作と同じ、 <ph id="ph1">`XmlSerializer`</ph> TMP パスが存在しない場合。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xml.Serialization.Configuration.RootedPathValidator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Xml.Serialization.Configuration.RootedPathValidator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Determines whether the type of the object can be validated.</source>
+          <target state="translated">オブジェクトの型を検証できるかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The type of the object.</source>
+          <target state="translated">オブジェクトの型。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p2">&lt;/code&gt;</ept> parameter matches a valid <bpt id="p3">&lt;xref uid="langword_csharp_XMLSerializer" name="XMLSerializer" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p2">&lt;/code&gt;</ept>パラメーターに有効な一致<bpt id="p3">&lt;xref uid="langword_csharp_XMLSerializer" name="XMLSerializer" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>オブジェクト。 それ以外の場合、 <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Determines whether the value of an object is valid.</source>
+          <target state="translated">オブジェクトの値が有効かどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`XmlSerializer`</ph> object to validate is passed as a parameter of the <ph id="ph2">`Validate`</ph> method.</source>
+          <target state="translated"><ph id="ph1">`XmlSerializer`</ph>を検証するオブジェクトのパラメーターとして渡されます、<ph id="ph2">`Validate`</ph>メソッドです。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The value of an object.</source>
+          <target state="translated">オブジェクトの値。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

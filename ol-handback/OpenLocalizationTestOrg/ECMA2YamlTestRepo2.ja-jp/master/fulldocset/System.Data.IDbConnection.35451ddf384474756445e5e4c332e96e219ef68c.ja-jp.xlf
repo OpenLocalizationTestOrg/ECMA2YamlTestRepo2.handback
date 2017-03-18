@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9baf370aa98c020ff04ef84ec59a0d53265ce87e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.IDbConnection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ebd036e03bd7d3d04653ec89b3958b89535467b4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b7603dbb63cf39f9a6c72a7cdf4ed9c5a8d8176b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an open connection to a data source, and is implemented by .NET Framework data providers that access relational databases.</source>
+          <target state="translated">データ ソースへの開いている接続を表し、リレーショナル データベースにアクセスする .NET Framework データ プロバイダーによって実装されます。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The IDbConnection interface enables an inheriting class to implement a Connection class, which represents a unique session with a data source (for example, a network connection to a server).</source>
+          <target state="translated">IDbConnection インターフェイスにより、データ ソース (たとえば、サーバーにネットワーク接続) との一意のセッションを表す接続クラス実装を継承するクラスです。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For more information about Connection classes, see <bpt id="p1">[</bpt>Connecting to a Data Source<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">接続クラスの詳細については、次を参照してください。<bpt id="p1">[</bpt>データ ソースに接続する<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An application does not create an instance of the IDbConnection interface directly, but creates an instance of a class that inherits IDbConnection.</source>
+          <target state="translated">アプリケーションでは、直接、IDbConnection インターフェイスのインスタンスは作成されませんが、IDbConnection を継承するクラスのインスタンスを作成します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Classes that inherit IDbConnection must implement all inherited members, and typically define additional members to add provider-specific functionality.</source>
+          <target state="translated">IDbConnection を継承するクラスは、継承されたすべてのメンバーを実装し、通常プロバイダー固有の機能を追加するその他のメンバーを定義する必要があります。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, the IDbConnection interface defines the &lt;xref:System.Data.IDbConnection.ConnectionTimeout%2A&gt; property.</source>
+          <target state="translated">IDbConnection インターフェイスの定義など、&lt;xref:System.Data.IDbConnection.ConnectionTimeout%2A&gt;プロパティ&lt;/xref:System.Data.IDbConnection.ConnectionTimeout%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In turn, the &lt;xref:System.Data.SqlClient.SqlConnection&gt; class inherits this property, and also defines the &lt;xref:System.Data.SqlClient.SqlConnection.PacketSize%2A&gt; property.</source>
+          <target state="translated">さらに、&lt;xref:System.Data.SqlClient.SqlConnection&gt;クラスは、このプロパティを継承しも定義、&lt;xref:System.Data.SqlClient.SqlConnection.PacketSize%2A&gt;プロパティ&lt;/xref:System.Data.SqlClient.SqlConnection.PacketSize%2A&gt;&lt;/xref:System.Data.SqlClient.SqlConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Begins a database transaction.</source>
+          <target state="translated">データベース トランザクションを開始します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Once the transaction has completed, you must explicitly commit or roll back the transaction by using the &lt;xref:System.Data.IDbTransaction.Commit%2A&gt; or &lt;xref:System.Data.IDbTransaction.Rollback%2A&gt; methods.</source>
+          <target state="translated">トランザクションが完了する必要があります明示的にコミットまたはロールバック、トランザクションを使用して、&lt;xref:System.Data.IDbTransaction.Commit%2A&gt;または&lt;xref:System.Data.IDbTransaction.Rollback%2A&gt;メソッド&lt;/xref:System.Data.IDbTransaction.Rollback%2A&gt;&lt;/xref:System.Data.IDbTransaction.Commit%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">新しいトランザクションを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Begins a database transaction with the specified <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">指定したデータベース トランザクションを開始<bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Once the transaction has completed, you must explicitly commit or roll back the transaction using the &lt;xref:System.Data.IDbTransaction.Commit%2A&gt; or &lt;xref:System.Data.IDbTransaction.Rollback%2A&gt; methods.</source>
+          <target state="translated">トランザクションが完了する必要があります明示的にコミットまたはロールバックを使用して、トランザクション、&lt;xref:System.Data.IDbTransaction.Commit%2A&gt;または&lt;xref:System.Data.IDbTransaction.Rollback%2A&gt;メソッド&lt;/xref:System.Data.IDbTransaction.Rollback%2A&gt;&lt;/xref:System.Data.IDbTransaction.Commit%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">新しいトランザクションを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Changes the current database for an open <bpt id="p1">&lt;xref uid="langword_csharp_Connection" name="Connection" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">開いているは、現在のデータベース変更<bpt id="p1">&lt;xref uid="langword_csharp_Connection" name="Connection" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The name of the database to use in place of the current database.</source>
+          <target state="translated">現在のデータベースの代わりに使用するデータベースの名前。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Closes the connection to the database.</source>
+          <target state="translated">データベースへの接続を閉じます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The Close method rolls back any pending transactions.</source>
+          <target state="translated">Close メソッドは、保留中のトランザクションをロールバックします。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It then releases the connection to the connection pool, or closes the connection if connection pooling is disabled.</source>
+          <target state="translated">接続プールへの接続を解放し、または接続プールが無効になっている場合、接続を閉じます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An application can call <ph id="ph1">`Close`</ph> more than one time without generating an exception.</source>
+          <target state="translated">アプリケーションが呼び出すことができます<ph id="ph1">`Close`</ph>例外を生成せずに複数回です。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string used to open a database.</source>
+          <target state="translated">取得またはデータベースを開くために使用する文字列を設定します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`ConnectionString`</ph> property can be set only while the connection is closed.</source>
+          <target state="translated"><ph id="ph1">`ConnectionString`</ph>プロパティは、接続が閉じられたときにのみ設定できます。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A string containing connection settings.</source>
+          <target state="translated">接続の設定を含む文字列。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the time to wait while trying to establish a connection before terminating the attempt and generating an error.</source>
+          <target state="translated">試行を終了し、エラーが発生する前に接続を確立しているときに待機する時間を取得します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A value of 0 indicates no limit to the wait time, rather than no wait time, and should be avoided in a &lt;xref:System.Data.IDbConnection.ConnectionString%2A&gt; because it would cause the connection attempt to wait indefinitely.</source>
+          <target state="translated">値が 0 のないことを示します、待機時間に制限はなく、待機時間とでは避ける必要があります、&lt;xref:System.Data.IDbConnection.ConnectionString%2A&gt;無制限に待機する接続の試行が生じるためです&lt;/xref:System.Data.IDbConnection.ConnectionString%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The time (in seconds) to wait for a connection to open.</source>
+          <target state="translated">時間 (秒) に接続を開くを待機します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The default value is 15 seconds.</source>
+          <target state="translated">既定値は、15 秒です。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Creates and returns a Command object associated with the connection.</source>
+          <target state="translated">作成して、接続に関連付けられている Command オブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A Command object associated with the connection.</source>
+          <target state="translated">接続に関連付けられている Command オブジェクト。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the name of the current database or the database to be used after a connection is opened.</source>
+          <target state="translated">現在のデータベースまたは接続が開かれた後に使用するデータベースの名前を取得します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Database`</ph> property can be dynamically updated by using the &lt;xref:System.Data.IDbConnection.ChangeDatabase%2A&gt; method or by passing an SQL statement using one of the Execute methods.</source>
+          <target state="translated"><ph id="ph1">`Database`</ph>プロパティを使用して動的に更新できる、&lt;xref:System.Data.IDbConnection.ChangeDatabase%2A&gt;メソッド、Execute メソッドのいずれかを使用して SQL ステートメントを渡すことにより&lt;/xref:System.Data.IDbConnection.ChangeDatabase%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>(Initially the database is set by means of the connection string.) If you change the current database using an SQL statement or the <ph id="ph1">`ChangeDatabase`</ph> method, an informational message is sent and then the property is updated.</source>
+          <target state="translated">(最初に、データベースは、設定、接続文字列を使用して)。SQL ステートメントを使用して、現在のデータベースを変更するかどうか、または<ph id="ph1">`ChangeDatabase`</ph>メソッド、情報メッセージが送信され、プロパティを更新し、します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The name of the current database or the name of the database to be used once a connection is open.</source>
+          <target state="translated">現在のデータベースの名前または&amp;1; 回使用するデータベースの名前は、接続が開いています。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">既定値は、空の文字列です。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Opens a database connection with the settings specified by the <bpt id="p1">&lt;xref uid="langword_csharp_ConnectionString" name="ConnectionString" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property of the provider-specific Connection object.</source>
+          <target state="translated">によって指定される設定とデータベース接続を開き、 <bpt id="p1">&lt;xref uid="langword_csharp_ConnectionString" name="ConnectionString" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>プロバイダーに固有の接続オブジェクトのプロパティです。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the current state of the connection.</source>
+          <target state="translated">接続の現在の状態を取得します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The allowed state changes are:      -   From <ph id="ph1">`Closed`</ph> to <ph id="ph2">`Open`</ph>, using the <ph id="ph3">`Open`</ph> method of the Connection object.</source>
+          <target state="translated">許可される状態の変更: - から<ph id="ph1">`Closed`</ph>に<ph id="ph2">`Open`</ph>を使用して、<ph id="ph3">`Open`</ph>接続オブジェクトのメソッドです。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-   From <ph id="ph1">`Open`</ph> to <ph id="ph2">`Closed`</ph>, using either the <ph id="ph3">`Close`</ph> method or the <ph id="ph4">`Dispose`</ph> method of the Connection object.</source>
+          <target state="translated">-から<ph id="ph1">`Open`</ph>に<ph id="ph2">`Closed`</ph>、いずれかを使用して、<ph id="ph3">`Close`</ph>メソッドまたは<ph id="ph4">`Dispose`</ph>接続オブジェクトのメソッドです。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

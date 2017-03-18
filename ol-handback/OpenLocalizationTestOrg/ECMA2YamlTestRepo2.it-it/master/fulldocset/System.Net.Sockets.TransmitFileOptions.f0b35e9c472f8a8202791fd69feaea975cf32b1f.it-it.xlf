@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c153e92446f2aa231b4aa6f2a08581b6bf5483ca</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Net.Sockets.TransmitFileOptions.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">894805ddb62148bd014867d7200d36e020b9bce8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">420f593717b1640a7ba1df181b5db816c7f83160</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The TransmitFileOptions enumeration defines values used in file transfer requests.</source>
+          <target state="translated">L'enumerazione TransmitFileOptions definisce i valori utilizzati nelle richieste di trasferimento di file.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> The flags Disconnect and ReuseSocket return the socket to a disconnected, reusable state after the file has been transmitted.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nota<ept id="p1">**</ept> i flag di disconnessione e ReuseSocket riportano il socket a disconnessi, riutilizzabili stato dopo che il file è stato trasmesso.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These flags should not be used on a socket where quality of service (QOS) has been requested, because the service provider might immediately delete any quality of service associated with the socket before the file transfer has completed.</source>
+          <target state="translated">Questi flag non devono essere utilizzati su un socket in cui è stata richiesta la qualità del servizio (QOS), perché il provider di servizi potrebbe eliminare immediatamente la qualità del servizio associata al socket prima del completamento del trasferimento di file.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The best approach for a QOS-enabled socket is to call &lt;xref:System.Net.Sockets.Socket.Close%2A&gt; when the file transfer has completed, rather than relying on these flags.</source>
+          <target state="translated">L'approccio migliore per un socket abilitato QOS consiste nel chiamare &lt;xref:System.Net.Sockets.Socket.Close%2A&gt;al termine del trasferimento di file, piuttosto che basarsi su questi flag.&lt;/xref:System.Net.Sockets.Socket.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Start a transport-level disconnect after all the file data has been queued for transmission.</source>
+          <target state="translated">Inizio a livello di trasporto disconnettere dopo che tutto il file di dati sono stati accodati per la trasmissione.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When used with ReuseSocket, these flags return the socket to a disconnected, reusable state after the file has been transmitted.</source>
+          <target state="translated">Se utilizzato con ReuseSocket, questi flag riportano il socket a uno stato disconnesso consentendone dopo che il file è stato trasmesso.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The socket handle may be reused when the request completes.</source>
+          <target state="translated">Al completamento della richiesta, è possibile riutilizzare l'handle di socket.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This flag is valid only if Disconnect is also specified.</source>
+          <target state="translated">Questo flag è valido solo se è specificato anche Disconnect.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When used with Disconnect, these flags return the socket to a disconnected, reusable state after the file has been transmitted.</source>
+          <target state="translated">Se utilizzato con Disconnect, questi flag riportano il socket a uno stato disconnesso consentendone dopo che il file è stato trasmesso.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use the default thread to process long file transfer requests.</source>
+          <target state="translated">Utilizzare il thread predefinito per elaborare le richieste di trasferimento di file lunghi.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Use kernel asynchronous procedure calls (APCs) instead of worker threads to process long file transfer requests.</source>
+          <target state="translated">Utilizzare kernel asincrone di procedura chiama (Inizializza) anziché i thread di lavoro per elaborare le richieste di trasferimento di file lunghi.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Long requests are defined as requests that require more than a single read from the file or a cache; the request therefore depends on the size of the file and the specified length of the send packet.</source>
+          <target state="translated">Richieste lunghe sono definite come le richieste che richiedono più di una singola lettura dal file o una cache. la richiesta dipende pertanto le dimensioni del file e la lunghezza specificata del pacchetto di invio.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use system threads to process long file transfer requests.</source>
+          <target state="translated">Utilizzare i thread di sistema per elaborare le richieste di trasferimento di file lunghi.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Complete the file transfer request immediately, without pending.</source>
+          <target state="translated">Completare la richiesta di trasferimento file immediatamente, senza in sospeso.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If this flag is specified and the file transfer succeeds, the data has been accepted by the system but not necessarily acknowledged by the remote end.</source>
+          <target state="translated">Se questo flag è specificato e il trasferimento di file ha esito positivo, i dati sono stati accettati dal sistema ma non necessariamente riconosciuti dal lato remoto.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Do not use this flag with the Disconnect and ReuseSocket flags.</source>
+          <target state="translated">Non utilizzare questo flag con i flag ReuseSocket e di disconnessione.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
