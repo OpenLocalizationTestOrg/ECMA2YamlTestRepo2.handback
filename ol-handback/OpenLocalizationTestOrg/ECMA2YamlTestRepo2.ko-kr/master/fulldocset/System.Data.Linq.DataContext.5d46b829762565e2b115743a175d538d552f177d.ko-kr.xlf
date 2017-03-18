@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14be8aef7bbf0954b3531707eda6ac0d1c8eb140</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Linq.DataContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec73a3276a3d219a2c75da2db86ea7db63ac44fc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15150288bd3c42b577a6b50773bca2a430b4e3e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the main entry point for the <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> framework.</source>
+          <target state="translated">에 대 한 주 진입점을 나타내는 <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> 프레임 워크입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DataContext is the source of all entities mapped over a database connection.</source>
+          <target state="translated">DataContext에는 데이터베이스 연결을 통해 매핑된 모든 엔터티의의 원인입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It tracks changes that you made to all retrieved entities and maintains an "identity cache" that guarantees that entities retrieved more than one time are represented by using the same object instance.</source>
+          <target state="translated">검색 된 모든 엔터티에 대 한 변경 내용을 추적 하 고 여러 번 검색 된 엔터티 보증으로 표현 되는 "id 캐시" 유지 관리 동일한 개체 인스턴스를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, a DataContext instance is designed to last for one "unit of work" however your application defines that term.</source>
+          <target state="translated">그러나 일반적으로 DataContext 인스턴스는 응용 프로그램에서 해당 용어를 정의 하는 하나의 "작업 단위" 동안 유지 되도록 설계 되었습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A DataContext is lightweight and is not expensive to create.</source>
+          <target state="translated">DataContext 간단 하며 만들려면 비용이 많이 들지 않습니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A typical <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> application creates DataContext instances at method scope or as a member of short-lived classes that represent a logical set of related database operations.</source>
+          <target state="translated">일반적인 <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> 응용 프로그램 관련된 데이터베이스 작업의 논리 집합을 나타내는 수명이 짧은 클래스의 구성원 또는 메서드 범위에서 DataContext 인스턴스를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing the connection used by the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스를 사용 하는 연결을 참조 하 여는 <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Data.Linq.DataContext&gt; opens and closes a database connection as needed if you provide a closed connection or a connection string.</source>
+          <target state="translated">A &lt;xref:System.Data.Linq.DataContext&gt;열고 닫힌된 연결 또는 연결 문자열을 제공 하는 경우 필요에 따라 데이터베이스 연결을 닫습니다.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, you should never have to call <ph id="ph1">`Dispose`</ph> on a &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">일반적으로 필요는 호출할 <ph id="ph1">`Dispose`</ph> &lt;xref:System.Data.Linq.DataContext&gt;.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you provide an open connection, the &lt;xref:System.Data.Linq.DataContext&gt; will not close it.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext&gt;합니다.를 닫지 것입니다&lt;/xref:System.Data.Linq.DataContext&gt; 열려 있는 연결을 제공 하는 경우</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, do not instantiate a &lt;xref:System.Data.Linq.DataContext&gt; with an open connection unless you have a good reason to do this.</source>
+          <target state="translated">따라서 인스턴스화할 수 없습니다는 &lt;xref:System.Data.Linq.DataContext&gt;열린 연결으로이 작업을 수행 하는 좋은 이유가 없으면.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a &lt;xref:System.Transactions&gt; transaction, a &lt;xref:System.Data.Linq.DataContext&gt; will not open or close a connection to avoid promotion.</source>
+          <target state="translated">에 &lt;xref:System.Transactions&gt;트랜잭션에 &lt;xref:System.Data.Linq.DataContext&gt;열거나 승격이 발생 하지 않도록 하는 연결을 닫이 됩니다.&lt;/xref:System.Data.Linq.DataContext&gt; &lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The connection used by the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</source>
+          <target state="translated">사용 되는 연결의 <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing a file source.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 파일 원본을 참조 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This argument can be any one of the following:       The name of a file where a SQL Server Express database resides.</source>
+          <target state="translated">이 인수는 다음 중 하나가 될 수 있습니다: SQL Server Express 데이터베이스가 있는 파일의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The name of a server where a database is present.</source>
+          <target state="translated">데이터베이스가 있는 서버의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this case the provider uses the default database for a user.</source>
+          <target state="translated">이 경우 공급자는 사용자에 대 한 기본 데이터베이스를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A complete connection string.</source>
+          <target state="translated">전체 연결 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> just passes the string to the provider without modification.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>방금 수정 하지 않고 공급자에 문자열을 전달합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing a connection and a mapping source.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 연결 및 매핑 소스를 참조 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The connection used by the .NET Framework.</source>
+          <target state="translated">.NET Framework에서 사용 되는 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A source for mapping.</source>
+          <target state="translated">매핑에 대 한 원본입니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing a file source and a mapping source.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 파일 원본과 매핑 소스를 참조 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This argument can be any one of the following:       The name of a file where a SQL Server Express database resides.</source>
+          <target state="translated">이 인수는 다음 중 하나가 될 수 있습니다: SQL Server Express 데이터베이스가 있는 파일의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The name of a server where a database is present.</source>
+          <target state="translated">데이터베이스가 있는 서버의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In this case the provider uses the default database for a user.</source>
+          <target state="translated">이 경우 공급자는 사용자에 대 한 기본 데이터베이스를 사용합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A complete connection string.</source>
+          <target state="translated">전체 연결 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> just passes the string to the provider without modification.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>방금 수정 하지 않고 공급자에 문자열을 전달합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A source for mapping.</source>
+          <target state="translated">매핑에 대 한 원본입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets a collection of objects that caused concurrency conflicts when &lt;xref:System.Data.Linq.DataContext.SubmitChanges*&gt; was called.</source>
+          <target state="translated">동시성 충돌이 발생 한 개체의 컬렉션을 가져옵니다 때 &lt;xref:System.Data.Linq.DataContext.SubmitChanges*&gt;호출 되었습니다.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example shows how the collection can be iterated over to retrieve conflict information.</source>
+          <target state="translated">다음 예제에서는 어떻게 컬렉션을 반복 하 충돌 정보 검색을 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A collection of objects that caused concurrency conflicts.</source>
+          <target state="translated">동시성 충돌이 발생 한 개체의 컬렉션입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that increases the time-out period for queries that would otherwise time out during the default time-out period.</source>
+          <target state="translated">기본 제한 시간 동안 시간이 초과 될 수 있는 쿼리에 대 한 제한 시간을 증가 하는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property gets or sets the command time-out used to execute generated commands (<ph id="ph1">`IDbCommands`</ph>).</source>
+          <target state="translated">이 속성 생성된 명령을 실행 하는 데 사용 하는 명령 제한 시간을 가져오거나 설정 합니다. (<ph id="ph1">`IDbCommands`</ph>).</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt;.</source>
+          <target state="translated">자세한 내용은 &lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt;.&lt;/xref:System.Data.IDbCommand.CommandTimeout%2A&gt; 을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this property is not set, the default value of &lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt; is used for query command execution.</source>
+          <target state="translated">이 속성이 설정 되지 않은 경우, 기본값인 &lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt;쿼리 명령 실행에 사용 됩니다.&lt;/xref:System.Data.IDbCommand.CommandTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This default value is set by the storage provider.</source>
+          <target state="translated">기본 값이 저장소 공급자가 설정 됩니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that some providers may throw exceptions if this value is set to a non-zero value.</source>
+          <target state="translated">이 값은&amp;0;이 아닌 값으로 설정 하는 경우 일부 공급자가 예외를 throw 할 note 합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An integer value that increases the time-out period for queries that would otherwise time out during the default time-out period.</source>
+          <target state="translated">기본 제한 시간 동안 시간이 초과 될 수 있는 쿼리에 대 한 제한 시간을 증가 하는 정수 값입니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the connection used by the framework.</source>
+          <target state="translated">프레임 워크에서 사용 되는 연결을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this property to interoperate with relational ADO.NET code.</source>
+          <target state="translated">관계형 ADO.NET 코드와 상호 운용 하도록이 속성을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned connection will be closed unless it has been explicitly opened by the user.</source>
+          <target state="translated">사용자가 명시적으로 열 렸 경우가 아니면 반환 된 연결을 닫습니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The connection used by the framework.</source>
+          <target state="translated">프레임 워크에서 사용 되는 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates a database on the server.</source>
+          <target state="translated">서버에서 데이터베이스를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name of the database is derived by using the following algorithm:      -   If a database is identified in the connection string, its name is used.</source>
+          <target state="translated">다음 알고리즘을 사용 하 여 데이터베이스의 이름을 파생 시킵니다.-데이터베이스 연결 문자열에 식별 되 면 해당 이름이 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a &lt;xref:System.Data.Linq.Mapping.DatabaseAttribute&gt; attribute is present, its &lt;xref:System.Data.Linq.Mapping.DatabaseAttribute.Name%2A&gt; property is used as the name of the database.</source>
+          <target state="translated">If는 &lt;xref:System.Data.Linq.Mapping.DatabaseAttribute&gt;특성이 있으면 해당 &lt;xref:System.Data.Linq.Mapping.DatabaseAttribute.Name%2A&gt;속성은 데이터베이스의 이름으로 사용 합니다.&lt;/xref:System.Data.Linq.Mapping.DatabaseAttribute.Name%2A&gt; &lt;/xref:System.Data.Linq.Mapping.DatabaseAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If there is no database tag in the connection string and a strongly typed &lt;xref:System.Data.Linq.DataContext&gt; is used, a database that has the same name as the &lt;xref:System.Data.Linq.DataContext&gt; inheriting class is checked.</source>
+          <target state="translated">-연결 문자열 및 강력한 형식의 데이터베이스 태그가 없는 경우 &lt;xref:System.Data.Linq.DataContext&gt;사용 하는 경우와 동일한 이름을 가진 데이터베이스는 &lt;xref:System.Data.Linq.DataContext&gt;클래스 상속을 선택 합니다.&lt;/xref:System.Data.Linq.DataContext&gt; &lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a weakly typed &lt;xref:System.Data.Linq.DataContext&gt; is used, an exception is thrown.</source>
+          <target state="translated">-는 약하게 형식화 하는 경우 &lt;xref:System.Data.Linq.DataContext&gt;는 사용 하는 예외가 throw 됩니다.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the &lt;xref:System.Data.Linq.DataContext&gt; has been created by using a file name, the database corresponding to that file name is created.</source>
+          <target state="translated">If는 &lt;xref:System.Data.Linq.DataContext&gt;만든 해당 파일 이름에 해당 하는 데이터베이스를 만들 때 파일 이름을 사용 하 여.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Determines whether the associated database can be opened.</source>
+          <target state="translated">연결된 된 데이터베이스를 열 수 있는지 여부를 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method uses the connection in the &lt;xref:System.Data.Linq.DataContext.Connection%2A&gt; property to attempt to open the associated database.</source>
+          <target state="translated">연결을 사용 하 여이 메서드는 &lt;xref:System.Data.Linq.DataContext.Connection%2A&gt;속성을 연결된 된 데이터베이스를 열려고 시도 합니다.&lt;/xref:System.Data.Linq.DataContext.Connection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified database can be opened; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>지정된 된 데이터베이스를 열 수 있는; 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to delay-load one-to-many or one-to-one relationships.</source>
+          <target state="translated">지연 로드 대 다 또는 한 일 관계를 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the code accesses one of these relationships, null is returned if the relationship is one-to-one, and an empty collection is returned if it is one-to-many.</source>
+          <target state="translated">코드 null 이러한 관계 중 하나에 액세스할 때 관계는 한 일, 다를 경우에 빈 컬렉션이 반환 됩니다 하는 경우 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The relationships can still be filled by setting the &lt;xref:System.Data.Linq.DataContext.LoadOptions%2A&gt; property.</source>
+          <target state="translated">관계 여전히 설정 하 여 채울 수는 &lt;xref:System.Data.Linq.DataContext.LoadOptions%2A&gt;속성.&lt;/xref:System.Data.Linq.DataContext.LoadOptions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The main scenario for this property is to enable you to extract a piece of the object model and send it out (for example, to a Web service).</source>
+          <target state="translated">이 속성에 대 한 주요 시나리오는 개체 모델의 일부를 추출 하 고 (예를 들어 웹 서비스)에 보낼 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If this property is set to <ph id="ph2">`false`</ph> after a query has been executed, an exception is thrown.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;이 속성을 설정 하는 경우 <ph id="ph2">`false`</ph> 쿼리 실행 된 후 예외가 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the <bpt id="p1">**</bpt>Valid Modes<ept id="p1">**</ept> section below for more information.</source>
+          <target state="translated">참조는 <bpt id="p1">**</bpt>유효한 모드<ept id="p1">**</ept> 자세한 내용은 아래 섹션.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Valid modes    Deferred loading requires object tracking.</source>
+          <target state="translated">지연 된 로드를 사용할 수 있는 모드 개체 추적이 필요합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the following three modes are valid:      -   &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt; = <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">다음 세 가지 모드는 유효한만:- &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt;= <ph id="ph1">`false`</ph>.&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DeferredLoadingEnabled is ignored and inferred to be <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">DeferredLoadingEnabled은 무시 되 고 것으로 유추 <ph id="ph1">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior corresponds to a read-only &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">이 동작은 읽기 전용 &lt;xref:System.Data.Linq.DataContext&gt;.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt; = <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">-   &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt; = <ph id="ph1">`true`</ph>.&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DeferredLoadingEnabled = <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">DeferredLoadingEnabled = <ph id="ph1">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This situation corresponds to a &lt;xref:System.Data.Linq.DataContext&gt; that allows users to load an object graph by using &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; directives, but it does not enable deferred loading.</source>
+          <target state="translated">이 경우에 해당 하는 &lt;xref:System.Data.Linq.DataContext&gt;를 사용 하 여 개체 그래프를 로드, 사용자가 허용 &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;지시문 하지만 지연 된 로드를 사용 하지 않는.&lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; &lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Both are set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">-둘 다로 설정 된 <ph id="ph1">`true`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the default.</source>
+          <target state="translated">이것이 기본값입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The flags may not be changed after a query has been executed.</source>
+          <target state="translated">쿼리를 실행 한 후 플래그를 변경할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any change after the execution of the first query that uses that &lt;xref:System.Data.Linq.DataContext&gt; throws an exception.</source>
+          <target state="translated">사용 하는 첫 번째 쿼리를 실행 한 후 모든 변경 &lt;xref:System.Data.Linq.DataContext&gt;예외를 throw 합니다.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if deferred loading is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>지연 된 로드를 사용 하면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Deletes the associated database.</source>
+          <target state="translated">연결된 된 데이터베이스를 삭제합니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method uses the connection in the &lt;xref:System.Data.Linq.DataContext.Connection%2A&gt; property to identify the database to be deleted.</source>
+          <target state="translated">연결을 사용 하 여이 메서드는 &lt;xref:System.Data.Linq.DataContext.Connection%2A&gt;속성을 삭제할 데이터베이스를 식별 합니다.&lt;/xref:System.Data.Linq.DataContext.Connection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the current instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">현재 인스턴스에서 사용 하는 모든 리소스를 해제는 <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and optionally releases the managed resource.</source>
+          <target state="translated">사용 하는 관리 되지 않는 리소스를 해제는 <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스 및 관리 되는 리소스를 선택적으로 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>관리 되는 관리 되지 않는 리소스만 해제 하려면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 만 관리 되지 않는 리소스를 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Executes SQL commands directly on the database.</source>
+          <target state="translated">데이터베이스에서 직접 SQL 명령을 실행합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The SQL command to be executed.</source>
+          <target state="translated">실행할 SQL 명령입니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The array of parameters to be passed to the command.</source>
+          <target state="translated">명령에 전달할 매개 변수 배열입니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Note the following behavior:       If the number of objects in the array is less than the highest number identified in the command string, an exception is thrown.</source>
+          <target state="translated">다음과 같은 동작이: 수가 배열의 개체에에서 명령 문자열에 지정 된 최대 개수 보다 작은 경우 예외가 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If the array contains objects that are not referenced in the command string, no exception is thrown.</source>
+          <target state="translated">배열에 명령 문자열에서 참조 되지 않는 개체가 포함 되어 있으면 예외가 발생 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If any one of the parameters is null, it is converted to <bpt id="p1">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">매개 변수 중 하나가 null 이면 변환할 <bpt id="p1">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The number of rows modified by the executed command.</source>
+          <target state="translated">명령이 실행된 하 여 수정 된 행 수입니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Executes, inside delete override methods, to redelegate to <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> the task of generating and executing dynamic SQL for delete operations.</source>
+          <target state="translated">에 다시 위임할 때 삭제 재정의 메서드 내 실행 <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> 삭제 작업을 하는 작업을 생성 하 고에 대 한 동적 SQL을 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;.&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt; 를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The entity to be deleted.</source>
+          <target state="translated">삭제 될 엔터티입니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Executes, inside insert override methods, to redelegate to <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> the task of generating and executing dynamic SQL for insert operations.</source>
+          <target state="translated">에 다시 위임할 때 삽입 재정의 메서드 내 실행 <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> 삽입 작업을 하는 작업을 생성 하 고에 대 한 동적 SQL을 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note the following considerations:      -   Because the method has a protected modifier, its use requires subclassing &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">다음 고려 사항을:-메서드는 보호 된 한정자가 있으므로 해야 사용할 &lt;xref:System.Data.Linq.DataContext&gt;.&lt;/xref:System.Data.Linq.DataContext&gt; 서브클래싱</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   An exception is thrown if this operation is not called inside a &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; operation.</source>
+          <target state="translated">-이 작업 내 호출 하지 않은 경우 예외가 throw 됩니다는 &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;작업.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not intended to be called as a stand-alone operation outside the scope of a &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; operation.</source>
+          <target state="translated">범위 밖에 서 독립 실행형 작업으로 호출에 적합 하지 않습니다는 &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;작업.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; itself calls override methods if they are implemented and the previous methods are intended to be called inside the override methods.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;자체 호출 메서드를 재정의 구현 하 고 이전 메서드를 재정의 메서드 호출 하도록 되어 있습니다.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It is the responsibility of the developer to pass in the correct entity.</source>
+          <target state="translated">-것은 올바른 엔터티를 전달 하는 개발자의 책임입니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implementation verifies that the passed-in entity is tracked.</source>
+          <target state="translated">구현에 전달 된 엔터티를 추적 하는 것을 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, it is the responsibility of the developer to maintain the order or pass in the same entity two times.</source>
+          <target state="translated">그러나 되기 순서 유지 관리 또는 두 번 동일한 엔터티를 전달 하는 개발자의 책임입니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It is the responsibility of the developer to invoke the correct dynamic API.</source>
+          <target state="translated">-것은 올바른 동적 API를 호출 하는 개발자의 책임입니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the <ph id="ph1">`Update`</ph> override method, only the &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicUpdate%2A&gt; method can be called.</source>
+          <target state="translated">예를 들어는 <ph id="ph1">`Update`</ph> 재정의 메서드에서 &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicUpdate%2A&gt;메서드를 호출할 수 있습니다.&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicUpdate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> does not detect or verify whether the invoked dynamic method matches the applicable operation.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>검색 하거나 호출된 된 동적 메서드가 적용 가능한 작업과 일치 하는지 여부를 확인 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The results are undefined if an inapplicable method is called (for example, calling &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicDelete%2A&gt; for an object to be updated).</source>
+          <target state="translated">적용할 수 없는 메서드를 호출 하면 결과가 정의 되지 않습니다 (예를 들어 호출 &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicDelete%2A&gt;업데이트할 개체에 대 한).&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicDelete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The entity to be inserted.</source>
+          <target state="translated">삽입할 엔터티입니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Executes, inside update override methods, to redelegate to <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> the task of generating and executing dynamic SQL for update operations.</source>
+          <target state="translated">에 다시 위임할 때 업데이트 재정의 메서드 내 실행 <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> 작업 생성 및 업데이트 작업에 대 한 동적 SQL을 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;.&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt; 를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The entity to be updated.</source>
+          <target state="translated">업데이트할 엔터티입니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Executes the stored database procedure or scalar function associated with the specified CLR method.</source>
+          <target state="translated">데이터베이스 저장된 프로시저 또는 지정 된 연결 된 스칼라 함수를 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ExecuteMethodCall method is used in automatically generated code and acts as a proxy to database functions.</source>
+          <target state="translated">ExecuteMethodCall 메서드 자동으로 생성 된 코드에 사용 되 고 데이터베이스 함수에 대 한 프록시 역할을 합니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The instance of the method invocation (the current object).</source>
+          <target state="translated">메서드 호출 (현재 개체)의 인스턴스.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Identifies the CLR method that corresponds to a database method.</source>
+          <target state="translated">데이터베이스 방법에 해당 하는 CLR 메서드를 식별 합니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The array of parameters to be passed to the command.</source>
+          <target state="translated">명령에 전달할 매개 변수 배열입니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The result (the return value and output parameters) of executing the specified method.</source>
+          <target state="translated">결과 (반환 값과 출력 매개 변수)의 지정된 된 메서드를 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Executes SQL queries directly on the database.</source>
+          <target state="translated">데이터베이스에서 직접 SQL 쿼리를 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The type of the <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> to be returned.</source>
+          <target state="translated">유형의 <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The algorithm for matching columns in the result of the query to fields or properties in the object works as follows:       If a field or property is mapped to a particular column name, that column name is expected in the resultset.</source>
+          <target state="translated">개체의 속성 또는 필드에 대 한 쿼리의 결과 열을 일치 하는 알고리즘은 다음과 같이 작동: 필드 또는 속성에 특정 열 이름에 매핑되는 경우 해당 열 이름이 결과 집합에 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If a field or property is not mapped, a column with the same name as the field or property is expected in the resultset.</source>
+          <target state="translated">필드 또는 속성이 매핑되지 않은 경우 결과 집합에 열 이름이 같은 필드 또는 속성으로 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The comparison is performed by looking for a case-sensitive match first.</source>
+          <target state="translated">비교는 대/소문자를 먼저 검색 하 여 수행 됩니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If this match is not found, a subsequent search occurs for a case-insensitive match.</source>
+          <target state="translated">이 항목이 발견 되지 않아 다시 검색 일치 하는 대/소문자 구분에 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The query must return all the tracked fields and properties of the object (except those that are loaded on a deferred basis) when all the following conditions are true:       <ph id="ph1">`T`</ph> is an entity explicitly tracked by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">모든 추적 된 필드와 속성 (제외 하 고 지연 기준 로드)는 개체의이 쿼리에서 반환 되어야 다음 조건에 모두 해당할: <ph id="ph1">`T`</ph> 엔터티 명시적으로에서 추적의 <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt; is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The entity has a primary key.</source>
+          <target state="translated">엔터티는 기본 키를 있습니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Otherwise an exception is thrown.</source>
+          <target state="translated">그렇지 않으면 예외가 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The SQL query to be executed.</source>
+          <target state="translated">실행할 SQL 쿼리입니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The array of parameters to be passed to the command.</source>
+          <target state="translated">명령에 전달할 매개 변수 배열입니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Note the following behavior:       If the number of objects in the array is less than the highest number identified in the command string, an exception is thrown.</source>
+          <target state="translated">다음과 같은 동작이: 수가 배열의 개체에에서 명령 문자열에 지정 된 최대 개수 보다 작은 경우 예외가 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>If the array contains objects that are not referenced in the command string, no exception is thrown.</source>
+          <target state="translated">배열에 명령 문자열에서 참조 되지 않는 개체가 포함 되어 있으면 예외가 발생 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If a parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, it is converted to <bpt id="p2">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">매개 변수가 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 변환 된 <bpt id="p2">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> collection of objects returned by the query.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> 쿼리에 의해 반환 되는 개체의 컬렉션입니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets the modified objects tracked by <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">수정된 된 개체에서 추적 가져옵니다 <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note the following considerations:      -   GetChangeSet might have side effects, such as inference of insert and delete operations that are usually performed at the time of &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;.</source>
+          <target state="translated">다음 고려 사항을:-GetChangeSet 유추의 삽입과 같은 부작용 및 삭제 &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; 시간에서 일반적으로 수행 하는 작업</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, objects that are used in the following operations can create corresponding inferred operations in the following list:          -   &lt;xref:System.Data.Linq.EntitySet%601.Add%2A&gt; to &lt;xref:System.Data.Linq.Table%601.InsertOnSubmit%2A&gt;.</source>
+          <target state="translated">다음 작업에 사용 되는 개체는 다음 목록에 해당 작업이 유추를 만들 수 예를 들어:- &lt;xref:System.Data.Linq.EntitySet%601.Add%2A&gt; &lt;xref:System.Data.Linq.Table%601.InsertOnSubmit%2A&gt;.&lt;/xref:System.Data.Linq.Table%601.InsertOnSubmit%2A&gt; &lt;/xref:System.Data.Linq.EntitySet%601.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.Linq.EntityRef%601&gt; assignment to null (possibly because of &lt;xref:System.Data.Linq.EntitySet%601.Remove%2A&gt; to &lt;xref:System.Data.Linq.Table%601.DeleteOnSubmit%2A&gt;.</source>
+          <target state="translated">- &lt;xref:System.Data.Linq.EntityRef%601&gt;null 할당 (인해 &lt;xref:System.Data.Linq.EntitySet%601.Remove%2A&gt; &lt;xref:System.Data.Linq.Table%601.DeleteOnSubmit%2A&gt;.&lt;/xref:System.Data.Linq.Table%601.DeleteOnSubmit%2A&gt; &lt;/xref:System.Data.Linq.EntitySet%601.Remove%2A&gt; &lt;/xref:System.Data.Linq.EntityRef%601&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The set may not be ordered according to foreign key constraints.</source>
+          <target state="translated">-집합 foreign key 제약 조건에 따라 정렬 되지 않을 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Database-generated values (for example, primary and foreign key values, timestamps, and so forth) are not available.</source>
+          <target state="translated">-데이터베이스에서 생성 된 값 (예를 들어, 기본 및 외래 키 값, 타임 스탬프 등)를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such information requires database command execution and perhaps the propagation of retrieved information (for example, foreign key from primary key).</source>
+          <target state="translated">이러한 정보는 데이터베이스 명령 실행 하 고 검색 된 정보 (예를 들어 기본 키에서 외래 키)의 전파 아마도 필요합니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The set of changed objects is computed at the time of the call.</source>
+          <target state="translated">-집합이 변경 된 개체 호출 시 계산 됩니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent calls to &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; can produce a different set if additional changes are made.</source>
+          <target state="translated">에 대 한 후속 호출 &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;추가로 변경 내용이 있는 경우 다른 집합을 생성할 수 있습니다.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Output when no changes have been made appears as follows:       <ph id="ph1">`{Added: 0, Removed: 0, Modified: 0}`</ph></source>
+          <target state="translated">변경 내용을 적용 된 경우의 출력을 다음과 같이 나타납니다.<ph id="ph1">`{Added: 0, Removed: 0, Modified: 0}`</ph></target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The set of objects is returned as three read-only collections.</source>
+          <target state="translated">개체 집합을 세 개의 읽기 전용 컬렉션으로 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets the information about SQL commands generated by <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>.</source>
+          <target state="translated">에 의해 생성 된 SQL 명령에 대 한 정보를 가져옵니다 <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is only a getter and does not affect &lt;xref:System.Data.Linq.DataContext&gt; state.</source>
+          <target state="translated">이 방법은 getter에만 영향을 주지 않습니다 뛰어나며 &lt;xref:System.Data.Linq.DataContext&gt;상태.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note the following considerations:      -   The argument must be non-null.</source>
+          <target state="translated">다음 고려 사항을:-인수는 null 이어야 합니다.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, a null argument exception is thrown.</source>
+          <target state="translated">그렇지 않으면 null 인수 예외가 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Normal query translation exceptions thrown during <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> query execution apply for a query that cannot be translated.</source>
+          <target state="translated">-일반적인 쿼리 변환 예외 중에 throw <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> 쿼리 실행 변환할 수 없는 쿼리에 적용 합니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Only the first query command is returned.</source>
+          <target state="translated">-첫 번째 쿼리는 명령만 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, additional commands that are used for eager loading (&lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;) are not included.</source>
+          <target state="translated">즉시 로드에 사용 되는 추가 명령이 특히 (&lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;)는 포함 되지 않습니다.&lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Data.Linq.DataContext&gt; does not track what the user does with the command.</source>
+          <target state="translated">- &lt;xref:System.Data.Linq.DataContext&gt;명령을 사용 하 여 사용자가을 추적 하지 않습니다.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, results from the execution of the returned command are not tracked and do not affect &lt;xref:System.Data.Linq.DataContext&gt; state.</source>
+          <target state="translated">반환 된 명령을 실행 한 결과 추적 되지 않으며 영향을 주지 않습니다 예를 들어 &lt;xref:System.Data.Linq.DataContext&gt;상태.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The query whose SQL command information is to be retrieved.</source>
+          <target state="translated">SQL 명령 정보 쿼리는 검색할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The requested command information object.</source>
+          <target state="translated">요청 된 명령이 정보 개체입니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Returns a collection of objects of a particular type, where the type is defined by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">변수로 정의 된 특정 유형의 개체의 컬렉션을 반환 하는 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a weakly typed version of &lt;xref:System.Data.Linq.DataContext.GetTable%2A&gt;.</source>
+          <target state="translated">이 &lt;xref:System.Data.Linq.DataContext.GetTable%2A&gt;.&lt;/xref:System.Data.Linq.DataContext.GetTable%2A&gt; 의 약한 형식의 버전</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is important to have a weakly typed version because it is a relatively common practice to construct queries dynamically.</source>
+          <target state="translated">쿼리를 동적으로 생성 하는 상대적으로 일반적인 좋습니다 이기 때문에 약한 형식의 버전을 포함 하는 것이 유용 합니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It would be inconvenient to force the application to use reflection to call the correct generic method.</source>
+          <target state="translated">하기란 리플렉션을 사용 하 여 올바른 제네릭 메서드를 호출 하면 응용 프로그램을 편리 하 게 합니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no collection for a particular type, an exception is thrown.</source>
+          <target state="translated">특정 형식에 대 한 컬렉션이 없는 경우 예외가 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The type of the objects to be returned.</source>
+          <target state="translated">반환할 개체의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>A collection of objects defined by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">에 정의 된 개체의 컬렉션은 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.Linq.DataLoadOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this <bpt id="p2">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">가져오거나는 <bpt id="p1">&lt;xref href="System.Data.Linq.DataLoadOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 연관 <bpt id="p2">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property gets or sets the options that are used to define prefetch behavior for deferred-loaded members and membership of related collections.</source>
+          <target state="translated">이 속성에는 지연 로드 된 멤버와 관련 된 컬렉션의 멤버 자격에 대 한 사전 인출 동작을 정의 하는 데 사용 되는 옵션을 설정 하거나 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The prefetch load options for related data.</source>
+          <target state="translated">프리페치는 관련된 데이터에 대 한 옵션을 로드 합니다.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Gets or sets the destination to write the SQL query or command.</source>
+          <target state="translated">SQL 쿼리 또는 명령에 기록 하도록 대상을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set this property to <ph id="ph1">`null`</ph> to disable command logging.</source>
+          <target state="translated">이 속성을 설정 <ph id="ph1">`null`</ph> 명령 로깅을 사용 하지 않으려면입니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextReader&gt; to use for writing the command.</source>
+          <target state="translated">&lt;xref:System.IO.TextReader&gt;명령을 쓰는 데 사용할.&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.Linq.Mapping.MetaModel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on which the mapping is based.</source>
+          <target state="translated">가져옵니다는 <bpt id="p1">&lt;xref href="System.Data.Linq.Mapping.MetaModel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 매핑을 기반이 되 합니다.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The mapping between a database and domain objects.</source>
+          <target state="translated">데이터베이스 및 도메인 개체 간의 매핑입니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether object tracking is enabled.</source>
+          <target state="translated">개체 추적이 사용 되는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property to <ph id="ph1">`false`</ph> improves performance at retrieval time, because there are fewer items to track.</source>
+          <target state="translated">이 속성을 설정 <ph id="ph1">`false`</ph> 사용 되므로 적은 추적할 항목을 검색할 때 성능이 향상 됩니다.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception is thrown:      -   If the property is set to <ph id="ph1">`false`</ph> after a query has been executed.</source>
+          <target state="translated">예외가 throw 됩니다:-의 속성을로 설정 하는 경우 <ph id="ph1">`false`</ph> 쿼리가 실행 된 후입니다.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the Valid Modes section in &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">자세한 내용은 &lt;xref:System.Data.Linq.DataContext&gt;.&lt;/xref:System.Data.Linq.DataContext&gt; 유효한 모드 섹션을 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the property is set to <ph id="ph1">`false`</ph> and &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; is called.</source>
+          <target state="translated">-는 속성이로 설정 되어 있으면 <ph id="ph1">`false`</ph> 및 &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;호출 됩니다.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If ObjectTrackingEnabled is <ph id="ph1">`false`</ph>, &lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt; is ignored and treated as <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">ObjectTrackingEnabled 이면 <ph id="ph1">`false`</ph>, &lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;은 무시 되 고로 처리 <ph id="ph2">`false`</ph>.&lt;/xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the &lt;xref:System.Data.Linq.DataContext&gt; is read-only.</source>
+          <target state="translated">이 경우에 &lt;xref:System.Data.Linq.DataContext&gt;읽기 전용입니다.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If ObjectTrackingEnabled is <ph id="ph1">`true`</ph>, &lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt; is <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">ObjectTrackingEnabled 이면 <ph id="ph1">`true`</ph>, &lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;은 <ph id="ph2">`false`</ph>.&lt;/xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, &lt;xref:System.Data.Linq.DataContext&gt; allows you to load an object graph by using &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; directives, but does not enable deferred loading.</source>
+          <target state="translated">이 경우 &lt;xref:System.Data.Linq.DataContext&gt;개체 그래프를 사용 하 여 로드할 수 있게 해 &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;지시문 하지만 지연 된 로드를 사용 하지 않습니다.&lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; &lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object tracking is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>개체 추적을 사용 하면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Refreshes a collection of entity objects according to the specified mode.</source>
+          <target state="translated">지정된 된 모드에 따라 엔터티 개체의 컬렉션을 새로 고칩니다.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>A value that specifies how optimistic concurrency conflicts are handled.</source>
+          <target state="translated">어떻게 낙관적 동시성 충돌을 지정 하는 값이 처리 됩니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The collection of entities to be refreshed.</source>
+          <target state="translated">컬렉션 엔터티를 새로 고칠 수입니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Refreshes an entity object according to the specified mode.</source>
+          <target state="translated">지정된 된 모드에 따라 엔터티 개체를 새로 고칩니다.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>A value that specifies how optimistic concurrency conflicts are handled.</source>
+          <target state="translated">어떻게 낙관적 동시성 충돌을 지정 하는 값이 처리 됩니다.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The object to be refreshed.</source>
+          <target state="translated">새로 고칠 개체입니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Refreshes an array of entity objects according to the specified mode.</source>
+          <target state="translated">지정된 된 모드에 따라 엔터티 개체의 배열을 새로 고칩니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A value that specifies how optimistic concurrency conflicts are handled.</source>
+          <target state="translated">어떻게 낙관적 동시성 충돌을 지정 하는 값이 처리 됩니다.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The array of entity objects to be refreshed.</source>
+          <target state="translated">새로 고침 할 엔터티 개체의 배열입니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Computes the set of modified objects to be inserted, updated, or deleted, and executes the appropriate commands to implement the changes to the database.</source>
+          <target state="translated">삽입, 업데이트 또는 삭제, 수정 된 개체의 집합을 계산 하 고 데이터베이스에 변경 내용을 구현 하려면 적절 한 명령을 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If override methods are present for insert, update, or delete, &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; executes these methods instead of the default <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> commands.</source>
+          <target state="translated">Insert, update 또는 delete에 대 한 재정의 메서드 없으면 &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;기본값 대신 이러한 메서드를 실행 <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> 명령입니다.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Sends changes that were made to retrieved objects to the underlying database, and specifies the action to be taken if the submission fails.</source>
+          <target state="translated">에 대 한 변경 내용을 기본 데이터베이스에 개체를 검색 하 고 전송에 실패할 경우에 수행할 동작을 지정 보냅니다.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Default failure mode is &lt;xref:System.Data.Linq.ConflictMode&gt;.</source>
+          <target state="translated">기본 오류 모드는 &lt;xref:System.Data.Linq.ConflictMode&gt;.&lt;/xref:System.Data.Linq.ConflictMode&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The action to be taken if the submission fails.</source>
+          <target state="translated">전송에 실패할 경우에 수행할 동작입니다.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Valid arguments are as follows:       <bpt id="p1">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept></source>
+          <target state="translated">올바른 인수는 다음과 같습니다.<bpt id="p1">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Gets or sets a local transaction for the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to use to access the database.</source>
+          <target state="translated">에 대 한 로컬 트랜잭션을 가져오거나 설정 합니다.는 <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> 데이터베이스에 액세스 하는 데 있습니다.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The primary scenario for this property is interoperability with relational <ph id="ph1">[!INCLUDE[vstecado](~/add/includes/vstecado-md.md)]</ph> code.</source>
+          <target state="translated">이 속성에 대 한 기본 시나리오는 관계형와 상호 운용성 <ph id="ph1">[!INCLUDE[vstecado](~/add/includes/vstecado-md.md)]</ph> 코드입니다.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, use this property when you write your own <ph id="ph1">`Create`</ph><ph id="ph2">/</ph><ph id="ph3">`Update`</ph><ph id="ph4">/</ph><ph id="ph5">`Delete`</ph> methods to set the <ph id="ph6">`Transaction`</ph> property on the ADO <ph id="ph7">`Command`</ph> object.</source>
+          <target state="translated">직접 작성 하는 경우이 속성을 사용 하 여 예를 들어 <ph id="ph1">`Create`</ph> <ph id="ph2">/</ph> <ph id="ph3">`Update`</ph> <ph id="ph4">/</ph> <ph id="ph5">`Delete`</ph> 설정 하는 메서드는 <ph id="ph6">`Transaction`</ph> ADO 속성 <ph id="ph7">`Command`</ph> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note the following:      -   If this property has not been explicitly set, the getter returns null.</source>
+          <target state="translated">다음 사항에 주의:-getter이이 속성이 명시적으로 설정 되지 않은 경우 null을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the code is executing in a &lt;xref:System.Transactions.Transaction&gt; context, setting this property throws an exception.</source>
+          <target state="translated">-코드에서 실행 되는 경우는 &lt;xref:System.Transactions.Transaction&gt;예외를 throw 하는 컨텍스트를이 속성을 설정 합니다.&lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If this property is set and a new &lt;xref:System.Transactions.Transaction&gt; is opened, an exception is thrown when a query or update is executed.</source>
+          <target state="translated">-있으면이 속성이 설정 되 고 새 &lt;xref:System.Transactions.Transaction&gt;가 열리고 예외가 쿼리 또는 업데이트가 실행 될 때.&lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The transaction object used by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when executing queries and commands.</source>
+          <target state="translated">사용 하는 트랜잭션 개체는 <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 쿼리와 명령을 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Converts an existing <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to objects.</source>
+          <target state="translated">기존 변환 <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체에 있습니다.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be converted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 변환 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>A list of objects returned by the conversion.</source>
+          <target state="translated">변환에 의해 반환 된 개체의 목록입니다.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Converts an existing <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to objects.</source>
+          <target state="translated">기존 변환 <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체에 있습니다.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The type of the <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> to be returned.</source>
+          <target state="translated">유형의 <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The algorithm for matching columns in the result to fields and properties in the object works as follows:       If a field or property is mapped to a particular column name, that column name is expected in the resultset.</source>
+          <target state="translated">필드에 대 한 결과의 열 및 개체의 속성이 일치 하는 알고리즘은 다음과 같이 작동: 필드 또는 속성에 특정 열 이름에 매핑되는 경우 해당 열 이름이 결과 집합에 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>If a field or property is not mapped, a column with the same name as the field or property is expected in the resultset.</source>
+          <target state="translated">필드 또는 속성이 매핑되지 않은 경우 결과 집합에 열 이름이 같은 필드 또는 속성으로 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The comparison is performed by looking for a case-sensitive match first.</source>
+          <target state="translated">비교는 대/소문자를 먼저 검색 하 여 수행 됩니다.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>If this match is not found, a subsequent search is occurs for a case-insensitive match.</source>
+          <target state="translated">다시 검색 대/소문자 구분 일치 항목에 대해 발생 하는 경우이 항목이 발견 되지 않아 합니다.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The query must return all the tracked fields and properties of the object (except those that are loaded on a deferred basis) when all the following conditions are true:       <ph id="ph1">`T`</ph> is an entity explicitly tracked by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">모든 추적 된 필드와 속성 (제외 하 고 지연 기준 로드)는 개체의이 쿼리에서 반환 되어야 다음 조건에 모두 해당할: <ph id="ph1">`T`</ph> 엔터티 명시적으로에서 추적의 <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt; is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The entity has a primary key.</source>
+          <target state="translated">엔터티는 기본 키를 있습니다.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Otherwise an exception is thrown.</source>
+          <target state="translated">그렇지 않으면 예외가 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be converted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 변환 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>A list of objects returned by the conversion.</source>
+          <target state="translated">변환에 의해 반환 된 개체의 목록입니다.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
