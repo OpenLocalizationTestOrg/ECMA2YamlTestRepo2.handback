@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a131a3b6e85199e9cd0f4371f8ce5b54d87e00e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Documents.TextPointer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fc33d95e16d14084333a1633dfa212803aed9a12</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">edcbb6eebabe2118ebcf7c53d55711f17e118d6f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a position within a <bpt id="p1">&lt;xref href="System.Windows.Documents.FlowDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Controls.TextBlock"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Reprezentuje pozycję w <bpt id="p1">&lt;xref href="System.Windows.Documents.FlowDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> lub <bpt id="p2">&lt;xref href="System.Windows.Controls.TextBlock"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TextPointer class introduces the following terminology:      -   Position - Inherently, a TextPointer always points to a <bpt id="p1">*</bpt>position<ept id="p1">*</ept> in content.</source>
+          <target state="translated">Klasa wskaźnika TextPointer wprowadzono następującą terminologią: - Umieść — z założenia, zawsze wskazuje wskaźnika TextPointer <bpt id="p1">*</bpt>pozycji<ept id="p1">*</ept> w zawartości.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such positions either fall between characters in the content, or between flow content element tags that define structure for the content.</source>
+          <target state="translated">Takie pozycji, albo można podzielić między znaków w zawartości lub przepływ zawartości elementu tagi, które definiowania struktury zawartości.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Current Position - Because a TextPointer always indicates a position, and because many of the operations that can be performed through a TextPointer are relative to the position currently pointed to by the TextPointer, it makes sense to simply refer to the position indicated by a TextPointer as the <bpt id="p1">*</bpt>current position<ept id="p1">*</ept>.</source>
+          <target state="translated">-Bieżącej pozycji — ponieważ wskaźnika TextPointer zawsze wskazuje pozycji, ponieważ wiele operacji, które mogą być wykonywane za pomocą wskaźnika TextPointer względem pozycji aktualnie wskazywana przez wskaźnik TextPointer, dobrym rozwiązaniem jest po prostu odwoływać się do pozycji wskaźnika TextPointer jako <bpt id="p1">*</bpt>bieżącego położenia<ept id="p1">*</ept>.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Insertion Position - An <bpt id="p1">*</bpt>insertion position<ept id="p1">*</ept> is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated">-Wstawiania - <bpt id="p1">*</bpt>wstawiania<ept id="p1">*</ept> jest położenie, w którym można dodać nowej zawartości bez przerywania wszelkie semantycznego reguły dla skojarzonej zawartości.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">W praktyce wstawiania jest dowolne miejsce w sytuacjach, gdy znajduje się daszek zawartości.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a valid TextPointer position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">Przykładem prawidłową pozycją wskaźnika TextPointer, który nie jest wstawiania jest położenie między dwóch sąsiadujących ze sobą &lt;xref:System.Windows.Documents.Paragraph&gt;tagi (to znaczy między tagu zamykającego z poprzednim akapicie i otwierający tag następnego akapitu).&lt;/xref:System.Windows.Documents.Paragraph&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Symbol - For the purposes of TextPointer operations that involve symbols, any of the following is considered to be a <bpt id="p1">*</bpt>symbol<ept id="p1">*</ept>:          -   An opening or closing tag for a &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">— Symbol - na potrzeby operacji wskaźnika TextPointer, które obejmują symbole, następujących jest traktowany jako <bpt id="p1">*</bpt>symbol<ept id="p1">*</ept>: - otwierający lub tagu zamykającego &lt;xref:System.Windows.Documents.TextElement&gt;elementu.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained within an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">- &lt;xref:System.Windows.UIElement&gt;Element zawarty w &lt;xref:System.Windows.Documents.InlineUIContainer&gt;lub &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Uwaga takich &lt;xref:System.Windows.UIElement&gt;jest zawsze traktowanych jak dokładnie jeden symbol; zawartość dodatkowych ani elementów zawartych w &lt;xref:System.Windows.UIElement&gt;nie są liczone jako symbole.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Each 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">-Każdy 16-bitowych <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> znak wewnątrz tekstu &lt;xref:System.Windows.Documents.Run&gt;elementu.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Text Container - A <bpt id="p1">*</bpt>text container<ept id="p1">*</ept> is the element that forms the ultimate border for the flow content at hand; the position indicated by a TextPointer always falls within a text container.</source>
+          <target state="translated">-Kontener tekstu — A <bpt id="p1">*</bpt>kontenera dopisków fonetycznych<ept id="p1">*</ept> jest element, który stanowi ultimate obramowanie wykonywanego zawartość śródwierszowa; pozycji wskaźnika TextPointer zawsze wypada w kontenerze tekstu.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently, a text container must be either a &lt;xref:System.Windows.Documents.FlowDocument&gt; or a &lt;xref:System.Windows.Controls.TextBlock&gt;.</source>
+          <target state="translated">Obecnie kontenera tekst musi być albo &lt;xref:System.Windows.Documents.FlowDocument&gt;lub &lt;xref:System.Windows.Controls.TextBlock&gt;.&lt;/xref:System.Windows.Controls.TextBlock&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generally speaking, operations between TextPointer instances in different text containers are not supported.</source>
+          <target state="translated">Ogólnie rzecz biorąc nie są obsługiwane operacje między wystąpieniami wskaźnika TextPointer w kontenerach inny tekst.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Document - The content in a text container is referred to as a <bpt id="p1">*</bpt>document<ept id="p1">*</ept>, as in the &lt;xref:System.Windows.Documents.TextPointer.IsInSameDocument%2A&gt; method and the &lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt; properties.</source>
+          <target state="translated">Kontener - dokumentu — zawartość w tekście jest określany jako <bpt id="p1">*</bpt>dokumentu<ept id="p1">*</ept>, jak w &lt;xref:System.Windows.Documents.TextPointer.IsInSameDocument%2A&gt;— Metoda i &lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt;i &lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt;Właściwości.&lt;/xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.IsInSameDocument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TextPointer class is intended to facilitate traversal and manipulation of content that is represented by <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> flow content elements; in general, such elements derive from &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">Klasa wskaźnika TextPointer ma na celu ułatwienia przechodzenie i manipulowania nimi zawartość, która jest reprezentowana przez <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> przepływ elementy zawartości; zazwyczaj takie elementy pochodzi od &lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some of the operations that TextPointer facilitates include the following:      -   Perform an ordinal comparison of the current position with a second specified position.</source>
+          <target state="translated">Niektóre operacje, które ułatwia wskaźnika TextPointer są następujące:-wykonać porządkowej porównanie bieżącej pozycji z drugiego określonej pozycji.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt; method.</source>
+          <target state="translated">Zobacz &lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;metody.&lt;/xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Determine the type of content adjacent to the current position in a specified direction.</source>
+          <target state="translated">-Określ typ zawartości sąsiadujące bieżącą pozycję w określonym kierunku.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt; method and &lt;xref:System.Windows.Documents.TextPointerContext&gt; enumeration.</source>
+          <target state="translated">Zobacz &lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt;— Metoda i &lt;xref:System.Windows.Documents.TextPointerContext&gt;wyliczenie.&lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Get the &lt;xref:System.Windows.Documents.TextElement&gt; that scopes or is adjacent to the current position.</source>
+          <target state="translated">-Get &lt;xref:System.Windows.Documents.TextElement&gt;zakresów lub jest przylegające do bieżącego położenia.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See &lt;xref:System.Windows.Documents.Paragraph&gt; and the &lt;xref:System.Windows.Documents.TextPointer.GetAdjacentElement%2A&gt; method.</source>
+          <target state="translated">Zobacz &lt;xref:System.Windows.Documents.Paragraph&gt;i &lt;xref:System.Windows.Documents.TextPointer.GetAdjacentElement%2A&gt;metody.&lt;/xref:System.Windows.Documents.TextPointer.GetAdjacentElement%2A&gt; &lt;/xref:System.Windows.Documents.Paragraph&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Get the text container that scopes the current document.</source>
+          <target state="translated">— Pobierz kontener tekst, który zakresów bieżącego dokumentu.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt; property.</source>
+          <target state="translated">Zobacz &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt;Właściwości.&lt;/xref:System.Windows.Documents.TextPointer.Parent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Get a specified number of characters preceding or following the current position.</source>
+          <target state="translated">— Pobierz określoną liczbę znaków poprzedzające lub następujące bieżącego położenia.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetTextInRun%2A&gt; method.</source>
+          <target state="translated">Zobacz &lt;xref:System.Windows.Documents.TextPointer.GetTextInRun%2A&gt;metody.&lt;/xref:System.Windows.Documents.TextPointer.GetTextInRun%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Insert a string of characters at the current position.</source>
+          <target state="translated">-Wstawić ciąg znaków w bieżącym położeniu.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.InsertTextInRun%2A&gt; method.</source>
+          <target state="translated">Zobacz &lt;xref:System.Windows.Documents.TextPointer.InsertTextInRun%2A&gt;metody.&lt;/xref:System.Windows.Documents.TextPointer.InsertTextInRun%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Find line boundaries in content.</source>
+          <target state="translated">-Znalezienie granice wiersza w zawartości.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt; method and &lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; property.</source>
+          <target state="translated">Zobacz &lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;— Metoda i &lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt;Właściwości.&lt;/xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Translate between TextPointer positions and symbol offsets into content.</source>
+          <target state="translated">-Tłumaczenia położenia wskaźnika TextPointer i przesunięcia symbol do zawartości.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; methods.</source>
+          <target state="translated">Zobacz &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;i &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;metody.&lt;/xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Perform visual hit testing by translating between a TextPointer position and a &lt;xref:System.Windows.Point&gt; representing relative coordinates.</source>
+          <target state="translated">— Wykonaj visual testowania trafień przez tłumaczenie między pozycji wskaźnika TextPointer i &lt;xref:System.Windows.Point&gt;reprezentujący współrzędnych względnych.&lt;/xref:System.Windows.Point&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Find a nearby insertion position, or check whether the current position is an insertion position.</source>
+          <target state="translated">-Znalezienie pobliskich wstawiania lub sprawdź, czy bieżące położenie jest wstawiania.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Documents.TextPointer.GetInsertionPosition%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt; methods and the &lt;xref:System.Windows.Documents.TextPointer.IsAtInsertionPosition%2A&gt; property.</source>
+          <target state="translated">Zobacz &lt;xref:System.Windows.Documents.TextPointer.GetInsertionPosition%2A&gt;i &lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt;metody i &lt;xref:System.Windows.Documents.TextPointer.IsAtInsertionPosition%2A&gt;Właściwości.&lt;/xref:System.Windows.Documents.TextPointer.IsAtInsertionPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetInsertionPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The position and &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; indicated by a TextPointer object are immutable.</source>
+          <target state="translated">Położenie i &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;wskazanych przez obiekt wskaźnika TextPointer są niezmienne.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When content is edited or modified, the position indicated by a TextPointer does not change relative to the surrounding text; rather the offset of that position from the beginning of content is adjusted correspondingly to reflect the new relative position in content.</source>
+          <target state="translated">Edytowane lub modyfikacji zawartości pozycji wskaźnika TextPointer nie powoduje zmiany względem otaczającego tekstu; zamiast przesunięcie tej pozycji od początku zawartości jest dostosowywany odpowiednio do nowej pozycji względnej w zawartości.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a TextPointer that indicates a position at the beginning of a given paragraph continues to point to the beginning of that paragraph even when content is inserted or deleted before or after the paragraph.</source>
+          <target state="translated">Na przykład wskaźnika TextPointer, wskazującą położenie na początku danego akapitu w dalszym ciągu punktu Początek ust nawet wtedy, gdy zawartość zostanie wstawiony lub usunięty przed lub po akapicie.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TextPointer class does not provide any public constructors.</source>
+          <target state="translated">Klasa wskaźnika TextPointer nie zawiera żadnych konstruktorów publicznych.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance of TextPointer is created by using properties or methods of other objects (including other TextPointer objects).</source>
+          <target state="translated">Wystąpienie wskaźnika TextPointer jest tworzona przy użyciu właściwości lub metody innych obiektów (w tym inne obiekty wskaźnika TextPointer).</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following list provides a few examples of methods and properties that create and return a TextPointer.</source>
+          <target state="translated">Poniższa lista zawiera kilka przykładów metody i właściwości, które tworzą i zwracać wskaźnik TextPointer.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This list is not exhaustive:      -   From a &lt;xref:System.Windows.Documents.TextRange&gt;: &lt;xref:System.Windows.Documents.TextRange.Start%2A&gt; and &lt;xref:System.Windows.Documents.TextRange.End%2A&gt;.</source>
+          <target state="translated">Ta lista nie jest wyczerpująca: - z &lt;xref:System.Windows.Documents.TextRange&gt;: &lt;xref:System.Windows.Documents.TextRange.Start%2A&gt;i &lt;xref:System.Windows.Documents.TextRange.End%2A&gt;.&lt;/xref:System.Windows.Documents.TextRange.End%2A&gt; &lt;/xref:System.Windows.Documents.TextRange.Start%2A&gt; &lt;/xref:System.Windows.Documents.TextRange&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   From a &lt;xref:System.Windows.Documents.TextElement&gt;:  &lt;xref:System.Windows.Documents.TextElement.ContentStart%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ContentEnd%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ElementStart%2A&gt;, and &lt;xref:System.Windows.Documents.TextElement.ElementEnd%2A&gt;.</source>
+          <target state="translated">-   From a &lt;xref:System.Windows.Documents.TextElement&gt;:  &lt;xref:System.Windows.Documents.TextElement.ContentStart%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ContentEnd%2A&gt;, &lt;xref:System.Windows.Documents.TextElement.ElementStart%2A&gt;, and &lt;xref:System.Windows.Documents.TextElement.ElementEnd%2A&gt;.&lt;/xref:System.Windows.Documents.TextElement.ElementEnd%2A&gt;&lt;/xref:System.Windows.Documents.TextElement.ElementStart%2A&gt;&lt;/xref:System.Windows.Documents.TextElement.ContentEnd%2A&gt;&lt;/xref:System.Windows.Documents.TextElement.ContentStart%2A&gt;&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   From a &lt;xref:System.Windows.Controls.TextBlock&gt; (text container): &lt;xref:System.Windows.Controls.TextBlock.ContentStart%2A&gt;, &lt;xref:System.Windows.Controls.TextBlock.ContentEnd%2A&gt;, and &lt;xref:System.Windows.Controls.TextBlock.GetPositionFromPoint%2A&gt;.</source>
+          <target state="translated">-From &lt;xref:System.Windows.Controls.TextBlock&gt;(kontener tekst): &lt;xref:System.Windows.Controls.TextBlock.ContentStart%2A&gt;, &lt;xref:System.Windows.Controls.TextBlock.ContentEnd%2A&gt;i &lt;xref:System.Windows.Controls.TextBlock.GetPositionFromPoint%2A&gt;.&lt;/xref:System.Windows.Controls.TextBlock.GetPositionFromPoint%2A&gt; &lt;/xref:System.Windows.Controls.TextBlock.ContentEnd%2A&gt; &lt;/xref:System.Windows.Controls.TextBlock.ContentStart%2A&gt; &lt;/xref:System.Windows.Controls.TextBlock&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   From a &lt;xref:System.Windows.Documents.FlowDocument&gt; (text container): &lt;xref:System.Windows.Documents.FlowDocument.ContentStart%2A&gt;, and &lt;xref:System.Windows.Documents.FlowDocument.ContentEnd%2A&gt;      -   From an existing TextPointer: &lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt;, &lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt;, &lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt;, and &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;.</source>
+          <target state="translated">-From &lt;xref:System.Windows.Documents.FlowDocument&gt;(kontener tekst): &lt;xref:System.Windows.Documents.FlowDocument.ContentStart%2A&gt;, i &lt;xref:System.Windows.Documents.FlowDocument.ContentEnd%2A&gt;— z istniejącego wskaźnika TextPointer: &lt;xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt;, &lt;xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt;, &lt;xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt;i &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;.&lt;/xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetNextInsertionPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.DocumentEnd%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.DocumentStart%2A&gt; &lt;/xref:System.Windows.Documents.FlowDocument.ContentEnd%2A&gt; &lt;/xref:System.Windows.Documents.FlowDocument.ContentStart%2A&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Performs an ordinal comparison between the positions specified by the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and a second specified <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wykonuje porządkowej porównanie położenia określonego przez bieżący <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i określić drugi <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of –1 indicates that the position specified by the current &lt;xref:System.Windows.Documents.TextPointer&gt; precedes the position specified by <ph id="ph1">`position`</ph>.</source>
+          <target state="translated">Wartość -1 wskazuje, że pozycja określona przez bieżące &lt;xref:System.Windows.Documents.TextPointer&gt;poprzedza pozycja określona przez <ph id="ph1">`position`</ph>.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of 0 indicates that the indicated positions are equal.</source>
+          <target state="translated">Wartość 0 wskazuje, że wskazany pozycje są takie same.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of positive +1 indicates that the position specified by the current &lt;xref:System.Windows.Documents.TextPointer&gt; follows the position specified by <ph id="ph1">`position`</ph>.</source>
+          <target state="translated">Wartość dodatnią +&amp;1; oznacza, że pozycja określona przez bieżące &lt;xref:System.Windows.Documents.TextPointer&gt;następuje pozycja określona przez <ph id="ph1">`position`</ph>.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies a position to compare to the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który określa położenie do porównania z bieżącym położeniu.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>–1 if the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> precedes <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">position</ph><ept id="p2">&lt;/code&gt;</ept>; 0 if the locations are the same; +1 if the current <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> follows <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">position</ph><ept id="p4">&lt;/code&gt;</ept>.</source>
+          <target state="translated">– 1, gdy bieżący <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> poprzedza <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">position</ph> <ept id="p2">&lt;/code&gt;</ept>; 0, jeśli lokalizacje są takie same; + 1, jeśli bieżący <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> następuje <bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">position</ph> <ept id="p4">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph> specifies a position outside of the text container associated with the current position.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph>Określa położenie poza kontener tekst skojarzony z bieżącym położeniu.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Deletes the specified number of characters from the position indicated by the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Usuwa określoną liczbę znaków od pozycji bieżącej <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specify a positive value to delete characters that follow the current position (as in &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;); specify a negative value to delete characters that precede the current position (as in &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;).</source>
+          <target state="translated">Określ wartość dodatnią, aby usunąć znaki, które należy wykonać bieżącej pozycji (podobnie jak w &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;); określ wartość ujemną, aby usunąć znaki, które należy poprzedzić bieżącego położenia (podobnie jak w &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;).&lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt; &lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The number of characters actually deleted may be less than the number specified by <ph id="ph1">`count`</ph>.</source>
+          <target state="translated">Liczba znaków w rzeczywistości usunięty może być mniejsza niż liczba określona przez <ph id="ph1">`count`</ph>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This happens in cases where <ph id="ph1">`count`</ph> specifies more characters than exist to be deleted.</source>
+          <target state="translated">Dzieje się tak w przypadku których <ph id="ph1">`count`</ph> określa więcej znaków niż istnieje do usunięcia.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The number of characters to delete, starting at the current position.</source>
+          <target state="translated">Liczba znaków do usunięcia, zaczynając od bieżącego położenia.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specify a positive value to delete characters that follow the current position; specify a negative value to delete characters that precede the current position.</source>
+          <target state="translated">Określ wartość dodatnią, aby usunąć znaki, które należy wykonać bieżącej pozycji; Określ wartość ujemną, aby usunąć znaki, które należy poprzedzić bieżącego położenia.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The number of characters actually deleted.</source>
+          <target state="translated">Liczba znaków w rzeczywistości usunięty.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The method is called at a position where text is not allowed.</source>
+          <target state="translated">Metoda jest wywoływana w miejscu, w których tekst nie jest dozwolone.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the end of content in the text container associated with the current position.</source>
+          <target state="translated">Pobiera <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> na końcu zawartości kontenera tekstowego skojarzonego z bieżącego położenia.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt; for the returned &lt;xref:System.Windows.Documents.TextPointer&gt; is always a text container (&lt;xref:System.Windows.Controls.TextBlock&gt; or &lt;xref:System.Windows.Documents.FlowDocument&gt;), rather than a &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt;Dla zwróconego &lt;xref:System.Windows.Documents.TextPointer&gt;jest zawsze kontenerze tekstu (&lt;xref:System.Windows.Controls.TextBlock&gt; lub &lt;xref:System.Windows.Documents.FlowDocument&gt;), zamiast &lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt; &lt;/xref:System.Windows.Controls.TextBlock&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.Parent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the end of content in the text container associated with the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> na końcu zawartości kontenera tekstowego skojarzonego z bieżącego położenia.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the beginning of content in the text container associated with the current position.</source>
+          <target state="translated">Pobiera <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> na początku zawartości kontenera tekstowego skojarzonego z bieżącego położenia.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the position returned by this property as a baseline position from which to work with relative offsets to other positions.</source>
+          <target state="translated">Użyj pozycji zwracane przez tę właściwość jako pozycji linii bazowej, w którym do pracy z przesunięciem względną do innych pozycji.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; methods provide a way to translate between positions and position offsets.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;i &lt;xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt;metody umożliwiają tłumaczenie między i pozycji przesunięciami.&lt;/xref:System.Windows.Documents.TextPointer.GetPositionAtOffset%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt; for the returned &lt;xref:System.Windows.Documents.TextPointer&gt; is always a text container (&lt;xref:System.Windows.Controls.TextBlock&gt; or &lt;xref:System.Windows.Documents.FlowDocument&gt;), rather than a &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.TextPointer.Parent%2A&gt;Dla zwróconego &lt;xref:System.Windows.Documents.TextPointer&gt;jest zawsze kontenerze tekstu (&lt;xref:System.Windows.Controls.TextBlock&gt; lub &lt;xref:System.Windows.Documents.FlowDocument&gt;), zamiast &lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt; &lt;/xref:System.Windows.Controls.TextBlock&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.Parent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the beginning of content in the text container associated with the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> na początku zawartości kontenera tekstowego skojarzonego z bieżącego położenia.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Returns the element, if any, that borders the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">Zwraca element, jeśli obramowania bieżącej <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w określonym kierunku logiczne.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned element is typically a &lt;xref:System.Windows.Documents.TextElement&gt;.</source>
+          <target state="translated">Zwrócony element jest zwykle &lt;xref:System.Windows.Documents.TextElement&gt;.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.UIElement&gt; can be returned when the &lt;xref:System.Windows.Documents.TextPointer&gt; indicates a position inside a &lt;xref:System.Windows.Documents.BlockUIContainer&gt; element or an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; element.</source>
+          <target state="translated">A &lt;xref:System.Windows.UIElement&gt;może być zwracany podczas &lt;xref:System.Windows.Documents.TextPointer&gt;wskazuje położenie wewnątrz &lt;xref:System.Windows.Documents.BlockUIContainer&gt;element lub &lt;xref:System.Windows.Documents.InlineUIContainer&gt;elementu.&lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for an adjacent element.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa kierunek logicznej wyszukiwania dla elementu sąsiadujących ze sobą.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The adjacent element in the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">direction</ph><ept id="p1">&lt;/code&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no adjacent element exists.</source>
+          <target state="translated">Element sąsiadujących ze sobą w określonym <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">direction</ph> <ept id="p1">&lt;/code&gt;</ept>, lub <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Jeśli sąsiadujących ze sobą nie zawiera żadnego elementu.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Returns a bounding box (<bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) for content that borders the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">Zwraca obwiedni (<bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) dla zawartości, która obramowania bieżącej <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> w określonym kierunku logiczne.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Documents.TextElement&gt; edges are not considered content for the purposes of this method.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.TextElement&gt;krawędziach nie są uznawane za zawartości na potrzeby tej metody.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; is positioned before a &lt;xref:System.Windows.Documents.TextElement&gt; edge, the return value is a bounding box for the next non-&lt;xref:System.Windows.Documents.TextElement&gt; content in the specified direction.</source>
+          <target state="translated">Jeśli &lt;xref:System.Windows.Documents.TextPointer&gt;jest umieszczony przed &lt;xref:System.Windows.Documents.TextElement&gt;krawędzi, zwracana wartość jest obwiednią Następna z systemem innym niż&lt;xref:System.Windows.Documents.TextElement&gt; zawartości w określonym kierunku.&lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.TextElement&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no content in the specified direction, a zero-width &lt;xref:System.Windows.Rect&gt; is returned with a height matching the height of any preceding content.</source>
+          <target state="translated">Jeśli brak zawartości w określonym kierunku zerowej szerokości &lt;xref:System.Windows.Rect&gt;jest zwracany za wysokości dopasowania wysokości żadnych poprzedzających zawartości.&lt;/xref:System.Windows.Rect&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The operation performed by this method depends on a valid layout.</source>
+          <target state="translated">Operacja wykonywana przez tę metodę zależy od prawidłowy układu.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When necessary, this method attempts to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">Jeśli to konieczne, ta metoda próbuje automatycznie ponownie wygenerować układzie prawidłowe przed wykonaniem operacji.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">Trwa ponowne generowanie układu może być dość kosztowna operacja.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt; property to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">Użyj &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;Właściwość do sprawdzenia układu prawidłowe przed wykonaniem operacji, które może ponownie wygenerować układ.&lt;/xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz <bpt id="p1">[</bpt>układu<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to find a content bounding box.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa logicznej kierunek, w którym można znaleźć zawartości obwiedni.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A bounding box for content that borders the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified direction, or <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Rect.Empty%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> if current, valid layout information is unavailable.</source>
+          <target state="translated">Obwiedni zawartości ograniczająca bieżącego <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w określonym kierunku lub <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Rect.Empty%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> Jeśli bieżąca, informacje o układzie prawidłowy jest niedostępny.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the closest insertion position in the specified logical direction.</source>
+          <target state="translated">Zwraca <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do najbliższego wstawiania w określonym kierunku logiczne.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An insertion position is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated">Pozycja wstawiania jest położenie, w którym można dodać nowej zawartości bez przerywania wszelkie semantycznego reguły dla skojarzonej zawartości.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">W praktyce wstawiania jest dowolne miejsce w sytuacjach, gdy znajduje się daszek zawartości.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a valid &lt;xref:System.Windows.Documents.TextPointer&gt; position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">Przykład prawidłowego &lt;xref:System.Windows.Documents.TextPointer&gt;pozycji, która nie jest wstawiania jest pozycją między dwóch sąsiadujących ze sobą &lt;xref:System.Windows.Documents.Paragraph&gt;tagi (oznacza to, że między tagu zamykającego z poprzednim akapicie i otwierający tag następnego akapitu).&lt;/xref:System.Windows.Documents.Paragraph&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; already points to a valid insertion position, but the closing tag for a non-empty formatting sequence directly follows that position in the given direction, then the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by this method is adjusted to point to the insertion position just after the close of the formatting sequence.</source>
+          <target state="translated">Jeśli &lt;xref:System.Windows.Documents.TextPointer&gt;już wskazuje prawidłowy wstawiania, lecz tag zamykający dla niepustej sekwencji formatowania bezpośrednio następuje tej pozycji w określonym kierunku, a następnie &lt;xref:System.Windows.Documents.TextPointer&gt;zwróconych przez to metody jest dostosowana do wskaż pozycja wstawiania zaraz po zamknięciu formatowania sekwencji.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, consider the markup sequence <ph id="ph1">`&lt;Bold&gt;``a``&lt;/Bold&gt;``b`</ph>.</source>
+          <target state="translated">Rozważmy na przykład sekwencji znaczników <ph id="ph1">`&lt;Bold&gt;``a``&lt;/Bold&gt;``b`</ph>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that there are two insertion positions between the letters <ph id="ph1">`a`</ph> and <ph id="ph2">`b`</ph>—one that precedes the closing <ph id="ph3">`Bold`</ph> tag, and one directly following the closing <ph id="ph4">`Bold`</ph> tag.</source>
+          <target state="translated">Należy pamiętać, że istnieją dwie pozycje wstawiania między literami <ph id="ph1">`a`</ph> i <ph id="ph2">`b`</ph>— poprzedzającym zamknięcia <ph id="ph3">`Bold`</ph> tag, a drugi, bezpośrednio po upływie <ph id="ph4">`Bold`</ph> tagu.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If GetInsertionPosition is called on a &lt;xref:System.Windows.Documents.TextPointer&gt; to the position directly after the letter <ph id="ph1">`a`</ph> and before of the closing <ph id="ph2">`Bold`</ph> tag, and with a <ph id="ph3">`direction`</ph> of &lt;xref:System.Windows.Documents.LogicalDirection&gt;, the returned &lt;xref:System.Windows.Documents.TextPointer&gt; is adjusted to point to the position just before the letter <ph id="ph4">`b`</ph>, after the closing <ph id="ph5">`Bold`</ph> tag.</source>
+          <target state="translated">Jeśli GetInsertionPosition jest wywoływana na &lt;xref:System.Windows.Documents.TextPointer&gt;do położenia bezpośrednio po literę <ph id="ph1">`a`</ph> i przed zamknięcia <ph id="ph2">`Bold`</ph> tag i z <ph id="ph3">`direction`</ph> z &lt;xref:System.Windows.Documents.LogicalDirection&gt;, zwracana &lt;xref:System.Windows.Documents.TextPointer&gt;jest ustawiane w pozycji tuż przed literą <ph id="ph4">`b`</ph>, po upływie <ph id="ph5">`Bold`</ph> tagu.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.LogicalDirection&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A similar adjustment is made for opening formatting tags when working in the opposite logical direction.</source>
+          <target state="translated">Podobne dostosowań do otwarcia tagów formatowania podczas pracy w przeciwnym kierunku logiczne.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is intended to provide a means of disambiguation between insertion positions in similar cases.</source>
+          <target state="translated">Ta metoda jest przeznaczona do pozwalają Uściślanie między pozycje wstawiania w podobnych przypadków.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can also be used to be selective about insertion points when a sequence of structural tags is involved.</source>
+          <target state="translated">Ta metoda umożliwia również można selektywnie punkty wstawienia, gdy uczestniczy sekwencji strukturalnych tagów.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, when at a position between closing and opening paragraph tags, the direction parameter can be used to select the closest insertion point at the beginning of the following paragraph (by specifying &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;) or at the end of the preceding paragraph (by specifying &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;).</source>
+          <target state="translated">Na przykład, gdy na pozycji od zamknięcia i otwarcia tagów akapitu, kierunku parametru może służyć do wybierz najbliższy punkt wstawiania na początku następujący ustęp (określając &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;) lub na końcu poprzednim akapicie (określając &lt;xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;).&lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt; &lt;/xref:System.Windows.Documents.LogicalDirection?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pointer is already at insertion position, and there are no adjacent formatting tags in the specified <ph id="ph1">`direction`</ph>, the returned &lt;xref:System.Windows.Documents.TextPointer&gt; points to the same position as the calling &lt;xref:System.Windows.Documents.TextPointer&gt;.</source>
+          <target state="translated">Gdy wskaźnik myszy znajduje się już w wstawiania i nie ma żadnych sąsiadujących znaczników formatowania w określonym <ph id="ph1">`direction`</ph>, zwróciła &lt;xref:System.Windows.Documents.TextPointer&gt;wskazuje na tym samym miejscu wywołania &lt;xref:System.Windows.Documents.TextPointer&gt;.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is possible that no valid insertion position exists relative to the position pointed to by a &lt;xref:System.Windows.Documents.TextPointer&gt;.</source>
+          <target state="translated">Istnieje możliwość, czy nie prawidłowy wstawiania istnieje względem z pozycji wskazywanej przez &lt;xref:System.Windows.Documents.TextPointer&gt;.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can happen if the referenced content is structurally incomplete, as in an empty table or list.</source>
+          <target state="translated">Może to nastąpić, jeśli przywoływanej zawartości jest strukturalnie niekompletne, jak pusta tabela lub listy.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In such cases, this method simply returns a &lt;xref:System.Windows.Documents.TextPointer&gt; to the same position as the &lt;xref:System.Windows.Documents.TextPointer&gt; from which this method was called.</source>
+          <target state="translated">W takich przypadkach, ta metoda po prostu zwraca &lt;xref:System.Windows.Documents.TextPointer&gt;na tym samym miejscu &lt;xref:System.Windows.Documents.TextPointer&gt;z została wywołana metoda.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method always returns a valid &lt;xref:System.Windows.Documents.TextPointer&gt;.</source>
+          <target state="translated">Ta metoda zawsze zwraca prawidłową &lt;xref:System.Windows.Documents.TextPointer&gt;.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for the closest insertion position.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa logicznej kierunek, w których będą poszukiwane najbliższego wstawiania.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the closest insertion position in the specified direction.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do najbliższego wstawiania w określonym kierunku.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning of a line that is specified relative to the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Zwraca <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> na początku wiersza, który został określony względem bieżącej <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; points to an ambiguous position, for example, between two lines, the line in the direction specified by &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; is selected as the relative starting line.</source>
+          <target state="translated">Jeśli &lt;xref:System.Windows.Documents.TextPointer&gt;punktów niejednoznaczne pozycji, na przykład między dwoma liniami wiersza w kierunku określony przez &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;został wybrany jako względną wiersza początkowego.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The operation performed by this method depends on a valid layout.</source>
+          <target state="translated">Operacja wykonywana przez tę metodę zależy od prawidłowy układu.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When necessary, this method attempts to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">Jeśli to konieczne, ta metoda próbuje automatycznie ponownie wygenerować układzie prawidłowe przed wykonaniem operacji.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">Trwa ponowne generowanie układu może być dość kosztowna operacja.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt; to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">Użyj &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;do sprawdzenia układu prawidłowe przed wykonaniem operacji, które może ponownie wygenerować układ.&lt;/xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz <bpt id="p1">[</bpt>układu<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The number of start-of-line markers to skip when determining the line for which to return the starting position.</source>
+          <target state="translated">Liczba znaczników linii początkowej można pominąć w przypadku określenia wiersza, dla którego ma zostać zwrócona pozycji początkowej.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Negative values specify preceding lines, 0 specifies the current line, and positive values specify following lines.</source>
+          <target state="translated">Wartości ujemne określić poprzednich wierszy, 0 określa bieżącego wiersza i określ liczbę wartości dodatnich kolejne wiersze.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> pointing to the beginning of the specified line (with the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt; set to <bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>), or <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the specified line is out of range or otherwise cannot be located.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujące na początku określonego wiersza (z &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;ustawioną <bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>), lub <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> Jeśli określonego wiersza jest spoza zakresu lub w przeciwnym razie nie można odnaleźć.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning of a line that is specified relative to the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, and reports how many lines were skipped.</source>
+          <target state="translated">Zwraca <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> na początku wiersza, który został określony względem bieżącej <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>i w raportach, ile wierszy zostały pominięte.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; points to an ambiguous position, for example, between two lines, the line in the direction specified by the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; property is selected as the relative starting line.</source>
+          <target state="translated">Jeśli &lt;xref:System.Windows.Documents.TextPointer&gt;punktów niejednoznaczne pozycji, na przykład między dwoma liniami wiersza w kierunku określony przez &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;Właściwość został wybrany jako względną wiersza początkowego.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The number of start-of-line markers to skip when determining the line for which to return the starting position.</source>
+          <target state="translated">Liczba znaczników linii początkowej można pominąć w przypadku określenia wiersza, dla którego ma zostać zwrócona pozycji początkowej.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Negative values specify preceding lines, 0 specifies the current line, and positive values specify following lines.</source>
+          <target state="translated">Wartości ujemne określić poprzednich wierszy, 0 określa bieżącego wiersza i określ liczbę wartości dodatnich kolejne wiersze.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the actual number of start-of-line markers that were skipped when determining the line for which to return the starting position.</source>
+          <target state="translated">Gdy metoda zwróci wartość, zawiera rzeczywistą liczbę znaczników początek wiersza, które zostały pominięte podczas określania wiersza, dla którego ma zostać zwrócona pozycji początkowej.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This value may be less than <ph id="ph1">`count`</ph> if the beginning or end of content is encountered before the specified number of lines are skipped.</source>
+          <target state="translated">Ta wartość może być mniejsza niż <ph id="ph1">`count`</ph> Jeśli początek lub koniec zawartości napotkano przed określoną liczbę wierszy są pomijane.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Ten parametr jest przekazywany jako niezainicjowany.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> pointing to the beginning of the specified line (with the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt; set to <bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>), or to the beginning of the line closest to the specified line if the specified line is out of range.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wskazujące na początku określonego wiersza (z &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;ustawioną <bpt id="p2">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>), lub do początku wiersza najbliżej określonego wiersza, jeśli określony wiersz jest poza zakresem.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Returns a pointer to the next symbol in the specified logical direction.</source>
+          <target state="translated">Zwraca wskaźnik do następny symbol w określonym kierunku logiczne.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for a &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">Jedną z następujących czynności jest traktowany jako symbol: — otwierający lub zamykający dla &lt;xref:System.Windows.Documents.TextElement&gt;elementu.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">- &lt;xref:System.Windows.UIElement&gt;Element zawarta w &lt;xref:System.Windows.Documents.InlineUIContainer&gt;lub &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Uwaga takich &lt;xref:System.Windows.UIElement&gt;jest zawsze traktowanych jak dokładnie jeden symbol; zawartość dodatkowych ani elementów zawartych w &lt;xref:System.Windows.UIElement&gt;nie są liczone jako symbole.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">16-bitowych <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> znak wewnątrz tekstu &lt;xref:System.Windows.Documents.Run&gt;elementu.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the next symbol is categorized as &lt;xref:System.Windows.Documents.TextPointerContext&gt;, &lt;xref:System.Windows.Documents.TextPointerContext&gt;, or &lt;xref:System.Windows.Documents.TextPointerContext&gt; (as identified by the &lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt; method), then the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by this method is advanced by exactly one symbol from the current position.</source>
+          <target state="translated">Jeśli następny symbol jest skategoryzowany jako &lt;xref:System.Windows.Documents.TextPointerContext&gt;, &lt;xref:System.Windows.Documents.TextPointerContext&gt;, lub &lt;xref:System.Windows.Documents.TextPointerContext&gt;(określonej za pomocą &lt;xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt;— Metoda), a następnie &lt;xref:System.Windows.Documents.TextPointer&gt;zwróconych przez to metoda jest zaawansowane dokładnie jeden symbol od bieżącego położenia.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetPointerContext%2A&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the next symbol is categorized as &lt;xref:System.Windows.Documents.TextPointerContext&gt;, then the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by this method is advanced past the text to the next non-text symbol (that is, the next position where the &lt;xref:System.Windows.Documents.TextPointerContext&gt; is not &lt;xref:System.Windows.Documents.TextPointerContext&gt;).</source>
+          <target state="translated">Jeśli następny symbol jest skategoryzowany jako &lt;xref:System.Windows.Documents.TextPointerContext&gt;, a następnie &lt;xref:System.Windows.Documents.TextPointer&gt;zwróconych przez to metody jest zaawansowane poza tekst, aby następny symbol nietekstowych (czyli następnej pozycji where &lt;xref:System.Windows.Documents.TextPointerContext&gt;nie jest &lt;xref:System.Windows.Documents.TextPointerContext&gt;).&lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exact symbol count crossed can be calculated in advance by calling the &lt;xref:System.Windows.Documents.TextPointer.GetTextRunLength%2A&gt; method.</source>
+          <target state="translated">Liczba dokładne symbol przekroczyła może zostać obliczona wcześniej przez wywołanie metody &lt;xref:System.Windows.Documents.TextPointer.GetTextRunLength%2A&gt;metody.&lt;/xref:System.Windows.Documents.TextPointer.GetTextRunLength%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for the next symbol.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa logicznej kierunek, w których będą poszukiwane następny symbol.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next symbol in the requested direction, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the current <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> borders the start or end of content.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> na następny symbol w kierunku żądanej lub <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Jeśli bieżące <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> obramowania początek lub koniec zawartości.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next insertion position in the specified logical direction.</source>
+          <target state="translated">Zwraca <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do następnego wstawiania w określonym kierunku logiczne.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An <bpt id="p1">*</bpt>insertion position<ept id="p1">*</ept> is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated"><bpt id="p1">*</bpt>Wstawiania<ept id="p1">*</ept> jest położenie, w którym można dodać nowej zawartości bez przerywania wszelkie semantycznego reguły dla skojarzonej zawartości.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">W praktyce wstawiania jest dowolne miejsce w sytuacjach, gdy znajduje się daszek zawartości.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a valid &lt;xref:System.Windows.Documents.TextPointer&gt; position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">Przykład prawidłowego &lt;xref:System.Windows.Documents.TextPointer&gt;pozycji, która nie jest wstawiania jest pozycją między dwóch sąsiadujących ze sobą &lt;xref:System.Windows.Documents.Paragraph&gt;tagi (oznacza to, że między tagu zamykającego z poprzednim akapicie i otwierający tag następnego akapitu).&lt;/xref:System.Windows.Documents.Paragraph&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to search for the next insertion position.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa logicznej kierunek, w których będą poszukiwane dalej wstawiania.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that identifies the next insertion position in the requested direction, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no next insertion position can be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , które identyfikują dalej wstawiania w kierunku żądanej lub <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> w przypadku nieodnalezienia nie dalej wstawiania.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Returns the count of symbols between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and a second specified <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Zwraca liczbę symbole między bieżącą <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i określić drugi <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for a &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">Jedną z następujących czynności jest traktowany jako symbol: — otwierający lub zamykający dla &lt;xref:System.Windows.Documents.TextElement&gt;elementu.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">- &lt;xref:System.Windows.UIElement&gt;Element zawarta w &lt;xref:System.Windows.Documents.InlineUIContainer&gt;lub &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Uwaga takich &lt;xref:System.Windows.UIElement&gt;jest zawsze traktowanych jak dokładnie jeden symbol; zawartość dodatkowych ani elementów zawartych w &lt;xref:System.Windows.UIElement&gt;nie są liczone jako symbole.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">16-bitowych <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> znak wewnątrz tekstu &lt;xref:System.Windows.Documents.Run&gt;elementu.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies a position to find the distance (in symbols) to.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który określa stanie znaleźć odległość (w symboli).</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The relative number of symbols between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">position</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Względne liczbę symboli między bieżącą <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">position</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A negative value indicates that the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> follows the position specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">position</ph><ept id="p2">&lt;/code&gt;</ept>, 0 indicates that the positions are equal, and a positive value indicates that the current <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> precedes the position specified by <bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">position</ph><ept id="p4">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Ujemna wartość oznacza, że bieżący <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> następuje pozycja określona przez <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">position</ph> <ept id="p2">&lt;/code&gt;</ept>, 0 wskazuje, że pozycje są takie same i dodatnią wartość wskazuje, że bieżące <bpt id="p3">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> poprzedza pozycja określona przez <bpt id="p4">&lt;code&gt;</bpt> <ph id="ph2">position</ph> <ept id="p4">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph> specifies a position outside of the text container associated with the current position.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;position&lt;/code&gt;</ph>Określa położenie poza kontener tekst skojarzony z bieżącym położeniu.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Returns a category indicator for the content adjacent to the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">Zwraca wskaźnik kategorii, dla zawartości przylegające do bieżącego <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w określonym kierunku logiczne.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to determine the category for adjacent content.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa logicznej kierunek, w którym można określić kategorię dla zawartości sąsiadujących ze sobą.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointerContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates the category for adjacent content in the specified logical direction.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointerContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które wskazuje, że kategoria sąsiadujących zawartości w określonym kierunku logiczne.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, in symbols, from the beginning of the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Zwraca <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przez określone przesunięcie w symbolach, począwszy od bieżącej pozycji <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for the &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">Jedną z następujących czynności jest traktowany jako symbol: — otwierający lub zamykający dla &lt;xref:System.Windows.Documents.TextElement&gt;elementu.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">- &lt;xref:System.Windows.UIElement&gt;Element zawarta w &lt;xref:System.Windows.Documents.InlineUIContainer&gt;lub &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Uwaga takich &lt;xref:System.Windows.UIElement&gt;jest zawsze traktowanych jak dokładnie jeden symbol; zawartość dodatkowych ani elementów zawartych w &lt;xref:System.Windows.UIElement&gt;nie są liczone jako symbole.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">16-bitowych <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> znak wewnątrz tekstu &lt;xref:System.Windows.Documents.Run&gt;elementu.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>An offset, in symbols, for which to calculate and return the position.</source>
+          <target state="translated">Przesunięcie w symbolach, dla której obliczana i zwraca położenie.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>If the offset is negative, the position is calculated in the logical direction opposite of that indicated by the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt; property.</source>
+          <target state="translated">Jeśli przesunięcie jest ujemna, pozycja jest obliczana w kierunku logicznej przeciwne wskazaną przez &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;Właściwości.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection*&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, or<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>if no corresponding position can be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> pozycji przez określone przesunięcie lub<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>w przypadku nieodnalezienia nie odpowiedniej pozycji.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, in symbols, from the beginning of the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and in the specified direction.</source>
+          <target state="translated">Zwraca <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przez określone przesunięcie w symbolach, począwszy od bieżącej pozycji <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> i w określonym kierunku.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for the &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">Jedną z następujących czynności jest traktowany jako symbol: — otwierający lub zamykający dla &lt;xref:System.Windows.Documents.TextElement&gt;elementu.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">- &lt;xref:System.Windows.UIElement&gt;Element zawarta w &lt;xref:System.Windows.Documents.InlineUIContainer&gt;lub &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Uwaga takich &lt;xref:System.Windows.UIElement&gt;jest zawsze traktowanych jak dokładnie jeden symbol; zawartość dodatkowych ani elementów zawartych w &lt;xref:System.Windows.UIElement&gt;nie są liczone jako symbole.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">16-bitowych <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> znak wewnątrz tekstu &lt;xref:System.Windows.Documents.Run&gt;elementu.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>An offset, in symbols, for which to calculate and return the position.</source>
+          <target state="translated">Przesunięcie w symbolach, dla której obliczana i zwraca położenie.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>If the offset is negative, the returned <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> precedes the current <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, it follows.</source>
+          <target state="translated">Jeśli przesunięcie jest ujemna, zwracana <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> poprzedza bieżącego <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; w przeciwnym razie wynika z.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction of the returned <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa kierunek logicznej zwracana <bpt id="p2">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the position indicated by the specified offset, or<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>if the offset extends past the end of the content.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> pozycji przez określone przesunięcie lub<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>Jeśli przesunięcie rozciąga się poza koniec zawartości.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Returns a string containing any text adjacent to the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified logical direction.</source>
+          <target state="translated">Zwraca ciąg zawierający tekst obok bieżącej <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w określonym kierunku logiczne.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns only uninterrupted runs of text.</source>
+          <target state="translated">Ta metoda zwraca tylko nieprzerwaną serii tekstu.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Nothing is returned if any symbol type other than &lt;xref:System.Windows.Documents.TextPointerContext&gt; is adjacent to the current &lt;xref:System.Windows.Documents.TextPointer&gt; in the specified direction.</source>
+          <target state="translated">Nic nie zostanie zwrócone, jeśli żadnego typu symbolu innego niż &lt;xref:System.Windows.Documents.TextPointerContext&gt;sąsiaduje z bieżącej &lt;xref:System.Windows.Documents.TextPointer&gt;w określonym kierunku.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, text is returned only up to the next non-text symbol.</source>
+          <target state="translated">Podobnie tekstu jest zwracana tylko do następny symbol nietekstowych.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to find and return any adjacent text.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa kierunek logicznej odnajdujący i zwracający dowolnym sąsiadującym tekstem.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>A string containing any adjacent text in the specified logical direction, or <ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> if no adjacent text can be found.</source>
+          <target state="translated">Ciąg zawierający dowolnym sąsiadującym tekstem w określonym kierunku logiczne, lub <ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> w przypadku nieodnalezienia nie sąsiadującym tekstem.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Copies the specified maximum number of characters from any adjacent text in the specified direction into a caller-supplied character array.</source>
+          <target state="translated">Kopiuje określoną maksymalną liczbę znaków z dowolnym sąsiadującym tekstem w określonym kierunku do tablicy znaków dostarczony przez obiekt wywołujący.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns only uninterrupted runs of text.</source>
+          <target state="translated">Ta metoda zwraca tylko nieprzerwaną serii tekstu.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Nothing is returned if any symbol type other than &lt;xref:System.Windows.Documents.TextPointerContext&gt; is adjacent to the current &lt;xref:System.Windows.Documents.TextPointer&gt; in the specified direction.</source>
+          <target state="translated">Nic nie zostanie zwrócone, jeśli żadnego typu symbolu innego niż &lt;xref:System.Windows.Documents.TextPointerContext&gt;sąsiaduje z bieżącej &lt;xref:System.Windows.Documents.TextPointer&gt;w określonym kierunku.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointerContext&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, text is returned only up to the next non-text symbol.</source>
+          <target state="translated">Podobnie tekstu jest zwracana tylko do następny symbol nietekstowych.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to find and copy any adjacent text.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa logicznej kierunek, w którym można znaleźć i skopiować dowolnym sąsiadującym tekstem.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A buffer into which any text is copied.</source>
+          <target state="translated">Bufor, do którego jest skopiowany tekst.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An index into <ph id="ph1">`textBuffer`</ph> at which to begin writing copied text.</source>
+          <target state="translated">Indeks do <ph id="ph1">`textBuffer`</ph> jaką rozpocząć pisanie skopiowany tekst.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The maximum number of characters to copy.</source>
+          <target state="translated">Maksymalna liczba znaków do skopiowania.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The number of characters actually copied into <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">textBuffer</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Liczba znaków, które faktycznie kopiowane do <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">textBuffer</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph> is less than 0 or greater than the <ph id="ph2">&lt;xref:System.Array.Length*&gt;</ph> property of <ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph>jest mniejsza niż 0 lub większą niż <ph id="ph2">&lt;xref:System.Array.Length*&gt;</ph> właściwość <ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than 0 or greater than the remaining space in <ph id="ph2">&lt;code&gt;textBuffer&lt;/code&gt;</ph> (<ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>.<ph id="ph4">&lt;xref:System.Array.Length*&gt;</ph></source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> jest mniejsza niż 0 lub większą niż pozostałe miejsce w <ph id="ph2">&lt;code&gt;textBuffer&lt;/code&gt;</ph> (<ph id="ph3">&lt;code&gt;textBuffer&lt;/code&gt;</ph>.<ph id="ph4">&lt;xref:System.Array.Length*&gt;</ph></target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>minus <ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph>).</source>
+          <target state="translated">minus <ph id="ph1">&lt;code&gt;startIndex&lt;/code&gt;</ph>).</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Returns the number of Unicode characters between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the next non-text symbol, in the specified logical direction.</source>
+          <target state="translated">Zwraca liczbę znaków Unicode między bieżącą <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i następny symbol nietekstowych w określonym kierunku logiczne.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any of the following is considered to be a symbol:      -   An opening or closing tag for the &lt;xref:System.Windows.Documents.TextElement&gt; element.</source>
+          <target state="translated">Jedną z następujących czynności jest traktowany jako symbol: — otwierający lub zamykający dla &lt;xref:System.Windows.Documents.TextElement&gt;elementu.&lt;/xref:System.Windows.Documents.TextElement&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A &lt;xref:System.Windows.UIElement&gt; element contained in an &lt;xref:System.Windows.Documents.InlineUIContainer&gt; or &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.</source>
+          <target state="translated">- &lt;xref:System.Windows.UIElement&gt;Element zawarta w &lt;xref:System.Windows.Documents.InlineUIContainer&gt;lub &lt;xref:System.Windows.Documents.BlockUIContainer&gt;.&lt;/xref:System.Windows.Documents.BlockUIContainer&gt; &lt;/xref:System.Windows.Documents.InlineUIContainer&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that such a &lt;xref:System.Windows.UIElement&gt; is always counted as exactly one symbol; any additional content or elements contained by the &lt;xref:System.Windows.UIElement&gt; are not counted as symbols.</source>
+          <target state="translated">Uwaga takich &lt;xref:System.Windows.UIElement&gt;jest zawsze traktowanych jak dokładnie jeden symbol; zawartość dodatkowych ani elementów zawartych w &lt;xref:System.Windows.UIElement&gt;nie są liczone jako symbole.&lt;/xref:System.Windows.UIElement&gt; &lt;/xref:System.Windows.UIElement&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A 16-bit <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> character inside of a text &lt;xref:System.Windows.Documents.Run&gt; element.</source>
+          <target state="translated">16-bitowych <ph id="ph1">[!INCLUDE[TLA#tla_unicode](~/add/includes/ajax-current-ext-md.md)]</ph> znak wewnątrz tekstu &lt;xref:System.Windows.Documents.Run&gt;elementu.&lt;/xref:System.Windows.Documents.Run&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the logical direction in which to count the number of characters.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa logicznej kierunek, w którym można określić liczbę znaków.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The number of Unicode characters between the current <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the next non-text symbol.</source>
+          <target state="translated">Liczba znaków Unicode między bieżącą <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i następny symbol nietekstowych.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>This number may be 0 if there is no adjacent text.</source>
+          <target state="translated">Ta liczba może być 0, jeśli nie ma żadnego tekstu sąsiadujących ze sobą.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the text container associated with the current position has a valid (up-to-date) layout.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy kontener tekst skojarzony z bieżącą pozycję ma prawidłową układ (aktualne).</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When necessary, operations that depend on a valid layout (such as the &lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt; method, &lt;xref:System.Windows.Documents.TextPointer.GetCharacterRect%2A&gt; method, and &lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; property) attempt to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">W razie potrzeby operacje, które są zależne od prawidłowy układu (takich jak &lt;xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;metody &lt;xref:System.Windows.Documents.TextPointer.GetCharacterRect%2A&gt;metody i &lt;xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt;Właściwości) próbować automatycznie ponownie wygenerować układzie prawidłowe przed wykonaniem operacji.&lt;/xref:System.Windows.Documents.TextPointer.IsAtLineStartPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetCharacterRect%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetLineStartPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">Trwa ponowne generowanie układu może być dość kosztowna operacja.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">Tej właściwości należy użyć, aby sprawdzić układ prawidłowe przed wykonaniem operacji, które może ponownie wygenerować układu.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz <bpt id="p1">[</bpt>układu<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the layout is current and valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli układ są aktualne i prawidłowe; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Inserts a line break at the current position.</source>
+          <target state="translated">Wstawia podział wiersza w bieżącym położeniu.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> positioned immediately after the <bpt id="p2">&lt;xref href="System.Windows.Documents.LineBreak"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> element inserted by this method.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> pozycjonowane natychmiast po <bpt id="p2">&lt;xref href="System.Windows.Documents.LineBreak"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> element wstawiony przez tę metodę.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Inserts a paragraph break at the current position.</source>
+          <target state="translated">Wstawia podział akapitu w bieżącym położeniu.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method is called when the current position is inside of an existing &lt;xref:System.Windows.Documents.Paragraph&gt; element, the existing paragraph and any content it contains are split into two paragraphs at the current position.</source>
+          <target state="translated">Jeśli ta metoda jest wywoływana, gdy bieżące położenie jest wewnątrz istniejącego &lt;xref:System.Windows.Documents.Paragraph&gt;elementu, istniejące akapitu oraz zawartość zawiera są podzielone na dwa akapity w bieżącym położeniu.&lt;/xref:System.Windows.Documents.Paragraph&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method is called when the current position is not inside of an existing paragraph, a new, empty paragraph is inserted.</source>
+          <target state="translated">Jeśli ta metoda jest wywoływana, gdy bieżąca pozycja nie znajduje się wewnątrz istniejącego akapitu, jest wstawiany akapitu nowy, pusty.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method is called at a position unsuitable for splitting or inserting a paragraph (for example, if the current position is inside of a &lt;xref:System.Windows.Documents.Hyperlink&gt; element), an exception is thrown.</source>
+          <target state="translated">Jeśli ta metoda jest wywoływana na pozycji nie nadaje się do dzielenia lub wstawianie akapitu (na przykład, jeśli bieżące położenie jest wewnątrz &lt;xref:System.Windows.Documents.Hyperlink&gt;element), jest zgłaszany wyjątek.&lt;/xref:System.Windows.Documents.Hyperlink&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the beginning (&lt;xref:System.Windows.Documents.TextElement.ContentStart*&gt;) of the new paragraph.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> na początku (&lt;xref:System.Windows.Documents.TextElement.ContentStart*&gt;) nowy akapit.&lt;/xref:System.Windows.Documents.TextElement.ContentStart*&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>This method is called on a position that cannot be split to accommodate a new paragraph, such as in the scope of a <bpt id="p1">&lt;xref href="System.Windows.Documents.Hyperlink"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Documents.InlineUIContainer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ta metoda jest wywoływana na pozycji nie można podzielić, aby pomieścić nowy akapit, takich jak w zakresie <bpt id="p1">&lt;xref href="System.Windows.Documents.Hyperlink"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> lub <bpt id="p2">&lt;xref href="System.Windows.Documents.InlineUIContainer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Inserts the specified text into the text <bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> at the current position.</source>
+          <target state="translated">Wstawia określony tekst w tekście <bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w bieżącym położeniu.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; is not scoped by a &lt;xref:System.Windows.Documents.Run&gt; element, a &lt;xref:System.Windows.Documents.Run&gt; is inserted along with the <ph id="ph1">`textData`</ph>.</source>
+          <target state="translated">Jeśli &lt;xref:System.Windows.Documents.TextPointer&gt;jest poza zakresem przez &lt;xref:System.Windows.Documents.Run&gt;elementu &lt;xref:System.Windows.Documents.Run&gt;dodaje się wraz z programem <ph id="ph1">`textData`</ph>.&lt;/xref:System.Windows.Documents.Run&gt; &lt;/xref:System.Windows.Documents.Run&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The text to insert.</source>
+          <target state="translated">Tekst do wstawienia.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The current position is not within a <bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element.</source>
+          <target state="translated">Bieżąca pozycja nie znajduje się w <bpt id="p1">&lt;xref href="System.Windows.Documents.Run"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elementu.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;textData&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;textData&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the current position is an insertion position.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy bieżące położenie jest wstawiania.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An insertion position is a position where new content may be added without breaking any semantic rules for the associated content.</source>
+          <target state="translated">Pozycja wstawiania jest położenie, w którym można dodać nowej zawartości bez przerywania wszelkie semantycznego reguły dla skojarzonej zawartości.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In practice, an insertion position is anywhere in content where a caret may be positioned.</source>
+          <target state="translated">W praktyce wstawiania jest dowolne miejsce w sytuacjach, gdy znajduje się daszek zawartości.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a valid &lt;xref:System.Windows.Documents.TextPointer&gt; position that is not an insertion position is the position between two adjacent &lt;xref:System.Windows.Documents.Paragraph&gt; tags (that is, between the closing tag of the preceding paragraph and the opening tag of the next paragraph).</source>
+          <target state="translated">Przykład prawidłowego &lt;xref:System.Windows.Documents.TextPointer&gt;pozycji, która nie jest wstawiania jest pozycją między dwóch sąsiadujących ze sobą &lt;xref:System.Windows.Documents.Paragraph&gt;tagi (oznacza to, że między tagu zamykającego z poprzednim akapicie i otwierający tag następnego akapitu).&lt;/xref:System.Windows.Documents.Paragraph&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current position is an insertion position; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli bieżące położenie jest wstawiania; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the current position is at the beginning of a line.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy bieżące położenie jest na początku wiersza.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Windows.Documents.TextPointer&gt; points to an ambiguous position, for example, between two lines, the line in the direction specified by the &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; property is selected as the relative starting line.</source>
+          <target state="translated">Jeśli &lt;xref:System.Windows.Documents.TextPointer&gt;punktów niejednoznaczne pozycji, na przykład między dwoma liniami wiersza w kierunku określony przez &lt;xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt;Właściwość został wybrany jako względną wiersza początkowego.&lt;/xref:System.Windows.Documents.TextPointer.LogicalDirection%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The operation performed by this property depends on a valid layout.</source>
+          <target state="translated">Operacja wykonywana przez tę właściwość zależy od prawidłowy układu.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When necessary, this method attempts to automatically regenerate a valid layout before proceeding with the operation.</source>
+          <target state="translated">Jeśli to konieczne, ta metoda próbuje automatycznie ponownie wygenerować układzie prawidłowe przed wykonaniem operacji.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regenerating a layout can be a relatively expensive operation.</source>
+          <target state="translated">Trwa ponowne generowanie układu może być dość kosztowna operacja.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt; property to check for a valid layout before performing operations that may regenerate the layout.</source>
+          <target state="translated">Użyj &lt;xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;Właściwość do sprawdzenia układu prawidłowe przed wykonaniem operacji, które może ponownie wygenerować układ.&lt;/xref:System.Windows.Documents.TextPointer.HasValidLayout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Layout<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz <bpt id="p1">[</bpt>układu<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current position is at the beginning of a line; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli bieżące położenie jest na początku wiersza; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Indicates whether the specified position is in the same text container as the current position.</source>
+          <target state="translated">Wskazuje, czy określona pozycja jest w tym samym kontenerze tekstu jako bieżącego położenia.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most operations that involve multiple &lt;xref:System.Windows.Documents.TextPointer&gt; instances are only valid if the instances in question indicate positions that are in the same text container scope.</source>
+          <target state="translated">Większość operacji obejmujących wiele &lt;xref:System.Windows.Documents.TextPointer&gt;wystąpienia są prawidłowe tylko, jeśli wystąpienia danego wskazują miejsca, w których znajdują się w tym samym zakresie tekstu w kontenerze.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example the &lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt; and &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; methods cannot be used with a &lt;xref:System.Windows.Documents.TextPointer&gt; to a position outside of the text container associated with the current position.</source>
+          <target state="translated">Na przykład &lt;xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;i &lt;xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt;nie można używać metod &lt;xref:System.Windows.Documents.TextPointer&gt;do położenia poza kontener tekst skojarzony z bieżącą pozycję.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.TextPointer.GetOffsetToPosition%2A&gt; &lt;/xref:System.Windows.Documents.TextPointer.CompareTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to verify that a specified &lt;xref:System.Windows.Documents.TextPointer&gt; is compatible with the current position for such operations.</source>
+          <target state="translated">Ta metoda służy do sprawdzenia, czy określonej &lt;xref:System.Windows.Documents.TextPointer&gt;jest zgodny z bieżącą pozycję w takich operacjach.&lt;/xref:System.Windows.Documents.TextPointer&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies a position to compare to the current position.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.TextPointer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który określa położenie do porównania z bieżącym położeniu.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">textPosition</ph><ept id="p2">&lt;/code&gt;</ept> indicates a position that is in the same text container as the current position; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">textPosition</ph> <ept id="p2">&lt;/code&gt;</ept> wskazuje pozycję, który znajduje się w tym samym kontenerze tekstu jako bieżącego położenia; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;textPosition&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;textPosition&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets the logical direction associated with the current position which is used to disambiguate content associated with the current position.</source>
+          <target state="translated">Pobiera kierunek logiczne skojarzone z bieżącą pozycję, który służy do odróżniania zawartości skojarzonej z bieżącą pozycję.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As an example of how this property is used, the &lt;xref:System.Windows.Documents.LogicalDirection&gt; of the &lt;xref:System.Windows.Documents.TextPointer&gt; returned by a hit test method gives a hit that is between two characters of text.</source>
+          <target state="translated">Jak ta właściwość jest używana, na przykład &lt;xref:System.Windows.Documents.LogicalDirection&gt;z &lt;xref:System.Windows.Documents.TextPointer&gt;zwrócony przez testu trafienia metoda daje trafień, który jest między znakami tekstu.&lt;/xref:System.Windows.Documents.TextPointer&gt; &lt;/xref:System.Windows.Documents.LogicalDirection&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The logical direction specifies which of the two characters was actually hit—the left or the right.</source>
+          <target state="translated">Logiczne direction Określa, które dwóch znaków faktycznie został trafiony — po lewej lub prawej.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that is associated with the current position.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Documents.LogicalDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Wartość, która jest skojarzona z bieżącym położeniu.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Gets the paragraph that scopes the current position, if any.</source>
+          <target state="translated">Pobiera akapicie zakresów bieżącą pozycję, jeśli istnieje.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Documents.Paragraph"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that scopes the current position, or<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>if no such paragraph exists.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Documents.Paragraph"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Który zakresów bieżącego położenia lub<bpt id="p2">&lt;xref uid="langword_csharp_ null " name=" null " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>Jeśli istnieje nie takie akapitu.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Gets the logical parent that scopes the current position.</source>
+          <target state="translated">Pobiera logicznej nadrzędnej, czy bieżące położenie zakresów.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>The logical parent that scopes the current position.</source>
+          <target state="translated">Logiczne nadrzędnej, czy bieżące położenie zakresów.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>This type or member supports the <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">Ten typ lub element członkowski obsługuje <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> infrastrukturę i nie jest przeznaczona do użycia bezpośrednio w kodzie.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The string that represents the object.</source>
+          <target state="translated">Ciąg reprezentujący obiekt.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
