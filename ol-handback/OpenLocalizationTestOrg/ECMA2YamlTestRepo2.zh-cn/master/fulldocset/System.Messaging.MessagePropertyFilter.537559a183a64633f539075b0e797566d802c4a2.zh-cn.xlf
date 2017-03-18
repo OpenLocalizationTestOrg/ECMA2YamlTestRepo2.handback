@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e8e3dfdbfc1cf990304f918d30305bff7ba067ef</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.MessagePropertyFilter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">947a7b502dfcf29f68bc27007e21dd39478a9ca6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">453572e3f9fe6d03fa2375f892799d0faa43e7f0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Controls and selects the properties that are retrieved when peeking or receiving messages from a message queue.</source>
+          <target state="translated">控制，并选择从消息队列扫视或接收消息时，将检索的属性。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Setting the MessagePropertyFilter on a &lt;xref:System.Messaging.MessageQueue&gt; instance controls the set of properties that are retrieved when peeking or receiving a message.</source>
+          <target state="translated">在上设置 MessagePropertyFilter&lt;xref:System.Messaging.MessageQueue&gt;实例控制的扫视或接收消息时，将检索的属性集。&lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The filter is set on the instance of &lt;xref:System.Messaging.MessageQueue&gt; that retrieves the message information.</source>
+          <target state="translated">实例上设置筛选器，则&lt;xref:System.Messaging.MessageQueue&gt;检索的消息信息。&lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When you set a MessagePropertyFilter Boolean-valued member to <ph id="ph1">`false`</ph>, you prevent the information of the associated &lt;xref:System.Messaging.Message&gt; property from being retrieved by the &lt;xref:System.Messaging.MessageQueue&gt;.</source>
+          <target state="translated">当设置 MessagePropertyFilter 布尔值的成员为<ph id="ph1">`false`</ph>，防止关联&lt;xref:System.Messaging.Message&gt;从受支持&lt;xref:System.Messaging.MessageQueue&gt;。&lt;/xref:System.Messaging.MessageQueue&gt;正在检索的属性&lt;/xref:System.Messaging.Message&gt;的信息</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>There are several filter properties that are not Boolean values.</source>
+          <target state="translated">有几个不是布尔值的筛选器属性。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>They are integer values that get or set the default sizes of the &lt;xref:System.Messaging.Message.Body%2A?displayProperty=fullName&gt;, &lt;xref:System.Messaging.Message.Extension%2A?displayProperty=fullName&gt;, or &lt;xref:System.Messaging.Message.Label%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">获取或设置的默认大小的整数值是它们&lt;xref:System.Messaging.Message.Body%2A?displayProperty=fullName&gt;， &lt;xref:System.Messaging.Message.Extension%2A?displayProperty=fullName&gt;，或&lt;xref:System.Messaging.Message.Label%2A?displayProperty=fullName&gt;。&lt;/xref:System.Messaging.Message.Label%2A?displayProperty=fullName&gt; &lt;/xref:System.Messaging.Message.Extension%2A?displayProperty=fullName&gt; &lt;/xref:System.Messaging.Message.Body%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Retrieving a limited set of properties helps improve performance because smaller amounts of data are transferred from the queue.</source>
+          <target state="translated">检索一组有限的属性，可帮助提高性能，因为较少的数据传输从队列。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When setting a property on MessagePropertyFilter, you are only indicating whether that property is retrieved when a message is received or peeked.</source>
+          <target state="translated">当在 MessagePropertyFilter 上设置属性，只指示该属性检索的时接收或查看消息。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You are not changing the associated property value for the &lt;xref:System.Messaging.Message&gt;.</source>
+          <target state="translated">您未更改&lt;xref:System.Messaging.Message&gt;.&lt;/xref:System.Messaging.Message&gt;的关联的属性值</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.MessagePropertyFilter.%23ctor%2A&gt; constructor sets all filter properties to their default values, which for the Boolean values is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Messaging.MessagePropertyFilter.%23ctor%2A&gt;构造函数将所有筛选器属性设置为其默认值，即对于布尔值<ph id="ph1">`false`</ph>。&lt;/xref:System.Messaging.MessagePropertyFilter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>See the constructor topic for the defaults assigned to the integer-valued properties.</source>
+          <target state="translated">请参阅分配给的整数值的属性的默认值的构造函数主题。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Messaging.MessagePropertyFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and sets default values for all properties.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Messaging.MessagePropertyFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类和设置的所有属性的默认值。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The MessagePropertyFilter constructor sets all Boolean values to <ph id="ph1">`false`</ph> and sets the integer-valued properties to the default values shown in the following table.</source>
+          <target state="translated">MessagePropertyFilter 构造函数将所有的布尔值设置为<ph id="ph1">`false`</ph>并将整数值属性设置为下表中显示的默认值。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>|Property|Default value|   |--------------|-------------------|   |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;|1024|   |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt;|255|   |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt;|255|</source>
+          <target state="translated">|属性 |默认值 |  |--------------|-------------------|  |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;|&amp;1024;年 |  |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt;|&amp;255; |  |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt;|255|&lt;/xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt;&lt;/xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt;&lt;/xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AcknowledgeType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AcknowledgeType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the type of acknowledgment messages requested by the sending application.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定的请求发送应用程序的确认消息的类型。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.AcknowledgeType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The type of acknowledgment defines when acknowledgments are returned.</source>
+          <target state="translated">确认该类型定义何时返回确认。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Set the &lt;xref:System.Messaging.Message.AcknowledgeType%2A?displayProperty=fullName&gt; property before sending the message to request a specific type of acknowledgment.</source>
+          <target state="translated">设置&lt;xref:System.Messaging.Message.AcknowledgeType%2A?displayProperty=fullName&gt;发送消息以请求特定类型的确认之前的属性。&lt;/xref:System.Messaging.Message.AcknowledgeType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AcknowledgeType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AcknowledgeType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the type of acknowledgment messages the system posts in the administration queue, which determines when acknowledgments are generated.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt;属性&lt;xref:System.Messaging.Message&gt;类指定的确认消息类型确定何时生成确认的管理队列中的系统文章。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Acknowledgments are returned from the destination queue and posted as messages to the &lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt; specified by the original message.</source>
+          <target state="translated">确认返回从目标队列，并将其作为消息传递到&lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt;指定原始消息。&lt;/xref:System.Messaging.Message.AdministrationQueue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The type of acknowledgment generated depends on what was requested.</source>
+          <target state="translated">生成的确认类型取决于内容请求。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Read the &lt;xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt; property when receiving a message from an administration queue to verify the status of the message originally sent to the message queue.</source>
+          <target state="translated">读取&lt;xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt;属性接收来自管理队列以验证最初发送到消息队列的消息的状态消息时。&lt;/xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Acknowledgment%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AdministrationQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AdministrationQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the name of the queue that receives system-generated acknowledgments.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定接收系统生成的确认的队列的名称。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.AdministrationQueue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AdministrationQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AdministrationQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AppSpecific%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AppSpecific%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.AppSpecific%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class contains additional, application-specific information.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.AppSpecific%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类包含、 应用程序特定的附加信息。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.AppSpecific%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AppSpecific%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AppSpecific%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ArrivedTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ArrivedTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.ArrivedTime%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class indicates when the message arrived at the destination queue.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.ArrivedTime%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指示当消息到达目标队列。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.ArrivedTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This is local time, adjusted from GMT, of the computer on which the message is retrieved.</source>
+          <target state="translated">这是调整从格林威治标准时间，在其上检索消息的计算机的本地时间。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ArrivedTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ArrivedTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AttachSenderId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AttachSenderId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.AttachSenderId%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies whether the &lt;xref:System.Messaging.Message.SenderId%2A?displayProperty=fullName&gt; should be or has been attached to the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.AttachSenderId%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定是否&lt;xref:System.Messaging.Message.SenderId%2A?displayProperty=fullName&gt;应或已附加到消息。&lt;/xref:System.Messaging.Message.SenderId%2A?displayProperty=fullName&gt; &lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.AttachSenderId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.SenderId%2A?displayProperty=fullName&gt; is set by Message Queuing and is used by the receiving Queue Manager to verify whether the sender has access rights to a queue.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.SenderId%2A?displayProperty=fullName&gt;由消息队列设置，并使用由接收队列管理器来验证发件人是否有权访问队列。&lt;/xref:System.Messaging.Message.SenderId%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AttachSenderId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AttachSenderId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Authenticated%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Authenticated%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Authenticated%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class is used by the receiving application to determine if authentication was requested.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Authenticated%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类由接收应用程序用来确定是否已请求身份验证。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Authenticated%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If authentication was requested and the message is in the queue, then the message is authenticated.</source>
+          <target state="translated">如果已请求身份验证，而且此消息在队列中，消息进行身份验证。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It is not possible to look at the properties of a message and determine whether a message failed authentication.</source>
+          <target state="translated">不能查看的消息属性，并确定消息是否未通过身份验证。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Messages that fail authentication are discarded and are not delivered to the queue.</source>
+          <target state="translated">身份验证失败的消息被丢弃并不会传递到队列。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Authenticated%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Authenticated%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AuthenticationProviderName%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AuthenticationProviderName%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.AuthenticationProviderName%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the name of the cryptographic provider used to generate the digital signature of the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.AuthenticationProviderName%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定用于生成消息的数字签名的加密提供程序的名称。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.AuthenticationProviderName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Messaging.Message.AuthenticationProviderName%2A?displayProperty=fullName&gt; is typically used when working with foreign queues.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.AuthenticationProviderName%2A?displayProperty=fullName&gt;通常在使用外部队列时使用。&lt;/xref:System.Messaging.Message.AuthenticationProviderName%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A foreign queue exists in a queuing system other than Microsoft Message Queuing.</source>
+          <target state="translated">非 Microsoft 消息队列的队列系统中不存在外队列。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Microsoft Message Queuing communicates with such queues through a connector application.</source>
+          <target state="translated">Microsoft 消息队列与此类通过连接器应用程序的队列进行通信。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AuthenticationProviderName%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AuthenticationProviderName%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AuthenticationProviderType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AuthenticationProviderType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.AuthenticationProviderType%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the type of cryptographic provider used to generate the digital signature of the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.AuthenticationProviderType%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定用于生成消息的数字签名的加密提供程序的类型。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.AuthenticationProviderType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Messaging.Message.AuthenticationProviderType%2A&gt; is typically used when working with foreign queues.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.AuthenticationProviderType%2A&gt;通常在使用外部队列时使用。&lt;/xref:System.Messaging.Message.AuthenticationProviderType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A foreign queue exists in a queuing system other than Microsoft Message Queuing.</source>
+          <target state="translated">非 Microsoft 消息队列的队列系统中不存在外队列。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Microsoft Message Queuing communicates with such queues through a connector application.</source>
+          <target state="translated">Microsoft 消息队列与此类通过连接器应用程序的队列进行通信。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AuthenticationProviderType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.AuthenticationProviderType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Body%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Body%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Body%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class represents the serialized contents of the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Body%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类表示消息的序列化的内容。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Body%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The body can contain up to 4 MB of data.</source>
+          <target state="translated">正文可以包含最多 4 MB 的数据。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Body%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Body%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Sets all Boolean filter values to <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, so that no message properties are retrieved when receiving a message.</source>
+          <target state="translated">将所有布尔筛选器值设置为<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，以便在接收消息时，检索没有消息属性。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Use ClearAll to set all &lt;xref:System.Messaging.MessagePropertyFilter&gt; Boolean properties to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">使用 ClearAll 来设置所有&lt;xref:System.Messaging.MessagePropertyFilter&gt;到的布尔属性<ph id="ph1">`false`</ph>。&lt;/xref:System.Messaging.MessagePropertyFilter&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This causes no message properties to be retrieved when receiving messages.</source>
+          <target state="translated">这将导致没有可在接收消息时检索的消息属性。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>ClearAll does not affect the values for &lt;xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;, &lt;xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt;, or &lt;xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt;.</source>
+          <target state="translated">ClearAll 不会影响的值&lt;xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;， &lt;xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt;，或&lt;xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt;。&lt;/xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>After calling ClearAll, it is necessary to set at least one filter property to <ph id="ph1">`true`</ph> in order to receive data related to a message.</source>
+          <target state="translated">在调用 ClearAll 之后, 有必要将至少一个筛选器属性设置为<ph id="ph1">`true`</ph>为了接收与消息相关的数据。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can either set individual properties to <ph id="ph1">`true`</ph>, or you can call &lt;xref:System.Messaging.MessagePropertyFilter.SetDefaults%2A&gt; or &lt;xref:System.Messaging.MessagePropertyFilter.SetAll%2A&gt;.</source>
+          <target state="translated">你可以将个别属性设置为<ph id="ph1">`true`</ph>，也可以调用&lt;xref:System.Messaging.MessagePropertyFilter.SetDefaults%2A&gt;或&lt;xref:System.Messaging.MessagePropertyFilter.SetAll%2A&gt;。&lt;/xref:System.Messaging.MessagePropertyFilter.SetAll%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.SetDefaults%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Creates a shallow copy of the object.</source>
+          <target state="translated">创建对象的浅表副本。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Object&gt; that represents an instance of the <bpt id="p1">&lt;xref href="System.Messaging.MessagePropertyFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">A&lt;xref:System.Object&gt;表示的实例<bpt id="p1">&lt;xref href="System.Messaging.MessagePropertyFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ConnectorType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ConnectorType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.ConnectorType%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class is required when an application sets a message property that is typically set by Message Queuing.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.ConnectorType%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类时是必需的应用程序设置通常由消息队列设置的消息属性。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.ConnectorType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>It is used in the following two instances:      -   When a message is passed by a connector application, the &lt;xref:System.Messaging.Message.ConnectorType%2A?displayProperty=fullName&gt; is required for the sending and receiving applications to interpret the security and acknowledgment properties of the message.</source>
+          <target state="translated">使用以下两个实例中:-当通过连接器应用程序传递消息&lt;xref:System.Messaging.Message.ConnectorType%2A?displayProperty=fullName&gt;需要发送和接收应用程序能够解释的消息的安全性和确认属性。&lt;/xref:System.Messaging.Message.ConnectorType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>-   When sending application-encrypted messages, the &lt;xref:System.Messaging.Message.ConnectorType%2A?displayProperty=fullName&gt; property informs Message Queuing to use the symmetric key.</source>
+          <target state="translated">-当发送应用程序加密的消息，&lt;xref:System.Messaging.Message.ConnectorType%2A?displayProperty=fullName&gt;属性通知消息队列使用对称密钥。&lt;/xref:System.Messaging.Message.ConnectorType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ConnectorType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ConnectorType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.CorrelationId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.CorrelationId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.CorrelationId%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies a message identifier that is used by acknowledgment and report messages to reference the original message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.CorrelationId%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定一个确认和报告消息用以引用原始消息的消息标识符。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.CorrelationId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>It provides an application-defined identifier that the receiving application can use to sort messages.</source>
+          <target state="translated">它提供了接收应用程序可用于对邮件进行排序的应用程序定义的标识符。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.CorrelationId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.CorrelationId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets or sets the size, in bytes, of the default body buffer.</source>
+          <target state="translated">获取或设置大小，以字节为单位的默认正文缓冲区。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The default body size specifies the number of bytes to allocate for the message's body contents.</source>
+          <target state="translated">默认正文大小指定要为消息的正文内容分配字节的数。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Body%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class represents the serialized contents of the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Body%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类表示消息的序列化的内容。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Body%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The body can contain up to 4 MB of data.</source>
+          <target state="translated">正文可以包含最多 4 MB 的数据。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Restricting the body size can improve performance.</source>
+          <target state="translated">限制正文大小可以提高性能。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The default body buffer size to create when the message is received.</source>
+          <target state="translated">要接收消息时创建的默认正文缓冲区大小。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The default is 1024 bytes.</source>
+          <target state="translated">默认值为 1024 个字节。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The assigned value is negative.</source>
+          <target state="translated">所赋的值为负。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Gets or sets the size, in bytes, of the default extension buffer.</source>
+          <target state="translated">获取或设置大小，以字节为单位的默认扩展缓冲区。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default extension size specifies the number of bytes to allocate for the message's extension.</source>
+          <target state="translated">默认扩展大小指定要为消息的扩展分配字节的数。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Extension%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class represents the additional, application-defined information associated with the message, such as a binary large object.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Extension%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类表示与消息，例如，二进制大型对象关联的、 应用程序定义的附加信息。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Extension%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>It is the responsibility of the application to interpret the contents of the &lt;xref:System.Messaging.Message.Extension%2A&gt;.</source>
+          <target state="translated">它负责要解释的&lt;xref:System.Messaging.Message.Extension%2A&gt;。&lt;/xref:System.Messaging.Message.Extension%2A&gt;内容的应用程序</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The default extension buffer size to create when the message is received.</source>
+          <target state="translated">要接收消息时创建的默认扩展缓冲区大小。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The default is 255 bytes.</source>
+          <target state="translated">默认值为 255 个字节。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The assigned value is negative.</source>
+          <target state="translated">所赋的值为负。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets or sets the size, in bytes, of the default label buffer.</source>
+          <target state="translated">获取或设置大小，以字节为单位，默认标签缓冲区。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The default label size specifies the number of bytes to allocate for the message's label.</source>
+          <target state="translated">默认标签大小指定要为消息的标签分配字节的数。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Label%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the label of the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Label%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定消息的标签。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Label%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The default label buffer size to create when the message is received.</source>
+          <target state="translated">要接收消息时创建的默认标签缓冲区大小。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The default is 255 bytes.</source>
+          <target state="translated">默认值为 255 个字节。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The assigned value is negative.</source>
+          <target state="translated">所赋的值为负。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DestinationQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DestinationQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.DestinationQueue%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class identifies the original destination queue of the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.DestinationQueue%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类标识消息的原始目标队列。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.DestinationQueue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>It is typically used to determine the original destination of a message that is in a journal or dead-letter queue.</source>
+          <target state="translated">它通常用于确定在日志或死信队列是一条消息的原始目标。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>It can also be used when sending a response message back to a response queue.</source>
+          <target state="translated">它还可在时将响应消息发送回响应队列。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DestinationQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DestinationQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DestinationSymmetricKey%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DestinationSymmetricKey%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.DestinationSymmetricKey%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the symmetric key used to encrypt the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.DestinationSymmetricKey%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定用来加密消息的对称密钥。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.DestinationSymmetricKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>It is required when you send application-encrypted messages, or when you send encrypted messages to a foreign queue.</source>
+          <target state="translated">当你发送应用程序加密的消息，或向外队列发送加密的消息时，它是必需的。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A foreign queue exists in a queuing system other than Microsoft Message Queuing.</source>
+          <target state="translated">非 Microsoft 消息队列的队列系统中不存在外队列。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Microsoft Message Queuing communicates with such queues through a connector application.</source>
+          <target state="translated">Microsoft 消息队列与此类通过连接器应用程序的队列进行通信。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DestinationSymmetricKey%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DestinationSymmetricKey%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DigitalSignature%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DigitalSignature%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.DigitalSignature%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the digital signature used to authenticate the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.DigitalSignature%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定用于对消息进行身份验证的数字签名。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.DigitalSignature%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>In most cases, it is generated and set by Message Queuing when the sending application requests authentication.</source>
+          <target state="translated">在大多数情况下，它生成并由消息队列设置，当发送应用程序请求身份验证。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DigitalSignature%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.DigitalSignature%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.EncryptionAlgorithm%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.EncryptionAlgorithm%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If a message is private, it is encrypted before it is sent and decrypted when it is received.</source>
+          <target state="translated">如果消息是私有，则消息前发送和接收时解密被加密。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.EncryptionAlgorithm%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the algorithm used to encrypt the message body of a private message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.EncryptionAlgorithm%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定用于加密私有消息的消息正文的算法。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.EncryptionAlgorithm%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.EncryptionAlgorithm%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.EncryptionAlgorithm%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Extension%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Extension%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Extension%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class provides for additional application-defined information that is associated with the message, like a large binary object.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Extension%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类提供与消息，如大型二进制对象关联的应用程序定义的其他信息。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Extension%2A&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>It is the responsibility of the receiving application to interpret the contents of the &lt;xref:System.Messaging.Message.Extension%2A&gt;.</source>
+          <target state="translated">它负责接收应用程序可以解释的&lt;xref:System.Messaging.Message.Extension%2A&gt;。&lt;/xref:System.Messaging.Message.Extension%2A&gt;内容</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Extension%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Extension%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.HashAlgorithm%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.HashAlgorithm%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.HashAlgorithm%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class identifies the hashing algorithm Message Queuing uses when authenticating messages.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.HashAlgorithm%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类标识进行身份验证消息时消息队列使用的哈希算法。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.HashAlgorithm%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The hashing algorithm is also used when creating a digital signature for a message.</source>
+          <target state="translated">创建一条消息的数字签名时，也使用的哈希算法。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.HashAlgorithm%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.HashAlgorithm%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Id%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Id%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Id%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class indicates the Message Queuing-generated unique identifier of the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Id%2A&gt;属性&lt;xref:System.Messaging.Message&gt;事件类指示消息的消息队列生成的唯一标识符。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Id%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>This identifier is generated when the message is sent.</source>
+          <target state="translated">发送消息时，将生成此标识符。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Id%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Id%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.IsFirstInTransaction%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.IsFirstInTransaction%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.IsFirstInTransaction%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class is used by receiving applications to verify whether a message is the first message sent in a single transaction to a single queue.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.IsFirstInTransaction%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类由接收应用程序用来验证消息是否发送到单个队列单个事务中的第一个消息。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.IsFirstInTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.IsFirstInTransaction%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.IsFirstInTransaction%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.IsLastInTransaction%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.IsLastInTransaction%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.IsLastInTransaction%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class is used by receiving applications to verify whether a message is the last message sent from a single transaction to a single queue.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.IsLastInTransaction%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类由接收应用程序用于验证消息是否是从单个事务发送到单个队列的最后一条消息。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.IsLastInTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.IsLastInTransaction%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.IsLastInTransaction%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Label%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Label%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Label%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the label of the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Label%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定消息的标签。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Label%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Label%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Label%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve &lt;xref:System.Messaging.Message.LookupId*&gt; property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索&lt;xref:System.Messaging.Message.LookupId*&gt;接收或查看消息时的属性信息。&lt;/xref:System.Messaging.Message.LookupId*&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.LookupId%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the lookup identifier of the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.LookupId%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定消息的查找标识符。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.LookupId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive &lt;xref:System.Messaging.Message.LookupId*&gt; property information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收&lt;xref:System.Messaging.Message.LookupId*&gt;属性信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Messaging.Message.LookupId*&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.MessageType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.MessageType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.MessageType%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class identifies the type of the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.MessageType%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类标识消息的类型。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.MessageType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>A message can be a normal message, a positive or negative acknowledgment message, or a report message.</source>
+          <target state="translated">一条消息可以是正常消息、 肯定或否定确认消息或报告消息。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.MessageType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.MessageType%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Priority%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Priority%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Priority%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class affects how Message Queuing handles the message while it is en route, as well as where the message is placed in the queue when it reaches its destination.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Priority%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类会影响虽然很途中，消息队列处理消息的方式以及位置在到达其目标时，该消息会放在队列中。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Priority%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Message priority can only be set meaningfully for non-transactional messages.</source>
+          <target state="translated">仅可以为非事务性消息有意义的方式设置消息优先级。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The priority for transactional messages is automatically set to zero, which causes transactional message priority to be ignored.</source>
+          <target state="translated">事务性消息的优先级自动设置为零，这会导致事务性消息优先级被忽略。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Priority%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Priority%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Recoverable%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Recoverable%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.Recoverable%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class indicates whether delivery of a message is guaranteed, even if a computer crashes while the message is en route to the destination queue.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.Recoverable%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指示是否保证消息的传递方式，即使消息启用路由到目标队列的过程中出现计算机故障。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.Recoverable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>If delivery of a message is guaranteed, the message is stored locally at every step until the message is successfully forwarded to the next computer.</source>
+          <target state="translated">如果保证消息的传递，消息是本地存储的每一个步骤直到消息成功转发到下一台计算机。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Setting &lt;xref:System.Messaging.Message.Recoverable%2A?displayProperty=fullName&gt; to <ph id="ph1">`true`</ph> on the message could affect the throughput.</source>
+          <target state="translated">设置&lt;xref:System.Messaging.Message.Recoverable%2A?displayProperty=fullName&gt;到<ph id="ph1">`true`</ph>对消息可能会影响吞吐量。&lt;/xref:System.Messaging.Message.Recoverable%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Recoverable%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.Recoverable%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ResponseQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ResponseQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.ResponseQueue%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class identifies the queue that receives application-generated response messages that are sent back to the sending application by the receiving application.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.ResponseQueue%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类标识接收发送回发送应用程序接收应用程序的应用程序生成的响应消息的队列。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.ResponseQueue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Response queues are specified by the sending application when the application sends its messages.</source>
+          <target state="translated">当应用程序发送其消息时由发送应用程序指定响应队列。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Any available queue can be specified as a response queue.</source>
+          <target state="translated">任何可用队列均可指定为响应队列。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Messages returned to the response queue are application-specific.</source>
+          <target state="translated">返回到响应队列消息是特定于应用程序。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The application must define what is in the messages as well as what is to be done when a message is received.</source>
+          <target state="translated">应用程序必须定义中的消息以及什么是收到一条消息时执行的操作。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ResponseQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.ResponseQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderCertificate%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderCertificate%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.SenderCertificate%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the security certificate used to authenticate messages.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.SenderCertificate%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定用于对消息进行身份验证的安全证书。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.SenderCertificate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderCertificate%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderCertificate%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.SenderId%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class is used primarily by the receiving queue manager when authenticating a message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.SenderId%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类主要由接收队列管理器进行身份验证消息时使用。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.SenderId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The property is set by Message Queuing and is used by the queue manager to verify who sent the message and that the sender has access rights to the receiving queue.</source>
+          <target state="translated">属性由消息队列设置，并使用的队列管理器来验证发件人消息以及发送方到接收队列的访问权限。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderVersion%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderVersion%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.SenderVersion%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the version of Message Queuing used to send the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.SenderVersion%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定的消息队列用于发送消息的版本。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.SenderVersion%2A&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The property is important to be aware of when using features like transaction processing, which is only supported by Message Queuing version 2.0 and later, or digital signatures, which are used to authenticate messages sent by version 1.0.</source>
+          <target state="translated">属性是重要的使用时应注意事务处理，仅支持由消息队列 2.0 版和更高版本，或数字签名，用于进行身份验证发送版本 1.0 的消息等功能。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Messaging.Message.SenderVersion%2A?displayProperty=fullName&gt; is set by the sending queue manager when the message is sent.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.SenderVersion%2A?displayProperty=fullName&gt;由发送队列管理器发送消息时设置。&lt;/xref:System.Messaging.Message.SenderVersion%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderVersion%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SenderVersion%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SentTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SentTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.SentTime%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class indicates the sending machine's date and time when the message was sent by the source Queue Manager.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.SentTime%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指示发送计算机的日期和时间时由源队列管理器发送消息。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.SentTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SentTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SentTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Specifies to retrieve all message properties when receiving a message.</source>
+          <target state="translated">指定要从中接收消息时检索所有消息属性。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Use SetAll to set all Boolean &lt;xref:System.Messaging.MessagePropertyFilter&gt; properties to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">使用 SetAll 来设置所有布尔&lt;xref:System.Messaging.MessagePropertyFilter&gt;属性设置为<ph id="ph1">`true`</ph>。&lt;/xref:System.Messaging.MessagePropertyFilter&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>This causes all message properties to be retrieved when receiving messages.</source>
+          <target state="translated">这将导致在接收消息时要检索的所有消息属性。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>SetAll does not affect the values for &lt;xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;, &lt;xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt;, or &lt;xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt;.</source>
+          <target state="translated">SetAll 不会影响的值&lt;xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;， &lt;xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt;，或&lt;xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt;。&lt;/xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>After calling SetAll, you can set individual filter values to <ph id="ph1">`false`</ph> in order to restrict the properties retrieved when the message is received.</source>
+          <target state="translated">在调用 SetAll 之后, 中，你可以将各个筛选器值为<ph id="ph1">`false`</ph>以便限制时收到的消息检索的属性。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Sets the filter values of common Message Queuing properties to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the integer-valued properties to their default values.</source>
+          <target state="translated">设置到常见的消息队列的属性的筛选器值<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和为其默认值的整数值的属性。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Use SetDefaults to set the following &lt;xref:System.Messaging.MessagePropertyFilter&gt; Boolean-valued properties to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">SetDefaults 用于设置以下&lt;xref:System.Messaging.MessagePropertyFilter&gt;布尔值属性设置为<ph id="ph1">`true`</ph>。&lt;/xref:System.Messaging.MessagePropertyFilter&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>These are the most common properties a &lt;xref:System.Messaging.MessageQueue&gt; will typically interact with the following:      -   &lt;xref:System.Messaging.MessagePropertyFilter.AcknowledgeType%2A&gt;      -   &lt;xref:System.Messaging.MessagePropertyFilter.Acknowledgment%2A&gt;      -   &lt;xref:System.Messaging.MessagePropertyFilter.AdministrationQueue%2A&gt;      -   &lt;xref:System.Messaging.MessagePropertyFilter.Body%2A&gt;      -   &lt;xref:System.Messaging.MessagePropertyFilter.Id%2A&gt;      -   &lt;xref:System.Messaging.MessagePropertyFilter.Label%2A&gt;      -   &lt;xref:System.Messaging.MessagePropertyFilter.LookupId%2A&gt;      -   &lt;xref:System.Messaging.MessagePropertyFilter.MessageType%2A&gt;      -   &lt;xref:System.Messaging.MessagePropertyFilter.ResponseQueue%2A&gt;      -   &lt;xref:System.Messaging.MessagePropertyFilter.UseDeadLetterQueue%2A&gt;      -   &lt;xref:System.Messaging.MessagePropertyFilter.UseJournalQueue%2A&gt;       SetDefaults sets the properties in the following table to their default values.</source>
+          <target state="translated">这些是最常见属性&lt;xref:System.Messaging.MessageQueue&gt;通常将与以下交互:- &lt;xref:System.Messaging.MessagePropertyFilter.AcknowledgeType%2A&gt;- &lt;xref:System.Messaging.MessagePropertyFilter.Acknowledgment%2A&gt;- &lt;xref:System.Messaging.MessagePropertyFilter.AdministrationQueue%2A&gt;- &lt;xref:System.Messaging.MessagePropertyFilter.Body%2A&gt;- &lt;xref:System.Messaging.MessagePropertyFilter.Id%2A&gt;- &lt;xref:System.Messaging.MessagePropertyFilter.Label%2A&gt;- &lt;xref:System.Messaging.MessagePropertyFilter.LookupId%2A&gt;- &lt;xref:System.Messaging.MessagePropertyFilter.MessageType%2A&gt;- &lt;xref:System.Messaging.MessagePropertyFilter.ResponseQueue%2A&gt;- &lt;xref:System.Messaging.MessagePropertyFilter.UseDeadLetterQueue%2A&gt;- &lt;xref:System.Messaging.MessagePropertyFilter.UseJournalQueue%2A&gt;SetDefaults 为其默认值下表中设置的属性。&lt;/xref:System.Messaging.MessagePropertyFilter.UseJournalQueue%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.UseDeadLetterQueue%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.ResponseQueue%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.MessageType%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.LookupId%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.Label%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.Id%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.Body%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.AdministrationQueue%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.Acknowledgment%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.AcknowledgeType%2A&gt; &lt;/xref:System.Messaging.MessageQueue&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>|Property|Default value|   |--------------|-------------------|   |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;|1024|   |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt;|255|   |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt;|255|       The &lt;xref:System.Messaging.MessageQueue.MessageReadPropertyFilter%2A?displayProperty=fullName&gt; property represents a &lt;xref:System.Messaging.MessagePropertyFilter&gt; on which SetDefaults has been called.</source>
+          <target state="translated">|属性 |默认值 |  |--------------|-------------------|  |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;|&amp;1024;年 |  |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt;|&amp;255; |  |&lt;xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt;|&amp;255; |      &lt;xref:System.Messaging.MessageQueue.MessageReadPropertyFilter%2A?displayProperty=fullName&gt;属性表示&lt;xref:System.Messaging.MessagePropertyFilter&gt;对已调用 SetDefaults。&lt;/xref:System.Messaging.MessagePropertyFilter&gt; &lt;/xref:System.Messaging.MessageQueue.MessageReadPropertyFilter%2A?displayProperty=fullName&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.DefaultLabelSize%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.DefaultExtensionSize%2A&gt; &lt;/xref:System.Messaging.MessagePropertyFilter.DefaultBodySize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SourceMachine%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SourceMachine%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.SourceMachine%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the computer where the message originated.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.SourceMachine%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定消息的出处的计算机。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.SourceMachine%2A&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SourceMachine%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.SourceMachine%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TimeToBeReceived%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TimeToBeReceived%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.TimeToBeReceived%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies the total time in seconds for a sent message to be received from the destination queue.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.TimeToBeReceived%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定以秒为单位发送消息要想从目标队列接收的总时间。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.TimeToBeReceived%2A&gt;</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The time limit for the message to be retrieved from the target queue includes the time spent getting to the destination queue, plus the time spent waiting in the queue before the message is retrieved by an application.</source>
+          <target state="translated">要从目标队列检索消息了时间限制包括到达目标队列所用的时间以及花费在队列中的等待的时间之前应用程序检索消息。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TimeToBeReceived%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TimeToBeReceived%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TimeToReachQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TimeToReachQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.TimeToReachQueue%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies a time limit in seconds from the time the message is sent for it to reach the destination queue.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.TimeToReachQueue%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类从才能到达目标队列发送消息的时间的秒数指定的时间限制。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.TimeToReachQueue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TimeToReachQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TimeToReachQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TransactionId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TransactionId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.TransactionId%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class identifies the transaction that sent the message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.TransactionId%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类将标识在发送消息的事务。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.TransactionId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Use this property within a receiving application to verify that a message was sent as part of a specific transaction.</source>
+          <target state="translated">使用此属性在接收应用程序以验证消息已发送特定事务的一部分。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TransactionId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TransactionId%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TransactionStatusQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TransactionStatusQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.TransactionStatusQueue%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class identifies the transaction status queue on the source computer.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.TransactionStatusQueue%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类将标识在源计算机上的事务状态队列。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.TransactionStatusQueue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>The property is used for sending acknowledgment messages back to the sending application.</source>
+          <target state="translated">属性用于将确认消息发送回给发送应用程序。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The transaction status queue is used by connector applications when receiving transactional messages sent to a foreign queue.</source>
+          <target state="translated">接收发送到外部队列的事务性消息时，将通过连接器应用程序使用的事务状态队列。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>A foreign queue exists in a queuing system other than Microsoft Message Queuing.</source>
+          <target state="translated">非 Microsoft 消息队列的队列系统中不存在外队列。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Microsoft Message Queuing communicates with such queues through a connector application.</source>
+          <target state="translated">Microsoft 消息队列与此类通过连接器应用程序的队列进行通信。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TransactionStatusQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.TransactionStatusQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseAuthentication%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseAuthentication%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.UseAuthentication%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies whether the message needs to be authenticated.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.UseAuthentication%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定是否需要进行身份验证消息。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.UseAuthentication%2A&gt;</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>It is not possible to look at the properties of a message and determine whether a message failed authentication.</source>
+          <target state="translated">不能查看的消息属性，并确定消息是否未通过身份验证。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Messages that fail authentication are discarded and are not delivered to the queue.</source>
+          <target state="translated">身份验证失败的消息被丢弃并不会传递到队列。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseAuthentication%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseAuthentication%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseDeadLetterQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseDeadLetterQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.UseDeadLetterQueue%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies whether a copy of a message that could not be delivered should be sent to a dead-letter queue.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.UseDeadLetterQueue%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定是否应将无法传递消息的副本发送到死信队列。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.UseDeadLetterQueue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseDeadLetterQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseDeadLetterQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseEncryption%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseEncryption%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.UseEncryption%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies whether to encrypt a message.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.UseEncryption%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定是否对消息进行加密。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.UseEncryption%2A&gt;</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseEncryption%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseEncryption%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseJournalQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseJournalQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.UseJournalQueue%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies whether a copy of the message should be kept in a machine journal on the originating computer.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.UseJournalQueue%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定的消息副本是否应保存在原始计算机上的计算机日记中。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.UseJournalQueue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseJournalQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseJournalQueue%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to retrieve <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseTracing%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property information when receiving or peeking a message.</source>
+          <target state="translated">获取或设置一个值，该值指示是否检索<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseTracing%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>接收或查看消息时的属性信息。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Messaging.Message.UseTracing%2A&gt; property of the &lt;xref:System.Messaging.Message&gt; class specifies whether to track the route of a message as it moves toward its destination queue.</source>
+          <target state="translated">&lt;xref:System.Messaging.Message.UseTracing%2A&gt;属性&lt;xref:System.Messaging.Message&gt;类指定是否向其目标队列移动跟踪消息的路由。&lt;/xref:System.Messaging.Message&gt; &lt;/xref:System.Messaging.Message.UseTracing%2A&gt;</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`true`</ph>, each time the original message passes through a Message Queuing routing server, a Message Queuing-generated report message is sent to the system report queue.</source>
+          <target state="translated">如果<ph id="ph1">`true`</ph>，每次通过消息队列的路由服务器的原始消息传递时，消息队列生成的报告消息发送到系统报告队列。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Using tracing involves setting up Active Directory and specifying a report queue for the Message Queuing enterprise.</source>
+          <target state="translated">使用跟踪包括设置 Active Directory 和指定报表队列的消息队列企业。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>These settings are configured by the administrator.</source>
+          <target state="translated">由管理员配置这些设置。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to receive <ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseTracing%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要接收<ph id="ph1">&amp;lt;</ph>xref:System.Messaging.Message.UseTracing%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>信息; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

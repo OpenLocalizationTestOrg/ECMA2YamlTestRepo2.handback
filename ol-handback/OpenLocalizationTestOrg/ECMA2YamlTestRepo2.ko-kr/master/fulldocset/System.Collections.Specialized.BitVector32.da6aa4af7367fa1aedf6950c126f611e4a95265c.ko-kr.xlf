@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ddf5c098589277c135cc2919d2ef42ef1218a1a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Collections.Specialized.BitVector32.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d3893a67febfc8ff45a6a18c7957abe236c2b9c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d387378e998ed8e93332f213f12f63e17c809117</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a simple structure that stores Boolean values and small integers in 32 bits of memory.</source>
+          <target state="translated">32 비트 메모리에에서 부울 값과 small 정수를 저장 하는 간단한 구조를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>BitVector32 is more efficient than &lt;xref:System.Collections.BitArray&gt; for Boolean values and small integers that are used internally.</source>
+          <target state="translated">BitVector32 보다 더 효율적입니다. &lt;xref:System.Collections.BitArray&gt;부울 값과 내부적으로 사용 되는 작은 정수에 대 한.&lt;/xref:System.Collections.BitArray&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Collections.BitArray&gt; can grow indefinitely as needed, but it has the memory and performance overhead that a class instance requires.</source>
+          <target state="translated">A &lt;xref:System.Collections.BitArray&gt;필요에 따라 무한정 증가할 수 있지만 클래스 인스턴스를 필요로 하는 메모리 및 성능 오버 헤드.&lt;/xref:System.Collections.BitArray&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, a BitVector32 uses only 32 bits.</source>
+          <target state="translated">반면, 한 BitVector32만 32 비트를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A BitVector32 structure can be set up to contain either sections for small integers or bit flags for Booleans, but not both.</source>
+          <target state="translated">BitVector32 구조 섹션에서 작은 정수 또는 부울의 비트 플래그를 포함 하도록 중 하나만 설정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; is a window into the BitVector32 and is composed of the smallest number of consecutive bits that can contain the maximum value specified in &lt;xref:System.Collections.Specialized.BitVector32.CreateSection%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Collections.Specialized.BitVector32.Section&gt;BitVector32에 창이 고이 연속 된 비트 &lt;xref:System.Collections.Specialized.BitVector32.CreateSection%2A&gt;.&lt;/xref:System.Collections.Specialized.BitVector32.CreateSection%2A&gt; 에 지정 된 최대 값을 포함할 수 있는 가장 작은 수의 구성&lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a section with a maximum value of 1 is composed of only one bit, whereas a section with a maximum value of 5 is composed of three bits.</source>
+          <target state="translated">예를 들어 1의 최대 값을 가진 섹션 5의 최대 값을 가진 섹션은 세 개의 비트로 구성 하는 반면 1 비트만 구성 됩니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can create a &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; with a maximum value of 1 to serve as a Boolean, thereby allowing you to store integers and Booleans in the same BitVector32.</source>
+          <target state="translated">만들 수는 &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;1 부울 값을 토대로 최대값이 적용 된 되므로 동일한 BitVector32에 정수 및 부울 값을 저장할 수 있습니다.&lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some members can be used for a BitVector32 that is set up as sections, while other members can be used for one that is set up as bit flags.</source>
+          <target state="translated">설정 된 섹션으로 비트 플래그를 설정 하는 하나에 대해 다른 멤버를 사용할 수 있지만 BitVector32에 대 한 일부 구성원을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt; property is the indexer for a BitVector32 that is set up as sections, and the &lt;xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt; property is the indexer for a BitVector32 that is set up as bit flags.</source>
+          <target state="translated">예를 들어는 &lt;xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt;속성은 섹션으로 설정 된 BitVector32 인덱서입니다 및 &lt;xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt;속성은 비트 플래그 설정 된 BitVector32 인덱서입니다.&lt;/xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt; &lt;/xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Collections.Specialized.BitVector32.CreateMask%2A&gt; creates a series of masks that can be used to access individual bits in a BitVector32 that is set up as bit flags.</source>
+          <target state="translated">&lt;xref:System.Collections.Specialized.BitVector32.CreateMask%2A&gt;일련의 개별 비트에 비트 플래그 설정 된 BitVector32에 액세스를 사용할 수 있는 마스크를 만듭니다.&lt;/xref:System.Collections.Specialized.BitVector32.CreateMask%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using a mask on a BitVector32 that is set up as sections might cause unexpected results.</source>
+          <target state="translated">섹션에는 예기치 않은 결과가 발생할 수 있습니다으로 설정 된 BitVector32에서 마스크를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure containing the data represented in an existing <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 가 기존 표현 되는 데이터를 포함 하는 구조 <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 구조입니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is an O(1) operation.</source>
+          <target state="translated">이 생성자는 o (1) 연산입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that contains the data to copy.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 복사할 데이터가 포함 된 구조입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure containing the data represented in an integer.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 정수로 표현 되는 데이터를 포함 하는 구조입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is an O(1) operation.</source>
+          <target state="translated">이 생성자는 o (1) 연산입니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An integer representing the data of the new <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 데이터를 나타내는 정수 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Creates the first mask in a series of masks that can be used to retrieve individual bits in a <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is set up as bit flags.</source>
+          <target state="translated">일련의 개별 비트를 검색 하는 데 사용할 수 있는 마스크의 첫 번째 마스크 만듭니다는 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 에 비트 플래그 설정 된 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use <ph id="ph1">`CreateMask()`</ph> to create the first mask in a series and <ph id="ph2">`CreateMask(int)`</ph> for all subsequent masks.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`CreateMask()`</ph> 계열의 첫 번째 마스크를 만들려고 하 고 <ph id="ph2">`CreateMask(int)`</ph> 모든 후속 마스크에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Multiple masks can be created to refer to the same bit flag.</source>
+          <target state="translated">동일한 비트 플래그를 참조 하도록 여러 마스크를 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resulting mask isolates only one bit flag in the &lt;xref:System.Collections.Specialized.BitVector32&gt;.</source>
+          <target state="translated">결과 마스크 격리 &lt;xref:System.Collections.Specialized.BitVector32&gt;.&lt;/xref:System.Collections.Specialized.BitVector32&gt; 만&amp;1; 비트 플래그</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can combine masks using the bitwise OR operation to create a mask that isolates multiple bit flags in the &lt;xref:System.Collections.Specialized.BitVector32&gt;.</source>
+          <target state="translated">비트 OR 연산을 사용 하 여 &lt;xref:System.Collections.Specialized.BitVector32&gt;.&lt;/xref:System.Collections.Specialized.BitVector32&gt; 여러 비트 플래그를 격리 하는 마스크를 만들 마스크를 결합할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using a mask on a &lt;xref:System.Collections.Specialized.BitVector32&gt; that is set up as sections might cause unexpected results.</source>
+          <target state="translated">마스크를 사용 하는 &lt;xref:System.Collections.Specialized.BitVector32&gt;있는으로 설정 된 섹션에는 예기치 않은 결과가 발생할 수 있습니다.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">이 메서드는 o (1) 작업.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A mask that isolates the first bit flag in the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">첫 번째 비트 플래그를 격리 하는 마스크는 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Creates an additional mask following the specified mask in a series of masks that can be used to retrieve individual bits in a <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is set up as bit flags.</source>
+          <target state="translated">일련의 개별 비트를 검색 하는 데 사용할 수 있는 마스크의 지정 된 마스크에 따라 마스크를 추가로 만듭니다는 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 비트 플래그로 설정 됩니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use <ph id="ph1">`CreateMask()`</ph> to create the first mask in a series and <ph id="ph2">`CreateMask(int)`</ph> for all subsequent masks.</source>
+          <target state="translated">사용 하 여 <ph id="ph1">`CreateMask()`</ph> 계열의 첫 번째 마스크를 만들려고 하 고 <ph id="ph2">`CreateMask(int)`</ph> 모든 후속 마스크에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Multiple masks can be created to refer to the same bit flag.</source>
+          <target state="translated">동일한 비트 플래그를 참조 하도록 여러 마스크를 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resulting mask isolates only one bit flag in the &lt;xref:System.Collections.Specialized.BitVector32&gt;.</source>
+          <target state="translated">결과 마스크 격리 &lt;xref:System.Collections.Specialized.BitVector32&gt;.&lt;/xref:System.Collections.Specialized.BitVector32&gt; 만&amp;1; 비트 플래그</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can combine masks using the bitwise OR operation to create a mask that isolates multiple bit flags in the &lt;xref:System.Collections.Specialized.BitVector32&gt;.</source>
+          <target state="translated">비트 OR 연산을 사용 하 여 &lt;xref:System.Collections.Specialized.BitVector32&gt;.&lt;/xref:System.Collections.Specialized.BitVector32&gt; 여러 비트 플래그를 격리 하는 마스크를 만들 마스크를 결합할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using a mask on a &lt;xref:System.Collections.Specialized.BitVector32&gt; that is set up as sections might cause unexpected results.</source>
+          <target state="translated">마스크를 사용 하는 &lt;xref:System.Collections.Specialized.BitVector32&gt;있는으로 설정 된 섹션에는 예기치 않은 결과가 발생할 수 있습니다.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">이 메서드는 o (1) 작업.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The mask that indicates the previous bit flag.</source>
+          <target state="translated">이전 비트 플래그를 나타내는 마스크입니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A mask that isolates the bit flag following the one that <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">previous</ph><ept id="p1">&lt;/code&gt;</ept> points to in <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">비트를 격리 하는 마스크는 다음의 플래그 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">previous</ph> <ept id="p1">&lt;/code&gt;</ept> 에 결과를 가리키는 <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;previous&lt;/code&gt;</ph> indicates the last bit flag in the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;previous&lt;/code&gt;</ph>마지막 비트 플래그를 나타내는 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Creates the first &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; in a series of sections that contain small integers.</source>
+          <target state="translated">첫 번째 만듭니다 &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;일련의 작은 정수를 포함 하는 섹션.&lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; is a window into the &lt;xref:System.Collections.Specialized.BitVector32&gt; and is composed of the smallest number of consecutive bits that can contain the maximum value specified in CreateSection.</source>
+          <target state="translated">A &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;는 창에는 &lt;xref:System.Collections.Specialized.BitVector32&gt;CreateSection에 지정 된 최대 값을 포함할 수 있는 연속 된 비트 수가 가장 작은으로 구성 됩니다.&lt;/xref:System.Collections.Specialized.BitVector32&gt; &lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a section with a maximum value of 1 is composed of only one bit, whereas a section with a maximum value of 5 is composed of three bits.</source>
+          <target state="translated">예를 들어 1의 최대 값을 가진 섹션 5의 최대 값을 가진 섹션은 세 개의 비트로 구성 하는 반면 1 비트만 구성 됩니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can create a &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; with a maximum value of 1 to serve as a Boolean, thereby allowing you to store integers and Booleans in the same &lt;xref:System.Collections.Specialized.BitVector32&gt;.</source>
+          <target state="translated">&lt;xref:System.Collections.Specialized.BitVector32.Section&gt;Boolean, 역할을 하는 1의 최대값이 적용 된 되므로 저장소 정수 및 부울 &lt;xref:System.Collections.Specialized.BitVector32&gt;.&lt;/xref:System.Collections.Specialized.BitVector32&gt; 같은 수&lt;/xref:System.Collections.Specialized.BitVector32.Section&gt; 를 만들 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If sections already exist in the &lt;xref:System.Collections.Specialized.BitVector32&gt;, those sections are still accessible; however, overlapping sections might cause unexpected results.</source>
+          <target state="translated">하지만 섹션이 이미 있는 경우는 &lt;xref:System.Collections.Specialized.BitVector32&gt;, 해당 섹션에 액세스할 수는; 섹션에서는 겹치는 예기치 않은 결과 발생할 수 있습니다는.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">이 메서드는 o (1) 작업.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A 16-bit signed integer that specifies the maximum value for the new &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;.</source>
+          <target state="translated">새 &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;.&lt;/xref:System.Collections.Specialized.BitVector32.Section&gt; 에 대 한 최대 값을 지정 하는 16 비트 부호 있는 정수</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; that can hold a number from zero to <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">maxValue</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;0에서 숫자를 포함 될 수 있는 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">maxValue</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;maxValue&lt;/code&gt;</ph> is less than 1.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;maxValue&lt;/code&gt;</ph>가 1 보다 작습니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Gets the value of the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an integer.</source>
+          <target state="translated">값을 가져옵니다는 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 나타내는 정수입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To access the value of the individual sections or bit flags, use the &lt;xref:System.Collections.Specialized.BitVector32.Item%2A&gt; property.</source>
+          <target state="translated">개별 섹션의 값에 액세스 또는 비트 플래그를 사용 하 여 &lt;xref:System.Collections.Specialized.BitVector32.Item%2A&gt;속성.&lt;/xref:System.Collections.Specialized.BitVector32.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Retrieving the value of this property is an O(1) operation.</source>
+          <target state="translated">이 속성의 값을 검색 하는 것은 o (1) 작업입니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an integer.</source>
+          <target state="translated">값은 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 나타내는 정수입니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified object is equal to the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">지정된 된 개체가 같은지 여부를 결정은 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The object <ph id="ph1">`o`</ph> is considered equal to the &lt;xref:System.Collections.Specialized.BitVector32&gt; if the type of <ph id="ph2">`o`</ph> is compatible with the &lt;xref:System.Collections.Specialized.BitVector32&gt; type and if the value of <ph id="ph3">`o`</ph> is equal to the value of &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt;.</source>
+          <target state="translated">개체 <ph id="ph1">`o`</ph> 같은 것으로 간주 되는 &lt;xref:System.Collections.Specialized.BitVector32&gt;경우 유형의 <ph id="ph2">`o`</ph> 와 호환 되는 &lt;xref:System.Collections.Specialized.BitVector32&gt;유형 경우의 값 <ph id="ph3">`o`</ph> &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt;.&lt;/xref:System.Collections.Specialized.BitVector32.Data%2A&gt; 값과 같은&lt;/xref:System.Collections.Specialized.BitVector32&gt; &lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">이 메서드는 o (1) 작업.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The object to compare with the current <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">현재와 비교할 개체 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified object is equal to the <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>지정한 개체가 같으면는 <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, 그렇지 않으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Serves as a hash function for the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">에 대 한 해시 함수 역할을 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The hash code of a &lt;xref:System.Collections.Specialized.BitVector32&gt; is based on the value of &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Collections.Specialized.BitVector32&gt; &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt;.&lt;/xref:System.Collections.Specialized.BitVector32.Data%2A&gt; 값에 기반&lt;/xref:System.Collections.Specialized.BitVector32&gt; 의 해시 코드</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two instances of &lt;xref:System.Collections.Specialized.BitVector32&gt; with the same value for &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt; will also generate the same hash code.</source>
+          <target state="translated">두 인스턴스 &lt;xref:System.Collections.Specialized.BitVector32&gt;에 대해 같은 값으로 &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt;동일한 해시 코드를 생성할 수도 됩니다.&lt;/xref:System.Collections.Specialized.BitVector32.Data%2A&gt; &lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">이 메서드는 o (1) 작업.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A hash code for the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">에 대 한 해시 코드는 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets or sets the state of the bit flag indicated by the specified mask.</source>
+          <target state="translated">지정 된 마스크가 나타내는 비트 플래그의 상태를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Item [Section] property is the indexer for a &lt;xref:System.Collections.Specialized.BitVector32&gt; that is set up as sections, and the Item [int] property is the indexer for a &lt;xref:System.Collections.Specialized.BitVector32&gt; that is set up as bit flags.</source>
+          <target state="translated">항목 [섹션] 속성은에 대 한 인덱서는 &lt;xref:System.Collections.Specialized.BitVector32&gt;섹션으로 설정 된 이며 항목 [int] 속성에 대 한 인덱서는 &lt;xref:System.Collections.Specialized.BitVector32&gt;에 비트 플래그 설정 된.&lt;/xref:System.Collections.Specialized.BitVector32&gt; &lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using this property on a &lt;xref:System.Collections.Specialized.BitVector32&gt; that is set up as sections might cause unexpected results.</source>
+          <target state="translated">이 속성을 사용 하면 한 &lt;xref:System.Collections.Specialized.BitVector32&gt;를으로 설정 된 섹션에는 예기치 않은 결과가 발생할 수 있습니다.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The C# language uses the  keyword to define the indexers instead of implementing the Item property.</source>
+          <target state="translated">C# 언어는 키워드를 사용 하 여 항목 속성을 구현 하는 대신 인덱서를 정의 합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Visual Basic implements Item as a default property, which provides the same indexing functionality.</source>
+          <target state="translated">Visual Basic에서는 동일한 인덱싱 기능을 기본 속성으로 항목을 구현 합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Retrieving the value of this property is an O(1) operation; setting the property is also an O(1) operation.</source>
+          <target state="translated">이 속성의 값을 검색 하 하는 것은 o (1) 연산입니다. o (1) 작업 이기도 속성을 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A mask that indicates the bit to get or set.</source>
+          <target state="translated">가져오거나 설정할 비트를 지정 하는 마스크입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified bit flag is on (1); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>지정한 비트 플래그 (1); 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Returns a string that represents the current <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">현재를 나타내는 문자열을 반환 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">이 메서드를 재정의 &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt;.&lt;/xref:System.Object.ToString%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">이 메서드는 o (1) 작업.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A string that represents the current <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">현재 나타내는 string <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Returns a string that represents the specified <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">지정 된을 나타내는 문자열을 반환 <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">이 메서드는 o (1) 작업.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to represent.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 를 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A string that represents the specified <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">지정 된 나타내는 string <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
